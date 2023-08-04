@@ -39,7 +39,7 @@ https://kexuehuojianshu.page.link/Dingyue
 #科学火箭叔#波音747#科普#文化</media:description>
    <media:community>
     <media:starRating count="426" average="5.00" min="1" max="5"/>
-    <media:statistics views="15461"/>
+    <media:statistics views="15465"/>
    </media:community>
   </media:group>
  </entry>
@@ -72,7 +72,7 @@ https://kexuehuojianshu.page.link/Dingyue
 #科学火箭叔#科普#文化</media:description>
    <media:community>
     <media:starRating count="79" average="5.00" min="1" max="5"/>
-    <media:statistics views="4515"/>
+    <media:statistics views="4558"/>
    </media:community>
   </media:group>
  </entry>
@@ -105,7 +105,7 @@ https://kexuehuojianshu.page.link/Dingyue
 #科学火箭叔#科普#文化</media:description>
    <media:community>
     <media:starRating count="753" average="5.00" min="1" max="5"/>
-    <media:statistics views="51500"/>
+    <media:statistics views="51548"/>
    </media:community>
   </media:group>
  </entry>
@@ -138,7 +138,7 @@ https://kexuehuojianshu.page.link/Dingyue
 #科学火箭叔#电鳗#科普#文化</media:description>
    <media:community>
     <media:starRating count="379" average="5.00" min="1" max="5"/>
-    <media:statistics views="11199"/>
+    <media:statistics views="11201"/>
    </media:community>
   </media:group>
  </entry>
@@ -171,7 +171,7 @@ https://kexuehuojianshu.page.link/Dingyue
 #科学火箭叔#人工智能#科普#文化</media:description>
    <media:community>
     <media:starRating count="262" average="5.00" min="1" max="5"/>
-    <media:statistics views="7504"/>
+    <media:statistics views="7502"/>
    </media:community>
   </media:group>
  </entry>
@@ -204,7 +204,7 @@ https://kexuehuojianshu.page.link/Dingyue
 #科学火箭叔#螺旋桨#科普#文化</media:description>
    <media:community>
     <media:starRating count="268" average="5.00" min="1" max="5"/>
-    <media:statistics views="11976"/>
+    <media:statistics views="11971"/>
    </media:community>
   </media:group>
  </entry>
@@ -237,7 +237,7 @@ https://kexuehuojianshu.page.link/Dingyue
 #科学火箭叔#螺旋桨#无人侦察机#科普#文化</media:description>
    <media:community>
     <media:starRating count="717" average="5.00" min="1" max="5"/>
-    <media:statistics views="25425"/>
+    <media:statistics views="25416"/>
    </media:community>
   </media:group>
  </entry>
@@ -270,7 +270,7 @@ https://kexuehuojianshu.page.link/Dingyue
 #科学火箭叔#球鼻首#科普#文化</media:description>
    <media:community>
     <media:starRating count="580" average="5.00" min="1" max="5"/>
-    <media:statistics views="33399"/>
+    <media:statistics views="33492"/>
    </media:community>
   </media:group>
  </entry>
@@ -303,7 +303,7 @@ https://kexuehuojianshu.page.link/Dingyue
 #科学火箭叔#科普#文化</media:description>
    <media:community>
     <media:starRating count="337" average="5.00" min="1" max="5"/>
-    <media:statistics views="12498"/>
+    <media:statistics views="12504"/>
    </media:community>
   </media:group>
  </entry>
@@ -402,7 +402,7 @@ https://kexuehuojianshu.page.link/Dingyue
 #科学火箭叔#跨界科学家#斜杆青年#科普#文化</media:description>
    <media:community>
     <media:starRating count="176" average="5.00" min="1" max="5"/>
-    <media:statistics views="5292"/>
+    <media:statistics views="5293"/>
    </media:community>
   </media:group>
  </entry>
@@ -501,7 +501,7 @@ https://kexuehuojianshu.page.link/Dingyue
 #科学火箭叔#SR-71#黑鸟</media:description>
    <media:community>
     <media:starRating count="86" average="5.00" min="1" max="5"/>
-    <media:statistics views="4339"/>
+    <media:statistics views="4341"/>
    </media:community>
   </media:group>
  </entry>
