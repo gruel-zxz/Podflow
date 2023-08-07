@@ -41,7 +41,7 @@ https://youtu.be/GcexDC62DtU
 https://youtu.be/w7GEuncpBcI</media:description>
    <media:community>
     <media:starRating count="969" average="5.00" min="1" max="5"/>
-    <media:statistics views="23771"/>
+    <media:statistics views="23778"/>
    </media:community>
   </media:group>
  </entry>

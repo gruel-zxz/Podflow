@@ -31,7 +31,7 @@
 生产队新到了一批美式装备，给驴子换上核动力炉</media:description>
    <media:community>
     <media:starRating count="1653" average="5.00" min="1" max="5"/>
-    <media:statistics views="50381"/>
+    <media:statistics views="50385"/>
    </media:community>
   </media:group>
  </entry>
@@ -54,7 +54,7 @@
    <media:description>真的，看完索尼发布会我就想到这两个梗</media:description>
    <media:community>
     <media:starRating count="725" average="5.00" min="1" max="5"/>
-    <media:statistics views="33579"/>
+    <media:statistics views="33580"/>
    </media:community>
   </media:group>
  </entry>
@@ -85,7 +85,7 @@
 或许长视频已经形成我的本能了吧</media:description>
    <media:community>
     <media:starRating count="2226" average="5.00" min="1" max="5"/>
-    <media:statistics views="91020"/>
+    <media:statistics views="91025"/>
    </media:community>
   </media:group>
  </entry>
@@ -133,7 +133,7 @@
 这版权卡的太死了</media:description>
    <media:community>
     <media:starRating count="1373" average="5.00" min="1" max="5"/>
-    <media:statistics views="46943"/>
+    <media:statistics views="46945"/>
    </media:community>
   </media:group>
  </entry>
@@ -179,7 +179,7 @@
    <media:description>如果喜欢求支持求鼓励求关注，如果不喜欢欢迎私信我提意见</media:description>
    <media:community>
     <media:starRating count="1669" average="5.00" min="1" max="5"/>
-    <media:statistics views="78574"/>
+    <media:statistics views="78575"/>
    </media:community>
   </media:group>
  </entry>
@@ -206,7 +206,7 @@
 本子面向中国大陆出售，各位主要参考下A370M这颗独显的性能就好了</media:description>
    <media:community>
     <media:starRating count="335" average="5.00" min="1" max="5"/>
-    <media:statistics views="22802"/>
+    <media:statistics views="22803"/>
    </media:community>
   </media:group>
  </entry>
@@ -233,7 +233,7 @@
 CPU拉胯是CPU的事情，但是就模具外壳而言，我觉得这产品接下来每年换CPU就行了，空间利用率几乎到头了</media:description>
    <media:community>
     <media:starRating count="865" average="5.00" min="1" max="5"/>
-    <media:statistics views="44290"/>
+    <media:statistics views="44291"/>
    </media:community>
   </media:group>
  </entry>
@@ -260,7 +260,7 @@ CPU拉胯是CPU的事情，但是就模具外壳而言，我觉得这产品接�
 在评论区讨论一下吧</media:description>
    <media:community>
     <media:starRating count="1092" average="5.00" min="1" max="5"/>
-    <media:statistics views="49631"/>
+    <media:statistics views="49632"/>
    </media:community>
   </media:group>
  </entry>
@@ -287,7 +287,7 @@ CPU拉胯是CPU的事情，但是就模具外壳而言，我觉得这产品接�
 内容短，更新快，内容长，更新慢，各位喜欢哪种？</media:description>
    <media:community>
     <media:starRating count="1134" average="5.00" min="1" max="5"/>
-    <media:statistics views="51791"/>
+    <media:statistics views="51795"/>
    </media:community>
   </media:group>
  </entry>
@@ -312,7 +312,7 @@ CPU拉胯是CPU的事情，但是就模具外壳而言，我觉得这产品接�
 生产力越是受到限制的年代，人类越是能爆发出天马行空的想象力</media:description>
    <media:community>
     <media:starRating count="1803" average="5.00" min="1" max="5"/>
-    <media:statistics views="85592"/>
+    <media:statistics views="85594"/>
    </media:community>
   </media:group>
  </entry>
@@ -336,7 +336,7 @@ CPU拉胯是CPU的事情，但是就模具外壳而言，我觉得这产品接�
 原曲：陶喆《飞机场的10:30》</media:description>
    <media:community>
     <media:starRating count="163" average="5.00" min="1" max="5"/>
-    <media:statistics views="5395"/>
+    <media:statistics views="5396"/>
    </media:community>
   </media:group>
  </entry>
@@ -360,8 +360,8 @@ CPU拉胯是CPU的事情，但是就模具外壳而言，我觉得这产品接�
 本来想着12代酷睿笔记本虽然进步不小，但是毕竟是移动端性能应该会受限，没想到最后i9-10900K超冒烟都没打过12代移动端i7，时代真的变了
 （热知识：i9-11900K跑分比i9-10900K低，11代强项是游戏性能）</media:description>
    <media:community>
-    <media:starRating count="317" average="5.00" min="1" max="5"/>
-    <media:statistics views="17012"/>
+    <media:starRating count="318" average="5.00" min="1" max="5"/>
+    <media:statistics views="17013"/>
    </media:community>
   </media:group>
  </entry>
@@ -392,7 +392,7 @@ CPU拉胯是CPU的事情，但是就模具外壳而言，我觉得这产品接�
 不解读是不可能的，但是也没有必要过度解读</media:description>
    <media:community>
     <media:starRating count="810" average="5.00" min="1" max="5"/>
-    <media:statistics views="29618"/>
+    <media:statistics views="29619"/>
    </media:community>
   </media:group>
  </entry>

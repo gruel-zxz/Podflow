@@ -41,7 +41,7 @@
 Credit: Courtesy NASA/JPL-Caltech</media:description>
    <media:community>
     <media:starRating count="432" average="5.00" min="1" max="5"/>
-    <media:statistics views="8945"/>
+    <media:statistics views="8947"/>
    </media:community>
   </media:group>
  </entry>
@@ -76,7 +76,7 @@ Credit: Courtesy NASA/JPL-Caltech</media:description>
 Credit: Courtesy NASA/JPL-Caltech</media:description>
    <media:community>
     <media:starRating count="495" average="5.00" min="1" max="5"/>
-    <media:statistics views="10741"/>
+    <media:statistics views="10742"/>
    </media:community>
   </media:group>
  </entry>
@@ -111,7 +111,7 @@ Credit: Courtesy NASA/JPL-Caltech</media:description>
 Credit: Courtesy NASA/JPL-Caltech</media:description>
    <media:community>
     <media:starRating count="613" average="5.00" min="1" max="5"/>
-    <media:statistics views="15138"/>
+    <media:statistics views="15140"/>
    </media:community>
   </media:group>
  </entry>
@@ -372,7 +372,7 @@ Credit: Courtesy NASA/JPL-Caltech</media:description>
 Credit: Courtesy NASA/JPL-Caltech</media:description>
    <media:community>
     <media:starRating count="2007" average="5.00" min="1" max="5"/>
-    <media:statistics views="52703"/>
+    <media:statistics views="52704"/>
    </media:community>
   </media:group>
  </entry>
@@ -526,7 +526,7 @@ Credit: Courtesy NASA/JPL-Caltech</media:description>
 重返月球 3： NASA僅剩4件宇航服？！https://youtu.be/f9LoWucZut4</media:description>
    <media:community>
     <media:starRating count="1145" average="5.00" min="1" max="5"/>
-    <media:statistics views="31101"/>
+    <media:statistics views="31102"/>
    </media:community>
   </media:group>
  </entry>

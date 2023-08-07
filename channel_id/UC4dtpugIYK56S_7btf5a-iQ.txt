@@ -33,8 +33,8 @@ Timestamp
 01:22 实验方法
 03:45 实验过程</media:description>
    <media:community>
-    <media:starRating count="2028" average="5.00" min="1" max="5"/>
-    <media:statistics views="56066"/>
+    <media:starRating count="2033" average="5.00" min="1" max="5"/>
+    <media:statistics views="56155"/>
    </media:community>
   </media:group>
  </entry>
@@ -64,8 +64,8 @@ Timestamp
 10:20 AI 作画
 12:22 M2 Ultra 运行大语言模型</media:description>
    <media:community>
-    <media:starRating count="9949" average="5.00" min="1" max="5"/>
-    <media:statistics views="259135"/>
+    <media:starRating count="9951" average="5.00" min="1" max="5"/>
+    <media:statistics views="259189"/>
    </media:community>
   </media:group>
  </entry>
@@ -92,7 +92,7 @@ Timestamp
 06:04 技术解读</media:description>
    <media:community>
     <media:starRating count="1428" average="5.00" min="1" max="5"/>
-    <media:statistics views="41435"/>
+    <media:statistics views="41440"/>
    </media:community>
   </media:group>
  </entry>
@@ -120,7 +120,7 @@ Timestamp
 08:34 思考</media:description>
    <media:community>
     <media:starRating count="8185" average="5.00" min="1" max="5"/>
-    <media:statistics views="286908"/>
+    <media:statistics views="286925"/>
    </media:community>
   </media:group>
  </entry>
@@ -145,7 +145,7 @@ Timestamp
 https://app.myshell.ai/invite/521b83</media:description>
    <media:community>
     <media:starRating count="408" average="5.00" min="1" max="5"/>
-    <media:statistics views="11733"/>
+    <media:statistics views="11738"/>
    </media:community>
   </media:group>
  </entry>
@@ -180,8 +180,8 @@ Timestamp:
 08:03 处理过拟合
 09:09 最终决战</media:description>
    <media:community>
-    <media:starRating count="21121" average="5.00" min="1" max="5"/>
-    <media:statistics views="544349"/>
+    <media:starRating count="21122" average="5.00" min="1" max="5"/>
+    <media:statistics views="544363"/>
    </media:community>
   </media:group>
  </entry>
@@ -243,7 +243,7 @@ Timestamp
 16:42 思考</media:description>
    <media:community>
     <media:starRating count="2096" average="5.00" min="1" max="5"/>
-    <media:statistics views="59959"/>
+    <media:statistics views="59961"/>
    </media:community>
   </media:group>
  </entry>
@@ -278,8 +278,8 @@ Timestamp
 27:26 变革
 31:47 乱局</media:description>
    <media:community>
-    <media:starRating count="5585" average="5.00" min="1" max="5"/>
-    <media:statistics views="180187"/>
+    <media:starRating count="5586" average="5.00" min="1" max="5"/>
+    <media:statistics views="180196"/>
    </media:community>
   </media:group>
  </entry>
@@ -315,7 +315,7 @@ Timestamp
 21:33 初心能保持多久</media:description>
    <media:community>
     <media:starRating count="5360" average="5.00" min="1" max="5"/>
-    <media:statistics views="162880"/>
+    <media:statistics views="162882"/>
    </media:community>
   </media:group>
  </entry>
@@ -401,7 +401,7 @@ Timestamp
 17:00 架构战争的现状与未来</media:description>
    <media:community>
     <media:starRating count="7903" average="5.00" min="1" max="5"/>
-    <media:statistics views="322722"/>
+    <media:statistics views="322730"/>
    </media:community>
   </media:group>
  </entry>
@@ -434,8 +434,8 @@ APK 安装包链接：https://github.com/linyiLYi/pose-monitor/releases/tag/rele
 06:32 计算加速
 09:36 未来展望</media:description>
    <media:community>
-    <media:starRating count="5506" average="5.00" min="1" max="5"/>
-    <media:statistics views="141524"/>
+    <media:starRating count="5507" average="5.00" min="1" max="5"/>
+    <media:statistics views="141529"/>
    </media:community>
   </media:group>
  </entry>

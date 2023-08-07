@@ -98,7 +98,7 @@ https://www.youtube.com/playlist?list=PLgsrznq8ee-6mcnpog0xKjY952BpIF8XI
 https://www.youtube.com/playlist?list=PLgsrznq8ee-4yoTauBXojN0Ex-6nY90iT</media:description>
    <media:community>
     <media:starRating count="626" average="5.00" min="1" max="5"/>
-    <media:statistics views="27104"/>
+    <media:statistics views="27105"/>
    </media:community>
   </media:group>
  </entry>
@@ -223,7 +223,7 @@ https://www.youtube.com/playlist?list=PLgsrznq8ee-4yoTauBXojN0Ex-6nY90iT
 QQ：3432008273（加好友、投稿可以联系这个QQ）</media:description>
    <media:community>
     <media:starRating count="505" average="5.00" min="1" max="5"/>
-    <media:statistics views="19559"/>
+    <media:statistics views="19560"/>
    </media:community>
   </media:group>
  </entry>
@@ -371,7 +371,7 @@ https://www.youtube.com/playlist?list=PLgsrznq8ee-4yoTauBXojN0Ex-6nY90iT
 QQ：3432008273（加好友、投稿可以联系这个QQ）</media:description>
    <media:community>
     <media:starRating count="314" average="5.00" min="1" max="5"/>
-    <media:statistics views="21075"/>
+    <media:statistics views="21076"/>
    </media:community>
   </media:group>
  </entry>
@@ -490,7 +490,7 @@ https://www.youtube.com/playlist?list=PLgsrznq8ee-4yoTauBXojN0Ex-6nY90iT&#13;
 QQ：3432008273（加好友、投稿可以联系这个QQ）</media:description>
    <media:community>
     <media:starRating count="440" average="5.00" min="1" max="5"/>
-    <media:statistics views="24361"/>
+    <media:statistics views="24362"/>
    </media:community>
   </media:group>
  </entry>

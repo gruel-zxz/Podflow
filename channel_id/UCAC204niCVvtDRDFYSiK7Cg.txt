@@ -30,7 +30,7 @@
 全球首款AI裸眼3D平板 nubia Pad 3D开箱体验 卖10999值吗【大家测】 The world's first AI naked eye 3D tablet Pad 3D unboxing</media:description>
    <media:community>
     <media:starRating count="92" average="5.00" min="1" max="5"/>
-    <media:statistics views="3935"/>
+    <media:statistics views="3942"/>
    </media:community>
   </media:group>
  </entry>
@@ -76,7 +76,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="192" average="5.00" min="1" max="5"/>
-    <media:statistics views="10156"/>
+    <media:statistics views="10166"/>
    </media:community>
   </media:group>
  </entry>
@@ -99,7 +99,7 @@
    <media:description>iPhone replaceable battery / Huawei mate60 asked the world / Nintendo Switch2 / Nvidia 4060 / Intel changed its name / NetEase singled out microblogging / WeChat assistant is a real person? [Science commendation] @NayanKJMX</media:description>
    <media:community>
     <media:starRating count="92" average="5.00" min="1" max="5"/>
-    <media:statistics views="4479"/>
+    <media:statistics views="4481"/>
    </media:community>
   </media:group>
  </entry>
@@ -283,7 +283,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="63" average="5.00" min="1" max="5"/>
-    <media:statistics views="4086"/>
+    <media:statistics views="4088"/>
    </media:community>
   </media:group>
  </entry>
@@ -306,7 +306,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="378" average="5.00" min="1" max="5"/>
-    <media:statistics views="19494"/>
+    <media:statistics views="19497"/>
    </media:community>
   </media:group>
  </entry>
@@ -352,7 +352,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="239" average="5.00" min="1" max="5"/>
-    <media:statistics views="27892"/>
+    <media:statistics views="27895"/>
    </media:community>
   </media:group>
  </entry>

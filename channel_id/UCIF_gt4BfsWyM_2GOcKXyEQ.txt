@@ -53,8 +53,8 @@ https://youtu.be/eWuTpwEZw-8
 Instagram:http://instagram.com/chuchushoetw
 Twitter:https://twitter.com/chuchushoeTW</media:description>
    <media:community>
-    <media:starRating count="42450" average="5.00" min="1" max="5"/>
-    <media:statistics views="1498884"/>
+    <media:starRating count="42463" average="5.00" min="1" max="5"/>
+    <media:statistics views="1499606"/>
    </media:community>
   </media:group>
  </entry>
@@ -69,7 +69,7 @@ Twitter:https://twitter.com/chuchushoeTW</media:description>
    <uri>https://www.youtube.com/channel/UCIF_gt4BfsWyM_2GOcKXyEQ</uri>
   </author>
   <published>2023-07-21T10:30:22+00:00</published>
-  <updated>2023-08-03T17:03:24+00:00</updated>
+  <updated>2023-08-07T05:41:38+00:00</updated>
   <media:group>
    <media:title>你有打過嗎？AZ如何從一間瑞典小藥廠，經歷破產後浴火重生，成為世界生物製藥的巨頭！｜巨頭的起源｜啾啾鞋</media:title>
    <media:content url="https://www.youtube.com/v/bvMBsyrkauo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -97,8 +97,8 @@ https://youtu.be/eWuTpwEZw-8
 Instagram:http://instagram.com/chuchushoetw
 Twitter:https://twitter.com/chuchushoeTW</media:description>
    <media:community>
-    <media:starRating count="3040" average="5.00" min="1" max="5"/>
-    <media:statistics views="112417"/>
+    <media:starRating count="3042" average="5.00" min="1" max="5"/>
+    <media:statistics views="112450"/>
    </media:community>
   </media:group>
  </entry>
@@ -142,7 +142,7 @@ Instagram:http://instagram.com/chuchushoetw
 Twitter:https://twitter.com/chuchushoeTW</media:description>
    <media:community>
     <media:starRating count="7965" average="5.00" min="1" max="5"/>
-    <media:statistics views="471073"/>
+    <media:statistics views="471129"/>
    </media:community>
   </media:group>
  </entry>
@@ -188,7 +188,7 @@ Instagram:http://instagram.com/chuchushoetw
 Twitter:https://twitter.com/chuchushoeTW</media:description>
    <media:community>
     <media:starRating count="8472" average="5.00" min="1" max="5"/>
-    <media:statistics views="425190"/>
+    <media:statistics views="425228"/>
    </media:community>
   </media:group>
  </entry>
@@ -239,7 +239,7 @@ Instagram:http://instagram.com/chuchushoetw
 Twitter:https://twitter.com/chuchushoeTW</media:description>
    <media:community>
     <media:starRating count="7123" average="5.00" min="1" max="5"/>
-    <media:statistics views="361708"/>
+    <media:statistics views="361729"/>
    </media:community>
   </media:group>
  </entry>
@@ -282,8 +282,8 @@ https://youtu.be/eWuTpwEZw-8
 Instagram:http://instagram.com/chuchushoetw
 Twitter:https://twitter.com/chuchushoeTW</media:description>
    <media:community>
-    <media:starRating count="8501" average="5.00" min="1" max="5"/>
-    <media:statistics views="208476"/>
+    <media:starRating count="8502" average="5.00" min="1" max="5"/>
+    <media:statistics views="208485"/>
    </media:community>
   </media:group>
  </entry>
@@ -354,7 +354,7 @@ Instagram:http://instagram.com/chuchushoetw
 Twitter:https://twitter.com/chuchushoeTW</media:description>
    <media:community>
     <media:starRating count="4318" average="5.00" min="1" max="5"/>
-    <media:statistics views="135849"/>
+    <media:statistics views="135854"/>
    </media:community>
   </media:group>
  </entry>
@@ -409,7 +409,7 @@ Instagram:http://instagram.com/chuchushoetw
 Twitter:https://twitter.com/chuchushoeTW</media:description>
    <media:community>
     <media:starRating count="4843" average="5.00" min="1" max="5"/>
-    <media:statistics views="233260"/>
+    <media:statistics views="233293"/>
    </media:community>
   </media:group>
  </entry>
@@ -465,7 +465,7 @@ Instagram:http://instagram.com/chuchushoetw
 Twitter:https://twitter.com/chuchushoeTW</media:description>
    <media:community>
     <media:starRating count="16882" average="5.00" min="1" max="5"/>
-    <media:statistics views="559283"/>
+    <media:statistics views="559306"/>
    </media:community>
   </media:group>
  </entry>
@@ -507,8 +507,8 @@ https://youtu.be/eWuTpwEZw-8
 Instagram:http://instagram.com/chuchushoetw
 Twitter:https://twitter.com/chuchushoeTW</media:description>
    <media:community>
-    <media:starRating count="6627" average="5.00" min="1" max="5"/>
-    <media:statistics views="346818"/>
+    <media:starRating count="6628" average="5.00" min="1" max="5"/>
+    <media:statistics views="346828"/>
    </media:community>
   </media:group>
  </entry>
@@ -551,7 +551,7 @@ Instagram:http://instagram.com/chuchushoetw
 Twitter:https://twitter.com/chuchushoeTW</media:description>
    <media:community>
     <media:starRating count="5051" average="5.00" min="1" max="5"/>
-    <media:statistics views="163865"/>
+    <media:statistics views="163870"/>
    </media:community>
   </media:group>
  </entry>
@@ -598,7 +598,7 @@ Instagram:http://instagram.com/chuchushoetw
 Twitter:https://twitter.com/chuchushoeTW</media:description>
    <media:community>
     <media:starRating count="4587" average="5.00" min="1" max="5"/>
-    <media:statistics views="200398"/>
+    <media:statistics views="200407"/>
    </media:community>
   </media:group>
  </entry>
@@ -639,8 +639,8 @@ https://youtu.be/eWuTpwEZw-8
 Instagram:http://instagram.com/chuchushoetw
 Twitter:https://twitter.com/chuchushoeTW</media:description>
    <media:community>
-    <media:starRating count="3560" average="5.00" min="1" max="5"/>
-    <media:statistics views="86460"/>
+    <media:starRating count="3561" average="5.00" min="1" max="5"/>
+    <media:statistics views="86473"/>
    </media:community>
   </media:group>
  </entry>
@@ -681,8 +681,8 @@ https://youtu.be/eWuTpwEZw-8
 Instagram:http://instagram.com/chuchushoetw
 Twitter:https://twitter.com/chuchushoeTW</media:description>
    <media:community>
-    <media:starRating count="9082" average="5.00" min="1" max="5"/>
-    <media:statistics views="255440"/>
+    <media:starRating count="9083" average="5.00" min="1" max="5"/>
+    <media:statistics views="255457"/>
    </media:community>
   </media:group>
  </entry>
@@ -723,8 +723,8 @@ https://youtu.be/eWuTpwEZw-8
 Instagram:http://instagram.com/chuchushoetw
 Twitter:https://twitter.com/chuchushoeTW</media:description>
    <media:community>
-    <media:starRating count="3752" average="5.00" min="1" max="5"/>
-    <media:statistics views="113452"/>
+    <media:starRating count="3753" average="5.00" min="1" max="5"/>
+    <media:statistics views="113460"/>
    </media:community>
   </media:group>
  </entry>
