@@ -31,7 +31,7 @@
 生产队新到了一批美式装备，给驴子换上核动力炉</media:description>
    <media:community>
     <media:starRating count="1653" average="5.00" min="1" max="5"/>
-    <media:statistics views="50385"/>
+    <media:statistics views="50386"/>
    </media:community>
   </media:group>
  </entry>
@@ -54,7 +54,7 @@
    <media:description>真的，看完索尼发布会我就想到这两个梗</media:description>
    <media:community>
     <media:starRating count="725" average="5.00" min="1" max="5"/>
-    <media:statistics views="33580"/>
+    <media:statistics views="33581"/>
    </media:community>
   </media:group>
  </entry>
@@ -85,7 +85,7 @@
 或许长视频已经形成我的本能了吧</media:description>
    <media:community>
     <media:starRating count="2226" average="5.00" min="1" max="5"/>
-    <media:statistics views="91025"/>
+    <media:statistics views="91034"/>
    </media:community>
   </media:group>
  </entry>
@@ -109,7 +109,7 @@
 换源</media:description>
    <media:community>
     <media:starRating count="440" average="5.00" min="1" max="5"/>
-    <media:statistics views="20396"/>
+    <media:statistics views="20400"/>
    </media:community>
   </media:group>
  </entry>
@@ -133,7 +133,7 @@
 这版权卡的太死了</media:description>
    <media:community>
     <media:starRating count="1373" average="5.00" min="1" max="5"/>
-    <media:statistics views="46945"/>
+    <media:statistics views="46952"/>
    </media:community>
   </media:group>
  </entry>
@@ -179,7 +179,7 @@
    <media:description>如果喜欢求支持求鼓励求关注，如果不喜欢欢迎私信我提意见</media:description>
    <media:community>
     <media:starRating count="1669" average="5.00" min="1" max="5"/>
-    <media:statistics views="78575"/>
+    <media:statistics views="78579"/>
    </media:community>
   </media:group>
  </entry>
@@ -232,8 +232,8 @@
 
 CPU拉胯是CPU的事情，但是就模具外壳而言，我觉得这产品接下来每年换CPU就行了，空间利用率几乎到头了</media:description>
    <media:community>
-    <media:starRating count="865" average="5.00" min="1" max="5"/>
-    <media:statistics views="44291"/>
+    <media:starRating count="866" average="5.00" min="1" max="5"/>
+    <media:statistics views="44296"/>
    </media:community>
   </media:group>
  </entry>
@@ -287,7 +287,7 @@ CPU拉胯是CPU的事情，但是就模具外壳而言，我觉得这产品接�
 内容短，更新快，内容长，更新慢，各位喜欢哪种？</media:description>
    <media:community>
     <media:starRating count="1134" average="5.00" min="1" max="5"/>
-    <media:statistics views="51795"/>
+    <media:statistics views="51798"/>
    </media:community>
   </media:group>
  </entry>
@@ -312,7 +312,7 @@ CPU拉胯是CPU的事情，但是就模具外壳而言，我觉得这产品接�
 生产力越是受到限制的年代，人类越是能爆发出天马行空的想象力</media:description>
    <media:community>
     <media:starRating count="1803" average="5.00" min="1" max="5"/>
-    <media:statistics views="85594"/>
+    <media:statistics views="85600"/>
    </media:community>
   </media:group>
  </entry>
@@ -361,7 +361,7 @@ CPU拉胯是CPU的事情，但是就模具外壳而言，我觉得这产品接�
 （热知识：i9-11900K跑分比i9-10900K低，11代强项是游戏性能）</media:description>
    <media:community>
     <media:starRating count="318" average="5.00" min="1" max="5"/>
-    <media:statistics views="17013"/>
+    <media:statistics views="17017"/>
    </media:community>
   </media:group>
  </entry>
@@ -392,7 +392,7 @@ CPU拉胯是CPU的事情，但是就模具外壳而言，我觉得这产品接�
 不解读是不可能的，但是也没有必要过度解读</media:description>
    <media:community>
     <media:starRating count="810" average="5.00" min="1" max="5"/>
-    <media:statistics views="29619"/>
+    <media:statistics views="29620"/>
    </media:community>
   </media:group>
  </entry>

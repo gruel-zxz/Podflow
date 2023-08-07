@@ -41,7 +41,7 @@
 Credit: Courtesy NASA/JPL-Caltech</media:description>
    <media:community>
     <media:starRating count="432" average="5.00" min="1" max="5"/>
-    <media:statistics views="8947"/>
+    <media:statistics views="8950"/>
    </media:community>
   </media:group>
  </entry>
@@ -76,7 +76,7 @@ Credit: Courtesy NASA/JPL-Caltech</media:description>
 Credit: Courtesy NASA/JPL-Caltech</media:description>
    <media:community>
     <media:starRating count="495" average="5.00" min="1" max="5"/>
-    <media:statistics views="10742"/>
+    <media:statistics views="10743"/>
    </media:community>
   </media:group>
  </entry>
@@ -110,8 +110,8 @@ Credit: Courtesy NASA/JPL-Caltech</media:description>
 
 Credit: Courtesy NASA/JPL-Caltech</media:description>
    <media:community>
-    <media:starRating count="613" average="5.00" min="1" max="5"/>
-    <media:statistics views="15140"/>
+    <media:starRating count="614" average="5.00" min="1" max="5"/>
+    <media:statistics views="15142"/>
    </media:community>
   </media:group>
  </entry>
@@ -181,7 +181,7 @@ Credit: Courtesy NASA/JPL-Caltech</media:description>
 Credit: Courtesy NASA/JPL-Caltech</media:description>
    <media:community>
     <media:starRating count="589" average="5.00" min="1" max="5"/>
-    <media:statistics views="13787"/>
+    <media:statistics views="13788"/>
    </media:community>
   </media:group>
  </entry>
@@ -216,7 +216,7 @@ Credit: Courtesy NASA/JPL-Caltech</media:description>
 Credit: Courtesy NASA/JPL-Caltech</media:description>
    <media:community>
     <media:starRating count="660" average="5.00" min="1" max="5"/>
-    <media:statistics views="9860"/>
+    <media:statistics views="9862"/>
    </media:community>
   </media:group>
  </entry>
@@ -252,7 +252,7 @@ Credit: Courtesy NASA/JPL-Caltech</media:description>
 Credit: Courtesy NASA/JPL-Caltech</media:description>
    <media:community>
     <media:starRating count="748" average="5.00" min="1" max="5"/>
-    <media:statistics views="26609"/>
+    <media:statistics views="26610"/>
    </media:community>
   </media:group>
  </entry>
@@ -334,7 +334,7 @@ Credit: Courtesy NASA/JPL-Caltech</media:description>
 Credit: Courtesy NASA/JPL-Caltech</media:description>
    <media:community>
     <media:starRating count="904" average="5.00" min="1" max="5"/>
-    <media:statistics views="28350"/>
+    <media:statistics views="28351"/>
    </media:community>
   </media:group>
  </entry>
@@ -448,7 +448,7 @@ Credit: Courtesy NASA/JPL-Caltech</media:description>
 Credit: Courtesy NASA/ESO</media:description>
    <media:community>
     <media:starRating count="884" average="5.00" min="1" max="5"/>
-    <media:statistics views="33163"/>
+    <media:statistics views="33164"/>
    </media:community>
   </media:group>
  </entry>
@@ -564,7 +564,7 @@ Credit: Courtesy NASA/JPL-Caltech</media:description>
 Credit: Courtesy NASA/JPL-Caltech</media:description>
    <media:community>
     <media:starRating count="973" average="5.00" min="1" max="5"/>
-    <media:statistics views="35139"/>
+    <media:statistics views="35140"/>
    </media:community>
   </media:group>
  </entry>

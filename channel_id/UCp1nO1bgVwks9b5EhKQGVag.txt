@@ -29,8 +29,8 @@
    <media:description>《泥人十四》下集，更新完结。
 尽管这样的内容可能很多人不喜欢，因为太深奥，故事性弱，但是作者透露出的丰富的哲学构想，值得我们去更新。</media:description>
    <media:community>
-    <media:starRating count="74" average="5.00" min="1" max="5"/>
-    <media:statistics views="3163"/>
+    <media:starRating count="75" average="5.00" min="1" max="5"/>
+    <media:statistics views="3230"/>
    </media:community>
   </media:group>
  </entry>
@@ -53,8 +53,8 @@
    <media:description>你们要的硬科幻来了
 《泥人十四》读这部小说的时候，全程处于学习状态......莱姆不仅在小说中提出了不少原创的科学理论，还向人们展示了写作科幻小说的另一种可能，我们尽可能的通俗化了原著，帮助读者能够理解。想挑战的朋友们可以试试这部《莱姆狂想曲》</media:description>
    <media:community>
-    <media:starRating count="139" average="5.00" min="1" max="5"/>
-    <media:statistics views="7016"/>
+    <media:starRating count="140" average="5.00" min="1" max="5"/>
+    <media:statistics views="7066"/>
    </media:community>
   </media:group>
  </entry>
@@ -79,7 +79,7 @@
 ——数百年后的未来世界，人工智慧（AI）机器人掌治了这个地球，人类文明被淡化模糊，过去的世界再也无人知晓。</media:description>
    <media:community>
     <media:starRating count="160" average="5.00" min="1" max="5"/>
-    <media:statistics views="7845"/>
+    <media:statistics views="7861"/>
    </media:community>
   </media:group>
  </entry>
@@ -101,8 +101,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/783BtgbUuGk/hqdefault.jpg" width="480" height="360"/>
    <media:description>无论人类如何选择，也许未来都无法被改变：刘慈欣《月夜》，这是刘慈欣2009年发表的短篇小说，继承了自己过去的风格，而且脑洞还是一样的大。</media:description>
    <media:community>
-    <media:starRating count="112" average="5.00" min="1" max="5"/>
-    <media:statistics views="7342"/>
+    <media:starRating count="113" average="5.00" min="1" max="5"/>
+    <media:statistics views="7350"/>
    </media:community>
   </media:group>
  </entry>
@@ -125,7 +125,7 @@
    <media:description>地心引力坐不住了：人类首次发现反重力区域——科幻小说《真相》，原著：阿瑟.克拉克，出自阿瑟.克拉克科幻短篇全集。</media:description>
    <media:community>
     <media:starRating count="176" average="5.00" min="1" max="5"/>
-    <media:statistics views="13068"/>
+    <media:statistics views="13074"/>
    </media:community>
   </media:group>
  </entry>
@@ -148,7 +148,7 @@
    <media:description>短篇科幻小说《四个很短的世界名著》，原著：乔.霍尔德曼。作者以四部世界名著：战争与和平、罪与罚、众生之路、追忆似水年华为引，改编成了这部短篇科幻小说，并获得了当年的雨果奖提名。</media:description>
    <media:community>
     <media:starRating count="141" average="5.00" min="1" max="5"/>
-    <media:statistics views="7159"/>
+    <media:statistics views="7161"/>
    </media:community>
   </media:group>
  </entry>
@@ -173,7 +173,7 @@
  05：00 《星际旅行日记》用几十公斤原子制造人类</media:description>
    <media:community>
     <media:starRating count="105" average="5.00" min="1" max="5"/>
-    <media:statistics views="5692"/>
+    <media:statistics views="5694"/>
    </media:community>
   </media:group>
  </entry>
@@ -196,7 +196,7 @@
    <media:description>这是一部曾经在网上流传甚广的科幻小说，《沙漠奇遇》，由[前苏联] 伊·罗索霍瓦茨基所著，堪称科幻黄金时代的典范之作。</media:description>
    <media:community>
     <media:starRating count="174" average="5.00" min="1" max="5"/>
-    <media:statistics views="11763"/>
+    <media:statistics views="11766"/>
    </media:community>
   </media:group>
  </entry>
@@ -220,7 +220,7 @@
 出自100科幻之书《诗云》。</media:description>
    <media:community>
     <media:starRating count="164" average="5.00" min="1" max="5"/>
-    <media:statistics views="9635"/>
+    <media:statistics views="9636"/>
    </media:community>
   </media:group>
  </entry>
@@ -248,7 +248,7 @@
 4.好奇心、勇气、超越：它展示了超越是如何涉及改变一个人的视角、扩大一个人的视野或摆脱一个人的局限的；以及超越如何导致失去自我、被操纵或面临未知的危险。</media:description>
    <media:community>
     <media:starRating count="151" average="5.00" min="1" max="5"/>
-    <media:statistics views="9666"/>
+    <media:statistics views="9671"/>
    </media:community>
   </media:group>
  </entry>
@@ -275,7 +275,7 @@
 全篇由三个相对独立又互有联系的故事组成，聚焦于信仰与科学、宗教与世俗信仰之间的冲突，思想性对话精彩紧张，人物刻画夸张而细腻，堪称后启示录科幻中的经典。</media:description>
    <media:community>
     <media:starRating count="149" average="5.00" min="1" max="5"/>
-    <media:statistics views="8354"/>
+    <media:statistics views="8358"/>
    </media:community>
   </media:group>
  </entry>
@@ -298,7 +298,7 @@
    <media:description>《地下之上》，原著：肯.沃顿。 作者是天体物理学教授，用地外文明的触手、碎冰和气泡，揭示了一个十分原初的问题：宇宙的真相，可能和你以为的完全相反。</media:description>
    <media:community>
     <media:starRating count="259" average="5.00" min="1" max="5"/>
-    <media:statistics views="13487"/>
+    <media:statistics views="13490"/>
    </media:community>
   </media:group>
  </entry>
@@ -321,7 +321,7 @@
    <media:description>高级文明企图占领地球，却被一群蚂蚁给击败了！科幻名著《撤离地球》，原著：阿瑟.克拉克，出自阿瑟.克拉克科幻短篇全集。</media:description>
    <media:community>
     <media:starRating count="870" average="5.00" min="1" max="5"/>
-    <media:statistics views="99513"/>
+    <media:statistics views="99520"/>
    </media:community>
   </media:group>
  </entry>
@@ -345,7 +345,7 @@
 他的小说，带着深深的时代烙印，却又将精神意志传递到更远的未来。</media:description>
    <media:community>
     <media:starRating count="331" average="5.00" min="1" max="5"/>
-    <media:statistics views="27546"/>
+    <media:statistics views="27554"/>
    </media:community>
   </media:group>
  </entry>
@@ -368,7 +368,7 @@
    <media:description>《新贵》的作者——鲁般，90后新锐科幻作家。凭借处女作长篇科幻小说《未来症》获得第32届银河奖最佳新人奖；并在本届银河奖中，凭借《新贵》获得最佳中篇小说奖及最具改编潜力奖。该作品的英文版《Upstart》入选海外杂志《克拉克世界》，并角逐即将在成都举行的2023世界科幻大会雨果奖。其作品《未来症》已进入影视开发阶段。才华与颜值并存的青年作家着实未来可期。</media:description>
    <media:community>
     <media:starRating count="157" average="5.00" min="1" max="5"/>
-    <media:statistics views="10745"/>
+    <media:statistics views="10756"/>
    </media:community>
   </media:group>
  </entry>

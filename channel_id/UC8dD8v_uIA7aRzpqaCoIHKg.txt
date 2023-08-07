@@ -11,6 +11,37 @@
  </author>
  <published>2020-11-10T02:01:50+00:00</published>
  <entry>
+  <id>yt:video:bcCAJ-vRy38</id>
+  <yt:videoId>bcCAJ-vRy38</yt:videoId>
+  <yt:channelId>UC8dD8v_uIA7aRzpqaCoIHKg</yt:channelId>
+  <title>科学火箭叔：宇宙墙？有没有搞错！</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=bcCAJ-vRy38"/>
+  <author>
+   <name>科学火箭叔</name>
+   <uri>https://www.youtube.com/channel/UC8dD8v_uIA7aRzpqaCoIHKg</uri>
+  </author>
+  <published>2023-08-07T08:05:26+00:00</published>
+  <updated>2023-08-07T08:07:52+00:00</updated>
+  <media:group>
+   <media:title>科学火箭叔：宇宙墙？有没有搞错！</media:title>
+   <media:content url="https://www.youtube.com/v/bcCAJ-vRy38?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/bcCAJ-vRy38/hqdefault.jpg" width="480" height="360"/>
+   <media:description>大家好，我是你们的“百科全叔”火箭叔~
+讲有趣的科学，教有料的创客！
+通过对自然科学和社会科学知识的描述，勾勒出科学知识图景的整体轮廓！
+想要了解更多知识，尽在【科学火箭叔】
+---------------------------------------------------------------------------------
+喜欢我就订阅我吧，不要忘记点击小铃铛奥🔔您的支持对我来说很宝贵！💨
+https://kexuehuojianshu.page.link/Dingyue
+
+#科学火箭叔#宇宙墙#科普#文化</media:description>
+   <media:community>
+    <media:starRating count="1" average="5.00" min="1" max="5"/>
+    <media:statistics views="109"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:33lAWw6gm64</id>
   <yt:videoId>33lAWw6gm64</yt:videoId>
   <yt:channelId>UC8dD8v_uIA7aRzpqaCoIHKg</yt:channelId>
@@ -38,8 +69,8 @@ https://kexuehuojianshu.page.link/Dingyue
 
 #科学火箭叔#桥墩#跨海大桥#科普#文化</media:description>
    <media:community>
-    <media:starRating count="878" average="5.00" min="1" max="5"/>
-    <media:statistics views="29548"/>
+    <media:starRating count="939" average="5.00" min="1" max="5"/>
+    <media:statistics views="32254"/>
    </media:community>
   </media:group>
  </entry>
@@ -71,8 +102,8 @@ https://kexuehuojianshu.page.link/Dingyue
 
 #科学火箭叔#集装箱船#船刹车#科普#文化</media:description>
    <media:community>
-    <media:starRating count="588" average="5.00" min="1" max="5"/>
-    <media:statistics views="23049"/>
+    <media:starRating count="598" average="5.00" min="1" max="5"/>
+    <media:statistics views="23673"/>
    </media:community>
   </media:group>
  </entry>
@@ -104,8 +135,8 @@ https://kexuehuojianshu.page.link/Dingyue
 
 #科学火箭叔#波音747#科普#文化</media:description>
    <media:community>
-    <media:starRating count="467" average="5.00" min="1" max="5"/>
-    <media:statistics views="17529"/>
+    <media:starRating count="471" average="5.00" min="1" max="5"/>
+    <media:statistics views="17614"/>
    </media:community>
   </media:group>
  </entry>
@@ -137,8 +168,8 @@ https://kexuehuojianshu.page.link/Dingyue
 
 #科学火箭叔#科普#文化</media:description>
    <media:community>
-    <media:starRating count="404" average="5.00" min="1" max="5"/>
-    <media:statistics views="24700"/>
+    <media:starRating count="425" average="5.00" min="1" max="5"/>
+    <media:statistics views="25858"/>
    </media:community>
   </media:group>
  </entry>
@@ -170,8 +201,8 @@ https://kexuehuojianshu.page.link/Dingyue
 
 #科学火箭叔#科普#文化</media:description>
    <media:community>
-    <media:starRating count="811" average="5.00" min="1" max="5"/>
-    <media:statistics views="63775"/>
+    <media:starRating count="812" average="5.00" min="1" max="5"/>
+    <media:statistics views="63958"/>
    </media:community>
   </media:group>
  </entry>
@@ -203,8 +234,8 @@ https://kexuehuojianshu.page.link/Dingyue
 
 #科学火箭叔#电鳗#科普#文化</media:description>
    <media:community>
-    <media:starRating count="411" average="5.00" min="1" max="5"/>
-    <media:statistics views="12871"/>
+    <media:starRating count="414" average="5.00" min="1" max="5"/>
+    <media:statistics views="12965"/>
    </media:community>
   </media:group>
  </entry>
@@ -236,8 +267,8 @@ https://kexuehuojianshu.page.link/Dingyue
 
 #科学火箭叔#人工智能#科普#文化</media:description>
    <media:community>
-    <media:starRating count="270" average="5.00" min="1" max="5"/>
-    <media:statistics views="8047"/>
+    <media:starRating count="271" average="5.00" min="1" max="5"/>
+    <media:statistics views="8061"/>
    </media:community>
   </media:group>
  </entry>
@@ -270,7 +301,7 @@ https://kexuehuojianshu.page.link/Dingyue
 #科学火箭叔#螺旋桨#科普#文化</media:description>
    <media:community>
     <media:starRating count="286" average="5.00" min="1" max="5"/>
-    <media:statistics views="13270"/>
+    <media:statistics views="13322"/>
    </media:community>
   </media:group>
  </entry>
@@ -302,8 +333,8 @@ https://kexuehuojianshu.page.link/Dingyue
 
 #科学火箭叔#螺旋桨#无人侦察机#科普#文化</media:description>
    <media:community>
-    <media:starRating count="749" average="5.00" min="1" max="5"/>
-    <media:statistics views="27192"/>
+    <media:starRating count="754" average="5.00" min="1" max="5"/>
+    <media:statistics views="27288"/>
    </media:community>
   </media:group>
  </entry>
@@ -335,8 +366,8 @@ https://kexuehuojianshu.page.link/Dingyue
 
 #科学火箭叔#球鼻首#科普#文化</media:description>
    <media:community>
-    <media:starRating count="612" average="5.00" min="1" max="5"/>
-    <media:statistics views="40334"/>
+    <media:starRating count="613" average="5.00" min="1" max="5"/>
+    <media:statistics views="40879"/>
    </media:community>
   </media:group>
  </entry>
@@ -368,8 +399,8 @@ https://kexuehuojianshu.page.link/Dingyue
 
 #科学火箭叔#科普#文化</media:description>
    <media:community>
-    <media:starRating count="344" average="5.00" min="1" max="5"/>
-    <media:statistics views="13074"/>
+    <media:starRating count="345" average="5.00" min="1" max="5"/>
+    <media:statistics views="13094"/>
    </media:community>
   </media:group>
  </entry>
@@ -402,7 +433,7 @@ https://kexuehuojianshu.page.link/Dingyue
 #科学火箭叔#喷火式战斗机#啤酒轰炸机#科普#文化</media:description>
    <media:community>
     <media:starRating count="299" average="5.00" min="1" max="5"/>
-    <media:statistics views="8131"/>
+    <media:statistics views="8137"/>
    </media:community>
   </media:group>
  </entry>
@@ -435,7 +466,7 @@ https://kexuehuojianshu.page.link/Dingyue
 #科学火箭叔#萤火虫#科普#文化</media:description>
    <media:community>
     <media:starRating count="306" average="5.00" min="1" max="5"/>
-    <media:statistics views="8959"/>
+    <media:statistics views="8977"/>
    </media:community>
   </media:group>
  </entry>
@@ -468,40 +499,7 @@ https://kexuehuojianshu.page.link/Dingyue
 #科学火箭叔#跨界科学家#斜杆青年#科普#文化</media:description>
    <media:community>
     <media:starRating count="178" average="5.00" min="1" max="5"/>
-    <media:statistics views="5360"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:x4KCyPjhLlg</id>
-  <yt:videoId>x4KCyPjhLlg</yt:videoId>
-  <yt:channelId>UC8dD8v_uIA7aRzpqaCoIHKg</yt:channelId>
-  <title>史上“翻车”最严重的建筑，大概就是它了——弯曲金字塔【科学火箭叔】</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=x4KCyPjhLlg"/>
-  <author>
-   <name>科学火箭叔</name>
-   <uri>https://www.youtube.com/channel/UC8dD8v_uIA7aRzpqaCoIHKg</uri>
-  </author>
-  <published>2023-07-22T09:15:04+00:00</published>
-  <updated>2023-07-22T09:15:05+00:00</updated>
-  <media:group>
-   <media:title>史上“翻车”最严重的建筑，大概就是它了——弯曲金字塔【科学火箭叔】</media:title>
-   <media:content url="https://www.youtube.com/v/x4KCyPjhLlg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i1.ytimg.com/vi/x4KCyPjhLlg/hqdefault.jpg" width="480" height="360"/>
-   <media:description>史上“翻车”最严重的建筑，大概就是它了——弯曲金字塔
-
-大家好，我是你们的“百科全叔”火箭叔~
-讲有趣的科学，教有料的创客！
-通过对自然科学和社会科学知识的描述，勾勒出科学知识图景的整体轮廓！
-想要了解更多知识，尽在【科学火箭叔】
----------------------------------------------------------------------------------
-喜欢我就订阅我吧，不要忘记点击小铃铛奥🔔您的支持对我来说很宝贵！💨
-https://kexuehuojianshu.page.link/Dingyue
-
-#科学火箭叔#弯曲金字塔#金字塔#科普#文化</media:description>
-   <media:community>
-    <media:starRating count="313" average="5.00" min="1" max="5"/>
-    <media:statistics views="13059"/>
+    <media:statistics views="5364"/>
    </media:community>
   </media:group>
  </entry>

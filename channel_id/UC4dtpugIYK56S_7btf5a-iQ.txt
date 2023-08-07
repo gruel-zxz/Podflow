@@ -33,8 +33,8 @@ Timestamp
 01:22 实验方法
 03:45 实验过程</media:description>
    <media:community>
-    <media:starRating count="2033" average="5.00" min="1" max="5"/>
-    <media:statistics views="56155"/>
+    <media:starRating count="2043" average="5.00" min="1" max="5"/>
+    <media:statistics views="56330"/>
    </media:community>
   </media:group>
  </entry>
@@ -65,7 +65,7 @@ Timestamp
 12:22 M2 Ultra 运行大语言模型</media:description>
    <media:community>
     <media:starRating count="9951" average="5.00" min="1" max="5"/>
-    <media:statistics views="259189"/>
+    <media:statistics views="259265"/>
    </media:community>
   </media:group>
  </entry>
@@ -92,7 +92,7 @@ Timestamp
 06:04 技术解读</media:description>
    <media:community>
     <media:starRating count="1428" average="5.00" min="1" max="5"/>
-    <media:statistics views="41440"/>
+    <media:statistics views="41442"/>
    </media:community>
   </media:group>
  </entry>
@@ -119,8 +119,8 @@ Timestamp
 01:37 AI 打爆贪吃蛇
 08:34 思考</media:description>
    <media:community>
-    <media:starRating count="8185" average="5.00" min="1" max="5"/>
-    <media:statistics views="286925"/>
+    <media:starRating count="8186" average="5.00" min="1" max="5"/>
+    <media:statistics views="286960"/>
    </media:community>
   </media:group>
  </entry>
@@ -145,7 +145,7 @@ Timestamp
 https://app.myshell.ai/invite/521b83</media:description>
    <media:community>
     <media:starRating count="408" average="5.00" min="1" max="5"/>
-    <media:statistics views="11738"/>
+    <media:statistics views="11744"/>
    </media:community>
   </media:group>
  </entry>
@@ -180,8 +180,8 @@ Timestamp:
 08:03 处理过拟合
 09:09 最终决战</media:description>
    <media:community>
-    <media:starRating count="21122" average="5.00" min="1" max="5"/>
-    <media:statistics views="544363"/>
+    <media:starRating count="21124" average="5.00" min="1" max="5"/>
+    <media:statistics views="544387"/>
    </media:community>
   </media:group>
  </entry>
@@ -210,8 +210,8 @@ Timestamp
 07:35 逆袭
 12:09 跌落</media:description>
    <media:community>
-    <media:starRating count="1826" average="5.00" min="1" max="5"/>
-    <media:statistics views="60670"/>
+    <media:starRating count="1827" average="5.00" min="1" max="5"/>
+    <media:statistics views="60673"/>
    </media:community>
   </media:group>
  </entry>
@@ -243,7 +243,7 @@ Timestamp
 16:42 思考</media:description>
    <media:community>
     <media:starRating count="2096" average="5.00" min="1" max="5"/>
-    <media:statistics views="59961"/>
+    <media:statistics views="59965"/>
    </media:community>
   </media:group>
  </entry>
@@ -278,8 +278,8 @@ Timestamp
 27:26 变革
 31:47 乱局</media:description>
    <media:community>
-    <media:starRating count="5586" average="5.00" min="1" max="5"/>
-    <media:statistics views="180196"/>
+    <media:starRating count="5587" average="5.00" min="1" max="5"/>
+    <media:statistics views="180217"/>
    </media:community>
   </media:group>
  </entry>
@@ -315,7 +315,7 @@ Timestamp
 21:33 初心能保持多久</media:description>
    <media:community>
     <media:starRating count="5360" average="5.00" min="1" max="5"/>
-    <media:statistics views="162882"/>
+    <media:statistics views="162885"/>
    </media:community>
   </media:group>
  </entry>
@@ -346,7 +346,7 @@ Timestamp
 07:12 简单聊聊AI创作</media:description>
    <media:community>
     <media:starRating count="1444" average="5.00" min="1" max="5"/>
-    <media:statistics views="38765"/>
+    <media:statistics views="38766"/>
    </media:community>
   </media:group>
  </entry>
@@ -369,7 +369,7 @@ Timestamp
    <media:description>过去一年里 AI 技术的落地速度明显加快，反映在手机摄影领域就是计算摄影的异军突起。在AI技术的辅助下，手机摄影不仅继续保持了一直以来远超相机摄影的便捷性，在各种智能优化技术的加持下甚至在照片直出方面对传统摄影发起了挑战。当手机随手一拍的照片，就能接近昂贵的专业相机搭配耗时的后期处理的效果时，人们自然会感到困惑：“计算摄影”为什么能实现超出硬件能力的拍摄效果？AI运算得到的“计算摄影”还算是真正的摄影吗？结合实机拍摄，我们来探讨一下这些问题。</media:description>
    <media:community>
     <media:starRating count="2824" average="5.00" min="1" max="5"/>
-    <media:statistics views="58018"/>
+    <media:statistics views="58029"/>
    </media:community>
   </media:group>
  </entry>
@@ -401,7 +401,7 @@ Timestamp
 17:00 架构战争的现状与未来</media:description>
    <media:community>
     <media:starRating count="7903" average="5.00" min="1" max="5"/>
-    <media:statistics views="322730"/>
+    <media:statistics views="322737"/>
    </media:community>
   </media:group>
  </entry>
@@ -434,8 +434,8 @@ APK 安装包链接：https://github.com/linyiLYi/pose-monitor/releases/tag/rele
 06:32 计算加速
 09:36 未来展望</media:description>
    <media:community>
-    <media:starRating count="5507" average="5.00" min="1" max="5"/>
-    <media:statistics views="141529"/>
+    <media:starRating count="5511" average="5.00" min="1" max="5"/>
+    <media:statistics views="141553"/>
    </media:community>
   </media:group>
  </entry>
@@ -458,7 +458,7 @@ APK 安装包链接：https://github.com/linyiLYi/pose-monitor/releases/tag/rele
    <media:description>14 代 iPhone 中，Plus 取代了mini 系列，小屏手机没有未来了吗？</media:description>
    <media:community>
     <media:starRating count="593" average="5.00" min="1" max="5"/>
-    <media:statistics views="23425"/>
+    <media:statistics views="23426"/>
    </media:community>
   </media:group>
  </entry>

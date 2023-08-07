@@ -40,8 +40,8 @@ https://youtu.be/GcexDC62DtU
 顺势而为的太空发射服务商Rocket Lab-为什么会有那么多的火箭公司涌现？
 https://youtu.be/w7GEuncpBcI</media:description>
    <media:community>
-    <media:starRating count="969" average="5.00" min="1" max="5"/>
-    <media:statistics views="23778"/>
+    <media:starRating count="970" average="5.00" min="1" max="5"/>
+    <media:statistics views="23790"/>
    </media:community>
   </media:group>
  </entry>
@@ -100,7 +100,7 @@ https://youtu.be/tzwYHrrZvY4
    <media:description>#starship #spacex #starshiporbitallaunch</media:description>
    <media:community>
     <media:starRating count="2900" average="5.00" min="1" max="5"/>
-    <media:statistics views="113142"/>
+    <media:statistics views="113143"/>
    </media:community>
   </media:group>
  </entry>
@@ -180,7 +180,7 @@ https://youtu.be/6R66gMbGWPU
 https://youtu.be/YwTT8pKkWWE</media:description>
    <media:community>
     <media:starRating count="914" average="5.00" min="1" max="5"/>
-    <media:statistics views="21065"/>
+    <media:statistics views="21066"/>
    </media:community>
   </media:group>
  </entry>
@@ -283,7 +283,7 @@ https://youtu.be/6R66gMbGWPU
 https://youtu.be/YwTT8pKkWWE</media:description>
    <media:community>
     <media:starRating count="932" average="5.00" min="1" max="5"/>
-    <media:statistics views="31000"/>
+    <media:statistics views="31001"/>
    </media:community>
   </media:group>
  </entry>

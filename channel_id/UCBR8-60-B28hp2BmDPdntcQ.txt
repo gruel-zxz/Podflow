@@ -27,8 +27,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/gPDxEL1yKbU/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2346" average="5.00" min="1" max="5"/>
-    <media:statistics views="66360"/>
+    <media:starRating count="2383" average="5.00" min="1" max="5"/>
+    <media:statistics views="67356"/>
    </media:community>
   </media:group>
  </entry>
@@ -50,8 +50,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/GTEOm0lG3pY/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4082" average="5.00" min="1" max="5"/>
-    <media:statistics views="110344"/>
+    <media:starRating count="4127" average="5.00" min="1" max="5"/>
+    <media:statistics views="111307"/>
    </media:community>
   </media:group>
  </entry>
@@ -82,8 +82,8 @@
 
 #Larray #YouTube #WatchHistory</media:description>
    <media:community>
-    <media:starRating count="1600" average="5.00" min="1" max="5"/>
-    <media:statistics views="88960"/>
+    <media:starRating count="1607" average="5.00" min="1" max="5"/>
+    <media:statistics views="89670"/>
    </media:community>
   </media:group>
  </entry>
@@ -105,8 +105,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/Jk4S-fTZ7Tg/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3986" average="5.00" min="1" max="5"/>
-    <media:statistics views="83038"/>
+    <media:starRating count="4005" average="5.00" min="1" max="5"/>
+    <media:statistics views="83500"/>
    </media:community>
   </media:group>
  </entry>
@@ -128,8 +128,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/PQ1knV-mo4w/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3879" average="5.00" min="1" max="5"/>
-    <media:statistics views="87662"/>
+    <media:starRating count="3890" average="5.00" min="1" max="5"/>
+    <media:statistics views="87892"/>
    </media:community>
   </media:group>
  </entry>
@@ -151,8 +151,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/-HnEs4e2hOU/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="7315" average="5.00" min="1" max="5"/>
-    <media:statistics views="249264"/>
+    <media:starRating count="7343" average="5.00" min="1" max="5"/>
+    <media:statistics views="250263"/>
    </media:community>
   </media:group>
  </entry>
@@ -174,8 +174,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/z1NVuyFbjuM/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3287" average="5.00" min="1" max="5"/>
-    <media:statistics views="87483"/>
+    <media:starRating count="3293" average="5.00" min="1" max="5"/>
+    <media:statistics views="87654"/>
    </media:community>
   </media:group>
  </entry>
@@ -197,8 +197,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/HwH59IpANys/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4925" average="5.00" min="1" max="5"/>
-    <media:statistics views="133425"/>
+    <media:starRating count="4932" average="5.00" min="1" max="5"/>
+    <media:statistics views="133683"/>
    </media:community>
   </media:group>
  </entry>
@@ -220,8 +220,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/B70kZuuJoyY/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4486" average="5.00" min="1" max="5"/>
-    <media:statistics views="93271"/>
+    <media:starRating count="4497" average="5.00" min="1" max="5"/>
+    <media:statistics views="93422"/>
    </media:community>
   </media:group>
  </entry>
@@ -243,8 +243,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/XO7U4pq3zRI/hqdefault.jpg" width="480" height="360"/>
    <media:description>the vibes at @OliviaRodrigo’s “vampire” premiere were *perfect* 💜 don’t forget to upload your Shorts with #vampireOR2!!</media:description>
    <media:community>
-    <media:starRating count="4657" average="5.00" min="1" max="5"/>
-    <media:statistics views="117105"/>
+    <media:starRating count="4676" average="5.00" min="1" max="5"/>
+    <media:statistics views="117324"/>
    </media:community>
   </media:group>
  </entry>
@@ -266,8 +266,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/2Q38Z2R0Exo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4088" average="5.00" min="1" max="5"/>
-    <media:statistics views="86309"/>
+    <media:starRating count="4096" average="5.00" min="1" max="5"/>
+    <media:statistics views="86446"/>
    </media:community>
   </media:group>
  </entry>
@@ -289,8 +289,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/SrSKwjonIyg/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4002" average="5.00" min="1" max="5"/>
-    <media:statistics views="100620"/>
+    <media:starRating count="4008" average="5.00" min="1" max="5"/>
+    <media:statistics views="100754"/>
    </media:community>
   </media:group>
  </entry>
@@ -312,8 +312,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/rx_fHXqjXlg/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="123286" average="5.00" min="1" max="5"/>
-    <media:statistics views="3036688"/>
+    <media:starRating count="124591" average="5.00" min="1" max="5"/>
+    <media:statistics views="3064394"/>
    </media:community>
   </media:group>
  </entry>
@@ -335,8 +335,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/SYS1BuyQYoc/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="122502" average="5.00" min="1" max="5"/>
-    <media:statistics views="2939361"/>
+    <media:starRating count="123761" average="5.00" min="1" max="5"/>
+    <media:statistics views="2967541"/>
    </media:community>
   </media:group>
  </entry>
@@ -358,8 +358,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/WIIIpb2Sgxs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2522" average="5.00" min="1" max="5"/>
-    <media:statistics views="52884"/>
+    <media:starRating count="2526" average="5.00" min="1" max="5"/>
+    <media:statistics views="52958"/>
    </media:community>
   </media:group>
  </entry>

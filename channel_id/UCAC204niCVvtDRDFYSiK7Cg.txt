@@ -30,7 +30,7 @@
 全球首款AI裸眼3D平板 nubia Pad 3D开箱体验 卖10999值吗【大家测】 The world's first AI naked eye 3D tablet Pad 3D unboxing</media:description>
    <media:community>
     <media:starRating count="92" average="5.00" min="1" max="5"/>
-    <media:statistics views="3942"/>
+    <media:statistics views="3949"/>
    </media:community>
   </media:group>
  </entry>
@@ -53,7 +53,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="129" average="5.00" min="1" max="5"/>
-    <media:statistics views="6119"/>
+    <media:statistics views="6123"/>
    </media:community>
   </media:group>
  </entry>
@@ -75,8 +75,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/gB0HhaUnCAs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="192" average="5.00" min="1" max="5"/>
-    <media:statistics views="10166"/>
+    <media:starRating count="193" average="5.00" min="1" max="5"/>
+    <media:statistics views="10186"/>
    </media:community>
   </media:group>
  </entry>
@@ -145,7 +145,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="109" average="5.00" min="1" max="5"/>
-    <media:statistics views="10513"/>
+    <media:statistics views="10515"/>
    </media:community>
   </media:group>
  </entry>
@@ -260,7 +260,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="116" average="5.00" min="1" max="5"/>
-    <media:statistics views="5136"/>
+    <media:statistics views="5137"/>
    </media:community>
   </media:group>
  </entry>
@@ -282,8 +282,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/EDQbTcA7VhI/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="63" average="5.00" min="1" max="5"/>
-    <media:statistics views="4088"/>
+    <media:starRating count="64" average="5.00" min="1" max="5"/>
+    <media:statistics views="4091"/>
    </media:community>
   </media:group>
  </entry>
@@ -306,7 +306,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="378" average="5.00" min="1" max="5"/>
-    <media:statistics views="19497"/>
+    <media:statistics views="19499"/>
    </media:community>
   </media:group>
  </entry>
@@ -329,7 +329,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="101" average="5.00" min="1" max="5"/>
-    <media:statistics views="4164"/>
+    <media:statistics views="4167"/>
    </media:community>
   </media:group>
  </entry>
@@ -352,7 +352,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="239" average="5.00" min="1" max="5"/>
-    <media:statistics views="27895"/>
+    <media:statistics views="27911"/>
    </media:community>
   </media:group>
  </entry>
