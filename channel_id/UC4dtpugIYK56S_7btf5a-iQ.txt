@@ -65,7 +65,7 @@ Timestamp
 12:22 M2 Ultra 运行大语言模型</media:description>
    <media:community>
     <media:starRating count="9949" average="5.00" min="1" max="5"/>
-    <media:statistics views="259134"/>
+    <media:statistics views="259135"/>
    </media:community>
   </media:group>
  </entry>

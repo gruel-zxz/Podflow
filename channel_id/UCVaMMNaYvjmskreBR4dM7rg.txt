@@ -371,7 +371,7 @@ https://www.youtube.com/playlist?list=PLgsrznq8ee-4yoTauBXojN0Ex-6nY90iT
 QQ：3432008273（加好友、投稿可以联系这个QQ）</media:description>
    <media:community>
     <media:starRating count="314" average="5.00" min="1" max="5"/>
-    <media:statistics views="21076"/>
+    <media:statistics views="21075"/>
    </media:community>
   </media:group>
  </entry>
@@ -633,7 +633,7 @@ https://www.youtube.com/playlist?list=PLgsrznq8ee-4yoTauBXojN0Ex-6nY90iT
 QQ：3432008273（加好友、投稿可以联系这个QQ）</media:description>
    <media:community>
     <media:starRating count="751" average="5.00" min="1" max="5"/>
-    <media:statistics views="71252"/>
+    <media:statistics views="71253"/>
    </media:community>
   </media:group>
  </entry>

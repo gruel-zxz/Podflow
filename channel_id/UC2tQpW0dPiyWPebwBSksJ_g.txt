@@ -44,8 +44,8 @@ Copyright © 腦洞烏托邦™️ All Rights Reserved.
 ☆
 # Xiaowu # 小烏 # ndwtb</media:description>
    <media:community>
-    <media:starRating count="652" average="5.00" min="1" max="5"/>
-    <media:statistics views="25265"/>
+    <media:starRating count="653" average="5.00" min="1" max="5"/>
+    <media:statistics views="25296"/>
    </media:community>
   </media:group>
  </entry>
@@ -83,8 +83,8 @@ Copyright © 腦洞烏托邦™️ All Rights Reserved.
 ☆
 # Xiaowu # 小烏 # ndwtb</media:description>
    <media:community>
-    <media:starRating count="1311" average="5.00" min="1" max="5"/>
-    <media:statistics views="53789"/>
+    <media:starRating count="1313" average="5.00" min="1" max="5"/>
+    <media:statistics views="53807"/>
    </media:community>
   </media:group>
  </entry>
@@ -127,7 +127,7 @@ Copyright © 腦洞烏托邦™️ All Rights Reserved.
 ☆
 # Xiaowu # 小烏 # ndwtb</media:description>
    <media:community>
-    <media:starRating count="17264" average="5.00" min="1" max="5"/>
+    <media:starRating count="17263" average="5.00" min="1" max="5"/>
     <media:statistics views="1079792"/>
    </media:community>
   </media:group>
@@ -207,7 +207,7 @@ Copyright © 腦洞烏托邦™️ All Rights Reserved.
 # Xiaowu # 小烏 # ndwtb</media:description>
    <media:community>
     <media:starRating count="1664" average="5.00" min="1" max="5"/>
-    <media:statistics views="68710"/>
+    <media:statistics views="68713"/>
    </media:community>
   </media:group>
  </entry>
@@ -249,7 +249,7 @@ Copyright © 腦洞烏托邦™️ All Rights Reserved.
 # Xiaowu # 小烏 # ndwtb</media:description>
    <media:community>
     <media:starRating count="15934" average="5.00" min="1" max="5"/>
-    <media:statistics views="681069"/>
+    <media:statistics views="681085"/>
    </media:community>
   </media:group>
  </entry>
@@ -288,7 +288,7 @@ Copyright © 腦洞烏托邦™️ All Rights Reserved.
 # Xiaowu # 小烏 # ndwtb</media:description>
    <media:community>
     <media:starRating count="4661" average="5.00" min="1" max="5"/>
-    <media:statistics views="219206"/>
+    <media:statistics views="219211"/>
    </media:community>
   </media:group>
  </entry>
@@ -334,7 +334,7 @@ Copyright © 腦洞烏托邦™️ All Rights Reserved.
 # Xiaowu # 小烏 # ndwtb</media:description>
    <media:community>
     <media:starRating count="15046" average="5.00" min="1" max="5"/>
-    <media:statistics views="809937"/>
+    <media:statistics views="809949"/>
    </media:community>
   </media:group>
  </entry>
@@ -374,7 +374,7 @@ Copyright © 腦洞烏托邦™️ All Rights Reserved.
 # Xiaowu # 小烏 # ndwtb</media:description>
    <media:community>
     <media:starRating count="1929" average="5.00" min="1" max="5"/>
-    <media:statistics views="64353"/>
+    <media:statistics views="64354"/>
    </media:community>
   </media:group>
  </entry>
@@ -415,8 +415,8 @@ Copyright © 腦洞烏托邦™️ All Rights Reserved.
 ☆
 # Xiaowu # 小烏 # ndwtb</media:description>
    <media:community>
-    <media:starRating count="16309" average="5.00" min="1" max="5"/>
-    <media:statistics views="866390"/>
+    <media:starRating count="16310" average="5.00" min="1" max="5"/>
+    <media:statistics views="866396"/>
    </media:community>
   </media:group>
  </entry>
@@ -541,7 +541,7 @@ Copyright © 腦洞烏托邦™️ All Rights Reserved.
 # Xiaowu # 小烏 # ndwtb</media:description>
    <media:community>
     <media:starRating count="1082" average="5.00" min="1" max="5"/>
-    <media:statistics views="58435"/>
+    <media:statistics views="58436"/>
    </media:community>
   </media:group>
  </entry>

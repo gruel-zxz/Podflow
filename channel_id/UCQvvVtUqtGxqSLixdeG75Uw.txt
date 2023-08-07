@@ -62,7 +62,7 @@ YouTube Partner Certified Since 2019
 #脑洞乌托邦 #腦洞烏托邦 #Xiaowu</media:description>
    <media:community>
     <media:starRating count="6177" average="5.00" min="1" max="5"/>
-    <media:statistics views="349897"/>
+    <media:statistics views="349920"/>
    </media:community>
   </media:group>
  </entry>
@@ -123,7 +123,7 @@ YouTube Partner Certified Since 2019
 #脑洞乌托邦 #腦洞烏托邦 #Xiaowu</media:description>
    <media:community>
     <media:starRating count="4790" average="5.00" min="1" max="5"/>
-    <media:statistics views="307436"/>
+    <media:statistics views="307441"/>
    </media:community>
   </media:group>
  </entry>
@@ -238,7 +238,7 @@ YouTube Partner Certified Since 2019
 #脑洞乌托邦 #腦洞烏托邦 #Xiaowu</media:description>
    <media:community>
     <media:starRating count="4693" average="5.00" min="1" max="5"/>
-    <media:statistics views="402508"/>
+    <media:statistics views="402515"/>
    </media:community>
   </media:group>
  </entry>
@@ -293,7 +293,7 @@ YouTube Partner Certified Since 2019
 #脑洞乌托邦 #腦洞烏托邦 #Xiaowu</media:description>
    <media:community>
     <media:starRating count="7321" average="5.00" min="1" max="5"/>
-    <media:statistics views="564711"/>
+    <media:statistics views="564716"/>
    </media:community>
   </media:group>
  </entry>
@@ -842,7 +842,7 @@ YouTube Partner Certified Since 2019
 #脑洞乌托邦 #腦洞烏托邦 #Xiaowu</media:description>
    <media:community>
     <media:starRating count="5890" average="5.00" min="1" max="5"/>
-    <media:statistics views="299092"/>
+    <media:statistics views="299094"/>
    </media:community>
   </media:group>
  </entry>

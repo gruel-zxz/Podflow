@@ -30,7 +30,7 @@
 尽管这样的内容可能很多人不喜欢，因为太深奥，故事性弱，但是作者透露出的丰富的哲学构想，值得我们去更新。</media:description>
    <media:community>
     <media:starRating count="73" average="5.00" min="1" max="5"/>
-    <media:statistics views="3108"/>
+    <media:statistics views="3116"/>
    </media:community>
   </media:group>
  </entry>
@@ -102,7 +102,7 @@
    <media:description>无论人类如何选择，也许未来都无法被改变：刘慈欣《月夜》，这是刘慈欣2009年发表的短篇小说，继承了自己过去的风格，而且脑洞还是一样的大。</media:description>
    <media:community>
     <media:starRating count="112" average="5.00" min="1" max="5"/>
-    <media:statistics views="7339"/>
+    <media:statistics views="7340"/>
    </media:community>
   </media:group>
  </entry>
@@ -125,7 +125,7 @@
    <media:description>地心引力坐不住了：人类首次发现反重力区域——科幻小说《真相》，原著：阿瑟.克拉克，出自阿瑟.克拉克科幻短篇全集。</media:description>
    <media:community>
     <media:starRating count="176" average="5.00" min="1" max="5"/>
-    <media:statistics views="13066"/>
+    <media:statistics views="13063"/>
    </media:community>
   </media:group>
  </entry>
@@ -148,7 +148,7 @@
    <media:description>短篇科幻小说《四个很短的世界名著》，原著：乔.霍尔德曼。作者以四部世界名著：战争与和平、罪与罚、众生之路、追忆似水年华为引，改编成了这部短篇科幻小说，并获得了当年的雨果奖提名。</media:description>
    <media:community>
     <media:starRating count="141" average="5.00" min="1" max="5"/>
-    <media:statistics views="7157"/>
+    <media:statistics views="7158"/>
    </media:community>
   </media:group>
  </entry>
@@ -173,7 +173,7 @@
  05：00 《星际旅行日记》用几十公斤原子制造人类</media:description>
    <media:community>
     <media:starRating count="105" average="5.00" min="1" max="5"/>
-    <media:statistics views="5690"/>
+    <media:statistics views="5689"/>
    </media:community>
   </media:group>
  </entry>
@@ -345,7 +345,7 @@
 他的小说，带着深深的时代烙印，却又将精神意志传递到更远的未来。</media:description>
    <media:community>
     <media:starRating count="331" average="5.00" min="1" max="5"/>
-    <media:statistics views="27545"/>
+    <media:statistics views="27543"/>
    </media:community>
   </media:group>
  </entry>

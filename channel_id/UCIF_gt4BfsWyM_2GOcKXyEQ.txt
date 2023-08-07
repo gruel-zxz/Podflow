@@ -54,7 +54,7 @@ Instagram:http://instagram.com/chuchushoetw
 Twitter:https://twitter.com/chuchushoeTW</media:description>
    <media:community>
     <media:starRating count="42450" average="5.00" min="1" max="5"/>
-    <media:statistics views="1498877"/>
+    <media:statistics views="1498884"/>
    </media:community>
   </media:group>
  </entry>
@@ -142,7 +142,7 @@ Instagram:http://instagram.com/chuchushoetw
 Twitter:https://twitter.com/chuchushoeTW</media:description>
    <media:community>
     <media:starRating count="7965" average="5.00" min="1" max="5"/>
-    <media:statistics views="471084"/>
+    <media:statistics views="471073"/>
    </media:community>
   </media:group>
  </entry>
@@ -239,7 +239,7 @@ Instagram:http://instagram.com/chuchushoetw
 Twitter:https://twitter.com/chuchushoeTW</media:description>
    <media:community>
     <media:starRating count="7123" average="5.00" min="1" max="5"/>
-    <media:statistics views="361709"/>
+    <media:statistics views="361708"/>
    </media:community>
   </media:group>
  </entry>
@@ -283,7 +283,7 @@ Instagram:http://instagram.com/chuchushoetw
 Twitter:https://twitter.com/chuchushoeTW</media:description>
    <media:community>
     <media:starRating count="8501" average="5.00" min="1" max="5"/>
-    <media:statistics views="208477"/>
+    <media:statistics views="208476"/>
    </media:community>
   </media:group>
  </entry>
@@ -465,7 +465,7 @@ Instagram:http://instagram.com/chuchushoetw
 Twitter:https://twitter.com/chuchushoeTW</media:description>
    <media:community>
     <media:starRating count="16882" average="5.00" min="1" max="5"/>
-    <media:statistics views="559287"/>
+    <media:statistics views="559283"/>
    </media:community>
   </media:group>
  </entry>
@@ -508,7 +508,7 @@ Instagram:http://instagram.com/chuchushoetw
 Twitter:https://twitter.com/chuchushoeTW</media:description>
    <media:community>
     <media:starRating count="6627" average="5.00" min="1" max="5"/>
-    <media:statistics views="346819"/>
+    <media:statistics views="346818"/>
    </media:community>
   </media:group>
  </entry>
@@ -598,7 +598,7 @@ Instagram:http://instagram.com/chuchushoetw
 Twitter:https://twitter.com/chuchushoeTW</media:description>
    <media:community>
     <media:starRating count="4587" average="5.00" min="1" max="5"/>
-    <media:statistics views="200397"/>
+    <media:statistics views="200398"/>
    </media:community>
   </media:group>
  </entry>

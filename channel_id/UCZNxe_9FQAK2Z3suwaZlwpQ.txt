@@ -39,7 +39,7 @@ https://www.youtube.com/channel/UCZNxe_9FQAK2Z3suwaZlwpQ/join
 如果只能使用支付宝或者微信付款，请访问 https://afdian.net/@chonglangplus?tab=feed</media:description>
    <media:community>
     <media:starRating count="1255" average="5.00" min="1" max="5"/>
-    <media:statistics views="90375"/>
+    <media:statistics views="90374"/>
    </media:community>
   </media:group>
  </entry>
@@ -72,7 +72,7 @@ https://www.youtube.com/channel/UCZNxe_9FQAK2Z3suwaZlwpQ/join
 如果只能使用支付宝或者微信付款，请访问 https://afdian.net/@chonglangplus?tab=feed</media:description>
    <media:community>
     <media:starRating count="1130" average="5.00" min="1" max="5"/>
-    <media:statistics views="64955"/>
+    <media:statistics views="64954"/>
    </media:community>
   </media:group>
  </entry>
@@ -303,7 +303,7 @@ https://www.youtube.com/channel/UCZNxe_9FQAK2Z3suwaZlwpQ/join
 如果只能使用支付宝或者微信付款，请访问 https://afdian.net/@chonglangplus?tab=feed</media:description>
    <media:community>
     <media:starRating count="678" average="5.00" min="1" max="5"/>
-    <media:statistics views="54549"/>
+    <media:statistics views="54547"/>
    </media:community>
   </media:group>
  </entry>
@@ -501,7 +501,7 @@ https://www.youtube.com/channel/UCZNxe_9FQAK2Z3suwaZlwpQ/join
 如果只能使用支付宝或者微信付款，请访问 https://afdian.net/@chonglangplus?tab=feed</media:description>
    <media:community>
     <media:starRating count="716" average="5.00" min="1" max="5"/>
-    <media:statistics views="59695"/>
+    <media:statistics views="59694"/>
    </media:community>
   </media:group>
  </entry>

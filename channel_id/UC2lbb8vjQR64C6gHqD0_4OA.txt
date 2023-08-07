@@ -245,7 +245,7 @@ Copyright © Nic Believe 你可敢信 All Rights Reserved.
    <media:description>👇【加入會員】立刻成為天才👇：https://www.youtube.com/channel/UC2lbb8vjQR64C6gHqD0_4OA/join</media:description>
    <media:community>
     <media:starRating count="4651" average="5.00" min="1" max="5"/>
-    <media:statistics views="146489"/>
+    <media:statistics views="146498"/>
    </media:community>
   </media:group>
  </entry>
@@ -353,7 +353,7 @@ Copyright © Nic Believe 你可敢信 All Rights Reserved.
 所有視頻禁止搬運，違者必究。</media:description>
    <media:community>
     <media:starRating count="5486" average="5.00" min="1" max="5"/>
-    <media:statistics views="169155"/>
+    <media:statistics views="169151"/>
    </media:community>
   </media:group>
  </entry>
@@ -461,7 +461,7 @@ Copyright © Nic Believe 你可敢信 All Rights Reserved.
 所有視頻禁止搬運，違者必究。</media:description>
    <media:community>
     <media:starRating count="3477" average="5.00" min="1" max="5"/>
-    <media:statistics views="117739"/>
+    <media:statistics views="117740"/>
    </media:community>
   </media:group>
  </entry>
@@ -677,7 +677,7 @@ Copyright © Nic Believe 你可敢信 All Rights Reserved.
 所有視頻禁止搬運，違者必究。</media:description>
    <media:community>
     <media:starRating count="2765" average="5.00" min="1" max="5"/>
-    <media:statistics views="74235"/>
+    <media:statistics views="74236"/>
    </media:community>
   </media:group>
  </entry>
@@ -785,7 +785,7 @@ Copyright © Nic Believe 你可敢信 All Rights Reserved.
 所有視頻禁止搬運，違者必究。</media:description>
    <media:community>
     <media:starRating count="3788" average="5.00" min="1" max="5"/>
-    <media:statistics views="151637"/>
+    <media:statistics views="151640"/>
    </media:community>
   </media:group>
  </entry>
@@ -893,7 +893,7 @@ Copyright © Nic Believe 你可敢信 All Rights Reserved.
 所有視頻禁止搬運，違者必究。</media:description>
    <media:community>
     <media:starRating count="4108" average="5.00" min="1" max="5"/>
-    <media:statistics views="147859"/>
+    <media:statistics views="147858"/>
    </media:community>
   </media:group>
  </entry>
@@ -1071,7 +1071,7 @@ Copyright © Nic Believe 你可敢信 All Rights Reserved.
 #史威登堡</media:description>
    <media:community>
     <media:starRating count="5596" average="5.00" min="1" max="5"/>
-    <media:statistics views="195580"/>
+    <media:statistics views="195581"/>
    </media:community>
   </media:group>
  </entry>
@@ -1159,7 +1159,7 @@ Copyright © Nic Believe 你可敢信 All Rights Reserved.
 #蜥蜴人訪談錄</media:description>
    <media:community>
     <media:starRating count="4643" average="5.00" min="1" max="5"/>
-    <media:statistics views="145430"/>
+    <media:statistics views="145431"/>
    </media:community>
   </media:group>
  </entry>

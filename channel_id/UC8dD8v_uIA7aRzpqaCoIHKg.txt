@@ -38,8 +38,8 @@ https://kexuehuojianshu.page.link/Dingyue
 
 #科学火箭叔#桥墩#跨海大桥#科普#文化</media:description>
    <media:community>
-    <media:starRating count="831" average="5.00" min="1" max="5"/>
-    <media:statistics views="28452"/>
+    <media:starRating count="834" average="5.00" min="1" max="5"/>
+    <media:statistics views="28463"/>
    </media:community>
   </media:group>
  </entry>
@@ -72,7 +72,7 @@ https://kexuehuojianshu.page.link/Dingyue
 #科学火箭叔#集装箱船#船刹车#科普#文化</media:description>
    <media:community>
     <media:starRating count="582" average="5.00" min="1" max="5"/>
-    <media:statistics views="22708"/>
+    <media:statistics views="22713"/>
    </media:community>
   </media:group>
  </entry>
@@ -137,8 +137,8 @@ https://kexuehuojianshu.page.link/Dingyue
 
 #科学火箭叔#科普#文化</media:description>
    <media:community>
-    <media:starRating count="384" average="5.00" min="1" max="5"/>
-    <media:statistics views="23844"/>
+    <media:starRating count="385" average="5.00" min="1" max="5"/>
+    <media:statistics views="23855"/>
    </media:community>
   </media:group>
  </entry>
@@ -171,7 +171,7 @@ https://kexuehuojianshu.page.link/Dingyue
 #科学火箭叔#科普#文化</media:description>
    <media:community>
     <media:starRating count="810" average="5.00" min="1" max="5"/>
-    <media:statistics views="63649"/>
+    <media:statistics views="63678"/>
    </media:community>
   </media:group>
  </entry>
@@ -270,7 +270,7 @@ https://kexuehuojianshu.page.link/Dingyue
 #科学火箭叔#螺旋桨#科普#文化</media:description>
    <media:community>
     <media:starRating count="284" average="5.00" min="1" max="5"/>
-    <media:statistics views="13224"/>
+    <media:statistics views="13226"/>
    </media:community>
   </media:group>
  </entry>
@@ -336,7 +336,7 @@ https://kexuehuojianshu.page.link/Dingyue
 #科学火箭叔#球鼻首#科普#文化</media:description>
    <media:community>
     <media:starRating count="608" average="5.00" min="1" max="5"/>
-    <media:statistics views="39956"/>
+    <media:statistics views="39965"/>
    </media:community>
   </media:group>
  </entry>
@@ -435,7 +435,7 @@ https://kexuehuojianshu.page.link/Dingyue
 #科学火箭叔#萤火虫#科普#文化</media:description>
    <media:community>
     <media:starRating count="306" average="5.00" min="1" max="5"/>
-    <media:statistics views="8952"/>
+    <media:statistics views="8958"/>
    </media:community>
   </media:group>
  </entry>
@@ -501,7 +501,7 @@ https://kexuehuojianshu.page.link/Dingyue
 #科学火箭叔#弯曲金字塔#金字塔#科普#文化</media:description>
    <media:community>
     <media:starRating count="313" average="5.00" min="1" max="5"/>
-    <media:statistics views="13046"/>
+    <media:statistics views="13044"/>
    </media:community>
   </media:group>
  </entry>

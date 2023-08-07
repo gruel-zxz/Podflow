@@ -53,8 +53,8 @@ https://www.youtube.com/channel/UCgo_-fjJxnLwwwq5dSY72rg/join
 播放第九（炭疽）→https://youtu.be/qr4J89p2CHY
 播放第十（近親繁殖）→ https://youtu.be/lvB9sYIWEDY</media:description>
    <media:community>
-    <media:starRating count="11849" average="5.00" min="1" max="5"/>
-    <media:statistics views="452682"/>
+    <media:starRating count="11853" average="5.00" min="1" max="5"/>
+    <media:statistics views="452880"/>
    </media:community>
   </media:group>
  </entry>
@@ -93,7 +93,7 @@ https://www.youtube.com/channel/UCgo_-fjJxnLwwwq5dSY72rg/join
 ————————————————</media:description>
    <media:community>
     <media:starRating count="3554" average="5.00" min="1" max="5"/>
-    <media:statistics views="101660"/>
+    <media:statistics views="101678"/>
    </media:community>
   </media:group>
  </entry>
@@ -126,7 +126,7 @@ https://www.youtube.com/channel/UCgo_-fjJxnLwwwq5dSY72rg/join
 ————————————————
 →→如果你喜歡，記得訂閱我的頻道哦：https://bit.ly/2GVplYr</media:description>
    <media:community>
-    <media:starRating count="3239" average="5.00" min="1" max="5"/>
+    <media:starRating count="3241" average="5.00" min="1" max="5"/>
     <media:statistics views="93512"/>
    </media:community>
   </media:group>
@@ -345,7 +345,7 @@ https://www.youtube.com/channel/UCgo_-fjJxnLwwwq5dSY72rg/join
 播放第七（南迦巴瓦）→https://youtu.be/ZE0wUZJHqCM</media:description>
    <media:community>
     <media:starRating count="13613" average="5.00" min="1" max="5"/>
-    <media:statistics views="667664"/>
+    <media:statistics views="667667"/>
    </media:community>
   </media:group>
  </entry>
@@ -387,7 +387,7 @@ https://www.youtube.com/channel/UCgo_-fjJxnLwwwq5dSY72rg/join
 播放第三（虹橋）→https://youtu.be/sPFk_SVNYgA</media:description>
    <media:community>
     <media:starRating count="31248" average="5.00" min="1" max="5"/>
-    <media:statistics views="1331073"/>
+    <media:statistics views="1331091"/>
    </media:community>
   </media:group>
  </entry>
@@ -429,7 +429,7 @@ https://www.youtube.com/channel/UCgo_-fjJxnLwwwq5dSY72rg/join
 播放第三（虹橋）→https://youtu.be/sPFk_SVNYgA</media:description>
    <media:community>
     <media:starRating count="12666" average="5.00" min="1" max="5"/>
-    <media:statistics views="344095"/>
+    <media:statistics views="344101"/>
    </media:community>
   </media:group>
  </entry>
@@ -648,7 +648,7 @@ https://www.youtube.com/channel/UCgo_-fjJxnLwwwq5dSY72rg/join
 播放第二（榫卯）→https://youtu.be/QJMgCuQqxS4
 播放第三（虹橋）→https://youtu.be/sPFk_SVNYgA</media:description>
    <media:community>
-    <media:starRating count="9357" average="5.00" min="1" max="5"/>
+    <media:starRating count="9358" average="5.00" min="1" max="5"/>
     <media:statistics views="358105"/>
    </media:community>
   </media:group>

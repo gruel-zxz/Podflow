@@ -29,7 +29,7 @@
    <media:description>你们的家乡同胞都热衷干什么呢#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="10" average="5.00" min="1" max="5"/>
-    <media:statistics views="587"/>
+    <media:statistics views="585"/>
    </media:community>
   </media:group>
  </entry>
@@ -328,7 +328,7 @@
    <media:description>在山东，饭可以使劲吃，但是人不能随便叫#爱吐槽的四季妈妈#家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="28" average="5.00" min="1" max="5"/>
-    <media:statistics views="1357"/>
+    <media:statistics views="1358"/>
    </media:community>
   </media:group>
  </entry>
@@ -351,7 +351,7 @@
    <media:description>伟大的钓手这五个字可不是随便叫的，人家实至名归#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="233" average="5.00" min="1" max="5"/>
-    <media:statistics views="12602"/>
+    <media:statistics views="12599"/>
    </media:community>
   </media:group>
  </entry>
