@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCIF_gt4BfsWyM_2GOcKXyEQ"/>
+ <id>yt:channel:</id>
+ <yt:channelId></yt:channelId>
+ <title>啾啾鞋</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UCIF_gt4BfsWyM_2GOcKXyEQ"/>
+ <author>
+  <name>啾啾鞋</name>
+  <uri>https://www.youtube.com/channel/UCIF_gt4BfsWyM_2GOcKXyEQ</uri>
+ </author>
+ <published>2013-08-01T00:55:14+00:00</published>
+ <entry>
+  <id>yt:video:7Sr65OdO3Jo</id>
+  <yt:videoId>7Sr65OdO3Jo</yt:videoId>
+  <yt:channelId>UCIF_gt4BfsWyM_2GOcKXyEQ</yt:channelId>
+  <title>【最新消息】常溫常壓超導體問世！？韓國科學家最新研究！人類即將出現全新科技樹！</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=7Sr65OdO3Jo"/>
+  <author>
+   <name>啾啾鞋</name>
+   <uri>https://www.youtube.com/channel/UCIF_gt4BfsWyM_2GOcKXyEQ</uri>
+  </author>
+  <published>2023-07-27T11:38:30+00:00</published>
+  <updated>2023-07-29T06:25:43+00:00</updated>
+  <media:group>
+   <media:title>【最新消息】常溫常壓超導體問世！？韓國科學家最新研究！人類即將出現全新科技樹！</media:title>
+   <media:content url="https://www.youtube.com/v/7Sr65OdO3Jo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/7Sr65OdO3Jo/hqdefault.jpg" width="480" height="360"/>
+   <media:description>這兩天全世界科學界最熱門的話題，韓國科學家宣稱研發出常溫常壓超導體，而且合成方式還超簡單，高中生都做得出來！如果經過其他實驗室驗證為真，將大大改變人類的科技發展！
+論文網址：https://arxiv.org/abs/2307.12008
+https://arxiv.org/abs/2307.12037
+
+歡迎加入會員▶ 
+ https://www.youtube.com/channel/UCIF_gt4BfsWyM_2GOcKXyEQ/join
+
+
+▼啾啾鞋的人氣影片▼
+《32街的偽鈔天才》偽鈔大師的故事
+https://youtu.be/9lKe9irDIDw
+Chrome小恐龍的秘密！
+https://youtu.be/besQJCZ20j4
+【踩地雷】遊戲中的秘密
+https://youtu.be/ZOoXpoHpFHo
+俄羅斯方塊也有世界冠軍！？
+https://youtu.be/Dh9VaezvVnU
+馬來西亞「一馬弊案」！
+https://youtu.be/eWuTpwEZw-8
+
+
+
+
+粉絲專頁:https://www.facebook.com/chuchushoeTW
+Instagram:http://instagram.com/chuchushoetw
+Twitter:https://twitter.com/chuchushoeTW</media:description>
+   <media:community>
+    <media:starRating count="42450" average="5.00" min="1" max="5"/>
+    <media:statistics views="1498877"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:bvMBsyrkauo</id>
+  <yt:videoId>bvMBsyrkauo</yt:videoId>
+  <yt:channelId>UCIF_gt4BfsWyM_2GOcKXyEQ</yt:channelId>
+  <title>你有打過嗎？AZ如何從一間瑞典小藥廠，經歷破產後浴火重生，成為世界生物製藥的巨頭！｜巨頭的起源｜啾啾鞋</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=bvMBsyrkauo"/>
+  <author>
+   <name>啾啾鞋</name>
+   <uri>https://www.youtube.com/channel/UCIF_gt4BfsWyM_2GOcKXyEQ</uri>
+  </author>
+  <published>2023-07-21T10:30:22+00:00</published>
+  <updated>2023-08-03T17:03:24+00:00</updated>
+  <media:group>
+   <media:title>你有打過嗎？AZ如何從一間瑞典小藥廠，經歷破產後浴火重生，成為世界生物製藥的巨頭！｜巨頭的起源｜啾啾鞋</media:title>
+   <media:content url="https://www.youtube.com/v/bvMBsyrkauo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/bvMBsyrkauo/hqdefault.jpg" width="480" height="360"/>
+   <media:description>原本只是一家瑞典小藥廠的Astra公司，是如何在破產後重振旗鼓，又是如何遇上難兄難弟Zeneca，兩間公司最終合併為AstraZeneca，並成長為今日的製藥巨頭的？
+歡迎加入會員▶ 
+ https://www.youtube.com/channel/UCIF_gt4BfsWyM_2GOcKXyEQ/join
+
+▼啾啾鞋的人氣影片▼
+《32街的偽鈔天才》偽鈔大師的故事
+https://youtu.be/9lKe9irDIDw
+Chrome小恐龍的秘密！
+https://youtu.be/besQJCZ20j4
+【踩地雷】遊戲中的秘密
+https://youtu.be/ZOoXpoHpFHo
+俄羅斯方塊也有世界冠軍！？
+https://youtu.be/Dh9VaezvVnU
+馬來西亞「一馬弊案」！
+https://youtu.be/eWuTpwEZw-8
+
+
+
+
+粉絲專頁:https://www.facebook.com/chuchushoeTW
+Instagram:http://instagram.com/chuchushoetw
+Twitter:https://twitter.com/chuchushoeTW</media:description>
+   <media:community>
+    <media:starRating count="3040" average="5.00" min="1" max="5"/>
+    <media:statistics views="112417"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:5SSnC9COzl8</id>
+  <yt:videoId>5SSnC9COzl8</yt:videoId>
+  <yt:channelId>UCIF_gt4BfsWyM_2GOcKXyEQ</yt:channelId>
+  <title>猴子射氣球能玩成這樣!? 從頭到尾看不到一顆氣球!!｜神扯電玩｜啾啾鞋</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=5SSnC9COzl8"/>
+  <author>
+   <name>啾啾鞋</name>
+   <uri>https://www.youtube.com/channel/UCIF_gt4BfsWyM_2GOcKXyEQ</uri>
+  </author>
+  <published>2023-07-04T10:30:02+00:00</published>
+  <updated>2023-07-11T17:23:48+00:00</updated>
+  <media:group>
+   <media:title>猴子射氣球能玩成這樣!? 從頭到尾看不到一顆氣球!!｜神扯電玩｜啾啾鞋</media:title>
+   <media:content url="https://www.youtube.com/v/5SSnC9COzl8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/5SSnC9COzl8/hqdefault.jpg" width="480" height="360"/>
+   <media:description>小時候常玩的氣球塔防(猴子射氣球)，它的開發過程、歷史演進，以及世界紀錄玩家可以把這遊戲玩到什麼程度！？
+歡迎加入會員▶ 
+ https://www.youtube.com/channel/UCIF_gt4BfsWyM_2GOcKXyEQ/join
+
+▼啾啾鞋的人氣影片▼
+《32街的偽鈔天才》偽鈔大師的故事
+https://youtu.be/9lKe9irDIDw
+Chrome小恐龍的秘密！
+https://youtu.be/besQJCZ20j4
+【踩地雷】遊戲中的秘密
+https://youtu.be/ZOoXpoHpFHo
+俄羅斯方塊也有世界冠軍！？
+https://youtu.be/Dh9VaezvVnU
+馬來西亞「一馬弊案」！
+https://youtu.be/eWuTpwEZw-8
+
+
+
+
+粉絲專頁:https://www.facebook.com/chuchushoeTW
+Instagram:http://instagram.com/chuchushoetw
+Twitter:https://twitter.com/chuchushoeTW</media:description>
+   <media:community>
+    <media:starRating count="7965" average="5.00" min="1" max="5"/>
+    <media:statistics views="471084"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:iqrGNOCp5Cg</id>
+  <yt:videoId>iqrGNOCp5Cg</yt:videoId>
+  <yt:channelId>UCIF_gt4BfsWyM_2GOcKXyEQ</yt:channelId>
+  <title>連定存都可以騙到80億美元！僅次於馬多夫的龐氏騙局之王！史丹佛金融集團詐騙案</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=iqrGNOCp5Cg"/>
+  <author>
+   <name>啾啾鞋</name>
+   <uri>https://www.youtube.com/channel/UCIF_gt4BfsWyM_2GOcKXyEQ</uri>
+  </author>
+  <published>2023-06-16T10:30:23+00:00</published>
+  <updated>2023-06-17T05:45:47+00:00</updated>
+  <media:group>
+   <media:title>連定存都可以騙到80億美元！僅次於馬多夫的龐氏騙局之王！史丹佛金融集團詐騙案</media:title>
+   <media:content url="https://www.youtube.com/v/iqrGNOCp5Cg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/iqrGNOCp5Cg/hqdefault.jpg" width="480" height="360"/>
+   <media:description>這次介紹的是僅次於馬多夫的龐氏諞局案件－史丹佛金融集團案。他的龐氏騙局主軸居然只是平凡無奇的「定存」!? 到底一個來自德州小鎮的小伙子，是如何開銀行、詐騙高達80億美元的呢？
+拉蓓神氣透亮飲，讓你發揮100分的實力 👉 https://www.labelle.cc/product.php?cid=18
+
+歡迎加入會員▶ 
+ https://www.youtube.com/channel/UCIF_gt4BfsWyM_2GOcKXyEQ/join
+
+▼啾啾鞋的人氣影片▼
+《32街的偽鈔天才》偽鈔大師的故事
+https://youtu.be/9lKe9irDIDw
+Chrome小恐龍的秘密！
+https://youtu.be/besQJCZ20j4
+【踩地雷】遊戲中的秘密
+https://youtu.be/ZOoXpoHpFHo
+俄羅斯方塊也有世界冠軍！？
+https://youtu.be/Dh9VaezvVnU
+馬來西亞「一馬弊案」！
+https://youtu.be/eWuTpwEZw-8
+
+
+
+
+粉絲專頁:https://www.facebook.com/chuchushoeTW
+Instagram:http://instagram.com/chuchushoetw
+Twitter:https://twitter.com/chuchushoeTW</media:description>
+   <media:community>
+    <media:starRating count="8472" average="5.00" min="1" max="5"/>
+    <media:statistics views="425190"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:I-asoKsZjHs</id>
+  <yt:videoId>I-asoKsZjHs</yt:videoId>
+  <yt:channelId>UCIF_gt4BfsWyM_2GOcKXyEQ</yt:channelId>
+  <title>看似平凡的中年大叔，只憑一人犯下新加坡史上最高金額商業詐欺案！</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=I-asoKsZjHs"/>
+  <author>
+   <name>啾啾鞋</name>
+   <uri>https://www.youtube.com/channel/UCIF_gt4BfsWyM_2GOcKXyEQ</uri>
+  </author>
+  <published>2023-06-02T10:30:04+00:00</published>
+  <updated>2023-06-16T08:34:50+00:00</updated>
+  <media:group>
+   <media:title>看似平凡的中年大叔，只憑一人犯下新加坡史上最高金額商業詐欺案！</media:title>
+   <media:content url="https://www.youtube.com/v/I-asoKsZjHs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/I-asoKsZjHs/hqdefault.jpg" width="480" height="360"/>
+   <media:description>這次介紹的是新加坡有史以來金額最高的商業詐欺案件，一位看似平凡的中年大叔，領著高階白領的薪水、有一個幸福美滿的家庭，但卻隱藏著不為人知的另一面，讓他犯下這起罪行...
+歡迎加入會員▶ 
+ https://www.youtube.com/channel/UCIF_gt4BfsWyM_2GOcKXyEQ/join
+
+▼啾啾鞋的人氣影片▼
+《32街的偽鈔天才》偽鈔大師的故事
+https://youtu.be/9lKe9irDIDw
+Chrome小恐龍的秘密！
+https://youtu.be/besQJCZ20j4
+【踩地雷】遊戲中的秘密
+https://youtu.be/ZOoXpoHpFHo
+俄羅斯方塊也有世界冠軍！？
+https://youtu.be/Dh9VaezvVnU
+馬來西亞「一馬弊案」！
+https://youtu.be/eWuTpwEZw-8
+
+0:00 前言
+0:14 白領階級的天花板
+2:13 賭場的誘惑
+4:07 賭徒心態
+5:16 五鬼搬運
+7:35 幸運星
+8:42 事跡敗露
+10:58 結語
+
+
+粉絲專頁:https://www.facebook.com/chuchushoeTW
+Instagram:http://instagram.com/chuchushoetw
+Twitter:https://twitter.com/chuchushoeTW</media:description>
+   <media:community>
+    <media:starRating count="7123" average="5.00" min="1" max="5"/>
+    <media:statistics views="361709"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:QHcbfiqT6Jc</id>
+  <yt:videoId>QHcbfiqT6Jc</yt:videoId>
+  <yt:channelId>UCIF_gt4BfsWyM_2GOcKXyEQ</yt:channelId>
+  <title>一種潛藏在你記憶深處的設計風格－Frutiger Aero｜啾啾鞋</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=QHcbfiqT6Jc"/>
+  <author>
+   <name>啾啾鞋</name>
+   <uri>https://www.youtube.com/channel/UCIF_gt4BfsWyM_2GOcKXyEQ</uri>
+  </author>
+  <published>2023-05-26T10:30:16+00:00</published>
+  <updated>2023-07-22T06:09:46+00:00</updated>
+  <media:group>
+   <media:title>一種潛藏在你記憶深處的設計風格－Frutiger Aero｜啾啾鞋</media:title>
+   <media:content url="https://www.youtube.com/v/QHcbfiqT6Jc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/QHcbfiqT6Jc/hqdefault.jpg" width="480" height="360"/>
+   <media:description>最近在國外看到滿多人注意到這種，大約十幾年前很流行的設計風格，覺得滿有意思的，沒想到這種我還歷歷在目的設計風格，如今已經快變成一種懷舊了嗎？
+歡迎加入會員▶ 
+ https://www.youtube.com/channel/UCIF_gt4BfsWyM_2GOcKXyEQ/join
+
+▼啾啾鞋的人氣影片▼
+《32街的偽鈔天才》偽鈔大師的故事
+https://youtu.be/9lKe9irDIDw
+Chrome小恐龍的秘密！
+https://youtu.be/besQJCZ20j4
+【踩地雷】遊戲中的秘密
+https://youtu.be/ZOoXpoHpFHo
+俄羅斯方塊也有世界冠軍！？
+https://youtu.be/Dh9VaezvVnU
+馬來西亞「一馬弊案」！
+https://youtu.be/eWuTpwEZw-8
+
+
+
+
+粉絲專頁:https://www.facebook.com/chuchushoeTW
+Instagram:http://instagram.com/chuchushoetw
+Twitter:https://twitter.com/chuchushoeTW</media:description>
+   <media:community>
+    <media:starRating count="8501" average="5.00" min="1" max="5"/>
+    <media:statistics views="208477"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:MntW10-wrVY</id>
+  <yt:videoId>MntW10-wrVY</yt:videoId>
+  <yt:channelId>UCIF_gt4BfsWyM_2GOcKXyEQ</yt:channelId>
+  <title>整理房間結果發現一堆中二回憶…</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=MntW10-wrVY"/>
+  <author>
+   <name>啾啾鞋</name>
+   <uri>https://www.youtube.com/channel/UCIF_gt4BfsWyM_2GOcKXyEQ</uri>
+  </author>
+  <published>2023-05-19T10:30:11+00:00</published>
+  <updated>2023-07-22T10:25:37+00:00</updated>
+  <media:group>
+   <media:title>整理房間結果發現一堆中二回憶…</media:title>
+   <media:content url="https://www.youtube.com/v/MntW10-wrVY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/MntW10-wrVY/hqdefault.jpg" width="480" height="360"/>
+   <media:description>最近女兒開始上鋼琴課，為了放她的鋼琴，我也就順便把堆了一堆雜物的房間整理一下，翻出了很多奇怪的東西...
+現在購買DEZCTOP升降桌，使用專屬優惠碼「CHU10」就可以享有優惠～
+DEZCTOP升降桌看這裡 ▶ https://dzt.pse.is/4xmpty
+內建大容量整線槽，輕鬆收納沒煩惱
+高品質大空間桌板，防刮耐磨無甲醛
+D-Board背板神擴充，多樣配件任你挑
+
+Your Desk, Your Way
+
+0:00 為什麼突然要整理房間
+1:54 開始整理
+2:03 椪糖道具
+2:28 綁腿沙包
+3:07 遊戲機紙箱
+3:29 YouTuber整理家裡一定要出現的東西
+3:41 錄影帶跟放映機
+4:13 百萬訂閱獎牌
+4:32 有機化學實驗記錄簿
+4:57 咖波簽名
+5:05 高中用的手機
+5:29 戰鬥陀螺
+6:14 mp3播放器
+6:58 升降桌組裝
+7:52 升降桌介紹
+9:59 組裝鋼琴
+12:00 麻糬看到鋼琴的反應
+13:56 想跟麻糬說的話
+
+歡迎加入會員▶ 
+ https://www.youtube.com/channel/UCIF_gt4BfsWyM_2GOcKXyEQ/join
+
+▼啾啾鞋的人氣影片▼
+《32街的偽鈔天才》偽鈔大師的故事
+https://youtu.be/9lKe9irDIDw
+Chrome小恐龍的秘密！
+https://youtu.be/besQJCZ20j4
+【踩地雷】遊戲中的秘密
+https://youtu.be/ZOoXpoHpFHo
+俄羅斯方塊也有世界冠軍！？
+https://youtu.be/Dh9VaezvVnU
+馬來西亞「一馬弊案」！
+https://youtu.be/eWuTpwEZw-8
+
+
+
+
+粉絲專頁:https://www.facebook.com/chuchushoeTW
+Instagram:http://instagram.com/chuchushoetw
+Twitter:https://twitter.com/chuchushoeTW</media:description>
+   <media:community>
+    <media:starRating count="4318" average="5.00" min="1" max="5"/>
+    <media:statistics views="135849"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:vYgMcxgqUEU</id>
+  <yt:videoId>vYgMcxgqUEU</yt:videoId>
+  <yt:channelId>UCIF_gt4BfsWyM_2GOcKXyEQ</yt:channelId>
+  <title>用25萬讓AI幫我買股票！ChatGPT挑的股票會賺錢嗎！？｜瘋狂韭宮格 第三彈｜啾啾鞋</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=vYgMcxgqUEU"/>
+  <author>
+   <name>啾啾鞋</name>
+   <uri>https://www.youtube.com/channel/UCIF_gt4BfsWyM_2GOcKXyEQ</uri>
+  </author>
+  <published>2023-05-10T10:30:27+00:00</published>
+  <updated>2023-06-11T16:30:57+00:00</updated>
+  <media:group>
+   <media:title>用25萬讓AI幫我買股票！ChatGPT挑的股票會賺錢嗎！？｜瘋狂韭宮格 第三彈｜啾啾鞋</media:title>
+   <media:content url="https://www.youtube.com/v/vYgMcxgqUEU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/vYgMcxgqUEU/hqdefault.jpg" width="480" height="360"/>
+   <media:description>最近AI話題很熱門，AI選股也已經不是新鮮事。然而要讓Bing的AI幫忙挑選股票，還是需要一些特殊方式繞過去，實際測試後到底能不能賺錢呢！？
+歡迎加入會員▶ 
+ https://www.youtube.com/channel/UCIF_gt4BfsWyM_2GOcKXyEQ/join
+
+▼啾啾鞋的人氣影片▼
+《32街的偽鈔天才》偽鈔大師的故事
+https://youtu.be/9lKe9irDIDw
+Chrome小恐龍的秘密！
+https://youtu.be/besQJCZ20j4
+【踩地雷】遊戲中的秘密
+https://youtu.be/ZOoXpoHpFHo
+俄羅斯方塊也有世界冠軍！？
+https://youtu.be/Dh9VaezvVnU
+馬來西亞「一馬弊案」！
+https://youtu.be/eWuTpwEZw-8
+
+0:00 AI韭宮格
+1:02 開始與AI對話
+1:43 套話AI
+3:18 修改選股條件
+5:54 AI推薦標的錯誤內容
+7:19 買進股票
+7:57 個股分析與股癌觀點分享
+10:37 賣出股票與檢討
+13:16 心得感想
+
+
+
+
+
+粉絲專頁:https://www.facebook.com/chuchushoeTW
+Instagram:http://instagram.com/chuchushoetw
+Twitter:https://twitter.com/chuchushoeTW</media:description>
+   <media:community>
+    <media:starRating count="4843" average="5.00" min="1" max="5"/>
+    <media:statistics views="233260"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:IaC-Js3oHsw</id>
+  <yt:videoId>IaC-Js3oHsw</yt:videoId>
+  <yt:channelId>UCIF_gt4BfsWyM_2GOcKXyEQ</yt:channelId>
+  <title>這部影片比「冠希阿北」對比圖還要狠...</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=IaC-Js3oHsw"/>
+  <author>
+   <name>啾啾鞋</name>
+   <uri>https://www.youtube.com/channel/UCIF_gt4BfsWyM_2GOcKXyEQ</uri>
+  </author>
+  <published>2023-04-28T10:30:14+00:00</published>
+  <updated>2023-07-02T19:11:50+00:00</updated>
+  <media:group>
+   <media:title>這部影片比「冠希阿北」對比圖還要狠...</media:title>
+   <media:content url="https://www.youtube.com/v/IaC-Js3oHsw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/IaC-Js3oHsw/hqdefault.jpg" width="480" height="360"/>
+   <media:description>FOREO洗臉機優惠中，請參考網站：https://foreo.se/ChuYTM
+這次我找了6套帥哥們實際穿搭過的範例，完全照搬他們的穿法，真的能像他們一樣帥嗎？
+
+歡迎加入會員▶ 
+ https://www.youtube.com/channel/UCIF_gt4BfsWyM_2GOcKXyEQ/join
+
+▼啾啾鞋的人氣影片▼
+《32街的偽鈔天才》偽鈔大師的故事
+https://youtu.be/9lKe9irDIDw
+Chrome小恐龍的秘密！
+https://youtu.be/besQJCZ20j4
+【踩地雷】遊戲中的秘密
+https://youtu.be/ZOoXpoHpFHo
+俄羅斯方塊也有世界冠軍！？
+https://youtu.be/Dh9VaezvVnU
+馬來西亞「一馬弊案」！
+https://youtu.be/eWuTpwEZw-8
+
+0:00 開場
+1:00 對照組
+1:44 第一套 綠色針織外套牛仔寬褲穿搭
+3:06 FOREO洗臉儀
+4:22 第二套 綠色外套穿搭
+5:54 第三套 瘦子運動風穿搭
+7:11 第四套 李到晛帽T襯衫穿搭
+8:36 第五套 南柱赫紅黑格紋高領毛衣穿搭
+9:52 FOREO洗臉儀
+12:10 心得感想
+13:44 第六套 車銀優牛仔外套黑白格紋襯衫穿搭
+
+
+粉絲專頁:https://www.facebook.com/chuchushoeTW
+Instagram:http://instagram.com/chuchushoetw
+Twitter:https://twitter.com/chuchushoeTW</media:description>
+   <media:community>
+    <media:starRating count="16882" average="5.00" min="1" max="5"/>
+    <media:statistics views="559287"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:etB3rKPFX7s</id>
+  <yt:videoId>etB3rKPFX7s</yt:videoId>
+  <yt:channelId>UCIF_gt4BfsWyM_2GOcKXyEQ</yt:channelId>
+  <title>創業還順便求婚的奇葩，是如何打造風靡全球的背包帝國？｜JanSport｜巨頭的起源</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=etB3rKPFX7s"/>
+  <author>
+   <name>啾啾鞋</name>
+   <uri>https://www.youtube.com/channel/UCIF_gt4BfsWyM_2GOcKXyEQ</uri>
+  </author>
+  <published>2023-04-21T10:30:17+00:00</published>
+  <updated>2023-06-11T08:07:20+00:00</updated>
+  <media:group>
+   <media:title>創業還順便求婚的奇葩，是如何打造風靡全球的背包帝國？｜JanSport｜巨頭的起源</media:title>
+   <media:content url="https://www.youtube.com/v/etB3rKPFX7s?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/etB3rKPFX7s/hqdefault.jpg" width="480" height="360"/>
+   <media:description>這次介紹的是許多人都背過、但即將撤出台灣市場的國民神包JanSport，其實背後有一段非常浪漫的創業故事，創辦人又經歷了許多風雨，最終才成就了現在的後背包帝國！
+歡迎加入會員▶https://www.youtube.com/channel/UCIF_gt4BfsWyM_2GOcKXyEQ/join
+
+▼啾啾鞋的人氣影片▼
+《32街的偽鈔天才》偽鈔大師的故事
+https://youtu.be/9lKe9irDIDw
+Chrome小恐龍的秘密！
+https://youtu.be/besQJCZ20j4
+【踩地雷】遊戲中的秘密
+https://youtu.be/ZOoXpoHpFHo
+俄羅斯方塊也有世界冠軍！？
+https://youtu.be/Dh9VaezvVnU
+馬來西亞「一馬弊案」！
+https://youtu.be/eWuTpwEZw-8
+
+
+
+
+粉絲專頁:https://www.facebook.com/chuchushoeTW
+Instagram:http://instagram.com/chuchushoetw
+Twitter:https://twitter.com/chuchushoeTW</media:description>
+   <media:community>
+    <media:starRating count="6627" average="5.00" min="1" max="5"/>
+    <media:statistics views="346819"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:zOAdGYcjo28</id>
+  <yt:videoId>zOAdGYcjo28</yt:videoId>
+  <yt:channelId>UCIF_gt4BfsWyM_2GOcKXyEQ</yt:channelId>
+  <title>納豆造型拼圖？只有六片拼起來會很難嗎？｜啾來試試｜啾啾鞋</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=zOAdGYcjo28"/>
+  <author>
+   <name>啾啾鞋</name>
+   <uri>https://www.youtube.com/channel/UCIF_gt4BfsWyM_2GOcKXyEQ</uri>
+  </author>
+  <published>2023-04-14T10:30:16+00:00</published>
+  <updated>2023-07-22T07:46:52+00:00</updated>
+  <media:group>
+   <media:title>納豆造型拼圖？只有六片拼起來會很難嗎？｜啾來試試｜啾啾鞋</media:title>
+   <media:content url="https://www.youtube.com/v/zOAdGYcjo28?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/zOAdGYcjo28/hqdefault.jpg" width="480" height="360"/>
+   <media:description>這次去日本玩，剛好看到這個納豆拼圖，感覺滿有趣的！雖然拼的過程並不難，但拼完後的儀式感還是滿滿，算是滿有趣味的一個拼圖！
+啾啾鞋整理資料的秘訣 ▶ https://bit.ly/2vi0urX
+
+▼啾啾鞋的人氣影片▼
+《32街的偽鈔天才》偽鈔大師的故事
+https://youtu.be/9lKe9irDIDw
+Chrome小恐龍的秘密！
+https://youtu.be/besQJCZ20j4
+【踩地雷】遊戲中的秘密
+https://youtu.be/ZOoXpoHpFHo
+俄羅斯方塊也有世界冠軍！？
+https://youtu.be/Dh9VaezvVnU
+馬來西亞「一馬弊案」！
+https://youtu.be/eWuTpwEZw-8
+
+
+
+
+粉絲專頁:https://www.facebook.com/chuchushoeTW
+Instagram:http://instagram.com/chuchushoetw
+Twitter:https://twitter.com/chuchushoeTW</media:description>
+   <media:community>
+    <media:starRating count="5051" average="5.00" min="1" max="5"/>
+    <media:statistics views="163865"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:fMpt4T90Wwk</id>
+  <yt:videoId>fMpt4T90Wwk</yt:videoId>
+  <yt:channelId>UCIF_gt4BfsWyM_2GOcKXyEQ</yt:channelId>
+  <title>《坦克大戰》世界紀錄！這款遊戲的前身與續作又有哪些？| Battle City | 神扯電玩 | 啾啾鞋</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=fMpt4T90Wwk"/>
+  <author>
+   <name>啾啾鞋</name>
+   <uri>https://www.youtube.com/channel/UCIF_gt4BfsWyM_2GOcKXyEQ</uri>
+  </author>
+  <published>2023-04-07T10:30:17+00:00</published>
+  <updated>2023-06-14T12:23:44+00:00</updated>
+  <media:group>
+   <media:title>《坦克大戰》世界紀錄！這款遊戲的前身與續作又有哪些？| Battle City | 神扯電玩 | 啾啾鞋</media:title>
+   <media:content url="https://www.youtube.com/v/fMpt4T90Wwk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/fMpt4T90Wwk/hqdefault.jpg" width="480" height="360"/>
+   <media:description>免費暢玩電腦版《戰車世界》: https://tanks.ly/40j2IDm
+使用邀請碼 [COMBAT] 就可以獲得一輛六階加值戰車 (Cromwell B)、三輛六階租賃戰車 (Tiger 131, T78, Type 64) 與25萬銀幣，還有七天加值帳號!家機跟手機版也有得玩!快點註冊並免費下載吧!
+這次介紹的是《Battle City》這個老遊戲，它的前身與後續作品，以及Speedrun的各種紀錄，真的十分有趣，我也是第一次知道它的續作，看起來真的滿好玩的呢！
+
+
+啾啾鞋整理資料的秘訣 ▶ https://bit.ly/2vi0urX
+
+▼啾啾鞋的人氣影片▼
+《32街的偽鈔天才》偽鈔大師的故事
+https://youtu.be/9lKe9irDIDw
+Chrome小恐龍的秘密！
+https://youtu.be/besQJCZ20j4
+【踩地雷】遊戲中的秘密
+https://youtu.be/ZOoXpoHpFHo
+俄羅斯方塊也有世界冠軍！？
+https://youtu.be/Dh9VaezvVnU
+馬來西亞「一馬弊案」！
+https://youtu.be/eWuTpwEZw-8
+
+
+
+
+粉絲專頁:https://www.facebook.com/chuchushoeTW
+Instagram:http://instagram.com/chuchushoetw
+Twitter:https://twitter.com/chuchushoeTW</media:description>
+   <media:community>
+    <media:starRating count="4587" average="5.00" min="1" max="5"/>
+    <media:statistics views="200397"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Wz96__iXXYI</id>
+  <yt:videoId>Wz96__iXXYI</yt:videoId>
+  <yt:channelId>UCIF_gt4BfsWyM_2GOcKXyEQ</yt:channelId>
+  <title>職業格鬥選手打枕頭仗會是什麼場面？#shorts</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Wz96__iXXYI"/>
+  <author>
+   <name>啾啾鞋</name>
+   <uri>https://www.youtube.com/channel/UCIF_gt4BfsWyM_2GOcKXyEQ</uri>
+  </author>
+  <published>2023-04-04T05:55:03+00:00</published>
+  <updated>2023-06-11T01:18:52+00:00</updated>
+  <media:group>
+   <media:title>職業格鬥選手打枕頭仗會是什麼場面？#shorts</media:title>
+   <media:content url="https://www.youtube.com/v/Wz96__iXXYI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/Wz96__iXXYI/hqdefault.jpg" width="480" height="360"/>
+   <media:description>啾啾鞋整理資料的秘訣 ▶ https://bit.ly/2vi0urX
+
+▼啾啾鞋的人氣影片▼
+《32街的偽鈔天才》偽鈔大師的故事
+https://youtu.be/9lKe9irDIDw
+Chrome小恐龍的秘密！
+https://youtu.be/besQJCZ20j4
+【踩地雷】遊戲中的秘密
+https://youtu.be/ZOoXpoHpFHo
+俄羅斯方塊也有世界冠軍！？
+https://youtu.be/Dh9VaezvVnU
+馬來西亞「一馬弊案」！
+https://youtu.be/eWuTpwEZw-8
+
+
+
+
+粉絲專頁:https://www.facebook.com/chuchushoeTW
+Instagram:http://instagram.com/chuchushoetw
+Twitter:https://twitter.com/chuchushoeTW</media:description>
+   <media:community>
+    <media:starRating count="3560" average="5.00" min="1" max="5"/>
+    <media:statistics views="86460"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:hlQJE2pCa1o</id>
+  <yt:videoId>hlQJE2pCa1o</yt:videoId>
+  <yt:channelId>UCIF_gt4BfsWyM_2GOcKXyEQ</yt:channelId>
+  <title>足球＋桌球＝？ #shorts</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=hlQJE2pCa1o"/>
+  <author>
+   <name>啾啾鞋</name>
+   <uri>https://www.youtube.com/channel/UCIF_gt4BfsWyM_2GOcKXyEQ</uri>
+  </author>
+  <published>2023-04-02T10:30:24+00:00</published>
+  <updated>2023-07-22T01:11:13+00:00</updated>
+  <media:group>
+   <media:title>足球＋桌球＝？ #shorts</media:title>
+   <media:content url="https://www.youtube.com/v/hlQJE2pCa1o?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/hlQJE2pCa1o/hqdefault.jpg" width="480" height="360"/>
+   <media:description>啾啾鞋整理資料的秘訣 ▶ https://bit.ly/2vi0urX
+
+▼啾啾鞋的人氣影片▼
+《32街的偽鈔天才》偽鈔大師的故事
+https://youtu.be/9lKe9irDIDw
+Chrome小恐龍的秘密！
+https://youtu.be/besQJCZ20j4
+【踩地雷】遊戲中的秘密
+https://youtu.be/ZOoXpoHpFHo
+俄羅斯方塊也有世界冠軍！？
+https://youtu.be/Dh9VaezvVnU
+馬來西亞「一馬弊案」！
+https://youtu.be/eWuTpwEZw-8
+
+
+
+
+粉絲專頁:https://www.facebook.com/chuchushoeTW
+Instagram:http://instagram.com/chuchushoetw
+Twitter:https://twitter.com/chuchushoeTW</media:description>
+   <media:community>
+    <media:starRating count="9082" average="5.00" min="1" max="5"/>
+    <media:statistics views="255440"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:hCRd2Ko2GCE</id>
+  <yt:videoId>hCRd2Ko2GCE</yt:videoId>
+  <yt:channelId>UCIF_gt4BfsWyM_2GOcKXyEQ</yt:channelId>
+  <title>為什麼瑞典的夜店不能隨便跳舞？#shorts</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=hCRd2Ko2GCE"/>
+  <author>
+   <name>啾啾鞋</name>
+   <uri>https://www.youtube.com/channel/UCIF_gt4BfsWyM_2GOcKXyEQ</uri>
+  </author>
+  <published>2023-04-01T09:46:32+00:00</published>
+  <updated>2023-06-08T05:02:20+00:00</updated>
+  <media:group>
+   <media:title>為什麼瑞典的夜店不能隨便跳舞？#shorts</media:title>
+   <media:content url="https://www.youtube.com/v/hCRd2Ko2GCE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/hCRd2Ko2GCE/hqdefault.jpg" width="480" height="360"/>
+   <media:description>啾啾鞋整理資料的秘訣 ▶ https://bit.ly/2vi0urX
+
+▼啾啾鞋的人氣影片▼
+《32街的偽鈔天才》偽鈔大師的故事
+https://youtu.be/9lKe9irDIDw
+Chrome小恐龍的秘密！
+https://youtu.be/besQJCZ20j4
+【踩地雷】遊戲中的秘密
+https://youtu.be/ZOoXpoHpFHo
+俄羅斯方塊也有世界冠軍！？
+https://youtu.be/Dh9VaezvVnU
+馬來西亞「一馬弊案」！
+https://youtu.be/eWuTpwEZw-8
+
+
+
+
+粉絲專頁:https://www.facebook.com/chuchushoeTW
+Instagram:http://instagram.com/chuchushoetw
+Twitter:https://twitter.com/chuchushoeTW</media:description>
+   <media:community>
+    <media:starRating count="3752" average="5.00" min="1" max="5"/>
+    <media:statistics views="113452"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>

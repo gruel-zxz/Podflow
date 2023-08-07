@@ -1,0 +1,936 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCvoBl4rnVsetDKA_Tdk-jeA"/>
+ <id>yt:channel:</id>
+ <yt:channelId></yt:channelId>
+ <title>曉涵哥來了</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA"/>
+ <author>
+  <name>曉涵哥來了</name>
+  <uri>https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA</uri>
+ </author>
+ <published>2016-10-27T05:36:30+00:00</published>
+ <entry>
+  <id>yt:video:dPL8gRBU8Jg</id>
+  <yt:videoId>dPL8gRBU8Jg</yt:videoId>
+  <yt:channelId>UCvoBl4rnVsetDKA_Tdk-jeA</yt:channelId>
+  <title>真實恐怖事件：潛水員遇見深埋水下270米的遇難者，打撈時竟遇到意外「曉涵哥來了」</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=dPL8gRBU8Jg"/>
+  <author>
+   <name>曉涵哥來了</name>
+   <uri>https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA</uri>
+  </author>
+  <published>2023-07-31T11:00:25+00:00</published>
+  <updated>2023-08-03T20:28:06+00:00</updated>
+  <media:group>
+   <media:title>真實恐怖事件：潛水員遇見深埋水下270米的遇難者，打撈時竟遇到意外「曉涵哥來了」</media:title>
+   <media:content url="https://www.youtube.com/v/dPL8gRBU8Jg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/dPL8gRBU8Jg/hqdefault.jpg" width="480" height="360"/>
+   <media:description>每年都有大量在水中溺亡的人，而將這些人打撈上來，充滿了各種危險，尤其是直面屍體的潛水，需要有異於常人的心裡承受能力。今天要講的就是一個既恐怖又讓人感動的故事。
+
+👀👀  我的這些影片或許你也有興趣 👇👇
+
+史上最奇葩國家👇
+https://youtu.be/xrk7qPj8yts
+
+科馬洛夫👇
+https://youtu.be/NkuNPdxveiY
+
+人猿混血部隊👇
+https://youtu.be/tJYVzo8tS1o
+--------------------------------------------------------------------------------------------
+🔥  這些影片在頻道最受歡迎 👇👇
+
+朝鮮神秘飯店👇
+https://youtu.be/cVlAxL2CXYg
+
+大和號戰艦👇
+https://youtu.be/AdxYuP1qbMY
+
+秦始皇陵👇
+https://youtu.be/BGxr6AS-6-o
+
+宇宙7級文明👇
+https://youtu.be/MTCrzBVNJjc
+
+邁克爾傑克遜的另一面👇
+https://youtu.be/p7W75SHpL9E
+
+野獸專車👇
+https://youtu.be/ACmijk6deMA
+
+日本啃老族👇
+https://youtu.be/nCFLqt71dKs
+
+--------------------------------------------------------------------------------------
+「探索地球，發現宇宙。
+我是曉涵哥，歡迎和我一起，做這世界的探尋者。」
+點擊下方訂閱👇👇👇
+https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA
+我的FB也開通了！歡迎大家關注，在這裡我會分享一些不一樣的生活碎片：https://www.facebook.com/xiaohange888
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+#曉涵哥來了 #education #knowledge #恐怖故事 #潛水員 #潛水員戴夫</media:description>
+   <media:community>
+    <media:starRating count="7522" average="5.00" min="1" max="5"/>
+    <media:statistics views="257357"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:GMbWLCNrh9s</id>
+  <yt:videoId>GMbWLCNrh9s</yt:videoId>
+  <yt:channelId>UCvoBl4rnVsetDKA_Tdk-jeA</yt:channelId>
+  <title>上世紀最大的核墜落事件，神秘物體攜帶核反應堆砸向地球，殘骸至今未找到「曉涵哥來了」</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=GMbWLCNrh9s"/>
+  <author>
+   <name>曉涵哥來了</name>
+   <uri>https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA</uri>
+  </author>
+  <published>2023-07-20T12:00:10+00:00</published>
+  <updated>2023-07-20T12:00:11+00:00</updated>
+  <media:group>
+   <media:title>上世紀最大的核墜落事件，神秘物體攜帶核反應堆砸向地球，殘骸至今未找到「曉涵哥來了」</media:title>
+   <media:content url="https://www.youtube.com/v/GMbWLCNrh9s?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/GMbWLCNrh9s/hqdefault.jpg" width="480" height="360"/>
+   <media:description>👀👀  我的這些影片或許你也有興趣 👇👇
+
+史上最奇葩國家👇
+https://youtu.be/xrk7qPj8yts
+
+科馬洛夫👇
+https://youtu.be/NkuNPdxveiY
+
+人猿混血部隊👇
+https://youtu.be/tJYVzo8tS1o
+--------------------------------------------------------------------------------------------
+🔥  這些影片在頻道最受歡迎 👇👇
+
+朝鮮神秘飯店👇
+https://youtu.be/cVlAxL2CXYg
+
+大和號戰艦👇
+https://youtu.be/AdxYuP1qbMY
+
+秦始皇陵👇
+https://youtu.be/BGxr6AS-6-o
+
+宇宙7級文明👇
+https://youtu.be/MTCrzBVNJjc
+
+邁克爾傑克遜的另一面👇
+https://youtu.be/p7W75SHpL9E
+
+野獸專車👇
+https://youtu.be/ACmijk6deMA
+
+日本啃老族👇
+https://youtu.be/nCFLqt71dKs
+
+--------------------------------------------------------------------------------------
+「探索地球，發現宇宙。
+我是曉涵哥，歡迎和我一起，做這世界的探尋者。」
+點擊下方訂閱👇👇👇
+https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA
+我的FB也開通了！歡迎大家關注，在這裡我會分享一些不一樣的生活碎片：https://www.facebook.com/xiaohange888
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+#曉涵哥來了 #education #knowledge</media:description>
+   <media:community>
+    <media:starRating count="5966" average="5.00" min="1" max="5"/>
+    <media:statistics views="222864"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:GHQtoghl_Hs</id>
+  <yt:videoId>GHQtoghl_Hs</yt:videoId>
+  <yt:channelId>UCvoBl4rnVsetDKA_Tdk-jeA</yt:channelId>
+  <title>恐怖的泰坦號事件，5名富豪被瞬間壓扁，背後的真實原因曝光「曉涵哥來了」</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=GHQtoghl_Hs"/>
+  <author>
+   <name>曉涵哥來了</name>
+   <uri>https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA</uri>
+  </author>
+  <published>2023-07-13T12:00:10+00:00</published>
+  <updated>2023-07-14T06:29:42+00:00</updated>
+  <media:group>
+   <media:title>恐怖的泰坦號事件，5名富豪被瞬間壓扁，背後的真實原因曝光「曉涵哥來了」</media:title>
+   <media:content url="https://www.youtube.com/v/GHQtoghl_Hs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/GHQtoghl_Hs/hqdefault.jpg" width="480" height="360"/>
+   <media:description>👀👀  我的這些影片或許你也有興趣 👇👇
+
+史上最奇葩國家👇
+https://youtu.be/xrk7qPj8yts
+
+科馬洛夫👇
+https://youtu.be/NkuNPdxveiY
+
+人猿混血部隊👇
+https://youtu.be/tJYVzo8tS1o
+--------------------------------------------------------------------------------------------
+🔥  這些影片在頻道最受歡迎 👇👇
+
+朝鮮神秘飯店👇
+https://youtu.be/cVlAxL2CXYg
+
+大和號戰艦👇
+https://youtu.be/AdxYuP1qbMY
+
+秦始皇陵👇
+https://youtu.be/BGxr6AS-6-o
+
+宇宙7級文明👇
+https://youtu.be/MTCrzBVNJjc
+
+邁克爾傑克遜的另一面👇
+https://youtu.be/p7W75SHpL9E
+
+野獸專車👇
+https://youtu.be/ACmijk6deMA
+
+日本啃老族👇
+https://youtu.be/nCFLqt71dKs
+
+--------------------------------------------------------------------------------------
+「探索地球，發現宇宙。
+我是曉涵哥，歡迎和我一起，做這世界的探尋者。」
+點擊下方訂閱👇👇👇
+https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA
+我的FB也開通了！歡迎大家關注，在這裡我會分享一些不一樣的生活碎片：https://www.facebook.com/xiaohange888
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+#曉涵哥來了 #education #knowledge</media:description>
+   <media:community>
+    <media:starRating count="7997" average="5.00" min="1" max="5"/>
+    <media:statistics views="328883"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:BFp-Q2ShV6U</id>
+  <yt:videoId>BFp-Q2ShV6U</yt:videoId>
+  <yt:channelId>UCvoBl4rnVsetDKA_Tdk-jeA</yt:channelId>
+  <title>美國前情報官爆料UFO和外星人，測謊專家分析真假，結尾意外「曉涵哥來了」</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=BFp-Q2ShV6U"/>
+  <author>
+   <name>曉涵哥來了</name>
+   <uri>https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA</uri>
+  </author>
+  <published>2023-06-26T13:03:38+00:00</published>
+  <updated>2023-06-27T06:42:29+00:00</updated>
+  <media:group>
+   <media:title>美國前情報官爆料UFO和外星人，測謊專家分析真假，結尾意外「曉涵哥來了」</media:title>
+   <media:content url="https://www.youtube.com/v/BFp-Q2ShV6U?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/BFp-Q2ShV6U/hqdefault.jpg" width="480" height="360"/>
+   <media:description>👀👀  我的這些影片或許你也有興趣 👇👇
+
+史上最奇葩國家👇
+https://youtu.be/xrk7qPj8yts
+
+科馬洛夫👇
+https://youtu.be/NkuNPdxveiY
+
+人猿混血部隊👇
+https://youtu.be/tJYVzo8tS1o
+--------------------------------------------------------------------------------------------
+🔥  這些影片在頻道最受歡迎 👇👇
+
+朝鮮神秘飯店👇
+https://youtu.be/cVlAxL2CXYg
+
+大和號戰艦👇
+https://youtu.be/AdxYuP1qbMY
+
+秦始皇陵👇
+https://youtu.be/BGxr6AS-6-o
+
+宇宙7級文明👇
+https://youtu.be/MTCrzBVNJjc
+
+邁克爾傑克遜的另一面👇
+https://youtu.be/p7W75SHpL9E
+
+野獸專車👇
+https://youtu.be/ACmijk6deMA
+
+日本啃老族👇
+https://youtu.be/nCFLqt71dKs
+
+--------------------------------------------------------------------------------------
+「探索地球，發現宇宙。
+我是曉涵哥，歡迎和我一起，做這世界的探尋者。」
+點擊下方訂閱👇👇👇
+https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA
+我的FB也開通了！歡迎大家關注，在這裡我會分享一些不一樣的生活碎片：https://www.facebook.com/xiaohange888
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+#曉涵哥來了 #education #knowledge #UFO #education</media:description>
+   <media:community>
+    <media:starRating count="6519" average="5.00" min="1" max="5"/>
+    <media:statistics views="252215"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:eV9VK6Yvc04</id>
+  <yt:videoId>eV9VK6Yvc04</yt:videoId>
+  <yt:channelId>UCvoBl4rnVsetDKA_Tdk-jeA</yt:channelId>
+  <title>解密蘇聯絕密“富士山計劃”，超級炸彈比原子彈還可怕「曉涵哥來了」</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=eV9VK6Yvc04"/>
+  <author>
+   <name>曉涵哥來了</name>
+   <uri>https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA</uri>
+  </author>
+  <published>2023-06-09T14:30:33+00:00</published>
+  <updated>2023-06-20T08:07:58+00:00</updated>
+  <media:group>
+   <media:title>解密蘇聯絕密“富士山計劃”，超級炸彈比原子彈還可怕「曉涵哥來了」</media:title>
+   <media:content url="https://www.youtube.com/v/eV9VK6Yvc04?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/eV9VK6Yvc04/hqdefault.jpg" width="480" height="360"/>
+   <media:description>👑 免費下載 Rush Royale: https://clik.cc/Xiaohan_RR
+💥 並獲得特殊的大師寶箱獎勵，其中包含金幣、卡組和魔法塵埃！獎金會在一天內到達，在 IOS版本，請不要忘記在首次啟動遊戲時允許 app tracking 以獲取寶箱！
+
+👀👀  我的這些影片或許你也有興趣 👇👇
+
+史上最奇葩國家👇
+https://youtu.be/xrk7qPj8yts
+
+科馬洛夫👇
+https://youtu.be/NkuNPdxveiY
+
+人猿混血部隊👇
+https://youtu.be/tJYVzo8tS1o
+--------------------------------------------------------------------------------------------
+🔥  這些影片在頻道最受歡迎 👇👇
+
+朝鮮神秘飯店👇
+https://youtu.be/cVlAxL2CXYg
+
+大和號戰艦👇
+https://youtu.be/AdxYuP1qbMY
+
+秦始皇陵👇
+https://youtu.be/BGxr6AS-6-o
+
+宇宙7級文明👇
+https://youtu.be/MTCrzBVNJjc
+
+邁克爾傑克遜的另一面👇
+https://youtu.be/p7W75SHpL9E
+
+野獸專車👇
+https://youtu.be/ACmijk6deMA
+
+日本啃老族👇
+https://youtu.be/nCFLqt71dKs
+
+--------------------------------------------------------------------------------------
+「探索地球，發現宇宙。
+我是曉涵哥，歡迎和我一起，做這世界的探尋者。」
+點擊下方訂閱👇👇👇
+https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA
+我的FB也開通了！歡迎大家關注，在這裡我會分享一些不一樣的生活碎片：https://www.facebook.com/xiaohange888
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+#曉涵哥來了 #education #knowledge #日本 #Japan #富士山計劃</media:description>
+   <media:community>
+    <media:starRating count="6353" average="5.00" min="1" max="5"/>
+    <media:statistics views="282977"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Mu4VLEgkzzQ</id>
+  <yt:videoId>Mu4VLEgkzzQ</yt:videoId>
+  <yt:channelId>UCvoBl4rnVsetDKA_Tdk-jeA</yt:channelId>
+  <title>世界最擁擠小島，1000人挤满不到半个足球場的地方，谁都不愿意搬走「曉涵哥來了」</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Mu4VLEgkzzQ"/>
+  <author>
+   <name>曉涵哥來了</name>
+   <uri>https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA</uri>
+  </author>
+  <published>2023-06-05T12:00:27+00:00</published>
+  <updated>2023-07-03T19:20:11+00:00</updated>
+  <media:group>
+   <media:title>世界最擁擠小島，1000人挤满不到半个足球場的地方，谁都不愿意搬走「曉涵哥來了」</media:title>
+   <media:content url="https://www.youtube.com/v/Mu4VLEgkzzQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/Mu4VLEgkzzQ/hqdefault.jpg" width="480" height="360"/>
+   <media:description>本期ft. @EmmaSleepTaiwan 
+
+最近剛好搬家，收到了德國Emma寄過來的這個新床墊，我是真的覺得很不錯。首先它的軟硬程度適中，不會因為過軟或者過硬而不舒服。其次它安裝起來也非常方便。因此我也想推薦給大家~
+
+這裡附上購買連結，通過我的專屬連結進去，可以有優惠哦！ 
+官網現在618狂歡最低55折！
+網站連結： https://links.emma-sleep.com.tw/ythan10 
+專屬9折折扣碼：han10（官網活動額外再打9折！）
+
+👀👀  我的這些影片或許你也有興趣 👇👇
+
+史上最奇葩國家👇
+https://youtu.be/xrk7qPj8yts
+
+科馬洛夫👇
+https://youtu.be/NkuNPdxveiY
+
+人猿混血部隊👇
+https://youtu.be/tJYVzo8tS1o
+--------------------------------------------------------------------------------------------
+🔥  這些影片在頻道最受歡迎 👇👇
+
+朝鮮神秘飯店👇
+https://youtu.be/cVlAxL2CXYg
+
+大和號戰艦👇
+https://youtu.be/AdxYuP1qbMY
+
+秦始皇陵👇
+https://youtu.be/BGxr6AS-6-o
+
+宇宙7級文明👇
+https://youtu.be/MTCrzBVNJjc
+
+邁克爾傑克遜的另一面👇
+https://youtu.be/p7W75SHpL9E
+
+野獸專車👇
+https://youtu.be/ACmijk6deMA
+
+日本啃老族👇
+https://youtu.be/nCFLqt71dKs
+
+--------------------------------------------------------------------------------------
+「探索地球，發現宇宙。
+我是曉涵哥，歡迎和我一起，做這世界的探尋者。」
+點擊下方訂閱👇👇👇
+https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA
+我的FB也開通了！歡迎大家關注，在這裡我會分享一些不一樣的生活碎片：https://www.facebook.com/xiaohange888
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+#曉涵哥來了 #education #knowledge #非洲 #最擁擠的小島 #Emma床墊 #喚醒最好的自己 #emma床墊100日試睡#德國Emma</media:description>
+   <media:community>
+    <media:starRating count="6051" average="5.00" min="1" max="5"/>
+    <media:statistics views="259635"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:zA3AjHEbfy0</id>
+  <yt:videoId>zA3AjHEbfy0</yt:videoId>
+  <yt:channelId>UCvoBl4rnVsetDKA_Tdk-jeA</yt:channelId>
+  <title>慈禧的御前女官爆料慈禧的私密生活，對於光緒的態度，和清宮秘聞「曉涵哥來了」</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=zA3AjHEbfy0"/>
+  <author>
+   <name>曉涵哥來了</name>
+   <uri>https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA</uri>
+  </author>
+  <published>2023-05-20T14:00:30+00:00</published>
+  <updated>2023-06-12T18:29:55+00:00</updated>
+  <media:group>
+   <media:title>慈禧的御前女官爆料慈禧的私密生活，對於光緒的態度，和清宮秘聞「曉涵哥來了」</media:title>
+   <media:content url="https://www.youtube.com/v/zA3AjHEbfy0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/zA3AjHEbfy0/hqdefault.jpg" width="480" height="360"/>
+   <media:description>慈禧太后的御前宮女德齡曾撰寫過一本書，《清宮二年記》。它記錄了德齡在清宮中的親身經歷和觀察，揭示了慈禧太后的統治以及宮廷內部的秘密和真相。這本書為後人提供了珍貴的歷史資料，展示了清朝宮廷的生活與政治。今天我們就來聊聊德齡的這本書《清宮二年記》，也一起隨她了解慈禧太后的生活。
+
+👀👀  我的這些影片或許你也有興趣 👇👇
+
+史上最奇葩國家👇
+https://youtu.be/xrk7qPj8yts
+
+科馬洛夫👇
+https://youtu.be/NkuNPdxveiY
+
+人猿混血部隊👇
+https://youtu.be/tJYVzo8tS1o
+--------------------------------------------------------------------------------------------
+🔥  這些影片在頻道最受歡迎 👇👇
+
+朝鮮神秘飯店👇
+https://youtu.be/cVlAxL2CXYg
+
+大和號戰艦👇
+https://youtu.be/AdxYuP1qbMY
+
+秦始皇陵👇
+https://youtu.be/BGxr6AS-6-o
+
+宇宙7級文明👇
+https://youtu.be/MTCrzBVNJjc
+
+邁克爾傑克遜的另一面👇
+https://youtu.be/p7W75SHpL9E
+
+野獸專車👇
+https://youtu.be/ACmijk6deMA
+
+日本啃老族👇
+https://youtu.be/nCFLqt71dKs
+
+--------------------------------------------------------------------------------------
+「探索地球，發現宇宙。
+我是曉涵哥，歡迎和我一起，做這世界的探尋者。」
+點擊下方訂閱👇👇👇
+https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA
+我的FB也開通了！歡迎大家關注，在這裡我會分享一些不一樣的生活碎片：https://www.facebook.com/xiaohange888
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+#曉涵哥來了 #education #knowledge #慈禧 #裕德齡</media:description>
+   <media:community>
+    <media:starRating count="7105" average="5.00" min="1" max="5"/>
+    <media:statistics views="498716"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:KwhAtY6JDwI</id>
+  <yt:videoId>KwhAtY6JDwI</yt:videoId>
+  <yt:channelId>UCvoBl4rnVsetDKA_Tdk-jeA</yt:channelId>
+  <title>二戰中率先研究原子彈的德國，為何沒有成功？歷史倒流，德國研發出原子彈會給戰場帶來何種變化？「曉涵哥來了」</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=KwhAtY6JDwI"/>
+  <author>
+   <name>曉涵哥來了</name>
+   <uri>https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA</uri>
+  </author>
+  <published>2023-05-02T12:23:12+00:00</published>
+  <updated>2023-06-10T19:43:45+00:00</updated>
+  <media:group>
+   <media:title>二戰中率先研究原子彈的德國，為何沒有成功？歷史倒流，德國研發出原子彈會給戰場帶來何種變化？「曉涵哥來了」</media:title>
+   <media:content url="https://www.youtube.com/v/KwhAtY6JDwI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/KwhAtY6JDwI/hqdefault.jpg" width="480" height="360"/>
+   <media:description>二戰中，美國曾向日本投下一顆原子彈，讓日本軍方瞬間趴下。然而，二戰中最先研製原子彈的不是美國，而是德國。那麼為什麼德國沒有成功研製出原子彈呢？如果德國曾經成功研製出原子彈，戰場會有什麼變化？
+
+👀👀  我的這些影片或許你也有興趣 👇👇
+
+史上最奇葩國家👇
+https://youtu.be/xrk7qPj8yts
+
+科馬洛夫👇
+https://youtu.be/NkuNPdxveiY
+
+人猿混血部隊👇
+https://youtu.be/tJYVzo8tS1o
+--------------------------------------------------------------------------------------------
+🔥  這些影片在頻道最受歡迎 👇👇
+
+朝鮮神秘飯店👇
+https://youtu.be/cVlAxL2CXYg
+
+大和號戰艦👇
+https://youtu.be/AdxYuP1qbMY
+
+秦始皇陵👇
+https://youtu.be/BGxr6AS-6-o
+
+宇宙7級文明👇
+https://youtu.be/MTCrzBVNJjc
+
+邁克爾傑克遜的另一面👇
+https://youtu.be/p7W75SHpL9E
+
+野獸專車👇
+https://youtu.be/ACmijk6deMA
+
+日本啃老族👇
+https://youtu.be/nCFLqt71dKs
+
+--------------------------------------------------------------------------------------
+「探索地球，發現宇宙。
+我是曉涵哥，歡迎和我一起，做這世界的探尋者。」
+點擊下方訂閱👇👇👇
+https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA
+我的FB也開通了！歡迎大家關注，在這裡我會分享一些不一樣的生活碎片：https://www.facebook.com/xiaohange888
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+#曉涵哥來了 #education #knowledge #二戰 #德國 #希特勒 #原子彈</media:description>
+   <media:community>
+    <media:starRating count="6739" average="5.00" min="1" max="5"/>
+    <media:statistics views="326629"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:aQmQi35LvmI</id>
+  <yt:videoId>aQmQi35LvmI</yt:videoId>
+  <yt:channelId>UCvoBl4rnVsetDKA_Tdk-jeA</yt:channelId>
+  <title>目前最歡快的一期節目……2023最新印度閱兵，飛人摩托輪番上陣，場面相當炸裂！「曉涵哥來了」</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=aQmQi35LvmI"/>
+  <author>
+   <name>曉涵哥來了</name>
+   <uri>https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA</uri>
+  </author>
+  <published>2023-04-19T13:04:56+00:00</published>
+  <updated>2023-07-23T02:59:48+00:00</updated>
+  <media:group>
+   <media:title>目前最歡快的一期節目……2023最新印度閱兵，飛人摩托輪番上陣，場面相當炸裂！「曉涵哥來了」</media:title>
+   <media:content url="https://www.youtube.com/v/aQmQi35LvmI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/aQmQi35LvmI/hqdefault.jpg" width="480" height="360"/>
+   <media:description>嘗試了一下新的風格，希望大家會喜歡。一起來看看2023年印度閱兵現場都有哪些炸裂的場景！
+
+👀👀  我的這些影片或許你也有興趣 👇👇
+
+史上最奇葩國家👇
+https://youtu.be/xrk7qPj8yts
+
+科馬洛夫👇
+https://youtu.be/NkuNPdxveiY
+
+人猿混血部隊👇
+https://youtu.be/tJYVzo8tS1o
+--------------------------------------------------------------------------------------------
+🔥  這些影片在頻道最受歡迎 👇👇
+
+朝鮮神秘飯店👇
+https://youtu.be/cVlAxL2CXYg
+
+大和號戰艦👇
+https://youtu.be/AdxYuP1qbMY
+
+秦始皇陵👇
+https://youtu.be/BGxr6AS-6-o
+
+宇宙7級文明👇
+https://youtu.be/MTCrzBVNJjc
+
+邁克爾傑克遜的另一面👇
+https://youtu.be/p7W75SHpL9E
+
+野獸專車👇
+https://youtu.be/ACmijk6deMA
+
+日本啃老族👇
+https://youtu.be/nCFLqt71dKs
+
+--------------------------------------------------------------------------------------
+「探索地球，發現宇宙。
+我是曉涵哥，歡迎和我一起，做這世界的探尋者。」
+點擊下方訂閱👇👇👇
+https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA
+我的FB也開通了！歡迎大家關注，在這裡我會分享一些不一樣的生活碎片：https://www.facebook.com/xiaohange888
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+#曉涵哥來了 #education #knowledge #印度 #閱兵儀式</media:description>
+   <media:community>
+    <media:starRating count="6531" average="5.00" min="1" max="5"/>
+    <media:statistics views="243713"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:vTJ66-WV9Io</id>
+  <yt:videoId>vTJ66-WV9Io</yt:videoId>
+  <yt:channelId>UCvoBl4rnVsetDKA_Tdk-jeA</yt:channelId>
+  <title>費用嚴重超支、設計師累死、“叫魂”事件…孫中山先生陵寢中山陵之謎「曉涵哥來了」</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=vTJ66-WV9Io"/>
+  <author>
+   <name>曉涵哥來了</name>
+   <uri>https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA</uri>
+  </author>
+  <published>2023-04-02T13:49:17+00:00</published>
+  <updated>2023-06-11T07:30:11+00:00</updated>
+  <media:group>
+   <media:title>費用嚴重超支、設計師累死、“叫魂”事件…孫中山先生陵寢中山陵之謎「曉涵哥來了」</media:title>
+   <media:content url="https://www.youtube.com/v/vTJ66-WV9Io?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/vTJ66-WV9Io/hqdefault.jpg" width="480" height="360"/>
+   <media:description>孫中山先生的陵寢為何在當時會嚴重超支？著名的南京城內“叫魂”事件又與中山陵的修建有什麼原因？
+
+👀👀  我的這些影片或許你也有興趣 👇👇
+
+史上最奇葩國家👇
+https://youtu.be/xrk7qPj8yts
+
+科馬洛夫👇
+https://youtu.be/NkuNPdxveiY
+
+人猿混血部隊👇
+https://youtu.be/tJYVzo8tS1o
+--------------------------------------------------------------------------------------------
+🔥  這些影片在頻道最受歡迎 👇👇
+
+朝鮮神秘飯店👇
+https://youtu.be/cVlAxL2CXYg
+
+大和號戰艦👇
+https://youtu.be/AdxYuP1qbMY
+
+秦始皇陵👇
+https://youtu.be/BGxr6AS-6-o
+
+宇宙7級文明👇
+https://youtu.be/MTCrzBVNJjc
+
+邁克爾傑克遜的另一面👇
+https://youtu.be/p7W75SHpL9E
+
+野獸專車👇
+https://youtu.be/ACmijk6deMA
+
+日本啃老族👇
+https://youtu.be/nCFLqt71dKs
+
+--------------------------------------------------------------------------------------
+「探索地球，發現宇宙。
+我是曉涵哥，歡迎和我一起，做這世界的探尋者。」
+點擊下方訂閱👇👇👇
+https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA
+我的FB也開通了！歡迎大家關注，在這裡我會分享一些不一樣的生活碎片：https://www.facebook.com/xiaohange888
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+#曉涵哥來了 #education #knowledge #孫中山 #中山陵</media:description>
+   <media:community>
+    <media:starRating count="9313" average="5.00" min="1" max="5"/>
+    <media:statistics views="569008"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:rKdfXwMpDa4</id>
+  <yt:videoId>rKdfXwMpDa4</yt:videoId>
+  <yt:channelId>UCvoBl4rnVsetDKA_Tdk-jeA</yt:channelId>
+  <title>細數蘇聯太空計劃背後的謊言，隱瞞了幾十年不為人知的真相！「曉涵哥來了」</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=rKdfXwMpDa4"/>
+  <author>
+   <name>曉涵哥來了</name>
+   <uri>https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA</uri>
+  </author>
+  <published>2023-03-26T12:56:22+00:00</published>
+  <updated>2023-06-08T01:53:17+00:00</updated>
+  <media:group>
+   <media:title>細數蘇聯太空計劃背後的謊言，隱瞞了幾十年不為人知的真相！「曉涵哥來了」</media:title>
+   <media:content url="https://www.youtube.com/v/rKdfXwMpDa4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/rKdfXwMpDa4/hqdefault.jpg" width="480" height="360"/>
+   <media:description>美蘇太空爭霸期間有哪些我們不知道的秘密？這些真相在蘇聯解體後，逐漸浮出水面……
+
+👀👀  我的這些影片或許你也有興趣 👇👇
+
+史上最奇葩國家👇
+https://youtu.be/xrk7qPj8yts
+
+科馬洛夫👇
+https://youtu.be/NkuNPdxveiY
+
+人猿混血部隊👇
+https://youtu.be/tJYVzo8tS1o
+--------------------------------------------------------------------------------------------
+🔥  這些影片在頻道最受歡迎 👇👇
+
+朝鮮神秘飯店👇
+https://youtu.be/cVlAxL2CXYg
+
+大和號戰艦👇
+https://youtu.be/AdxYuP1qbMY
+
+秦始皇陵👇
+https://youtu.be/BGxr6AS-6-o
+
+宇宙7級文明👇
+https://youtu.be/MTCrzBVNJjc
+
+邁克爾傑克遜的另一面👇
+https://youtu.be/p7W75SHpL9E
+
+野獸專車👇
+https://youtu.be/ACmijk6deMA
+
+日本啃老族👇
+https://youtu.be/nCFLqt71dKs
+
+--------------------------------------------------------------------------------------
+「探索地球，發現宇宙。
+我是曉涵哥，歡迎和我一起，做這世界的探尋者。」
+點擊下方訂閱👇👇👇
+https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA
+我的FB也開通了！歡迎大家關注，在這裡我會分享一些不一樣的生活碎片：https://www.facebook.com/xiaohange888
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+#曉涵哥來了 #education #knowledge #美蘇爭霸 #太空計劃</media:description>
+   <media:community>
+    <media:starRating count="7418" average="5.00" min="1" max="5"/>
+    <media:statistics views="299942"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:8tazrjHmrF8</id>
+  <yt:videoId>8tazrjHmrF8</yt:videoId>
+  <yt:channelId>UCvoBl4rnVsetDKA_Tdk-jeA</yt:channelId>
+  <title>關於月球的起源，你知道多少呢？ #shorts #科普 #知識</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=8tazrjHmrF8"/>
+  <author>
+   <name>曉涵哥來了</name>
+   <uri>https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA</uri>
+  </author>
+  <published>2023-03-22T10:00:09+00:00</published>
+  <updated>2023-06-11T23:32:55+00:00</updated>
+  <media:group>
+   <media:title>關於月球的起源，你知道多少呢？ #shorts #科普 #知識</media:title>
+   <media:content url="https://www.youtube.com/v/8tazrjHmrF8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/8tazrjHmrF8/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="680" average="5.00" min="1" max="5"/>
+    <media:statistics views="27029"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:zVUCBK-d_zI</id>
+  <yt:videoId>zVUCBK-d_zI</yt:videoId>
+  <yt:channelId>UCvoBl4rnVsetDKA_Tdk-jeA</yt:channelId>
+  <title>「30分鐘特別節目」，全方位解析51區傳奇人物Bob Lazar的爆料真相！「曉涵哥來了」</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=zVUCBK-d_zI"/>
+  <author>
+   <name>曉涵哥來了</name>
+   <uri>https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA</uri>
+  </author>
+  <published>2023-03-16T12:45:31+00:00</published>
+  <updated>2023-06-09T19:03:32+00:00</updated>
+  <media:group>
+   <media:title>「30分鐘特別節目」，全方位解析51區傳奇人物Bob Lazar的爆料真相！「曉涵哥來了」</media:title>
+   <media:content url="https://www.youtube.com/v/zVUCBK-d_zI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/zVUCBK-d_zI/hqdefault.jpg" width="480" height="360"/>
+   <media:description>51区是否真實是和UFO研究相關？註明爆料人鮑勃拉扎所說的是否屬實？S4基地是否真的存在呢？本期我們全方位來解析51區傳奇人物鮑勃拉扎的爆料。
+
+本視頻部分音樂來自CO.AG（Music by CO.AG ）
+
+👀👀  我的這些影片或許你也有興趣 👇👇
+
+史上最奇葩國家👇
+https://youtu.be/xrk7qPj8yts
+
+科馬洛夫👇
+https://youtu.be/NkuNPdxveiY
+
+人猿混血部隊👇
+https://youtu.be/tJYVzo8tS1o
+--------------------------------------------------------------------------------------------
+🔥  這些影片在頻道最受歡迎 👇👇
+
+朝鮮神秘飯店👇
+https://youtu.be/cVlAxL2CXYg
+
+大和號戰艦👇
+https://youtu.be/AdxYuP1qbMY
+
+秦始皇陵👇
+https://youtu.be/BGxr6AS-6-o
+
+宇宙7級文明👇
+https://youtu.be/MTCrzBVNJjc
+
+邁克爾傑克遜的另一面👇
+https://youtu.be/p7W75SHpL9E
+
+野獸專車👇
+https://youtu.be/ACmijk6deMA
+
+日本啃老族👇
+https://youtu.be/nCFLqt71dKs
+
+--------------------------------------------------------------------------------------
+「探索地球，發現宇宙。
+我是曉涵哥，歡迎和我一起，做這世界的探尋者。」
+點擊下方訂閱👇👇👇
+https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA
+我的FB也開通了！歡迎大家關注，在這裡我會分享一些不一樣的生活碎片：https://www.facebook.com/xiaohange888
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+#曉涵哥來了 #education #knowledge #ufo #外星人 #鲍勃拉扎</media:description>
+   <media:community>
+    <media:starRating count="12292" average="5.00" min="1" max="5"/>
+    <media:statistics views="709750"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Vv0YRGxxEok</id>
+  <yt:videoId>Vv0YRGxxEok</yt:videoId>
+  <yt:channelId>UCvoBl4rnVsetDKA_Tdk-jeA</yt:channelId>
+  <title>沙特超未来城市，斥资1万亿美元打造！#shorts #沙特 #education #科普</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Vv0YRGxxEok"/>
+  <author>
+   <name>曉涵哥來了</name>
+   <uri>https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA</uri>
+  </author>
+  <published>2023-03-08T04:00:16+00:00</published>
+  <updated>2023-06-12T16:23:47+00:00</updated>
+  <media:group>
+   <media:title>沙特超未来城市，斥资1万亿美元打造！#shorts #沙特 #education #科普</media:title>
+   <media:content url="https://www.youtube.com/v/Vv0YRGxxEok?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/Vv0YRGxxEok/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="931" average="5.00" min="1" max="5"/>
+    <media:statistics views="36506"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:3sQwTvz8qMg</id>
+  <yt:videoId>3sQwTvz8qMg</yt:videoId>
+  <yt:channelId>UCvoBl4rnVsetDKA_Tdk-jeA</yt:channelId>
+  <title>1971年秘密暴動，韓國24名特種兵衝入首爾，該事件隱瞞了30年……「曉涵哥來了」</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=3sQwTvz8qMg"/>
+  <author>
+   <name>曉涵哥來了</name>
+   <uri>https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA</uri>
+  </author>
+  <published>2023-03-03T12:00:02+00:00</published>
+  <updated>2023-06-08T16:48:25+00:00</updated>
+  <media:group>
+   <media:title>1971年秘密暴動，韓國24名特種兵衝入首爾，該事件隱瞞了30年……「曉涵哥來了」</media:title>
+   <media:content url="https://www.youtube.com/v/3sQwTvz8qMg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/3sQwTvz8qMg/hqdefault.jpg" width="480" height="360"/>
+   <media:description>上期我們聊到了韓國總統樸正熙被刺殺事件，感興趣的大家可以點擊觀看：
+https://youtu.be/k23wrn0KMTo
+韓國民眾要求報復朝鮮的呼聲愈發高漲，於是樸正熙命令軍方制定了一個反制計劃，刺殺朝鮮的最高領導人。然而這場刺殺變成了一個恐怖事件。這中間到底發生了什麼？
+
+👀👀  我的這些影片或許你也有興趣 👇👇
+
+史上最奇葩國家👇
+https://youtu.be/xrk7qPj8yts
+
+科馬洛夫👇
+https://youtu.be/NkuNPdxveiY
+
+人猿混血部隊👇
+https://youtu.be/tJYVzo8tS1o
+--------------------------------------------------------------------------------------------
+🔥  這些影片在頻道最受歡迎 👇👇
+
+朝鮮神秘飯店👇
+https://youtu.be/cVlAxL2CXYg
+
+大和號戰艦👇
+https://youtu.be/AdxYuP1qbMY
+
+秦始皇陵👇
+https://youtu.be/BGxr6AS-6-o
+
+宇宙7級文明👇
+https://youtu.be/MTCrzBVNJjc
+
+邁克爾傑克遜的另一面👇
+https://youtu.be/p7W75SHpL9E
+
+野獸專車👇
+https://youtu.be/ACmijk6deMA
+
+日本啃老族👇
+https://youtu.be/nCFLqt71dKs
+
+--------------------------------------------------------------------------------------
+「探索地球，發現宇宙。
+我是曉涵哥，歡迎和我一起，做這世界的探尋者。」
+點擊下方訂閱👇👇👇
+https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA
+我的FB也開通了！歡迎大家關注，在這裡我會分享一些不一樣的生活碎片：https://www.facebook.com/xiaohange888
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+#曉涵哥來了 #education #knowledge #韓國 #朝鮮 #寶尾島</media:description>
+   <media:community>
+    <media:starRating count="6923" average="5.00" min="1" max="5"/>
+    <media:statistics views="362007"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>

@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UC6lYCOXS4Rxo9xpKS1My32A"/>
+ <id>yt:channel:</id>
+ <yt:channelId></yt:channelId>
+ <title>Discovery With Andy</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UC6lYCOXS4Rxo9xpKS1My32A"/>
+ <author>
+  <name>Discovery With Andy</name>
+  <uri>https://www.youtube.com/channel/UC6lYCOXS4Rxo9xpKS1My32A</uri>
+ </author>
+ <published>2020-10-04T13:11:36+00:00</published>
+ <entry>
+  <id>yt:video:eGwKoqdmVXQ</id>
+  <yt:videoId>eGwKoqdmVXQ</yt:videoId>
+  <yt:channelId>UC6lYCOXS4Rxo9xpKS1My32A</yt:channelId>
+  <title>火星探索簡史(第十二集)：不可以思議的操作</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=eGwKoqdmVXQ"/>
+  <author>
+   <name>Discovery With Andy</name>
+   <uri>https://www.youtube.com/channel/UC6lYCOXS4Rxo9xpKS1My32A</uri>
+  </author>
+  <published>2023-06-30T15:00:28+00:00</published>
+  <updated>2023-07-02T15:53:57+00:00</updated>
+  <media:group>
+   <media:title>火星探索簡史(第十二集)：不可以思議的操作</media:title>
+   <media:content url="https://www.youtube.com/v/eGwKoqdmVXQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/eGwKoqdmVXQ/hqdefault.jpg" width="480" height="360"/>
+   <media:description>歡迎加入會員 鏈接 https://www.youtube.com/channel/UC6lYCOXS4Rxo9xpKS1My32A/join
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+登月系列#1 阿波羅11號：人類首次登月驚險歷程 https://youtu.be/d1HglVsuclE
+
+登月系列#2 阿波羅13號: 人類史上最不可思義的太空營救 https://youtu.be/-MDrUCw0e6U
+
+重返月球 1：2024月球登陸有何不同？https://youtu.be/rngR2Y1QLXo
+
+重返月球 2: 為何50年未再登陸月球？https://youtu.be/ciNtQpdUm6g
+
+重返月球 3： NASA僅剩4件宇航服？！https://youtu.be/f9LoWucZut4
+
+Credit: Courtesy NASA/JPL-Caltech</media:description>
+   <media:community>
+    <media:starRating count="432" average="5.00" min="1" max="5"/>
+    <media:statistics views="8944"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Sbr-c_SIbFM</id>
+  <yt:videoId>Sbr-c_SIbFM</yt:videoId>
+  <yt:channelId>UC6lYCOXS4Rxo9xpKS1My32A</yt:channelId>
+  <title>火星探索簡史(第十一集): 再見！鼴鼠</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Sbr-c_SIbFM"/>
+  <author>
+   <name>Discovery With Andy</name>
+   <uri>https://www.youtube.com/channel/UC6lYCOXS4Rxo9xpKS1My32A</uri>
+  </author>
+  <published>2023-06-17T12:37:35+00:00</published>
+  <updated>2023-07-06T14:14:23+00:00</updated>
+  <media:group>
+   <media:title>火星探索簡史(第十一集): 再見！鼴鼠</media:title>
+   <media:content url="https://www.youtube.com/v/Sbr-c_SIbFM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/Sbr-c_SIbFM/hqdefault.jpg" width="480" height="360"/>
+   <media:description>歡迎加入會員 鏈接 https://www.youtube.com/channel/UC6lYCOXS4Rxo9xpKS1My32A/join
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+登月系列#1 阿波羅11號：人類首次登月驚險歷程 https://youtu.be/d1HglVsuclE
+
+登月系列#2 阿波羅13號: 人類史上最不可思義的太空營救 https://youtu.be/-MDrUCw0e6U
+
+重返月球 1：2024月球登陸有何不同？https://youtu.be/rngR2Y1QLXo
+
+重返月球 2: 為何50年未再登陸月球？https://youtu.be/ciNtQpdUm6g
+
+重返月球 3： NASA僅剩4件宇航服？！https://youtu.be/f9LoWucZut4
+
+Credit: Courtesy NASA/JPL-Caltech</media:description>
+   <media:community>
+    <media:starRating count="495" average="5.00" min="1" max="5"/>
+    <media:statistics views="10741"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:p-4Hqpjutb0</id>
+  <yt:videoId>p-4Hqpjutb0</yt:videoId>
+  <yt:channelId>UC6lYCOXS4Rxo9xpKS1My32A</yt:channelId>
+  <title>火星探索簡史(第十集)：洞察號 降落！</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=p-4Hqpjutb0"/>
+  <author>
+   <name>Discovery With Andy</name>
+   <uri>https://www.youtube.com/channel/UC6lYCOXS4Rxo9xpKS1My32A</uri>
+  </author>
+  <published>2023-06-11T12:54:39+00:00</published>
+  <updated>2023-06-12T06:20:12+00:00</updated>
+  <media:group>
+   <media:title>火星探索簡史(第十集)：洞察號 降落！</media:title>
+   <media:content url="https://www.youtube.com/v/p-4Hqpjutb0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/p-4Hqpjutb0/hqdefault.jpg" width="480" height="360"/>
+   <media:description>歡迎加入會員 鏈接 https://www.youtube.com/channel/UC6lYCOXS4Rxo9xpKS1My32A/join
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+登月系列#1 阿波羅11號：人類首次登月驚險歷程 https://youtu.be/d1HglVsuclE
+
+登月系列#2 阿波羅13號: 人類史上最不可思義的太空營救 https://youtu.be/-MDrUCw0e6U
+
+重返月球 1：2024月球登陸有何不同？https://youtu.be/rngR2Y1QLXo
+
+重返月球 2: 為何50年未再登陸月球？https://youtu.be/ciNtQpdUm6g
+
+重返月球 3： NASA僅剩4件宇航服？！https://youtu.be/f9LoWucZut4
+
+Credit: Courtesy NASA/JPL-Caltech</media:description>
+   <media:community>
+    <media:starRating count="613" average="5.00" min="1" max="5"/>
+    <media:statistics views="15138"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:KJaKnpxwk2k</id>
+  <yt:videoId>KJaKnpxwk2k</yt:videoId>
+  <yt:channelId>UC6lYCOXS4Rxo9xpKS1My32A</yt:channelId>
+  <title>墨爾本美術館1小時</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=KJaKnpxwk2k"/>
+  <author>
+   <name>Discovery With Andy</name>
+   <uri>https://www.youtube.com/channel/UC6lYCOXS4Rxo9xpKS1My32A</uri>
+  </author>
+  <published>2023-05-30T14:29:56+00:00</published>
+  <updated>2023-07-03T11:32:45+00:00</updated>
+  <media:group>
+   <media:title>墨爾本美術館1小時</media:title>
+   <media:content url="https://www.youtube.com/v/KJaKnpxwk2k?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/KJaKnpxwk2k/hqdefault.jpg" width="480" height="360"/>
+   <media:description>歡迎加入會員 鏈接 https://www.youtube.com/channel/UC6lYCOXS4Rxo9xpKS1My32A/join
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+登月系列#1 阿波羅11號：人類首次登月驚險歷程 https://youtu.be/d1HglVsuclE
+
+登月系列#2 阿波羅13號: 人類史上最不可思義的太空營救 https://youtu.be/-MDrUCw0e6U
+
+重返月球 1：2024月球登陸有何不同？https://youtu.be/rngR2Y1QLXo
+
+重返月球 2: 為何50年未再登陸月球？https://youtu.be/ciNtQpdUm6g
+
+重返月球 3： NASA僅剩4件宇航服？！https://youtu.be/f9LoWucZut4
+
+Credit: Courtesy NASA/JPL-Caltech</media:description>
+   <media:community>
+    <media:starRating count="106" average="5.00" min="1" max="5"/>
+    <media:statistics views="2081"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:OF-z3vpSom0</id>
+  <yt:videoId>OF-z3vpSom0</yt:videoId>
+  <yt:channelId>UC6lYCOXS4Rxo9xpKS1My32A</yt:channelId>
+  <title>阿波羅15號：第一輛月球車|Lunar Rover Vehicle</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=OF-z3vpSom0"/>
+  <author>
+   <name>Discovery With Andy</name>
+   <uri>https://www.youtube.com/channel/UC6lYCOXS4Rxo9xpKS1My32A</uri>
+  </author>
+  <published>2023-05-26T13:19:58+00:00</published>
+  <updated>2023-06-08T10:36:20+00:00</updated>
+  <media:group>
+   <media:title>阿波羅15號：第一輛月球車|Lunar Rover Vehicle</media:title>
+   <media:content url="https://www.youtube.com/v/OF-z3vpSom0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/OF-z3vpSom0/hqdefault.jpg" width="480" height="360"/>
+   <media:description>歡迎加入會員 鏈接 https://www.youtube.com/channel/UC6lYCOXS4Rxo9xpKS1My32A/join
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+登月系列#1 阿波羅11號：人類首次登月驚險歷程 https://youtu.be/d1HglVsuclE
+
+登月系列#2 阿波羅13號: 人類史上最不可思義的太空營救 https://youtu.be/-MDrUCw0e6U
+
+重返月球 1：2024月球登陸有何不同？https://youtu.be/rngR2Y1QLXo
+
+重返月球 2: 為何50年未再登陸月球？https://youtu.be/ciNtQpdUm6g
+
+重返月球 3： NASA僅剩4件宇航服？！https://youtu.be/f9LoWucZut4
+
+Credit: Courtesy NASA/JPL-Caltech</media:description>
+   <media:community>
+    <media:starRating count="589" average="5.00" min="1" max="5"/>
+    <media:statistics views="13787"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:5-Z2Eo4u4H0</id>
+  <yt:videoId>5-Z2Eo4u4H0</yt:videoId>
+  <yt:channelId>UC6lYCOXS4Rxo9xpKS1My32A</yt:channelId>
+  <title>DART項目: 撞擊小行星計劃</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=5-Z2Eo4u4H0"/>
+  <author>
+   <name>Discovery With Andy</name>
+   <uri>https://www.youtube.com/channel/UC6lYCOXS4Rxo9xpKS1My32A</uri>
+  </author>
+  <published>2023-02-26T11:04:50+00:00</published>
+  <updated>2023-06-08T22:10:11+00:00</updated>
+  <media:group>
+   <media:title>DART項目: 撞擊小行星計劃</media:title>
+   <media:content url="https://www.youtube.com/v/5-Z2Eo4u4H0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/5-Z2Eo4u4H0/hqdefault.jpg" width="480" height="360"/>
+   <media:description>歡迎加入會員 鏈接 https://www.youtube.com/channel/UC6lYCOXS4Rxo9xpKS1My32A/join
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+登月系列#1 阿波羅11號：人類首次登月驚險歷程 https://youtu.be/d1HglVsuclE
+
+登月系列#2 阿波羅13號: 人類史上最不可思義的太空營救 https://youtu.be/-MDrUCw0e6U
+
+重返月球 1：2024月球登陸有何不同？https://youtu.be/rngR2Y1QLXo
+
+重返月球 2: 為何50年未再登陸月球？https://youtu.be/ciNtQpdUm6g
+
+重返月球 3： NASA僅剩4件宇航服？！https://youtu.be/f9LoWucZut4
+
+Credit: Courtesy NASA/JPL-Caltech</media:description>
+   <media:community>
+    <media:starRating count="660" average="5.00" min="1" max="5"/>
+    <media:statistics views="9860"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:8pw6NbHx1Pk</id>
+  <yt:videoId>8pw6NbHx1Pk</yt:videoId>
+  <yt:channelId>UC6lYCOXS4Rxo9xpKS1My32A</yt:channelId>
+  <title>黑洞之謎：千奇百怪的黑洞|Black Hole</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=8pw6NbHx1Pk"/>
+  <author>
+   <name>Discovery With Andy</name>
+   <uri>https://www.youtube.com/channel/UC6lYCOXS4Rxo9xpKS1My32A</uri>
+  </author>
+  <published>2022-10-22T12:21:56+00:00</published>
+  <updated>2023-06-11T21:55:42+00:00</updated>
+  <media:group>
+   <media:title>黑洞之謎：千奇百怪的黑洞|Black Hole</media:title>
+   <media:content url="https://www.youtube.com/v/8pw6NbHx1Pk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/8pw6NbHx1Pk/hqdefault.jpg" width="480" height="360"/>
+   <media:description>歡迎加入會員 鏈接 https://www.youtube.com/channel/UC6lYCOXS4Rxo9xpKS1My32A/join
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+登月系列#1 阿波羅11號：人類首次登月驚險歷程 https://youtu.be/d1HglVsuclE
+
+登月系列#2 阿波羅13號: 人類史上最不可思義的太空營救 https://youtu.be/-MDrUCw0e6U
+
+重返月球 1：2024月球登陸有何不同？https://youtu.be/rngR2Y1QLXo
+
+重返月球 2: 為何50年未再登陸月球？https://youtu.be/ciNtQpdUm6g
+
+重返月球 3： NASA僅剩4件宇航服？！https://youtu.be/f9LoWucZut4
+
+Credit: Courtesy NASA/JPL-Caltech</media:description>
+   <media:community>
+    <media:starRating count="748" average="5.00" min="1" max="5"/>
+    <media:statistics views="26609"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:cAAseJqaVYE</id>
+  <yt:videoId>cAAseJqaVYE</yt:videoId>
+  <yt:channelId>UC6lYCOXS4Rxo9xpKS1My32A</yt:channelId>
+  <title>車輪星系為何如此罕見？|James Webb Telescope</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=cAAseJqaVYE"/>
+  <author>
+   <name>Discovery With Andy</name>
+   <uri>https://www.youtube.com/channel/UC6lYCOXS4Rxo9xpKS1My32A</uri>
+  </author>
+  <published>2022-10-14T12:15:02+00:00</published>
+  <updated>2023-06-13T15:04:48+00:00</updated>
+  <media:group>
+   <media:title>車輪星系為何如此罕見？|James Webb Telescope</media:title>
+   <media:content url="https://www.youtube.com/v/cAAseJqaVYE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/cAAseJqaVYE/hqdefault.jpg" width="480" height="360"/>
+   <media:description>James Webb Raw Data: www.stsci.edu 
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+歡迎加入會員 鏈接 https://www.youtube.com/channel/UC6lYCOXS4Rxo9xpKS1My32A/join
+會員福利包括：
+- 30-50個視頻庫提前觀看
+- 針對會員的專享視頻
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+登月系列#1 阿波羅11號：人類首次登月驚險歷程 https://youtu.be/d1HglVsuclE
+
+登月系列#2 阿波羅13號: 人類史上最不可思義的太空營救 https://youtu.be/-MDrUCw0e6U
+
+重返月球 1：2024月球登陸有何不同？https://youtu.be/rngR2Y1QLXo
+
+重返月球 2: 為何50年未再登陸月球？https://youtu.be/ciNtQpdUm6g
+
+重返月球 3： NASA僅剩4件宇航服？！https://youtu.be/f9LoWucZut4
+
+Credit: Courtesy NASA/JPL-Caltech</media:description>
+   <media:community>
+    <media:starRating count="1367" average="5.00" min="1" max="5"/>
+    <media:statistics views="65216"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:4L7XtLMHp-U</id>
+  <yt:videoId>4L7XtLMHp-U</yt:videoId>
+  <yt:channelId>UC6lYCOXS4Rxo9xpKS1My32A</yt:channelId>
+  <title>韋伯首組照片看到了什麼？|James Webb First Image</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=4L7XtLMHp-U"/>
+  <author>
+   <name>Discovery With Andy</name>
+   <uri>https://www.youtube.com/channel/UC6lYCOXS4Rxo9xpKS1My32A</uri>
+  </author>
+  <published>2022-07-21T11:21:56+00:00</published>
+  <updated>2023-06-13T02:10:59+00:00</updated>
+  <media:group>
+   <media:title>韋伯首組照片看到了什麼？|James Webb First Image</media:title>
+   <media:content url="https://www.youtube.com/v/4L7XtLMHp-U?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/4L7XtLMHp-U/hqdefault.jpg" width="480" height="360"/>
+   <media:description>韋伯首組照片高清下載鏈接 https://webbtelescope.org/news/first-images/gallery
+
+
+歡迎加入會員 鏈接 https://www.youtube.com/channel/UC6lYCOXS4Rxo9xpKS1My32A/join
+會員福利包括：
+- 視頻庫提前觀看
+- 針對會員的專享視頻
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+登月系列#1 阿波羅11號：人類首次登月驚險歷程 https://youtu.be/d1HglVsuclE
+
+登月系列#2 阿波羅13號: 人類史上最不可思義的太空營救 https://youtu.be/-MDrUCw0e6U
+
+重返月球 1：2024月球登陸有何不同？https://youtu.be/rngR2Y1QLXo
+
+重返月球 2: 為何50年未再登陸月球？https://youtu.be/ciNtQpdUm6g
+
+重返月球 3： NASA僅剩4件宇航服？！https://youtu.be/f9LoWucZut4
+
+Credit: Courtesy NASA/JPL-Caltech</media:description>
+   <media:community>
+    <media:starRating count="904" average="5.00" min="1" max="5"/>
+    <media:statistics views="28350"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:CFeIEYWOwcI</id>
+  <yt:videoId>CFeIEYWOwcI</yt:videoId>
+  <yt:channelId>UC6lYCOXS4Rxo9xpKS1My32A</yt:channelId>
+  <title>韋伯首張照片拍到了什麼？|James Webb First Image|韋伯望遠鏡</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=CFeIEYWOwcI"/>
+  <author>
+   <name>Discovery With Andy</name>
+   <uri>https://www.youtube.com/channel/UC6lYCOXS4Rxo9xpKS1My32A</uri>
+  </author>
+  <published>2022-07-15T11:10:55+00:00</published>
+  <updated>2023-06-10T08:33:54+00:00</updated>
+  <media:group>
+   <media:title>韋伯首張照片拍到了什麼？|James Webb First Image|韋伯望遠鏡</media:title>
+   <media:content url="https://www.youtube.com/v/CFeIEYWOwcI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/CFeIEYWOwcI/hqdefault.jpg" width="480" height="360"/>
+   <media:description>歡迎加入會員 鏈接 https://www.youtube.com/channel/UC6lYCOXS4Rxo9xpKS1My32A/join
+會員福利包括：
+- 視頻庫提前觀看
+- 針對會員的專享視頻
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+登月系列#1 阿波羅11號：人類首次登月驚險歷程 https://youtu.be/d1HglVsuclE
+
+登月系列#2 阿波羅13號: 人類史上最不可思義的太空營救 https://youtu.be/-MDrUCw0e6U
+
+重返月球 1：2024月球登陸有何不同？https://youtu.be/rngR2Y1QLXo
+
+重返月球 2: 為何50年未再登陸月球？https://youtu.be/ciNtQpdUm6g
+
+重返月球 3： NASA僅剩4件宇航服？！https://youtu.be/f9LoWucZut4
+
+Credit: Courtesy NASA/JPL-Caltech</media:description>
+   <media:community>
+    <media:starRating count="2007" average="5.00" min="1" max="5"/>
+    <media:statistics views="52703"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:ljhgurGJnEQ</id>
+  <yt:videoId>ljhgurGJnEQ</yt:videoId>
+  <yt:channelId>UC6lYCOXS4Rxo9xpKS1My32A</yt:channelId>
+  <title>解開黑洞謎團|Black Hole Mystery</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=ljhgurGJnEQ"/>
+  <author>
+   <name>Discovery With Andy</name>
+   <uri>https://www.youtube.com/channel/UC6lYCOXS4Rxo9xpKS1My32A</uri>
+  </author>
+  <published>2022-07-01T13:24:26+00:00</published>
+  <updated>2023-06-29T04:11:25+00:00</updated>
+  <media:group>
+   <media:title>解開黑洞謎團|Black Hole Mystery</media:title>
+   <media:content url="https://www.youtube.com/v/ljhgurGJnEQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/ljhgurGJnEQ/hqdefault.jpg" width="480" height="360"/>
+   <media:description>歡迎加入會員 鏈接 https://www.youtube.com/channel/UC6lYCOXS4Rxo9xpKS1My32A/join
+會員福利包括：
+- 視頻庫提前觀看
+- 針對會員的專享視頻
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+登月系列#1 阿波羅11號：人類首次登月驚險歷程 https://youtu.be/d1HglVsuclE
+
+登月系列#2 阿波羅13號: 人類史上最不可思義的太空營救 https://youtu.be/-MDrUCw0e6U
+
+重返月球 1：2024月球登陸有何不同？https://youtu.be/rngR2Y1QLXo
+
+重返月球 2: 為何50年未再登陸月球？https://youtu.be/ciNtQpdUm6g
+
+重返月球 3： NASA僅剩4件宇航服？！https://youtu.be/f9LoWucZut4
+
+Credit: Courtesy NASA/JPL-Caltech</media:description>
+   <media:community>
+    <media:starRating count="689" average="5.00" min="1" max="5"/>
+    <media:statistics views="19676"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:2FKFdisUO2g</id>
+  <yt:videoId>2FKFdisUO2g</yt:videoId>
+  <yt:channelId>UC6lYCOXS4Rxo9xpKS1My32A</yt:channelId>
+  <title>銀河系中心黑洞是如何被發現的？|Sagittarius A* Black Hole</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=2FKFdisUO2g"/>
+  <author>
+   <name>Discovery With Andy</name>
+   <uri>https://www.youtube.com/channel/UC6lYCOXS4Rxo9xpKS1My32A</uri>
+  </author>
+  <published>2022-06-11T12:13:09+00:00</published>
+  <updated>2023-06-11T10:28:10+00:00</updated>
+  <media:group>
+   <media:title>銀河系中心黑洞是如何被發現的？|Sagittarius A* Black Hole</media:title>
+   <media:content url="https://www.youtube.com/v/2FKFdisUO2g?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/2FKFdisUO2g/hqdefault.jpg" width="480" height="360"/>
+   <media:description>歡迎加入會員 鏈接 https://www.youtube.com/channel/UC6lYCOXS4Rxo9xpKS1My32A/join
+會員福利包括：
+- 視頻庫提前觀看
+- 針對會員的專享視頻
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+登月系列#1 阿波羅11號：人類首次登月驚險歷程 https://youtu.be/d1HglVsuclE
+
+登月系列#2 阿波羅13號: 人類史上最不可思義的太空營救 https://youtu.be/-MDrUCw0e6U
+
+重返月球 1：2024月球登陸有何不同？https://youtu.be/rngR2Y1QLXo
+
+重返月球 2: 為何50年未再登陸月球？https://youtu.be/ciNtQpdUm6g
+
+重返月球 3： NASA僅剩4件宇航服？！https://youtu.be/f9LoWucZut4
+
+Credit: Courtesy NASA/ESO</media:description>
+   <media:community>
+    <media:starRating count="884" average="5.00" min="1" max="5"/>
+    <media:statistics views="33163"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:qcdhAWBlMS8</id>
+  <yt:videoId>qcdhAWBlMS8</yt:videoId>
+  <yt:channelId>UC6lYCOXS4Rxo9xpKS1My32A</yt:channelId>
+  <title>分辨率之謎：韋伯和哈勃，誰的清晰度更高？|James Webb Telescope</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=qcdhAWBlMS8"/>
+  <author>
+   <name>Discovery With Andy</name>
+   <uri>https://www.youtube.com/channel/UC6lYCOXS4Rxo9xpKS1My32A</uri>
+  </author>
+  <published>2022-06-03T11:45:03+00:00</published>
+  <updated>2023-06-08T19:34:13+00:00</updated>
+  <media:group>
+   <media:title>分辨率之謎：韋伯和哈勃，誰的清晰度更高？|James Webb Telescope</media:title>
+   <media:content url="https://www.youtube.com/v/qcdhAWBlMS8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/qcdhAWBlMS8/hqdefault.jpg" width="480" height="360"/>
+   <media:description>歡迎加入會員 鏈接 https://www.youtube.com/channel/UC6lYCOXS4Rxo9xpKS1My32A/join
+會員福利包括：
+- 30-50個視頻庫提前觀看
+- 針對會員的專享視頻
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+登月系列#1 阿波羅11號：人類首次登月驚險歷程 https://youtu.be/d1HglVsuclE
+
+登月系列#2 阿波羅13號: 人類史上最不可思義的太空營救 https://youtu.be/-MDrUCw0e6U
+
+重返月球 1：2024月球登陸有何不同？https://youtu.be/rngR2Y1QLXo
+
+重返月球 2: 為何50年未再登陸月球？https://youtu.be/ciNtQpdUm6g
+
+重返月球 3： NASA僅剩4件宇航服？！https://youtu.be/f9LoWucZut4
+
+Credit: Courtesy NASA/JPL-Caltech</media:description>
+   <media:community>
+    <media:starRating count="714" average="5.00" min="1" max="5"/>
+    <media:statistics views="27123"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:kfJGhNxEero</id>
+  <yt:videoId>kfJGhNxEero</yt:videoId>
+  <yt:channelId>UC6lYCOXS4Rxo9xpKS1My32A</yt:channelId>
+  <title>銀河系中心黑洞拍攝過程|Black Hole</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=kfJGhNxEero"/>
+  <author>
+   <name>Discovery With Andy</name>
+   <uri>https://www.youtube.com/channel/UC6lYCOXS4Rxo9xpKS1My32A</uri>
+  </author>
+  <published>2022-05-27T11:49:40+00:00</published>
+  <updated>2023-06-12T07:50:36+00:00</updated>
+  <media:group>
+   <media:title>銀河系中心黑洞拍攝過程|Black Hole</media:title>
+   <media:content url="https://www.youtube.com/v/kfJGhNxEero?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/kfJGhNxEero/hqdefault.jpg" width="480" height="360"/>
+   <media:description>歡迎加入會員 鏈接 https://www.youtube.com/channel/UC6lYCOXS4Rxo9xpKS1My32A/join
+會員福利包括：
+- 視頻庫提前觀看
+- 針對會員的專享視頻
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+恆星生命歷程 (上)：從誕生到白矮星|White Dwarf https://youtu.be/Qlfxj6qLRJs
+
+恆星生命歷程 (下)：超新星與黑洞|Supernova|Black Hole https://youtu.be/g2byfaClqOA
+
+登月系列#1 阿波羅11號：人類首次登月驚險歷程 https://youtu.be/d1HglVsuclE
+
+登月系列#2 阿波羅13號: 人類史上最不可思義的太空營救 https://youtu.be/-MDrUCw0e6U
+
+重返月球 1：2024月球登陸有何不同？https://youtu.be/rngR2Y1QLXo
+
+重返月球 2: 為何50年未再登陸月球？https://youtu.be/ciNtQpdUm6g
+
+重返月球 3： NASA僅剩4件宇航服？！https://youtu.be/f9LoWucZut4</media:description>
+   <media:community>
+    <media:starRating count="1145" average="5.00" min="1" max="5"/>
+    <media:statistics views="31101"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:2zDFe7rJ2mQ</id>
+  <yt:videoId>2zDFe7rJ2mQ</yt:videoId>
+  <yt:channelId>UC6lYCOXS4Rxo9xpKS1My32A</yt:channelId>
+  <title>十分鐘看完NASA火星探索50年|Mars 50 Years in 10 mins</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=2zDFe7rJ2mQ"/>
+  <author>
+   <name>Discovery With Andy</name>
+   <uri>https://www.youtube.com/channel/UC6lYCOXS4Rxo9xpKS1My32A</uri>
+  </author>
+  <published>2022-05-24T12:09:45+00:00</published>
+  <updated>2023-06-08T12:46:22+00:00</updated>
+  <media:group>
+   <media:title>十分鐘看完NASA火星探索50年|Mars 50 Years in 10 mins</media:title>
+   <media:content url="https://www.youtube.com/v/2zDFe7rJ2mQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/2zDFe7rJ2mQ/hqdefault.jpg" width="480" height="360"/>
+   <media:description>歡迎加入會員 鏈接 https://www.youtube.com/channel/UC6lYCOXS4Rxo9xpKS1My32A/join
+會員福利包括：
+- 30-50個視頻庫提前觀看
+- 針對會員的專享視頻
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+登月系列#1 阿波羅11號：人類首次登月驚險歷程 https://youtu.be/d1HglVsuclE
+
+登月系列#2 阿波羅13號: 人類史上最不可思義的太空營救 https://youtu.be/-MDrUCw0e6U
+
+重返月球 1：2024月球登陸有何不同？https://youtu.be/rngR2Y1QLXo
+
+重返月球 2: 為何50年未再登陸月球？https://youtu.be/ciNtQpdUm6g
+
+重返月球 3： NASA僅剩4件宇航服？！https://youtu.be/f9LoWucZut4
+
+Credit: Courtesy NASA/JPL-Caltech</media:description>
+   <media:community>
+    <media:starRating count="973" average="5.00" min="1" max="5"/>
+    <media:statistics views="35139"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>

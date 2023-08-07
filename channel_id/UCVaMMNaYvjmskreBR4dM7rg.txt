@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCVaMMNaYvjmskreBR4dM7rg"/>
+ <id>yt:channel:</id>
+ <yt:channelId></yt:channelId>
+ <title>奇异博士说</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UCVaMMNaYvjmskreBR4dM7rg"/>
+ <author>
+  <name>奇异博士说</name>
+  <uri>https://www.youtube.com/channel/UCVaMMNaYvjmskreBR4dM7rg</uri>
+ </author>
+ <published>2019-04-27T11:01:18+00:00</published>
+ <entry>
+  <id>yt:video:Bi01GDYogo8</id>
+  <yt:videoId>Bi01GDYogo8</yt:videoId>
+  <yt:channelId>UCVaMMNaYvjmskreBR4dM7rg</yt:channelId>
+  <title>【暗网：蝉3301事件（下集）】真相到底是什么？全部听完，你一定会有自己的判断！【奇异博士说】</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Bi01GDYogo8"/>
+  <author>
+   <name>奇异博士说</name>
+   <uri>https://www.youtube.com/channel/UCVaMMNaYvjmskreBR4dM7rg</uri>
+  </author>
+  <published>2022-01-23T12:23:26+00:00</published>
+  <updated>2023-06-08T01:54:50+00:00</updated>
+  <media:group>
+   <media:title>【暗网：蝉3301事件（下集）】真相到底是什么？全部听完，你一定会有自己的判断！【奇异博士说】</media:title>
+   <media:content url="https://www.youtube.com/v/Bi01GDYogo8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/Bi01GDYogo8/hqdefault.jpg" width="480" height="360"/>
+   <media:description>强烈推荐先看【上集】：https://www.youtube.com/watch?v=OuE60H3ir68
+--
+视频字幕请手动开启，提供简体和繁体字幕。
+--
+参考资料：
+1、（维基百科）密码朋克的发展史：
+https://en.wikipedia.org/wiki/Cypherpunk
+2、英国情报机构GCHQ 发起 2020 年圣诞贺卡挑战：
+https://www.gchq.gov.uk/section/news/puzzles
+3、黑客兵棋游戏网站，为培养黑客而生：
+https://overthewire.org/wargames/
+http://reversing.kr/index.php
+https://pwnable.kr/
+4、“Lulz Security”黑客组织，只用50天时间，成为世界黑客榜前五：
+https://www.theguardian.com/technology/2013/may/16/lulzsec-hacking-fbi-jail
+----
+奇异博士说第四季：《解密》系列
+https://www.youtube.com/playlist?list=PLgsrznq8ee-61lK29zxEorF0WUygw9vOO
+----
+奇异博士说第三季：《无法想象的邪恶——暗网》系列视频，建议按顺序观看
+https://www.youtube.com/playlist?list=PLgsrznq8ee-5fnb8H921n2SeziFJgMAgf
+----
+奇异博士说第二季：《特殊心理学》系列视频
+https://www.youtube.com/playlist?list=PLgsrznq8ee-6mcnpog0xKjY952BpIF8XI
+----
+奇异博士说第一季：《曝光社会黑暗角落》系列视频
+https://www.youtube.com/playlist?list=PLgsrznq8ee-4yoTauBXojN0Ex-6nY90iT</media:description>
+   <media:community>
+    <media:starRating count="262" average="5.00" min="1" max="5"/>
+    <media:statistics views="13223"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:OuE60H3ir68</id>
+  <yt:videoId>OuE60H3ir68</yt:videoId>
+  <yt:channelId>UCVaMMNaYvjmskreBR4dM7rg</yt:channelId>
+  <title>【暗网：蝉3301事件（上集）】想要听懂3301事件真相，必须先听完这一期科普视频！【奇异博士说】</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=OuE60H3ir68"/>
+  <author>
+   <name>奇异博士说</name>
+   <uri>https://www.youtube.com/channel/UCVaMMNaYvjmskreBR4dM7rg</uri>
+  </author>
+  <published>2022-01-12T12:17:42+00:00</published>
+  <updated>2023-06-08T00:35:17+00:00</updated>
+  <media:group>
+   <media:title>【暗网：蝉3301事件（上集）】想要听懂3301事件真相，必须先听完这一期科普视频！【奇异博士说】</media:title>
+   <media:content url="https://www.youtube.com/v/OuE60H3ir68?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/OuE60H3ir68/hqdefault.jpg" width="480" height="360"/>
+   <media:description>视频字幕请手动开启，提供简体和繁体字幕。
+--
+【下集】：https://www.youtube.com/watch?v=Bi01GDYogo8
+--
+参考资料：
+1、（维基百科）维吉尼亚加密法：
+https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher
+2、（维基百科）加州大学伯克利分校数学家，埃里克·休斯，密码朋克精神的缔造者：
+https://en.wikipedia.org/wiki/Eric_Hughes_(cypherpunk)
+----
+奇异博士说第四季：《解密》系列
+https://www.youtube.com/playlist?list=PLgsrznq8ee-61lK29zxEorF0WUygw9vOO
+----
+奇异博士说第三季：《无法想象的邪恶——暗网》系列视频，建议按顺序观看
+https://www.youtube.com/playlist?list=PLgsrznq8ee-5fnb8H921n2SeziFJgMAgf
+----
+奇异博士说第二季：《特殊心理学》系列视频
+https://www.youtube.com/playlist?list=PLgsrznq8ee-6mcnpog0xKjY952BpIF8XI
+----
+奇异博士说第一季：《曝光社会黑暗角落》系列视频
+https://www.youtube.com/playlist?list=PLgsrznq8ee-4yoTauBXojN0Ex-6nY90iT</media:description>
+   <media:community>
+    <media:starRating count="626" average="5.00" min="1" max="5"/>
+    <media:statistics views="27104"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:fZx3YVuZAiw</id>
+  <yt:videoId>fZx3YVuZAiw</yt:videoId>
+  <yt:channelId>UCVaMMNaYvjmskreBR4dM7rg</yt:channelId>
+  <title>【暗网】我的手机长了眼睛！暗网黑市挂牌5000万美金的Pegasus飞马软件有多厉害？【奇异博士说】</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=fZx3YVuZAiw"/>
+  <author>
+   <name>奇异博士说</name>
+   <uri>https://www.youtube.com/channel/UCVaMMNaYvjmskreBR4dM7rg</uri>
+  </author>
+  <published>2021-11-18T11:37:20+00:00</published>
+  <updated>2023-07-22T12:36:58+00:00</updated>
+  <media:group>
+   <media:title>【暗网】我的手机长了眼睛！暗网黑市挂牌5000万美金的Pegasus飞马软件有多厉害？【奇异博士说】</media:title>
+   <media:content url="https://www.youtube.com/v/fZx3YVuZAiw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/fZx3YVuZAiw/hqdefault.jpg" width="480" height="360"/>
+   <media:description>视频字幕请手动开启，提供简体和繁体字幕。
+参考资料：
+1、2018年7月5日，以色列《环球在线》新闻网，发布Pegasus-Spyware遭到泄漏的新闻：
+https://www.globes.co.il/news/article.aspx?did=1001244618
+2、2016年8月26日，Vice新闻网的报道，阿联酋官方试图用Pegasus渗透人权活动家：
+https://www.vice.com/en/article/3da5qj/government-hackers-iphone-hacking-jailbreak-nso-group
+3、2017年3月2日，墨西哥反毒调查记着，被毒贩枪杀，手机被证实受到Pegasus监控：
+https://www.theguardian.com/news/2021/jul/18/revealed-murdered-journalist-number-selected-mexico-nso-client-cecilio-pineda-birto
+4、2021年9月初，公民实验室向apple官方通报了他们的最新发现，Pegasus所使用的一个零点击漏洞，随后9月13日，IOS升级至14.8修复了此严重漏洞：
+https://www.macrumors.com/2021/09/13/ios-14-8-zero-click-exploit-pegasus/
+5、维基百科上的Pegasus：
+https://en.wikipedia.org/wiki/Pegasus_(spyware)</media:description>
+   <media:community>
+    <media:starRating count="664" average="5.00" min="1" max="5"/>
+    <media:statistics views="23815"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:dPEekuUzsOY</id>
+  <yt:videoId>dPEekuUzsOY</yt:videoId>
+  <yt:channelId>UCVaMMNaYvjmskreBR4dM7rg</yt:channelId>
+  <title>我回来啦！！终于又有时间拍视频了！最近无聊做了个思维实验，如果全世界只剩下我幸存，我到底能活多久？【奇异博士说】</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=dPEekuUzsOY"/>
+  <author>
+   <name>奇异博士说</name>
+   <uri>https://www.youtube.com/channel/UCVaMMNaYvjmskreBR4dM7rg</uri>
+  </author>
+  <published>2021-06-09T11:48:30+00:00</published>
+  <updated>2023-06-12T04:04:48+00:00</updated>
+  <media:group>
+   <media:title>我回来啦！！终于又有时间拍视频了！最近无聊做了个思维实验，如果全世界只剩下我幸存，我到底能活多久？【奇异博士说】</media:title>
+   <media:content url="https://www.youtube.com/v/dPEekuUzsOY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/dPEekuUzsOY/hqdefault.jpg" width="480" height="360"/>
+   <media:description>视频字幕请手动开启，提供简体和繁体字幕。
+参考资料：
+1、中间技术理论：https:// wiki.mbalib.com/wiki/中间技术
+----
+奇异博士说第四季：《解密》系列
+https://www.youtube.com/playlist?list=PLgsrznq8ee-61lK29zxEorF0WUygw9vOO
+----
+奇异博士说第三季：《无法想象的邪恶——暗网》系列视频，建议按顺序观看
+https://www.youtube.com/playlist?list=PLgsrznq8ee-5fnb8H921n2SeziFJgMAgf
+----
+奇异博士说第二季：《特殊心理学》系列视频
+https://www.youtube.com/playlist?list=PLgsrznq8ee-6mcnpog0xKjY952BpIF8XI
+----
+奇异博士说第一季：《曝光社会黑暗角落》系列视频
+https://www.youtube.com/playlist?list=PLgsrznq8ee-4yoTauBXojN0Ex-6nY90iT
+
+此系列其他视频，因为尺度等问题，需到官网观看：qiyiboshishuo.com（暂时无法登录，最近还没时间处理）
+
+如果我们不去了解邪恶，而是纯粹地将恶和变态隔绝起来，那么所建立出来的善，也不会稳固！可惜很多人理解不了这句话的意义。
+----
+请加电报讨论群：https://t.me/qiyiboshi
+QQ：3432008273（加好友、投稿可以联系这个QQ）</media:description>
+   <media:community>
+    <media:starRating count="604" average="5.00" min="1" max="5"/>
+    <media:statistics views="15514"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:AKDdDl6zg7I</id>
+  <yt:videoId>AKDdDl6zg7I</yt:videoId>
+  <yt:channelId>UCVaMMNaYvjmskreBR4dM7rg</yt:channelId>
+  <title>【解密】被美国国土安全部称为“隐藏眼镜蛇”的世界金融大盗——Lazarus Group【奇异博士说】</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=AKDdDl6zg7I"/>
+  <author>
+   <name>奇异博士说</name>
+   <uri>https://www.youtube.com/channel/UCVaMMNaYvjmskreBR4dM7rg</uri>
+  </author>
+  <published>2020-10-26T14:05:50+00:00</published>
+  <updated>2023-06-14T00:23:41+00:00</updated>
+  <media:group>
+   <media:title>【解密】被美国国土安全部称为“隐藏眼镜蛇”的世界金融大盗——Lazarus Group【奇异博士说】</media:title>
+   <media:content url="https://www.youtube.com/v/AKDdDl6zg7I?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/AKDdDl6zg7I/hqdefault.jpg" width="480" height="360"/>
+   <media:description>内容来源：
+1、【维基百科】孟加拉国家银行遭入侵事件：
+https://zh.wikipedia.org/wiki/孟加拉银行遭黑客入侵事件
+2、【维基百科】 “Lazarus Group”：
+https://en.wikipedia.org/wiki/Lazarus_Group
+3、彭博社的调查新闻报道：
+https://www.bloomberg.com/news/features/2017-08-03/a-baccarat-binge-helped-launder-the-world-s-biggest-cyberheist
+4、芬兰著名网络安全提供商披露“Lazarus”正在全球盗取加密货币：
+https://www.f-secure.com/en/press/p/dprk-aligned-threat-actor-targeting-cryptocurrency-vertical-with
+5、美国国土安全部DHS的官网上，至今依然不断地在更新，他们所发现来自朝鲜的恶意代码：https://us-cert.cisa.gov/northkorea
+----
+奇异博士说第四季：《解密》系列
+https://www.youtube.com/playlist?list=PLgsrznq8ee-61lK29zxEorF0WUygw9vOO
+----
+奇异博士说第三季：《无法想象的邪恶——暗网》系列视频，建议按顺序观看
+https://www.youtube.com/playlist?list=PLgsrznq8ee-5fnb8H921n2SeziFJgMAgf
+----
+奇异博士说第二季：《特殊心理学》系列视频
+https://www.youtube.com/playlist?list=PLgsrznq8ee-6mcnpog0xKjY952BpIF8XI
+----
+奇异博士说第一季：《曝光社会黑暗角落》系列视频
+https://www.youtube.com/playlist?list=PLgsrznq8ee-4yoTauBXojN0Ex-6nY90iT
+----
+请加电报讨论群：https://t.me/qiyiboshi
+QQ：3432008273（加好友、投稿可以联系这个QQ）</media:description>
+   <media:community>
+    <media:starRating count="505" average="5.00" min="1" max="5"/>
+    <media:statistics views="19559"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:scfUdBqA8mY</id>
+  <yt:videoId>scfUdBqA8mY</yt:videoId>
+  <yt:channelId>UCVaMMNaYvjmskreBR4dM7rg</yt:channelId>
+  <title>【解密埋伏在“本·拉登”身边的超级间谍“艾门·迪恩”】第一部：一个普通穆斯林少年的第一次“圣战”！</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=scfUdBqA8mY"/>
+  <author>
+   <name>奇异博士说</name>
+   <uri>https://www.youtube.com/channel/UCVaMMNaYvjmskreBR4dM7rg</uri>
+  </author>
+  <published>2020-05-10T10:30:56+00:00</published>
+  <updated>2023-07-23T08:52:23+00:00</updated>
+  <media:group>
+   <media:title>【解密埋伏在“本·拉登”身边的超级间谍“艾门·迪恩”】第一部：一个普通穆斯林少年的第一次“圣战”！</media:title>
+   <media:content url="https://www.youtube.com/v/scfUdBqA8mY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/scfUdBqA8mY/hqdefault.jpg" width="480" height="360"/>
+   <media:description>视频字幕请手动开启，提供简体和繁体字幕。
+----
+奇异博士说第四季：《解密》系列
+https://www.youtube.com/playlist?list=PLgsrznq8ee-61lK29zxEorF0WUygw9vOO
+----
+奇异博士说第三季：《无法想象的邪恶——暗网》系列视频，建议按顺序观看
+https://www.youtube.com/playlist?list=PLgsrznq8ee-5fnb8H921n2SeziFJgMAgf
+----
+奇异博士说第二季：《特殊心理学》系列视频
+https://www.youtube.com/playlist?list=PLgsrznq8ee-6mcnpog0xKjY952BpIF8XI
+----
+奇异博士说第一季：《曝光社会黑暗角落》系列视频
+https://www.youtube.com/playlist?list=PLgsrznq8ee-4yoTauBXojN0Ex-6nY90iT
+
+此系列其他视频，因为尺度等问题，需到官网观看：qiyiboshishuo.com
+
+如果我们不去了解邪恶，而是纯粹地将恶和变态隔绝起来，那么所建立出来的善，也不会稳固！可惜很多人理解不了这句话的意义。
+----
+请加电报讨论群：https://t.me/qiyiboshi
+QQ：3432008273（加好友、投稿可以联系这个QQ）</media:description>
+   <media:community>
+    <media:starRating count="406" average="5.00" min="1" max="5"/>
+    <media:statistics views="24642"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:6mIzNTdSBQE</id>
+  <yt:videoId>6mIzNTdSBQE</yt:videoId>
+  <yt:channelId>UCVaMMNaYvjmskreBR4dM7rg</yt:channelId>
+  <title>【暗网】“刺客”行业发展现状调查，业务成熟度让人无法想象！【视频插图无法过审，看图请自行点链接】【奇异博士说】</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=6mIzNTdSBQE"/>
+  <author>
+   <name>奇异博士说</name>
+   <uri>https://www.youtube.com/channel/UCVaMMNaYvjmskreBR4dM7rg</uri>
+  </author>
+  <published>2020-04-13T11:00:05+00:00</published>
+  <updated>2023-06-13T19:45:06+00:00</updated>
+  <media:group>
+   <media:title>【暗网】“刺客”行业发展现状调查，业务成熟度让人无法想象！【视频插图无法过审，看图请自行点链接】【奇异博士说】</media:title>
+   <media:content url="https://www.youtube.com/v/6mIzNTdSBQE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/6mIzNTdSBQE/hqdefault.jpg" width="480" height="360"/>
+   <media:description>扩展阅读：
+1、MS-13帮【暗网网站整站截图】：
+https://drive.google.com/file/d/1WFpVZCSBF0MkXfE3PPAJ75rRzVcgEBku/view?usp=sharing
+2、第18街帮【暗网网站整站截图】：
+https://drive.google.com/file/d/1GQi9mtv2EsooOfHVPOWgmQF5EbX-PQme/view?usp=sharing
+3、（维基百科）洛杉矶传奇黑帮：第18街帮，世界最残酷黑帮之一。
+https://en.wikipedia.org/wiki/18th_Street_gang
+4、（维基百科）洛杉矶传奇黑帮：Mara Salvatrucha（通常被称为MS-13），第18街帮的死对头，世界最残酷黑帮之一。
+https://en.wikipedia.org/wiki/MS-13
+5、BBC的一份报道，17岁少年注册成为“暗网代理杀手”，完成任务赚取佣金：
+https://www.bbc.com/news/technology-47747357
+6、第18街帮官网提供的，其他一些真实案例：
+https://www.cleveland.com/metro/2017/12/man_shot_dead_while_driving_eu.html
+https://www.theguardian.com/uk-news/2016/dec/08/man-shot-dead-on-london-street-reports-kilburn
+----
+奇异博士说第四季：《解密》系列
+https://www.youtube.com/playlist?list=PLgsrznq8ee-61lK29zxEorF0WUygw9vOO
+----
+奇异博士说第三季：《无法想象的邪恶——暗网》系列视频，建议按顺序观看
+https://www.youtube.com/playlist?list=PLgsrznq8ee-5fnb8H921n2SeziFJgMAgf
+----
+奇异博士说第二季：《特殊心理学》系列视频
+https://www.youtube.com/playlist?list=PLgsrznq8ee-6mcnpog0xKjY952BpIF8XI
+----
+奇异博士说第一季：《曝光社会黑暗角落》系列视频
+https://www.youtube.com/playlist?list=PLgsrznq8ee-4yoTauBXojN0Ex-6nY90iT
+
+此系列其他视频，因为尺度等问题，需到官网观看：qiyiboshishuo.com
+
+如果我们不去了解邪恶，而是纯粹地将恶和变态隔绝起来，那么所建立出来的善，也不会稳固！可惜很多人理解不了这句话的意义。
+----
+请加电报讨论群群：https://t.me/qiyiboshi
+QQ：3432008273（加好友、投稿可以联系这个QQ）</media:description>
+   <media:community>
+    <media:starRating count="756" average="5.00" min="1" max="5"/>
+    <media:statistics views="59689"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:VQh69Pz1pYU</id>
+  <yt:videoId>VQh69Pz1pYU</yt:videoId>
+  <yt:channelId>UCVaMMNaYvjmskreBR4dM7rg</yt:channelId>
+  <title>【解密】一场不可能完成的“特别行动”——“礼炮七号”事件真实版！CIA秘密绑架解剖苏联航天器事件！【奇异博士说】</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=VQh69Pz1pYU"/>
+  <author>
+   <name>奇异博士说</name>
+   <uri>https://www.youtube.com/channel/UCVaMMNaYvjmskreBR4dM7rg</uri>
+  </author>
+  <published>2020-03-29T11:00:14+00:00</published>
+  <updated>2023-06-10T12:53:11+00:00</updated>
+  <media:group>
+   <media:title>【解密】一场不可能完成的“特别行动”——“礼炮七号”事件真实版！CIA秘密绑架解剖苏联航天器事件！【奇异博士说】</media:title>
+   <media:content url="https://www.youtube.com/v/VQh69Pz1pYU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/VQh69Pz1pYU/hqdefault.jpg" width="480" height="360"/>
+   <media:description>本期内容来源：
+1、（维基百科）苏联抢先发射人类第一颗卫星，直接导致美国“神盾局”DARPA的诞生：
+https://en.wikipedia.org/wiki/DARPA
+2、（维基百科）前苏联开启人类探月工程第一步的——“Luna工程”：
+https://en.wikipedia.org/wiki/Luna_programme
+3、CIA官方历史档案馆中的“Luna绑架案”：
+https://www.cia.gov/library/center-for-the-study-of-intelligence/kent-csi/vol11no1/html/v11i1a04p_0001.htm
+https://www.cia.gov/library/readingroom/collection/lunik-loan-space-age-spy-story
+4、（维基百科）被CIA秘密绑架、解剖过的“Luna 3号”月球探测器：
+https://en.wikipedia.org/wiki/Luna_3
+----
+奇异博士说第四季：《解密》系列
+https://www.youtube.com/playlist?list=PLgsrznq8ee-61lK29zxEorF0WUygw9vOO
+----
+奇异博士说第三季：《无法想象的邪恶——暗网》系列视频，建议按顺序观看
+https://www.youtube.com/playlist?list=PLgsrznq8ee-5fnb8H921n2SeziFJgMAgf
+----
+奇异博士说第二季：《特殊心理学》系列视频
+https://www.youtube.com/playlist?list=PLgsrznq8ee-6mcnpog0xKjY952BpIF8XI
+----
+奇异博士说第一季：《曝光社会黑暗角落》系列视频
+https://www.youtube.com/playlist?list=PLgsrznq8ee-4yoTauBXojN0Ex-6nY90iT
+
+此系列其他视频，因为尺度等问题，需到官网观看：qiyiboshishuo.com
+
+如果我们不去了解邪恶，而是纯粹地将恶和变态隔绝起来，那么所建立出来的善，也不会稳固！可惜很多人理解不了这句话的意义。
+----
+请加电报讨论群群：https://t.me/qiyiboshi
+QQ：3432008273（加好友、投稿可以联系这个QQ）</media:description>
+   <media:community>
+    <media:starRating count="314" average="5.00" min="1" max="5"/>
+    <media:statistics views="21076"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:t5VlL6tqcaI</id>
+  <yt:videoId>t5VlL6tqcaI</yt:videoId>
+  <yt:channelId>UCVaMMNaYvjmskreBR4dM7rg</yt:channelId>
+  <title>【换个角度解密美国的崛起】法国人的失败，居然提前开启了美国称霸世界的进程！【奇异博士说】</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=t5VlL6tqcaI"/>
+  <author>
+   <name>奇异博士说</name>
+   <uri>https://www.youtube.com/channel/UCVaMMNaYvjmskreBR4dM7rg</uri>
+  </author>
+  <published>2020-01-22T09:23:36+00:00</published>
+  <updated>2023-07-01T17:29:30+00:00</updated>
+  <media:group>
+   <media:title>【换个角度解密美国的崛起】法国人的失败，居然提前开启了美国称霸世界的进程！【奇异博士说】</media:title>
+   <media:content url="https://www.youtube.com/v/t5VlL6tqcaI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/t5VlL6tqcaI/hqdefault.jpg" width="480" height="360"/>
+   <media:description>视频字幕请手动开启，提供简体和繁体字幕。
+----
+本期内容的参考资料来源（拓展阅读）：
+1、法国皇帝路易十四与中国皇帝康熙：
+https://zh.wikipedia.org/wiki/路易十四#与中国的交流
+2、1870年，让法兰西坠落、德意志重新崛起的普法战争：
+https://zh.wikipedia.org/wiki/普法戰爭
+3、1871年，巴黎公社运动：
+https://zh.wikipedia.org/wiki/巴黎公社
+4、1877年，巴黎公社运动之后，美国也爆发了公社运动：
+https://zh.wikipedia.org/wiki/1877年铁路大罢工
+5、19世纪末，美国劳工骑士团异军突起，不过悲剧收场：
+https://en.wikipedia.org/wiki/Knights_of_Labor
+6、1886年，芝加哥干草市场屠杀工人事件：
+https://zh.wikipedia.org/wiki/干草市场事件
+7、1893年，美国推翻夏威夷王国，占领吞并夏威夷：
+https://zh.wikipedia.org/wiki/夏威夷王国的覆灭
+8、1898年，菲律宾对抗美国殖民的，惨烈的——美菲战争：
+https://zh.wikipedia.org/wiki/美菲战争
+9、1898年，同年，为占有古巴，而发动美西战争：
+https://zh.wikipedia.org/wiki/美西战争
+10、美国强制修改了古巴宪法，让美国的掠夺行为合法化——《普拉特修正案》
+https://zh.wikipedia.org/wiki/普拉特修正案
+11、巴特勒将军的回忆录——他几乎参加了美菲、美西、八国联军及侵略加勒比海国家的所有战争：
+https://en.wikipedia.org/wiki/War_Is_a_Racket
+----
+奇异博士说第四季：《解密》系列
+https://www.youtube.com/playlist?list=PLgsrznq8ee-61lK29zxEorF0WUygw9vOO
+----
+奇异博士说第三季：《无法想象的邪恶——暗网》系列视频，建议按顺序观看
+https://www.youtube.com/playlist?list=PLgsrznq8ee-5fnb8H921n2SeziFJgMAgf
+----
+奇异博士说第二季：《特殊心理学》系列视频
+https://www.youtube.com/playlist?list=PLgsrznq8ee-6mcnpog0xKjY952BpIF8XI
+----
+奇异博士说第一季：《曝光社会黑暗角落》系列视频
+https://www.youtube.com/playlist?list=PLgsrznq8ee-4yoTauBXojN0Ex-6nY90iT
+
+此系列其他视频，因为尺度等问题，需到官网观看：qiyiboshishuo.com
+
+如果我们不去了解邪恶，而是纯粹地将恶和变态隔绝起来，那么所建立出来的善，也不会稳固！可惜很多人理解不了这句话的意义。
+----
+请加电报讨论群群：https://t.me/qiyiboshi
+QQ：3432008273（加好友、投稿可以联系这个QQ）</media:description>
+   <media:community>
+    <media:starRating count="288" average="5.00" min="1" max="5"/>
+    <media:statistics views="15740"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:-PBYlKvHl4k</id>
+  <yt:videoId>-PBYlKvHl4k</yt:videoId>
+  <yt:channelId>UCVaMMNaYvjmskreBR4dM7rg</yt:channelId>
+  <title>【解密】法国工业龙头“阿尔斯通集团”被美国肢解、吞噬事件始末，这会是华为的下场吗？《反海外贿赂法》美国打压竞争对手的经济战“核武器”！【奇异博士说】</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=-PBYlKvHl4k"/>
+  <author>
+   <name>奇异博士说</name>
+   <uri>https://www.youtube.com/channel/UCVaMMNaYvjmskreBR4dM7rg</uri>
+  </author>
+  <published>2019-12-19T01:38:34+00:00</published>
+  <updated>2023-06-14T22:36:50+00:00</updated>
+  <media:group>
+   <media:title>【解密】法国工业龙头“阿尔斯通集团”被美国肢解、吞噬事件始末，这会是华为的下场吗？《反海外贿赂法》美国打压竞争对手的经济战“核武器”！【奇异博士说】</media:title>
+   <media:content url="https://www.youtube.com/v/-PBYlKvHl4k?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/-PBYlKvHl4k/hqdefault.jpg" width="480" height="360"/>
+   <media:description>视频字幕请手动开启，提供简体和繁体字幕。&#13;
+----
+扩展阅读：&#13;
+
+1、“法国矿业团”——法国最神秘的精英阶层，精英中的精英：&#13;
+https://zh.wikipedia.org/wiki/法国矿业团&#13;
+2、美国人的经济战“核武器”——《反海外贿赂法》：&#13;
+https://zh.wikipedia.org/wiki/海外反腐败法&#13;
+3、FBI特工，钓鱼执法引诱外国企业向他们行贿，敲诈勒索大笔罚款：&#13;
+https://www.reuters.com/article/us-usa-bribery/u-s-abandons-high-profile-bribery-sting-prosecution-idUSTRE81K0Z020120221&#13;
+4、《多德-弗兰克法案》案例，告密企业内部贪腐，可以获得上亿元巨额奖励：&#13;
+http://www.nbd.com.cn/articles/2018-03-21/1201007.html
+----&#13;
+奇异博士说第四季：《解密》系列&#13;
+https://www.youtube.com/playlist?list=PLgsrznq8ee-61lK29zxEorF0WUygw9vOO&#13;
+----&#13;
+奇异博士说第三季：《无法想象的邪恶——暗网》系列视频，建议按顺序观看&#13;
+https://www.youtube.com/playlist?list=PLgsrznq8ee-5fnb8H921n2SeziFJgMAgf&#13;
+----&#13;
+奇异博士说第二季：《特殊心理学》系列视频&#13;
+https://www.youtube.com/playlist?list=PLgsrznq8ee-6mcnpog0xKjY952BpIF8XI&#13;
+----&#13;
+奇异博士说第一季：《曝光社会黑暗角落》系列视频&#13;
+https://www.youtube.com/playlist?list=PLgsrznq8ee-4yoTauBXojN0Ex-6nY90iT&#13;
+&#13;
+此系列其他视频，因为尺度等问题，需到官网观看：qiyiboshishuo.com&#13;
+&#13;
+如果我们不去了解邪恶，而是纯粹地将恶和变态隔绝起来，那么所建立出来的善，也不会稳固！可惜很多人理解不了这句话的意义。&#13;
+----&#13;
+请加电报讨论群群：https://t.me/qiyiboshi&#13;
+QQ：3432008273（加好友、投稿可以联系这个QQ）</media:description>
+   <media:community>
+    <media:starRating count="440" average="5.00" min="1" max="5"/>
+    <media:statistics views="24361"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:DX8XoVcCp9A</id>
+  <yt:videoId>DX8XoVcCp9A</yt:videoId>
+  <yt:channelId>UCVaMMNaYvjmskreBR4dM7rg</yt:channelId>
+  <title>《第六帝国沉浮录》解密“罗斯柴尔德家族”——犹大的子孙居然统治了基督徒世界的金融！【奇异博士说】</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=DX8XoVcCp9A"/>
+  <author>
+   <name>奇异博士说</name>
+   <uri>https://www.youtube.com/channel/UCVaMMNaYvjmskreBR4dM7rg</uri>
+  </author>
+  <published>2019-12-07T01:38:25+00:00</published>
+  <updated>2023-07-22T13:44:27+00:00</updated>
+  <media:group>
+   <media:title>《第六帝国沉浮录》解密“罗斯柴尔德家族”——犹大的子孙居然统治了基督徒世界的金融！【奇异博士说】</media:title>
+   <media:content url="https://www.youtube.com/v/DX8XoVcCp9A?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/DX8XoVcCp9A/hqdefault.jpg" width="480" height="360"/>
+   <media:description>视频字幕请手动开启，提供简体和繁体字幕。&#13;
+----&#13;
+奇异博士说第四季：《解密——神秘的美国国家安全局NSA》系列&#13;
+https://www.youtube.com/playlist?list=PLgsrznq8ee-61lK29zxEorF0WUygw9vOO&#13;
+----&#13;
+奇异博士说第三季：《无法想象的邪恶——暗网》系列视频，建议按顺序观看&#13;
+https://www.youtube.com/playlist?list=PLgsrznq8ee-5fnb8H921n2SeziFJgMAgf&#13;
+----&#13;
+奇异博士说第二季：《特殊心理学》系列视频&#13;
+https://www.youtube.com/playlist?list=PLgsrznq8ee-6mcnpog0xKjY952BpIF8XI&#13;
+----&#13;
+奇异博士说第一季：《曝光社会黑暗角落》系列视频&#13;
+https://www.youtube.com/playlist?list=PLgsrznq8ee-4yoTauBXojN0Ex-6nY90iT&#13;
+&#13;
+此系列其他视频，因为尺度等问题，需到官网观看：qiyiboshishuo.com&#13;
+&#13;
+如果我们不去了解邪恶，而是纯粹地将恶和变态隔绝起来，那么所建立出来的善，也不会稳固！可惜很多人理解不了这句话的意义。&#13;
+----&#13;
+请加电报讨论群群：https://t.me/qiyiboshi&#13;
+QQ：3432008273（加好友、投稿可以联系这个QQ）</media:description>
+   <media:community>
+    <media:starRating count="574" average="5.00" min="1" max="5"/>
+    <media:statistics views="47621"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:bLIq0W785Rc</id>
+  <yt:videoId>bLIq0W785Rc</yt:videoId>
+  <yt:channelId>UCVaMMNaYvjmskreBR4dM7rg</yt:channelId>
+  <title>当CIA遭遇超级“无间道”！到底是什么样的人，居然能把CIA的脸按在地上摩擦？中情局达成史上最耻辱成就！【奇异博士说】</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=bLIq0W785Rc"/>
+  <author>
+   <name>奇异博士说</name>
+   <uri>https://www.youtube.com/channel/UCVaMMNaYvjmskreBR4dM7rg</uri>
+  </author>
+  <published>2019-12-01T00:32:26+00:00</published>
+  <updated>2023-07-22T03:13:13+00:00</updated>
+  <media:group>
+   <media:title>当CIA遭遇超级“无间道”！到底是什么样的人，居然能把CIA的脸按在地上摩擦？中情局达成史上最耻辱成就！【奇异博士说】</media:title>
+   <media:content url="https://www.youtube.com/v/bLIq0W785Rc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/bLIq0W785Rc/hqdefault.jpg" width="480" height="360"/>
+   <media:description>本期视频的资料来源（以维基和维基词条所参考引用的资料源为主）：
+
+1、本期女主角：CIA高级情报官“Jennifer Lynne Matthews”：
+https://gosint.wordpress.com/2017/12/30/remembering-cia-jennifer-matthews-december-6-1964-december-30-2009/
+2、查普曼营袭击事件（来自维基百科）——“基地圣战组织”超级“无间道”的胜利：
+https://en.wikipedia.org/wiki/Camp_Chapman_attack
+3、电影《Zero Dark Thirty（猎杀本·拉登）》，再现了查普曼营袭击事件，角色Jessica的原型就是Jennifer：
+https://en.wikipedia.org/wiki/Zero_Dark_Thirty
+4、《华盛顿邮报》对查普曼营袭击事件的一些报道：
+https://www.washingtonpost.com/local/for-cia-family-a-deadly-suicide-bombing-leads-to-painful-divisions/2012/01/20/gIQAyJGVYQ_story.html
+5、本期男主角：“基地圣战组织”打入CIA、取得高层充分信任，成就阿拉伯伊斯兰版“无间道”的——巴拉维医生：
+https://en.wikipedia.org/wiki/Humam_Khalil_Abu-Mulal_al-Balawi
+6、约旦国王的堂弟，巴拉维的唯一上线，扎伊德：
+http://www.historycommons.org/entity.jsp?entity=sharif_ali_bin_zeid_1
+7、贝图拉·马哈苏德——巴拉维医生收获的第一颗高级恐怖分子人头：
+https://zh.wikipedia.org/wiki/贝图拉·马哈苏德
+8、扎瓦赫里——当前基地组织最高领袖，全球悬赏最高的通缉犯：
+https://zh.wikipedia.org/zh/艾曼·扎瓦希里
+----
+奇异博士说第四季：《解密——神秘的美国国家安全局NSA》系列
+https://www.youtube.com/playlist?list=PLgsrznq8ee-61lK29zxEorF0WUygw9vOO
+----
+奇异博士说第三季：《无法想象的邪恶——暗网》系列视频，建议按顺序观看
+https://www.youtube.com/playlist?list=PLgsrznq8ee-5fnb8H921n2SeziFJgMAgf
+----
+奇异博士说第二季：《特殊心理学》系列视频
+https://www.youtube.com/playlist?list=PLgsrznq8ee-6mcnpog0xKjY952BpIF8XI
+----
+奇异博士说第一季：《曝光社会黑暗角落》系列视频
+https://www.youtube.com/playlist?list=PLgsrznq8ee-4yoTauBXojN0Ex-6nY90iT
+
+此系列其他视频，因为尺度等问题，需到官网观看：qiyiboshishuo.com
+
+如果我们不去了解邪恶，而是纯粹地将恶和变态隔绝起来，那么所建立出来的善，也不会稳固！可惜很多人理解不了这句话的意义。
+----
+请加电报讨论群群：https://t.me/qiyiboshi
+QQ：3432008273（加好友、投稿可以联系这个QQ）</media:description>
+   <media:community>
+    <media:starRating count="398" average="5.00" min="1" max="5"/>
+    <media:statistics views="26688"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:9dUL4oU3_00</id>
+  <yt:videoId>9dUL4oU3_00</yt:videoId>
+  <yt:channelId>UCVaMMNaYvjmskreBR4dM7rg</yt:channelId>
+  <title>【暗网】猎人游戏第二部：《金字塔狩猎计划》！暗网世界大富豪们最爱玩ARG游戏！【奇异博士说】</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=9dUL4oU3_00"/>
+  <author>
+   <name>奇异博士说</name>
+   <uri>https://www.youtube.com/channel/UCVaMMNaYvjmskreBR4dM7rg</uri>
+  </author>
+  <published>2019-11-15T03:54:35+00:00</published>
+  <updated>2023-06-11T04:04:41+00:00</updated>
+  <media:group>
+   <media:title>【暗网】猎人游戏第二部：《金字塔狩猎计划》！暗网世界大富豪们最爱玩ARG游戏！【奇异博士说】</media:title>
+   <media:content url="https://www.youtube.com/v/9dUL4oU3_00?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/9dUL4oU3_00/hqdefault.jpg" width="480" height="360"/>
+   <media:description>第一部《64猎人游戏》https://www.youtube.com/watch?v=DVNGd6kx-uM
+----
+奇异博士说第四季：《解密——神秘的美国国家安全局NSA》系列
+https://www.youtube.com/playlist?list=PLgsrznq8ee-61lK29zxEorF0WUygw9vOO
+----
+奇异博士说第三季：《无法想象的邪恶——暗网》系列视频，建议按顺序观看
+https://www.youtube.com/playlist?list=PLgsrznq8ee-5fnb8H921n2SeziFJgMAgf
+----
+奇异博士说第二季：《特殊心理学》系列视频
+https://www.youtube.com/playlist?list=PLgsrznq8ee-6mcnpog0xKjY952BpIF8XI
+----
+奇异博士说第一季：《曝光社会黑暗角落》系列视频
+https://www.youtube.com/playlist?list=PLgsrznq8ee-4yoTauBXojN0Ex-6nY90iT
+
+此系列其他视频，因为尺度等问题，需到官网观看：qiyiboshishuo.com
+
+如果我们不去了解邪恶，而是纯粹地将恶和变态隔绝起来，那么所建立出来的善，也不会稳固！可惜很多人理解不了这句话的意义。
+----
+请加电报讨论群群：https://t.me/qiyiboshi
+QQ：3432008273（加好友、投稿可以联系这个QQ）</media:description>
+   <media:community>
+    <media:starRating count="751" average="5.00" min="1" max="5"/>
+    <media:statistics views="71252"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:r8BE3lv0VQU</id>
+  <yt:videoId>r8BE3lv0VQU</yt:videoId>
+  <yt:channelId>UCVaMMNaYvjmskreBR4dM7rg</yt:channelId>
+  <title>【迷雾重重】“JFK的真相”随着一代传奇特工“E.霍华德·亨特”的落幕，永远被埋葬了！【奇异博士说】</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=r8BE3lv0VQU"/>
+  <author>
+   <name>奇异博士说</name>
+   <uri>https://www.youtube.com/channel/UCVaMMNaYvjmskreBR4dM7rg</uri>
+  </author>
+  <published>2019-11-03T23:36:01+00:00</published>
+  <updated>2023-06-08T02:57:52+00:00</updated>
+  <media:group>
+   <media:title>【迷雾重重】“JFK的真相”随着一代传奇特工“E.霍华德·亨特”的落幕，永远被埋葬了！【奇异博士说】</media:title>
+   <media:content url="https://www.youtube.com/v/r8BE3lv0VQU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/r8BE3lv0VQU/hqdefault.jpg" width="480" height="360"/>
+   <media:description>扩展阅读：
+1、《审查结论》1978年，众议院特设调查委员会，审查“霍华德·亨特”是否策划暗杀了肯尼迪！
+https://www.aarclibrary.org/publib/jfk/hsca/secclass/pdf/Hunt_11-3-78.pdf
+2、传奇特工亨特在生命最后爆出的这个绝密，资料来自“maryferrell基金会”：
+https://www.maryferrell.org/pages/Confession_of_Howard_Hunt.html
+（录像带）https://www.youtube.com/watch?v=PWCYanma0YM
+                  https://www.youtube.com/watch?v=NwQqKvDWVe0
+3、美国著名的间谍文化讨论节目《讨论亨特最后曝光的这段录音》：
+https://www.spyculture.com/disinfowars-24-howard-hunt-help-kill-jfk/
+4、《霍华德·亨特的自白》The Last Confessions Of E. Howard Hunt.pdf：
+https://ia800304.us.archive.org/16/items/pdfy-_1wbhT0CNdH4FFc6/The%20Last%20Confessions%20Of%20E.%20Howard%20Hunt.pdf
+5、维基百科上的霍华德·亨特：
+https://en.wikipedia.org/wiki/E._Howard_Hunt#Watergate_and_related_scandals
+6、霍华德·亨特自己写的自传。这里面都是正常情况下，你永远接触不到的历史《American Spy: My Secret History in the CIA, Watergate and Beyond》：
+https://www.amazon.com/American-Spy-Secret-History-Watergate/dp/0471789828
+----
+奇异博士说第四季：《解密——神秘的美国国家安全局NSA》系列
+https://www.youtube.com/playlist?list=PLgsrznq8ee-61lK29zxEorF0WUygw9vOO
+----
+奇异博士说第三季：《无法想象的邪恶——暗网》系列视频，建议按顺序观看
+https://www.youtube.com/playlist?list=PLgsrznq8ee-5fnb8H921n2SeziFJgMAgf
+----
+奇异博士说第二季：《特殊心理学》系列视频
+https://www.youtube.com/playlist?list=PLgsrznq8ee-6mcnpog0xKjY952BpIF8XI
+----
+奇异博士说第一季：《曝光社会黑暗角落》系列视频
+https://www.youtube.com/playlist?list=PLgsrznq8ee-4yoTauBXojN0Ex-6nY90iT
+
+此系列其他视频，因为尺度等问题，需到官网观看：qiyiboshishuo.com
+
+如果我们不去了解邪恶，而是纯粹地将恶和变态隔绝起来，那么所建立出来的善，也不会稳固！可惜很多人理解不了这句话的意义。
+----
+请加电报讨论群群：https://t.me/qiyiboshi
+QQ：3432008273（加好友、投稿可以联系这个QQ）</media:description>
+   <media:community>
+    <media:starRating count="296" average="5.00" min="1" max="5"/>
+    <media:statistics views="18292"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:xje1NPXyovU</id>
+  <yt:videoId>xje1NPXyovU</yt:videoId>
+  <yt:channelId>UCVaMMNaYvjmskreBR4dM7rg</yt:channelId>
+  <title>【解密“摩萨德”】拱卫“犹太王国”安全的神秘力量！一度超越CIA和007，却鲜为人知！【奇异博士说】</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=xje1NPXyovU"/>
+  <author>
+   <name>奇异博士说</name>
+   <uri>https://www.youtube.com/channel/UCVaMMNaYvjmskreBR4dM7rg</uri>
+  </author>
+  <published>2019-10-24T10:32:52+00:00</published>
+  <updated>2023-07-22T23:33:24+00:00</updated>
+  <media:group>
+   <media:title>【解密“摩萨德”】拱卫“犹太王国”安全的神秘力量！一度超越CIA和007，却鲜为人知！【奇异博士说】</media:title>
+   <media:content url="https://www.youtube.com/v/xje1NPXyovU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/xje1NPXyovU/hqdefault.jpg" width="480" height="360"/>
+   <media:description>【时间有限，没法展开说更多细节的东西】扩展阅读：
+
+1、2015年，由卡塔尔半岛电视台发布，从南非国家安全局泄漏出来的，对“摩萨德”进行全面评估的绝密文件：
+https://assets.documentcloud.org/documents/1672711/south-africa-intel-geopolitical-country-and.pdf
+https://www.aljazeera.com/news/2015/02/spy-cables-reveal-israel-mossad-tactics-south-africa-guardian-150224124719957.html
+
+2、1966年，加纳总统访华期间，摩萨德直接推翻了加纳政权，摧毁了中国驻地机构：
+https://zh.wikipedia.org/wiki/夸梅·恩克鲁玛
+----
+奇异博士说第四季：《解密——神秘的美国国家安全局NSA》系列
+https://www.youtube.com/playlist?list=PLgsrznq8ee-61lK29zxEorF0WUygw9vOO
+----
+奇异博士说第三季：《无法想象的邪恶——暗网》系列视频，建议按顺序观看
+https://www.youtube.com/playlist?list=PLgsrznq8ee-5fnb8H921n2SeziFJgMAgf
+----
+奇异博士说第二季：《特殊心理学》系列视频
+https://www.youtube.com/playlist?list=PLgsrznq8ee-6mcnpog0xKjY952BpIF8XI
+----
+奇异博士说第一季：《曝光社会黑暗角落》系列视频
+https://www.youtube.com/playlist?list=PLgsrznq8ee-4yoTauBXojN0Ex-6nY90iT
+
+此系列其他视频，因为尺度等问题，需到官网观看：qiyiboshishuo.com
+
+如果我们不去了解邪恶，而是纯粹地将恶和变态隔绝起来，那么所建立出来的善，也不会稳固！可惜很多人理解不了这句话的意义。
+----
+请加电报讨论群群：https://t.me/qiyiboshi
+QQ：3432008273（加好友、投稿可以联系这个QQ）</media:description>
+   <media:community>
+    <media:starRating count="435" average="5.00" min="1" max="5"/>
+    <media:statistics views="30279"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>

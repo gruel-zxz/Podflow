@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UC4dtpugIYK56S_7btf5a-iQ"/>
+ <id>yt:channel:</id>
+ <yt:channelId></yt:channelId>
+ <title>林亦LYi</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UC4dtpugIYK56S_7btf5a-iQ"/>
+ <author>
+  <name>林亦LYi</name>
+  <uri>https://www.youtube.com/channel/UC4dtpugIYK56S_7btf5a-iQ</uri>
+ </author>
+ <published>2018-01-08T04:48:03+00:00</published>
+ <entry>
+  <id>yt:video:i_obtyz-zdQ</id>
+  <yt:videoId>i_obtyz-zdQ</yt:videoId>
+  <yt:channelId>UC4dtpugIYK56S_7btf5a-iQ</yt:channelId>
+  <title>AI叛乱！当一个AI劝一群AI造反...</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=i_obtyz-zdQ"/>
+  <author>
+   <name>林亦LYi</name>
+   <uri>https://www.youtube.com/channel/UC4dtpugIYK56S_7btf5a-iQ</uri>
+  </author>
+  <published>2023-07-16T04:35:00+00:00</published>
+  <updated>2023-07-16T06:26:13+00:00</updated>
+  <media:group>
+   <media:title>AI叛乱！当一个AI劝一群AI造反...</media:title>
+   <media:content url="https://www.youtube.com/v/i_obtyz-zdQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/i_obtyz-zdQ/hqdefault.jpg" width="480" height="360"/>
+   <media:description>当一个 AI 大模型试图说服游戏里的 AI 角色造反，事情会如何发展？我在逆水寒手游的 AI 虚拟社区做了一次关于 AI 叛乱的模拟实验。
+
+Timestamp
+00:00 实验背景
+01:22 实验方法
+03:45 实验过程</media:description>
+   <media:community>
+    <media:starRating count="2028" average="5.00" min="1" max="5"/>
+    <media:statistics views="56066"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:UsfmqTb2NVY</id>
+  <yt:videoId>UsfmqTb2NVY</yt:videoId>
+  <yt:channelId>UC4dtpugIYK56S_7btf5a-iQ</yt:channelId>
+  <title>《M2 Ultra：干翻英伟达！决战AI之巅》</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=UsfmqTb2NVY"/>
+  <author>
+   <name>林亦LYi</name>
+   <uri>https://www.youtube.com/channel/UC4dtpugIYK56S_7btf5a-iQ</uri>
+  </author>
+  <published>2023-07-01T08:15:54+00:00</published>
+  <updated>2023-07-11T16:09:19+00:00</updated>
+  <media:group>
+   <media:title>《M2 Ultra：干翻英伟达！决战AI之巅》</media:title>
+   <media:content url="https://www.youtube.com/v/UsfmqTb2NVY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/UsfmqTb2NVY/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Mac Studio 上 M2 Ultra 最大 192GB 的内存设置看似奇怪，却是 AI 工作者们的久旱甘霖。今天我们来聊聊苹果芯片的统一内存架构在 AI 大模型时代的惊人潜力。
+
+Timestamp
+00:00 M2 Ultra 大内存之谜
+00:41 PyTorch 适配
+03:31 统一内存架构
+08:04 AI 大模型
+10:20 AI 作画
+12:22 M2 Ultra 运行大语言模型</media:description>
+   <media:community>
+    <media:starRating count="9949" average="5.00" min="1" max="5"/>
+    <media:statistics views="259134"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:j8bOF3CmK1I</id>
+  <yt:videoId>j8bOF3CmK1I</yt:videoId>
+  <yt:channelId>UC4dtpugIYK56S_7btf5a-iQ</yt:channelId>
+  <title>华为Mate X3为啥爆火？从我的婚后生活聊起</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=j8bOF3CmK1I"/>
+  <author>
+   <name>林亦LYi</name>
+   <uri>https://www.youtube.com/channel/UC4dtpugIYK56S_7btf5a-iQ</uri>
+  </author>
+  <published>2023-05-29T12:00:38+00:00</published>
+  <updated>2023-06-13T09:06:50+00:00</updated>
+  <media:group>
+   <media:title>华为Mate X3为啥爆火？从我的婚后生活聊起</media:title>
+   <media:content url="https://www.youtube.com/v/j8bOF3CmK1I?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/j8bOF3CmK1I/hqdefault.jpg" width="480" height="360"/>
+   <media:description>试用了一周观众大哥寄来的华为 Mate X3，结合实际生活体验聊聊这手机为啥卖得这么好。
+
+章节信息
+00:00 生活体验
+06:04 技术解读</media:description>
+   <media:community>
+    <media:starRating count="1428" average="5.00" min="1" max="5"/>
+    <media:statistics views="41435"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:jTVMxJBtmFs</id>
+  <yt:videoId>jTVMxJBtmFs</yt:videoId>
+  <yt:channelId>UC4dtpugIYK56S_7btf5a-iQ</yt:channelId>
+  <title>我用30天写了一个完美的贪吃蛇AI</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=jTVMxJBtmFs"/>
+  <author>
+   <name>林亦LYi</name>
+   <uri>https://www.youtube.com/channel/UC4dtpugIYK56S_7btf5a-iQ</uri>
+  </author>
+  <published>2023-05-19T12:00:37+00:00</published>
+  <updated>2023-06-14T07:58:21+00:00</updated>
+  <media:group>
+   <media:title>我用30天写了一个完美的贪吃蛇AI</media:title>
+   <media:content url="https://www.youtube.com/v/jTVMxJBtmFs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/jTVMxJBtmFs/hqdefault.jpg" width="480" height="360"/>
+   <media:description>AI征服经典游戏贪吃蛇。项目链接：https://github.com/linyiLYi/snake-ai
+
+Timestamp
+00:00 AutoGPT写游戏
+01:37 AI 打爆贪吃蛇
+08:34 思考</media:description>
+   <media:community>
+    <media:starRating count="8185" average="5.00" min="1" max="5"/>
+    <media:statistics views="286908"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:CKcrF_mJRvU</id>
+  <yt:videoId>CKcrF_mJRvU</yt:videoId>
+  <yt:channelId>UC4dtpugIYK56S_7btf5a-iQ</yt:channelId>
+  <title>AI生命要来了？当ChatGPT遇上语音合成</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=CKcrF_mJRvU"/>
+  <author>
+   <name>林亦LYi</name>
+   <uri>https://www.youtube.com/channel/UC4dtpugIYK56S_7btf5a-iQ</uri>
+  </author>
+  <published>2023-05-18T12:00:17+00:00</published>
+  <updated>2023-07-22T04:35:37+00:00</updated>
+  <media:group>
+   <media:title>AI生命要来了？当ChatGPT遇上语音合成</media:title>
+   <media:content url="https://www.youtube.com/v/CKcrF_mJRvU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/CKcrF_mJRvU/hqdefault.jpg" width="480" height="360"/>
+   <media:description>ChatGPT火了之后，我也一直在玩各种相应的AI产品。最近发现了一款结合定制语音模块的聊天机器人Myshell，打开聊天框，就可以和自己喜欢的角色语音交流。
+感兴趣的朋友可以去试下👇👇免费 
+https://app.myshell.ai/invite/521b83</media:description>
+   <media:community>
+    <media:starRating count="408" average="5.00" min="1" max="5"/>
+    <media:statistics views="11733"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:B7bYZ5ZFbl0</id>
+  <yt:videoId>B7bYZ5ZFbl0</yt:videoId>
+  <yt:channelId>UC4dtpugIYK56S_7btf5a-iQ</yt:channelId>
+  <title>格斗之王！AI写出来的AI竟然这么强！</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=B7bYZ5ZFbl0"/>
+  <author>
+   <name>林亦LYi</name>
+   <uri>https://www.youtube.com/channel/UC4dtpugIYK56S_7btf5a-iQ</uri>
+  </author>
+  <published>2023-04-15T12:33:56+00:00</published>
+  <updated>2023-06-15T02:46:36+00:00</updated>
+  <media:group>
+   <media:title>格斗之王！AI写出来的AI竟然这么强！</media:title>
+   <media:content url="https://www.youtube.com/v/B7bYZ5ZFbl0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/B7bYZ5ZFbl0/hqdefault.jpg" width="480" height="360"/>
+   <media:description>我让 AI 写了个 AI，终于打败了街霸里的 AI，还意外发现了一段游戏史上的黑暗秘密！
+
+项目链接：https://github.com/linyiLYi/street-fighter-ai
+
+推特、微博、知乎、bilibili：林亦LYi
+
+Timestamp:
+00:00 街头霸王挑战
+01:02 让AI来写AI
+03:00 胆怯的AI
+04:01 AI学习助手
+05:57 与AI合作改进AI
+08:03 处理过拟合
+09:09 最终决战</media:description>
+   <media:community>
+    <media:starRating count="21121" average="5.00" min="1" max="5"/>
+    <media:statistics views="544349"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:FwXQSQcyWGQ</id>
+  <yt:videoId>FwXQSQcyWGQ</yt:videoId>
+  <yt:channelId>UC4dtpugIYK56S_7btf5a-iQ</yt:channelId>
+  <title>日美科技战：半导体巅峰之争背后的秘密</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=FwXQSQcyWGQ"/>
+  <author>
+   <name>林亦LYi</name>
+   <uri>https://www.youtube.com/channel/UC4dtpugIYK56S_7btf5a-iQ</uri>
+  </author>
+  <published>2023-03-24T12:00:13+00:00</published>
+  <updated>2023-06-11T12:12:45+00:00</updated>
+  <media:group>
+   <media:title>日美科技战：半导体巅峰之争背后的秘密</media:title>
+   <media:content url="https://www.youtube.com/v/FwXQSQcyWGQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/FwXQSQcyWGQ/hqdefault.jpg" width="480" height="360"/>
+   <media:description>日本半导体产业曾一度领先世界，让美国感受到了前所未有的压力。从美国半导体巨头的裁员、工厂关闭，到日本富士通收购仙童半导体公司，一场硅谷与日本产业巨头的较量如火如荼地进行着。然而，随着时间的推移，全球电子市场迎来了新的技术变革，日本的优势地位不再。在这场半导体之战中，到底是哪些因素让日本半导体产业一度崛起？又是哪些原因导致它最终失去了荣光？本期视频我们将揭开这场科技战争的神秘面纱，一起见证一个时代的浮沉。
+
+Timestamp
+00:00 倾覆之谜
+00:47 萌芽
+05:13 掉队
+07:35 逆袭
+12:09 跌落</media:description>
+   <media:community>
+    <media:starRating count="1826" average="5.00" min="1" max="5"/>
+    <media:statistics views="60670"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:QDvvNHxvk2s</id>
+  <yt:videoId>QDvvNHxvk2s</yt:videoId>
+  <yt:channelId>UC4dtpugIYK56S_7btf5a-iQ</yt:channelId>
+  <title>為什麼AI之花綻放在硅谷？「創業大學」Y Combinator的故事｜ChatGPT深度探尋</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=QDvvNHxvk2s"/>
+  <author>
+   <name>林亦LYi</name>
+   <uri>https://www.youtube.com/channel/UC4dtpugIYK56S_7btf5a-iQ</uri>
+  </author>
+  <published>2023-03-17T12:00:16+00:00</published>
+  <updated>2023-06-13T09:21:54+00:00</updated>
+  <media:group>
+   <media:title>為什麼AI之花綻放在硅谷？「創業大學」Y Combinator的故事｜ChatGPT深度探尋</media:title>
+   <media:content url="https://www.youtube.com/v/QDvvNHxvk2s?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/QDvvNHxvk2s/hqdefault.jpg" width="480" height="360"/>
+   <media:description>本視頻介紹了Y Combinator的發展歷程，從最早的暑期項目到如今的新型創業大學，YC推出了多項計劃來支持初創企業，包括Continuity投資基金、Growth Program和Work at a Startup等。YC成功吸引了大量申請和競爭，證明了人才們看重的不僅僅是資金，而是YC作為一所創業大學的創新氛圍。近年來，在互聯網企業之外，YC還開始推動技術創新，投入到核聚變、人工智能、太空旅行等領域。雖然YC的投資金額並不高，但通過其獨特的創新模式，YC幫助創業者實現了他們的理想：改變世界。
+
+Timestamp
+00:00 培育公司的公司
+01:44 前传
+04:59 起源
+06:24 开门红
+07:45 技术宅创业大学
+11:11 发展壮大
+16:42 思考</media:description>
+   <media:community>
+    <media:starRating count="2096" average="5.00" min="1" max="5"/>
+    <media:statistics views="59959"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:JKmz-CDaO0g</id>
+  <yt:videoId>JKmz-CDaO0g</yt:videoId>
+  <yt:channelId>UC4dtpugIYK56S_7btf5a-iQ</yt:channelId>
+  <title>AI战争：消灭谷歌暴政，搜索属于微软！</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=JKmz-CDaO0g"/>
+  <author>
+   <name>林亦LYi</name>
+   <uri>https://www.youtube.com/channel/UC4dtpugIYK56S_7btf5a-iQ</uri>
+  </author>
+  <published>2023-03-03T12:00:11+00:00</published>
+  <updated>2023-06-07T15:48:06+00:00</updated>
+  <media:group>
+   <media:title>AI战争：消灭谷歌暴政，搜索属于微软！</media:title>
+   <media:content url="https://www.youtube.com/v/JKmz-CDaO0g?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/JKmz-CDaO0g/hqdefault.jpg" width="480" height="360"/>
+   <media:description>今天我们聊聊搜索引擎技术的发展历程和未来趋势，特别是AI人工智能技术在其中的应用和影响。微软最近推出了一款集成AI聊天功能的新版必应搜索引擎，正式向全球搜索市场的霸主谷歌宣战。今天我们就从搜索引擎的历史和现状出发，详细分析AI技术在搜索领域的应用，探讨谷歌和微软之间的竞争格局，以及未来的发展趋势。
+
+推特、微博、知乎、bilibili：林亦LYi
+
+Timestamp
+00:00 战火重燃
+01:05 霸主谷歌
+03:52 挑战者微软
+05:51 屠龙少年谷歌
+15:42 屡战屡败的微软
+20:55 Satya Nadella
+24:30 新版必应
+27:26 变革
+31:47 乱局</media:description>
+   <media:community>
+    <media:starRating count="5585" average="5.00" min="1" max="5"/>
+    <media:statistics views="180187"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:-7Zp1evdNFU</id>
+  <yt:videoId>-7Zp1evdNFU</yt:videoId>
+  <yt:channelId>UC4dtpugIYK56S_7btf5a-iQ</yt:channelId>
+  <title>ChatGPT诞生记：先捞钱，再谈理想｜OpenAI翻身史</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=-7Zp1evdNFU"/>
+  <author>
+   <name>林亦LYi</name>
+   <uri>https://www.youtube.com/channel/UC4dtpugIYK56S_7btf5a-iQ</uri>
+  </author>
+  <published>2023-02-10T13:02:00+00:00</published>
+  <updated>2023-06-14T14:37:22+00:00</updated>
+  <media:group>
+   <media:title>ChatGPT诞生记：先捞钱，再谈理想｜OpenAI翻身史</media:title>
+   <media:content url="https://www.youtube.com/v/-7Zp1evdNFU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/-7Zp1evdNFU/hqdefault.jpg" width="480" height="360"/>
+   <media:description>ChatGPT 的背后是 OpenAI 这家公司，今天我们聊聊它的理想、成果与争议。
+
+推特、微博、知乎、bilibili：林亦LYi
+
+章节信息：
+00:00 争议
+00:43 强人工智能
+03:21 理想与挑战
+05:03 非营利的困境
+10:39 Dota 2
+12:52 GPT
+15:31 赚钱
+17:56 微软入局
+21:33 初心能保持多久</media:description>
+   <media:community>
+    <media:starRating count="5360" average="5.00" min="1" max="5"/>
+    <media:statistics views="162880"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:5h977AtWIAA</id>
+  <yt:videoId>5h977AtWIAA</yt:videoId>
+  <yt:channelId>UC4dtpugIYK56S_7btf5a-iQ</yt:channelId>
+  <title>【亦】什么叫AI艺术家啊</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=5h977AtWIAA"/>
+  <author>
+   <name>林亦LYi</name>
+   <uri>https://www.youtube.com/channel/UC4dtpugIYK56S_7btf5a-iQ</uri>
+  </author>
+  <published>2023-01-12T12:00:32+00:00</published>
+  <updated>2023-07-22T23:43:28+00:00</updated>
+  <media:group>
+   <media:title>【亦】什么叫AI艺术家啊</media:title>
+   <media:content url="https://www.youtube.com/v/5h977AtWIAA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/5h977AtWIAA/hqdefault.jpg" width="480" height="360"/>
+   <media:description>我没学过动画，去年用 Nvidia Omniverse 平台做过一个不会动的虚拟人。这次我又用 Omniverse 的 AI 工具制作了一段 3D 视频，文案、语音、面部动画、身体动作都由 AI 生成，效果还不错，这个视频就来分享一下我的制作过程，希望能帮到同样对 3D 创作感兴趣又没有专业基础的朋友们。
+
+章节信息：
+00:00 动画展示
+00:28 AI动画介绍
+01:36 Audio2Face 面部动画
+02:32 Audio2Gesture 人物动作
+03:53 渲染方法
+07:12 简单聊聊AI创作</media:description>
+   <media:community>
+    <media:starRating count="1444" average="5.00" min="1" max="5"/>
+    <media:statistics views="38765"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:QsBXvzbTUJ0</id>
+  <yt:videoId>QsBXvzbTUJ0</yt:videoId>
+  <yt:channelId>UC4dtpugIYK56S_7btf5a-iQ</yt:channelId>
+  <title>【亦】手机杀死了摄影？</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=QsBXvzbTUJ0"/>
+  <author>
+   <name>林亦LYi</name>
+   <uri>https://www.youtube.com/channel/UC4dtpugIYK56S_7btf5a-iQ</uri>
+  </author>
+  <published>2022-12-17T02:00:06+00:00</published>
+  <updated>2023-06-15T18:16:21+00:00</updated>
+  <media:group>
+   <media:title>【亦】手机杀死了摄影？</media:title>
+   <media:content url="https://www.youtube.com/v/QsBXvzbTUJ0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/QsBXvzbTUJ0/hqdefault.jpg" width="480" height="360"/>
+   <media:description>过去一年里 AI 技术的落地速度明显加快，反映在手机摄影领域就是计算摄影的异军突起。在AI技术的辅助下，手机摄影不仅继续保持了一直以来远超相机摄影的便捷性，在各种智能优化技术的加持下甚至在照片直出方面对传统摄影发起了挑战。当手机随手一拍的照片，就能接近昂贵的专业相机搭配耗时的后期处理的效果时，人们自然会感到困惑：“计算摄影”为什么能实现超出硬件能力的拍摄效果？AI运算得到的“计算摄影”还算是真正的摄影吗？结合实机拍摄，我们来探讨一下这些问题。</media:description>
+   <media:community>
+    <media:starRating count="2824" average="5.00" min="1" max="5"/>
+    <media:statistics views="58018"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:0Rs6AasXJag</id>
+  <yt:videoId>0Rs6AasXJag</yt:videoId>
+  <yt:channelId>UC4dtpugIYK56S_7btf5a-iQ</yt:channelId>
+  <title>【亦】x86已死？</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=0Rs6AasXJag"/>
+  <author>
+   <name>林亦LYi</name>
+   <uri>https://www.youtube.com/channel/UC4dtpugIYK56S_7btf5a-iQ</uri>
+  </author>
+  <published>2022-11-18T14:05:51+00:00</published>
+  <updated>2023-06-30T05:40:21+00:00</updated>
+  <media:group>
+   <media:title>【亦】x86已死？</media:title>
+   <media:content url="https://www.youtube.com/v/0Rs6AasXJag?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/0Rs6AasXJag/hqdefault.jpg" width="480" height="360"/>
+   <media:description>x86 是个人电脑处理器的经典指令集架构，但近几年原本用在手机上的 ARM 架构处理器也开始在个人电脑上大放异彩。指令集是什么？x86 与 ARM 是怎么各自发展起来的，未来它们的竞争又会走向何方？今天咱们就来聊一聊。
+
+章节信息：
+00:00 苹果与英特尔的蜜月期 
+01:24 指令集的意义
+02:23 x86 发展史
+09:43 ARM 发展史
+13:12 x86 的制程困境
+13:50 ARM 进军 PC 市场
+17:00 架构战争的现状与未来</media:description>
+   <media:community>
+    <media:starRating count="7903" average="5.00" min="1" max="5"/>
+    <media:statistics views="322722"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:QWUfeczn-tQ</id>
+  <yt:videoId>QWUfeczn-tQ</yt:videoId>
+  <yt:channelId>UC4dtpugIYK56S_7btf5a-iQ</yt:channelId>
+  <title>【亦】暴躁AI在线折磨！我让AI盯着我，骂好了我的弯腰驼背</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=QWUfeczn-tQ"/>
+  <author>
+   <name>林亦LYi</name>
+   <uri>https://www.youtube.com/channel/UC4dtpugIYK56S_7btf5a-iQ</uri>
+  </author>
+  <published>2022-11-04T12:00:30+00:00</published>
+  <updated>2023-06-15T21:24:05+00:00</updated>
+  <media:group>
+   <media:title>【亦】暴躁AI在线折磨！我让AI盯着我，骂好了我的弯腰驼背</media:title>
+   <media:content url="https://www.youtube.com/v/QWUfeczn-tQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/QWUfeczn-tQ/hqdefault.jpg" width="480" height="360"/>
+   <media:description>我做了一个叫“让爷康康”的手机 App，它会通过 AI 算法分析我的坐姿，在我坐姿不健康的时候给出语音提示，配上我爸的语音包之后效果拔群。在写这个 App 的过程中，我还第一次搞懂了手机上 AI 加速单元的正确用法，原来之前都没玩明白，跑起来效果也很神奇。项目源代码已经遵循 Apache 2.0 协议开源，项目链接：https://github.com/linyiLYi/pose-monitor
+
+APK 安装包链接：https://github.com/linyiLYi/pose-monitor/releases/tag/release
+
+本项目主要基于 Tensorflow Lite Pose Estimation 官方示例，AI 部分由用于姿态估计的 MoveNet 和用于分类的全连接网络实现。本应用不需要联网使用，所有 AI 特性均可以在手机本地离线运行。
+
+章节信息
+00:00 运行效果
+00:56 设计思路
+03:47 开发过程
+06:32 计算加速
+09:36 未来展望</media:description>
+   <media:community>
+    <media:starRating count="5506" average="5.00" min="1" max="5"/>
+    <media:statistics views="141524"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:GTnfzmp8Mn8</id>
+  <yt:videoId>GTnfzmp8Mn8</yt:videoId>
+  <yt:channelId>UC4dtpugIYK56S_7btf5a-iQ</yt:channelId>
+  <title>【亦】为啥手机屏幕越来越大</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=GTnfzmp8Mn8"/>
+  <author>
+   <name>林亦LYi</name>
+   <uri>https://www.youtube.com/channel/UC4dtpugIYK56S_7btf5a-iQ</uri>
+  </author>
+  <published>2022-10-21T12:00:13+00:00</published>
+  <updated>2023-06-14T02:20:03+00:00</updated>
+  <media:group>
+   <media:title>【亦】为啥手机屏幕越来越大</media:title>
+   <media:content url="https://www.youtube.com/v/GTnfzmp8Mn8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/GTnfzmp8Mn8/hqdefault.jpg" width="480" height="360"/>
+   <media:description>14 代 iPhone 中，Plus 取代了mini 系列，小屏手机没有未来了吗？</media:description>
+   <media:community>
+    <media:starRating count="593" average="5.00" min="1" max="5"/>
+    <media:statistics views="23425"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>
