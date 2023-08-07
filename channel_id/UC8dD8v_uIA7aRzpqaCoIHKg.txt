@@ -11,6 +11,72 @@
  </author>
  <published>2020-11-10T02:01:50+00:00</published>
  <entry>
+  <id>yt:video:33lAWw6gm64</id>
+  <yt:videoId>33lAWw6gm64</yt:videoId>
+  <yt:channelId>UC8dD8v_uIA7aRzpqaCoIHKg</yt:channelId>
+  <title>大海中央建大桥，海水那么深，人们是怎么将它建造出来的？【科学火箭叔】</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=33lAWw6gm64"/>
+  <author>
+   <name>科学火箭叔</name>
+   <uri>https://www.youtube.com/channel/UC8dD8v_uIA7aRzpqaCoIHKg</uri>
+  </author>
+  <published>2023-08-06T09:30:00+00:00</published>
+  <updated>2023-08-06T09:30:00+00:00</updated>
+  <media:group>
+   <media:title>大海中央建大桥，海水那么深，人们是怎么将它建造出来的？【科学火箭叔】</media:title>
+   <media:content url="https://www.youtube.com/v/33lAWw6gm64?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/33lAWw6gm64/hqdefault.jpg" width="480" height="360"/>
+   <media:description>大海中央建大桥，海水那么深，人们是怎么将它建造出来的？
+
+大家好，我是你们的“百科全叔”火箭叔~
+讲有趣的科学，教有料的创客！
+通过对自然科学和社会科学知识的描述，勾勒出科学知识图景的整体轮廓！
+想要了解更多知识，尽在【科学火箭叔】
+---------------------------------------------------------------------------------
+喜欢我就订阅我吧，不要忘记点击小铃铛奥🔔您的支持对我来说很宝贵！💨
+https://kexuehuojianshu.page.link/Dingyue
+
+#科学火箭叔#桥墩#跨海大桥#科普#文化</media:description>
+   <media:community>
+    <media:starRating count="807" average="5.00" min="1" max="5"/>
+    <media:statistics views="27164"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Gmk_hW-MZn4</id>
+  <yt:videoId>Gmk_hW-MZn4</yt:videoId>
+  <yt:channelId>UC8dD8v_uIA7aRzpqaCoIHKg</yt:channelId>
+  <title>船，靠什么来刹车呢？不管你信不信，船也有“刹车”【科学火箭叔】</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Gmk_hW-MZn4"/>
+  <author>
+   <name>科学火箭叔</name>
+   <uri>https://www.youtube.com/channel/UC8dD8v_uIA7aRzpqaCoIHKg</uri>
+  </author>
+  <published>2023-08-04T09:30:09+00:00</published>
+  <updated>2023-08-04T09:30:09+00:00</updated>
+  <media:group>
+   <media:title>船，靠什么来刹车呢？不管你信不信，船也有“刹车”【科学火箭叔】</media:title>
+   <media:content url="https://www.youtube.com/v/Gmk_hW-MZn4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/Gmk_hW-MZn4/hqdefault.jpg" width="480" height="360"/>
+   <media:description>船，靠什么来刹车呢？不管你信不信，船也有“刹车”，那它究竟藏在哪儿呢？
+
+大家好，我是你们的“百科全叔”火箭叔~
+讲有趣的科学，教有料的创客！
+通过对自然科学和社会科学知识的描述，勾勒出科学知识图景的整体轮廓！
+想要了解更多知识，尽在【科学火箭叔】
+---------------------------------------------------------------------------------
+喜欢我就订阅我吧，不要忘记点击小铃铛奥🔔您的支持对我来说很宝贵！💨
+https://kexuehuojianshu.page.link/Dingyue
+
+#科学火箭叔#集装箱船#船刹车#科普#文化</media:description>
+   <media:community>
+    <media:starRating count="577" average="5.00" min="1" max="5"/>
+    <media:statistics views="22488"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:g0K_S1Qwspc</id>
   <yt:videoId>g0K_S1Qwspc</yt:videoId>
   <yt:channelId>UC8dD8v_uIA7aRzpqaCoIHKg</yt:channelId>
@@ -38,8 +104,8 @@ https://kexuehuojianshu.page.link/Dingyue
 
 #科学火箭叔#波音747#科普#文化</media:description>
    <media:community>
-    <media:starRating count="426" average="5.00" min="1" max="5"/>
-    <media:statistics views="15465"/>
+    <media:starRating count="465" average="5.00" min="1" max="5"/>
+    <media:statistics views="17439"/>
    </media:community>
   </media:group>
  </entry>
@@ -71,8 +137,8 @@ https://kexuehuojianshu.page.link/Dingyue
 
 #科学火箭叔#科普#文化</media:description>
    <media:community>
-    <media:starRating count="79" average="5.00" min="1" max="5"/>
-    <media:statistics views="4558"/>
+    <media:starRating count="374" average="5.00" min="1" max="5"/>
+    <media:statistics views="23065"/>
    </media:community>
   </media:group>
  </entry>
@@ -104,8 +170,8 @@ https://kexuehuojianshu.page.link/Dingyue
 
 #科学火箭叔#科普#文化</media:description>
    <media:community>
-    <media:starRating count="753" average="5.00" min="1" max="5"/>
-    <media:statistics views="51548"/>
+    <media:starRating count="809" average="5.00" min="1" max="5"/>
+    <media:statistics views="63478"/>
    </media:community>
   </media:group>
  </entry>
@@ -137,8 +203,8 @@ https://kexuehuojianshu.page.link/Dingyue
 
 #科学火箭叔#电鳗#科普#文化</media:description>
    <media:community>
-    <media:starRating count="379" average="5.00" min="1" max="5"/>
-    <media:statistics views="11201"/>
+    <media:starRating count="409" average="5.00" min="1" max="5"/>
+    <media:statistics views="12778"/>
    </media:community>
   </media:group>
  </entry>
@@ -170,8 +236,8 @@ https://kexuehuojianshu.page.link/Dingyue
 
 #科学火箭叔#人工智能#科普#文化</media:description>
    <media:community>
-    <media:starRating count="262" average="5.00" min="1" max="5"/>
-    <media:statistics views="7502"/>
+    <media:starRating count="270" average="5.00" min="1" max="5"/>
+    <media:statistics views="8029"/>
    </media:community>
   </media:group>
  </entry>
@@ -203,8 +269,8 @@ https://kexuehuojianshu.page.link/Dingyue
 
 #科学火箭叔#螺旋桨#科普#文化</media:description>
    <media:community>
-    <media:starRating count="268" average="5.00" min="1" max="5"/>
-    <media:statistics views="11971"/>
+    <media:starRating count="281" average="5.00" min="1" max="5"/>
+    <media:statistics views="13189"/>
    </media:community>
   </media:group>
  </entry>
@@ -236,8 +302,8 @@ https://kexuehuojianshu.page.link/Dingyue
 
 #科学火箭叔#螺旋桨#无人侦察机#科普#文化</media:description>
    <media:community>
-    <media:starRating count="717" average="5.00" min="1" max="5"/>
-    <media:statistics views="25416"/>
+    <media:starRating count="747" average="5.00" min="1" max="5"/>
+    <media:statistics views="27078"/>
    </media:community>
   </media:group>
  </entry>
@@ -269,8 +335,8 @@ https://kexuehuojianshu.page.link/Dingyue
 
 #科学火箭叔#球鼻首#科普#文化</media:description>
    <media:community>
-    <media:starRating count="580" average="5.00" min="1" max="5"/>
-    <media:statistics views="33492"/>
+    <media:starRating count="608" average="5.00" min="1" max="5"/>
+    <media:statistics views="39626"/>
    </media:community>
   </media:group>
  </entry>
@@ -302,8 +368,8 @@ https://kexuehuojianshu.page.link/Dingyue
 
 #科学火箭叔#科普#文化</media:description>
    <media:community>
-    <media:starRating count="337" average="5.00" min="1" max="5"/>
-    <media:statistics views="12504"/>
+    <media:starRating count="343" average="5.00" min="1" max="5"/>
+    <media:statistics views="13048"/>
    </media:community>
   </media:group>
  </entry>
@@ -335,8 +401,8 @@ https://kexuehuojianshu.page.link/Dingyue
 
 #科学火箭叔#喷火式战斗机#啤酒轰炸机#科普#文化</media:description>
    <media:community>
-    <media:starRating count="296" average="5.00" min="1" max="5"/>
-    <media:statistics views="8024"/>
+    <media:starRating count="299" average="5.00" min="1" max="5"/>
+    <media:statistics views="8128"/>
    </media:community>
   </media:group>
  </entry>
@@ -368,8 +434,8 @@ https://kexuehuojianshu.page.link/Dingyue
 
 #科学火箭叔#萤火虫#科普#文化</media:description>
    <media:community>
-    <media:starRating count="299" average="5.00" min="1" max="5"/>
-    <media:statistics views="8608"/>
+    <media:starRating count="306" average="5.00" min="1" max="5"/>
+    <media:statistics views="8950"/>
    </media:community>
   </media:group>
  </entry>
@@ -401,8 +467,8 @@ https://kexuehuojianshu.page.link/Dingyue
 
 #科学火箭叔#跨界科学家#斜杆青年#科普#文化</media:description>
    <media:community>
-    <media:starRating count="176" average="5.00" min="1" max="5"/>
-    <media:statistics views="5293"/>
+    <media:starRating count="178" average="5.00" min="1" max="5"/>
+    <media:statistics views="5358"/>
    </media:community>
   </media:group>
  </entry>
@@ -434,74 +500,8 @@ https://kexuehuojianshu.page.link/Dingyue
 
 #科学火箭叔#弯曲金字塔#金字塔#科普#文化</media:description>
    <media:community>
-    <media:starRating count="309" average="5.00" min="1" max="5"/>
-    <media:statistics views="12790"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:ZHVgpiAsdIE</id>
-  <yt:videoId>ZHVgpiAsdIE</yt:videoId>
-  <yt:channelId>UC8dD8v_uIA7aRzpqaCoIHKg</yt:channelId>
-  <title>天生的近视眼，心狠手辣的蒙眼猎手，“蛇”教会了我们什么？【科学火箭叔】</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=ZHVgpiAsdIE"/>
-  <author>
-   <name>科学火箭叔</name>
-   <uri>https://www.youtube.com/channel/UC8dD8v_uIA7aRzpqaCoIHKg</uri>
-  </author>
-  <published>2023-07-21T09:15:03+00:00</published>
-  <updated>2023-07-21T09:15:03+00:00</updated>
-  <media:group>
-   <media:title>天生的近视眼，心狠手辣的蒙眼猎手，“蛇”教会了我们什么？【科学火箭叔】</media:title>
-   <media:content url="https://www.youtube.com/v/ZHVgpiAsdIE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/ZHVgpiAsdIE/hqdefault.jpg" width="480" height="360"/>
-   <media:description>天生的近视眼，心狠手辣的蒙眼猎手，“蛇”教会了我们什么？
-
-大家好，我是你们的“百科全叔”火箭叔~
-讲有趣的科学，教有料的创客！
-通过对自然科学和社会科学知识的描述，勾勒出科学知识图景的整体轮廓！
-想要了解更多知识，尽在【科学火箭叔】
----------------------------------------------------------------------------------
-喜欢我就订阅我吧，不要忘记点击小铃铛奥🔔您的支持对我来说很宝贵！💨
-https://kexuehuojianshu.page.link/Dingyue
-
-#科学火箭叔#蒙眼猎手#蛇#科普#文化</media:description>
-   <media:community>
-    <media:starRating count="314" average="5.00" min="1" max="5"/>
-    <media:statistics views="9490"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:ddV28EIzJK8</id>
-  <yt:videoId>ddV28EIzJK8</yt:videoId>
-  <yt:channelId>UC8dD8v_uIA7aRzpqaCoIHKg</yt:channelId>
-  <title>SR-71是如何降温的？【科学火箭叔】</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=ddV28EIzJK8"/>
-  <author>
-   <name>科学火箭叔</name>
-   <uri>https://www.youtube.com/channel/UC8dD8v_uIA7aRzpqaCoIHKg</uri>
-  </author>
-  <published>2023-07-21T07:02:19+00:00</published>
-  <updated>2023-07-22T05:52:03+00:00</updated>
-  <media:group>
-   <media:title>SR-71是如何降温的？【科学火箭叔】</media:title>
-   <media:content url="https://www.youtube.com/v/ddV28EIzJK8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i1.ytimg.com/vi/ddV28EIzJK8/hqdefault.jpg" width="480" height="360"/>
-   <media:description>SR-71是如何降温的？
-
-大家好，我是你们的“百科全叔”火箭叔~
-讲有趣的科学，教有料的创客！
-通过对自然科学和社会科学知识的描述，勾勒出科学知识图景的整体轮廓！
-想要了解更多知识，尽在【科学火箭叔】
----------------------------------------------------------------------------------
-喜欢我就订阅我吧，不要忘记点击小铃铛奥🔔您的支持对我来说很宝贵！💨
-https://kexuehuojianshu.page.link/Dingyue
-
-#科学火箭叔#SR-71#黑鸟</media:description>
-   <media:community>
-    <media:starRating count="86" average="5.00" min="1" max="5"/>
-    <media:statistics views="4341"/>
+    <media:starRating count="313" average="5.00" min="1" max="5"/>
+    <media:statistics views="13024"/>
    </media:community>
   </media:group>
  </entry>
