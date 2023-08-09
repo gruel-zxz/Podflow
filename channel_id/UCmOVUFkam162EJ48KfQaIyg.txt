@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
  <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCmOVUFkam162EJ48KfQaIyg"/>
- <id>yt:channel:</id>
- <yt:channelId></yt:channelId>
+ 
+ 
  <title>stone pistol</title>
  <link rel="alternate" href="https://www.youtube.com/channel/UCmOVUFkam162EJ48KfQaIyg"/>
  <author>
   <name>stone pistol</name>
   <uri>https://www.youtube.com/channel/UCmOVUFkam162EJ48KfQaIyg</uri>
  </author>
- <published>2023-01-17T06:46:43+00:00</published>
+ <published></published>
  <entry>
   <id>yt:video:8IJTt4ULklM</id>
   <yt:videoId>8IJTt4ULklM</yt:videoId>
-  <yt:channelId>UCmOVUFkam162EJ48KfQaIyg</yt:channelId>
+  
   <title>左轮手枪是如何能够一秒钟打6枪的（20230716第6154期）</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=8IJTt4ULklM"/>
   <author>
    <name>stone pistol</name>
    <uri>https://www.youtube.com/channel/UCmOVUFkam162EJ48KfQaIyg</uri>
   </author>
-  <published>2023-07-16T20:17:01+00:00</published>
-  <updated>2023-07-17T06:01:48+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>左轮手枪是如何能够一秒钟打6枪的（20230716第6154期）</media:title>
    <media:content url="https://www.youtube.com/v/8IJTt4ULklM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -80,23 +80,23 @@ https://youtu.be/BbtTwsP_-zc
 
 Twitter：stone记@stone62855987</media:description>
    <media:community>
-    <media:starRating count="27" average="5.00" min="1" max="5"/>
-    <media:statistics views="5468"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:5D-getPqCW8</id>
   <yt:videoId>5D-getPqCW8</yt:videoId>
-  <yt:channelId>UCmOVUFkam162EJ48KfQaIyg</yt:channelId>
+  
   <title>Benelli M4可调节6个位置的stock tube，俄罗斯蹲（20230630第6114期）</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=5D-getPqCW8"/>
   <author>
    <name>stone pistol</name>
    <uri>https://www.youtube.com/channel/UCmOVUFkam162EJ48KfQaIyg</uri>
   </author>
-  <published>2023-06-30T22:30:00+00:00</published>
-  <updated>2023-07-04T06:09:54+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>Benelli M4可调节6个位置的stock tube，俄罗斯蹲（20230630第6114期）</media:title>
    <media:content url="https://www.youtube.com/v/5D-getPqCW8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -155,23 +155,23 @@ https://youtu.be/BbtTwsP_-zc
 
 Twitter：stone记@stone62855987</media:description>
    <media:community>
-    <media:starRating count="15" average="5.00" min="1" max="5"/>
-    <media:statistics views="3141"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:5Y2yIzUPYP0</id>
   <yt:videoId>5Y2yIzUPYP0</yt:videoId>
-  <yt:channelId>UCmOVUFkam162EJ48KfQaIyg</yt:channelId>
+  
   <title>手枪的三种手部握持方法（20230529第6004期）</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=5Y2yIzUPYP0"/>
   <author>
    <name>stone pistol</name>
    <uri>https://www.youtube.com/channel/UCmOVUFkam162EJ48KfQaIyg</uri>
   </author>
-  <published>2023-05-29T06:13:33+00:00</published>
-  <updated>2023-07-04T06:52:51+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>手枪的三种手部握持方法（20230529第6004期）</media:title>
    <media:content url="https://www.youtube.com/v/5Y2yIzUPYP0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -230,23 +230,23 @@ https://youtu.be/BbtTwsP_-zc
 
 Twitter：stone记@stone62855987</media:description>
    <media:community>
-    <media:starRating count="14" average="5.00" min="1" max="5"/>
-    <media:statistics views="2507"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:sfXiZ4YGs8E</id>
   <yt:videoId>sfXiZ4YGs8E</yt:videoId>
-  <yt:channelId>UCmOVUFkam162EJ48KfQaIyg</yt:channelId>
+  
   <title>JP5, MPA Opne, Korth NXS（20230525第5994期）</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=sfXiZ4YGs8E"/>
   <author>
    <name>stone pistol</name>
    <uri>https://www.youtube.com/channel/UCmOVUFkam162EJ48KfQaIyg</uri>
   </author>
-  <published>2023-05-26T05:00:30+00:00</published>
-  <updated>2023-07-04T06:20:09+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>JP5, MPA Opne, Korth NXS（20230525第5994期）</media:title>
    <media:content url="https://www.youtube.com/v/sfXiZ4YGs8E?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -305,23 +305,23 @@ https://youtu.be/BbtTwsP_-zc
 
 Twitter：stone记@stone62855987</media:description>
    <media:community>
-    <media:starRating count="14" average="5.00" min="1" max="5"/>
-    <media:statistics views="2688"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:kCPR17fMDOU</id>
   <yt:videoId>kCPR17fMDOU</yt:videoId>
-  <yt:channelId>UCmOVUFkam162EJ48KfQaIyg</yt:channelId>
+  
   <title>JP5 对比 CMMG Banshee 300（20230522第5984期）</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=kCPR17fMDOU"/>
   <author>
    <name>stone pistol</name>
    <uri>https://www.youtube.com/channel/UCmOVUFkam162EJ48KfQaIyg</uri>
   </author>
-  <published>2023-05-23T04:15:00+00:00</published>
-  <updated>2023-07-22T05:17:59+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>JP5 对比 CMMG Banshee 300（20230522第5984期）</media:title>
    <media:content url="https://www.youtube.com/v/kCPR17fMDOU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -380,23 +380,23 @@ https://youtu.be/BbtTwsP_-zc
 
 Twitter：stone记@stone62855987</media:description>
    <media:community>
-    <media:starRating count="25" average="5.00" min="1" max="5"/>
-    <media:statistics views="3289"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:MbGAUvonlZ4</id>
   <yt:videoId>MbGAUvonlZ4</yt:videoId>
-  <yt:channelId>UCmOVUFkam162EJ48KfQaIyg</yt:channelId>
+  
   <title>订制了5个月，JP5终于到了（20230518第5974期）</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=MbGAUvonlZ4"/>
   <author>
    <name>stone pistol</name>
    <uri>https://www.youtube.com/channel/UCmOVUFkam162EJ48KfQaIyg</uri>
   </author>
-  <published>2023-05-18T15:30:02+00:00</published>
-  <updated>2023-07-04T06:07:40+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>订制了5个月，JP5终于到了（20230518第5974期）</media:title>
    <media:content url="https://www.youtube.com/v/MbGAUvonlZ4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -455,23 +455,23 @@ https://youtu.be/BbtTwsP_-zc
 
 Twitter：stone记@stone62855987</media:description>
    <media:community>
-    <media:starRating count="28" average="5.00" min="1" max="5"/>
-    <media:statistics views="5445"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:IAssXIsRF4A</id>
   <yt:videoId>IAssXIsRF4A</yt:videoId>
-  <yt:channelId>UCmOVUFkam162EJ48KfQaIyg</yt:channelId>
+  
   <title>订制Korth NXS之前先看这个视频（20230516第5964期）</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=IAssXIsRF4A"/>
   <author>
    <name>stone pistol</name>
    <uri>https://www.youtube.com/channel/UCmOVUFkam162EJ48KfQaIyg</uri>
   </author>
-  <published>2023-05-16T10:41:36+00:00</published>
-  <updated>2023-07-22T06:08:18+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>订制Korth NXS之前先看这个视频（20230516第5964期）</media:title>
    <media:content url="https://www.youtube.com/v/IAssXIsRF4A?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -530,23 +530,23 @@ https://youtu.be/BbtTwsP_-zc
 
 Twitter：stone记@stone62855987</media:description>
    <media:community>
-    <media:starRating count="13" average="5.00" min="1" max="5"/>
-    <media:statistics views="1727"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:DZuGRXLFvwE</id>
   <yt:videoId>DZuGRXLFvwE</yt:videoId>
-  <yt:channelId>UCmOVUFkam162EJ48KfQaIyg</yt:channelId>
+  
   <title>Moon Clip左轮手枪的专属弹夹（202305067第5944期）</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=DZuGRXLFvwE"/>
   <author>
    <name>stone pistol</name>
    <uri>https://www.youtube.com/channel/UCmOVUFkam162EJ48KfQaIyg</uri>
   </author>
-  <published>2023-05-07T08:00:08+00:00</published>
-  <updated>2023-07-04T05:59:58+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>Moon Clip左轮手枪的专属弹夹（202305067第5944期）</media:title>
    <media:content url="https://www.youtube.com/v/DZuGRXLFvwE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -605,23 +605,23 @@ https://youtu.be/BbtTwsP_-zc
 
 Twitter：stone记@stone62855987</media:description>
    <media:community>
-    <media:starRating count="11" average="5.00" min="1" max="5"/>
-    <media:statistics views="2746"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:5unuJCDGiss</id>
   <yt:videoId>5unuJCDGiss</yt:videoId>
-  <yt:channelId>UCmOVUFkam162EJ48KfQaIyg</yt:channelId>
+  
   <title>Old boy big toy，7000美元的大玩具Korth NXS 6&quot;（20230506第5934期）</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=5unuJCDGiss"/>
   <author>
    <name>stone pistol</name>
    <uri>https://www.youtube.com/channel/UCmOVUFkam162EJ48KfQaIyg</uri>
   </author>
-  <published>2023-05-06T07:00:05+00:00</published>
-  <updated>2023-07-04T06:03:44+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>Old boy big toy，7000美元的大玩具Korth NXS 6&quot;（20230506第5934期）</media:title>
    <media:content url="https://www.youtube.com/v/5unuJCDGiss?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -680,23 +680,23 @@ https://youtu.be/BbtTwsP_-zc
 
 Twitter：stone记@stone62855987</media:description>
    <media:community>
-    <media:starRating count="30" average="5.00" min="1" max="5"/>
-    <media:statistics views="4588"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:ZyV-xMXXNTg</id>
   <yt:videoId>ZyV-xMXXNTg</yt:videoId>
-  <yt:channelId>UCmOVUFkam162EJ48KfQaIyg</yt:channelId>
+  
   <title>7300美元订购了一只左轮手枪（20230422第5914期）</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=ZyV-xMXXNTg"/>
   <author>
    <name>stone pistol</name>
    <uri>https://www.youtube.com/channel/UCmOVUFkam162EJ48KfQaIyg</uri>
   </author>
-  <published>2023-04-22T15:33:50+00:00</published>
-  <updated>2023-07-04T06:08:38+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>7300美元订购了一只左轮手枪（20230422第5914期）</media:title>
    <media:content url="https://www.youtube.com/v/ZyV-xMXXNTg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -755,23 +755,23 @@ https://youtu.be/BbtTwsP_-zc
 
 Twitter：stone记@stone62855987</media:description>
    <media:community>
-    <media:starRating count="35" average="5.00" min="1" max="5"/>
-    <media:statistics views="5694"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:BlMjk-dE-X8</id>
   <yt:videoId>BlMjk-dE-X8</yt:videoId>
-  <yt:channelId>UCmOVUFkam162EJ48KfQaIyg</yt:channelId>
+  
   <title>Careful：MPA DS9 use red loctite on the optic mount and thumb rest screws（20230406第5854期）</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=BlMjk-dE-X8"/>
   <author>
    <name>stone pistol</name>
    <uri>https://www.youtube.com/channel/UCmOVUFkam162EJ48KfQaIyg</uri>
   </author>
-  <published>2023-04-06T11:21:35+00:00</published>
-  <updated>2023-07-04T06:13:22+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>Careful：MPA DS9 use red loctite on the optic mount and thumb rest screws（20230406第5854期）</media:title>
    <media:content url="https://www.youtube.com/v/BlMjk-dE-X8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -830,23 +830,23 @@ https://youtu.be/BbtTwsP_-zc
 
 Twitter：stone记@stone62855987</media:description>
    <media:community>
-    <media:starRating count="79" average="5.00" min="1" max="5"/>
-    <media:statistics views="8085"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:-o-DaVgJfQg</id>
   <yt:videoId>-o-DaVgJfQg</yt:videoId>
-  <yt:channelId>UCmOVUFkam162EJ48KfQaIyg</yt:channelId>
+  
   <title>MPA DS9 Comp Open and Atlas Erebus 1500 Round Review（20230403第5844期）</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=-o-DaVgJfQg"/>
   <author>
    <name>stone pistol</name>
    <uri>https://www.youtube.com/channel/UCmOVUFkam162EJ48KfQaIyg</uri>
   </author>
-  <published>2023-04-03T08:46:55+00:00</published>
-  <updated>2023-07-22T11:16:45+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>MPA DS9 Comp Open and Atlas Erebus 1500 Round Review（20230403第5844期）</media:title>
    <media:content url="https://www.youtube.com/v/-o-DaVgJfQg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -905,23 +905,23 @@ https://youtu.be/BbtTwsP_-zc
 
 Twitter：stone记@stone62855987</media:description>
    <media:community>
-    <media:starRating count="27" average="5.00" min="1" max="5"/>
-    <media:statistics views="3873"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:UJ3fb_7fvww</id>
   <yt:videoId>UJ3fb_7fvww</yt:videoId>
-  <yt:channelId>UCmOVUFkam162EJ48KfQaIyg</yt:channelId>
+  
   <title>2023 shot show Walther（20230311第5754期）</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=UJ3fb_7fvww"/>
   <author>
    <name>stone pistol</name>
    <uri>https://www.youtube.com/channel/UCmOVUFkam162EJ48KfQaIyg</uri>
   </author>
-  <published>2023-03-11T22:11:19+00:00</published>
-  <updated>2023-07-04T05:49:12+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>2023 shot show Walther（20230311第5754期）</media:title>
    <media:content url="https://www.youtube.com/v/UJ3fb_7fvww?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -980,23 +980,23 @@ https://youtu.be/BbtTwsP_-zc
 
 Twitter：stone记@stone62855987</media:description>
    <media:community>
-    <media:starRating count="13" average="5.00" min="1" max="5"/>
-    <media:statistics views="3257"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:5VZFIleh4JY</id>
   <yt:videoId>5VZFIleh4JY</yt:videoId>
-  <yt:channelId>UCmOVUFkam162EJ48KfQaIyg</yt:channelId>
+  
   <title>2023 shot show SPRINGFIELD 1911 DS prodigy（20230307第5744期）</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=5VZFIleh4JY"/>
   <author>
    <name>stone pistol</name>
    <uri>https://www.youtube.com/channel/UCmOVUFkam162EJ48KfQaIyg</uri>
   </author>
-  <published>2023-03-08T17:45:01+00:00</published>
-  <updated>2023-07-23T08:46:42+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>2023 shot show SPRINGFIELD 1911 DS prodigy（20230307第5744期）</media:title>
    <media:content url="https://www.youtube.com/v/5VZFIleh4JY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -1055,23 +1055,23 @@ https://youtu.be/BbtTwsP_-zc
 
 Twitter：stone记@stone62855987</media:description>
    <media:community>
-    <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="2016"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:LW7XnJ50af4</id>
   <yt:videoId>LW7XnJ50af4</yt:videoId>
-  <yt:channelId>UCmOVUFkam162EJ48KfQaIyg</yt:channelId>
+  
   <title>2023 shot show Magpul DAKA GRID Organizer（20230304第5734期）</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=LW7XnJ50af4"/>
   <author>
    <name>stone pistol</name>
    <uri>https://www.youtube.com/channel/UCmOVUFkam162EJ48KfQaIyg</uri>
   </author>
-  <published>2023-03-04T21:45:01+00:00</published>
-  <updated>2023-07-21T23:37:50+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>2023 shot show Magpul DAKA GRID Organizer（20230304第5734期）</media:title>
    <media:content url="https://www.youtube.com/v/LW7XnJ50af4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -1130,8 +1130,8 @@ https://youtu.be/BbtTwsP_-zc
 
 Twitter：stone记@stone62855987</media:description>
    <media:community>
-    <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="830"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>

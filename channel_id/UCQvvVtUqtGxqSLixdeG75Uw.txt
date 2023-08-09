@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
  <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCQvvVtUqtGxqSLixdeG75Uw"/>
- <id>yt:channel:</id>
- <yt:channelId></yt:channelId>
+ 
+ 
  <title>小乌副频道</title>
  <link rel="alternate" href="https://www.youtube.com/channel/UCQvvVtUqtGxqSLixdeG75Uw"/>
  <author>
   <name>小乌副频道</name>
   <uri>https://www.youtube.com/channel/UCQvvVtUqtGxqSLixdeG75Uw</uri>
  </author>
- <published>2011-11-17T09:47:53+00:00</published>
+ <published></published>
  <entry>
   <id>yt:video:yjA74XbL0I8</id>
   <yt:videoId>yjA74XbL0I8</yt:videoId>
-  <yt:channelId>UCQvvVtUqtGxqSLixdeG75Uw</yt:channelId>
+  
   <title>为什么你的面相里藏着你一生的命运？老子悟道、佛祖成佛的关键竟然在这里！1小时无广告催眠合集 [脑洞乌托邦 | 小乌副频道 | 小乌 TV ]</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=yjA74XbL0I8"/>
   <author>
    <name>小乌副频道</name>
    <uri>https://www.youtube.com/channel/UCQvvVtUqtGxqSLixdeG75Uw</uri>
   </author>
-  <published>2023-07-25T13:00:51+00:00</published>
-  <updated>2023-07-25T13:00:51+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>为什么你的面相里藏着你一生的命运？老子悟道、佛祖成佛的关键竟然在这里！1小时无广告催眠合集 [脑洞乌托邦 | 小乌副频道 | 小乌 TV ]</media:title>
    <media:content url="https://www.youtube.com/v/yjA74XbL0I8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -61,23 +61,23 @@ YouTube Partner Certified Since 2019
 ☆
 #脑洞乌托邦 #腦洞烏托邦 #Xiaowu</media:description>
    <media:community>
-    <media:starRating count="6211" average="5.00" min="1" max="5"/>
-    <media:statistics views="352597"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:tbpW6knZrm0</id>
   <yt:videoId>tbpW6knZrm0</yt:videoId>
-  <yt:channelId>UCQvvVtUqtGxqSLixdeG75Uw</yt:channelId>
+  
   <title>火星上真的存在过文明？CIA绝密档案，NASA极力隐瞒的真相...宇宙探秘合集，1小时无广告催眠影片 [脑洞乌托邦 | 小乌副频道 | 小乌 TV ]</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=tbpW6knZrm0"/>
   <author>
    <name>小乌副频道</name>
    <uri>https://www.youtube.com/channel/UCQvvVtUqtGxqSLixdeG75Uw</uri>
   </author>
-  <published>2023-07-15T13:01:53+00:00</published>
-  <updated>2023-07-15T13:01:54+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>火星上真的存在过文明？CIA绝密档案，NASA极力隐瞒的真相...宇宙探秘合集，1小时无广告催眠影片 [脑洞乌托邦 | 小乌副频道 | 小乌 TV ]</media:title>
    <media:content url="https://www.youtube.com/v/tbpW6knZrm0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -122,23 +122,23 @@ YouTube Partner Certified Since 2019
 ☆
 #脑洞乌托邦 #腦洞烏托邦 #Xiaowu</media:description>
    <media:community>
-    <media:starRating count="4797" average="5.00" min="1" max="5"/>
-    <media:statistics views="308737"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:4QIMOd9Zb4g</id>
   <yt:videoId>4QIMOd9Zb4g</yt:videoId>
-  <yt:channelId>UCQvvVtUqtGxqSLixdeG75Uw</yt:channelId>
+  
   <title>90分钟看懂佛教的真相！历史上的佛教有多可怕？为何灭佛帝王个个不得善终？无广告催眠合集  [脑洞乌托邦 | 小乌副频道 | 小乌 TV ]</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=4QIMOd9Zb4g"/>
   <author>
    <name>小乌副频道</name>
    <uri>https://www.youtube.com/channel/UCQvvVtUqtGxqSLixdeG75Uw</uri>
   </author>
-  <published>2023-07-08T13:30:02+00:00</published>
-  <updated>2023-07-09T22:54:17+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>90分钟看懂佛教的真相！历史上的佛教有多可怕？为何灭佛帝王个个不得善终？无广告催眠合集  [脑洞乌托邦 | 小乌副频道 | 小乌 TV ]</media:title>
    <media:content url="https://www.youtube.com/v/4QIMOd9Zb4g?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -180,23 +180,23 @@ YouTube Partner Certified Since 2019
 ☆
 #脑洞乌托邦 #腦洞烏托邦 #Xiaowu</media:description>
    <media:community>
-    <media:starRating count="7986" average="5.00" min="1" max="5"/>
-    <media:statistics views="477595"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:yXa3a0_E04I</id>
   <yt:videoId>yXa3a0_E04I</yt:videoId>
-  <yt:channelId>UCQvvVtUqtGxqSLixdeG75Uw</yt:channelId>
+  
   <title>颠覆认知的基督教真相！信徒25亿的耶稣，真的存在过吗？末日审判究竟在审什么？1小时无广告催眠合集 [脑洞乌托邦 | 小乌副频道 | 小乌 TV ]</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=yXa3a0_E04I"/>
   <author>
    <name>小乌副频道</name>
    <uri>https://www.youtube.com/channel/UCQvvVtUqtGxqSLixdeG75Uw</uri>
   </author>
-  <published>2023-07-02T13:45:05+00:00</published>
-  <updated>2023-07-02T13:45:05+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>颠覆认知的基督教真相！信徒25亿的耶稣，真的存在过吗？末日审判究竟在审什么？1小时无广告催眠合集 [脑洞乌托邦 | 小乌副频道 | 小乌 TV ]</media:title>
    <media:content url="https://www.youtube.com/v/yXa3a0_E04I?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -237,23 +237,23 @@ YouTube Partner Certified Since 2019
 ☆
 #脑洞乌托邦 #腦洞烏托邦 #Xiaowu</media:description>
    <media:community>
-    <media:starRating count="4704" average="5.00" min="1" max="5"/>
-    <media:statistics views="403388"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:8DvpWRDiQxI</id>
   <yt:videoId>8DvpWRDiQxI</yt:videoId>
-  <yt:channelId>UCQvvVtUqtGxqSLixdeG75Uw</yt:channelId>
+  
   <title>南极冰川下不能公开的秘密，苏联海军的水下奇遇，深海中究竟有什么？1小时无广告催眠影片  [脑洞乌托邦 | 小乌副频道 | 小乌 TV ]</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=8DvpWRDiQxI"/>
   <author>
    <name>小乌副频道</name>
    <uri>https://www.youtube.com/channel/UCQvvVtUqtGxqSLixdeG75Uw</uri>
   </author>
-  <published>2023-06-14T13:00:07+00:00</published>
-  <updated>2023-06-17T02:43:29+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>南极冰川下不能公开的秘密，苏联海军的水下奇遇，深海中究竟有什么？1小时无广告催眠影片  [脑洞乌托邦 | 小乌副频道 | 小乌 TV ]</media:title>
    <media:content url="https://www.youtube.com/v/8DvpWRDiQxI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -292,23 +292,23 @@ YouTube Partner Certified Since 2019
 ☆
 #脑洞乌托邦 #腦洞烏托邦 #Xiaowu</media:description>
    <media:community>
-    <media:starRating count="7326" average="5.00" min="1" max="5"/>
-    <media:statistics views="565463"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:KsP_i0ruPJ0</id>
   <yt:videoId>KsP_i0ruPJ0</yt:videoId>
-  <yt:channelId>UCQvvVtUqtGxqSLixdeG75Uw</yt:channelId>
+  
   <title>13岁开天眼，刘德华称他为“师父”，信徒遍布全球，可白龙王为何拒见张国荣？一小时无广告催眠合集  [脑洞乌托邦 | 小乌副频道 | 小乌 TV ]</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=KsP_i0ruPJ0"/>
   <author>
    <name>小乌副频道</name>
    <uri>https://www.youtube.com/channel/UCQvvVtUqtGxqSLixdeG75Uw</uri>
   </author>
-  <published>2023-06-04T13:30:08+00:00</published>
-  <updated>2023-06-13T07:58:53+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>13岁开天眼，刘德华称他为“师父”，信徒遍布全球，可白龙王为何拒见张国荣？一小时无广告催眠合集  [脑洞乌托邦 | 小乌副频道 | 小乌 TV ]</media:title>
    <media:content url="https://www.youtube.com/v/KsP_i0ruPJ0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -350,23 +350,23 @@ YouTube Partner Certified Since 2019
 ☆
 #脑洞乌托邦 #腦洞烏托邦 #Xiaowu</media:description>
    <media:community>
-    <media:starRating count="2088" average="5.00" min="1" max="5"/>
-    <media:statistics views="167113"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:yYpTaHy1WUA</id>
   <yt:videoId>yYpTaHy1WUA</yt:videoId>
-  <yt:channelId>UCQvvVtUqtGxqSLixdeG75Uw</yt:channelId>
+  
   <title>公主出逃，王妃落跑，出軌保鏢，各国王室不愿公之于众的秘密！1小时无广告合集  [脑洞乌托邦 | 小乌副频道 | 小乌 TV ]</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=yYpTaHy1WUA"/>
   <author>
    <name>小乌副频道</name>
    <uri>https://www.youtube.com/channel/UCQvvVtUqtGxqSLixdeG75Uw</uri>
   </author>
-  <published>2023-05-26T13:00:47+00:00</published>
-  <updated>2023-06-16T05:08:56+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>公主出逃，王妃落跑，出軌保鏢，各国王室不愿公之于众的秘密！1小时无广告合集  [脑洞乌托邦 | 小乌副频道 | 小乌 TV ]</media:title>
    <media:content url="https://www.youtube.com/v/yYpTaHy1WUA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -405,23 +405,23 @@ YouTube Partner Certified Since 2019
 ☆
 #脑洞乌托邦 #腦洞烏托邦 #Xiaowu</media:description>
    <media:community>
-    <media:starRating count="3085" average="5.00" min="1" max="5"/>
-    <media:statistics views="225528"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:r_tc0xUx5HU</id>
   <yt:videoId>r_tc0xUx5HU</yt:videoId>
-  <yt:channelId>UCQvvVtUqtGxqSLixdeG75Uw</yt:channelId>
+  
   <title>四起美国离奇案件，反转再反转，绝对猜不到的结局！1小时无广告催眠合集 [脑洞乌托邦 | 小乌副频道 | 小乌 TV ]</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=r_tc0xUx5HU"/>
   <author>
    <name>小乌副频道</name>
    <uri>https://www.youtube.com/channel/UCQvvVtUqtGxqSLixdeG75Uw</uri>
   </author>
-  <published>2023-05-21T13:00:39+00:00</published>
-  <updated>2023-07-22T12:00:21+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>四起美国离奇案件，反转再反转，绝对猜不到的结局！1小时无广告催眠合集 [脑洞乌托邦 | 小乌副频道 | 小乌 TV ]</media:title>
    <media:content url="https://www.youtube.com/v/r_tc0xUx5HU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -456,23 +456,23 @@ YouTube Partner Certified Since 2019
 ☆
 #脑洞乌托邦 #腦洞烏托邦 #Xiaowu</media:description>
    <media:community>
-    <media:starRating count="3442" average="5.00" min="1" max="5"/>
-    <media:statistics views="240588"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:tEOGYvKYyPM</id>
   <yt:videoId>tEOGYvKYyPM</yt:videoId>
-  <yt:channelId>UCQvvVtUqtGxqSLixdeG75Uw</yt:channelId>
+  
   <title>无法逃离的诡异酒店，他们身上究竟发生了什么？1小时无广告恐怖系列合集 [脑洞乌托邦 | 小乌副频道 | 小乌 TV ]</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=tEOGYvKYyPM"/>
   <author>
    <name>小乌副频道</name>
    <uri>https://www.youtube.com/channel/UCQvvVtUqtGxqSLixdeG75Uw</uri>
   </author>
-  <published>2023-05-09T12:00:48+00:00</published>
-  <updated>2023-07-06T07:01:04+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>无法逃离的诡异酒店，他们身上究竟发生了什么？1小时无广告恐怖系列合集 [脑洞乌托邦 | 小乌副频道 | 小乌 TV ]</media:title>
    <media:content url="https://www.youtube.com/v/tEOGYvKYyPM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -512,23 +512,23 @@ YouTube Partner Certified Since 2019
 ☆
 #脑洞乌托邦 #腦洞烏托邦 #Xiaowu</media:description>
    <media:community>
-    <media:starRating count="3408" average="5.00" min="1" max="5"/>
-    <media:statistics views="245233"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:WZ_WpKqaqVo</id>
   <yt:videoId>WZ_WpKqaqVo</yt:videoId>
-  <yt:channelId>UCQvvVtUqtGxqSLixdeG75Uw</yt:channelId>
+  
   <title>离奇消失的总理，旅行中的怪异举动，他们为何人间蒸发？1小时无广告合集  [脑洞乌托邦 | 小乌副频道 | 小乌 TV ]</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=WZ_WpKqaqVo"/>
   <author>
    <name>小乌副频道</name>
    <uri>https://www.youtube.com/channel/UCQvvVtUqtGxqSLixdeG75Uw</uri>
   </author>
-  <published>2023-04-29T13:00:31+00:00</published>
-  <updated>2023-06-17T17:30:06+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>离奇消失的总理，旅行中的怪异举动，他们为何人间蒸发？1小时无广告合集  [脑洞乌托邦 | 小乌副频道 | 小乌 TV ]</media:title>
    <media:content url="https://www.youtube.com/v/WZ_WpKqaqVo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -556,23 +556,23 @@ YouTube Partner Certified Since 2019
 ☆
 #脑洞乌托邦 #腦洞烏托邦 #Xiaowu</media:description>
    <media:community>
-    <media:starRating count="2949" average="5.00" min="1" max="5"/>
-    <media:statistics views="184763"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:plmXe-mBIBE</id>
   <yt:videoId>plmXe-mBIBE</yt:videoId>
-  <yt:channelId>UCQvvVtUqtGxqSLixdeG75Uw</yt:channelId>
+  
   <title>曾经被封杀的「大师们」，如今他们都过得怎么样了？1小时无广告催眠合集 [脑洞乌托邦 | 小乌副频道 | 小乌 TV ]</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=plmXe-mBIBE"/>
   <author>
    <name>小乌副频道</name>
    <uri>https://www.youtube.com/channel/UCQvvVtUqtGxqSLixdeG75Uw</uri>
   </author>
-  <published>2023-04-21T13:00:39+00:00</published>
-  <updated>2023-06-09T14:05:51+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>曾经被封杀的「大师们」，如今他们都过得怎么样了？1小时无广告催眠合集 [脑洞乌托邦 | 小乌副频道 | 小乌 TV ]</media:title>
    <media:content url="https://www.youtube.com/v/plmXe-mBIBE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -613,23 +613,23 @@ YouTube Partner Certified Since 2019
 ☆
 #脑洞乌托邦 #腦洞烏托邦 #Xiaowu</media:description>
    <media:community>
-    <media:starRating count="4607" average="5.00" min="1" max="5"/>
-    <media:statistics views="390063"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:bwckkLV1ZQs</id>
   <yt:videoId>bwckkLV1ZQs</yt:videoId>
-  <yt:channelId>UCQvvVtUqtGxqSLixdeG75Uw</yt:channelId>
+  
   <title>生前44秒求救视频，被囚禁的人生，那些红极一时，却悲情陨落的耀眼明星...1小时无广告合集 [脑洞乌托邦 | 小乌副频道 | 小乌 TV ]</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=bwckkLV1ZQs"/>
   <author>
    <name>小乌副频道</name>
    <uri>https://www.youtube.com/channel/UCQvvVtUqtGxqSLixdeG75Uw</uri>
   </author>
-  <published>2023-04-12T13:30:15+00:00</published>
-  <updated>2023-06-12T20:46:53+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>生前44秒求救视频，被囚禁的人生，那些红极一时，却悲情陨落的耀眼明星...1小时无广告合集 [脑洞乌托邦 | 小乌副频道 | 小乌 TV ]</media:title>
    <media:content url="https://www.youtube.com/v/bwckkLV1ZQs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -666,23 +666,23 @@ YouTube Partner Certified Since 2019
 ☆
 #脑洞乌托邦 #腦洞烏托邦 #Xiaowu</media:description>
    <media:community>
-    <media:starRating count="5053" average="5.00" min="1" max="5"/>
-    <media:statistics views="442793"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:YwSGslzMSx0</id>
   <yt:videoId>YwSGslzMSx0</yt:videoId>
-  <yt:channelId>UCQvvVtUqtGxqSLixdeG75Uw</yt:channelId>
+  
   <title>从律师到总统，如今跌落神坛...韩国青瓦台的诅咒，历届总统的悲惨下场...1小时无广告合集  [脑洞乌托邦 | 小乌副频道 | 小乌 TV ]</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=YwSGslzMSx0"/>
   <author>
    <name>小乌副频道</name>
    <uri>https://www.youtube.com/channel/UCQvvVtUqtGxqSLixdeG75Uw</uri>
   </author>
-  <published>2023-04-05T13:00:32+00:00</published>
-  <updated>2023-07-01T14:01:39+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>从律师到总统，如今跌落神坛...韩国青瓦台的诅咒，历届总统的悲惨下场...1小时无广告合集  [脑洞乌托邦 | 小乌副频道 | 小乌 TV ]</media:title>
    <media:content url="https://www.youtube.com/v/YwSGslzMSx0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -722,23 +722,23 @@ YouTube Partner Certified Since 2019
 ☆
 #脑洞乌托邦 #腦洞烏托邦 #Xiaowu</media:description>
    <media:community>
-    <media:starRating count="2277" average="5.00" min="1" max="5"/>
-    <media:statistics views="131835"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:HvmkBbN-m0o</id>
   <yt:videoId>HvmkBbN-m0o</yt:videoId>
-  <yt:channelId>UCQvvVtUqtGxqSLixdeG75Uw</yt:channelId>
+  
   <title>耗时数十年，跟拍无数孩子，英国VS中国，他们拍出了人生最残酷的真相 [脑洞乌托邦 | 小乌副频道 | 小乌 TV ]</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=HvmkBbN-m0o"/>
   <author>
    <name>小乌副频道</name>
    <uri>https://www.youtube.com/channel/UCQvvVtUqtGxqSLixdeG75Uw</uri>
   </author>
-  <published>2023-03-28T12:00:11+00:00</published>
-  <updated>2023-06-13T20:59:43+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>耗时数十年，跟拍无数孩子，英国VS中国，他们拍出了人生最残酷的真相 [脑洞乌托邦 | 小乌副频道 | 小乌 TV ]</media:title>
    <media:content url="https://www.youtube.com/v/HvmkBbN-m0o?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -780,23 +780,23 @@ YouTube Partner Certified Since 2019
 ☆
 #脑洞乌托邦 #腦洞烏托邦 #Xiaowu</media:description>
    <media:community>
-    <media:starRating count="4620" average="5.00" min="1" max="5"/>
-    <media:statistics views="254547"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:fThe296AfSs</id>
   <yt:videoId>fThe296AfSs</yt:videoId>
-  <yt:channelId>UCQvvVtUqtGxqSLixdeG75Uw</yt:channelId>
+  
   <title>可信度最高的未来穿越人，预言准确率高达99%？1小时无广告合集 [脑洞乌托邦 | 小乌副频道 | 小乌 TV ]</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=fThe296AfSs"/>
   <author>
    <name>小乌副频道</name>
    <uri>https://www.youtube.com/channel/UCQvvVtUqtGxqSLixdeG75Uw</uri>
   </author>
-  <published>2023-03-07T12:00:34+00:00</published>
-  <updated>2023-07-22T03:05:35+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>可信度最高的未来穿越人，预言准确率高达99%？1小时无广告合集 [脑洞乌托邦 | 小乌副频道 | 小乌 TV ]</media:title>
    <media:content url="https://www.youtube.com/v/fThe296AfSs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -841,8 +841,8 @@ YouTube Partner Certified Since 2019
 ☆
 #脑洞乌托邦 #腦洞烏托邦 #Xiaowu</media:description>
    <media:community>
-    <media:starRating count="5895" average="5.00" min="1" max="5"/>
-    <media:statistics views="299576"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
  <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCBR8-60-B28hp2BmDPdntcQ"/>
- <id>yt:channel:</id>
- <yt:channelId></yt:channelId>
+ 
+ 
  <title>YouTube</title>
  <link rel="alternate" href="https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ"/>
  <author>
@@ -10,63 +10,86 @@
   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
  </author>
  <entry>
+  <id>yt:video:SxhSSQ28y9U</id>
+  <yt:videoId>SxhSSQ28y9U</yt:videoId>
+  
+  <title>the best adventures are the ones we embark on… together 🤠</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=SxhSSQ28y9U"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published></published>
+  <updated></updated>
+  <media:group>
+   <media:title>the best adventures are the ones we embark on… together 🤠</media:title>
+   <media:content url="https://www.youtube.com/v/SxhSSQ28y9U?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/SxhSSQ28y9U/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:gPDxEL1yKbU</id>
   <yt:videoId>gPDxEL1yKbU</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  
   <title>crunchy chips? good. crunchy audio? also good!</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=gPDxEL1yKbU"/>
   <author>
    <name>YouTube</name>
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
-  <published>2023-08-01T19:45:16+00:00</published>
-  <updated>2023-08-01T19:52:44+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>crunchy chips? good. crunchy audio? also good!</media:title>
    <media:content url="https://www.youtube.com/v/gPDxEL1yKbU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i4.ytimg.com/vi/gPDxEL1yKbU/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2383" average="5.00" min="1" max="5"/>
-    <media:statistics views="67356"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:GTEOm0lG3pY</id>
   <yt:videoId>GTEOm0lG3pY</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  
   <title>@dreamylittlenails absolutely NAILED this #ImSuperShy set @NewJeans_official</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=GTEOm0lG3pY"/>
   <author>
    <name>YouTube</name>
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
-  <published>2023-07-30T15:00:27+00:00</published>
-  <updated>2023-07-30T21:59:48+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>@dreamylittlenails absolutely NAILED this #ImSuperShy set @NewJeans_official</media:title>
    <media:content url="https://www.youtube.com/v/GTEOm0lG3pY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i4.ytimg.com/vi/GTEOm0lG3pY/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4127" average="5.00" min="1" max="5"/>
-    <media:statistics views="111307"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:psOf2GzSRbs</id>
   <yt:videoId>psOf2GzSRbs</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  
   <title>Which KPOP star is Larray obsessed with? | YouTube Watch History</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=psOf2GzSRbs"/>
   <author>
    <name>YouTube</name>
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
-  <published>2023-07-28T19:15:01+00:00</published>
-  <updated>2023-07-29T22:50:31+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>Which KPOP star is Larray obsessed with? | YouTube Watch History</media:title>
    <media:content url="https://www.youtube.com/v/psOf2GzSRbs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -82,284 +105,261 @@
 
 #Larray #YouTube #WatchHistory</media:description>
    <media:community>
-    <media:starRating count="1607" average="5.00" min="1" max="5"/>
-    <media:statistics views="89670"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:Jk4S-fTZ7Tg</id>
   <yt:videoId>Jk4S-fTZ7Tg</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  
   <title>live every week like it’s shark week @discovery  #SharkWeek continues all week at 8p</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=Jk4S-fTZ7Tg"/>
   <author>
    <name>YouTube</name>
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
-  <published>2023-07-28T00:02:56+00:00</published>
-  <updated>2023-07-29T06:41:35+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>live every week like it’s shark week @discovery  #SharkWeek continues all week at 8p</media:title>
    <media:content url="https://www.youtube.com/v/Jk4S-fTZ7Tg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i3.ytimg.com/vi/Jk4S-fTZ7Tg/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4005" average="5.00" min="1" max="5"/>
-    <media:statistics views="83500"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:PQ1knV-mo4w</id>
   <yt:videoId>PQ1knV-mo4w</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  
   <title>a duck on ice! well i’ll be darned.</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=PQ1knV-mo4w"/>
   <author>
    <name>YouTube</name>
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
-  <published>2023-07-20T15:25:14+00:00</published>
-  <updated>2023-07-20T15:35:11+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>a duck on ice! well i’ll be darned.</media:title>
    <media:content url="https://www.youtube.com/v/PQ1knV-mo4w?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i1.ytimg.com/vi/PQ1knV-mo4w/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3890" average="5.00" min="1" max="5"/>
-    <media:statistics views="87892"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:-HnEs4e2hOU</id>
   <yt:videoId>-HnEs4e2hOU</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  
   <title>who’s sharing this carrot cake with me? 🐰 @HypnoMotion #ImSuperShy #Time_to_NewJeans #NewJeans #뉴진스</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=-HnEs4e2hOU"/>
   <author>
    <name>YouTube</name>
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
-  <published>2023-07-18T12:02:39+00:00</published>
-  <updated>2023-07-20T15:00:36+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>who’s sharing this carrot cake with me? 🐰 @HypnoMotion #ImSuperShy #Time_to_NewJeans #NewJeans #뉴진스</media:title>
    <media:content url="https://www.youtube.com/v/-HnEs4e2hOU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i2.ytimg.com/vi/-HnEs4e2hOU/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="7343" average="5.00" min="1" max="5"/>
-    <media:statistics views="250263"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:z1NVuyFbjuM</id>
   <yt:videoId>z1NVuyFbjuM</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  
   <title>can u smell that? @jeremyfragrance can</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=z1NVuyFbjuM"/>
   <author>
    <name>YouTube</name>
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
-  <published>2023-07-15T22:53:20+00:00</published>
-  <updated>2023-07-16T06:12:28+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>can u smell that? @jeremyfragrance can</media:title>
    <media:content url="https://www.youtube.com/v/z1NVuyFbjuM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i3.ytimg.com/vi/z1NVuyFbjuM/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3293" average="5.00" min="1" max="5"/>
-    <media:statistics views="87654"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:HwH59IpANys</id>
   <yt:videoId>HwH59IpANys</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  
   <title>shear satisfaction</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=HwH59IpANys"/>
   <author>
    <name>YouTube</name>
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
-  <published>2023-07-11T23:00:07+00:00</published>
-  <updated>2023-07-12T05:58:11+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>shear satisfaction</media:title>
    <media:content url="https://www.youtube.com/v/HwH59IpANys?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i1.ytimg.com/vi/HwH59IpANys/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4932" average="5.00" min="1" max="5"/>
-    <media:statistics views="133683"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:B70kZuuJoyY</id>
   <yt:videoId>B70kZuuJoyY</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  
   <title>i personally have taken major psychic damage from it</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=B70kZuuJoyY"/>
   <author>
    <name>YouTube</name>
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
-  <published>2023-07-09T23:00:03+00:00</published>
-  <updated>2023-07-10T03:34:21+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>i personally have taken major psychic damage from it</media:title>
    <media:content url="https://www.youtube.com/v/B70kZuuJoyY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i3.ytimg.com/vi/B70kZuuJoyY/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4497" average="5.00" min="1" max="5"/>
-    <media:statistics views="93422"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:XO7U4pq3zRI</id>
   <yt:videoId>XO7U4pq3zRI</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  
   <title>join @OliviaRodrigo for the premiere of “vampire” 💜 #vampireOR2</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=XO7U4pq3zRI"/>
   <author>
    <name>YouTube</name>
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
-  <published>2023-07-07T23:00:16+00:00</published>
-  <updated>2023-07-09T06:16:00+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>join @OliviaRodrigo for the premiere of “vampire” 💜 #vampireOR2</media:title>
    <media:content url="https://www.youtube.com/v/XO7U4pq3zRI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i1.ytimg.com/vi/XO7U4pq3zRI/hqdefault.jpg" width="480" height="360"/>
    <media:description>the vibes at @OliviaRodrigo’s “vampire” premiere were *perfect* 💜 don’t forget to upload your Shorts with #vampireOR2!!</media:description>
    <media:community>
-    <media:starRating count="4676" average="5.00" min="1" max="5"/>
-    <media:statistics views="117324"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:2Q38Z2R0Exo</id>
   <yt:videoId>2Q38Z2R0Exo</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  
   <title>me when there’s no treats at the function</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=2Q38Z2R0Exo"/>
   <author>
    <name>YouTube</name>
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
-  <published>2023-07-03T23:00:00+00:00</published>
-  <updated>2023-07-04T01:36:34+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>me when there’s no treats at the function</media:title>
    <media:content url="https://www.youtube.com/v/2Q38Z2R0Exo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i3.ytimg.com/vi/2Q38Z2R0Exo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4096" average="5.00" min="1" max="5"/>
-    <media:statistics views="86446"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:SrSKwjonIyg</id>
   <yt:videoId>SrSKwjonIyg</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  
   <title>long story short Ludwig is the GOAT</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=SrSKwjonIyg"/>
   <author>
    <name>YouTube</name>
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
-  <published>2023-06-30T23:00:22+00:00</published>
-  <updated>2023-07-01T03:09:12+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>long story short Ludwig is the GOAT</media:title>
    <media:content url="https://www.youtube.com/v/SrSKwjonIyg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i4.ytimg.com/vi/SrSKwjonIyg/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4008" average="5.00" min="1" max="5"/>
-    <media:statistics views="100754"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:rx_fHXqjXlg</id>
   <yt:videoId>rx_fHXqjXlg</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  
   <title>Hear a sound. Save a sound. Be the GOAT.</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=rx_fHXqjXlg"/>
   <author>
    <name>YouTube</name>
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
-  <published>2023-06-30T15:35:19+00:00</published>
-  <updated>2023-07-31T13:03:56+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>Hear a sound. Save a sound. Be the GOAT.</media:title>
    <media:content url="https://www.youtube.com/v/rx_fHXqjXlg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i3.ytimg.com/vi/rx_fHXqjXlg/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="124591" average="5.00" min="1" max="5"/>
-    <media:statistics views="3064394"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:SYS1BuyQYoc</id>
   <yt:videoId>SYS1BuyQYoc</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  
   <title>Hear a sound. Save a sound. Be the GOAT.</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=SYS1BuyQYoc"/>
   <author>
    <name>YouTube</name>
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
-  <published>2023-06-30T15:35:00+00:00</published>
-  <updated>2023-06-30T20:03:55+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>Hear a sound. Save a sound. Be the GOAT.</media:title>
    <media:content url="https://www.youtube.com/v/SYS1BuyQYoc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i4.ytimg.com/vi/SYS1BuyQYoc/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="123761" average="5.00" min="1" max="5"/>
-    <media:statistics views="2967541"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:WIIIpb2Sgxs</id>
-  <yt:videoId>WIIIpb2Sgxs</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>bahh bahh bahh means &quot;rock on, man&quot; in Goat</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=WIIIpb2Sgxs"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2023-06-28T23:00:13+00:00</published>
-  <updated>2023-07-02T20:24:04+00:00</updated>
-  <media:group>
-   <media:title>bahh bahh bahh means &quot;rock on, man&quot; in Goat</media:title>
-   <media:content url="https://www.youtube.com/v/WIIIpb2Sgxs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/WIIIpb2Sgxs/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="2526" average="5.00" min="1" max="5"/>
-    <media:statistics views="52958"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>

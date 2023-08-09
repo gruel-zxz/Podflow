@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
  <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCJT6M5j-HT-76ts0eTzZtJw"/>
- <id>yt:channel:</id>
- <yt:channelId></yt:channelId>
+ 
+ 
  <title>红酒汤姆一世</title>
  <link rel="alternate" href="https://www.youtube.com/channel/UCJT6M5j-HT-76ts0eTzZtJw"/>
  <author>
   <name>红酒汤姆一世</name>
   <uri>https://www.youtube.com/channel/UCJT6M5j-HT-76ts0eTzZtJw</uri>
  </author>
- <published>2018-01-03T09:18:18+00:00</published>
+ <published></published>
  <entry>
   <id>yt:video:bri7C3oQNso</id>
   <yt:videoId>bri7C3oQNso</yt:videoId>
-  <yt:channelId>UCJT6M5j-HT-76ts0eTzZtJw</yt:channelId>
+  
   <title>只有你想不到，任天堂历史上的究极离谱操作【科技杂谈番外】</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=bri7C3oQNso"/>
   <author>
    <name>红酒汤姆一世</name>
    <uri>https://www.youtube.com/channel/UCJT6M5j-HT-76ts0eTzZtJw</uri>
   </author>
-  <published>2023-05-28T00:18:59+00:00</published>
-  <updated>2023-06-27T02:33:47+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>只有你想不到，任天堂历史上的究极离谱操作【科技杂谈番外】</media:title>
    <media:content url="https://www.youtube.com/v/bri7C3oQNso?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -30,46 +30,46 @@
 
 生产队新到了一批美式装备，给驴子换上核动力炉</media:description>
    <media:community>
-    <media:starRating count="1653" average="5.00" min="1" max="5"/>
-    <media:statistics views="50386"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:DVWdpBu2hXc</id>
   <yt:videoId>DVWdpBu2hXc</yt:videoId>
-  <yt:channelId>UCJT6M5j-HT-76ts0eTzZtJw</yt:channelId>
+  
   <title>【索尼PS5云掌机】索尼你把大伙都给逗乐了</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=DVWdpBu2hXc"/>
   <author>
    <name>红酒汤姆一世</name>
    <uri>https://www.youtube.com/channel/UCJT6M5j-HT-76ts0eTzZtJw</uri>
   </author>
-  <published>2023-05-25T02:06:15+00:00</published>
-  <updated>2023-06-08T20:48:40+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>【索尼PS5云掌机】索尼你把大伙都给逗乐了</media:title>
    <media:content url="https://www.youtube.com/v/DVWdpBu2hXc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i1.ytimg.com/vi/DVWdpBu2hXc/hqdefault.jpg" width="480" height="360"/>
    <media:description>真的，看完索尼发布会我就想到这两个梗</media:description>
    <media:community>
-    <media:starRating count="725" average="5.00" min="1" max="5"/>
-    <media:statistics views="33581"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:Kvbec-tsW2M</id>
   <yt:videoId>Kvbec-tsW2M</yt:videoId>
-  <yt:channelId>UCJT6M5j-HT-76ts0eTzZtJw</yt:channelId>
+  
   <title>任天堂历史分析：都被骂“电子垃圾”了，为啥还不出SWITCH加强版？【科技杂谈番外】</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=Kvbec-tsW2M"/>
   <author>
    <name>红酒汤姆一世</name>
    <uri>https://www.youtube.com/channel/UCJT6M5j-HT-76ts0eTzZtJw</uri>
   </author>
-  <published>2023-05-23T18:07:44+00:00</published>
-  <updated>2023-06-22T18:31:34+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>任天堂历史分析：都被骂“电子垃圾”了，为啥还不出SWITCH加强版？【科技杂谈番外】</media:title>
    <media:content url="https://www.youtube.com/v/Kvbec-tsW2M?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -84,23 +84,23 @@
 
 或许长视频已经形成我的本能了吧</media:description>
    <media:community>
-    <media:starRating count="2226" average="5.00" min="1" max="5"/>
-    <media:statistics views="91034"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:Tkk7Ed_tGDk</id>
   <yt:videoId>Tkk7Ed_tGDk</yt:videoId>
-  <yt:channelId>UCJT6M5j-HT-76ts0eTzZtJw</yt:channelId>
+  
   <title>【索尼PS2游戏机发展史】第五期：始乱终弃的PS2国行主机【科技杂谈99】</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=Tkk7Ed_tGDk"/>
   <author>
    <name>红酒汤姆一世</name>
    <uri>https://www.youtube.com/channel/UCJT6M5j-HT-76ts0eTzZtJw</uri>
   </author>
-  <published>2023-05-09T22:11:48+00:00</published>
-  <updated>2023-06-12T20:43:28+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>【索尼PS2游戏机发展史】第五期：始乱终弃的PS2国行主机【科技杂谈99】</media:title>
    <media:content url="https://www.youtube.com/v/Tkk7Ed_tGDk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -108,23 +108,23 @@
    <media:description>如果喜欢求支持求鼓励求关注，如果不喜欢欢迎私信我提意见
 换源</media:description>
    <media:community>
-    <media:starRating count="440" average="5.00" min="1" max="5"/>
-    <media:statistics views="20400"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:2W_qSZ5ZLeU</id>
   <yt:videoId>2W_qSZ5ZLeU</yt:videoId>
-  <yt:channelId>UCJT6M5j-HT-76ts0eTzZtJw</yt:channelId>
+  
   <title>【索尼PS2游戏机发展史】第四期：一起上我赶时间【科技杂谈98】</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=2W_qSZ5ZLeU"/>
   <author>
    <name>红酒汤姆一世</name>
    <uri>https://www.youtube.com/channel/UCJT6M5j-HT-76ts0eTzZtJw</uri>
   </author>
-  <published>2023-03-16T20:49:37+00:00</published>
-  <updated>2023-06-08T07:36:01+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>【索尼PS2游戏机发展史】第四期：一起上我赶时间【科技杂谈98】</media:title>
    <media:content url="https://www.youtube.com/v/2W_qSZ5ZLeU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -132,69 +132,69 @@
    <media:description>如果喜欢求支持求鼓励求关注，如果不喜欢欢迎私信我提意见
 这版权卡的太死了</media:description>
    <media:community>
-    <media:starRating count="1373" average="5.00" min="1" max="5"/>
-    <media:statistics views="46952"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:GUKtSohaIHw</id>
   <yt:videoId>GUKtSohaIHw</yt:videoId>
-  <yt:channelId>UCJT6M5j-HT-76ts0eTzZtJw</yt:channelId>
+  
   <title>阻止卸载这方面，还是外国软件套路多</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=GUKtSohaIHw"/>
   <author>
    <name>红酒汤姆一世</name>
    <uri>https://www.youtube.com/channel/UCJT6M5j-HT-76ts0eTzZtJw</uri>
   </author>
-  <published>2022-12-19T14:57:58+00:00</published>
-  <updated>2023-06-09T05:48:27+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>阻止卸载这方面，还是外国软件套路多</media:title>
    <media:content url="https://www.youtube.com/v/GUKtSohaIHw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i4.ytimg.com/vi/GUKtSohaIHw/hqdefault.jpg" width="480" height="360"/>
    <media:description>认真的说删其实很简单，但是无语是真无语</media:description>
    <media:community>
-    <media:starRating count="306" average="5.00" min="1" max="5"/>
-    <media:statistics views="16416"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:QAzxCZf4GCI</id>
   <yt:videoId>QAzxCZf4GCI</yt:videoId>
-  <yt:channelId>UCJT6M5j-HT-76ts0eTzZtJw</yt:channelId>
+  
   <title>【索尼PS2游戏机发展史】第三期：最糟糕的首发【科技杂谈97】</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=QAzxCZf4GCI"/>
   <author>
    <name>红酒汤姆一世</name>
    <uri>https://www.youtube.com/channel/UCJT6M5j-HT-76ts0eTzZtJw</uri>
   </author>
-  <published>2022-12-07T05:15:00+00:00</published>
-  <updated>2023-07-05T10:50:15+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>【索尼PS2游戏机发展史】第三期：最糟糕的首发【科技杂谈97】</media:title>
    <media:content url="https://www.youtube.com/v/QAzxCZf4GCI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i2.ytimg.com/vi/QAzxCZf4GCI/hqdefault.jpg" width="480" height="360"/>
    <media:description>如果喜欢求支持求鼓励求关注，如果不喜欢欢迎私信我提意见</media:description>
    <media:community>
-    <media:starRating count="1669" average="5.00" min="1" max="5"/>
-    <media:statistics views="78579"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:YWO8HOt2Ztg</id>
   <yt:videoId>YWO8HOt2Ztg</yt:videoId>
-  <yt:channelId>UCJT6M5j-HT-76ts0eTzZtJw</yt:channelId>
+  
   <title>U秒AMD！卡打英伟达？英特尔独显“3i”笔记本——玄智星上手评测【酒后评测】</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=YWO8HOt2Ztg"/>
   <author>
    <name>红酒汤姆一世</name>
    <uri>https://www.youtube.com/channel/UCJT6M5j-HT-76ts0eTzZtJw</uri>
   </author>
-  <published>2022-07-22T09:00:52+00:00</published>
-  <updated>2023-07-22T02:00:03+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>U秒AMD！卡打英伟达？英特尔独显“3i”笔记本——玄智星上手评测【酒后评测】</media:title>
    <media:content url="https://www.youtube.com/v/YWO8HOt2Ztg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -205,23 +205,23 @@
 
 本子面向中国大陆出售，各位主要参考下A370M这颗独显的性能就好了</media:description>
    <media:community>
-    <media:starRating count="335" average="5.00" min="1" max="5"/>
-    <media:statistics views="22803"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:ruUSePMZhQc</id>
   <yt:videoId>ruUSePMZhQc</yt:videoId>
-  <yt:channelId>UCJT6M5j-HT-76ts0eTzZtJw</yt:channelId>
+  
   <title>10.1寸，掌上电脑的究极体！GPD WIN MAX2评测【酒后评测】</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=ruUSePMZhQc"/>
   <author>
    <name>红酒汤姆一世</name>
    <uri>https://www.youtube.com/channel/UCJT6M5j-HT-76ts0eTzZtJw</uri>
   </author>
-  <published>2022-07-20T03:34:05+00:00</published>
-  <updated>2023-06-11T17:06:56+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>10.1寸，掌上电脑的究极体！GPD WIN MAX2评测【酒后评测】</media:title>
    <media:content url="https://www.youtube.com/v/ruUSePMZhQc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -232,23 +232,23 @@
 
 CPU拉胯是CPU的事情，但是就模具外壳而言，我觉得这产品接下来每年换CPU就行了，空间利用率几乎到头了</media:description>
    <media:community>
-    <media:starRating count="866" average="5.00" min="1" max="5"/>
-    <media:statistics views="44296"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:iM7hjkgOh9Q</id>
   <yt:videoId>iM7hjkgOh9Q</yt:videoId>
-  <yt:channelId>UCJT6M5j-HT-76ts0eTzZtJw</yt:channelId>
+  
   <title>【科技杂谈96】改变游戏界的微软XBOX GAME PASS，是怎么发展到今天的？</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=iM7hjkgOh9Q"/>
   <author>
    <name>红酒汤姆一世</name>
    <uri>https://www.youtube.com/channel/UCJT6M5j-HT-76ts0eTzZtJw</uri>
   </author>
-  <published>2022-07-08T15:19:21+00:00</published>
-  <updated>2023-06-30T06:46:30+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>【科技杂谈96】改变游戏界的微软XBOX GAME PASS，是怎么发展到今天的？</media:title>
    <media:content url="https://www.youtube.com/v/iM7hjkgOh9Q?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -259,23 +259,23 @@ CPU拉胯是CPU的事情，但是就模具外壳而言，我觉得这产品接�
 
 在评论区讨论一下吧</media:description>
    <media:community>
-    <media:starRating count="1092" average="5.00" min="1" max="5"/>
-    <media:statistics views="49632"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:kB3vq9AlS-8</id>
   <yt:videoId>kB3vq9AlS-8</yt:videoId>
-  <yt:channelId>UCJT6M5j-HT-76ts0eTzZtJw</yt:channelId>
+  
   <title>【科技杂谈95】玩游戏送网络！游戏主机历史上的联网服务 下期</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=kB3vq9AlS-8"/>
   <author>
    <name>红酒汤姆一世</name>
    <uri>https://www.youtube.com/channel/UCJT6M5j-HT-76ts0eTzZtJw</uri>
   </author>
-  <published>2022-06-21T11:26:03+00:00</published>
-  <updated>2023-06-11T16:34:59+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>【科技杂谈95】玩游戏送网络！游戏主机历史上的联网服务 下期</media:title>
    <media:content url="https://www.youtube.com/v/kB3vq9AlS-8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -286,23 +286,23 @@ CPU拉胯是CPU的事情，但是就模具外壳而言，我觉得这产品接�
 
 内容短，更新快，内容长，更新慢，各位喜欢哪种？</media:description>
    <media:community>
-    <media:starRating count="1134" average="5.00" min="1" max="5"/>
-    <media:statistics views="51798"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:SWK4gBUAwkU</id>
   <yt:videoId>SWK4gBUAwkU</yt:videoId>
-  <yt:channelId>UCJT6M5j-HT-76ts0eTzZtJw</yt:channelId>
+  
   <title>【科技杂谈94】用人造卫星打游戏！游戏主机历史上那些神奇的联网服务</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=SWK4gBUAwkU"/>
   <author>
    <name>红酒汤姆一世</name>
    <uri>https://www.youtube.com/channel/UCJT6M5j-HT-76ts0eTzZtJw</uri>
   </author>
-  <published>2022-06-03T05:08:49+00:00</published>
-  <updated>2023-07-04T12:18:09+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>【科技杂谈94】用人造卫星打游戏！游戏主机历史上那些神奇的联网服务</media:title>
    <media:content url="https://www.youtube.com/v/SWK4gBUAwkU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -311,23 +311,23 @@ CPU拉胯是CPU的事情，但是就模具外壳而言，我觉得这产品接�
 
 生产力越是受到限制的年代，人类越是能爆发出天马行空的想象力</media:description>
    <media:community>
-    <media:starRating count="1803" average="5.00" min="1" max="5"/>
-    <media:statistics views="85600"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:xmlXh-7mzdE</id>
   <yt:videoId>xmlXh-7mzdE</yt:videoId>
-  <yt:channelId>UCJT6M5j-HT-76ts0eTzZtJw</yt:channelId>
+  
   <title>翻唱【飞机场的10:30】</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=xmlXh-7mzdE"/>
   <author>
    <name>红酒汤姆一世</name>
    <uri>https://www.youtube.com/channel/UCJT6M5j-HT-76ts0eTzZtJw</uri>
   </author>
-  <published>2022-04-09T17:27:01+00:00</published>
-  <updated>2023-06-11T20:43:42+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>翻唱【飞机场的10:30】</media:title>
    <media:content url="https://www.youtube.com/v/xmlXh-7mzdE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -335,23 +335,23 @@ CPU拉胯是CPU的事情，但是就模具外壳而言，我觉得这产品接�
    <media:description>半夜整点烂活
 原曲：陶喆《飞机场的10:30》</media:description>
    <media:community>
-    <media:starRating count="163" average="5.00" min="1" max="5"/>
-    <media:statistics views="5396"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:vrAtduksLLM</id>
   <yt:videoId>vrAtduksLLM</yt:videoId>
-  <yt:channelId>UCJT6M5j-HT-76ts0eTzZtJw</yt:channelId>
+  
   <title>10代i9超冒烟都打不过的12代笔记i7！拯救者Y7000P 2022评测【饭后评测】</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=vrAtduksLLM"/>
   <author>
    <name>红酒汤姆一世</name>
    <uri>https://www.youtube.com/channel/UCJT6M5j-HT-76ts0eTzZtJw</uri>
   </author>
-  <published>2022-03-28T07:30:37+00:00</published>
-  <updated>2023-07-23T05:35:54+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>10代i9超冒烟都打不过的12代笔记i7！拯救者Y7000P 2022评测【饭后评测】</media:title>
    <media:content url="https://www.youtube.com/v/vrAtduksLLM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -360,23 +360,23 @@ CPU拉胯是CPU的事情，但是就模具外壳而言，我觉得这产品接�
 本来想着12代酷睿笔记本虽然进步不小，但是毕竟是移动端性能应该会受限，没想到最后i9-10900K超冒烟都没打过12代移动端i7，时代真的变了
 （热知识：i9-11900K跑分比i9-10900K低，11代强项是游戏性能）</media:description>
    <media:community>
-    <media:starRating count="318" average="5.00" min="1" max="5"/>
-    <media:statistics views="17017"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:NxjlBgN-5us</id>
   <yt:videoId>NxjlBgN-5us</yt:videoId>
-  <yt:channelId>UCJT6M5j-HT-76ts0eTzZtJw</yt:channelId>
+  
   <title>【红酒】微软的9年计划！探索微软收购动视暴雪的背后脉络</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=NxjlBgN-5us"/>
   <author>
    <name>红酒汤姆一世</name>
    <uri>https://www.youtube.com/channel/UCJT6M5j-HT-76ts0eTzZtJw</uri>
   </author>
-  <published>2022-01-25T05:07:41+00:00</published>
-  <updated>2023-06-12T20:17:44+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>【红酒】微软的9年计划！探索微软收购动视暴雪的背后脉络</media:title>
    <media:content url="https://www.youtube.com/v/NxjlBgN-5us?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -391,8 +391,8 @@ CPU拉胯是CPU的事情，但是就模具外壳而言，我觉得这产品接�
 
 不解读是不可能的，但是也没有必要过度解读</media:description>
    <media:community>
-    <media:starRating count="810" average="5.00" min="1" max="5"/>
-    <media:statistics views="29620"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>

@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
  <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCgo_-fjJxnLwwwq5dSY72rg"/>
- <id>yt:channel:</id>
- <yt:channelId></yt:channelId>
+ 
+ 
  <title>自说自话的总裁</title>
  <link rel="alternate" href="https://www.youtube.com/channel/UCgo_-fjJxnLwwwq5dSY72rg"/>
  <author>
   <name>自说自话的总裁</name>
   <uri>https://www.youtube.com/channel/UCgo_-fjJxnLwwwq5dSY72rg</uri>
  </author>
- <published>2018-11-05T01:46:19+00:00</published>
+ <published></published>
  <entry>
   <id>yt:video:4VcNp6jP8o0</id>
   <yt:videoId>4VcNp6jP8o0</yt:videoId>
-  <yt:channelId>UCgo_-fjJxnLwwwq5dSY72rg</yt:channelId>
+  
   <title>132年前，一位火山專家深入爪哇森林，他發現了無法解釋的古代遺跡……7萬年前，人類遭遇巨災，全球人口只剩下1000人？科學or預言？巨災將在2036年，再次降臨……|自說自話的總裁</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=4VcNp6jP8o0"/>
   <author>
    <name>自说自话的总裁</name>
    <uri>https://www.youtube.com/channel/UCgo_-fjJxnLwwwq5dSY72rg</uri>
   </author>
-  <published>2023-08-05T13:00:06+00:00</published>
-  <updated>2023-08-05T13:00:06+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>132年前，一位火山專家深入爪哇森林，他發現了無法解釋的古代遺跡……7萬年前，人類遭遇巨災，全球人口只剩下1000人？科學or預言？巨災將在2036年，再次降臨……|自說自話的總裁</media:title>
    <media:content url="https://www.youtube.com/v/4VcNp6jP8o0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -53,23 +53,23 @@ https://www.youtube.com/channel/UCgo_-fjJxnLwwwq5dSY72rg/join
 播放第九（炭疽）→https://youtu.be/qr4J89p2CHY
 播放第十（近親繁殖）→ https://youtu.be/lvB9sYIWEDY</media:description>
    <media:community>
-    <media:starRating count="12384" average="5.00" min="1" max="5"/>
-    <media:statistics views="480762"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:m-5q417az-0</id>
   <yt:videoId>m-5q417az-0</yt:videoId>
-  <yt:channelId>UCgo_-fjJxnLwwwq5dSY72rg</yt:channelId>
+  
   <title>世界上最小的鹿，2019年才被發現，遠看很萌，近看可怕…|自說自話的總裁</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=m-5q417az-0"/>
   <author>
    <name>自说自话的总裁</name>
    <uri>https://www.youtube.com/channel/UCgo_-fjJxnLwwwq5dSY72rg</uri>
   </author>
-  <published>2023-08-03T23:00:30+00:00</published>
-  <updated>2023-08-04T07:39:19+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>世界上最小的鹿，2019年才被發現，遠看很萌，近看可怕…|自說自話的總裁</media:title>
    <media:content url="https://www.youtube.com/v/m-5q417az-0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -92,23 +92,23 @@ https://www.youtube.com/channel/UCgo_-fjJxnLwwwq5dSY72rg/join
 頻道內容整理如下：
 ————————————————</media:description>
    <media:community>
-    <media:starRating count="3654" average="5.00" min="1" max="5"/>
-    <media:statistics views="106063"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:ca_TTfDjdIs</id>
   <yt:videoId>ca_TTfDjdIs</yt:videoId>
-  <yt:channelId>UCgo_-fjJxnLwwwq5dSY72rg</yt:channelId>
+  
   <title>《三體》成真？不要回复，不要回复……|自說自話的總裁</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=ca_TTfDjdIs"/>
   <author>
    <name>自说自话的总裁</name>
    <uri>https://www.youtube.com/channel/UCgo_-fjJxnLwwwq5dSY72rg</uri>
   </author>
-  <published>2023-08-03T12:36:27+00:00</published>
-  <updated>2023-08-04T07:35:08+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>《三體》成真？不要回复，不要回复……|自說自話的總裁</media:title>
    <media:content url="https://www.youtube.com/v/ca_TTfDjdIs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -126,23 +126,23 @@ https://www.youtube.com/channel/UCgo_-fjJxnLwwwq5dSY72rg/join
 ————————————————
 →→如果你喜歡，記得訂閱我的頻道哦：https://bit.ly/2GVplYr</media:description>
    <media:community>
-    <media:starRating count="3307" average="5.00" min="1" max="5"/>
-    <media:statistics views="95829"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:i7pN26c0Xt8</id>
   <yt:videoId>i7pN26c0Xt8</yt:videoId>
-  <yt:channelId>UCgo_-fjJxnLwwwq5dSY72rg</yt:channelId>
+  
   <title>【加更】鰲拜=all buy，為什麼說他才是聖誕節的終極密碼？原來，這一切故事，我們還要從大洪水的時代說起……|自說自話的總裁</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=i7pN26c0Xt8"/>
   <author>
    <name>自说自话的总裁</name>
    <uri>https://www.youtube.com/channel/UCgo_-fjJxnLwwwq5dSY72rg</uri>
   </author>
-  <published>2023-08-02T13:00:38+00:00</published>
-  <updated>2023-08-04T06:55:32+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>【加更】鰲拜=all buy，為什麼說他才是聖誕節的終極密碼？原來，這一切故事，我們還要從大洪水的時代說起……|自說自話的總裁</media:title>
    <media:content url="https://www.youtube.com/v/i7pN26c0Xt8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -176,23 +176,23 @@ https://www.youtube.com/channel/UCgo_-fjJxnLwwwq5dSY72rg/join
 十一（鳩摩羅什）→https://youtu.be/UgiOtxBVwc8
 十二（達芬奇）→https://youtu.be/i9zcHlnmT5g</media:description>
    <media:community>
-    <media:starRating count="8641" average="5.00" min="1" max="5"/>
-    <media:statistics views="369881"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:lrdEZanRU8U</id>
   <yt:videoId>lrdEZanRU8U</yt:videoId>
-  <yt:channelId>UCgo_-fjJxnLwwwq5dSY72rg</yt:channelId>
+  
   <title>走進山西博物院，發現500年前的十二聖鬥士，原來星座八卦早已國際化，屈原、蘇軾都是古代星座控……|自說自話的總裁</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=lrdEZanRU8U"/>
   <author>
    <name>自说自话的总裁</name>
    <uri>https://www.youtube.com/channel/UCgo_-fjJxnLwwwq5dSY72rg</uri>
   </author>
-  <published>2023-07-29T13:00:30+00:00</published>
-  <updated>2023-08-05T09:59:23+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>走進山西博物院，發現500年前的十二聖鬥士，原來星座八卦早已國際化，屈原、蘇軾都是古代星座控……|自說自話的總裁</media:title>
    <media:content url="https://www.youtube.com/v/lrdEZanRU8U?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -227,23 +227,23 @@ https://www.youtube.com/channel/UCgo_-fjJxnLwwwq5dSY72rg/join
 十一（鳩摩羅什）→https://youtu.be/UgiOtxBVwc8
 十二（達芬奇）→https://youtu.be/i9zcHlnmT5g</media:description>
    <media:community>
-    <media:starRating count="11836" average="5.00" min="1" max="5"/>
-    <media:statistics views="555509"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:3Mhv7njgT1k</id>
   <yt:videoId>3Mhv7njgT1k</yt:videoId>
-  <yt:channelId>UCgo_-fjJxnLwwwq5dSY72rg</yt:channelId>
+  
   <title>「恐龍木乃伊」真的能復活侏羅紀公園嗎？|自說自話的總裁</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=3Mhv7njgT1k"/>
   <author>
    <name>自说自话的总裁</name>
    <uri>https://www.youtube.com/channel/UCgo_-fjJxnLwwwq5dSY72rg</uri>
   </author>
-  <published>2023-07-28T12:00:03+00:00</published>
-  <updated>2023-07-29T06:32:36+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>「恐龍木乃伊」真的能復活侏羅紀公園嗎？|自說自話的總裁</media:title>
    <media:content url="https://www.youtube.com/v/3Mhv7njgT1k?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -262,23 +262,23 @@ https://www.youtube.com/channel/UCgo_-fjJxnLwwwq5dSY72rg/join
 →→如果你喜歡，記得訂閱我的頻道哦：https://bit.ly/2GVplYr
 ————————————————</media:description>
    <media:community>
-    <media:starRating count="4362" average="5.00" min="1" max="5"/>
-    <media:statistics views="126703"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:3F1MKcgduH4</id>
   <yt:videoId>3F1MKcgduH4</yt:videoId>
-  <yt:channelId>UCgo_-fjJxnLwwwq5dSY72rg</yt:channelId>
+  
   <title>㺢㹢狓：被證實的「未知生物」|自說自話的總裁</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=3F1MKcgduH4"/>
   <author>
    <name>自说自话的总裁</name>
    <uri>https://www.youtube.com/channel/UCgo_-fjJxnLwwwq5dSY72rg</uri>
   </author>
-  <published>2023-07-27T11:00:24+00:00</published>
-  <updated>2023-07-29T07:16:55+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>㺢㹢狓：被證實的「未知生物」|自說自話的總裁</media:title>
    <media:content url="https://www.youtube.com/v/3F1MKcgduH4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -299,23 +299,23 @@ https://www.youtube.com/channel/UCgo_-fjJxnLwwwq5dSY72rg/join
 →→如果你喜歡，記得訂閱我的頻道哦：https://bit.ly/2GVplYr
 ————————————————</media:description>
    <media:community>
-    <media:starRating count="3619" average="5.00" min="1" max="5"/>
-    <media:statistics views="93107"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:h5QYFFzl4dw</id>
   <yt:videoId>h5QYFFzl4dw</yt:videoId>
-  <yt:channelId>UCgo_-fjJxnLwwwq5dSY72rg</yt:channelId>
+  
   <title>1972年，3個小伙兒潛入甘蔗灣，在海底99米處遭遇妖鯊襲擊……事件充滿了詭異，幸存者的口供是否可信？深海鯊魚真的會襲擊人類嗎？|自說自話的總裁</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=h5QYFFzl4dw"/>
   <author>
    <name>自说自话的总裁</name>
    <uri>https://www.youtube.com/channel/UCgo_-fjJxnLwwwq5dSY72rg</uri>
   </author>
-  <published>2023-07-22T13:00:39+00:00</published>
-  <updated>2023-07-22T13:00:39+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>1972年，3個小伙兒潛入甘蔗灣，在海底99米處遭遇妖鯊襲擊……事件充滿了詭異，幸存者的口供是否可信？深海鯊魚真的會襲擊人類嗎？|自說自話的總裁</media:title>
    <media:content url="https://www.youtube.com/v/h5QYFFzl4dw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -344,23 +344,23 @@ https://www.youtube.com/channel/UCgo_-fjJxnLwwwq5dSY72rg/join
 播放第六（珠峰）→https://youtu.be/9Tr9S0d_XYY
 播放第七（南迦巴瓦）→https://youtu.be/ZE0wUZJHqCM</media:description>
    <media:community>
-    <media:starRating count="13626" average="5.00" min="1" max="5"/>
-    <media:statistics views="668665"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:Y_1n036Zl08</id>
   <yt:videoId>Y_1n036Zl08</yt:videoId>
-  <yt:channelId>UCgo_-fjJxnLwwwq5dSY72rg</yt:channelId>
+  
   <title>高速公鹿VS馬鹿殺手…|自說自話的總裁</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=Y_1n036Zl08"/>
   <author>
    <name>自说自话的总裁</name>
    <uri>https://www.youtube.com/channel/UCgo_-fjJxnLwwwq5dSY72rg</uri>
   </author>
-  <published>2023-07-21T11:00:26+00:00</published>
-  <updated>2023-07-21T17:37:35+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>高速公鹿VS馬鹿殺手…|自說自話的總裁</media:title>
    <media:content url="https://www.youtube.com/v/Y_1n036Zl08?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -386,23 +386,23 @@ https://www.youtube.com/channel/UCgo_-fjJxnLwwwq5dSY72rg/join
 播放第二（榫卯）→https://youtu.be/QJMgCuQqxS4
 播放第三（虹橋）→https://youtu.be/sPFk_SVNYgA</media:description>
    <media:community>
-    <media:starRating count="31324" average="5.00" min="1" max="5"/>
-    <media:statistics views="1334837"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:dVyQRnO19Is</id>
   <yt:videoId>dVyQRnO19Is</yt:videoId>
-  <yt:channelId>UCgo_-fjJxnLwwwq5dSY72rg</yt:channelId>
+  
   <title>鬼工球：我也以為自己見鬼了……|自說自話的總裁</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=dVyQRnO19Is"/>
   <author>
    <name>自说自话的总裁</name>
    <uri>https://www.youtube.com/channel/UCgo_-fjJxnLwwwq5dSY72rg</uri>
   </author>
-  <published>2023-07-20T11:00:34+00:00</published>
-  <updated>2023-07-21T06:11:18+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>鬼工球：我也以為自己見鬼了……|自說自話的總裁</media:title>
    <media:content url="https://www.youtube.com/v/dVyQRnO19Is?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -428,23 +428,23 @@ https://www.youtube.com/channel/UCgo_-fjJxnLwwwq5dSY72rg/join
 播放第二（榫卯）→https://youtu.be/QJMgCuQqxS4
 播放第三（虹橋）→https://youtu.be/sPFk_SVNYgA</media:description>
    <media:community>
-    <media:starRating count="12696" average="5.00" min="1" max="5"/>
-    <media:statistics views="345143"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:sNNs0bsK7CI</id>
   <yt:videoId>sNNs0bsK7CI</yt:videoId>
-  <yt:channelId>UCgo_-fjJxnLwwwq5dSY72rg</yt:channelId>
+  
   <title>藏地最詭異的女妖傳說：一步步接近真相，原來，這又是一個人和鬼比，誰更可怕的現實故事……|自說自話的總裁</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=sNNs0bsK7CI"/>
   <author>
    <name>自说自话的总裁</name>
    <uri>https://www.youtube.com/channel/UCgo_-fjJxnLwwwq5dSY72rg</uri>
   </author>
-  <published>2023-07-15T13:00:42+00:00</published>
-  <updated>2023-07-19T20:13:27+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>藏地最詭異的女妖傳說：一步步接近真相，原來，這又是一個人和鬼比，誰更可怕的現實故事……|自說自話的總裁</media:title>
    <media:content url="https://www.youtube.com/v/sNNs0bsK7CI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -473,23 +473,23 @@ https://www.youtube.com/channel/UCgo_-fjJxnLwwwq5dSY72rg/join
 播放第六（珠峰）→https://youtu.be/9Tr9S0d_XYY
 播放第七（南迦巴瓦）→https://youtu.be/ZE0wUZJHqCM</media:description>
    <media:community>
-    <media:starRating count="11792" average="5.00" min="1" max="5"/>
-    <media:statistics views="617338"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:UMqMXNwj_qc</id>
   <yt:videoId>UMqMXNwj_qc</yt:videoId>
-  <yt:channelId>UCgo_-fjJxnLwwwq5dSY72rg</yt:channelId>
+  
   <title>悄悄告訴你：你的👁，正在欺騙，你的👂🏻……|自說自話的總裁</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=UMqMXNwj_qc"/>
   <author>
    <name>自说自话的总裁</name>
    <uri>https://www.youtube.com/channel/UCgo_-fjJxnLwwwq5dSY72rg</uri>
   </author>
-  <published>2023-07-14T11:00:32+00:00</published>
-  <updated>2023-07-20T18:48:43+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>悄悄告訴你：你的👁，正在欺騙，你的👂🏻……|自說自話的總裁</media:title>
    <media:content url="https://www.youtube.com/v/UMqMXNwj_qc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -515,23 +515,23 @@ https://www.youtube.com/channel/UCgo_-fjJxnLwwwq5dSY72rg/join
 播放第二（榫卯）→https://youtu.be/QJMgCuQqxS4
 播放第三（虹橋）→https://youtu.be/sPFk_SVNYgA</media:description>
    <media:community>
-    <media:starRating count="5721" average="5.00" min="1" max="5"/>
-    <media:statistics views="219335"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:bL14StDLeOE</id>
   <yt:videoId>bL14StDLeOE</yt:videoId>
-  <yt:channelId>UCgo_-fjJxnLwwwq5dSY72rg</yt:channelId>
+  
   <title>一休哥當年的彩色陀螺，你還記得嗎？|自說自話的總裁</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=bL14StDLeOE"/>
   <author>
    <name>自说自话的总裁</name>
    <uri>https://www.youtube.com/channel/UCgo_-fjJxnLwwwq5dSY72rg</uri>
   </author>
-  <published>2023-07-13T11:00:23+00:00</published>
-  <updated>2023-07-13T11:00:47+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>一休哥當年的彩色陀螺，你還記得嗎？|自說自話的總裁</media:title>
    <media:content url="https://www.youtube.com/v/bL14StDLeOE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -557,23 +557,23 @@ https://www.youtube.com/channel/UCgo_-fjJxnLwwwq5dSY72rg/join
 播放第二（榫卯）→https://youtu.be/QJMgCuQqxS4
 播放第三（虹橋）→https://youtu.be/sPFk_SVNYgA</media:description>
    <media:community>
-    <media:starRating count="5327" average="5.00" min="1" max="5"/>
-    <media:statistics views="223785"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:wLizHf8VqSk</id>
   <yt:videoId>wLizHf8VqSk</yt:videoId>
-  <yt:channelId>UCgo_-fjJxnLwwwq5dSY72rg</yt:channelId>
+  
   <title>宇宙的黑暗真相：現實or虛幻？原來，科學家們早已發現了坐在山巔上的玄學家，而這一切故事，我們從400年前的一顆光子説起……|自說自話的總裁</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=wLizHf8VqSk"/>
   <author>
    <name>自说自话的总裁</name>
    <uri>https://www.youtube.com/channel/UCgo_-fjJxnLwwwq5dSY72rg</uri>
   </author>
-  <published>2023-07-08T13:00:41+00:00</published>
-  <updated>2023-07-08T14:58:43+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>宇宙的黑暗真相：現實or虛幻？原來，科學家們早已發現了坐在山巔上的玄學家，而這一切故事，我們從400年前的一顆光子説起……|自說自話的總裁</media:title>
    <media:content url="https://www.youtube.com/v/wLizHf8VqSk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -606,23 +606,23 @@ https://www.youtube.com/channel/UCgo_-fjJxnLwwwq5dSY72rg/join
 播放第六（珠峰）→https://youtu.be/9Tr9S0d_XYY
 播放第七（南迦巴瓦）→https://youtu.be/ZE0wUZJHqCM</media:description>
    <media:community>
-    <media:starRating count="18189" average="5.00" min="1" max="5"/>
-    <media:statistics views="788404"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:MzgKTTPWPsk</id>
   <yt:videoId>MzgKTTPWPsk</yt:videoId>
-  <yt:channelId>UCgo_-fjJxnLwwwq5dSY72rg</yt:channelId>
+  
   <title>最奇葩的生物實驗：如何把蚊子撐爆……|自說自話的總裁</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=MzgKTTPWPsk"/>
   <author>
    <name>自说自话的总裁</name>
    <uri>https://www.youtube.com/channel/UCgo_-fjJxnLwwwq5dSY72rg</uri>
   </author>
-  <published>2023-07-07T11:00:14+00:00</published>
-  <updated>2023-07-11T18:46:03+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>最奇葩的生物實驗：如何把蚊子撐爆……|自說自話的總裁</media:title>
    <media:content url="https://www.youtube.com/v/MzgKTTPWPsk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -648,8 +648,8 @@ https://www.youtube.com/channel/UCgo_-fjJxnLwwwq5dSY72rg/join
 播放第二（榫卯）→https://youtu.be/QJMgCuQqxS4
 播放第三（虹橋）→https://youtu.be/sPFk_SVNYgA</media:description>
    <media:community>
-    <media:starRating count="9388" average="5.00" min="1" max="5"/>
-    <media:statistics views="358787"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>

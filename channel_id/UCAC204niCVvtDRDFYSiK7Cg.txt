@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
  <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCAC204niCVvtDRDFYSiK7Cg"/>
- <id>yt:channel:</id>
- <yt:channelId></yt:channelId>
+ 
+ 
  <title>科技美学</title>
  <link rel="alternate" href="https://www.youtube.com/channel/UCAC204niCVvtDRDFYSiK7Cg"/>
  <author>
   <name>科技美学</name>
   <uri>https://www.youtube.com/channel/UCAC204niCVvtDRDFYSiK7Cg</uri>
  </author>
- <published>2013-03-27T06:18:16+00:00</published>
+ <published></published>
  <entry>
   <id>yt:video:k_QGhd2Nbns</id>
   <yt:videoId>k_QGhd2Nbns</yt:videoId>
-  <yt:channelId>UCAC204niCVvtDRDFYSiK7Cg</yt:channelId>
+  
   <title>全球首款AI裸眼3D平板 nubia Pad 3D开箱体验 卖10999值吗【大家测】 The world's first AI naked eye 3D tablet Pad 3D unboxing</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=k_QGhd2Nbns"/>
   <author>
    <name>科技美学</name>
    <uri>https://www.youtube.com/channel/UCAC204niCVvtDRDFYSiK7Cg</uri>
   </author>
-  <published>2023-07-27T13:43:58+00:00</published>
-  <updated>2023-07-27T13:46:53+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>全球首款AI裸眼3D平板 nubia Pad 3D开箱体验 卖10999值吗【大家测】 The world's first AI naked eye 3D tablet Pad 3D unboxing</media:title>
    <media:content url="https://www.youtube.com/v/k_QGhd2Nbns?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -29,330 +29,330 @@
    <media:description>The world's first AI naked eye 3D tablet nubia Pad 3D unboxing experience priced at 10999 is worth it [everyone test].
 全球首款AI裸眼3D平板 nubia Pad 3D开箱体验 卖10999值吗【大家测】 The world's first AI naked eye 3D tablet Pad 3D unboxing</media:description>
    <media:community>
-    <media:starRating count="92" average="5.00" min="1" max="5"/>
-    <media:statistics views="3949"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:G3rJlv5-Xro</id>
   <yt:videoId>G3rJlv5-Xro</yt:videoId>
-  <yt:channelId>UCAC204niCVvtDRDFYSiK7Cg</yt:channelId>
+  
   <title>iPhone15汇总/华为Mate60/小米14/任天堂Switch2/苹果教育打折/买手表慎重【科学表扬】那岩KJMX 科学吐槽 科技美学</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=G3rJlv5-Xro"/>
   <author>
    <name>科技美学</name>
    <uri>https://www.youtube.com/channel/UCAC204niCVvtDRDFYSiK7Cg</uri>
   </author>
-  <published>2023-07-22T15:20:58+00:00</published>
-  <updated>2023-07-23T06:03:09+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>iPhone15汇总/华为Mate60/小米14/任天堂Switch2/苹果教育打折/买手表慎重【科学表扬】那岩KJMX 科学吐槽 科技美学</media:title>
    <media:content url="https://www.youtube.com/v/G3rJlv5-Xro?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i4.ytimg.com/vi/G3rJlv5-Xro/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="129" average="5.00" min="1" max="5"/>
-    <media:statistics views="6123"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:gB0HhaUnCAs</id>
   <yt:videoId>gB0HhaUnCAs</yt:videoId>
-  <yt:channelId>UCAC204niCVvtDRDFYSiK7Cg</yt:channelId>
+  
   <title>【大家测】唯一选择 拯救者Y700二代2023 小屏游戏平板全面升级 对比 iPad mini6 LEGION Y700 2023</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=gB0HhaUnCAs"/>
   <author>
    <name>科技美学</name>
    <uri>https://www.youtube.com/channel/UCAC204niCVvtDRDFYSiK7Cg</uri>
   </author>
-  <published>2023-07-22T15:18:21+00:00</published>
-  <updated>2023-07-23T06:46:03+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>【大家测】唯一选择 拯救者Y700二代2023 小屏游戏平板全面升级 对比 iPad mini6 LEGION Y700 2023</media:title>
    <media:content url="https://www.youtube.com/v/gB0HhaUnCAs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i4.ytimg.com/vi/gB0HhaUnCAs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="193" average="5.00" min="1" max="5"/>
-    <media:statistics views="10186"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:U-VVGSQDG3A</id>
   <yt:videoId>U-VVGSQDG3A</yt:videoId>
-  <yt:channelId>UCAC204niCVvtDRDFYSiK7Cg</yt:channelId>
+  
   <title>iPhone可换电池/华为mate60问界/任天堂Switch2/英伟达4060/英特尔改名/网易单挑微博/微信助手是真人？【科学表扬】@那岩KJMX</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=U-VVGSQDG3A"/>
   <author>
    <name>科技美学</name>
    <uri>https://www.youtube.com/channel/UCAC204niCVvtDRDFYSiK7Cg</uri>
   </author>
-  <published>2023-07-01T15:17:12+00:00</published>
-  <updated>2023-07-02T06:35:31+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>iPhone可换电池/华为mate60问界/任天堂Switch2/英伟达4060/英特尔改名/网易单挑微博/微信助手是真人？【科学表扬】@那岩KJMX</media:title>
    <media:content url="https://www.youtube.com/v/U-VVGSQDG3A?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i2.ytimg.com/vi/U-VVGSQDG3A/hqdefault.jpg" width="480" height="360"/>
    <media:description>iPhone replaceable battery / Huawei mate60 asked the world / Nintendo Switch2 / Nvidia 4060 / Intel changed its name / NetEase singled out microblogging / WeChat assistant is a real person? [Science commendation] @NayanKJMX</media:description>
    <media:community>
-    <media:starRating count="92" average="5.00" min="1" max="5"/>
-    <media:statistics views="4481"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:QBpa3ARZkPc</id>
   <yt:videoId>QBpa3ARZkPc</yt:videoId>
-  <yt:channelId>UCAC204niCVvtDRDFYSiK7Cg</yt:channelId>
+  
   <title>iPhone15/小米48亿元印度/苹果618/固态大跳水/ROG掌机/小黄车ofo/贾跃亭国内参会演讲【科学表扬】那岩KJMX【科学吐槽】</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=QBpa3ARZkPc"/>
   <author>
    <name>科技美学</name>
    <uri>https://www.youtube.com/channel/UCAC204niCVvtDRDFYSiK7Cg</uri>
   </author>
-  <published>2023-06-17T15:17:41+00:00</published>
-  <updated>2023-06-22T10:27:27+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>iPhone15/小米48亿元印度/苹果618/固态大跳水/ROG掌机/小黄车ofo/贾跃亭国内参会演讲【科学表扬】那岩KJMX【科学吐槽】</media:title>
    <media:content url="https://www.youtube.com/v/QBpa3ARZkPc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i2.ytimg.com/vi/QBpa3ARZkPc/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="75" average="5.00" min="1" max="5"/>
-    <media:statistics views="4298"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:mTxYfMQHMYQ</id>
   <yt:videoId>mTxYfMQHMYQ</yt:videoId>
-  <yt:channelId>UCAC204niCVvtDRDFYSiK7Cg</yt:channelId>
+  
   <title>2023苹果 MacBook Air15 英寸 对比 13/14/16寸苹果笔记本【科技美学】</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=mTxYfMQHMYQ"/>
   <author>
    <name>科技美学</name>
    <uri>https://www.youtube.com/channel/UCAC204niCVvtDRDFYSiK7Cg</uri>
   </author>
-  <published>2023-06-15T04:41:07+00:00</published>
-  <updated>2023-07-01T09:53:02+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>2023苹果 MacBook Air15 英寸 对比 13/14/16寸苹果笔记本【科技美学】</media:title>
    <media:content url="https://www.youtube.com/v/mTxYfMQHMYQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i2.ytimg.com/vi/mTxYfMQHMYQ/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="109" average="5.00" min="1" max="5"/>
-    <media:statistics views="10515"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:9XES6J25Em4</id>
   <yt:videoId>9XES6J25Em4</yt:videoId>
-  <yt:channelId>UCAC204niCVvtDRDFYSiK7Cg</yt:channelId>
+  
   <title>华为L2.9/小米眼镜/原神米哈游/林志颖小鹏/方程豹比亚迪卖车不如卖书？【科学表扬】那岩KJMX【科学吐槽】</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=9XES6J25Em4"/>
   <author>
    <name>科技美学</name>
    <uri>https://www.youtube.com/channel/UCAC204niCVvtDRDFYSiK7Cg</uri>
   </author>
-  <published>2023-06-15T03:09:45+00:00</published>
-  <updated>2023-06-15T07:10:10+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>华为L2.9/小米眼镜/原神米哈游/林志颖小鹏/方程豹比亚迪卖车不如卖书？【科学表扬】那岩KJMX【科学吐槽】</media:title>
    <media:content url="https://www.youtube.com/v/9XES6J25Em4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i2.ytimg.com/vi/9XES6J25Em4/hqdefault.jpg" width="480" height="360"/>
    <media:description>华为L2.9/小米眼镜/原神米哈游/林志颖小鹏/方程豹比亚迪卖车不如卖书？【科学表扬】那岩KJMX【科学吐槽】</media:description>
    <media:community>
-    <media:starRating count="32" average="5.00" min="1" max="5"/>
-    <media:statistics views="1240"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:IUHTq2aBRZk</id>
   <yt:videoId>IUHTq2aBRZk</yt:videoId>
-  <yt:channelId>UCAC204niCVvtDRDFYSiK7Cg</yt:channelId>
+  
   <title>苹果眼镜/VisionPro/华为/iOS隐藏功能/马斯克/扎克伯格/卡尔蔡司夹片【科学表扬】第144期 科学吐槽 那岩KJMX</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=IUHTq2aBRZk"/>
   <author>
    <name>科技美学</name>
    <uri>https://www.youtube.com/channel/UCAC204niCVvtDRDFYSiK7Cg</uri>
   </author>
-  <published>2023-06-13T13:53:18+00:00</published>
-  <updated>2023-06-17T01:59:33+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>苹果眼镜/VisionPro/华为/iOS隐藏功能/马斯克/扎克伯格/卡尔蔡司夹片【科学表扬】第144期 科学吐槽 那岩KJMX</media:title>
    <media:content url="https://www.youtube.com/v/IUHTq2aBRZk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i2.ytimg.com/vi/IUHTq2aBRZk/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="58" average="5.00" min="1" max="5"/>
-    <media:statistics views="2437"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:G_KxKOBaiF8</id>
   <yt:videoId>G_KxKOBaiF8</yt:videoId>
-  <yt:channelId>UCAC204niCVvtDRDFYSiK7Cg</yt:channelId>
+  
   <title>iOS17隐藏重磅功能 #Shorts</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=G_KxKOBaiF8"/>
   <author>
    <name>科技美学</name>
    <uri>https://www.youtube.com/channel/UCAC204niCVvtDRDFYSiK7Cg</uri>
   </author>
-  <published>2023-06-13T13:28:24+00:00</published>
-  <updated>2023-06-16T13:39:37+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>iOS17隐藏重磅功能 #Shorts</media:title>
    <media:content url="https://www.youtube.com/v/G_KxKOBaiF8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i4.ytimg.com/vi/G_KxKOBaiF8/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="15" average="5.00" min="1" max="5"/>
-    <media:statistics views="472"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:FR1oFiMEonw</id>
   <yt:videoId>FR1oFiMEonw</yt:videoId>
-  <yt:channelId>UCAC204niCVvtDRDFYSiK7Cg</yt:channelId>
+  
   <title>小米13ultra超低价/iPhone15坏消息/比亚迪仰望U8/问界/宝马mini/马斯克【科学表扬】@那岩KJMX 【科学吐槽】</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=FR1oFiMEonw"/>
   <author>
    <name>科技美学</name>
    <uri>https://www.youtube.com/channel/UCAC204niCVvtDRDFYSiK7Cg</uri>
   </author>
-  <published>2023-04-23T01:47:15+00:00</published>
-  <updated>2023-07-22T08:09:17+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>小米13ultra超低价/iPhone15坏消息/比亚迪仰望U8/问界/宝马mini/马斯克【科学表扬】@那岩KJMX 【科学吐槽】</media:title>
    <media:content url="https://www.youtube.com/v/FR1oFiMEonw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i3.ytimg.com/vi/FR1oFiMEonw/hqdefault.jpg" width="480" height="360"/>
    <media:description>小米13ultra超低价/iPhone15坏消息/比亚迪仰望U8/问界/宝马mini/马斯克【科学表扬】@那岩KJMX 【科学吐槽】</media:description>
    <media:community>
-    <media:starRating count="185" average="5.00" min="1" max="5"/>
-    <media:statistics views="6811"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:do-0879frAM</id>
   <yt:videoId>do-0879frAM</yt:videoId>
-  <yt:channelId>UCAC204niCVvtDRDFYSiK7Cg</yt:channelId>
+  
   <title>小米13 Ultra 真机颜值对比 苹果iPhone14Pro/三星S22/OPPO findX6Pro/vivoX90Pro/华为Mate50【大家测】</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=do-0879frAM"/>
   <author>
    <name>科技美学</name>
    <uri>https://www.youtube.com/channel/UCAC204niCVvtDRDFYSiK7Cg</uri>
   </author>
-  <published>2023-04-19T13:09:28+00:00</published>
-  <updated>2023-06-10T08:03:30+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>小米13 Ultra 真机颜值对比 苹果iPhone14Pro/三星S22/OPPO findX6Pro/vivoX90Pro/华为Mate50【大家测】</media:title>
    <media:content url="https://www.youtube.com/v/do-0879frAM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i1.ytimg.com/vi/do-0879frAM/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="116" average="5.00" min="1" max="5"/>
-    <media:statistics views="5137"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:EDQbTcA7VhI</id>
   <yt:videoId>EDQbTcA7VhI</yt:videoId>
-  <yt:channelId>UCAC204niCVvtDRDFYSiK7Cg</yt:channelId>
+  
   <title>【大家测】14999元 小米电视大师86 Mini LED开箱体验 千级分区+大师画质引擎</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=EDQbTcA7VhI"/>
   <author>
    <name>科技美学</name>
    <uri>https://www.youtube.com/channel/UCAC204niCVvtDRDFYSiK7Cg</uri>
   </author>
-  <published>2023-04-19T13:00:13+00:00</published>
-  <updated>2023-06-16T19:36:04+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>【大家测】14999元 小米电视大师86 Mini LED开箱体验 千级分区+大师画质引擎</media:title>
    <media:content url="https://www.youtube.com/v/EDQbTcA7VhI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i2.ytimg.com/vi/EDQbTcA7VhI/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="64" average="5.00" min="1" max="5"/>
-    <media:statistics views="4091"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:BdO699Lh7E4</id>
   <yt:videoId>BdO699Lh7E4</yt:videoId>
-  <yt:channelId>UCAC204niCVvtDRDFYSiK7Cg</yt:channelId>
+  
   <title>小米13Ultra 详细体验｜徕卡相机对比苹果 iPhone14ProMax【科技美学】</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=BdO699Lh7E4"/>
   <author>
    <name>科技美学</name>
    <uri>https://www.youtube.com/channel/UCAC204niCVvtDRDFYSiK7Cg</uri>
   </author>
-  <published>2023-04-19T05:10:44+00:00</published>
-  <updated>2023-06-14T02:34:34+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>小米13Ultra 详细体验｜徕卡相机对比苹果 iPhone14ProMax【科技美学】</media:title>
    <media:content url="https://www.youtube.com/v/BdO699Lh7E4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i3.ytimg.com/vi/BdO699Lh7E4/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="378" average="5.00" min="1" max="5"/>
-    <media:statistics views="19499"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:xvzlJPB2d_g</id>
   <yt:videoId>xvzlJPB2d_g</yt:videoId>
-  <yt:channelId>UCAC204niCVvtDRDFYSiK7Cg</yt:channelId>
+  
   <title>小米13 Ultra真机礼盒开箱｜ 这完全就是一台徕卡相机【科技美学】</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=xvzlJPB2d_g"/>
   <author>
    <name>科技美学</name>
    <uri>https://www.youtube.com/channel/UCAC204niCVvtDRDFYSiK7Cg</uri>
   </author>
-  <published>2023-04-19T04:17:17+00:00</published>
-  <updated>2023-06-10T09:00:54+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>小米13 Ultra真机礼盒开箱｜ 这完全就是一台徕卡相机【科技美学】</media:title>
    <media:content url="https://www.youtube.com/v/xvzlJPB2d_g?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i1.ytimg.com/vi/xvzlJPB2d_g/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="101" average="5.00" min="1" max="5"/>
-    <media:statistics views="4167"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:aXb6J8UJzOM</id>
   <yt:videoId>aXb6J8UJzOM</yt:videoId>
-  <yt:channelId>UCAC204niCVvtDRDFYSiK7Cg</yt:channelId>
+  
   <title>小米手环8 开箱对比苹果 applewatch 华为watch【科技美学】</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=aXb6J8UJzOM"/>
   <author>
    <name>科技美学</name>
    <uri>https://www.youtube.com/channel/UCAC204niCVvtDRDFYSiK7Cg</uri>
   </author>
-  <published>2023-04-19T03:53:53+00:00</published>
-  <updated>2023-06-08T18:48:14+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>小米手环8 开箱对比苹果 applewatch 华为watch【科技美学】</media:title>
    <media:content url="https://www.youtube.com/v/aXb6J8UJzOM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i2.ytimg.com/vi/aXb6J8UJzOM/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="239" average="5.00" min="1" max="5"/>
-    <media:statistics views="27911"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>

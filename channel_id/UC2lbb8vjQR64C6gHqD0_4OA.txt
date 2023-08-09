@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
  <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UC2lbb8vjQR64C6gHqD0_4OA"/>
- <id>yt:channel:</id>
- <yt:channelId></yt:channelId>
+ 
+ 
  <title>你可敢信</title>
  <link rel="alternate" href="https://www.youtube.com/channel/UC2lbb8vjQR64C6gHqD0_4OA"/>
  <author>
   <name>你可敢信</name>
   <uri>https://www.youtube.com/channel/UC2lbb8vjQR64C6gHqD0_4OA</uri>
  </author>
- <published>2019-07-27T14:20:58+00:00</published>
+ <published></published>
  <entry>
   <id>yt:video:nkVj2Ywemx0</id>
   <yt:videoId>nkVj2Ywemx0</yt:videoId>
-  <yt:channelId>UC2lbb8vjQR64C6gHqD0_4OA</yt:channelId>
+  
   <title>山羊是如何一步步成為惡魔的？！這還是你印象中的山羊嗎？！一個視頻告訴你山羊背後的真相！｜「你可敢信」</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=nkVj2Ywemx0"/>
   <author>
    <name>你可敢信</name>
    <uri>https://www.youtube.com/channel/UC2lbb8vjQR64C6gHqD0_4OA</uri>
   </author>
-  <published>2023-07-28T13:00:39+00:00</published>
-  <updated>2023-07-29T07:24:13+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>山羊是如何一步步成為惡魔的？！這還是你印象中的山羊嗎？！一個視頻告訴你山羊背後的真相！｜「你可敢信」</media:title>
    <media:content url="https://www.youtube.com/v/nkVj2Ywemx0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -113,23 +113,23 @@ Re-production, re-upload, re-broadcast, and distribution of our copyrighted vide
 Copyright © Nic Believe 你可敢信 All Rights Reserved.
 所有視頻禁止搬運，違者必究。</media:description>
    <media:community>
-    <media:starRating count="2399" average="5.00" min="1" max="5"/>
-    <media:statistics views="67535"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:WIj3STbSwe4</id>
   <yt:videoId>WIj3STbSwe4</yt:videoId>
-  <yt:channelId>UC2lbb8vjQR64C6gHqD0_4OA</yt:channelId>
+  
   <title>抓到外星人！最震撼的「外星人審訊錄」，你想知道的「宇宙秘密」都在這裡！｜【你可敢信 &amp; NicBelieve】</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=WIj3STbSwe4"/>
   <author>
    <name>你可敢信</name>
    <uri>https://www.youtube.com/channel/UC2lbb8vjQR64C6gHqD0_4OA</uri>
   </author>
-  <published>2023-07-21T13:00:28+00:00</published>
-  <updated>2023-07-23T09:47:05+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>抓到外星人！最震撼的「外星人審訊錄」，你想知道的「宇宙秘密」都在這裡！｜【你可敢信 &amp; NicBelieve】</media:title>
    <media:content url="https://www.youtube.com/v/WIj3STbSwe4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -221,46 +221,46 @@ Re-production, re-upload, re-broadcast, and distribution of our copyrighted vide
 Copyright © Nic Believe 你可敢信 All Rights Reserved.
 所有視頻禁止搬運，違者必究。</media:description>
    <media:community>
-    <media:starRating count="3502" average="5.00" min="1" max="5"/>
-    <media:statistics views="113451"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:cIuQ_i2j6qo</id>
   <yt:videoId>cIuQ_i2j6qo</yt:videoId>
-  <yt:channelId>UC2lbb8vjQR64C6gHqD0_4OA</yt:channelId>
+  
   <title>美國官方承認：火星不僅曾經存在過「巨人」，還最終毀於「兩場超級大災難」！超能力者：連人類也「不是進化」來的！</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=cIuQ_i2j6qo"/>
   <author>
    <name>你可敢信</name>
    <uri>https://www.youtube.com/channel/UC2lbb8vjQR64C6gHqD0_4OA</uri>
   </author>
-  <published>2023-07-08T13:00:33+00:00</published>
-  <updated>2023-07-09T05:38:58+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>美國官方承認：火星不僅曾經存在過「巨人」，還最終毀於「兩場超級大災難」！超能力者：連人類也「不是進化」來的！</media:title>
    <media:content url="https://www.youtube.com/v/cIuQ_i2j6qo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i4.ytimg.com/vi/cIuQ_i2j6qo/hqdefault.jpg" width="480" height="360"/>
    <media:description>👇【加入會員】立刻成為天才👇：https://www.youtube.com/channel/UC2lbb8vjQR64C6gHqD0_4OA/join</media:description>
    <media:community>
-    <media:starRating count="4655" average="5.00" min="1" max="5"/>
-    <media:statistics views="146567"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:TgmLWQsHzyg</id>
   <yt:videoId>TgmLWQsHzyg</yt:videoId>
-  <yt:channelId>UC2lbb8vjQR64C6gHqD0_4OA</yt:channelId>
+  
   <title>NASA極力「隱瞞的真相」被發現，這些「本不該出現的東西」揭開了火星的驚天秘密！｜「你可敢信 &amp; Nic Believe」</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=TgmLWQsHzyg"/>
   <author>
    <name>你可敢信</name>
    <uri>https://www.youtube.com/channel/UC2lbb8vjQR64C6gHqD0_4OA</uri>
   </author>
-  <published>2023-06-30T13:00:18+00:00</published>
-  <updated>2023-06-30T13:00:18+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>NASA極力「隱瞞的真相」被發現，這些「本不該出現的東西」揭開了火星的驚天秘密！｜「你可敢信 &amp; Nic Believe」</media:title>
    <media:content url="https://www.youtube.com/v/TgmLWQsHzyg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -352,23 +352,23 @@ Re-production, re-upload, re-broadcast, and distribution of our copyrighted vide
 Copyright © Nic Believe 你可敢信 All Rights Reserved.
 所有視頻禁止搬運，違者必究。</media:description>
    <media:community>
-    <media:starRating count="5486" average="5.00" min="1" max="5"/>
-    <media:statistics views="169224"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:e9UW_lCsQ3g</id>
   <yt:videoId>e9UW_lCsQ3g</yt:videoId>
-  <yt:channelId>UC2lbb8vjQR64C6gHqD0_4OA</yt:channelId>
+  
   <title>5萬年前，人類的最後一道封印被解除...潘多拉魔盒裡竟然藏著下一個阿努那奇｜「你可敢信」</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=e9UW_lCsQ3g"/>
   <author>
    <name>你可敢信</name>
    <uri>https://www.youtube.com/channel/UC2lbb8vjQR64C6gHqD0_4OA</uri>
   </author>
-  <published>2023-06-09T13:00:26+00:00</published>
-  <updated>2023-07-22T02:08:49+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>5萬年前，人類的最後一道封印被解除...潘多拉魔盒裡竟然藏著下一個阿努那奇｜「你可敢信」</media:title>
    <media:content url="https://www.youtube.com/v/e9UW_lCsQ3g?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -460,23 +460,23 @@ Re-production, re-upload, re-broadcast, and distribution of our copyrighted vide
 Copyright © Nic Believe 你可敢信 All Rights Reserved.
 所有視頻禁止搬運，違者必究。</media:description>
    <media:community>
-    <media:starRating count="3477" average="5.00" min="1" max="5"/>
-    <media:statistics views="117755"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:4391rb6Hq18</id>
   <yt:videoId>4391rb6Hq18</yt:videoId>
-  <yt:channelId>UC2lbb8vjQR64C6gHqD0_4OA</yt:channelId>
+  
   <title>「海裡」竟然到處都是「UFO」，原來守護地球的「神秘力量」竟然是他｜【你可敢信｜Nic Believe】</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=4391rb6Hq18"/>
   <author>
    <name>你可敢信</name>
    <uri>https://www.youtube.com/channel/UC2lbb8vjQR64C6gHqD0_4OA</uri>
   </author>
-  <published>2023-05-12T13:00:03+00:00</published>
-  <updated>2023-06-07T17:12:12+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>「海裡」竟然到處都是「UFO」，原來守護地球的「神秘力量」竟然是他｜【你可敢信｜Nic Believe】</media:title>
    <media:content url="https://www.youtube.com/v/4391rb6Hq18?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -568,23 +568,23 @@ Re-production, re-upload, re-broadcast, and distribution of our copyrighted vide
 Copyright © Nic Believe 你可敢信 All Rights Reserved.
 所有視頻禁止搬運，違者必究。</media:description>
    <media:community>
-    <media:starRating count="5228" average="5.00" min="1" max="5"/>
-    <media:statistics views="167756"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:V5PQ-T7oyv0</id>
   <yt:videoId>V5PQ-T7oyv0</yt:videoId>
-  <yt:channelId>UC2lbb8vjQR64C6gHqD0_4OA</yt:channelId>
+  
   <title>最不可思議的公司和最傳奇的超級英雄｜SpaceX &amp; Elon Musk</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=V5PQ-T7oyv0"/>
   <author>
    <name>你可敢信</name>
    <uri>https://www.youtube.com/channel/UC2lbb8vjQR64C6gHqD0_4OA</uri>
   </author>
-  <published>2023-04-29T12:00:31+00:00</published>
-  <updated>2023-06-15T19:40:43+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>最不可思議的公司和最傳奇的超級英雄｜SpaceX &amp; Elon Musk</media:title>
    <media:content url="https://www.youtube.com/v/V5PQ-T7oyv0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -676,23 +676,23 @@ Re-production, re-upload, re-broadcast, and distribution of our copyrighted vide
 Copyright © Nic Believe 你可敢信 All Rights Reserved.
 所有視頻禁止搬運，違者必究。</media:description>
    <media:community>
-    <media:starRating count="2765" average="5.00" min="1" max="5"/>
-    <media:statistics views="74242"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:V9BfIabYnWU</id>
   <yt:videoId>V9BfIabYnWU</yt:videoId>
-  <yt:channelId>UC2lbb8vjQR64C6gHqD0_4OA</yt:channelId>
+  
   <title>9年前，MH370航班上究竟發生了什麼？一口氣告訴妳答案！｜「你可敢信」</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=V9BfIabYnWU"/>
   <author>
    <name>你可敢信</name>
    <uri>https://www.youtube.com/channel/UC2lbb8vjQR64C6gHqD0_4OA</uri>
   </author>
-  <published>2023-03-31T12:00:31+00:00</published>
-  <updated>2023-06-15T23:48:40+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>9年前，MH370航班上究竟發生了什麼？一口氣告訴妳答案！｜「你可敢信」</media:title>
    <media:content url="https://www.youtube.com/v/V9BfIabYnWU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -784,23 +784,23 @@ Re-production, re-upload, re-broadcast, and distribution of our copyrighted vide
 Copyright © Nic Believe 你可敢信 All Rights Reserved.
 所有視頻禁止搬運，違者必究。</media:description>
    <media:community>
-    <media:starRating count="3788" average="5.00" min="1" max="5"/>
-    <media:statistics views="151673"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:Vmqqx1b6jeQ</id>
   <yt:videoId>Vmqqx1b6jeQ</yt:videoId>
-  <yt:channelId>UC2lbb8vjQR64C6gHqD0_4OA</yt:channelId>
+  
   <title>九年前，馬航370到底發生了什麼??? 新證據的出現告訴妳答案!!!｜你可敢信</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=Vmqqx1b6jeQ"/>
   <author>
    <name>你可敢信</name>
    <uri>https://www.youtube.com/channel/UC2lbb8vjQR64C6gHqD0_4OA</uri>
   </author>
-  <published>2023-03-24T12:00:30+00:00</published>
-  <updated>2023-06-09T23:47:26+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>九年前，馬航370到底發生了什麼??? 新證據的出現告訴妳答案!!!｜你可敢信</media:title>
    <media:content url="https://www.youtube.com/v/Vmqqx1b6jeQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -892,23 +892,23 @@ Re-production, re-upload, re-broadcast, and distribution of our copyrighted vide
 Copyright © Nic Believe 你可敢信 All Rights Reserved.
 所有視頻禁止搬運，違者必究。</media:description>
    <media:community>
-    <media:starRating count="4108" average="5.00" min="1" max="5"/>
-    <media:statistics views="147868"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:mJKXLJ3VmwM</id>
   <yt:videoId>mJKXLJ3VmwM</yt:videoId>
-  <yt:channelId>UC2lbb8vjQR64C6gHqD0_4OA</yt:channelId>
+  
   <title>這是一套遠超你我想像的靈魂程序，地獄的下面和外面竟然還有兩重地獄，往返靈界27年的科學家警告世人：這兩件事千萬別做！</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=mJKXLJ3VmwM"/>
   <author>
    <name>你可敢信</name>
    <uri>https://www.youtube.com/channel/UC2lbb8vjQR64C6gHqD0_4OA</uri>
   </author>
-  <published>2023-03-10T12:00:25+00:00</published>
-  <updated>2023-06-07T15:16:14+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>這是一套遠超你我想像的靈魂程序，地獄的下面和外面竟然還有兩重地獄，往返靈界27年的科學家警告世人：這兩件事千萬別做！</media:title>
    <media:content url="https://www.youtube.com/v/mJKXLJ3VmwM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -981,23 +981,23 @@ Copyright © Nic Believe 你可敢信 All Rights Reserved.
 #天堂與地獄
 #史威登堡</media:description>
    <media:community>
-    <media:starRating count="4220" average="5.00" min="1" max="5"/>
-    <media:statistics views="135447"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:mxChJpIwCXU</id>
   <yt:videoId>mxChJpIwCXU</yt:videoId>
-  <yt:channelId>UC2lbb8vjQR64C6gHqD0_4OA</yt:channelId>
+  
   <title>有史以來最可信的靈界見聞錄，牛頓級科學家往返靈界27年，帶回了整個靈魂系統最震撼的解讀，竟然與現代科學研究不謀而合！</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=mxChJpIwCXU"/>
   <author>
    <name>你可敢信</name>
    <uri>https://www.youtube.com/channel/UC2lbb8vjQR64C6gHqD0_4OA</uri>
   </author>
-  <published>2023-02-24T13:00:35+00:00</published>
-  <updated>2023-06-08T04:06:46+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>有史以來最可信的靈界見聞錄，牛頓級科學家往返靈界27年，帶回了整個靈魂系統最震撼的解讀，竟然與現代科學研究不謀而合！</media:title>
    <media:content url="https://www.youtube.com/v/mxChJpIwCXU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -1070,23 +1070,23 @@ Copyright © Nic Believe 你可敢信 All Rights Reserved.
 #天堂與地獄
 #史威登堡</media:description>
    <media:community>
-    <media:starRating count="5596" average="5.00" min="1" max="5"/>
-    <media:statistics views="195592"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:71fhK8AVpc0</id>
   <yt:videoId>71fhK8AVpc0</yt:videoId>
-  <yt:channelId>UC2lbb8vjQR64C6gHqD0_4OA</yt:channelId>
+  
   <title>【細節】NASA和FBI隱瞞真相，這就是人類絕對不能知道的「外星人秘密」！</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=71fhK8AVpc0"/>
   <author>
    <name>你可敢信</name>
    <uri>https://www.youtube.com/channel/UC2lbb8vjQR64C6gHqD0_4OA</uri>
   </author>
-  <published>2023-02-09T12:00:04+00:00</published>
-  <updated>2023-06-27T11:42:17+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>【細節】NASA和FBI隱瞞真相，這就是人類絕對不能知道的「外星人秘密」！</media:title>
    <media:content url="https://www.youtube.com/v/71fhK8AVpc0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -1158,23 +1158,23 @@ Copyright © Nic Believe 你可敢信 All Rights Reserved.
 #萊瑟塔檔案
 #蜥蜴人訪談錄</media:description>
    <media:community>
-    <media:starRating count="4643" average="5.00" min="1" max="5"/>
-    <media:statistics views="145437"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:TTPyZ1GXb5c</id>
   <yt:videoId>TTPyZ1GXb5c</yt:videoId>
-  <yt:channelId>UC2lbb8vjQR64C6gHqD0_4OA</yt:channelId>
+  
   <title>2023最準預言，最強預言家們竟然看到了同樣的未來！這六件大事即將發生，其中這兩件會影響全球，你準備好了嗎？</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=TTPyZ1GXb5c"/>
   <author>
    <name>你可敢信</name>
    <uri>https://www.youtube.com/channel/UC2lbb8vjQR64C6gHqD0_4OA</uri>
   </author>
-  <published>2023-01-29T12:00:15+00:00</published>
-  <updated>2023-06-09T00:21:53+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>2023最準預言，最強預言家們竟然看到了同樣的未來！這六件大事即將發生，其中這兩件會影響全球，你準備好了嗎？</media:title>
    <media:content url="https://www.youtube.com/v/TTPyZ1GXb5c?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -1269,23 +1269,23 @@ Copyright © Nic Believe 你可敢信 All Rights Reserved.
 #預言2023
 #2023預言</media:description>
    <media:community>
-    <media:starRating count="8007" average="5.00" min="1" max="5"/>
-    <media:statistics views="261783"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:NOJnnZGCDxQ</id>
   <yt:videoId>NOJnnZGCDxQ</yt:videoId>
-  <yt:channelId>UC2lbb8vjQR64C6gHqD0_4OA</yt:channelId>
+  
   <title>揭開法老墓室和黃金假面背後的秘密，原來這才是被掩埋了三千多年的真相！【你可敢信｜Nic Believe】</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=NOJnnZGCDxQ"/>
   <author>
    <name>你可敢信</name>
    <uri>https://www.youtube.com/channel/UC2lbb8vjQR64C6gHqD0_4OA</uri>
   </author>
-  <published>2022-12-30T12:00:18+00:00</published>
-  <updated>2023-06-07T21:36:22+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>揭開法老墓室和黃金假面背後的秘密，原來這才是被掩埋了三千多年的真相！【你可敢信｜Nic Believe】</media:title>
    <media:content url="https://www.youtube.com/v/NOJnnZGCDxQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -1354,23 +1354,23 @@ Re-production, re-upload, re-broadcast, and distribution of our copyrighted vide
 Copyright © Nic Believe 你可敢信 All Rights Reserved.
 所有視頻禁止搬運，違者必究。</media:description>
    <media:community>
-    <media:starRating count="4097" average="5.00" min="1" max="5"/>
-    <media:statistics views="157044"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:nL_1Ayt9LHU</id>
   <yt:videoId>nL_1Ayt9LHU</yt:videoId>
-  <yt:channelId>UC2lbb8vjQR64C6gHqD0_4OA</yt:channelId>
+  
   <title>蜥蜴人揭開外星人被隱瞞的最大秘密，“UFO”只是個開始，其背後即將到來的真正威脅其實是...【你可敢信 &amp; Nic Believe】</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=nL_1Ayt9LHU"/>
   <author>
    <name>你可敢信</name>
    <uri>https://www.youtube.com/channel/UC2lbb8vjQR64C6gHqD0_4OA</uri>
   </author>
-  <published>2022-12-16T12:00:34+00:00</published>
-  <updated>2023-07-22T21:57:24+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>蜥蜴人揭開外星人被隱瞞的最大秘密，“UFO”只是個開始，其背後即將到來的真正威脅其實是...【你可敢信 &amp; Nic Believe】</media:title>
    <media:content url="https://www.youtube.com/v/nL_1Ayt9LHU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -1442,8 +1442,8 @@ Copyright © Nic Believe 你可敢信 All Rights Reserved.
 #萊瑟塔檔案
 #蜥蜴人訪談錄</media:description>
    <media:community>
-    <media:starRating count="5413" average="5.00" min="1" max="5"/>
-    <media:statistics views="178238"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>

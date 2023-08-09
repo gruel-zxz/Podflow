@@ -1,27 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
  <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UC2tQpW0dPiyWPebwBSksJ_g"/>
- <id>yt:channel:</id>
- <yt:channelId></yt:channelId>
+ 
+ 
  <title>脑洞乌托邦</title>
  <link rel="alternate" href="https://www.youtube.com/channel/UC2tQpW0dPiyWPebwBSksJ_g"/>
  <author>
   <name>脑洞乌托邦</name>
   <uri>https://www.youtube.com/channel/UC2tQpW0dPiyWPebwBSksJ_g</uri>
  </author>
- <published>2018-08-26T01:17:47+00:00</published>
+ <published></published>
+ <entry>
+  <id>yt:video:O6iqCSd0ySk</id>
+  <yt:videoId>O6iqCSd0ySk</yt:videoId>
+  
+  <title>形婚、學歷造假、公益造假、坑害閨蜜、謊話連篇，范范黑人過往黑料大匯總！這對夫妻為何會被所有人討厭？[She's Xiaowu @ndwtb]</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=O6iqCSd0ySk"/>
+  <author>
+   <name>脑洞乌托邦</name>
+   <uri>https://www.youtube.com/channel/UC2tQpW0dPiyWPebwBSksJ_g</uri>
+  </author>
+  <published></published>
+  <updated></updated>
+  <media:group>
+   <media:title>形婚、學歷造假、公益造假、坑害閨蜜、謊話連篇，范范黑人過往黑料大匯總！這對夫妻為何會被所有人討厭？[She's Xiaowu @ndwtb]</media:title>
+   <media:content url="https://www.youtube.com/v/O6iqCSd0ySk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/O6iqCSd0ySk/hqdefault.jpg" width="480" height="360"/>
+   <media:description>現在就訂購 Surfshark VPN  https://surfshark.deals/ndwtb 或輸入優惠代碼 [ndwtb]，取得獨家優惠外加額外3個月免費！若不滿意30天內保證退款，來試試看吧！
+==================================
+😚 請訂閱 https://goo.gl/B3gKwP 
+Ⓜ️ 腦洞烏托邦 VIP Membership https://www.youtube.com/channel/UC2tQpW0dPiyWPebwBSksJ_g/join
+♾️ 國內觀眾會員購買渠道 https://afdian.net/@ndwtb
+==================================
+🔔 Credit
+브금대통령 | You Are Fallen https://youtu.be/1zMu5dhb7V0
+Myuu | Versunken https://www.youtube.com/watch?v=s6zTUahbfDE
+LEMMiNO | Encounters | https://soundcloud.com/lemmino/encounters
+CO.AG | Sinister Dark Ambient Background Music - Dark Rage https://www.youtube.com/watch?v=zXZsUCwRkPs
+==================================
+Re-production, re-upload, re-broadcast, and distribution of our copyrighted videos are prohibited.
+Copyright © 腦洞烏托邦™️ All Rights Reserved.
+==================================
+歡迎點贊，評論和轉發 💗 💗 💗  
+┊　　┊　　┊　　┊ 
+┊　　┊　　┊　　★ 
+┊　　┊　　☆ 
+┊　　★ 
+☆
+# Xiaowu # 小烏 # ndwtb</media:description>
+   <media:community>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
+   </media:community>
+  </media:group>
+ </entry>
  <entry>
   <id>yt:video:NVJ53ixMAZw</id>
   <yt:videoId>NVJ53ixMAZw</yt:videoId>
-  <yt:channelId>UC2tQpW0dPiyWPebwBSksJ_g</yt:channelId>
+  
   <title>全球唯一可出租的國家，資金備足就能當國王</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=NVJ53ixMAZw"/>
   <author>
    <name>脑洞乌托邦</name>
    <uri>https://www.youtube.com/channel/UC2tQpW0dPiyWPebwBSksJ_g</uri>
   </author>
-  <published>2023-08-06T13:00:14+00:00</published>
-  <updated>2023-08-07T05:24:36+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>全球唯一可出租的國家，資金備足就能當國王</media:title>
    <media:content url="https://www.youtube.com/v/NVJ53ixMAZw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -44,23 +88,23 @@ Copyright © 腦洞烏托邦™️ All Rights Reserved.
 ☆
 # Xiaowu # 小烏 # ndwtb</media:description>
    <media:community>
-    <media:starRating count="794" average="5.00" min="1" max="5"/>
-    <media:statistics views="32693"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:EHoabAIiKX4</id>
   <yt:videoId>EHoabAIiKX4</yt:videoId>
-  <yt:channelId>UC2tQpW0dPiyWPebwBSksJ_g</yt:channelId>
+  
   <title>太陽即將被私有化？以後曬個太陽也要繳費了？？</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=EHoabAIiKX4"/>
   <author>
    <name>脑洞乌托邦</name>
    <uri>https://www.youtube.com/channel/UC2tQpW0dPiyWPebwBSksJ_g</uri>
   </author>
-  <published>2023-08-04T12:30:14+00:00</published>
-  <updated>2023-08-04T12:30:16+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>太陽即將被私有化？以後曬個太陽也要繳費了？？</media:title>
    <media:content url="https://www.youtube.com/v/EHoabAIiKX4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -83,23 +127,23 @@ Copyright © 腦洞烏托邦™️ All Rights Reserved.
 ☆
 # Xiaowu # 小烏 # ndwtb</media:description>
    <media:community>
-    <media:starRating count="1451" average="5.00" min="1" max="5"/>
-    <media:statistics views="59609"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:5dSHW5y80VU</id>
   <yt:videoId>5dSHW5y80VU</yt:videoId>
-  <yt:channelId>UC2tQpW0dPiyWPebwBSksJ_g</yt:channelId>
+  
   <title>貧窮的國家，養着全球最富的王！脫衣舞女當王妃，修憲、露臍、給狗封軍銜，泰國王室究竟有多魔幻？為什麼說「十世而王」的詛咒恐將應驗？ [She's Xiaowu @ndwtb]</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=5dSHW5y80VU"/>
   <author>
    <name>脑洞乌托邦</name>
    <uri>https://www.youtube.com/channel/UC2tQpW0dPiyWPebwBSksJ_g</uri>
   </author>
-  <published>2023-08-02T12:00:08+00:00</published>
-  <updated>2023-08-02T14:09:03+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>貧窮的國家，養着全球最富的王！脫衣舞女當王妃，修憲、露臍、給狗封軍銜，泰國王室究竟有多魔幻？為什麼說「十世而王」的詛咒恐將應驗？ [She's Xiaowu @ndwtb]</media:title>
    <media:content url="https://www.youtube.com/v/5dSHW5y80VU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -127,23 +171,23 @@ Copyright © 腦洞烏托邦™️ All Rights Reserved.
 ☆
 # Xiaowu # 小烏 # ndwtb</media:description>
    <media:community>
-    <media:starRating count="17540" average="5.00" min="1" max="5"/>
-    <media:statistics views="1101020"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:rNuavwnWK1g</id>
   <yt:videoId>rNuavwnWK1g</yt:videoId>
-  <yt:channelId>UC2tQpW0dPiyWPebwBSksJ_g</yt:channelId>
+  
   <title>不用任何製冷設施，將3噸冰塊從北極運到赤道，結果出乎所有人意料</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=rNuavwnWK1g"/>
   <author>
    <name>脑洞乌托邦</name>
    <uri>https://www.youtube.com/channel/UC2tQpW0dPiyWPebwBSksJ_g</uri>
   </author>
-  <published>2023-08-01T13:47:47+00:00</published>
-  <updated>2023-08-01T13:47:49+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>不用任何製冷設施，將3噸冰塊從北極運到赤道，結果出乎所有人意料</media:title>
    <media:content url="https://www.youtube.com/v/rNuavwnWK1g?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -166,23 +210,23 @@ Copyright © 腦洞烏托邦™️ All Rights Reserved.
 ☆
 # Xiaowu # 小烏 # ndwtb</media:description>
    <media:community>
-    <media:starRating count="2187" average="5.00" min="1" max="5"/>
-    <media:statistics views="102502"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:0x15um796Mw</id>
   <yt:videoId>0x15um796Mw</yt:videoId>
-  <yt:channelId>UC2tQpW0dPiyWPebwBSksJ_g</yt:channelId>
+  
   <title>1999年，全人類曾被清除記憶？！外星人襲擊事件究竟是真的嗎？</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=0x15um796Mw"/>
   <author>
    <name>脑洞乌托邦</name>
    <uri>https://www.youtube.com/channel/UC2tQpW0dPiyWPebwBSksJ_g</uri>
   </author>
-  <published>2023-07-30T13:10:04+00:00</published>
-  <updated>2023-07-31T06:15:37+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>1999年，全人類曾被清除記憶？！外星人襲擊事件究竟是真的嗎？</media:title>
    <media:content url="https://www.youtube.com/v/0x15um796Mw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -206,23 +250,23 @@ Copyright © 腦洞烏托邦™️ All Rights Reserved.
 ☆
 # Xiaowu # 小烏 # ndwtb</media:description>
    <media:community>
-    <media:starRating count="1670" average="5.00" min="1" max="5"/>
-    <media:statistics views="69150"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:9QKfm3teFFA</id>
   <yt:videoId>9QKfm3teFFA</yt:videoId>
-  <yt:channelId>UC2tQpW0dPiyWPebwBSksJ_g</yt:channelId>
+  
   <title>民國最後一位小腳女人爆出驚人真相：為何古代男人都痴迷「三寸金蓮」？纏足、束腰、染牙，這些陋習竟都是為了這一難以啟齒的目的...[She's Xiaowu @ndwtb]</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=9QKfm3teFFA"/>
   <author>
    <name>脑洞乌托邦</name>
    <uri>https://www.youtube.com/channel/UC2tQpW0dPiyWPebwBSksJ_g</uri>
   </author>
-  <published>2023-07-28T12:30:06+00:00</published>
-  <updated>2023-07-28T13:35:48+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>民國最後一位小腳女人爆出驚人真相：為何古代男人都痴迷「三寸金蓮」？纏足、束腰、染牙，這些陋習竟都是為了這一難以啟齒的目的...[She's Xiaowu @ndwtb]</media:title>
    <media:content url="https://www.youtube.com/v/9QKfm3teFFA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -248,23 +292,23 @@ Copyright © 腦洞烏托邦™️ All Rights Reserved.
 ☆
 # Xiaowu # 小烏 # ndwtb</media:description>
    <media:community>
-    <media:starRating count="15987" average="5.00" min="1" max="5"/>
-    <media:statistics views="683844"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:WDbPGwfzjNg</id>
   <yt:videoId>WDbPGwfzjNg</yt:videoId>
-  <yt:channelId>UC2tQpW0dPiyWPebwBSksJ_g</yt:channelId>
+  
   <title>為探究人類社會的真相，女科學家獨居洞穴500天，結果出乎所有人意料…</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=WDbPGwfzjNg"/>
   <author>
    <name>脑洞乌托邦</name>
    <uri>https://www.youtube.com/channel/UC2tQpW0dPiyWPebwBSksJ_g</uri>
   </author>
-  <published>2023-07-25T12:00:18+00:00</published>
-  <updated>2023-07-31T04:52:13+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>為探究人類社會的真相，女科學家獨居洞穴500天，結果出乎所有人意料…</media:title>
    <media:content url="https://www.youtube.com/v/WDbPGwfzjNg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -287,23 +331,23 @@ Copyright © 腦洞烏托邦™️ All Rights Reserved.
 ☆
 # Xiaowu # 小烏 # ndwtb</media:description>
    <media:community>
-    <media:starRating count="4683" average="5.00" min="1" max="5"/>
-    <media:statistics views="220275"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:x_6CDnaqiVs</id>
   <yt:videoId>x_6CDnaqiVs</yt:videoId>
-  <yt:channelId>UC2tQpW0dPiyWPebwBSksJ_g</yt:channelId>
+  
   <title>全球最不宜居的國家！人人都是億萬富翁，卻痛苦不堪！津巴布韋究竟發生了什麼？貨幣史上的奇觀，奇葩政策是如何毀掉一個國家的？[She's Xiaowu @ndwtb]</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=x_6CDnaqiVs"/>
   <author>
    <name>脑洞乌托邦</name>
    <uri>https://www.youtube.com/channel/UC2tQpW0dPiyWPebwBSksJ_g</uri>
   </author>
-  <published>2023-07-23T12:00:56+00:00</published>
-  <updated>2023-07-27T14:14:12+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>全球最不宜居的國家！人人都是億萬富翁，卻痛苦不堪！津巴布韋究竟發生了什麼？貨幣史上的奇觀，奇葩政策是如何毀掉一個國家的？[She's Xiaowu @ndwtb]</media:title>
    <media:content url="https://www.youtube.com/v/x_6CDnaqiVs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -333,23 +377,23 @@ Copyright © 腦洞烏托邦™️ All Rights Reserved.
 ☆
 # Xiaowu # 小烏 # ndwtb</media:description>
    <media:community>
-    <media:starRating count="15078" average="5.00" min="1" max="5"/>
-    <media:statistics views="812030"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:KtPiRFn1nkA</id>
   <yt:videoId>KtPiRFn1nkA</yt:videoId>
-  <yt:channelId>UC2tQpW0dPiyWPebwBSksJ_g</yt:channelId>
+  
   <title>大熊貓卸了妝是什麼樣的？網友驚呼：這也太萌了吧！</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=KtPiRFn1nkA"/>
   <author>
    <name>脑洞乌托邦</name>
    <uri>https://www.youtube.com/channel/UC2tQpW0dPiyWPebwBSksJ_g</uri>
   </author>
-  <published>2023-07-21T12:30:16+00:00</published>
-  <updated>2023-07-21T12:30:21+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>大熊貓卸了妝是什麼樣的？網友驚呼：這也太萌了吧！</media:title>
    <media:content url="https://www.youtube.com/v/KtPiRFn1nkA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -373,23 +417,23 @@ Copyright © 腦洞烏托邦™️ All Rights Reserved.
 ☆
 # Xiaowu # 小烏 # ndwtb</media:description>
    <media:community>
-    <media:starRating count="1939" average="5.00" min="1" max="5"/>
-    <media:statistics views="64558"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:td3ZpLMsO24</id>
   <yt:videoId>td3ZpLMsO24</yt:videoId>
-  <yt:channelId>UC2tQpW0dPiyWPebwBSksJ_g</yt:channelId>
+  
   <title>日本博主圖便宜租下凶宅，入住後怪事不斷！用攝像機記錄生活，沒想到竟拍下了…?! [She's Xiaowu @ndwtb]</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=td3ZpLMsO24"/>
   <author>
    <name>脑洞乌托邦</name>
    <uri>https://www.youtube.com/channel/UC2tQpW0dPiyWPebwBSksJ_g</uri>
   </author>
-  <published>2023-07-18T12:30:34+00:00</published>
-  <updated>2023-07-18T12:30:35+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>日本博主圖便宜租下凶宅，入住後怪事不斷！用攝像機記錄生活，沒想到竟拍下了…?! [She's Xiaowu @ndwtb]</media:title>
    <media:content url="https://www.youtube.com/v/td3ZpLMsO24?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -415,23 +459,23 @@ Copyright © 腦洞烏托邦™️ All Rights Reserved.
 ☆
 # Xiaowu # 小烏 # ndwtb</media:description>
    <media:community>
-    <media:starRating count="16334" average="5.00" min="1" max="5"/>
-    <media:statistics views="867867"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:WNfMoNMklwg</id>
   <yt:videoId>WNfMoNMklwg</yt:videoId>
-  <yt:channelId>UC2tQpW0dPiyWPebwBSksJ_g</yt:channelId>
+  
   <title>巴黎即將被老鼠佔領？200萬居民打不過600萬老鼠！市長徹底擺爛…</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=WNfMoNMklwg"/>
   <author>
    <name>脑洞乌托邦</name>
    <uri>https://www.youtube.com/channel/UC2tQpW0dPiyWPebwBSksJ_g</uri>
   </author>
-  <published>2023-07-16T12:30:11+00:00</published>
-  <updated>2023-07-22T05:23:13+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>巴黎即將被老鼠佔領？200萬居民打不過600萬老鼠！市長徹底擺爛…</media:title>
    <media:content url="https://www.youtube.com/v/WNfMoNMklwg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -455,23 +499,23 @@ Copyright © 腦洞烏托邦™️ All Rights Reserved.
 ☆
 # Xiaowu # 小烏 # ndwtb</media:description>
    <media:community>
-    <media:starRating count="6464" average="5.00" min="1" max="5"/>
-    <media:statistics views="388902"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:-9Oub9Dm53A</id>
   <yt:videoId>-9Oub9Dm53A</yt:videoId>
-  <yt:channelId>UC2tQpW0dPiyWPebwBSksJ_g</yt:channelId>
+  
   <title>李玟留下的最後音頻曝光！究竟什麼是壓垮她的最後一根稻草？4年前的演唱會上曾哭着說過這樣一句話「…」，原來一切早有端倪！[She's Xiaowu @ndwtb]</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=-9Oub9Dm53A"/>
   <author>
    <name>脑洞乌托邦</name>
    <uri>https://www.youtube.com/channel/UC2tQpW0dPiyWPebwBSksJ_g</uri>
   </author>
-  <published>2023-07-13T12:00:00+00:00</published>
-  <updated>2023-07-14T06:09:22+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>李玟留下的最後音頻曝光！究竟什麼是壓垮她的最後一根稻草？4年前的演唱會上曾哭着說過這樣一句話「…」，原來一切早有端倪！[She's Xiaowu @ndwtb]</media:title>
    <media:content url="https://www.youtube.com/v/-9Oub9Dm53A?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -500,23 +544,23 @@ Copyright © 腦洞烏托邦™️ All Rights Reserved.
 ☆
 # Xiaowu # 小烏 # ndwtb</media:description>
    <media:community>
-    <media:starRating count="17988" average="5.00" min="1" max="5"/>
-    <media:statistics views="992462"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:12YNMuh2yD8</id>
   <yt:videoId>12YNMuh2yD8</yt:videoId>
-  <yt:channelId>UC2tQpW0dPiyWPebwBSksJ_g</yt:channelId>
+  
   <title>馬斯克與美女機器人親密畫面被瘋傳，背後的真相竟然是…?</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=12YNMuh2yD8"/>
   <author>
    <name>脑洞乌托邦</name>
    <uri>https://www.youtube.com/channel/UC2tQpW0dPiyWPebwBSksJ_g</uri>
   </author>
-  <published>2023-07-11T13:00:01+00:00</published>
-  <updated>2023-07-11T13:00:03+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>馬斯克與美女機器人親密畫面被瘋傳，背後的真相竟然是…?</media:title>
    <media:content url="https://www.youtube.com/v/12YNMuh2yD8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -540,23 +584,23 @@ Copyright © 腦洞烏托邦™️ All Rights Reserved.
 ☆
 # Xiaowu # 小烏 # ndwtb</media:description>
    <media:community>
-    <media:starRating count="1082" average="5.00" min="1" max="5"/>
-    <media:statistics views="58506"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:hb1HzXyuO_g</id>
   <yt:videoId>hb1HzXyuO_g</yt:videoId>
-  <yt:channelId>UC2tQpW0dPiyWPebwBSksJ_g</yt:channelId>
+  
   <title>日本“不正經”養老院火了！每天早上派專車接老人去做這件事？！</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=hb1HzXyuO_g"/>
   <author>
    <name>脑洞乌托邦</name>
    <uri>https://www.youtube.com/channel/UC2tQpW0dPiyWPebwBSksJ_g</uri>
   </author>
-  <published>2023-07-08T13:00:24+00:00</published>
-  <updated>2023-07-08T13:00:27+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>日本“不正經”養老院火了！每天早上派專車接老人去做這件事？！</media:title>
    <media:content url="https://www.youtube.com/v/hb1HzXyuO_g?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -580,51 +624,8 @@ Copyright © 腦洞烏托邦™️ All Rights Reserved.
 ☆
 # Xiaowu # 小烏 # ndwtb</media:description>
    <media:community>
-    <media:starRating count="3174" average="5.00" min="1" max="5"/>
-    <media:statistics views="121416"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:v3BhFYRVVNQ</id>
-  <yt:videoId>v3BhFYRVVNQ</yt:videoId>
-  <yt:channelId>UC2tQpW0dPiyWPebwBSksJ_g</yt:channelId>
-  <title>屢次遭封殺，內幕太震驚！曾大膽揭露演藝圈最骯髒潛規則，如今毒舌變啞巴，金星到底得罪了誰？[She's Xiaowu @ndwtb]</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=v3BhFYRVVNQ"/>
-  <author>
-   <name>脑洞乌托邦</name>
-   <uri>https://www.youtube.com/channel/UC2tQpW0dPiyWPebwBSksJ_g</uri>
-  </author>
-  <published>2023-07-06T12:00:46+00:00</published>
-  <updated>2023-07-10T01:25:01+00:00</updated>
-  <media:group>
-   <media:title>屢次遭封殺，內幕太震驚！曾大膽揭露演藝圈最骯髒潛規則，如今毒舌變啞巴，金星到底得罪了誰？[She's Xiaowu @ndwtb]</media:title>
-   <media:content url="https://www.youtube.com/v/v3BhFYRVVNQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/v3BhFYRVVNQ/hqdefault.jpg" width="480" height="360"/>
-   <media:description>😚 請訂閱 https://goo.gl/B3gKwP 
-Ⓜ️ 腦洞烏托邦 VIP Membership https://www.youtube.com/channel/UC2tQpW0dPiyWPebwBSksJ_g/join
-♾️ 國內觀眾會員購買渠道 https://afdian.net/@ndwtb
-==================================
-🔔 Credit
-브금대통령 | You Are Fallen https://youtu.be/1zMu5dhb7V0
-브금대통령 | Circle of Insomniac https://youtu.be/SxSpo4elgcw
-Myuu | Versunken https://www.youtube.com/watch?v=s6zTUahbfDE
-Myuu | Remnants https://www.youtube.com/watch?v=Cemu_h_kt1s
-LEMMiNO | Encounters | https://soundcloud.com/lemmino/encounters
-==================================
-Re-production, re-upload, re-broadcast, and distribution of our copyrighted videos are prohibited.
-Copyright © 腦洞烏托邦™️ All Rights Reserved.
-==================================
-歡迎點贊，評論和轉發 💗 💗 💗  
-┊　　┊　　┊　　┊ 
-┊　　┊　　┊　　★ 
-┊　　┊　　☆ 
-┊　　★ 
-☆
-# Xiaowu # 小烏 # ndwtb</media:description>
-   <media:community>
-    <media:starRating count="24682" average="5.00" min="1" max="5"/>
-    <media:statistics views="1209450"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>

@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
  <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCMUnInmOkrWN4gof9KlhNmQ"/>
- <id>yt:channel:</id>
- <yt:channelId></yt:channelId>
+ 
+ 
  <title>老高與小茉 Mr &amp; Mrs Gao</title>
  <link rel="alternate" href="https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ"/>
  <author>
   <name>老高與小茉 Mr &amp; Mrs Gao</name>
   <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
  </author>
- <published>2014-11-18T04:25:23+00:00</published>
+ <published></published>
  <entry>
   <id>yt:video:JafOaCcVC_E</id>
   <yt:videoId>JafOaCcVC_E</yt:videoId>
-  <yt:channelId>UCMUnInmOkrWN4gof9KlhNmQ</yt:channelId>
+  
   <title>【震撼】和目前為止幾乎所有影片都有關係的一期 | 老高與小茉 Mr &amp; Mrs Gao</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=JafOaCcVC_E"/>
   <author>
    <name>老高與小茉 Mr &amp; Mrs Gao</name>
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
-  <published>2023-08-02T13:00:10+00:00</published>
-  <updated>2023-08-04T07:24:32+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>【震撼】和目前為止幾乎所有影片都有關係的一期 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/JafOaCcVC_E?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -255,23 +255,23 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="56388" average="5.00" min="1" max="5"/>
-    <media:statistics views="2804630"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:Y7QGIBQZ3Rk</id>
   <yt:videoId>Y7QGIBQZ3Rk</yt:videoId>
-  <yt:channelId>UCMUnInmOkrWN4gof9KlhNmQ</yt:channelId>
+  
   <title>【震撼】活著看到天堂的方法 ，需要反覆體會的一期 | 老高與小茉 Mr &amp; Mrs Gao</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=Y7QGIBQZ3Rk"/>
   <author>
    <name>老高與小茉 Mr &amp; Mrs Gao</name>
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
-  <published>2023-07-26T13:00:18+00:00</published>
-  <updated>2023-07-27T06:23:03+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>【震撼】活著看到天堂的方法 ，需要反覆體會的一期 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/Y7QGIBQZ3Rk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -505,23 +505,23 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="59262" average="5.00" min="1" max="5"/>
-    <media:statistics views="2812813"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:sNE2sHjg-XU</id>
   <yt:videoId>sNE2sHjg-XU</yt:videoId>
-  <yt:channelId>UCMUnInmOkrWN4gof9KlhNmQ</yt:channelId>
+  
   <title>【已經誕生】能夠自我繁殖的生命機器人 | 老高與小茉 Mr &amp; Mrs Gao</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=sNE2sHjg-XU"/>
   <author>
    <name>老高與小茉 Mr &amp; Mrs Gao</name>
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
-  <published>2023-07-19T12:16:09+00:00</published>
-  <updated>2023-07-28T04:08:42+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>【已經誕生】能夠自我繁殖的生命機器人 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/sNE2sHjg-XU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -755,23 +755,23 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="41198" average="5.00" min="1" max="5"/>
-    <media:statistics views="2280901"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:KpfDLz9Y33s</id>
   <yt:videoId>KpfDLz9Y33s</yt:videoId>
-  <yt:channelId>UCMUnInmOkrWN4gof9KlhNmQ</yt:channelId>
+  
   <title>【震撼】這個話題的原始資料在網上都已經被刪除了，所以這部影片也可能隨時下架 | 老高與小茉 Mr &amp; Mrs Gao</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=KpfDLz9Y33s"/>
   <author>
    <name>老高與小茉 Mr &amp; Mrs Gao</name>
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
-  <published>2023-07-12T13:12:10+00:00</published>
-  <updated>2023-07-14T05:23:37+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>【震撼】這個話題的原始資料在網上都已經被刪除了，所以這部影片也可能隨時下架 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/KpfDLz9Y33s?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -1005,23 +1005,23 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="59764" average="5.00" min="1" max="5"/>
-    <media:statistics views="3480299"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:nU9TUouN3W4</id>
   <yt:videoId>nU9TUouN3W4</yt:videoId>
-  <yt:channelId>UCMUnInmOkrWN4gof9KlhNmQ</yt:channelId>
+  
   <title>光，太神奇 | 老高與小茉 Mr &amp; Mrs Gao</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=nU9TUouN3W4"/>
   <author>
    <name>老高與小茉 Mr &amp; Mrs Gao</name>
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
-  <published>2023-07-05T13:45:08+00:00</published>
-  <updated>2023-07-20T16:28:56+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>光，太神奇 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/nU9TUouN3W4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -1255,23 +1255,23 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="48778" average="5.00" min="1" max="5"/>
-    <media:statistics views="2853025"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:yOs0Ihe9uOo</id>
   <yt:videoId>yOs0Ihe9uOo</yt:videoId>
-  <yt:channelId>UCMUnInmOkrWN4gof9KlhNmQ</yt:channelId>
+  
   <title>五十年的實驗意外證明，人類其實是一種家畜 | 老高與小茉 Mr &amp; Mrs Gao</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=yOs0Ihe9uOo"/>
   <author>
    <name>老高與小茉 Mr &amp; Mrs Gao</name>
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
-  <published>2023-06-28T12:58:07+00:00</published>
-  <updated>2023-06-29T06:16:04+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>五十年的實驗意外證明，人類其實是一種家畜 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/yOs0Ihe9uOo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -1505,23 +1505,23 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="55917" average="5.00" min="1" max="5"/>
-    <media:statistics views="2874053"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:QkzQVG3yxvY</id>
   <yt:videoId>QkzQVG3yxvY</yt:videoId>
-  <yt:channelId>UCMUnInmOkrWN4gof9KlhNmQ</yt:channelId>
+  
   <title>三大超能力：飛行，變態，休眠 | 老高與小茉 Mr &amp; Mrs Gao</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=QkzQVG3yxvY"/>
   <author>
    <name>老高與小茉 Mr &amp; Mrs Gao</name>
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
-  <published>2023-06-21T13:30:07+00:00</published>
-  <updated>2023-07-20T16:37:00+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>三大超能力：飛行，變態，休眠 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/QkzQVG3yxvY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -1755,23 +1755,23 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="47684" average="5.00" min="1" max="5"/>
-    <media:statistics views="2909231"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:_4phafehhy8</id>
   <yt:videoId>_4phafehhy8</yt:videoId>
-  <yt:channelId>UCMUnInmOkrWN4gof9KlhNmQ</yt:channelId>
+  
   <title>90% | 老高與小茉 Mr &amp; Mrs Gao</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=_4phafehhy8"/>
   <author>
    <name>老高與小茉 Mr &amp; Mrs Gao</name>
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
-  <published>2023-06-14T13:39:08+00:00</published>
-  <updated>2023-06-26T09:17:34+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>90% | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/_4phafehhy8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -2005,23 +2005,23 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="59331" average="5.00" min="1" max="5"/>
-    <media:statistics views="3576144"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:bakdHQay7Ck</id>
   <yt:videoId>bakdHQay7Ck</yt:videoId>
-  <yt:channelId>UCMUnInmOkrWN4gof9KlhNmQ</yt:channelId>
+  
   <title>天網，人類真正面臨的武力威脅 | 老高與小茉 Mr &amp; Mrs Gao</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=bakdHQay7Ck"/>
   <author>
    <name>老高與小茉 Mr &amp; Mrs Gao</name>
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
-  <published>2023-06-07T13:07:08+00:00</published>
-  <updated>2023-07-28T03:27:57+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>天網，人類真正面臨的武力威脅 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/bakdHQay7Ck?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -2255,23 +2255,23 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="53713" average="5.00" min="1" max="5"/>
-    <media:statistics views="3107363"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:NnzxbM7rX3M</id>
   <yt:videoId>NnzxbM7rX3M</yt:videoId>
-  <yt:channelId>UCMUnInmOkrWN4gof9KlhNmQ</yt:channelId>
+  
   <title>真正的妖怪 | 老高與小茉 Mr &amp; Mrs Gao</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=NnzxbM7rX3M"/>
   <author>
    <name>老高與小茉 Mr &amp; Mrs Gao</name>
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
-  <published>2023-05-31T13:28:10+00:00</published>
-  <updated>2023-06-10T06:51:41+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>真正的妖怪 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/NnzxbM7rX3M?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -2505,23 +2505,23 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="67583" average="5.00" min="1" max="5"/>
-    <media:statistics views="4306540"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:dakyAT38n9w</id>
   <yt:videoId>dakyAT38n9w</yt:videoId>
-  <yt:channelId>UCMUnInmOkrWN4gof9KlhNmQ</yt:channelId>
+  
   <title>【講到流淚】四十分鐘講完這部最熱血的漫畫 | 老高與小茉 Mr &amp; Mrs Gao</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=dakyAT38n9w"/>
   <author>
    <name>老高與小茉 Mr &amp; Mrs Gao</name>
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
-  <published>2023-05-24T14:05:10+00:00</published>
-  <updated>2023-06-23T15:21:50+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>【講到流淚】四十分鐘講完這部最熱血的漫畫 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/dakyAT38n9w?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -2749,23 +2749,23 @@ https://www.youtube.com/watch?v=Ttus8XGK6Xw
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="96462" average="5.00" min="1" max="5"/>
-    <media:statistics views="4379818"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:OhXciGoMAcs</id>
   <yt:videoId>OhXciGoMAcs</yt:videoId>
-  <yt:channelId>UCMUnInmOkrWN4gof9KlhNmQ</yt:channelId>
+  
   <title>【震撼】三十七分鐘講完一段被隱藏的宇宙歷史，超出你想像的《竹內文書》 | 老高與小茉 Mr &amp; Mrs Gao</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=OhXciGoMAcs"/>
   <author>
    <name>老高與小茉 Mr &amp; Mrs Gao</name>
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
-  <published>2023-05-17T12:10:09+00:00</published>
-  <updated>2023-07-09T04:40:17+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>【震撼】三十七分鐘講完一段被隱藏的宇宙歷史，超出你想像的《竹內文書》 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/OhXciGoMAcs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -2995,23 +2995,23 @@ https://www.youtube.com/watch?v=Ttus8XGK6Xw
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="56461" average="5.00" min="1" max="5"/>
-    <media:statistics views="3564426"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:D9j1H49ap7s</id>
   <yt:videoId>D9j1H49ap7s</yt:videoId>
-  <yt:channelId>UCMUnInmOkrWN4gof9KlhNmQ</yt:channelId>
+  
   <title>真鬼魂直接為你解答死後世界的謎團，為什麼有的人可以看到鬼魂，鬼壓床又是怎麼回事，鬼魂為什麼多集中在隧道和水畔旁 | 老高與小茉 Mr &amp; Mrs Gao</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=D9j1H49ap7s"/>
   <author>
    <name>老高與小茉 Mr &amp; Mrs Gao</name>
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
-  <published>2023-05-10T14:14:12+00:00</published>
-  <updated>2023-06-11T07:33:51+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>真鬼魂直接為你解答死後世界的謎團，為什麼有的人可以看到鬼魂，鬼壓床又是怎麼回事，鬼魂為什麼多集中在隧道和水畔旁 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/D9j1H49ap7s?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -3245,23 +3245,23 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="78147" average="5.00" min="1" max="5"/>
-    <media:statistics views="4142895"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:jFQPvAHwVK0</id>
   <yt:videoId>jFQPvAHwVK0</yt:videoId>
-  <yt:channelId>UCMUnInmOkrWN4gof9KlhNmQ</yt:channelId>
+  
   <title>比目前已知最古老的人類文明還早一萬年，他們為何不停用泥土造人，究竟如何來到這裡 | 老高與小茉 Mr &amp; Mrs Gao</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=jFQPvAHwVK0"/>
   <author>
    <name>老高與小茉 Mr &amp; Mrs Gao</name>
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
-  <published>2023-05-03T13:54:08+00:00</published>
-  <updated>2023-06-12T13:36:27+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>比目前已知最古老的人類文明還早一萬年，他們為何不停用泥土造人，究竟如何來到這裡 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/jFQPvAHwVK0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -3495,23 +3495,23 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="52558" average="5.00" min="1" max="5"/>
-    <media:statistics views="3473169"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:jXcuLBI8QMc</id>
   <yt:videoId>jXcuLBI8QMc</yt:videoId>
-  <yt:channelId>UCMUnInmOkrWN4gof9KlhNmQ</yt:channelId>
+  
   <title>宇宙中可能存在的另一種生命體 | 老高與小茉 Mr &amp; Mrs Gao</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=jXcuLBI8QMc"/>
   <author>
    <name>老高與小茉 Mr &amp; Mrs Gao</name>
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
-  <published>2023-04-26T13:45:09+00:00</published>
-  <updated>2023-07-28T04:53:27+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>宇宙中可能存在的另一種生命體 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/jXcuLBI8QMc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -3745,8 +3745,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="60790" average="5.00" min="1" max="5"/>
-    <media:statistics views="3296677"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>

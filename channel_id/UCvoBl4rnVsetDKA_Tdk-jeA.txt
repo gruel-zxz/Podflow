@@ -1,27 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
  <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCvoBl4rnVsetDKA_Tdk-jeA"/>
- <id>yt:channel:</id>
- <yt:channelId></yt:channelId>
+ 
+ 
  <title>曉涵哥來了</title>
  <link rel="alternate" href="https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA"/>
  <author>
   <name>曉涵哥來了</name>
   <uri>https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA</uri>
  </author>
- <published>2016-10-27T05:36:30+00:00</published>
+ <published></published>
+ <entry>
+  <id>yt:video:ff6ejNgxbjE</id>
+  <yt:videoId>ff6ejNgxbjE</yt:videoId>
+  
+  <title>這竟是真實發生，保密單位的工人成功盜取原子彈部件，動機令人意想不到！「曉涵哥來了」</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=ff6ejNgxbjE"/>
+  <author>
+   <name>曉涵哥來了</name>
+   <uri>https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA</uri>
+  </author>
+  <published></published>
+  <updated></updated>
+  <media:group>
+   <media:title>這竟是真實發生，保密單位的工人成功盜取原子彈部件，動機令人意想不到！「曉涵哥來了」</media:title>
+   <media:content url="https://www.youtube.com/v/ff6ejNgxbjE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/ff6ejNgxbjE/hqdefault.jpg" width="480" height="360"/>
+   <media:description>今天聊聊906工廠：保密單位的工人為何要偷取原子彈補件，他又是如何偷取成功的？
+
+👀👀  我的這些影片或許你也有興趣 👇👇
+
+史上最奇葩國家👇
+https://youtu.be/xrk7qPj8yts
+
+科馬洛夫👇
+https://youtu.be/NkuNPdxveiY
+
+人猿混血部隊👇
+https://youtu.be/tJYVzo8tS1o
+--------------------------------------------------------------------------------------------
+🔥  這些影片在頻道最受歡迎 👇👇
+
+朝鮮神秘飯店👇
+https://youtu.be/cVlAxL2CXYg
+
+大和號戰艦👇
+https://youtu.be/AdxYuP1qbMY
+
+秦始皇陵👇
+https://youtu.be/BGxr6AS-6-o
+
+宇宙7級文明👇
+https://youtu.be/MTCrzBVNJjc
+
+邁克爾傑克遜的另一面👇
+https://youtu.be/p7W75SHpL9E
+
+野獸專車👇
+https://youtu.be/ACmijk6deMA
+
+日本啃老族👇
+https://youtu.be/nCFLqt71dKs
+
+--------------------------------------------------------------------------------------
+「探索地球，發現宇宙。
+我是曉涵哥，歡迎和我一起，做這世界的探尋者。」
+點擊下方訂閱👇👇👇
+https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA
+我的FB也開通了！歡迎大家關注，在這裡我會分享一些不一樣的生活碎片：https://www.facebook.com/xiaohange888
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+#曉涵哥來了 #education #knowledge #906工厂</media:description>
+   <media:community>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
+   </media:community>
+  </media:group>
+ </entry>
  <entry>
   <id>yt:video:dPL8gRBU8Jg</id>
   <yt:videoId>dPL8gRBU8Jg</yt:videoId>
-  <yt:channelId>UCvoBl4rnVsetDKA_Tdk-jeA</yt:channelId>
+  
   <title>真實恐怖事件：潛水員遇見深埋水下270米的遇難者，打撈時竟遇到意外「曉涵哥來了」</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=dPL8gRBU8Jg"/>
   <author>
    <name>曉涵哥來了</name>
    <uri>https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA</uri>
   </author>
-  <published>2023-07-31T11:00:25+00:00</published>
-  <updated>2023-08-03T20:28:06+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>真實恐怖事件：潛水員遇見深埋水下270米的遇難者，打撈時竟遇到意外「曉涵哥來了」</media:title>
    <media:content url="https://www.youtube.com/v/dPL8gRBU8Jg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -72,23 +139,23 @@ https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA
 --------------------------------------------------------------------------------------
 #曉涵哥來了 #education #knowledge #恐怖故事 #潛水員 #潛水員戴夫</media:description>
    <media:community>
-    <media:starRating count="7545" average="5.00" min="1" max="5"/>
-    <media:statistics views="258733"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:GMbWLCNrh9s</id>
   <yt:videoId>GMbWLCNrh9s</yt:videoId>
-  <yt:channelId>UCvoBl4rnVsetDKA_Tdk-jeA</yt:channelId>
+  
   <title>上世紀最大的核墜落事件，神秘物體攜帶核反應堆砸向地球，殘骸至今未找到「曉涵哥來了」</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=GMbWLCNrh9s"/>
   <author>
    <name>曉涵哥來了</name>
    <uri>https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA</uri>
   </author>
-  <published>2023-07-20T12:00:10+00:00</published>
-  <updated>2023-07-20T12:00:11+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>上世紀最大的核墜落事件，神秘物體攜帶核反應堆砸向地球，殘骸至今未找到「曉涵哥來了」</media:title>
    <media:content url="https://www.youtube.com/v/GMbWLCNrh9s?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -137,23 +204,23 @@ https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA
 --------------------------------------------------------------------------------------
 #曉涵哥來了 #education #knowledge</media:description>
    <media:community>
-    <media:starRating count="5969" average="5.00" min="1" max="5"/>
-    <media:statistics views="223117"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:GHQtoghl_Hs</id>
   <yt:videoId>GHQtoghl_Hs</yt:videoId>
-  <yt:channelId>UCvoBl4rnVsetDKA_Tdk-jeA</yt:channelId>
+  
   <title>恐怖的泰坦號事件，5名富豪被瞬間壓扁，背後的真實原因曝光「曉涵哥來了」</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=GHQtoghl_Hs"/>
   <author>
    <name>曉涵哥來了</name>
    <uri>https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA</uri>
   </author>
-  <published>2023-07-13T12:00:10+00:00</published>
-  <updated>2023-07-14T06:29:42+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>恐怖的泰坦號事件，5名富豪被瞬間壓扁，背後的真實原因曝光「曉涵哥來了」</media:title>
    <media:content url="https://www.youtube.com/v/GHQtoghl_Hs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -202,23 +269,23 @@ https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA
 --------------------------------------------------------------------------------------
 #曉涵哥來了 #education #knowledge</media:description>
    <media:community>
-    <media:starRating count="7997" average="5.00" min="1" max="5"/>
-    <media:statistics views="329085"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:BFp-Q2ShV6U</id>
   <yt:videoId>BFp-Q2ShV6U</yt:videoId>
-  <yt:channelId>UCvoBl4rnVsetDKA_Tdk-jeA</yt:channelId>
+  
   <title>美國前情報官爆料UFO和外星人，測謊專家分析真假，結尾意外「曉涵哥來了」</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=BFp-Q2ShV6U"/>
   <author>
    <name>曉涵哥來了</name>
    <uri>https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA</uri>
   </author>
-  <published>2023-06-26T13:03:38+00:00</published>
-  <updated>2023-06-27T06:42:29+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>美國前情報官爆料UFO和外星人，測謊專家分析真假，結尾意外「曉涵哥來了」</media:title>
    <media:content url="https://www.youtube.com/v/BFp-Q2ShV6U?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -267,23 +334,23 @@ https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA
 --------------------------------------------------------------------------------------
 #曉涵哥來了 #education #knowledge #UFO #education</media:description>
    <media:community>
-    <media:starRating count="6523" average="5.00" min="1" max="5"/>
-    <media:statistics views="252378"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:eV9VK6Yvc04</id>
   <yt:videoId>eV9VK6Yvc04</yt:videoId>
-  <yt:channelId>UCvoBl4rnVsetDKA_Tdk-jeA</yt:channelId>
+  
   <title>解密蘇聯絕密“富士山計劃”，超級炸彈比原子彈還可怕「曉涵哥來了」</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=eV9VK6Yvc04"/>
   <author>
    <name>曉涵哥來了</name>
    <uri>https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA</uri>
   </author>
-  <published>2023-06-09T14:30:33+00:00</published>
-  <updated>2023-06-20T08:07:58+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>解密蘇聯絕密“富士山計劃”，超級炸彈比原子彈還可怕「曉涵哥來了」</media:title>
    <media:content url="https://www.youtube.com/v/eV9VK6Yvc04?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -335,23 +402,23 @@ https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA
 --------------------------------------------------------------------------------------
 #曉涵哥來了 #education #knowledge #日本 #Japan #富士山計劃</media:description>
    <media:community>
-    <media:starRating count="6355" average="5.00" min="1" max="5"/>
-    <media:statistics views="283181"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:Mu4VLEgkzzQ</id>
   <yt:videoId>Mu4VLEgkzzQ</yt:videoId>
-  <yt:channelId>UCvoBl4rnVsetDKA_Tdk-jeA</yt:channelId>
+  
   <title>世界最擁擠小島，1000人挤满不到半个足球場的地方，谁都不愿意搬走「曉涵哥來了」</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=Mu4VLEgkzzQ"/>
   <author>
    <name>曉涵哥來了</name>
    <uri>https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA</uri>
   </author>
-  <published>2023-06-05T12:00:27+00:00</published>
-  <updated>2023-07-03T19:20:11+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>世界最擁擠小島，1000人挤满不到半个足球場的地方，谁都不愿意搬走「曉涵哥來了」</media:title>
    <media:content url="https://www.youtube.com/v/Mu4VLEgkzzQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -409,23 +476,23 @@ https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA
 --------------------------------------------------------------------------------------
 #曉涵哥來了 #education #knowledge #非洲 #最擁擠的小島 #Emma床墊 #喚醒最好的自己 #emma床墊100日試睡#德國Emma</media:description>
    <media:community>
-    <media:starRating count="6051" average="5.00" min="1" max="5"/>
-    <media:statistics views="259700"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:zA3AjHEbfy0</id>
   <yt:videoId>zA3AjHEbfy0</yt:videoId>
-  <yt:channelId>UCvoBl4rnVsetDKA_Tdk-jeA</yt:channelId>
+  
   <title>慈禧的御前女官爆料慈禧的私密生活，對於光緒的態度，和清宮秘聞「曉涵哥來了」</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=zA3AjHEbfy0"/>
   <author>
    <name>曉涵哥來了</name>
    <uri>https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA</uri>
   </author>
-  <published>2023-05-20T14:00:30+00:00</published>
-  <updated>2023-06-12T18:29:55+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>慈禧的御前女官爆料慈禧的私密生活，對於光緒的態度，和清宮秘聞「曉涵哥來了」</media:title>
    <media:content url="https://www.youtube.com/v/zA3AjHEbfy0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -476,23 +543,23 @@ https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA
 --------------------------------------------------------------------------------------
 #曉涵哥來了 #education #knowledge #慈禧 #裕德齡</media:description>
    <media:community>
-    <media:starRating count="7107" average="5.00" min="1" max="5"/>
-    <media:statistics views="499373"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:KwhAtY6JDwI</id>
   <yt:videoId>KwhAtY6JDwI</yt:videoId>
-  <yt:channelId>UCvoBl4rnVsetDKA_Tdk-jeA</yt:channelId>
+  
   <title>二戰中率先研究原子彈的德國，為何沒有成功？歷史倒流，德國研發出原子彈會給戰場帶來何種變化？「曉涵哥來了」</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=KwhAtY6JDwI"/>
   <author>
    <name>曉涵哥來了</name>
    <uri>https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA</uri>
   </author>
-  <published>2023-05-02T12:23:12+00:00</published>
-  <updated>2023-06-10T19:43:45+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>二戰中率先研究原子彈的德國，為何沒有成功？歷史倒流，德國研發出原子彈會給戰場帶來何種變化？「曉涵哥來了」</media:title>
    <media:content url="https://www.youtube.com/v/KwhAtY6JDwI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -543,23 +610,23 @@ https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA
 --------------------------------------------------------------------------------------
 #曉涵哥來了 #education #knowledge #二戰 #德國 #希特勒 #原子彈</media:description>
    <media:community>
-    <media:starRating count="6749" average="5.00" min="1" max="5"/>
-    <media:statistics views="327333"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:aQmQi35LvmI</id>
   <yt:videoId>aQmQi35LvmI</yt:videoId>
-  <yt:channelId>UCvoBl4rnVsetDKA_Tdk-jeA</yt:channelId>
+  
   <title>目前最歡快的一期節目……2023最新印度閱兵，飛人摩托輪番上陣，場面相當炸裂！「曉涵哥來了」</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=aQmQi35LvmI"/>
   <author>
    <name>曉涵哥來了</name>
    <uri>https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA</uri>
   </author>
-  <published>2023-04-19T13:04:56+00:00</published>
-  <updated>2023-07-23T02:59:48+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>目前最歡快的一期節目……2023最新印度閱兵，飛人摩托輪番上陣，場面相當炸裂！「曉涵哥來了」</media:title>
    <media:content url="https://www.youtube.com/v/aQmQi35LvmI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -610,23 +677,23 @@ https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA
 --------------------------------------------------------------------------------------
 #曉涵哥來了 #education #knowledge #印度 #閱兵儀式</media:description>
    <media:community>
-    <media:starRating count="6532" average="5.00" min="1" max="5"/>
-    <media:statistics views="243758"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:vTJ66-WV9Io</id>
   <yt:videoId>vTJ66-WV9Io</yt:videoId>
-  <yt:channelId>UCvoBl4rnVsetDKA_Tdk-jeA</yt:channelId>
+  
   <title>費用嚴重超支、設計師累死、“叫魂”事件…孫中山先生陵寢中山陵之謎「曉涵哥來了」</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=vTJ66-WV9Io"/>
   <author>
    <name>曉涵哥來了</name>
    <uri>https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA</uri>
   </author>
-  <published>2023-04-02T13:49:17+00:00</published>
-  <updated>2023-06-11T07:30:11+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>費用嚴重超支、設計師累死、“叫魂”事件…孫中山先生陵寢中山陵之謎「曉涵哥來了」</media:title>
    <media:content url="https://www.youtube.com/v/vTJ66-WV9Io?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -677,23 +744,23 @@ https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA
 --------------------------------------------------------------------------------------
 #曉涵哥來了 #education #knowledge #孫中山 #中山陵</media:description>
    <media:community>
-    <media:starRating count="9315" average="5.00" min="1" max="5"/>
-    <media:statistics views="569173"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:rKdfXwMpDa4</id>
   <yt:videoId>rKdfXwMpDa4</yt:videoId>
-  <yt:channelId>UCvoBl4rnVsetDKA_Tdk-jeA</yt:channelId>
+  
   <title>細數蘇聯太空計劃背後的謊言，隱瞞了幾十年不為人知的真相！「曉涵哥來了」</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=rKdfXwMpDa4"/>
   <author>
    <name>曉涵哥來了</name>
    <uri>https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA</uri>
   </author>
-  <published>2023-03-26T12:56:22+00:00</published>
-  <updated>2023-06-08T01:53:17+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>細數蘇聯太空計劃背後的謊言，隱瞞了幾十年不為人知的真相！「曉涵哥來了」</media:title>
    <media:content url="https://www.youtube.com/v/rKdfXwMpDa4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -744,46 +811,46 @@ https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA
 --------------------------------------------------------------------------------------
 #曉涵哥來了 #education #knowledge #美蘇爭霸 #太空計劃</media:description>
    <media:community>
-    <media:starRating count="7420" average="5.00" min="1" max="5"/>
-    <media:statistics views="300001"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:8tazrjHmrF8</id>
   <yt:videoId>8tazrjHmrF8</yt:videoId>
-  <yt:channelId>UCvoBl4rnVsetDKA_Tdk-jeA</yt:channelId>
+  
   <title>關於月球的起源，你知道多少呢？ #shorts #科普 #知識</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=8tazrjHmrF8"/>
   <author>
    <name>曉涵哥來了</name>
    <uri>https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA</uri>
   </author>
-  <published>2023-03-22T10:00:09+00:00</published>
-  <updated>2023-06-11T23:32:55+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>關於月球的起源，你知道多少呢？ #shorts #科普 #知識</media:title>
    <media:content url="https://www.youtube.com/v/8tazrjHmrF8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i1.ytimg.com/vi/8tazrjHmrF8/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="680" average="5.00" min="1" max="5"/>
-    <media:statistics views="27040"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:zVUCBK-d_zI</id>
   <yt:videoId>zVUCBK-d_zI</yt:videoId>
-  <yt:channelId>UCvoBl4rnVsetDKA_Tdk-jeA</yt:channelId>
+  
   <title>「30分鐘特別節目」，全方位解析51區傳奇人物Bob Lazar的爆料真相！「曉涵哥來了」</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=zVUCBK-d_zI"/>
   <author>
    <name>曉涵哥來了</name>
    <uri>https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA</uri>
   </author>
-  <published>2023-03-16T12:45:31+00:00</published>
-  <updated>2023-06-09T19:03:32+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>「30分鐘特別節目」，全方位解析51區傳奇人物Bob Lazar的爆料真相！「曉涵哥來了」</media:title>
    <media:content url="https://www.youtube.com/v/zVUCBK-d_zI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -836,100 +903,31 @@ https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA
 --------------------------------------------------------------------------------------
 #曉涵哥來了 #education #knowledge #ufo #外星人 #鲍勃拉扎</media:description>
    <media:community>
-    <media:starRating count="12294" average="5.00" min="1" max="5"/>
-    <media:statistics views="709964"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:Vv0YRGxxEok</id>
   <yt:videoId>Vv0YRGxxEok</yt:videoId>
-  <yt:channelId>UCvoBl4rnVsetDKA_Tdk-jeA</yt:channelId>
+  
   <title>沙特超未来城市，斥资1万亿美元打造！#shorts #沙特 #education #科普</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=Vv0YRGxxEok"/>
   <author>
    <name>曉涵哥來了</name>
    <uri>https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA</uri>
   </author>
-  <published>2023-03-08T04:00:16+00:00</published>
-  <updated>2023-06-12T16:23:47+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>沙特超未来城市，斥资1万亿美元打造！#shorts #沙特 #education #科普</media:title>
    <media:content url="https://www.youtube.com/v/Vv0YRGxxEok?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i3.ytimg.com/vi/Vv0YRGxxEok/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="932" average="5.00" min="1" max="5"/>
-    <media:statistics views="36520"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:3sQwTvz8qMg</id>
-  <yt:videoId>3sQwTvz8qMg</yt:videoId>
-  <yt:channelId>UCvoBl4rnVsetDKA_Tdk-jeA</yt:channelId>
-  <title>1971年秘密暴動，韓國24名特種兵衝入首爾，該事件隱瞞了30年……「曉涵哥來了」</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=3sQwTvz8qMg"/>
-  <author>
-   <name>曉涵哥來了</name>
-   <uri>https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA</uri>
-  </author>
-  <published>2023-03-03T12:00:02+00:00</published>
-  <updated>2023-06-08T16:48:25+00:00</updated>
-  <media:group>
-   <media:title>1971年秘密暴動，韓國24名特種兵衝入首爾，該事件隱瞞了30年……「曉涵哥來了」</media:title>
-   <media:content url="https://www.youtube.com/v/3sQwTvz8qMg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/3sQwTvz8qMg/hqdefault.jpg" width="480" height="360"/>
-   <media:description>上期我們聊到了韓國總統樸正熙被刺殺事件，感興趣的大家可以點擊觀看：
-https://youtu.be/k23wrn0KMTo
-韓國民眾要求報復朝鮮的呼聲愈發高漲，於是樸正熙命令軍方制定了一個反制計劃，刺殺朝鮮的最高領導人。然而這場刺殺變成了一個恐怖事件。這中間到底發生了什麼？
-
-👀👀  我的這些影片或許你也有興趣 👇👇
-
-史上最奇葩國家👇
-https://youtu.be/xrk7qPj8yts
-
-科馬洛夫👇
-https://youtu.be/NkuNPdxveiY
-
-人猿混血部隊👇
-https://youtu.be/tJYVzo8tS1o
---------------------------------------------------------------------------------------------
-🔥  這些影片在頻道最受歡迎 👇👇
-
-朝鮮神秘飯店👇
-https://youtu.be/cVlAxL2CXYg
-
-大和號戰艦👇
-https://youtu.be/AdxYuP1qbMY
-
-秦始皇陵👇
-https://youtu.be/BGxr6AS-6-o
-
-宇宙7級文明👇
-https://youtu.be/MTCrzBVNJjc
-
-邁克爾傑克遜的另一面👇
-https://youtu.be/p7W75SHpL9E
-
-野獸專車👇
-https://youtu.be/ACmijk6deMA
-
-日本啃老族👇
-https://youtu.be/nCFLqt71dKs
-
---------------------------------------------------------------------------------------
-「探索地球，發現宇宙。
-我是曉涵哥，歡迎和我一起，做這世界的探尋者。」
-點擊下方訂閱👇👇👇
-https://www.youtube.com/channel/UCvoBl4rnVsetDKA_Tdk-jeA
-我的FB也開通了！歡迎大家關注，在這裡我會分享一些不一樣的生活碎片：https://www.facebook.com/xiaohange888
---------------------------------------------------------------------------------------
---------------------------------------------------------------------------------------
-#曉涵哥來了 #education #knowledge #韓國 #朝鮮 #寶尾島</media:description>
-   <media:community>
-    <media:starRating count="6923" average="5.00" min="1" max="5"/>
-    <media:statistics views="362087"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>

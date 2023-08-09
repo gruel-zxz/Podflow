@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
  <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCVaMMNaYvjmskreBR4dM7rg"/>
- <id>yt:channel:</id>
- <yt:channelId></yt:channelId>
+ 
+ 
  <title>奇异博士说</title>
  <link rel="alternate" href="https://www.youtube.com/channel/UCVaMMNaYvjmskreBR4dM7rg"/>
  <author>
   <name>奇异博士说</name>
   <uri>https://www.youtube.com/channel/UCVaMMNaYvjmskreBR4dM7rg</uri>
  </author>
- <published>2019-04-27T11:01:18+00:00</published>
+ <published></published>
  <entry>
   <id>yt:video:Bi01GDYogo8</id>
   <yt:videoId>Bi01GDYogo8</yt:videoId>
-  <yt:channelId>UCVaMMNaYvjmskreBR4dM7rg</yt:channelId>
+  
   <title>【暗网：蝉3301事件（下集）】真相到底是什么？全部听完，你一定会有自己的判断！【奇异博士说】</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=Bi01GDYogo8"/>
   <author>
    <name>奇异博士说</name>
    <uri>https://www.youtube.com/channel/UCVaMMNaYvjmskreBR4dM7rg</uri>
   </author>
-  <published>2022-01-23T12:23:26+00:00</published>
-  <updated>2023-06-08T01:54:50+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>【暗网：蝉3301事件（下集）】真相到底是什么？全部听完，你一定会有自己的判断！【奇异博士说】</media:title>
    <media:content url="https://www.youtube.com/v/Bi01GDYogo8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -54,23 +54,23 @@ https://www.youtube.com/playlist?list=PLgsrznq8ee-6mcnpog0xKjY952BpIF8XI
 奇异博士说第一季：《曝光社会黑暗角落》系列视频
 https://www.youtube.com/playlist?list=PLgsrznq8ee-4yoTauBXojN0Ex-6nY90iT</media:description>
    <media:community>
-    <media:starRating count="262" average="5.00" min="1" max="5"/>
-    <media:statistics views="13226"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:OuE60H3ir68</id>
   <yt:videoId>OuE60H3ir68</yt:videoId>
-  <yt:channelId>UCVaMMNaYvjmskreBR4dM7rg</yt:channelId>
+  
   <title>【暗网：蝉3301事件（上集）】想要听懂3301事件真相，必须先听完这一期科普视频！【奇异博士说】</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=OuE60H3ir68"/>
   <author>
    <name>奇异博士说</name>
    <uri>https://www.youtube.com/channel/UCVaMMNaYvjmskreBR4dM7rg</uri>
   </author>
-  <published>2022-01-12T12:17:42+00:00</published>
-  <updated>2023-06-08T00:35:17+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>【暗网：蝉3301事件（上集）】想要听懂3301事件真相，必须先听完这一期科普视频！【奇异博士说】</media:title>
    <media:content url="https://www.youtube.com/v/OuE60H3ir68?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -97,23 +97,23 @@ https://www.youtube.com/playlist?list=PLgsrznq8ee-6mcnpog0xKjY952BpIF8XI
 奇异博士说第一季：《曝光社会黑暗角落》系列视频
 https://www.youtube.com/playlist?list=PLgsrznq8ee-4yoTauBXojN0Ex-6nY90iT</media:description>
    <media:community>
-    <media:starRating count="626" average="5.00" min="1" max="5"/>
-    <media:statistics views="27106"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:fZx3YVuZAiw</id>
   <yt:videoId>fZx3YVuZAiw</yt:videoId>
-  <yt:channelId>UCVaMMNaYvjmskreBR4dM7rg</yt:channelId>
+  
   <title>【暗网】我的手机长了眼睛！暗网黑市挂牌5000万美金的Pegasus飞马软件有多厉害？【奇异博士说】</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=fZx3YVuZAiw"/>
   <author>
    <name>奇异博士说</name>
    <uri>https://www.youtube.com/channel/UCVaMMNaYvjmskreBR4dM7rg</uri>
   </author>
-  <published>2021-11-18T11:37:20+00:00</published>
-  <updated>2023-07-22T12:36:58+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>【暗网】我的手机长了眼睛！暗网黑市挂牌5000万美金的Pegasus飞马软件有多厉害？【奇异博士说】</media:title>
    <media:content url="https://www.youtube.com/v/fZx3YVuZAiw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -131,23 +131,23 @@ https://www.macrumors.com/2021/09/13/ios-14-8-zero-click-exploit-pegasus/
 5、维基百科上的Pegasus：
 https://en.wikipedia.org/wiki/Pegasus_(spyware)</media:description>
    <media:community>
-    <media:starRating count="664" average="5.00" min="1" max="5"/>
-    <media:statistics views="23817"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:dPEekuUzsOY</id>
   <yt:videoId>dPEekuUzsOY</yt:videoId>
-  <yt:channelId>UCVaMMNaYvjmskreBR4dM7rg</yt:channelId>
+  
   <title>我回来啦！！终于又有时间拍视频了！最近无聊做了个思维实验，如果全世界只剩下我幸存，我到底能活多久？【奇异博士说】</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=dPEekuUzsOY"/>
   <author>
    <name>奇异博士说</name>
    <uri>https://www.youtube.com/channel/UCVaMMNaYvjmskreBR4dM7rg</uri>
   </author>
-  <published>2021-06-09T11:48:30+00:00</published>
-  <updated>2023-06-12T04:04:48+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>我回来啦！！终于又有时间拍视频了！最近无聊做了个思维实验，如果全世界只剩下我幸存，我到底能活多久？【奇异博士说】</media:title>
    <media:content url="https://www.youtube.com/v/dPEekuUzsOY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -175,23 +175,23 @@ https://www.youtube.com/playlist?list=PLgsrznq8ee-4yoTauBXojN0Ex-6nY90iT
 请加电报讨论群：https://t.me/qiyiboshi
 QQ：3432008273（加好友、投稿可以联系这个QQ）</media:description>
    <media:community>
-    <media:starRating count="604" average="5.00" min="1" max="5"/>
-    <media:statistics views="15514"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:AKDdDl6zg7I</id>
   <yt:videoId>AKDdDl6zg7I</yt:videoId>
-  <yt:channelId>UCVaMMNaYvjmskreBR4dM7rg</yt:channelId>
+  
   <title>【解密】被美国国土安全部称为“隐藏眼镜蛇”的世界金融大盗——Lazarus Group【奇异博士说】</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=AKDdDl6zg7I"/>
   <author>
    <name>奇异博士说</name>
    <uri>https://www.youtube.com/channel/UCVaMMNaYvjmskreBR4dM7rg</uri>
   </author>
-  <published>2020-10-26T14:05:50+00:00</published>
-  <updated>2023-06-14T00:23:41+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>【解密】被美国国土安全部称为“隐藏眼镜蛇”的世界金融大盗——Lazarus Group【奇异博士说】</media:title>
    <media:content url="https://www.youtube.com/v/AKDdDl6zg7I?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -222,23 +222,23 @@ https://www.youtube.com/playlist?list=PLgsrznq8ee-4yoTauBXojN0Ex-6nY90iT
 请加电报讨论群：https://t.me/qiyiboshi
 QQ：3432008273（加好友、投稿可以联系这个QQ）</media:description>
    <media:community>
-    <media:starRating count="505" average="5.00" min="1" max="5"/>
-    <media:statistics views="19560"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:scfUdBqA8mY</id>
   <yt:videoId>scfUdBqA8mY</yt:videoId>
-  <yt:channelId>UCVaMMNaYvjmskreBR4dM7rg</yt:channelId>
+  
   <title>【解密埋伏在“本·拉登”身边的超级间谍“艾门·迪恩”】第一部：一个普通穆斯林少年的第一次“圣战”！</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=scfUdBqA8mY"/>
   <author>
    <name>奇异博士说</name>
    <uri>https://www.youtube.com/channel/UCVaMMNaYvjmskreBR4dM7rg</uri>
   </author>
-  <published>2020-05-10T10:30:56+00:00</published>
-  <updated>2023-07-23T08:52:23+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>【解密埋伏在“本·拉登”身边的超级间谍“艾门·迪恩”】第一部：一个普通穆斯林少年的第一次“圣战”！</media:title>
    <media:content url="https://www.youtube.com/v/scfUdBqA8mY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -264,23 +264,23 @@ https://www.youtube.com/playlist?list=PLgsrznq8ee-4yoTauBXojN0Ex-6nY90iT
 请加电报讨论群：https://t.me/qiyiboshi
 QQ：3432008273（加好友、投稿可以联系这个QQ）</media:description>
    <media:community>
-    <media:starRating count="406" average="5.00" min="1" max="5"/>
-    <media:statistics views="24642"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:6mIzNTdSBQE</id>
   <yt:videoId>6mIzNTdSBQE</yt:videoId>
-  <yt:channelId>UCVaMMNaYvjmskreBR4dM7rg</yt:channelId>
+  
   <title>【暗网】“刺客”行业发展现状调查，业务成熟度让人无法想象！【视频插图无法过审，看图请自行点链接】【奇异博士说】</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=6mIzNTdSBQE"/>
   <author>
    <name>奇异博士说</name>
    <uri>https://www.youtube.com/channel/UCVaMMNaYvjmskreBR4dM7rg</uri>
   </author>
-  <published>2020-04-13T11:00:05+00:00</published>
-  <updated>2023-06-13T19:45:06+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>【暗网】“刺客”行业发展现状调查，业务成熟度让人无法想象！【视频插图无法过审，看图请自行点链接】【奇异博士说】</media:title>
    <media:content url="https://www.youtube.com/v/6mIzNTdSBQE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -319,23 +319,23 @@ https://www.youtube.com/playlist?list=PLgsrznq8ee-4yoTauBXojN0Ex-6nY90iT
 请加电报讨论群群：https://t.me/qiyiboshi
 QQ：3432008273（加好友、投稿可以联系这个QQ）</media:description>
    <media:community>
-    <media:starRating count="756" average="5.00" min="1" max="5"/>
-    <media:statistics views="59690"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:VQh69Pz1pYU</id>
   <yt:videoId>VQh69Pz1pYU</yt:videoId>
-  <yt:channelId>UCVaMMNaYvjmskreBR4dM7rg</yt:channelId>
+  
   <title>【解密】一场不可能完成的“特别行动”——“礼炮七号”事件真实版！CIA秘密绑架解剖苏联航天器事件！【奇异博士说】</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=VQh69Pz1pYU"/>
   <author>
    <name>奇异博士说</name>
    <uri>https://www.youtube.com/channel/UCVaMMNaYvjmskreBR4dM7rg</uri>
   </author>
-  <published>2020-03-29T11:00:14+00:00</published>
-  <updated>2023-06-10T12:53:11+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>【解密】一场不可能完成的“特别行动”——“礼炮七号”事件真实版！CIA秘密绑架解剖苏联航天器事件！【奇异博士说】</media:title>
    <media:content url="https://www.youtube.com/v/VQh69Pz1pYU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -370,23 +370,23 @@ https://www.youtube.com/playlist?list=PLgsrznq8ee-4yoTauBXojN0Ex-6nY90iT
 请加电报讨论群群：https://t.me/qiyiboshi
 QQ：3432008273（加好友、投稿可以联系这个QQ）</media:description>
    <media:community>
-    <media:starRating count="314" average="5.00" min="1" max="5"/>
-    <media:statistics views="21076"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:t5VlL6tqcaI</id>
   <yt:videoId>t5VlL6tqcaI</yt:videoId>
-  <yt:channelId>UCVaMMNaYvjmskreBR4dM7rg</yt:channelId>
+  
   <title>【换个角度解密美国的崛起】法国人的失败，居然提前开启了美国称霸世界的进程！【奇异博士说】</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=t5VlL6tqcaI"/>
   <author>
    <name>奇异博士说</name>
    <uri>https://www.youtube.com/channel/UCVaMMNaYvjmskreBR4dM7rg</uri>
   </author>
-  <published>2020-01-22T09:23:36+00:00</published>
-  <updated>2023-07-01T17:29:30+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>【换个角度解密美国的崛起】法国人的失败，居然提前开启了美国称霸世界的进程！【奇异博士说】</media:title>
    <media:content url="https://www.youtube.com/v/t5VlL6tqcaI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -436,23 +436,23 @@ https://www.youtube.com/playlist?list=PLgsrznq8ee-4yoTauBXojN0Ex-6nY90iT
 请加电报讨论群群：https://t.me/qiyiboshi
 QQ：3432008273（加好友、投稿可以联系这个QQ）</media:description>
    <media:community>
-    <media:starRating count="288" average="5.00" min="1" max="5"/>
-    <media:statistics views="15740"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:-PBYlKvHl4k</id>
   <yt:videoId>-PBYlKvHl4k</yt:videoId>
-  <yt:channelId>UCVaMMNaYvjmskreBR4dM7rg</yt:channelId>
+  
   <title>【解密】法国工业龙头“阿尔斯通集团”被美国肢解、吞噬事件始末，这会是华为的下场吗？《反海外贿赂法》美国打压竞争对手的经济战“核武器”！【奇异博士说】</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=-PBYlKvHl4k"/>
   <author>
    <name>奇异博士说</name>
    <uri>https://www.youtube.com/channel/UCVaMMNaYvjmskreBR4dM7rg</uri>
   </author>
-  <published>2019-12-19T01:38:34+00:00</published>
-  <updated>2023-06-14T22:36:50+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>【解密】法国工业龙头“阿尔斯通集团”被美国肢解、吞噬事件始末，这会是华为的下场吗？《反海外贿赂法》美国打压竞争对手的经济战“核武器”！【奇异博士说】</media:title>
    <media:content url="https://www.youtube.com/v/-PBYlKvHl4k?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -489,23 +489,23 @@ https://www.youtube.com/playlist?list=PLgsrznq8ee-4yoTauBXojN0Ex-6nY90iT&#13;
 请加电报讨论群群：https://t.me/qiyiboshi&#13;
 QQ：3432008273（加好友、投稿可以联系这个QQ）</media:description>
    <media:community>
-    <media:starRating count="440" average="5.00" min="1" max="5"/>
-    <media:statistics views="24362"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:DX8XoVcCp9A</id>
   <yt:videoId>DX8XoVcCp9A</yt:videoId>
-  <yt:channelId>UCVaMMNaYvjmskreBR4dM7rg</yt:channelId>
+  
   <title>《第六帝国沉浮录》解密“罗斯柴尔德家族”——犹大的子孙居然统治了基督徒世界的金融！【奇异博士说】</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=DX8XoVcCp9A"/>
   <author>
    <name>奇异博士说</name>
    <uri>https://www.youtube.com/channel/UCVaMMNaYvjmskreBR4dM7rg</uri>
   </author>
-  <published>2019-12-07T01:38:25+00:00</published>
-  <updated>2023-07-22T13:44:27+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>《第六帝国沉浮录》解密“罗斯柴尔德家族”——犹大的子孙居然统治了基督徒世界的金融！【奇异博士说】</media:title>
    <media:content url="https://www.youtube.com/v/DX8XoVcCp9A?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -531,23 +531,23 @@ https://www.youtube.com/playlist?list=PLgsrznq8ee-4yoTauBXojN0Ex-6nY90iT&#13;
 请加电报讨论群群：https://t.me/qiyiboshi&#13;
 QQ：3432008273（加好友、投稿可以联系这个QQ）</media:description>
    <media:community>
-    <media:starRating count="574" average="5.00" min="1" max="5"/>
-    <media:statistics views="47622"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:bLIq0W785Rc</id>
   <yt:videoId>bLIq0W785Rc</yt:videoId>
-  <yt:channelId>UCVaMMNaYvjmskreBR4dM7rg</yt:channelId>
+  
   <title>当CIA遭遇超级“无间道”！到底是什么样的人，居然能把CIA的脸按在地上摩擦？中情局达成史上最耻辱成就！【奇异博士说】</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=bLIq0W785Rc"/>
   <author>
    <name>奇异博士说</name>
    <uri>https://www.youtube.com/channel/UCVaMMNaYvjmskreBR4dM7rg</uri>
   </author>
-  <published>2019-12-01T00:32:26+00:00</published>
-  <updated>2023-07-22T03:13:13+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>当CIA遭遇超级“无间道”！到底是什么样的人，居然能把CIA的脸按在地上摩擦？中情局达成史上最耻辱成就！【奇异博士说】</media:title>
    <media:content url="https://www.youtube.com/v/bLIq0W785Rc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -590,23 +590,23 @@ https://www.youtube.com/playlist?list=PLgsrznq8ee-4yoTauBXojN0Ex-6nY90iT
 请加电报讨论群群：https://t.me/qiyiboshi
 QQ：3432008273（加好友、投稿可以联系这个QQ）</media:description>
    <media:community>
-    <media:starRating count="398" average="5.00" min="1" max="5"/>
-    <media:statistics views="26688"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:9dUL4oU3_00</id>
   <yt:videoId>9dUL4oU3_00</yt:videoId>
-  <yt:channelId>UCVaMMNaYvjmskreBR4dM7rg</yt:channelId>
+  
   <title>【暗网】猎人游戏第二部：《金字塔狩猎计划》！暗网世界大富豪们最爱玩ARG游戏！【奇异博士说】</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=9dUL4oU3_00"/>
   <author>
    <name>奇异博士说</name>
    <uri>https://www.youtube.com/channel/UCVaMMNaYvjmskreBR4dM7rg</uri>
   </author>
-  <published>2019-11-15T03:54:35+00:00</published>
-  <updated>2023-06-11T04:04:41+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>【暗网】猎人游戏第二部：《金字塔狩猎计划》！暗网世界大富豪们最爱玩ARG游戏！【奇异博士说】</media:title>
    <media:content url="https://www.youtube.com/v/9dUL4oU3_00?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -632,23 +632,23 @@ https://www.youtube.com/playlist?list=PLgsrznq8ee-4yoTauBXojN0Ex-6nY90iT
 请加电报讨论群群：https://t.me/qiyiboshi
 QQ：3432008273（加好友、投稿可以联系这个QQ）</media:description>
    <media:community>
-    <media:starRating count="751" average="5.00" min="1" max="5"/>
-    <media:statistics views="71255"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:r8BE3lv0VQU</id>
   <yt:videoId>r8BE3lv0VQU</yt:videoId>
-  <yt:channelId>UCVaMMNaYvjmskreBR4dM7rg</yt:channelId>
+  
   <title>【迷雾重重】“JFK的真相”随着一代传奇特工“E.霍华德·亨特”的落幕，永远被埋葬了！【奇异博士说】</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=r8BE3lv0VQU"/>
   <author>
    <name>奇异博士说</name>
    <uri>https://www.youtube.com/channel/UCVaMMNaYvjmskreBR4dM7rg</uri>
   </author>
-  <published>2019-11-03T23:36:01+00:00</published>
-  <updated>2023-06-08T02:57:52+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>【迷雾重重】“JFK的真相”随着一代传奇特工“E.霍华德·亨特”的落幕，永远被埋葬了！【奇异博士说】</media:title>
    <media:content url="https://www.youtube.com/v/r8BE3lv0VQU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -688,23 +688,23 @@ https://www.youtube.com/playlist?list=PLgsrznq8ee-4yoTauBXojN0Ex-6nY90iT
 请加电报讨论群群：https://t.me/qiyiboshi
 QQ：3432008273（加好友、投稿可以联系这个QQ）</media:description>
    <media:community>
-    <media:starRating count="296" average="5.00" min="1" max="5"/>
-    <media:statistics views="18292"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:xje1NPXyovU</id>
   <yt:videoId>xje1NPXyovU</yt:videoId>
-  <yt:channelId>UCVaMMNaYvjmskreBR4dM7rg</yt:channelId>
+  
   <title>【解密“摩萨德”】拱卫“犹太王国”安全的神秘力量！一度超越CIA和007，却鲜为人知！【奇异博士说】</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=xje1NPXyovU"/>
   <author>
    <name>奇异博士说</name>
    <uri>https://www.youtube.com/channel/UCVaMMNaYvjmskreBR4dM7rg</uri>
   </author>
-  <published>2019-10-24T10:32:52+00:00</published>
-  <updated>2023-07-22T23:33:24+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>【解密“摩萨德”】拱卫“犹太王国”安全的神秘力量！一度超越CIA和007，却鲜为人知！【奇异博士说】</media:title>
    <media:content url="https://www.youtube.com/v/xje1NPXyovU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -737,8 +737,8 @@ https://www.youtube.com/playlist?list=PLgsrznq8ee-4yoTauBXojN0Ex-6nY90iT
 请加电报讨论群群：https://t.me/qiyiboshi
 QQ：3432008273（加好友、投稿可以联系这个QQ）</media:description>
    <media:community>
-    <media:starRating count="435" average="5.00" min="1" max="5"/>
-    <media:statistics views="30279"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>

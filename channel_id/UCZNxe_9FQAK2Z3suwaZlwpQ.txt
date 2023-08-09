@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
  <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCZNxe_9FQAK2Z3suwaZlwpQ"/>
- <id>yt:channel:</id>
- <yt:channelId></yt:channelId>
+ 
+ 
  <title>冲浪普拉斯</title>
  <link rel="alternate" href="https://www.youtube.com/channel/UCZNxe_9FQAK2Z3suwaZlwpQ"/>
  <author>
   <name>冲浪普拉斯</name>
   <uri>https://www.youtube.com/channel/UCZNxe_9FQAK2Z3suwaZlwpQ</uri>
  </author>
- <published>2019-10-12T15:47:10+00:00</published>
+ <published></published>
  <entry>
   <id>yt:video:2yoo5puD0GM</id>
   <yt:videoId>2yoo5puD0GM</yt:videoId>
-  <yt:channelId>UCZNxe_9FQAK2Z3suwaZlwpQ</yt:channelId>
+  
   <title>欠债3000亿欧元，希腊“卖国”还债？欧盟十年拨款三次，是“冤种救世主”还是“特洛伊木马”？</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=2yoo5puD0GM"/>
   <author>
    <name>冲浪普拉斯</name>
    <uri>https://www.youtube.com/channel/UCZNxe_9FQAK2Z3suwaZlwpQ</uri>
   </author>
-  <published>2023-06-26T06:14:58+00:00</published>
-  <updated>2023-06-29T09:21:02+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>欠债3000亿欧元，希腊“卖国”还债？欧盟十年拨款三次，是“冤种救世主”还是“特洛伊木马”？</media:title>
    <media:content url="https://www.youtube.com/v/2yoo5puD0GM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -38,23 +38,23 @@ https://www.youtube.com/channel/UCZNxe_9FQAK2Z3suwaZlwpQ/join
 
 如果只能使用支付宝或者微信付款，请访问 https://afdian.net/@chonglangplus?tab=feed</media:description>
    <media:community>
-    <media:starRating count="1256" average="5.00" min="1" max="5"/>
-    <media:statistics views="90442"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:S9UUkHCAYvg</id>
   <yt:videoId>S9UUkHCAYvg</yt:videoId>
-  <yt:channelId>UCZNxe_9FQAK2Z3suwaZlwpQ</yt:channelId>
+  
   <title>【希腊债务危机】表面民主实则独裁，高福利掩盖高腐败，希腊财务造假混进欧元区，饮鸩止渴爆发债务危机</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=S9UUkHCAYvg"/>
   <author>
    <name>冲浪普拉斯</name>
    <uri>https://www.youtube.com/channel/UCZNxe_9FQAK2Z3suwaZlwpQ</uri>
   </author>
-  <published>2023-06-26T05:25:35+00:00</published>
-  <updated>2023-06-29T09:15:13+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>【希腊债务危机】表面民主实则独裁，高福利掩盖高腐败，希腊财务造假混进欧元区，饮鸩止渴爆发债务危机</media:title>
    <media:content url="https://www.youtube.com/v/S9UUkHCAYvg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -71,23 +71,23 @@ https://www.youtube.com/channel/UCZNxe_9FQAK2Z3suwaZlwpQ/join
 
 如果只能使用支付宝或者微信付款，请访问 https://afdian.net/@chonglangplus?tab=feed</media:description>
    <media:community>
-    <media:starRating count="1130" average="5.00" min="1" max="5"/>
-    <media:statistics views="65011"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:671_0ZHPzqc</id>
   <yt:videoId>671_0ZHPzqc</yt:videoId>
-  <yt:channelId>UCZNxe_9FQAK2Z3suwaZlwpQ</yt:channelId>
+  
   <title>“欺诈小队”操纵金银期货，一秒百万次交易，高频幌骗为何让摩根大通行上加“刑”？</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=671_0ZHPzqc"/>
   <author>
    <name>冲浪普拉斯</name>
    <uri>https://www.youtube.com/channel/UCZNxe_9FQAK2Z3suwaZlwpQ</uri>
   </author>
-  <published>2022-10-27T11:00:10+00:00</published>
-  <updated>2023-06-26T16:05:44+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>“欺诈小队”操纵金银期货，一秒百万次交易，高频幌骗为何让摩根大通行上加“刑”？</media:title>
    <media:content url="https://www.youtube.com/v/671_0ZHPzqc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -104,23 +104,23 @@ https://www.youtube.com/channel/UCZNxe_9FQAK2Z3suwaZlwpQ/join
 
 如果只能使用支付宝或者微信付款，请访问 https://afdian.net/@chonglangplus?tab=feed</media:description>
    <media:community>
-    <media:starRating count="891" average="5.00" min="1" max="5"/>
-    <media:statistics views="65733"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:EqnF47lDnqs</id>
   <yt:videoId>EqnF47lDnqs</yt:videoId>
-  <yt:channelId>UCZNxe_9FQAK2Z3suwaZlwpQ</yt:channelId>
+  
   <title>大豆洋葱成财富密码，数十亿美元白银骗局，期货市场是暴富宝地还是散户杀手？【美国商业简史14上集】</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=EqnF47lDnqs"/>
   <author>
    <name>冲浪普拉斯</name>
    <uri>https://www.youtube.com/channel/UCZNxe_9FQAK2Z3suwaZlwpQ</uri>
   </author>
-  <published>2022-10-27T10:09:55+00:00</published>
-  <updated>2023-07-14T21:49:00+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>大豆洋葱成财富密码，数十亿美元白银骗局，期货市场是暴富宝地还是散户杀手？【美国商业简史14上集】</media:title>
    <media:content url="https://www.youtube.com/v/EqnF47lDnqs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -137,23 +137,23 @@ https://www.youtube.com/channel/UCZNxe_9FQAK2Z3suwaZlwpQ/join
 
 如果只能使用支付宝或者微信付款，请访问 https://afdian.net/@chonglangplus?tab=feed</media:description>
    <media:community>
-    <media:starRating count="1521" average="5.00" min="1" max="5"/>
-    <media:statistics views="98596"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:cmlxel7OPHo</id>
   <yt:videoId>cmlxel7OPHo</yt:videoId>
-  <yt:channelId>UCZNxe_9FQAK2Z3suwaZlwpQ</yt:channelId>
+  
   <title>大航海时代最赚钱的生意，大三角贸易最黑暗的交易，欧洲人财富起点，蔗糖是怎样孕育出资本主义的？【财富之路6】下集</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=cmlxel7OPHo"/>
   <author>
    <name>冲浪普拉斯</name>
    <uri>https://www.youtube.com/channel/UCZNxe_9FQAK2Z3suwaZlwpQ</uri>
   </author>
-  <published>2022-05-20T09:30:15+00:00</published>
-  <updated>2023-07-16T06:24:01+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>大航海时代最赚钱的生意，大三角贸易最黑暗的交易，欧洲人财富起点，蔗糖是怎样孕育出资本主义的？【财富之路6】下集</media:title>
    <media:content url="https://www.youtube.com/v/cmlxel7OPHo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -170,23 +170,23 @@ https://www.youtube.com/channel/UCZNxe_9FQAK2Z3suwaZlwpQ/join
 
 如果只能使用支付宝或者微信付款，请访问 https://afdian.net/@chonglangplus?tab=feed</media:description>
    <media:community>
-    <media:starRating count="948" average="5.00" min="1" max="5"/>
-    <media:statistics views="88836"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:APsCiPxIoeE</id>
   <yt:videoId>APsCiPxIoeE</yt:videoId>
-  <yt:channelId>UCZNxe_9FQAK2Z3suwaZlwpQ</yt:channelId>
+  
   <title>黑奴经济的罪魁祸首，世界战争的始作俑者，世界格局的制定者，蔗糖是怎么推动人类工业革命的？【财富之路6】上集</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=APsCiPxIoeE"/>
   <author>
    <name>冲浪普拉斯</name>
    <uri>https://www.youtube.com/channel/UCZNxe_9FQAK2Z3suwaZlwpQ</uri>
   </author>
-  <published>2022-05-20T08:42:40+00:00</published>
-  <updated>2023-07-16T05:46:24+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>黑奴经济的罪魁祸首，世界战争的始作俑者，世界格局的制定者，蔗糖是怎么推动人类工业革命的？【财富之路6】上集</media:title>
    <media:content url="https://www.youtube.com/v/APsCiPxIoeE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -203,23 +203,23 @@ https://www.youtube.com/channel/UCZNxe_9FQAK2Z3suwaZlwpQ/join
 
 如果只能使用支付宝或者微信付款，请访问 https://afdian.net/@chonglangplus?tab=feed</media:description>
    <media:community>
-    <media:starRating count="1029" average="5.00" min="1" max="5"/>
-    <media:statistics views="92676"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:1BbBdT7kn2I</id>
   <yt:videoId>1BbBdT7kn2I</yt:videoId>
-  <yt:channelId>UCZNxe_9FQAK2Z3suwaZlwpQ</yt:channelId>
+  
   <title>两亿美元游说费，政商旋转门连接五角大楼，隐瞒故障实情，揭秘波音飞机失事背后的内幕【美国商业简史13】下集</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=1BbBdT7kn2I"/>
   <author>
    <name>冲浪普拉斯</name>
    <uri>https://www.youtube.com/channel/UCZNxe_9FQAK2Z3suwaZlwpQ</uri>
   </author>
-  <published>2022-05-18T10:01:27+00:00</published>
-  <updated>2023-07-16T06:04:24+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>两亿美元游说费，政商旋转门连接五角大楼，隐瞒故障实情，揭秘波音飞机失事背后的内幕【美国商业简史13】下集</media:title>
    <media:content url="https://www.youtube.com/v/1BbBdT7kn2I?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -236,23 +236,23 @@ https://www.youtube.com/channel/UCZNxe_9FQAK2Z3suwaZlwpQ/join
 
 如果只能使用支付宝或者微信付款，请访问 https://afdian.net/@chonglangplus?tab=feed</media:description>
    <media:community>
-    <media:starRating count="1043" average="5.00" min="1" max="5"/>
-    <media:statistics views="71324"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:m-XdAUSt2pk</id>
   <yt:videoId>m-XdAUSt2pk</yt:videoId>
-  <yt:channelId>UCZNxe_9FQAK2Z3suwaZlwpQ</yt:channelId>
+  
   <title>现金为王，贪婪为善，有钱回购股票，没钱造新飞机，伟大的波音，为何成为空难罪魁祸首？【美国商业简史13】上集</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=m-XdAUSt2pk"/>
   <author>
    <name>冲浪普拉斯</name>
    <uri>https://www.youtube.com/channel/UCZNxe_9FQAK2Z3suwaZlwpQ</uri>
   </author>
-  <published>2022-05-18T06:53:32+00:00</published>
-  <updated>2023-07-14T21:28:45+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>现金为王，贪婪为善，有钱回购股票，没钱造新飞机，伟大的波音，为何成为空难罪魁祸首？【美国商业简史13】上集</media:title>
    <media:content url="https://www.youtube.com/v/m-XdAUSt2pk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -269,23 +269,23 @@ https://www.youtube.com/channel/UCZNxe_9FQAK2Z3suwaZlwpQ/join
 
 如果只能使用支付宝或者微信付款，请访问 https://afdian.net/@chonglangplus?tab=feed</media:description>
    <media:community>
-    <media:starRating count="1071" average="5.00" min="1" max="5"/>
-    <media:statistics views="98545"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:uRP1-t2BlCA</id>
   <yt:videoId>uRP1-t2BlCA</yt:videoId>
-  <yt:channelId>UCZNxe_9FQAK2Z3suwaZlwpQ</yt:channelId>
+  
   <title>外部审计失灵，CEO堕落敛财$6亿，两月蒸发$570亿，华尔街上演破产连续剧，复盘美国最大会计舞弊风波【美国商业简史12】下集</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=uRP1-t2BlCA"/>
   <author>
    <name>冲浪普拉斯</name>
    <uri>https://www.youtube.com/channel/UCZNxe_9FQAK2Z3suwaZlwpQ</uri>
   </author>
-  <published>2022-05-17T16:30:14+00:00</published>
-  <updated>2023-07-16T06:37:47+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>外部审计失灵，CEO堕落敛财$6亿，两月蒸发$570亿，华尔街上演破产连续剧，复盘美国最大会计舞弊风波【美国商业简史12】下集</media:title>
    <media:content url="https://www.youtube.com/v/uRP1-t2BlCA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -302,23 +302,23 @@ https://www.youtube.com/channel/UCZNxe_9FQAK2Z3suwaZlwpQ/join
 
 如果只能使用支付宝或者微信付款，请访问 https://afdian.net/@chonglangplus?tab=feed</media:description>
    <media:community>
-    <media:starRating count="678" average="5.00" min="1" max="5"/>
-    <media:statistics views="54551"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:-QUeNvX03Lk</id>
   <yt:videoId>-QUeNvX03Lk</yt:videoId>
-  <yt:channelId>UCZNxe_9FQAK2Z3suwaZlwpQ</yt:channelId>
+  
   <title>600亿美元并购200家企业，十年营收增长5065%，“财务工程”玩弄市场，财技大师泰科，险步安然后尘【美国商业简史12】上集</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=-QUeNvX03Lk"/>
   <author>
    <name>冲浪普拉斯</name>
    <uri>https://www.youtube.com/channel/UCZNxe_9FQAK2Z3suwaZlwpQ</uri>
   </author>
-  <published>2022-05-17T15:56:49+00:00</published>
-  <updated>2023-07-14T20:46:54+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>600亿美元并购200家企业，十年营收增长5065%，“财务工程”玩弄市场，财技大师泰科，险步安然后尘【美国商业简史12】上集</media:title>
    <media:content url="https://www.youtube.com/v/-QUeNvX03Lk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -335,23 +335,23 @@ https://www.youtube.com/channel/UCZNxe_9FQAK2Z3suwaZlwpQ/join
 
 如果只能使用支付宝或者微信付款，请访问 https://afdian.net/@chonglangplus?tab=feed</media:description>
    <media:community>
-    <media:starRating count="733" average="5.00" min="1" max="5"/>
-    <media:statistics views="65291"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:pXwkIpK7wUM</id>
   <yt:videoId>pXwkIpK7wUM</yt:videoId>
-  <yt:channelId>UCZNxe_9FQAK2Z3suwaZlwpQ</yt:channelId>
+  
   <title>摩根高盛击鼓传花，软银入局输血百亿，470亿美元独角兽IPO失败，戳破估值谎言【美国商业简史11】下集</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=pXwkIpK7wUM"/>
   <author>
    <name>冲浪普拉斯</name>
    <uri>https://www.youtube.com/channel/UCZNxe_9FQAK2Z3suwaZlwpQ</uri>
   </author>
-  <published>2022-05-15T05:00:14+00:00</published>
-  <updated>2023-07-14T21:43:53+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>摩根高盛击鼓传花，软银入局输血百亿，470亿美元独角兽IPO失败，戳破估值谎言【美国商业简史11】下集</media:title>
    <media:content url="https://www.youtube.com/v/pXwkIpK7wUM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -368,23 +368,23 @@ https://www.youtube.com/channel/UCZNxe_9FQAK2Z3suwaZlwpQ/join
 
 如果只能使用支付宝或者微信付款，请访问 https://afdian.net/@chonglangplus?tab=feed</media:description>
    <media:community>
-    <media:starRating count="1848" average="5.00" min="1" max="5"/>
-    <media:statistics views="136047"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:medfk81gkgU</id>
   <yt:videoId>medfk81gkgU</yt:videoId>
-  <yt:channelId>UCZNxe_9FQAK2Z3suwaZlwpQ</yt:channelId>
+  
   <title>包装梦想，口嗨利润，“诈骗”孙正义110亿美元，二房东WeWork是独角兽还是毒角兽？【美国商业简史11】上集</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=medfk81gkgU"/>
   <author>
    <name>冲浪普拉斯</name>
    <uri>https://www.youtube.com/channel/UCZNxe_9FQAK2Z3suwaZlwpQ</uri>
   </author>
-  <published>2022-05-15T04:05:44+00:00</published>
-  <updated>2023-07-16T06:36:42+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>包装梦想，口嗨利润，“诈骗”孙正义110亿美元，二房东WeWork是独角兽还是毒角兽？【美国商业简史11】上集</media:title>
    <media:content url="https://www.youtube.com/v/medfk81gkgU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -401,23 +401,23 @@ https://www.youtube.com/channel/UCZNxe_9FQAK2Z3suwaZlwpQ/join
 
 如果只能使用支付宝或者微信付款，请访问 https://afdian.net/@chonglangplus?tab=feed</media:description>
    <media:community>
-    <media:starRating count="1653" average="5.00" min="1" max="5"/>
-    <media:statistics views="154122"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:AoI9bzV66n4</id>
   <yt:videoId>AoI9bzV66n4</yt:videoId>
-  <yt:channelId>UCZNxe_9FQAK2Z3suwaZlwpQ</yt:channelId>
+  
   <title>匹敌北京、天津，好客山东的骄傲，比肩长三角、珠三角的北方之光，青岛是怎样的崛起与失落的？【城市中国18】下集</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=AoI9bzV66n4"/>
   <author>
    <name>冲浪普拉斯</name>
    <uri>https://www.youtube.com/channel/UCZNxe_9FQAK2Z3suwaZlwpQ</uri>
   </author>
-  <published>2022-05-14T13:30:15+00:00</published>
-  <updated>2023-07-14T20:54:35+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>匹敌北京、天津，好客山东的骄傲，比肩长三角、珠三角的北方之光，青岛是怎样的崛起与失落的？【城市中国18】下集</media:title>
    <media:content url="https://www.youtube.com/v/AoI9bzV66n4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -434,23 +434,23 @@ https://www.youtube.com/channel/UCZNxe_9FQAK2Z3suwaZlwpQ/join
 
 如果只能使用支付宝或者微信付款，请访问 https://afdian.net/@chonglangplus?tab=feed</media:description>
    <media:community>
-    <media:starRating count="934" average="5.00" min="1" max="5"/>
-    <media:statistics views="99863"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:jF0XlzVdfWQ</id>
   <yt:videoId>jF0XlzVdfWQ</yt:videoId>
-  <yt:channelId>UCZNxe_9FQAK2Z3suwaZlwpQ</yt:channelId>
+  
   <title>被宁波超车，被郑州追击， “北方第三城”青岛，中国传统制造业中心，离没落还有多远？【城市中国18】上集</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=jF0XlzVdfWQ"/>
   <author>
    <name>冲浪普拉斯</name>
    <uri>https://www.youtube.com/channel/UCZNxe_9FQAK2Z3suwaZlwpQ</uri>
   </author>
-  <published>2022-05-14T12:53:02+00:00</published>
-  <updated>2023-06-26T15:34:21+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>被宁波超车，被郑州追击， “北方第三城”青岛，中国传统制造业中心，离没落还有多远？【城市中国18】上集</media:title>
    <media:content url="https://www.youtube.com/v/jF0XlzVdfWQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -467,23 +467,23 @@ https://www.youtube.com/channel/UCZNxe_9FQAK2Z3suwaZlwpQ/join
 
 如果只能使用支付宝或者微信付款，请访问 https://afdian.net/@chonglangplus?tab=feed</media:description>
    <media:community>
-    <media:starRating count="770" average="5.00" min="1" max="5"/>
-    <media:statistics views="79359"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
  <entry>
   <id>yt:video:pogBAg7_ENg</id>
   <yt:videoId>pogBAg7_ENg</yt:videoId>
-  <yt:channelId>UCZNxe_9FQAK2Z3suwaZlwpQ</yt:channelId>
+  
   <title>长房三子反目成仇，两度对簿公堂，揭开霍氏豪门争产背后的商业内幕【中国商业简史45】下集</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=pogBAg7_ENg"/>
   <author>
    <name>冲浪普拉斯</name>
    <uri>https://www.youtube.com/channel/UCZNxe_9FQAK2Z3suwaZlwpQ</uri>
   </author>
-  <published>2022-05-09T08:45:13+00:00</published>
-  <updated>2023-06-22T04:56:49+00:00</updated>
+  <published></published>
+  <updated></updated>
   <media:group>
    <media:title>长房三子反目成仇，两度对簿公堂，揭开霍氏豪门争产背后的商业内幕【中国商业简史45】下集</media:title>
    <media:content url="https://www.youtube.com/v/pogBAg7_ENg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -500,8 +500,8 @@ https://www.youtube.com/channel/UCZNxe_9FQAK2Z3suwaZlwpQ/join
 
 如果只能使用支付宝或者微信付款，请访问 https://afdian.net/@chonglangplus?tab=feed</media:description>
    <media:community>
-    <media:starRating count="716" average="5.00" min="1" max="5"/>
-    <media:statistics views="59699"/>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
    </media:community>
   </media:group>
  </entry>
