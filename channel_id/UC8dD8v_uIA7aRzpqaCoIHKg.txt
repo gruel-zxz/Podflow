@@ -11,6 +11,39 @@
  </author>
  <published></published>
  <entry>
+  <id>yt:video:nKYX_wXeAKc</id>
+  <yt:videoId>nKYX_wXeAKc</yt:videoId>
+  
+  <title>战列舰为什么要齐射主炮？巨大的冲击波，不怕把自己轰散架吗？【科学火箭叔】</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=nKYX_wXeAKc"/>
+  <author>
+   <name>科学火箭叔</name>
+   <uri>https://www.youtube.com/channel/UC8dD8v_uIA7aRzpqaCoIHKg</uri>
+  </author>
+  <published></published>
+  <updated></updated>
+  <media:group>
+   <media:title>战列舰为什么要齐射主炮？巨大的冲击波，不怕把自己轰散架吗？【科学火箭叔】</media:title>
+   <media:content url="https://www.youtube.com/v/nKYX_wXeAKc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/nKYX_wXeAKc/hqdefault.jpg" width="480" height="360"/>
+   <media:description>战列舰为什么要齐射主炮？轮流射击就不行吗？巨大的冲击波，有可能把自己轰散架吗？答案是，可以！
+
+大家好，我是你们的“百科全叔”火箭叔~
+讲有趣的科学，教有料的创客！
+通过对自然科学和社会科学知识的描述，勾勒出科学知识图景的整体轮廓！
+想要了解更多知识，尽在【科学火箭叔】
+---------------------------------------------------------------------------------
+喜欢我就订阅我吧，不要忘记点击小铃铛奥🔔您的支持对我来说很宝贵！💨
+https://kexuehuojianshu.page.link/Dingyue
+
+#科学火箭叔#战列舰#齐射主炮#科普#文化</media:description>
+   <media:community>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:97ITS1YUa4I</id>
   <yt:videoId>97ITS1YUa4I</yt:videoId>
   
@@ -464,39 +497,6 @@ https://kexuehuojianshu.page.link/Dingyue
 https://kexuehuojianshu.page.link/Dingyue
 
 #科学火箭叔#喷火式战斗机#啤酒轰炸机#科普#文化</media:description>
-   <media:community>
-    <media: average="5.00" min="1" max="5"/>
-    <media:/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:jITygBBrf84</id>
-  <yt:videoId>jITygBBrf84</yt:videoId>
-  
-  <title>丛林里的亮化工程队，“萤火虫”为什么会发光？它教会了我们什么？【科学火箭叔】</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=jITygBBrf84"/>
-  <author>
-   <name>科学火箭叔</name>
-   <uri>https://www.youtube.com/channel/UC8dD8v_uIA7aRzpqaCoIHKg</uri>
-  </author>
-  <published></published>
-  <updated></updated>
-  <media:group>
-   <media:title>丛林里的亮化工程队，“萤火虫”为什么会发光？它教会了我们什么？【科学火箭叔】</media:title>
-   <media:content url="https://www.youtube.com/v/jITygBBrf84?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/jITygBBrf84/hqdefault.jpg" width="480" height="360"/>
-   <media:description>丛林里的亮化工程队，“萤火虫”为什么会发光？它教会了我们什么？
-
-大家好，我是你们的“百科全叔”火箭叔~
-讲有趣的科学，教有料的创客！
-通过对自然科学和社会科学知识的描述，勾勒出科学知识图景的整体轮廓！
-想要了解更多知识，尽在【科学火箭叔】
----------------------------------------------------------------------------------
-喜欢我就订阅我吧，不要忘记点击小铃铛奥🔔您的支持对我来说很宝贵！💨
-https://kexuehuojianshu.page.link/Dingyue
-
-#科学火箭叔#萤火虫#科普#文化</media:description>
    <media:community>
     <media: average="5.00" min="1" max="5"/>
     <media:/>
