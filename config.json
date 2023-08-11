@@ -1,0 +1,15 @@
+{
+    "channelid_youtube": {
+        "youtube": {
+            "update_size": 5,
+            "id": "UCBR8-60-B28hp2BmDPdntcQ",
+            "title": "YouTube",
+            "quality": "480",
+            "last_size": 20,
+            "media": "m4a"
+        },
+        "stone记":{
+            "id": "UCBR8"
+        }
+    }
+}
