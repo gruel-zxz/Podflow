@@ -31,3 +31,26 @@ with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
             future.result()
         except Exception as e:
             print(f"Error downloading {url}: {e}")
+
+
+
+
+
+
+import yt_dlp
+
+def download_video(video_url, output_dir, format_code='1080p'):
+    format_code += '+bestaudio/best'
+
+    ydl_opts = {
+        'outtmpl': f'{output_dir}/%(id)s.%(ext)s',
+        'format': f'bestvideo[height<={format_code}]+bestaudio/best[height<={format_code}]/best'
+    }
+    with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+        ydl.download([video_url])
+    print(f"Downloaded: {video_url}")
+
+# 调用 download_video 函数来下载视频
+video_url = "https://www.youtube.com/watch?v=jlAyraQ65Zw"
+output_dir = "path/to/save/videos"
+download_video(video_url, output_dir)
