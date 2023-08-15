@@ -1,1 +1,33 @@
 (?<=<id>yt:video:).{11}(?=</id>)
+
+
+import concurrent.futures
+import yt_dlp
+
+# 视频链接列表
+video_links = [
+    "视频链接1",
+    "视频链接2",
+    "视频链接3",
+    # 添加更多视频链接...
+]
+
+# 下载视频的函数
+def download_video(video_url):
+    ydl_opts = {}
+    with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+        ydl.download([video_url])
+    print(f"Downloaded: {video_url}")
+
+# 创建线程池，最多同时运行5个线程
+with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
+    # 提交任务给线程池
+    future_to_url = {executor.submit(download_video, link): link for link in video_links}
+
+    # 等待任务完成
+    for future in concurrent.futures.as_completed(future_to_url):
+        url = future_to_url[future]
+        try:
+            future.result()
+        except Exception as e:
+            print(f"Error downloading {url}: {e}")
