@@ -1,7 +1,7 @@
 {
     "channelid_youtube": {
         "youtube": {
-            "update_size": 5,
+            "update_size": 2,
             "id": "UCBR8-60-B28hp2BmDPdntcQ",
             "title": "YouTube",
             "quality": "480",
@@ -9,7 +9,7 @@
             "media": "m4a"
         },
         "stone记":{
-            "update_size": "w",
+            "update_size": "3",
             "id": "UCghLs6s95LrBWOdlZUCH4qw1"
         }
     }
