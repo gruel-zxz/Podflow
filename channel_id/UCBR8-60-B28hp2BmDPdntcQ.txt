@@ -10,6 +10,29 @@
   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
  </author>
  <entry>
+  <id>yt:video:SPi0GkYauVU</id>
+  <yt:videoId>SPi0GkYauVU</yt:videoId>
+  
+  <title>yes, chef</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=SPi0GkYauVU"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published></published>
+  <updated></updated>
+  <media:group>
+   <media:title>yes, chef</media:title>
+   <media:content url="https://www.youtube.com/v/SPi0GkYauVU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/SPi0GkYauVU/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:5Ht2M3awcYQ</id>
   <yt:videoId>5Ht2M3awcYQ</yt:videoId>
   
@@ -351,29 +374,6 @@ From how the world dresses, to how the world speaks, hip hop is not just a cultu
    <media:title>me when there’s no treats at the function</media:title>
    <media:content url="https://www.youtube.com/v/2Q38Z2R0Exo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i3.ytimg.com/vi/2Q38Z2R0Exo/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media: average="5.00" min="1" max="5"/>
-    <media:/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:SrSKwjonIyg</id>
-  <yt:videoId>SrSKwjonIyg</yt:videoId>
-  
-  <title>long story short Ludwig is the GOAT</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=SrSKwjonIyg"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published></published>
-  <updated></updated>
-  <media:group>
-   <media:title>long story short Ludwig is the GOAT</media:title>
-   <media:content url="https://www.youtube.com/v/SrSKwjonIyg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/SrSKwjonIyg/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
     <media: average="5.00" min="1" max="5"/>
