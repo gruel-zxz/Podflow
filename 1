@@ -1,6 +1,27 @@
 (?<=<id>yt:video:).{11}(?=</id>)
 
 
+import yt_dlp
+
+
+
+def download_video(video_url, output_dir, output_format, format_code = 480):
+    if output_format == 'm4a':
+        bestvideo = ""
+    else:
+        bestvideo = f'bestvideo[ext=mp4][height<={format_code}]/best+'
+    ydl_opts = {
+        'outtmpl': f'{output_dir}/{video_url}.{output_format}',
+        'format': f'{bestvideo}bestaudio[ext=m4a]/best'
+    }
+    with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+        ydl.download(f'https://www.youtube.com/watch?v={video_url}')
+    print(f"{video_url}下载成功")
+
+
+
+
+
 import concurrent.futures
 import yt_dlp
 
