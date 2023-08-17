@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCBR8-60-B28hp2BmDPdntcQ"/>
+ 
+ 
+ <title>YouTube</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ"/>
+ <author>
+  <name>YouTube</name>
+  <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+ </author>
+ <entry>
+  <id>yt:video:w85VN7EEBMo</id>
+  <yt:videoId>w85VN7EEBMo</yt:videoId>
+  
+  <title>heroes write among us #handwritingheroes</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=w85VN7EEBMo"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published></published>
+  <updated></updated>
+  <media:group>
+   <media:title>heroes write among us #handwritingheroes</media:title>
+   <media:content url="https://www.youtube.com/v/w85VN7EEBMo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/w85VN7EEBMo/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:SPi0GkYauVU</id>
+  <yt:videoId>SPi0GkYauVU</yt:videoId>
+  
+  <title>yes, chef</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=SPi0GkYauVU"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published></published>
+  <updated></updated>
+  <media:group>
+   <media:title>yes, chef</media:title>
+   <media:content url="https://www.youtube.com/v/SPi0GkYauVU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/SPi0GkYauVU/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:5Ht2M3awcYQ</id>
+  <yt:videoId>5Ht2M3awcYQ</yt:videoId>
+  
+  <title>From Type Beats to Billboard Hits - Like &amp; Describe Podcast #4</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=5Ht2M3awcYQ"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published></published>
+  <updated></updated>
+  <media:group>
+   <media:title>From Type Beats to Billboard Hits - Like &amp; Describe Podcast #4</media:title>
+   <media:content url="https://www.youtube.com/v/5Ht2M3awcYQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/5Ht2M3awcYQ/hqdefault.jpg" width="480" height="360"/>
+   <media:description>This episode, MatPat sits down with hip hop experts Tuma Basa and Curtiss King to dive into the ways that type beats have changed the hip hop industry, how art gets produced, and hot takes on AI in music.
+
+Tuma Basa is the Director of Black Music &amp; Culture at YouTube. He’s been working in the hip hop space for 25 years, and is responsible for a little playlist you might’ve heard of…RapCaviar. 
+
+Curtiss King is a California-based producer and rapper who’s worked with artists from Kendrick Lamar to Mack 10. Visit his channel @CurtissKingTV for the latest industry commentary and insights.
+
+Which YouTube trend would you like to see MatPat explore next? Let us know in the comments below! 💬
+
+Featured Videos:
+https://youtu.be/r7qovpFAGrQ
+https://youtu.be/E5ONTXHS2mM
+https://youtu.be/2xWkATdMQms
+https://youtu.be/KcTz_hpRNGY 
+
+In celebration of hip hop's 50th anniversary, YouTube is rolling 50 Deep. Check out the 50 Deep flagship playlist at: yt.be/yt50deep</media:description>
+   <media:community>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:sZ7X35Lnvso</id>
+  <yt:videoId>sZ7X35Lnvso</yt:videoId>
+  
+  <title>Celebrate 50 Years of Hip-Hop with YouTube | 50 Deep</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=sZ7X35Lnvso"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published></published>
+  <updated></updated>
+  <media:group>
+   <media:title>Celebrate 50 Years of Hip-Hop with YouTube | 50 Deep</media:title>
+   <media:content url="https://www.youtube.com/v/sZ7X35Lnvso?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/sZ7X35Lnvso/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Celebrate 50 Years of Hip-Hop and its global influence! 
+
+From how the world dresses, to how the world speaks, hip hop is not just a culture, it's THE culture. Dig through the crates and explore viral dance vids, iconic music videos, and more as we celebrate 5 decades of hip hop on YouTube. 
+
+#50Deep #HipHop #HipHop50</media:description>
+   <media:community>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:SxhSSQ28y9U</id>
+  <yt:videoId>SxhSSQ28y9U</yt:videoId>
+  
+  <title>the best adventures are the ones we embark on… together 🤠</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=SxhSSQ28y9U"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published></published>
+  <updated></updated>
+  <media:group>
+   <media:title>the best adventures are the ones we embark on… together 🤠</media:title>
+   <media:content url="https://www.youtube.com/v/SxhSSQ28y9U?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/SxhSSQ28y9U/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:gPDxEL1yKbU</id>
+  <yt:videoId>gPDxEL1yKbU</yt:videoId>
+  
+  <title>crunchy chips? good. crunchy audio? also good!</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=gPDxEL1yKbU"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published></published>
+  <updated></updated>
+  <media:group>
+   <media:title>crunchy chips? good. crunchy audio? also good!</media:title>
+   <media:content url="https://www.youtube.com/v/gPDxEL1yKbU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/gPDxEL1yKbU/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:GTEOm0lG3pY</id>
+  <yt:videoId>GTEOm0lG3pY</yt:videoId>
+  
+  <title>@dreamylittlenails absolutely NAILED this #ImSuperShy set @NewJeans_official</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=GTEOm0lG3pY"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published></published>
+  <updated></updated>
+  <media:group>
+   <media:title>@dreamylittlenails absolutely NAILED this #ImSuperShy set @NewJeans_official</media:title>
+   <media:content url="https://www.youtube.com/v/GTEOm0lG3pY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/GTEOm0lG3pY/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:psOf2GzSRbs</id>
+  <yt:videoId>psOf2GzSRbs</yt:videoId>
+  
+  <title>Which KPOP star is Larray obsessed with? | YouTube Watch History</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=psOf2GzSRbs"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published></published>
+  <updated></updated>
+  <media:group>
+   <media:title>Which KPOP star is Larray obsessed with? | YouTube Watch History</media:title>
+   <media:content url="https://www.youtube.com/v/psOf2GzSRbs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/psOf2GzSRbs/hqdefault.jpg" width="480" height="360"/>
+   <media:description>We love watching LARRAY’s videos, but what has HE been watching? LARRAY sat down with us to plug in his phone and reveal all the juicy details in his YouTube Watch History. From his favorite creators, to tutorials he has searched for, to the KPOP groups he CAN'T stop watching, LARRAY talks about what he’s been watching and why!
+
+0:00 Intro
+0:27 Last 24 Hours
+2:54 Keyword Search
+4:14 Scavenger Hunt 
+5:35 Swipe Roulette
+6:24 Desert Island
+
+#Larray #YouTube #WatchHistory</media:description>
+   <media:community>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Jk4S-fTZ7Tg</id>
+  <yt:videoId>Jk4S-fTZ7Tg</yt:videoId>
+  
+  <title>live every week like it’s shark week @discovery  #SharkWeek continues all week at 8p</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Jk4S-fTZ7Tg"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published></published>
+  <updated></updated>
+  <media:group>
+   <media:title>live every week like it’s shark week @discovery  #SharkWeek continues all week at 8p</media:title>
+   <media:content url="https://www.youtube.com/v/Jk4S-fTZ7Tg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/Jk4S-fTZ7Tg/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:PQ1knV-mo4w</id>
+  <yt:videoId>PQ1knV-mo4w</yt:videoId>
+  
+  <title>a duck on ice! well i’ll be darned.</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=PQ1knV-mo4w"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published></published>
+  <updated></updated>
+  <media:group>
+   <media:title>a duck on ice! well i’ll be darned.</media:title>
+   <media:content url="https://www.youtube.com/v/PQ1knV-mo4w?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/PQ1knV-mo4w/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:-HnEs4e2hOU</id>
+  <yt:videoId>-HnEs4e2hOU</yt:videoId>
+  
+  <title>who’s sharing this carrot cake with me? 🐰 @HypnoMotion #ImSuperShy #Time_to_NewJeans #NewJeans #뉴진스</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=-HnEs4e2hOU"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published></published>
+  <updated></updated>
+  <media:group>
+   <media:title>who’s sharing this carrot cake with me? 🐰 @HypnoMotion #ImSuperShy #Time_to_NewJeans #NewJeans #뉴진스</media:title>
+   <media:content url="https://www.youtube.com/v/-HnEs4e2hOU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/-HnEs4e2hOU/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:z1NVuyFbjuM</id>
+  <yt:videoId>z1NVuyFbjuM</yt:videoId>
+  
+  <title>can u smell that? @jeremyfragrance can</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=z1NVuyFbjuM"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published></published>
+  <updated></updated>
+  <media:group>
+   <media:title>can u smell that? @jeremyfragrance can</media:title>
+   <media:content url="https://www.youtube.com/v/z1NVuyFbjuM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/z1NVuyFbjuM/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:HwH59IpANys</id>
+  <yt:videoId>HwH59IpANys</yt:videoId>
+  
+  <title>shear satisfaction</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=HwH59IpANys"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published></published>
+  <updated></updated>
+  <media:group>
+   <media:title>shear satisfaction</media:title>
+   <media:content url="https://www.youtube.com/v/HwH59IpANys?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/HwH59IpANys/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:B70kZuuJoyY</id>
+  <yt:videoId>B70kZuuJoyY</yt:videoId>
+  
+  <title>i personally have taken major psychic damage from it</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=B70kZuuJoyY"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published></published>
+  <updated></updated>
+  <media:group>
+   <media:title>i personally have taken major psychic damage from it</media:title>
+   <media:content url="https://www.youtube.com/v/B70kZuuJoyY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/B70kZuuJoyY/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:XO7U4pq3zRI</id>
+  <yt:videoId>XO7U4pq3zRI</yt:videoId>
+  
+  <title>join @OliviaRodrigo for the premiere of “vampire” 💜 #vampireOR2</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=XO7U4pq3zRI"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published></published>
+  <updated></updated>
+  <media:group>
+   <media:title>join @OliviaRodrigo for the premiere of “vampire” 💜 #vampireOR2</media:title>
+   <media:content url="https://www.youtube.com/v/XO7U4pq3zRI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/XO7U4pq3zRI/hqdefault.jpg" width="480" height="360"/>
+   <media:description>the vibes at @OliviaRodrigo’s “vampire” premiere were *perfect* 💜 don’t forget to upload your Shorts with #vampireOR2!!</media:description>
+   <media:community>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>

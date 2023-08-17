@@ -1,3 +1,27 @@
+2023-08-17 11:45:10 Q_UkEJYueoY下载成功
+2023-08-17 11:45:03 7CwyK3PneH0下载成功
+2023-08-17 11:44:57 3nu4cvTZv0M下载成功
+2023-08-17 11:44:49 ZgCaA5OSZyM下载成功
+2023-08-17 11:44:46 NN6KZtEG1ns下载成功
+2023-08-17 11:44:44 N84DohTwcC8下载成功
+2023-08-17 11:44:41 SPi0GkYauVU下载成功
+2023-08-17 11:44:40 w85VN7EEBMo下载成功
+2023-08-17 11:44:35 需更新的YouTube频道:youtube, stone记, 四季妈妈—小龙
+2023-08-17 11:44:35 文件夹UC3elWG-AxVvIF2_xPQb1rkQ创建成功
+2023-08-17 11:44:35 YouTube频道 四季妈妈—小龙 已更新
+2023-08-17 11:44:35 文件夹UCghLs6s95LrBWOdlZUCH4qw创建成功
+2023-08-17 11:44:35 YouTube频道 stone记 已更新
+2023-08-17 11:44:35 文件夹UCBR8-60-B28hp2BmDPdntcQ创建成功
+2023-08-17 11:44:35 YouTube频道 youtube 已更新
+2023-08-17 11:44:34 读取youtube频道的channelid成功
+2023-08-17 11:44:34 文件夹channel_id创建成功
+2023-08-17 11:44:34 bilibili频道信息不存在
+2023-08-17 11:44:34 已读取youtube频道信息
+2023-08-17 11:44:34 已读取配置文件
+2023-08-17 11:44:33 pytube更新成功
+2023-08-17 11:44:32 pytube已安装
+2023-08-17 11:44:32 yt-dlp更新成功
+2023-08-17 11:44:28 yt-dlp已安装
 2023-08-17 11:05:58 4VcNp6jP8o0下载成功
 2023-08-17 11:02:58 4VcNp6jP8o0下载成功
 2023-08-17 11:02:24 4VcNp6jP8o下载失败，错误信息：[youtube:truncated_id] Incomplete YouTube ID 4VcNp6jP8o. URL https://www.youtube.com/watch?v=4VcNp6jP8o looks truncated.
