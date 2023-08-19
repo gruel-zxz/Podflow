@@ -10,6 +10,37 @@
   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
  </author>
  <entry>
+  <id>yt:video:PIq561J_hIo</id>
+  <yt:videoId>PIq561J_hIo</yt:videoId>
+  
+  <title>@courtreezy reveals her gross obsession, DIY side and med school dreams | YouTube Watch History</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=PIq561J_hIo"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published></published>
+  <updated></updated>
+  <media:group>
+   <media:title>@courtreezy reveals her gross obsession, DIY side and med school dreams | YouTube Watch History</media:title>
+   <media:content url="https://www.youtube.com/v/PIq561J_hIo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/PIq561J_hIo/hqdefault.jpg" width="480" height="360"/>
+   <media:description>We love watching Courtreezy’s videos, but what has SHE been watching? Courtreezy sat down with us to plug in her phone, and reveal what she is hiding in her YouTube Watch History. From her favorite collaborations, to her love of ear wax removal videos, to channels that inspire her own content, Courtreezy talks about what she’s been watching and why!
+
+0:00 - 0:23 Intro 
+0:23 - 1:30 Recent Videos
+1:30 - 3:40 Scavenger Hunt
+3:40 - 6:29 Scroll Roulette
+6:29 Final Thoughts
+
+#Courtreezy #WatchHistory #YouTube</media:description>
+   <media:community>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:w85VN7EEBMo</id>
   <yt:videoId>w85VN7EEBMo</yt:videoId>
   
@@ -352,29 +383,6 @@ From how the world dresses, to how the world speaks, hip hop is not just a cultu
    <media:content url="https://www.youtube.com/v/B70kZuuJoyY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i3.ytimg.com/vi/B70kZuuJoyY/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
-   <media:community>
-    <media: average="5.00" min="1" max="5"/>
-    <media:/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:XO7U4pq3zRI</id>
-  <yt:videoId>XO7U4pq3zRI</yt:videoId>
-  
-  <title>join @OliviaRodrigo for the premiere of “vampire” 💜 #vampireOR2</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=XO7U4pq3zRI"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published></published>
-  <updated></updated>
-  <media:group>
-   <media:title>join @OliviaRodrigo for the premiere of “vampire” 💜 #vampireOR2</media:title>
-   <media:content url="https://www.youtube.com/v/XO7U4pq3zRI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i1.ytimg.com/vi/XO7U4pq3zRI/hqdefault.jpg" width="480" height="360"/>
-   <media:description>the vibes at @OliviaRodrigo’s “vampire” premiere were *perfect* 💜 don’t forget to upload your Shorts with #vampireOR2!!</media:description>
    <media:community>
     <media: average="5.00" min="1" max="5"/>
     <media:/>
