@@ -10,6 +10,29 @@
   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
  </author>
  <entry>
+  <id>yt:video:G25VMOgmhxo</id>
+  <yt:videoId>G25VMOgmhxo</yt:videoId>
+  
+  <title>@jener.d @KurtTocci and @amandumbb share their deep philosophical thoughts on s'mores</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=G25VMOgmhxo"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published></published>
+  <updated></updated>
+  <media:group>
+   <media:title>@jener.d @KurtTocci and @amandumbb share their deep philosophical thoughts on s'mores</media:title>
+   <media:content url="https://www.youtube.com/v/G25VMOgmhxo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/G25VMOgmhxo/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:PIq561J_hIo</id>
   <yt:videoId>PIq561J_hIo</yt:videoId>
   
@@ -359,29 +382,6 @@ From how the world dresses, to how the world speaks, hip hop is not just a cultu
    <media:title>shear satisfaction</media:title>
    <media:content url="https://www.youtube.com/v/HwH59IpANys?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i1.ytimg.com/vi/HwH59IpANys/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media: average="5.00" min="1" max="5"/>
-    <media:/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:B70kZuuJoyY</id>
-  <yt:videoId>B70kZuuJoyY</yt:videoId>
-  
-  <title>i personally have taken major psychic damage from it</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=B70kZuuJoyY"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published></published>
-  <updated></updated>
-  <media:group>
-   <media:title>i personally have taken major psychic damage from it</media:title>
-   <media:content url="https://www.youtube.com/v/B70kZuuJoyY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/B70kZuuJoyY/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
     <media: average="5.00" min="1" max="5"/>
