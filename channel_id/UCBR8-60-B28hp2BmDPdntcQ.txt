@@ -10,6 +10,62 @@
   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
  </author>
  <entry>
+  <id>yt:video:oxN0AR0xlRg</id>
+  <yt:videoId>oxN0AR0xlRg</yt:videoId>
+  
+  <title>@BaileySarian does the ultimate GRWM</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=oxN0AR0xlRg"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published></published>
+  <updated></updated>
+  <media:group>
+   <media:title>@BaileySarian does the ultimate GRWM</media:title>
+   <media:content url="https://www.youtube.com/v/oxN0AR0xlRg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/oxN0AR0xlRg/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Join @BaileySarian as she takes us on a journey from 2010 to today to see how GRWM videos have evolved over the years. From first days of school to beauty breakdowns, True Crime, chatty or chaotic; anything goes!
+
+Who’s your favorite creator to watch get ready? Let us know in the comments below!
+
+Featured Creators:
+@myeshapolnett
+@amandacastillo
+@amandasteele
+@lyllistapper
+@kaitlyndobrow
+@saraijones
+@itsjudytime 
+@zahrazahra8785
+@baileysarian
+@shaaanxo
+@kinryan
+@nicoleguerriero
+@imjennim
+@astadarling
+@dulcecandy
+@devanondeck
+@trixie
+@mylifeaseva
+@arissaanjuli
+@lesliedtuck
+@Envydeladyd 
+
+0:00 - 0:26 Intro
+0:26 - 0:52 2010: The Beginning of GRWM
+0:52 - 1:57 2014 - 2018: The Evolution of GRWM
+1:57 - 2:30 2020 - Now: Creativity Meets Connection
+2:30 - 3:00 Outro
+
+#GRWM #Makeup #Beauty #GetReadyWithMe</media:description>
+   <media:community>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:G25VMOgmhxo</id>
   <yt:videoId>G25VMOgmhxo</yt:videoId>
   
@@ -359,29 +415,6 @@ From how the world dresses, to how the world speaks, hip hop is not just a cultu
    <media:title>can u smell that? @jeremyfragrance can</media:title>
    <media:content url="https://www.youtube.com/v/z1NVuyFbjuM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i3.ytimg.com/vi/z1NVuyFbjuM/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media: average="5.00" min="1" max="5"/>
-    <media:/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:HwH59IpANys</id>
-  <yt:videoId>HwH59IpANys</yt:videoId>
-  
-  <title>shear satisfaction</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=HwH59IpANys"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published></published>
-  <updated></updated>
-  <media:group>
-   <media:title>shear satisfaction</media:title>
-   <media:content url="https://www.youtube.com/v/HwH59IpANys?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i1.ytimg.com/vi/HwH59IpANys/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
     <media: average="5.00" min="1" max="5"/>
