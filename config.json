@@ -19,5 +19,6 @@
             "last_size": 30,
             "media": "mp4"
             }
-    }
+    },
+    "retry_count": 2
 }
