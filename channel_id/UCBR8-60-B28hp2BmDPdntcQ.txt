@@ -10,6 +10,29 @@
   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
  </author>
  <entry>
+  <id>yt:video:fokY9vEnAL4</id>
+  <yt:videoId>fokY9vEnAL4</yt:videoId>
+  
+  <title>key takeaway here: honesty is extremely important to @ludwigahgren</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=fokY9vEnAL4"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published></published>
+  <updated></updated>
+  <media:group>
+   <media:title>key takeaway here: honesty is extremely important to @ludwigahgren</media:title>
+   <media:content url="https://www.youtube.com/v/fokY9vEnAL4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/fokY9vEnAL4/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media: average="5.00" min="1" max="5"/>
+    <media:/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:oxN0AR0xlRg</id>
   <yt:videoId>oxN0AR0xlRg</yt:videoId>
   
@@ -392,29 +415,6 @@ From how the world dresses, to how the world speaks, hip hop is not just a cultu
    <media:title>who’s sharing this carrot cake with me? 🐰 @HypnoMotion #ImSuperShy #Time_to_NewJeans #NewJeans #뉴진스</media:title>
    <media:content url="https://www.youtube.com/v/-HnEs4e2hOU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i2.ytimg.com/vi/-HnEs4e2hOU/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media: average="5.00" min="1" max="5"/>
-    <media:/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:z1NVuyFbjuM</id>
-  <yt:videoId>z1NVuyFbjuM</yt:videoId>
-  
-  <title>can u smell that? @jeremyfragrance can</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=z1NVuyFbjuM"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published></published>
-  <updated></updated>
-  <media:group>
-   <media:title>can u smell that? @jeremyfragrance can</media:title>
-   <media:content url="https://www.youtube.com/v/z1NVuyFbjuM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/z1NVuyFbjuM/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
     <media: average="5.00" min="1" max="5"/>
