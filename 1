@@ -1,0 +1,18 @@
+import time
+
+# 获取当前时间的秒数
+current_time = time.time()
+
+# 获取当前时区和夏令时信息
+time_info = time.localtime(current_time)
+timezone_offset = time.timezone
+dst_offset = time.daylight
+
+# 计算时区偏移量
+total_offset = timezone_offset + dst_offset
+
+# 构造时间字符串
+formatted_time = time.strftime('%a, %d %b %Y %H:%M:%S %z', time_info)
+
+print("当前时间：", formatted_time)
+print("时区偏移量：", total_offset)
