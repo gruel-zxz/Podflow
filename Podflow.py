@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
+# In[1]:
 
 
 import os
@@ -15,17 +15,17 @@ import xml.etree.ElementTree as ET
 
 #默认参数
 default_config = {
+    "retry_count": 3,
     "channelid_youtube": {
         "youtube": {
-            "update_size": 5,
+            "update_size": 15,
             "id": "UCBR8-60-B28hp2BmDPdntcQ",
             "title": "YouTube",
             "quality": "480",
-            "last_size": 20,
+            "last_size": 50,
             "media": "m4a"
         }
-    },
-    "retry_count": 1
+    }
 }
 
 
@@ -36,9 +36,9 @@ default_config = {
 def write_log(log):
     # 获取当前的具体时间
     current_time = datetime.datetime.now()
-    # 格式化输出，只保留年月日时分秒
+    # 格式化输出, 只保留年月日时分秒
     formatted_time = current_time.strftime("%Y-%m-%d %H:%M:%S")
-    # 打开文件，并读取原有内容
+    # 打开文件, 并读取原有内容
     try:
         with open("log.txt", "r") as file:
             contents = file.read()
@@ -49,8 +49,8 @@ def write_log(log):
     # 将新的日志内容写入文件
     with open("log.txt", "w") as file:
         file.write(new_contents)
-    # 打印当前的具体时间（精确到秒）
-    print(log)
+    formatted_time_mini = current_time.strftime("%H:%M:%S")
+    print(f"{formatted_time_mini}|{log}")
 
 
 # In[ ]:
@@ -66,7 +66,7 @@ def library_install(library):
         except FileNotFoundError:
             return False
 
-    # 如果库未安装，则尝试安装
+    # 如果库未安装, 则尝试安装
     def install_library():
         try:
             result = subprocess.run(['pip', 'install', library , '-U'], capture_output=True, text=True)
@@ -74,7 +74,7 @@ def library_install(library):
         except FileNotFoundError:
             return False
 
-    # 如果库已安装，则尝试更新
+    # 如果库已安装, 则尝试更新
     def update_library():
         try:
             result = subprocess.run(['pip', 'install', '--upgrade', library], capture_output=True, text=True)
@@ -87,13 +87,13 @@ def library_install(library):
         write_log(f"{library}已安装")
     else:
         write_log(f"{library}未安装")
-    # 如果库已安装，则尝试更新
+    # 如果库已安装, 则尝试更新
     if is_library_installed():
         if update_library():
             write_log(f"{library}更新成功")
         else:
             write_log(f"{library}更新失败")
-    else:  # 如果库未安装，则尝试安装
+    else:  # 如果库未安装, 则尝试安装
         if install_library():
             write_log(f"{library}安装成功")
         else:
@@ -115,7 +115,7 @@ import yt_dlp
 # 获取视频时长模块
 def video_duration(video_website, video_url):
     try:
-        # 初始化 yt_dlp 实例，并忽略错误
+        # 初始化 yt_dlp 实例, 并忽略错误
         ydl = yt_dlp.YoutubeDL({'ignoreerrors': True})
         # 使用提供的 URL 提取视频信息
         if info_dict := ydl.extract_info(
@@ -125,7 +125,7 @@ def video_duration(video_website, video_url):
             return info_dict.get('duration')
     except Exception as e:
         # 记录下载失败及错误详情
-        write_log((f"{video_url} 下载失败，错误信息：{str(e)}").replace("ERROR: ", "").replace(f"{video_url}: ", ""))
+        write_log((f"{video_url} 下载失败, 错误信息：{str(e)}").replace("ERROR: ", "").replace(f"{video_url}: ", ""))
         return None
 
 # 获取已下载视频时长模块
@@ -141,7 +141,7 @@ def get_duration_ffprobe(file_path):
         ]
         # 执行命令并获取输出
         output = subprocess.check_output(command, stderr=subprocess.STDOUT).decode("utf-8")
-        # 使用正则表达式提取时长值，并将其转换为浮点数并四舍五入为整数
+        # 使用正则表达式提取时长值, 并将其转换为浮点数并四舍五入为整数
         return round(float(output))
     except subprocess.CalledProcessError as e:
         write_log(f"Error: {e.output}")
@@ -162,7 +162,7 @@ def download_video(video_url, output_dir, output_format, video_website, format_c
             ydl.download([f'{video_website}{video_url}'])  # 下载指定视频链接的视频
         write_log(f"{video_url}下载成功")  # 写入下载成功的日志信息
     except Exception as e:
-        write_log((f"{video_url}下载失败，错误信息：{str(e)}").replace("ERROR: ", "").replace(f"{video_url}: ", ""))  # 写入下载失败的日志信息
+        write_log((f"{video_url}下载失败, 错误信息：{str(e)}").replace("ERROR: ", "").replace(f"{video_url}: ", ""))  # 写入下载失败的日志信息
         return video_url
 
 
@@ -194,21 +194,25 @@ def dl_retry_video(video_url, output_dir, output_format, retry_count, video_webs
     return yt_id_failed
 
 
-# In[ ]:
+# In[2]:
 
 
 # 检查当前文件夹中是否存在config.json文件
 if not os.path.exists('config.json'):
-    # 如果文件不存在，创建并写入默认字典
+    # 如果文件不存在, 创建并写入默认字典
     with open('config.json', 'w') as file:
         json.dump(default_config, file, indent=4)
-    write_log("不存在配置文件，已新建，默认频道")
+    write_log("不存在配置文件, 已新建, 默认频道")
     config = default_config
 else:
-    # 如果文件存在，读取字典并保存到config变量中
-    with open('config.json', 'r') as file:
-        config = json.load(file)
-    write_log("已读取配置文件")
+    # 如果文件存在, 读取字典并保存到config变量中
+    try:
+        with open('config.json', 'r') as file:
+            config = json.load(file)
+        write_log("已读取配置文件")
+    except Exception as e:
+        write_log(f"配置文件有误, 请检查config.json, {str(e)}")
+        sys.exit(0)
 
 
 # In[ ]:
@@ -220,7 +224,7 @@ if (
     or not isinstance(config['retry_count'], int)
     or config['retry_count'] <= 0
 ):
-    config['retry_count'] = 1
+    config['retry_count'] = default_config["retry_count"]
 
 
 # In[ ]:
@@ -259,7 +263,7 @@ if not os.path.exists(folder_path_channel_ids):  # 判断文件夹是否存在
 youtube_video_media = ["m4v", "mov", "qt", "avi", "flv", "wmv", "asf", "mpeg", "mpg", "vob", "mkv", "rm", "rmvb", "vob", "ts", "dat"]
 youtube_dpi = ["144", "180", "216", "240", "360", "480", "720", "1080", "1440", "2160", "4320"]
 youtube_media = ["m4a", "mp4"]
-# 复制字典youtube-channelid，遍历复制后的字典进行操作以避免在循环中删除元素导致的迭代错误
+# 复制字典youtube-channelid, 遍历复制后的字典进行操作以避免在循环中删除元素导致的迭代错误
 channelid_youtube_copy = channelid_youtube.copy()
 # 对youtube-channelid的错误进行更正
 for channelid_youtube_key, channelid_youtube_value in channelid_youtube_copy.items():
@@ -275,7 +279,7 @@ for channelid_youtube_key, channelid_youtube_value in channelid_youtube_copy.ite
             or not isinstance(channelid_youtube_value['update_size'], int)
             or channelid_youtube_value['update_size'] <= 0
         ):
-            channelid_youtube[channelid_youtube_key]['update_size'] = 5
+            channelid_youtube[channelid_youtube_key]['update_size'] = default_config["channelid_youtube"]["youtube"]["update_size"]
         # 对id进行纠正
         channelid_youtube[channelid_youtube_key]['id'] = re.search(r"UC.{22}", channelid_youtube_value['id']).group()
         # 对last_size进行纠正
@@ -284,7 +288,7 @@ for channelid_youtube_key, channelid_youtube_value in channelid_youtube_copy.ite
             or not isinstance(channelid_youtube_value['last_size'], int)
             or channelid_youtube_value['last_size'] <= 0
         ):
-            channelid_youtube[channelid_youtube_key]['last_size'] = 20
+            channelid_youtube[channelid_youtube_key]['last_size'] = default_config["channelid_youtube"]["youtube"]["last_size"]
         # 对title进行纠正
         if 'title' not in channelid_youtube_value:
             channelid_youtube[channelid_youtube_key]['title'] = channelid_youtube_key
@@ -297,7 +301,7 @@ for channelid_youtube_key, channelid_youtube_value in channelid_youtube_copy.ite
             and 'media' in channelid_youtube_value
             and channelid_youtube_value['media'] == "mp4"
         ):
-            channelid_youtube[channelid_youtube_key]['quality'] = "480"
+            channelid_youtube[channelid_youtube_key]['quality'] = default_config["channelid_youtube"]["youtube"]["quality"]
         # 对media进行纠正
         if (
             'media' in channelid_youtube_value

@@ -1,3 +1,27 @@
+2023-09-01 03:19:22 YouTube频道 四季妈妈—小龙 已更新
+2023-09-01 03:19:22 YouTube频道 stone记 已更新
+2023-09-01 03:19:21 YouTube频道 youtube 已更新
+2023-09-01 03:19:21 读取youtube频道的channelid成功
+2023-09-01 03:19:21 bilibili频道信息不存在
+2023-09-01 03:19:21 已读取youtube频道信息
+2023-09-01 03:19:21 已读取配置文件
+2023-09-01 03:19:21 yt-dlp更新成功
+2023-09-01 03:19:19 yt-dlp已安装
+2023-09-01 03:18:42 配置文件有误, 请检查config.json, Expecting value: line 24 column 1 (char 587)
+2023-09-01 03:18:42 yt-dlp更新成功
+2023-09-01 03:18:40 yt-dlp已安装
+2023-09-01 03:13:29 配置文件有误, 请检查config.json, Expecting value: line 24 column 1 (char 587)
+2023-09-01 03:11:25 配置文件有误, 请检查config.json, Expecting value: line 24 column 1 (char 587)
+2023-09-01 03:06:55 配置文件有误，请检查config.json，Expecting value: line 24 column 1 (char 587)
+2023-09-01 03:05:54 配置文件有误，请检查config.json，Expecting value: line 24 column 1 (char 587)
+2023-09-01 03:04:22 配置文件有误, Expecting value: line 24 column 1 (char 587)，请检查config.json
+2023-09-01 03:03:26 配置文件有误，请检查config.json
+2023-09-01 03:02:05 配置文件有误，请检查config.json
+2023-09-01 03:01:09 配置文件有误，请检查config.json
+2023-09-01 02:59:11 配置文件有误，请检查config.json
+2023-09-01 02:48:14 已读取配置文件
+2023-09-01 02:47:30 yt-dlp更新成功
+2023-09-01 02:47:28 yt-dlp已安装
 2023-09-01 02:23:27 YouTube频道 四季妈妈—小龙 已更新
 2023-09-01 02:23:27 YouTube频道 stone记 已更新
 2023-09-01 02:23:26 YouTube频道 youtube 已更新
