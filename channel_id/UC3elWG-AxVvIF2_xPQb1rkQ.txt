@@ -121,7 +121,7 @@
    <media:description>这个女人是福建人心中的顶流，说是凡人她不会说话，说是神仙她有自己的身份证和护照。#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="73" average="5.00" min="1" max="5"/>
-    <media:statistics views="4276"/>
+    <media:statistics views="4273"/>
    </media:community>
   </media:group>
  </entry>
@@ -167,7 +167,7 @@
    <media:description>男人的爱好都能出一部进化史了，快来看看你到哪一步了#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="10" average="5.00" min="1" max="5"/>
-    <media:statistics views="574"/>
+    <media:statistics views="571"/>
    </media:community>
   </media:group>
  </entry>
@@ -190,7 +190,7 @@
    <media:description>男人干啥都要上厕所，厕所到底有什么秘密 #爱吐槽的四季妈妈  #家庭吐槽大会 scale</media:description>
    <media:community>
     <media:starRating count="12" average="5.00" min="1" max="5"/>
-    <media:statistics views="496"/>
+    <media:statistics views="497"/>
    </media:community>
   </media:group>
  </entry>
@@ -236,7 +236,7 @@
    <media:description>应该没有一个山东人可以拒绝这样的美味吧，你们都吃过什么看着丑吃着香的食物呢#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="72" average="5.00" min="1" max="5"/>
-    <media:statistics views="4353"/>
+    <media:statistics views="4351"/>
    </media:community>
   </media:group>
  </entry>
