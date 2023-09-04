@@ -29,7 +29,7 @@
    <media:description>东北最宝贵的不是人参鹿茸和皮草，而是温暖的人情#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="298"/>
+    <media:statistics views="301"/>
    </media:community>
   </media:group>
  </entry>
@@ -52,7 +52,7 @@
    <media:description>四川姑娘都是左手火锅右手喝，你们当地姑娘的酒量如何？#家庭吐槽大会 #爱吐槽的四季妈妈</media:description>
    <media:community>
     <media:starRating count="76" average="5.00" min="1" max="5"/>
-    <media:statistics views="4571"/>
+    <media:statistics views="4580"/>
    </media:community>
   </media:group>
  </entry>
@@ -98,7 +98,7 @@
    <media:description>跟山东人喝酒，主打一个站着进去，躺着出来#爱吐槽的四季妈妈 #家庭吐槽大会 #山东酒量</media:description>
    <media:community>
     <media:starRating count="72" average="5.00" min="1" max="5"/>
-    <media:statistics views="4698"/>
+    <media:statistics views="4701"/>
    </media:community>
   </media:group>
  </entry>
@@ -121,7 +121,7 @@
    <media:description>这个女人是福建人心中的顶流，说是凡人她不会说话，说是神仙她有自己的身份证和护照。#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="74" average="5.00" min="1" max="5"/>
-    <media:statistics views="4280"/>
+    <media:statistics views="4282"/>
    </media:community>
   </media:group>
  </entry>
@@ -236,7 +236,7 @@
    <media:description>应该没有一个山东人可以拒绝这样的美味吧，你们都吃过什么看着丑吃着香的食物呢#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="72" average="5.00" min="1" max="5"/>
-    <media:statistics views="4358"/>
+    <media:statistics views="4365"/>
    </media:community>
   </media:group>
  </entry>
