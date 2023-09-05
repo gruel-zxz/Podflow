@@ -11,6 +11,29 @@
  </author>
  <published>2022-06-04T16:17:27+00:00</published>
  <entry>
+  <id>yt:video:_1yZKcjyuEI</id>
+  <yt:videoId>_1yZKcjyuEI</yt:videoId>
+  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
+  <title>男人真的太能装了，出门只需要一个裤兜#爱吐槽的四季妈妈 #家庭吐槽大会</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=_1yZKcjyuEI"/>
+  <author>
+   <name>四季妈妈—小龙</name>
+   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
+  </author>
+  <published>2023-09-04T19:41:15+00:00</published>
+  <updated>2023-09-04T19:41:16+00:00</updated>
+  <media:group>
+   <media:title>男人真的太能装了，出门只需要一个裤兜#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
+   <media:content url="https://www.youtube.com/v/_1yZKcjyuEI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/_1yZKcjyuEI/hqdefault.jpg" width="480" height="360"/>
+   <media:description>男人真的太能装了，出门只需要一个裤兜#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
+   <media:community>
+    <media:starRating count="7" average="5.00" min="1" max="5"/>
+    <media:statistics views="119"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:6hIWTOmbt8c</id>
   <yt:videoId>6hIWTOmbt8c</yt:videoId>
   <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
@@ -21,15 +44,15 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2023-09-03T02:06:11+00:00</published>
-  <updated>2023-09-03T08:16:57+00:00</updated>
+  <updated>2023-09-04T21:27:07+00:00</updated>
   <media:group>
    <media:title>东北最宝贵的不是人参鹿茸和皮草，而是温暖的人情#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
    <media:content url="https://www.youtube.com/v/6hIWTOmbt8c?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i3.ytimg.com/vi/6hIWTOmbt8c/hqdefault.jpg" width="480" height="360"/>
    <media:description>东北最宝贵的不是人参鹿茸和皮草，而是温暖的人情#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="301"/>
+    <media:starRating count="7" average="5.00" min="1" max="5"/>
+    <media:statistics views="355"/>
    </media:community>
   </media:group>
  </entry>
@@ -51,8 +74,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/gyzFPjcUU6I/hqdefault.jpg" width="480" height="360"/>
    <media:description>四川姑娘都是左手火锅右手喝，你们当地姑娘的酒量如何？#家庭吐槽大会 #爱吐槽的四季妈妈</media:description>
    <media:community>
-    <media:starRating count="76" average="5.00" min="1" max="5"/>
-    <media:statistics views="4580"/>
+    <media:starRating count="82" average="5.00" min="1" max="5"/>
+    <media:statistics views="4739"/>
    </media:community>
   </media:group>
  </entry>
@@ -75,7 +98,7 @@
    <media:description>如果没看过伯伯跳水，那天津等于白去了#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="13" average="5.00" min="1" max="5"/>
-    <media:statistics views="459"/>
+    <media:statistics views="476"/>
    </media:community>
   </media:group>
  </entry>
@@ -97,8 +120,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/Xb_BCZxTYoI/hqdefault.jpg" width="480" height="360"/>
    <media:description>跟山东人喝酒，主打一个站着进去，躺着出来#爱吐槽的四季妈妈 #家庭吐槽大会 #山东酒量</media:description>
    <media:community>
-    <media:starRating count="72" average="5.00" min="1" max="5"/>
-    <media:statistics views="4701"/>
+    <media:starRating count="75" average="5.00" min="1" max="5"/>
+    <media:statistics views="4775"/>
    </media:community>
   </media:group>
  </entry>
@@ -121,7 +144,7 @@
    <media:description>这个女人是福建人心中的顶流，说是凡人她不会说话，说是神仙她有自己的身份证和护照。#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="74" average="5.00" min="1" max="5"/>
-    <media:statistics views="4282"/>
+    <media:statistics views="4340"/>
    </media:community>
   </media:group>
  </entry>
@@ -144,7 +167,7 @@
    <media:description>全国哪个省的女孩最能喝？姑娘酒量有多少，全看桌上放多少#爱吐槽的四季妈妈 #家庭吐槽大会 #属于我的多巴胺夏天</media:description>
    <media:community>
     <media:starRating count="12" average="5.00" min="1" max="5"/>
-    <media:statistics views="576"/>
+    <media:statistics views="581"/>
    </media:community>
   </media:group>
  </entry>
@@ -167,7 +190,7 @@
    <media:description>男人的爱好都能出一部进化史了，快来看看你到哪一步了#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="10" average="5.00" min="1" max="5"/>
-    <media:statistics views="575"/>
+    <media:statistics views="585"/>
    </media:community>
   </media:group>
  </entry>
@@ -190,7 +213,7 @@
    <media:description>男人干啥都要上厕所，厕所到底有什么秘密 #爱吐槽的四季妈妈  #家庭吐槽大会 scale</media:description>
    <media:community>
     <media:starRating count="12" average="5.00" min="1" max="5"/>
-    <media:statistics views="497"/>
+    <media:statistics views="508"/>
    </media:community>
   </media:group>
  </entry>
@@ -235,8 +258,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/JBoiqss7Xwc/hqdefault.jpg" width="480" height="360"/>
    <media:description>应该没有一个山东人可以拒绝这样的美味吧，你们都吃过什么看着丑吃着香的食物呢#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="72" average="5.00" min="1" max="5"/>
-    <media:statistics views="4365"/>
+    <media:starRating count="73" average="5.00" min="1" max="5"/>
+    <media:statistics views="4404"/>
    </media:community>
   </media:group>
  </entry>
@@ -259,7 +282,7 @@
    <media:description>这是不是你老婆出差时，你的反应   #爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="11" average="5.00" min="1" max="5"/>
-    <media:statistics views="724"/>
+    <media:statistics views="725"/>
    </media:community>
   </media:group>
  </entry>
@@ -282,7 +305,7 @@
    <media:description>南方人喝汤养生，北方人喝酒续命 #爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="241"/>
+    <media:statistics views="242"/>
    </media:community>
   </media:group>
  </entry>
@@ -305,7 +328,7 @@
    <media:description>是所有男人都这样吗？只要是自己的爱好，千难万险也得奔赴#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="13" average="5.00" min="1" max="5"/>
-    <media:statistics views="919"/>
+    <media:statistics views="920"/>
    </media:community>
   </media:group>
  </entry>
@@ -329,29 +352,6 @@
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
     <media:statistics views="486"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:Q_UkEJYueoY</id>
-  <yt:videoId>Q_UkEJYueoY</yt:videoId>
-  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
-  <title>男人的选择性记忆不仅让我没脾气还要夸一句有格局！#家庭吐槽大会 #爱吐槽的四季妈妈</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=Q_UkEJYueoY"/>
-  <author>
-   <name>四季妈妈—小龙</name>
-   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
-  </author>
-  <published>2023-08-15T04:43:02+00:00</published>
-  <updated>2023-08-15T19:30:45+00:00</updated>
-  <media:group>
-   <media:title>男人的选择性记忆不仅让我没脾气还要夸一句有格局！#家庭吐槽大会 #爱吐槽的四季妈妈</media:title>
-   <media:content url="https://www.youtube.com/v/Q_UkEJYueoY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/Q_UkEJYueoY/hqdefault.jpg" width="480" height="360"/>
-   <media:description>男人的选择性记忆不仅让我没脾气还要夸一句有格局！#家庭吐槽大会 #爱吐槽的四季妈妈</media:description>
-   <media:community>
-    <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="383"/>
    </media:community>
   </media:group>
  </entry>
