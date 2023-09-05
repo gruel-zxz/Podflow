@@ -21,7 +21,7 @@
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
   <published>2023-09-04T15:01:44+00:00</published>
-  <updated>2023-09-04T18:15:22+00:00</updated>
+  <updated>2023-09-05T08:42:10+00:00</updated>
   <media:group>
    <media:title>日本人撒了一泡尿，这尿里兑多少水你能喝下去？（20230904第6301期）</media:title>
    <media:content url="https://www.youtube.com/v/AoXouUuSUpc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -78,8 +78,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="403" average="5.00" min="1" max="5"/>
-    <media:statistics views="38687"/>
+    <media:starRating count="433" average="5.00" min="1" max="5"/>
+    <media:statistics views="46054"/>
    </media:community>
   </media:group>
  </entry>
@@ -94,7 +94,7 @@ https://youtu.be/BbtTwsP_-zc</media:description>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
   <published>2023-09-04T11:48:33+00:00</published>
-  <updated>2023-09-04T11:52:51+00:00</updated>
+  <updated>2023-09-05T08:23:26+00:00</updated>
   <media:group>
    <media:title>王健林有气魄，用自己的钱注资万达商管（20230904第6300期）</media:title>
    <media:content url="https://www.youtube.com/v/yP1YTvnv5bE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -151,8 +151,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="204" average="5.00" min="1" max="5"/>
-    <media:statistics views="36539"/>
+    <media:starRating count="213" average="5.00" min="1" max="5"/>
+    <media:statistics views="41302"/>
    </media:community>
   </media:group>
  </entry>
@@ -167,7 +167,7 @@ https://youtu.be/BbtTwsP_-zc</media:description>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
   <published>2023-09-04T11:37:02+00:00</published>
-  <updated>2023-09-04T11:50:23+00:00</updated>
+  <updated>2023-09-05T08:50:06+00:00</updated>
   <media:group>
    <media:title>中国房地产开发商股价大涨，北京上海成交脉冲式上涨（20230904第6299期）</media:title>
    <media:content url="https://www.youtube.com/v/3WLRWEGMslE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -224,8 +224,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="267" average="5.00" min="1" max="5"/>
-    <media:statistics views="51277"/>
+    <media:starRating count="278" average="5.00" min="1" max="5"/>
+    <media:statistics views="56649"/>
    </media:community>
   </media:group>
  </entry>
@@ -297,8 +297,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="409" average="5.00" min="1" max="5"/>
-    <media:statistics views="91779"/>
+    <media:starRating count="410" average="5.00" min="1" max="5"/>
+    <media:statistics views="93465"/>
    </media:community>
   </media:group>
  </entry>
@@ -370,8 +370,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="296" average="5.00" min="1" max="5"/>
-    <media:statistics views="64577"/>
+    <media:starRating count="297" average="5.00" min="1" max="5"/>
+    <media:statistics views="65333"/>
    </media:community>
   </media:group>
  </entry>
@@ -443,8 +443,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="284" average="5.00" min="1" max="5"/>
-    <media:statistics views="46293"/>
+    <media:starRating count="285" average="5.00" min="1" max="5"/>
+    <media:statistics views="47081"/>
    </media:community>
   </media:group>
  </entry>
@@ -516,8 +516,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="408" average="5.00" min="1" max="5"/>
-    <media:statistics views="85420"/>
+    <media:starRating count="412" average="5.00" min="1" max="5"/>
+    <media:statistics views="86823"/>
    </media:community>
   </media:group>
  </entry>
@@ -589,8 +589,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="134" average="5.00" min="1" max="5"/>
-    <media:statistics views="22000"/>
+    <media:starRating count="135" average="5.00" min="1" max="5"/>
+    <media:statistics views="22284"/>
    </media:community>
   </media:group>
  </entry>
@@ -663,7 +663,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="262" average="5.00" min="1" max="5"/>
-    <media:statistics views="50988"/>
+    <media:statistics views="51469"/>
    </media:community>
   </media:group>
  </entry>
@@ -735,8 +735,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="456" average="5.00" min="1" max="5"/>
-    <media:statistics views="117071"/>
+    <media:starRating count="458" average="5.00" min="1" max="5"/>
+    <media:statistics views="117611"/>
    </media:community>
   </media:group>
  </entry>
@@ -809,7 +809,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="318" average="5.00" min="1" max="5"/>
-    <media:statistics views="80884"/>
+    <media:statistics views="81413"/>
    </media:community>
   </media:group>
  </entry>
@@ -882,7 +882,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="236" average="5.00" min="1" max="5"/>
-    <media:statistics views="58746"/>
+    <media:statistics views="58950"/>
    </media:community>
   </media:group>
  </entry>
@@ -955,7 +955,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="303" average="5.00" min="1" max="5"/>
-    <media:statistics views="58636"/>
+    <media:statistics views="58778"/>
    </media:community>
   </media:group>
  </entry>
@@ -1028,7 +1028,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="45" average="5.00" min="1" max="5"/>
-    <media:statistics views="11428"/>
+    <media:statistics views="11478"/>
    </media:community>
   </media:group>
  </entry>
@@ -1101,7 +1101,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="78" average="5.00" min="1" max="5"/>
-    <media:statistics views="11904"/>
+    <media:statistics views="11957"/>
    </media:community>
   </media:group>
  </entry>
