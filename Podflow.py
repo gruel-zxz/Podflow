@@ -7,15 +7,22 @@
 import os
 import re
 import sys
+import html
 import json
+import time
 import requests
-import datetime
 import subprocess
-import xml.etree.ElementTree as ET
+from datetime import datetime, timedelta, timezone
 
 #默认参数
 default_config = {
     "retry_count": 3,
+    "url": "http://127.0.0.1:8000",
+    "title": "YouTube",
+    "link": "https://m.youtube.com",
+    "description": "在YouTube 上畅享您喜爱的视频和音乐，上传原创内容并与亲朋好友和全世界观众分享您的视频。",
+    "icon": "https://static.vecteezy.com/system/resources/previews/003/399/771/original/youtube-icon-editorial-free-vector.jpg",
+    "category": "TV &amp; Film",
     "channelid_youtube": {
         "youtube": {
             "update_size": 15,
@@ -32,10 +39,26 @@ default_config = {
 # In[ ]:
 
 
+# 文件保存模块
+def file_save(content, file_name, folder=None):
+    # 如果指定了文件夹，则将文件保存到指定的文件夹中
+    if folder:
+        file_path = os.path.join(os.path.join(os.getcwd(), folder), file_name)
+    else:
+        # 如果没有指定文件夹，则将文件保存在当前工作目录中
+        file_path = os.path.join(os.getcwd(), file_name)
+    # 保存文件
+    with open(file_path, "w", encoding="utf-8") as file:
+        file.write(content)
+
+
+# In[ ]:
+
+
 #日志模块
-def write_log(log):
+def write_log(log, suffix=None):
     # 获取当前的具体时间
-    current_time = datetime.datetime.now()
+    current_time = datetime.now()
     # 格式化输出, 只保留年月日时分秒
     formatted_time = current_time.strftime("%Y-%m-%d %H:%M:%S")
     # 打开文件, 并读取原有内容
@@ -47,10 +70,12 @@ def write_log(log):
     # 将新的日志内容添加在原有内容之前
     new_contents = f"{formatted_time} {log}\n{contents}"
     # 将新的日志内容写入文件
-    with open("log.txt", "w") as file:
-        file.write(new_contents)
+    file_save(new_contents, "log.txt")
     formatted_time_mini = current_time.strftime("%H:%M:%S")
-    print(f"{formatted_time_mini}|{log}")
+    if suffix:
+        print(f"{formatted_time_mini}|{log}|{suffix}")
+    else:
+        print(f"{formatted_time_mini}|{log}")
 
 
 # In[ ]:
@@ -65,7 +90,6 @@ def library_install(library):
             return result.returncode == 0
         except FileNotFoundError:
             return False
-
     # 如果库未安装, 则尝试安装
     def install_library():
         try:
@@ -73,7 +97,6 @@ def library_install(library):
             return result.returncode == 0
         except FileNotFoundError:
             return False
-
     # 如果库已安装, 则尝试更新
     def update_library():
         try:
@@ -81,7 +104,6 @@ def library_install(library):
             return result.returncode == 0
         except FileNotFoundError:
             return False
-
     # 检查库是否已安装
     if is_library_installed():
         write_log(f"{library}已安装")
@@ -194,7 +216,18 @@ def dl_retry_video(video_url, output_dir, output_format, retry_count, video_webs
     return yt_id_failed
 
 
-# In[2]:
+# In[ ]:
+
+
+# 构建文件夹模块
+def folder_build(folder_name):
+    folder_path = os.path.join(os.getcwd(), folder_name)
+    if not os.path.exists(folder_path):  # 判断文件夹是否存在
+        os.makedirs(folder_path)  # 创建文件夹
+        write_log(f"文件夹{folder_name}创建成功")
+
+
+# In[ ]:
 
 
 # 检查当前文件夹中是否存在config.json文件
@@ -210,6 +243,7 @@ else:
         with open('config.json', 'r') as file:
             config = json.load(file)
         write_log("已读取配置文件")
+    # 如果config格式有问题, 停止运行并报错
     except Exception as e:
         write_log(f"配置文件有误, 请检查config.json, {str(e)}")
         sys.exit(0)
@@ -225,6 +259,33 @@ if (
     or config['retry_count'] <= 0
 ):
     config['retry_count'] = default_config["retry_count"]
+# 对url进行纠正
+if (
+    'url' not in config
+    or not re.search(r"^(https?|ftp)://[^\s/$.?#].[^\s]*$", config['url'])
+    ):
+    config['url'] = default_config["url"]
+# 对title进行纠正
+if ('title' not in config):
+    config['title'] = default_config["title"]
+# 对link进行纠正
+if (
+    'link' not in config
+    or not re.search(r"^(https?|ftp)://[^\s/$.?#].[^\s]*$", config['link'])
+    ):
+    config['link'] = default_config["link"]
+# 对description进行纠正
+if ('description' not in config):
+    config['description'] = default_config["description"]
+# 对icon进行纠正
+if (
+    'icon' not in config
+    or not re.search(r"^(https?|ftp)://[^\s/$.?#].[^\s]*$", config['icon'])
+    ):
+    config['icon'] = default_config["icon"]
+# 对category进行纠正
+if ('category' not in config):
+    config['category'] = default_config["category"]
 
 
 # In[ ]:
@@ -250,10 +311,7 @@ else:
 
 
 # 构建文件夹channel_id
-folder_path_channel_ids = os.path.join(os.getcwd(), "channel_id")
-if not os.path.exists(folder_path_channel_ids):  # 判断文件夹是否存在
-    os.makedirs(folder_path_channel_ids)  # 创建文件夹
-    write_log("文件夹channel_id创建成功")
+folder_build("channel_id")
 
 
 # In[ ]:
@@ -289,6 +347,10 @@ for channelid_youtube_key, channelid_youtube_value in channelid_youtube_copy.ite
             or channelid_youtube_value['last_size'] <= 0
         ):
             channelid_youtube[channelid_youtube_key]['last_size'] = default_config["channelid_youtube"]["youtube"]["last_size"]
+        channelid_youtube[channelid_youtube_key]['last_size'] = max(
+            channelid_youtube[channelid_youtube_key]['last_size'],
+            channelid_youtube[channelid_youtube_key]['update_size'],
+        )
         # 对title进行纠正
         if 'title' not in channelid_youtube_value:
             channelid_youtube[channelid_youtube_key]['title'] = channelid_youtube_key
@@ -350,26 +412,21 @@ for youtube_key, youtube_value in channelid_youtube_ids.items():
     youtube_response = requests.get(youtube_url)
     youtube_content = youtube_response.text
     if not re.search(pattern_youtube404, youtube_content):
-        youtube_content = re.sub(pattern_youtube_vary, '', youtube_content)
+        youtube_content_clean = re.sub(pattern_youtube_vary, '', youtube_content)
         # 读取原Youtube频道xml文件并判断是否要更新
         try:
             with open(f"channel_id/{youtube_key}.txt", 'r', encoding='utf-8') as file:  # 打开文件进行读取
                 youtube_content_original = file.read()  # 读取文件内容
-            if youtube_content != youtube_content_original:  #判断是否要更新
+                youtube_content_original_clean = re.sub(pattern_youtube_vary, '', youtube_content_original)
+            if youtube_content_clean != youtube_content_original_clean :  #判断是否要更新
                 channelid_youtube_ids_update[youtube_key] = youtube_value
         except FileNotFoundError:  #文件不存在直接更新
             channelid_youtube_ids_update[youtube_key] = youtube_value
-        # 构建文件路径
-        file_path = os.path.join(folder_path_channel_ids, f"{youtube_key}.txt")
-        # 构建文件路径
-        with open(file_path, "w", encoding="utf-8") as file:
-            file.write(youtube_content)
-            write_log(f"YouTube频道 {youtube_value} 已更新")
+        # 构建文件
+        file_save(youtube_content, f"{youtube_key}.txt", "channel_id")
+        write_log(f"YouTube频道 {youtube_value} 已更新")
         # 构建频道文件夹
-        folder_path_channel_id = os.path.join(os.getcwd(), youtube_key)
-        if not os.path.exists(folder_path_channel_id):  # 判断文件夹是否存在
-            os.makedirs(folder_path_channel_id)  # 创建文件夹
-            write_log(f"文件夹{youtube_key}创建成功")
+        folder_build(youtube_key)
         #获取Youtube视频ID列表
         youtube_content_ytid = re.findall(r"(?<=<id>yt:video:).{11}(?=</id>)", youtube_content)
         youtube_content_ytid = youtube_content_ytid[:channelid_youtube[youtube_value]['update_size']]
@@ -410,4 +467,273 @@ for ytid_key, ytid_value in youtube_content_ytid_update.items():
         ):
             yt_id_failed.append(yt_id)
             write_log(f"{yt_id}无法下载")
+
+
+# In[ ]:
+
+
+#生成XML模块
+def xml_rss(title,link,description,category,icon,items):
+    # 获取当前时间
+    current_time_now = time.time()  # 获取当前时间的秒数
+    # 获取当前时区和夏令时信息
+    time_info_now = time.localtime(current_time_now)
+    # 构造时间字符串
+    formatted_time_now = time.strftime('%a, %d %b %Y %H:%M:%S %z', time_info_now)
+    itunes_summary = description.replace("\n", "&#xA;")
+    # 创建主XML信息
+    return f'''<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+    <channel>
+        <title>{title}</title>
+        <link>{link}</link>
+        <description>{description}</description>
+        <category>{category}</category>
+        <generator>Podflow (support us at https://github.com/gruel-zxz/podflow)</generator>
+        <language>en-us</language>
+        <lastBuildDate>{formatted_time_now}</lastBuildDate>
+        <pubDate>Sun, 24 Apr 2005 11:20:54 +0800</pubDate>
+        <image>
+            <url>{icon}</url>
+            <title>{title}</title>
+            <link>{link}</link>
+        </image>
+        <itunes:author>{title}</itunes:author>
+        <itunes:subtitle>{title}</itunes:subtitle>
+        <itunes:summary><![CDATA[{itunes_summary}]]></itunes:summary>
+        <itunes:image href="{icon}"></itunes:image>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:category text="{category}"></itunes:category>
+{items}
+    </channel>
+</rss>'''
+
+
+# In[ ]:
+
+
+# 生成item模块
+def xml_item(video_url, output_dir, video_website, channelid_title,title, description, pubDate, image):
+    # 查看标题中是否有频道名称，如无添加到描述中
+    if channelid_title not in html.unescape("title"):
+        description = f"『{html.escape(channelid_title)}』\n{description}"
+    # 更换描述换行符
+    replacement_description = description.replace("\n", "&#xA;")
+    # 获取文件后缀和文件字节大小
+    if os.path.exists(f"{output_dir}/{video_url}.mp4"):
+        video_length_bytes = os.path.getsize(f"{output_dir}/{video_url}.mp4")
+        output_format = "mp4"
+        video_type = "video/mp4"
+    else:
+        if os.path.exists(f"{output_dir}/{video_url}.m4a"):
+            video_length_bytes = os.path.getsize(f"{output_dir}/{video_url}.m4a")
+        else:
+            video_length_bytes = 0
+        output_format = "m4a"
+        video_type = "audio/x-m4a"
+    # 获取文件时长
+    hours, remaining_seconds = divmod(get_duration_ffprobe(f"{output_dir}/{video_url}.{output_format}"), 3600)
+    minutes = remaining_seconds // 60
+    remaining_seconds = remaining_seconds % 60
+    if hours > 1:
+        duration = '{:02}:{:02}:{:02}'.format(hours, minutes, remaining_seconds)
+    else:
+        duration = '{:02}:{:02}'.format(minutes, remaining_seconds)
+    # 回显对应的item
+    return f'''
+        <item>
+            <guid>{video_url}</guid>
+            <title>{title}</title>
+            <link>{video_website}{video_url}</link>
+            <description>{replacement_description}</description>
+            <pubDate>{pubDate}</pubDate>
+            <enclosure url="{config["url"]}/{output_dir}/{video_url}.{output_format}" length="{video_length_bytes}" type="{video_type}"></enclosure>
+            <itunes:author>{title}</itunes:author>
+            <itunes:subtitle>{title}</itunes:subtitle>
+            <itunes:summary><![CDATA[{description}]]></itunes:summary>
+            <itunes:image href="{image}"></itunes:image>
+            <itunes:duration>{duration}</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:order>1</itunes:order>
+        </item>
+'''
+
+
+# In[ ]:
+
+
+# 生成YouTube的item模块
+def youtube_xml_item(entry):
+    # 输入时间字符串和原始时区
+    time_str = re.search(r"(?<=<published>).+(?=</published>)", entry).group()
+    original_tz = timezone.utc  # 原始时区为UTC
+    # 解析时间字符串并转换为datetime对象
+    dt = datetime.fromisoformat(time_str[:-6]).replace(tzinfo=original_tz)
+    # 转换为目标时区
+    target_tz = timezone(timedelta(seconds=-(time.timezone + time.daylight)))
+    dt_target = dt.astimezone(target_tz)
+    # 格式化为目标时间字符串
+    target_format = '%a, %d %b %Y %H:%M:%S %z'
+    pubDate = dt_target.strftime(target_format)
+    output_dir = re.search(r"(?<=<yt:channelId>).+(?=</yt:channelId>)", entry).group()
+    description = re.search(r"(?<=<media:description>).+(?=</media:description>)", re.sub(r"\n+", "\n", entry), flags=re.DOTALL)
+    description = description.group() if description else ""
+    return xml_item(
+        re.search(r"(?<=<yt:videoId>).+(?=</yt:videoId>)", entry).group(),
+        output_dir ,
+        "https://youtube.com/watch?v=",
+        channelid_youtube[channelid_youtube_ids[output_dir ]]["title"],
+        re.search(r"(?<=<title>).+(?=</title>)", entry).group(),
+        description,
+        pubDate,
+        re.search(r"(?<=<media:thumbnail url=\").+(?=\" width=\")", entry).group()
+    )
+
+
+# In[ ]:
+
+
+# 生成原有的item模块
+def xml_original_item(original_item):
+    guid = re.search(r"(?<=<guid>).+(?=</guid>)", original_item).group()
+    title = re.search(r"(?<=<title>).+(?=</title>)", original_item).group()
+    link = re.search(r"(?<=<link>).+(?=</link>)", original_item).group()
+    description = re.search(r"(?<=<description>).+(?=</description>)", original_item)
+    description = description.group() if description else ""
+    pubDate = re.search(r"(?<=<pubDate>).+(?=</pubDate>)", original_item).group()
+    url = re.search(r"(?<=<enclosure url\=\").+?(?=\")", original_item).group()
+    url = re.search(r"UC.{22}/.{11}\.(m4a|mp4)", url).group()
+    url = f"{config['url']}/{url}"
+    length = re.search(r"(?<=length\=\")[0-9]+(?=\")", original_item).group()
+    type_video = re.search(r"(?<=type\=\")(video/mp4|audio/x-m4a|audio/mpeg)(?=\")", original_item).group()
+    if type_video == "audio/mpeg":
+        type_video = "audio/x-m4a"
+    itunes_author =  re.search(r"(?<=<itunes:author>).+(?=</itunes:author>)", original_item).group()
+    itunes_subtitle = re.search(r"(?<=<itunes:subtitle>).+(?=</itunes:subtitle>)", original_item).group()
+    itunes_summary = re.search(r"(?<=<itunes:summary><\!\[CDATA\[).+(?=\]\]></itunes:summary>)", original_item, flags=re.DOTALL)
+    itunes_summary = itunes_summary.group() if itunes_summary else ""
+    itunes_image = re.search(r"(?<=<itunes:image href\=\").+(?=\"></itunes:image>)", original_item)
+    itunes_image = itunes_image.group() if itunes_image else ""
+    itunes_duration = re.search(r"(?<=<itunes:duration>).+(?=</itunes:duration>)", original_item).group()
+    itunes_explicit = re.search(r"(?<=<itunes:explicit>).+(?=</itunes:explicit>)", original_item).group()
+    itunes_order = re.search(r"(?<=<itunes:order>).+(?=</itunes:order>)", original_item).group()
+    return f'''
+        <item>
+            <guid>{guid}</guid>
+            <title>{title}</title>
+            <link>{link}</link>
+            <description>{description}</description>
+            <pubDate>{pubDate}</pubDate>
+            <enclosure url="{url}" length="{length}" type="{type_video}"></enclosure>
+            <itunes:author>{itunes_author}</itunes:author>
+            <itunes:subtitle>{itunes_subtitle}</itunes:subtitle>
+            <itunes:summary><![CDATA[{itunes_summary}]]></itunes:summary>
+            <itunes:image href="{itunes_image}"></itunes:image>
+            <itunes:duration>{itunes_duration}</itunes:duration>
+            <itunes:explicit>{itunes_explicit}</itunes:explicit>
+            <itunes:order>{itunes_order}</itunes:order>
+        </item>
+'''
+
+
+# In[ ]:
+
+
+# 获取原始xml文件
+try:
+    with open(f"{config['title']}.xml", 'r', encoding='utf-8') as file:  # 打开文件进行读取
+        rss_original = file.read()  # 读取文件内容
+        write_log("已获取原始rss文件")
+        xmls_original = {
+            rss_original_channel: rss_original.split(
+                f'<!-- {{{rss_original_channel}}} -->\n'
+            )[1]
+            for rss_original_channel in list(
+                set(re.findall(r"(?<=<!-- \{).+?(?=\} -->)", rss_original))
+            )
+        }
+except FileNotFoundError:  #文件不存在直接更新
+    xmls_original = None
+    write_log("原始rss文件不存在, 无法保留原有节目")
+
+
+# In[ ]:
+
+
+# 构建文件夹channel_rss
+folder_build("channel_rss")
+
+
+# In[ ]:
+
+
+# 生成YouTube对应channel的需更新的items模块
+def youtube_xml_items(output_dir):
+    items = f"<!-- {output_dir} -->"
+    with open(f"channel_id/{output_dir}.txt", 'r', encoding='utf-8') as file:  # 打开文件进行读取
+        file_xml = file.read()
+    entrys = re.findall(r"<entry>.+?</entry>", file_xml, re.DOTALL)
+    entry_num = 0
+    for entry in entrys:
+        if re.search(r"(?<=<yt:videoId>).+(?=</yt:videoId>)", entry).group() not in yt_id_failed :
+            items = f"{items}{youtube_xml_item(entry)}<!-- {output_dir} -->"
+            entry_num += 1
+        if entry_num >= channelid_youtube[channelid_youtube_ids[output_dir ]]["update_size"]:
+            break
+    items_guid = re.findall(r"(?<=guid>).+(?=</guid>)", items)
+    entry_count = channelid_youtube[channelid_youtube_ids[output_dir]]["last_size"] - len(items_guid)
+    if xmls_original and output_dir in xmls_original and entry_count > 0:
+        xml_num = 0
+        for xml in xmls_original[output_dir].split(f"<!-- {output_dir} -->"):
+            xml_guid = re.search(r"(?<=guid>).+(?=</guid>)", xml)
+            if xml_guid and xml_guid not in items_guid:
+                items = f"{items}{xml_original_item(xml)}<!-- {output_dir} -->"
+                xml_num += 1
+            if xml_num >= entry_count:
+                break
+    channel_about =requests.get(f"https://www.youtube.com/channel/{output_dir}/about").text
+    title = re.search(r"(?<=<title>).+(?=</title>)", file_xml).group()
+    link = f"https://www.youtube.com/channel/{output_dir}"
+    category = config["category"]
+    icon = re.sub(
+        r"=s(0|[1-9]\d{0,3}|1[0-9]{1,3}|20[0-3][0-9]|204[0-8])-c-k",
+        "=s2048-c-k",
+        re.search(
+            r"https?://yt3.googleusercontent.com/[^\s]*(?=\">)",
+            channel_about,
+        ).group(),
+    )
+    description = re.search(r"(?<=\<meta itemprop\=\"description\" content\=\").+?(?=\")", channel_about, flags=re.DOTALL).group()
+    file_save(xml_rss(title,link,description,category,icon,items), f"{output_dir}.xml", "channel_rss")
+    write_log(f"{channelid_youtube_ids[output_dir]} 播客已更新", f"地址: {config['url']}/channel_rss/{output_dir}.xml")
+    return items
+
+
+# In[ ]:
+
+
+# 生成主rss
+all_youtube_content_ytid = {}
+all_items = ""
+for output_dir in channelid_youtube_ids:
+    items = f'''<!-- {{{output_dir}}} -->
+{youtube_xml_items(output_dir)}
+<!-- {{{output_dir}}} -->'''
+    all_items = items if all_items == "" else f'''{all_items}
+{items}'''
+    all_youtube_content_ytid[output_dir] = re.findall(r"(?<=UC.{22}/)(.+\.m4a|.+\.mp4)(?=\")", items)
+file_save(xml_rss(config["title"], config["link"], config["description"], config["category"], config["icon"], all_items), f"{config['title']}.xml")
+write_log("主播客已更新", f"地址: {config['url']}/{config['title']}.xml")
+
+
+# In[ ]:
+
+
+print(all_youtube_content_ytid)
+
+
+# In[ ]:
+
+
+print(os.listdir("UCghLs6s95LrBWOdlZUCH4qw"))
 
