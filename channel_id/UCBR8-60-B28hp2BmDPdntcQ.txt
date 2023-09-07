@@ -27,8 +27,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/DcNI16MEjrM/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1454" average="5.00" min="1" max="5"/>
-    <media:statistics views="23440"/>
+    <media:starRating count="1472" average="5.00" min="1" max="5"/>
+    <media:statistics views="23838"/>
    </media:community>
   </media:group>
  </entry>
@@ -50,8 +50,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/fokY9vEnAL4/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3372" average="5.00" min="1" max="5"/>
-    <media:statistics views="69861"/>
+    <media:starRating count="3385" average="5.00" min="1" max="5"/>
+    <media:statistics views="70111"/>
    </media:community>
   </media:group>
  </entry>
@@ -107,7 +107,7 @@ Featured Creators:
 #GRWM #Makeup #Beauty #GetReadyWithMe</media:description>
    <media:community>
     <media:starRating count="3178" average="5.00" min="1" max="5"/>
-    <media:statistics views="428163"/>
+    <media:statistics views="428599"/>
    </media:community>
   </media:group>
  </entry>
@@ -129,8 +129,8 @@ Featured Creators:
    <media:thumbnail url="https://i4.ytimg.com/vi/G25VMOgmhxo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3999" average="5.00" min="1" max="5"/>
-    <media:statistics views="83785"/>
+    <media:starRating count="4008" average="5.00" min="1" max="5"/>
+    <media:statistics views="84006"/>
    </media:community>
   </media:group>
  </entry>
@@ -160,8 +160,8 @@ Featured Creators:
 
 #Courtreezy #WatchHistory #YouTube</media:description>
    <media:community>
-    <media:starRating count="1872" average="5.00" min="1" max="5"/>
-    <media:statistics views="374490"/>
+    <media:starRating count="1875" average="5.00" min="1" max="5"/>
+    <media:statistics views="374677"/>
    </media:community>
   </media:group>
  </entry>
@@ -183,8 +183,8 @@ Featured Creators:
    <media:thumbnail url="https://i4.ytimg.com/vi/w85VN7EEBMo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4326" average="5.00" min="1" max="5"/>
-    <media:statistics views="84995"/>
+    <media:starRating count="4334" average="5.00" min="1" max="5"/>
+    <media:statistics views="85108"/>
    </media:community>
   </media:group>
  </entry>
@@ -206,8 +206,8 @@ Featured Creators:
    <media:thumbnail url="https://i4.ytimg.com/vi/SPi0GkYauVU/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="6556" average="5.00" min="1" max="5"/>
-    <media:statistics views="108410"/>
+    <media:starRating count="6568" average="5.00" min="1" max="5"/>
+    <media:statistics views="108547"/>
    </media:community>
   </media:group>
  </entry>
@@ -244,7 +244,7 @@ https://youtu.be/KcTz_hpRNGY
 In celebration of hip hop's 50th anniversary, YouTube is rolling 50 Deep. Check out the 50 Deep flagship playlist at: yt.be/yt50deep</media:description>
    <media:community>
     <media:starRating count="1800" average="5.00" min="1" max="5"/>
-    <media:statistics views="166476"/>
+    <media:statistics views="166576"/>
    </media:community>
   </media:group>
  </entry>
@@ -270,8 +270,8 @@ From how the world dresses, to how the world speaks, hip hop is not just a cultu
 
 #50Deep #HipHop #HipHop50</media:description>
    <media:community>
-    <media:starRating count="4271" average="5.00" min="1" max="5"/>
-    <media:statistics views="2011829"/>
+    <media:starRating count="4276" average="5.00" min="1" max="5"/>
+    <media:statistics views="2019178"/>
    </media:community>
   </media:group>
  </entry>
@@ -293,8 +293,8 @@ From how the world dresses, to how the world speaks, hip hop is not just a cultu
    <media:thumbnail url="https://i4.ytimg.com/vi/SxhSSQ28y9U/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4314" average="5.00" min="1" max="5"/>
-    <media:statistics views="70624"/>
+    <media:starRating count="4318" average="5.00" min="1" max="5"/>
+    <media:statistics views="70679"/>
    </media:community>
   </media:group>
  </entry>
@@ -316,8 +316,8 @@ From how the world dresses, to how the world speaks, hip hop is not just a cultu
    <media:thumbnail url="https://i4.ytimg.com/vi/gPDxEL1yKbU/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="5065" average="5.00" min="1" max="5"/>
-    <media:statistics views="114355"/>
+    <media:starRating count="5068" average="5.00" min="1" max="5"/>
+    <media:statistics views="114418"/>
    </media:community>
   </media:group>
  </entry>
@@ -339,8 +339,8 @@ From how the world dresses, to how the world speaks, hip hop is not just a cultu
    <media:thumbnail url="https://i4.ytimg.com/vi/GTEOm0lG3pY/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="8123" average="5.00" min="1" max="5"/>
-    <media:statistics views="205330"/>
+    <media:starRating count="8128" average="5.00" min="1" max="5"/>
+    <media:statistics views="205479"/>
    </media:community>
   </media:group>
  </entry>
@@ -371,8 +371,8 @@ From how the world dresses, to how the world speaks, hip hop is not just a cultu
 
 #Larray #YouTube #WatchHistory</media:description>
    <media:community>
-    <media:starRating count="2529" average="5.00" min="1" max="5"/>
-    <media:statistics views="139303"/>
+    <media:starRating count="2532" average="5.00" min="1" max="5"/>
+    <media:statistics views="139383"/>
    </media:community>
   </media:group>
  </entry>
@@ -394,8 +394,8 @@ From how the world dresses, to how the world speaks, hip hop is not just a cultu
    <media:thumbnail url="https://i3.ytimg.com/vi/Jk4S-fTZ7Tg/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="6299" average="5.00" min="1" max="5"/>
-    <media:statistics views="125101"/>
+    <media:starRating count="6304" average="5.00" min="1" max="5"/>
+    <media:statistics views="125161"/>
    </media:community>
   </media:group>
  </entry>
@@ -417,8 +417,8 @@ From how the world dresses, to how the world speaks, hip hop is not just a cultu
    <media:thumbnail url="https://i1.ytimg.com/vi/PQ1knV-mo4w/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="5074" average="5.00" min="1" max="5"/>
-    <media:statistics views="106324"/>
+    <media:starRating count="5076" average="5.00" min="1" max="5"/>
+    <media:statistics views="106355"/>
    </media:community>
   </media:group>
  </entry>
