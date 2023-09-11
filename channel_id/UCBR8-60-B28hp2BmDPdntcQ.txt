@@ -10,6 +10,38 @@
   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
  </author>
  <entry>
+  <id>yt:video:k2_eWjsB6lI</id>
+  <yt:videoId>k2_eWjsB6lI</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>@safiya  reveals her love of Twilight, what itches her brain, and VidCon | YouTube Watch History</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=k2_eWjsB6lI"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2023-09-07T16:00:34+00:00</published>
+  <updated>2023-09-08T18:32:59+00:00</updated>
+  <media:group>
+   <media:title>@safiya  reveals her love of Twilight, what itches her brain, and VidCon | YouTube Watch History</media:title>
+   <media:content url="https://www.youtube.com/v/k2_eWjsB6lI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/k2_eWjsB6lI/hqdefault.jpg" width="480" height="360"/>
+   <media:description>We love watching Safiya Nygaard’s videos, but what has SHE been watching?? Safiya sat down with us to plug in her phone and reveal her YouTube Watch History. From her favorite 4+hour video essay, to her love of Twilight, to creators she’s tried to track down at VidCon, Safiya talks about what she’s been watching and why!
+
+0:00 - 0:23 Intro
+0:23 - 2:30 Recent Videos
+2:30 - 5:31 Scavenger Hunt
+5:31 - 8:41 Scroll Roulette
+8:41 - 10:12 Desert Island
+10:12 Final Thoughts
+
+#SafiyaNygaard #WatchHistory #YouTube</media:description>
+   <media:community>
+    <media:starRating count="1112" average="5.00" min="1" max="5"/>
+    <media:statistics views="269702"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:DcNI16MEjrM</id>
   <yt:videoId>DcNI16MEjrM</yt:videoId>
   <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
@@ -27,8 +59,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/DcNI16MEjrM/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1480" average="5.00" min="1" max="5"/>
-    <media:statistics views="23891"/>
+    <media:starRating count="2584" average="5.00" min="1" max="5"/>
+    <media:statistics views="40980"/>
    </media:community>
   </media:group>
  </entry>
@@ -50,8 +82,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/fokY9vEnAL4/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3389" average="5.00" min="1" max="5"/>
-    <media:statistics views="70133"/>
+    <media:starRating count="3984" average="5.00" min="1" max="5"/>
+    <media:statistics views="81152"/>
    </media:community>
   </media:group>
  </entry>
@@ -59,16 +91,16 @@
   <id>yt:video:oxN0AR0xlRg</id>
   <yt:videoId>oxN0AR0xlRg</yt:videoId>
   <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>@BaileySarian does the ultimate GRWM</title>
+  <title>@BaileySarian  does the ultimate GRWM</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=oxN0AR0xlRg"/>
   <author>
    <name>YouTube</name>
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2023-08-27T13:56:43+00:00</published>
-  <updated>2023-09-03T14:32:09+00:00</updated>
+  <updated>2023-09-08T18:33:43+00:00</updated>
   <media:group>
-   <media:title>@BaileySarian does the ultimate GRWM</media:title>
+   <media:title>@BaileySarian  does the ultimate GRWM</media:title>
    <media:content url="https://www.youtube.com/v/oxN0AR0xlRg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i4.ytimg.com/vi/oxN0AR0xlRg/hqdefault.jpg" width="480" height="360"/>
    <media:description>Join @BaileySarian as she takes us on a journey from 2010 to today to see how GRWM videos have evolved over the years. From first days of school to beauty breakdowns, True Crime, chatty or chaotic; anything goes!
@@ -106,8 +138,8 @@ Featured Creators:
 
 #GRWM #Makeup #Beauty #GetReadyWithMe</media:description>
    <media:community>
-    <media:starRating count="3179" average="5.00" min="1" max="5"/>
-    <media:statistics views="428669"/>
+    <media:starRating count="3199" average="5.00" min="1" max="5"/>
+    <media:statistics views="437075"/>
    </media:community>
   </media:group>
  </entry>
@@ -129,8 +161,8 @@ Featured Creators:
    <media:thumbnail url="https://i4.ytimg.com/vi/G25VMOgmhxo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4010" average="5.00" min="1" max="5"/>
-    <media:statistics views="84038"/>
+    <media:starRating count="4537" average="5.00" min="1" max="5"/>
+    <media:statistics views="95159"/>
    </media:community>
   </media:group>
  </entry>
@@ -160,8 +192,8 @@ Featured Creators:
 
 #Courtreezy #WatchHistory #YouTube</media:description>
    <media:community>
-    <media:starRating count="1875" average="5.00" min="1" max="5"/>
-    <media:statistics views="374697"/>
+    <media:starRating count="1929" average="5.00" min="1" max="5"/>
+    <media:statistics views="379093"/>
    </media:community>
   </media:group>
  </entry>
@@ -183,8 +215,8 @@ Featured Creators:
    <media:thumbnail url="https://i4.ytimg.com/vi/w85VN7EEBMo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4334" average="5.00" min="1" max="5"/>
-    <media:statistics views="85116"/>
+    <media:starRating count="4675" average="5.00" min="1" max="5"/>
+    <media:statistics views="91409"/>
    </media:community>
   </media:group>
  </entry>
@@ -206,8 +238,8 @@ Featured Creators:
    <media:thumbnail url="https://i4.ytimg.com/vi/SPi0GkYauVU/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="6569" average="5.00" min="1" max="5"/>
-    <media:statistics views="108565"/>
+    <media:starRating count="6978" average="5.00" min="1" max="5"/>
+    <media:statistics views="116902"/>
    </media:community>
   </media:group>
  </entry>
@@ -243,8 +275,8 @@ https://youtu.be/KcTz_hpRNGY
 
 In celebration of hip hop's 50th anniversary, YouTube is rolling 50 Deep. Check out the 50 Deep flagship playlist at: yt.be/yt50deep</media:description>
    <media:community>
-    <media:starRating count="1800" average="5.00" min="1" max="5"/>
-    <media:statistics views="166591"/>
+    <media:starRating count="1817" average="5.00" min="1" max="5"/>
+    <media:statistics views="169021"/>
    </media:community>
   </media:group>
  </entry>
@@ -270,8 +302,8 @@ From how the world dresses, to how the world speaks, hip hop is not just a cultu
 
 #50Deep #HipHop #HipHop50</media:description>
    <media:community>
-    <media:starRating count="4276" average="5.00" min="1" max="5"/>
-    <media:statistics views="2020074"/>
+    <media:starRating count="4385" average="5.00" min="1" max="5"/>
+    <media:statistics views="2059309"/>
    </media:community>
   </media:group>
  </entry>
@@ -293,8 +325,8 @@ From how the world dresses, to how the world speaks, hip hop is not just a cultu
    <media:thumbnail url="https://i4.ytimg.com/vi/SxhSSQ28y9U/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4320" average="5.00" min="1" max="5"/>
-    <media:statistics views="70691"/>
+    <media:starRating count="4483" average="5.00" min="1" max="5"/>
+    <media:statistics views="73472"/>
    </media:community>
   </media:group>
  </entry>
@@ -316,8 +348,8 @@ From how the world dresses, to how the world speaks, hip hop is not just a cultu
    <media:thumbnail url="https://i4.ytimg.com/vi/gPDxEL1yKbU/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="5068" average="5.00" min="1" max="5"/>
-    <media:statistics views="114426"/>
+    <media:starRating count="5234" average="5.00" min="1" max="5"/>
+    <media:statistics views="117478"/>
    </media:community>
   </media:group>
  </entry>
@@ -339,8 +371,8 @@ From how the world dresses, to how the world speaks, hip hop is not just a cultu
    <media:thumbnail url="https://i4.ytimg.com/vi/GTEOm0lG3pY/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="8128" average="5.00" min="1" max="5"/>
-    <media:statistics views="205504"/>
+    <media:starRating count="8348" average="5.00" min="1" max="5"/>
+    <media:statistics views="212555"/>
    </media:community>
   </media:group>
  </entry>
@@ -371,8 +403,8 @@ From how the world dresses, to how the world speaks, hip hop is not just a cultu
 
 #Larray #YouTube #WatchHistory</media:description>
    <media:community>
-    <media:starRating count="2532" average="5.00" min="1" max="5"/>
-    <media:statistics views="139403"/>
+    <media:starRating count="2562" average="5.00" min="1" max="5"/>
+    <media:statistics views="141717"/>
    </media:community>
   </media:group>
  </entry>
@@ -394,31 +426,8 @@ From how the world dresses, to how the world speaks, hip hop is not just a cultu
    <media:thumbnail url="https://i3.ytimg.com/vi/Jk4S-fTZ7Tg/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="6304" average="5.00" min="1" max="5"/>
-    <media:statistics views="125170"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:PQ1knV-mo4w</id>
-  <yt:videoId>PQ1knV-mo4w</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>a duck on ice! well i’ll be darned.</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=PQ1knV-mo4w"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2023-07-20T15:25:14+00:00</published>
-  <updated>2023-07-20T15:35:11+00:00</updated>
-  <media:group>
-   <media:title>a duck on ice! well i’ll be darned.</media:title>
-   <media:content url="https://www.youtube.com/v/PQ1knV-mo4w?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i1.ytimg.com/vi/PQ1knV-mo4w/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="5076" average="5.00" min="1" max="5"/>
-    <media:statistics views="106361"/>
+    <media:starRating count="6423" average="5.00" min="1" max="5"/>
+    <media:statistics views="128330"/>
    </media:community>
   </media:group>
  </entry>
