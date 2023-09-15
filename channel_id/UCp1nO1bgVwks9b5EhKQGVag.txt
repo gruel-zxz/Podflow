@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCp1nO1bgVwks9b5EhKQGVag"/>
+ <id>yt:channel:</id>
+ <yt:channelId></yt:channelId>
+ <title>幻海航行--science fiction</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag"/>
+ <author>
+  <name>幻海航行--science fiction</name>
+  <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
+ </author>
+ <published>2017-04-12T00:43:27+00:00</published>
+ <entry>
+  <id>yt:video:cWWswUeRlps</id>
+  <yt:videoId>cWWswUeRlps</yt:videoId>
+  <yt:channelId>UCp1nO1bgVwks9b5EhKQGVag</yt:channelId>
+  <title>人类去往鲸鱼座的伟大征途：科幻巨著《极光》</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=cWWswUeRlps"/>
+  <author>
+   <name>幻海航行--science fiction</name>
+   <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
+  </author>
+  <published>2023-09-14T09:27:32+00:00</published>
+  <updated>2023-09-14T09:39:01+00:00</updated>
+  <media:group>
+   <media:title>人类去往鲸鱼座的伟大征途：科幻巨著《极光》</media:title>
+   <media:content url="https://www.youtube.com/v/cWWswUeRlps?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/cWWswUeRlps/hqdefault.jpg" width="480" height="360"/>
+   <media:description>科幻巨著《极光》，原著：金·斯坦利·罗宾逊。
+这部小说堪称人类航天的教科书级的小说，全程充满知识点，严谨的写作手法让这部小说毫无逻辑漏洞，堪称经典！</media:description>
+   <media:community>
+    <media:starRating count="85" average="5.00" min="1" max="5"/>
+    <media:statistics views="3214"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:P_hIXilcn60</id>
+  <yt:videoId>P_hIXilcn60</yt:videoId>
+  <yt:channelId>UCp1nO1bgVwks9b5EhKQGVag</yt:channelId>
+  <title>如果抹去人类历史，从零开始的人类最终会去向何方？</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=P_hIXilcn60"/>
+  <author>
+   <name>幻海航行--science fiction</name>
+   <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
+  </author>
+  <published>2023-09-13T05:47:26+00:00</published>
+  <updated>2023-09-13T05:47:26+00:00</updated>
+  <media:group>
+   <media:title>如果抹去人类历史，从零开始的人类最终会去向何方？</media:title>
+   <media:content url="https://www.youtube.com/v/P_hIXilcn60?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/P_hIXilcn60/hqdefault.jpg" width="480" height="360"/>
+   <media:description>《XeeLee》系列从第三集开始，也要正式进入正题了，真正意义上的战争和剧情走向也要开始了。而且我们文案的叙事也相对加快了，以前计划十多集完成，目前计划在8集以内搞定。</media:description>
+   <media:community>
+    <media:starRating count="127" average="5.00" min="1" max="5"/>
+    <media:statistics views="4107"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:LM5i4tp1n3E</id>
+  <yt:videoId>LM5i4tp1n3E</yt:videoId>
+  <yt:channelId>UCp1nO1bgVwks9b5EhKQGVag</yt:channelId>
+  <title>在未来，数字王国和现实世界谁才是真正的主宰：科幻小说《幻影帝国》</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=LM5i4tp1n3E"/>
+  <author>
+   <name>幻海航行--science fiction</name>
+   <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
+  </author>
+  <published>2023-09-08T04:31:14+00:00</published>
+  <updated>2023-09-10T10:09:27+00:00</updated>
+  <media:group>
+   <media:title>在未来，数字王国和现实世界谁才是真正的主宰：科幻小说《幻影帝国》</media:title>
+   <media:content url="https://www.youtube.com/v/LM5i4tp1n3E?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/LM5i4tp1n3E/hqdefault.jpg" width="480" height="360"/>
+   <media:description>更新一部网文科幻小说，《幻影帝国》。
+《幻影帝国》是暮夏之薰所著科幻小说，如感兴趣，请在起点读书app搜索“幻影帝国”阅读原著。</media:description>
+   <media:community>
+    <media:starRating count="99" average="5.00" min="1" max="5"/>
+    <media:statistics views="4913"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:5Y6Lm4dXeAc</id>
+  <yt:videoId>5Y6Lm4dXeAc</yt:videoId>
+  <yt:channelId>UCp1nO1bgVwks9b5EhKQGVag</yt:channelId>
+  <title>关于宇宙中“巨引源”的真相——科幻巨著《XeeLee》第二集</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=5Y6Lm4dXeAc"/>
+  <author>
+   <name>幻海航行--science fiction</name>
+   <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
+  </author>
+  <published>2023-09-04T03:55:02+00:00</published>
+  <updated>2023-09-06T01:03:13+00:00</updated>
+  <media:group>
+   <media:title>关于宇宙中“巨引源”的真相——科幻巨著《XeeLee》第二集</media:title>
+   <media:content url="https://www.youtube.com/v/5Y6Lm4dXeAc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/5Y6Lm4dXeAc/hqdefault.jpg" width="480" height="360"/>
+   <media:description>基本上在前五集就能更完完毕人类崛起的大阶段，下来就到了人类对泽利，泽利对“光微子”鸟的战争。
+
+0：00 夸克斯人占领地球
+08：46 巨引源的真相</media:description>
+   <media:community>
+    <media:starRating count="208" average="5.00" min="1" max="5"/>
+    <media:statistics views="7079"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:-vE1ijPPFtg</id>
+  <yt:videoId>-vE1ijPPFtg</yt:videoId>
+  <yt:channelId>UCp1nO1bgVwks9b5EhKQGVag</yt:channelId>
+  <title>科幻史诗——XeeLee宇宙第一集：人类的崛起和遭遇地外文明</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=-vE1ijPPFtg"/>
+  <author>
+   <name>幻海航行--science fiction</name>
+   <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
+  </author>
+  <published>2023-08-28T16:35:18+00:00</published>
+  <updated>2023-08-29T07:12:58+00:00</updated>
+  <media:group>
+   <media:title>科幻史诗——XeeLee宇宙第一集：人类的崛起和遭遇地外文明</media:title>
+   <media:content url="https://www.youtube.com/v/-vE1ijPPFtg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/-vE1ijPPFtg/hqdefault.jpg" width="480" height="360"/>
+   <media:description>科幻史诗——XeeLee宇宙第一集：人类的崛起和遭遇地外文明。
+这个系列总算开始更新了，第一次尝试这么大体量的内容还是有点胆怯，不过开始更新就没法回头了。目前整理出了五期内容，内容量大致占XeeLee宇宙的50%。</media:description>
+   <media:community>
+    <media:starRating count="297" average="5.00" min="1" max="5"/>
+    <media:statistics views="14884"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:wzx1HkJbP4M</id>
+  <yt:videoId>wzx1HkJbP4M</yt:videoId>
+  <yt:channelId>UCp1nO1bgVwks9b5EhKQGVag</yt:channelId>
+  <title>飞船沉入月球内部，上演90小时殊死营救：硬科幻杰作《月海沉船》</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=wzx1HkJbP4M"/>
+  <author>
+   <name>幻海航行--science fiction</name>
+   <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
+  </author>
+  <published>2023-08-24T04:42:36+00:00</published>
+  <updated>2023-08-24T10:26:24+00:00</updated>
+  <media:group>
+   <media:title>飞船沉入月球内部，上演90小时殊死营救：硬科幻杰作《月海沉船》</media:title>
+   <media:content url="https://www.youtube.com/v/wzx1HkJbP4M?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/wzx1HkJbP4M/hqdefault.jpg" width="480" height="360"/>
+   <media:description>《月海沉船》是阿瑟克拉克的代表作之一，可能是因为《2001太空漫游》和与《罗摩相会》的光芒太大，以至于掩盖了这部硬科幻经典。不过，它能作为代表作之一，有其特殊的意义。
+终于更新完毕，撒花！</media:description>
+   <media:community>
+    <media:starRating count="105" average="5.00" min="1" max="5"/>
+    <media:statistics views="5703"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:ZW5izxaFwUU</id>
+  <yt:videoId>ZW5izxaFwUU</yt:videoId>
+  <yt:channelId>UCp1nO1bgVwks9b5EhKQGVag</yt:channelId>
+  <title>对达尔文进化论的挑战，揭秘进化的真相：星云奖作品《达尔文电波》</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=ZW5izxaFwUU"/>
+  <author>
+   <name>幻海航行--science fiction</name>
+   <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
+  </author>
+  <published>2023-08-12T12:43:10+00:00</published>
+  <updated>2023-08-13T07:01:43+00:00</updated>
+  <media:group>
+   <media:title>对达尔文进化论的挑战，揭秘进化的真相：星云奖作品《达尔文电波》</media:title>
+   <media:content url="https://www.youtube.com/v/ZW5izxaFwUU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/ZW5izxaFwUU/hqdefault.jpg" width="480" height="360"/>
+   <media:description>2000年星云奖作品，《达尔文电波》。一部关于生物、化学、进化等内容的硬核科幻作品，作者提出了一个大胆的构想：物种的进化只需要两代便可以产生出全新的物种。原著：格雷格.贝尔。另外，xeelee系列已经开始搞了。</media:description>
+   <media:community>
+    <media:starRating count="163" average="5.00" min="1" max="5"/>
+    <media:statistics views="10237"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:-gM9oWhTvYw</id>
+  <yt:videoId>-gM9oWhTvYw</yt:videoId>
+  <yt:channelId>UCp1nO1bgVwks9b5EhKQGVag</yt:channelId>
+  <title>智慧物种的最终归宿——成为自然本身！</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=-gM9oWhTvYw"/>
+  <author>
+   <name>幻海航行--science fiction</name>
+   <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
+  </author>
+  <published>2023-08-04T07:02:31+00:00</published>
+  <updated>2023-08-05T06:34:39+00:00</updated>
+  <media:group>
+   <media:title>智慧物种的最终归宿——成为自然本身！</media:title>
+   <media:content url="https://www.youtube.com/v/-gM9oWhTvYw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/-gM9oWhTvYw/hqdefault.jpg" width="480" height="360"/>
+   <media:description>《泥人十四》下集，更新完结。
+尽管这样的内容可能很多人不喜欢，因为太深奥，故事性弱，但是作者透露出的丰富的哲学构想，值得我们去更新。</media:description>
+   <media:community>
+    <media:starRating count="114" average="5.00" min="1" max="5"/>
+    <media:statistics views="6436"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:VEb54SFbEEY</id>
+  <yt:videoId>VEb54SFbEEY</yt:videoId>
+  <yt:channelId>UCp1nO1bgVwks9b5EhKQGVag</yt:channelId>
+  <title>人类的目的是什么？只是为了传播遗传密码？科幻名著《泥人十四》</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=VEb54SFbEEY"/>
+  <author>
+   <name>幻海航行--science fiction</name>
+   <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
+  </author>
+  <published>2023-07-31T03:18:46+00:00</published>
+  <updated>2023-07-31T06:05:45+00:00</updated>
+  <media:group>
+   <media:title>人类的目的是什么？只是为了传播遗传密码？科幻名著《泥人十四》</media:title>
+   <media:content url="https://www.youtube.com/v/VEb54SFbEEY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/VEb54SFbEEY/hqdefault.jpg" width="480" height="360"/>
+   <media:description>你们要的硬科幻来了
+《泥人十四》读这部小说的时候，全程处于学习状态......莱姆不仅在小说中提出了不少原创的科学理论，还向人们展示了写作科幻小说的另一种可能，我们尽可能的通俗化了原著，帮助读者能够理解。想挑战的朋友们可以试试这部《莱姆狂想曲》</media:description>
+   <media:community>
+    <media:starRating count="174" average="5.00" min="1" max="5"/>
+    <media:statistics views="9977"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:EGwI7j0r0j4</id>
+  <yt:videoId>EGwI7j0r0j4</yt:videoId>
+  <yt:channelId>UCp1nO1bgVwks9b5EhKQGVag</yt:channelId>
+  <title>人类未完成的事情，就交给我们AI吧！科幻名著《艾比斯之梦》</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=EGwI7j0r0j4"/>
+  <author>
+   <name>幻海航行--science fiction</name>
+   <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
+  </author>
+  <published>2023-07-26T03:35:38+00:00</published>
+  <updated>2023-07-26T05:55:42+00:00</updated>
+  <media:group>
+   <media:title>人类未完成的事情，就交给我们AI吧！科幻名著《艾比斯之梦》</media:title>
+   <media:content url="https://www.youtube.com/v/EGwI7j0r0j4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/EGwI7j0r0j4/hqdefault.jpg" width="480" height="360"/>
+   <media:description>艾比斯之梦，原著：山本弘。本书销量极高，豆瓣评分达到了8.6！
+是人工智能领域不可多得的优秀作品。
+——数百年后的未来世界，人工智慧（AI）机器人掌治了这个地球，人类文明被淡化模糊，过去的世界再也无人知晓。</media:description>
+   <media:community>
+    <media:starRating count="169" average="5.00" min="1" max="5"/>
+    <media:statistics views="9022"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:783BtgbUuGk</id>
+  <yt:videoId>783BtgbUuGk</yt:videoId>
+  <yt:channelId>UCp1nO1bgVwks9b5EhKQGVag</yt:channelId>
+  <title>无论人类如何选择，也许未来都无法被改变：刘慈欣《月夜》</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=783BtgbUuGk"/>
+  <author>
+   <name>幻海航行--science fiction</name>
+   <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
+  </author>
+  <published>2023-07-15T14:16:18+00:00</published>
+  <updated>2023-07-16T06:06:38+00:00</updated>
+  <media:group>
+   <media:title>无论人类如何选择，也许未来都无法被改变：刘慈欣《月夜》</media:title>
+   <media:content url="https://www.youtube.com/v/783BtgbUuGk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/783BtgbUuGk/hqdefault.jpg" width="480" height="360"/>
+   <media:description>无论人类如何选择，也许未来都无法被改变：刘慈欣《月夜》，这是刘慈欣2009年发表的短篇小说，继承了自己过去的风格，而且脑洞还是一样的大。</media:description>
+   <media:community>
+    <media:starRating count="123" average="5.00" min="1" max="5"/>
+    <media:statistics views="8628"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:_W6MNwokUBQ</id>
+  <yt:videoId>_W6MNwokUBQ</yt:videoId>
+  <yt:channelId>UCp1nO1bgVwks9b5EhKQGVag</yt:channelId>
+  <title>地心引力坐不住了：人类首次发现反重力区域——科幻小说《真相》</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=_W6MNwokUBQ"/>
+  <author>
+   <name>幻海航行--science fiction</name>
+   <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
+  </author>
+  <published>2023-07-10T06:15:53+00:00</published>
+  <updated>2023-07-15T06:11:40+00:00</updated>
+  <media:group>
+   <media:title>地心引力坐不住了：人类首次发现反重力区域——科幻小说《真相》</media:title>
+   <media:content url="https://www.youtube.com/v/_W6MNwokUBQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/_W6MNwokUBQ/hqdefault.jpg" width="480" height="360"/>
+   <media:description>地心引力坐不住了：人类首次发现反重力区域——科幻小说《真相》，原著：阿瑟.克拉克，出自阿瑟.克拉克科幻短篇全集。</media:description>
+   <media:community>
+    <media:starRating count="191" average="5.00" min="1" max="5"/>
+    <media:statistics views="14336"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:3xdLRqXHQ_o</id>
+  <yt:videoId>3xdLRqXHQ_o</yt:videoId>
+  <yt:channelId>UCp1nO1bgVwks9b5EhKQGVag</yt:channelId>
+  <title>科幻小说《四个很短的世界名著》：关于人类的永生时代！</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=3xdLRqXHQ_o"/>
+  <author>
+   <name>幻海航行--science fiction</name>
+   <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
+  </author>
+  <published>2023-06-29T03:24:56+00:00</published>
+  <updated>2023-07-15T06:11:41+00:00</updated>
+  <media:group>
+   <media:title>科幻小说《四个很短的世界名著》：关于人类的永生时代！</media:title>
+   <media:content url="https://www.youtube.com/v/3xdLRqXHQ_o?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/3xdLRqXHQ_o/hqdefault.jpg" width="480" height="360"/>
+   <media:description>短篇科幻小说《四个很短的世界名著》，原著：乔.霍尔德曼。作者以四部世界名著：战争与和平、罪与罚、众生之路、追忆似水年华为引，改编成了这部短篇科幻小说，并获得了当年的雨果奖提名。</media:description>
+   <media:community>
+    <media:starRating count="156" average="5.00" min="1" max="5"/>
+    <media:statistics views="8018"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:o-OgVUAfMGI</id>
+  <yt:videoId>o-OgVUAfMGI</yt:videoId>
+  <yt:channelId>UCp1nO1bgVwks9b5EhKQGVag</yt:channelId>
+  <title>稻谷可以长在大树上？山海经中的神树被用科技复活了——《两个科幻短篇》</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=o-OgVUAfMGI"/>
+  <author>
+   <name>幻海航行--science fiction</name>
+   <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
+  </author>
+  <published>2023-06-23T03:30:25+00:00</published>
+  <updated>2023-07-15T06:11:41+00:00</updated>
+  <media:group>
+   <media:title>稻谷可以长在大树上？山海经中的神树被用科技复活了——《两个科幻短篇》</media:title>
+   <media:content url="https://www.youtube.com/v/o-OgVUAfMGI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/o-OgVUAfMGI/hqdefault.jpg" width="480" height="360"/>
+   <media:description>更新两个科幻短篇：1《田园》——何夕，山海经中的神树被科技复活了。 2《星际旅行日记》——斯坦尼斯拉夫.莱姆，用几十公斤原子可以制造个人类吗？
+ 00：00 《田园》复活山海经中的神树
+ 05：00 《星际旅行日记》用几十公斤原子制造人类</media:description>
+   <media:community>
+    <media:starRating count="106" average="5.00" min="1" max="5"/>
+    <media:statistics views="6078"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:y3o-AlnQILk</id>
+  <yt:videoId>y3o-AlnQILk</yt:videoId>
+  <yt:channelId>UCp1nO1bgVwks9b5EhKQGVag</yt:channelId>
+  <title>人类的一秒钟等于地外文明的五年时间？科幻经典《沙漠奇遇》</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=y3o-AlnQILk"/>
+  <author>
+   <name>幻海航行--science fiction</name>
+   <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
+  </author>
+  <published>2023-06-17T12:12:07+00:00</published>
+  <updated>2023-07-15T06:11:41+00:00</updated>
+  <media:group>
+   <media:title>人类的一秒钟等于地外文明的五年时间？科幻经典《沙漠奇遇》</media:title>
+   <media:content url="https://www.youtube.com/v/y3o-AlnQILk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/y3o-AlnQILk/hqdefault.jpg" width="480" height="360"/>
+   <media:description>这是一部曾经在网上流传甚广的科幻小说，《沙漠奇遇》，由[前苏联] 伊·罗索霍瓦茨基所著，堪称科幻黄金时代的典范之作。</media:description>
+   <media:community>
+    <media:starRating count="186" average="5.00" min="1" max="5"/>
+    <media:statistics views="12895"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>

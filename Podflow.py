@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[114]:
 
 
 import os
@@ -36,7 +36,7 @@ default_config = {
 }
 
 
-# In[ ]:
+# In[115]:
 
 
 # 文件保存模块
@@ -52,7 +52,7 @@ def file_save(content, file_name, folder=None):
         file.write(content)
 
 
-# In[ ]:
+# In[116]:
 
 
 #日志模块
@@ -78,61 +78,56 @@ def write_log(log, suffix=None):
         print(f"{formatted_time_mini}|{log}")
 
 
-# In[ ]:
+# In[117]:
 
 
 # 安装库模块
 def library_install(library):
-    # 检查库是否已安装
-    def is_library_installed():
-        try:
-            result = subprocess.run([library , '--version'], capture_output=True, text=True)
-            return result.returncode == 0
-        except FileNotFoundError:
-            return False
-    # 如果库未安装, 则尝试安装
-    def install_library():
-        try:
-            result = subprocess.run(['pip', 'install', library , '-U'], capture_output=True, text=True)
-            return result.returncode == 0
-        except FileNotFoundError:
-            return False
-    # 如果库已安装, 则尝试更新
-    def update_library():
-        try:
-            result = subprocess.run(['pip', 'install', '--upgrade', library], capture_output=True, text=True)
-            return result.returncode == 0
-        except FileNotFoundError:
-            return False
-    # 检查库是否已安装
-    if is_library_installed():
+    if version := re.search(
+        r"(?<=Version\: ).+",
+        subprocess.run(
+            ["pip", "show", library], capture_output=True, text=True
+        ).stdout
+    ):
         write_log(f"{library}已安装")
+        # 获取最新版本编号
+        version_update = re.search(
+            r"(?<=<h1 class=\"package-header__name\">).+?(?=</h1>)",
+            requests.get(f"https://pypi.org/project/{library}/").text,
+            flags=re.DOTALL
+        )
+                # 如果库已安装, 判断是否为最新
+        if version_update is None or version.group() not in version_update.group():
+            # 如果库已安装, 则尝试更新
+            try:
+                subprocess.run(['pip', 'install', '--upgrade', library], capture_output=True, text=True)
+                write_log(f"{library}更新成功")
+            except FileNotFoundError:
+                write_log(f"{library}更新失败")
+        else:
+            write_log(f"{library}无需更新|版本：{version.group()}")
     else:
         write_log(f"{library}未安装")
-    # 如果库已安装, 则尝试更新
-    if is_library_installed():
-        if update_library():
-            write_log(f"{library}更新成功")
-        else:
-            write_log(f"{library}更新失败")
-    else:  # 如果库未安装, 则尝试安装
-        if install_library():
+        # 如果库未安装, 则尝试安装
+        try:
+            subprocess.run(['pip', 'install', library , '-U'], capture_output=True, text=True)
             write_log(f"{library}安装成功")
-        else:
+        except FileNotFoundError:
             write_log(f"{library}安装失败")
 
 
-# In[ ]:
+# In[118]:
 
 
-# 安装/更新yt-dlp
+# 安装/更新yt-dlp，并加载
 library_install("yt-dlp")
+import yt_dlp
+# 安装/更新rangehttpserver
+library_install("RangeHTTPServer")
 
 
 # In[ ]:
 
-
-import yt_dlp
 
 # 获取视频时长模块
 def video_duration(video_website, video_url):
@@ -169,22 +164,64 @@ def get_duration_ffprobe(file_path):
         write_log(f"Error: {e.output}")
         return None
 
+# 文本整形模块
+def shap(text, text_size):
+    if isinstance(text_size, int) and text_size> 0:
+        text = text.strip()
+        return text if len(text) > text_size else f"{text:>{text_size}}"
+    else:
+        text = text.strip()
+        text_size = text_size.strip()
+        bit = len(text_size)
+        if len(text) > bit:
+            return f"{text}/{text_size}"
+        else:
+            return f"{text:>{bit}}/{text_size}"
+
+# 下载显示模块
+def show_progress(data_stream):
+    percent_str = shap(data_stream['_percent_str'], 5)
+    if '_total_bytes_estimate_str' in data_stream:
+        if '_downloaded_bytes_str' in data_stream:
+            downloaded_bytes_str = shap(data_stream['_downloaded_bytes_str'], data_stream['_total_bytes_estimate_str'])
+        else:
+            downloaded_bytes_str = shap(data_stream['_total_bytes_estimate_str'], data_stream['_total_bytes_estimate_str'])
+    else:
+        downloaded_bytes_str = shap(data_stream['_total_bytes_str'], data_stream['_total_bytes_str'])
+    speed_str = data_stream['_speed_str'].strip()
+    if '_eta_str' in data_stream:
+        eta_str = shap(data_stream['_eta_str'].strip(), 5)
+        print((f"\r{f'{percent_str}|{downloaded_bytes_str}|{eta_str}|{speed_str}':<44}")[:44],end="")
+    else:
+        eta_str = data_stream['_elapsed_str'].strip()
+        if eta_str[:3] == "00:":
+            eta_str = eta_str[-5:]
+        print((f"\r{f'{percent_str}|{downloaded_bytes_str}|{eta_str}|{speed_str}':<44}")[:44],end="")
+        print("")
+
 # 下载视频模块
-def download_video(video_url, output_dir, output_format, video_website, format_code=480):
+def download_video(video_url, output_dir, output_format, video_website, format_code=480, output_dir_name=""):
+    if output_dir_name:
+        video_write_log = f"{output_dir_name}|{video_url}"
+    else:
+        video_write_log = video_url
     if output_format == 'm4a':
         format_out = "bestaudio[ext=m4a]/best"   # 音频编码
     else:
         format_out = f'bestvideo[ext=mp4][height<={format_code}]+bestaudio[ext=m4a]/best'  # 视频编码
     ydl_opts = {
         'outtmpl': f'{output_dir}/{video_url}.{output_format}',  # 输出文件路径和名称
-        'format': f'{format_out}'  # 指定下载的最佳音频和视频格式
+        'format': f'{format_out}',  # 指定下载的最佳音频和视频格式
+        "quiet": True,
+        "noprogress": True,
+        "progress_hooks": [show_progress]
     }
     try:
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
             ydl.download([f'{video_website}{video_url}'])  # 下载指定视频链接的视频
-        write_log(f"{video_url}下载成功")  # 写入下载成功的日志信息
+        write_log(f"{video_write_log}下载成功")  # 写入下载成功的日志信息
     except Exception as e:
-        write_log((f"{video_url}下载失败, 错误信息：{str(e)}").replace("ERROR: ", "").replace(f"{video_url}: ", ""))  # 写入下载失败的日志信息
+        write_log((f"{video_write_log}下载失败, 错误信息：{str(e)}").replace("ERROR: ", "").replace(f"{video_url}: ", ""))  # 写入下载失败的日志信息
         return video_url
 
 
@@ -192,10 +229,10 @@ def download_video(video_url, output_dir, output_format, video_website, format_c
 
 
 # 视频完整下载模块
-def dl_full_video(video_url, output_dir, output_format, video_website, format_code=480):
+def dl_full_video(video_url, output_dir, output_format, video_website, format_code=480, output_dir_name=""):
     if not (id_duration := video_duration(video_website, video_url)):  # 获取视频时长
         return video_url
-    if download_video(video_url, output_dir, output_format, video_website, format_code):  # 下载视频
+    if download_video(video_url, output_dir, output_format, video_website, format_code, output_dir_name):  # 下载视频
         return video_url
     duration_video = get_duration_ffprobe(f"{output_dir}/{video_url}.{output_format}")  # 获取已下载视频的实际时长
     if id_duration == duration_video:  # 检查实际时长与预计时长是否一致
@@ -205,14 +242,18 @@ def dl_full_video(video_url, output_dir, output_format, video_website, format_co
     return video_url
 
 # 视频重试下载模块
-def dl_retry_video(video_url, output_dir, output_format, retry_count, video_website, format_code=480):
-    yt_id_failed = dl_full_video(video_url, output_dir, output_format, video_website, format_code)
+def dl_retry_video(video_url, output_dir, output_format, retry_count, video_website, format_code=480, output_dir_name=""):
+    if output_dir_name:
+        video_write_log = f"{output_dir_name}|{video_url}"
+    else:
+        video_write_log = video_url
+    yt_id_failed = dl_full_video(video_url, output_dir, output_format, video_website, format_code, output_dir_name)
     # 下载失败后重复尝试下载视频
     yt_id_count = 0
     while yt_id_count < retry_count and yt_id_failed:
         yt_id_count += 1
-        write_log(f"{video_url}第{yt_id_count}次重新下载")
-        yt_id_failed = dl_full_video(video_url, output_dir, output_format, video_website, format_code)
+        write_log(f"{video_write_log}第{yt_id_count}次重新下载")
+        yt_id_failed = dl_full_video(video_url, output_dir, output_format, video_website, format_code, output_dir_name)
     return yt_id_failed
 
 
@@ -463,10 +504,10 @@ for ytid_key, ytid_value in youtube_content_ytid_update.items():
     # 下载视频
     for yt_id in ytid_value:
         if dl_retry_video(
-            yt_id, ytid_key, yt_id_file, config['retry_count'], "https://www.youtube.com/watch?v=", yt_id_quality
+            yt_id, ytid_key, yt_id_file, config['retry_count'], "https://www.youtube.com/watch?v=", yt_id_quality, channelid_youtube_ids[ytid_key]
         ):
             yt_id_failed.append(yt_id)
-            write_log(f"{yt_id}无法下载")
+            write_log(f"{channelid_youtube_ids[ytid_key]}|{yt_id}无法下载")
 
 
 # In[ ]:
@@ -515,8 +556,11 @@ def xml_rss(title,link,description,category,icon,items):
 # 生成item模块
 def xml_item(video_url, output_dir, video_website, channelid_title,title, description, pubDate, image):
     # 查看标题中是否有频道名称，如无添加到描述中
-    if channelid_title not in html.unescape("title"):
-        description = f"『{html.escape(channelid_title)}』\n{description}"
+    if channelid_title not in html.unescape(title):
+        if description == "":
+            description = f"『{html.escape(channelid_title)}』{description}"
+        else:
+            description = f"『{html.escape(channelid_title)}』\n{description}"
     # 更换描述换行符
     replacement_description = description.replace("\n", "&#xA;")
     # 获取文件后缀和文件字节大小
@@ -680,13 +724,13 @@ def youtube_xml_items(output_dir):
             entry_num += 1
         if entry_num >= channelid_youtube[channelid_youtube_ids[output_dir ]]["update_size"]:
             break
-    items_guid = re.findall(r"(?<=guid>).+(?=</guid>)", items)
+    items_guid = re.findall(r"(?<=<guid>).+?(?=</guid>)", items)
     entry_count = channelid_youtube[channelid_youtube_ids[output_dir]]["last_size"] - len(items_guid)
     if xmls_original and output_dir in xmls_original and entry_count > 0:
         xml_num = 0
         for xml in xmls_original[output_dir].split(f"<!-- {output_dir} -->"):
-            xml_guid = re.search(r"(?<=guid>).+(?=</guid>)", xml)
-            if xml_guid and xml_guid not in items_guid:
+            xml_guid = re.search(r"(?<=<guid>).+(?=</guid>)", xml)
+            if xml_guid and xml_guid.group() not in items_guid:
                 items = f"{items}{xml_original_item(xml)}<!-- {output_dir} -->"
                 xml_num += 1
             if xml_num >= entry_count:
@@ -729,11 +773,45 @@ write_log("主播客已更新", f"地址: {config['url']}/{config['title']}.xml"
 # In[ ]:
 
 
-print(all_youtube_content_ytid)
+# 删除多余媒体文件模块
+def remove_file(output_dir):
+    for file_name in os.listdir(output_dir):
+        if file_name not in all_youtube_content_ytid[output_dir]:
+            os.remove(f"{output_dir}/{file_name}")
+            write_log(f"{channelid_youtube_ids[output_dir]}|{file_name}已删除")
 
 
 # In[ ]:
 
 
-print(os.listdir("UCghLs6s95LrBWOdlZUCH4qw"))
+# 补全缺失的媒体文件模块
+def make_up_file(output_dir):
+    for file_name in all_youtube_content_ytid[output_dir]:
+        if file_name not in os.listdir(output_dir):
+            write_log(f"{channelid_youtube_ids[output_dir]}|{file_name}缺失并重新下载")
+            # 如果为视频格式获取分辨率
+            if file_name.split(".")[0] == "mp4":
+                video_quality = channelid_youtube[channelid_youtube_ids[output_dir]]['quality']
+            else:
+                video_quality = 480
+            if dl_retry_video(
+                file_name.split(".")[0], output_dir, file_name.split(".")[1], config['retry_count'], "https://www.youtube.com/watch?v=", video_quality, channelid_youtube_ids[output_dir]
+            ):
+                write_log(f"{channelid_youtube_ids[file_name.split('.')[0]]}|{file_name.split('.')[0]}无法下载")
+
+
+# In[ ]:
+
+
+# 删除不在rss中的媒体文件
+for output_dir in channelid_youtube_ids:
+    remove_file(output_dir)
+
+
+# In[ ]:
+
+
+# 补全在rss中缺失的媒体文件
+for output_dir in channelid_youtube_ids:
+    make_up_file(output_dir)
 
