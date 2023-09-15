@@ -11,6 +11,29 @@
  </author>
  <published>2022-06-04T16:17:27+00:00</published>
  <entry>
+  <id>yt:video:-Bzm65ZcshU</id>
+  <yt:videoId>-Bzm65ZcshU</yt:videoId>
+  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
+  <title>浦东机场应该是每个卡点坐飞机的人的噩梦吧#爱吐槽的四季妈妈 #家庭吐槽大会</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=-Bzm65ZcshU"/>
+  <author>
+   <name>四季妈妈—小龙</name>
+   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
+  </author>
+  <published>2023-09-13T23:07:57+00:00</published>
+  <updated>2023-09-13T23:08:23+00:00</updated>
+  <media:group>
+   <media:title>浦东机场应该是每个卡点坐飞机的人的噩梦吧#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
+   <media:content url="https://www.youtube.com/v/-Bzm65ZcshU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/-Bzm65ZcshU/hqdefault.jpg" width="480" height="360"/>
+   <media:description>浦东机场应该是每个卡点坐飞机的人的噩梦吧#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
+   <media:community>
+    <media:starRating count="87" average="5.00" min="1" max="5"/>
+    <media:statistics views="4635"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:Z547dXQjEpw</id>
   <yt:videoId>Z547dXQjEpw</yt:videoId>
   <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
@@ -28,8 +51,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/Z547dXQjEpw/hqdefault.jpg" width="480" height="360"/>
    <media:description>各地土豪的奇闻异事#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="11" average="5.00" min="1" max="5"/>
-    <media:statistics views="386"/>
+    <media:starRating count="13" average="5.00" min="1" max="5"/>
+    <media:statistics views="553"/>
    </media:community>
   </media:group>
  </entry>
@@ -52,7 +75,7 @@
    <media:description>约南北方女孩喝酒有哪些注意事项#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="9" average="5.00" min="1" max="5"/>
-    <media:statistics views="382"/>
+    <media:statistics views="401"/>
    </media:community>
   </media:group>
  </entry>
@@ -75,7 +98,7 @@
    <media:description>当从鱼的视角观察钓手时，他们还挺可爱#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="9" average="5.00" min="1" max="5"/>
-    <media:statistics views="374"/>
+    <media:statistics views="395"/>
    </media:community>
   </media:group>
  </entry>
@@ -97,8 +120,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/_1yZKcjyuEI/hqdefault.jpg" width="480" height="360"/>
    <media:description>男人真的太能装了，出门只需要一个裤兜#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="22" average="5.00" min="1" max="5"/>
-    <media:statistics views="942"/>
+    <media:starRating count="23" average="5.00" min="1" max="5"/>
+    <media:statistics views="973"/>
    </media:community>
   </media:group>
  </entry>
@@ -120,8 +143,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/6hIWTOmbt8c/hqdefault.jpg" width="480" height="360"/>
    <media:description>东北最宝贵的不是人参鹿茸和皮草，而是温暖的人情#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="804"/>
+    <media:starRating count="9" average="5.00" min="1" max="5"/>
+    <media:statistics views="827"/>
    </media:community>
   </media:group>
  </entry>
@@ -143,8 +166,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/gyzFPjcUU6I/hqdefault.jpg" width="480" height="360"/>
    <media:description>四川姑娘都是左手火锅右手喝，你们当地姑娘的酒量如何？#家庭吐槽大会 #爱吐槽的四季妈妈</media:description>
    <media:community>
-    <media:starRating count="106" average="5.00" min="1" max="5"/>
-    <media:statistics views="5692"/>
+    <media:starRating count="117" average="5.00" min="1" max="5"/>
+    <media:statistics views="6119"/>
    </media:community>
   </media:group>
  </entry>
@@ -167,7 +190,7 @@
    <media:description>如果没看过伯伯跳水，那天津等于白去了#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="14" average="5.00" min="1" max="5"/>
-    <media:statistics views="556"/>
+    <media:statistics views="563"/>
    </media:community>
   </media:group>
  </entry>
@@ -189,8 +212,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/Xb_BCZxTYoI/hqdefault.jpg" width="480" height="360"/>
    <media:description>跟山东人喝酒，主打一个站着进去，躺着出来#爱吐槽的四季妈妈 #家庭吐槽大会 #山东酒量</media:description>
    <media:community>
-    <media:starRating count="89" average="5.00" min="1" max="5"/>
-    <media:statistics views="5647"/>
+    <media:starRating count="90" average="5.00" min="1" max="5"/>
+    <media:statistics views="5918"/>
    </media:community>
   </media:group>
  </entry>
@@ -212,8 +235,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/yP8xs8cMYRg/hqdefault.jpg" width="480" height="360"/>
    <media:description>这个女人是福建人心中的顶流，说是凡人她不会说话，说是神仙她有自己的身份证和护照。#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="91" average="5.00" min="1" max="5"/>
-    <media:statistics views="5245"/>
+    <media:starRating count="95" average="5.00" min="1" max="5"/>
+    <media:statistics views="5674"/>
    </media:community>
   </media:group>
  </entry>
@@ -236,7 +259,7 @@
    <media:description>全国哪个省的女孩最能喝？姑娘酒量有多少，全看桌上放多少#爱吐槽的四季妈妈 #家庭吐槽大会 #属于我的多巴胺夏天</media:description>
    <media:community>
     <media:starRating count="12" average="5.00" min="1" max="5"/>
-    <media:statistics views="627"/>
+    <media:statistics views="631"/>
    </media:community>
   </media:group>
  </entry>
@@ -259,7 +282,7 @@
    <media:description>男人的爱好都能出一部进化史了，快来看看你到哪一步了#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="11" average="5.00" min="1" max="5"/>
-    <media:statistics views="645"/>
+    <media:statistics views="650"/>
    </media:community>
   </media:group>
  </entry>
@@ -282,7 +305,7 @@
    <media:description>男人干啥都要上厕所，厕所到底有什么秘密 #爱吐槽的四季妈妈  #家庭吐槽大会 scale</media:description>
    <media:community>
     <media:starRating count="13" average="5.00" min="1" max="5"/>
-    <media:statistics views="534"/>
+    <media:statistics views="535"/>
    </media:community>
   </media:group>
  </entry>
@@ -304,8 +327,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/Efso8Kj0sHU/hqdefault.jpg" width="480" height="360"/>
    <media:description>南方老人对北方人的误解有多深，你根本想象不到#爱吐槽的四季妈妈 #家庭吐槽大会 #舒适达专业修复牙膏</media:description>
    <media:community>
-    <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="477"/>
+    <media:starRating count="5" average="5.00" min="1" max="5"/>
+    <media:statistics views="479"/>
    </media:community>
   </media:group>
  </entry>
@@ -327,31 +350,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/JBoiqss7Xwc/hqdefault.jpg" width="480" height="360"/>
    <media:description>应该没有一个山东人可以拒绝这样的美味吧，你们都吃过什么看着丑吃着香的食物呢#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="82" average="5.00" min="1" max="5"/>
-    <media:statistics views="4835"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:K6BxjgVaGb0</id>
-  <yt:videoId>K6BxjgVaGb0</yt:videoId>
-  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
-  <title>这是不是你老婆出差时，你的反应   #爱吐槽的四季妈妈 #家庭吐槽大会</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=K6BxjgVaGb0"/>
-  <author>
-   <name>四季妈妈—小龙</name>
-   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
-  </author>
-  <published>2023-08-18T14:49:37+00:00</published>
-  <updated>2023-08-19T07:38:50+00:00</updated>
-  <media:group>
-   <media:title>这是不是你老婆出差时，你的反应   #爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
-   <media:content url="https://www.youtube.com/v/K6BxjgVaGb0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/K6BxjgVaGb0/hqdefault.jpg" width="480" height="360"/>
-   <media:description>这是不是你老婆出差时，你的反应   #爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
-   <media:community>
-    <media:starRating count="12" average="5.00" min="1" max="5"/>
-    <media:statistics views="740"/>
+    <media:starRating count="83" average="5.00" min="1" max="5"/>
+    <media:statistics views="4922"/>
    </media:community>
   </media:group>
  </entry>
