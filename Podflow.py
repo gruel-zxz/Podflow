@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[121]:
+# In[11]:
 
 
 import os
@@ -36,7 +36,7 @@ default_config = {
 }
 
 
-# In[122]:
+# In[12]:
 
 
 # 文件保存模块
@@ -52,7 +52,7 @@ def file_save(content, file_name, folder=None):
         file.write(content)
 
 
-# In[123]:
+# In[13]:
 
 
 #日志模块
@@ -78,7 +78,7 @@ def write_log(log, suffix=None):
         print(f"{formatted_time_mini}|{log}")
 
 
-# In[124]:
+# In[14]:
 
 
 # 安装库模块
@@ -116,7 +116,7 @@ def library_install(library):
             write_log(f"{library}安装失败")
 
 
-# In[125]:
+# In[15]:
 
 
 # 安装/更新yt-dlp，并加载
@@ -126,7 +126,7 @@ import yt_dlp
 library_install("RangeHTTPServer")
 
 
-# In[126]:
+# In[16]:
 
 
 # 获取视频时长模块
@@ -225,21 +225,21 @@ def download_video(video_url, output_dir, output_format, video_website, format_c
         return video_url
 
 
-# In[127]:
+# In[41]:
 
 
 # 测试
-def show_progress(data_stream):
-    putout = data_stream['_default_template']
-    pattern = r"( of ~ )|( at )|( ETA )|( in )|( of )"
-    pattern_space = r"\(.+\)"
-    putout = re.sub(pattern_space, '', re.sub(pattern, '|', putout))
-    print((f"\r{putout:<44}")[:44],end="")
-    if "in" in data_stream['_default_template']:
-        print("")
+#def show_progress(data_stream):
+#    putout = data_stream['_default_template']
+#    pattern = r"( of ~ )|( at )|( ETA )|( in )|( of )"
+#    pattern_space = r"\(.+\)"
+#    putout = re.sub(pattern_space, '', re.sub(pattern, '|', putout))
+#    print((f"\r{putout:<44}")[:44],end="")
+#    if "in" in data_stream['_default_template']:
+#        print("")
 
 
-# In[128]:
+# In[18]:
 
 
 # 视频完整下载模块
@@ -271,7 +271,31 @@ def dl_retry_video(video_url, output_dir, output_format, retry_count, video_webs
     return yt_id_failed
 
 
-# In[129]:
+# In[19]:
+
+
+# HTTP GET请求重试模块
+def get_with_retry(url, name, max_retries=10, retry_delay=6):
+    for _ in range(max_retries):
+        try:
+            response = requests.get(f"{url}")
+            response.raise_for_status()
+        except requests.exceptions.RequestException as e:
+            write_log(f"{name}|发生请求异常: {e}")
+        except requests.exceptions.HTTPError as e:
+            write_log(f"{name}|HTTP错误: {e}")
+        except requests.exceptions.ConnectionError as e:
+            write_log(f"{name}|连接错误: {e}")
+        except requests.exceptions.Timeout as e:
+            write_log(f"{name}|请求超时: {e}")
+        else:
+            return response
+        time.sleep(retry_delay)
+    write_log(f"{name}|达到最大重试次数，无法获取响应，将不更新")
+    return None
+
+
+# In[20]:
 
 
 # 构建文件夹模块
@@ -282,7 +306,7 @@ def folder_build(folder_name):
         write_log(f"文件夹{folder_name}创建成功")
 
 
-# In[130]:
+# In[21]:
 
 
 # 检查当前文件夹中是否存在config.json文件
@@ -304,7 +328,7 @@ else:
         sys.exit(0)
 
 
-# In[131]:
+# In[22]:
 
 
 # 对retry_count进行纠正
@@ -343,7 +367,7 @@ if ('category' not in config):
     config['category'] = default_config["category"]
 
 
-# In[132]:
+# In[23]:
 
 
 # 从配置文件中获取YouTube的频道
@@ -362,14 +386,14 @@ else:
     write_log("bilibili频道信息不存在")
 
 
-# In[133]:
+# In[24]:
 
 
 # 构建文件夹channel_id
 folder_build("channel_id")
 
 
-# In[134]:
+# In[25]:
 
 
 # 视频分辨率变量
@@ -438,7 +462,7 @@ for channelid_youtube_key, channelid_youtube_value in channelid_youtube_copy.ite
             channelid_youtube[channelid_youtube_key]['media'] = "m4a"
 
 
-# In[135]:
+# In[26]:
 
 
 # 读取youtube频道的id
@@ -455,7 +479,7 @@ else:
     channelid_bilibili_ids = None
 
 
-# In[136]:
+# In[27]:
 
 
 # 更新Youtube频道xml
@@ -467,46 +491,47 @@ pattern_youtube_vary = r'([0-9]{4}-[0-9]{2}-[0-9]{2}T[0-2][0-9]:[0-6][0-9]:[0-6]
 for youtube_key, youtube_value in channelid_youtube_ids.items():
     # 构建 URL
     youtube_url = f"https://www.youtube.com/feeds/videos.xml?channel_id={youtube_key}"
-    # 发送请求并获取响应内容
-    youtube_response = requests.get(youtube_url)
-    youtube_content = youtube_response.text
-    if not re.search(pattern_youtube404, youtube_content):
-        youtube_content_clean = re.sub(pattern_youtube_vary, '', youtube_content)
-        # 读取原Youtube频道xml文件并判断是否要更新
-        try:
-            with open(f"channel_id/{youtube_key}.txt", 'r', encoding='utf-8') as file:  # 打开文件进行读取
-                youtube_content_original = file.read()  # 读取文件内容
-                youtube_content_original_clean = re.sub(pattern_youtube_vary, '', youtube_content_original)
-            if youtube_content_clean != youtube_content_original_clean :  #判断是否要更新
+    if youtube_response := get_with_retry(youtube_url, youtube_value):
+        youtube_content = youtube_response.text
+        if re.search(pattern_youtube404, youtube_content):
+            write_log(f"YouTube频道 {youtube_value} ID不正确无法获取")
+            del channelid_youtube_ids[youtube_key]  # 删除错误ID
+        else:
+            youtube_content_clean = re.sub(pattern_youtube_vary, '', youtube_content)
+            # 读取原Youtube频道xml文件并判断是否要更新
+            try:
+                with open(f"channel_id/{youtube_key}.txt", 'r', encoding='utf-8') as file:  # 打开文件进行读取
+                    youtube_content_original = file.read()  # 读取文件内容
+                    youtube_content_original_clean = re.sub(pattern_youtube_vary, '', youtube_content_original)
+                if youtube_content_clean != youtube_content_original_clean :  #判断是否要更新
+                    channelid_youtube_ids_update[youtube_key] = youtube_value
+            except FileNotFoundError:  #文件不存在直接更新
                 channelid_youtube_ids_update[youtube_key] = youtube_value
-        except FileNotFoundError:  #文件不存在直接更新
-            channelid_youtube_ids_update[youtube_key] = youtube_value
-        # 构建文件
-        file_save(youtube_content, f"{youtube_key}.txt", "channel_id")
-        write_log(f"YouTube频道 {youtube_value} 已更新")
-        # 构建频道文件夹
-        folder_build(youtube_key)
-        #获取Youtube视频ID列表
-        youtube_content_ytid = re.findall(r"(?<=<id>yt:video:).{11}(?=</id>)", youtube_content)
-        youtube_content_ytid = youtube_content_ytid[:channelid_youtube[youtube_value]['update_size']]
-        #获取已下载媒体名称
-        youtube_media = ("m4a", "mp4") if channelid_youtube[youtube_value]['media'] == "m4a" else ("mp4")
-        youtube_content_ytid_original = [os.path.splitext(file)[0] for file in os.listdir(youtube_key) if file.endswith(youtube_media)]
-        if youtube_content_ytid := [
-            exclude
-            for exclude in youtube_content_ytid
-            if exclude not in youtube_content_ytid_original
-        ]:
-            channelid_youtube_ids_update[youtube_key] = youtube_value
-            youtube_content_ytid_update[youtube_key] = youtube_content_ytid
-    else:
-        write_log(f"YouTube频道 {youtube_value} ID不正确无法获取")
-        del channelid_youtube_ids[youtube_key]  # 删除错误ID
+            # 构建文件
+            file_save(youtube_content, f"{youtube_key}.txt", "channel_id")
+            write_log(f"YouTube频道 {youtube_value} 已更新")
+            # 构建频道文件夹
+            folder_build(youtube_key)
+            #获取Youtube视频ID列表
+            youtube_content_ytid = re.findall(r"(?<=<id>yt:video:).{11}(?=</id>)", youtube_content)
+            youtube_content_ytid = youtube_content_ytid[:channelid_youtube[youtube_value]['update_size']]
+            #获取已下载媒体名称
+            youtube_media = ("m4a", "mp4") if channelid_youtube[youtube_value]['media'] == "m4a" else ("mp4")
+            youtube_content_ytid_original = [os.path.splitext(file)[0] for file in os.listdir(youtube_key) if file.endswith(youtube_media)]
+            if youtube_content_ytid := [
+                exclude
+                for exclude in youtube_content_ytid
+                if exclude not in youtube_content_ytid_original
+            ]:
+                channelid_youtube_ids_update[youtube_key] = youtube_value
+                youtube_content_ytid_update[youtube_key] = youtube_content_ytid
+    elif not os.path.exists(os.path.join("channel_id", f"{youtube_key}.txt")):
+        del channelid_youtube_ids[youtube_key]
 if channelid_youtube_ids_update:
     write_log(f"需更新的YouTube频道:{', '.join(channelid_youtube_ids_update.values())}")
 
 
-# In[137]:
+# In[28]:
 
 
 # 下载YouTube视频
@@ -528,7 +553,7 @@ for ytid_key, ytid_value in youtube_content_ytid_update.items():
             write_log(f"{channelid_youtube_ids[ytid_key]}|{yt_id}无法下载")
 
 
-# In[138]:
+# In[29]:
 
 
 #生成XML模块
@@ -568,7 +593,7 @@ def xml_rss(title,link,description,category,icon,items):
 </rss>'''
 
 
-# In[139]:
+# In[30]:
 
 
 # 生成item模块
@@ -621,7 +646,7 @@ def xml_item(video_url, output_dir, video_website, channelid_title,title, descri
 '''
 
 
-# In[140]:
+# In[31]:
 
 
 # 生成YouTube的item模块
@@ -652,7 +677,7 @@ def youtube_xml_item(entry):
     )
 
 
-# In[141]:
+# In[32]:
 
 
 # 生成原有的item模块
@@ -698,7 +723,7 @@ def xml_original_item(original_item):
 '''
 
 
-# In[142]:
+# In[33]:
 
 
 # 获取原始xml文件
@@ -719,14 +744,14 @@ except FileNotFoundError:  #文件不存在直接更新
     write_log("原始rss文件不存在, 无法保留原有节目")
 
 
-# In[143]:
+# In[34]:
 
 
 # 构建文件夹channel_rss
 folder_build("channel_rss")
 
 
-# In[144]:
+# In[35]:
 
 
 # 生成YouTube对应channel的需更新的items模块
@@ -771,7 +796,7 @@ def youtube_xml_items(output_dir):
     return items
 
 
-# In[145]:
+# In[36]:
 
 
 # 生成主rss
@@ -788,7 +813,7 @@ file_save(xml_rss(config["title"], config["link"], config["description"], config
 write_log("主播客已更新", f"地址: {config['url']}/{config['title']}.xml")
 
 
-# In[146]:
+# In[37]:
 
 
 # 删除多余媒体文件模块
@@ -799,7 +824,7 @@ def remove_file(output_dir):
             write_log(f"{channelid_youtube_ids[output_dir]}|{file_name}已删除")
 
 
-# In[147]:
+# In[38]:
 
 
 # 补全缺失的媒体文件模块
@@ -818,7 +843,7 @@ def make_up_file(output_dir):
                 write_log(f"{channelid_youtube_ids[file_name.split('.')[0]]}|{file_name.split('.')[0]}无法下载")
 
 
-# In[148]:
+# In[39]:
 
 
 # 删除不在rss中的媒体文件
@@ -826,7 +851,7 @@ for output_dir in channelid_youtube_ids:
     remove_file(output_dir)
 
 
-# In[149]:
+# In[40]:
 
 
 # 补全在rss中缺失的媒体文件
