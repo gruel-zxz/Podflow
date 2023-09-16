@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[11]:
+# In[20]:
 
 
 import os
@@ -10,8 +10,8 @@ import sys
 import html
 import json
 import time
-import requests
 import subprocess
+import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 
 #默认参数
@@ -36,7 +36,7 @@ default_config = {
 }
 
 
-# In[12]:
+# In[21]:
 
 
 # 文件保存模块
@@ -52,7 +52,7 @@ def file_save(content, file_name, folder=None):
         file.write(content)
 
 
-# In[13]:
+# In[22]:
 
 
 #日志模块
@@ -78,7 +78,23 @@ def write_log(log, suffix=None):
         print(f"{formatted_time_mini}|{log}")
 
 
-# In[14]:
+# In[23]:
+
+
+# 查看requests模块是否安装，并安装
+try:
+    import requests
+    # 如果导入成功，你可以在这里使用requests库
+except ImportError:
+    try:
+        subprocess.run(['pip', 'install', 'requests' , '-U'], capture_output=True, text=True)
+        write_log("requests安装成功")
+    except FileNotFoundError:
+        write_log("requests安装失败，请重试")
+        sys.exit(0)
+
+
+# In[24]:
 
 
 # 安装库模块
@@ -91,6 +107,7 @@ def library_install(library):
     ):
         write_log(f"{library}已安装")
         # 获取最新版本编号
+        import requests
         version_update = re.search(
             r"(?<=<h1 class=\"package-header__name\">).+?(?=</h1>)",
             requests.get(f"https://pypi.org/project/{library}/").text,
@@ -116,7 +133,7 @@ def library_install(library):
             write_log(f"{library}安装失败")
 
 
-# In[15]:
+# In[25]:
 
 
 # 安装/更新yt-dlp，并加载
@@ -126,7 +143,7 @@ import yt_dlp
 library_install("RangeHTTPServer")
 
 
-# In[16]:
+# In[26]:
 
 
 # 获取视频时长模块
@@ -164,39 +181,14 @@ def get_duration_ffprobe(file_path):
         write_log(f"Error: {e.output}")
         return None
 
-# 文本整形模块
-def shap(text, text_size):
-    if isinstance(text_size, int) and text_size> 0:
-        text = text.strip()
-        return text if len(text) > text_size else f"{text:>{text_size}}"
-    else:
-        text = text.strip()
-        text_size = text_size.strip()
-        bit = len(text_size)
-        if len(text) > bit:
-            return f"{text}/{text_size}"
-        else:
-            return f"{text:>{bit}}/{text_size}"
-
 # 下载显示模块
 def show_progress(data_stream):
-    percent_str = shap(data_stream['_percent_str'], 5)
-    if '_total_bytes_estimate_str' in data_stream:
-        if '_downloaded_bytes_str' in data_stream:
-            downloaded_bytes_str = shap(data_stream['_downloaded_bytes_str'], data_stream['_total_bytes_estimate_str'])
-        else:
-            downloaded_bytes_str = shap(data_stream['_total_bytes_estimate_str'], data_stream['_total_bytes_estimate_str'])
-    else:
-        downloaded_bytes_str = shap(data_stream['_total_bytes_str'], data_stream['_total_bytes_str'])
-    speed_str = data_stream['_speed_str'].strip()
-    if '_eta_str' in data_stream:
-        eta_str = shap(data_stream['_eta_str'].strip(), 5)
-        print((f"\r{f'{percent_str}|{downloaded_bytes_str}|{eta_str}|{speed_str}':<44}")[:44],end="")
-    else:
-        eta_str = data_stream['_elapsed_str'].strip()
-        if eta_str[:3] == "00:":
-            eta_str = eta_str[-5:]
-        print((f"\r{f'{percent_str}|{downloaded_bytes_str}|{eta_str}|{speed_str}':<44}")[:44],end="")
+    putout = data_stream['_default_template']
+    pattern = r"( of ~ )|( at )|( ETA )|( in )|( of )"
+    pattern_space = r"\(.+\)"
+    putout = re.sub(pattern_space, '', re.sub(pattern, '|', putout))
+    print((f"\r{putout:<44}")[:44],end="")
+    if "in" in data_stream['_default_template']:
         print("")
 
 # 下载视频模块
@@ -225,21 +217,7 @@ def download_video(video_url, output_dir, output_format, video_website, format_c
         return video_url
 
 
-# In[41]:
-
-
-# 测试
-#def show_progress(data_stream):
-#    putout = data_stream['_default_template']
-#    pattern = r"( of ~ )|( at )|( ETA )|( in )|( of )"
-#    pattern_space = r"\(.+\)"
-#    putout = re.sub(pattern_space, '', re.sub(pattern, '|', putout))
-#    print((f"\r{putout:<44}")[:44],end="")
-#    if "in" in data_stream['_default_template']:
-#        print("")
-
-
-# In[18]:
+# In[27]:
 
 
 # 视频完整下载模块
@@ -271,7 +249,7 @@ def dl_retry_video(video_url, output_dir, output_format, retry_count, video_webs
     return yt_id_failed
 
 
-# In[19]:
+# In[28]:
 
 
 # HTTP GET请求重试模块
@@ -280,22 +258,16 @@ def get_with_retry(url, name, max_retries=10, retry_delay=6):
         try:
             response = requests.get(f"{url}")
             response.raise_for_status()
-        except requests.exceptions.RequestException as e:
-            write_log(f"{name}|发生请求异常: {e}")
-        except requests.exceptions.HTTPError as e:
-            write_log(f"{name}|HTTP错误: {e}")
-        except requests.exceptions.ConnectionError as e:
-            write_log(f"{name}|连接错误: {e}")
-        except requests.exceptions.Timeout as e:
-            write_log(f"{name}|请求超时: {e}")
+        except Exception:
+            write_log(f"{name}|连接异常，重试中")
         else:
             return response
         time.sleep(retry_delay)
-    write_log(f"{name}|达到最大重试次数，无法获取响应，将不更新")
+    write_log(f"{name}|达到最大重试次数，将不更新")
     return None
 
 
-# In[20]:
+# In[29]:
 
 
 # 构建文件夹模块
@@ -306,7 +278,7 @@ def folder_build(folder_name):
         write_log(f"文件夹{folder_name}创建成功")
 
 
-# In[21]:
+# In[30]:
 
 
 # 检查当前文件夹中是否存在config.json文件
@@ -328,7 +300,7 @@ else:
         sys.exit(0)
 
 
-# In[22]:
+# In[31]:
 
 
 # 对retry_count进行纠正
@@ -367,7 +339,7 @@ if ('category' not in config):
     config['category'] = default_config["category"]
 
 
-# In[23]:
+# In[32]:
 
 
 # 从配置文件中获取YouTube的频道
@@ -386,14 +358,14 @@ else:
     write_log("bilibili频道信息不存在")
 
 
-# In[24]:
+# In[33]:
 
 
 # 构建文件夹channel_id
 folder_build("channel_id")
 
 
-# In[25]:
+# In[34]:
 
 
 # 视频分辨率变量
@@ -462,7 +434,7 @@ for channelid_youtube_key, channelid_youtube_value in channelid_youtube_copy.ite
             channelid_youtube[channelid_youtube_key]['media'] = "m4a"
 
 
-# In[26]:
+# In[35]:
 
 
 # 读取youtube频道的id
@@ -479,7 +451,7 @@ else:
     channelid_bilibili_ids = None
 
 
-# In[27]:
+# In[36]:
 
 
 # 更新Youtube频道xml
@@ -531,7 +503,7 @@ if channelid_youtube_ids_update:
     write_log(f"需更新的YouTube频道:{', '.join(channelid_youtube_ids_update.values())}")
 
 
-# In[28]:
+# In[37]:
 
 
 # 下载YouTube视频
@@ -553,7 +525,7 @@ for ytid_key, ytid_value in youtube_content_ytid_update.items():
             write_log(f"{channelid_youtube_ids[ytid_key]}|{yt_id}无法下载")
 
 
-# In[29]:
+# In[38]:
 
 
 #生成XML模块
@@ -593,7 +565,7 @@ def xml_rss(title,link,description,category,icon,items):
 </rss>'''
 
 
-# In[30]:
+# In[39]:
 
 
 # 生成item模块
@@ -646,7 +618,7 @@ def xml_item(video_url, output_dir, video_website, channelid_title,title, descri
 '''
 
 
-# In[31]:
+# In[40]:
 
 
 # 生成YouTube的item模块
@@ -677,7 +649,7 @@ def youtube_xml_item(entry):
     )
 
 
-# In[32]:
+# In[41]:
 
 
 # 生成原有的item模块
@@ -723,7 +695,7 @@ def xml_original_item(original_item):
 '''
 
 
-# In[33]:
+# In[42]:
 
 
 # 获取原始xml文件
@@ -744,14 +716,14 @@ except FileNotFoundError:  #文件不存在直接更新
     write_log("原始rss文件不存在, 无法保留原有节目")
 
 
-# In[34]:
+# In[43]:
 
 
 # 构建文件夹channel_rss
 folder_build("channel_rss")
 
 
-# In[35]:
+# In[44]:
 
 
 # 生成YouTube对应channel的需更新的items模块
@@ -778,25 +750,40 @@ def youtube_xml_items(output_dir):
                 xml_num += 1
             if xml_num >= entry_count:
                 break
-    channel_about =requests.get(f"https://www.youtube.com/channel/{output_dir}/about").text
+    if channel_about := get_with_retry(
+        f"https://www.youtube.com/channel/{output_dir}/about",
+        f"{channelid_youtube_ids[output_dir]} 简介",
+        2,
+        5,
+    ):
+        channel_about = channel_about.text
+        icon = re.sub(
+            r"=s(0|[1-9]\d{0,3}|1[0-9]{1,3}|20[0-3][0-9]|204[0-8])-c-k",
+            "=s2048-c-k",
+            re.search(
+                r"https?://yt3.googleusercontent.com/[^\s]*(?=\">)",
+                channel_about,
+            ).group(),
+        )
+        description = re.search(r"(?<=\<meta itemprop\=\"description\" content\=\").+?(?=\")", channel_about, flags=re.DOTALL).group()
+    else:
+        try:
+            with open(f"channel_rss/{output_dir}.xml", 'r', encoding='utf-8') as file:  # 打开文件进行读取
+                root = ET.parse(file).getroot()
+                description = (root.findall('.//description')[0]).text
+                icon = (root.findall('.//url')[0]).text
+        except FileNotFoundError:  #文件不存在直接更新
+            description = config["description"]
+            icon = config["icon"]
+    category = config["category"]
     title = re.search(r"(?<=<title>).+(?=</title>)", file_xml).group()
     link = f"https://www.youtube.com/channel/{output_dir}"
-    category = config["category"]
-    icon = re.sub(
-        r"=s(0|[1-9]\d{0,3}|1[0-9]{1,3}|20[0-3][0-9]|204[0-8])-c-k",
-        "=s2048-c-k",
-        re.search(
-            r"https?://yt3.googleusercontent.com/[^\s]*(?=\">)",
-            channel_about,
-        ).group(),
-    )
-    description = re.search(r"(?<=\<meta itemprop\=\"description\" content\=\").+?(?=\")", channel_about, flags=re.DOTALL).group()
     file_save(xml_rss(title,link,description,category,icon,items), f"{output_dir}.xml", "channel_rss")
     write_log(f"{channelid_youtube_ids[output_dir]} 播客已更新", f"地址: {config['url']}/channel_rss/{output_dir}.xml")
     return items
 
 
-# In[36]:
+# In[45]:
 
 
 # 生成主rss
@@ -813,7 +800,7 @@ file_save(xml_rss(config["title"], config["link"], config["description"], config
 write_log("主播客已更新", f"地址: {config['url']}/{config['title']}.xml")
 
 
-# In[37]:
+# In[46]:
 
 
 # 删除多余媒体文件模块
@@ -824,7 +811,7 @@ def remove_file(output_dir):
             write_log(f"{channelid_youtube_ids[output_dir]}|{file_name}已删除")
 
 
-# In[38]:
+# In[47]:
 
 
 # 补全缺失的媒体文件模块
@@ -843,7 +830,7 @@ def make_up_file(output_dir):
                 write_log(f"{channelid_youtube_ids[file_name.split('.')[0]]}|{file_name.split('.')[0]}无法下载")
 
 
-# In[39]:
+# In[48]:
 
 
 # 删除不在rss中的媒体文件
@@ -851,7 +838,7 @@ for output_dir in channelid_youtube_ids:
     remove_file(output_dir)
 
 
-# In[40]:
+# In[49]:
 
 
 # 补全在rss中缺失的媒体文件

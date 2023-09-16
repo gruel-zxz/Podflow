@@ -78,8 +78,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="146" average="5.00" min="1" max="5"/>
-    <media:statistics views="11501"/>
+    <media:starRating count="196" average="5.00" min="1" max="5"/>
+    <media:statistics views="23292"/>
    </media:community>
   </media:group>
  </entry>
@@ -151,8 +151,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="153" average="5.00" min="1" max="5"/>
-    <media:statistics views="14451"/>
+    <media:starRating count="207" average="5.00" min="1" max="5"/>
+    <media:statistics views="26053"/>
    </media:community>
   </media:group>
  </entry>
@@ -224,8 +224,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="123" average="5.00" min="1" max="5"/>
-    <media:statistics views="17876"/>
+    <media:starRating count="147" average="5.00" min="1" max="5"/>
+    <media:statistics views="26788"/>
    </media:community>
   </media:group>
  </entry>
@@ -297,8 +297,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="203" average="5.00" min="1" max="5"/>
-    <media:statistics views="56155"/>
+    <media:starRating count="207" average="5.00" min="1" max="5"/>
+    <media:statistics views="57633"/>
    </media:community>
   </media:group>
  </entry>
@@ -370,8 +370,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="139" average="5.00" min="1" max="5"/>
-    <media:statistics views="38140"/>
+    <media:starRating count="144" average="5.00" min="1" max="5"/>
+    <media:statistics views="39048"/>
    </media:community>
   </media:group>
  </entry>
@@ -443,8 +443,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="183" average="5.00" min="1" max="5"/>
-    <media:statistics views="42651"/>
+    <media:starRating count="186" average="5.00" min="1" max="5"/>
+    <media:statistics views="43647"/>
    </media:community>
   </media:group>
  </entry>
@@ -516,8 +516,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="276" average="5.00" min="1" max="5"/>
-    <media:statistics views="58229"/>
+    <media:starRating count="279" average="5.00" min="1" max="5"/>
+    <media:statistics views="59319"/>
    </media:community>
   </media:group>
  </entry>
@@ -532,7 +532,7 @@ https://youtu.be/BbtTwsP_-zc</media:description>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
   <published>2023-09-14T18:32:33+00:00</published>
-  <updated>2023-09-14T19:09:19+00:00</updated>
+  <updated>2023-09-16T06:29:51+00:00</updated>
   <media:group>
    <media:title>金正恩见普京的江湖传言（20230914第6325期）</media:title>
    <media:content url="https://www.youtube.com/v/ptZ6GKKWLAg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -589,8 +589,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="233" average="5.00" min="1" max="5"/>
-    <media:statistics views="51935"/>
+    <media:starRating count="236" average="5.00" min="1" max="5"/>
+    <media:statistics views="53174"/>
    </media:community>
   </media:group>
  </entry>
@@ -663,7 +663,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="13" average="5.00" min="1" max="5"/>
-    <media:statistics views="6648"/>
+    <media:statistics views="6693"/>
    </media:community>
   </media:group>
  </entry>
@@ -735,8 +735,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="313" average="5.00" min="1" max="5"/>
-    <media:statistics views="60214"/>
+    <media:starRating count="314" average="5.00" min="1" max="5"/>
+    <media:statistics views="60476"/>
    </media:community>
   </media:group>
  </entry>
@@ -809,7 +809,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="261" average="5.00" min="1" max="5"/>
-    <media:statistics views="70495"/>
+    <media:statistics views="70608"/>
    </media:community>
   </media:group>
  </entry>
@@ -881,8 +881,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="244" average="5.00" min="1" max="5"/>
-    <media:statistics views="73836"/>
+    <media:starRating count="247" average="5.00" min="1" max="5"/>
+    <media:statistics views="74228"/>
    </media:community>
   </media:group>
  </entry>
@@ -955,7 +955,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="117" average="5.00" min="1" max="5"/>
-    <media:statistics views="34388"/>
+    <media:statistics views="34463"/>
    </media:community>
   </media:group>
  </entry>
@@ -1028,7 +1028,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="270" average="5.00" min="1" max="5"/>
-    <media:statistics views="71375"/>
+    <media:statistics views="71478"/>
    </media:community>
   </media:group>
  </entry>
@@ -1101,7 +1101,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="203" average="5.00" min="1" max="5"/>
-    <media:statistics views="52497"/>
+    <media:statistics views="52586"/>
    </media:community>
   </media:group>
  </entry>

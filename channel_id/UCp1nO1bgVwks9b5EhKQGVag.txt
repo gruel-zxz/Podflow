@@ -29,8 +29,8 @@
    <media:description>科幻巨著《极光》，原著：金·斯坦利·罗宾逊。
 这部小说堪称人类航天的教科书级的小说，全程充满知识点，严谨的写作手法让这部小说毫无逻辑漏洞，堪称经典！</media:description>
    <media:community>
-    <media:starRating count="104" average="5.00" min="1" max="5"/>
-    <media:statistics views="4720"/>
+    <media:starRating count="107" average="5.00" min="1" max="5"/>
+    <media:statistics views="4841"/>
    </media:community>
   </media:group>
  </entry>
@@ -53,7 +53,7 @@
    <media:description>《XeeLee》系列从第三集开始，也要正式进入正题了，真正意义上的战争和剧情走向也要开始了。而且我们文案的叙事也相对加快了，以前计划十多集完成，目前计划在8集以内搞定。</media:description>
    <media:community>
     <media:starRating count="140" average="5.00" min="1" max="5"/>
-    <media:statistics views="4700"/>
+    <media:statistics views="4790"/>
    </media:community>
   </media:group>
  </entry>
@@ -77,7 +77,7 @@
 《幻影帝国》是暮夏之薰所著科幻小说，如感兴趣，请在起点读书app搜索“幻影帝国”阅读原著。</media:description>
    <media:community>
     <media:starRating count="100" average="5.00" min="1" max="5"/>
-    <media:statistics views="4972"/>
+    <media:statistics views="4987"/>
    </media:community>
   </media:group>
  </entry>
@@ -103,7 +103,7 @@
 08：46 巨引源的真相</media:description>
    <media:community>
     <media:starRating count="211" average="5.00" min="1" max="5"/>
-    <media:statistics views="7202"/>
+    <media:statistics views="7234"/>
    </media:community>
   </media:group>
  </entry>
@@ -127,7 +127,7 @@
 这个系列总算开始更新了，第一次尝试这么大体量的内容还是有点胆怯，不过开始更新就没法回头了。目前整理出了五期内容，内容量大致占XeeLee宇宙的50%。</media:description>
    <media:community>
     <media:starRating count="298" average="5.00" min="1" max="5"/>
-    <media:statistics views="15124"/>
+    <media:statistics views="15170"/>
    </media:community>
   </media:group>
  </entry>
@@ -151,7 +151,7 @@
 终于更新完毕，撒花！</media:description>
    <media:community>
     <media:starRating count="105" average="5.00" min="1" max="5"/>
-    <media:statistics views="5717"/>
+    <media:statistics views="5718"/>
    </media:community>
   </media:group>
  </entry>
@@ -174,7 +174,7 @@
    <media:description>2000年星云奖作品，《达尔文电波》。一部关于生物、化学、进化等内容的硬核科幻作品，作者提出了一个大胆的构想：物种的进化只需要两代便可以产生出全新的物种。原著：格雷格.贝尔。另外，xeelee系列已经开始搞了。</media:description>
    <media:community>
     <media:starRating count="163" average="5.00" min="1" max="5"/>
-    <media:statistics views="10279"/>
+    <media:statistics views="10284"/>
    </media:community>
   </media:group>
  </entry>
@@ -198,7 +198,7 @@
 尽管这样的内容可能很多人不喜欢，因为太深奥，故事性弱，但是作者透露出的丰富的哲学构想，值得我们去更新。</media:description>
    <media:community>
     <media:starRating count="114" average="5.00" min="1" max="5"/>
-    <media:statistics views="6472"/>
+    <media:statistics views="6475"/>
    </media:community>
   </media:group>
  </entry>
@@ -222,7 +222,7 @@
 《泥人十四》读这部小说的时候，全程处于学习状态......莱姆不仅在小说中提出了不少原创的科学理论，还向人们展示了写作科幻小说的另一种可能，我们尽可能的通俗化了原著，帮助读者能够理解。想挑战的朋友们可以试试这部《莱姆狂想曲》</media:description>
    <media:community>
     <media:starRating count="174" average="5.00" min="1" max="5"/>
-    <media:statistics views="10028"/>
+    <media:statistics views="10037"/>
    </media:community>
   </media:group>
  </entry>
@@ -247,7 +247,7 @@
 ——数百年后的未来世界，人工智慧（AI）机器人掌治了这个地球，人类文明被淡化模糊，过去的世界再也无人知晓。</media:description>
    <media:community>
     <media:starRating count="169" average="5.00" min="1" max="5"/>
-    <media:statistics views="9060"/>
+    <media:statistics views="9065"/>
    </media:community>
   </media:group>
  </entry>
@@ -270,7 +270,7 @@
    <media:description>无论人类如何选择，也许未来都无法被改变：刘慈欣《月夜》，这是刘慈欣2009年发表的短篇小说，继承了自己过去的风格，而且脑洞还是一样的大。</media:description>
    <media:community>
     <media:starRating count="123" average="5.00" min="1" max="5"/>
-    <media:statistics views="8673"/>
+    <media:statistics views="8682"/>
    </media:community>
   </media:group>
  </entry>
@@ -293,7 +293,7 @@
    <media:description>地心引力坐不住了：人类首次发现反重力区域——科幻小说《真相》，原著：阿瑟.克拉克，出自阿瑟.克拉克科幻短篇全集。</media:description>
    <media:community>
     <media:starRating count="191" average="5.00" min="1" max="5"/>
-    <media:statistics views="14373"/>
+    <media:statistics views="14378"/>
    </media:community>
   </media:group>
  </entry>
@@ -316,7 +316,7 @@
    <media:description>短篇科幻小说《四个很短的世界名著》，原著：乔.霍尔德曼。作者以四部世界名著：战争与和平、罪与罚、众生之路、追忆似水年华为引，改编成了这部短篇科幻小说，并获得了当年的雨果奖提名。</media:description>
    <media:community>
     <media:starRating count="156" average="5.00" min="1" max="5"/>
-    <media:statistics views="8033"/>
+    <media:statistics views="8035"/>
    </media:community>
   </media:group>
  </entry>
@@ -364,7 +364,7 @@
    <media:description>这是一部曾经在网上流传甚广的科幻小说，《沙漠奇遇》，由[前苏联] 伊·罗索霍瓦茨基所著，堪称科幻黄金时代的典范之作。</media:description>
    <media:community>
     <media:starRating count="186" average="5.00" min="1" max="5"/>
-    <media:statistics views="12937"/>
+    <media:statistics views="12940"/>
    </media:community>
   </media:group>
  </entry>
