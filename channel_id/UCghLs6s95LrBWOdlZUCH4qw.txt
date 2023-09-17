@@ -79,7 +79,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="314" average="5.00" min="1" max="5"/>
-    <media:statistics views="57514"/>
+    <media:statistics views="57552"/>
    </media:community>
   </media:group>
  </entry>
@@ -152,7 +152,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="336" average="5.00" min="1" max="5"/>
-    <media:statistics views="62654"/>
+    <media:statistics views="62733"/>
    </media:community>
   </media:group>
  </entry>
@@ -225,7 +225,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="211" average="5.00" min="1" max="5"/>
-    <media:statistics views="53111"/>
+    <media:statistics views="53183"/>
    </media:community>
   </media:group>
  </entry>
@@ -298,7 +298,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="219" average="5.00" min="1" max="5"/>
-    <media:statistics views="63510"/>
+    <media:statistics views="63526"/>
    </media:community>
   </media:group>
  </entry>
@@ -371,7 +371,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="152" average="5.00" min="1" max="5"/>
-    <media:statistics views="42608"/>
+    <media:statistics views="42626"/>
    </media:community>
   </media:group>
  </entry>
@@ -444,7 +444,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="203" average="5.00" min="1" max="5"/>
-    <media:statistics views="48685"/>
+    <media:statistics views="48701"/>
    </media:community>
   </media:group>
  </entry>
@@ -517,7 +517,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="290" average="5.00" min="1" max="5"/>
-    <media:statistics views="63115"/>
+    <media:statistics views="63124"/>
    </media:community>
   </media:group>
  </entry>
@@ -590,7 +590,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="245" average="5.00" min="1" max="5"/>
-    <media:statistics views="58539"/>
+    <media:statistics views="58573"/>
    </media:community>
   </media:group>
  </entry>
@@ -736,7 +736,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="317" average="5.00" min="1" max="5"/>
-    <media:statistics views="49947"/>
+    <media:statistics views="49973"/>
    </media:community>
   </media:group>
  </entry>
@@ -809,7 +809,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="260" average="5.00" min="1" max="5"/>
-    <media:statistics views="68159"/>
+    <media:statistics views="68162"/>
    </media:community>
   </media:group>
  </entry>
@@ -882,7 +882,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="252" average="5.00" min="1" max="5"/>
-    <media:statistics views="73321"/>
+    <media:statistics views="73328"/>
    </media:community>
   </media:group>
  </entry>
@@ -955,7 +955,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="118" average="5.00" min="1" max="5"/>
-    <media:statistics views="33703"/>
+    <media:statistics views="33709"/>
    </media:community>
   </media:group>
  </entry>
@@ -1028,7 +1028,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="270" average="5.00" min="1" max="5"/>
-    <media:statistics views="71585"/>
+    <media:statistics views="71588"/>
    </media:community>
   </media:group>
  </entry>
@@ -1101,7 +1101,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="204" average="5.00" min="1" max="5"/>
-    <media:statistics views="52458"/>
+    <media:statistics views="52462"/>
    </media:community>
   </media:group>
  </entry>

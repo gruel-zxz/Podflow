@@ -30,7 +30,7 @@
 这部小说堪称人类航天的教科书级的小说，全程充满知识点，严谨的写作手法让这部小说毫无逻辑漏洞，堪称经典！</media:description>
    <media:community>
     <media:starRating count="110" average="5.00" min="1" max="5"/>
-    <media:statistics views="5382"/>
+    <media:statistics views="5390"/>
    </media:community>
   </media:group>
  </entry>
@@ -53,7 +53,7 @@
    <media:description>《XeeLee》系列从第三集开始，也要正式进入正题了，真正意义上的战争和剧情走向也要开始了。而且我们文案的叙事也相对加快了，以前计划十多集完成，目前计划在8集以内搞定。</media:description>
    <media:community>
     <media:starRating count="145" average="5.00" min="1" max="5"/>
-    <media:statistics views="5163"/>
+    <media:statistics views="5166"/>
    </media:community>
   </media:group>
  </entry>
@@ -103,7 +103,7 @@
 08：46 巨引源的真相</media:description>
    <media:community>
     <media:starRating count="213" average="5.00" min="1" max="5"/>
-    <media:statistics views="7352"/>
+    <media:statistics views="7353"/>
    </media:community>
   </media:group>
  </entry>
@@ -151,7 +151,7 @@
 终于更新完毕，撒花！</media:description>
    <media:community>
     <media:starRating count="105" average="5.00" min="1" max="5"/>
-    <media:statistics views="5742"/>
+    <media:statistics views="5743"/>
    </media:community>
   </media:group>
  </entry>
@@ -364,7 +364,7 @@
    <media:description>这是一部曾经在网上流传甚广的科幻小说，《沙漠奇遇》，由[前苏联] 伊·罗索霍瓦茨基所著，堪称科幻黄金时代的典范之作。</media:description>
    <media:community>
     <media:starRating count="186" average="5.00" min="1" max="5"/>
-    <media:statistics views="12961"/>
+    <media:statistics views="12965"/>
    </media:community>
   </media:group>
  </entry>
