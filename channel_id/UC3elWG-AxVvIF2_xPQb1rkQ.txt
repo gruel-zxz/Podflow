@@ -11,6 +11,29 @@
  </author>
  <published>2022-06-04T16:17:27+00:00</published>
  <entry>
+  <id>yt:video:vFuSsdnaWNg</id>
+  <yt:videoId>vFuSsdnaWNg</yt:videoId>
+  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
+  <title>据说她是中年男人心中绝对的女神#爱吐槽的四季妈妈 #家庭吐槽大会</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=vFuSsdnaWNg"/>
+  <author>
+   <name>四季妈妈—小龙</name>
+   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
+  </author>
+  <published>2023-09-17T03:56:52+00:00</published>
+  <updated>2023-09-17T03:57:33+00:00</updated>
+  <media:group>
+   <media:title>据说她是中年男人心中绝对的女神#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
+   <media:content url="https://www.youtube.com/v/vFuSsdnaWNg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/vFuSsdnaWNg/hqdefault.jpg" width="480" height="360"/>
+   <media:description>据说她是中年男人心中绝对的女神#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
+   <media:community>
+    <media:starRating count="15" average="5.00" min="1" max="5"/>
+    <media:statistics views="843"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:SFyb6k6ePoE</id>
   <yt:videoId>SFyb6k6ePoE</yt:videoId>
   <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
@@ -28,8 +51,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/SFyb6k6ePoE/hqdefault.jpg" width="480" height="360"/>
    <media:description>在某些方面男人确实很强，毕竟包子有馅儿不在褶上#爱吐槽的四季妈妈 #家庭吐槽大会 #iPhon</media:description>
    <media:community>
-    <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="122"/>
+    <media:starRating count="9" average="5.00" min="1" max="5"/>
+    <media:statistics views="257"/>
    </media:community>
   </media:group>
  </entry>
@@ -51,8 +74,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/-Bzm65ZcshU/hqdefault.jpg" width="480" height="360"/>
    <media:description>浦东机场应该是每个卡点坐飞机的人的噩梦吧#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="113" average="5.00" min="1" max="5"/>
-    <media:statistics views="5948"/>
+    <media:starRating count="129" average="5.00" min="1" max="5"/>
+    <media:statistics views="6910"/>
    </media:community>
   </media:group>
  </entry>
@@ -75,7 +98,7 @@
    <media:description>各地土豪的奇闻异事#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="15" average="5.00" min="1" max="5"/>
-    <media:statistics views="604"/>
+    <media:statistics views="622"/>
    </media:community>
   </media:group>
  </entry>
@@ -98,7 +121,7 @@
    <media:description>约南北方女孩喝酒有哪些注意事项#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="9" average="5.00" min="1" max="5"/>
-    <media:statistics views="410"/>
+    <media:statistics views="412"/>
    </media:community>
   </media:group>
  </entry>
@@ -121,7 +144,7 @@
    <media:description>当从鱼的视角观察钓手时，他们还挺可爱#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="10" average="5.00" min="1" max="5"/>
-    <media:statistics views="409"/>
+    <media:statistics views="417"/>
    </media:community>
   </media:group>
  </entry>
@@ -144,7 +167,7 @@
    <media:description>男人真的太能装了，出门只需要一个裤兜#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="23" average="5.00" min="1" max="5"/>
-    <media:statistics views="991"/>
+    <media:statistics views="1001"/>
    </media:community>
   </media:group>
  </entry>
@@ -189,8 +212,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/gyzFPjcUU6I/hqdefault.jpg" width="480" height="360"/>
    <media:description>四川姑娘都是左手火锅右手喝，你们当地姑娘的酒量如何？#家庭吐槽大会 #爱吐槽的四季妈妈</media:description>
    <media:community>
-    <media:starRating count="121" average="5.00" min="1" max="5"/>
-    <media:statistics views="6431"/>
+    <media:starRating count="124" average="5.00" min="1" max="5"/>
+    <media:statistics views="6611"/>
    </media:community>
   </media:group>
  </entry>
@@ -213,7 +236,7 @@
    <media:description>如果没看过伯伯跳水，那天津等于白去了#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="14" average="5.00" min="1" max="5"/>
-    <media:statistics views="572"/>
+    <media:statistics views="577"/>
    </media:community>
   </media:group>
  </entry>
@@ -235,8 +258,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/Xb_BCZxTYoI/hqdefault.jpg" width="480" height="360"/>
    <media:description>跟山东人喝酒，主打一个站着进去，躺着出来#爱吐槽的四季妈妈 #家庭吐槽大会 #山东酒量</media:description>
    <media:community>
-    <media:starRating count="96" average="5.00" min="1" max="5"/>
-    <media:statistics views="6239"/>
+    <media:starRating count="97" average="5.00" min="1" max="5"/>
+    <media:statistics views="6433"/>
    </media:community>
   </media:group>
  </entry>
@@ -258,8 +281,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/yP8xs8cMYRg/hqdefault.jpg" width="480" height="360"/>
    <media:description>这个女人是福建人心中的顶流，说是凡人她不会说话，说是神仙她有自己的身份证和护照。#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="102" average="5.00" min="1" max="5"/>
-    <media:statistics views="6277"/>
+    <media:starRating count="104" average="5.00" min="1" max="5"/>
+    <media:statistics views="6568"/>
    </media:community>
   </media:group>
  </entry>
@@ -305,7 +328,7 @@
    <media:description>男人的爱好都能出一部进化史了，快来看看你到哪一步了#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="11" average="5.00" min="1" max="5"/>
-    <media:statistics views="654"/>
+    <media:statistics views="656"/>
    </media:community>
   </media:group>
  </entry>
@@ -328,30 +351,7 @@
    <media:description>男人干啥都要上厕所，厕所到底有什么秘密 #爱吐槽的四季妈妈  #家庭吐槽大会 scale</media:description>
    <media:community>
     <media:starRating count="13" average="5.00" min="1" max="5"/>
-    <media:statistics views="536"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:Efso8Kj0sHU</id>
-  <yt:videoId>Efso8Kj0sHU</yt:videoId>
-  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
-  <title>南方老人对北方人的误解有多深，你根本想象不到#爱吐槽的四季妈妈 #家庭吐槽大会 #舒适达专业修复牙膏</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=Efso8Kj0sHU"/>
-  <author>
-   <name>四季妈妈—小龙</name>
-   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
-  </author>
-  <published>2023-08-22T01:56:10+00:00</published>
-  <updated>2023-08-22T05:59:52+00:00</updated>
-  <media:group>
-   <media:title>南方老人对北方人的误解有多深，你根本想象不到#爱吐槽的四季妈妈 #家庭吐槽大会 #舒适达专业修复牙膏</media:title>
-   <media:content url="https://www.youtube.com/v/Efso8Kj0sHU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/Efso8Kj0sHU/hqdefault.jpg" width="480" height="360"/>
-   <media:description>南方老人对北方人的误解有多深，你根本想象不到#爱吐槽的四季妈妈 #家庭吐槽大会 #舒适达专业修复牙膏</media:description>
-   <media:community>
-    <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="480"/>
+    <media:statistics views="539"/>
    </media:community>
   </media:group>
  </entry>
