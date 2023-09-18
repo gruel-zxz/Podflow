@@ -29,7 +29,7 @@
    <media:description>据说她是中年男人心中绝对的女神#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="48" average="5.00" min="1" max="5"/>
-    <media:statistics views="2747"/>
+    <media:statistics views="2754"/>
    </media:community>
   </media:group>
  </entry>
@@ -75,7 +75,7 @@
    <media:description>浦东机场应该是每个卡点坐飞机的人的噩梦吧#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="143" average="5.00" min="1" max="5"/>
-    <media:statistics views="7893"/>
+    <media:statistics views="7897"/>
    </media:community>
   </media:group>
  </entry>
@@ -98,7 +98,7 @@
    <media:description>各地土豪的奇闻异事#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="15" average="5.00" min="1" max="5"/>
-    <media:statistics views="639"/>
+    <media:statistics views="640"/>
    </media:community>
   </media:group>
  </entry>
@@ -121,7 +121,7 @@
    <media:description>约南北方女孩喝酒有哪些注意事项#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="9" average="5.00" min="1" max="5"/>
-    <media:statistics views="418"/>
+    <media:statistics views="419"/>
    </media:community>
   </media:group>
  </entry>
@@ -144,7 +144,7 @@
    <media:description>当从鱼的视角观察钓手时，他们还挺可爱#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="10" average="5.00" min="1" max="5"/>
-    <media:statistics views="431"/>
+    <media:statistics views="432"/>
    </media:community>
   </media:group>
  </entry>
@@ -213,7 +213,7 @@
    <media:description>四川姑娘都是左手火锅右手喝，你们当地姑娘的酒量如何？#家庭吐槽大会 #爱吐槽的四季妈妈</media:description>
    <media:community>
     <media:starRating count="127" average="5.00" min="1" max="5"/>
-    <media:statistics views="6940"/>
+    <media:statistics views="6943"/>
    </media:community>
   </media:group>
  </entry>
@@ -259,7 +259,7 @@
    <media:description>跟山东人喝酒，主打一个站着进去，躺着出来#爱吐槽的四季妈妈 #家庭吐槽大会 #山东酒量</media:description>
    <media:community>
     <media:starRating count="101" average="5.00" min="1" max="5"/>
-    <media:statistics views="7022"/>
+    <media:statistics views="7027"/>
    </media:community>
   </media:group>
  </entry>
@@ -282,7 +282,7 @@
    <media:description>这个女人是福建人心中的顶流，说是凡人她不会说话，说是神仙她有自己的身份证和护照。#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="115" average="5.00" min="1" max="5"/>
-    <media:statistics views="7446"/>
+    <media:statistics views="7455"/>
    </media:community>
   </media:group>
  </entry>
@@ -328,7 +328,7 @@
    <media:description>男人的爱好都能出一部进化史了，快来看看你到哪一步了#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="11" average="5.00" min="1" max="5"/>
-    <media:statistics views="660"/>
+    <media:statistics views="661"/>
    </media:community>
   </media:group>
  </entry>
@@ -351,7 +351,7 @@
    <media:description>男人干啥都要上厕所，厕所到底有什么秘密 #爱吐槽的四季妈妈  #家庭吐槽大会 scale</media:description>
    <media:community>
     <media:starRating count="13" average="5.00" min="1" max="5"/>
-    <media:statistics views="540"/>
+    <media:statistics views="541"/>
    </media:community>
   </media:group>
  </entry>

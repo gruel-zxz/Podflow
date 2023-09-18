@@ -30,7 +30,7 @@
 这部小说堪称人类航天的教科书级的小说，全程充满知识点，严谨的写作手法让这部小说毫无逻辑漏洞，堪称经典！</media:description>
    <media:community>
     <media:starRating count="122" average="5.00" min="1" max="5"/>
-    <media:statistics views="6062"/>
+    <media:statistics views="6065"/>
    </media:community>
   </media:group>
  </entry>
@@ -103,7 +103,7 @@
 08：46 巨引源的真相</media:description>
    <media:community>
     <media:starRating count="214" average="5.00" min="1" max="5"/>
-    <media:statistics views="7464"/>
+    <media:statistics views="7465"/>
    </media:community>
   </media:group>
  </entry>
