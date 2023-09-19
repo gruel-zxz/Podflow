@@ -10,6 +10,29 @@
   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
  </author>
  <entry>
+  <id>yt:video:HgIBGdBDeHs</id>
+  <yt:videoId>HgIBGdBDeHs</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>are all cat people secretly wearing that shirt? @amandumbb @Jenerd @KurtTocci</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=HgIBGdBDeHs"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2023-09-18T17:00:57+00:00</published>
+  <updated>2023-09-18T17:06:02+00:00</updated>
+  <media:group>
+   <media:title>are all cat people secretly wearing that shirt? @amandumbb @Jenerd @KurtTocci</media:title>
+   <media:content url="https://www.youtube.com/v/HgIBGdBDeHs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/HgIBGdBDeHs/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="1189" average="5.00" min="1" max="5"/>
+    <media:statistics views="18386"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:rwYAcQqbbrY</id>
   <yt:videoId>rwYAcQqbbrY</yt:videoId>
   <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
@@ -27,8 +50,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/rwYAcQqbbrY/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2094" average="5.00" min="1" max="5"/>
-    <media:statistics views="33223"/>
+    <media:starRating count="2373" average="5.00" min="1" max="5"/>
+    <media:statistics views="38562"/>
    </media:community>
   </media:group>
  </entry>
@@ -88,8 +111,8 @@ Featured Creators:
 
 #Gaming #Retrogaming #YouTube</media:description>
    <media:community>
-    <media:starRating count="2632" average="5.00" min="1" max="5"/>
-    <media:statistics views="1479274"/>
+    <media:starRating count="2879" average="5.00" min="1" max="5"/>
+    <media:statistics views="1931837"/>
    </media:community>
   </media:group>
  </entry>
@@ -120,8 +143,8 @@ Featured Creators:
 
 #SafiyaNygaard #WatchHistory #YouTube</media:description>
    <media:community>
-    <media:starRating count="1313" average="5.00" min="1" max="5"/>
-    <media:statistics views="408956"/>
+    <media:starRating count="1334" average="5.00" min="1" max="5"/>
+    <media:statistics views="413369"/>
    </media:community>
   </media:group>
  </entry>
@@ -143,8 +166,8 @@ Featured Creators:
    <media:thumbnail url="https://i1.ytimg.com/vi/DcNI16MEjrM/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3684" average="5.00" min="1" max="5"/>
-    <media:statistics views="59593"/>
+    <media:starRating count="3786" average="5.00" min="1" max="5"/>
+    <media:statistics views="61536"/>
    </media:community>
   </media:group>
  </entry>
@@ -166,8 +189,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/fokY9vEnAL4/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4656" average="5.00" min="1" max="5"/>
-    <media:statistics views="95793"/>
+    <media:starRating count="4742" average="5.00" min="1" max="5"/>
+    <media:statistics views="97501"/>
    </media:community>
   </media:group>
  </entry>
@@ -222,8 +245,8 @@ Featured Creators:
 
 #GRWM #Makeup #Beauty #GetReadyWithMe</media:description>
    <media:community>
-    <media:starRating count="3216" average="5.00" min="1" max="5"/>
-    <media:statistics views="445225"/>
+    <media:starRating count="3217" average="5.00" min="1" max="5"/>
+    <media:statistics views="446712"/>
    </media:community>
   </media:group>
  </entry>
@@ -245,8 +268,8 @@ Featured Creators:
    <media:thumbnail url="https://i4.ytimg.com/vi/G25VMOgmhxo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="5233" average="5.00" min="1" max="5"/>
-    <media:statistics views="110380"/>
+    <media:starRating count="5328" average="5.00" min="1" max="5"/>
+    <media:statistics views="112264"/>
    </media:community>
   </media:group>
  </entry>
@@ -276,8 +299,8 @@ Featured Creators:
 
 #Courtreezy #WatchHistory #YouTube</media:description>
    <media:community>
-    <media:starRating count="1976" average="5.00" min="1" max="5"/>
-    <media:statistics views="384471"/>
+    <media:starRating count="1992" average="5.00" min="1" max="5"/>
+    <media:statistics views="385391"/>
    </media:community>
   </media:group>
  </entry>
@@ -299,8 +322,8 @@ Featured Creators:
    <media:thumbnail url="https://i4.ytimg.com/vi/w85VN7EEBMo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="5108" average="5.00" min="1" max="5"/>
-    <media:statistics views="100369"/>
+    <media:starRating count="5170" average="5.00" min="1" max="5"/>
+    <media:statistics views="101584"/>
    </media:community>
   </media:group>
  </entry>
@@ -322,8 +345,8 @@ Featured Creators:
    <media:thumbnail url="https://i4.ytimg.com/vi/SPi0GkYauVU/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="7489" average="5.00" min="1" max="5"/>
-    <media:statistics views="128186"/>
+    <media:starRating count="7547" average="5.00" min="1" max="5"/>
+    <media:statistics views="129645"/>
    </media:community>
   </media:group>
  </entry>
@@ -359,8 +382,8 @@ https://youtu.be/KcTz_hpRNGY
 
 In celebration of hip hop's 50th anniversary, YouTube is rolling 50 Deep. Check out the 50 Deep flagship playlist at: yt.be/yt50deep</media:description>
    <media:community>
-    <media:starRating count="1830" average="5.00" min="1" max="5"/>
-    <media:statistics views="172260"/>
+    <media:starRating count="1833" average="5.00" min="1" max="5"/>
+    <media:statistics views="172837"/>
    </media:community>
   </media:group>
  </entry>
@@ -386,8 +409,8 @@ From how the world dresses, to how the world speaks, hip hop is not just a cultu
 
 #50Deep #HipHop #HipHop50</media:description>
    <media:community>
-    <media:starRating count="4490" average="5.00" min="1" max="5"/>
-    <media:statistics views="2069992"/>
+    <media:starRating count="4507" average="5.00" min="1" max="5"/>
+    <media:statistics views="2072348"/>
    </media:community>
   </media:group>
  </entry>
@@ -409,8 +432,8 @@ From how the world dresses, to how the world speaks, hip hop is not just a cultu
    <media:thumbnail url="https://i4.ytimg.com/vi/SxhSSQ28y9U/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4722" average="5.00" min="1" max="5"/>
-    <media:statistics views="77629"/>
+    <media:starRating count="4752" average="5.00" min="1" max="5"/>
+    <media:statistics views="78204"/>
    </media:community>
   </media:group>
  </entry>
@@ -432,31 +455,8 @@ From how the world dresses, to how the world speaks, hip hop is not just a cultu
    <media:thumbnail url="https://i4.ytimg.com/vi/gPDxEL1yKbU/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="5401" average="5.00" min="1" max="5"/>
-    <media:statistics views="122044"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:GTEOm0lG3pY</id>
-  <yt:videoId>GTEOm0lG3pY</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>@dreamylittlenails absolutely NAILED this #ImSuperShy set @NewJeans_official</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=GTEOm0lG3pY"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2023-07-30T15:00:27+00:00</published>
-  <updated>2023-07-30T21:59:48+00:00</updated>
-  <media:group>
-   <media:title>@dreamylittlenails absolutely NAILED this #ImSuperShy set @NewJeans_official</media:title>
-   <media:content url="https://www.youtube.com/v/GTEOm0lG3pY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/GTEOm0lG3pY/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="8659" average="5.00" min="1" max="5"/>
-    <media:statistics views="223362"/>
+    <media:starRating count="5428" average="5.00" min="1" max="5"/>
+    <media:statistics views="122713"/>
    </media:community>
   </media:group>
  </entry>

@@ -21,15 +21,15 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2023-09-17T03:56:52+00:00</published>
-  <updated>2023-09-18T05:41:15+00:00</updated>
+  <updated>2023-09-18T18:54:26+00:00</updated>
   <media:group>
    <media:title>据说她是中年男人心中绝对的女神#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
    <media:content url="https://www.youtube.com/v/vFuSsdnaWNg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i3.ytimg.com/vi/vFuSsdnaWNg/hqdefault.jpg" width="480" height="360"/>
    <media:description>据说她是中年男人心中绝对的女神#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="48" average="5.00" min="1" max="5"/>
-    <media:statistics views="2754"/>
+    <media:starRating count="70" average="5.00" min="1" max="5"/>
+    <media:statistics views="3827"/>
    </media:community>
   </media:group>
  </entry>
@@ -51,8 +51,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/SFyb6k6ePoE/hqdefault.jpg" width="480" height="360"/>
    <media:description>在某些方面男人确实很强，毕竟包子有馅儿不在褶上#爱吐槽的四季妈妈 #家庭吐槽大会 #iPhon</media:description>
    <media:community>
-    <media:starRating count="9" average="5.00" min="1" max="5"/>
-    <media:statistics views="292"/>
+    <media:starRating count="10" average="5.00" min="1" max="5"/>
+    <media:statistics views="330"/>
    </media:community>
   </media:group>
  </entry>
@@ -74,8 +74,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/-Bzm65ZcshU/hqdefault.jpg" width="480" height="360"/>
    <media:description>浦东机场应该是每个卡点坐飞机的人的噩梦吧#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="143" average="5.00" min="1" max="5"/>
-    <media:statistics views="7897"/>
+    <media:starRating count="156" average="5.00" min="1" max="5"/>
+    <media:statistics views="8980"/>
    </media:community>
   </media:group>
  </entry>
@@ -97,8 +97,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/Z547dXQjEpw/hqdefault.jpg" width="480" height="360"/>
    <media:description>各地土豪的奇闻异事#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="15" average="5.00" min="1" max="5"/>
-    <media:statistics views="640"/>
+    <media:starRating count="16" average="5.00" min="1" max="5"/>
+    <media:statistics views="676"/>
    </media:community>
   </media:group>
  </entry>
@@ -121,7 +121,7 @@
    <media:description>约南北方女孩喝酒有哪些注意事项#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="9" average="5.00" min="1" max="5"/>
-    <media:statistics views="419"/>
+    <media:statistics views="423"/>
    </media:community>
   </media:group>
  </entry>
@@ -144,7 +144,7 @@
    <media:description>当从鱼的视角观察钓手时，他们还挺可爱#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="10" average="5.00" min="1" max="5"/>
-    <media:statistics views="432"/>
+    <media:statistics views="442"/>
    </media:community>
   </media:group>
  </entry>
@@ -167,7 +167,7 @@
    <media:description>男人真的太能装了，出门只需要一个裤兜#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="23" average="5.00" min="1" max="5"/>
-    <media:statistics views="1014"/>
+    <media:statistics views="1023"/>
    </media:community>
   </media:group>
  </entry>
@@ -190,7 +190,7 @@
    <media:description>东北最宝贵的不是人参鹿茸和皮草，而是温暖的人情#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="9" average="5.00" min="1" max="5"/>
-    <media:statistics views="836"/>
+    <media:statistics views="838"/>
    </media:community>
   </media:group>
  </entry>
@@ -212,8 +212,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/gyzFPjcUU6I/hqdefault.jpg" width="480" height="360"/>
    <media:description>四川姑娘都是左手火锅右手喝，你们当地姑娘的酒量如何？#家庭吐槽大会 #爱吐槽的四季妈妈</media:description>
    <media:community>
-    <media:starRating count="127" average="5.00" min="1" max="5"/>
-    <media:statistics views="6943"/>
+    <media:starRating count="131" average="5.00" min="1" max="5"/>
+    <media:statistics views="7336"/>
    </media:community>
   </media:group>
  </entry>
@@ -236,7 +236,7 @@
    <media:description>如果没看过伯伯跳水，那天津等于白去了#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="14" average="5.00" min="1" max="5"/>
-    <media:statistics views="581"/>
+    <media:statistics views="583"/>
    </media:community>
   </media:group>
  </entry>
@@ -258,8 +258,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/Xb_BCZxTYoI/hqdefault.jpg" width="480" height="360"/>
    <media:description>跟山东人喝酒，主打一个站着进去，躺着出来#爱吐槽的四季妈妈 #家庭吐槽大会 #山东酒量</media:description>
    <media:community>
-    <media:starRating count="101" average="5.00" min="1" max="5"/>
-    <media:statistics views="7027"/>
+    <media:starRating count="106" average="5.00" min="1" max="5"/>
+    <media:statistics views="7665"/>
    </media:community>
   </media:group>
  </entry>
@@ -281,8 +281,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/yP8xs8cMYRg/hqdefault.jpg" width="480" height="360"/>
    <media:description>这个女人是福建人心中的顶流，说是凡人她不会说话，说是神仙她有自己的身份证和护照。#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="115" average="5.00" min="1" max="5"/>
-    <media:statistics views="7455"/>
+    <media:starRating count="122" average="5.00" min="1" max="5"/>
+    <media:statistics views="8300"/>
    </media:community>
   </media:group>
  </entry>
@@ -305,7 +305,7 @@
    <media:description>全国哪个省的女孩最能喝？姑娘酒量有多少，全看桌上放多少#爱吐槽的四季妈妈 #家庭吐槽大会 #属于我的多巴胺夏天</media:description>
    <media:community>
     <media:starRating count="12" average="5.00" min="1" max="5"/>
-    <media:statistics views="635"/>
+    <media:statistics views="636"/>
    </media:community>
   </media:group>
  </entry>
@@ -328,7 +328,7 @@
    <media:description>男人的爱好都能出一部进化史了，快来看看你到哪一步了#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="11" average="5.00" min="1" max="5"/>
-    <media:statistics views="661"/>
+    <media:statistics views="664"/>
    </media:community>
   </media:group>
  </entry>
@@ -351,7 +351,7 @@
    <media:description>男人干啥都要上厕所，厕所到底有什么秘密 #爱吐槽的四季妈妈  #家庭吐槽大会 scale</media:description>
    <media:community>
     <media:starRating count="13" average="5.00" min="1" max="5"/>
-    <media:statistics views="541"/>
+    <media:statistics views="543"/>
    </media:community>
   </media:group>
  </entry>
