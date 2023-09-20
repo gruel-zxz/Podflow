@@ -20,7 +20,7 @@ default_config = {
     "url": "http://127.0.0.1:8000",
     "title": "YouTube",
     "link": "https://m.youtube.com",
-    "description": "在YouTube 上畅享您喜爱的视频和音乐，上传原创内容并与亲朋好友和全世界观众分享您的视频。",
+    "description": "在YouTube 上畅享您喜爱的视频和音乐上传原创内容并与亲朋好友和全世界观众分享您的视频。",
     "icon": "https://static.vecteezy.com/system/resources/previews/003/399/771/original/youtube-icon-editorial-free-vector.jpg",
     "category": "TV &amp; Film",
     "channelid_youtube": {
@@ -30,7 +30,9 @@ default_config = {
             "title": "YouTube",
             "quality": "480",
             "last_size": 50,
-            "media": "m4a"
+            "media": "m4a",
+            "InmainRSS": "Yes",
+            "DisplayRSSaddress": "Yes"
         }
     }
 }
@@ -41,11 +43,11 @@ default_config = {
 
 # 文件保存模块
 def file_save(content, file_name, folder=None):
-    # 如果指定了文件夹，则将文件保存到指定的文件夹中
+    # 如果指定了文件夹则将文件保存到指定的文件夹中
     if folder:
         file_path = os.path.join(os.path.join(os.getcwd(), folder), file_name)
     else:
-        # 如果没有指定文件夹，则将文件保存在当前工作目录中
+        # 如果没有指定文件夹则将文件保存在当前工作目录中
         file_path = os.path.join(os.getcwd(), file_name)
     # 保存文件
     with open(file_path, "w", encoding="utf-8") as file:
@@ -81,17 +83,17 @@ def write_log(log, suffix=None):
 # In[ ]:
 
 
-# 查看requests模块是否安装，并安装
+# 查看requests模块是否安装并安装
 try:
     import requests
-    # 如果导入成功，你可以在这里使用requests库
+    # 如果导入成功你可以在这里使用requests库
 except ImportError:
     try:
         subprocess.run(['pip', 'install', 'requests' , '-U'], capture_output=True, text=True)
         write_log("requests安装成功")
         import requests
     except FileNotFoundError:
-        write_log("requests安装失败，请重试")
+        write_log("requests安装失败请重试")
         sys.exit(0)
 
 
@@ -105,7 +107,7 @@ def get_with_retry(url, name, max_retries=10, retry_delay=6):
             response = requests.get(f"{url}")
             response.raise_for_status()
         except Exception:
-            write_log(f"{name}|连接异常，重试中")
+            write_log(f"{name}|连接异常重试中")
         else:
             return response
         time.sleep(retry_delay)
@@ -156,7 +158,7 @@ def library_install(library):
 # In[ ]:
 
 
-# 安装/更新yt-dlp，并加载
+# 安装/更新yt-dlp并加载
 library_install("yt-dlp")
 import yt_dlp
 # 安装/更新rangehttpserver
@@ -169,7 +171,7 @@ library_install("RangeHTTPServer")
 # 格式化时间模块
 def time_format(duration):
     if duration is None:
-        duration = 0
+        return "Unknown"
     duration = int(duration)
     hours, remaining_seconds = divmod(duration, 3600)
     minutes = remaining_seconds // 60
@@ -187,7 +189,7 @@ def convert_bytes(byte_size, units = None, outweigh =1024):
         byte_size = 0
     # 初始单位是字节
     unit_index = 0
-    # 将字节大小除以1024，直到小于1024为止
+    # 将字节大小除以1024直到小于1024为止
     while byte_size > outweigh and unit_index < len(units) - 1:
         byte_size /= 1024.0
         unit_index += 1
@@ -206,7 +208,10 @@ def show_progress(stream):
         total_bytes = convert_bytes(stream['total_bytes'])
     else:
         total_bytes = "Unknow B"
-    speed = convert_bytes(stream['speed'], ['  B', 'KiB', 'MiB', 'GiB'], 1000).rjust(9)
+    if stream['speed'] is None:
+        speed = " Unknow B"
+    else:
+        speed = convert_bytes(stream['speed'], [' B', 'KiB', 'MiB', 'GiB'], 1000).rjust(9)
     if stream['status'] in ["downloading", "error"]:
         if "total_bytes" in stream:
             bar = stream['downloaded_bytes'] / stream['total_bytes'] * 100
@@ -621,7 +626,7 @@ def xml_rss(title,link,description,category,icon,items):
 
 # 生成item模块
 def xml_item(video_url, output_dir, video_website, channelid_title,title, description, pubDate, image):
-    # 查看标题中是否有频道名称，如无添加到描述中
+    # 查看标题中是否有频道名称如无添加到描述中
     if channelid_title not in html.unescape(title):
         if description == "":
             description = f"『{html.escape(channelid_title)}』{description}"
@@ -795,7 +800,7 @@ def youtube_xml_items(output_dir):
                 xml_num += 1
             if xml_num >= entry_count:
                 break
-    update_text = ""
+    update_text = "无更新"
     try:
         with open(f"channel_rss/{output_dir}.xml", 'r', encoding='utf-8') as file:  # 打开文件进行读取
             root = ET.parse(file).getroot()
