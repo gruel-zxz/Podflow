@@ -6,7 +6,8 @@
             "title": "YouTube",
             "quality": "480",
             "last_size": 20,
-            "media": "mp4"
+            "media": "mp4",
+            "InmainRSS": false
         },
         "stone记":{
             "update_size": 15,

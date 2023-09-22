@@ -30,7 +30,7 @@
 这部小说堪称人类航天的教科书级的小说，全程充满知识点，严谨的写作手法让这部小说毫无逻辑漏洞，堪称经典！</media:description>
    <media:community>
     <media:starRating count="140" average="5.00" min="1" max="5"/>
-    <media:statistics views="8925"/>
+    <media:statistics views="8935"/>
    </media:community>
   </media:group>
  </entry>
@@ -127,7 +127,7 @@
 这个系列总算开始更新了，第一次尝试这么大体量的内容还是有点胆怯，不过开始更新就没法回头了。目前整理出了五期内容，内容量大致占XeeLee宇宙的50%。</media:description>
    <media:community>
     <media:starRating count="311" average="5.00" min="1" max="5"/>
-    <media:statistics views="16266"/>
+    <media:statistics views="16267"/>
    </media:community>
   </media:group>
  </entry>
@@ -151,7 +151,7 @@
 终于更新完毕，撒花！</media:description>
    <media:community>
     <media:starRating count="106" average="5.00" min="1" max="5"/>
-    <media:statistics views="5861"/>
+    <media:statistics views="5862"/>
    </media:community>
   </media:group>
  </entry>
@@ -198,7 +198,7 @@
 尽管这样的内容可能很多人不喜欢，因为太深奥，故事性弱，但是作者透露出的丰富的哲学构想，值得我们去更新。</media:description>
    <media:community>
     <media:starRating count="114" average="5.00" min="1" max="5"/>
-    <media:statistics views="6574"/>
+    <media:statistics views="6573"/>
    </media:community>
   </media:group>
  </entry>
