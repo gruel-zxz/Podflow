@@ -93,17 +93,15 @@ except ImportError:
     try:
         subprocess.run(['pip', 'install', 'chardet' , '-U'], capture_output=True, text=True)
         subprocess.run(['pip', 'install', 'requests' , '-U'], capture_output=True, text=True)
-        import requests
-        write_log("requests安装成功")
     except Exception:
         write_log("requests安装失败请重试")
         sys.exit(0)
-try:
-    import requests
-    write_log("requests安装成功")
-except ImportError:
-    write_log("requests安装失败请重试")
-    sys.exit(0)
+    try:
+        import requests
+        write_log("requests安装成功")
+    except ImportError:
+        write_log("requests安装失败请重试")
+        sys.exit(0)
 
 
 # In[82]:
