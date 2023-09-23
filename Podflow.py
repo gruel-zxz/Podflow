@@ -98,7 +98,7 @@ except ImportError:
         write_log("requests安装失败请重试")
         sys.exit(0)
     try:
-        importlib.reload(requests)
+        importlib.reload("requests")
         write_log("requests安装成功")
     except ImportError:
         write_log("requests安装失败请重试")
