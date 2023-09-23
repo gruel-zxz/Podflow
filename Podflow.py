@@ -10,6 +10,7 @@ import sys
 import html
 import json
 import time
+import importlib
 import subprocess
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
@@ -97,7 +98,7 @@ except ImportError:
         write_log("requests安装失败请重试")
         sys.exit(0)
     try:
-        import requests
+        importlib.reload(requests)
         write_log("requests安装成功")
     except ImportError:
         write_log("requests安装失败请重试")
