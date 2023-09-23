@@ -10,7 +10,6 @@ import sys
 import html
 import json
 import time
-import importlib
 import subprocess
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
@@ -94,13 +93,9 @@ except ImportError:
     try:
         subprocess.run(['pip', 'install', 'chardet' , '-U'], capture_output=True, text=True)
         subprocess.run(['pip', 'install', 'requests' , '-U'], capture_output=True, text=True)
-    except Exception:
-        write_log("requests安装失败请重试")
+        write_log("requests安装成功, 请重新运行")
         sys.exit(0)
-    try:
-        importlib.reload("requests")
-        write_log("requests安装成功")
-    except ImportError:
+    except FileNotFoundError:
         write_log("requests安装失败请重试")
         sys.exit(0)
 
