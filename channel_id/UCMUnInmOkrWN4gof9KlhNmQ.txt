@@ -21,7 +21,7 @@
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
   <published>2023-09-20T14:12:12+00:00</published>
-  <updated>2023-09-21T08:15:09+00:00</updated>
+  <updated>2023-09-23T18:13:42+00:00</updated>
   <media:group>
    <media:title>最強手相，你的雙手創造你的人生 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/CM2i6qD8nk8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -253,8 +253,8 @@ https://www.youtube.com/watch?v=Ttus8XGK6Xw
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="51634" average="5.00" min="1" max="5"/>
-    <media:statistics views="1803666"/>
+    <media:starRating count="57378" average="5.00" min="1" max="5"/>
+    <media:statistics views="2126001"/>
    </media:community>
   </media:group>
  </entry>
@@ -500,8 +500,8 @@ https://www.youtube.com/watch?v=Ttus8XGK6Xw
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="70985" average="5.00" min="1" max="5"/>
-    <media:statistics views="2769896"/>
+    <media:starRating count="71513" average="5.00" min="1" max="5"/>
+    <media:statistics views="2807336"/>
    </media:community>
   </media:group>
  </entry>
@@ -745,8 +745,8 @@ https://www.youtube.com/watch?v=ElqnKNkiyHA
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="49657" average="5.00" min="1" max="5"/>
-    <media:statistics views="2683415"/>
+    <media:starRating count="49805" average="5.00" min="1" max="5"/>
+    <media:statistics views="2702256"/>
    </media:community>
   </media:group>
  </entry>
@@ -968,8 +968,8 @@ https://www.youtube.com/watch?v=N4xXGIrzKJs
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="60183" average="5.00" min="1" max="5"/>
-    <media:statistics views="2720578"/>
+    <media:starRating count="60375" average="5.00" min="1" max="5"/>
+    <media:statistics views="2738177"/>
    </media:community>
   </media:group>
  </entry>
@@ -1178,8 +1178,8 @@ https://www.youtube.com/watch?v=czNMh9kVhIE
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="58585" average="5.00" min="1" max="5"/>
-    <media:statistics views="2976670"/>
+    <media:starRating count="58695" average="5.00" min="1" max="5"/>
+    <media:statistics views="2991178"/>
    </media:community>
   </media:group>
  </entry>
@@ -1406,8 +1406,8 @@ https://www.youtube.com/watch?v=B-I2guiXzRA
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="49767" average="5.00" min="1" max="5"/>
-    <media:statistics views="2346145"/>
+    <media:starRating count="49796" average="5.00" min="1" max="5"/>
+    <media:statistics views="2350447"/>
    </media:community>
   </media:group>
  </entry>
@@ -1422,7 +1422,7 @@ https://www.youtube.com/watch?v=B-I2guiXzRA
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
   <published>2023-08-09T14:35:23+00:00</published>
-  <updated>2023-08-19T18:40:15+00:00</updated>
+  <updated>2023-09-23T21:21:27+00:00</updated>
   <media:group>
    <media:title>【震撼】老子的人生哲學與智慧，看完你就解脫了 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/k6ZE_ddwr5s?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -1649,8 +1649,8 @@ https://www.youtube.com/watch?v=3cHZfgSqPa4
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="101053" average="5.00" min="1" max="5"/>
-    <media:statistics views="3830378"/>
+    <media:starRating count="101190" average="5.00" min="1" max="5"/>
+    <media:statistics views="3842986"/>
    </media:community>
   </media:group>
  </entry>
@@ -1899,8 +1899,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="64731" average="5.00" min="1" max="5"/>
-    <media:statistics views="3573081"/>
+    <media:starRating count="64782" average="5.00" min="1" max="5"/>
+    <media:statistics views="3580796"/>
    </media:community>
   </media:group>
  </entry>
@@ -2149,8 +2149,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="63589" average="5.00" min="1" max="5"/>
-    <media:statistics views="3196182"/>
+    <media:starRating count="63646" average="5.00" min="1" max="5"/>
+    <media:statistics views="3203307"/>
    </media:community>
   </media:group>
  </entry>
@@ -2399,8 +2399,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="42408" average="5.00" min="1" max="5"/>
-    <media:statistics views="2408060"/>
+    <media:starRating count="42420" average="5.00" min="1" max="5"/>
+    <media:statistics views="2410206"/>
    </media:community>
   </media:group>
  </entry>
@@ -2415,7 +2415,7 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
   <published>2023-07-12T13:12:10+00:00</published>
-  <updated>2023-07-14T05:23:37+00:00</updated>
+  <updated>2023-09-23T16:36:28+00:00</updated>
   <media:group>
    <media:title>【震撼】這個話題的原始資料在網上都已經被刪除了，所以這部影片也可能隨時下架 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/KpfDLz9Y33s?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -2649,8 +2649,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="62227" average="5.00" min="1" max="5"/>
-    <media:statistics views="3805264"/>
+    <media:starRating count="62270" average="5.00" min="1" max="5"/>
+    <media:statistics views="3812334"/>
    </media:community>
   </media:group>
  </entry>
@@ -2899,8 +2899,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="50154" average="5.00" min="1" max="5"/>
-    <media:statistics views="3036978"/>
+    <media:starRating count="50170" average="5.00" min="1" max="5"/>
+    <media:statistics views="3039634"/>
    </media:community>
   </media:group>
  </entry>
@@ -3149,8 +3149,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="57467" average="5.00" min="1" max="5"/>
-    <media:statistics views="3049743"/>
+    <media:starRating count="57491" average="5.00" min="1" max="5"/>
+    <media:statistics views="3053550"/>
    </media:community>
   </media:group>
  </entry>
@@ -3399,8 +3399,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="48505" average="5.00" min="1" max="5"/>
-    <media:statistics views="3003098"/>
+    <media:starRating count="48518" average="5.00" min="1" max="5"/>
+    <media:statistics views="3005051"/>
    </media:community>
   </media:group>
  </entry>
@@ -3415,7 +3415,7 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
   <published>2023-06-14T13:39:08+00:00</published>
-  <updated>2023-09-16T00:28:21+00:00</updated>
+  <updated>2023-09-24T06:28:11+00:00</updated>
   <media:group>
    <media:title>90% | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/_4phafehhy8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -3649,8 +3649,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="60123" average="5.00" min="1" max="5"/>
-    <media:statistics views="3711819"/>
+    <media:starRating count="60144" average="5.00" min="1" max="5"/>
+    <media:statistics views="3715556"/>
    </media:community>
   </media:group>
  </entry>
