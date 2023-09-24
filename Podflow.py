@@ -10,6 +10,7 @@ import sys
 import html
 import json
 import time
+import threading
 import subprocess
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
@@ -110,11 +111,11 @@ def get_with_retry(url, name, max_retries=10, retry_delay=6):
             response = requests.get(f"{url}")
             response.raise_for_status()
         except Exception:
-            write_log(f"{name}|连接异常重试中")
+            print(f"{name}|连接异常重试中")
         else:
             return response
         time.sleep(retry_delay)
-    write_log(f"{name}|达到最大重试次数")
+    print(f"{name}|达到最大重试次数")
     return None
 
 
@@ -531,48 +532,63 @@ youtube_content_ytid_update = {}  #创建需下载视频列表
 # 判断频道id是否正确
 pattern_youtube404 = r"Error 404"  # 设置要匹配的正则表达式模式
 pattern_youtube_vary = r'([0-9]{4}-[0-9]{2}-[0-9]{2}T[0-2][0-9]:[0-6][0-9]:[0-6][0-9]\+00:00)?(starRating count="[0-9]*")?(statistics views="[0-9]*")?(<id>yt:channel:(UC.{22})?</id>)?(<yt:channelId>(UC.{22})?</yt:channelId>)?'
-for youtube_key, youtube_value in channelid_youtube_ids.items():
+# 创建线程锁
+youtube_need_update_lock = threading.Lock()
+def youtube_need_update(youtube_key, youtube_value):
     # 构建 URL
     youtube_url = f"https://www.youtube.com/feeds/videos.xml?channel_id={youtube_key}"
-    if youtube_response := get_with_retry(youtube_url, youtube_value):
-        youtube_content = youtube_response.text
-        if re.search(pattern_youtube404, youtube_content):
-            write_log(f"YouTube频道 {youtube_value} ID不正确无法获取")
-            del channelid_youtube_ids[youtube_key]  # 删除错误ID
-        else:
-            youtube_content_clean = re.sub(pattern_youtube_vary, '', youtube_content)
-            # 读取原Youtube频道xml文件并判断是否要更新
-            try:
-                with open(f"channel_id/{youtube_key}.txt", 'r', encoding='utf-8') as file:  # 打开文件进行读取
-                    youtube_content_original = file.read()  # 读取文件内容
-                    youtube_content_original_clean = re.sub(pattern_youtube_vary, '', youtube_content_original)
-                if youtube_content_clean != youtube_content_original_clean :  #判断是否要更新
+    youtube_response = get_with_retry(youtube_url, youtube_value)
+    with youtube_need_update_lock:
+        if youtube_response:
+            youtube_content = youtube_response.text
+            if re.search(pattern_youtube404, youtube_content):
+                write_log(f"YouTube频道 {youtube_value} ID不正确无法获取")
+                del channelid_youtube_ids[youtube_key]  # 删除错误ID
+            else:
+                youtube_content_clean = re.sub(pattern_youtube_vary, '', youtube_content)
+                # 读取原Youtube频道xml文件并判断是否要更新
+                try:
+                    with open(f"channel_id/{youtube_key}.txt", 'r', encoding='utf-8') as file:  # 打开文件进行读取
+                        youtube_content_original = file.read()  # 读取文件内容
+                        youtube_content_original_clean = re.sub(pattern_youtube_vary, '', youtube_content_original)
+                    if youtube_content_clean != youtube_content_original_clean :  #判断是否要更新
+                        channelid_youtube_ids_update[youtube_key] = youtube_value
+                        channelid_youtube[channelid_youtube_ids[youtube_key]]['DisplayRSSaddress'] = True
+                except FileNotFoundError:  #文件不存在直接更新
                     channelid_youtube_ids_update[youtube_key] = youtube_value
                     channelid_youtube[channelid_youtube_ids[youtube_key]]['DisplayRSSaddress'] = True
-            except FileNotFoundError:  #文件不存在直接更新
-                channelid_youtube_ids_update[youtube_key] = youtube_value
-                channelid_youtube[channelid_youtube_ids[youtube_key]]['DisplayRSSaddress'] = True
-            # 构建文件
-            file_save(youtube_content, f"{youtube_key}.txt", "channel_id")
-            write_log(f"YouTube频道 {youtube_value} 已更新")
-            # 构建频道文件夹
-            folder_build(youtube_key)
-            #获取Youtube视频ID列表
-            youtube_content_ytid = re.findall(r"(?<=<id>yt:video:).{11}(?=</id>)", youtube_content)
-            youtube_content_ytid = youtube_content_ytid[:channelid_youtube[youtube_value]['update_size']]
-            #获取已下载媒体名称
-            youtube_media = ("m4a", "mp4") if channelid_youtube[youtube_value]['media'] == "m4a" else ("mp4")
-            youtube_content_ytid_original = [os.path.splitext(file)[0] for file in os.listdir(youtube_key) if file.endswith(youtube_media)]
-            if youtube_content_ytid := [
-                exclude
-                for exclude in youtube_content_ytid
-                if exclude not in youtube_content_ytid_original
-            ]:
-                channelid_youtube_ids_update[youtube_key] = youtube_value
-                channelid_youtube[channelid_youtube_ids[youtube_key]]['DisplayRSSaddress'] = True
-                youtube_content_ytid_update[youtube_key] = youtube_content_ytid
-    elif not os.path.exists(os.path.join("channel_id", f"{youtube_key}.txt")):
-        del channelid_youtube_ids[youtube_key]
+                # 构建文件
+                file_save(youtube_content, f"{youtube_key}.txt", "channel_id")
+                write_log(f"频道 {youtube_value} 已更新")
+                # 构建频道文件夹
+                folder_build(youtube_key)
+                #获取Youtube视频ID列表
+                youtube_content_ytid = re.findall(r"(?<=<id>yt:video:).{11}(?=</id>)", youtube_content)
+                youtube_content_ytid = youtube_content_ytid[:channelid_youtube[youtube_value]['update_size']]
+                #获取已下载媒体名称
+                youtube_media = ("m4a", "mp4") if channelid_youtube[youtube_value]['media'] == "m4a" else ("mp4")
+                youtube_content_ytid_original = [os.path.splitext(file)[0] for file in os.listdir(youtube_key) if file.endswith(youtube_media)]
+                if youtube_content_ytid := [
+                    exclude
+                    for exclude in youtube_content_ytid
+                    if exclude not in youtube_content_ytid_original
+                ]:
+                    channelid_youtube_ids_update[youtube_key] = youtube_value
+                    channelid_youtube[channelid_youtube_ids[youtube_key]]['DisplayRSSaddress'] = True
+                    youtube_content_ytid_update[youtube_key] = youtube_content_ytid
+        else:
+            write_log(f"频道 {youtube_value} 无法更新")
+            if not os.path.exists(os.path.join("channel_id", f"{youtube_key}.txt")):
+                del channelid_youtube_ids[youtube_key]
+# 创建线程列表
+threads = []
+for youtube_key, youtube_value in channelid_youtube_ids.items():
+    thread = threading.Thread(target=youtube_need_update, args=(youtube_key, youtube_value))
+    threads.append(thread)
+    thread.start()
+# 等待所有线程完成
+for thread in threads:
+    thread.join()
 if channelid_youtube_ids_update:
     write_log(f"需更新的YouTube频道:{', '.join(channelid_youtube_ids_update.values())}")
 
