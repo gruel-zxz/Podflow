@@ -559,7 +559,6 @@ def youtube_need_update(youtube_key, youtube_value):
                     channelid_youtube[channelid_youtube_ids[youtube_key]]['DisplayRSSaddress'] = True
                 # 构建文件
                 file_save(youtube_content, f"{youtube_key}.txt", "channel_id")
-                write_log(f"频道 {youtube_value} 已更新")
                 # 构建频道文件夹
                 folder_build(youtube_key)
                 #获取Youtube视频ID列表
