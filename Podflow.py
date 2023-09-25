@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[ ]:
 
 
 import os
@@ -40,7 +40,7 @@ default_config = {
 # 如果InmainRSS为False或频道有更新则无视DisplayRSSaddress的状态, 都会变为True。
 
 
-# In[2]:
+# In[ ]:
 
 
 # 文件保存模块
@@ -56,7 +56,7 @@ def file_save(content, file_name, folder=None):
         file.write(content)
 
 
-# In[3]:
+# In[ ]:
 
 
 #日志模块
@@ -83,7 +83,7 @@ def write_log(log, suffix = None, display = True):
             print(f"{formatted_time_mini}|{log}")
 
 
-# In[16]:
+# In[ ]:
 
 
 # 查看requests模块是否安装
@@ -122,10 +122,10 @@ except ImportError:
     try:
         subprocess.run(['pip', 'install', 'chardet' , '-U'], capture_output=True, text=True)
         subprocess.run(['pip', 'install', 'requests' , '-U'], capture_output=True, text=True)
-        write_log("requests安装成功, 请重新运行")
+        write_log("\033[31mrequests安装成功, 请重新运行\033[0m")
         sys.exit(0)
     except FileNotFoundError:
-        write_log("requests安装失败请重试")
+        write_log("\033[31mrequests安装失败请重试\033[0m")
         sys.exit(0)
 
 
@@ -134,16 +134,16 @@ except ImportError:
 
 # HTTP GET请求重试模块
 def get_with_retry(url, name, max_retries=10, retry_delay=6):
-    for _ in range(max_retries):
+    for num in range(max_retries):
         try:
             response = requests.get(f"{url}")
             response.raise_for_status()
         except Exception:
-            print(f"{datetime.now().strftime('%H:%M:%S')}|{name}|连接异常重试中")
+            print(f"{datetime.now().strftime('%H:%M:%S')}|{name}|\033[31m连接异常重试中...\033[97m{num + 1}\033[0m")
         else:
             return response
         time.sleep(retry_delay)
-    print(f"{datetime.now().strftime('%H:%M:%S')}|{name}|达到最大重试次数")
+    print(f"{datetime.now().strftime('%H:%M:%S')}|{name}|\033[31m达到最大重试次数\033[97m{max_retries}\033[0m")
     return None
 
 
@@ -176,7 +176,7 @@ def library_install(library):
             except FileNotFoundError:
                 write_log(f"{library}更新失败")
         else:
-            write_log(f"{library}无需更新|版本：{version.group()}")
+            write_log(f"{library}无需更新|版本：\033[32m{version.group()}\033[0m")
     else:
         write_log(f"{library}未安装")
         # 如果库未安装, 则尝试安装
@@ -320,9 +320,9 @@ def download_video(video_url, output_dir, output_format, video_website, format_c
     try:
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
             ydl.download([f'{video_website}{video_url}'])  # 下载指定视频链接的视频
-        write_log(f"{video_write_log}下载成功")  # 写入下载成功的日志信息
+        write_log(f"{video_write_log}\033[32m下载成功\033[0m")  # 写入下载成功的日志信息
     except Exception as e:
-        write_log((f"{video_write_log}下载失败, 错误信息：{str(e)}").replace("ERROR: ", "").replace(f"{video_url}: ", ""))  # 写入下载失败的日志信息
+        write_log((f"{video_write_log}\033[31m下载失败\033[0m, 错误信息：{str(e)}").replace("ERROR: ", "").replace(f"{video_url}: ", ""))  # 写入下载失败的日志信息
         return video_url
 
 
@@ -617,7 +617,7 @@ for youtube_key, youtube_value in channelid_youtube_ids.items():
 for thread in threads:
     thread.join()
 if channelid_youtube_ids_update:
-    write_log(f"需更新的YouTube频道:{', '.join(channelid_youtube_ids_update.values())}")
+    write_log(f"需更新的YouTube频道:\033[32m{' '.join(channelid_youtube_ids_update.values())}\033[0m")
 
 
 # In[ ]:
@@ -927,7 +927,7 @@ for output_dir in channelid_youtube_ids:
 {items}'''
     all_youtube_content_ytid[output_dir] = re.findall(r"(?<=UC.{22}/)(.+\.m4a|.+\.mp4)(?=\")", items)
 file_save(xml_rss(config["title"], config["link"], config["description"], config["category"], config["icon"], all_items), f"{config['title']}.xml")
-write_log("主播客已更新", f"地址: {config['url']}/{config['title']}.xml")
+write_log("主播客已更新", f"地址: \033[34m{config['url']}/{config['title']}.xml\033[0m")
 
 
 # In[ ]:
