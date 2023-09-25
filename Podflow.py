@@ -83,8 +83,36 @@ def write_log(log, suffix = None, display = True):
             print(f"{formatted_time_mini}|{log}")
 
 
-# In[4]:
+# In[16]:
 
+
+# 查看requests模块是否安装
+try:
+    # 执行 ffmpeg 命令获取版本信息
+    result = subprocess.run(['ffmpeg', '-version'], capture_output=True, text=True)
+    output = result.stdout.lower()
+    # 检查输出中是否包含 ffmpeg 版本信息
+    if 'ffmpeg version' not in output:
+        write_log("FFmpeg 未安装, 请安装后重试")
+        print('''\033[0mFFmpeg安装方法:
+Ubuntu:
+\033[32msudo apt update
+sudo apt install ffmpeg\033[0m
+CentOS:
+\033[32msudo yum update
+sudo yum install ffmpeg\033[0m
+Debian:
+\033[32msudo apt-get update
+sudo apt-get install ffmpeg\033[0m
+Arch Linux、Fedora:
+\033[32msudo pacman -S ffmpeg
+sudo dnf install ffmpeg\033[0m
+检查FFmpeg版本:
+\033[32mffmpeg -version\033[0m''')
+        sys.exit(0)
+except FileNotFoundError:
+        write_log("FFmpeg 未安装, 请安装后重试")
+        sys.exit(0)
 
 # 查看requests模块是否安装并安装
 try:
@@ -101,7 +129,7 @@ except ImportError:
         sys.exit(0)
 
 
-# In[5]:
+# In[ ]:
 
 
 # HTTP GET请求重试模块
@@ -111,15 +139,15 @@ def get_with_retry(url, name, max_retries=10, retry_delay=6):
             response = requests.get(f"{url}")
             response.raise_for_status()
         except Exception:
-            print(f"{name}|连接异常重试中")
+            print(f"{datetime.now().strftime('%H:%M:%S')}|{name}|连接异常重试中")
         else:
             return response
         time.sleep(retry_delay)
-    print(f"{name}|达到最大重试次数")
+    print(f"{datetime.now().strftime('%H:%M:%S')}|{name}|达到最大重试次数")
     return None
 
 
-# In[6]:
+# In[ ]:
 
 
 # 安装库模块
@@ -159,7 +187,7 @@ def library_install(library):
             write_log(f"{library}安装失败")
 
 
-# In[7]:
+# In[ ]:
 
 
 # 安装/更新yt-dlp并加载
@@ -169,7 +197,7 @@ import yt_dlp
 library_install("RangeHTTPServer")
 
 
-# In[8]:
+# In[ ]:
 
 
 # 格式化时间模块
@@ -201,7 +229,7 @@ def convert_bytes(byte_size, units = None, outweigh =1024):
     return f"{byte_size:.2f}{units[unit_index]}"
 
 
-# In[9]:
+# In[ ]:
 
 
 # 下载显示模块
@@ -234,7 +262,7 @@ def show_progress(stream):
         print("")
 
 
-# In[10]:
+# In[ ]:
 
 
 # 获取视频时长模块
@@ -298,7 +326,7 @@ def download_video(video_url, output_dir, output_format, video_website, format_c
         return video_url
 
 
-# In[11]:
+# In[ ]:
 
 
 # 视频完整下载模块
@@ -330,7 +358,7 @@ def dl_retry_video(video_url, output_dir, output_format, retry_count, video_webs
     return yt_id_failed
 
 
-# In[12]:
+# In[ ]:
 
 
 # 构建文件夹模块
@@ -341,7 +369,7 @@ def folder_build(folder_name):
         write_log(f"文件夹{folder_name}创建成功")
 
 
-# In[13]:
+# In[ ]:
 
 
 # 检查当前文件夹中是否存在config.json文件
@@ -363,7 +391,7 @@ else:
         sys.exit(0)
 
 
-# In[14]:
+# In[ ]:
 
 
 # 对retry_count进行纠正
@@ -402,7 +430,7 @@ if ('category' not in config):
     config['category'] = default_config["category"]
 
 
-# In[15]:
+# In[ ]:
 
 
 # 从配置文件中获取YouTube的频道
@@ -421,14 +449,14 @@ else:
     write_log("bilibili频道信息不存在")
 
 
-# In[16]:
+# In[ ]:
 
 
 # 构建文件夹channel_id
 folder_build("channel_id")
 
 
-# In[17]:
+# In[ ]:
 
 
 # 视频分辨率变量
@@ -506,7 +534,7 @@ for channelid_youtube_key, channelid_youtube_value in channelid_youtube_copy.ite
             channelid_youtube[channelid_youtube_key]['InmainRSS'] = True
 
 
-# In[18]:
+# In[ ]:
 
 
 # 读取youtube频道的id
@@ -523,7 +551,7 @@ else:
     channelid_bilibili_ids = None
 
 
-# In[19]:
+# In[ ]:
 
 
 # 更新Youtube频道xml
@@ -592,7 +620,7 @@ if channelid_youtube_ids_update:
     write_log(f"需更新的YouTube频道:{', '.join(channelid_youtube_ids_update.values())}")
 
 
-# In[20]:
+# In[ ]:
 
 
 # 下载YouTube视频
@@ -614,7 +642,7 @@ for ytid_key, ytid_value in youtube_content_ytid_update.items():
             write_log(f"{channelid_youtube_ids[ytid_key]}|{yt_id}无法下载")
 
 
-# In[21]:
+# In[ ]:
 
 
 #生成XML模块
@@ -654,7 +682,7 @@ def xml_rss(title,link,description,category,icon,items):
 </rss>'''
 
 
-# In[22]:
+# In[ ]:
 
 
 # 生成item模块
@@ -701,7 +729,7 @@ def xml_item(video_url, output_dir, video_website, channelid_title,title, descri
 '''
 
 
-# In[23]:
+# In[ ]:
 
 
 # 生成YouTube的item模块
@@ -732,7 +760,7 @@ def youtube_xml_item(entry):
     )
 
 
-# In[24]:
+# In[ ]:
 
 
 # 生成原有的item模块
@@ -778,7 +806,7 @@ def xml_original_item(original_item):
 '''
 
 
-# In[25]:
+# In[ ]:
 
 
 # 获取原始xml文件
@@ -799,7 +827,7 @@ except FileNotFoundError:  #文件不存在直接更新
     write_log("原始RSS文件不存在, 无法保留原节目")
 
 
-# In[26]:
+# In[ ]:
 
 
 # 如原始xml无对应的原频道items, 将尝试从对应频道的xml中获取
@@ -813,14 +841,14 @@ for youtube_key in channelid_youtube_ids.keys():
             write_log(f"{channelid_youtube_ids[youtube_key]} RSS文件不存在, 无法保留原节目")
 
 
-# In[27]:
+# In[ ]:
 
 
 # 构建文件夹channel_rss
 folder_build("channel_rss")
 
 
-# In[28]:
+# In[ ]:
 
 
 # 生成YouTube对应channel的需更新的items模块
@@ -886,7 +914,7 @@ def youtube_xml_items(output_dir):
     return items
 
 
-# In[29]:
+# In[ ]:
 
 
 # 生成主rss
@@ -902,7 +930,7 @@ file_save(xml_rss(config["title"], config["link"], config["description"], config
 write_log("主播客已更新", f"地址: {config['url']}/{config['title']}.xml")
 
 
-# In[30]:
+# In[ ]:
 
 
 # 删除多余媒体文件模块
@@ -913,7 +941,7 @@ def remove_file(output_dir):
             write_log(f"{channelid_youtube_ids[output_dir]}|{file_name}已删除")
 
 
-# In[31]:
+# In[ ]:
 
 
 # 补全缺失的媒体文件模块
@@ -932,7 +960,7 @@ def make_up_file(output_dir):
                 write_log(f"{channelid_youtube_ids[file_name.split('.')[0]]}|{file_name.split('.')[0]}无法下载")
 
 
-# In[32]:
+# In[ ]:
 
 
 # 删除不在rss中的媒体文件
@@ -940,7 +968,7 @@ for output_dir in channelid_youtube_ids:
     remove_file(output_dir)
 
 
-# In[33]:
+# In[ ]:
 
 
 # 补全在rss中缺失的媒体文件
