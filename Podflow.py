@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
+# In[5]:
 
 
 import os
@@ -22,7 +22,7 @@ default_config = {
     "title": "YouTube",
     "link": "https://m.youtube.com",
     "description": "在YouTube 上畅享您喜爱的视频和音乐上传原创内容并与亲朋好友和全世界观众分享您的视频。",
-    "icon": "https://static.vecteezy.com/system/resources/previews/003/399/771/original/youtube-icon-editorial-free-vector.jpg",
+    "icon": "https://raw.githubusercontent.com/gruel-zxz/podflow/main/Podflow_icon.png",
     "category": "TV &amp; Film",
     "channelid_youtube": {
         "youtube": {
@@ -40,7 +40,7 @@ default_config = {
 # 如果InmainRSS为False或频道有更新则无视DisplayRSSaddress的状态, 都会变为True。
 
 
-# In[ ]:
+# In[6]:
 
 
 # 文件保存模块
@@ -56,7 +56,7 @@ def file_save(content, file_name, folder=None):
         file.write(content)
 
 
-# In[ ]:
+# In[7]:
 
 
 #日志模块
@@ -83,18 +83,11 @@ def write_log(log, suffix = None, display = True):
             print(f"{formatted_time_mini}|{log}")
 
 
-# In[ ]:
+# In[8]:
 
 
 # 查看requests模块是否安装
-try:
-    # 执行 ffmpeg 命令获取版本信息
-    result = subprocess.run(['ffmpeg', '-version'], capture_output=True, text=True)
-    output = result.stdout.lower()
-    # 检查输出中是否包含 ffmpeg 版本信息
-    if 'ffmpeg version' not in output:
-        write_log("FFmpeg 未安装, 请安装后重试")
-        print('''\033[0mFFmpeg安装方法:
+ffmpeg_worry = '''\033[0mFFmpeg安装方法:
 Ubuntu:
 \033[32msudo apt update
 sudo apt install ffmpeg\033[0m
@@ -108,10 +101,19 @@ Arch Linux、Fedora:
 \033[32msudo pacman -S ffmpeg
 sudo dnf install ffmpeg\033[0m
 检查FFmpeg版本:
-\033[32mffmpeg -version\033[0m''')
+\033[32mffmpeg -version\033[0m'''
+try:
+    # 执行 ffmpeg 命令获取版本信息
+    result = subprocess.run(['ffmpeg', '-version'], capture_output=True, text=True)
+    output = result.stdout.lower()
+    # 检查输出中是否包含 ffmpeg 版本信息
+    if 'ffmpeg version' not in output:
+        write_log("FFmpeg 未安装, 请安装后重试")
+        print(ffmpeg_worry)
         sys.exit(0)
 except FileNotFoundError:
         write_log("FFmpeg 未安装, 请安装后重试")
+        print(ffmpeg_worry)
         sys.exit(0)
 
 # 查看requests模块是否安装并安装
@@ -129,7 +131,7 @@ except ImportError:
         sys.exit(0)
 
 
-# In[ ]:
+# In[9]:
 
 
 # HTTP GET请求重试模块
@@ -147,7 +149,7 @@ def get_with_retry(url, name, max_retries=10, retry_delay=6):
     return None
 
 
-# In[ ]:
+# In[10]:
 
 
 # 安装库模块
@@ -187,7 +189,7 @@ def library_install(library):
             write_log(f"{library}安装失败")
 
 
-# In[ ]:
+# In[11]:
 
 
 # 安装/更新yt-dlp并加载
@@ -197,7 +199,7 @@ import yt_dlp
 library_install("RangeHTTPServer")
 
 
-# In[ ]:
+# In[12]:
 
 
 # 格式化时间模块
@@ -229,7 +231,7 @@ def convert_bytes(byte_size, units = None, outweigh =1024):
     return f"{byte_size:.2f}{units[unit_index]}"
 
 
-# In[ ]:
+# In[13]:
 
 
 # 下载显示模块
@@ -262,7 +264,7 @@ def show_progress(stream):
         print("")
 
 
-# In[ ]:
+# In[14]:
 
 
 # 获取视频时长模块
@@ -303,7 +305,7 @@ def get_duration_ffprobe(file_path):
 # 下载视频模块
 def download_video(video_url, output_dir, output_format, video_website, format_code=480, output_dir_name=""):
     if output_dir_name:
-        video_write_log = f"{output_dir_name}|{video_url}"
+        video_write_log = f"\033[32m{output_dir_name}\033[0m|{video_url}"
     else:
         video_write_log = video_url
     if output_format == 'm4a':
@@ -326,7 +328,7 @@ def download_video(video_url, output_dir, output_format, video_website, format_c
         return video_url
 
 
-# In[ ]:
+# In[15]:
 
 
 # 视频完整下载模块
@@ -358,7 +360,7 @@ def dl_retry_video(video_url, output_dir, output_format, retry_count, video_webs
     return yt_id_failed
 
 
-# In[ ]:
+# In[16]:
 
 
 # 构建文件夹模块
@@ -369,7 +371,7 @@ def folder_build(folder_name):
         write_log(f"文件夹{folder_name}创建成功")
 
 
-# In[ ]:
+# In[17]:
 
 
 # 检查当前文件夹中是否存在config.json文件
@@ -391,7 +393,7 @@ else:
         sys.exit(0)
 
 
-# In[ ]:
+# In[18]:
 
 
 # 对retry_count进行纠正
@@ -430,7 +432,7 @@ if ('category' not in config):
     config['category'] = default_config["category"]
 
 
-# In[ ]:
+# In[19]:
 
 
 # 从配置文件中获取YouTube的频道
@@ -449,14 +451,14 @@ else:
     write_log("bilibili频道信息不存在")
 
 
-# In[ ]:
+# In[20]:
 
 
 # 构建文件夹channel_id
 folder_build("channel_id")
 
 
-# In[ ]:
+# In[21]:
 
 
 # 视频分辨率变量
@@ -534,7 +536,7 @@ for channelid_youtube_key, channelid_youtube_value in channelid_youtube_copy.ite
             channelid_youtube[channelid_youtube_key]['InmainRSS'] = True
 
 
-# In[ ]:
+# In[22]:
 
 
 # 读取youtube频道的id
@@ -551,7 +553,7 @@ else:
     channelid_bilibili_ids = None
 
 
-# In[ ]:
+# In[23]:
 
 
 # 更新Youtube频道xml
@@ -620,7 +622,7 @@ if channelid_youtube_ids_update:
     write_log(f"需更新的YouTube频道:\033[32m{' '.join(channelid_youtube_ids_update.values())}\033[0m")
 
 
-# In[ ]:
+# In[24]:
 
 
 # 下载YouTube视频
@@ -642,7 +644,7 @@ for ytid_key, ytid_value in youtube_content_ytid_update.items():
             write_log(f"{channelid_youtube_ids[ytid_key]}|{yt_id}无法下载")
 
 
-# In[ ]:
+# In[25]:
 
 
 #生成XML模块
@@ -682,7 +684,7 @@ def xml_rss(title,link,description,category,icon,items):
 </rss>'''
 
 
-# In[ ]:
+# In[26]:
 
 
 # 生成item模块
@@ -729,7 +731,7 @@ def xml_item(video_url, output_dir, video_website, channelid_title,title, descri
 '''
 
 
-# In[ ]:
+# In[27]:
 
 
 # 生成YouTube的item模块
@@ -760,7 +762,7 @@ def youtube_xml_item(entry):
     )
 
 
-# In[ ]:
+# In[28]:
 
 
 # 生成原有的item模块
@@ -806,7 +808,7 @@ def xml_original_item(original_item):
 '''
 
 
-# In[ ]:
+# In[29]:
 
 
 # 获取原始xml文件
@@ -827,7 +829,7 @@ except FileNotFoundError:  #文件不存在直接更新
     write_log("原始RSS文件不存在, 无法保留原节目")
 
 
-# In[ ]:
+# In[30]:
 
 
 # 如原始xml无对应的原频道items, 将尝试从对应频道的xml中获取
@@ -841,14 +843,14 @@ for youtube_key in channelid_youtube_ids.keys():
             write_log(f"{channelid_youtube_ids[youtube_key]} RSS文件不存在, 无法保留原节目")
 
 
-# In[ ]:
+# In[31]:
 
 
 # 构建文件夹channel_rss
 folder_build("channel_rss")
 
 
-# In[ ]:
+# In[32]:
 
 
 # 生成YouTube对应channel的需更新的items模块
@@ -910,11 +912,11 @@ def youtube_xml_items(output_dir):
 {items}
 <!-- {{{output_dir}}} -->'''
     file_save(xml_rss(title,link,description,category,icon,items), f"{output_dir}.xml", "channel_rss")
-    write_log(f"{channelid_youtube_ids[output_dir]} 播客{update_text}", f"地址: {config['url']}/channel_rss/{output_dir}.xml", channelid_youtube[channelid_youtube_ids[output_dir]]['DisplayRSSaddress'])
+    write_log(f"{channelid_youtube_ids[output_dir]} 播客{update_text}", f"地址: \033[34m{config['url']}/channel_rss/{output_dir}.xml", channelid_youtube[channelid_youtube_ids[output_dir]]['DisplayRSSaddress']\033[0m)
     return items
 
 
-# In[ ]:
+# In[33]:
 
 
 # 生成主rss
@@ -930,7 +932,7 @@ file_save(xml_rss(config["title"], config["link"], config["description"], config
 write_log("主播客已更新", f"地址: \033[34m{config['url']}/{config['title']}.xml\033[0m")
 
 
-# In[ ]:
+# In[34]:
 
 
 # 删除多余媒体文件模块
@@ -941,7 +943,7 @@ def remove_file(output_dir):
             write_log(f"{channelid_youtube_ids[output_dir]}|{file_name}已删除")
 
 
-# In[ ]:
+# In[35]:
 
 
 # 补全缺失的媒体文件模块
@@ -960,7 +962,7 @@ def make_up_file(output_dir):
                 write_log(f"{channelid_youtube_ids[file_name.split('.')[0]]}|{file_name.split('.')[0]}无法下载")
 
 
-# In[ ]:
+# In[36]:
 
 
 # 删除不在rss中的媒体文件
@@ -968,7 +970,7 @@ for output_dir in channelid_youtube_ids:
     remove_file(output_dir)
 
 
-# In[ ]:
+# In[37]:
 
 
 # 补全在rss中缺失的媒体文件
