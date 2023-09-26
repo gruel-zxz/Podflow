@@ -27,8 +27,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/fEzeTYwEmlw/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="758" average="5.00" min="1" max="5"/>
-    <media:statistics views="11472"/>
+    <media:starRating count="891" average="5.00" min="1" max="5"/>
+    <media:statistics views="14380"/>
    </media:community>
   </media:group>
  </entry>
@@ -50,8 +50,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/xY34jr-gYgU/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2375" average="5.00" min="1" max="5"/>
-    <media:statistics views="38731"/>
+    <media:starRating count="2443" average="5.00" min="1" max="5"/>
+    <media:statistics views="39830"/>
    </media:community>
   </media:group>
  </entry>
@@ -73,8 +73,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/MKeug0IZWbo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1899" average="5.00" min="1" max="5"/>
-    <media:statistics views="32279"/>
+    <media:starRating count="1934" average="5.00" min="1" max="5"/>
+    <media:statistics views="32803"/>
    </media:community>
   </media:group>
  </entry>
@@ -96,8 +96,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/HgIBGdBDeHs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3642" average="5.00" min="1" max="5"/>
-    <media:statistics views="65195"/>
+    <media:starRating count="3661" average="5.00" min="1" max="5"/>
+    <media:statistics views="65613"/>
    </media:community>
   </media:group>
  </entry>
@@ -119,8 +119,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/rwYAcQqbbrY/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3639" average="5.00" min="1" max="5"/>
-    <media:statistics views="57249"/>
+    <media:starRating count="3656" average="5.00" min="1" max="5"/>
+    <media:statistics views="57455"/>
    </media:community>
   </media:group>
  </entry>
@@ -180,8 +180,8 @@ Featured Creators:
 
 #Gaming #Retrogaming #YouTube</media:description>
    <media:community>
-    <media:starRating count="4537" average="5.00" min="1" max="5"/>
-    <media:statistics views="3240573"/>
+    <media:starRating count="4576" average="5.00" min="1" max="5"/>
+    <media:statistics views="3073878"/>
    </media:community>
   </media:group>
  </entry>
@@ -212,8 +212,8 @@ Featured Creators:
 
 #SafiyaNygaard #WatchHistory #YouTube</media:description>
    <media:community>
-    <media:starRating count="1858" average="5.00" min="1" max="5"/>
-    <media:statistics views="720952"/>
+    <media:starRating count="1865" average="5.00" min="1" max="5"/>
+    <media:statistics views="721316"/>
    </media:community>
   </media:group>
  </entry>
@@ -235,8 +235,8 @@ Featured Creators:
    <media:thumbnail url="https://i1.ytimg.com/vi/DcNI16MEjrM/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4474" average="5.00" min="1" max="5"/>
-    <media:statistics views="71769"/>
+    <media:starRating count="4481" average="5.00" min="1" max="5"/>
+    <media:statistics views="71959"/>
    </media:community>
   </media:group>
  </entry>
@@ -258,8 +258,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/fokY9vEnAL4/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="5284" average="5.00" min="1" max="5"/>
-    <media:statistics views="106726"/>
+    <media:starRating count="5283" average="5.00" min="1" max="5"/>
+    <media:statistics views="106904"/>
    </media:community>
   </media:group>
  </entry>
@@ -314,8 +314,8 @@ Featured Creators:
 
 #GRWM #Makeup #Beauty #GetReadyWithMe</media:description>
    <media:community>
-    <media:starRating count="3236" average="5.00" min="1" max="5"/>
-    <media:statistics views="453491"/>
+    <media:starRating count="3233" average="5.00" min="1" max="5"/>
+    <media:statistics views="453774"/>
    </media:community>
   </media:group>
  </entry>
@@ -337,8 +337,8 @@ Featured Creators:
    <media:thumbnail url="https://i4.ytimg.com/vi/G25VMOgmhxo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="5835" average="5.00" min="1" max="5"/>
-    <media:statistics views="122308"/>
+    <media:starRating count="5837" average="5.00" min="1" max="5"/>
+    <media:statistics views="122472"/>
    </media:community>
   </media:group>
  </entry>
@@ -368,8 +368,8 @@ Featured Creators:
 
 #Courtreezy #WatchHistory #YouTube</media:description>
    <media:community>
-    <media:starRating count="2685" average="5.00" min="1" max="5"/>
-    <media:statistics views="417994"/>
+    <media:starRating count="2693" average="5.00" min="1" max="5"/>
+    <media:statistics views="418674"/>
    </media:community>
   </media:group>
  </entry>
@@ -391,8 +391,8 @@ Featured Creators:
    <media:thumbnail url="https://i4.ytimg.com/vi/w85VN7EEBMo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="5507" average="5.00" min="1" max="5"/>
-    <media:statistics views="108458"/>
+    <media:starRating count="5509" average="5.00" min="1" max="5"/>
+    <media:statistics views="108596"/>
    </media:community>
   </media:group>
  </entry>
@@ -414,8 +414,8 @@ Featured Creators:
    <media:thumbnail url="https://i4.ytimg.com/vi/SPi0GkYauVU/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="7937" average="5.00" min="1" max="5"/>
-    <media:statistics views="137949"/>
+    <media:starRating count="7940" average="5.00" min="1" max="5"/>
+    <media:statistics views="138111"/>
    </media:community>
   </media:group>
  </entry>
@@ -451,8 +451,8 @@ https://youtu.be/KcTz_hpRNGY
 
 In celebration of hip hop's 50th anniversary, YouTube is rolling 50 Deep. Check out the 50 Deep flagship playlist at: yt.be/yt50deep</media:description>
    <media:community>
-    <media:starRating count="1842" average="5.00" min="1" max="5"/>
-    <media:statistics views="175878"/>
+    <media:starRating count="1841" average="5.00" min="1" max="5"/>
+    <media:statistics views="176022"/>
    </media:community>
   </media:group>
  </entry>

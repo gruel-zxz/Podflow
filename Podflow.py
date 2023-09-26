@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[31]:
+# In[36]:
 
 
 import os
@@ -19,7 +19,8 @@ from datetime import datetime, timedelta, timezone
 default_config = {
     "retry_count": 3,
     "url": "http://127.0.0.1:8000",
-    "title": "YouTube",
+    "title": "Podflow",
+    "filename": "YouTube",
     "link": "https://m.youtube.com",
     "description": "在YouTube 上畅享您喜爱的视频和音乐上传原创内容并与亲朋好友和全世界观众分享您的视频。",
     "icon": "https://raw.githubusercontent.com/gruel-zxz/podflow/main/Podflow_icon.png",
@@ -40,7 +41,7 @@ default_config = {
 # 如果InmainRSS为False或频道有更新则无视DisplayRSSaddress的状态, 都会变为True。
 
 
-# In[32]:
+# In[37]:
 
 
 # 文件保存模块
@@ -56,7 +57,7 @@ def file_save(content, file_name, folder=None):
         file.write(content)
 
 
-# In[33]:
+# In[38]:
 
 
 #日志模块
@@ -83,7 +84,7 @@ def write_log(log, suffix = None, display = True):
             print(f"{formatted_time_mini}|{log}")
 
 
-# In[34]:
+# In[39]:
 
 
 # 查看requests模块是否安装
@@ -131,7 +132,7 @@ except ImportError:
         sys.exit(0)
 
 
-# In[35]:
+# In[40]:
 
 
 # HTTP GET请求重试模块
@@ -149,7 +150,7 @@ def get_with_retry(url, name, max_retries=10, retry_delay=6):
     return None
 
 
-# In[36]:
+# In[41]:
 
 
 # 安装库模块
@@ -189,7 +190,7 @@ def library_install(library):
             write_log(f"{library}安装失败")
 
 
-# In[37]:
+# In[42]:
 
 
 # 安装/更新yt-dlp并加载
@@ -199,7 +200,7 @@ import yt_dlp
 library_install("RangeHTTPServer")
 
 
-# In[38]:
+# In[43]:
 
 
 # 格式化时间模块
@@ -231,7 +232,7 @@ def convert_bytes(byte_size, units = None, outweigh =1024):
     return f"{byte_size:.2f}{units[unit_index]}"
 
 
-# In[39]:
+# In[44]:
 
 
 # 下载显示模块
@@ -264,7 +265,7 @@ def show_progress(stream):
         print("")
 
 
-# In[40]:
+# In[45]:
 
 
 # 获取视频时长模块
@@ -328,7 +329,7 @@ def download_video(video_url, output_dir, output_format, video_website, format_c
         return video_url
 
 
-# In[41]:
+# In[46]:
 
 
 # 视频完整下载模块
@@ -360,7 +361,7 @@ def dl_retry_video(video_url, output_dir, output_format, retry_count, video_webs
     return yt_id_failed
 
 
-# In[42]:
+# In[47]:
 
 
 # 构建文件夹模块
@@ -371,7 +372,7 @@ def folder_build(folder_name):
         write_log(f"文件夹{folder_name}创建成功")
 
 
-# In[43]:
+# In[48]:
 
 
 # 检查当前文件夹中是否存在config.json文件
@@ -393,7 +394,7 @@ else:
         sys.exit(0)
 
 
-# In[44]:
+# In[49]:
 
 
 # 对retry_count进行纠正
@@ -412,6 +413,9 @@ if (
 # 对title进行纠正
 if ('title' not in config):
     config['title'] = default_config["title"]
+# 对filename进行纠正
+if ('filename' not in config):
+    config['filename'] = default_config["filename"]
 # 对link进行纠正
 if (
     'link' not in config
@@ -432,7 +436,7 @@ if ('category' not in config):
     config['category'] = default_config["category"]
 
 
-# In[45]:
+# In[50]:
 
 
 # 从配置文件中获取YouTube的频道
@@ -451,14 +455,14 @@ else:
     write_log("bilibili频道信息不存在")
 
 
-# In[46]:
+# In[51]:
 
 
 # 构建文件夹channel_id
 folder_build("channel_id")
 
 
-# In[47]:
+# In[52]:
 
 
 # 视频分辨率变量
@@ -536,7 +540,7 @@ for channelid_youtube_key, channelid_youtube_value in channelid_youtube_copy.ite
             channelid_youtube[channelid_youtube_key]['InmainRSS'] = True
 
 
-# In[48]:
+# In[53]:
 
 
 # 读取youtube频道的id
@@ -553,7 +557,7 @@ else:
     channelid_bilibili_ids = None
 
 
-# In[49]:
+# In[54]:
 
 
 # 更新Youtube频道xml
@@ -610,19 +614,19 @@ def youtube_need_update(youtube_key, youtube_value):
             if not os.path.exists(os.path.join("channel_id", f"{youtube_key}.txt")):
                 del channelid_youtube_ids[youtube_key]
 # 创建线程列表
-threads = []
+youtube_need_update_threads = []
 for youtube_key, youtube_value in channelid_youtube_ids.items():
     thread = threading.Thread(target=youtube_need_update, args=(youtube_key, youtube_value))
-    threads.append(thread)
+    youtube_need_update_threads.append(thread)
     thread.start()
 # 等待所有线程完成
-for thread in threads:
+for thread in youtube_need_update_threads:
     thread.join()
 if channelid_youtube_ids_update:
     write_log(f"需更新的YouTube频道:\033[32m{' '.join(channelid_youtube_ids_update.values())}\033[0m")
 
 
-# In[50]:
+# In[55]:
 
 
 # 下载YouTube视频
@@ -644,7 +648,7 @@ for ytid_key, ytid_value in youtube_content_ytid_update.items():
             write_log(f"{channelid_youtube_ids[ytid_key]}|{yt_id}无法下载")
 
 
-# In[51]:
+# In[56]:
 
 
 #生成XML模块
@@ -656,6 +660,10 @@ def xml_rss(title,link,description,category,icon,items):
     # 构造时间字符串
     formatted_time_now = time.strftime('%a, %d %b %Y %H:%M:%S %z', time_info_now)
     itunes_summary = description.replace("\n", "&#xA;")
+    if title == "Podflow":
+        subtitle = "gruel-zxz-podflow"
+    else:
+        subtitle = title
     # 创建主XML信息
     return f'''<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
@@ -674,7 +682,7 @@ def xml_rss(title,link,description,category,icon,items):
             <link>{link}</link>
         </image>
         <itunes:author>{title}</itunes:author>
-        <itunes:subtitle>{title}</itunes:subtitle>
+        <itunes:subtitle>{subtitle}</itunes:subtitle>
         <itunes:summary><![CDATA[{itunes_summary}]]></itunes:summary>
         <itunes:image href="{icon}"></itunes:image>
         <itunes:explicit>no</itunes:explicit>
@@ -684,7 +692,7 @@ def xml_rss(title,link,description,category,icon,items):
 </rss>'''
 
 
-# In[52]:
+# In[57]:
 
 
 # 生成item模块
@@ -731,7 +739,7 @@ def xml_item(video_url, output_dir, video_website, channelid_title,title, descri
 '''
 
 
-# In[53]:
+# In[58]:
 
 
 # 生成YouTube的item模块
@@ -762,7 +770,7 @@ def youtube_xml_item(entry):
     )
 
 
-# In[54]:
+# In[59]:
 
 
 # 生成原有的item模块
@@ -808,14 +816,13 @@ def xml_original_item(original_item):
 '''
 
 
-# In[55]:
+# In[60]:
 
 
 # 获取原始xml文件
 try:
-    with open(f"{config['title']}.xml", 'r', encoding='utf-8') as file:  # 打开文件进行读取
+    with open(f"{config['filename']}.xml", 'r', encoding='utf-8') as file:  # 打开文件进行读取
         rss_original = file.read()  # 读取文件内容
-        write_log("已获取原始rss文件")
         xmls_original = {
             rss_original_channel: rss_original.split(
                 f'<!-- {{{rss_original_channel}}} -->\n'
@@ -826,11 +833,6 @@ try:
         }
 except FileNotFoundError:  #文件不存在直接更新
     xmls_original = None
-    write_log("原始RSS文件不存在, 无法保留原节目")
-
-
-# In[56]:
-
 
 # 如原始xml无对应的原频道items, 将尝试从对应频道的xml中获取
 for youtube_key in channelid_youtube_ids.keys():
@@ -840,17 +842,55 @@ for youtube_key in channelid_youtube_ids.keys():
                 youtube_rss_original = file.read()  # 读取文件内容
                 xmls_original[youtube_key] = youtube_rss_original.split(f'<!-- {{{youtube_key}}} -->\n')[1]
         except FileNotFoundError:  #文件不存在直接更新
-            write_log(f"{channelid_youtube_ids[youtube_key]} RSS文件不存在, 无法保留原节目")
+            write_log(f"RSS文件中不存在 {channelid_youtube_ids[youtube_key]} 无法保留原节目")
 
 
-# In[57]:
+# In[61]:
 
 
 # 构建文件夹channel_rss
 folder_build("channel_rss")
 
 
-# In[58]:
+# In[62]:
+
+
+# 创建线程锁
+youtube_xml_get_lock = threading.Lock()
+youtube_xml_get_tree = {}
+# 使用http获取youtube频道简介和图标模块
+def youtube_xml_get(output_dir):
+    xml_tree = {}
+    if channel_about := get_with_retry(
+        f"https://www.youtube.com/channel/{output_dir}/about",
+        f"{channelid_youtube_ids[output_dir]} 简介",
+        2,
+        5,
+    ):
+        channel_about = channel_about.text
+        xml_tree['icon'] = re.sub(
+            r"=s(0|[1-9]\d{0,3}|1[0-9]{1,3}|20[0-3][0-9]|204[0-8])-c-k",
+            "=s2048-c-k",
+            re.search(
+                r"https?://yt3.googleusercontent.com/[^\s]*(?=\">)",
+                channel_about,
+            ).group(),
+        )
+        xml_tree['description'] = re.search(r"(?<=\<meta itemprop\=\"description\" content\=\").*?(?=\")", channel_about, flags=re.DOTALL).group()
+        with youtube_xml_get_lock:
+            youtube_xml_get_tree[output_dir] = xml_tree
+# 创建线程列表
+youtube_xml_get_threads = []
+for output_dir in channelid_youtube_ids_update.keys():
+    thread = threading.Thread(target=youtube_xml_get, args=(output_dir,))
+    youtube_xml_get_threads.append(thread)
+    thread.start()
+# 等待所有线程完成
+for thread in youtube_xml_get_threads:
+    thread.join()
+
+
+# In[63]:
 
 
 # 生成YouTube对应channel的需更新的items模块
@@ -887,24 +927,10 @@ def youtube_xml_items(output_dir):
     except FileNotFoundError:  #文件不存在直接更新
         description = config["description"]
         icon = config["icon"]
-    if output_dir in channelid_youtube_ids_update:
-        if channel_about := get_with_retry(
-            f"https://www.youtube.com/channel/{output_dir}/about",
-            f"{channelid_youtube_ids[output_dir]} 简介",
-            2,
-            5,
-        ):
-            channel_about = channel_about.text
-            icon = re.sub(
-                r"=s(0|[1-9]\d{0,3}|1[0-9]{1,3}|20[0-3][0-9]|204[0-8])-c-k",
-                "=s2048-c-k",
-                re.search(
-                    r"https?://yt3.googleusercontent.com/[^\s]*(?=\">)",
-                    channel_about,
-                ).group(),
-            )
-            description = re.search(r"(?<=\<meta itemprop\=\"description\" content\=\").*?(?=\")", channel_about, flags=re.DOTALL).group()
-            update_text = "已更新"
+    if output_dir in channelid_youtube_ids_update and output_dir in youtube_xml_get_tree:
+        description = youtube_xml_get_tree[output_dir]["description"]
+        icon = youtube_xml_get_tree[output_dir]["icon"]
+        update_text = "已更新"
     category = config["category"]
     title = re.search(r"(?<=<title>).+(?=</title>)", file_xml).group()
     link = f"https://www.youtube.com/channel/{output_dir}"
@@ -916,7 +942,7 @@ def youtube_xml_items(output_dir):
     return items
 
 
-# In[59]:
+# In[64]:
 
 
 # 生成主rss
@@ -928,11 +954,11 @@ for output_dir in channelid_youtube_ids:
         all_items = items if all_items == "" else f'''{all_items}
 {items}'''
     all_youtube_content_ytid[output_dir] = re.findall(r"(?<=UC.{22}/)(.+\.m4a|.+\.mp4)(?=\")", items)
-file_save(xml_rss(config["title"], config["link"], config["description"], config["category"], config["icon"], all_items), f"{config['title']}.xml")
-write_log("主播客已更新", f"地址: \033[34m{config['url']}/{config['title']}.xml\033[0m")
+file_save(xml_rss(config["title"], config["link"], config["description"], config["category"], config["icon"], all_items), f"{config['filename']}.xml")
+write_log("主播客已更新", f"地址: \033[34m{config['url']}/{config['filename']}.xml\033[0m")
 
 
-# In[60]:
+# In[65]:
 
 
 # 删除多余媒体文件模块
@@ -943,7 +969,7 @@ def remove_file(output_dir):
             write_log(f"{channelid_youtube_ids[output_dir]}|{file_name}已删除")
 
 
-# In[61]:
+# In[66]:
 
 
 # 补全缺失的媒体文件模块
@@ -962,7 +988,7 @@ def make_up_file(output_dir):
                 write_log(f"{channelid_youtube_ids[file_name.split('.')[0]]}|{file_name.split('.')[0]}无法下载")
 
 
-# In[62]:
+# In[67]:
 
 
 # 删除不在rss中的媒体文件
@@ -970,7 +996,7 @@ for output_dir in channelid_youtube_ids:
     remove_file(output_dir)
 
 
-# In[63]:
+# In[68]:
 
 
 # 补全在rss中缺失的媒体文件

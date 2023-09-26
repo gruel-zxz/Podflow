@@ -21,7 +21,7 @@
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
   <published>2023-09-25T05:52:36+00:00</published>
-  <updated>2023-09-25T06:29:30+00:00</updated>
+  <updated>2023-09-26T10:12:29+00:00</updated>
   <media:group>
    <media:title>预制菜进校园（20230924第6352期）</media:title>
    <media:content url="https://www.youtube.com/v/nsF4UKjbr_o?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -78,8 +78,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="224" average="5.00" min="1" max="5"/>
-    <media:statistics views="52867"/>
+    <media:starRating count="229" average="5.00" min="1" max="5"/>
+    <media:statistics views="58414"/>
    </media:community>
   </media:group>
  </entry>
@@ -94,7 +94,7 @@ https://youtu.be/BbtTwsP_-zc</media:description>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
   <published>2023-09-25T05:50:24+00:00</published>
-  <updated>2023-09-25T05:59:10+00:00</updated>
+  <updated>2023-09-26T07:30:41+00:00</updated>
   <media:group>
    <media:title>华邮：加拿大要求美国一起谴责印度，拜登沉默以对，其他媒体也在跟进（20230924第6351期）</media:title>
    <media:content url="https://www.youtube.com/v/VwFALf9V9l4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -151,8 +151,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="188" average="5.00" min="1" max="5"/>
-    <media:statistics views="37820"/>
+    <media:starRating count="191" average="5.00" min="1" max="5"/>
+    <media:statistics views="41599"/>
    </media:community>
   </media:group>
  </entry>
@@ -167,7 +167,7 @@ https://youtu.be/BbtTwsP_-zc</media:description>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
   <published>2023-09-24T01:33:54+00:00</published>
-  <updated>2023-09-24T02:16:17+00:00</updated>
+  <updated>2023-09-26T06:47:00+00:00</updated>
   <media:group>
    <media:title>拜登绿卡不够发，一次性发50万张工卡给非法移民（20230923第6350期）</media:title>
    <media:content url="https://www.youtube.com/v/kbTD-u_EeAw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -224,8 +224,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="254" average="5.00" min="1" max="5"/>
-    <media:statistics views="55056"/>
+    <media:starRating count="257" average="5.00" min="1" max="5"/>
+    <media:statistics views="55931"/>
    </media:community>
   </media:group>
  </entry>
@@ -297,8 +297,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="246" average="5.00" min="1" max="5"/>
-    <media:statistics views="53523"/>
+    <media:starRating count="250" average="5.00" min="1" max="5"/>
+    <media:statistics views="54701"/>
    </media:community>
   </media:group>
  </entry>
@@ -313,7 +313,7 @@ https://youtu.be/BbtTwsP_-zc</media:description>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
   <published>2023-09-23T08:43:00+00:00</published>
-  <updated>2023-09-23T09:08:10+00:00</updated>
+  <updated>2023-09-26T07:40:21+00:00</updated>
   <media:group>
    <media:title>华日：美国工业的真正问题，美国工人的生产力太过低下（20230922第6348期）</media:title>
    <media:content url="https://www.youtube.com/v/4IdyrtQgnjA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -370,8 +370,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="327" average="5.00" min="1" max="5"/>
-    <media:statistics views="62556"/>
+    <media:starRating count="329" average="5.00" min="1" max="5"/>
+    <media:statistics views="63251"/>
    </media:community>
   </media:group>
  </entry>
@@ -444,7 +444,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="244" average="5.00" min="1" max="5"/>
-    <media:statistics views="58361"/>
+    <media:statistics views="49208"/>
    </media:community>
   </media:group>
  </entry>
@@ -517,7 +517,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="89" average="5.00" min="1" max="5"/>
-    <media:statistics views="14869"/>
+    <media:statistics views="14302"/>
    </media:community>
   </media:group>
  </entry>
@@ -589,8 +589,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="260" average="5.00" min="1" max="5"/>
-    <media:statistics views="53125"/>
+    <media:starRating count="261" average="5.00" min="1" max="5"/>
+    <media:statistics views="50723"/>
    </media:community>
   </media:group>
  </entry>
@@ -663,7 +663,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="249" average="5.00" min="1" max="5"/>
-    <media:statistics views="65938"/>
+    <media:statistics views="64853"/>
    </media:community>
   </media:group>
  </entry>
@@ -736,7 +736,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="222" average="5.00" min="1" max="5"/>
-    <media:statistics views="45335"/>
+    <media:statistics views="44985"/>
    </media:community>
   </media:group>
  </entry>
@@ -809,7 +809,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="10" average="5.00" min="1" max="5"/>
-    <media:statistics views="3521"/>
+    <media:statistics views="3506"/>
    </media:community>
   </media:group>
  </entry>
@@ -882,7 +882,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="228" average="5.00" min="1" max="5"/>
-    <media:statistics views="42336"/>
+    <media:statistics views="42101"/>
    </media:community>
   </media:group>
  </entry>
@@ -955,7 +955,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="298" average="5.00" min="1" max="5"/>
-    <media:statistics views="68124"/>
+    <media:statistics views="67581"/>
    </media:community>
   </media:group>
  </entry>
@@ -1028,7 +1028,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="306" average="5.00" min="1" max="5"/>
-    <media:statistics views="78584"/>
+    <media:statistics views="78010"/>
    </media:community>
   </media:group>
  </entry>
@@ -1101,7 +1101,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="319" average="5.00" min="1" max="5"/>
-    <media:statistics views="57618"/>
+    <media:statistics views="57322"/>
    </media:community>
   </media:group>
  </entry>
