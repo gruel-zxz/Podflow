@@ -30,7 +30,7 @@
 这部小说堪称人类航天的教科书级的小说，全程充满知识点，严谨的写作手法让这部小说毫无逻辑漏洞，堪称经典！</media:description>
    <media:community>
     <media:starRating count="163" average="5.00" min="1" max="5"/>
-    <media:statistics views="11188"/>
+    <media:statistics views="11197"/>
    </media:community>
   </media:group>
  </entry>
@@ -53,7 +53,7 @@
    <media:description>《XeeLee》系列从第三集开始，也要正式进入正题了，真正意义上的战争和剧情走向也要开始了。而且我们文案的叙事也相对加快了，以前计划十多集完成，目前计划在8集以内搞定。</media:description>
    <media:community>
     <media:starRating count="164" average="5.00" min="1" max="5"/>
-    <media:statistics views="6768"/>
+    <media:statistics views="6771"/>
    </media:community>
   </media:group>
  </entry>
@@ -77,7 +77,7 @@
 《幻影帝国》是暮夏之薰所著科幻小说，如感兴趣，请在起点读书app搜索“幻影帝国”阅读原著。</media:description>
    <media:community>
     <media:starRating count="104" average="5.00" min="1" max="5"/>
-    <media:statistics views="5411"/>
+    <media:statistics views="5413"/>
    </media:community>
   </media:group>
  </entry>
@@ -103,7 +103,7 @@
 08：46 巨引源的真相</media:description>
    <media:community>
     <media:starRating count="219" average="5.00" min="1" max="5"/>
-    <media:statistics views="8106"/>
+    <media:statistics views="8107"/>
    </media:community>
   </media:group>
  </entry>
@@ -198,7 +198,7 @@
 尽管这样的内容可能很多人不喜欢，因为太深奥，故事性弱，但是作者透露出的丰富的哲学构想，值得我们去更新。</media:description>
    <media:community>
     <media:starRating count="113" average="5.00" min="1" max="5"/>
-    <media:statistics views="6623"/>
+    <media:statistics views="6624"/>
    </media:community>
   </media:group>
  </entry>
@@ -237,7 +237,7 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2023-07-26T03:35:38+00:00</published>
-  <updated>2023-07-26T05:55:42+00:00</updated>
+  <updated>2023-09-26T05:39:28+00:00</updated>
   <media:group>
    <media:title>人类未完成的事情，就交给我们AI吧！科幻名著《艾比斯之梦》</media:title>
    <media:content url="https://www.youtube.com/v/EGwI7j0r0j4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -247,7 +247,7 @@
 ——数百年后的未来世界，人工智慧（AI）机器人掌治了这个地球，人类文明被淡化模糊，过去的世界再也无人知晓。</media:description>
    <media:community>
     <media:starRating count="171" average="5.00" min="1" max="5"/>
-    <media:statistics views="9239"/>
+    <media:statistics views="9242"/>
    </media:community>
   </media:group>
  </entry>
@@ -364,7 +364,7 @@
    <media:description>这是一部曾经在网上流传甚广的科幻小说，《沙漠奇遇》，由[前苏联] 伊·罗索霍瓦茨基所著，堪称科幻黄金时代的典范之作。</media:description>
    <media:community>
     <media:starRating count="188" average="5.00" min="1" max="5"/>
-    <media:statistics views="13120"/>
+    <media:statistics views="13123"/>
    </media:community>
   </media:group>
  </entry>
