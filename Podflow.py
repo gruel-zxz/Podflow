@@ -661,8 +661,10 @@ def xml_rss(title,link,description,category,icon,items):
     formatted_time_now = time.strftime('%a, %d %b %Y %H:%M:%S %z', time_info_now)
     itunes_summary = description.replace("\n", "&#xA;")
     if title == "Podflow":
+        author = "gruel-zxz"
         subtitle = "gruel-zxz-podflow"
     else:
+        author = title
         subtitle = title
     # 创建主XML信息
     return f'''<?xml version="1.0" encoding="UTF-8"?>
@@ -681,7 +683,7 @@ def xml_rss(title,link,description,category,icon,items):
             <title>{title}</title>
             <link>{link}</link>
         </image>
-        <itunes:author>{title}</itunes:author>
+        <itunes:author>{author}</itunes:author>
         <itunes:subtitle>{subtitle}</itunes:subtitle>
         <itunes:summary><![CDATA[{itunes_summary}]]></itunes:summary>
         <itunes:image href="{icon}"></itunes:image>
