@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[36]:
+# In[1]:
 
 
 import os
@@ -1004,4 +1004,17 @@ for output_dir in channelid_youtube_ids:
 # 补全在rss中缺失的媒体文件
 for output_dir in channelid_youtube_ids:
     make_up_file(output_dir)
+
+
+# In[5]:
+
+
+if sys.argv[1] == "a-shell":
+    # 启动 RangeHTTPServer
+    server_process = subprocess.Popen(["open", "shortcuts://run-shortcut?name=Podflow&input=text&text=http"])
+    server_process = subprocess.Popen(["python3", "-m", "http.server", "--cgi"])
+    # 延时
+    time.sleep(60)
+    # 关闭服务器
+    server_process.terminate()
 
