@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[2]:
 
 
 import os
@@ -41,7 +41,7 @@ default_config = {
 # 如果InmainRSS为False或频道有更新则无视DisplayRSSaddress的状态, 都会变为True。
 
 
-# In[37]:
+# In[3]:
 
 
 # 文件保存模块
@@ -57,7 +57,7 @@ def file_save(content, file_name, folder=None):
         file.write(content)
 
 
-# In[38]:
+# In[45]:
 
 
 #日志模块
@@ -73,7 +73,8 @@ def write_log(log, suffix = None, display = True):
     except FileNotFoundError:
         contents = ""
     # 将新的日志内容添加在原有内容之前
-    new_contents = f"{formatted_time} {log}\n{contents}"
+    log_in = re.sub(r"\033\[[0-9;]+m", "", log)
+    new_contents = f"{formatted_time} {log_in}\n{contents}"
     # 将新的日志内容写入文件
     file_save(new_contents, "log.txt")
     if display:
@@ -84,7 +85,7 @@ def write_log(log, suffix = None, display = True):
             print(f"{formatted_time_mini}|{log}")
 
 
-# In[39]:
+# In[5]:
 
 
 # 查看requests模块是否安装
@@ -132,7 +133,7 @@ except ImportError:
         sys.exit(0)
 
 
-# In[40]:
+# In[6]:
 
 
 # HTTP GET请求重试模块
@@ -190,7 +191,7 @@ def library_install(library):
             write_log(f"{library}安装失败")
 
 
-# In[42]:
+# In[46]:
 
 
 # 安装/更新yt-dlp并加载
@@ -200,7 +201,7 @@ import yt_dlp
 library_install("RangeHTTPServer")
 
 
-# In[43]:
+# In[9]:
 
 
 # 格式化时间模块
@@ -232,7 +233,7 @@ def convert_bytes(byte_size, units = None, outweigh =1024):
     return f"{byte_size:.2f}{units[unit_index]}"
 
 
-# In[44]:
+# In[10]:
 
 
 # 下载显示模块
@@ -265,7 +266,7 @@ def show_progress(stream):
         print("")
 
 
-# In[45]:
+# In[11]:
 
 
 # 获取视频时长模块
@@ -329,7 +330,7 @@ def download_video(video_url, output_dir, output_format, video_website, format_c
         return video_url
 
 
-# In[46]:
+# In[12]:
 
 
 # 视频完整下载模块
@@ -361,7 +362,7 @@ def dl_retry_video(video_url, output_dir, output_format, retry_count, video_webs
     return yt_id_failed
 
 
-# In[47]:
+# In[13]:
 
 
 # 构建文件夹模块
@@ -372,7 +373,7 @@ def folder_build(folder_name):
         write_log(f"文件夹{folder_name}创建成功")
 
 
-# In[48]:
+# In[14]:
 
 
 # 检查当前文件夹中是否存在config.json文件
@@ -394,7 +395,7 @@ else:
         sys.exit(0)
 
 
-# In[49]:
+# In[15]:
 
 
 # 对retry_count进行纠正
@@ -436,7 +437,7 @@ if ('category' not in config):
     config['category'] = default_config["category"]
 
 
-# In[50]:
+# In[16]:
 
 
 # 从配置文件中获取YouTube的频道
@@ -455,14 +456,14 @@ else:
     write_log("bilibili频道信息不存在")
 
 
-# In[51]:
+# In[17]:
 
 
 # 构建文件夹channel_id
 folder_build("channel_id")
 
 
-# In[52]:
+# In[18]:
 
 
 # 视频分辨率变量
@@ -540,7 +541,7 @@ for channelid_youtube_key, channelid_youtube_value in channelid_youtube_copy.ite
             channelid_youtube[channelid_youtube_key]['InmainRSS'] = True
 
 
-# In[53]:
+# In[19]:
 
 
 # 读取youtube频道的id
@@ -557,7 +558,7 @@ else:
     channelid_bilibili_ids = None
 
 
-# In[54]:
+# In[20]:
 
 
 # 更新Youtube频道xml
@@ -626,7 +627,7 @@ if channelid_youtube_ids_update:
     write_log(f"需更新的YouTube频道:\033[32m{' '.join(channelid_youtube_ids_update.values())}\033[0m")
 
 
-# In[55]:
+# In[21]:
 
 
 # 下载YouTube视频
@@ -648,7 +649,7 @@ for ytid_key, ytid_value in youtube_content_ytid_update.items():
             write_log(f"{channelid_youtube_ids[ytid_key]}|{yt_id}无法下载")
 
 
-# In[56]:
+# In[22]:
 
 
 #生成XML模块
@@ -694,7 +695,7 @@ def xml_rss(title,link,description,category,icon,items):
 </rss>'''
 
 
-# In[57]:
+# In[23]:
 
 
 # 生成item模块
@@ -741,7 +742,7 @@ def xml_item(video_url, output_dir, video_website, channelid_title,title, descri
 '''
 
 
-# In[58]:
+# In[24]:
 
 
 # 生成YouTube的item模块
@@ -772,7 +773,7 @@ def youtube_xml_item(entry):
     )
 
 
-# In[59]:
+# In[25]:
 
 
 # 生成原有的item模块
@@ -818,7 +819,7 @@ def xml_original_item(original_item):
 '''
 
 
-# In[60]:
+# In[26]:
 
 
 # 获取原始xml文件
@@ -847,14 +848,14 @@ for youtube_key in channelid_youtube_ids.keys():
             write_log(f"RSS文件中不存在 {channelid_youtube_ids[youtube_key]} 无法保留原节目")
 
 
-# In[61]:
+# In[27]:
 
 
 # 构建文件夹channel_rss
 folder_build("channel_rss")
 
 
-# In[62]:
+# In[28]:
 
 
 # 创建线程锁
@@ -892,7 +893,7 @@ for thread in youtube_xml_get_threads:
     thread.join()
 
 
-# In[63]:
+# In[29]:
 
 
 # 生成YouTube对应channel的需更新的items模块
@@ -944,7 +945,7 @@ def youtube_xml_items(output_dir):
     return items
 
 
-# In[64]:
+# In[30]:
 
 
 # 生成主rss
@@ -960,7 +961,7 @@ file_save(xml_rss(config["title"], config["link"], config["description"], config
 write_log("主播客已更新", f"地址: \033[34m{config['url']}/{config['filename']}.xml\033[0m")
 
 
-# In[65]:
+# In[31]:
 
 
 # 删除多余媒体文件模块
@@ -971,7 +972,7 @@ def remove_file(output_dir):
             write_log(f"{channelid_youtube_ids[output_dir]}|{file_name}已删除")
 
 
-# In[66]:
+# In[32]:
 
 
 # 补全缺失的媒体文件模块
@@ -990,7 +991,7 @@ def make_up_file(output_dir):
                 write_log(f"{channelid_youtube_ids[file_name.split('.')[0]]}|{file_name.split('.')[0]}无法下载")
 
 
-# In[67]:
+# In[33]:
 
 
 # 删除不在rss中的媒体文件
@@ -998,7 +999,7 @@ for output_dir in channelid_youtube_ids:
     remove_file(output_dir)
 
 
-# In[68]:
+# In[34]:
 
 
 # 补全在rss中缺失的媒体文件
@@ -1006,7 +1007,7 @@ for output_dir in channelid_youtube_ids:
     make_up_file(output_dir)
 
 
-# In[5]:
+# In[35]:
 
 
 if sys.argv[1] == "a-shell":
