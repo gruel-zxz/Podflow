@@ -23,7 +23,7 @@ default_config = {
     "filename": "YouTube",
     "link": "https://m.youtube.com",
     "description": "在YouTube 上畅享您喜爱的视频和音乐上传原创内容并与亲朋好友和全世界观众分享您的视频。",
-    "icon": "https://raw.githubusercontent.com/gruel-zxz/podflow/main/Podflow_icon.png",
+    "icon": "https://raw.githubusercontent.com/gruel-zxz/podflow/main/Podflow.png",
     "category": "TV &amp; Film",
     "channelid_youtube": {
         "youtube": {
@@ -322,8 +322,7 @@ def download_video(video_url, output_dir, output_format, video_website, format_c
         'format': f'{format_out}',  # 指定下载的最佳音频和视频格式
         "quiet": True,
         "noprogress": True,
-        "progress_hooks": [show_progress],
-        #"no_warnings": True
+        "progress_hooks": [show_progress]
     }
     try:
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
