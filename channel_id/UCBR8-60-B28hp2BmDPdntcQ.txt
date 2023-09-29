@@ -10,6 +10,31 @@
   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
  </author>
  <entry>
+  <id>yt:video:q9kdFvBvJN4</id>
+  <yt:videoId>q9kdFvBvJN4</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>#YouTubeBlack Presents: How @swoozie 's innovation launched an entire genre of animation | Flowers</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=q9kdFvBvJN4"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2023-09-28T16:00:49+00:00</published>
+  <updated>2023-09-28T21:43:59+00:00</updated>
+  <media:group>
+   <media:title>#YouTubeBlack Presents: How @swoozie 's innovation launched an entire genre of animation | Flowers</media:title>
+   <media:content url="https://www.youtube.com/v/q9kdFvBvJN4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/q9kdFvBvJN4/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Explore the Storytime animation trend and the Creator behind it in our new series, Flowers. 
+
+Online video trends have evolved to become the driving force of pop culture. But do you know who’s creating them? From the moment of upload, discover the untold, true stories of the Black creators and culture behind your favorite trends. Witness those who have transformed culture on a global scale finally get the flowers they deserve.</media:description>
+   <media:community>
+    <media:starRating count="2061" average="5.00" min="1" max="5"/>
+    <media:statistics views="66682"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:fEzeTYwEmlw</id>
   <yt:videoId>fEzeTYwEmlw</yt:videoId>
   <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
@@ -27,8 +52,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/fEzeTYwEmlw/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1506" average="5.00" min="1" max="5"/>
-    <media:statistics views="30061"/>
+    <media:starRating count="1759" average="5.00" min="1" max="5"/>
+    <media:statistics views="35805"/>
    </media:community>
   </media:group>
  </entry>
@@ -50,8 +75,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/xY34jr-gYgU/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2932" average="5.00" min="1" max="5"/>
-    <media:statistics views="48952"/>
+    <media:starRating count="3159" average="5.00" min="1" max="5"/>
+    <media:statistics views="53258"/>
    </media:community>
   </media:group>
  </entry>
@@ -73,8 +98,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/MKeug0IZWbo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2141" average="5.00" min="1" max="5"/>
-    <media:statistics views="37161"/>
+    <media:starRating count="2275" average="5.00" min="1" max="5"/>
+    <media:statistics views="39441"/>
    </media:community>
   </media:group>
  </entry>
@@ -96,8 +121,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/HgIBGdBDeHs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3839" average="5.00" min="1" max="5"/>
-    <media:statistics views="69384"/>
+    <media:starRating count="3925" average="5.00" min="1" max="5"/>
+    <media:statistics views="71455"/>
    </media:community>
   </media:group>
  </entry>
@@ -119,8 +144,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/rwYAcQqbbrY/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3767" average="5.00" min="1" max="5"/>
-    <media:statistics views="59348"/>
+    <media:starRating count="3824" average="5.00" min="1" max="5"/>
+    <media:statistics views="60425"/>
    </media:community>
   </media:group>
  </entry>
@@ -180,8 +205,8 @@ Featured Creators:
 
 #Gaming #Retrogaming #YouTube</media:description>
    <media:community>
-    <media:starRating count="4880" average="5.00" min="1" max="5"/>
-    <media:statistics views="3068488"/>
+    <media:starRating count="5025" average="5.00" min="1" max="5"/>
+    <media:statistics views="3211857"/>
    </media:community>
   </media:group>
  </entry>
@@ -212,8 +237,8 @@ Featured Creators:
 
 #SafiyaNygaard #WatchHistory #YouTube</media:description>
    <media:community>
-    <media:starRating count="1927" average="5.00" min="1" max="5"/>
-    <media:statistics views="728357"/>
+    <media:starRating count="1946" average="5.00" min="1" max="5"/>
+    <media:statistics views="731332"/>
    </media:community>
   </media:group>
  </entry>
@@ -235,8 +260,8 @@ Featured Creators:
    <media:thumbnail url="https://i1.ytimg.com/vi/DcNI16MEjrM/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4541" average="5.00" min="1" max="5"/>
-    <media:statistics views="73430"/>
+    <media:starRating count="4581" average="5.00" min="1" max="5"/>
+    <media:statistics views="74246"/>
    </media:community>
   </media:group>
  </entry>
@@ -258,8 +283,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/fokY9vEnAL4/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="5334" average="5.00" min="1" max="5"/>
-    <media:statistics views="108151"/>
+    <media:starRating count="5379" average="5.00" min="1" max="5"/>
+    <media:statistics views="108872"/>
    </media:community>
   </media:group>
  </entry>
@@ -314,8 +339,8 @@ Featured Creators:
 
 #GRWM #Makeup #Beauty #GetReadyWithMe</media:description>
    <media:community>
-    <media:starRating count="3233" average="5.00" min="1" max="5"/>
-    <media:statistics views="455722"/>
+    <media:starRating count="3231" average="5.00" min="1" max="5"/>
+    <media:statistics views="456626"/>
    </media:community>
   </media:group>
  </entry>
@@ -337,8 +362,8 @@ Featured Creators:
    <media:thumbnail url="https://i4.ytimg.com/vi/G25VMOgmhxo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="5886" average="5.00" min="1" max="5"/>
-    <media:statistics views="123909"/>
+    <media:starRating count="5914" average="5.00" min="1" max="5"/>
+    <media:statistics views="124712"/>
    </media:community>
   </media:group>
  </entry>
@@ -368,8 +393,8 @@ Featured Creators:
 
 #Courtreezy #WatchHistory #YouTube</media:description>
    <media:community>
-    <media:starRating count="2813" average="5.00" min="1" max="5"/>
-    <media:statistics views="449673"/>
+    <media:starRating count="2859" average="5.00" min="1" max="5"/>
+    <media:statistics views="490882"/>
    </media:community>
   </media:group>
  </entry>
@@ -391,8 +416,8 @@ Featured Creators:
    <media:thumbnail url="https://i4.ytimg.com/vi/w85VN7EEBMo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="5549" average="5.00" min="1" max="5"/>
-    <media:statistics views="109612"/>
+    <media:starRating count="5573" average="5.00" min="1" max="5"/>
+    <media:statistics views="110223"/>
    </media:community>
   </media:group>
  </entry>
@@ -414,45 +439,8 @@ Featured Creators:
    <media:thumbnail url="https://i4.ytimg.com/vi/SPi0GkYauVU/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="7995" average="5.00" min="1" max="5"/>
-    <media:statistics views="139326"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:5Ht2M3awcYQ</id>
-  <yt:videoId>5Ht2M3awcYQ</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>From Type Beats to Billboard Hits - Like &amp; Describe Podcast #4</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=5Ht2M3awcYQ"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2023-08-10T23:00:02+00:00</published>
-  <updated>2023-08-21T18:23:14+00:00</updated>
-  <media:group>
-   <media:title>From Type Beats to Billboard Hits - Like &amp; Describe Podcast #4</media:title>
-   <media:content url="https://www.youtube.com/v/5Ht2M3awcYQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/5Ht2M3awcYQ/hqdefault.jpg" width="480" height="360"/>
-   <media:description>This episode, MatPat sits down with hip hop experts Tuma Basa and Curtiss King to dive into the ways that type beats have changed the hip hop industry, how art gets produced, and hot takes on AI in music.
-
-Tuma Basa is the Director of Black Music &amp; Culture at YouTube. He’s been working in the hip hop space for 25 years, and is responsible for a little playlist you might’ve heard of…RapCaviar. 
-
-Curtiss King is a California-based producer and rapper who’s worked with artists from Kendrick Lamar to Mack 10. Visit his channel @CurtissKingTV for the latest industry commentary and insights.
-
-Which YouTube trend would you like to see MatPat explore next? Let us know in the comments below! 💬
-
-Featured Videos:
-https://youtu.be/r7qovpFAGrQ
-https://youtu.be/E5ONTXHS2mM
-https://youtu.be/2xWkATdMQms
-https://youtu.be/KcTz_hpRNGY 
-
-In celebration of hip hop's 50th anniversary, YouTube is rolling 50 Deep. Check out the 50 Deep flagship playlist at: yt.be/yt50deep</media:description>
-   <media:community>
-    <media:starRating count="1844" average="5.00" min="1" max="5"/>
-    <media:statistics views="177056"/>
+    <media:starRating count="8019" average="5.00" min="1" max="5"/>
+    <media:statistics views="140016"/>
    </media:community>
   </media:group>
  </entry>

@@ -233,7 +233,7 @@ def convert_bytes(byte_size, units = None, outweigh =1024):
     return f"{byte_size:.2f}{units[unit_index]}"
 
 
-# In[37]:
+# In[9]:
 
 
 # 下载显示模块
@@ -276,7 +276,11 @@ def show_progress(stream):
 def video_duration(video_website, video_url):
     try:
         # 初始化 yt_dlp 实例, 并忽略错误
-        ydl = yt_dlp.YoutubeDL({'ignoreerrors': True})
+        ydl_opts = {
+            'ignoreerrors': True,
+            'quiet': True,  # 禁止非错误信息的输出
+        }
+        ydl = yt_dlp.YoutubeDL(ydl_opts)
         # 使用提供的 URL 提取视频信息
         if info_dict := ydl.extract_info(
             f"{video_website}{video_url}", download=False
@@ -285,7 +289,7 @@ def video_duration(video_website, video_url):
             return info_dict.get('duration')
     except Exception as e:
         # 记录下载失败及错误详情
-        write_log((f"{video_url} 下载失败, 错误信息：{str(e)}").replace("ERROR: ", "").replace(f"{video_url}: ", ""))
+        write_log((f"{video_url} \033[31m下载失败\033[0m, 错误信息：{str(e)}").replace("ERROR: ", "").replace(f"{video_url}: ", ""))
         return None
 
 # 获取已下载视频时长模块
@@ -333,7 +337,7 @@ def download_video(video_url, output_dir, output_format, video_website, format_c
         return video_url
 
 
-# In[35]:
+# In[11]:
 
 
 # 视频完整下载模块
@@ -352,7 +356,7 @@ def dl_full_video(video_url, output_dir, output_format, video_website, format_co
 # 视频重试下载模块
 def dl_retry_video(video_url, output_dir, output_format, retry_count, video_website, format_code=480, output_dir_name=""):
     if output_dir_name:
-        video_write_log = f"{output_dir_name}|{video_url}"
+        video_write_log = f"\033[34m{output_dir_name}\033[0m|{video_url}"
     else:
         video_write_log = video_url
     print(f"{datetime.now().strftime('%H:%M:%S')}|{video_write_log} \033[34m开始下载\033[0m")
@@ -361,7 +365,7 @@ def dl_retry_video(video_url, output_dir, output_format, retry_count, video_webs
     yt_id_count = 0
     while yt_id_count < retry_count and yt_id_failed:
         yt_id_count += 1
-        write_log(f"{video_write_log}第{yt_id_count}次重新下载")
+        write_log(f"{video_write_log}第\033[34m{yt_id_count}\033[0m次重新下载")
         yt_id_failed = dl_full_video(video_url, output_dir, output_format, video_website, format_code, output_dir_name)
     return yt_id_failed
 
@@ -631,7 +635,7 @@ if channelid_youtube_ids_update:
     write_log(f"需更新的YouTube频道:\033[32m{' '.join(channelid_youtube_ids_update.values())}\033[0m")
 
 
-# In[38]:
+# In[20]:
 
 
 # 下载YouTube视频
