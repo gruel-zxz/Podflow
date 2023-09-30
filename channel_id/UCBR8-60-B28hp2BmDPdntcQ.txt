@@ -10,6 +10,29 @@
   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
  </author>
  <entry>
+  <id>yt:video:v-nWeugyb7A</id>
+  <yt:videoId>v-nWeugyb7A</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>@FishForThought we’re kraken up over here….</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=v-nWeugyb7A"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2023-09-29T17:00:16+00:00</published>
+  <updated>2023-09-29T17:03:33+00:00</updated>
+  <media:group>
+   <media:title>@FishForThought we’re kraken up over here….</media:title>
+   <media:content url="https://www.youtube.com/v/v-nWeugyb7A?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/v-nWeugyb7A/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="838" average="5.00" min="1" max="5"/>
+    <media:statistics views="11188"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:q9kdFvBvJN4</id>
   <yt:videoId>q9kdFvBvJN4</yt:videoId>
   <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
@@ -29,8 +52,8 @@
 
 Online video trends have evolved to become the driving force of pop culture. But do you know who’s creating them? From the moment of upload, discover the untold, true stories of the Black creators and culture behind your favorite trends. Witness those who have transformed culture on a global scale finally get the flowers they deserve.</media:description>
    <media:community>
-    <media:starRating count="2061" average="5.00" min="1" max="5"/>
-    <media:statistics views="66682"/>
+    <media:starRating count="2942" average="5.00" min="1" max="5"/>
+    <media:statistics views="164800"/>
    </media:community>
   </media:group>
  </entry>
@@ -52,8 +75,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i3.ytimg.com/vi/fEzeTYwEmlw/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1759" average="5.00" min="1" max="5"/>
-    <media:statistics views="35805"/>
+    <media:starRating count="1948" average="5.00" min="1" max="5"/>
+    <media:statistics views="40479"/>
    </media:community>
   </media:group>
  </entry>
@@ -75,8 +98,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i1.ytimg.com/vi/xY34jr-gYgU/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3159" average="5.00" min="1" max="5"/>
-    <media:statistics views="53258"/>
+    <media:starRating count="3374" average="5.00" min="1" max="5"/>
+    <media:statistics views="57216"/>
    </media:community>
   </media:group>
  </entry>
@@ -98,8 +121,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i2.ytimg.com/vi/MKeug0IZWbo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2275" average="5.00" min="1" max="5"/>
-    <media:statistics views="39441"/>
+    <media:starRating count="2383" average="5.00" min="1" max="5"/>
+    <media:statistics views="41550"/>
    </media:community>
   </media:group>
  </entry>
@@ -121,8 +144,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i1.ytimg.com/vi/HgIBGdBDeHs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3925" average="5.00" min="1" max="5"/>
-    <media:statistics views="71455"/>
+    <media:starRating count="3997" average="5.00" min="1" max="5"/>
+    <media:statistics views="73319"/>
    </media:community>
   </media:group>
  </entry>
@@ -144,8 +167,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i3.ytimg.com/vi/rwYAcQqbbrY/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3824" average="5.00" min="1" max="5"/>
-    <media:statistics views="60425"/>
+    <media:starRating count="3873" average="5.00" min="1" max="5"/>
+    <media:statistics views="61336"/>
    </media:community>
   </media:group>
  </entry>
@@ -205,8 +228,8 @@ Featured Creators:
 
 #Gaming #Retrogaming #YouTube</media:description>
    <media:community>
-    <media:starRating count="5025" average="5.00" min="1" max="5"/>
-    <media:statistics views="3211857"/>
+    <media:starRating count="5181" average="5.00" min="1" max="5"/>
+    <media:statistics views="3317750"/>
    </media:community>
   </media:group>
  </entry>
@@ -237,8 +260,8 @@ Featured Creators:
 
 #SafiyaNygaard #WatchHistory #YouTube</media:description>
    <media:community>
-    <media:starRating count="1946" average="5.00" min="1" max="5"/>
-    <media:statistics views="731332"/>
+    <media:starRating count="1967" average="5.00" min="1" max="5"/>
+    <media:statistics views="733570"/>
    </media:community>
   </media:group>
  </entry>
@@ -260,8 +283,8 @@ Featured Creators:
    <media:thumbnail url="https://i1.ytimg.com/vi/DcNI16MEjrM/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4581" average="5.00" min="1" max="5"/>
-    <media:statistics views="74246"/>
+    <media:starRating count="4611" average="5.00" min="1" max="5"/>
+    <media:statistics views="74992"/>
    </media:community>
   </media:group>
  </entry>
@@ -283,8 +306,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/fokY9vEnAL4/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="5379" average="5.00" min="1" max="5"/>
-    <media:statistics views="108872"/>
+    <media:starRating count="5402" average="5.00" min="1" max="5"/>
+    <media:statistics views="109508"/>
    </media:community>
   </media:group>
  </entry>
@@ -339,8 +362,8 @@ Featured Creators:
 
 #GRWM #Makeup #Beauty #GetReadyWithMe</media:description>
    <media:community>
-    <media:starRating count="3231" average="5.00" min="1" max="5"/>
-    <media:statistics views="456626"/>
+    <media:starRating count="3236" average="5.00" min="1" max="5"/>
+    <media:statistics views="457294"/>
    </media:community>
   </media:group>
  </entry>
@@ -362,8 +385,8 @@ Featured Creators:
    <media:thumbnail url="https://i4.ytimg.com/vi/G25VMOgmhxo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="5914" average="5.00" min="1" max="5"/>
-    <media:statistics views="124712"/>
+    <media:starRating count="5936" average="5.00" min="1" max="5"/>
+    <media:statistics views="125411"/>
    </media:community>
   </media:group>
  </entry>
@@ -393,8 +416,8 @@ Featured Creators:
 
 #Courtreezy #WatchHistory #YouTube</media:description>
    <media:community>
-    <media:starRating count="2859" average="5.00" min="1" max="5"/>
-    <media:statistics views="490882"/>
+    <media:starRating count="2892" average="5.00" min="1" max="5"/>
+    <media:statistics views="493071"/>
    </media:community>
   </media:group>
  </entry>
@@ -416,31 +439,8 @@ Featured Creators:
    <media:thumbnail url="https://i4.ytimg.com/vi/w85VN7EEBMo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="5573" average="5.00" min="1" max="5"/>
-    <media:statistics views="110223"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:SPi0GkYauVU</id>
-  <yt:videoId>SPi0GkYauVU</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>yes, chef</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=SPi0GkYauVU"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2023-08-14T11:00:16+00:00</published>
-  <updated>2023-08-14T11:08:05+00:00</updated>
-  <media:group>
-   <media:title>yes, chef</media:title>
-   <media:content url="https://www.youtube.com/v/SPi0GkYauVU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/SPi0GkYauVU/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="8019" average="5.00" min="1" max="5"/>
-    <media:statistics views="140016"/>
+    <media:starRating count="5591" average="5.00" min="1" max="5"/>
+    <media:statistics views="110735"/>
    </media:community>
   </media:group>
  </entry>
