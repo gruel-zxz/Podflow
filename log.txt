@@ -1,3 +1,91 @@
+2023-10-01 10:03:34 youtube|w85VN7EEBMo 下载成功
+2023-10-01 10:03:22 youtube|w85VN7EEBMo.mp4缺失并重新下载
+2023-10-01 10:03:22 youtube|PIq561J_hIo 下载成功
+2023-10-01 10:00:25 youtube|PIq561J_hIo.mp4缺失并重新下载
+2023-10-01 10:00:25 youtube|G25VMOgmhxo 下载成功
+2023-10-01 10:00:19 youtube|G25VMOgmhxo.mp4缺失并重新下载
+2023-10-01 10:00:19 youtube|oxN0AR0xlRg 下载成功
+2023-10-01 09:59:17 youtube|oxN0AR0xlRg.mp4缺失并重新下载
+2023-10-01 09:59:17 youtube|fokY9vEnAL4 下载成功
+2023-10-01 09:59:08 youtube|fokY9vEnAL4.mp4缺失并重新下载
+2023-10-01 09:59:08 youtube|DcNI16MEjrM 下载成功
+2023-10-01 09:58:58 youtube|DcNI16MEjrM.mp4缺失并重新下载
+2023-10-01 09:58:58 youtube|k2_eWjsB6lI 下载成功
+2023-10-01 09:54:44 youtube|k2_eWjsB6lI.mp4缺失并重新下载
+2023-10-01 09:54:44 youtube|q9kdFvBvJN4.part.mp4已删除
+2023-10-01 09:54:44 youtube|q9kdFvBvJN4.part.m4a已删除
+2023-10-01 09:54:44 总播客已更新
+2023-10-01 09:54:44 stone pistol 播客无更新
+2023-10-01 09:54:43 幻海航行--science fiction 播客无更新
+2023-10-01 09:54:42 老高與小茉 Mr & Mrs Gao 播客无更新
+2023-10-01 09:54:42 四季妈妈—小龙 播客无更新
+2023-10-01 09:54:41 stone记 播客无更新
+2023-10-01 09:54:41 youtube 播客已更新
+2023-10-01 09:54:40 Error: b'[mov,mp4,m4a,3gp,3g2,mj2 @ 0x56398a7a6300] moov atom not found\nUCBR8-60-B28hp2BmDPdntcQ/q9kdFvBvJN4.mp4: Invalid data found when processing input\n'
+2023-10-01 09:54:40 youtube|wtryFHT1VRg 下载成功
+2023-10-01 09:53:44 youtube|rwYAcQqbbrY 下载成功
+2023-10-01 09:53:37 youtube|HgIBGdBDeHs 下载成功
+2023-10-01 09:53:31 youtube|MKeug0IZWbo 下载成功
+2023-10-01 09:53:25 youtube|xY34jr-gYgU 下载成功
+2023-10-01 09:53:16 youtube|fEzeTYwEmlw 下载成功
+2023-10-01 09:53:08 需更新的YouTube频道:youtube
+2023-10-01 09:53:08 读取youtube频道的channelid成功
+2023-10-01 09:53:07 bilibili频道信息不存在
+2023-10-01 09:53:07 已读取youtube频道信息
+2023-10-01 09:53:07 已读取配置文件
+2023-10-01 09:53:07 RangeHTTPServer无需更新|版本：1.3.3
+2023-10-01 09:53:07 RangeHTTPServer已安装
+2023-10-01 09:53:06 yt-dlp无需更新|版本：2023.9.24
+2023-10-01 09:53:06 yt-dlp已安装
+2023-10-01 09:49:41 youtube|v-nWeugyb7A 下载成功
+2023-10-01 09:49:34 需更新的YouTube频道:youtube
+2023-10-01 09:49:34 读取youtube频道的channelid成功
+2023-10-01 09:49:34 bilibili频道信息不存在
+2023-10-01 09:49:34 已读取youtube频道信息
+2023-10-01 09:49:33 已读取配置文件
+2023-10-01 09:49:33 RangeHTTPServer无需更新|版本：1.3.3
+2023-10-01 09:49:33 RangeHTTPServer已安装
+2023-10-01 09:49:31 yt-dlp无需更新|版本：2023.9.24
+2023-10-01 09:49:31 yt-dlp已安装
+2023-10-01 08:57:08 youtube|rwYAcQqbbrY 无法下载
+2023-10-01 08:57:08 youtube|rwYAcQqbbrY 下载失败, 错误信息：合成失败
+2023-10-01 08:57:05 youtube|HgIBGdBDeHs 无法下载
+2023-10-01 08:57:05 youtube|HgIBGdBDeHs 下载失败, 错误信息：合成失败
+2023-10-01 08:57:01 youtube|MKeug0IZWbo 无法下载
+2023-10-01 08:57:01 youtube|MKeug0IZWbo 下载失败, 错误信息：合成失败
+2023-10-01 08:56:57 youtube|xY34jr-gYgU 无法下载
+2023-10-01 08:56:57 youtube|xY34jr-gYgU 下载失败, 错误信息：合成失败
+2023-10-01 08:56:53 youtube|fEzeTYwEmlw 无法下载
+2023-10-01 08:56:53 youtube|fEzeTYwEmlw 下载失败, 错误信息：合成失败
+2023-10-01 08:56:49 youtube|q9kdFvBvJN4 无法下载
+2023-10-01 08:56:49 youtube|q9kdFvBvJN4 下载失败, 错误信息：合成失败
+2023-10-01 08:56:37 youtube|v-nWeugyb7A 无法下载
+2023-10-01 08:56:37 youtube|v-nWeugyb7A 下载失败, 错误信息：合成失败
+2023-10-01 08:56:33 需更新的YouTube频道:youtube
+2023-10-01 08:56:33 文件夹UCBR8-60-B28hp2BmDPdntcQ创建成功
+2023-10-01 08:56:33 读取youtube频道的channelid成功
+2023-10-01 08:56:32 bilibili频道信息不存在
+2023-10-01 08:56:32 已读取youtube频道信息
+2023-10-01 08:56:32 已读取配置文件
+2023-10-01 08:56:32 RangeHTTPServer无需更新|版本：1.3.3
+2023-10-01 08:56:32 RangeHTTPServer已安装
+2023-10-01 08:56:30 yt-dlp无需更新|版本：2023.9.24
+2023-10-01 08:56:30 yt-dlp已安装
+2023-10-01 07:39:31 总播客已更新
+2023-10-01 07:39:31 stone pistol 播客无更新
+2023-10-01 07:39:30 幻海航行--science fiction 播客无更新
+2023-10-01 07:39:29 老高與小茉 Mr & Mrs Gao 播客无更新
+2023-10-01 07:39:28 四季妈妈—小龙 播客无更新
+2023-10-01 07:39:28 stone记 播客无更新
+2023-10-01 07:39:26 youtube 播客无更新
+2023-10-01 07:39:24 读取youtube频道的channelid成功
+2023-10-01 07:39:23 bilibili频道信息不存在
+2023-10-01 07:39:23 已读取youtube频道信息
+2023-10-01 07:39:23 已读取配置文件
+2023-10-01 07:39:23 RangeHTTPServer无需更新|版本：1.3.3
+2023-10-01 07:39:23 RangeHTTPServer已安装
+2023-10-01 07:39:19 yt-dlp无需更新|版本：2023.9.24
+2023-10-01 07:39:19 yt-dlp已安装
 2023-10-01 04:51:26 四季妈妈—小龙|NqmGHeEFdto.m4a已删除
 2023-10-01 04:51:26 stone记|b28n4mVlsvM.m4a已删除
 2023-10-01 04:51:26 总播客已更新

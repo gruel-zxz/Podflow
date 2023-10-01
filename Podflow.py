@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
+# In[21]:
 
 
 import os
@@ -41,7 +41,7 @@ default_config = {
 # 如果InmainRSS为False或频道有更新则无视DisplayRSSaddress的状态, 都会变为True。
 
 
-# In[ ]:
+# In[22]:
 
 
 # 文件保存模块
@@ -57,7 +57,7 @@ def file_save(content, file_name, folder=None):
         file.write(content)
 
 
-# In[ ]:
+# In[23]:
 
 
 #日志模块
@@ -85,7 +85,7 @@ def write_log(log, suffix = None, display = True):
             print(f"{formatted_time_mini}|{log}")
 
 
-# In[ ]:
+# In[24]:
 
 
 # 查看requests模块是否安装
@@ -106,7 +106,7 @@ sudo dnf install ffmpeg\033[0m
 \033[32mffmpeg -version\033[0m'''
 try:
     # 执行 ffmpeg 命令获取版本信息
-    result = subprocess.run(['ffmpeg', '-version'], capture_output=True, text=True)
+    result = subprocess.run(['ffmpeg', '-version'], capture_output = True, text = True)
     output = result.stdout.lower()
     # 检查输出中是否包含 ffmpeg 版本信息
     if 'ffmpeg version' not in output:
@@ -124,8 +124,8 @@ try:
     # 如果导入成功你可以在这里使用requests库
 except ImportError:
     try:
-        subprocess.run(['pip', 'install', 'chardet' , '-U'], capture_output=True, text=True)
-        subprocess.run(['pip', 'install', 'requests' , '-U'], capture_output=True, text=True)
+        subprocess.run(['pip', 'install', 'chardet' , '-U'], capture_output = True, text = True)
+        subprocess.run(['pip', 'install', 'requests' , '-U'], capture_output = True, text = True)
         write_log("\033[31mrequests安装成功, 请重新运行\033[0m")
         sys.exit(0)
     except FileNotFoundError:
@@ -133,11 +133,11 @@ except ImportError:
         sys.exit(0)
 
 
-# In[ ]:
+# In[25]:
 
 
 # HTTP GET请求重试模块
-def get_with_retry(url, name, max_retries=10, retry_delay=6):
+def get_with_retry(url, name, max_retries = 10, retry_delay = 6):
     for num in range(max_retries):
         try:
             response = requests.get(f"{url}")
@@ -151,7 +151,7 @@ def get_with_retry(url, name, max_retries=10, retry_delay=6):
     return None
 
 
-# In[ ]:
+# In[26]:
 
 
 # 安装库模块
@@ -159,7 +159,7 @@ def library_install(library):
     if version := re.search(
         r"(?<=Version\: ).+",
         subprocess.run(
-            ["pip", "show", library], capture_output=True, text=True
+            ["pip", "show", library], capture_output = True, text = True
         ).stdout
     ):
         write_log(f"{library}已安装")
@@ -175,7 +175,7 @@ def library_install(library):
         if version_update is None or version.group() not in version_update.group():
             # 如果库已安装, 则尝试更新
             try:
-                subprocess.run(['pip', 'install', '--upgrade', library], capture_output=True, text=True)
+                subprocess.run(['pip', 'install', '--upgrade', library], capture_output = True, text = True)
                 write_log(f"{library}更新成功")
             except FileNotFoundError:
                 write_log(f"{library}更新失败")
@@ -185,13 +185,13 @@ def library_install(library):
         write_log(f"{library}未安装")
         # 如果库未安装, 则尝试安装
         try:
-            subprocess.run(['pip', 'install', library , '-U'], capture_output=True, text=True)
+            subprocess.run(['pip', 'install', library , '-U'], capture_output = True, text = True)
             write_log(f"{library}安装成功")
         except FileNotFoundError:
             write_log(f"{library}安装失败")
 
 
-# In[ ]:
+# In[27]:
 
 
 # 安装/更新yt-dlp并加载
@@ -201,7 +201,7 @@ import yt_dlp
 library_install("RangeHTTPServer")
 
 
-# In[ ]:
+# In[28]:
 
 
 # 格式化时间模块
@@ -218,7 +218,7 @@ def time_format(duration):
         return '{:02}:{:02}'.format(minutes, remaining_seconds)
 
 # 格式化字节模块
-def convert_bytes(byte_size, units = None, outweigh =1024):
+def convert_bytes(byte_size, units = None, outweigh = 1024):
     if units is None:
         units = [' B', 'KB', 'MB', 'GB']
     if byte_size is None:
@@ -233,7 +233,7 @@ def convert_bytes(byte_size, units = None, outweigh =1024):
     return f"{byte_size:.2f}{units[unit_index]}"
 
 
-# In[ ]:
+# In[29]:
 
 
 # 下载显示模块
@@ -259,17 +259,17 @@ def show_progress(stream):
         bar = f"{bar:.1f}" if bar == 100 else f"{bar:.2f}"
         bar = bar.rjust(5)
         eta = time_format(stream['eta']).ljust(8)
-        print((f"\r\033[94m{bar}%\033[0m|{downloaded_bytes}\{total_bytes}|\033[32m{speed}/s\033[0m|\033[93m{eta}\033[0m"),end="")
+        print((f"\r\033[94m{bar}%\033[0m|{downloaded_bytes}\{total_bytes}|\033[32m{speed}/s\033[0m|\033[93m{eta}\033[0m"),end = "")
     if stream['status'] == "finished":
         if "elapsed" in stream:
             elapsed = time_format(stream['elapsed']).ljust(8)
         else:
             elapsed = "Unknown "
-        print((f"\r100.0%|{downloaded_bytes}\{total_bytes}|\033[32m{speed}/s\033[0m|\033[97m{elapsed}\033[0m"),end="")
+        print((f"\r100.0%|{downloaded_bytes}\{total_bytes}|\033[32m{speed}/s\033[0m|\033[97m{elapsed}\033[0m"),end = "")
         print("")
 
 
-# In[ ]:
+# In[30]:
 
 
 # 获取视频时长模块
@@ -284,7 +284,7 @@ def video_duration(video_website, video_url):
         ydl = yt_dlp.YoutubeDL(ydl_opts)
         # 使用提供的 URL 提取视频信息
         if info_dict := ydl.extract_info(
-            f"{video_website}{video_url}", download=False
+            f"{video_website}{video_url}", download = False
         ):
             # 获取视频时长并返回
             return info_dict.get('duration')
@@ -311,19 +311,16 @@ def get_duration_ffprobe(file_path):
         return None
 
 # 下载视频模块
-def download_video(video_url, output_dir, output_format, video_website, format_code=480, output_dir_name=""):
-    if output_dir_name:
-        video_write_log = f"\033[32m{output_dir_name}\033[0m|{video_url}"
-    else:
-        video_write_log = video_url
+def download_video(video_url, output_dir, output_format, video_website, video_write_log, format_code = 480, sesuffix = ""):
     if output_format == 'm4a':
         format_out = "bestaudio[ext=m4a]/best"   # 音频编码
     else:
-        format_out = f'bestvideo[ext=mp4][height<={format_code}]+bestaudio[ext=m4a]/best'  # 视频编码
+        format_out = f'bestvideo[ext=mp4][height<={format_code}]'  # 视频编码
     ydl_opts = {
-        'outtmpl': f'{output_dir}/{video_url}.{output_format}',  # 输出文件路径和名称
+        'outtmpl': f'{output_dir}/{video_url}{sesuffix}.{output_format}',  # 输出文件路径和名称
         'format': f'{format_out}',  # 指定下载的最佳音频和视频格式
         "noprogress": True,
+        'quiet': True,
         "progress_hooks": [show_progress]
     }
     try:
@@ -334,21 +331,17 @@ def download_video(video_url, output_dir, output_format, video_website, format_c
         return video_url
 
 
-# In[ ]:
+# In[31]:
 
 
 # 视频完整下载模块
-def dl_full_video(video_url, output_dir, output_format, video_website, format_code=480, output_dir_name=""):
-    if output_dir_name:
-        video_write_log = f"\033[32m{output_dir_name}\033[0m|{video_url}"
-    else:
-        video_write_log = video_url
+def dl_full_video(video_url, output_dir, output_format, video_website, video_write_log, format_code=480, sesuffix = ""):
     terminate_video_duration = threading.Event()
     dual_threading = {}
     # 下载视频线程模块
-    def download_video_part(video_url, output_dir, output_format, video_website, format_code, output_dir_name):
+    def download_video_part(video_url, output_dir, output_format, video_website, video_write_log, format_code, sesuffix):
         video_failed = video_url
-        video_failed = download_video(video_url, output_dir, output_format, video_website, format_code, output_dir_name)
+        video_failed = download_video(video_url, output_dir, output_format, video_website, video_write_log, format_code, sesuffix)
         dual_threading["video_failed"] = video_failed
         terminate_video_duration.set()
     # 获取视频时长线程模块
@@ -358,7 +351,7 @@ def dl_full_video(video_url, output_dir, output_format, video_website, format_co
             id_duration = video_duration(video_website, video_url)
         dual_threading["id_duration"] = id_duration
     # 创建线程对象
-    thread_download_video_part = threading.Thread(target=download_video_part, args=(video_url, output_dir, output_format, video_website, format_code, output_dir_name))
+    thread_download_video_part = threading.Thread(target=download_video_part, args=(video_url, output_dir, output_format, video_website, video_write_log, format_code, sesuffix))
     thread_loop_video_duration = threading.Thread(target=loop_video_duration, args=(video_website, video_url))
     # 启动线程
     thread_download_video_part.start()
@@ -368,33 +361,68 @@ def dl_full_video(video_url, output_dir, output_format, video_website, format_co
     thread_loop_video_duration.join()
     if dual_threading["video_failed"]:
         return video_url
-    duration_video = get_duration_ffprobe(f"{output_dir}/{video_url}.{output_format}")  # 获取已下载视频的实际时长
+    duration_video = get_duration_ffprobe(f"{output_dir}/{video_url}{sesuffix}.{output_format}")  # 获取已下载视频的实际时长
     if dual_threading["id_duration"] == duration_video:  # 检查实际时长与预计时长是否一致
-        write_log(f"{video_write_log} \033[32m下载成功\033[0m")  # 写入下载成功的日志信息
         return None
     if duration_video:
         write_log(f"{video_write_log} \033[31m下载失败\033[0m, 错误信息：视频不完整")  # 写入下载成功的日志信息
-        os.remove(f"{output_dir}/{video_url}.{output_format}")  #删除不完整的视频
+        os.remove(f"{output_dir}/{video_url}{sesuffix}.{output_format}")  #删除不完整的视频
     return video_url
 
 # 视频重试下载模块
-def dl_retry_video(video_url, output_dir, output_format, retry_count, video_website, format_code=480, output_dir_name=""):
-    if output_dir_name:
-        video_write_log = f"\033[34m{output_dir_name}\033[0m|{video_url}"
-    else:
-        video_write_log = video_url
-    print(f"{datetime.now().strftime('%H:%M:%S')}|{video_write_log} \033[34m开始下载\033[0m")
-    yt_id_failed = dl_full_video(video_url, output_dir, output_format, video_website, format_code, output_dir_name)
+def dl_retry_video(video_url, output_dir, output_format, retry_count, video_website, video_write_log, format_code=480, sesuffix = ""):
+    yt_id_failed = dl_full_video(video_url, output_dir, output_format, video_website, video_write_log, format_code, sesuffix)
     # 下载失败后重复尝试下载视频
     yt_id_count = 0
     while yt_id_count < retry_count and yt_id_failed:
         yt_id_count += 1
         write_log(f"{video_write_log}第\033[34m{yt_id_count}\033[0m次重新下载")
-        yt_id_failed = dl_full_video(video_url, output_dir, output_format, video_website, format_code, output_dir_name)
+        yt_id_failed = dl_full_video(video_url, output_dir, output_format, video_website, video_write_log, format_code, sesuffix)
+    return yt_id_failed
+
+# 音视频总下载模块
+def dl_aideo_video(video_url, output_dir, output_format, retry_count, video_website, format_code=480, output_dir_name=""):
+    if output_dir_name:
+        video_write_log = f"\033[34m{output_dir_name}\033[0m|{video_url}"
+    else:
+        video_write_log = video_url
+    print(f"{datetime.now().strftime('%H:%M:%S')}|{video_write_log} \033[34m开始下载\033[0m")
+    if output_format == "m4a":
+        yt_id_failed = dl_full_video(video_url, output_dir, "m4a", video_website, video_write_log, format_code, "")
+    else:
+        print(f"{datetime.now().strftime('%H:%M:%S')}|\033[34m开始视频部分下载\033[0m")
+        yt_id_failed = dl_full_video(video_url, output_dir, "mp4", video_website, video_write_log, format_code, ".part")
+        if yt_id_failed is None:
+            print(f"{datetime.now().strftime('%H:%M:%S')}|\033[34m开始音频部分下载\033[0m")
+            yt_id_failed = dl_full_video(video_url, output_dir, "m4a", video_website, video_write_log, format_code, ".part")
+            if yt_id_failed is None:
+                print(f"{datetime.now().strftime('%H:%M:%S')}|\033[34m开始合成\033[0m")
+                # 构建FFmpeg命令
+                ffmpeg_cmd = [
+                    'ffmpeg',
+                    #'-loglevel', 'panic',  # 设置日志级别为panic以减少输出信息
+                    '-i', f'{output_dir}/{video_url}.part.mp4',
+                    '-i', f'{output_dir}/{video_url}.part.m4a',
+                    '-c:v', 'libx264',
+                    '-c:a', 'aac',
+                    '-strict', 'experimental',
+                    f'{output_dir}/{video_url}.mp4'
+                ]
+                # 执行FFmpeg命令
+                try:
+                    subprocess.run(ffmpeg_cmd, check=True)
+                    print(f"{datetime.now().strftime('%H:%M:%S')}|\033[32m合成成功\033[0m")
+                    os.remove(f"{output_dir}/{video_url}.part.mp4")
+                    os.remove(f"{output_dir}/{video_url}.part.m4a")
+                except subprocess.CalledProcessError as e:
+                    yt_id_failed = video_url
+                    write_log(f"{video_write_log} \033[31m下载失败\033[0m, 错误信息：合成失败") 
+    if yt_id_failed is None:
+        write_log(f"{video_write_log} \033[32m下载成功\033[0m")  # 写入下载成功的日志信息
     return yt_id_failed
 
 
-# In[ ]:
+# In[32]:
 
 
 # 构建文件夹模块
@@ -405,7 +433,7 @@ def folder_build(folder_name):
         write_log(f"文件夹{folder_name}创建成功")
 
 
-# In[ ]:
+# In[33]:
 
 
 # 检查当前文件夹中是否存在config.json文件
@@ -427,7 +455,7 @@ else:
         sys.exit(0)
 
 
-# In[ ]:
+# In[34]:
 
 
 # 对retry_count进行纠正
@@ -469,7 +497,7 @@ if ('category' not in config):
     config['category'] = default_config["category"]
 
 
-# In[ ]:
+# In[35]:
 
 
 # 从配置文件中获取YouTube的频道
@@ -488,14 +516,14 @@ else:
     write_log("bilibili频道信息不存在")
 
 
-# In[ ]:
+# In[36]:
 
 
 # 构建文件夹channel_id
 folder_build("channel_id")
 
 
-# In[ ]:
+# In[37]:
 
 
 # 视频分辨率变量
@@ -573,7 +601,7 @@ for channelid_youtube_key, channelid_youtube_value in channelid_youtube_copy.ite
             channelid_youtube[channelid_youtube_key]['InmainRSS'] = True
 
 
-# In[ ]:
+# In[38]:
 
 
 # 读取youtube频道的id
@@ -590,7 +618,7 @@ else:
     channelid_bilibili_ids = None
 
 
-# In[ ]:
+# In[39]:
 
 
 # 更新Youtube频道xml
@@ -659,7 +687,7 @@ if channelid_youtube_ids_update:
     write_log(f"需更新的YouTube频道:\033[32m{' '.join(channelid_youtube_ids_update.values())}\033[0m")
 
 
-# In[ ]:
+# In[40]:
 
 
 # 下载YouTube视频
@@ -674,14 +702,14 @@ for ytid_key, ytid_value in youtube_content_ytid_update.items():
         yt_id_quality = None
     # 下载视频
     for yt_id in ytid_value:
-        if dl_retry_video(
+        if dl_aideo_video(
             yt_id, ytid_key, yt_id_file, config['retry_count'], "https://www.youtube.com/watch?v=", yt_id_quality, channelid_youtube_ids[ytid_key]
         ):
             yt_id_failed.append(yt_id)
             write_log(f"{channelid_youtube_ids[ytid_key]}|{yt_id} \033[31m无法下载\033[0m")
 
 
-# In[ ]:
+# In[41]:
 
 
 #生成XML模块
@@ -727,7 +755,7 @@ def xml_rss(title,link,description,category,icon,items):
 </rss>'''
 
 
-# In[ ]:
+# In[42]:
 
 
 # 生成item模块
@@ -774,7 +802,7 @@ def xml_item(video_url, output_dir, video_website, channelid_title,title, descri
 '''
 
 
-# In[ ]:
+# In[43]:
 
 
 # 生成YouTube的item模块
@@ -805,7 +833,7 @@ def youtube_xml_item(entry):
     )
 
 
-# In[ ]:
+# In[44]:
 
 
 # 生成原有的item模块
@@ -851,7 +879,7 @@ def xml_original_item(original_item):
 '''
 
 
-# In[ ]:
+# In[45]:
 
 
 # 获取原始xml文件
@@ -880,14 +908,14 @@ for youtube_key in channelid_youtube_ids.keys():
             write_log(f"RSS文件中不存在 {channelid_youtube_ids[youtube_key]} 无法保留原节目")
 
 
-# In[ ]:
+# In[46]:
 
 
 # 构建文件夹channel_rss
 folder_build("channel_rss")
 
 
-# In[ ]:
+# In[47]:
 
 
 # 创建线程锁
@@ -925,7 +953,7 @@ for thread in youtube_xml_get_threads:
     thread.join()
 
 
-# In[ ]:
+# In[48]:
 
 
 # 生成YouTube对应channel的需更新的items模块
@@ -977,7 +1005,7 @@ def youtube_xml_items(output_dir):
     return items
 
 
-# In[ ]:
+# In[49]:
 
 
 # 生成主rss
@@ -993,7 +1021,7 @@ file_save(xml_rss(config["title"], config["link"], config["description"], config
 write_log("总播客已更新", f"地址: \033[34m{config['url']}/{config['filename']}.xml\033[0m")
 
 
-# In[ ]:
+# In[50]:
 
 
 # 删除多余媒体文件模块
@@ -1004,7 +1032,7 @@ def remove_file(output_dir):
             write_log(f"{channelid_youtube_ids[output_dir]}|{file_name}已删除")
 
 
-# In[ ]:
+# In[51]:
 
 
 # 补全缺失的媒体文件模块
@@ -1017,13 +1045,13 @@ def make_up_file(output_dir):
                 video_quality = channelid_youtube[channelid_youtube_ids[output_dir]]['quality']
             else:
                 video_quality = 480
-            if dl_retry_video(
+            if dl_aideo_video(
                 file_name.split(".")[0], output_dir, file_name.split(".")[1], config['retry_count'], "https://www.youtube.com/watch?v=", video_quality, channelid_youtube_ids[output_dir]
             ):
                 write_log(f"{channelid_youtube_ids[file_name.split('.')[0]]}|{file_name.split('.')[0]}无法下载")
 
 
-# In[ ]:
+# In[52]:
 
 
 # 删除不在rss中的媒体文件
@@ -1031,7 +1059,7 @@ for output_dir in channelid_youtube_ids:
     remove_file(output_dir)
 
 
-# In[ ]:
+# In[53]:
 
 
 # 补全在rss中缺失的媒体文件

@@ -21,15 +21,15 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2023-09-30T15:12:13+00:00</published>
-  <updated>2023-09-30T15:12:13+00:00</updated>
+  <updated>2023-10-01T06:47:20+00:00</updated>
   <media:group>
    <media:title>我想问问大家，你们还在高速上吗？#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
    <media:content url="https://www.youtube.com/v/1OerCSTyd9E?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i2.ytimg.com/vi/1OerCSTyd9E/hqdefault.jpg" width="480" height="360"/>
    <media:description>我想问问大家，你们还在高速上吗？#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="252"/>
+    <media:starRating count="9" average="5.00" min="1" max="5"/>
+    <media:statistics views="310"/>
    </media:community>
   </media:group>
  </entry>
@@ -52,7 +52,7 @@
    <media:description>酒后吐真言，假也三分甜#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="335"/>
+    <media:statistics views="342"/>
    </media:community>
   </media:group>
  </entry>
@@ -75,7 +75,7 @@
    <media:description>山东人狠狠拿捏住了语言的艺术#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="10" average="5.00" min="1" max="5"/>
-    <media:statistics views="462"/>
+    <media:statistics views="464"/>
    </media:community>
   </media:group>
  </entry>
@@ -98,7 +98,7 @@
    <media:description>我发现了男人结婚后应酬越来越多的原因#爱吐槽的四季妈妈 #家庭吐槽大会 #江中肝纯片</media:description>
    <media:community>
     <media:starRating count="11" average="5.00" min="1" max="5"/>
-    <media:statistics views="486"/>
+    <media:statistics views="491"/>
    </media:community>
   </media:group>
  </entry>
@@ -121,7 +121,7 @@
    <media:description>东北男人是藏獒一样的存在，能管住他们的只有   #爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="443"/>
+    <media:statistics views="445"/>
    </media:community>
   </media:group>
  </entry>
@@ -144,7 +144,7 @@
    <media:description>男人吵架不接电话的原因竟然是  #爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="10" average="5.00" min="1" max="5"/>
-    <media:statistics views="627"/>
+    <media:statistics views="628"/>
    </media:community>
   </media:group>
  </entry>
@@ -167,7 +167,7 @@
    <media:description>据说没有女孩可以拒绝大叔，尤其是那种生活自律情商高超的大叔#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="494"/>
+    <media:statistics views="495"/>
    </media:community>
   </media:group>
  </entry>
@@ -190,7 +190,7 @@
    <media:description>我就想问问山河四省的兄弟们，这玩意什么时候能吃完#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="498"/>
+    <media:statistics views="499"/>
    </media:community>
   </media:group>
  </entry>
@@ -212,8 +212,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/vFuSsdnaWNg/hqdefault.jpg" width="480" height="360"/>
    <media:description>据说她是中年男人心中绝对的女神#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="224" average="5.00" min="1" max="5"/>
-    <media:statistics views="17225"/>
+    <media:starRating count="225" average="5.00" min="1" max="5"/>
+    <media:statistics views="17351"/>
    </media:community>
   </media:group>
  </entry>
@@ -258,8 +258,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/-Bzm65ZcshU/hqdefault.jpg" width="480" height="360"/>
    <media:description>浦东机场应该是每个卡点坐飞机的人的噩梦吧#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="351" average="5.00" min="1" max="5"/>
-    <media:statistics views="29804"/>
+    <media:starRating count="352" average="5.00" min="1" max="5"/>
+    <media:statistics views="30039"/>
    </media:community>
   </media:group>
  </entry>
@@ -282,7 +282,7 @@
    <media:description>各地土豪的奇闻异事#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="17" average="5.00" min="1" max="5"/>
-    <media:statistics views="818"/>
+    <media:statistics views="819"/>
    </media:community>
   </media:group>
  </entry>
@@ -305,7 +305,7 @@
    <media:description>约南北方女孩喝酒有哪些注意事项#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="10" average="5.00" min="1" max="5"/>
-    <media:statistics views="478"/>
+    <media:statistics views="479"/>
    </media:community>
   </media:group>
  </entry>
@@ -328,7 +328,7 @@
    <media:description>当从鱼的视角观察钓手时，他们还挺可爱#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="11" average="5.00" min="1" max="5"/>
-    <media:statistics views="496"/>
+    <media:statistics views="497"/>
    </media:community>
   </media:group>
  </entry>
@@ -351,7 +351,7 @@
    <media:description>男人真的太能装了，出门只需要一个裤兜#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="23" average="5.00" min="1" max="5"/>
-    <media:statistics views="1060"/>
+    <media:statistics views="1062"/>
    </media:community>
   </media:group>
  </entry>

@@ -21,7 +21,7 @@
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
   <published>2023-10-01T01:31:43+00:00</published>
-  <updated>2023-10-01T01:54:29+00:00</updated>
+  <updated>2023-10-01T07:07:09+00:00</updated>
   <media:group>
    <media:title>许家印“前妻”丁玉梅加拿大国籍，许家印儿子23亿信托不可撤销、不可追赃（20230930第6369期）</media:title>
    <media:content url="https://www.youtube.com/v/FDfPtJIZk8E?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -78,8 +78,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="133" average="5.00" min="1" max="5"/>
-    <media:statistics views="16352"/>
+    <media:starRating count="241" average="5.00" min="1" max="5"/>
+    <media:statistics views="37043"/>
    </media:community>
   </media:group>
  </entry>
@@ -151,8 +151,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="207" average="5.00" min="1" max="5"/>
-    <media:statistics views="50372"/>
+    <media:starRating count="211" average="5.00" min="1" max="5"/>
+    <media:statistics views="52403"/>
    </media:community>
   </media:group>
  </entry>
@@ -224,8 +224,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="200" average="5.00" min="1" max="5"/>
-    <media:statistics views="43050"/>
+    <media:starRating count="203" average="5.00" min="1" max="5"/>
+    <media:statistics views="44451"/>
    </media:community>
   </media:group>
  </entry>
@@ -297,8 +297,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="147" average="5.00" min="1" max="5"/>
-    <media:statistics views="35225"/>
+    <media:starRating count="150" average="5.00" min="1" max="5"/>
+    <media:statistics views="36263"/>
    </media:community>
   </media:group>
  </entry>
@@ -370,8 +370,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="110" average="5.00" min="1" max="5"/>
-    <media:statistics views="25638"/>
+    <media:starRating count="113" average="5.00" min="1" max="5"/>
+    <media:statistics views="26361"/>
    </media:community>
   </media:group>
  </entry>
@@ -444,7 +444,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="11" average="5.00" min="1" max="5"/>
-    <media:statistics views="4426"/>
+    <media:statistics views="4503"/>
    </media:community>
   </media:group>
  </entry>
@@ -517,7 +517,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="209" average="5.00" min="1" max="5"/>
-    <media:statistics views="39318"/>
+    <media:statistics views="39820"/>
    </media:community>
   </media:group>
  </entry>
@@ -590,7 +590,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="168" average="5.00" min="1" max="5"/>
-    <media:statistics views="40791"/>
+    <media:statistics views="41192"/>
    </media:community>
   </media:group>
  </entry>
@@ -663,7 +663,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="80" average="5.00" min="1" max="5"/>
-    <media:statistics views="25369"/>
+    <media:statistics views="25576"/>
    </media:community>
   </media:group>
  </entry>
@@ -735,8 +735,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="97" average="5.00" min="1" max="5"/>
-    <media:statistics views="25073"/>
+    <media:starRating count="98" average="5.00" min="1" max="5"/>
+    <media:statistics views="25393"/>
    </media:community>
   </media:group>
  </entry>
@@ -809,7 +809,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="173" average="5.00" min="1" max="5"/>
-    <media:statistics views="63930"/>
+    <media:statistics views="64107"/>
    </media:community>
   </media:group>
  </entry>
@@ -882,7 +882,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="129" average="5.00" min="1" max="5"/>
-    <media:statistics views="38059"/>
+    <media:statistics views="38138"/>
    </media:community>
   </media:group>
  </entry>
@@ -954,8 +954,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="271" average="5.00" min="1" max="5"/>
-    <media:statistics views="41341"/>
+    <media:starRating count="272" average="5.00" min="1" max="5"/>
+    <media:statistics views="41421"/>
    </media:community>
   </media:group>
  </entry>
@@ -1027,8 +1027,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="295" average="5.00" min="1" max="5"/>
-    <media:statistics views="52187"/>
+    <media:starRating count="298" average="5.00" min="1" max="5"/>
+    <media:statistics views="52387"/>
    </media:community>
   </media:group>
  </entry>
@@ -1100,8 +1100,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="193" average="5.00" min="1" max="5"/>
-    <media:statistics views="37458"/>
+    <media:starRating count="194" average="5.00" min="1" max="5"/>
+    <media:statistics views="37620"/>
    </media:community>
   </media:group>
  </entry>
