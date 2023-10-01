@@ -400,12 +400,11 @@ def dl_aideo_video(video_url, output_dir, output_format, retry_count, video_webs
                 # 构建FFmpeg命令
                 ffmpeg_cmd = [
                     'ffmpeg',
-                    #'-loglevel', 'panic',  # 设置日志级别为panic以减少输出信息
+                    '-loglevel', 'panic',  # 设置日志级别为panic以减少输出信息
                     '-i', f'{output_dir}/{video_url}.part.mp4',
                     '-i', f'{output_dir}/{video_url}.part.m4a',
-                    #'-c:v', 'libx264',
-                    #'-c:a', 'aac',
-                    '-strict', 'experimental',
+                    '-c:v', 'copy',
+                    '-c:a', 'copy',
                     f'{output_dir}/{video_url}.mp4'
                 ]
                 # 执行FFmpeg命令
