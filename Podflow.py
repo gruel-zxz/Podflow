@@ -324,7 +324,7 @@ def download_video(video_url, output_dir, output_format, video_website, format_c
         'outtmpl': f'{output_dir}/{video_url}.{output_format}',  # 输出文件路径和名称
         'format': f'{format_out}',  # 指定下载的最佳音频和视频格式
         #"quiet": True,
-        #"noprogress": True,
+        "noprogress": True,
         "progress_hooks": [show_progress]
     }
     try:
