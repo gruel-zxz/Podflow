@@ -403,8 +403,8 @@ def dl_aideo_video(video_url, output_dir, output_format, retry_count, video_webs
                     #'-loglevel', 'panic',  # 设置日志级别为panic以减少输出信息
                     '-i', f'{output_dir}/{video_url}.part.mp4',
                     '-i', f'{output_dir}/{video_url}.part.m4a',
-                    '-c:v', 'libx264',
-                    '-c:a', 'aac',
+                    #'-c:v', 'libx264',
+                    #'-c:a', 'aac',
                     '-strict', 'experimental',
                     f'{output_dir}/{video_url}.mp4'
                 ]
