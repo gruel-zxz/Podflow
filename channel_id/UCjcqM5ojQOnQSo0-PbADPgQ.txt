@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCjcqM5ojQOnQSo0-PbADPgQ"/>
+ <id>yt:channel:</id>
+ <yt:channelId></yt:channelId>
+ <title>BracedLife</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UCjcqM5ojQOnQSo0-PbADPgQ"/>
+ <author>
+  <name>BracedLife</name>
+  <uri>https://www.youtube.com/channel/UCjcqM5ojQOnQSo0-PbADPgQ</uri>
+ </author>
+ <published>2012-05-27T17:03:27+00:00</published>
+ <entry>
+  <id>yt:video:QQ3CvZzKlhw</id>
+  <yt:videoId>QQ3CvZzKlhw</yt:videoId>
+  <yt:channelId>UCjcqM5ojQOnQSo0-PbADPgQ</yt:channelId>
+  <title>Vintage Splints and Traction on Double Plaster Leg and Arm Casts</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=QQ3CvZzKlhw"/>
+  <author>
+   <name>BracedLife</name>
+   <uri>https://www.youtube.com/channel/UCjcqM5ojQOnQSo0-PbADPgQ</uri>
+  </author>
+  <published>2023-09-30T19:40:39+00:00</published>
+  <updated>2023-09-30T19:40:40+00:00</updated>
+  <media:group>
+   <media:title>Vintage Splints and Traction on Double Plaster Leg and Arm Casts</media:title>
+   <media:content url="https://www.youtube.com/v/QQ3CvZzKlhw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/QQ3CvZzKlhw/hqdefault.jpg" width="480" height="360"/>
+   <media:description>In this heartwarming BracedLife video, we share the inspiring story of a brave patient who faced the unimaginable challenge of breaking both her arms and legs. From the moment she is wheeled into the casting room, her unwavering determination and the compassionate care she receives shine through every frame.
+
+Watch as our dedicated medical team meticulously applies two short arm casts, a short leg cast, and a long leg cast to support her on her path to recovery. Witness the incredible moments when traction splints are gently applied to each of her fingers and her legs, a crucial step in her healing process.
+
+Throughout this emotional journey, our dedicated nurses are there every step of the way, providing not only exceptional medical care but also a constant source of encouragement and cheer. Their unwavering support lifts the spirits of our courageous patient, reminding us all of the power of resilience and the importance of compassionate healthcare.
+
+This video is now available on our Patreon: https://www.patreon.com/BracedLife 🚑
+
+(Disclaimer: Any injuries or accidents in videos are not real. They are all just staged for story purposes)</media:description>
+   <media:community>
+    <media:starRating count="171" average="5.00" min="1" max="5"/>
+    <media:statistics views="4170"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:GWyIsydL61o</id>
+  <yt:videoId>GWyIsydL61o</yt:videoId>
+  <yt:channelId>UCjcqM5ojQOnQSo0-PbADPgQ</yt:channelId>
+  <title>Victoria's Halo Brace Summer</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=GWyIsydL61o"/>
+  <author>
+   <name>BracedLife</name>
+   <uri>https://www.youtube.com/channel/UCjcqM5ojQOnQSo0-PbADPgQ</uri>
+  </author>
+  <published>2023-08-27T09:15:47+00:00</published>
+  <updated>2023-08-28T10:34:19+00:00</updated>
+  <media:group>
+   <media:title>Victoria's Halo Brace Summer</media:title>
+   <media:content url="https://www.youtube.com/v/GWyIsydL61o?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/GWyIsydL61o/hqdefault.jpg" width="480" height="360"/>
+   <media:description>In our latest BracedLife video, we bring you the touching story of Victoria. After a rollerblading accident left her needing a Halo Brace, she embarks on a courageous journey to reclaim her passion. Join Victoria and her supportive friend as they share her rollerblading dreams and witness her valiant attempt to glide once more, despite the challenges posed by the brace. With each stumble, Victoria's determination remains unwavering, even as the weight of a restrictive summer ahead weighs on her. To add a sprinkle of joy to her day, the duo indulges in some ice cream, proving that friendship and resilience can sweeten any situation. 🌟
+
+This video is now available on our Patreon: https://www.patreon.com/BracedLife 🚑
+
+(Disclaimer: Any injuries or accidents in videos are not real. They are all just staged for story purposes)</media:description>
+   <media:community>
+    <media:starRating count="191" average="5.00" min="1" max="5"/>
+    <media:statistics views="24216"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:ULSP_6h6Xkw</id>
+  <yt:videoId>ULSP_6h6Xkw</yt:videoId>
+  <yt:channelId>UCjcqM5ojQOnQSo0-PbADPgQ</yt:channelId>
+  <title>Barbie is Broken! And gets Pink Plaster Long Leg Casts 💅🏻🎀😎</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=ULSP_6h6Xkw"/>
+  <author>
+   <name>BracedLife</name>
+   <uri>https://www.youtube.com/channel/UCjcqM5ojQOnQSo0-PbADPgQ</uri>
+  </author>
+  <published>2023-07-21T17:00:11+00:00</published>
+  <updated>2023-08-09T14:48:15+00:00</updated>
+  <media:group>
+   <media:title>Barbie is Broken! And gets Pink Plaster Long Leg Casts 💅🏻🎀😎</media:title>
+   <media:content url="https://www.youtube.com/v/ULSP_6h6Xkw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/ULSP_6h6Xkw/hqdefault.jpg" width="480" height="360"/>
+   <media:description>In this heartwarming BracedLife video, follow the enchanting journey of Barbie, a cheerful blond-haired girl, as she faces an unexpected twist in her playful escapades. After an unfortunate leg injury, Barbie finds herself at the hospital where a kind-hearted nurse applies a Long Leg Plaster Cast to help her heal.
+
+Determined to lift Barbie's spirits, the caring nurses surprise her with a delightful Pink Plaster Cast, carefully matching it to Barbie's vibrant personality and clothing. Witness Barbie's joyous smile return as the colorful cast adds a touch of magic to her recovery.
+
+As the day of release arrives, Barbie can't wait to explore the world outside again! Joined by her friend, they head to the park to savor the warm sunshine and indulge in tasty wafers, creating cherished memories of friendship and resilience.
+
+Join us in celebrating Barbie's resilience and her journey towards healing, where a little color and friendship go a long way in brightening her day! Don't miss this heartwarming tale that will leave you with a smile on your face. Subscribe to BracedLife and hit the notification bell to catch all the inspiring stories of courage and strength!
+
+This video is now available on our Patreon: https://www.patreon.com/BracedLife 🚑
+
+(Disclaimer: Any injuries or accidents in videos are not real. They are all just staged for story purposes)
+
+#barbiemovie #barbie #barbieheimer #pink #broken 
+
+Music:
+Pink's Glass by Audionautix is licensed under a Creative Commons Attribution 4.0 license. https://creativecommons.org/licenses/by/4.0/
+
+Artist: http://audionautix.com/</media:description>
+   <media:community>
+    <media:starRating count="697" average="5.00" min="1" max="5"/>
+    <media:statistics views="91254"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:PFsSrfJ0Vh8</id>
+  <yt:videoId>PFsSrfJ0Vh8</yt:videoId>
+  <yt:channelId>UCjcqM5ojQOnQSo0-PbADPgQ</yt:channelId>
+  <title>Beth's High Pull Permanent Orthodontic Headgear</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=PFsSrfJ0Vh8"/>
+  <author>
+   <name>BracedLife</name>
+   <uri>https://www.youtube.com/channel/UCjcqM5ojQOnQSo0-PbADPgQ</uri>
+  </author>
+  <published>2023-06-24T16:02:23+00:00</published>
+  <updated>2023-06-29T05:09:51+00:00</updated>
+  <media:group>
+   <media:title>Beth's High Pull Permanent Orthodontic Headgear</media:title>
+   <media:content url="https://www.youtube.com/v/PFsSrfJ0Vh8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/PFsSrfJ0Vh8/hqdefault.jpg" width="480" height="360"/>
+   <media:description>In this heartfelt episode of BracedLife, we follow the journey of a courageous young girl named Beth as she navigates the challenges of orthodontic treatment. Beth finds herself at the orthodontist's office, apprehensive about getting fitted with the orthodontic high pull headgear. Despite her protests, the orthodontists gently guide her through the process, explaining the benefits of the treatment for her oral health and overall well-being. Beth soon discovers that the headgear is permanently installed, leaving her feeling uneasy about her new appearance.
+
+Struggling with her insecurities, Beth seeks solace in the company of her supportive friend, who understands the significance of embracing change. With her friend's unwavering encouragement, Beth musters the courage to face the world with her headgear, knowing that her worth extends far beyond her physical appearance.
+
+In a heartwarming turn of events, Beth decides to reveal her new look to a potential love interest during a planned date. However, disappointment strikes when her date unexpectedly cancels upon learning about the orthodontic headgear. Beth is confronted with the harsh reality of societal judgments, but she refuses to let it define her.
+
+BracedLife explores themes of self-acceptance, resilience, and the importance of inner strength. Join Beth on her journey as she learns to embrace her uniqueness and discovers that true connections are built upon acceptance and understanding, rather than superficial appearances. Through her experiences, Beth becomes an inspiration to others, proving that confidence and beauty shine from within, no matter the external circumstances.
+
+This video is now available on our Patreon: https://www.patreon.com/BracedLife 🚑
+
+(Disclaimer: Any injuries or accidents in videos are not real. They are all just staged for story purposes)</media:description>
+   <media:community>
+    <media:starRating count="337" average="5.00" min="1" max="5"/>
+    <media:statistics views="67175"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:iLJYweOZpYQ</id>
+  <yt:videoId>iLJYweOZpYQ</yt:videoId>
+  <yt:channelId>UCjcqM5ojQOnQSo0-PbADPgQ</yt:channelId>
+  <title>From Milwaukee Brace to Minerva Plaster Body Cast</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=iLJYweOZpYQ"/>
+  <author>
+   <name>BracedLife</name>
+   <uri>https://www.youtube.com/channel/UCjcqM5ojQOnQSo0-PbADPgQ</uri>
+  </author>
+  <published>2023-05-28T15:47:27+00:00</published>
+  <updated>2023-06-15T08:50:53+00:00</updated>
+  <media:group>
+   <media:title>From Milwaukee Brace to Minerva Plaster Body Cast</media:title>
+   <media:content url="https://www.youtube.com/v/iLJYweOZpYQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/iLJYweOZpYQ/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Faced with challenges and a lack of consistent wear, she seeks a more supportive solution at the clinic. Witness her transition from the Milwaukee brace to a Minerva body cast, providing her with the enhanced support she desperately needs.
+
+The Milwaukee brace, commonly prescribed for various spinal conditions such as scoliosis, consists of a plastic torso section and a neck ring connected by metal bars. While effective when worn consistently, it requires strict adherence to ensure optimal results. Our patient, unfortunately, has been struggling to wear the Milwaukee brace as prescribed, resulting in limited support and reduced progress.
+
+In her pursuit of better support and improved health, our patient visits the clinic, where her dedicated orthopedic team evaluates her condition. Understanding her specific needs and concerns, they propose a transition from the Milwaukee brace to a Minerva body cast.
+
+This video is now available on our Patreon: https://www.patreon.com/BracedLife 🚑
+
+(Disclaimer: Any injuries or accidents in videos are not real. They are all just staged for story purposes)</media:description>
+   <media:community>
+    <media:starRating count="294" average="5.00" min="1" max="5"/>
+    <media:statistics views="56206"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:tx5wsY8aRPE</id>
+  <yt:videoId>tx5wsY8aRPE</yt:videoId>
+  <yt:channelId>UCjcqM5ojQOnQSo0-PbADPgQ</yt:channelId>
+  <title>Two Fully Braced Girls II - Sara and Danielle in KAFO and CTLSO Braces</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=tx5wsY8aRPE"/>
+  <author>
+   <name>BracedLife</name>
+   <uri>https://www.youtube.com/channel/UCjcqM5ojQOnQSo0-PbADPgQ</uri>
+  </author>
+  <published>2023-04-29T19:40:02+00:00</published>
+  <updated>2023-06-10T03:11:17+00:00</updated>
+  <media:group>
+   <media:title>Two Fully Braced Girls II - Sara and Danielle in KAFO and CTLSO Braces</media:title>
+   <media:content url="https://www.youtube.com/v/tx5wsY8aRPE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/tx5wsY8aRPE/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Two fully braced girls wake up in the morning and start their day by putting on their KAFO Leg Braces and CTLSO Milwaukee braces. With their braces fully secured, they go about their daily routines, navigating through their day together.
+
+As they move around, their braces provide support and stability to their legs and torso, allowing them to walk and stand with ease. Despite the challenges posed by their braces, the girls remain determined to lead their lives to the fullest.
+
+Throughout the day, we see them engaging in various activities, such as exercising, going out for walks, and spending time with friends. Despite their challenges, the girls demonstrate that with the right mindset, anything is possible!
+
+This video is now available on our Patreon: https://www.patreon.com/BracedLife 🚑
+
+(Disclaimer: Any injuries or accidents in videos are not real. They are all just staged for story purposes)</media:description>
+   <media:community>
+    <media:starRating count="260" average="5.00" min="1" max="5"/>
+    <media:statistics views="38868"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:M85g2HfpXI4</id>
+  <yt:videoId>M85g2HfpXI4</yt:videoId>
+  <yt:channelId>UCjcqM5ojQOnQSo0-PbADPgQ</yt:channelId>
+  <title>Cheryl Gets Full Plaster Body Cast Video is now available on our Patreon!</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=M85g2HfpXI4"/>
+  <author>
+   <name>BracedLife</name>
+   <uri>https://www.youtube.com/channel/UCjcqM5ojQOnQSo0-PbADPgQ</uri>
+  </author>
+  <published>2023-04-15T15:47:20+00:00</published>
+  <updated>2023-07-22T15:42:21+00:00</updated>
+  <media:group>
+   <media:title>Cheryl Gets Full Plaster Body Cast Video is now available on our Patreon!</media:title>
+   <media:content url="https://www.youtube.com/v/M85g2HfpXI4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/M85g2HfpXI4/hqdefault.jpg" width="480" height="360"/>
+   <media:description>This video is now available on our Patreon: https://www.patreon.com/BracedLife 🚑
+
+(Disclaimer: Any injuries or accidents in videos are not real. They are all just staged for story purposes)</media:description>
+   <media:community>
+    <media:starRating count="490" average="5.00" min="1" max="5"/>
+    <media:statistics views="75527"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:1DJWTlXbRiQ</id>
+  <yt:videoId>1DJWTlXbRiQ</yt:videoId>
+  <yt:channelId>UCjcqM5ojQOnQSo0-PbADPgQ</yt:channelId>
+  <title>Grace gets fitted with a Milwaukee Brace</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=1DJWTlXbRiQ"/>
+  <author>
+   <name>BracedLife</name>
+   <uri>https://www.youtube.com/channel/UCjcqM5ojQOnQSo0-PbADPgQ</uri>
+  </author>
+  <published>2023-03-31T16:01:35+00:00</published>
+  <updated>2023-06-10T06:13:13+00:00</updated>
+  <media:group>
+   <media:title>Grace gets fitted with a Milwaukee Brace</media:title>
+   <media:content url="https://www.youtube.com/v/1DJWTlXbRiQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/1DJWTlXbRiQ/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Grace has scoliosis and needs to wear a Milwaukee brace to help correct her spinal curvature. Grace is apprehensive about the brace and feels shy about wearing it, but she knows it's necessary for her health.
+
+We first see Grace at the orthopedic clinic, where a nurse is fitting her with the brace. The nurse explains how the brace works and how Grace needs to wear it for 23 hours a day. Grace is nervous but the nurse reassures her and helps her adjust the brace to fit comfortably.
+
+As Grace leaves the clinic wearing her new Milwaukee brace, we see her struggling to adjust to the new sensation of the brace against her skin. She's hesitant to go out in public with the brace on, but she knows she needs to get used to it.
+
+The video then shows Grace on her first day wearing the brace, as she goes shopping with her friends. At first, she feels self-conscious and embarrassed, but gradually she gains confidence as she realizes that the brace doesn't define her.
+
+Throughout the video, we see Grace's transformation as she learns to accept and embrace her new reality with the Milwaukee brace.
+
+(Disclaimer: Any injuries or accidents in videos are not real. They are all just staged for story purposes)
+
+This video was made thanks to our Patrons support at: https://www.patreon.com/BracedLife 🚑</media:description>
+   <media:community>
+    <media:starRating count="212" average="5.00" min="1" max="5"/>
+    <media:statistics views="41586"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:eBivXbjd1HA</id>
+  <yt:videoId>eBivXbjd1HA</yt:videoId>
+  <yt:channelId>UCjcqM5ojQOnQSo0-PbADPgQ</yt:channelId>
+  <title>Winter in Leg Braces Outtakes and Bonus Scenes</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=eBivXbjd1HA"/>
+  <author>
+   <name>BracedLife</name>
+   <uri>https://www.youtube.com/channel/UCjcqM5ojQOnQSo0-PbADPgQ</uri>
+  </author>
+  <published>2023-03-11T10:03:59+00:00</published>
+  <updated>2023-06-07T17:57:27+00:00</updated>
+  <media:group>
+   <media:title>Winter in Leg Braces Outtakes and Bonus Scenes</media:title>
+   <media:content url="https://www.youtube.com/v/eBivXbjd1HA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/eBivXbjd1HA/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Outtakes and Behind Scenes from Winter Leg Braces.
+
+This video was made thanks to our Patrons support at: https://www.patreon.com/BracedLife 🚑
+
+If you wish to support us and see more of our work please join in!
+
+(Disclaimer: Any injuries or accidents  in videos are not real. They are all just staged for story purpose)</media:description>
+   <media:community>
+    <media:starRating count="263" average="5.00" min="1" max="5"/>
+    <media:statistics views="29104"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:ko4gQOWWQVg</id>
+  <yt:videoId>ko4gQOWWQVg</yt:videoId>
+  <yt:channelId>UCjcqM5ojQOnQSo0-PbADPgQ</yt:channelId>
+  <title>Long Arm Plaster Cast and Orthodontic Headgear</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=ko4gQOWWQVg"/>
+  <author>
+   <name>BracedLife</name>
+   <uri>https://www.youtube.com/channel/UCjcqM5ojQOnQSo0-PbADPgQ</uri>
+  </author>
+  <published>2023-02-26T12:37:01+00:00</published>
+  <updated>2023-06-13T23:27:46+00:00</updated>
+  <media:group>
+   <media:title>Long Arm Plaster Cast and Orthodontic Headgear</media:title>
+   <media:content url="https://www.youtube.com/v/ko4gQOWWQVg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/ko4gQOWWQVg/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Our new patient not only wears a long arm plaster cast but her orthodontist now prescribes her orthodontic combinatory headgear. With only one arm functioning, will she be able to ever take it off without any help? 😱
+
+(Disclaimer: Any injuries or accidents in videos are not real. They are all just staged for story purposes)
+
+This video was made thanks to our Patrons support at: https://www.patreon.com/BracedLife 🚑</media:description>
+   <media:community>
+    <media:starRating count="324" average="5.00" min="1" max="5"/>
+    <media:statistics views="52951"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:xzJjQ9Dmebs</id>
+  <yt:videoId>xzJjQ9Dmebs</yt:videoId>
+  <yt:channelId>UCjcqM5ojQOnQSo0-PbADPgQ</yt:channelId>
+  <title>Cheryl Fully Braced OUTTAKES! Full Video Now available on our Patreon!</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=xzJjQ9Dmebs"/>
+  <author>
+   <name>BracedLife</name>
+   <uri>https://www.youtube.com/channel/UCjcqM5ojQOnQSo0-PbADPgQ</uri>
+  </author>
+  <published>2023-02-13T20:12:26+00:00</published>
+  <updated>2023-07-06T05:28:44+00:00</updated>
+  <media:group>
+   <media:title>Cheryl Fully Braced OUTTAKES! Full Video Now available on our Patreon!</media:title>
+   <media:content url="https://www.youtube.com/v/xzJjQ9Dmebs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/xzJjQ9Dmebs/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Outtakes from Cheryl Fully Braced: https://www.youtube.com/watch?v=lo4_sHN7Ows
+
+Visit our Patreon:  https://www.patreon.com/BracedLife
+
+(Disclaimer: Any injuries or accidents  in videos are not real. They are all just staged for story purpose)</media:description>
+   <media:community>
+    <media:starRating count="262" average="5.00" min="1" max="5"/>
+    <media:statistics views="54735"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:xCoV6l-yNoE</id>
+  <yt:videoId>xCoV6l-yNoE</yt:videoId>
+  <yt:channelId>UCjcqM5ojQOnQSo0-PbADPgQ</yt:channelId>
+  <title>👈👉👈🤷‍♀️ #Shorts</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=xCoV6l-yNoE"/>
+  <author>
+   <name>BracedLife</name>
+   <uri>https://www.youtube.com/channel/UCjcqM5ojQOnQSo0-PbADPgQ</uri>
+  </author>
+  <published>2023-02-05T19:37:40+00:00</published>
+  <updated>2023-06-11T15:02:32+00:00</updated>
+  <media:group>
+   <media:title>👈👉👈🤷‍♀️ #Shorts</media:title>
+   <media:content url="https://www.youtube.com/v/xCoV6l-yNoE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/xCoV6l-yNoE/hqdefault.jpg" width="480" height="360"/>
+   <media:description>#shorts</media:description>
+   <media:community>
+    <media:starRating count="351" average="5.00" min="1" max="5"/>
+    <media:statistics views="16592"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:gMMBrBF0_Og</id>
+  <yt:videoId>gMMBrBF0_Og</yt:videoId>
+  <yt:channelId>UCjcqM5ojQOnQSo0-PbADPgQ</yt:channelId>
+  <title>Victoria's Term Long Leg Plaster Cast Part III - Coffee Break ☕</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=gMMBrBF0_Og"/>
+  <author>
+   <name>BracedLife</name>
+   <uri>https://www.youtube.com/channel/UCjcqM5ojQOnQSo0-PbADPgQ</uri>
+  </author>
+  <published>2023-01-28T18:01:37+00:00</published>
+  <updated>2023-06-11T01:32:51+00:00</updated>
+  <media:group>
+   <media:title>Victoria's Term Long Leg Plaster Cast Part III - Coffee Break ☕</media:title>
+   <media:content url="https://www.youtube.com/v/gMMBrBF0_Og?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/gMMBrBF0_Og/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Finally, a well-deserved coffee break!
+Join Victoria on her visit to a cafe after a hard day of work!
+
+Second Part of Nurse Victoria's Long Leg Plaster Cast:
+https://youtu.be/s3XXz0GtBcM
+
+(Disclaimer: Any injuries or accidents in videos are not real. They are all just staged for story purposes)
+
+This video was made thanks to our Patrons support at: https://www.patreon.com/BracedLife 🚑</media:description>
+   <media:community>
+    <media:starRating count="363" average="5.00" min="1" max="5"/>
+    <media:statistics views="59581"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:s3XXz0GtBcM</id>
+  <yt:videoId>s3XXz0GtBcM</yt:videoId>
+  <yt:channelId>UCjcqM5ojQOnQSo0-PbADPgQ</yt:channelId>
+  <title>Victoria's Term Long Leg Plaster Cast Part II - Back To The Clinic 🚑</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=s3XXz0GtBcM"/>
+  <author>
+   <name>BracedLife</name>
+   <uri>https://www.youtube.com/channel/UCjcqM5ojQOnQSo0-PbADPgQ</uri>
+  </author>
+  <published>2022-12-23T16:53:29+00:00</published>
+  <updated>2023-06-09T12:09:19+00:00</updated>
+  <media:group>
+   <media:title>Victoria's Term Long Leg Plaster Cast Part II - Back To The Clinic 🚑</media:title>
+   <media:content url="https://www.youtube.com/v/s3XXz0GtBcM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/s3XXz0GtBcM/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Leg in a plaster cast? That won't stop our head nurse from going to work just 3 days after her accident! 💪
+You wouldn't believe how messy a castroom can get and someone has to clean it after all!
+
+First Part of Nurse Victoria's Long Leg Plaster Cast:
+https://www.youtube.com/watch?v=eGZIU85_n8k
+
+(Disclaimer: Any injuries or accidents in videos are not real. They are all just staged for story purposes)
+
+This video was made thanks to our Patrons support at: https://www.patreon.com/BracedLife 🚑</media:description>
+   <media:community>
+    <media:starRating count="444" average="5.00" min="1" max="5"/>
+    <media:statistics views="70877"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:TG4tbRGv5P0</id>
+  <yt:videoId>TG4tbRGv5P0</yt:videoId>
+  <yt:channelId>UCjcqM5ojQOnQSo0-PbADPgQ</yt:channelId>
+  <title>Pink Hair Headgear Girl gets Permanent Orthodontic Headgear 🤐</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=TG4tbRGv5P0"/>
+  <author>
+   <name>BracedLife</name>
+   <uri>https://www.youtube.com/channel/UCjcqM5ojQOnQSo0-PbADPgQ</uri>
+  </author>
+  <published>2022-11-26T14:52:11+00:00</published>
+  <updated>2023-07-02T16:18:17+00:00</updated>
+  <media:group>
+   <media:title>Pink Hair Headgear Girl gets Permanent Orthodontic Headgear 🤐</media:title>
+   <media:content url="https://www.youtube.com/v/TG4tbRGv5P0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/TG4tbRGv5P0/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Oh, our poor Pinky... if she would just listen to her orthodontist and wear her headgear as prescribed, perhaps she would not have to get it fitted in permanently!
+
+Not only now she can't remove her facebow, but she also has to wear additional appliances!
+
+Remember folks, always listen to your orthodontists unless you wish to end up like this!
+
+(Disclaimer: Any injuries or accidents in videos are not real. They are all just staged for story purposes)
+
+This video was made thanks to our Patrons support at: https://www.patreon.com/BracedLife 🚑</media:description>
+   <media:community>
+    <media:starRating count="602" average="5.00" min="1" max="5"/>
+    <media:statistics views="157819"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>
