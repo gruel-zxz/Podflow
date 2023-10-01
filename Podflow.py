@@ -17,7 +17,7 @@ from datetime import datetime, timedelta, timezone
 
 #默认参数
 default_config = {
-    "retry_count": 3,
+    "retry_count": 5,
     "url": "http://127.0.0.1:8000",
     "title": "Podflow",
     "filename": "YouTube",
@@ -323,7 +323,7 @@ def download_video(video_url, output_dir, output_format, video_website, format_c
     ydl_opts = {
         'outtmpl': f'{output_dir}/{video_url}.{output_format}',  # 输出文件路径和名称
         'format': f'{format_out}',  # 指定下载的最佳音频和视频格式
-        "quiet": True,
+        #"quiet": True,
         "noprogress": True,
         "progress_hooks": [show_progress]
     }
