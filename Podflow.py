@@ -268,6 +268,13 @@ def show_progress(stream):
         print((f"\r100.0%|{downloaded_bytes}\{total_bytes}|\033[32m{speed}/s\033[0m|\033[97m{elapsed}\033[0m"),end="")
         print("")
 
+def format_processing(process_stream):
+    if process_stream["status"] == "started":
+        print(f'\rProcessing', end="")
+    elif process_stream["status"] == "finished":
+        print(f'\x1b[1K\rProcessed')
+    return
+
 
 # In[ ]:
 
@@ -323,10 +330,9 @@ def download_video(video_url, output_dir, output_format, video_website, format_c
     ydl_opts = {
         'outtmpl': f'{output_dir}/{video_url}.{output_format}',  # 输出文件路径和名称
         'format': f'{format_out}',  # 指定下载的最佳音频和视频格式
-        'ignoreerrors': True,
-        "quiet": True,
         "noprogress": True,
-        "progress_hooks": [show_progress]
+        "progress_hooks": [show_progress],
+        "postprocessor_hooks": [format_processing]
     }
     try:
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
