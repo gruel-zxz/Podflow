@@ -10,6 +10,52 @@
   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
  </author>
  <entry>
+  <id>yt:video:vLfHbplXtz4</id>
+  <yt:videoId>vLfHbplXtz4</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>I stand corrected.</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=vLfHbplXtz4"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2023-10-04T19:00:17+00:00</published>
+  <updated>2023-10-04T19:03:50+00:00</updated>
+  <media:group>
+   <media:title>I stand corrected.</media:title>
+   <media:content url="https://www.youtube.com/v/vLfHbplXtz4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/vLfHbplXtz4/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="684" average="5.00" min="1" max="5"/>
+    <media:statistics views="11581"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:2UlrqThzzCs</id>
+  <yt:videoId>2UlrqThzzCs</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>nine lives? more like fine vibes 🐈 😎 @crumb.crumblet.S.crumbington</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=2UlrqThzzCs"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2023-10-02T15:00:31+00:00</published>
+  <updated>2023-10-03T15:11:08+00:00</updated>
+  <media:group>
+   <media:title>nine lives? more like fine vibes 🐈 😎 @crumb.crumblet.S.crumbington</media:title>
+   <media:content url="https://www.youtube.com/v/2UlrqThzzCs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/2UlrqThzzCs/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="2065" average="5.00" min="1" max="5"/>
+    <media:statistics views="25175"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:v-nWeugyb7A</id>
   <yt:videoId>v-nWeugyb7A</yt:videoId>
   <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
@@ -27,8 +73,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/v-nWeugyb7A/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1238" average="5.00" min="1" max="5"/>
-    <media:statistics views="20462"/>
+    <media:starRating count="1975" average="5.00" min="1" max="5"/>
+    <media:statistics views="36414"/>
    </media:community>
   </media:group>
  </entry>
@@ -36,24 +82,24 @@
   <id>yt:video:q9kdFvBvJN4</id>
   <yt:videoId>q9kdFvBvJN4</yt:videoId>
   <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>#YouTubeBlack Presents: How @swoozie 's innovation launched an entire genre of animation | Flowers</title>
+  <title>#YouTubeBlack Presents: How @swoozie's innovation launched an entire genre of animation | Flowers</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=q9kdFvBvJN4"/>
   <author>
    <name>YouTube</name>
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2023-09-28T16:00:49+00:00</published>
-  <updated>2023-09-28T21:43:59+00:00</updated>
+  <updated>2023-10-03T21:26:27+00:00</updated>
   <media:group>
-   <media:title>#YouTubeBlack Presents: How @swoozie 's innovation launched an entire genre of animation | Flowers</media:title>
+   <media:title>#YouTubeBlack Presents: How @swoozie's innovation launched an entire genre of animation | Flowers</media:title>
    <media:content url="https://www.youtube.com/v/q9kdFvBvJN4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i2.ytimg.com/vi/q9kdFvBvJN4/hqdefault.jpg" width="480" height="360"/>
    <media:description>Explore the Storytime animation trend and the Creator behind it in our new series, Flowers. 
 
 Online video trends have evolved to become the driving force of pop culture. But do you know who’s creating them? From the moment of upload, discover the untold, true stories of the Black creators and culture behind your favorite trends. Witness those who have transformed culture on a global scale finally get the flowers they deserve.</media:description>
    <media:community>
-    <media:starRating count="3403" average="5.00" min="1" max="5"/>
-    <media:statistics views="245289"/>
+    <media:starRating count="5043" average="5.00" min="1" max="5"/>
+    <media:statistics views="558774"/>
    </media:community>
   </media:group>
  </entry>
@@ -75,8 +121,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i3.ytimg.com/vi/fEzeTYwEmlw/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2087" average="5.00" min="1" max="5"/>
-    <media:statistics views="43825"/>
+    <media:starRating count="2486" average="5.00" min="1" max="5"/>
+    <media:statistics views="54283"/>
    </media:community>
   </media:group>
  </entry>
@@ -98,8 +144,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i1.ytimg.com/vi/xY34jr-gYgU/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3525" average="5.00" min="1" max="5"/>
-    <media:statistics views="60622"/>
+    <media:starRating count="3965" average="5.00" min="1" max="5"/>
+    <media:statistics views="70036"/>
    </media:community>
   </media:group>
  </entry>
@@ -121,8 +167,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i2.ytimg.com/vi/MKeug0IZWbo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2452" average="5.00" min="1" max="5"/>
-    <media:statistics views="43137"/>
+    <media:starRating count="2663" average="5.00" min="1" max="5"/>
+    <media:statistics views="48478"/>
    </media:community>
   </media:group>
  </entry>
@@ -144,8 +190,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i1.ytimg.com/vi/HgIBGdBDeHs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4054" average="5.00" min="1" max="5"/>
-    <media:statistics views="75002"/>
+    <media:starRating count="4226" average="5.00" min="1" max="5"/>
+    <media:statistics views="80357"/>
    </media:community>
   </media:group>
  </entry>
@@ -167,8 +213,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i3.ytimg.com/vi/rwYAcQqbbrY/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3897" average="5.00" min="1" max="5"/>
-    <media:statistics views="62205"/>
+    <media:starRating count="4014" average="5.00" min="1" max="5"/>
+    <media:statistics views="65098"/>
    </media:community>
   </media:group>
  </entry>
@@ -228,8 +274,8 @@ Featured Creators:
 
 #Gaming #Retrogaming #YouTube</media:description>
    <media:community>
-    <media:starRating count="5331" average="5.00" min="1" max="5"/>
-    <media:statistics views="3444312"/>
+    <media:starRating count="6312" average="5.00" min="1" max="5"/>
+    <media:statistics views="3131875"/>
    </media:community>
   </media:group>
  </entry>
@@ -260,8 +306,8 @@ Featured Creators:
 
 #SafiyaNygaard #WatchHistory #YouTube</media:description>
    <media:community>
-    <media:starRating count="1996" average="5.00" min="1" max="5"/>
-    <media:statistics views="736439"/>
+    <media:starRating count="2068" average="5.00" min="1" max="5"/>
+    <media:statistics views="745009"/>
    </media:community>
   </media:group>
  </entry>
@@ -283,8 +329,8 @@ Featured Creators:
    <media:thumbnail url="https://i1.ytimg.com/vi/DcNI16MEjrM/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4625" average="5.00" min="1" max="5"/>
-    <media:statistics views="75656"/>
+    <media:starRating count="4707" average="5.00" min="1" max="5"/>
+    <media:statistics views="78112"/>
    </media:community>
   </media:group>
  </entry>
@@ -306,8 +352,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/fokY9vEnAL4/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="5411" average="5.00" min="1" max="5"/>
-    <media:statistics views="110102"/>
+    <media:starRating count="5467" average="5.00" min="1" max="5"/>
+    <media:statistics views="112256"/>
    </media:community>
   </media:group>
  </entry>
@@ -362,8 +408,8 @@ Featured Creators:
 
 #GRWM #Makeup #Beauty #GetReadyWithMe</media:description>
    <media:community>
-    <media:starRating count="3238" average="5.00" min="1" max="5"/>
-    <media:statistics views="457944"/>
+    <media:starRating count="3244" average="5.00" min="1" max="5"/>
+    <media:statistics views="460637"/>
    </media:community>
   </media:group>
  </entry>
@@ -385,62 +431,8 @@ Featured Creators:
    <media:thumbnail url="https://i4.ytimg.com/vi/G25VMOgmhxo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="5943" average="5.00" min="1" max="5"/>
-    <media:statistics views="126047"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:PIq561J_hIo</id>
-  <yt:videoId>PIq561J_hIo</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>@courtreezy reveals her gross obsession, DIY side and med school dreams | YouTube Watch History</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=PIq561J_hIo"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2023-08-17T21:43:45+00:00</published>
-  <updated>2023-08-21T18:23:25+00:00</updated>
-  <media:group>
-   <media:title>@courtreezy reveals her gross obsession, DIY side and med school dreams | YouTube Watch History</media:title>
-   <media:content url="https://www.youtube.com/v/PIq561J_hIo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i1.ytimg.com/vi/PIq561J_hIo/hqdefault.jpg" width="480" height="360"/>
-   <media:description>We love watching Courtreezy’s videos, but what has SHE been watching? Courtreezy sat down with us to plug in her phone, and reveal what she is hiding in her YouTube Watch History. From her favorite collaborations, to her love of ear wax removal videos, to channels that inspire her own content, Courtreezy talks about what she’s been watching and why!
-
-0:00 - 0:23 Intro 
-0:23 - 1:30 Recent Videos
-1:30 - 3:40 Scavenger Hunt
-3:40 - 6:29 Scroll Roulette
-6:29 Final Thoughts
-
-#Courtreezy #WatchHistory #YouTube</media:description>
-   <media:community>
-    <media:starRating count="2958" average="5.00" min="1" max="5"/>
-    <media:statistics views="495983"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:w85VN7EEBMo</id>
-  <yt:videoId>w85VN7EEBMo</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>heroes write among us #handwritingheroes</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=w85VN7EEBMo"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2023-08-16T16:30:19+00:00</published>
-  <updated>2023-09-21T07:01:00+00:00</updated>
-  <media:group>
-   <media:title>heroes write among us #handwritingheroes</media:title>
-   <media:content url="https://www.youtube.com/v/w85VN7EEBMo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/w85VN7EEBMo/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="5595" average="5.00" min="1" max="5"/>
-    <media:statistics views="111227"/>
+    <media:starRating count="5996" average="5.00" min="1" max="5"/>
+    <media:statistics views="128288"/>
    </media:community>
   </media:group>
  </entry>
