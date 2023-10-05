@@ -315,7 +315,7 @@ def download_video(video_url, output_dir, output_format, video_website, video_wr
     if output_format == 'm4a':
         format_out = "bestaudio[ext=m4a]/best"   # 音频编码
     else:
-        format_out = f'bestvideo[ext=mp4][height<={format_code}]'  # 视频编码
+        format_out = f'bestvideo[ext=mp4][height<={format_code}]/best'  # 视频编码
     ydl_opts = {
         'outtmpl': f'{output_dir}/{video_url}{sesuffix}.{output_format}',  # 输出文件路径和名称
         'format': f'{format_out}',  # 指定下载的最佳音频和视频格式
