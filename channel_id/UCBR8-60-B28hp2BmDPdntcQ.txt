@@ -27,8 +27,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/vLfHbplXtz4/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="684" average="5.00" min="1" max="5"/>
-    <media:statistics views="11581"/>
+    <media:starRating count="707" average="5.00" min="1" max="5"/>
+    <media:statistics views="12462"/>
    </media:community>
   </media:group>
  </entry>
@@ -50,8 +50,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/2UlrqThzzCs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2065" average="5.00" min="1" max="5"/>
-    <media:statistics views="25175"/>
+    <media:starRating count="2072" average="5.00" min="1" max="5"/>
+    <media:statistics views="25290"/>
    </media:community>
   </media:group>
  </entry>
@@ -73,8 +73,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/v-nWeugyb7A/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1975" average="5.00" min="1" max="5"/>
-    <media:statistics views="36414"/>
+    <media:starRating count="1978" average="5.00" min="1" max="5"/>
+    <media:statistics views="36504"/>
    </media:community>
   </media:group>
  </entry>
@@ -98,8 +98,8 @@
 
 Online video trends have evolved to become the driving force of pop culture. But do you know who’s creating them? From the moment of upload, discover the untold, true stories of the Black creators and culture behind your favorite trends. Witness those who have transformed culture on a global scale finally get the flowers they deserve.</media:description>
    <media:community>
-    <media:starRating count="5043" average="5.00" min="1" max="5"/>
-    <media:statistics views="558774"/>
+    <media:starRating count="5055" average="5.00" min="1" max="5"/>
+    <media:statistics views="562350"/>
    </media:community>
   </media:group>
  </entry>
@@ -121,8 +121,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i3.ytimg.com/vi/fEzeTYwEmlw/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2486" average="5.00" min="1" max="5"/>
-    <media:statistics views="54283"/>
+    <media:starRating count="2489" average="5.00" min="1" max="5"/>
+    <media:statistics views="54334"/>
    </media:community>
   </media:group>
  </entry>
@@ -145,7 +145,7 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:description></media:description>
    <media:community>
     <media:starRating count="3965" average="5.00" min="1" max="5"/>
-    <media:statistics views="70036"/>
+    <media:statistics views="70090"/>
    </media:community>
   </media:group>
  </entry>
@@ -167,8 +167,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i2.ytimg.com/vi/MKeug0IZWbo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2663" average="5.00" min="1" max="5"/>
-    <media:statistics views="48478"/>
+    <media:starRating count="2665" average="5.00" min="1" max="5"/>
+    <media:statistics views="48515"/>
    </media:community>
   </media:group>
  </entry>
@@ -191,7 +191,7 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:description></media:description>
    <media:community>
     <media:starRating count="4226" average="5.00" min="1" max="5"/>
-    <media:statistics views="80357"/>
+    <media:statistics views="80400"/>
    </media:community>
   </media:group>
  </entry>
@@ -213,8 +213,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i3.ytimg.com/vi/rwYAcQqbbrY/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4014" average="5.00" min="1" max="5"/>
-    <media:statistics views="65098"/>
+    <media:starRating count="4013" average="5.00" min="1" max="5"/>
+    <media:statistics views="65117"/>
    </media:community>
   </media:group>
  </entry>
@@ -274,8 +274,8 @@ Featured Creators:
 
 #Gaming #Retrogaming #YouTube</media:description>
    <media:community>
-    <media:starRating count="6312" average="5.00" min="1" max="5"/>
-    <media:statistics views="3131875"/>
+    <media:starRating count="6315" average="5.00" min="1" max="5"/>
+    <media:statistics views="3130482"/>
    </media:community>
   </media:group>
  </entry>
@@ -306,8 +306,8 @@ Featured Creators:
 
 #SafiyaNygaard #WatchHistory #YouTube</media:description>
    <media:community>
-    <media:starRating count="2068" average="5.00" min="1" max="5"/>
-    <media:statistics views="745009"/>
+    <media:starRating count="2070" average="5.00" min="1" max="5"/>
+    <media:statistics views="745125"/>
    </media:community>
   </media:group>
  </entry>
@@ -329,8 +329,8 @@ Featured Creators:
    <media:thumbnail url="https://i1.ytimg.com/vi/DcNI16MEjrM/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4707" average="5.00" min="1" max="5"/>
-    <media:statistics views="78112"/>
+    <media:starRating count="4706" average="5.00" min="1" max="5"/>
+    <media:statistics views="78138"/>
    </media:community>
   </media:group>
  </entry>
@@ -353,7 +353,7 @@ Featured Creators:
    <media:description></media:description>
    <media:community>
     <media:starRating count="5467" average="5.00" min="1" max="5"/>
-    <media:statistics views="112256"/>
+    <media:statistics views="112280"/>
    </media:community>
   </media:group>
  </entry>
@@ -408,8 +408,8 @@ Featured Creators:
 
 #GRWM #Makeup #Beauty #GetReadyWithMe</media:description>
    <media:community>
-    <media:starRating count="3244" average="5.00" min="1" max="5"/>
-    <media:statistics views="460637"/>
+    <media:starRating count="3245" average="5.00" min="1" max="5"/>
+    <media:statistics views="460655"/>
    </media:community>
   </media:group>
  </entry>
@@ -432,7 +432,7 @@ Featured Creators:
    <media:description></media:description>
    <media:community>
     <media:starRating count="5996" average="5.00" min="1" max="5"/>
-    <media:statistics views="128288"/>
+    <media:statistics views="128305"/>
    </media:community>
   </media:group>
  </entry>

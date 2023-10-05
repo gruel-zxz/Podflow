@@ -29,7 +29,7 @@
    <media:description>在时间加速的情况下，数字生命也可以飞向星空——科幻小说《晶体之夜》，出自格雷格.伊根（Greg Egan）的短篇小说集《数学陷落》Oceanic。</media:description>
    <media:community>
     <media:starRating count="99" average="5.00" min="1" max="5"/>
-    <media:statistics views="2899"/>
+    <media:statistics views="2926"/>
    </media:community>
   </media:group>
  </entry>
@@ -53,7 +53,7 @@
 这部40万字的长篇硬核科幻啊！人类无处可逃，因为地球也不过是另一艘飞船：科幻巨著《极光》大结局</media:description>
    <media:community>
     <media:starRating count="153" average="5.00" min="1" max="5"/>
-    <media:statistics views="7476"/>
+    <media:statistics views="7488"/>
    </media:community>
   </media:group>
  </entry>
@@ -100,7 +100,7 @@
 这部小说堪称人类航天的教科书级的小说，全程充满知识点，严谨的写作手法让这部小说毫无逻辑漏洞，堪称经典！</media:description>
    <media:community>
     <media:starRating count="237" average="5.00" min="1" max="5"/>
-    <media:statistics views="20492"/>
+    <media:statistics views="20517"/>
    </media:community>
   </media:group>
  </entry>
@@ -197,7 +197,7 @@
 这个系列总算开始更新了，第一次尝试这么大体量的内容还是有点胆怯，不过开始更新就没法回头了。目前整理出了五期内容，内容量大致占XeeLee宇宙的50%。</media:description>
    <media:community>
     <media:starRating count="321" average="5.00" min="1" max="5"/>
-    <media:statistics views="17587"/>
+    <media:statistics views="17590"/>
    </media:community>
   </media:group>
  </entry>
@@ -317,7 +317,7 @@
 ——数百年后的未来世界，人工智慧（AI）机器人掌治了这个地球，人类文明被淡化模糊，过去的世界再也无人知晓。</media:description>
    <media:community>
     <media:starRating count="172" average="5.00" min="1" max="5"/>
-    <media:statistics views="9396"/>
+    <media:statistics views="9395"/>
    </media:community>
   </media:group>
  </entry>
