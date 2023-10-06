@@ -212,10 +212,8 @@ def time_format(duration):
     hours, remaining_seconds = divmod(duration, 3600)
     minutes = remaining_seconds // 60
     remaining_seconds = remaining_seconds % 60
-    if hours > 0:
-        return '{:02}:{:02}:{:02}'.format(hours, minutes, remaining_seconds)
-    else:
-        return '{:02}:{:02}'.format(minutes, remaining_seconds)
+
+    return '{:02}:{:02}'.format(minutes, remaining_seconds)
 
 # 格式化字节模块
 def convert_bytes(byte_size, units = None, outweigh = 1024):
