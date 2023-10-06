@@ -28,8 +28,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/0UdW8Gaxdek/hqdefault.jpg" width="480" height="360"/>
    <media:description>在时间加速的情况下，数字生命也可以飞向星空——科幻小说《晶体之夜》，出自格雷格.伊根（Greg Egan）的短篇小说集《数学陷落》Oceanic。</media:description>
    <media:community>
-    <media:starRating count="99" average="5.00" min="1" max="5"/>
-    <media:statistics views="2926"/>
+    <media:starRating count="122" average="5.00" min="1" max="5"/>
+    <media:statistics views="4247"/>
    </media:community>
   </media:group>
  </entry>
@@ -52,8 +52,8 @@
    <media:description>终于更新完毕了！
 这部40万字的长篇硬核科幻啊！人类无处可逃，因为地球也不过是另一艘飞船：科幻巨著《极光》大结局</media:description>
    <media:community>
-    <media:starRating count="153" average="5.00" min="1" max="5"/>
-    <media:statistics views="7488"/>
+    <media:starRating count="166" average="5.00" min="1" max="5"/>
+    <media:statistics views="8170"/>
    </media:community>
   </media:group>
  </entry>
@@ -75,8 +75,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/XmYvQwYO_jk/hqdefault.jpg" width="480" height="360"/>
    <media:description>一艘1/10光速的飞船回归地球，它该如何减速？科幻巨著《极光》第二集。</media:description>
    <media:community>
-    <media:starRating count="131" average="5.00" min="1" max="5"/>
-    <media:statistics views="7001"/>
+    <media:starRating count="133" average="5.00" min="1" max="5"/>
+    <media:statistics views="7358"/>
    </media:community>
   </media:group>
  </entry>
@@ -99,8 +99,8 @@
    <media:description>科幻巨著《极光》，原著：金·斯坦利·罗宾逊。
 这部小说堪称人类航天的教科书级的小说，全程充满知识点，严谨的写作手法让这部小说毫无逻辑漏洞，堪称经典！</media:description>
    <media:community>
-    <media:starRating count="237" average="5.00" min="1" max="5"/>
-    <media:statistics views="20517"/>
+    <media:starRating count="243" average="5.00" min="1" max="5"/>
+    <media:statistics views="21739"/>
    </media:community>
   </media:group>
  </entry>
@@ -122,8 +122,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/P_hIXilcn60/hqdefault.jpg" width="480" height="360"/>
    <media:description>《XeeLee》系列从第三集开始，也要正式进入正题了，真正意义上的战争和剧情走向也要开始了。而且我们文案的叙事也相对加快了，以前计划十多集完成，目前计划在8集以内搞定。</media:description>
    <media:community>
-    <media:starRating count="178" average="5.00" min="1" max="5"/>
-    <media:statistics views="7762"/>
+    <media:starRating count="180" average="5.00" min="1" max="5"/>
+    <media:statistics views="7897"/>
    </media:community>
   </media:group>
  </entry>
@@ -147,7 +147,7 @@
 《幻影帝国》是暮夏之薰所著科幻小说，如感兴趣，请在起点读书app搜索“幻影帝国”阅读原著。</media:description>
    <media:community>
     <media:starRating count="105" average="5.00" min="1" max="5"/>
-    <media:statistics views="5742"/>
+    <media:statistics views="5798"/>
    </media:community>
   </media:group>
  </entry>
@@ -172,8 +172,8 @@
 0：00 夸克斯人占领地球
 08：46 巨引源的真相</media:description>
    <media:community>
-    <media:starRating count="230" average="5.00" min="1" max="5"/>
-    <media:statistics views="8846"/>
+    <media:starRating count="234" average="5.00" min="1" max="5"/>
+    <media:statistics views="8974"/>
    </media:community>
   </media:group>
  </entry>
@@ -196,8 +196,8 @@
    <media:description>科幻史诗——XeeLee宇宙第一集：人类的崛起和遭遇地外文明。
 这个系列总算开始更新了，第一次尝试这么大体量的内容还是有点胆怯，不过开始更新就没法回头了。目前整理出了五期内容，内容量大致占XeeLee宇宙的50%。</media:description>
    <media:community>
-    <media:starRating count="321" average="5.00" min="1" max="5"/>
-    <media:statistics views="17590"/>
+    <media:starRating count="326" average="5.00" min="1" max="5"/>
+    <media:statistics views="17748"/>
    </media:community>
   </media:group>
  </entry>
@@ -221,7 +221,7 @@
 终于更新完毕，撒花！</media:description>
    <media:community>
     <media:starRating count="109" average="5.00" min="1" max="5"/>
-    <media:statistics views="6130"/>
+    <media:statistics views="6158"/>
    </media:community>
   </media:group>
  </entry>
@@ -244,7 +244,7 @@
    <media:description>2000年星云奖作品，《达尔文电波》。一部关于生物、化学、进化等内容的硬核科幻作品，作者提出了一个大胆的构想：物种的进化只需要两代便可以产生出全新的物种。原著：格雷格.贝尔。另外，xeelee系列已经开始搞了。</media:description>
    <media:community>
     <media:starRating count="166" average="5.00" min="1" max="5"/>
-    <media:statistics views="10936"/>
+    <media:statistics views="10993"/>
    </media:community>
   </media:group>
  </entry>
@@ -268,7 +268,7 @@
 尽管这样的内容可能很多人不喜欢，因为太深奥，故事性弱，但是作者透露出的丰富的哲学构想，值得我们去更新。</media:description>
    <media:community>
     <media:starRating count="113" average="5.00" min="1" max="5"/>
-    <media:statistics views="6788"/>
+    <media:statistics views="6814"/>
    </media:community>
   </media:group>
  </entry>
@@ -292,7 +292,7 @@
 《泥人十四》读这部小说的时候，全程处于学习状态......莱姆不仅在小说中提出了不少原创的科学理论，还向人们展示了写作科幻小说的另一种可能，我们尽可能的通俗化了原著，帮助读者能够理解。想挑战的朋友们可以试试这部《莱姆狂想曲》</media:description>
    <media:community>
     <media:starRating count="173" average="5.00" min="1" max="5"/>
-    <media:statistics views="10489"/>
+    <media:statistics views="10527"/>
    </media:community>
   </media:group>
  </entry>
@@ -316,8 +316,8 @@
 是人工智能领域不可多得的优秀作品。
 ——数百年后的未来世界，人工智慧（AI）机器人掌治了这个地球，人类文明被淡化模糊，过去的世界再也无人知晓。</media:description>
    <media:community>
-    <media:starRating count="172" average="5.00" min="1" max="5"/>
-    <media:statistics views="9395"/>
+    <media:starRating count="173" average="5.00" min="1" max="5"/>
+    <media:statistics views="9421"/>
    </media:community>
   </media:group>
  </entry>
@@ -340,7 +340,7 @@
    <media:description>无论人类如何选择，也许未来都无法被改变：刘慈欣《月夜》，这是刘慈欣2009年发表的短篇小说，继承了自己过去的风格，而且脑洞还是一样的大。</media:description>
    <media:community>
     <media:starRating count="125" average="5.00" min="1" max="5"/>
-    <media:statistics views="8970"/>
+    <media:statistics views="8998"/>
    </media:community>
   </media:group>
  </entry>
@@ -363,7 +363,7 @@
    <media:description>地心引力坐不住了：人类首次发现反重力区域——科幻小说《真相》，原著：阿瑟.克拉克，出自阿瑟.克拉克科幻短篇全集。</media:description>
    <media:community>
     <media:starRating count="197" average="5.00" min="1" max="5"/>
-    <media:statistics views="14859"/>
+    <media:statistics views="14893"/>
    </media:community>
   </media:group>
  </entry>

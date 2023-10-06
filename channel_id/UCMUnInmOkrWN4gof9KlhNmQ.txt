@@ -14,16 +14,16 @@
   <id>yt:video:Ieks8KB_eyo</id>
   <yt:videoId>Ieks8KB_eyo</yt:videoId>
   <yt:channelId>UCMUnInmOkrWN4gof9KlhNmQ</yt:channelId>
-  <title>今天的內容有點多，我儘量快快的講 | 老高與小茉 Mr &amp; Mrs Gao</title>
+  <title>美國又公開五支不明飛行物影片 | 老高與小茉 Mr &amp; Mrs Gao</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=Ieks8KB_eyo"/>
   <author>
    <name>老高與小茉 Mr &amp; Mrs Gao</name>
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
   <published>2023-10-04T14:48:41+00:00</published>
-  <updated>2023-10-04T15:14:59+00:00</updated>
+  <updated>2023-10-05T13:37:02+00:00</updated>
   <media:group>
-   <media:title>今天的內容有點多，我儘量快快的講 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
+   <media:title>美國又公開五支不明飛行物影片 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/Ieks8KB_eyo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i2.ytimg.com/vi/Ieks8KB_eyo/hqdefault.jpg" width="480" height="360"/>
    <media:description>【加入會員按鈕】https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ/join
@@ -188,8 +188,8 @@ https://www.youtube.com/watch?v=7q88m5MQRhE
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="22362" average="5.00" min="1" max="5"/>
-    <media:statistics views="778230"/>
+    <media:starRating count="36186" average="5.00" min="1" max="5"/>
+    <media:statistics views="1670365"/>
    </media:community>
   </media:group>
  </entry>
@@ -197,16 +197,16 @@ https://www.youtube.com/watch?v=7q88m5MQRhE
   <id>yt:video:4gJ11dasap4</id>
   <yt:videoId>4gJ11dasap4</yt:videoId>
   <yt:channelId>UCMUnInmOkrWN4gof9KlhNmQ</yt:channelId>
-  <title>人類出海的真正原因 | 老高與小茉 Mr &amp; Mrs Gao</title>
+  <title>大航海時代，人類首次環球航行一周卻發現了一件不可思議的事情 | 老高與小茉 Mr &amp; Mrs Gao</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=4gJ11dasap4"/>
   <author>
    <name>老高與小茉 Mr &amp; Mrs Gao</name>
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
   <published>2023-09-27T15:36:45+00:00</published>
-  <updated>2023-10-03T15:53:28+00:00</updated>
+  <updated>2023-10-05T13:45:04+00:00</updated>
   <media:group>
-   <media:title>人類出海的真正原因 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
+   <media:title>大航海時代，人類首次環球航行一周卻發現了一件不可思議的事情 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/4gJ11dasap4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i1.ytimg.com/vi/4gJ11dasap4/hqdefault.jpg" width="480" height="360"/>
    <media:description>【加入會員按鈕】https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ/join
@@ -438,8 +438,8 @@ https://www.youtube.com/watch?v=Mshz9DxQLbE
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="46735" average="5.00" min="1" max="5"/>
-    <media:statistics views="2370730"/>
+    <media:starRating count="48050" average="5.00" min="1" max="5"/>
+    <media:statistics views="2491384"/>
    </media:community>
   </media:group>
  </entry>
@@ -447,16 +447,16 @@ https://www.youtube.com/watch?v=Mshz9DxQLbE
   <id>yt:video:CM2i6qD8nk8</id>
   <yt:videoId>CM2i6qD8nk8</yt:videoId>
   <yt:channelId>UCMUnInmOkrWN4gof9KlhNmQ</yt:channelId>
-  <title>最強手相，雙手決定你的人生 | 老高與小茉 Mr &amp; Mrs Gao</title>
+  <title>最強手相，你的雙手決定你的人生 | 老高與小茉 Mr &amp; Mrs Gao</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=CM2i6qD8nk8"/>
   <author>
    <name>老高與小茉 Mr &amp; Mrs Gao</name>
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
   <published>2023-09-20T14:12:12+00:00</published>
-  <updated>2023-10-03T15:54:28+00:00</updated>
+  <updated>2023-10-05T05:30:57+00:00</updated>
   <media:group>
-   <media:title>最強手相，雙手決定你的人生 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
+   <media:title>最強手相，你的雙手決定你的人生 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/CM2i6qD8nk8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i4.ytimg.com/vi/CM2i6qD8nk8/hqdefault.jpg" width="480" height="360"/>
    <media:description>【加入會員按鈕】https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ/join
@@ -686,8 +686,8 @@ https://www.youtube.com/watch?v=Ttus8XGK6Xw
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="68054" average="5.00" min="1" max="5"/>
-    <media:statistics views="2801838"/>
+    <media:starRating count="68812" average="5.00" min="1" max="5"/>
+    <media:statistics views="2847511"/>
    </media:community>
   </media:group>
  </entry>
@@ -933,8 +933,8 @@ https://www.youtube.com/watch?v=Ttus8XGK6Xw
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="73438" average="5.00" min="1" max="5"/>
-    <media:statistics views="2949460"/>
+    <media:starRating count="73645" average="5.00" min="1" max="5"/>
+    <media:statistics views="2963958"/>
    </media:community>
   </media:group>
  </entry>
@@ -942,16 +942,16 @@ https://www.youtube.com/watch?v=Ttus8XGK6Xw
   <id>yt:video:FVuBQiBL8NQ</id>
   <yt:videoId>FVuBQiBL8NQ</yt:videoId>
   <yt:channelId>UCMUnInmOkrWN4gof9KlhNmQ</yt:channelId>
-  <title>你和另一個宇宙的你可能存在相互影響 | 老高與小茉 Mr &amp; Mrs Gao</title>
+  <title>這個實驗證明，你和平行宇宙的你可能存在相互影響 | 老高與小茉 Mr &amp; Mrs Gao</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=FVuBQiBL8NQ"/>
   <author>
    <name>老高與小茉 Mr &amp; Mrs Gao</name>
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
   <published>2023-09-06T14:26:18+00:00</published>
-  <updated>2023-10-03T15:51:29+00:00</updated>
+  <updated>2023-10-05T13:57:40+00:00</updated>
   <media:group>
-   <media:title>你和另一個宇宙的你可能存在相互影響 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
+   <media:title>這個實驗證明，你和平行宇宙的你可能存在相互影響 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/FVuBQiBL8NQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i3.ytimg.com/vi/FVuBQiBL8NQ/hqdefault.jpg" width="480" height="360"/>
    <media:description>【加入會員按鈕】https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ/join
@@ -1178,8 +1178,8 @@ https://www.youtube.com/watch?v=ElqnKNkiyHA
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="50677" average="5.00" min="1" max="5"/>
-    <media:statistics views="2798427"/>
+    <media:starRating count="50830" average="5.00" min="1" max="5"/>
+    <media:statistics views="2813961"/>
    </media:community>
   </media:group>
  </entry>
@@ -1401,8 +1401,8 @@ https://www.youtube.com/watch?v=N4xXGIrzKJs
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="61407" average="5.00" min="1" max="5"/>
-    <media:statistics views="2831658"/>
+    <media:starRating count="61525" average="5.00" min="1" max="5"/>
+    <media:statistics views="2843263"/>
    </media:community>
   </media:group>
  </entry>
@@ -1611,8 +1611,8 @@ https://www.youtube.com/watch?v=czNMh9kVhIE
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="59338" average="5.00" min="1" max="5"/>
-    <media:statistics views="3063177"/>
+    <media:starRating count="59418" average="5.00" min="1" max="5"/>
+    <media:statistics views="3072717"/>
    </media:community>
   </media:group>
  </entry>
@@ -1839,8 +1839,8 @@ https://www.youtube.com/watch?v=B-I2guiXzRA
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="49997" average="5.00" min="1" max="5"/>
-    <media:statistics views="2375523"/>
+    <media:starRating count="50036" average="5.00" min="1" max="5"/>
+    <media:statistics views="2379482"/>
    </media:community>
   </media:group>
  </entry>
@@ -2082,8 +2082,8 @@ https://www.youtube.com/watch?v=3cHZfgSqPa4
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="101857" average="5.00" min="1" max="5"/>
-    <media:statistics views="3909104"/>
+    <media:starRating count="101973" average="5.00" min="1" max="5"/>
+    <media:statistics views="3919260"/>
    </media:community>
   </media:group>
  </entry>
@@ -2332,8 +2332,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="65044" average="5.00" min="1" max="5"/>
-    <media:statistics views="3624097"/>
+    <media:starRating count="65102" average="5.00" min="1" max="5"/>
+    <media:statistics views="3629562"/>
    </media:community>
   </media:group>
  </entry>
@@ -2582,8 +2582,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="64035" average="5.00" min="1" max="5"/>
-    <media:statistics views="3243602"/>
+    <media:starRating count="64089" average="5.00" min="1" max="5"/>
+    <media:statistics views="3249349"/>
    </media:community>
   </media:group>
  </entry>
@@ -2832,8 +2832,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="42530" average="5.00" min="1" max="5"/>
-    <media:statistics views="2424749"/>
+    <media:starRating count="42545" average="5.00" min="1" max="5"/>
+    <media:statistics views="2427393"/>
    </media:community>
   </media:group>
  </entry>
@@ -3082,8 +3082,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="62584" average="5.00" min="1" max="5"/>
-    <media:statistics views="3861423"/>
+    <media:starRating count="62641" average="5.00" min="1" max="5"/>
+    <media:statistics views="3869910"/>
    </media:community>
   </media:group>
  </entry>
@@ -3332,8 +3332,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="50278" average="5.00" min="1" max="5"/>
-    <media:statistics views="3058191"/>
+    <media:starRating count="50296" average="5.00" min="1" max="5"/>
+    <media:statistics views="3061758"/>
    </media:community>
   </media:group>
  </entry>
@@ -3582,8 +3582,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="57653" average="5.00" min="1" max="5"/>
-    <media:statistics views="3077887"/>
+    <media:starRating count="57705" average="5.00" min="1" max="5"/>
+    <media:statistics views="3082203"/>
    </media:community>
   </media:group>
  </entry>
