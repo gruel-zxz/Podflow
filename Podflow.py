@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[33]:
+# In[2]:
 
 
 import os
@@ -201,18 +201,18 @@ import yt_dlp
 library_install("RangeHTTPServer")
 
 
-# In[40]:
+# In[6]:
 
 
 # 格式化时间模块
 def time_format(duration):
     if duration is None:
-        return "Unknown"
+        return "00:00"
     duration = int(duration)
     hours, remaining_seconds = divmod(duration, 3600)
     minutes = remaining_seconds // 60
     remaining_seconds = remaining_seconds % 60
-    if hours > 1:
+    if hours > 0:
         return '{:02}:{:02}:{:02}'.format(hours, minutes, remaining_seconds)
     else:
         return '{:02}:{:02}'.format(minutes, remaining_seconds)
