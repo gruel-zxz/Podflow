@@ -209,10 +209,10 @@ def time_format(duration):
     if duration is None:
         return "00:00"
     duration = int(duration)
-    hours, remaining_seconds = divmod(duration, 3600)
-    minutes = remaining_seconds // 60
-    remaining_seconds = remaining_seconds % 60
-    return f"{minutes}:{remaining_seconds}"
+    minutes, seconds = divmod(duration, 60)
+    # 使用f-string确保时间格式，分钟和秒可能超过两位数
+    formatted_time = f"{minutes}:{seconds:02}"
+    return formatted_time
 
 # 格式化字节模块
 def convert_bytes(byte_size, units = None, outweigh = 1024):
