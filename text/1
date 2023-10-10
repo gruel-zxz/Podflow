@@ -1,2 +1,23 @@
 https://raw.githubusercontent.com/gruel-zxz/podflow/main/Podflow_icon.png
 jupyter nbconvert --to script Podflow.ipynb
+
+
+format_id: 视频格式的 id。
+format_note: 视频格式的说明文字。
+ext: 视频文件的扩展名。
+protocol: 视频流的传输协议。
+acodec: 音频编码格式。
+vcodec: 视频编码格式。
+width: 视频帧宽度。
+height: 视频帧高度。
+fps: 视频的帧率。
+rows: storyboard 的行数。
+columns: storyboard 的列数。
+resolution: 视频的分辨率。
+aspect_ratio: 视频的宽高比。
+audio_ext: 音频文件的扩展名。
+video_ext: 视频文件的扩展名。
+vbr: 视频的比特率。
+abr: 音频的比特率。
+tbr: 视频转码后的总比特率。
+format: 视频格式的说明文字和分辨率。

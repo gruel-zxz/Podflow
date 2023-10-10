@@ -10,6 +10,29 @@
   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
  </author>
  <entry>
+  <id>yt:video:X2676LxDOz8</id>
+  <yt:videoId>X2676LxDOz8</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>no better feeling than spending adult money on kid things @adamtheflop @JustTheNobodys</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=X2676LxDOz8"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2023-10-08T19:30:15+00:00</published>
+  <updated>2023-10-08T19:35:29+00:00</updated>
+  <media:group>
+   <media:title>no better feeling than spending adult money on kid things @adamtheflop @JustTheNobodys</media:title>
+   <media:content url="https://www.youtube.com/v/X2676LxDOz8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/X2676LxDOz8/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="1393" average="5.00" min="1" max="5"/>
+    <media:statistics views="21452"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:zq0UULydj9w</id>
   <yt:videoId>zq0UULydj9w</yt:videoId>
   <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
@@ -20,7 +43,7 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2023-10-05T16:00:52+00:00</published>
-  <updated>2023-10-06T08:13:51+00:00</updated>
+  <updated>2023-10-09T00:27:16+00:00</updated>
   <media:group>
    <media:title>@ZHCYT takes on a Customization Challenge inspired by the community 🖌️🎨</media:title>
    <media:content url="https://www.youtube.com/v/zq0UULydj9w?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -56,8 +79,8 @@ Featured Creators:
 2:27- 2:50 Step 5: The Reveal
 2:50 - 3:12 Outro</media:description>
    <media:community>
-    <media:starRating count="1121" average="5.00" min="1" max="5"/>
-    <media:statistics views="140064"/>
+    <media:starRating count="1579" average="5.00" min="1" max="5"/>
+    <media:statistics views="428762"/>
    </media:community>
   </media:group>
  </entry>
@@ -79,8 +102,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/vLfHbplXtz4/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1386" average="5.00" min="1" max="5"/>
-    <media:statistics views="30735"/>
+    <media:starRating count="2012" average="5.00" min="1" max="5"/>
+    <media:statistics views="48233"/>
    </media:community>
   </media:group>
  </entry>
@@ -102,8 +125,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/2UlrqThzzCs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2573" average="5.00" min="1" max="5"/>
-    <media:statistics views="32905"/>
+    <media:starRating count="3416" average="5.00" min="1" max="5"/>
+    <media:statistics views="45825"/>
    </media:community>
   </media:group>
  </entry>
@@ -125,8 +148,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/v-nWeugyb7A/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2180" average="5.00" min="1" max="5"/>
-    <media:statistics views="40798"/>
+    <media:starRating count="2515" average="5.00" min="1" max="5"/>
+    <media:statistics views="48056"/>
    </media:community>
   </media:group>
  </entry>
@@ -150,8 +173,8 @@ Featured Creators:
 
 Online video trends have evolved to become the driving force of pop culture. But do you know who’s creating them? From the moment of upload, discover the untold, true stories of the Black creators and culture behind your favorite trends. Witness those who have transformed culture on a global scale finally get the flowers they deserve.</media:description>
    <media:community>
-    <media:starRating count="5424" average="5.00" min="1" max="5"/>
-    <media:statistics views="634047"/>
+    <media:starRating count="5824" average="5.00" min="1" max="5"/>
+    <media:statistics views="585799"/>
    </media:community>
   </media:group>
  </entry>
@@ -173,8 +196,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i3.ytimg.com/vi/fEzeTYwEmlw/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2650" average="5.00" min="1" max="5"/>
-    <media:statistics views="58468"/>
+    <media:starRating count="2906" average="5.00" min="1" max="5"/>
+    <media:statistics views="65866"/>
    </media:community>
   </media:group>
  </entry>
@@ -196,8 +219,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i1.ytimg.com/vi/xY34jr-gYgU/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4114" average="5.00" min="1" max="5"/>
-    <media:statistics views="73824"/>
+    <media:starRating count="4384" average="5.00" min="1" max="5"/>
+    <media:statistics views="80553"/>
    </media:community>
   </media:group>
  </entry>
@@ -219,8 +242,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i2.ytimg.com/vi/MKeug0IZWbo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2739" average="5.00" min="1" max="5"/>
-    <media:statistics views="50774"/>
+    <media:starRating count="2878" average="5.00" min="1" max="5"/>
+    <media:statistics views="54787"/>
    </media:community>
   </media:group>
  </entry>
@@ -242,8 +265,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i1.ytimg.com/vi/HgIBGdBDeHs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4303" average="5.00" min="1" max="5"/>
-    <media:statistics views="82849"/>
+    <media:starRating count="4431" average="5.00" min="1" max="5"/>
+    <media:statistics views="87268"/>
    </media:community>
   </media:group>
  </entry>
@@ -265,8 +288,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i3.ytimg.com/vi/rwYAcQqbbrY/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4059" average="5.00" min="1" max="5"/>
-    <media:statistics views="66383"/>
+    <media:starRating count="4148" average="5.00" min="1" max="5"/>
+    <media:statistics views="68783"/>
    </media:community>
   </media:group>
  </entry>
@@ -326,8 +349,8 @@ Featured Creators:
 
 #Gaming #Retrogaming #YouTube</media:description>
    <media:community>
-    <media:starRating count="6372" average="5.00" min="1" max="5"/>
-    <media:statistics views="3134402"/>
+    <media:starRating count="6418" average="5.00" min="1" max="5"/>
+    <media:statistics views="3138759"/>
    </media:community>
   </media:group>
  </entry>
@@ -358,8 +381,8 @@ Featured Creators:
 
 #SafiyaNygaard #WatchHistory #YouTube</media:description>
    <media:community>
-    <media:starRating count="2118" average="5.00" min="1" max="5"/>
-    <media:statistics views="749763"/>
+    <media:starRating count="2165" average="5.00" min="1" max="5"/>
+    <media:statistics views="754729"/>
    </media:community>
   </media:group>
  </entry>
@@ -381,8 +404,8 @@ Featured Creators:
    <media:thumbnail url="https://i1.ytimg.com/vi/DcNI16MEjrM/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4749" average="5.00" min="1" max="5"/>
-    <media:statistics views="79240"/>
+    <media:starRating count="4830" average="5.00" min="1" max="5"/>
+    <media:statistics views="81269"/>
    </media:community>
   </media:group>
  </entry>
@@ -404,64 +427,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/fokY9vEnAL4/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="5499" average="5.00" min="1" max="5"/>
-    <media:statistics views="113349"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:oxN0AR0xlRg</id>
-  <yt:videoId>oxN0AR0xlRg</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>@BaileySarian  does the ultimate GRWM</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=oxN0AR0xlRg"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2023-08-27T13:56:43+00:00</published>
-  <updated>2023-09-08T18:33:43+00:00</updated>
-  <media:group>
-   <media:title>@BaileySarian  does the ultimate GRWM</media:title>
-   <media:content url="https://www.youtube.com/v/oxN0AR0xlRg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/oxN0AR0xlRg/hqdefault.jpg" width="480" height="360"/>
-   <media:description>Join @BaileySarian as she takes us on a journey from 2010 to today to see how GRWM videos have evolved over the years. From first days of school to beauty breakdowns, True Crime, chatty or chaotic; anything goes!
-
-Who’s your favorite creator to watch get ready? Let us know in the comments below!
-
-Featured Creators:
-@myeshapolnett
-@amandacastillo
-@amandasteele
-@lyllistapper
-@kaitlyndobrow
-@saraijones
-@itsjudytime 
-@zahrazahra8785
-@baileysarian
-@shaaanxo
-@kinryan
-@nicoleguerriero
-@imjennim
-@astadarling
-@dulcecandy
-@devanondeck
-@trixie
-@mylifeaseva
-@arissaanjuli
-@lesliedtuck
-@Envydeladyd 
-
-0:00 - 0:26 Intro
-0:26 - 0:52 2010: The Beginning of GRWM
-0:52 - 1:57 2014 - 2018: The Evolution of GRWM
-1:57 - 2:30 2020 - Now: Creativity Meets Connection
-2:30 - 3:00 Outro
-
-#GRWM #Makeup #Beauty #GetReadyWithMe</media:description>
-   <media:community>
-    <media:starRating count="3249" average="5.00" min="1" max="5"/>
-    <media:statistics views="461981"/>
+    <media:starRating count="5541" average="5.00" min="1" max="5"/>
+    <media:statistics views="115141"/>
    </media:community>
   </media:group>
  </entry>
