@@ -324,7 +324,7 @@ def video_format(video_website, video_url, media = "m4a", quality = "480"):
                 return False
         def check_vcodec(item):
             if "vcodec" in item:
-                return "vp" not in item["vcodec"].lower()
+                return "avc1" in item["vcodec"].lower()
             else:
                 return False
         #获取最好质量媒体的id
@@ -427,12 +427,15 @@ def dl_aideo_video(video_url, output_dir, output_format, video_format, retry_cou
     print(f"{datetime.now().strftime('%H:%M:%S')}|{video_write_log} \033[34m开始下载\033[0m")
     if output_format == "m4a":
         yt_id_failed = dl_retry_video(video_url, output_dir, "m4a", video_format[1], id_duration, retry_count, video_website, video_write_log, format_code, "")
+        print(f" \033[97m{video_format[1]}\033[0m", end = "")
     else:
         print(f"{datetime.now().strftime('%H:%M:%S')}|\033[34m开始视频部分下载\033[0m")
         yt_id_failed = dl_retry_video(video_url, output_dir, "mp4", video_format[2], id_duration, retry_count, video_website, video_write_log, format_code, ".part")
+        print(f" \033[97m{video_format[2]}\033[0m", end = "")
         if yt_id_failed is None:
             print(f"{datetime.now().strftime('%H:%M:%S')}|\033[34m开始音频部分下载\033[0m")
             yt_id_failed = dl_retry_video(video_url, output_dir, "m4a", video_format[1], id_duration, retry_count, video_website, video_write_log, format_code, ".part")
+            print(f" \033[97m{video_format[1]}\033[0m", end = "")
             if yt_id_failed is None:
                 print(f"{datetime.now().strftime('%H:%M:%S')}|\033[34m开始合成\033[0m")
                 # 构建FFmpeg命令
