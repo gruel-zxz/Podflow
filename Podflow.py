@@ -447,7 +447,7 @@ def dl_aideo_video(video_url, output_dir, output_format, video_format, retry_cou
                 ]
                 # 执行FFmpeg命令
                 try:
-                    subprocess.run(ffmpeg_cmd, check=True)
+                    subprocess.run(ffmpeg_cmd, check=True, capture_output = True, text = True)
                     print(f"{datetime.now().strftime('%H:%M:%S')}|\033[32m合成成功\033[0m")
                     os.remove(f"{output_dir}/{video_url}.part.mp4")
                     os.remove(f"{output_dir}/{video_url}.part.m4a")
