@@ -1039,7 +1039,7 @@ def youtube_xml_items(output_dir):
     for entry in entrys:
         if re.search(r"(?<=<yt:videoId>).+(?=</yt:videoId>)", entry).group() not in yt_id_failed :
             items = f"{items}{youtube_xml_item(entry)}<!-- {output_dir} -->"
-            entry_num += 1
+        entry_num += 1
         if entry_num >= channelid_youtube[channelid_youtube_ids[output_dir ]]["update_size"]:
             break
     items_guid = re.findall(r"(?<=<guid>).+?(?=</guid>)", items)
