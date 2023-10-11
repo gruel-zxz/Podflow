@@ -293,7 +293,7 @@ def video_format(video_website, video_url, media = "m4a", quality = "480"):
                 duration = info_dict.get('duration')
                 formats = info_dict.get('formats')
         except Exception as e:
-            fail_message = (f"\033[31m获取信息失败\033[0m, 错误信息：\n{str(e)}").replace("ERROR: ", "").replace(f"{video_url}: ", "")
+            fail_message = (f"\033[31m获取信息失败\033[0m\n错误信息：{str(e)}").replace("ERROR: ", "").replace(f"{video_url}: ", "")
         return fail_message, duration, formats
     yt_id_count = 0
     fail_message, duration, formats = duration_and_formats(video_website, video_url)
@@ -303,9 +303,9 @@ def video_format(video_website, video_url, media = "m4a", quality = "480"):
         fail_message, duration, formats = duration_and_formats(video_website, video_url)
     if fail_message is None:
         if duration == "" or duration is None:
-            fail_message = f"\033[31m获取信息失败\033[0m, 错误信息：\n无法获取媒体时长"
+            fail_message = f"\033[31m获取信息失败\033[0m\n错误信息：无法获取媒体时长"
         if formats == "" or formats is None:
-            fail_message = f"\033[31m获取信息失败\033[0m, 错误信息：\n无法获取媒体格式"
+            fail_message = f"\033[31m获取信息失败\033[0m\n错误信息：无法获取媒体格式"
         duration_and_id = []
         duration_and_id.append(duration)
         # 定义条件判断函数
@@ -340,14 +340,14 @@ def video_format(video_website, video_url, media = "m4a", quality = "480"):
         formats_m4a = list(filter(lambda item: check_ext(item, "m4a") and check_vcodec(item), formats))
         best_formats_m4a = best_format_id(formats_m4a)
         if best_formats_m4a == "" or best_formats_m4a is None:
-            fail_message = f"\033[31m获取信息失败\033[0m, 错误信息：\n无法获取音频格式ID"
+            fail_message = f"\033[31m获取信息失败\033[0m, \n错误信息：无法获取音频格式ID"
         else:
             duration_and_id.append(best_formats_m4a)
             if media == "mp4":
                 formats_mp4 = list(filter(lambda item: check_resolution(item) and check_ext(item, "mp4") and check_vcodec(item), formats))
                 best_formats_mp4 = best_format_id(formats_mp4)
                 if best_formats_mp4 == ""or best_formats_mp4 is None:
-                    fail_message = f"\033[31m获取信息失败\033[0m, 错误信息：\n无法获取视频格式ID"
+                    fail_message = f"\033[31m获取信息失败\033[0m\n错误信息：无法获取视频格式ID"
                 else:
                     duration_and_id.append(best_formats_mp4)
     if fail_message is not None:
@@ -387,7 +387,7 @@ def download_video(video_url, output_dir, output_format, format_id, video_websit
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
             ydl.download([f'{video_website}{video_url}'])  # 下载指定视频链接的视频
     except Exception as e:
-        write_log((f"{video_write_log} \033[31m下载失败\033[0m, 错误信息：\n{str(e)}").replace("ERROR: ", "").replace(f"{video_url}: ", ""))  # 写入下载失败的日志信息
+        write_log((f"{video_write_log} \033[31m下载失败\033[0m\n错误信息：{str(e)}").replace("ERROR: ", "").replace(f"{video_url}: ", ""))  # 写入下载失败的日志信息
         return video_url
 
 
@@ -402,7 +402,7 @@ def dl_full_video(video_url, output_dir, output_format, format_id, id_duration, 
     if abs(id_duration - duration_video) <= 1:  # 检查实际时长与预计时长是否一致
         return None
     if duration_video:
-        write_log(f"{video_write_log} \033[31m下载失败\033[0m, 错误信息：\n视频不完整({id_duration}|{duration_video})")
+        write_log(f"{video_write_log} \033[31m下载失败\033[0m\n错误信息：视频不完整({id_duration}|{duration_video})")
         os.remove(f"{output_dir}/{video_url}{sesuffix}.{output_format}")  #删除不完整的视频
     return video_url
 
@@ -453,7 +453,7 @@ def dl_aideo_video(video_url, output_dir, output_format, video_format, retry_cou
                     os.remove(f"{output_dir}/{video_url}.part.m4a")
                 except subprocess.CalledProcessError as e:
                     yt_id_failed = video_url
-                    write_log(f"{video_write_log} \033[31m下载失败\033[0m, 错误信息：\n合成失败") 
+                    write_log(f"{video_write_log} \033[31m下载失败\033[0m\n错误信息：合成失败") 
     if yt_id_failed is None:
         write_log(f"{video_write_log} \033[32m下载成功\033[0m")  # 写入下载成功的日志信息
     return yt_id_failed
