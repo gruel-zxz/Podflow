@@ -324,7 +324,7 @@ def video_format(video_website, video_url, media = "m4a", quality = "480"):
                 return False
         def check_vcodec(item):
             if "vcodec" in item:
-                return "vp" not in item["vcodec"].lower() or "av01" not in item["vcodec"].lower()
+                return "vp" not in item["vcodec"].lower() and "av01" not in item["vcodec"].lower()
             else:
                 return False
         #获取最好质量媒体的id
