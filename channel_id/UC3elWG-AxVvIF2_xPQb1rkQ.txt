@@ -28,8 +28,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/6DknTtKwcNw/hqdefault.jpg" width="480" height="360"/>
    <media:description>论方言的感染力，东北方言绝对是第一了#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="49" average="5.00" min="1" max="5"/>
-    <media:statistics views="2196"/>
+    <media:starRating count="51" average="5.00" min="1" max="5"/>
+    <media:statistics views="2264"/>
    </media:community>
   </media:group>
  </entry>
@@ -52,7 +52,7 @@
    <media:description>给山东人送礼是个体力活，不仅劲儿得大，还得跑得快#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="9" average="5.00" min="1" max="5"/>
-    <media:statistics views="361"/>
+    <media:statistics views="373"/>
    </media:community>
   </media:group>
  </entry>
@@ -75,7 +75,7 @@
    <media:description>难道这些就是男人开车累的原因吗#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="12" average="5.00" min="1" max="5"/>
-    <media:statistics views="865"/>
+    <media:statistics views="866"/>
    </media:community>
   </media:group>
  </entry>
@@ -304,8 +304,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/vFuSsdnaWNg/hqdefault.jpg" width="480" height="360"/>
    <media:description>据说她是中年男人心中绝对的女神#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="283" average="5.00" min="1" max="5"/>
-    <media:statistics views="23705"/>
+    <media:starRating count="287" average="5.00" min="1" max="5"/>
+    <media:statistics views="23770"/>
    </media:community>
   </media:group>
  </entry>
@@ -350,8 +350,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/-Bzm65ZcshU/hqdefault.jpg" width="480" height="360"/>
    <media:description>浦东机场应该是每个卡点坐飞机的人的噩梦吧#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="492" average="5.00" min="1" max="5"/>
-    <media:statistics views="41527"/>
+    <media:starRating count="494" average="5.00" min="1" max="5"/>
+    <media:statistics views="41687"/>
    </media:community>
   </media:group>
  </entry>

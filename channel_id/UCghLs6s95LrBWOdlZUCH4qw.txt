@@ -21,7 +21,7 @@
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
   <published>2023-10-11T00:44:48+00:00</published>
-  <updated>2023-10-11T00:48:05+00:00</updated>
+  <updated>2023-10-11T01:18:38+00:00</updated>
   <media:group>
    <media:title>达赖与中共转世活佛之争，太多的政治算计，侮辱了神圣的信仰（20231010第6406期）</media:title>
    <media:content url="https://www.youtube.com/v/tYbI6Spr7zM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -78,8 +78,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="344"/>
+    <media:starRating count="70" average="5.00" min="1" max="5"/>
+    <media:statistics views="6257"/>
    </media:community>
   </media:group>
  </entry>
@@ -152,7 +152,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="897"/>
+    <media:statistics views="1128"/>
    </media:community>
   </media:group>
  </entry>
@@ -224,8 +224,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="265" average="5.00" min="1" max="5"/>
-    <media:statistics views="25379"/>
+    <media:starRating count="293" average="5.00" min="1" max="5"/>
+    <media:statistics views="33187"/>
    </media:community>
   </media:group>
  </entry>
@@ -298,7 +298,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="73" average="5.00" min="1" max="5"/>
-    <media:statistics views="7340"/>
+    <media:statistics views="9903"/>
    </media:community>
   </media:group>
  </entry>
@@ -370,8 +370,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="113" average="5.00" min="1" max="5"/>
-    <media:statistics views="9998"/>
+    <media:starRating count="130" average="5.00" min="1" max="5"/>
+    <media:statistics views="13523"/>
    </media:community>
   </media:group>
  </entry>
@@ -443,8 +443,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="178" average="5.00" min="1" max="5"/>
-    <media:statistics views="19395"/>
+    <media:starRating count="190" average="5.00" min="1" max="5"/>
+    <media:statistics views="25529"/>
    </media:community>
   </media:group>
  </entry>
@@ -517,7 +517,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="449" average="5.00" min="1" max="5"/>
-    <media:statistics views="84604"/>
+    <media:statistics views="85445"/>
    </media:community>
   </media:group>
  </entry>
@@ -590,7 +590,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="245" average="5.00" min="1" max="5"/>
-    <media:statistics views="57358"/>
+    <media:statistics views="57934"/>
    </media:community>
   </media:group>
  </entry>
@@ -662,8 +662,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="137" average="5.00" min="1" max="5"/>
-    <media:statistics views="36085"/>
+    <media:starRating count="138" average="5.00" min="1" max="5"/>
+    <media:statistics views="36443"/>
    </media:community>
   </media:group>
  </entry>
@@ -735,8 +735,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="257" average="5.00" min="1" max="5"/>
-    <media:statistics views="47711"/>
+    <media:starRating count="259" average="5.00" min="1" max="5"/>
+    <media:statistics views="48133"/>
    </media:community>
   </media:group>
  </entry>
@@ -809,7 +809,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="97" average="5.00" min="1" max="5"/>
-    <media:statistics views="16273"/>
+    <media:statistics views="16368"/>
    </media:community>
   </media:group>
  </entry>
@@ -882,7 +882,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="2215"/>
+    <media:statistics views="2227"/>
    </media:community>
   </media:group>
  </entry>
@@ -955,7 +955,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="201" average="5.00" min="1" max="5"/>
-    <media:statistics views="41996"/>
+    <media:statistics views="42204"/>
    </media:community>
   </media:group>
  </entry>
@@ -1028,7 +1028,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="447" average="5.00" min="1" max="5"/>
-    <media:statistics views="44701"/>
+    <media:statistics views="44849"/>
    </media:community>
   </media:group>
  </entry>
@@ -1101,7 +1101,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="268" average="5.00" min="1" max="5"/>
-    <media:statistics views="53109"/>
+    <media:statistics views="53297"/>
    </media:community>
   </media:group>
  </entry>

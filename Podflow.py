@@ -728,7 +728,6 @@ if channelid_youtube_ids_update:
 
 
 # 获取YouTube视频格式信息
-print(f"{datetime.now().strftime('%H:%M:%S')}|YouTube视频 \033[34m下载准备中...\033[0m")
 yt_id_failed = []
 youtube_content_ytid_update_format = {}
 for ytid_key, ytid_value in youtube_content_ytid_update.items():
@@ -745,6 +744,8 @@ for ytid_key, ytid_value in youtube_content_ytid_update.items():
         yt_id_format["media"] = yt_id_file
         yt_id_format["quality"] = yt_id_quality
         youtube_content_ytid_update_format[yt_id] = yt_id_format
+if len(youtube_content_ytid_update_format) != 0:
+    print(f"{datetime.now().strftime('%H:%M:%S')}|YouTube视频 \033[34m下载准备中...\033[0m")
 # 创建线程锁
 youtube_video_format_lock = threading.Lock()
 def youtube_video_format(yt_id):
@@ -1116,7 +1117,6 @@ for output_dir in channelid_youtube_ids:
 
 
 # 补全缺失的媒体文件到字典模块
-print(f"{datetime.now().strftime('%H:%M:%S')}|补全缺失媒体 \033[34m下载准备中...\033[0m")
 make_up_file_format = {}
 def make_up_file(output_dir):
     for file_name in all_youtube_content_ytid[output_dir]:
@@ -1140,6 +1140,8 @@ def make_up_file(output_dir):
 # 补全在rss中缺失的媒体格式信息
 for output_dir in channelid_youtube_ids:
     make_up_file(output_dir)
+if len(make_up_file_format) != 0:
+    print(f"{datetime.now().strftime('%H:%M:%S')}|补全缺失媒体 \033[34m下载准备中...\033[0m")
 # 创建线程锁
 makeup_yt_format_lock = threading.Lock()
 def makeup_yt_format(yt_id):
