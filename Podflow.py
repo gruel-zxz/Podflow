@@ -399,7 +399,7 @@ def dl_full_video(video_url, output_dir, output_format, format_id, id_duration, 
     if download_video(video_url, output_dir, output_format, format_id, video_website, video_write_log, format_code, sesuffix):
         return video_url
     duration_video = get_duration_ffprobe(f"{output_dir}/{video_url}{sesuffix}.{output_format}")  # 获取已下载视频的实际时长
-    if id_duration == duration_video:  # 检查实际时长与预计时长是否一致
+    if abs(id_duration - duration_video) <= 1:  # 检查实际时长与预计时长是否一致
         return None
     if duration_video:
         write_log(f"{video_write_log} \033[31m下载失败\033[0m, 错误信息：\n视频不完整({id_duration}|{duration_video})")
