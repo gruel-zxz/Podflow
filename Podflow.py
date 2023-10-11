@@ -272,24 +272,88 @@ def show_progress(stream):
 # In[10]:
 
 
-# 获取视频时长模块
-def video_duration(video_website, video_url):
-    try:
-        # 初始化 yt_dlp 实例, 并忽略错误
-        ydl_opts = {
-            'ignoreerrors': True,
-            'no_warnings': True, 
-            'quiet': True  # 禁止非错误信息的输出
-        }
-        ydl = yt_dlp.YoutubeDL(ydl_opts)
-        # 使用提供的 URL 提取视频信息
-        if info_dict := ydl.extract_info(
-            f"{video_website}{video_url}", download = False
-        ):
-            # 获取视频时长并返回
-            return info_dict.get('duration')
-    except Exception as e:
-        return None
+# 获取媒体时长和ID模块
+def video_format(video_website, video_url, media = "m4a", quality = "480"):
+    fail_message = None
+    def duration_and_formats(video_website, video_url):
+        fail_message, duration, formats = None, None, None
+        try:
+            # 初始化 yt_dlp 实例, 并忽略错误
+            ydl_opts = {
+                'ignoreerrors': True,
+                'no_warnings': True, 
+                'quiet': True  # 禁止非错误信息的输出
+            }
+            ydl = yt_dlp.YoutubeDL(ydl_opts)
+            # 使用提供的 URL 提取视频信息
+            if info_dict := ydl.extract_info(
+                f"{video_website}{video_url}", download = False
+            ):
+                # 获取视频时长并返回
+                duration = info_dict.get('duration')
+                formats = info_dict.get('formats')
+        except Exception as e:
+            fail_message = (f"\033[31m获取信息失败\033[0m, 错误信息：{str(e)}").replace("ERROR: ", "").replace(f"{video_url}: ", "")
+        return fail_message, duration, formats
+    yt_id_count = 0
+    fail_message, duration, formats = duration_and_formats(video_website, video_url)
+    while yt_id_count < 2 and (fail_message is not None or duration is None or formats is None):
+        yt_id_count += 1
+        print(f"{datetime.now().strftime('%H:%M:%S')}|{video_url} 无法获取媒体信息, 开始第\033[34m{yt_id_count}\033[0m次重试")
+        fail_message, duration, formats = duration_and_formats(video_website, video_url)
+    if fail_message is None:
+        if duration == "" or duration is None:
+            fail_message = f"\033[31m获取信息失败\033[0m, 错误信息：无法获取媒体时长"
+        if formats == "" or formats is None:
+            fail_message = f"\033[31m获取信息失败\033[0m, 错误信息：无法获取媒体格式"
+        duration_and_id = []
+        duration_and_id.append(duration)
+        # 定义条件判断函数
+        def check_resolution(item):
+            if "aspect_ratio" in item and (isinstance(item["aspect_ratio"], float) or isinstance(item["aspect_ratio"], int)):
+                if item["aspect_ratio"] >= 1:
+                    return item["height"] <= int(quality)
+                else:
+                    return item["width"] <= int(quality)
+            else:
+                return False
+        def check_ext(item, media):
+            if "ext" in item:
+                return item["ext"] == media
+            else:
+                return False
+        def check_vcodec(item):
+            if "vcodec" in item:
+                return "vp" not in item["vcodec"].lower()
+            else:
+                return False
+        #获取最好质量媒体的id
+        def best_format_id(formats):
+            filesize_max = 0
+            format_id_best = ""
+            for format in formats:
+                if "filesize" in format and (isinstance(format["filesize"], float) or isinstance(format["filesize"], int)) and format["filesize"] > filesize_max:
+                    filesize_max = format["filesize"]
+                    format_id_best = format["format_id"]
+            return format_id_best
+        # 进行筛选
+        formats_m4a = list(filter(lambda item: check_ext(item, "m4a") and check_vcodec(item), formats))
+        best_formats_m4a = best_format_id(formats_m4a)
+        if best_formats_m4a == "" or best_formats_m4a is None:
+            fail_message = f"\033[31m获取信息失败\033[0m, 错误信息：无法获取音频格式ID"
+        else:
+            duration_and_id.append(best_formats_m4a)
+            if media == "mp4":
+                formats_mp4 = list(filter(lambda item: check_resolution(item) and check_ext(item, "mp4") and check_vcodec(item), formats))
+                best_formats_mp4 = best_format_id(formats_mp4)
+                if best_formats_mp4 == ""or best_formats_mp4 is None:
+                    fail_message = f"\033[31m获取信息失败\033[0m, 错误信息：无法获取视频格式ID"
+                else:
+                    duration_and_id.append(best_formats_mp4)
+    if fail_message is not None:
+        return fail_message
+    else:
+        return duration_and_id
 
 # 获取已下载视频时长模块
 def get_duration_ffprobe(file_path):
@@ -311,14 +375,10 @@ def get_duration_ffprobe(file_path):
         return None
 
 # 下载视频模块
-def download_video(video_url, output_dir, output_format, video_website, video_write_log, format_code = 480, sesuffix = ""):
-    if output_format == 'm4a':
-        format_out = "bestaudio[ext=m4a]/best"   # 音频编码
-    else:
-        format_out = f'bestvideo[ext=mp4][height<={format_code}]/best[ext=mp4]'  # 视频编码
+def download_video(video_url, output_dir, output_format, format_id, video_website, video_write_log, format_code = "480", sesuffix = ""):
     ydl_opts = {
         'outtmpl': f'{output_dir}/{video_url}{sesuffix}.{output_format}',  # 输出文件路径和名称
-        'format': f'{format_out}',  # 指定下载的最佳音频和视频格式
+        'format': f'{format_id}',  # 指定下载的最佳音频和视频格式
         "noprogress": True,
         'quiet': True,
         "progress_hooks": [show_progress]
@@ -335,8 +395,8 @@ def download_video(video_url, output_dir, output_format, video_website, video_wr
 
 
 # 视频完整下载模块
-def dl_full_video(video_url, output_dir, output_format, id_duration, video_website, video_write_log, format_code=480, sesuffix = ""):
-    if download_video(video_url, output_dir, output_format, video_website, video_write_log, format_code, sesuffix):
+def dl_full_video(video_url, output_dir, output_format, format_id, id_duration, video_website, video_write_log, format_code = "480", sesuffix = ""):
+    if download_video(video_url, output_dir, output_format, format_id, video_website, video_write_log, format_code, sesuffix):
         return video_url
     duration_video = get_duration_ffprobe(f"{output_dir}/{video_url}{sesuffix}.{output_format}")  # 获取已下载视频的实际时长
     if id_duration == duration_video:  # 检查实际时长与预计时长是否一致
@@ -347,40 +407,32 @@ def dl_full_video(video_url, output_dir, output_format, id_duration, video_websi
     return video_url
 
 # 视频重试下载模块
-def dl_retry_video(video_url, output_dir, output_format, id_duration, retry_count, video_website, video_write_log, format_code=480, sesuffix = ""):
-    yt_id_failed = dl_full_video(video_url, output_dir, output_format, id_duration, video_website, video_write_log, format_code, sesuffix)
+def dl_retry_video(video_url, output_dir, output_format, format_id, id_duration, retry_count, video_website, video_write_log, format_code = "480", sesuffix = ""):
+    yt_id_failed = dl_full_video(video_url, output_dir, output_format, format_id, id_duration, video_website, video_write_log, format_code, sesuffix)
     # 下载失败后重复尝试下载视频
     yt_id_count = 0
     while yt_id_count < retry_count and yt_id_failed:
         yt_id_count += 1
         write_log(f"{video_write_log}第\033[34m{yt_id_count}\033[0m次重新下载")
-        yt_id_failed = dl_full_video(video_url, output_dir, output_format, id_duration, video_website, video_write_log, format_code, sesuffix)
+        yt_id_failed = dl_full_video(video_url, output_dir, output_format, format_id, id_duration, video_website, video_write_log, format_code, sesuffix)
     return yt_id_failed
 
 # 音视频总下载模块
-def dl_aideo_video(video_url, output_dir, output_format, retry_count, video_website, format_code=480, output_dir_name=""):
+def dl_aideo_video(video_url, output_dir, output_format, video_format, retry_count, video_website, format_code = "480", output_dir_name=""):
     if output_dir_name:
         video_write_log = f"\033[95m{output_dir_name}\033[0m|{video_url}"
     else:
         video_write_log = video_url
-    print(f"{datetime.now().strftime('%H:%M:%S')}|{video_write_log} \033[34m准备下载\033[0m")
-    yt_id_count = 0
-    id_duration = None
-    while id_duration is None or yt_id_count < retry_count :
-        yt_id_count += 1
-        id_duration = video_duration(video_website, video_url)
-    if id_duration is None:
-        write_log(f"{video_write_log} \033[31m下载失败\033[0m, 错误信息：无法获取视频时长")
-        return video_url
+    id_duration = video_format[0]
     print(f"{datetime.now().strftime('%H:%M:%S')}|{video_write_log} \033[34m开始下载\033[0m")
     if output_format == "m4a":
-        yt_id_failed = dl_retry_video(video_url, output_dir, "m4a", id_duration, retry_count, video_website, video_write_log, format_code, "")
+        yt_id_failed = dl_retry_video(video_url, output_dir, "m4a", video_format[1], id_duration, retry_count, video_website, video_write_log, format_code, "")
     else:
         print(f"{datetime.now().strftime('%H:%M:%S')}|\033[34m开始视频部分下载\033[0m")
-        yt_id_failed = dl_retry_video(video_url, output_dir, "mp4", id_duration, retry_count, video_website, video_write_log, format_code, ".part")
+        yt_id_failed = dl_retry_video(video_url, output_dir, "mp4", video_format[2], id_duration, retry_count, video_website, video_write_log, format_code, ".part")
         if yt_id_failed is None:
             print(f"{datetime.now().strftime('%H:%M:%S')}|\033[34m开始音频部分下载\033[0m")
-            yt_id_failed = dl_retry_video(video_url, output_dir, "m4a", id_duration, retry_count, video_website, video_write_log, format_code, ".part")
+            yt_id_failed = dl_retry_video(video_url, output_dir, "m4a", video_format[1], id_duration, retry_count, video_website, video_write_log, format_code, ".part")
             if yt_id_failed is None:
                 print(f"{datetime.now().strftime('%H:%M:%S')}|\033[34m开始合成\033[0m")
                 # 构建FFmpeg命令
@@ -669,14 +721,16 @@ for youtube_key, youtube_value in channelid_youtube_ids.items():
 for thread in youtube_need_update_threads:
     thread.join()
 if channelid_youtube_ids_update:
-    write_log(f"需更新的YouTube频道:\033[32m{' '.join(channelid_youtube_ids_update.values())}\033[0m")
+    write_log(f"需更新的YouTube频道:\n\033[32m{' '.join(channelid_youtube_ids_update.values())}\033[0m")
 
 
 # In[20]:
 
 
-# 下载YouTube视频
+# 获取YouTube视频格式信息
+print(f"{datetime.now().strftime('%H:%M:%S')}|YouTube视频 \033[34m下载准备中...\033[0m")
 yt_id_failed = []
+youtube_content_ytid_update_format = {}
 for ytid_key, ytid_value in youtube_content_ytid_update.items():
     # 获取对应文件类型
     yt_id_file = channelid_youtube[channelid_youtube_ids_update[ytid_key]]['media']
@@ -685,13 +739,46 @@ for ytid_key, ytid_value in youtube_content_ytid_update.items():
         yt_id_quality = channelid_youtube[channelid_youtube_ids_update[ytid_key]]['quality']
     else:
         yt_id_quality = None
-    # 下载视频
     for yt_id in ytid_value:
-        if dl_aideo_video(
-            yt_id, ytid_key, yt_id_file, config['retry_count'], "https://www.youtube.com/watch?v=", yt_id_quality, channelid_youtube_ids[ytid_key]
+        yt_id_format ={}
+        yt_id_format["id"] = ytid_key
+        yt_id_format["media"] = yt_id_file
+        yt_id_format["quality"] = yt_id_quality
+        youtube_content_ytid_update_format[yt_id] = yt_id_format
+# 创建线程锁
+youtube_video_format_lock = threading.Lock()
+def youtube_video_format(yt_id):
+    ytid_update_format = video_format("https://www.youtube.com/watch?v=", yt_id, youtube_content_ytid_update_format[yt_id]["media"], youtube_content_ytid_update_format[yt_id]["quality"])
+    if isinstance(ytid_update_format, list):
+        youtube_content_ytid_update_format[yt_id]["format"] = ytid_update_format
+    else:
+        with youtube_video_format_lock:
+            yt_id_failed.append(yt_id)
+            del youtube_content_ytid_update_format[yt_id]
+            write_log(f"{channelid_youtube_ids[youtube_content_ytid_update_format[yt_id]['id']]}|{yt_id} {ytid_update_format}")
+# 创建线程列表
+youtube_content_ytid_update_threads = []
+for yt_id in youtube_content_ytid_update_format.keys():
+    thread = threading.Thread(target=youtube_video_format, args=(yt_id,))
+    youtube_content_ytid_update_threads.append(thread)
+    thread.start()
+# 等待所有线程完成
+for thread in youtube_content_ytid_update_threads:
+    thread.join()
+# 下载YouTube视频
+for yt_id in youtube_content_ytid_update_format.keys():
+    if dl_aideo_video(
+            yt_id,
+            youtube_content_ytid_update_format[yt_id]['id'],
+            youtube_content_ytid_update_format[yt_id]['media'],
+            youtube_content_ytid_update_format[yt_id]['format'],
+            config['retry_count'],
+            "https://www.youtube.com/watch?v=",
+            youtube_content_ytid_update_format[yt_id]['quality'],
+            channelid_youtube_ids[youtube_content_ytid_update_format[yt_id]['id']]
         ):
             yt_id_failed.append(yt_id)
-            write_log(f"{channelid_youtube_ids[ytid_key]}|{yt_id} \033[31m无法下载\033[0m")
+            write_log(f"{channelid_youtube_ids[youtube_content_ytid_update_format[yt_id]['id']]}|{yt_id} \033[31m无法下载\033[0m")
 
 
 # In[21]:
@@ -1020,36 +1107,73 @@ def remove_file(output_dir):
 # In[31]:
 
 
-# 补全缺失的媒体文件模块
-def make_up_file(output_dir):
-    for file_name in all_youtube_content_ytid[output_dir]:
-        if file_name not in os.listdir(output_dir):
-            write_log(f"{channelid_youtube_ids[output_dir]}|{file_name}缺失并重新下载")
-            # 如果为视频格式获取分辨率
-            if file_name.split(".")[0] == "mp4":
-                video_quality = channelid_youtube[channelid_youtube_ids[output_dir]]['quality']
-            else:
-                video_quality = 480
-            if dl_aideo_video(
-                file_name.split(".")[0], output_dir, file_name.split(".")[1], config['retry_count'], "https://www.youtube.com/watch?v=", video_quality, channelid_youtube_ids[output_dir]
-            ):
-                write_log(f"{channelid_youtube_ids[file_name.split('.')[0]]}|{file_name.split('.')[0]}无法下载")
-
-
-# In[32]:
-
-
 # 删除不在rss中的媒体文件
 for output_dir in channelid_youtube_ids:
     remove_file(output_dir)
 
 
+# In[32]:
+
+
+# 补全缺失的媒体文件到字典模块
+print(f"{datetime.now().strftime('%H:%M:%S')}|补全缺失媒体 \033[34m下载准备中...\033[0m")
+make_up_file_format = {}
+def make_up_file(output_dir):
+    for file_name in all_youtube_content_ytid[output_dir]:
+        if file_name not in os.listdir(output_dir):
+            video_id_format = {}
+            #write_log(f"{channelid_youtube_ids[output_dir]}|{file_name}缺失并重新下载")
+            # 如果为视频格式获取分辨率
+            video_id_format["id"] = output_dir
+            video_id_format["media"] = file_name.split(".")[1]
+            if file_name.split(".")[0] == "mp4":
+                video_quality = channelid_youtube[channelid_youtube_ids[output_dir]]['quality']
+            else:
+                video_quality = 480
+            video_id_format["quality"] = video_quality
+            make_up_file_format[file_name.split(".")[0]] = video_id_format
+
+
 # In[33]:
 
 
-# 补全在rss中缺失的媒体文件
+# 补全在rss中缺失的媒体格式信息
 for output_dir in channelid_youtube_ids:
     make_up_file(output_dir)
+# 创建线程锁
+makeup_yt_format_lock = threading.Lock()
+def makeup_yt_format(yt_id):
+    makeup_ytid_format = video_format("https://www.youtube.com/watch?v=", yt_id, make_up_file_format[yt_id]["media"], make_up_file_format[yt_id]["quality"])
+    if isinstance(makeup_ytid_format, list):
+        make_up_file_format[yt_id]["format"] = makeup_ytid_format
+    else:
+        with makeup_yt_format_lock:
+            del make_up_file_format[yt_id]
+            write_log(f"{channelid_youtube_ids[make_up_file_format[yt_id]['id']]}|{yt_id} {makeup_ytid_format}")
+# 创建线程列表
+makeup_yt_format_threads = []
+for yt_id in make_up_file_format.keys():
+    thread = threading.Thread(target=makeup_yt_format, args=(yt_id,))
+    makeup_yt_format_threads.append(thread)
+    thread.start()
+# 等待所有线程完成
+for thread in makeup_yt_format_threads:
+    thread.join()
+# 下载YouTube视频
+for yt_id in make_up_file_format.keys():
+    write_log(f"{channelid_youtube_ids[make_up_file_format[yt_id]['id']]}|{yt_id} 缺失并重新下载")
+    if dl_aideo_video(
+            yt_id,
+            make_up_file_format[yt_id]['id'],
+            make_up_file_format[yt_id]['media'],
+            make_up_file_format[yt_id]['format'],
+            config['retry_count'],
+            "https://www.youtube.com/watch?v=",
+            make_up_file_format[yt_id]['quality'],
+            channelid_youtube_ids[make_up_file_format[yt_id]['id']]
+        ):
+            yt_id_failed.append(yt_id)
+            write_log(f"{channelid_youtube_ids[make_up_file_format[yt_id]['id']]}|{yt_id} \033[31m无法下载\033[0m")
 
 
 # In[34]:
