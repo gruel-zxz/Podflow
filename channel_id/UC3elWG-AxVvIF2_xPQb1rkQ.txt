@@ -11,6 +11,29 @@
  </author>
  <published>2022-06-04T16:17:27+00:00</published>
  <entry>
+  <id>yt:video:rpdjmLUeedY</id>
+  <yt:videoId>rpdjmLUeedY</yt:videoId>
+  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
+  <title>都说中国的世界的，但是我觉得这句话应该反过来说#爱吐槽的四季妈妈 #家庭吐槽大会</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=rpdjmLUeedY"/>
+  <author>
+   <name>四季妈妈—小龙</name>
+   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
+  </author>
+  <published>2023-10-12T00:17:55+00:00</published>
+  <updated>2023-10-12T00:18:24+00:00</updated>
+  <media:group>
+   <media:title>都说中国的世界的，但是我觉得这句话应该反过来说#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
+   <media:content url="https://www.youtube.com/v/rpdjmLUeedY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/rpdjmLUeedY/hqdefault.jpg" width="480" height="360"/>
+   <media:description>都说中国的世界的，但是我觉得这句话应该反过来说#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="84"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:6DknTtKwcNw</id>
   <yt:videoId>6DknTtKwcNw</yt:videoId>
   <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
@@ -28,8 +51,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/6DknTtKwcNw/hqdefault.jpg" width="480" height="360"/>
    <media:description>论方言的感染力，东北方言绝对是第一了#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="51" average="5.00" min="1" max="5"/>
-    <media:statistics views="2264"/>
+    <media:starRating count="74" average="5.00" min="1" max="5"/>
+    <media:statistics views="3324"/>
    </media:community>
   </media:group>
  </entry>
@@ -52,7 +75,7 @@
    <media:description>给山东人送礼是个体力活，不仅劲儿得大，还得跑得快#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="9" average="5.00" min="1" max="5"/>
-    <media:statistics views="373"/>
+    <media:statistics views="433"/>
    </media:community>
   </media:group>
  </entry>
@@ -75,7 +98,7 @@
    <media:description>难道这些就是男人开车累的原因吗#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="12" average="5.00" min="1" max="5"/>
-    <media:statistics views="866"/>
+    <media:statistics views="879"/>
    </media:community>
   </media:group>
  </entry>
@@ -98,7 +121,7 @@
    <media:description>上有天堂下有苏杭真不是吹的#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="22" average="5.00" min="1" max="5"/>
-    <media:statistics views="742"/>
+    <media:statistics views="749"/>
    </media:community>
   </media:group>
  </entry>
@@ -121,7 +144,7 @@
    <media:description>我想问问大家，你们还在高速上吗？#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="16" average="5.00" min="1" max="5"/>
-    <media:statistics views="892"/>
+    <media:statistics views="902"/>
    </media:community>
   </media:group>
  </entry>
@@ -144,7 +167,7 @@
    <media:description>酒后吐真言，假也三分甜#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="608"/>
+    <media:statistics views="620"/>
    </media:community>
   </media:group>
  </entry>
@@ -167,7 +190,7 @@
    <media:description>山东人狠狠拿捏住了语言的艺术#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="11" average="5.00" min="1" max="5"/>
-    <media:statistics views="554"/>
+    <media:statistics views="559"/>
    </media:community>
   </media:group>
  </entry>
@@ -190,7 +213,7 @@
    <media:description>我发现了男人结婚后应酬越来越多的原因#爱吐槽的四季妈妈 #家庭吐槽大会 #江中肝纯片</media:description>
    <media:community>
     <media:starRating count="12" average="5.00" min="1" max="5"/>
-    <media:statistics views="542"/>
+    <media:statistics views="545"/>
    </media:community>
   </media:group>
  </entry>
@@ -213,7 +236,7 @@
    <media:description>东北男人是藏獒一样的存在，能管住他们的只有   #爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="484"/>
+    <media:statistics views="485"/>
    </media:community>
   </media:group>
  </entry>
@@ -236,7 +259,7 @@
    <media:description>男人吵架不接电话的原因竟然是  #爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="10" average="5.00" min="1" max="5"/>
-    <media:statistics views="640"/>
+    <media:statistics views="641"/>
    </media:community>
   </media:group>
  </entry>
@@ -259,7 +282,7 @@
    <media:description>据说没有女孩可以拒绝大叔，尤其是那种生活自律情商高超的大叔#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="510"/>
+    <media:statistics views="511"/>
    </media:community>
   </media:group>
  </entry>
@@ -304,8 +327,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/vFuSsdnaWNg/hqdefault.jpg" width="480" height="360"/>
    <media:description>据说她是中年男人心中绝对的女神#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="287" average="5.00" min="1" max="5"/>
-    <media:statistics views="23770"/>
+    <media:starRating count="304" average="5.00" min="1" max="5"/>
+    <media:statistics views="24955"/>
    </media:community>
   </media:group>
  </entry>
@@ -328,30 +351,7 @@
    <media:description>在某些方面男人确实很强，毕竟包子有馅儿不在褶上#爱吐槽的四季妈妈 #家庭吐槽大会 #iPhon</media:description>
    <media:community>
     <media:starRating count="10" average="5.00" min="1" max="5"/>
-    <media:statistics views="430"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:-Bzm65ZcshU</id>
-  <yt:videoId>-Bzm65ZcshU</yt:videoId>
-  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
-  <title>浦东机场应该是每个卡点坐飞机的人的噩梦吧#爱吐槽的四季妈妈 #家庭吐槽大会</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=-Bzm65ZcshU"/>
-  <author>
-   <name>四季妈妈—小龙</name>
-   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
-  </author>
-  <published>2023-09-13T23:07:57+00:00</published>
-  <updated>2023-09-23T07:38:06+00:00</updated>
-  <media:group>
-   <media:title>浦东机场应该是每个卡点坐飞机的人的噩梦吧#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
-   <media:content url="https://www.youtube.com/v/-Bzm65ZcshU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/-Bzm65ZcshU/hqdefault.jpg" width="480" height="360"/>
-   <media:description>浦东机场应该是每个卡点坐飞机的人的噩梦吧#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
-   <media:community>
-    <media:starRating count="494" average="5.00" min="1" max="5"/>
-    <media:statistics views="41687"/>
+    <media:statistics views="431"/>
    </media:community>
   </media:group>
  </entry>
