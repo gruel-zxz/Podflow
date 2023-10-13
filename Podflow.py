@@ -176,7 +176,7 @@ def library_install(library):
             # 如果库已安装, 则尝试更新
             try:
                 subprocess.run(['pip', 'install', '--upgrade', library], capture_output = True, text = True)
-                write_log(f"{library}更新成功")
+                write_log(f"{library}更新成功|版本：\033[32m{version_update.group()}\033[0m")
             except FileNotFoundError:
                 write_log(f"{library}更新失败")
         else:
@@ -265,8 +265,7 @@ def show_progress(stream):
             elapsed = time_format(stream['elapsed']).ljust(8)
         else:
             elapsed = "Unknown "
-        print((f"\r100.0%|{downloaded_bytes}\{total_bytes}|\033[32m{speed}/s\033[0m|\033[97m{elapsed}\033[0m"),end = "")
-        print("")
+        print((f"\r100.0%|{downloaded_bytes}\{total_bytes}|\033[32m{speed}/s\033[0m|\033[97m{elapsed}\033[0m"))
 
 
 # In[10]:
@@ -331,25 +330,28 @@ def video_format(video_website, video_url, media = "m4a", quality = "480"):
         def best_format_id(formats):
             filesize_max = 0
             format_id_best = ""
+            vcodec_best = ""
             for format in formats:
                 if "filesize" in format and (isinstance(format["filesize"], float) or isinstance(format["filesize"], int)) and format["filesize"] > filesize_max:
                     filesize_max = format["filesize"]
                     format_id_best = format["format_id"]
-            return format_id_best
+                    vcodec_best = format["vcodec"]
+            return format_id_best, vcodec_best
         # 进行筛选
         formats_m4a = list(filter(lambda item: check_ext(item, "m4a") and check_vcodec(item), formats))
-        best_formats_m4a = best_format_id(formats_m4a)
+        (best_formats_m4a, vcodec_best) = best_format_id(formats_m4a)
         if best_formats_m4a == "" or best_formats_m4a is None:
             fail_message = f"\033[31m获取信息失败\033[0m, \n错误信息：无法获取音频格式ID"
         else:
             duration_and_id.append(best_formats_m4a)
             if media == "mp4":
                 formats_mp4 = list(filter(lambda item: check_resolution(item) and check_ext(item, "mp4") and check_vcodec(item), formats))
-                best_formats_mp4 = best_format_id(formats_mp4)
+                (best_formats_mp4, vcodec_best) = best_format_id(formats_mp4)
                 if best_formats_mp4 == ""or best_formats_mp4 is None:
-                    fail_message = f"\033[31m获取信息失败\033[0m\n错误信息：无法获取视频格式ID"
+                    fail_message = f"\033[31m获取信息失败\033[0m, \n错误信息：无法获取视频格式ID"
                 else:
                     duration_and_id.append(best_formats_mp4)
+                    duration_and_id.append(vcodec_best)
     if fail_message is not None:
         return fail_message
     else:
@@ -435,7 +437,7 @@ def dl_aideo_video(video_url, output_dir, output_format, video_format, retry_cou
             print(f"{datetime.now().strftime('%H:%M:%S')}|\033[34m开始音频部分下载\033[0m\033[97m{video_format[1]}\033[0m")
             yt_id_failed = dl_retry_video(video_url, output_dir, "m4a", video_format[1], id_duration, retry_count, video_website, video_write_log, format_code, ".part")
             if yt_id_failed is None:
-                print(f"{datetime.now().strftime('%H:%M:%S')}|\033[34m开始合成\033[0m")
+                print(f"{datetime.now().strftime('%H:%M:%S')}|\033[34m开始合成...\033[0m")
                 # 构建FFmpeg命令
                 ffmpeg_cmd = [
                     'ffmpeg',
@@ -449,7 +451,7 @@ def dl_aideo_video(video_url, output_dir, output_format, video_format, retry_cou
                 # 执行FFmpeg命令
                 try:
                     subprocess.run(ffmpeg_cmd, check=True, capture_output = True, text = True)
-                    print(f"{datetime.now().strftime('%H:%M:%S')}|\033[32m合成成功\033[0m")
+                    print(f" \033[32m合成成功\033[0m")
                     os.remove(f"{output_dir}/{video_url}.part.mp4")
                     os.remove(f"{output_dir}/{video_url}.part.m4a")
                 except subprocess.CalledProcessError as e:
@@ -1123,7 +1125,6 @@ def make_up_file(output_dir):
     for file_name in all_youtube_content_ytid[output_dir]:
         if file_name not in os.listdir(output_dir):
             video_id_format = {}
-            #write_log(f"{channelid_youtube_ids[output_dir]}|{file_name}缺失并重新下载")
             # 如果为视频格式获取分辨率
             video_id_format["id"] = output_dir
             video_id_format["media"] = file_name.split(".")[1]
