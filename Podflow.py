@@ -9,6 +9,7 @@ import re
 import sys
 import html
 import json
+import math
 import time
 import threading
 import subprocess
@@ -364,14 +365,16 @@ def get_duration_ffprobe(file_path):
         command = [
             "ffprobe",                       # ffprobe 命令
             "-i", file_path,                 # 输入文件路径
-            "-show_entries", "format=duration",  # 显示时长信息
+            "-show_entries", "format",  # 显示时长信息
             "-v", "error",
-            "-of", "default=noprint_wrappers=1:nokey=1"
         ]
         # 执行命令并获取输出
         output = subprocess.check_output(command, stderr=subprocess.STDOUT).decode("utf-8")
-        # 使用正则表达式提取时长值, 并将其转换为浮点数并四舍五入为整数
-        return round(float(output))
+        output = re.search(r"(?<=duration.)[0-9]+\.?[0-9]*", output)
+        if output:
+            return math.ceil(float(output.group()))
+        else:
+            return None
     except subprocess.CalledProcessError as e:
         write_log(f"Error: {e.output}")
         return None
@@ -456,7 +459,7 @@ def dl_aideo_video(video_url, output_dir, output_format, video_format, retry_cou
                     os.remove(f"{output_dir}/{video_url}.part.m4a")
                 except subprocess.CalledProcessError as e:
                     yt_id_failed = video_url
-                    write_log(f"{video_write_log} \033[31m下载失败\033[0m\n错误信息：合成失败") 
+                    write_log(f"{video_write_log} \033[31m下载失败\033[0m\n错误信息：合成失败:{e}") 
     if yt_id_failed is None:
         write_log(f"{video_write_log} \033[32m下载成功\033[0m")  # 写入下载成功的日志信息
     return yt_id_failed
