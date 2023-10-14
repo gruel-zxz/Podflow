@@ -310,8 +310,9 @@ def video_format(video_website, video_url, media = "m4a", quality = "480"):
     if fail_message is None:
         if duration == "" or duration is None:
             fail_message = f"\033[31m获取信息失败\033[0m\n错误信息：无法获取媒体时长"
-        if formats == "" or formats is None:
-            fail_message = f"\033[31m获取信息失败\033[0m\n错误信息：无法获取媒体格式"
+        else:
+            if formats == "" or formats is None:
+                fail_message = f"\033[31m获取信息失败\033[0m\n错误信息：无法获取媒体格式"
         duration_and_id = []
         duration_and_id.append(duration)
         # 定义条件判断函数
@@ -344,6 +345,7 @@ def video_format(video_website, video_url, media = "m4a", quality = "480"):
                     format_id_best = format["format_id"]
                     vcodec_best = format["vcodec"]
             return format_id_best, vcodec_best
+    if fail_message is None:
         # 进行筛选
         formats_m4a = list(filter(lambda item: check_ext(item, "m4a") and check_vcodec(item), formats))
         (best_formats_m4a, vcodec_best) = best_format_id(formats_m4a)
