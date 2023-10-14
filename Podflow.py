@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[35]:
+# In[1]:
 
 
 import os
@@ -42,7 +42,7 @@ default_config = {
 # 如果InmainRSS为False或频道有更新则无视DisplayRSSaddress的状态, 都会变为True。
 
 
-# In[36]:
+# In[2]:
 
 
 # 文件保存模块
@@ -58,7 +58,7 @@ def file_save(content, file_name, folder=None):
         file.write(content)
 
 
-# In[37]:
+# In[3]:
 
 
 #日志模块
@@ -86,7 +86,7 @@ def write_log(log, suffix = None, display = True):
             print(f"{formatted_time_mini}|{log}")
 
 
-# In[38]:
+# In[4]:
 
 
 # 查看requests模块是否安装
@@ -134,7 +134,7 @@ except ImportError:
         sys.exit(0)
 
 
-# In[39]:
+# In[5]:
 
 
 # HTTP GET请求重试模块
@@ -158,7 +158,7 @@ def vary_replace(varys, text):
     return text
 
 
-# In[40]:
+# In[6]:
 
 
 # 安装库模块
@@ -198,7 +198,7 @@ def library_install(library):
             write_log(f"{library}安装失败")
 
 
-# In[41]:
+# In[7]:
 
 
 # 安装/更新yt-dlp并加载
@@ -208,7 +208,7 @@ import yt_dlp
 library_install("RangeHTTPServer")
 
 
-# In[42]:
+# In[8]:
 
 
 # 格式化时间模块
@@ -240,7 +240,7 @@ def convert_bytes(byte_size, units = None, outweigh = 1024):
     return f"{byte_size:.2f}{units[unit_index]}"
 
 
-# In[43]:
+# In[9]:
 
 
 # 下载显示模块
@@ -275,7 +275,7 @@ def show_progress(stream):
         print((f"\r100.0%|{downloaded_bytes}\{total_bytes}|\033[32m{speed}/s\033[0m|\033[97m{elapsed}\033[0m"))
 
 
-# In[44]:
+# In[10]:
 
 
 # 获取媒体时长和ID模块
@@ -309,10 +309,9 @@ def video_format(video_website, video_url, media = "m4a", quality = "480"):
         fail_message, duration, formats = duration_and_formats(video_website, video_url)
     if fail_message is None:
         if duration == "" or duration is None:
-            fail_message = f"\033[31m获取信息失败\033[0m\n错误信息：无法获取媒体时长"
-        else:
-            if formats == "" or formats is None:
-                fail_message = f"\033[31m获取信息失败\033[0m\n错误信息：无法获取媒体格式"
+            return f"\033[31m获取信息失败\033[0m\n错误信息：无法获取媒体时长"
+        if formats == "" or formats is None:
+            return f"\033[31m获取信息失败\033[0m\n错误信息：无法获取媒体格式"
         duration_and_id = []
         duration_and_id.append(duration)
         # 定义条件判断函数
@@ -345,26 +344,24 @@ def video_format(video_website, video_url, media = "m4a", quality = "480"):
                     format_id_best = format["format_id"]
                     vcodec_best = format["vcodec"]
             return format_id_best, vcodec_best
-    if fail_message is None:
         # 进行筛选
         formats_m4a = list(filter(lambda item: check_ext(item, "m4a") and check_vcodec(item), formats))
         (best_formats_m4a, vcodec_best) = best_format_id(formats_m4a)
         if best_formats_m4a == "" or best_formats_m4a is None:
-            fail_message = f"\033[31m获取信息失败\033[0m, \n错误信息：无法获取音频格式ID"
+            return f"\033[31m获取信息失败\033[0m, \n错误信息：无法获取音频格式ID"
         else:
             duration_and_id.append(best_formats_m4a)
             if media == "mp4":
                 formats_mp4 = list(filter(lambda item: check_resolution(item) and check_ext(item, "mp4") and check_vcodec(item), formats))
                 (best_formats_mp4, vcodec_best) = best_format_id(formats_mp4)
                 if best_formats_mp4 == ""or best_formats_mp4 is None:
-                    fail_message = f"\033[31m获取信息失败\033[0m, \n错误信息：无法获取视频格式ID"
+                    return f"\033[31m获取信息失败\033[0m, \n错误信息：无法获取视频格式ID"
                 else:
                     duration_and_id.append(best_formats_mp4)
                     duration_and_id.append(vcodec_best)
-    if fail_message is not None:
-        return fail_message
-    else:
         return duration_and_id
+    else:
+        return fail_message
 
 # 获取已下载视频时长模块
 def get_duration_ffprobe(file_path):
@@ -404,7 +401,7 @@ def download_video(video_url, output_dir, output_format, format_id, video_websit
         return video_url
 
 
-# In[45]:
+# In[11]:
 
 
 # 视频完整下载模块
@@ -473,7 +470,7 @@ def dl_aideo_video(video_url, output_dir, output_format, video_format, retry_cou
     return yt_id_failed
 
 
-# In[46]:
+# In[12]:
 
 
 # 构建文件夹模块
@@ -484,7 +481,7 @@ def folder_build(folder_name):
         write_log(f"文件夹{folder_name}创建成功")
 
 
-# In[47]:
+# In[13]:
 
 
 # 检查当前文件夹中是否存在config.json文件
@@ -506,7 +503,7 @@ else:
         sys.exit(0)
 
 
-# In[48]:
+# In[14]:
 
 
 # 对retry_count进行纠正
@@ -548,7 +545,7 @@ if ('category' not in config):
     config['category'] = default_config["category"]
 
 
-# In[49]:
+# In[15]:
 
 
 # 从配置文件中获取YouTube的频道
@@ -567,14 +564,14 @@ else:
     write_log("bilibili频道信息不存在")
 
 
-# In[50]:
+# In[16]:
 
 
 # 构建文件夹channel_id
 folder_build("channel_id")
 
 
-# In[51]:
+# In[17]:
 
 
 # 视频分辨率变量
@@ -652,7 +649,7 @@ for channelid_youtube_key, channelid_youtube_value in channelid_youtube_copy.ite
             channelid_youtube[channelid_youtube_key]['InmainRSS'] = True
 
 
-# In[52]:
+# In[18]:
 
 
 # 读取youtube频道的id
@@ -669,7 +666,7 @@ else:
     channelid_bilibili_ids = None
 
 
-# In[53]:
+# In[19]:
 
 
 # 更新Youtube频道xml
@@ -742,7 +739,7 @@ if channelid_youtube_ids_update:
     write_log(f"需更新的YouTube频道:\n\033[32m{' '.join(channelid_youtube_ids_update.values())}\033[0m")
 
 
-# In[54]:
+# In[20]:
 
 
 # 获取YouTube视频格式信息
@@ -800,7 +797,7 @@ for yt_id in youtube_content_ytid_update_format.keys():
             write_log(f"{channelid_youtube_ids[youtube_content_ytid_update_format[yt_id]['id']]}|{yt_id} \033[31m无法下载\033[0m")
 
 
-# In[55]:
+# In[21]:
 
 
 #生成XML模块
@@ -846,7 +843,7 @@ def xml_rss(title,link,description,category,icon,items):
 </rss>'''
 
 
-# In[56]:
+# In[22]:
 
 
 # 生成item模块
@@ -893,7 +890,7 @@ def xml_item(video_url, output_dir, video_website, channelid_title,title, descri
 '''
 
 
-# In[57]:
+# In[23]:
 
 
 # 生成YouTube的item模块
@@ -924,7 +921,7 @@ def youtube_xml_item(entry):
     )
 
 
-# In[58]:
+# In[24]:
 
 
 # 生成原有的item模块
@@ -970,7 +967,7 @@ def xml_original_item(original_item):
 '''
 
 
-# In[59]:
+# In[25]:
 
 
 # 获取原始xml文件
@@ -999,14 +996,14 @@ for youtube_key in channelid_youtube_ids.keys():
             write_log(f"RSS文件中不存在 {channelid_youtube_ids[youtube_key]} 无法保留原节目")
 
 
-# In[60]:
+# In[26]:
 
 
 # 构建文件夹channel_rss
 folder_build("channel_rss")
 
 
-# In[61]:
+# In[27]:
 
 
 # 创建线程锁
@@ -1044,7 +1041,7 @@ for thread in youtube_xml_get_threads:
     thread.join()
 
 
-# In[62]:
+# In[28]:
 
 
 # 生成YouTube对应channel的需更新的items模块
@@ -1096,7 +1093,7 @@ def youtube_xml_items(output_dir):
     return items
 
 
-# In[63]:
+# In[29]:
 
 
 # 生成主rss
@@ -1112,7 +1109,7 @@ file_save(xml_rss(config["title"], config["link"], config["description"], config
 write_log("总播客已更新", f"地址: \033[34m{config['url']}/{config['filename']}.xml\033[0m")
 
 
-# In[64]:
+# In[30]:
 
 
 # 删除多余媒体文件模块
@@ -1123,7 +1120,7 @@ def remove_file(output_dir):
             write_log(f"{channelid_youtube_ids[output_dir]}|{file_name}已删除")
 
 
-# In[65]:
+# In[31]:
 
 
 # 删除不在rss中的媒体文件
@@ -1131,7 +1128,7 @@ for output_dir in channelid_youtube_ids:
     remove_file(output_dir)
 
 
-# In[66]:
+# In[32]:
 
 
 # 补全缺失的媒体文件到字典模块
@@ -1151,7 +1148,7 @@ def make_up_file(output_dir):
             make_up_file_format[file_name.split(".")[0]] = video_id_format
 
 
-# In[67]:
+# In[33]:
 
 
 # 补全在rss中缺失的媒体格式信息
@@ -1195,7 +1192,7 @@ for yt_id in make_up_file_format.keys():
             write_log(f"{channelid_youtube_ids[make_up_file_format[yt_id]['id']]}|{yt_id} \033[31m无法下载\033[0m")
 
 
-# In[68]:
+# In[34]:
 
 
 if sys.argv[1] == "a-shell":
