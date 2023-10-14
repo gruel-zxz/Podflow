@@ -770,8 +770,9 @@ def youtube_video_format(yt_id):
     else:
         with youtube_video_format_lock:
             yt_id_failed.append(yt_id)
-            del youtube_content_ytid_update_format[yt_id]
             write_log(f"{channelid_youtube_ids[youtube_content_ytid_update_format[yt_id]['id']]}|{yt_id} {ytid_update_format}")
+            del youtube_content_ytid_update_format[yt_id]
+            #write_log(f"{channelid_youtube_ids[youtube_content_ytid_update_format[yt_id]['id']]}|{yt_id} {ytid_update_format}")
 # 创建线程列表
 youtube_content_ytid_update_threads = []
 for yt_id in youtube_content_ytid_update_format.keys():
