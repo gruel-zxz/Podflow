@@ -49,8 +49,8 @@
 
 #日本漫畫 #殺手阿一 #cult</media:description>
    <media:community>
-    <media:starRating count="656" average="5.00" min="1" max="5"/>
-    <media:statistics views="20182"/>
+    <media:starRating count="657" average="5.00" min="1" max="5"/>
+    <media:statistics views="20210"/>
    </media:community>
   </media:group>
  </entry>
@@ -94,8 +94,8 @@
 
 #日本漫畫 #殺手阿一 #cult</media:description>
    <media:community>
-    <media:starRating count="812" average="5.00" min="1" max="5"/>
-    <media:statistics views="50869"/>
+    <media:starRating count="813" average="5.00" min="1" max="5"/>
+    <media:statistics views="50900"/>
    </media:community>
   </media:group>
  </entry>
@@ -140,8 +140,8 @@
 
 #日本 #次文化 #戀物</media:description>
    <media:community>
-    <media:starRating count="798" average="5.00" min="1" max="5"/>
-    <media:statistics views="42682"/>
+    <media:starRating count="799" average="5.00" min="1" max="5"/>
+    <media:statistics views="42695"/>
    </media:community>
   </media:group>
  </entry>
@@ -185,7 +185,7 @@
 #遊戲 #videogames  #日本</media:description>
    <media:community>
     <media:starRating count="1933" average="5.00" min="1" max="5"/>
-    <media:statistics views="159157"/>
+    <media:statistics views="159175"/>
    </media:community>
   </media:group>
  </entry>
@@ -230,7 +230,7 @@
 #日本 #動漫 #日本電影</media:description>
    <media:community>
     <media:starRating count="1589" average="5.00" min="1" max="5"/>
-    <media:statistics views="112842"/>
+    <media:statistics views="112872"/>
    </media:community>
   </media:group>
  </entry>
@@ -275,7 +275,7 @@
 ▶我的品牌官網：www.under20.com</media:description>
    <media:community>
     <media:starRating count="1432" average="5.00" min="1" max="5"/>
-    <media:statistics views="126113"/>
+    <media:statistics views="126128"/>
    </media:community>
   </media:group>
  </entry>
@@ -317,7 +317,7 @@
 ▶我的品牌官網：www.under20.com</media:description>
    <media:community>
     <media:starRating count="1462" average="5.00" min="1" max="5"/>
-    <media:statistics views="117386"/>
+    <media:statistics views="117395"/>
    </media:community>
   </media:group>
  </entry>
@@ -381,7 +381,7 @@
 ▶我的品牌官網：www.under20.com</media:description>
    <media:community>
     <media:starRating count="1376" average="5.00" min="1" max="5"/>
-    <media:statistics views="257465"/>
+    <media:statistics views="257517"/>
    </media:community>
   </media:group>
  </entry>
@@ -423,7 +423,7 @@
 #日本 #日本社會</media:description>
    <media:community>
     <media:starRating count="770" average="5.00" min="1" max="5"/>
-    <media:statistics views="57680"/>
+    <media:statistics views="57682"/>
    </media:community>
   </media:group>
  </entry>
@@ -468,7 +468,7 @@
 #2ch #日本文化 #互聯網</media:description>
    <media:community>
     <media:starRating count="815" average="5.00" min="1" max="5"/>
-    <media:statistics views="60123"/>
+    <media:statistics views="60126"/>
    </media:community>
   </media:group>
  </entry>
@@ -560,7 +560,7 @@
 ▶我的品牌官網：www.under20.com</media:description>
    <media:community>
     <media:starRating count="1460" average="5.00" min="1" max="5"/>
-    <media:statistics views="95845"/>
+    <media:statistics views="95853"/>
    </media:community>
   </media:group>
  </entry>
@@ -602,7 +602,7 @@
 #福島核污水 #日本核廢水 #核輻射 #科幻</media:description>
    <media:community>
     <media:starRating count="682" average="5.00" min="1" max="5"/>
-    <media:statistics views="33926"/>
+    <media:statistics views="33931"/>
    </media:community>
   </media:group>
  </entry>
@@ -649,7 +649,7 @@
 #伊藤潤二 #恐怖 #日本 #次文化</media:description>
    <media:community>
     <media:starRating count="1172" average="5.00" min="1" max="5"/>
-    <media:statistics views="72771"/>
+    <media:statistics views="72775"/>
    </media:community>
   </media:group>
  </entry>
@@ -697,7 +697,7 @@
 ▶我的品牌官網：www.under20.com</media:description>
    <media:community>
     <media:starRating count="10714" average="5.00" min="1" max="5"/>
-    <media:statistics views="1537651"/>
+    <media:statistics views="1537763"/>
    </media:community>
   </media:group>
  </entry>

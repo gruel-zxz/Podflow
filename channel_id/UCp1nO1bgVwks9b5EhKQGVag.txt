@@ -30,7 +30,7 @@
 下来尽量在3期内搞定这个系列。</media:description>
    <media:community>
     <media:starRating count="155" average="5.00" min="1" max="5"/>
-    <media:statistics views="6790"/>
+    <media:statistics views="6795"/>
    </media:community>
   </media:group>
  </entry>
@@ -53,7 +53,7 @@
    <media:description>在时间加速的情况下，数字生命也可以飞向星空——科幻小说《晶体之夜》，出自格雷格.伊根（Greg Egan）的短篇小说集《数学陷落》Oceanic。</media:description>
    <media:community>
     <media:starRating count="153" average="5.00" min="1" max="5"/>
-    <media:statistics views="6133"/>
+    <media:statistics views="6135"/>
    </media:community>
   </media:group>
  </entry>
@@ -77,7 +77,7 @@
 这部40万字的长篇硬核科幻啊！人类无处可逃，因为地球也不过是另一艘飞船：科幻巨著《极光》大结局</media:description>
    <media:community>
     <media:starRating count="194" average="5.00" min="1" max="5"/>
-    <media:statistics views="10298"/>
+    <media:statistics views="10301"/>
    </media:community>
   </media:group>
  </entry>
@@ -100,7 +100,7 @@
    <media:description>一艘1/10光速的飞船回归地球，它该如何减速？科幻巨著《极光》第二集。</media:description>
    <media:community>
     <media:starRating count="145" average="5.00" min="1" max="5"/>
-    <media:statistics views="8181"/>
+    <media:statistics views="8184"/>
    </media:community>
   </media:group>
  </entry>
@@ -124,7 +124,7 @@
 这部小说堪称人类航天的教科书级的小说，全程充满知识点，严谨的写作手法让这部小说毫无逻辑漏洞，堪称经典！</media:description>
    <media:community>
     <media:starRating count="286" average="5.00" min="1" max="5"/>
-    <media:statistics views="27882"/>
+    <media:statistics views="27904"/>
    </media:community>
   </media:group>
  </entry>
@@ -147,7 +147,7 @@
    <media:description>《XeeLee》系列从第三集开始，也要正式进入正题了，真正意义上的战争和剧情走向也要开始了。而且我们文案的叙事也相对加快了，以前计划十多集完成，目前计划在8集以内搞定。</media:description>
    <media:community>
     <media:starRating count="188" average="5.00" min="1" max="5"/>
-    <media:statistics views="8734"/>
+    <media:statistics views="8736"/>
    </media:community>
   </media:group>
  </entry>
@@ -197,7 +197,7 @@
 08：46 巨引源的真相</media:description>
    <media:community>
     <media:starRating count="240" average="5.00" min="1" max="5"/>
-    <media:statistics views="9699"/>
+    <media:statistics views="9703"/>
    </media:community>
   </media:group>
  </entry>
@@ -268,7 +268,7 @@
    <media:description>2000年星云奖作品，《达尔文电波》。一部关于生物、化学、进化等内容的硬核科幻作品，作者提出了一个大胆的构想：物种的进化只需要两代便可以产生出全新的物种。原著：格雷格.贝尔。另外，xeelee系列已经开始搞了。</media:description>
    <media:community>
     <media:starRating count="169" average="5.00" min="1" max="5"/>
-    <media:statistics views="11277"/>
+    <media:statistics views="11276"/>
    </media:community>
   </media:group>
  </entry>

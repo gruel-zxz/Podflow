@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[40]:
+# In[1]:
 
 
 import os
@@ -42,7 +42,7 @@ default_config = {
 # 如果InmainRSS为False或频道有更新则无视DisplayRSSaddress的状态, 都会变为True。
 
 
-# In[41]:
+# In[2]:
 
 
 # 文件保存模块
@@ -58,7 +58,7 @@ def file_save(content, file_name, folder=None):
         file.write(content)
 
 
-# In[42]:
+# In[3]:
 
 
 #日志模块
@@ -86,7 +86,7 @@ def write_log(log, suffix = None, display = True):
             print(f"{formatted_time_mini}|{log}")
 
 
-# In[43]:
+# In[4]:
 
 
 # 查看requests模块是否安装
@@ -134,7 +134,7 @@ except ImportError:
         sys.exit(0)
 
 
-# In[44]:
+# In[5]:
 
 
 # HTTP GET请求重试模块
@@ -158,7 +158,7 @@ def vary_replace(varys, text):
     return text
 
 
-# In[45]:
+# In[6]:
 
 
 # 安装库模块
@@ -202,7 +202,7 @@ def library_install(library ,library_install_dic = None):
             sys.exit(0)
 
 
-# In[46]:
+# In[7]:
 
 
 # 安装/更新并加载三方库
@@ -236,7 +236,7 @@ from astral.sun import sun
 from astral import LocationInfo
 
 
-# In[47]:
+# In[8]:
 
 
 # 格式化时间模块
@@ -268,7 +268,7 @@ def convert_bytes(byte_size, units = None, outweigh = 1024):
     return f"{byte_size:.2f}{units[unit_index]}"
 
 
-# In[48]:
+# In[9]:
 
 
 # 下载显示模块
@@ -303,7 +303,7 @@ def show_progress(stream):
         print((f"\r100.0%|{downloaded_bytes}\{total_bytes}|\033[32m{speed}/s\033[0m|\033[97m{elapsed}\033[0m"))
 
 
-# In[49]:
+# In[10]:
 
 
 # 获取媒体时长和ID模块
@@ -429,7 +429,7 @@ def download_video(video_url, output_dir, output_format, format_id, video_websit
         return video_url
 
 
-# In[50]:
+# In[11]:
 
 
 # 视频完整下载模块
@@ -498,7 +498,7 @@ def dl_aideo_video(video_url, output_dir, output_format, video_format, retry_cou
     return yt_id_failed
 
 
-# In[51]:
+# In[12]:
 
 
 # 构建文件夹模块
@@ -509,7 +509,7 @@ def folder_build(folder_name):
         write_log(f"文件夹{folder_name}创建成功")
 
 
-# In[52]:
+# In[13]:
 
 
 # 检查当前文件夹中是否存在config.json文件
@@ -531,7 +531,7 @@ else:
         sys.exit(0)
 
 
-# In[53]:
+# In[14]:
 
 
 # 对retry_count进行纠正
@@ -572,8 +572,36 @@ if (
 if ('category' not in config):
     config['category'] = default_config["category"]
 
+# 根据日出日落修改封面(只适用原封面)
+if config["icon"] == default_config["icon"]:
+    # 获取公网IP地址
+    response = requests.get('https://ipinfo.io')
+    data = response.json()
+    # 提取经度和纬度
+    coordinates = data['loc'].split(',')
+    latitude = coordinates[0]
+    longitude = coordinates[1]
+    # 创建一个 LocationInfo 对象，只提供经纬度信息
+    location = LocationInfo("", "", "", latitude=latitude, longitude=longitude)
+    # 获取当前日期和时间，并为其添加时区信息
+    now = datetime.now(timezone.utc)
+    # 创建一个 Sun 对象
+    sun_time = sun(location.observer, date=now)
+    # 计算日出和日落时间，以及日落前和日出后的一小时
+    sunrise = sun_time['sunrise']
+    sunset = sun_time['sunset']
+    sunrise_minus_one_hour = sunrise - timedelta(hours=1)
+    sunset_plus_one_hour = sunset + timedelta(hours=1)
+    # 创建一个 LocationInfo 对象，只提供经纬度信息
+    location = LocationInfo("", "", "", latitude=latitude, longitude=longitude)
+    # 判断现在是白天还是晚上
+    if sunrise_minus_one_hour < now < sunset_plus_one_hour:
+        config["icon"] = "https://raw.githubusercontent.com/gruel-zxz/podflow/main/Podflow_light.png"  #白天
+    else:
+        config["icon"] = "https://raw.githubusercontent.com/gruel-zxz/podflow/main/Podflow_dark.png"  #晚上
 
-# In[54]:
+
+# In[16]:
 
 
 # 从配置文件中获取YouTube的频道
@@ -592,14 +620,14 @@ else:
     write_log("bilibili频道信息不存在")
 
 
-# In[55]:
+# In[17]:
 
 
 # 构建文件夹channel_id
 folder_build("channel_id")
 
 
-# In[56]:
+# In[18]:
 
 
 # 视频分辨率变量
@@ -677,7 +705,7 @@ for channelid_youtube_key, channelid_youtube_value in channelid_youtube_copy.ite
             channelid_youtube[channelid_youtube_key]['InmainRSS'] = True
 
 
-# In[57]:
+# In[19]:
 
 
 # 读取youtube频道的id
@@ -694,7 +722,7 @@ else:
     channelid_bilibili_ids = None
 
 
-# In[58]:
+# In[20]:
 
 
 # 更新Youtube频道xml
@@ -767,7 +795,7 @@ if channelid_youtube_ids_update:
     write_log(f"需更新的YouTube频道:\n\033[32m{' '.join(channelid_youtube_ids_update.values())}\033[0m")
 
 
-# In[59]:
+# In[21]:
 
 
 # 获取YouTube视频格式信息
@@ -825,7 +853,7 @@ for yt_id in youtube_content_ytid_update_format.keys():
             write_log(f"{channelid_youtube_ids[youtube_content_ytid_update_format[yt_id]['id']]}|{yt_id} \033[31m无法下载\033[0m")
 
 
-# In[60]:
+# In[22]:
 
 
 #生成XML模块
@@ -871,7 +899,7 @@ def xml_rss(title,link,description,category,icon,items):
 </rss>'''
 
 
-# In[61]:
+# In[23]:
 
 
 # 生成item模块
@@ -918,7 +946,7 @@ def xml_item(video_url, output_dir, video_website, channelid_title,title, descri
 '''
 
 
-# In[62]:
+# In[24]:
 
 
 # 生成YouTube的item模块
@@ -949,7 +977,7 @@ def youtube_xml_item(entry):
     )
 
 
-# In[63]:
+# In[25]:
 
 
 # 生成原有的item模块
@@ -995,7 +1023,7 @@ def xml_original_item(original_item):
 '''
 
 
-# In[64]:
+# In[26]:
 
 
 # 获取原始xml文件
@@ -1024,14 +1052,14 @@ for youtube_key in channelid_youtube_ids.keys():
             write_log(f"RSS文件中不存在 {channelid_youtube_ids[youtube_key]} 无法保留原节目")
 
 
-# In[65]:
+# In[27]:
 
 
 # 构建文件夹channel_rss
 folder_build("channel_rss")
 
 
-# In[66]:
+# In[28]:
 
 
 # 创建线程锁
@@ -1069,7 +1097,7 @@ for thread in youtube_xml_get_threads:
     thread.join()
 
 
-# In[67]:
+# In[29]:
 
 
 # 生成YouTube对应channel的需更新的items模块
@@ -1121,7 +1149,7 @@ def youtube_xml_items(output_dir):
     return items
 
 
-# In[68]:
+# In[30]:
 
 
 # 生成主rss
@@ -1137,7 +1165,7 @@ file_save(xml_rss(config["title"], config["link"], config["description"], config
 write_log("总播客已更新", f"地址: \033[34m{config['url']}/{config['filename']}.xml\033[0m")
 
 
-# In[69]:
+# In[31]:
 
 
 # 删除多余媒体文件模块
@@ -1148,7 +1176,7 @@ def remove_file(output_dir):
             write_log(f"{channelid_youtube_ids[output_dir]}|{file_name}已删除")
 
 
-# In[70]:
+# In[32]:
 
 
 # 删除不在rss中的媒体文件
@@ -1156,7 +1184,7 @@ for output_dir in channelid_youtube_ids:
     remove_file(output_dir)
 
 
-# In[71]:
+# In[33]:
 
 
 # 补全缺失的媒体文件到字典模块
@@ -1176,7 +1204,7 @@ def make_up_file(output_dir):
             make_up_file_format[file_name.split(".")[0]] = video_id_format
 
 
-# In[72]:
+# In[34]:
 
 
 # 补全在rss中缺失的媒体格式信息
@@ -1220,7 +1248,7 @@ for yt_id in make_up_file_format.keys():
             write_log(f"{channelid_youtube_ids[make_up_file_format[yt_id]['id']]}|{yt_id} \033[31m无法下载\033[0m")
 
 
-# In[73]:
+# In[35]:
 
 
 if sys.argv[1] == "a-shell":
