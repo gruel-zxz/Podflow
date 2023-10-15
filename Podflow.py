@@ -585,23 +585,31 @@ if config["icon"] == default_config["icon"]:
     location = LocationInfo("", "", "", latitude=latitude, longitude=longitude)
     # 获取当前日期和时间，并为其添加时区信息
     now = datetime.now(timezone.utc)
-    # 创建一个 Sun 对象
-    sun_time = sun(location.observer, date=now)
-    # 计算日出和日落时间，以及日落前和日出后的一小时
-    sunrise = sun_time['sunrise']
-    sunset = sun_time['sunset']
-    sunrise_minus_one_hour = sunrise - timedelta(hours=1)
-    sunset_plus_one_hour = sunset + timedelta(hours=1)
-    # 创建一个 LocationInfo 对象，只提供经纬度信息
-    location = LocationInfo("", "", "", latitude=latitude, longitude=longitude)
+    def sunrise_sunset(time):
+        # 创建一个 Sun 对象
+        sun_time = sun(location.observer, date=time)
+        # 计算日出和日落时间，以及日落前和日出后的一小时
+        sunrise = sun_time['sunrise']
+        sunset = sun_time['sunset']
+        sunrise_minus_one_hour = sunrise - timedelta(hours=1)
+        sunset_plus_one_hour = sunset + timedelta(hours=1)
+        return sunrise_minus_one_hour, sunset_plus_one_hour
+    sunrise_now, sunset_now = sunrise_sunset(now)
     # 判断现在是白天还是晚上
-    if sunrise_minus_one_hour < now < sunset_plus_one_hour:
-        config["icon"] = "https://raw.githubusercontent.com/gruel-zxz/podflow/main/Podflow_light.png"  #白天
+    if sunrise_now < sunset_now:
+        if sunrise_now < now < sunset_now:
+            picture_name = "Podflow_light"
+        else:
+            picture_name = "Podflow_dark"
     else:
-        config["icon"] = "https://raw.githubusercontent.com/gruel-zxz/podflow/main/Podflow_dark.png"  #晚上
+        if sunrise_now < now < sunset_now:
+            picture_name = "Podflow_dark"
+        else:
+            picture_name = "Podflow_light"
+    config["icon"] = f"https://raw.githubusercontent.com/gruel-zxz/podflow/main/{picture_name}.png"
 
 
-# In[16]:
+# In[15]:
 
 
 # 从配置文件中获取YouTube的频道
@@ -620,14 +628,14 @@ else:
     write_log("bilibili频道信息不存在")
 
 
-# In[17]:
+# In[16]:
 
 
 # 构建文件夹channel_id
 folder_build("channel_id")
 
 
-# In[18]:
+# In[17]:
 
 
 # 视频分辨率变量
@@ -705,7 +713,7 @@ for channelid_youtube_key, channelid_youtube_value in channelid_youtube_copy.ite
             channelid_youtube[channelid_youtube_key]['InmainRSS'] = True
 
 
-# In[19]:
+# In[18]:
 
 
 # 读取youtube频道的id
@@ -722,7 +730,7 @@ else:
     channelid_bilibili_ids = None
 
 
-# In[20]:
+# In[19]:
 
 
 # 更新Youtube频道xml
@@ -795,7 +803,7 @@ if channelid_youtube_ids_update:
     write_log(f"需更新的YouTube频道:\n\033[32m{' '.join(channelid_youtube_ids_update.values())}\033[0m")
 
 
-# In[21]:
+# In[20]:
 
 
 # 获取YouTube视频格式信息
@@ -853,7 +861,7 @@ for yt_id in youtube_content_ytid_update_format.keys():
             write_log(f"{channelid_youtube_ids[youtube_content_ytid_update_format[yt_id]['id']]}|{yt_id} \033[31m无法下载\033[0m")
 
 
-# In[22]:
+# In[21]:
 
 
 #生成XML模块
@@ -899,7 +907,7 @@ def xml_rss(title,link,description,category,icon,items):
 </rss>'''
 
 
-# In[23]:
+# In[22]:
 
 
 # 生成item模块
@@ -946,7 +954,7 @@ def xml_item(video_url, output_dir, video_website, channelid_title,title, descri
 '''
 
 
-# In[24]:
+# In[23]:
 
 
 # 生成YouTube的item模块
@@ -977,7 +985,7 @@ def youtube_xml_item(entry):
     )
 
 
-# In[25]:
+# In[24]:
 
 
 # 生成原有的item模块
@@ -1023,7 +1031,7 @@ def xml_original_item(original_item):
 '''
 
 
-# In[26]:
+# In[25]:
 
 
 # 获取原始xml文件
@@ -1052,14 +1060,14 @@ for youtube_key in channelid_youtube_ids.keys():
             write_log(f"RSS文件中不存在 {channelid_youtube_ids[youtube_key]} 无法保留原节目")
 
 
-# In[27]:
+# In[26]:
 
 
 # 构建文件夹channel_rss
 folder_build("channel_rss")
 
 
-# In[28]:
+# In[27]:
 
 
 # 创建线程锁
@@ -1097,7 +1105,7 @@ for thread in youtube_xml_get_threads:
     thread.join()
 
 
-# In[29]:
+# In[28]:
 
 
 # 生成YouTube对应channel的需更新的items模块
@@ -1149,7 +1157,7 @@ def youtube_xml_items(output_dir):
     return items
 
 
-# In[30]:
+# In[29]:
 
 
 # 生成主rss
@@ -1165,7 +1173,7 @@ file_save(xml_rss(config["title"], config["link"], config["description"], config
 write_log("总播客已更新", f"地址: \033[34m{config['url']}/{config['filename']}.xml\033[0m")
 
 
-# In[31]:
+# In[30]:
 
 
 # 删除多余媒体文件模块
@@ -1176,7 +1184,7 @@ def remove_file(output_dir):
             write_log(f"{channelid_youtube_ids[output_dir]}|{file_name}已删除")
 
 
-# In[32]:
+# In[31]:
 
 
 # 删除不在rss中的媒体文件
@@ -1184,7 +1192,7 @@ for output_dir in channelid_youtube_ids:
     remove_file(output_dir)
 
 
-# In[33]:
+# In[32]:
 
 
 # 补全缺失的媒体文件到字典模块
@@ -1204,7 +1212,7 @@ def make_up_file(output_dir):
             make_up_file_format[file_name.split(".")[0]] = video_id_format
 
 
-# In[34]:
+# In[33]:
 
 
 # 补全在rss中缺失的媒体格式信息
@@ -1248,7 +1256,7 @@ for yt_id in make_up_file_format.keys():
             write_log(f"{channelid_youtube_ids[make_up_file_format[yt_id]['id']]}|{yt_id} \033[31m无法下载\033[0m")
 
 
-# In[35]:
+# In[34]:
 
 
 if sys.argv[1] == "a-shell":

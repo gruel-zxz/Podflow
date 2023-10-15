@@ -30,7 +30,7 @@
 下来尽量在3期内搞定这个系列。</media:description>
    <media:community>
     <media:starRating count="155" average="5.00" min="1" max="5"/>
-    <media:statistics views="6795"/>
+    <media:statistics views="6798"/>
    </media:community>
   </media:group>
  </entry>
@@ -53,7 +53,7 @@
    <media:description>在时间加速的情况下，数字生命也可以飞向星空——科幻小说《晶体之夜》，出自格雷格.伊根（Greg Egan）的短篇小说集《数学陷落》Oceanic。</media:description>
    <media:community>
     <media:starRating count="153" average="5.00" min="1" max="5"/>
-    <media:statistics views="6135"/>
+    <media:statistics views="6140"/>
    </media:community>
   </media:group>
  </entry>
@@ -77,7 +77,7 @@
 这部40万字的长篇硬核科幻啊！人类无处可逃，因为地球也不过是另一艘飞船：科幻巨著《极光》大结局</media:description>
    <media:community>
     <media:starRating count="194" average="5.00" min="1" max="5"/>
-    <media:statistics views="10301"/>
+    <media:statistics views="10308"/>
    </media:community>
   </media:group>
  </entry>
@@ -100,7 +100,7 @@
    <media:description>一艘1/10光速的飞船回归地球，它该如何减速？科幻巨著《极光》第二集。</media:description>
    <media:community>
     <media:starRating count="145" average="5.00" min="1" max="5"/>
-    <media:statistics views="8184"/>
+    <media:statistics views="8186"/>
    </media:community>
   </media:group>
  </entry>
@@ -124,7 +124,7 @@
 这部小说堪称人类航天的教科书级的小说，全程充满知识点，严谨的写作手法让这部小说毫无逻辑漏洞，堪称经典！</media:description>
    <media:community>
     <media:starRating count="286" average="5.00" min="1" max="5"/>
-    <media:statistics views="27904"/>
+    <media:statistics views="27928"/>
    </media:community>
   </media:group>
  </entry>
@@ -147,7 +147,7 @@
    <media:description>《XeeLee》系列从第三集开始，也要正式进入正题了，真正意义上的战争和剧情走向也要开始了。而且我们文案的叙事也相对加快了，以前计划十多集完成，目前计划在8集以内搞定。</media:description>
    <media:community>
     <media:starRating count="188" average="5.00" min="1" max="5"/>
-    <media:statistics views="8736"/>
+    <media:statistics views="8738"/>
    </media:community>
   </media:group>
  </entry>
@@ -197,7 +197,7 @@
 08：46 巨引源的真相</media:description>
    <media:community>
     <media:starRating count="240" average="5.00" min="1" max="5"/>
-    <media:statistics views="9703"/>
+    <media:statistics views="9704"/>
    </media:community>
   </media:group>
  </entry>
@@ -221,7 +221,7 @@
 这个系列总算开始更新了，第一次尝试这么大体量的内容还是有点胆怯，不过开始更新就没法回头了。目前整理出了五期内容，内容量大致占XeeLee宇宙的50%。</media:description>
    <media:community>
     <media:starRating count="336" average="5.00" min="1" max="5"/>
-    <media:statistics views="18786"/>
+    <media:statistics views="18788"/>
    </media:community>
   </media:group>
  </entry>
@@ -245,7 +245,7 @@
 终于更新完毕，撒花！</media:description>
    <media:community>
     <media:starRating count="111" average="5.00" min="1" max="5"/>
-    <media:statistics views="6338"/>
+    <media:statistics views="6340"/>
    </media:community>
   </media:group>
  </entry>

@@ -29,7 +29,7 @@
    <media:description>原来真实的商战和我想象中差别那么大#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="386"/>
+    <media:statistics views="390"/>
    </media:community>
   </media:group>
  </entry>
@@ -52,7 +52,7 @@
    <media:description>都说中国的世界的，但是我觉得这句话应该反过来说#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="96" average="5.00" min="1" max="5"/>
-    <media:statistics views="4377"/>
+    <media:statistics views="4386"/>
    </media:community>
   </media:group>
  </entry>
@@ -74,8 +74,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/6DknTtKwcNw/hqdefault.jpg" width="480" height="360"/>
    <media:description>论方言的感染力，东北方言绝对是第一了#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="130" average="5.00" min="1" max="5"/>
-    <media:statistics views="5384"/>
+    <media:starRating count="132" average="5.00" min="1" max="5"/>
+    <media:statistics views="5403"/>
    </media:community>
   </media:group>
  </entry>
@@ -98,7 +98,7 @@
    <media:description>给山东人送礼是个体力活，不仅劲儿得大，还得跑得快#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="11" average="5.00" min="1" max="5"/>
-    <media:statistics views="538"/>
+    <media:statistics views="539"/>
    </media:community>
   </media:group>
  </entry>
@@ -167,7 +167,7 @@
    <media:description>我想问问大家，你们还在高速上吗？#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="16" average="5.00" min="1" max="5"/>
-    <media:statistics views="936"/>
+    <media:statistics views="939"/>
    </media:community>
   </media:group>
  </entry>
@@ -351,7 +351,7 @@
    <media:description>据说她是中年男人心中绝对的女神#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="342" average="5.00" min="1" max="5"/>
-    <media:statistics views="27281"/>
+    <media:statistics views="27299"/>
    </media:community>
   </media:group>
  </entry>
