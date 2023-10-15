@@ -29,7 +29,7 @@
    <media:description>原来真实的商战和我想象中差别那么大#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="126"/>
+    <media:statistics views="359"/>
    </media:community>
   </media:group>
  </entry>
@@ -51,8 +51,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/rpdjmLUeedY/hqdefault.jpg" width="480" height="360"/>
    <media:description>都说中国的世界的，但是我觉得这句话应该反过来说#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="86" average="5.00" min="1" max="5"/>
-    <media:statistics views="3908"/>
+    <media:starRating count="93" average="5.00" min="1" max="5"/>
+    <media:statistics views="4348"/>
    </media:community>
   </media:group>
  </entry>
@@ -74,8 +74,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/6DknTtKwcNw/hqdefault.jpg" width="480" height="360"/>
    <media:description>论方言的感染力，东北方言绝对是第一了#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="119" average="5.00" min="1" max="5"/>
-    <media:statistics views="4981"/>
+    <media:starRating count="130" average="5.00" min="1" max="5"/>
+    <media:statistics views="5327"/>
    </media:community>
   </media:group>
  </entry>
@@ -98,7 +98,7 @@
    <media:description>给山东人送礼是个体力活，不仅劲儿得大，还得跑得快#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="11" average="5.00" min="1" max="5"/>
-    <media:statistics views="520"/>
+    <media:statistics views="537"/>
    </media:community>
   </media:group>
  </entry>
@@ -121,7 +121,7 @@
    <media:description>难道这些就是男人开车累的原因吗#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="14" average="5.00" min="1" max="5"/>
-    <media:statistics views="920"/>
+    <media:statistics views="926"/>
    </media:community>
   </media:group>
  </entry>
@@ -144,7 +144,7 @@
    <media:description>上有天堂下有苏杭真不是吹的#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="22" average="5.00" min="1" max="5"/>
-    <media:statistics views="791"/>
+    <media:statistics views="799"/>
    </media:community>
   </media:group>
  </entry>
@@ -167,7 +167,7 @@
    <media:description>我想问问大家，你们还在高速上吗？#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="16" average="5.00" min="1" max="5"/>
-    <media:statistics views="924"/>
+    <media:statistics views="936"/>
    </media:community>
   </media:group>
  </entry>
@@ -190,7 +190,7 @@
    <media:description>酒后吐真言，假也三分甜#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="658"/>
+    <media:statistics views="664"/>
    </media:community>
   </media:group>
  </entry>
@@ -213,7 +213,7 @@
    <media:description>山东人狠狠拿捏住了语言的艺术#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="11" average="5.00" min="1" max="5"/>
-    <media:statistics views="572"/>
+    <media:statistics views="574"/>
    </media:community>
   </media:group>
  </entry>
@@ -236,7 +236,7 @@
    <media:description>我发现了男人结婚后应酬越来越多的原因#爱吐槽的四季妈妈 #家庭吐槽大会 #江中肝纯片</media:description>
    <media:community>
     <media:starRating count="12" average="5.00" min="1" max="5"/>
-    <media:statistics views="549"/>
+    <media:statistics views="550"/>
    </media:community>
   </media:group>
  </entry>
@@ -328,7 +328,7 @@
    <media:description>我就想问问山河四省的兄弟们，这玩意什么时候能吃完#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="517"/>
+    <media:statistics views="519"/>
    </media:community>
   </media:group>
  </entry>
@@ -350,8 +350,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/vFuSsdnaWNg/hqdefault.jpg" width="480" height="360"/>
    <media:description>据说她是中年男人心中绝对的女神#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="335" average="5.00" min="1" max="5"/>
-    <media:statistics views="26987"/>
+    <media:starRating count="342" average="5.00" min="1" max="5"/>
+    <media:statistics views="27241"/>
    </media:community>
   </media:group>
  </entry>
