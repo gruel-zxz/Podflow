@@ -445,7 +445,7 @@ def dl_aideo_video(video_url, output_dir, output_format, video_format, retry_cou
             print(f"{datetime.now().strftime('%H:%M:%S')}|\033[34m开始音频部分下载\033[0m\033[97m{video_format[1]}\033[0m")
             yt_id_failed = dl_retry_video(video_url, output_dir, "m4a", video_format[1], id_duration, retry_count, video_website, video_write_log, format_code, ".part")
             if yt_id_failed is None:
-                print(f"{datetime.now().strftime('%H:%M:%S')}|\033[34m开始合成...\033[0m")
+                print(f"{datetime.now().strftime('%H:%M:%S')}|\033[34m开始合成...\033[0m", end = "")
                 # 构建FFmpeg命令
                 ffmpeg_cmd = [
                     'ffmpeg',
@@ -464,7 +464,7 @@ def dl_aideo_video(video_url, output_dir, output_format, video_format, retry_cou
                     os.remove(f"{output_dir}/{video_url}.part.m4a")
                 except subprocess.CalledProcessError as e:
                     yt_id_failed = video_url
-                    write_log(f"{video_write_log} \033[31m下载失败\033[0m\n错误信息：合成失败:{e}") 
+                    write_log(f"\n{video_write_log} \033[31m下载失败\033[0m\n错误信息：合成失败:{e}") 
     if yt_id_failed is None:
         write_log(f"{video_write_log} \033[32m下载成功\033[0m")  # 写入下载成功的日志信息
     return yt_id_failed
@@ -772,7 +772,6 @@ def youtube_video_format(yt_id):
             yt_id_failed.append(yt_id)
             write_log(f"{channelid_youtube_ids[youtube_content_ytid_update_format[yt_id]['id']]}|{yt_id} {ytid_update_format}")
             del youtube_content_ytid_update_format[yt_id]
-            #write_log(f"{channelid_youtube_ids[youtube_content_ytid_update_format[yt_id]['id']]}|{yt_id} {ytid_update_format}")
 # 创建线程列表
 youtube_content_ytid_update_threads = []
 for yt_id in youtube_content_ytid_update_format.keys():
