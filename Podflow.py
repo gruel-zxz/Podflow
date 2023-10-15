@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[17]:
+# In[2]:
 
 
 import os
@@ -42,7 +42,7 @@ default_config = {
 # 如果InmainRSS为False或频道有更新则无视DisplayRSSaddress的状态, 都会变为True。
 
 
-# In[18]:
+# In[3]:
 
 
 # 文件保存模块
@@ -58,7 +58,7 @@ def file_save(content, file_name, folder=None):
         file.write(content)
 
 
-# In[19]:
+# In[4]:
 
 
 #日志模块
@@ -86,7 +86,7 @@ def write_log(log, suffix = None, display = True):
             print(f"{formatted_time_mini}|{log}")
 
 
-# In[20]:
+# In[5]:
 
 
 # 查看requests模块是否安装
@@ -134,7 +134,7 @@ except ImportError:
         sys.exit(0)
 
 
-# In[21]:
+# In[6]:
 
 
 # HTTP GET请求重试模块
@@ -158,7 +158,7 @@ def vary_replace(varys, text):
     return text
 
 
-# In[22]:
+# In[7]:
 
 
 # 安装库模块
@@ -186,7 +186,7 @@ def library_install(library ,library_install_dic = None):
             # 如果库已安装, 则尝试更新
             try:
                 subprocess.run(['pip', 'install', '--upgrade', library], capture_output = True, text = True)
-                write_log(f"{library}更新成功|版本：\033[32m{version.group()}\033[0m")
+                write_log(f"{library}更新成功")
             except FileNotFoundError:
                 write_log(f"{library}更新失败")
         else:
@@ -202,7 +202,7 @@ def library_install(library ,library_install_dic = None):
             sys.exit(0)
 
 
-# In[23]:
+# In[9]:
 
 
 # 安装/更新并加载三方库
