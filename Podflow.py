@@ -569,7 +569,7 @@ if (
 # 对category进行纠正
 if ('category' not in config):
     config['category'] = default_config["category"]
-
+'''
 # 根据日出日落修改封面(只适用原封面)
 if config["icon"] == default_config["icon"]:
     # 获取当前日期和时间
@@ -597,7 +597,7 @@ if config["icon"] == default_config["icon"]:
     else:
         picture_name = "Podflow_dark"
     config["icon"] = f"https://raw.githubusercontent.com/gruel-zxz/podflow/main/{picture_name}.png"
-
+'''
 
 # In[31]:
 
