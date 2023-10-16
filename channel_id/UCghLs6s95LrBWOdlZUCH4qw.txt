@@ -78,8 +78,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="256" average="5.00" min="1" max="5"/>
-    <media:statistics views="40184"/>
+    <media:starRating count="317" average="5.00" min="1" max="5"/>
+    <media:statistics views="64515"/>
    </media:community>
   </media:group>
  </entry>
@@ -151,8 +151,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="100" average="5.00" min="1" max="5"/>
-    <media:statistics views="13791"/>
+    <media:starRating count="128" average="5.00" min="1" max="5"/>
+    <media:statistics views="22497"/>
    </media:community>
   </media:group>
  </entry>
@@ -167,7 +167,7 @@ https://youtu.be/BbtTwsP_-zc</media:description>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
   <published>2023-10-16T00:02:34+00:00</published>
-  <updated>2023-10-16T00:08:27+00:00</updated>
+  <updated>2023-10-16T08:58:21+00:00</updated>
   <media:group>
    <media:title>美国汽车工人罢工进入第四周，对美国经济造成的损失已经超过本世纪任何一次罢工（20231015第6420期）</media:title>
    <media:content url="https://www.youtube.com/v/kQj26nIRJo8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -224,8 +224,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="127" average="5.00" min="1" max="5"/>
-    <media:statistics views="16596"/>
+    <media:starRating count="153" average="5.00" min="1" max="5"/>
+    <media:statistics views="26082"/>
    </media:community>
   </media:group>
  </entry>
@@ -297,8 +297,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="354" average="5.00" min="1" max="5"/>
-    <media:statistics views="81657"/>
+    <media:starRating count="357" average="5.00" min="1" max="5"/>
+    <media:statistics views="83628"/>
    </media:community>
   </media:group>
  </entry>
@@ -370,8 +370,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="276" average="5.00" min="1" max="5"/>
-    <media:statistics views="54143"/>
+    <media:starRating count="277" average="5.00" min="1" max="5"/>
+    <media:statistics views="55436"/>
    </media:community>
   </media:group>
  </entry>
@@ -443,8 +443,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="276" average="5.00" min="1" max="5"/>
-    <media:statistics views="59781"/>
+    <media:starRating count="281" average="5.00" min="1" max="5"/>
+    <media:statistics views="60943"/>
    </media:community>
   </media:group>
  </entry>
@@ -516,8 +516,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="625" average="5.00" min="1" max="5"/>
-    <media:statistics views="86713"/>
+    <media:starRating count="629" average="5.00" min="1" max="5"/>
+    <media:statistics views="88284"/>
    </media:community>
   </media:group>
  </entry>
@@ -589,8 +589,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="199" average="5.00" min="1" max="5"/>
-    <media:statistics views="52276"/>
+    <media:starRating count="202" average="5.00" min="1" max="5"/>
+    <media:statistics views="53357"/>
    </media:community>
   </media:group>
  </entry>
@@ -662,8 +662,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="454" average="5.00" min="1" max="5"/>
-    <media:statistics views="80397"/>
+    <media:starRating count="458" average="5.00" min="1" max="5"/>
+    <media:statistics views="81617"/>
    </media:community>
   </media:group>
  </entry>
@@ -736,7 +736,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="245" average="5.00" min="1" max="5"/>
-    <media:statistics views="46436"/>
+    <media:statistics views="46795"/>
    </media:community>
   </media:group>
  </entry>
@@ -808,8 +808,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="192" average="5.00" min="1" max="5"/>
-    <media:statistics views="36818"/>
+    <media:starRating count="193" average="5.00" min="1" max="5"/>
+    <media:statistics views="37236"/>
    </media:community>
   </media:group>
  </entry>
@@ -881,8 +881,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="224" average="5.00" min="1" max="5"/>
-    <media:statistics views="37828"/>
+    <media:starRating count="226" average="5.00" min="1" max="5"/>
+    <media:statistics views="38209"/>
    </media:community>
   </media:group>
  </entry>
@@ -954,8 +954,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="594" average="5.00" min="1" max="5"/>
-    <media:statistics views="102651"/>
+    <media:starRating count="595" average="5.00" min="1" max="5"/>
+    <media:statistics views="102959"/>
    </media:community>
   </media:group>
  </entry>
@@ -1027,8 +1027,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="268" average="5.00" min="1" max="5"/>
-    <media:statistics views="56072"/>
+    <media:starRating count="269" average="5.00" min="1" max="5"/>
+    <media:statistics views="56343"/>
    </media:community>
   </media:group>
  </entry>
@@ -1100,8 +1100,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="345" average="5.00" min="1" max="5"/>
-    <media:statistics views="70057"/>
+    <media:starRating count="344" average="5.00" min="1" max="5"/>
+    <media:statistics views="70603"/>
    </media:community>
   </media:group>
  </entry>

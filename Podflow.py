@@ -271,36 +271,26 @@ def convert_bytes(byte_size, units = None, outweigh = 1024):
 #网址二维码模块
 def qr_code(data):
     # 创建一个QRCode对象
-    qr = qrcode.QRCode(version=1,error_correction=qrcode.constants.ERROR_CORRECT_L, box_size=1, border=0,)
+    qr = qrcode.QRCode(version=1, error_correction=qrcode.constants.ERROR_CORRECT_L, box_size=1, border=0)
     # 设置二维码的数据
     qr.add_data(data)
-    # 创建二维码图像
+    # 获取QR Code矩阵
     qr.make(fit=True)
-    # 创建一个PIL图像对象
-    img = qr.make_image(fill_color="black", back_color="white")
-    # 获取图像的宽度和高度
-    width, height = img.width, img.height
-    height_double = math.ceil(height/2)
-    # 转换图像为ASCII字符
+    qr_matrix = qr.make_image(fill_color="black", back_color="white")
+    # 获取QR Code的大小
+    #width, height = qr_matrix.width, qr_matrix.width
+    # 黑色和白色的字符
+    black_char = "\033[40m  \033[0m"
+    white_char = "\033[47m  \033[0m"
+    # 遍历QR Code矩阵数据并将其转换为ASCII字符
     ascii_art = ""
-    for y in range(height_double):
-        if (y+1)*2-1 >= height:
-            for x in range(width):
-                if img.getpixel((x, (y+1)*2-2)) == 0:
-                    ascii_art += "▀"
-                else:
-                    ascii_art += " "
-        else:
-            for x in range(width):
-                if img.getpixel((x, (y+1)*2-2)) == 0 and img.getpixel((x, (y+1)*2-1)) == 0:
-                    ascii_art += "█"
-                elif img.getpixel((x, (y+1)*2-2)) == 0 and img.getpixel((x, (y+1)*2-1)) != 0:
-                    ascii_art += "▀"
-                elif img.getpixel((x, (y+1)*2-2)) != 0 and img.getpixel((x, (y+1)*2-1)) == 0:
-                    ascii_art += "▄"
-                else:
-                    ascii_art += " "
-            ascii_art += "\n"
+    for row in qr_matrix.modules:
+        for cell in row:
+            if cell:
+                ascii_art += black_char
+            else:
+                ascii_art += white_char
+        ascii_art += "\n"
     # 输出ASCII艺术
     print(ascii_art)
 
