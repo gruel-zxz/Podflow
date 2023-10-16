@@ -279,7 +279,7 @@ def qr_code(data):
     # 创建一个PIL图像对象
     img = qr.make_image(fill_color="black", back_color="white")
     # 获取图像的宽度和高度
-    width, height = img.size
+    width, height = img.width, img.height
     height_double = math.ceil(height/2)
     # 转换图像为ASCII字符
     ascii_art = ""
