@@ -49,8 +49,8 @@
 
 #日本漫畫 #殺手阿一 #cult</media:description>
    <media:community>
-    <media:starRating count="691" average="5.00" min="1" max="5"/>
-    <media:statistics views="21406"/>
+    <media:starRating count="692" average="5.00" min="1" max="5"/>
+    <media:statistics views="21445"/>
    </media:community>
   </media:group>
  </entry>
@@ -94,8 +94,8 @@
 
 #日本漫畫 #殺手阿一 #cult</media:description>
    <media:community>
-    <media:starRating count="824" average="5.00" min="1" max="5"/>
-    <media:statistics views="52227"/>
+    <media:starRating count="825" average="5.00" min="1" max="5"/>
+    <media:statistics views="52296"/>
    </media:community>
   </media:group>
  </entry>
@@ -140,8 +140,8 @@
 
 #日本 #次文化 #戀物</media:description>
    <media:community>
-    <media:starRating count="806" average="5.00" min="1" max="5"/>
-    <media:statistics views="43191"/>
+    <media:starRating count="807" average="5.00" min="1" max="5"/>
+    <media:statistics views="43200"/>
    </media:community>
   </media:group>
  </entry>
@@ -184,8 +184,8 @@
 
 #遊戲 #videogames  #日本</media:description>
    <media:community>
-    <media:starRating count="1942" average="5.00" min="1" max="5"/>
-    <media:statistics views="160308"/>
+    <media:starRating count="1943" average="5.00" min="1" max="5"/>
+    <media:statistics views="160342"/>
    </media:community>
   </media:group>
  </entry>
@@ -229,8 +229,8 @@
 
 #日本 #動漫 #日本電影</media:description>
    <media:community>
-    <media:starRating count="1596" average="5.00" min="1" max="5"/>
-    <media:statistics views="114082"/>
+    <media:starRating count="1597" average="5.00" min="1" max="5"/>
+    <media:statistics views="114109"/>
    </media:community>
   </media:group>
  </entry>
@@ -274,8 +274,8 @@
 ▶追蹤TenGuSan的IG：@tengusan.real
 ▶我的品牌官網：www.under20.com</media:description>
    <media:community>
-    <media:starRating count="1435" average="5.00" min="1" max="5"/>
-    <media:statistics views="126749"/>
+    <media:starRating count="1436" average="5.00" min="1" max="5"/>
+    <media:statistics views="126762"/>
    </media:community>
   </media:group>
  </entry>
@@ -317,7 +317,7 @@
 ▶我的品牌官網：www.under20.com</media:description>
    <media:community>
     <media:starRating count="1465" average="5.00" min="1" max="5"/>
-    <media:statistics views="117832"/>
+    <media:statistics views="117840"/>
    </media:community>
   </media:group>
  </entry>
@@ -380,8 +380,8 @@
 ▶追蹤TenGuSan的IG：@tengusan.real
 ▶我的品牌官網：www.under20.com</media:description>
    <media:community>
-    <media:starRating count="1389" average="5.00" min="1" max="5"/>
-    <media:statistics views="259911"/>
+    <media:starRating count="1388" average="5.00" min="1" max="5"/>
+    <media:statistics views="260002"/>
    </media:community>
   </media:group>
  </entry>
@@ -423,7 +423,7 @@
 #日本 #日本社會</media:description>
    <media:community>
     <media:starRating count="772" average="5.00" min="1" max="5"/>
-    <media:statistics views="57869"/>
+    <media:statistics views="57877"/>
    </media:community>
   </media:group>
  </entry>
@@ -467,8 +467,8 @@
 
 #2ch #日本文化 #互聯網</media:description>
    <media:community>
-    <media:starRating count="814" average="5.00" min="1" max="5"/>
-    <media:statistics views="60441"/>
+    <media:starRating count="816" average="5.00" min="1" max="5"/>
+    <media:statistics views="60450"/>
    </media:community>
   </media:group>
  </entry>
@@ -509,7 +509,7 @@
 #日本社會 #刑務所 #越獄</media:description>
    <media:community>
     <media:starRating count="619" average="5.00" min="1" max="5"/>
-    <media:statistics views="44836"/>
+    <media:statistics views="44842"/>
    </media:community>
   </media:group>
  </entry>
@@ -560,7 +560,7 @@
 ▶我的品牌官網：www.under20.com</media:description>
    <media:community>
     <media:starRating count="1465" average="5.00" min="1" max="5"/>
-    <media:statistics views="96322"/>
+    <media:statistics views="96329"/>
    </media:community>
   </media:group>
  </entry>
@@ -696,8 +696,8 @@
 ▶追蹤TenGuSan的IG：@tengusan.real
 ▶我的品牌官網：www.under20.com</media:description>
    <media:community>
-    <media:starRating count="10736" average="5.00" min="1" max="5"/>
-    <media:statistics views="1541250"/>
+    <media:starRating count="10737" average="5.00" min="1" max="5"/>
+    <media:statistics views="1541385"/>
    </media:community>
   </media:group>
  </entry>
