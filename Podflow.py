@@ -473,7 +473,7 @@ def dl_full_video(video_url, output_dir, output_format, format_id, id_duration, 
     if download_video(video_url, output_dir, output_format, format_id, video_website, video_write_log, format_code, sesuffix):
         return video_url
     duration_video = get_duration_ffprobe(f"{output_dir}/{video_url}{sesuffix}.{output_format}")  # 获取已下载视频的实际时长
-    if abs(id_duration - duration_video) <= 1:  # 检查实际时长与预计时长是否一致
+    if abs(id_duration - duration_video) == 0:  # 检查实际时长与预计时长是否一致
         return None
     if duration_video:
         write_log(f"{video_write_log} \033[31m下载失败\033[0m\n错误信息：视频不完整({id_duration}|{duration_video})")
@@ -621,6 +621,8 @@ if config["icon"] == default_config["icon"]:
     location = LocationInfo("", "", "", latitude=latitude, longitude=longitude)
     # 获取当前日期和时间，并为其添加时区信息
     now = datetime.now(timezone.utc)
+    yesterday = now - timedelta(days=1)
+    tommorrow = now + timedelta(days=1)
     def sunrise_sunset(time):
         # 创建一个 Sun 对象
         sun_time = sun(location.observer, date=time)
@@ -631,14 +633,16 @@ if config["icon"] == default_config["icon"]:
         sunset_plus_one_hour = sunset + timedelta(hours=1)
         return sunrise_minus_one_hour, sunset_plus_one_hour
     sunrise_now, sunset_now = sunrise_sunset(now)
+    sunrise_yesterday, sunset_yesterday = sunrise_sunset(yesterday)
+    sunrise_tommorrow, sunset_tommorrow = sunrise_sunset(tommorrow)
     # 判断现在是白天还是晚上
     if sunrise_now < sunset_now:
-        if sunrise_now < now < sunset_now:
+        if sunrise_now < now < sunset_now or sunrise_yesterday < now < sunset_yesterday  or sunrise_tommorrow < now < sunset_tommorrow:
             picture_name = "Podflow_light"
         else:
             picture_name = "Podflow_dark"
     else:
-        if sunset_now < now < sunrise_now:
+        if sunrise_now > now > sunset_now or sunrise_yesterday > now > sunset_yesterday  or sunrise_tommorrow > now > sunset_tommorrow:
             picture_name = "Podflow_dark"
         else:
             picture_name = "Podflow_light"
