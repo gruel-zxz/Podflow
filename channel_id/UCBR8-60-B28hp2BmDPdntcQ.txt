@@ -10,6 +10,29 @@
   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
  </author>
  <entry>
+  <id>yt:video:TTZXkm6JM_8</id>
+  <yt:videoId>TTZXkm6JM_8</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>you’ve got to admit it’s absolutely chaotic behavior @EatItKatie @OfficiallyDaiTime @aceof_spadess</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=TTZXkm6JM_8"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2023-10-16T22:00:21+00:00</published>
+  <updated>2023-10-16T22:04:31+00:00</updated>
+  <media:group>
+   <media:title>you’ve got to admit it’s absolutely chaotic behavior @EatItKatie @OfficiallyDaiTime @aceof_spadess</media:title>
+   <media:content url="https://www.youtube.com/v/TTZXkm6JM_8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/TTZXkm6JM_8/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="1029" average="5.00" min="1" max="5"/>
+    <media:statistics views="14990"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:sw6UGkFBIEs</id>
   <yt:videoId>sw6UGkFBIEs</yt:videoId>
   <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
@@ -36,8 +59,8 @@
 
 #Wendigoon #YouTube #WatchHistory #Halloween</media:description>
    <media:community>
-    <media:starRating count="3355" average="5.00" min="1" max="5"/>
-    <media:statistics views="283514"/>
+    <media:starRating count="3685" average="5.00" min="1" max="5"/>
+    <media:statistics views="401473"/>
    </media:community>
   </media:group>
  </entry>
@@ -59,8 +82,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/X2676LxDOz8/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2736" average="5.00" min="1" max="5"/>
-    <media:statistics views="51518"/>
+    <media:starRating count="2831" average="5.00" min="1" max="5"/>
+    <media:statistics views="53723"/>
    </media:community>
   </media:group>
  </entry>
@@ -111,8 +134,8 @@ Featured Creators:
 2:27- 2:50 Step 5: The Reveal
 2:50 - 3:12 Outro</media:description>
    <media:community>
-    <media:starRating count="1961" average="5.00" min="1" max="5"/>
-    <media:statistics views="546971"/>
+    <media:starRating count="1966" average="5.00" min="1" max="5"/>
+    <media:statistics views="549390"/>
    </media:community>
   </media:group>
  </entry>
@@ -134,8 +157,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/vLfHbplXtz4/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2766" average="5.00" min="1" max="5"/>
-    <media:statistics views="67525"/>
+    <media:starRating count="2806" average="5.00" min="1" max="5"/>
+    <media:statistics views="69520"/>
    </media:community>
   </media:group>
  </entry>
@@ -157,8 +180,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/2UlrqThzzCs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4595" average="5.00" min="1" max="5"/>
-    <media:statistics views="63836"/>
+    <media:starRating count="4683" average="5.00" min="1" max="5"/>
+    <media:statistics views="65694"/>
    </media:community>
   </media:group>
  </entry>
@@ -180,8 +203,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/v-nWeugyb7A/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3028" average="5.00" min="1" max="5"/>
-    <media:statistics views="59230"/>
+    <media:starRating count="3061" average="5.00" min="1" max="5"/>
+    <media:statistics views="60460"/>
    </media:community>
   </media:group>
  </entry>
@@ -205,8 +228,8 @@ Featured Creators:
 
 Online video trends have evolved to become the driving force of pop culture. But do you know who’s creating them? From the moment of upload, discover the untold, true stories of the Black creators and culture behind your favorite trends. Witness those who have transformed culture on a global scale finally get the flowers they deserve.</media:description>
    <media:community>
-    <media:starRating count="6781" average="5.00" min="1" max="5"/>
-    <media:statistics views="626512"/>
+    <media:starRating count="6902" average="5.00" min="1" max="5"/>
+    <media:statistics views="632232"/>
    </media:community>
   </media:group>
  </entry>
@@ -228,8 +251,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i3.ytimg.com/vi/fEzeTYwEmlw/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3301" average="5.00" min="1" max="5"/>
-    <media:statistics views="77650"/>
+    <media:starRating count="3339" average="5.00" min="1" max="5"/>
+    <media:statistics views="78916"/>
    </media:community>
   </media:group>
  </entry>
@@ -251,8 +274,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i1.ytimg.com/vi/xY34jr-gYgU/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4778" average="5.00" min="1" max="5"/>
-    <media:statistics views="91021"/>
+    <media:starRating count="4816" average="5.00" min="1" max="5"/>
+    <media:statistics views="92160"/>
    </media:community>
   </media:group>
  </entry>
@@ -274,8 +297,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i2.ytimg.com/vi/MKeug0IZWbo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3096" average="5.00" min="1" max="5"/>
-    <media:statistics views="61455"/>
+    <media:starRating count="3117" average="5.00" min="1" max="5"/>
+    <media:statistics views="62173"/>
    </media:community>
   </media:group>
  </entry>
@@ -297,8 +320,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i1.ytimg.com/vi/HgIBGdBDeHs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4619" average="5.00" min="1" max="5"/>
-    <media:statistics views="94651"/>
+    <media:starRating count="4646" average="5.00" min="1" max="5"/>
+    <media:statistics views="95450"/>
    </media:community>
   </media:group>
  </entry>
@@ -320,8 +343,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i3.ytimg.com/vi/rwYAcQqbbrY/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4286" average="5.00" min="1" max="5"/>
-    <media:statistics views="72832"/>
+    <media:starRating count="4299" average="5.00" min="1" max="5"/>
+    <media:statistics views="73283"/>
    </media:community>
   </media:group>
  </entry>
@@ -381,8 +404,8 @@ Featured Creators:
 
 #Gaming #Retrogaming #YouTube</media:description>
    <media:community>
-    <media:starRating count="6835" average="5.00" min="1" max="5"/>
-    <media:statistics views="3152480"/>
+    <media:starRating count="6845" average="5.00" min="1" max="5"/>
+    <media:statistics views="3153317"/>
    </media:community>
   </media:group>
  </entry>
@@ -413,31 +436,8 @@ Featured Creators:
 
 #SafiyaNygaard #WatchHistory #YouTube</media:description>
    <media:community>
-    <media:starRating count="2194" average="5.00" min="1" max="5"/>
-    <media:statistics views="761287"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:DcNI16MEjrM</id>
-  <yt:videoId>DcNI16MEjrM</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>seek real content and thou shall find 🤠 @OlimaOmega</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=DcNI16MEjrM"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2023-09-04T18:00:16+00:00</published>
-  <updated>2023-09-04T18:10:11+00:00</updated>
-  <media:group>
-   <media:title>seek real content and thou shall find 🤠 @OlimaOmega</media:title>
-   <media:content url="https://www.youtube.com/v/DcNI16MEjrM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i1.ytimg.com/vi/DcNI16MEjrM/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="4930" average="5.00" min="1" max="5"/>
-    <media:statistics views="84988"/>
+    <media:starRating count="2196" average="5.00" min="1" max="5"/>
+    <media:statistics views="761824"/>
    </media:community>
   </media:group>
  </entry>

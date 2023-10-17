@@ -11,6 +11,29 @@
  </author>
  <published>2022-06-04T16:17:27+00:00</published>
  <entry>
+  <id>yt:video:dgSlPxFrtWE</id>
+  <yt:videoId>dgSlPxFrtWE</yt:videoId>
+  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
+  <title>新疆美女多，看了口水流成河#爱吐槽的四季妈妈 #家庭吐槽大会</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=dgSlPxFrtWE"/>
+  <author>
+   <name>四季妈妈—小龙</name>
+   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
+  </author>
+  <published>2023-10-17T01:43:49+00:00</published>
+  <updated>2023-10-17T07:59:02+00:00</updated>
+  <media:group>
+   <media:title>新疆美女多，看了口水流成河#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
+   <media:content url="https://www.youtube.com/v/dgSlPxFrtWE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/dgSlPxFrtWE/hqdefault.jpg" width="480" height="360"/>
+   <media:description>新疆美女多，看了口水流成河#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
+   <media:community>
+    <media:starRating count="10" average="5.00" min="1" max="5"/>
+    <media:statistics views="194"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:8UPH8ZzlOzs</id>
   <yt:videoId>8UPH8ZzlOzs</yt:videoId>
   <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
@@ -29,7 +52,7 @@
    <media:description>原来真实的商战和我想象中差别那么大#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="538"/>
+    <media:statistics views="592"/>
    </media:community>
   </media:group>
  </entry>
@@ -51,8 +74,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/rpdjmLUeedY/hqdefault.jpg" width="480" height="360"/>
    <media:description>都说中国的世界的，但是我觉得这句话应该反过来说#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="107" average="5.00" min="1" max="5"/>
-    <media:statistics views="4874"/>
+    <media:starRating count="120" average="5.00" min="1" max="5"/>
+    <media:statistics views="5131"/>
    </media:community>
   </media:group>
  </entry>
@@ -74,8 +97,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/6DknTtKwcNw/hqdefault.jpg" width="480" height="360"/>
    <media:description>论方言的感染力，东北方言绝对是第一了#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="149" average="5.00" min="1" max="5"/>
-    <media:statistics views="6060"/>
+    <media:starRating count="154" average="5.00" min="1" max="5"/>
+    <media:statistics views="6314"/>
    </media:community>
   </media:group>
  </entry>
@@ -98,7 +121,7 @@
    <media:description>给山东人送礼是个体力活，不仅劲儿得大，还得跑得快#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="11" average="5.00" min="1" max="5"/>
-    <media:statistics views="562"/>
+    <media:statistics views="580"/>
    </media:community>
   </media:group>
  </entry>
@@ -121,7 +144,7 @@
    <media:description>难道这些就是男人开车累的原因吗#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="16" average="5.00" min="1" max="5"/>
-    <media:statistics views="951"/>
+    <media:statistics views="958"/>
    </media:community>
   </media:group>
  </entry>
@@ -143,8 +166,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/YuJlwO3ci-I/hqdefault.jpg" width="480" height="360"/>
    <media:description>上有天堂下有苏杭真不是吹的#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="22" average="5.00" min="1" max="5"/>
-    <media:statistics views="830"/>
+    <media:starRating count="23" average="5.00" min="1" max="5"/>
+    <media:statistics views="851"/>
    </media:community>
   </media:group>
  </entry>
@@ -167,7 +190,7 @@
    <media:description>我想问问大家，你们还在高速上吗？#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="16" average="5.00" min="1" max="5"/>
-    <media:statistics views="956"/>
+    <media:statistics views="959"/>
    </media:community>
   </media:group>
  </entry>
@@ -190,7 +213,7 @@
    <media:description>酒后吐真言，假也三分甜#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="666"/>
+    <media:statistics views="667"/>
    </media:community>
   </media:group>
  </entry>
@@ -213,7 +236,7 @@
    <media:description>山东人狠狠拿捏住了语言的艺术#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="11" average="5.00" min="1" max="5"/>
-    <media:statistics views="580"/>
+    <media:statistics views="583"/>
    </media:community>
   </media:group>
  </entry>
@@ -235,8 +258,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/0LabV5U7_BE/hqdefault.jpg" width="480" height="360"/>
    <media:description>我发现了男人结婚后应酬越来越多的原因#爱吐槽的四季妈妈 #家庭吐槽大会 #江中肝纯片</media:description>
    <media:community>
-    <media:starRating count="12" average="5.00" min="1" max="5"/>
-    <media:statistics views="554"/>
+    <media:starRating count="13" average="5.00" min="1" max="5"/>
+    <media:statistics views="558"/>
    </media:community>
   </media:group>
  </entry>
@@ -259,7 +282,7 @@
    <media:description>东北男人是藏獒一样的存在，能管住他们的只有   #爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="497"/>
+    <media:statistics views="498"/>
    </media:community>
   </media:group>
  </entry>
@@ -329,29 +352,6 @@
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
     <media:statistics views="524"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:vFuSsdnaWNg</id>
-  <yt:videoId>vFuSsdnaWNg</yt:videoId>
-  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
-  <title>据说她是中年男人心中绝对的女神#爱吐槽的四季妈妈 #家庭吐槽大会</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=vFuSsdnaWNg"/>
-  <author>
-   <name>四季妈妈—小龙</name>
-   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
-  </author>
-  <published>2023-09-17T03:56:52+00:00</published>
-  <updated>2023-09-18T18:54:26+00:00</updated>
-  <media:group>
-   <media:title>据说她是中年男人心中绝对的女神#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
-   <media:content url="https://www.youtube.com/v/vFuSsdnaWNg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/vFuSsdnaWNg/hqdefault.jpg" width="480" height="360"/>
-   <media:description>据说她是中年男人心中绝对的女神#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
-   <media:community>
-    <media:starRating count="349" average="5.00" min="1" max="5"/>
-    <media:statistics views="27725"/>
    </media:community>
   </media:group>
  </entry>

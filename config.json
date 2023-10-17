@@ -7,7 +7,8 @@
             "quality": "480",
             "last_size": 20,
             "media": "mp4",
-            "InmainRSS": false
+            "InmainRSS": false,
+            "QRcode": true
         },
         "stone记":{
             "update_size": 15,
