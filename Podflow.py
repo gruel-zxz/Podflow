@@ -171,7 +171,7 @@ def library_install(library ,library_install_dic = None):
         ).stdout
     ):
         write_log(f"{library}已安装")
-        if library_install_dic:
+        if library in library_install_dic:
             version_update = library_install_dic[library]
         else:
             # 获取最新版本编号
