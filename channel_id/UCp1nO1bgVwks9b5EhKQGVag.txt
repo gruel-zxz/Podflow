@@ -30,7 +30,7 @@
 虽然过去了二十多年，但是好的作品值得让大家记得，分上下集发布</media:description>
    <media:community>
     <media:starRating count="58" average="5.00" min="1" max="5"/>
-    <media:statistics views="2834"/>
+    <media:statistics views="2835"/>
    </media:community>
   </media:group>
  </entry>

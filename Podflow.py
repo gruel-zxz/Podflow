@@ -287,17 +287,17 @@ def qr_code(data):
         if (y+1)*2-1 >= height:
             for x in range(width):
                 if matrix[(y+1)*2-2][x] is True:
-                    ascii_art += "╹"  #▀
+                    ascii_art += "\033[1m╹\033[0m"  #▀
                 else:
                     ascii_art += " "
         else:
             for x in range(width):
                 if matrix[(y+1)*2-2][x] is True and matrix[(y+1)*2-1][x] is True:
-                    ascii_art += "╏"  #█
+                    ascii_art += "\033[1m╏\033[0m"  #█
                 elif matrix[(y+1)*2-2][x] is True and matrix[(y+1)*2-1][x] is False:
-                    ascii_art += "╹"  #▀
+                    ascii_art += "\033[1m╹\033[0m"  #▀
                 elif matrix[(y+1)*2-2][x] is False and matrix[(y+1)*2-1][x] is True:
-                    ascii_art += "╻"  #▄
+                    ascii_art += "\033[1m╻\033[0m"  #▄
                 else:
                     ascii_art += " "
             ascii_art += "\n"

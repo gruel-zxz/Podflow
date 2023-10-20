@@ -78,8 +78,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="156" average="5.00" min="1" max="5"/>
-    <media:statistics views="23541"/>
+    <media:starRating count="159" average="5.00" min="1" max="5"/>
+    <media:statistics views="24649"/>
    </media:community>
   </media:group>
  </entry>
@@ -151,8 +151,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="184" average="5.00" min="1" max="5"/>
-    <media:statistics views="21572"/>
+    <media:starRating count="185" average="5.00" min="1" max="5"/>
+    <media:statistics views="22638"/>
    </media:community>
   </media:group>
  </entry>
@@ -224,8 +224,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="394" average="5.00" min="1" max="5"/>
-    <media:statistics views="77432"/>
+    <media:starRating count="395" average="5.00" min="1" max="5"/>
+    <media:statistics views="77508"/>
    </media:community>
   </media:group>
  </entry>
@@ -298,7 +298,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="325" average="5.00" min="1" max="5"/>
-    <media:statistics views="58121"/>
+    <media:statistics views="58179"/>
    </media:community>
   </media:group>
  </entry>
@@ -370,8 +370,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="263" average="5.00" min="1" max="5"/>
-    <media:statistics views="70682"/>
+    <media:starRating count="265" average="5.00" min="1" max="5"/>
+    <media:statistics views="70704"/>
    </media:community>
   </media:group>
  </entry>
@@ -444,7 +444,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="284" average="5.00" min="1" max="5"/>
-    <media:statistics views="77065"/>
+    <media:statistics views="77114"/>
    </media:community>
   </media:group>
  </entry>
@@ -516,8 +516,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="189" average="5.00" min="1" max="5"/>
-    <media:statistics views="39056"/>
+    <media:starRating count="191" average="5.00" min="1" max="5"/>
+    <media:statistics views="39068"/>
    </media:community>
   </media:group>
  </entry>
@@ -590,7 +590,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="188" average="5.00" min="1" max="5"/>
-    <media:statistics views="41438"/>
+    <media:statistics views="41454"/>
    </media:community>
   </media:group>
  </entry>
@@ -663,7 +663,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="1750"/>
+    <media:statistics views="1752"/>
    </media:community>
   </media:group>
  </entry>
@@ -736,7 +736,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="404" average="5.00" min="1" max="5"/>
-    <media:statistics views="110371"/>
+    <media:statistics views="110384"/>
    </media:community>
   </media:group>
  </entry>
@@ -809,7 +809,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="169" average="5.00" min="1" max="5"/>
-    <media:statistics views="37641"/>
+    <media:statistics views="37649"/>
    </media:community>
   </media:group>
  </entry>
@@ -882,7 +882,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="191" average="5.00" min="1" max="5"/>
-    <media:statistics views="42331"/>
+    <media:statistics views="42333"/>
    </media:community>
   </media:group>
  </entry>
@@ -955,7 +955,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="370" average="5.00" min="1" max="5"/>
-    <media:statistics views="79365"/>
+    <media:statistics views="79372"/>
    </media:community>
   </media:group>
  </entry>
