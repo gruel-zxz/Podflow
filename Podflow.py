@@ -282,25 +282,26 @@ def qr_code(data):
     width, height = len(matrix), len(matrix)
     height_double = math.ceil(height/2)
     # 转换图像为ASCII字符
-    ascii_art = ""
+    ascii_art = "\033[47m\033[30m\033[1m"
     for y in range(height_double):
         if (y+1)*2-1 >= height:
             for x in range(width):
                 if matrix[(y+1)*2-2][x] is True:
-                    ascii_art += "\033[1m╹\033[0m"  #▀
+                    ascii_art += "╹"  #▀
                 else:
                     ascii_art += " "
         else:
             for x in range(width):
                 if matrix[(y+1)*2-2][x] is True and matrix[(y+1)*2-1][x] is True:
-                    ascii_art += "\033[1m╏\033[0m"  #█
+                    ascii_art += "╏"  #█
                 elif matrix[(y+1)*2-2][x] is True and matrix[(y+1)*2-1][x] is False:
-                    ascii_art += "\033[1m╹\033[0m"  #▀
+                    ascii_art += "╹"  #▀
                 elif matrix[(y+1)*2-2][x] is False and matrix[(y+1)*2-1][x] is True:
-                    ascii_art += "\033[1m╻\033[0m"  #▄
+                    ascii_art += "╻"  #▄
                 else:
                     ascii_art += " "
             ascii_art += "\n"
+    ascii_art += "\033[0m"
     print(ascii_art)
 
 

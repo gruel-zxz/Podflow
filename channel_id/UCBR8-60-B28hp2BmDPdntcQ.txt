@@ -10,6 +10,55 @@
   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
  </author>
  <entry>
+  <id>yt:video:VjJ9_qnsVrE</id>
+  <yt:videoId>VjJ9_qnsVrE</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>Celebrate every wave, curl, kink, and coil with @WillOnAWhim, @BiancaReneeToday, and @NaturalReign</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=VjJ9_qnsVrE"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2023-10-20T01:38:18+00:00</published>
+  <updated>2023-10-20T01:38:18+00:00</updated>
+  <media:group>
+   <media:title>Celebrate every wave, curl, kink, and coil with @WillOnAWhim, @BiancaReneeToday, and @NaturalReign</media:title>
+   <media:content url="https://www.youtube.com/v/VjJ9_qnsVrE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/VjJ9_qnsVrE/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Everyone’s natural hair journey is different, and we’re here 👏for 👏 it 👏
+
+From big chops to bantu knots, @WillOnAWhim  @BiancaReneeToday  and @NaturalReign  share their natural hair stories and celebrate the ever-evolving natural hair community on YouTube. ✨
+
+FEATURED CREATORS:
+@WillOnAWhim 
+@BiancaReneeToday 
+@NaturalReign 
+@deborahboms 
+@TiiaaBaby 
+@CaramelCoils 
+@AdannaMadueke 
+@LaToyaEbonyHair 
+@SimoneNicole 
+@DNiaNicole 
+@JordanSennette 
+@NessaAmes 
+@kiannanaomii 
+@ieshaTheGr8 
+@DoseOfYaji 
+@IyanaLeShea 
+@ginette.kofigah 
+@naturalnadinee 
+@aaleek_ 
+@SharmaineJoyel 
+@MiniMarley 
+@curlsbyjen</media:description>
+   <media:community>
+    <media:starRating count="555" average="5.00" min="1" max="5"/>
+    <media:statistics views="33703"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:TTZXkm6JM_8</id>
   <yt:videoId>TTZXkm6JM_8</yt:videoId>
   <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
@@ -27,8 +76,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/TTZXkm6JM_8/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1870" average="5.00" min="1" max="5"/>
-    <media:statistics views="37243"/>
+    <media:starRating count="1982" average="5.00" min="1" max="5"/>
+    <media:statistics views="39565"/>
    </media:community>
   </media:group>
  </entry>
@@ -59,8 +108,8 @@
 
 #Wendigoon #YouTube #WatchHistory #Halloween</media:description>
    <media:community>
-    <media:starRating count="4260" average="5.00" min="1" max="5"/>
-    <media:statistics views="648309"/>
+    <media:starRating count="4341" average="5.00" min="1" max="5"/>
+    <media:statistics views="658716"/>
    </media:community>
   </media:group>
  </entry>
@@ -82,8 +131,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/X2676LxDOz8/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3046" average="5.00" min="1" max="5"/>
-    <media:statistics views="58055"/>
+    <media:starRating count="3096" average="5.00" min="1" max="5"/>
+    <media:statistics views="58875"/>
    </media:community>
   </media:group>
  </entry>
@@ -134,8 +183,8 @@ Featured Creators:
 2:27- 2:50 Step 5: The Reveal
 2:50 - 3:12 Outro</media:description>
    <media:community>
-    <media:starRating count="2002" average="5.00" min="1" max="5"/>
-    <media:statistics views="554658"/>
+    <media:starRating count="2004" average="5.00" min="1" max="5"/>
+    <media:statistics views="555342"/>
    </media:community>
   </media:group>
  </entry>
@@ -157,8 +206,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/vLfHbplXtz4/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2957" average="5.00" min="1" max="5"/>
-    <media:statistics views="74467"/>
+    <media:starRating count="2978" average="5.00" min="1" max="5"/>
+    <media:statistics views="75324"/>
    </media:community>
   </media:group>
  </entry>
@@ -180,8 +229,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/2UlrqThzzCs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4933" average="5.00" min="1" max="5"/>
-    <media:statistics views="70102"/>
+    <media:starRating count="4981" average="5.00" min="1" max="5"/>
+    <media:statistics views="70903"/>
    </media:community>
   </media:group>
  </entry>
@@ -203,8 +252,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/v-nWeugyb7A/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3185" average="5.00" min="1" max="5"/>
-    <media:statistics views="63641"/>
+    <media:starRating count="3208" average="5.00" min="1" max="5"/>
+    <media:statistics views="64242"/>
    </media:community>
   </media:group>
  </entry>
@@ -228,8 +277,8 @@ Featured Creators:
 
 Online video trends have evolved to become the driving force of pop culture. But do you know who’s creating them? From the moment of upload, discover the untold, true stories of the Black creators and culture behind your favorite trends. Witness those who have transformed culture on a global scale finally get the flowers they deserve.</media:description>
    <media:community>
-    <media:starRating count="7071" average="5.00" min="1" max="5"/>
-    <media:statistics views="640367"/>
+    <media:starRating count="7104" average="5.00" min="1" max="5"/>
+    <media:statistics views="642523"/>
    </media:community>
   </media:group>
  </entry>
@@ -251,8 +300,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i3.ytimg.com/vi/fEzeTYwEmlw/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3425" average="5.00" min="1" max="5"/>
-    <media:statistics views="82093"/>
+    <media:starRating count="3440" average="5.00" min="1" max="5"/>
+    <media:statistics views="82627"/>
    </media:community>
   </media:group>
  </entry>
@@ -274,8 +323,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i1.ytimg.com/vi/xY34jr-gYgU/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4894" average="5.00" min="1" max="5"/>
-    <media:statistics views="94799"/>
+    <media:starRating count="4909" average="5.00" min="1" max="5"/>
+    <media:statistics views="95263"/>
    </media:community>
   </media:group>
  </entry>
@@ -297,8 +346,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i2.ytimg.com/vi/MKeug0IZWbo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3158" average="5.00" min="1" max="5"/>
-    <media:statistics views="63953"/>
+    <media:starRating count="3166" average="5.00" min="1" max="5"/>
+    <media:statistics views="64247"/>
    </media:community>
   </media:group>
  </entry>
@@ -320,8 +369,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i1.ytimg.com/vi/HgIBGdBDeHs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4691" average="5.00" min="1" max="5"/>
-    <media:statistics views="97411"/>
+    <media:starRating count="4699" average="5.00" min="1" max="5"/>
+    <media:statistics views="97750"/>
    </media:community>
   </media:group>
  </entry>
@@ -343,8 +392,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i3.ytimg.com/vi/rwYAcQqbbrY/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4331" average="5.00" min="1" max="5"/>
-    <media:statistics views="74406"/>
+    <media:starRating count="4339" average="5.00" min="1" max="5"/>
+    <media:statistics views="74616"/>
    </media:community>
   </media:group>
  </entry>
@@ -404,40 +453,8 @@ Featured Creators:
 
 #Gaming #Retrogaming #YouTube</media:description>
    <media:community>
-    <media:starRating count="6871" average="5.00" min="1" max="5"/>
-    <media:statistics views="3155490"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:k2_eWjsB6lI</id>
-  <yt:videoId>k2_eWjsB6lI</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>@safiya  reveals her love of Twilight, what itches her brain, and VidCon | YouTube Watch History</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=k2_eWjsB6lI"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2023-09-07T16:00:34+00:00</published>
-  <updated>2023-09-14T20:34:19+00:00</updated>
-  <media:group>
-   <media:title>@safiya  reveals her love of Twilight, what itches her brain, and VidCon | YouTube Watch History</media:title>
-   <media:content url="https://www.youtube.com/v/k2_eWjsB6lI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/k2_eWjsB6lI/hqdefault.jpg" width="480" height="360"/>
-   <media:description>We love watching Safiya Nygaard’s videos, but what has SHE been watching?? Safiya sat down with us to plug in her phone and reveal her YouTube Watch History. From her favorite 4+hour video essay, to her love of Twilight, to creators she’s tried to track down at VidCon, Safiya talks about what she’s been watching and why!
-
-0:00 - 0:23 Intro
-0:23 - 2:30 Recent Videos
-2:30 - 5:31 Scavenger Hunt
-5:31 - 8:41 Scroll Roulette
-8:41 - 10:12 Desert Island
-10:12 Final Thoughts
-
-#SafiyaNygaard #WatchHistory #YouTube</media:description>
-   <media:community>
-    <media:starRating count="2203" average="5.00" min="1" max="5"/>
-    <media:statistics views="763323"/>
+    <media:starRating count="6875" average="5.00" min="1" max="5"/>
+    <media:statistics views="3155795"/>
    </media:community>
   </media:group>
  </entry>
