@@ -1311,7 +1311,7 @@ for yt_id in make_up_file_format.keys():
 if sys.argv[1] == "a-shell":
     # 启动 RangeHTTPServer
     server_process = subprocess.Popen(["open", "shortcuts://run-shortcut?name=Podflow&input=text&text=http"])
-    server_process = subprocess.Popen(["python3", "-m", "http.server", "--cgi"])
+    server_process = subprocess.Popen(["python3", "-m", "RangeHTTPServer", "--cgi"])
     # 延时
     time.sleep(60)
     # 关闭服务器
