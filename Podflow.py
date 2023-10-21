@@ -283,8 +283,8 @@ def qr_code(data):
     height_double = math.ceil(height/2)
     # 转换图像为ASCII字符
     fonts = ["▀", "▄", "█", " "]
-    fonts = ["╹", "╻", "╏", " "]
-    ascii_art = "\033[47m\033[30m\033[1m"
+    # fonts = ["╹", "╻", "╏", " "]
+    ascii_art = ""
     for y in range(height_double):
         if (y+1)*2-1 >= height:
             for x in range(width):
@@ -303,7 +303,6 @@ def qr_code(data):
                 else:
                     ascii_art += " "
             ascii_art += "\n"
-    ascii_art += "\033[0m"
     print(ascii_art)
 
 
@@ -1201,7 +1200,7 @@ def youtube_xml_items(output_dir):
 {items}
 <!-- {{{output_dir}}} -->'''
     file_save(xml_rss(title,link,description,category,icon,items), f"{output_dir}.xml", "channel_rss")
-    write_log(f"{channelid_youtube_ids[output_dir]} 播客{update_text}", f"地址: \033[34m{config['url']}/channel_rss/{output_dir}.xml\033[0m", channelid_youtube[channelid_youtube_ids[output_dir]]['DisplayRSSaddress'])
+    write_log(f"{channelid_youtube_ids[output_dir]} 播客{update_text}", f"地址:\n\033[34m{config['url']}/channel_rss/{output_dir}.xml\033[0m", channelid_youtube[channelid_youtube_ids[output_dir]]['DisplayRSSaddress'])
     if channelid_youtube[channelid_youtube_ids[output_dir]]['DisplayRSSaddress'] and channelid_youtube[channelid_youtube_ids[output_dir]]['QRcode']:
         qr_code(f"{config['url']}/channel_rss/{output_dir}.xml")
     return items
@@ -1220,7 +1219,7 @@ for output_dir in channelid_youtube_ids:
 {items}'''
     all_youtube_content_ytid[output_dir] = re.findall(r"(?<=UC.{22}/)(.+\.m4a|.+\.mp4)(?=\")", items)
 file_save(xml_rss(config["title"], config["link"], config["description"], config["category"], config["icon"], all_items), f"{config['filename']}.xml")
-write_log("总播客已更新", f"地址: \033[34m{config['url']}/{config['filename']}.xml\033[0m")
+write_log("总播客已更新", f"地址:\n\033[34m{config['url']}/{config['filename']}.xml\033[0m")
 qr_code(f"{config['url']}/{config['filename']}.xml")
 
 
@@ -1313,7 +1312,7 @@ for yt_id in make_up_file_format.keys():
 if sys.argv[1] == "a-shell":
     # 启动 RangeHTTPServer
     server_process = subprocess.Popen(["open", "shortcuts://run-shortcut?name=Podflow&input=text&text=http"])
-    server_process = subprocess.Popen(["python3", "-m", "RangeHTTPServer", "--cgi"])
+    server_process = subprocess.Popen(["python3", "-m", "RangeHTTPServer"])
     # 延时
     time.sleep(60)
     # 关闭服务器
