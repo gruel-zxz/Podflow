@@ -20,7 +20,7 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2023-10-20T01:38:18+00:00</published>
-  <updated>2023-10-20T01:38:18+00:00</updated>
+  <updated>2023-10-21T07:30:44+00:00</updated>
   <media:group>
    <media:title>Celebrate every wave, curl, kink, and coil with @WillOnAWhim, @BiancaReneeToday, and @NaturalReign</media:title>
    <media:content url="https://www.youtube.com/v/VjJ9_qnsVrE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -53,8 +53,8 @@ FEATURED CREATORS:
 @MiniMarley 
 @curlsbyjen</media:description>
    <media:community>
-    <media:starRating count="659" average="5.00" min="1" max="5"/>
-    <media:statistics views="89562"/>
+    <media:starRating count="737" average="5.00" min="1" max="5"/>
+    <media:statistics views="155686"/>
    </media:community>
   </media:group>
  </entry>
@@ -76,8 +76,8 @@ FEATURED CREATORS:
    <media:thumbnail url="https://i1.ytimg.com/vi/TTZXkm6JM_8/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2181" average="5.00" min="1" max="5"/>
-    <media:statistics views="43562"/>
+    <media:starRating count="2461" average="5.00" min="1" max="5"/>
+    <media:statistics views="48945"/>
    </media:community>
   </media:group>
  </entry>
@@ -92,7 +92,7 @@ FEATURED CREATORS:
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2023-10-12T16:00:43+00:00</published>
-  <updated>2023-10-12T16:00:43+00:00</updated>
+  <updated>2023-10-21T18:26:26+00:00</updated>
   <media:group>
    <media:title>@Wendigoon Confesses His Darkest Fears &amp; What Videos Keep Him Up at Night | YouTube Watch History</media:title>
    <media:content url="https://www.youtube.com/v/sw6UGkFBIEs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -108,8 +108,8 @@ FEATURED CREATORS:
 
 #Wendigoon #YouTube #WatchHistory #Halloween</media:description>
    <media:community>
-    <media:starRating count="4431" average="5.00" min="1" max="5"/>
-    <media:statistics views="664117"/>
+    <media:starRating count="4586" average="5.00" min="1" max="5"/>
+    <media:statistics views="643902"/>
    </media:community>
   </media:group>
  </entry>
@@ -131,8 +131,8 @@ FEATURED CREATORS:
    <media:thumbnail url="https://i1.ytimg.com/vi/X2676LxDOz8/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3188" average="5.00" min="1" max="5"/>
-    <media:statistics views="60382"/>
+    <media:starRating count="3315" average="5.00" min="1" max="5"/>
+    <media:statistics views="62659"/>
    </media:community>
   </media:group>
  </entry>
@@ -147,7 +147,7 @@ FEATURED CREATORS:
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2023-10-05T16:00:52+00:00</published>
-  <updated>2023-10-13T21:10:51+00:00</updated>
+  <updated>2023-10-21T20:35:43+00:00</updated>
   <media:group>
    <media:title>@ZHCYT customizes a YouTube Creator Award with tips from the community</media:title>
    <media:content url="https://www.youtube.com/v/zq0UULydj9w?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -183,8 +183,8 @@ Featured Creators:
 2:27- 2:50 Step 5: The Reveal
 2:50 - 3:12 Outro</media:description>
    <media:community>
-    <media:starRating count="2010" average="5.00" min="1" max="5"/>
-    <media:statistics views="556403"/>
+    <media:starRating count="2026" average="5.00" min="1" max="5"/>
+    <media:statistics views="557838"/>
    </media:community>
   </media:group>
  </entry>
@@ -206,8 +206,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/vLfHbplXtz4/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3043" average="5.00" min="1" max="5"/>
-    <media:statistics views="76973"/>
+    <media:starRating count="3126" average="5.00" min="1" max="5"/>
+    <media:statistics views="79288"/>
    </media:community>
   </media:group>
  </entry>
@@ -229,8 +229,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/2UlrqThzzCs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="5087" average="5.00" min="1" max="5"/>
-    <media:statistics views="72505"/>
+    <media:starRating count="5268" average="5.00" min="1" max="5"/>
+    <media:statistics views="74727"/>
    </media:community>
   </media:group>
  </entry>
@@ -252,8 +252,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/v-nWeugyb7A/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3259" average="5.00" min="1" max="5"/>
-    <media:statistics views="65345"/>
+    <media:starRating count="3324" average="5.00" min="1" max="5"/>
+    <media:statistics views="66850"/>
    </media:community>
   </media:group>
  </entry>
@@ -277,8 +277,8 @@ Featured Creators:
 
 Online video trends have evolved to become the driving force of pop culture. But do you know who’s creating them? From the moment of upload, discover the untold, true stories of the Black creators and culture behind your favorite trends. Witness those who have transformed culture on a global scale finally get the flowers they deserve.</media:description>
    <media:community>
-    <media:starRating count="7141" average="5.00" min="1" max="5"/>
-    <media:statistics views="645439"/>
+    <media:starRating count="7188" average="5.00" min="1" max="5"/>
+    <media:statistics views="648759"/>
    </media:community>
   </media:group>
  </entry>
@@ -300,8 +300,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i3.ytimg.com/vi/fEzeTYwEmlw/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3474" average="5.00" min="1" max="5"/>
-    <media:statistics views="83656"/>
+    <media:starRating count="3527" average="5.00" min="1" max="5"/>
+    <media:statistics views="85159"/>
    </media:community>
   </media:group>
  </entry>
@@ -323,8 +323,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i1.ytimg.com/vi/xY34jr-gYgU/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4942" average="5.00" min="1" max="5"/>
-    <media:statistics views="96165"/>
+    <media:starRating count="5013" average="5.00" min="1" max="5"/>
+    <media:statistics views="97490"/>
    </media:community>
   </media:group>
  </entry>
@@ -346,8 +346,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i2.ytimg.com/vi/MKeug0IZWbo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3184" average="5.00" min="1" max="5"/>
-    <media:statistics views="64812"/>
+    <media:starRating count="3212" average="5.00" min="1" max="5"/>
+    <media:statistics views="65697"/>
    </media:community>
   </media:group>
  </entry>
@@ -369,8 +369,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i1.ytimg.com/vi/HgIBGdBDeHs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4718" average="5.00" min="1" max="5"/>
-    <media:statistics views="98452"/>
+    <media:starRating count="4751" average="5.00" min="1" max="5"/>
+    <media:statistics views="99382"/>
    </media:community>
   </media:group>
  </entry>
@@ -392,8 +392,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i3.ytimg.com/vi/rwYAcQqbbrY/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4348" average="5.00" min="1" max="5"/>
-    <media:statistics views="74998"/>
+    <media:starRating count="4370" average="5.00" min="1" max="5"/>
+    <media:statistics views="75556"/>
    </media:community>
   </media:group>
  </entry>
@@ -453,8 +453,8 @@ Featured Creators:
 
 #Gaming #Retrogaming #YouTube</media:description>
    <media:community>
-    <media:starRating count="6876" average="5.00" min="1" max="5"/>
-    <media:statistics views="3156228"/>
+    <media:starRating count="6884" average="5.00" min="1" max="5"/>
+    <media:statistics views="3156749"/>
    </media:community>
   </media:group>
  </entry>
