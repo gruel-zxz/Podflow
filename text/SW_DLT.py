@@ -45,7 +45,7 @@ class SW_DLT:
         self.date_id = datetime.datetime.today().strftime("%d-%m-%y-%H-%M-%S")
         self.ytdlp_globals = {
             "quiet": True,
-            no_warnings": True,"
+            "no_warnings": True,
             "noprogress": True,
             "progress_hooks": [show_progress],
             "postprocessor_hooks": [format_processing],
