@@ -371,10 +371,11 @@ def video_format(video_website, video_url, media = "m4a", quality = "480"):
     }
     yt_id_count, change_error= 0, None
     fail_message, duration, formats = duration_and_formats(video_website, video_url)
-    for key in error_reason.keys():
-        if key in fail_message:
-            change_error = [key, error_reason[key]]
-            break
+    if fail_message:
+        for key in error_reason.keys():
+            if key in fail_message:
+                change_error = [key, error_reason[key]]
+                break
     if change_error:
         fail_message = fail_message.replace(change_error[0], change_error[1])
     else:
