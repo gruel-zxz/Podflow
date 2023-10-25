@@ -50,7 +50,7 @@
 #日本漫畫 #殺手阿一 #cult</media:description>
    <media:community>
     <media:starRating count="767" average="5.00" min="1" max="5"/>
-    <media:statistics views="25041"/>
+    <media:statistics views="25065"/>
    </media:community>
   </media:group>
  </entry>
@@ -94,8 +94,8 @@
 
 #日本漫畫 #殺手阿一 #cult</media:description>
    <media:community>
-    <media:starRating count="871" average="5.00" min="1" max="5"/>
-    <media:statistics views="56880"/>
+    <media:starRating count="872" average="5.00" min="1" max="5"/>
+    <media:statistics views="56913"/>
    </media:community>
   </media:group>
  </entry>
@@ -141,7 +141,7 @@
 #日本 #次文化 #戀物</media:description>
    <media:community>
     <media:starRating count="843" average="5.00" min="1" max="5"/>
-    <media:statistics views="45296"/>
+    <media:statistics views="45309"/>
    </media:community>
   </media:group>
  </entry>
@@ -184,8 +184,8 @@
 
 #遊戲 #videogames  #日本</media:description>
    <media:community>
-    <media:starRating count="2045" average="5.00" min="1" max="5"/>
-    <media:statistics views="170732"/>
+    <media:starRating count="2044" average="5.00" min="1" max="5"/>
+    <media:statistics views="170778"/>
    </media:community>
   </media:group>
  </entry>
@@ -230,7 +230,7 @@
 #日本 #動漫 #日本電影</media:description>
    <media:community>
     <media:starRating count="1646" average="5.00" min="1" max="5"/>
-    <media:statistics views="119908"/>
+    <media:statistics views="120018"/>
    </media:community>
   </media:group>
  </entry>
@@ -275,7 +275,7 @@
 ▶我的品牌官網：www.under20.com</media:description>
    <media:community>
     <media:starRating count="1475" average="5.00" min="1" max="5"/>
-    <media:statistics views="130088"/>
+    <media:statistics views="130122"/>
    </media:community>
   </media:group>
  </entry>
@@ -317,7 +317,7 @@
 ▶我的品牌官網：www.under20.com</media:description>
    <media:community>
     <media:starRating count="1492" average="5.00" min="1" max="5"/>
-    <media:statistics views="120401"/>
+    <media:statistics views="120436"/>
    </media:community>
   </media:group>
  </entry>
@@ -381,7 +381,7 @@
 ▶我的品牌官網：www.under20.com</media:description>
    <media:community>
     <media:starRating count="1436" average="5.00" min="1" max="5"/>
-    <media:statistics views="264280"/>
+    <media:statistics views="264309"/>
    </media:community>
   </media:group>
  </entry>
@@ -422,8 +422,8 @@
 
 #日本 #日本社會</media:description>
    <media:community>
-    <media:starRating count="788" average="5.00" min="1" max="5"/>
-    <media:statistics views="58743"/>
+    <media:starRating count="789" average="5.00" min="1" max="5"/>
+    <media:statistics views="58750"/>
    </media:community>
   </media:group>
  </entry>
@@ -468,7 +468,7 @@
 #2ch #日本文化 #互聯網</media:description>
    <media:community>
     <media:starRating count="832" average="5.00" min="1" max="5"/>
-    <media:statistics views="61588"/>
+    <media:statistics views="61597"/>
    </media:community>
   </media:group>
  </entry>
@@ -508,8 +508,8 @@
 
 #日本社會 #刑務所 #越獄</media:description>
    <media:community>
-    <media:starRating count="627" average="5.00" min="1" max="5"/>
-    <media:statistics views="45741"/>
+    <media:starRating count="628" average="5.00" min="1" max="5"/>
+    <media:statistics views="45746"/>
    </media:community>
   </media:group>
  </entry>
@@ -560,7 +560,7 @@
 ▶我的品牌官網：www.under20.com</media:description>
    <media:community>
     <media:starRating count="1491" average="5.00" min="1" max="5"/>
-    <media:statistics views="98505"/>
+    <media:statistics views="98525"/>
    </media:community>
   </media:group>
  </entry>
@@ -602,7 +602,7 @@
 #福島核污水 #日本核廢水 #核輻射 #科幻</media:description>
    <media:community>
     <media:starRating count="695" average="5.00" min="1" max="5"/>
-    <media:statistics views="34828"/>
+    <media:statistics views="34840"/>
    </media:community>
   </media:group>
  </entry>
@@ -648,8 +648,8 @@
 
 #伊藤潤二 #恐怖 #日本 #次文化</media:description>
    <media:community>
-    <media:starRating count="1207" average="5.00" min="1" max="5"/>
-    <media:statistics views="75082"/>
+    <media:starRating count="1209" average="5.00" min="1" max="5"/>
+    <media:statistics views="75117"/>
    </media:community>
   </media:group>
  </entry>
@@ -697,7 +697,7 @@
 ▶我的品牌官網：www.under20.com</media:description>
    <media:community>
     <media:starRating count="10876" average="5.00" min="1" max="5"/>
-    <media:statistics views="1566069"/>
+    <media:statistics views="1566256"/>
    </media:community>
   </media:group>
  </entry>
