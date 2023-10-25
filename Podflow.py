@@ -886,9 +886,9 @@ if channelid_youtube_ids_update:
     count_channelid_youtube_ids_update = 1
     for channelid_key, channelid_value in channelid_youtube_ids_update.items():
         if channelid_key in youtube_content_ytid_update:
-            print_channelid_youtube_ids_update += f"\033[32m{channelid_value}\033[0m "
+            print_channelid_youtube_ids_update += f"\033[32m{channelid_value}\033[0m"
         else:
-            print_channelid_youtube_ids_update += f"\033[33m{channelid_value}\033[0m "
+            print_channelid_youtube_ids_update += f"\033[33m{channelid_value}\033[0m"
         if count_channelid_youtube_ids_update != len_channelid_youtube_ids_update:
             count_channelid_youtube_ids_update += 1
             print_channelid_youtube_ids_update += " | "
