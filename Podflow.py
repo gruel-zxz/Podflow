@@ -346,13 +346,21 @@ def show_progress(stream):
 # 获取媒体时长和ID模块
 def video_format(video_website, video_url, media = "m4a", quality = "480"):
     fail_message = None
+    class MyLogger:
+        def debug(self, msg):
+            pass
+        def warning(self, msg):
+            pass
+        def error(self, msg):
+            pass
     def duration_and_formats(video_website, video_url):
         fail_message, duration, formats = None, None, None
         try:
             # 初始化 yt_dlp 实例, 并忽略错误
             ydl_opts = {
                 'no_warnings': True, 
-                'quiet': True  # 禁止非错误信息的输出
+                'quiet': True,  # 禁止非错误信息的输出
+                'logger': MyLogger()
             }
             ydl = yt_dlp.YoutubeDL(ydl_opts)
             # 使用提供的 URL 提取视频信息
