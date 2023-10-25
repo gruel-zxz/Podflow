@@ -21,15 +21,15 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2023-10-25T03:51:30+00:00</published>
-  <updated>2023-10-25T04:54:31+00:00</updated>
+  <updated>2023-10-25T07:51:19+00:00</updated>
   <media:group>
    <media:title>东北就是我的第二故乡，它就是我心中最宜居的城市#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
    <media:content url="https://www.youtube.com/v/k-Qv7b_g17c?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i4.ytimg.com/vi/k-Qv7b_g17c/hqdefault.jpg" width="480" height="360"/>
    <media:description>东北就是我的第二故乡，它就是我心中最宜居的城市#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="45"/>
+    <media:starRating count="5" average="5.00" min="1" max="5"/>
+    <media:statistics views="267"/>
    </media:community>
   </media:group>
  </entry>
@@ -51,8 +51,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/8e5VJNclYnw/hqdefault.jpg" width="480" height="360"/>
    <media:description>东北的爱管闲事等于路见不平一声吼！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="101" average="5.00" min="1" max="5"/>
-    <media:statistics views="3348"/>
+    <media:starRating count="106" average="5.00" min="1" max="5"/>
+    <media:statistics views="3502"/>
    </media:community>
   </media:group>
  </entry>
@@ -74,8 +74,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/NXRQTRW9T5c/hqdefault.jpg" width="480" height="360"/>
    <media:description>上海的物价让上海本地人都很头疼吧#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="10" average="5.00" min="1" max="5"/>
-    <media:statistics views="504"/>
+    <media:starRating count="11" average="5.00" min="1" max="5"/>
+    <media:statistics views="520"/>
    </media:community>
   </media:group>
  </entry>
@@ -97,8 +97,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/dgSlPxFrtWE/hqdefault.jpg" width="480" height="360"/>
    <media:description>新疆美女多，看了口水流成河#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="16" average="5.00" min="1" max="5"/>
-    <media:statistics views="655"/>
+    <media:starRating count="17" average="5.00" min="1" max="5"/>
+    <media:statistics views="672"/>
    </media:community>
   </media:group>
  </entry>
@@ -121,7 +121,7 @@
    <media:description>原来真实的商战和我想象中差别那么大#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="11" average="5.00" min="1" max="5"/>
-    <media:statistics views="705"/>
+    <media:statistics views="707"/>
    </media:community>
   </media:group>
  </entry>
@@ -143,8 +143,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/rpdjmLUeedY/hqdefault.jpg" width="480" height="360"/>
    <media:description>都说中国的世界的，但是我觉得这句话应该反过来说#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="136" average="5.00" min="1" max="5"/>
-    <media:statistics views="5884"/>
+    <media:starRating count="137" average="5.00" min="1" max="5"/>
+    <media:statistics views="5975"/>
    </media:community>
   </media:group>
  </entry>
@@ -166,8 +166,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/6DknTtKwcNw/hqdefault.jpg" width="480" height="360"/>
    <media:description>论方言的感染力，东北方言绝对是第一了#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="172" average="5.00" min="1" max="5"/>
-    <media:statistics views="7191"/>
+    <media:starRating count="175" average="5.00" min="1" max="5"/>
+    <media:statistics views="7304"/>
    </media:community>
   </media:group>
  </entry>
@@ -190,7 +190,7 @@
    <media:description>给山东人送礼是个体力活，不仅劲儿得大，还得跑得快#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="12" average="5.00" min="1" max="5"/>
-    <media:statistics views="642"/>
+    <media:statistics views="644"/>
    </media:community>
   </media:group>
  </entry>
@@ -213,7 +213,7 @@
    <media:description>难道这些就是男人开车累的原因吗#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="16" average="5.00" min="1" max="5"/>
-    <media:statistics views="1005"/>
+    <media:statistics views="1008"/>
    </media:community>
   </media:group>
  </entry>
@@ -236,7 +236,7 @@
    <media:description>上有天堂下有苏杭真不是吹的#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="24" average="5.00" min="1" max="5"/>
-    <media:statistics views="872"/>
+    <media:statistics views="875"/>
    </media:community>
   </media:group>
  </entry>
@@ -282,7 +282,7 @@
    <media:description>酒后吐真言，假也三分甜#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="9" average="5.00" min="1" max="5"/>
-    <media:statistics views="706"/>
+    <media:statistics views="709"/>
    </media:community>
   </media:group>
  </entry>
@@ -351,7 +351,7 @@
    <media:description>东北男人是藏獒一样的存在，能管住他们的只有   #爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="508"/>
+    <media:statistics views="510"/>
    </media:community>
   </media:group>
  </entry>
