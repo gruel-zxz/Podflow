@@ -29,7 +29,7 @@
    <media:description>东北就是我的第二故乡，它就是我心中最宜居的城市#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="310"/>
+    <media:statistics views="317"/>
    </media:community>
   </media:group>
  </entry>
@@ -51,8 +51,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/8e5VJNclYnw/hqdefault.jpg" width="480" height="360"/>
    <media:description>东北的爱管闲事等于路见不平一声吼！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="107" average="5.00" min="1" max="5"/>
-    <media:statistics views="3556"/>
+    <media:starRating count="108" average="5.00" min="1" max="5"/>
+    <media:statistics views="3562"/>
    </media:community>
   </media:group>
  </entry>
@@ -98,7 +98,7 @@
    <media:description>新疆美女多，看了口水流成河#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="17" average="5.00" min="1" max="5"/>
-    <media:statistics views="687"/>
+    <media:statistics views="689"/>
    </media:community>
   </media:group>
  </entry>
@@ -144,7 +144,7 @@
    <media:description>都说中国的世界的，但是我觉得这句话应该反过来说#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="139" average="5.00" min="1" max="5"/>
-    <media:statistics views="6022"/>
+    <media:statistics views="6028"/>
    </media:community>
   </media:group>
  </entry>
@@ -167,7 +167,7 @@
    <media:description>论方言的感染力，东北方言绝对是第一了#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="175" average="5.00" min="1" max="5"/>
-    <media:statistics views="7346"/>
+    <media:statistics views="7354"/>
    </media:community>
   </media:group>
  </entry>

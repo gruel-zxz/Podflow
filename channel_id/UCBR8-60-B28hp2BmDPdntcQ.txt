@@ -54,7 +54,7 @@ FEATURED CREATORS:
 @curlsbyjen</media:description>
    <media:community>
     <media:starRating count="1299" average="5.00" min="1" max="5"/>
-    <media:statistics views="471727"/>
+    <media:statistics views="471952"/>
    </media:community>
   </media:group>
  </entry>
@@ -76,8 +76,8 @@ FEATURED CREATORS:
    <media:thumbnail url="https://i1.ytimg.com/vi/TTZXkm6JM_8/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3317" average="5.00" min="1" max="5"/>
-    <media:statistics views="67156"/>
+    <media:starRating count="3318" average="5.00" min="1" max="5"/>
+    <media:statistics views="67274"/>
    </media:community>
   </media:group>
  </entry>
@@ -108,8 +108,8 @@ FEATURED CREATORS:
 
 #Wendigoon #YouTube #WatchHistory #Halloween</media:description>
    <media:community>
-    <media:starRating count="5063" average="5.00" min="1" max="5"/>
-    <media:statistics views="701932"/>
+    <media:starRating count="5064" average="5.00" min="1" max="5"/>
+    <media:statistics views="704250"/>
    </media:community>
   </media:group>
  </entry>
@@ -131,8 +131,8 @@ FEATURED CREATORS:
    <media:thumbnail url="https://i1.ytimg.com/vi/X2676LxDOz8/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3768" average="5.00" min="1" max="5"/>
-    <media:statistics views="70434"/>
+    <media:starRating count="3766" average="5.00" min="1" max="5"/>
+    <media:statistics views="70504"/>
    </media:community>
   </media:group>
  </entry>
@@ -184,7 +184,7 @@ Featured Creators:
 2:50 - 3:12 Outro</media:description>
    <media:community>
     <media:starRating count="2063" average="5.00" min="1" max="5"/>
-    <media:statistics views="563540"/>
+    <media:statistics views="563572"/>
    </media:community>
   </media:group>
  </entry>
@@ -206,8 +206,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/vLfHbplXtz4/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3384" average="5.00" min="1" max="5"/>
-    <media:statistics views="87503"/>
+    <media:starRating count="3385" average="5.00" min="1" max="5"/>
+    <media:statistics views="87564"/>
    </media:community>
   </media:group>
  </entry>
@@ -229,8 +229,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/2UlrqThzzCs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="5716" average="5.00" min="1" max="5"/>
-    <media:statistics views="82288"/>
+    <media:starRating count="5719" average="5.00" min="1" max="5"/>
+    <media:statistics views="82334"/>
    </media:community>
   </media:group>
  </entry>
@@ -253,7 +253,7 @@ Featured Creators:
    <media:description></media:description>
    <media:community>
     <media:starRating count="3532" average="5.00" min="1" max="5"/>
-    <media:statistics views="72198"/>
+    <media:statistics views="72237"/>
    </media:community>
   </media:group>
  </entry>
@@ -277,8 +277,8 @@ Featured Creators:
 
 Online video trends have evolved to become the driving force of pop culture. But do you know who’s creating them? From the moment of upload, discover the untold, true stories of the Black creators and culture behind your favorite trends. Witness those who have transformed culture on a global scale finally get the flowers they deserve.</media:description>
    <media:community>
-    <media:starRating count="9697" average="5.00" min="1" max="5"/>
-    <media:statistics views="674178"/>
+    <media:starRating count="9706" average="5.00" min="1" max="5"/>
+    <media:statistics views="674405"/>
    </media:community>
   </media:group>
  </entry>
@@ -300,8 +300,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i3.ytimg.com/vi/fEzeTYwEmlw/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3663" average="5.00" min="1" max="5"/>
-    <media:statistics views="90390"/>
+    <media:starRating count="3666" average="5.00" min="1" max="5"/>
+    <media:statistics views="90441"/>
    </media:community>
   </media:group>
  </entry>
@@ -324,7 +324,7 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:description></media:description>
    <media:community>
     <media:starRating count="5163" average="5.00" min="1" max="5"/>
-    <media:statistics views="101978"/>
+    <media:statistics views="102012"/>
    </media:community>
   </media:group>
  </entry>
@@ -347,7 +347,7 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:description></media:description>
    <media:community>
     <media:starRating count="3316" average="5.00" min="1" max="5"/>
-    <media:statistics views="68678"/>
+    <media:statistics views="68701"/>
    </media:community>
   </media:group>
  </entry>
@@ -370,7 +370,7 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:description></media:description>
    <media:community>
     <media:starRating count="4843" average="5.00" min="1" max="5"/>
-    <media:statistics views="102690"/>
+    <media:statistics views="102716"/>
    </media:community>
   </media:group>
  </entry>
@@ -393,7 +393,7 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:description></media:description>
    <media:community>
     <media:starRating count="4428" average="5.00" min="1" max="5"/>
-    <media:statistics views="77398"/>
+    <media:statistics views="77411"/>
    </media:community>
   </media:group>
  </entry>
@@ -454,7 +454,7 @@ Featured Creators:
 #Gaming #Retrogaming #YouTube</media:description>
    <media:community>
     <media:starRating count="6903" average="5.00" min="1" max="5"/>
-    <media:statistics views="3159200"/>
+    <media:statistics views="3159226"/>
    </media:community>
   </media:group>
  </entry>
