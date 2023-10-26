@@ -42,7 +42,7 @@ default_config = {
 }
 # 如果InmainRSS为False或频道有更新则无视DisplayRSSaddress的状态, 都会变为True。
 
-print(f"{datetime.now().strftime('%H:%M:%S')}|Podflow开始运行...")
+print(f"{datetime.now().strftime('%H:%M:%S')}|Podflow开始运行.....")
 
 
 # In[2]:
@@ -365,7 +365,7 @@ def video_format(video_website, video_url, media = "m4a", quality = "480"):
             ydl_opts = {
                 'no_warnings': True, 
                 'quiet': True,  # 禁止非错误信息的输出
-                'logger': MyLogger()
+                'logger': MyLogger(),
             }
             ydl = yt_dlp.YoutubeDL(ydl_opts)
             # 使用提供的 URL 提取视频信息
@@ -490,7 +490,7 @@ def download_video(video_url, output_dir, output_format, format_id, video_websit
         "noprogress": True,
         'quiet': True,
         "progress_hooks": [show_progress],
-        'logger': MyLogger()
+        'logger': MyLogger(),
     }
     try:
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
@@ -879,22 +879,43 @@ for youtube_key, youtube_value in channelid_youtube_ids.items():
 # 等待所有线程完成
 for thread in youtube_need_update_threads:
     thread.join()
+
+
+# In[38]:
+
+
+# 输出需要更新的信息
 if channelid_youtube_ids_update:
     print_channelid_youtube_ids_update = "需更新的YouTube频道:\n"
-    for channelid_key, channelid_value in channelid_youtube_ids_update.items():
-        if len(print_channelid_youtube_ids_update) != 15:
-            if len(re.sub(r"\033\[[0-9;]+m", "", print_channelid_youtube_ids_update.split("\n")[-1]).encode("utf-8")) + len(f" | {channelid_value}".encode("utf-8")) < 48:
-                print_channelid_youtube_ids_update += " | "
+    try:
+        for channelid_key, channelid_value in channelid_youtube_ids_update.items():
+            if len(print_channelid_youtube_ids_update) != 15:
+                if len(re.sub(r"\033\[[0-9;]+m", "", print_channelid_youtube_ids_update.split("\n")[-1]).encode("GBK")) + len(f" | {channelid_value}".encode("utf-8")) < 48:
+                    print_channelid_youtube_ids_update += " | "
+                else:
+                    print_channelid_youtube_ids_update += "\n"
+            if channelid_key in youtube_content_ytid_update:
+                print_channelid_youtube_ids_update += f"\033[32m{channelid_value}\033[0m"
             else:
-                print_channelid_youtube_ids_update += "\n"
-        if channelid_key in youtube_content_ytid_update:
-            print_channelid_youtube_ids_update += f"\033[32m{channelid_value}\033[0m"
-        else:
-            print_channelid_youtube_ids_update += f"\033[33m{channelid_value}\033[0m"
+                print_channelid_youtube_ids_update += f"\033[33m{channelid_value}\033[0m"
+    except:
+        len_channelid_youtube_ids_update = len(channelid_youtube_ids_update)
+        count_channelid_youtube_ids_update = 1
+        for channelid_key, channelid_value in channelid_youtube_ids_update.items():
+            if channelid_key in youtube_content_ytid_update:
+                print_channelid_youtube_ids_update += f"\033[32m{channelid_value}\033[0m"
+            else:
+                print_channelid_youtube_ids_update += f"\033[33m{channelid_value}\033[0m"
+            if count_channelid_youtube_ids_update != len_channelid_youtube_ids_update:
+                if count_channelid_youtube_ids_update % 2 != 0:
+                    print_channelid_youtube_ids_update += " | "
+                else:
+                    print_channelid_youtube_ids_update += "\n"
+                count_channelid_youtube_ids_update += 1
     write_log(print_channelid_youtube_ids_update)
 
 
-# In[20]:
+# In[21]:
 
 
 # 获取YouTube视频格式信息
@@ -915,7 +936,7 @@ for ytid_key, ytid_value in youtube_content_ytid_update.items():
         yt_id_format["quality"] = yt_id_quality
         youtube_content_ytid_update_format[yt_id] = yt_id_format
 if len(youtube_content_ytid_update_format) != 0:
-    print(f"{datetime.now().strftime('%H:%M:%S')}|YouTube视频 \033[34m下载准备中...\033[0m")
+    print(f"{datetime.now().strftime('%H:%M:%S')}|YouTube视频 \033[34m下载准备中.....\033[0m")
 # 创建线程锁
 youtube_video_format_lock = threading.Lock()
 def youtube_video_format(yt_id):
@@ -936,6 +957,7 @@ for yt_id in youtube_content_ytid_update_format.keys():
 # 等待所有线程完成
 for thread in youtube_content_ytid_update_threads:
     thread.join()
+
 # 下载YouTube视频
 for yt_id in youtube_content_ytid_update_format.keys():
     if dl_aideo_video(
@@ -952,7 +974,7 @@ for yt_id in youtube_content_ytid_update_format.keys():
             write_log(f"{channelid_youtube_ids[youtube_content_ytid_update_format[yt_id]['id']]}|{yt_id} \033[31m无法下载\033[0m")
 
 
-# In[21]:
+# In[22]:
 
 
 #生成XML模块
@@ -998,7 +1020,7 @@ def xml_rss(title,link,description,category,icon,items):
 </rss>'''
 
 
-# In[22]:
+# In[23]:
 
 
 # 生成item模块
@@ -1045,7 +1067,7 @@ def xml_item(video_url, output_dir, video_website, channelid_title,title, descri
 '''
 
 
-# In[23]:
+# In[24]:
 
 
 # 生成YouTube的item模块
@@ -1076,7 +1098,7 @@ def youtube_xml_item(entry):
     )
 
 
-# In[24]:
+# In[25]:
 
 
 # 生成原有的item模块
@@ -1122,7 +1144,7 @@ def xml_original_item(original_item):
 '''
 
 
-# In[25]:
+# In[26]:
 
 
 # 获取原始xml文件
@@ -1151,14 +1173,14 @@ for youtube_key in channelid_youtube_ids.keys():
             write_log(f"RSS文件中不存在 {channelid_youtube_ids[youtube_key]} 无法保留原节目")
 
 
-# In[26]:
+# In[27]:
 
 
 # 构建文件夹channel_rss
 folder_build("channel_rss")
 
 
-# In[27]:
+# In[28]:
 
 
 # 创建线程锁
@@ -1196,7 +1218,7 @@ for thread in youtube_xml_get_threads:
     thread.join()
 
 
-# In[28]:
+# In[29]:
 
 
 # 生成YouTube对应channel的需更新的items模块
@@ -1250,7 +1272,7 @@ def youtube_xml_items(output_dir):
     return items
 
 
-# In[29]:
+# In[30]:
 
 
 # 生成主rss
@@ -1267,7 +1289,7 @@ write_log("总播客已更新", f"地址:\n\033[34m{config['url']}/{config['file
 qr_code(f"{config['url']}/{config['filename']}.xml")
 
 
-# In[30]:
+# In[31]:
 
 
 # 删除多余媒体文件模块
@@ -1278,7 +1300,7 @@ def remove_file(output_dir):
             write_log(f"{channelid_youtube_ids[output_dir]}|{file_name}已删除")
 
 
-# In[31]:
+# In[32]:
 
 
 # 删除不在rss中的媒体文件
@@ -1286,7 +1308,7 @@ for output_dir in channelid_youtube_ids:
     remove_file(output_dir)
 
 
-# In[32]:
+# In[33]:
 
 
 # 删除已抛弃的媒体文件夹
@@ -1300,7 +1322,7 @@ def remove_dir():
 remove_dir()
 
 
-# In[33]:
+# In[34]:
 
 
 # 补全缺失的媒体文件到字典模块
@@ -1320,7 +1342,7 @@ def make_up_file(output_dir):
             make_up_file_format[file_name.split(".")[0]] = video_id_format
 
 
-# In[34]:
+# In[35]:
 
 
 # 补全在rss中缺失的媒体格式信息
@@ -1364,7 +1386,7 @@ for yt_id in make_up_file_format.keys():
             write_log(f"{channelid_youtube_ids[make_up_file_format[yt_id]['id']]}|{yt_id} \033[31m无法下载\033[0m")
 
 
-# In[35]:
+# In[36]:
 
 
 if sys.argv[1] == "a-shell":
