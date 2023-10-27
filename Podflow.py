@@ -955,7 +955,7 @@ if len(youtube_content_ytid_update_format) != 0:
                 youtube_content_ytid_update_format[yt_id]["format"] = ytid_update_format
             else:
                 stop_flag[0] = False
-                if stop_flag[1]:
+                if stop_flag[1] or yt_id_failed == []:
                     stop_flag[1] = False
                     print("\n")
                 with youtube_video_format_lock:
