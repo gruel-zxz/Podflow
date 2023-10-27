@@ -954,11 +954,11 @@ if len(youtube_content_ytid_update_format) != 0:
             if isinstance(ytid_update_format, list):
                 youtube_content_ytid_update_format[yt_id]["format"] = ytid_update_format
             else:
-                stop_flag[0] = False
-                if stop_flag[1] or yt_id_failed == []:
-                    stop_flag[1] = False
-                    print("\n")
                 with youtube_video_format_lock:
+                    stop_flag[0] = False
+                    if stop_flag[1] or yt_id_failed == []:
+                        stop_flag[1] = False
+                        print("\n")
                     yt_id_failed.append(yt_id)
                     write_log(f"{channelid_youtube_ids[youtube_content_ytid_update_format[yt_id]['id']]}|{yt_id} {ytid_update_format}")
                     del youtube_content_ytid_update_format[yt_id]
