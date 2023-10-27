@@ -914,7 +914,7 @@ if channelid_youtube_ids_update:
     write_log(print_channelid_youtube_ids_update)
 
 
-# In[21]:
+# In[43]:
 
 
 # 获取YouTube视频格式信息
@@ -937,7 +937,7 @@ if len(youtube_content_ytid_update_format) != 0:
         animation = "."
         i = 1
         prepare_youtube_print = datetime.now().strftime('%H:%M:%S')
-        while not stop_flag[0]:
+        while stop_flag[0]:
             print(f"\r{prepare_youtube_print}|YouTube视频 \033[34m下载准备中{animation.ljust(6)}\033[0m", end="")
             if i % 5 == 0:
                 animation = "."
@@ -954,8 +954,8 @@ if len(youtube_content_ytid_update_format) != 0:
             if isinstance(ytid_update_format, list):
                 youtube_content_ytid_update_format[yt_id]["format"] = ytid_update_format
             else:
-                stop_flag[0] = True
-                if yt_id_failed ==[] and stop_flag[1]:
+                stop_flag[0] = False
+                if stop_flag[1]:
                     stop_flag[1] = False
                     print("\n")
                 with youtube_video_format_lock:
@@ -971,11 +971,11 @@ if len(youtube_content_ytid_update_format) != 0:
         # 等待所有线程完成
         for thread in youtube_content_ytid_update_threads:
             thread.join()
-        stop_flag[0] = True
+        stop_flag[0] = False
         if yt_id_failed ==[] and stop_flag[1]:
             print("\033[34m已完成\033[0m")
     # 创建共享的标志变量
-    stop_flag = [False, True]  # 使用列表来存储标志变量
+    stop_flag = [True, True]  # 使用列表来存储标志变量
     # 创建两个线程分别运行等待动画和其他代码，并传递共享的标志变量
     prepare_youtube_1 = threading.Thread(target=wait_animation, args=(stop_flag,))
     prepare_youtube_2 = threading.Thread(target=before_youtube_video_format, args=(stop_flag,))
