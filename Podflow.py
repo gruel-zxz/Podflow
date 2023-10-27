@@ -385,7 +385,7 @@ def video_format(video_website, video_url, media = "m4a", quality = "480"):
     yt_id_count, change_error= 0, None
     fail_message, duration, formats = duration_and_formats(video_website, video_url)
     if fail_message:
-        for key in error_reason.keys():
+        for key in error_reason:
             if key in fail_message:
                 change_error = [key, error_reason[key]]
                 break
@@ -464,8 +464,7 @@ def get_duration_ffprobe(file_path):
         ]
         # 执行命令并获取输出
         output = subprocess.check_output(command, stderr=subprocess.STDOUT).decode("utf-8")
-        output = re.search(r"(?<=duration.)[0-9]+\.?[0-9]*", output)
-        if output:
+        if output := re.search(r"(?<=duration.)[0-9]+\.?[0-9]*", output):
             return math.ceil(float(output.group()))
         else:
             return None
@@ -496,7 +495,7 @@ def download_video(video_url, output_dir, output_format, format_id, video_websit
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
             ydl.download([f'{video_website}{video_url}'])  # 下载指定视频链接的视频
     except Exception as e:
-        write_log((f"{video_write_log} \033[31m下载失败\033[0m\n错误信息：{str(e)}")).replace("ERROR: ", "").replace(f"{video_url}: ", "").replace("[youtube] ","")  # 写入下载失败的日志信息
+        write_log((f"{video_write_log} \033[31m下载失败\033[0m\n错误信息：{str(e)}").replace("ERROR: ", "").replace(f"{video_url}: ", "").replace("[youtube] ",""))  # 写入下载失败的日志信息
         return video_url
 
 
@@ -881,7 +880,7 @@ for thread in youtube_need_update_threads:
     thread.join()
 
 
-# In[38]:
+# In[20]:
 
 
 # 输出需要更新的信息
@@ -898,7 +897,7 @@ if channelid_youtube_ids_update:
                 print_channelid_youtube_ids_update += f"\033[32m{channelid_value}\033[0m"
             else:
                 print_channelid_youtube_ids_update += f"\033[33m{channelid_value}\033[0m"
-    except:
+    except Exception:
         len_channelid_youtube_ids_update = len(channelid_youtube_ids_update)
         count_channelid_youtube_ids_update = 1
         for channelid_key, channelid_value in channelid_youtube_ids_update.items():
@@ -915,7 +914,7 @@ if channelid_youtube_ids_update:
     write_log(print_channelid_youtube_ids_update)
 
 
-# In[21]:
+# In[22]:
 
 
 # 获取YouTube视频格式信息
@@ -930,33 +929,65 @@ for ytid_key, ytid_value in youtube_content_ytid_update.items():
     else:
         yt_id_quality = None
     for yt_id in ytid_value:
-        yt_id_format ={}
-        yt_id_format["id"] = ytid_key
-        yt_id_format["media"] = yt_id_file
-        yt_id_format["quality"] = yt_id_quality
+        yt_id_format = {"id": ytid_key, "media": yt_id_file, "quality": yt_id_quality}
         youtube_content_ytid_update_format[yt_id] = yt_id_format
 if len(youtube_content_ytid_update_format) != 0:
-    print(f"{datetime.now().strftime('%H:%M:%S')}|YouTube视频 \033[34m下载准备中.....\033[0m")
-# 创建线程锁
-youtube_video_format_lock = threading.Lock()
-def youtube_video_format(yt_id):
-    ytid_update_format = video_format("https://www.youtube.com/watch?v=", yt_id, youtube_content_ytid_update_format[yt_id]["media"], youtube_content_ytid_update_format[yt_id]["quality"])
-    if isinstance(ytid_update_format, list):
-        youtube_content_ytid_update_format[yt_id]["format"] = ytid_update_format
-    else:
-        with youtube_video_format_lock:
-            yt_id_failed.append(yt_id)
-            write_log(f"{channelid_youtube_ids[youtube_content_ytid_update_format[yt_id]['id']]}|{yt_id} {ytid_update_format}")
-            del youtube_content_ytid_update_format[yt_id]
-# 创建线程列表
-youtube_content_ytid_update_threads = []
-for yt_id in youtube_content_ytid_update_format.keys():
-    thread = threading.Thread(target=youtube_video_format, args=(yt_id,))
-    youtube_content_ytid_update_threads.append(thread)
-    thread.start()
-# 等待所有线程完成
-for thread in youtube_content_ytid_update_threads:
-    thread.join()
+    # 等待动画模块
+    def wait_animation(stop_flag):
+        animation = "."
+        i = 1
+        prepare_youtube_print = datetime.now().strftime('%H:%M:%S')
+        while not stop_flag[0]:
+            print(f"\r{prepare_youtube_print}|YouTube视频 \033[34m下载准备中{animation.ljust(6)}\033[0m", end="")
+            if i % 5 == 0:
+                animation = "."
+            else:
+                animation += "."
+            i += 1
+            time.sleep(0.5)
+    # 获取视频信息多线程模块
+    def before_youtube_video_format(stop_flag):
+        # 创建线程锁
+        youtube_video_format_lock = threading.Lock()
+        def youtube_video_format(yt_id):
+            ytid_update_format = video_format("https://www.youtube.com/watch?v=", yt_id, youtube_content_ytid_update_format[yt_id]["media"], youtube_content_ytid_update_format[yt_id]["quality"])
+            if isinstance(ytid_update_format, list):
+                youtube_content_ytid_update_format[yt_id]["format"] = ytid_update_format
+            else:
+                with youtube_video_format_lock:
+                    stop_flag[0] = True
+                    if yt_id_failed ==[]:
+                        print("\n")
+                    yt_id_failed.append(yt_id)
+                    write_log(f"{channelid_youtube_ids[youtube_content_ytid_update_format[yt_id]['id']]}|{yt_id} {ytid_update_format}")
+                    del youtube_content_ytid_update_format[yt_id]
+        # 创建线程列表
+        youtube_content_ytid_update_threads = []
+        for yt_id in youtube_content_ytid_update_format.keys():
+            thread = threading.Thread(target=youtube_video_format, args=(yt_id,))
+            youtube_content_ytid_update_threads.append(thread)
+            thread.start()
+        # 等待所有线程完成
+        for thread in youtube_content_ytid_update_threads:
+            thread.join()
+        stop_flag[0] = True
+        if yt_id_failed ==[]:
+            print("\033[34m已完成\033[0m")
+    # 创建共享的标志变量
+    stop_flag = [False]  # 使用列表来存储标志变量
+    # 创建两个线程分别运行等待动画和其他代码，并传递共享的标志变量
+    prepare_youtube_1 = threading.Thread(target=wait_animation, args=(stop_flag,))
+    prepare_youtube_2 = threading.Thread(target=before_youtube_video_format, args=(stop_flag,))
+    # 启动两个线程
+    prepare_youtube_1.start()
+    prepare_youtube_2.start()
+    # 等待两个线程结束
+    prepare_youtube_1.join()
+    prepare_youtube_2.join()
+
+
+# In[23]:
+
 
 # 下载YouTube视频
 for yt_id in youtube_content_ytid_update_format.keys():
@@ -974,7 +1005,7 @@ for yt_id in youtube_content_ytid_update_format.keys():
             write_log(f"{channelid_youtube_ids[youtube_content_ytid_update_format[yt_id]['id']]}|{yt_id} \033[31m无法下载\033[0m")
 
 
-# In[22]:
+# In[24]:
 
 
 #生成XML模块
@@ -1020,7 +1051,7 @@ def xml_rss(title,link,description,category,icon,items):
 </rss>'''
 
 
-# In[23]:
+# In[25]:
 
 
 # 生成item模块
@@ -1067,7 +1098,7 @@ def xml_item(video_url, output_dir, video_website, channelid_title,title, descri
 '''
 
 
-# In[24]:
+# In[26]:
 
 
 # 生成YouTube的item模块
@@ -1098,7 +1129,7 @@ def youtube_xml_item(entry):
     )
 
 
-# In[25]:
+# In[27]:
 
 
 # 生成原有的item模块
@@ -1144,7 +1175,7 @@ def xml_original_item(original_item):
 '''
 
 
-# In[26]:
+# In[28]:
 
 
 # 获取原始xml文件
@@ -1173,14 +1204,14 @@ for youtube_key in channelid_youtube_ids.keys():
             write_log(f"RSS文件中不存在 {channelid_youtube_ids[youtube_key]} 无法保留原节目")
 
 
-# In[27]:
+# In[29]:
 
 
 # 构建文件夹channel_rss
 folder_build("channel_rss")
 
 
-# In[28]:
+# In[30]:
 
 
 # 创建线程锁
@@ -1218,7 +1249,7 @@ for thread in youtube_xml_get_threads:
     thread.join()
 
 
-# In[29]:
+# In[31]:
 
 
 # 生成YouTube对应channel的需更新的items模块
@@ -1272,7 +1303,7 @@ def youtube_xml_items(output_dir):
     return items
 
 
-# In[30]:
+# In[32]:
 
 
 # 生成主rss
@@ -1289,7 +1320,7 @@ write_log("总播客已更新", f"地址:\n\033[34m{config['url']}/{config['file
 qr_code(f"{config['url']}/{config['filename']}.xml")
 
 
-# In[31]:
+# In[ ]:
 
 
 # 删除多余媒体文件模块
@@ -1300,7 +1331,7 @@ def remove_file(output_dir):
             write_log(f"{channelid_youtube_ids[output_dir]}|{file_name}已删除")
 
 
-# In[32]:
+# In[ ]:
 
 
 # 删除不在rss中的媒体文件
@@ -1308,7 +1339,7 @@ for output_dir in channelid_youtube_ids:
     remove_file(output_dir)
 
 
-# In[33]:
+# In[ ]:
 
 
 # 删除已抛弃的媒体文件夹
@@ -1322,7 +1353,7 @@ def remove_dir():
 remove_dir()
 
 
-# In[34]:
+# In[ ]:
 
 
 # 补全缺失的媒体文件到字典模块
@@ -1330,10 +1361,7 @@ make_up_file_format = {}
 def make_up_file(output_dir):
     for file_name in all_youtube_content_ytid[output_dir]:
         if file_name not in os.listdir(output_dir):
-            video_id_format = {}
-            # 如果为视频格式获取分辨率
-            video_id_format["id"] = output_dir
-            video_id_format["media"] = file_name.split(".")[1]
+            video_id_format = {"id": output_dir, "media": file_name.split(".")[1]}
             if file_name.split(".")[0] == "mp4":
                 video_quality = channelid_youtube[channelid_youtube_ids[output_dir]]['quality']
             else:
@@ -1342,7 +1370,7 @@ def make_up_file(output_dir):
             make_up_file_format[file_name.split(".")[0]] = video_id_format
 
 
-# In[35]:
+# In[ ]:
 
 
 # 补全在rss中缺失的媒体格式信息
@@ -1386,7 +1414,7 @@ for yt_id in make_up_file_format.keys():
             write_log(f"{channelid_youtube_ids[make_up_file_format[yt_id]['id']]}|{yt_id} \033[31m无法下载\033[0m")
 
 
-# In[36]:
+# In[ ]:
 
 
 if sys.argv[1] == "a-shell":
