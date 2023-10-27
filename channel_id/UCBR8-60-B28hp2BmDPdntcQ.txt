@@ -10,6 +10,59 @@
   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
  </author>
  <entry>
+  <id>yt:video:8hBHQPrVVak</id>
+  <yt:videoId>8hBHQPrVVak</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>@AyChristene tiers the creepy characters that are taking over YouTube</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=8hBHQPrVVak"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2023-10-26T23:59:23+00:00</published>
+  <updated>2023-10-27T00:00:55+00:00</updated>
+  <media:group>
+   <media:title>@AyChristene tiers the creepy characters that are taking over YouTube</media:title>
+   <media:content url="https://www.youtube.com/v/8hBHQPrVVak?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/8hBHQPrVVak/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Who is the creepiest of them all? This Spooky Szn we had to ask @AyChristene  to create a spine-tingling tier list of the creepiest, most haunted characters on YouTube. Did we get it right? Who is your “never sleep again”? Sound off in the comments!
+
+0:00 - 0:18 Intro
+0:19 - 0:54 Serbian Dancing Lady
+0:55 - 1:30 Baldi
+1:31 - 1:53 Siren Head
+1:54 - 2:33 Skibidi Toilets
+2:34 - 3:05 Herobrine
+3:06 - 3:47 Choo-Choo Charles
+3:48 - 4:31 Huggy Wuggy
+4:32 Outro
+
+Featured Creators: 
+@LindsayIvan 
+@Caylus 
+@KindlyKeyin 
+@pbsstoried 
+@Shonyx 
+@DivergentWhiz 
+@DaFuqBoom 
+@RayZord 
+@LoreCraftOfficial 
+@SpaceWaffle 
+@GameTheory 
+@DanTDMLive 
+@GoldenLaneStudio 
+@SHSLBLAZE 
+@jacksepticeye
+@dream 
+
+#YouTube #Halloween #TierList</media:description>
+   <media:community>
+    <media:starRating count="417" average="5.00" min="1" max="5"/>
+    <media:statistics views="6935"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:VjJ9_qnsVrE</id>
   <yt:videoId>VjJ9_qnsVrE</yt:videoId>
   <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
@@ -20,7 +73,7 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2023-10-20T01:38:18+00:00</published>
-  <updated>2023-10-26T01:36:12+00:00</updated>
+  <updated>2023-10-26T14:09:11+00:00</updated>
   <media:group>
    <media:title>Celebrate every wave, curl, kink, and coil with @WillOnAWhim, @BiancaReneeToday, and @NaturalReign</media:title>
    <media:content url="https://www.youtube.com/v/VjJ9_qnsVrE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -53,8 +106,8 @@ FEATURED CREATORS:
 @MiniMarley 
 @curlsbyjen</media:description>
    <media:community>
-    <media:starRating count="1302" average="5.00" min="1" max="5"/>
-    <media:statistics views="450216"/>
+    <media:starRating count="1319" average="5.00" min="1" max="5"/>
+    <media:statistics views="453915"/>
    </media:community>
   </media:group>
  </entry>
@@ -76,8 +129,8 @@ FEATURED CREATORS:
    <media:thumbnail url="https://i1.ytimg.com/vi/TTZXkm6JM_8/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3373" average="5.00" min="1" max="5"/>
-    <media:statistics views="68369"/>
+    <media:starRating count="3478" average="5.00" min="1" max="5"/>
+    <media:statistics views="70959"/>
    </media:community>
   </media:group>
  </entry>
@@ -108,8 +161,8 @@ FEATURED CREATORS:
 
 #Wendigoon #YouTube #WatchHistory #Halloween</media:description>
    <media:community>
-    <media:starRating count="5079" average="5.00" min="1" max="5"/>
-    <media:statistics views="726639"/>
+    <media:starRating count="5106" average="5.00" min="1" max="5"/>
+    <media:statistics views="772393"/>
    </media:community>
   </media:group>
  </entry>
@@ -131,8 +184,8 @@ FEATURED CREATORS:
    <media:thumbnail url="https://i1.ytimg.com/vi/X2676LxDOz8/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3798" average="5.00" min="1" max="5"/>
-    <media:statistics views="71009"/>
+    <media:starRating count="3852" average="5.00" min="1" max="5"/>
+    <media:statistics views="72196"/>
    </media:community>
   </media:group>
  </entry>
@@ -183,8 +236,8 @@ Featured Creators:
 2:27- 2:50 Step 5: The Reveal
 2:50 - 3:12 Outro</media:description>
    <media:community>
-    <media:starRating count="2067" average="5.00" min="1" max="5"/>
-    <media:statistics views="563976"/>
+    <media:starRating count="2074" average="5.00" min="1" max="5"/>
+    <media:statistics views="564871"/>
    </media:community>
   </media:group>
  </entry>
@@ -206,8 +259,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/vLfHbplXtz4/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3403" average="5.00" min="1" max="5"/>
-    <media:statistics views="88103"/>
+    <media:starRating count="3443" average="5.00" min="1" max="5"/>
+    <media:statistics views="89411"/>
    </media:community>
   </media:group>
  </entry>
@@ -229,8 +282,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/2UlrqThzzCs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="5756" average="5.00" min="1" max="5"/>
-    <media:statistics views="82833"/>
+    <media:starRating count="5830" average="5.00" min="1" max="5"/>
+    <media:statistics views="84032"/>
    </media:community>
   </media:group>
  </entry>
@@ -252,8 +305,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/v-nWeugyb7A/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3545" average="5.00" min="1" max="5"/>
-    <media:statistics views="72625"/>
+    <media:starRating count="3576" average="5.00" min="1" max="5"/>
+    <media:statistics views="73446"/>
    </media:community>
   </media:group>
  </entry>
@@ -277,8 +330,8 @@ Featured Creators:
 
 Online video trends have evolved to become the driving force of pop culture. But do you know who’s creating them? From the moment of upload, discover the untold, true stories of the Black creators and culture behind your favorite trends. Witness those who have transformed culture on a global scale finally get the flowers they deserve.</media:description>
    <media:community>
-    <media:starRating count="9801" average="5.00" min="1" max="5"/>
-    <media:statistics views="675420"/>
+    <media:starRating count="10021" average="5.00" min="1" max="5"/>
+    <media:statistics views="677578"/>
    </media:community>
   </media:group>
  </entry>
@@ -300,8 +353,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i3.ytimg.com/vi/fEzeTYwEmlw/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3683" average="5.00" min="1" max="5"/>
-    <media:statistics views="90774"/>
+    <media:starRating count="3703" average="5.00" min="1" max="5"/>
+    <media:statistics views="91633"/>
    </media:community>
   </media:group>
  </entry>
@@ -323,8 +376,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i1.ytimg.com/vi/xY34jr-gYgU/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="5171" average="5.00" min="1" max="5"/>
-    <media:statistics views="102264"/>
+    <media:starRating count="5197" average="5.00" min="1" max="5"/>
+    <media:statistics views="102972"/>
    </media:community>
   </media:group>
  </entry>
@@ -346,8 +399,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i2.ytimg.com/vi/MKeug0IZWbo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3322" average="5.00" min="1" max="5"/>
-    <media:statistics views="68893"/>
+    <media:starRating count="3334" average="5.00" min="1" max="5"/>
+    <media:statistics views="69389"/>
    </media:community>
   </media:group>
  </entry>
@@ -369,8 +422,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i1.ytimg.com/vi/HgIBGdBDeHs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4849" average="5.00" min="1" max="5"/>
-    <media:statistics views="102909"/>
+    <media:starRating count="4866" average="5.00" min="1" max="5"/>
+    <media:statistics views="103471"/>
    </media:community>
   </media:group>
  </entry>
@@ -392,69 +445,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i3.ytimg.com/vi/rwYAcQqbbrY/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4435" average="5.00" min="1" max="5"/>
-    <media:statistics views="77538"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:wtryFHT1VRg</id>
-  <yt:videoId>wtryFHT1VRg</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>@Caddicarus delves into the past, present, and future of Retrogaming</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=wtryFHT1VRg"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2023-09-11T21:33:06+00:00</published>
-  <updated>2023-09-27T17:07:22+00:00</updated>
-  <media:group>
-   <media:title>@Caddicarus delves into the past, present, and future of Retrogaming</media:title>
-   <media:content url="https://www.youtube.com/v/wtryFHT1VRg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/wtryFHT1VRg/hqdefault.jpg" width="480" height="360"/>
-   <media:description>Poggers but make it ~*vintage*~. Load up your favorite game and dive into the story behind retrogaming on YouTube. 
-
-From commentary to collecting (and of course some healthy competition! 😉), @Caddicarus covers what it is about these games that keep chats moving and the comment section fresh. 
-
-What’s your favorite retrogame? Comment below!
-
-Featured Creators:
-@TheGameDisplay
-@RetroBirdGaming
-@kitandkrysta
-@LadyDecade
-@ChaseAfterTheRightPrice
-@RetroRick
-@TheGebs24
-@GamingHistorian
-@Nintendrew
-@GameMistress
-@JohnRiggs
-@ThatOneVideoGamer
-@MyRetroLife
-@JRPGLife
-@GameDave
-@peoplelikegames
-@BlackNerdComedy
-@ScottTheWoz
-@MachoNachoProductions
-@TheRetroRunner
-@aGameScout
-@Suigi
-@ClassicTetris
-@ZapCristal
-@DidYouKnowGaming
-@KarmaJolt
-@PixelGameSquad
-@RetroGamerBrasil
-@MetalJesusRocks
-@SlopesGameRoom
-
-#Gaming #Retrogaming #YouTube</media:description>
-   <media:community>
-    <media:starRating count="6904" average="5.00" min="1" max="5"/>
-    <media:statistics views="3159449"/>
+    <media:starRating count="4441" average="5.00" min="1" max="5"/>
+    <media:statistics views="77849"/>
    </media:community>
   </media:group>
  </entry>
