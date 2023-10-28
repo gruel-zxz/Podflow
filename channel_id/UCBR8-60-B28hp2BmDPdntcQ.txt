@@ -20,7 +20,7 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2023-10-26T23:59:23+00:00</published>
-  <updated>2023-10-27T11:38:34+00:00</updated>
+  <updated>2023-10-28T00:09:23+00:00</updated>
   <media:group>
    <media:title>@AyChristene tiers the creepy characters that are taking over YouTube</media:title>
    <media:content url="https://www.youtube.com/v/8hBHQPrVVak?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -55,10 +55,18 @@ Featured Creators:
 @jacksepticeye
 @dream 
 
+Featured Games + Videos
+Baldi's Basics in Education and Learning: @BasicallyGames 
+Choo-Choo Charles: @TwoStarGames
+Poppy Playtime: @Mob_Entertainment 
+Siren Head: Prisma Games
+Skibidi Toilet: @DaFuqBoom
+Minecraft: @minecraft   
+
 #YouTube #Halloween #TierList</media:description>
    <media:community>
-    <media:starRating count="740" average="5.00" min="1" max="5"/>
-    <media:statistics views="56306"/>
+    <media:starRating count="828" average="5.00" min="1" max="5"/>
+    <media:statistics views="98219"/>
    </media:community>
   </media:group>
  </entry>
@@ -106,8 +114,8 @@ FEATURED CREATORS:
 @MiniMarley 
 @curlsbyjen</media:description>
    <media:community>
-    <media:starRating count="1327" average="5.00" min="1" max="5"/>
-    <media:statistics views="383289"/>
+    <media:starRating count="1328" average="5.00" min="1" max="5"/>
+    <media:statistics views="384294"/>
    </media:community>
   </media:group>
  </entry>
@@ -129,8 +137,8 @@ FEATURED CREATORS:
    <media:thumbnail url="https://i1.ytimg.com/vi/TTZXkm6JM_8/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3577" average="5.00" min="1" max="5"/>
-    <media:statistics views="73078"/>
+    <media:starRating count="3663" average="5.00" min="1" max="5"/>
+    <media:statistics views="75269"/>
    </media:community>
   </media:group>
  </entry>
@@ -161,8 +169,8 @@ FEATURED CREATORS:
 
 #Wendigoon #YouTube #WatchHistory #Halloween</media:description>
    <media:community>
-    <media:starRating count="5115" average="5.00" min="1" max="5"/>
-    <media:statistics views="773499"/>
+    <media:starRating count="5123" average="5.00" min="1" max="5"/>
+    <media:statistics views="774206"/>
    </media:community>
   </media:group>
  </entry>
@@ -184,8 +192,8 @@ FEATURED CREATORS:
    <media:thumbnail url="https://i1.ytimg.com/vi/X2676LxDOz8/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3907" average="5.00" min="1" max="5"/>
-    <media:statistics views="73215"/>
+    <media:starRating count="3953" average="5.00" min="1" max="5"/>
+    <media:statistics views="74229"/>
    </media:community>
   </media:group>
  </entry>
@@ -236,8 +244,8 @@ Featured Creators:
 2:27- 2:50 Step 5: The Reveal
 2:50 - 3:12 Outro</media:description>
    <media:community>
-    <media:starRating count="2079" average="5.00" min="1" max="5"/>
-    <media:statistics views="565435"/>
+    <media:starRating count="2081" average="5.00" min="1" max="5"/>
+    <media:statistics views="566005"/>
    </media:community>
   </media:group>
  </entry>
@@ -259,8 +267,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/vLfHbplXtz4/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3481" average="5.00" min="1" max="5"/>
-    <media:statistics views="90572"/>
+    <media:starRating count="3512" average="5.00" min="1" max="5"/>
+    <media:statistics views="91715"/>
    </media:community>
   </media:group>
  </entry>
@@ -282,8 +290,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/2UlrqThzzCs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="5902" average="5.00" min="1" max="5"/>
-    <media:statistics views="85001"/>
+    <media:starRating count="5971" average="5.00" min="1" max="5"/>
+    <media:statistics views="86087"/>
    </media:community>
   </media:group>
  </entry>
@@ -305,8 +313,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/v-nWeugyb7A/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3616" average="5.00" min="1" max="5"/>
-    <media:statistics views="74250"/>
+    <media:starRating count="3646" average="5.00" min="1" max="5"/>
+    <media:statistics views="74988"/>
    </media:community>
   </media:group>
  </entry>
@@ -330,8 +338,8 @@ Featured Creators:
 
 Online video trends have evolved to become the driving force of pop culture. But do you know who’s creating them? From the moment of upload, discover the untold, true stories of the Black creators and culture behind your favorite trends. Witness those who have transformed culture on a global scale finally get the flowers they deserve.</media:description>
    <media:community>
-    <media:starRating count="10136" average="5.00" min="1" max="5"/>
-    <media:statistics views="679263"/>
+    <media:starRating count="10223" average="5.00" min="1" max="5"/>
+    <media:statistics views="681101"/>
    </media:community>
   </media:group>
  </entry>
@@ -353,8 +361,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i3.ytimg.com/vi/fEzeTYwEmlw/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3725" average="5.00" min="1" max="5"/>
-    <media:statistics views="92326"/>
+    <media:starRating count="3742" average="5.00" min="1" max="5"/>
+    <media:statistics views="93065"/>
    </media:community>
   </media:group>
  </entry>
@@ -376,8 +384,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i1.ytimg.com/vi/xY34jr-gYgU/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="5213" average="5.00" min="1" max="5"/>
-    <media:statistics views="103564"/>
+    <media:starRating count="5236" average="5.00" min="1" max="5"/>
+    <media:statistics views="104241"/>
    </media:community>
   </media:group>
  </entry>
@@ -399,8 +407,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i2.ytimg.com/vi/MKeug0IZWbo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3342" average="5.00" min="1" max="5"/>
-    <media:statistics views="69795"/>
+    <media:starRating count="3352" average="5.00" min="1" max="5"/>
+    <media:statistics views="70182"/>
    </media:community>
   </media:group>
  </entry>
@@ -422,8 +430,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i1.ytimg.com/vi/HgIBGdBDeHs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4882" average="5.00" min="1" max="5"/>
-    <media:statistics views="103883"/>
+    <media:starRating count="4894" average="5.00" min="1" max="5"/>
+    <media:statistics views="104380"/>
    </media:community>
   </media:group>
  </entry>
@@ -445,8 +453,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i3.ytimg.com/vi/rwYAcQqbbrY/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4449" average="5.00" min="1" max="5"/>
-    <media:statistics views="78096"/>
+    <media:starRating count="4460" average="5.00" min="1" max="5"/>
+    <media:statistics views="78357"/>
    </media:community>
   </media:group>
  </entry>
