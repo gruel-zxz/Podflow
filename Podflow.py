@@ -964,7 +964,7 @@ if len(youtube_content_ytid_update_format) != 0:
             else:
                 with youtube_video_format_lock:
                     stop_flag[0] = "error"
-                    time.sleep(0.5)
+                    time.sleep(0.1)
                     yt_id_failed.append(yt_id)
                     write_log(f"{channelid_youtube_ids[youtube_content_ytid_update_format[yt_id]['id']]}|{yt_id} {ytid_update_format}")
                     del youtube_content_ytid_update_format[yt_id]
