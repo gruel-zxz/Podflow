@@ -21,7 +21,7 @@
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
   <published>2023-10-25T12:00:08+00:00</published>
-  <updated>2023-10-27T16:58:35+00:00</updated>
+  <updated>2023-10-28T12:59:00+00:00</updated>
   <media:group>
    <media:title>【真實存在的】大寶劍 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/qmQr2Epo_ZQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -254,8 +254,8 @@ https://www.youtube.com/watch?v=Ttus8XGK6Xw
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="34287" average="5.00" min="1" max="5"/>
-    <media:statistics views="1628255"/>
+    <media:starRating count="34610" average="5.00" min="1" max="5"/>
+    <media:statistics views="1650373"/>
    </media:community>
   </media:group>
  </entry>
@@ -483,8 +483,8 @@ https://www.youtube.com/watch?v=N4xXGIrzKJs
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="45992" average="5.00" min="1" max="5"/>
-    <media:statistics views="2624160"/>
+    <media:starRating count="46069" average="5.00" min="1" max="5"/>
+    <media:statistics views="2630114"/>
    </media:community>
   </media:group>
  </entry>
@@ -732,8 +732,8 @@ https://www.youtube.com/watch?v=Ttus8XGK6Xw
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="62939" average="5.00" min="1" max="5"/>
-    <media:statistics views="2857046"/>
+    <media:starRating count="62977" average="5.00" min="1" max="5"/>
+    <media:statistics views="2859228"/>
    </media:community>
   </media:group>
  </entry>
@@ -915,8 +915,8 @@ https://www.youtube.com/watch?v=7q88m5MQRhE
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="45511" average="5.00" min="1" max="5"/>
-    <media:statistics views="2517188"/>
+    <media:starRating count="45532" average="5.00" min="1" max="5"/>
+    <media:statistics views="2518990"/>
    </media:community>
   </media:group>
  </entry>
@@ -1165,8 +1165,8 @@ https://www.youtube.com/watch?v=Mshz9DxQLbE
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="53311" average="5.00" min="1" max="5"/>
-    <media:statistics views="3040503"/>
+    <media:starRating count="53327" average="5.00" min="1" max="5"/>
+    <media:statistics views="3042079"/>
    </media:community>
   </media:group>
  </entry>
@@ -1413,8 +1413,8 @@ https://www.youtube.com/watch?v=Ttus8XGK6Xw
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="74214" average="5.00" min="1" max="5"/>
-    <media:statistics views="3217945"/>
+    <media:starRating count="74248" average="5.00" min="1" max="5"/>
+    <media:statistics views="3219342"/>
    </media:community>
   </media:group>
  </entry>
@@ -1660,8 +1660,8 @@ https://www.youtube.com/watch?v=Ttus8XGK6Xw
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="74909" average="5.00" min="1" max="5"/>
-    <media:statistics views="3067311"/>
+    <media:starRating count="74916" average="5.00" min="1" max="5"/>
+    <media:statistics views="3067613"/>
    </media:community>
   </media:group>
  </entry>
@@ -1905,8 +1905,8 @@ https://www.youtube.com/watch?v=ElqnKNkiyHA
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="52593" average="5.00" min="1" max="5"/>
-    <media:statistics views="2994731"/>
+    <media:starRating count="52622" average="5.00" min="1" max="5"/>
+    <media:statistics views="2996348"/>
    </media:community>
   </media:group>
  </entry>
@@ -2128,8 +2128,8 @@ https://www.youtube.com/watch?v=N4xXGIrzKJs
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="62926" average="5.00" min="1" max="5"/>
-    <media:statistics views="2964176"/>
+    <media:starRating count="62938" average="5.00" min="1" max="5"/>
+    <media:statistics views="2965201"/>
    </media:community>
   </media:group>
  </entry>
@@ -2338,8 +2338,8 @@ https://www.youtube.com/watch?v=czNMh9kVhIE
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="60012" average="5.00" min="1" max="5"/>
-    <media:statistics views="3142053"/>
+    <media:starRating count="60016" average="5.00" min="1" max="5"/>
+    <media:statistics views="3142405"/>
    </media:community>
   </media:group>
  </entry>
@@ -2581,8 +2581,8 @@ https://www.youtube.com/watch?v=3cHZfgSqPa4
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="103337" average="5.00" min="1" max="5"/>
-    <media:statistics views="4041775"/>
+    <media:starRating count="103352" average="5.00" min="1" max="5"/>
+    <media:statistics views="4042488"/>
    </media:community>
   </media:group>
  </entry>
@@ -2831,8 +2831,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="65554" average="5.00" min="1" max="5"/>
-    <media:statistics views="3693308"/>
+    <media:starRating count="65562" average="5.00" min="1" max="5"/>
+    <media:statistics views="3693599"/>
    </media:community>
   </media:group>
  </entry>
@@ -3081,8 +3081,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="64793" average="5.00" min="1" max="5"/>
-    <media:statistics views="3317071"/>
+    <media:starRating count="64798" average="5.00" min="1" max="5"/>
+    <media:statistics views="3317432"/>
    </media:community>
   </media:group>
  </entry>
@@ -3331,8 +3331,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="42733" average="5.00" min="1" max="5"/>
-    <media:statistics views="2455296"/>
+    <media:starRating count="42734" average="5.00" min="1" max="5"/>
+    <media:statistics views="2455480"/>
    </media:community>
   </media:group>
  </entry>
@@ -3581,8 +3581,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="63198" average="5.00" min="1" max="5"/>
-    <media:statistics views="3955976"/>
+    <media:starRating count="63207" average="5.00" min="1" max="5"/>
+    <media:statistics views="3956422"/>
    </media:community>
   </media:group>
  </entry>

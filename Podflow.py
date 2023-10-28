@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[26]:
+# In[1]:
 
 
 import os
@@ -45,7 +45,7 @@ default_config = {
 print(f"{datetime.now().strftime('%H:%M:%S')}|Podflow开始运行.....")
 
 
-# In[27]:
+# In[2]:
 
 
 # 文件保存模块
@@ -61,11 +61,11 @@ def file_save(content, file_name, folder=None):
         file.write(content)
 
 
-# In[28]:
+# In[3]:
 
 
 #日志模块
-def write_log(log, suffix = None, display = True):
+def write_log(log, suffix = None, display = True, time_display = True):
     # 获取当前的具体时间
     current_time = datetime.now()
     # 格式化输出, 只保留年月日时分秒
@@ -84,13 +84,12 @@ def write_log(log, suffix = None, display = True):
     file_save(new_contents, "log.txt")
     if display:
         formatted_time_mini = current_time.strftime("%H:%M:%S")
-        if suffix:
-            print(f"{formatted_time_mini}|{log}|{suffix}")
-        else:
-            print(f"{formatted_time_mini}|{log}")
+        log_print = f"{formatted_time_mini}|{log}" if time_display else f"{log}"
+        log_print = f"{log_print}|{suffix}" if suffix else f"{log_print}"
+        print(log_print)
 
 
-# In[29]:
+# In[4]:
 
 
 # 查看requests模块是否安装
@@ -138,7 +137,7 @@ except ImportError:
         sys.exit(0)
 
 
-# In[30]:
+# In[5]:
 
 
 # HTTP GET请求重试模块
@@ -162,7 +161,7 @@ def vary_replace(varys, text):
     return text
 
 
-# In[31]:
+# In[6]:
 
 
 # 安装库模块
@@ -206,7 +205,7 @@ def library_install(library ,library_install_dic = None):
             sys.exit(0)
 
 
-# In[32]:
+# In[7]:
 
 
 # 安装/更新并加载三方库
@@ -241,7 +240,7 @@ from astral.sun import sun
 from astral import LocationInfo
 
 
-# In[33]:
+# In[ ]:
 
 
 # 格式化时间模块
@@ -308,7 +307,7 @@ def qr_code(data):
     print(ascii_art)
 
 
-# In[34]:
+# In[ ]:
 
 
 # 下载显示模块
@@ -343,7 +342,7 @@ def show_progress(stream):
         print((f"\r100.0%|{downloaded_bytes}\{total_bytes}|\033[32m{speed}/s\033[0m|\033[97m{elapsed}\033[0m"))
 
 
-# In[35]:
+# In[ ]:
 
 
 # 获取媒体时长和ID模块
@@ -500,7 +499,7 @@ def download_video(video_url, output_dir, output_format, format_id, video_websit
         return video_url
 
 
-# In[36]:
+# In[ ]:
 
 
 # 视频完整下载模块
@@ -569,7 +568,7 @@ def dl_aideo_video(video_url, output_dir, output_format, video_format, retry_cou
     return yt_id_failed
 
 
-# In[37]:
+# In[ ]:
 
 
 # 构建文件夹模块
@@ -580,7 +579,7 @@ def folder_build(folder_name):
         write_log(f"文件夹{folder_name}创建成功")
 
 
-# In[38]:
+# In[ ]:
 
 
 # 检查当前文件夹中是否存在config.json文件
@@ -602,7 +601,7 @@ else:
         sys.exit(0)
 
 
-# In[39]:
+# In[ ]:
 
 
 # 对retry_count进行纠正
@@ -686,7 +685,7 @@ if config["icon"] == default_config["icon"]:
         config["icon"] = f"https://raw.githubusercontent.com/gruel-zxz/podflow/main/{picture_name}.png"
 
 
-# In[40]:
+# In[ ]:
 
 
 # 从配置文件中获取YouTube的频道
@@ -705,14 +704,14 @@ else:
     write_log("bilibili频道信息不存在")
 
 
-# In[41]:
+# In[ ]:
 
 
 # 构建文件夹channel_id
 folder_build("channel_id")
 
 
-# In[42]:
+# In[ ]:
 
 
 # 视频分辨率变量
@@ -793,7 +792,7 @@ for channelid_youtube_key, channelid_youtube_value in channelid_youtube_copy.ite
             channelid_youtube[channelid_youtube_key]['QRcode'] = False
 
 
-# In[43]:
+# In[ ]:
 
 
 # 读取youtube频道的id
@@ -810,7 +809,7 @@ else:
     channelid_bilibili_ids = None
 
 
-# In[44]:
+# In[ ]:
 
 
 # 更新Youtube频道xml
@@ -881,7 +880,7 @@ for thread in youtube_need_update_threads:
     thread.join()
 
 
-# In[45]:
+# In[ ]:
 
 
 # 输出需要更新的信息
@@ -915,7 +914,7 @@ if channelid_youtube_ids_update:
     write_log(print_channelid_youtube_ids_update)
 
 
-# In[46]:
+# In[ ]:
 
 
 # 获取YouTube视频格式信息
@@ -967,7 +966,7 @@ if len(youtube_content_ytid_update_format) != 0:
                     stop_flag[0] = "error"
                     time.sleep(0.5)
                     yt_id_failed.append(yt_id)
-                    write_log(f"{channelid_youtube_ids[youtube_content_ytid_update_format[yt_id]['id']]}|{yt_id}|{ytid_update_format}")
+                    write_log(f"{channelid_youtube_ids[youtube_content_ytid_update_format[yt_id]['id']]}|{yt_id}|{ytid_update_format}", None, True, False)
                     del youtube_content_ytid_update_format[yt_id]
         # 创建线程列表
         youtube_content_ytid_update_threads = []
@@ -992,7 +991,7 @@ if len(youtube_content_ytid_update_format) != 0:
     prepare_youtube_2.join()
 
 
-# In[47]:
+# In[ ]:
 
 
 # 下载YouTube视频
@@ -1011,7 +1010,7 @@ for yt_id in youtube_content_ytid_update_format.keys():
             write_log(f"{channelid_youtube_ids[youtube_content_ytid_update_format[yt_id]['id']]}|{yt_id} \033[31m无法下载\033[0m")
 
 
-# In[48]:
+# In[ ]:
 
 
 #生成XML模块
@@ -1057,7 +1056,7 @@ def xml_rss(title,link,description,category,icon,items):
 </rss>'''
 
 
-# In[49]:
+# In[ ]:
 
 
 # 生成item模块
@@ -1104,7 +1103,7 @@ def xml_item(video_url, output_dir, video_website, channelid_title,title, descri
 '''
 
 
-# In[50]:
+# In[ ]:
 
 
 # 生成YouTube的item模块
@@ -1135,7 +1134,7 @@ def youtube_xml_item(entry):
     )
 
 
-# In[51]:
+# In[ ]:
 
 
 # 生成原有的item模块
@@ -1181,7 +1180,7 @@ def xml_original_item(original_item):
 '''
 
 
-# In[52]:
+# In[ ]:
 
 
 # 获取原始xml文件
@@ -1210,14 +1209,14 @@ for youtube_key in channelid_youtube_ids.keys():
             write_log(f"RSS文件中不存在 {channelid_youtube_ids[youtube_key]} 无法保留原节目")
 
 
-# In[53]:
+# In[ ]:
 
 
 # 构建文件夹channel_rss
 folder_build("channel_rss")
 
 
-# In[54]:
+# In[ ]:
 
 
 # 创建线程锁
@@ -1255,7 +1254,7 @@ for thread in youtube_xml_get_threads:
     thread.join()
 
 
-# In[55]:
+# In[ ]:
 
 
 # 生成YouTube对应channel的需更新的items模块
@@ -1309,7 +1308,7 @@ def youtube_xml_items(output_dir):
     return items
 
 
-# In[56]:
+# In[ ]:
 
 
 # 生成主rss
@@ -1326,7 +1325,7 @@ write_log("总播客已更新", f"地址:\n\033[34m{config['url']}/{config['file
 qr_code(f"{config['url']}/{config['filename']}.xml")
 
 
-# In[57]:
+# In[ ]:
 
 
 # 删除多余媒体文件模块
@@ -1337,7 +1336,7 @@ def remove_file(output_dir):
             write_log(f"{channelid_youtube_ids[output_dir]}|{file_name}已删除")
 
 
-# In[58]:
+# In[ ]:
 
 
 # 删除不在rss中的媒体文件
@@ -1345,7 +1344,7 @@ for output_dir in channelid_youtube_ids:
     remove_file(output_dir)
 
 
-# In[59]:
+# In[ ]:
 
 
 # 删除已抛弃的媒体文件夹
@@ -1359,7 +1358,7 @@ def remove_dir():
 remove_dir()
 
 
-# In[60]:
+# In[ ]:
 
 
 # 补全缺失的媒体文件到字典模块
@@ -1376,7 +1375,7 @@ def make_up_file(output_dir):
             make_up_file_format[file_name.split(".")[0]] = video_id_format
 
 
-# In[61]:
+# In[ ]:
 
 
 # 补全在rss中缺失的媒体格式信息
@@ -1420,7 +1419,7 @@ for yt_id in make_up_file_format.keys():
             write_log(f"{channelid_youtube_ids[make_up_file_format[yt_id]['id']]}|{yt_id} \033[31m无法下载\033[0m")
 
 
-# In[62]:
+# In[ ]:
 
 
 if sys.argv[1] == "a-shell":
