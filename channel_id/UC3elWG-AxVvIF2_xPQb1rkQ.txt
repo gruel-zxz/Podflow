@@ -29,7 +29,7 @@
    <media:description>分享一个省钱小妙招，首先你得有一群东北的好朋友#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="279"/>
+    <media:statistics views="281"/>
    </media:community>
   </media:group>
  </entry>
@@ -52,7 +52,7 @@
    <media:description>东北就是我的第二故乡，它就是我心中最宜居的城市#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="534"/>
+    <media:statistics views="535"/>
    </media:community>
   </media:group>
  </entry>
@@ -75,7 +75,7 @@
    <media:description>东北的爱管闲事等于路见不平一声吼！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="126" average="5.00" min="1" max="5"/>
-    <media:statistics views="3967"/>
+    <media:statistics views="3968"/>
    </media:community>
   </media:group>
  </entry>
@@ -98,7 +98,7 @@
    <media:description>上海的物价让上海本地人都很头疼吧#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="11" average="5.00" min="1" max="5"/>
-    <media:statistics views="546"/>
+    <media:statistics views="549"/>
    </media:community>
   </media:group>
  </entry>
@@ -190,7 +190,7 @@
    <media:description>论方言的感染力，东北方言绝对是第一了#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="177" average="5.00" min="1" max="5"/>
-    <media:statistics views="7543"/>
+    <media:statistics views="7544"/>
    </media:community>
   </media:group>
  </entry>

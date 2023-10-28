@@ -28,8 +28,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/fFlG_zkErLQ/hqdefault.jpg" width="480" height="360"/>
    <media:description>科幻小说《阖上眼五秒钟》，作者遥控，作品刊登于早年的科幻世界杂志上，是个有趣的小说。</media:description>
    <media:community>
-    <media:starRating count="54" average="5.00" min="1" max="5"/>
-    <media:statistics views="2004"/>
+    <media:starRating count="55" average="5.00" min="1" max="5"/>
+    <media:statistics views="2032"/>
    </media:community>
   </media:group>
  </entry>
@@ -52,7 +52,7 @@
    <media:description>人类史上第一位时间穿越者，居然成功了！经典科幻解读，原著：宝树.</media:description>
    <media:community>
     <media:starRating count="74" average="5.00" min="1" max="5"/>
-    <media:statistics views="3735"/>
+    <media:statistics views="3738"/>
    </media:community>
   </media:group>
  </entry>
@@ -76,7 +76,7 @@
 虽然过去了二十多年，但是好的作品值得让大家记得，分上下集发布</media:description>
    <media:community>
     <media:starRating count="80" average="5.00" min="1" max="5"/>
-    <media:statistics views="4530"/>
+    <media:statistics views="4536"/>
    </media:community>
   </media:group>
  </entry>
@@ -147,7 +147,7 @@
 这部40万字的长篇硬核科幻啊！人类无处可逃，因为地球也不过是另一艘飞船：科幻巨著《极光》大结局</media:description>
    <media:community>
     <media:starRating count="213" average="5.00" min="1" max="5"/>
-    <media:statistics views="13184"/>
+    <media:statistics views="13186"/>
    </media:community>
   </media:group>
  </entry>
@@ -170,7 +170,7 @@
    <media:description>一艘1/10光速的飞船回归地球，它该如何减速？科幻巨著《极光》第二集。</media:description>
    <media:community>
     <media:starRating count="156" average="5.00" min="1" max="5"/>
-    <media:statistics views="9027"/>
+    <media:statistics views="9026"/>
    </media:community>
   </media:group>
  </entry>
@@ -194,7 +194,7 @@
 这部小说堪称人类航天的教科书级的小说，全程充满知识点，严谨的写作手法让这部小说毫无逻辑漏洞，堪称经典！</media:description>
    <media:community>
     <media:starRating count="333" average="5.00" min="1" max="5"/>
-    <media:statistics views="37434"/>
+    <media:statistics views="37439"/>
    </media:community>
   </media:group>
  </entry>
@@ -217,7 +217,7 @@
    <media:description>《XeeLee》系列从第三集开始，也要正式进入正题了，真正意义上的战争和剧情走向也要开始了。而且我们文案的叙事也相对加快了，以前计划十多集完成，目前计划在8集以内搞定。</media:description>
    <media:community>
     <media:starRating count="198" average="5.00" min="1" max="5"/>
-    <media:statistics views="9673"/>
+    <media:statistics views="9672"/>
    </media:community>
   </media:group>
  </entry>
@@ -267,7 +267,7 @@
 08：46 巨引源的真相</media:description>
    <media:community>
     <media:starRating count="252" average="5.00" min="1" max="5"/>
-    <media:statistics views="10550"/>
+    <media:statistics views="10548"/>
    </media:community>
   </media:group>
  </entry>
@@ -291,7 +291,7 @@
 这个系列总算开始更新了，第一次尝试这么大体量的内容还是有点胆怯，不过开始更新就没法回头了。目前整理出了五期内容，内容量大致占XeeLee宇宙的50%。</media:description>
    <media:community>
     <media:starRating count="347" average="5.00" min="1" max="5"/>
-    <media:statistics views="20163"/>
+    <media:statistics views="20164"/>
    </media:community>
   </media:group>
  </entry>
@@ -315,7 +315,7 @@
 终于更新完毕，撒花！</media:description>
    <media:community>
     <media:starRating count="116" average="5.00" min="1" max="5"/>
-    <media:statistics views="6614"/>
+    <media:statistics views="6612"/>
    </media:community>
   </media:group>
  </entry>
