@@ -379,8 +379,8 @@ def video_format(video_website, video_url, media = "m4a", quality = "480"):
             fail_message = (str(e)).replace("ERROR: ", "").replace(f"{video_url}: ", "").replace("[youtube] ","")
         return fail_message, duration, formats
     error_reason = {
-        "Premieres in ": "\033[91m预播\033[0m|",
-        "Premieres ": "\033[91m预播\033[0m|"
+        "Premieres in ": "\033[31m预播\033[0m|",
+        "Premieres ": "\033[31m预播\033[0m|"
     }
     yt_id_count, change_error= 0, None
     fail_message, duration, formats = duration_and_formats(video_website, video_url)

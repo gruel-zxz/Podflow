@@ -81,7 +81,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="33" average="5.00" min="1" max="5"/>
-    <media:statistics views="7014"/>
+    <media:statistics views="7021"/>
    </media:community>
   </media:group>
  </entry>
@@ -156,7 +156,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="28" average="5.00" min="1" max="5"/>
-    <media:statistics views="6709"/>
+    <media:statistics views="6714"/>
    </media:community>
   </media:group>
  </entry>
@@ -231,7 +231,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="17" average="5.00" min="1" max="5"/>
-    <media:statistics views="3704"/>
+    <media:statistics views="3703"/>
    </media:community>
   </media:group>
  </entry>
@@ -306,7 +306,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="14" average="5.00" min="1" max="5"/>
-    <media:statistics views="2737"/>
+    <media:statistics views="2736"/>
    </media:community>
   </media:group>
  </entry>
@@ -381,7 +381,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="14" average="5.00" min="1" max="5"/>
-    <media:statistics views="3044"/>
+    <media:statistics views="3045"/>
    </media:community>
   </media:group>
  </entry>
@@ -456,7 +456,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="27" average="5.00" min="1" max="5"/>
-    <media:statistics views="3659"/>
+    <media:statistics views="3662"/>
    </media:community>
   </media:group>
  </entry>
@@ -531,7 +531,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="28" average="5.00" min="1" max="5"/>
-    <media:statistics views="5663"/>
+    <media:statistics views="5667"/>
    </media:community>
   </media:group>
  </entry>

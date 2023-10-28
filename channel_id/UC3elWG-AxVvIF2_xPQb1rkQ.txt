@@ -29,7 +29,7 @@
    <media:description>分享一个省钱小妙招，首先你得有一群东北的好朋友#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="281"/>
+    <media:statistics views="327"/>
    </media:community>
   </media:group>
  </entry>
@@ -52,7 +52,7 @@
    <media:description>东北就是我的第二故乡，它就是我心中最宜居的城市#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="535"/>
+    <media:statistics views="538"/>
    </media:community>
   </media:group>
  </entry>
@@ -74,8 +74,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/8e5VJNclYnw/hqdefault.jpg" width="480" height="360"/>
    <media:description>东北的爱管闲事等于路见不平一声吼！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="126" average="5.00" min="1" max="5"/>
-    <media:statistics views="3968"/>
+    <media:starRating count="128" average="5.00" min="1" max="5"/>
+    <media:statistics views="4026"/>
    </media:community>
   </media:group>
  </entry>
@@ -98,7 +98,7 @@
    <media:description>上海的物价让上海本地人都很头疼吧#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="11" average="5.00" min="1" max="5"/>
-    <media:statistics views="549"/>
+    <media:statistics views="553"/>
    </media:community>
   </media:group>
  </entry>
@@ -167,7 +167,7 @@
    <media:description>都说中国的世界的，但是我觉得这句话应该反过来说#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="142" average="5.00" min="1" max="5"/>
-    <media:statistics views="6140"/>
+    <media:statistics views="6158"/>
    </media:community>
   </media:group>
  </entry>
@@ -190,7 +190,7 @@
    <media:description>论方言的感染力，东北方言绝对是第一了#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="177" average="5.00" min="1" max="5"/>
-    <media:statistics views="7544"/>
+    <media:statistics views="7579"/>
    </media:community>
   </media:group>
  </entry>
