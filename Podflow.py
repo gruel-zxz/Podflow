@@ -376,11 +376,11 @@ def video_format(video_website, video_url, media = "m4a", quality = "480"):
                 duration = info_dict.get('duration')
                 formats = info_dict.get('formats')
         except Exception as e:
-            fail_message = (f"\033[31m获取信息失败\033[0m\n错误信息：{str(e)}").replace("ERROR: ", "").replace(f"{video_url}: ", "").replace("[youtube] ","")
+            fail_message = (str(e)).replace("ERROR: ", "").replace(f"{video_url}: ", "").replace("[youtube] ","")
         return fail_message, duration, formats
     error_reason = {
-        "Premieres in ": "预播节目|",
-        "Premieres ": "预播节目|"
+        "Premieres in ": "预播|",
+        "Premieres ": "预播|"
     }
     yt_id_count, change_error= 0, None
     fail_message, duration, formats = duration_and_formats(video_website, video_url)
@@ -398,14 +398,16 @@ def video_format(video_website, video_url, media = "m4a", quality = "480"):
             fail_message, duration, formats = duration_and_formats(video_website, video_url)
     if fail_message is None:
         if duration == "" or duration is None:
-            return f"\033[31m获取信息失败\033[0m\n错误信息：无法获取媒体时长"
+            return "无法获取时长"
         if formats == "" or formats is None:
-            return f"\033[31m获取信息失败\033[0m\n错误信息：无法获取媒体格式"
+            return "无法获取格式"
         duration_and_id = []
         duration_and_id.append(duration)
         # 定义条件判断函数
         def check_resolution(item):
-            if "aspect_ratio" in item and (isinstance(item["aspect_ratio"], float) or isinstance(item["aspect_ratio"], int)):
+            if "aspect_ratio" in item and (
+                isinstance(item["aspect_ratio"], (float, int))
+            ):
                 if item["aspect_ratio"] >= 1:
                     return item["height"] <= int(quality)
                 else:
@@ -413,10 +415,7 @@ def video_format(video_website, video_url, media = "m4a", quality = "480"):
             else:
                 return False
         def check_ext(item, media):
-            if "ext" in item:
-                return item["ext"] == media
-            else:
-                return False
+            return item["ext"] == media if "ext" in item else False
         def check_vcodec(item):
             if "vcodec" in item:
                 return "vp" not in item["vcodec"].lower() and "av01" not in item["vcodec"].lower()
@@ -428,7 +427,11 @@ def video_format(video_website, video_url, media = "m4a", quality = "480"):
             format_id_best = ""
             vcodec_best = ""
             for format in formats:
-                if "filesize" in format and (isinstance(format["filesize"], float) or isinstance(format["filesize"], int)) and format["filesize"] > filesize_max:
+                if (
+                    "filesize" in format
+                    and (isinstance(format["filesize"], (float, int)))
+                    and format["filesize"] > filesize_max
+                ):
                     filesize_max = format["filesize"]
                     format_id_best = format["format_id"]
                     vcodec_best = format["vcodec"]
@@ -437,17 +440,15 @@ def video_format(video_website, video_url, media = "m4a", quality = "480"):
         formats_m4a = list(filter(lambda item: check_ext(item, "m4a") and check_vcodec(item), formats))
         (best_formats_m4a, vcodec_best) = best_format_id(formats_m4a)
         if best_formats_m4a == "" or best_formats_m4a is None:
-            return f"\033[31m获取信息失败\033[0m, \n错误信息：无法获取音频格式ID"
-        else:
-            duration_and_id.append(best_formats_m4a)
-            if media == "mp4":
-                formats_mp4 = list(filter(lambda item: check_resolution(item) and check_ext(item, "mp4") and check_vcodec(item), formats))
-                (best_formats_mp4, vcodec_best) = best_format_id(formats_mp4)
-                if best_formats_mp4 == ""or best_formats_mp4 is None:
-                    return f"\033[31m获取信息失败\033[0m, \n错误信息：无法获取视频格式ID"
-                else:
-                    duration_and_id.append(best_formats_mp4)
-                    duration_and_id.append(vcodec_best)
+            return "无法获取音频ID"
+        duration_and_id.append(best_formats_m4a)
+        if media == "mp4":
+            formats_mp4 = list(filter(lambda item: check_resolution(item) and check_ext(item, "mp4") and check_vcodec(item), formats))
+            (best_formats_mp4, vcodec_best) = best_format_id(formats_mp4)
+            if best_formats_mp4 == ""or best_formats_mp4 is None:
+                return "无法获取视频ID"
+            duration_and_id.append(best_formats_mp4)
+            duration_and_id.append(vcodec_best)
         return duration_and_id
     else:
         return fail_message
@@ -940,9 +941,9 @@ if len(youtube_content_ytid_update_format) != 0:
         prepare_youtube_print = datetime.now().strftime('%H:%M:%S')
         while True:
             if stop_flag[0] == "keep":
-                print(f"\r{prepare_youtube_print}|YouTube视频 \033[34m下载准备中{animation.ljust(6)}\033[0m", end="")
+                print(f"\r{prepare_youtube_print}|YouTube视频 \033[34m下载准备中{animation.ljust(5)}\033[0m", end="")
             elif stop_flag[0] == "error":
-                print(f"\r{prepare_youtube_print}|YouTube视频 \033[34m下载准备中{animation.ljust(6)}\033[0m")
+                print(f"\r{prepare_youtube_print}|YouTube视频 \033[34m下载准备中{animation} \033[31m获取信息失败\033[0m")
                 break
             elif stop_flag[0] == "end":
                 print(f"\r{prepare_youtube_print}|YouTube视频 \033[34m下载准备中{animation} 已完成\033[0m")
@@ -966,7 +967,7 @@ if len(youtube_content_ytid_update_format) != 0:
                     stop_flag[0] = "error"
                     time.sleep(0.5)
                     yt_id_failed.append(yt_id)
-                    write_log(f"{channelid_youtube_ids[youtube_content_ytid_update_format[yt_id]['id']]}|{yt_id} {ytid_update_format}")
+                    write_log(f"{channelid_youtube_ids[youtube_content_ytid_update_format[yt_id]['id']]}|{yt_id}|{ytid_update_format}")
                     del youtube_content_ytid_update_format[yt_id]
         # 创建线程列表
         youtube_content_ytid_update_threads = []
