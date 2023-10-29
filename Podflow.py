@@ -144,7 +144,7 @@ except ImportError:
 def get_with_retry(url, name, max_retries = 10, retry_delay = 6):
     for num in range(max_retries):
         try:
-            response = requests.get(f"{url}", time = 10)
+            response = requests.get(f"{url}", time = 90)
             response.raise_for_status()
         except Exception:
             print(f"{datetime.now().strftime('%H:%M:%S')}|{name}|\033[31m连接异常重试中...\033[97m{num + 1}\033[0m")
