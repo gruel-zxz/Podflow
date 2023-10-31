@@ -28,8 +28,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/fFlG_zkErLQ/hqdefault.jpg" width="480" height="360"/>
    <media:description>科幻小说《阖上眼五秒钟》，作者遥控，作品刊登于早年的科幻世界杂志上，是个有趣的小说。</media:description>
    <media:community>
-    <media:starRating count="63" average="5.00" min="1" max="5"/>
-    <media:statistics views="2677"/>
+    <media:starRating count="80" average="5.00" min="1" max="5"/>
+    <media:statistics views="4096"/>
    </media:community>
   </media:group>
  </entry>
@@ -51,8 +51,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/5Z3O9vtMAvI/hqdefault.jpg" width="480" height="360"/>
    <media:description>人类史上第一位时间穿越者，居然成功了！经典科幻解读，原著：宝树.</media:description>
    <media:community>
-    <media:starRating count="75" average="5.00" min="1" max="5"/>
-    <media:statistics views="3832"/>
+    <media:starRating count="77" average="5.00" min="1" max="5"/>
+    <media:statistics views="4235"/>
    </media:community>
   </media:group>
  </entry>
@@ -75,8 +75,8 @@
    <media:description>科幻小说《橱窗里的荷兰赌徒》，作者李兴春，银河奖获奖作品，是一部不可多得的国产佳作。
 虽然过去了二十多年，但是好的作品值得让大家记得，分上下集发布</media:description>
    <media:community>
-    <media:starRating count="80" average="5.00" min="1" max="5"/>
-    <media:statistics views="4567"/>
+    <media:starRating count="82" average="5.00" min="1" max="5"/>
+    <media:statistics views="4731"/>
    </media:community>
   </media:group>
  </entry>
@@ -100,7 +100,7 @@
 下来尽量在3期内搞定这个系列。</media:description>
    <media:community>
     <media:starRating count="180" average="5.00" min="1" max="5"/>
-    <media:statistics views="8968"/>
+    <media:statistics views="9167"/>
    </media:community>
   </media:group>
  </entry>
@@ -123,7 +123,7 @@
    <media:description>在时间加速的情况下，数字生命也可以飞向星空——科幻小说《晶体之夜》，出自格雷格.伊根（Greg Egan）的短篇小说集《数学陷落》Oceanic。</media:description>
    <media:community>
     <media:starRating count="163" average="5.00" min="1" max="5"/>
-    <media:statistics views="6945"/>
+    <media:statistics views="7028"/>
    </media:community>
   </media:group>
  </entry>
@@ -146,8 +146,8 @@
    <media:description>终于更新完毕了！
 这部40万字的长篇硬核科幻啊！人类无处可逃，因为地球也不过是另一艘飞船：科幻巨著《极光》大结局</media:description>
    <media:community>
-    <media:starRating count="217" average="5.00" min="1" max="5"/>
-    <media:statistics views="13316"/>
+    <media:starRating count="218" average="5.00" min="1" max="5"/>
+    <media:statistics views="13948"/>
    </media:community>
   </media:group>
  </entry>
@@ -170,7 +170,7 @@
    <media:description>一艘1/10光速的飞船回归地球，它该如何减速？科幻巨著《极光》第二集。</media:description>
    <media:community>
     <media:starRating count="158" average="5.00" min="1" max="5"/>
-    <media:statistics views="9064"/>
+    <media:statistics views="9282"/>
    </media:community>
   </media:group>
  </entry>
@@ -193,8 +193,8 @@
    <media:description>科幻巨著《极光》，原著：金·斯坦利·罗宾逊。
 这部小说堪称人类航天的教科书级的小说，全程充满知识点，严谨的写作手法让这部小说毫无逻辑漏洞，堪称经典！</media:description>
    <media:community>
-    <media:starRating count="345" average="5.00" min="1" max="5"/>
-    <media:statistics views="38591"/>
+    <media:starRating count="353" average="5.00" min="1" max="5"/>
+    <media:statistics views="40836"/>
    </media:community>
   </media:group>
  </entry>
@@ -216,8 +216,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/P_hIXilcn60/hqdefault.jpg" width="480" height="360"/>
    <media:description>《XeeLee》系列从第三集开始，也要正式进入正题了，真正意义上的战争和剧情走向也要开始了。而且我们文案的叙事也相对加快了，以前计划十多集完成，目前计划在8集以内搞定。</media:description>
    <media:community>
-    <media:starRating count="201" average="5.00" min="1" max="5"/>
-    <media:statistics views="9721"/>
+    <media:starRating count="202" average="5.00" min="1" max="5"/>
+    <media:statistics views="9917"/>
    </media:community>
   </media:group>
  </entry>
@@ -240,8 +240,8 @@
    <media:description>更新一部网文科幻小说，《幻影帝国》。
 《幻影帝国》是暮夏之薰所著科幻小说，如感兴趣，请在起点读书app搜索“幻影帝国”阅读原著。</media:description>
    <media:community>
-    <media:starRating count="110" average="5.00" min="1" max="5"/>
-    <media:statistics views="6217"/>
+    <media:starRating count="111" average="5.00" min="1" max="5"/>
+    <media:statistics views="6273"/>
    </media:community>
   </media:group>
  </entry>
@@ -267,7 +267,7 @@
 08：46 巨引源的真相</media:description>
    <media:community>
     <media:starRating count="253" average="5.00" min="1" max="5"/>
-    <media:statistics views="10592"/>
+    <media:statistics views="10754"/>
    </media:community>
   </media:group>
  </entry>
@@ -291,7 +291,7 @@
 这个系列总算开始更新了，第一次尝试这么大体量的内容还是有点胆怯，不过开始更新就没法回头了。目前整理出了五期内容，内容量大致占XeeLee宇宙的50%。</media:description>
    <media:community>
     <media:starRating count="347" average="5.00" min="1" max="5"/>
-    <media:statistics views="20244"/>
+    <media:statistics views="20525"/>
    </media:community>
   </media:group>
  </entry>
@@ -315,7 +315,7 @@
 终于更新完毕，撒花！</media:description>
    <media:community>
     <media:starRating count="116" average="5.00" min="1" max="5"/>
-    <media:statistics views="6623"/>
+    <media:statistics views="6669"/>
    </media:community>
   </media:group>
  </entry>
@@ -337,8 +337,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/ZW5izxaFwUU/hqdefault.jpg" width="480" height="360"/>
    <media:description>2000年星云奖作品，《达尔文电波》。一部关于生物、化学、进化等内容的硬核科幻作品，作者提出了一个大胆的构想：物种的进化只需要两代便可以产生出全新的物种。原著：格雷格.贝尔。另外，xeelee系列已经开始搞了。</media:description>
    <media:community>
-    <media:starRating count="175" average="5.00" min="1" max="5"/>
-    <media:statistics views="11662"/>
+    <media:starRating count="178" average="5.00" min="1" max="5"/>
+    <media:statistics views="11736"/>
    </media:community>
   </media:group>
  </entry>
@@ -362,7 +362,7 @@
 尽管这样的内容可能很多人不喜欢，因为太深奥，故事性弱，但是作者透露出的丰富的哲学构想，值得我们去更新。</media:description>
    <media:community>
     <media:starRating count="117" average="5.00" min="1" max="5"/>
-    <media:statistics views="7076"/>
+    <media:statistics views="7107"/>
    </media:community>
   </media:group>
  </entry>

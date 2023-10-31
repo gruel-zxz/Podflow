@@ -65,8 +65,8 @@ Minecraft: @minecraft
 
 #YouTube #Halloween #TierList</media:description>
    <media:community>
-    <media:starRating count="881" average="5.00" min="1" max="5"/>
-    <media:statistics views="135210"/>
+    <media:starRating count="1152" average="5.00" min="1" max="5"/>
+    <media:statistics views="343214"/>
    </media:community>
   </media:group>
  </entry>
@@ -114,8 +114,8 @@ FEATURED CREATORS:
 @MiniMarley 
 @curlsbyjen</media:description>
    <media:community>
-    <media:starRating count="1328" average="5.00" min="1" max="5"/>
-    <media:statistics views="380457"/>
+    <media:starRating count="1337" average="5.00" min="1" max="5"/>
+    <media:statistics views="374160"/>
    </media:community>
   </media:group>
  </entry>
@@ -137,8 +137,8 @@ FEATURED CREATORS:
    <media:thumbnail url="https://i1.ytimg.com/vi/TTZXkm6JM_8/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3759" average="5.00" min="1" max="5"/>
-    <media:statistics views="77195"/>
+    <media:starRating count="4237" average="5.00" min="1" max="5"/>
+    <media:statistics views="87344"/>
    </media:community>
   </media:group>
  </entry>
@@ -169,8 +169,8 @@ FEATURED CREATORS:
 
 #Wendigoon #YouTube #WatchHistory #Halloween</media:description>
    <media:community>
-    <media:starRating count="5127" average="5.00" min="1" max="5"/>
-    <media:statistics views="774880"/>
+    <media:starRating count="5166" average="5.00" min="1" max="5"/>
+    <media:statistics views="717614"/>
    </media:community>
   </media:group>
  </entry>
@@ -192,8 +192,8 @@ FEATURED CREATORS:
    <media:thumbnail url="https://i1.ytimg.com/vi/X2676LxDOz8/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3999" average="5.00" min="1" max="5"/>
-    <media:statistics views="75079"/>
+    <media:starRating count="4226" average="5.00" min="1" max="5"/>
+    <media:statistics views="79986"/>
    </media:community>
   </media:group>
  </entry>
@@ -244,8 +244,8 @@ Featured Creators:
 2:27- 2:50 Step 5: The Reveal
 2:50 - 3:12 Outro</media:description>
    <media:community>
-    <media:starRating count="2087" average="5.00" min="1" max="5"/>
-    <media:statistics views="566559"/>
+    <media:starRating count="2110" average="5.00" min="1" max="5"/>
+    <media:statistics views="569057"/>
    </media:community>
   </media:group>
  </entry>
@@ -267,8 +267,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/vLfHbplXtz4/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3547" average="5.00" min="1" max="5"/>
-    <media:statistics views="92775"/>
+    <media:starRating count="3699" average="5.00" min="1" max="5"/>
+    <media:statistics views="98216"/>
    </media:community>
   </media:group>
  </entry>
@@ -290,8 +290,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/2UlrqThzzCs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="6032" average="5.00" min="1" max="5"/>
-    <media:statistics views="87069"/>
+    <media:starRating count="6300" average="5.00" min="1" max="5"/>
+    <media:statistics views="92014"/>
    </media:community>
   </media:group>
  </entry>
@@ -313,8 +313,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/v-nWeugyb7A/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3675" average="5.00" min="1" max="5"/>
-    <media:statistics views="75734"/>
+    <media:starRating count="3792" average="5.00" min="1" max="5"/>
+    <media:statistics views="79340"/>
    </media:community>
   </media:group>
  </entry>
@@ -329,17 +329,17 @@ Featured Creators:
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2023-09-28T16:00:49+00:00</published>
-  <updated>2023-10-23T03:52:58+00:00</updated>
+  <updated>2023-10-30T18:57:45+00:00</updated>
   <media:group>
    <media:title>How @swoozie inspired an entire genre of animation | #YouTubeBlack presents Flowers</media:title>
    <media:content url="https://www.youtube.com/v/q9kdFvBvJN4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i2.ytimg.com/vi/q9kdFvBvJN4/hqdefault.jpg" width="480" height="360"/>
-   <media:description>Explore the Storytime animation trend and the Creator behind it in our new series, Flowers. 
+   <media:description>sWooZie gets the flowers he deserves, here and now, for creating the storytime animation format that has become integral to animation on YouTube.
 
-Online video trends have evolved to become the driving force of pop culture. But do you know who’s creating them? From the moment of upload, discover the untold, true stories of the Black creators and culture behind your favorite trends. Witness those who have transformed culture on a global scale finally get the flowers they deserve.</media:description>
+Online video trends have evolved to become the driving force of pop culture. But do you know who’s creating them? From the moment of upload, discover the untold, true stories of the Black creators and culture behind your favorite trends</media:description>
    <media:community>
-    <media:starRating count="10284" average="5.00" min="1" max="5"/>
-    <media:statistics views="682566"/>
+    <media:starRating count="10643" average="5.00" min="1" max="5"/>
+    <media:statistics views="690407"/>
    </media:community>
   </media:group>
  </entry>
@@ -361,8 +361,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i3.ytimg.com/vi/fEzeTYwEmlw/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3759" average="5.00" min="1" max="5"/>
-    <media:statistics views="93743"/>
+    <media:starRating count="3863" average="5.00" min="1" max="5"/>
+    <media:statistics views="97177"/>
    </media:community>
   </media:group>
  </entry>
@@ -384,8 +384,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i1.ytimg.com/vi/xY34jr-gYgU/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="5249" average="5.00" min="1" max="5"/>
-    <media:statistics views="104838"/>
+    <media:starRating count="5334" average="5.00" min="1" max="5"/>
+    <media:statistics views="107801"/>
    </media:community>
   </media:group>
  </entry>
@@ -407,8 +407,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i2.ytimg.com/vi/MKeug0IZWbo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3357" average="5.00" min="1" max="5"/>
-    <media:statistics views="70555"/>
+    <media:starRating count="3405" average="5.00" min="1" max="5"/>
+    <media:statistics views="72518"/>
    </media:community>
   </media:group>
  </entry>
@@ -430,8 +430,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i1.ytimg.com/vi/HgIBGdBDeHs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4901" average="5.00" min="1" max="5"/>
-    <media:statistics views="104793"/>
+    <media:starRating count="4955" average="5.00" min="1" max="5"/>
+    <media:statistics views="106979"/>
    </media:community>
   </media:group>
  </entry>
@@ -453,8 +453,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i3.ytimg.com/vi/rwYAcQqbbrY/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4466" average="5.00" min="1" max="5"/>
-    <media:statistics views="78605"/>
+    <media:starRating count="4507" average="5.00" min="1" max="5"/>
+    <media:statistics views="79827"/>
    </media:community>
   </media:group>
  </entry>
