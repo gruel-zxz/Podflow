@@ -10,6 +10,29 @@
   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
  </author>
  <entry>
+  <id>yt:video:LLJexMkoRy0</id>
+  <yt:videoId>LLJexMkoRy0</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>find out how to really scare @wendigoon this halloween</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=LLJexMkoRy0"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2023-10-31T19:00:26+00:00</published>
+  <updated>2023-10-31T19:06:15+00:00</updated>
+  <media:group>
+   <media:title>find out how to really scare @wendigoon this halloween</media:title>
+   <media:content url="https://www.youtube.com/v/LLJexMkoRy0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/LLJexMkoRy0/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="611" average="5.00" min="1" max="5"/>
+    <media:statistics views="6465"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:8hBHQPrVVak</id>
   <yt:videoId>8hBHQPrVVak</yt:videoId>
   <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
@@ -65,8 +88,8 @@ Minecraft: @minecraft
 
 #YouTube #Halloween #TierList</media:description>
    <media:community>
-    <media:starRating count="1152" average="5.00" min="1" max="5"/>
-    <media:statistics views="343214"/>
+    <media:starRating count="1282" average="5.00" min="1" max="5"/>
+    <media:statistics views="416342"/>
    </media:community>
   </media:group>
  </entry>
@@ -114,8 +137,8 @@ FEATURED CREATORS:
 @MiniMarley 
 @curlsbyjen</media:description>
    <media:community>
-    <media:starRating count="1337" average="5.00" min="1" max="5"/>
-    <media:statistics views="374160"/>
+    <media:starRating count="1345" average="5.00" min="1" max="5"/>
+    <media:statistics views="376127"/>
    </media:community>
   </media:group>
  </entry>
@@ -137,8 +160,8 @@ FEATURED CREATORS:
    <media:thumbnail url="https://i1.ytimg.com/vi/TTZXkm6JM_8/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4237" average="5.00" min="1" max="5"/>
-    <media:statistics views="87344"/>
+    <media:starRating count="4360" average="5.00" min="1" max="5"/>
+    <media:statistics views="90292"/>
    </media:community>
   </media:group>
  </entry>
@@ -169,8 +192,8 @@ FEATURED CREATORS:
 
 #Wendigoon #YouTube #WatchHistory #Halloween</media:description>
    <media:community>
-    <media:starRating count="5166" average="5.00" min="1" max="5"/>
-    <media:statistics views="717614"/>
+    <media:starRating count="5178" average="5.00" min="1" max="5"/>
+    <media:statistics views="719047"/>
    </media:community>
   </media:group>
  </entry>
@@ -192,8 +215,8 @@ FEATURED CREATORS:
    <media:thumbnail url="https://i1.ytimg.com/vi/X2676LxDOz8/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4226" average="5.00" min="1" max="5"/>
-    <media:statistics views="79986"/>
+    <media:starRating count="4290" average="5.00" min="1" max="5"/>
+    <media:statistics views="81492"/>
    </media:community>
   </media:group>
  </entry>
@@ -244,8 +267,8 @@ Featured Creators:
 2:27- 2:50 Step 5: The Reveal
 2:50 - 3:12 Outro</media:description>
    <media:community>
-    <media:starRating count="2110" average="5.00" min="1" max="5"/>
-    <media:statistics views="569057"/>
+    <media:starRating count="2114" average="5.00" min="1" max="5"/>
+    <media:statistics views="570073"/>
    </media:community>
   </media:group>
  </entry>
@@ -267,8 +290,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/vLfHbplXtz4/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3699" average="5.00" min="1" max="5"/>
-    <media:statistics views="98216"/>
+    <media:starRating count="3740" average="5.00" min="1" max="5"/>
+    <media:statistics views="100006"/>
    </media:community>
   </media:group>
  </entry>
@@ -290,8 +313,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/2UlrqThzzCs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="6300" average="5.00" min="1" max="5"/>
-    <media:statistics views="92014"/>
+    <media:starRating count="6395" average="5.00" min="1" max="5"/>
+    <media:statistics views="93649"/>
    </media:community>
   </media:group>
  </entry>
@@ -313,8 +336,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/v-nWeugyb7A/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3792" average="5.00" min="1" max="5"/>
-    <media:statistics views="79340"/>
+    <media:starRating count="3838" average="5.00" min="1" max="5"/>
+    <media:statistics views="80535"/>
    </media:community>
   </media:group>
  </entry>
@@ -338,8 +361,8 @@ Featured Creators:
 
 Online video trends have evolved to become the driving force of pop culture. But do you know who’s creating them? From the moment of upload, discover the untold, true stories of the Black creators and culture behind your favorite trends</media:description>
    <media:community>
-    <media:starRating count="10643" average="5.00" min="1" max="5"/>
-    <media:statistics views="690407"/>
+    <media:starRating count="10726" average="5.00" min="1" max="5"/>
+    <media:statistics views="693078"/>
    </media:community>
   </media:group>
  </entry>
@@ -361,8 +384,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i3.ytimg.com/vi/fEzeTYwEmlw/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3863" average="5.00" min="1" max="5"/>
-    <media:statistics views="97177"/>
+    <media:starRating count="3892" average="5.00" min="1" max="5"/>
+    <media:statistics views="98333"/>
    </media:community>
   </media:group>
  </entry>
@@ -384,8 +407,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i1.ytimg.com/vi/xY34jr-gYgU/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="5334" average="5.00" min="1" max="5"/>
-    <media:statistics views="107801"/>
+    <media:starRating count="5351" average="5.00" min="1" max="5"/>
+    <media:statistics views="108778"/>
    </media:community>
   </media:group>
  </entry>
@@ -407,8 +430,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i2.ytimg.com/vi/MKeug0IZWbo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3405" average="5.00" min="1" max="5"/>
-    <media:statistics views="72518"/>
+    <media:starRating count="3423" average="5.00" min="1" max="5"/>
+    <media:statistics views="73210"/>
    </media:community>
   </media:group>
  </entry>
@@ -430,31 +453,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i1.ytimg.com/vi/HgIBGdBDeHs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4955" average="5.00" min="1" max="5"/>
-    <media:statistics views="106979"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:rwYAcQqbbrY</id>
-  <yt:videoId>rwYAcQqbbrY</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>so you’re saying it’s food, but smaller? @aceof_spadess @Ben_Brainard</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=rwYAcQqbbrY"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2023-09-15T20:00:27+00:00</published>
-  <updated>2023-09-15T20:06:03+00:00</updated>
-  <media:group>
-   <media:title>so you’re saying it’s food, but smaller? @aceof_spadess @Ben_Brainard</media:title>
-   <media:content url="https://www.youtube.com/v/rwYAcQqbbrY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/rwYAcQqbbrY/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="4507" average="5.00" min="1" max="5"/>
-    <media:statistics views="79827"/>
+    <media:starRating count="4966" average="5.00" min="1" max="5"/>
+    <media:statistics views="107697"/>
    </media:community>
   </media:group>
  </entry>
