@@ -11,6 +11,29 @@
  </author>
  <published>2017-04-12T00:43:27+00:00</published>
  <entry>
+  <id>yt:video:vaL_wf-krtU</id>
+  <yt:videoId>vaL_wf-krtU</yt:videoId>
+  <yt:channelId>UCp1nO1bgVwks9b5EhKQGVag</yt:channelId>
+  <title>数学天才与疯子赌徒之间，正如上帝的左右手：《橱窗里的荷兰赌徒》下集</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=vaL_wf-krtU"/>
+  <author>
+   <name>幻海航行--science fiction</name>
+   <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
+  </author>
+  <published>2023-11-02T04:09:51+00:00</published>
+  <updated>2023-11-02T07:56:32+00:00</updated>
+  <media:group>
+   <media:title>数学天才与疯子赌徒之间，正如上帝的左右手：《橱窗里的荷兰赌徒》下集</media:title>
+   <media:content url="https://www.youtube.com/v/vaL_wf-krtU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/vaL_wf-krtU/hqdefault.jpg" width="480" height="360"/>
+   <media:description>科幻小说《橱窗里的荷兰赌徒》，作者李兴春，银河奖获奖作品，是一部不可多得的国产佳作。所谓：数学天才与疯子赌徒之间，正如上帝的左右手。</media:description>
+   <media:community>
+    <media:starRating count="42" average="5.00" min="1" max="5"/>
+    <media:statistics views="2012"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:fFlG_zkErLQ</id>
   <yt:videoId>fFlG_zkErLQ</yt:videoId>
   <yt:channelId>UCp1nO1bgVwks9b5EhKQGVag</yt:channelId>
@@ -28,8 +51,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/fFlG_zkErLQ/hqdefault.jpg" width="480" height="360"/>
    <media:description>科幻小说《阖上眼五秒钟》，作者遥控，作品刊登于早年的科幻世界杂志上，是个有趣的小说。</media:description>
    <media:community>
-    <media:starRating count="90" average="5.00" min="1" max="5"/>
-    <media:statistics views="4583"/>
+    <media:starRating count="100" average="5.00" min="1" max="5"/>
+    <media:statistics views="5250"/>
    </media:community>
   </media:group>
  </entry>
@@ -51,8 +74,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/5Z3O9vtMAvI/hqdefault.jpg" width="480" height="360"/>
    <media:description>人类史上第一位时间穿越者，居然成功了！经典科幻解读，原著：宝树.</media:description>
    <media:community>
-    <media:starRating count="81" average="5.00" min="1" max="5"/>
-    <media:statistics views="4336"/>
+    <media:starRating count="83" average="5.00" min="1" max="5"/>
+    <media:statistics views="4583"/>
    </media:community>
   </media:group>
  </entry>
@@ -75,8 +98,8 @@
    <media:description>科幻小说《橱窗里的荷兰赌徒》，作者李兴春，银河奖获奖作品，是一部不可多得的国产佳作。
 虽然过去了二十多年，但是好的作品值得让大家记得，分上下集发布</media:description>
    <media:community>
-    <media:starRating count="86" average="5.00" min="1" max="5"/>
-    <media:statistics views="4781"/>
+    <media:starRating count="91" average="5.00" min="1" max="5"/>
+    <media:statistics views="5091"/>
    </media:community>
   </media:group>
  </entry>
@@ -99,8 +122,8 @@
    <media:description>人类洞悉宇宙后，开始主动入侵地外文明：XeeLee宇宙4。主线剧情从本期就开始了。
 下来尽量在3期内搞定这个系列。</media:description>
    <media:community>
-    <media:starRating count="182" average="5.00" min="1" max="5"/>
-    <media:statistics views="9230"/>
+    <media:starRating count="183" average="5.00" min="1" max="5"/>
+    <media:statistics views="9441"/>
    </media:community>
   </media:group>
  </entry>
@@ -123,7 +146,7 @@
    <media:description>在时间加速的情况下，数字生命也可以飞向星空——科幻小说《晶体之夜》，出自格雷格.伊根（Greg Egan）的短篇小说集《数学陷落》Oceanic。</media:description>
    <media:community>
     <media:starRating count="163" average="5.00" min="1" max="5"/>
-    <media:statistics views="7049"/>
+    <media:statistics views="7135"/>
    </media:community>
   </media:group>
  </entry>
@@ -146,8 +169,8 @@
    <media:description>终于更新完毕了！
 这部40万字的长篇硬核科幻啊！人类无处可逃，因为地球也不过是另一艘飞船：科幻巨著《极光》大结局</media:description>
    <media:community>
-    <media:starRating count="221" average="5.00" min="1" max="5"/>
-    <media:statistics views="14125"/>
+    <media:starRating count="223" average="5.00" min="1" max="5"/>
+    <media:statistics views="14406"/>
    </media:community>
   </media:group>
  </entry>
@@ -170,7 +193,7 @@
    <media:description>一艘1/10光速的飞船回归地球，它该如何减速？科幻巨著《极光》第二集。</media:description>
    <media:community>
     <media:starRating count="158" average="5.00" min="1" max="5"/>
-    <media:statistics views="9322"/>
+    <media:statistics views="9435"/>
    </media:community>
   </media:group>
  </entry>
@@ -193,8 +216,8 @@
    <media:description>科幻巨著《极光》，原著：金·斯坦利·罗宾逊。
 这部小说堪称人类航天的教科书级的小说，全程充满知识点，严谨的写作手法让这部小说毫无逻辑漏洞，堪称经典！</media:description>
    <media:community>
-    <media:starRating count="354" average="5.00" min="1" max="5"/>
-    <media:statistics views="41125"/>
+    <media:starRating count="360" average="5.00" min="1" max="5"/>
+    <media:statistics views="42176"/>
    </media:community>
   </media:group>
  </entry>
@@ -216,8 +239,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/P_hIXilcn60/hqdefault.jpg" width="480" height="360"/>
    <media:description>《XeeLee》系列从第三集开始，也要正式进入正题了，真正意义上的战争和剧情走向也要开始了。而且我们文案的叙事也相对加快了，以前计划十多集完成，目前计划在8集以内搞定。</media:description>
    <media:community>
-    <media:starRating count="202" average="5.00" min="1" max="5"/>
-    <media:statistics views="9963"/>
+    <media:starRating count="203" average="5.00" min="1" max="5"/>
+    <media:statistics views="10068"/>
    </media:community>
   </media:group>
  </entry>
@@ -241,7 +264,7 @@
 《幻影帝国》是暮夏之薰所著科幻小说，如感兴趣，请在起点读书app搜索“幻影帝国”阅读原著。</media:description>
    <media:community>
     <media:starRating count="111" average="5.00" min="1" max="5"/>
-    <media:statistics views="6287"/>
+    <media:statistics views="6337"/>
    </media:community>
   </media:group>
  </entry>
@@ -267,7 +290,7 @@
 08：46 巨引源的真相</media:description>
    <media:community>
     <media:starRating count="253" average="5.00" min="1" max="5"/>
-    <media:statistics views="10794"/>
+    <media:statistics views="10942"/>
    </media:community>
   </media:group>
  </entry>
@@ -290,8 +313,8 @@
    <media:description>科幻史诗——XeeLee宇宙第一集：人类的崛起和遭遇地外文明。
 这个系列总算开始更新了，第一次尝试这么大体量的内容还是有点胆怯，不过开始更新就没法回头了。目前整理出了五期内容，内容量大致占XeeLee宇宙的50%。</media:description>
    <media:community>
-    <media:starRating count="348" average="5.00" min="1" max="5"/>
-    <media:statistics views="20600"/>
+    <media:starRating count="350" average="5.00" min="1" max="5"/>
+    <media:statistics views="20830"/>
    </media:community>
   </media:group>
  </entry>
@@ -315,7 +338,7 @@
 终于更新完毕，撒花！</media:description>
    <media:community>
     <media:starRating count="116" average="5.00" min="1" max="5"/>
-    <media:statistics views="6681"/>
+    <media:statistics views="6714"/>
    </media:community>
   </media:group>
  </entry>
@@ -337,32 +360,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/ZW5izxaFwUU/hqdefault.jpg" width="480" height="360"/>
    <media:description>2000年星云奖作品，《达尔文电波》。一部关于生物、化学、进化等内容的硬核科幻作品，作者提出了一个大胆的构想：物种的进化只需要两代便可以产生出全新的物种。原著：格雷格.贝尔。另外，xeelee系列已经开始搞了。</media:description>
    <media:community>
-    <media:starRating count="178" average="5.00" min="1" max="5"/>
-    <media:statistics views="11756"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:-gM9oWhTvYw</id>
-  <yt:videoId>-gM9oWhTvYw</yt:videoId>
-  <yt:channelId>UCp1nO1bgVwks9b5EhKQGVag</yt:channelId>
-  <title>智慧物种的最终归宿——成为自然本身！</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=-gM9oWhTvYw"/>
-  <author>
-   <name>幻海航行--science fiction</name>
-   <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
-  </author>
-  <published>2023-08-04T07:02:31+00:00</published>
-  <updated>2023-08-05T06:34:39+00:00</updated>
-  <media:group>
-   <media:title>智慧物种的最终归宿——成为自然本身！</media:title>
-   <media:content url="https://www.youtube.com/v/-gM9oWhTvYw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/-gM9oWhTvYw/hqdefault.jpg" width="480" height="360"/>
-   <media:description>《泥人十四》下集，更新完结。
-尽管这样的内容可能很多人不喜欢，因为太深奥，故事性弱，但是作者透露出的丰富的哲学构想，值得我们去更新。</media:description>
-   <media:community>
-    <media:starRating count="117" average="5.00" min="1" max="5"/>
-    <media:statistics views="7127"/>
+    <media:starRating count="179" average="5.00" min="1" max="5"/>
+    <media:statistics views="11851"/>
    </media:community>
   </media:group>
  </entry>

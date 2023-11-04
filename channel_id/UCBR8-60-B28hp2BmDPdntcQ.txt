@@ -10,6 +10,107 @@
   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
  </author>
  <entry>
+  <id>yt:video:w8ggPIk_r54</id>
+  <yt:videoId>w8ggPIk_r54</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>chicken: accomplished</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=w8ggPIk_r54"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2023-11-03T16:43:06+00:00</published>
+  <updated>2023-11-03T16:47:09+00:00</updated>
+  <media:group>
+   <media:title>chicken: accomplished</media:title>
+   <media:content url="https://www.youtube.com/v/w8ggPIk_r54?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/w8ggPIk_r54/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="1081" average="5.00" min="1" max="5"/>
+    <media:statistics views="19841"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:bF424rbJYV0</id>
+  <yt:videoId>bF424rbJYV0</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>@AlexaRivera discusses filming with her family and her favorite collabs | YouTube Watch History</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=bF424rbJYV0"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2023-11-02T16:00:27+00:00</published>
+  <updated>2023-11-03T00:01:23+00:00</updated>
+  <media:group>
+   <media:title>@AlexaRivera discusses filming with her family and her favorite collabs | YouTube Watch History</media:title>
+   <media:content url="https://www.youtube.com/v/bF424rbJYV0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/bF424rbJYV0/hqdefault.jpg" width="480" height="360"/>
+   <media:description>We love watching Lexi Rivera’s videos, but what has SHE been watching? Lexi gets in the hot seat to reveal what's in her YouTube Watch History. From learning cooking tips, to how she pulls off her best pranks, to fellow creators she admires, Lexi Rivera talks about what she’s been watching and why! 
+
+0:00 - 0:23 Intro
+0:23 - 2:11 Recent Videos
+2:11 - 6:44 Keyword Search
+6:44 - 8:31 Scavenger Hunt
+8:31 - 9:15 Scroll Roulette
+9:15 Final Thoughts
+
+#LexiRivera #YouTube #WatchHistory</media:description>
+   <media:community>
+    <media:starRating count="935" average="5.00" min="1" max="5"/>
+    <media:statistics views="153049"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:wIjX4-vUzKM</id>
+  <yt:videoId>wIjX4-vUzKM</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>it’s giving NFL Sunday Ticket.</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=wIjX4-vUzKM"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2023-11-01T21:04:12+00:00</published>
+  <updated>2023-11-01T21:10:50+00:00</updated>
+  <media:group>
+   <media:title>it’s giving NFL Sunday Ticket.</media:title>
+   <media:content url="https://www.youtube.com/v/wIjX4-vUzKM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/wIjX4-vUzKM/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="1928" average="5.00" min="1" max="5"/>
+    <media:statistics views="37282"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:jpK7IdmSAKc</id>
+  <yt:videoId>jpK7IdmSAKc</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>@EatItKatie and @jener.d dream up the perfect channel (it's family friendly, we swear!)</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=jpK7IdmSAKc"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2023-11-01T18:00:18+00:00</published>
+  <updated>2023-11-01T18:05:24+00:00</updated>
+  <media:group>
+   <media:title>@EatItKatie and @jener.d dream up the perfect channel (it's family friendly, we swear!)</media:title>
+   <media:content url="https://www.youtube.com/v/jpK7IdmSAKc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/jpK7IdmSAKc/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="1148" average="5.00" min="1" max="5"/>
+    <media:statistics views="21019"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:LLJexMkoRy0</id>
   <yt:videoId>LLJexMkoRy0</yt:videoId>
   <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
@@ -27,8 +128,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/LLJexMkoRy0/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="611" average="5.00" min="1" max="5"/>
-    <media:statistics views="6465"/>
+    <media:starRating count="1243" average="5.00" min="1" max="5"/>
+    <media:statistics views="19968"/>
    </media:community>
   </media:group>
  </entry>
@@ -43,7 +144,7 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2023-10-26T23:59:23+00:00</published>
-  <updated>2023-10-28T00:09:23+00:00</updated>
+  <updated>2023-11-02T19:21:40+00:00</updated>
   <media:group>
    <media:title>@AyChristene tiers the creepy characters that are taking over YouTube</media:title>
    <media:content url="https://www.youtube.com/v/8hBHQPrVVak?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -88,8 +189,8 @@ Minecraft: @minecraft
 
 #YouTube #Halloween #TierList</media:description>
    <media:community>
-    <media:starRating count="1282" average="5.00" min="1" max="5"/>
-    <media:statistics views="416342"/>
+    <media:starRating count="1502" average="5.00" min="1" max="5"/>
+    <media:statistics views="488250"/>
    </media:community>
   </media:group>
  </entry>
@@ -137,8 +238,8 @@ FEATURED CREATORS:
 @MiniMarley 
 @curlsbyjen</media:description>
    <media:community>
-    <media:starRating count="1345" average="5.00" min="1" max="5"/>
-    <media:statistics views="376127"/>
+    <media:starRating count="1369" average="5.00" min="1" max="5"/>
+    <media:statistics views="381095"/>
    </media:community>
   </media:group>
  </entry>
@@ -160,8 +261,8 @@ FEATURED CREATORS:
    <media:thumbnail url="https://i1.ytimg.com/vi/TTZXkm6JM_8/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4360" average="5.00" min="1" max="5"/>
-    <media:statistics views="90292"/>
+    <media:starRating count="4644" average="5.00" min="1" max="5"/>
+    <media:statistics views="96752"/>
    </media:community>
   </media:group>
  </entry>
@@ -192,8 +293,8 @@ FEATURED CREATORS:
 
 #Wendigoon #YouTube #WatchHistory #Halloween</media:description>
    <media:community>
-    <media:starRating count="5178" average="5.00" min="1" max="5"/>
-    <media:statistics views="719047"/>
+    <media:starRating count="5224" average="5.00" min="1" max="5"/>
+    <media:statistics views="723115"/>
    </media:community>
   </media:group>
  </entry>
@@ -215,8 +316,8 @@ FEATURED CREATORS:
    <media:thumbnail url="https://i1.ytimg.com/vi/X2676LxDOz8/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4290" average="5.00" min="1" max="5"/>
-    <media:statistics views="81492"/>
+    <media:starRating count="4450" average="5.00" min="1" max="5"/>
+    <media:statistics views="85126"/>
    </media:community>
   </media:group>
  </entry>
@@ -267,8 +368,8 @@ Featured Creators:
 2:27- 2:50 Step 5: The Reveal
 2:50 - 3:12 Outro</media:description>
    <media:community>
-    <media:starRating count="2114" average="5.00" min="1" max="5"/>
-    <media:statistics views="570073"/>
+    <media:starRating count="2133" average="5.00" min="1" max="5"/>
+    <media:statistics views="573085"/>
    </media:community>
   </media:group>
  </entry>
@@ -290,8 +391,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/vLfHbplXtz4/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3740" average="5.00" min="1" max="5"/>
-    <media:statistics views="100006"/>
+    <media:starRating count="3884" average="5.00" min="1" max="5"/>
+    <media:statistics views="105259"/>
    </media:community>
   </media:group>
  </entry>
@@ -313,8 +414,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/2UlrqThzzCs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="6395" average="5.00" min="1" max="5"/>
-    <media:statistics views="93649"/>
+    <media:starRating count="6622" average="5.00" min="1" max="5"/>
+    <media:statistics views="97950"/>
    </media:community>
   </media:group>
  </entry>
@@ -336,8 +437,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/v-nWeugyb7A/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3838" average="5.00" min="1" max="5"/>
-    <media:statistics views="80535"/>
+    <media:starRating count="3929" average="5.00" min="1" max="5"/>
+    <media:statistics views="83767"/>
    </media:community>
   </media:group>
  </entry>
@@ -361,100 +462,8 @@ Featured Creators:
 
 Online video trends have evolved to become the driving force of pop culture. But do you know who’s creating them? From the moment of upload, discover the untold, true stories of the Black creators and culture behind your favorite trends</media:description>
    <media:community>
-    <media:starRating count="10726" average="5.00" min="1" max="5"/>
-    <media:statistics views="693078"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:fEzeTYwEmlw</id>
-  <yt:videoId>fEzeTYwEmlw</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>presenting the many faces of @LenarrYoung</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=fEzeTYwEmlw"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2023-09-25T17:02:35+00:00</published>
-  <updated>2023-09-25T17:11:07+00:00</updated>
-  <media:group>
-   <media:title>presenting the many faces of @LenarrYoung</media:title>
-   <media:content url="https://www.youtube.com/v/fEzeTYwEmlw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/fEzeTYwEmlw/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="3892" average="5.00" min="1" max="5"/>
-    <media:statistics views="98333"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:xY34jr-gYgU</id>
-  <yt:videoId>xY34jr-gYgU</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>create AI-generated backgrounds that bring your wildest stories to life ✨ Dream Screen, coming 2024.</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=xY34jr-gYgU"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2023-09-23T20:02:03+00:00</published>
-  <updated>2023-09-23T20:12:05+00:00</updated>
-  <media:group>
-   <media:title>create AI-generated backgrounds that bring your wildest stories to life ✨ Dream Screen, coming 2024.</media:title>
-   <media:content url="https://www.youtube.com/v/xY34jr-gYgU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i1.ytimg.com/vi/xY34jr-gYgU/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="5351" average="5.00" min="1" max="5"/>
-    <media:statistics views="108778"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:MKeug0IZWbo</id>
-  <yt:videoId>MKeug0IZWbo</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>organizing my watch party for turbulence now  @LonnieIIV @AndrewFenichel</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=MKeug0IZWbo"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2023-09-22T17:00:24+00:00</published>
-  <updated>2023-09-22T17:04:33+00:00</updated>
-  <media:group>
-   <media:title>organizing my watch party for turbulence now  @LonnieIIV @AndrewFenichel</media:title>
-   <media:content url="https://www.youtube.com/v/MKeug0IZWbo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/MKeug0IZWbo/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="3423" average="5.00" min="1" max="5"/>
-    <media:statistics views="73210"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:HgIBGdBDeHs</id>
-  <yt:videoId>HgIBGdBDeHs</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>are all cat people secretly wearing that shirt? @amandumbb @Jenerd @KurtTocci</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=HgIBGdBDeHs"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2023-09-18T17:00:57+00:00</published>
-  <updated>2023-09-18T17:06:02+00:00</updated>
-  <media:group>
-   <media:title>are all cat people secretly wearing that shirt? @amandumbb @Jenerd @KurtTocci</media:title>
-   <media:content url="https://www.youtube.com/v/HgIBGdBDeHs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i1.ytimg.com/vi/HgIBGdBDeHs/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="4966" average="5.00" min="1" max="5"/>
-    <media:statistics views="107697"/>
+    <media:starRating count="10902" average="5.00" min="1" max="5"/>
+    <media:statistics views="702657"/>
    </media:community>
   </media:group>
  </entry>
