@@ -34,3 +34,17 @@ def qr_code(data):
     print(ascii_art)
 
 qr_code("https://www.spdb.com.cn")
+
+
+
+import requests
+
+# 定义请求头中的 User-Agent
+user_agent = {
+    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36'
+}
+user_agent = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36'}
+url = "https://api.bilibili.com/x/space/wbi/arc/search?mid=23947287"
+response = requests.get(f"{url}", headers = user_agent, timeout = 5)
+response = response.json()
+print(response)
