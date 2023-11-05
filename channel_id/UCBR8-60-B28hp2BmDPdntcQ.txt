@@ -10,6 +10,29 @@
   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
  </author>
  <entry>
+  <id>yt:video:FryGklzi_q0</id>
+  <yt:videoId>FryGklzi_q0</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>it may be saturday, but you still have to wake up for sábado de limpieza. @ChristianJM</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=FryGklzi_q0"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2023-11-04T17:00:24+00:00</published>
+  <updated>2023-11-04T17:07:40+00:00</updated>
+  <media:group>
+   <media:title>it may be saturday, but you still have to wake up for sábado de limpieza. @ChristianJM</media:title>
+   <media:content url="https://www.youtube.com/v/FryGklzi_q0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/FryGklzi_q0/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="922" average="5.00" min="1" max="5"/>
+    <media:statistics views="14357"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:w8ggPIk_r54</id>
   <yt:videoId>w8ggPIk_r54</yt:videoId>
   <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
@@ -27,8 +50,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/w8ggPIk_r54/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1081" average="5.00" min="1" max="5"/>
-    <media:statistics views="19841"/>
+    <media:starRating count="1433" average="5.00" min="1" max="5"/>
+    <media:statistics views="31583"/>
    </media:community>
   </media:group>
  </entry>
@@ -59,8 +82,8 @@
 
 #LexiRivera #YouTube #WatchHistory</media:description>
    <media:community>
-    <media:starRating count="935" average="5.00" min="1" max="5"/>
-    <media:statistics views="153049"/>
+    <media:starRating count="1014" average="5.00" min="1" max="5"/>
+    <media:statistics views="214224"/>
    </media:community>
   </media:group>
  </entry>
@@ -82,8 +105,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/wIjX4-vUzKM/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1928" average="5.00" min="1" max="5"/>
-    <media:statistics views="37282"/>
+    <media:starRating count="2129" average="5.00" min="1" max="5"/>
+    <media:statistics views="42912"/>
    </media:community>
   </media:group>
  </entry>
@@ -105,8 +128,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/jpK7IdmSAKc/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1148" average="5.00" min="1" max="5"/>
-    <media:statistics views="21019"/>
+    <media:starRating count="1229" average="5.00" min="1" max="5"/>
+    <media:statistics views="23860"/>
    </media:community>
   </media:group>
  </entry>
@@ -128,8 +151,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/LLJexMkoRy0/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1243" average="5.00" min="1" max="5"/>
-    <media:statistics views="19968"/>
+    <media:starRating count="1313" average="5.00" min="1" max="5"/>
+    <media:statistics views="21768"/>
    </media:community>
   </media:group>
  </entry>
@@ -189,8 +212,8 @@ Minecraft: @minecraft
 
 #YouTube #Halloween #TierList</media:description>
    <media:community>
-    <media:starRating count="1502" average="5.00" min="1" max="5"/>
-    <media:statistics views="488250"/>
+    <media:starRating count="1523" average="5.00" min="1" max="5"/>
+    <media:statistics views="462621"/>
    </media:community>
   </media:group>
  </entry>
@@ -238,8 +261,8 @@ FEATURED CREATORS:
 @MiniMarley 
 @curlsbyjen</media:description>
    <media:community>
-    <media:starRating count="1369" average="5.00" min="1" max="5"/>
-    <media:statistics views="381095"/>
+    <media:starRating count="1376" average="5.00" min="1" max="5"/>
+    <media:statistics views="381897"/>
    </media:community>
   </media:group>
  </entry>
@@ -261,8 +284,8 @@ FEATURED CREATORS:
    <media:thumbnail url="https://i1.ytimg.com/vi/TTZXkm6JM_8/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4644" average="5.00" min="1" max="5"/>
-    <media:statistics views="96752"/>
+    <media:starRating count="4703" average="5.00" min="1" max="5"/>
+    <media:statistics views="98574"/>
    </media:community>
   </media:group>
  </entry>
@@ -293,8 +316,8 @@ FEATURED CREATORS:
 
 #Wendigoon #YouTube #WatchHistory #Halloween</media:description>
    <media:community>
-    <media:starRating count="5224" average="5.00" min="1" max="5"/>
-    <media:statistics views="723115"/>
+    <media:starRating count="5232" average="5.00" min="1" max="5"/>
+    <media:statistics views="724038"/>
    </media:community>
   </media:group>
  </entry>
@@ -316,8 +339,8 @@ FEATURED CREATORS:
    <media:thumbnail url="https://i1.ytimg.com/vi/X2676LxDOz8/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4450" average="5.00" min="1" max="5"/>
-    <media:statistics views="85126"/>
+    <media:starRating count="4480" average="5.00" min="1" max="5"/>
+    <media:statistics views="86061"/>
    </media:community>
   </media:group>
  </entry>
@@ -368,8 +391,8 @@ Featured Creators:
 2:27- 2:50 Step 5: The Reveal
 2:50 - 3:12 Outro</media:description>
    <media:community>
-    <media:starRating count="2133" average="5.00" min="1" max="5"/>
-    <media:statistics views="573085"/>
+    <media:starRating count="2136" average="5.00" min="1" max="5"/>
+    <media:statistics views="573802"/>
    </media:community>
   </media:group>
  </entry>
@@ -391,8 +414,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/vLfHbplXtz4/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3884" average="5.00" min="1" max="5"/>
-    <media:statistics views="105259"/>
+    <media:starRating count="3901" average="5.00" min="1" max="5"/>
+    <media:statistics views="106599"/>
    </media:community>
   </media:group>
  </entry>
@@ -414,8 +437,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/2UlrqThzzCs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="6622" average="5.00" min="1" max="5"/>
-    <media:statistics views="97950"/>
+    <media:starRating count="6674" average="5.00" min="1" max="5"/>
+    <media:statistics views="99061"/>
    </media:community>
   </media:group>
  </entry>
@@ -437,33 +460,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/v-nWeugyb7A/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3929" average="5.00" min="1" max="5"/>
-    <media:statistics views="83767"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:q9kdFvBvJN4</id>
-  <yt:videoId>q9kdFvBvJN4</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>How @swoozie inspired an entire genre of animation | #YouTubeBlack presents Flowers</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=q9kdFvBvJN4"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2023-09-28T16:00:49+00:00</published>
-  <updated>2023-10-30T18:57:45+00:00</updated>
-  <media:group>
-   <media:title>How @swoozie inspired an entire genre of animation | #YouTubeBlack presents Flowers</media:title>
-   <media:content url="https://www.youtube.com/v/q9kdFvBvJN4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/q9kdFvBvJN4/hqdefault.jpg" width="480" height="360"/>
-   <media:description>sWooZie gets the flowers he deserves, here and now, for creating the storytime animation format that has become integral to animation on YouTube.
-
-Online video trends have evolved to become the driving force of pop culture. But do you know who’s creating them? From the moment of upload, discover the untold, true stories of the Black creators and culture behind your favorite trends</media:description>
-   <media:community>
-    <media:starRating count="10902" average="5.00" min="1" max="5"/>
-    <media:statistics views="702657"/>
+    <media:starRating count="3941" average="5.00" min="1" max="5"/>
+    <media:statistics views="84613"/>
    </media:community>
   </media:group>
  </entry>

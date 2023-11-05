@@ -383,7 +383,8 @@ def video_format(video_website, video_url, media = "m4a", quality = "480"):
         return fail_message, duration, formats
     error_reason = {
         "Premieres in ": "\033[31m预播\033[0m|",
-        "Premieres ": "\033[31m预播\033[0m|"
+        "Premieres ": "\033[31m预播\033[0m|",
+        "Video unavailable. This video contains content from SME, who has blocked it in your country on copyright grounds": "\033[31m版权保护\033[0m|"
     }
     yt_id_count, change_error= 0, None
     fail_message, duration, formats = duration_and_formats(video_website, video_url)
