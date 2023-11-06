@@ -10,6 +10,52 @@
   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
  </author>
  <entry>
+  <id>yt:video:HlcyeYhzAgA</id>
+  <yt:videoId>HlcyeYhzAgA</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>pawpaw always told me: hard work is just work that’s hard</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=HlcyeYhzAgA"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2023-11-05T19:00:13+00:00</published>
+  <updated>2023-11-05T19:05:50+00:00</updated>
+  <media:group>
+   <media:title>pawpaw always told me: hard work is just work that’s hard</media:title>
+   <media:content url="https://www.youtube.com/v/HlcyeYhzAgA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/HlcyeYhzAgA/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="590" average="5.00" min="1" max="5"/>
+    <media:statistics views="7784"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:UC3sVvf6W4M</id>
+  <yt:videoId>UC3sVvf6W4M</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>@aceof_spadess and @Ben_Brainard with the catchiest grammar lesson of all time</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=UC3sVvf6W4M"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2023-11-05T18:00:18+00:00</published>
+  <updated>2023-11-05T18:02:48+00:00</updated>
+  <media:group>
+   <media:title>@aceof_spadess and @Ben_Brainard with the catchiest grammar lesson of all time</media:title>
+   <media:content url="https://www.youtube.com/v/UC3sVvf6W4M?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/UC3sVvf6W4M/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="1023" average="5.00" min="1" max="5"/>
+    <media:statistics views="12726"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:FryGklzi_q0</id>
   <yt:videoId>FryGklzi_q0</yt:videoId>
   <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
@@ -27,8 +73,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/FryGklzi_q0/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="922" average="5.00" min="1" max="5"/>
-    <media:statistics views="14357"/>
+    <media:starRating count="1529" average="5.00" min="1" max="5"/>
+    <media:statistics views="30553"/>
    </media:community>
   </media:group>
  </entry>
@@ -50,8 +96,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/w8ggPIk_r54/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1433" average="5.00" min="1" max="5"/>
-    <media:statistics views="31583"/>
+    <media:starRating count="1683" average="5.00" min="1" max="5"/>
+    <media:statistics views="39959"/>
    </media:community>
   </media:group>
  </entry>
@@ -82,8 +128,8 @@
 
 #LexiRivera #YouTube #WatchHistory</media:description>
    <media:community>
-    <media:starRating count="1014" average="5.00" min="1" max="5"/>
-    <media:statistics views="214224"/>
+    <media:starRating count="1131" average="5.00" min="1" max="5"/>
+    <media:statistics views="296361"/>
    </media:community>
   </media:group>
  </entry>
@@ -105,8 +151,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/wIjX4-vUzKM/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2129" average="5.00" min="1" max="5"/>
-    <media:statistics views="42912"/>
+    <media:starRating count="2316" average="5.00" min="1" max="5"/>
+    <media:statistics views="48556"/>
    </media:community>
   </media:group>
  </entry>
@@ -128,8 +174,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/jpK7IdmSAKc/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1229" average="5.00" min="1" max="5"/>
-    <media:statistics views="23860"/>
+    <media:starRating count="1336" average="5.00" min="1" max="5"/>
+    <media:statistics views="26754"/>
    </media:community>
   </media:group>
  </entry>
@@ -151,8 +197,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/LLJexMkoRy0/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1313" average="5.00" min="1" max="5"/>
-    <media:statistics views="21768"/>
+    <media:starRating count="1384" average="5.00" min="1" max="5"/>
+    <media:statistics views="23670"/>
    </media:community>
   </media:group>
  </entry>
@@ -212,8 +258,8 @@ Minecraft: @minecraft
 
 #YouTube #Halloween #TierList</media:description>
    <media:community>
-    <media:starRating count="1523" average="5.00" min="1" max="5"/>
-    <media:statistics views="462621"/>
+    <media:starRating count="1559" average="5.00" min="1" max="5"/>
+    <media:statistics views="450341"/>
    </media:community>
   </media:group>
  </entry>
@@ -261,8 +307,8 @@ FEATURED CREATORS:
 @MiniMarley 
 @curlsbyjen</media:description>
    <media:community>
-    <media:starRating count="1376" average="5.00" min="1" max="5"/>
-    <media:statistics views="381897"/>
+    <media:starRating count="1377" average="5.00" min="1" max="5"/>
+    <media:statistics views="382817"/>
    </media:community>
   </media:group>
  </entry>
@@ -284,8 +330,8 @@ FEATURED CREATORS:
    <media:thumbnail url="https://i1.ytimg.com/vi/TTZXkm6JM_8/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4703" average="5.00" min="1" max="5"/>
-    <media:statistics views="98574"/>
+    <media:starRating count="4772" average="5.00" min="1" max="5"/>
+    <media:statistics views="100384"/>
    </media:community>
   </media:group>
  </entry>
@@ -316,8 +362,8 @@ FEATURED CREATORS:
 
 #Wendigoon #YouTube #WatchHistory #Halloween</media:description>
    <media:community>
-    <media:starRating count="5232" average="5.00" min="1" max="5"/>
-    <media:statistics views="724038"/>
+    <media:starRating count="5245" average="5.00" min="1" max="5"/>
+    <media:statistics views="725060"/>
    </media:community>
   </media:group>
  </entry>
@@ -339,8 +385,8 @@ FEATURED CREATORS:
    <media:thumbnail url="https://i1.ytimg.com/vi/X2676LxDOz8/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4480" average="5.00" min="1" max="5"/>
-    <media:statistics views="86061"/>
+    <media:starRating count="4513" average="5.00" min="1" max="5"/>
+    <media:statistics views="87126"/>
    </media:community>
   </media:group>
  </entry>
@@ -391,8 +437,8 @@ Featured Creators:
 2:27- 2:50 Step 5: The Reveal
 2:50 - 3:12 Outro</media:description>
    <media:community>
-    <media:starRating count="2136" average="5.00" min="1" max="5"/>
-    <media:statistics views="573802"/>
+    <media:starRating count="2142" average="5.00" min="1" max="5"/>
+    <media:statistics views="574543"/>
    </media:community>
   </media:group>
  </entry>
@@ -414,54 +460,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/vLfHbplXtz4/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3901" average="5.00" min="1" max="5"/>
-    <media:statistics views="106599"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:2UlrqThzzCs</id>
-  <yt:videoId>2UlrqThzzCs</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>nine lives? more like fine vibes 🐈 😎 @crumb.crumblet.S.crumbington</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=2UlrqThzzCs"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2023-10-02T15:00:31+00:00</published>
-  <updated>2023-10-03T15:11:08+00:00</updated>
-  <media:group>
-   <media:title>nine lives? more like fine vibes 🐈 😎 @crumb.crumblet.S.crumbington</media:title>
-   <media:content url="https://www.youtube.com/v/2UlrqThzzCs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/2UlrqThzzCs/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="6674" average="5.00" min="1" max="5"/>
-    <media:statistics views="99061"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:v-nWeugyb7A</id>
-  <yt:videoId>v-nWeugyb7A</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>@FishForThought we’re kraken up over here….</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=v-nWeugyb7A"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2023-09-29T17:00:16+00:00</published>
-  <updated>2023-09-29T17:03:33+00:00</updated>
-  <media:group>
-   <media:title>@FishForThought we’re kraken up over here….</media:title>
-   <media:content url="https://www.youtube.com/v/v-nWeugyb7A?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/v-nWeugyb7A/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="3941" average="5.00" min="1" max="5"/>
-    <media:statistics views="84613"/>
+    <media:starRating count="3934" average="5.00" min="1" max="5"/>
+    <media:statistics views="108067"/>
    </media:community>
   </media:group>
  </entry>

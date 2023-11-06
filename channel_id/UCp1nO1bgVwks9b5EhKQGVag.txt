@@ -11,6 +11,29 @@
  </author>
  <published>2017-04-12T00:43:27+00:00</published>
  <entry>
+  <id>yt:video:TY-ce_fiWK8</id>
+  <yt:videoId>TY-ce_fiWK8</yt:videoId>
+  <yt:channelId>UCp1nO1bgVwks9b5EhKQGVag</yt:channelId>
+  <title>极北坚冰，食人梦魇——克苏鲁神话巅峰之作《虚境奇谭》</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=TY-ce_fiWK8"/>
+  <author>
+   <name>幻海航行--science fiction</name>
+   <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
+  </author>
+  <published>2023-11-05T13:05:27+00:00</published>
+  <updated>2023-11-06T05:40:41+00:00</updated>
+  <media:group>
+   <media:title>极北坚冰，食人梦魇——克苏鲁神话巅峰之作《虚境奇谭》</media:title>
+   <media:content url="https://www.youtube.com/v/TY-ce_fiWK8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/TY-ce_fiWK8/hqdefault.jpg" width="480" height="360"/>
+   <media:description>本期更新一期克苏鲁神话（非科幻内容）极北坚冰，食人梦魇——克苏鲁神话巅峰之作《虚境奇谭》</media:description>
+   <media:community>
+    <media:starRating count="90" average="5.00" min="1" max="5"/>
+    <media:statistics views="3509"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:vaL_wf-krtU</id>
   <yt:videoId>vaL_wf-krtU</yt:videoId>
   <yt:channelId>UCp1nO1bgVwks9b5EhKQGVag</yt:channelId>
@@ -28,8 +51,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/vaL_wf-krtU/hqdefault.jpg" width="480" height="360"/>
    <media:description>科幻小说《橱窗里的荷兰赌徒》，作者李兴春，银河奖获奖作品，是一部不可多得的国产佳作。所谓：数学天才与疯子赌徒之间，正如上帝的左右手。</media:description>
    <media:community>
-    <media:starRating count="42" average="5.00" min="1" max="5"/>
-    <media:statistics views="2184"/>
+    <media:starRating count="44" average="5.00" min="1" max="5"/>
+    <media:statistics views="2378"/>
    </media:community>
   </media:group>
  </entry>
@@ -51,8 +74,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/fFlG_zkErLQ/hqdefault.jpg" width="480" height="360"/>
    <media:description>科幻小说《阖上眼五秒钟》，作者遥控，作品刊登于早年的科幻世界杂志上，是个有趣的小说。</media:description>
    <media:community>
-    <media:starRating count="100" average="5.00" min="1" max="5"/>
-    <media:statistics views="5354"/>
+    <media:starRating count="102" average="5.00" min="1" max="5"/>
+    <media:statistics views="5462"/>
    </media:community>
   </media:group>
  </entry>
@@ -74,8 +97,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/5Z3O9vtMAvI/hqdefault.jpg" width="480" height="360"/>
    <media:description>人类史上第一位时间穿越者，居然成功了！经典科幻解读，原著：宝树.</media:description>
    <media:community>
-    <media:starRating count="83" average="5.00" min="1" max="5"/>
-    <media:statistics views="4636"/>
+    <media:starRating count="85" average="5.00" min="1" max="5"/>
+    <media:statistics views="4752"/>
    </media:community>
   </media:group>
  </entry>
@@ -98,8 +121,8 @@
    <media:description>科幻小说《橱窗里的荷兰赌徒》，作者李兴春，银河奖获奖作品，是一部不可多得的国产佳作。
 虽然过去了二十多年，但是好的作品值得让大家记得，分上下集发布</media:description>
    <media:community>
-    <media:starRating count="91" average="5.00" min="1" max="5"/>
-    <media:statistics views="5130"/>
+    <media:starRating count="92" average="5.00" min="1" max="5"/>
+    <media:statistics views="5186"/>
    </media:community>
   </media:group>
  </entry>
@@ -122,8 +145,8 @@
    <media:description>人类洞悉宇宙后，开始主动入侵地外文明：XeeLee宇宙4。主线剧情从本期就开始了。
 下来尽量在3期内搞定这个系列。</media:description>
    <media:community>
-    <media:starRating count="185" average="5.00" min="1" max="5"/>
-    <media:statistics views="9489"/>
+    <media:starRating count="188" average="5.00" min="1" max="5"/>
+    <media:statistics views="9582"/>
    </media:community>
   </media:group>
  </entry>
@@ -146,7 +169,7 @@
    <media:description>在时间加速的情况下，数字生命也可以飞向星空——科幻小说《晶体之夜》，出自格雷格.伊根（Greg Egan）的短篇小说集《数学陷落》Oceanic。</media:description>
    <media:community>
     <media:starRating count="164" average="5.00" min="1" max="5"/>
-    <media:statistics views="7146"/>
+    <media:statistics views="7165"/>
    </media:community>
   </media:group>
  </entry>
@@ -170,7 +193,7 @@
 这部40万字的长篇硬核科幻啊！人类无处可逃，因为地球也不过是另一艘飞船：科幻巨著《极光》大结局</media:description>
    <media:community>
     <media:starRating count="226" average="5.00" min="1" max="5"/>
-    <media:statistics views="14523"/>
+    <media:statistics views="14719"/>
    </media:community>
   </media:group>
  </entry>
@@ -192,8 +215,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/XmYvQwYO_jk/hqdefault.jpg" width="480" height="360"/>
    <media:description>一艘1/10光速的飞船回归地球，它该如何减速？科幻巨著《极光》第二集。</media:description>
    <media:community>
-    <media:starRating count="161" average="5.00" min="1" max="5"/>
-    <media:statistics views="9466"/>
+    <media:starRating count="162" average="5.00" min="1" max="5"/>
+    <media:statistics views="9513"/>
    </media:community>
   </media:group>
  </entry>
@@ -216,8 +239,8 @@
    <media:description>科幻巨著《极光》，原著：金·斯坦利·罗宾逊。
 这部小说堪称人类航天的教科书级的小说，全程充满知识点，严谨的写作手法让这部小说毫无逻辑漏洞，堪称经典！</media:description>
    <media:community>
-    <media:starRating count="363" average="5.00" min="1" max="5"/>
-    <media:statistics views="42482"/>
+    <media:starRating count="366" average="5.00" min="1" max="5"/>
+    <media:statistics views="42907"/>
    </media:community>
   </media:group>
  </entry>
@@ -239,8 +262,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/P_hIXilcn60/hqdefault.jpg" width="480" height="360"/>
    <media:description>《XeeLee》系列从第三集开始，也要正式进入正题了，真正意义上的战争和剧情走向也要开始了。而且我们文案的叙事也相对加快了，以前计划十多集完成，目前计划在8集以内搞定。</media:description>
    <media:community>
-    <media:starRating count="204" average="5.00" min="1" max="5"/>
-    <media:statistics views="10108"/>
+    <media:starRating count="205" average="5.00" min="1" max="5"/>
+    <media:statistics views="10173"/>
    </media:community>
   </media:group>
  </entry>
@@ -263,8 +286,8 @@
    <media:description>更新一部网文科幻小说，《幻影帝国》。
 《幻影帝国》是暮夏之薰所著科幻小说，如感兴趣，请在起点读书app搜索“幻影帝国”阅读原著。</media:description>
    <media:community>
-    <media:starRating count="111" average="5.00" min="1" max="5"/>
-    <media:statistics views="6355"/>
+    <media:starRating count="112" average="5.00" min="1" max="5"/>
+    <media:statistics views="6379"/>
    </media:community>
   </media:group>
  </entry>
@@ -290,7 +313,7 @@
 08：46 巨引源的真相</media:description>
    <media:community>
     <media:starRating count="255" average="5.00" min="1" max="5"/>
-    <media:statistics views="10978"/>
+    <media:statistics views="11043"/>
    </media:community>
   </media:group>
  </entry>
@@ -313,8 +336,8 @@
    <media:description>科幻史诗——XeeLee宇宙第一集：人类的崛起和遭遇地外文明。
 这个系列总算开始更新了，第一次尝试这么大体量的内容还是有点胆怯，不过开始更新就没法回头了。目前整理出了五期内容，内容量大致占XeeLee宇宙的50%。</media:description>
    <media:community>
-    <media:starRating count="351" average="5.00" min="1" max="5"/>
-    <media:statistics views="20869"/>
+    <media:starRating count="352" average="5.00" min="1" max="5"/>
+    <media:statistics views="20922"/>
    </media:community>
   </media:group>
  </entry>
@@ -338,30 +361,7 @@
 终于更新完毕，撒花！</media:description>
    <media:community>
     <media:starRating count="116" average="5.00" min="1" max="5"/>
-    <media:statistics views="6722"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:ZW5izxaFwUU</id>
-  <yt:videoId>ZW5izxaFwUU</yt:videoId>
-  <yt:channelId>UCp1nO1bgVwks9b5EhKQGVag</yt:channelId>
-  <title>对达尔文进化论的挑战，揭秘进化的真相：星云奖作品《达尔文电波》</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=ZW5izxaFwUU"/>
-  <author>
-   <name>幻海航行--science fiction</name>
-   <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
-  </author>
-  <published>2023-08-12T12:43:10+00:00</published>
-  <updated>2023-09-24T17:52:49+00:00</updated>
-  <media:group>
-   <media:title>对达尔文进化论的挑战，揭秘进化的真相：星云奖作品《达尔文电波》</media:title>
-   <media:content url="https://www.youtube.com/v/ZW5izxaFwUU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/ZW5izxaFwUU/hqdefault.jpg" width="480" height="360"/>
-   <media:description>2000年星云奖作品，《达尔文电波》。一部关于生物、化学、进化等内容的硬核科幻作品，作者提出了一个大胆的构想：物种的进化只需要两代便可以产生出全新的物种。原著：格雷格.贝尔。另外，xeelee系列已经开始搞了。</media:description>
-   <media:community>
-    <media:starRating count="179" average="5.00" min="1" max="5"/>
-    <media:statistics views="11868"/>
+    <media:statistics views="6739"/>
    </media:community>
   </media:group>
  </entry>
