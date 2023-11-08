@@ -10,6 +10,29 @@
   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
  </author>
  <entry>
+  <id>yt:video:gXLGzPfvh1k</id>
+  <yt:videoId>gXLGzPfvh1k</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>ok chip out here looking like a snack tho….</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=gXLGzPfvh1k"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2023-11-07T18:01:13+00:00</published>
+  <updated>2023-11-07T18:05:52+00:00</updated>
+  <media:group>
+   <media:title>ok chip out here looking like a snack tho….</media:title>
+   <media:content url="https://www.youtube.com/v/gXLGzPfvh1k?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/gXLGzPfvh1k/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="782" average="5.00" min="1" max="5"/>
+    <media:statistics views="7523"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:HlcyeYhzAgA</id>
   <yt:videoId>HlcyeYhzAgA</yt:videoId>
   <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
@@ -27,8 +50,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/HlcyeYhzAgA/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="900" average="5.00" min="1" max="5"/>
-    <media:statistics views="14450"/>
+    <media:starRating count="1029" average="5.00" min="1" max="5"/>
+    <media:statistics views="17630"/>
    </media:community>
   </media:group>
  </entry>
@@ -50,8 +73,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/UC3sVvf6W4M/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1477" average="5.00" min="1" max="5"/>
-    <media:statistics views="21617"/>
+    <media:starRating count="1678" average="5.00" min="1" max="5"/>
+    <media:statistics views="25827"/>
    </media:community>
   </media:group>
  </entry>
@@ -73,8 +96,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/FryGklzi_q0/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1727" average="5.00" min="1" max="5"/>
-    <media:statistics views="36040"/>
+    <media:starRating count="1832" average="5.00" min="1" max="5"/>
+    <media:statistics views="39396"/>
    </media:community>
   </media:group>
  </entry>
@@ -96,8 +119,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/w8ggPIk_r54/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1809" average="5.00" min="1" max="5"/>
-    <media:statistics views="44237"/>
+    <media:starRating count="1885" average="5.00" min="1" max="5"/>
+    <media:statistics views="47166"/>
    </media:community>
   </media:group>
  </entry>
@@ -128,8 +151,8 @@
 
 #LexiRivera #YouTube #WatchHistory</media:description>
    <media:community>
-    <media:starRating count="1205" average="5.00" min="1" max="5"/>
-    <media:statistics views="326471"/>
+    <media:starRating count="1262" average="5.00" min="1" max="5"/>
+    <media:statistics views="374350"/>
    </media:community>
   </media:group>
  </entry>
@@ -151,8 +174,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/wIjX4-vUzKM/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2445" average="5.00" min="1" max="5"/>
-    <media:statistics views="52305"/>
+    <media:starRating count="2524" average="5.00" min="1" max="5"/>
+    <media:statistics views="54888"/>
    </media:community>
   </media:group>
  </entry>
@@ -174,8 +197,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/jpK7IdmSAKc/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1383" average="5.00" min="1" max="5"/>
-    <media:statistics views="28623"/>
+    <media:starRating count="1425" average="5.00" min="1" max="5"/>
+    <media:statistics views="29852"/>
    </media:community>
   </media:group>
  </entry>
@@ -197,8 +220,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/LLJexMkoRy0/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1425" average="5.00" min="1" max="5"/>
-    <media:statistics views="24898"/>
+    <media:starRating count="1451" average="5.00" min="1" max="5"/>
+    <media:statistics views="25735"/>
    </media:community>
   </media:group>
  </entry>
@@ -213,7 +236,7 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2023-10-26T23:59:23+00:00</published>
-  <updated>2023-11-02T19:21:40+00:00</updated>
+  <updated>2023-11-08T01:02:54+00:00</updated>
   <media:group>
    <media:title>@AyChristene tiers the creepy characters that are taking over YouTube</media:title>
    <media:content url="https://www.youtube.com/v/8hBHQPrVVak?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -258,8 +281,8 @@ Minecraft: @minecraft
 
 #YouTube #Halloween #TierList</media:description>
    <media:community>
-    <media:starRating count="1629" average="5.00" min="1" max="5"/>
-    <media:statistics views="456700"/>
+    <media:starRating count="1692" average="5.00" min="1" max="5"/>
+    <media:statistics views="465569"/>
    </media:community>
   </media:group>
  </entry>
@@ -307,8 +330,8 @@ FEATURED CREATORS:
 @MiniMarley 
 @curlsbyjen</media:description>
    <media:community>
-    <media:starRating count="1379" average="5.00" min="1" max="5"/>
-    <media:statistics views="383679"/>
+    <media:starRating count="1382" average="5.00" min="1" max="5"/>
+    <media:statistics views="384397"/>
    </media:community>
   </media:group>
  </entry>
@@ -330,8 +353,8 @@ FEATURED CREATORS:
    <media:thumbnail url="https://i1.ytimg.com/vi/TTZXkm6JM_8/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4802" average="5.00" min="1" max="5"/>
-    <media:statistics views="101575"/>
+    <media:starRating count="4827" average="5.00" min="1" max="5"/>
+    <media:statistics views="102413"/>
    </media:community>
   </media:group>
  </entry>
@@ -362,8 +385,8 @@ FEATURED CREATORS:
 
 #Wendigoon #YouTube #WatchHistory #Halloween</media:description>
    <media:community>
-    <media:starRating count="5253" average="5.00" min="1" max="5"/>
-    <media:statistics views="726054"/>
+    <media:starRating count="5260" average="5.00" min="1" max="5"/>
+    <media:statistics views="726858"/>
    </media:community>
   </media:group>
  </entry>
@@ -385,8 +408,8 @@ FEATURED CREATORS:
    <media:thumbnail url="https://i1.ytimg.com/vi/X2676LxDOz8/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4533" average="5.00" min="1" max="5"/>
-    <media:statistics views="87802"/>
+    <media:starRating count="4551" average="5.00" min="1" max="5"/>
+    <media:statistics views="88315"/>
    </media:community>
   </media:group>
  </entry>
@@ -437,31 +460,8 @@ Featured Creators:
 2:27- 2:50 Step 5: The Reveal
 2:50 - 3:12 Outro</media:description>
    <media:community>
-    <media:starRating count="2149" average="5.00" min="1" max="5"/>
-    <media:statistics views="575213"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:vLfHbplXtz4</id>
-  <yt:videoId>vLfHbplXtz4</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>I stand corrected.</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=vLfHbplXtz4"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2023-10-04T19:00:17+00:00</published>
-  <updated>2023-10-04T19:03:50+00:00</updated>
-  <media:group>
-   <media:title>I stand corrected.</media:title>
-   <media:content url="https://www.youtube.com/v/vLfHbplXtz4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/vLfHbplXtz4/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="3950" average="5.00" min="1" max="5"/>
-    <media:statistics views="109075"/>
+    <media:starRating count="2150" average="5.00" min="1" max="5"/>
+    <media:statistics views="575773"/>
    </media:community>
   </media:group>
  </entry>
