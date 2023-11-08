@@ -27,8 +27,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/gXLGzPfvh1k/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="857" average="5.00" min="1" max="5"/>
-    <media:statistics views="9242"/>
+    <media:starRating count="1188" average="5.00" min="1" max="5"/>
+    <media:statistics views="16620"/>
    </media:community>
   </media:group>
  </entry>
@@ -50,8 +50,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/HlcyeYhzAgA/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1040" average="5.00" min="1" max="5"/>
-    <media:statistics views="17894"/>
+    <media:starRating count="1120" average="5.00" min="1" max="5"/>
+    <media:statistics views="20027"/>
    </media:community>
   </media:group>
  </entry>
@@ -66,15 +66,15 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2023-11-05T18:00:18+00:00</published>
-  <updated>2023-11-05T18:02:48+00:00</updated>
+  <updated>2023-11-08T09:04:19+00:00</updated>
   <media:group>
    <media:title>@aceof_spadess and @Ben_Brainard with the catchiest grammar lesson of all time</media:title>
    <media:content url="https://www.youtube.com/v/UC3sVvf6W4M?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i2.ytimg.com/vi/UC3sVvf6W4M/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1699" average="5.00" min="1" max="5"/>
-    <media:statistics views="26388"/>
+    <media:starRating count="1811" average="5.00" min="1" max="5"/>
+    <media:statistics views="29715"/>
    </media:community>
   </media:group>
  </entry>
@@ -96,8 +96,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/FryGklzi_q0/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1844" average="5.00" min="1" max="5"/>
-    <media:statistics views="39831"/>
+    <media:starRating count="1932" average="5.00" min="1" max="5"/>
+    <media:statistics views="42847"/>
    </media:community>
   </media:group>
  </entry>
@@ -119,8 +119,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/w8ggPIk_r54/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1890" average="5.00" min="1" max="5"/>
-    <media:statistics views="47534"/>
+    <media:starRating count="1946" average="5.00" min="1" max="5"/>
+    <media:statistics views="50130"/>
    </media:community>
   </media:group>
  </entry>
@@ -151,8 +151,8 @@
 
 #LexiRivera #YouTube #WatchHistory</media:description>
    <media:community>
-    <media:starRating count="1275" average="5.00" min="1" max="5"/>
-    <media:statistics views="382895"/>
+    <media:starRating count="1344" average="5.00" min="1" max="5"/>
+    <media:statistics views="454878"/>
    </media:community>
   </media:group>
  </entry>
@@ -174,8 +174,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/wIjX4-vUzKM/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2527" average="5.00" min="1" max="5"/>
-    <media:statistics views="55217"/>
+    <media:starRating count="2577" average="5.00" min="1" max="5"/>
+    <media:statistics views="57604"/>
    </media:community>
   </media:group>
  </entry>
@@ -197,8 +197,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/jpK7IdmSAKc/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1428" average="5.00" min="1" max="5"/>
-    <media:statistics views="30028"/>
+    <media:starRating count="1454" average="5.00" min="1" max="5"/>
+    <media:statistics views="31150"/>
    </media:community>
   </media:group>
  </entry>
@@ -220,8 +220,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/LLJexMkoRy0/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1453" average="5.00" min="1" max="5"/>
-    <media:statistics views="25844"/>
+    <media:starRating count="1475" average="5.00" min="1" max="5"/>
+    <media:statistics views="26666"/>
    </media:community>
   </media:group>
  </entry>
@@ -281,8 +281,8 @@ Minecraft: @minecraft
 
 #YouTube #Halloween #TierList</media:description>
    <media:community>
-    <media:starRating count="1695" average="5.00" min="1" max="5"/>
-    <media:statistics views="467008"/>
+    <media:starRating count="1734" average="5.00" min="1" max="5"/>
+    <media:statistics views="475945"/>
    </media:community>
   </media:group>
  </entry>
@@ -331,7 +331,7 @@ FEATURED CREATORS:
 @curlsbyjen</media:description>
    <media:community>
     <media:starRating count="1382" average="5.00" min="1" max="5"/>
-    <media:statistics views="384490"/>
+    <media:statistics views="385337"/>
    </media:community>
   </media:group>
  </entry>
@@ -353,8 +353,8 @@ FEATURED CREATORS:
    <media:thumbnail url="https://i1.ytimg.com/vi/TTZXkm6JM_8/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4828" average="5.00" min="1" max="5"/>
-    <media:statistics views="102550"/>
+    <media:starRating count="4839" average="5.00" min="1" max="5"/>
+    <media:statistics views="103403"/>
    </media:community>
   </media:group>
  </entry>
@@ -385,8 +385,8 @@ FEATURED CREATORS:
 
 #Wendigoon #YouTube #WatchHistory #Halloween</media:description>
    <media:community>
-    <media:starRating count="5260" average="5.00" min="1" max="5"/>
-    <media:statistics views="726977"/>
+    <media:starRating count="5266" average="5.00" min="1" max="5"/>
+    <media:statistics views="727795"/>
    </media:community>
   </media:group>
  </entry>
@@ -408,8 +408,8 @@ FEATURED CREATORS:
    <media:thumbnail url="https://i1.ytimg.com/vi/X2676LxDOz8/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4554" average="5.00" min="1" max="5"/>
-    <media:statistics views="88418"/>
+    <media:starRating count="4567" average="5.00" min="1" max="5"/>
+    <media:statistics views="88917"/>
    </media:community>
   </media:group>
  </entry>
@@ -460,8 +460,8 @@ Featured Creators:
 2:27- 2:50 Step 5: The Reveal
 2:50 - 3:12 Outro</media:description>
    <media:community>
-    <media:starRating count="2151" average="5.00" min="1" max="5"/>
-    <media:statistics views="575841"/>
+    <media:starRating count="2155" average="5.00" min="1" max="5"/>
+    <media:statistics views="576451"/>
    </media:community>
   </media:group>
  </entry>

@@ -81,7 +81,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="34" average="5.00" min="1" max="5"/>
-    <media:statistics views="7247"/>
+    <media:statistics views="7266"/>
    </media:community>
   </media:group>
  </entry>
@@ -156,7 +156,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="28" average="5.00" min="1" max="5"/>
-    <media:statistics views="6801"/>
+    <media:statistics views="6812"/>
    </media:community>
   </media:group>
  </entry>
@@ -231,7 +231,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="18" average="5.00" min="1" max="5"/>
-    <media:statistics views="3761"/>
+    <media:statistics views="3769"/>
    </media:community>
   </media:group>
  </entry>
@@ -306,7 +306,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="14" average="5.00" min="1" max="5"/>
-    <media:statistics views="2757"/>
+    <media:statistics views="2764"/>
    </media:community>
   </media:group>
  </entry>
@@ -381,7 +381,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="14" average="5.00" min="1" max="5"/>
-    <media:statistics views="3096"/>
+    <media:statistics views="3098"/>
    </media:community>
   </media:group>
  </entry>
@@ -456,7 +456,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="27" average="5.00" min="1" max="5"/>
-    <media:statistics views="3720"/>
+    <media:statistics views="3723"/>
    </media:community>
   </media:group>
  </entry>
@@ -471,7 +471,7 @@ Twitter：stone记@stone62855987</media:description>
    <uri>https://www.youtube.com/channel/UCmOVUFkam162EJ48KfQaIyg</uri>
   </author>
   <published>2023-05-18T15:30:02+00:00</published>
-  <updated>2023-07-04T06:07:40+00:00</updated>
+  <updated>2023-11-08T12:14:48+00:00</updated>
   <media:group>
    <media:title>订制了5个月，JP5终于到了（20230518第5974期）</media:title>
    <media:content url="https://www.youtube.com/v/MbGAUvonlZ4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -531,7 +531,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="28" average="5.00" min="1" max="5"/>
-    <media:statistics views="5693"/>
+    <media:statistics views="5692"/>
    </media:community>
   </media:group>
  </entry>
@@ -681,7 +681,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="11" average="5.00" min="1" max="5"/>
-    <media:statistics views="2791"/>
+    <media:statistics views="2792"/>
    </media:community>
   </media:group>
  </entry>
@@ -831,7 +831,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="35" average="5.00" min="1" max="5"/>
-    <media:statistics views="5807"/>
+    <media:statistics views="5808"/>
    </media:community>
   </media:group>
  </entry>
@@ -906,7 +906,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="81" average="5.00" min="1" max="5"/>
-    <media:statistics views="8319"/>
+    <media:statistics views="8321"/>
    </media:community>
   </media:group>
  </entry>

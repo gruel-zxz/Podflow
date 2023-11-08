@@ -29,7 +29,7 @@
    <media:description>大学生喜提脆脆鲨称号，现在身体好不好真的不能用年纪来界定了#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="333"/>
+    <media:statistics views="387"/>
    </media:community>
   </media:group>
  </entry>
@@ -51,8 +51,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/i0JtTVGLqP0/hqdefault.jpg" width="480" height="360"/>
    <media:description>在我心中，哈尔滨是最有性价比的旅游城市#爱吐槽的四季妈妈 #家庭吐槽大会 #哈尔滨</media:description>
    <media:community>
-    <media:starRating count="15" average="5.00" min="1" max="5"/>
-    <media:statistics views="461"/>
+    <media:starRating count="16" average="5.00" min="1" max="5"/>
+    <media:statistics views="489"/>
    </media:community>
   </media:group>
  </entry>
@@ -74,8 +74,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/9pOjvxFzpJg/hqdefault.jpg" width="480" height="360"/>
    <media:description>哪个北方爷们的后备箱没有拉过菜？举手让我看看#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="99" average="5.00" min="1" max="5"/>
-    <media:statistics views="4877"/>
+    <media:starRating count="100" average="5.00" min="1" max="5"/>
+    <media:statistics views="5161"/>
    </media:community>
   </media:group>
  </entry>
@@ -97,8 +97,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/FuX-h0Y0hHE/hqdefault.jpg" width="480" height="360"/>
    <media:description>男人为什么喝茶，他喝的不仅仅是茶#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="130" average="5.00" min="1" max="5"/>
-    <media:statistics views="4545"/>
+    <media:starRating count="133" average="5.00" min="1" max="5"/>
+    <media:statistics views="4633"/>
    </media:community>
   </media:group>
  </entry>
@@ -121,7 +121,7 @@
    <media:description>分享一个省钱小妙招，首先你得有一群东北的好朋友#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="9" average="5.00" min="1" max="5"/>
-    <media:statistics views="577"/>
+    <media:statistics views="585"/>
    </media:community>
   </media:group>
  </entry>
@@ -144,7 +144,7 @@
    <media:description>东北就是我的第二故乡，它就是我心中最宜居的城市#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="14" average="5.00" min="1" max="5"/>
-    <media:statistics views="761"/>
+    <media:statistics views="767"/>
    </media:community>
   </media:group>
  </entry>
@@ -166,8 +166,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/8e5VJNclYnw/hqdefault.jpg" width="480" height="360"/>
    <media:description>东北的爱管闲事等于路见不平一声吼！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="170" average="5.00" min="1" max="5"/>
-    <media:statistics views="5967"/>
+    <media:starRating count="175" average="5.00" min="1" max="5"/>
+    <media:statistics views="6152"/>
    </media:community>
   </media:group>
  </entry>
@@ -190,7 +190,7 @@
    <media:description>上海的物价让上海本地人都很头疼吧#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="12" average="5.00" min="1" max="5"/>
-    <media:statistics views="636"/>
+    <media:statistics views="645"/>
    </media:community>
   </media:group>
  </entry>
@@ -236,7 +236,7 @@
    <media:description>原来真实的商战和我想象中差别那么大#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="11" average="5.00" min="1" max="5"/>
-    <media:statistics views="768"/>
+    <media:statistics views="769"/>
    </media:community>
   </media:group>
  </entry>
@@ -259,7 +259,7 @@
    <media:description>都说中国的世界的，但是我觉得这句话应该反过来说#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="165" average="5.00" min="1" max="5"/>
-    <media:statistics views="6726"/>
+    <media:statistics views="6747"/>
    </media:community>
   </media:group>
  </entry>
@@ -281,8 +281,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/6DknTtKwcNw/hqdefault.jpg" width="480" height="360"/>
    <media:description>论方言的感染力，东北方言绝对是第一了#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="214" average="5.00" min="1" max="5"/>
-    <media:statistics views="9872"/>
+    <media:starRating count="224" average="5.00" min="1" max="5"/>
+    <media:statistics views="10109"/>
    </media:community>
   </media:group>
  </entry>
@@ -305,7 +305,7 @@
    <media:description>给山东人送礼是个体力活，不仅劲儿得大，还得跑得快#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="16" average="5.00" min="1" max="5"/>
-    <media:statistics views="679"/>
+    <media:statistics views="681"/>
    </media:community>
   </media:group>
  </entry>
@@ -351,7 +351,7 @@
    <media:description>上有天堂下有苏杭真不是吹的#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="24" average="5.00" min="1" max="5"/>
-    <media:statistics views="890"/>
+    <media:statistics views="891"/>
    </media:community>
   </media:group>
  </entry>
