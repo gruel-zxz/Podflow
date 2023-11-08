@@ -80,7 +80,7 @@ https://youtu.be/BbtTwsP_-zc
 
 Twitter：stone记@stone62855987</media:description>
    <media:community>
-    <media:starRating count="33" average="5.00" min="1" max="5"/>
+    <media:starRating count="34" average="5.00" min="1" max="5"/>
     <media:statistics views="7247"/>
    </media:community>
   </media:group>
@@ -156,7 +156,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="28" average="5.00" min="1" max="5"/>
-    <media:statistics views="6800"/>
+    <media:statistics views="6801"/>
    </media:community>
   </media:group>
  </entry>
@@ -231,7 +231,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="18" average="5.00" min="1" max="5"/>
-    <media:statistics views="3763"/>
+    <media:statistics views="3761"/>
    </media:community>
   </media:group>
  </entry>
@@ -381,7 +381,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="14" average="5.00" min="1" max="5"/>
-    <media:statistics views="3097"/>
+    <media:statistics views="3096"/>
    </media:community>
   </media:group>
  </entry>
@@ -456,7 +456,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="27" average="5.00" min="1" max="5"/>
-    <media:statistics views="3719"/>
+    <media:statistics views="3720"/>
    </media:community>
   </media:group>
  </entry>
@@ -681,7 +681,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="11" average="5.00" min="1" max="5"/>
-    <media:statistics views="2792"/>
+    <media:statistics views="2791"/>
    </media:community>
   </media:group>
  </entry>
@@ -906,7 +906,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="81" average="5.00" min="1" max="5"/>
-    <media:statistics views="8320"/>
+    <media:statistics views="8319"/>
    </media:community>
   </media:group>
  </entry>
