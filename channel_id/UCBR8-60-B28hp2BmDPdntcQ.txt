@@ -27,8 +27,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/gXLGzPfvh1k/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1188" average="5.00" min="1" max="5"/>
-    <media:statistics views="16620"/>
+    <media:starRating count="1250" average="5.00" min="1" max="5"/>
+    <media:statistics views="18018"/>
    </media:community>
   </media:group>
  </entry>
@@ -50,8 +50,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/HlcyeYhzAgA/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1120" average="5.00" min="1" max="5"/>
-    <media:statistics views="20027"/>
+    <media:starRating count="1131" average="5.00" min="1" max="5"/>
+    <media:statistics views="20462"/>
    </media:community>
   </media:group>
  </entry>
@@ -73,8 +73,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/UC3sVvf6W4M/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1811" average="5.00" min="1" max="5"/>
-    <media:statistics views="29715"/>
+    <media:starRating count="1844" average="5.00" min="1" max="5"/>
+    <media:statistics views="30513"/>
    </media:community>
   </media:group>
  </entry>
@@ -96,8 +96,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/FryGklzi_q0/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1932" average="5.00" min="1" max="5"/>
-    <media:statistics views="42847"/>
+    <media:starRating count="1956" average="5.00" min="1" max="5"/>
+    <media:statistics views="43480"/>
    </media:community>
   </media:group>
  </entry>
@@ -119,8 +119,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/w8ggPIk_r54/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1946" average="5.00" min="1" max="5"/>
-    <media:statistics views="50130"/>
+    <media:starRating count="1959" average="5.00" min="1" max="5"/>
+    <media:statistics views="50737"/>
    </media:community>
   </media:group>
  </entry>
@@ -151,8 +151,8 @@
 
 #LexiRivera #YouTube #WatchHistory</media:description>
    <media:community>
-    <media:starRating count="1344" average="5.00" min="1" max="5"/>
-    <media:statistics views="454878"/>
+    <media:starRating count="1359" average="5.00" min="1" max="5"/>
+    <media:statistics views="466511"/>
    </media:community>
   </media:group>
  </entry>
@@ -174,8 +174,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/wIjX4-vUzKM/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2577" average="5.00" min="1" max="5"/>
-    <media:statistics views="57604"/>
+    <media:starRating count="2595" average="5.00" min="1" max="5"/>
+    <media:statistics views="58115"/>
    </media:community>
   </media:group>
  </entry>
@@ -197,8 +197,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/jpK7IdmSAKc/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1454" average="5.00" min="1" max="5"/>
-    <media:statistics views="31150"/>
+    <media:starRating count="1462" average="5.00" min="1" max="5"/>
+    <media:statistics views="31455"/>
    </media:community>
   </media:group>
  </entry>
@@ -220,8 +220,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/LLJexMkoRy0/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1475" average="5.00" min="1" max="5"/>
-    <media:statistics views="26666"/>
+    <media:starRating count="1484" average="5.00" min="1" max="5"/>
+    <media:statistics views="26876"/>
    </media:community>
   </media:group>
  </entry>
@@ -281,8 +281,8 @@ Minecraft: @minecraft
 
 #YouTube #Halloween #TierList</media:description>
    <media:community>
-    <media:starRating count="1734" average="5.00" min="1" max="5"/>
-    <media:statistics views="475945"/>
+    <media:starRating count="1747" average="5.00" min="1" max="5"/>
+    <media:statistics views="477504"/>
    </media:community>
   </media:group>
  </entry>
@@ -330,8 +330,8 @@ FEATURED CREATORS:
 @MiniMarley 
 @curlsbyjen</media:description>
    <media:community>
-    <media:starRating count="1382" average="5.00" min="1" max="5"/>
-    <media:statistics views="385337"/>
+    <media:starRating count="1383" average="5.00" min="1" max="5"/>
+    <media:statistics views="385464"/>
    </media:community>
   </media:group>
  </entry>
@@ -353,8 +353,8 @@ FEATURED CREATORS:
    <media:thumbnail url="https://i1.ytimg.com/vi/TTZXkm6JM_8/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4839" average="5.00" min="1" max="5"/>
-    <media:statistics views="103403"/>
+    <media:starRating count="4844" average="5.00" min="1" max="5"/>
+    <media:statistics views="103641"/>
    </media:community>
   </media:group>
  </entry>
@@ -385,8 +385,8 @@ FEATURED CREATORS:
 
 #Wendigoon #YouTube #WatchHistory #Halloween</media:description>
    <media:community>
-    <media:starRating count="5266" average="5.00" min="1" max="5"/>
-    <media:statistics views="727795"/>
+    <media:starRating count="5267" average="5.00" min="1" max="5"/>
+    <media:statistics views="727948"/>
    </media:community>
   </media:group>
  </entry>
@@ -408,8 +408,8 @@ FEATURED CREATORS:
    <media:thumbnail url="https://i1.ytimg.com/vi/X2676LxDOz8/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4567" average="5.00" min="1" max="5"/>
-    <media:statistics views="88917"/>
+    <media:starRating count="4572" average="5.00" min="1" max="5"/>
+    <media:statistics views="89048"/>
    </media:community>
   </media:group>
  </entry>
@@ -461,7 +461,7 @@ Featured Creators:
 2:50 - 3:12 Outro</media:description>
    <media:community>
     <media:starRating count="2155" average="5.00" min="1" max="5"/>
-    <media:statistics views="576451"/>
+    <media:statistics views="576569"/>
    </media:community>
   </media:group>
  </entry>
