@@ -1230,7 +1230,7 @@ except FileNotFoundError:  #文件不存在直接更新
 
 # 如原始xml无对应的原频道items, 将尝试从对应频道的xml中获取
 for youtube_key in channelid_youtube_ids.keys():
-    if xmls_original is None or youtube_key not in xmls_original.keys():
+    if youtube_key not in xmls_original.keys():
         try:
             with open(f"channel_rss/{youtube_key}.xml", 'r', encoding='utf-8') as file:  # 打开文件进行读取
                 youtube_rss_original = file.read()  # 读取文件内容
