@@ -21,7 +21,7 @@
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
   <published>2023-11-08T13:00:12+00:00</published>
-  <updated>2023-11-08T13:31:10+00:00</updated>
+  <updated>2023-11-11T20:59:10+00:00</updated>
   <media:group>
    <media:title>【震撼】這一期能夠解答所有關於死後世界的問題 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/YKaEeuuMp5U?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -255,8 +255,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="26656" average="5.00" min="1" max="5"/>
-    <media:statistics views="876369"/>
+    <media:starRating count="51158" average="5.00" min="1" max="5"/>
+    <media:statistics views="2433830"/>
    </media:community>
   </media:group>
  </entry>
@@ -264,16 +264,16 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
   <id>yt:video:32pL6ZTnRi4</id>
   <yt:videoId>32pL6ZTnRi4</yt:videoId>
   <yt:channelId>UCMUnInmOkrWN4gof9KlhNmQ</yt:channelId>
-  <title>【震撼】最多只能講這麼多 | 老高與小茉 Mr &amp; Mrs Gao</title>
+  <title>【震撼】最多只能說到這了，請反覆體會 | 老高與小茉 Mr &amp; Mrs Gao</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=32pL6ZTnRi4"/>
   <author>
    <name>老高與小茉 Mr &amp; Mrs Gao</name>
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
   <published>2023-11-01T13:00:10+00:00</published>
-  <updated>2023-11-08T11:36:02+00:00</updated>
+  <updated>2023-11-10T16:53:37+00:00</updated>
   <media:group>
-   <media:title>【震撼】最多只能講這麼多 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
+   <media:title>【震撼】最多只能說到這了，請反覆體會 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/32pL6ZTnRi4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i4.ytimg.com/vi/32pL6ZTnRi4/hqdefault.jpg" width="480" height="360"/>
    <media:description>【加入會員按鈕】https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ/join
@@ -505,8 +505,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="52705" average="5.00" min="1" max="5"/>
-    <media:statistics views="2297128"/>
+    <media:starRating count="55015" average="5.00" min="1" max="5"/>
+    <media:statistics views="2521551"/>
    </media:community>
   </media:group>
  </entry>
@@ -754,8 +754,8 @@ https://www.youtube.com/watch?v=Ttus8XGK6Xw
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="41084" average="5.00" min="1" max="5"/>
-    <media:statistics views="2290950"/>
+    <media:starRating count="41752" average="5.00" min="1" max="5"/>
+    <media:statistics views="2365714"/>
    </media:community>
   </media:group>
  </entry>
@@ -770,7 +770,7 @@ https://www.youtube.com/watch?v=Ttus8XGK6Xw
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
   <published>2023-10-18T13:30:23+00:00</published>
-  <updated>2023-10-21T20:31:06+00:00</updated>
+  <updated>2023-11-12T16:01:42+00:00</updated>
   <media:group>
    <media:title>【震撼】新的金字塔，不可解的謎 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/y59ZYVK7K-o?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -983,8 +983,8 @@ https://www.youtube.com/watch?v=N4xXGIrzKJs
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="48956" average="5.00" min="1" max="5"/>
-    <media:statistics views="2978953"/>
+    <media:starRating count="49485" average="5.00" min="1" max="5"/>
+    <media:statistics views="3046075"/>
    </media:community>
   </media:group>
  </entry>
@@ -1232,8 +1232,8 @@ https://www.youtube.com/watch?v=Ttus8XGK6Xw
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="65503" average="5.00" min="1" max="5"/>
-    <media:statistics views="3075740"/>
+    <media:starRating count="66256" average="5.00" min="1" max="5"/>
+    <media:statistics views="3143490"/>
    </media:community>
   </media:group>
  </entry>
@@ -1241,31 +1241,20 @@ https://www.youtube.com/watch?v=Ttus8XGK6Xw
   <id>yt:video:Ieks8KB_eyo</id>
   <yt:videoId>Ieks8KB_eyo</yt:videoId>
   <yt:channelId>UCMUnInmOkrWN4gof9KlhNmQ</yt:channelId>
-  <title>最新美國軍方公開的五個不明飛行物影片 | 老高與小茉 Mr &amp; Mrs Gao</title>
+  <title>美國最新公開的五個不明飛行物影片 | 老高與小茉 Mr &amp; Mrs Gao</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=Ieks8KB_eyo"/>
   <author>
    <name>老高與小茉 Mr &amp; Mrs Gao</name>
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
   <published>2023-10-04T14:48:41+00:00</published>
-  <updated>2023-10-09T04:08:27+00:00</updated>
+  <updated>2023-11-11T06:33:01+00:00</updated>
   <media:group>
-   <media:title>最新美國軍方公開的五個不明飛行物影片 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
+   <media:title>美國最新公開的五個不明飛行物影片 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/Ieks8KB_eyo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i2.ytimg.com/vi/Ieks8KB_eyo/hqdefault.jpg" width="480" height="360"/>
    <media:description>【加入會員按鈕】https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ/join
 【訂閱頻道按鈕】https://goo.gl/VhzZeS
-------------------------------------------------
-相關資料：
-2023年9月12日墨西哥議會UAP公聽會直播
-2023年7月26日美國下院UAP公聽會直播
-AARO全域異常對策辦公室主頁
-北纬三十度的古迹：
-https://www.google.com/maps/place/%E8%83%A1%E5%A4%AB%E9%87%91%E5%AD%97%E5%A1%94/@29.9787955,31.1313913,2112m/data=!3m1!1e3!4m10!1m2!2m1!1sPyramid!3m6!1s0x14584587ac8f291b:0x810c2f3fa2a52424!8m2!3d29.9791705!4d31.1342046!15sCgdQeXJhbWlkkgETaGlzdG9yaWNhbF9sYW5kbWFya-ABAA!16zL20vMDM2bWs?entry=ttu
-https://www.google.com/maps/place/%E4%B8%89%E6%98%9F%E5%A0%86%E9%81%97%E5%9D%80/@30.9913406,104.2016262,261m/data=!3m1!1e3!4m10!1m2!2m1!1z5LiJ5pif5aCG!3m6!1s0x36f02ddc4084aca7:0x41c13580ef9cd849!8m2!3d30.991649!4d104.20207!15sCgnkuInmmJ_loIaSARJ0b3VyaXN0X2F0dHJhY3Rpb27gAQA!16zL20vMDNybnZ5?entry=ttu
-https://www.google.com/maps/place/%E9%A9%AC%E7%8E%8B%E5%A0%86%E5%8D%9A%E7%89%A9%E9%A6%86/@28.2118766,112.9902152,537m/data=!3m1!1e3!4m14!1m7!3m6!1s0x34274a0db29d55fd:0x4a72c6c3cce07bce!2z6ams546L5aCG5Y2a54mp6aaG!8m2!3d28.211872!4d112.992125!16s%2Fg%2F1tjwfd9v!3m5!1s0x34274a0db29d55fd:0x4a72c6c3cce07bce!8m2!3d28.211872!4d112.992125!16s%2Fg%2F1tjwfd9v?entry=ttu
-https://www.google.com/maps/place/%E4%B9%8C%E5%B0%94%E5%8F%A4%E5%9F%8E%EF%BC%8C/@30.9482436,46.0957712,2091m/data=!3m1!1e3!4m10!1m2!2m1!1z5LmM5bCU5Y-k5Z-OIOS8iuaLieWFiw!3m6!1s0x3fde0f9527b6b4ad:0xbec9f7a198b24912!8m2!3d30.95!4d46.1!15sChbkuYzlsJTlj6Tln44g5LyK5ouJ5YWLkgETaGlzdG9yaWNhbF9sYW5kbWFya-ABAA!16s%2Fg%2F11gy8bn86v?entry=ttu
-https://www.google.com/maps/place/%E4%BC%8A%E6%9C%97%E8%83%A1%E9%BD%90%E6%96%AF%E5%9D%A6%E8%88%92%E4%BB%80/@32.1953628,48.2223403,8254m/data=!3m1!1e3!4m6!3m5!1s0x3fe9c532f8317095:0x3ce0ae7c9c30ff8c!8m2!3d32.1957948!4d48.254283!16s%2Fm%2F03cxvhj?entry=ttu
 ------------------------------------------------
 相關鏈接：
 
@@ -1415,8 +1404,8 @@ https://www.youtube.com/watch?v=7q88m5MQRhE
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="46417" average="5.00" min="1" max="5"/>
-    <media:statistics views="2623479"/>
+    <media:starRating count="46645" average="5.00" min="1" max="5"/>
+    <media:statistics views="2650095"/>
    </media:community>
   </media:group>
  </entry>
@@ -1665,8 +1654,8 @@ https://www.youtube.com/watch?v=Mshz9DxQLbE
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="54170" average="5.00" min="1" max="5"/>
-    <media:statistics views="3154322"/>
+    <media:starRating count="54416" average="5.00" min="1" max="5"/>
+    <media:statistics views="3185151"/>
    </media:community>
   </media:group>
  </entry>
@@ -1913,8 +1902,8 @@ https://www.youtube.com/watch?v=Ttus8XGK6Xw
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="75741" average="5.00" min="1" max="5"/>
-    <media:statistics views="3329461"/>
+    <media:starRating count="76421" average="5.00" min="1" max="5"/>
+    <media:statistics views="3378475"/>
    </media:community>
   </media:group>
  </entry>
@@ -2160,8 +2149,8 @@ https://www.youtube.com/watch?v=Ttus8XGK6Xw
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="75998" average="5.00" min="1" max="5"/>
-    <media:statistics views="3129617"/>
+    <media:starRating count="77506" average="5.00" min="1" max="5"/>
+    <media:statistics views="3210672"/>
    </media:community>
   </media:group>
  </entry>
@@ -2405,8 +2394,8 @@ https://www.youtube.com/watch?v=ElqnKNkiyHA
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="54309" average="5.00" min="1" max="5"/>
-    <media:statistics views="3161220"/>
+    <media:starRating count="54761" average="5.00" min="1" max="5"/>
+    <media:statistics views="3211156"/>
    </media:community>
   </media:group>
  </entry>
@@ -2421,19 +2410,13 @@ https://www.youtube.com/watch?v=ElqnKNkiyHA
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
   <published>2023-08-30T13:35:21+00:00</published>
-  <updated>2023-11-08T06:33:56+00:00</updated>
+  <updated>2023-11-12T04:53:52+00:00</updated>
   <media:group>
    <media:title>最有名的都市傳說，如月車站，進入平行時空的方法 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/NAVfNX6hRtg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i3.ytimg.com/vi/NAVfNX6hRtg/hqdefault.jpg" width="480" height="360"/>
    <media:description>【加入會員按鈕】https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ/join
 【訂閱頻道按鈕】https://goo.gl/VhzZeS
-------------------------------------------------
-相關資料：
-原帖 https://hobby4.5ch.net/test/read.cgi/occult/1073411138?v=pc
-https://www.google.com/maps/search/%E6%97%A5%E6%9C%AC%E3%80%81%E9%9D%99%E5%B2%A1%E7%9C%8C%E6%B2%BC%E6%B4%A5%E5%B8%82%E7%9F%B3%E5%B7%9D%EF%BC%98%EF%BC%92%EF%BC%98%E2%88%92%EF%BC%93+%E3%81%8D%E3%81%95%E3%82%89%E3%81%8E%E4%BB%98%E8%BF%91%E3%81%AE%E9%A7%85/@35.1759402,138.6749308,13z?hl=ja&amp;entry=ttu
-https://tsukuba-daigaku.com/blog/%E3%80%90%E6%80%96%E3%81%99%E3%81%8E%E3%80%91%E9%83%BD%E5%B8%82%E4%BC%9D%E8%AA%AC%E3%81%A8%E3%81%AA%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%80%8C%E3%81%8D%E3%81%95%E3%82%89%E3%81%8E%E9%A7%85%E3%80%8D
-電影《如月車站》
 ------------------------------------------------
 相關鏈接：
 
@@ -2628,8 +2611,8 @@ https://www.youtube.com/watch?v=N4xXGIrzKJs
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="63821" average="5.00" min="1" max="5"/>
-    <media:statistics views="3032734"/>
+    <media:starRating count="64075" average="5.00" min="1" max="5"/>
+    <media:statistics views="3051292"/>
    </media:community>
   </media:group>
  </entry>
@@ -2644,7 +2627,7 @@ https://www.youtube.com/watch?v=N4xXGIrzKJs
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
   <published>2023-08-23T13:35:11+00:00</published>
-  <updated>2023-08-26T16:10:43+00:00</updated>
+  <updated>2023-11-14T04:57:16+00:00</updated>
   <media:group>
    <media:title>【震撼】所有人都應該看的一部電影，奧本海默 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/94JzpjmVwls?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -2838,8 +2821,8 @@ https://www.youtube.com/watch?v=czNMh9kVhIE
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="60263" average="5.00" min="1" max="5"/>
-    <media:statistics views="3170044"/>
+    <media:starRating count="60394" average="5.00" min="1" max="5"/>
+    <media:statistics views="3188001"/>
    </media:community>
   </media:group>
  </entry>
@@ -2854,7 +2837,7 @@ https://www.youtube.com/watch?v=czNMh9kVhIE
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
   <published>2023-08-09T14:35:23+00:00</published>
-  <updated>2023-09-23T21:21:27+00:00</updated>
+  <updated>2023-11-10T12:07:05+00:00</updated>
   <media:group>
    <media:title>【震撼】老子的人生哲學與智慧，看完你就解脫了 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/k6ZE_ddwr5s?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -3081,8 +3064,8 @@ https://www.youtube.com/watch?v=3cHZfgSqPa4
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="103956" average="5.00" min="1" max="5"/>
-    <media:statistics views="4104417"/>
+    <media:starRating count="104165" average="5.00" min="1" max="5"/>
+    <media:statistics views="4127563"/>
    </media:community>
   </media:group>
  </entry>
@@ -3090,16 +3073,16 @@ https://www.youtube.com/watch?v=3cHZfgSqPa4
   <id>yt:video:JafOaCcVC_E</id>
   <yt:videoId>JafOaCcVC_E</yt:videoId>
   <yt:channelId>UCMUnInmOkrWN4gof9KlhNmQ</yt:channelId>
-  <title>【震撼】和目前為止幾乎所有影片都有關係的一期 | 老高與小茉 Mr &amp; Mrs Gao</title>
+  <title>【震撼】阿卡西紀錄，和我們所有影片都有關係的一期 | 老高與小茉 Mr &amp; Mrs Gao</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=JafOaCcVC_E"/>
   <author>
    <name>老高與小茉 Mr &amp; Mrs Gao</name>
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
   <published>2023-08-02T13:00:10+00:00</published>
-  <updated>2023-09-28T10:25:42+00:00</updated>
+  <updated>2023-11-12T04:53:24+00:00</updated>
   <media:group>
-   <media:title>【震撼】和目前為止幾乎所有影片都有關係的一期 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
+   <media:title>【震撼】阿卡西紀錄，和我們所有影片都有關係的一期 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/JafOaCcVC_E?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i3.ytimg.com/vi/JafOaCcVC_E/hqdefault.jpg" width="480" height="360"/>
    <media:description>【加入會員按鈕】https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ/join
@@ -3331,8 +3314,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="65815" average="5.00" min="1" max="5"/>
-    <media:statistics views="3727697"/>
+    <media:starRating count="66026" average="5.00" min="1" max="5"/>
+    <media:statistics views="3757045"/>
    </media:community>
   </media:group>
  </entry>
@@ -3581,8 +3564,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="65151" average="5.00" min="1" max="5"/>
-    <media:statistics views="3351643"/>
+    <media:starRating count="65330" average="5.00" min="1" max="5"/>
+    <media:statistics views="3370558"/>
    </media:community>
   </media:group>
  </entry>

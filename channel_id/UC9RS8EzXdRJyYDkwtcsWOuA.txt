@@ -11,6 +11,42 @@
  </author>
  <published>2018-10-28T16:47:37+00:00</published>
  <entry>
+  <id>yt:video:qPXm_MuJttI</id>
+  <yt:videoId>qPXm_MuJttI</yt:videoId>
+  <yt:channelId>UC9RS8EzXdRJyYDkwtcsWOuA</yt:channelId>
+  <title>弱者的悲歌：在日本打拼4年後，朋友還是決定回國了</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=qPXm_MuJttI"/>
+  <author>
+   <name>TenGuSan</name>
+   <uri>https://www.youtube.com/channel/UC9RS8EzXdRJyYDkwtcsWOuA</uri>
+  </author>
+  <published>2023-11-14T12:00:44+00:00</published>
+  <updated>2023-11-14T13:14:30+00:00</updated>
+  <media:group>
+   <media:title>弱者的悲歌：在日本打拼4年後，朋友還是決定回國了</media:title>
+   <media:content url="https://www.youtube.com/v/qPXm_MuJttI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/qPXm_MuJttI/hqdefault.jpg" width="480" height="360"/>
+   <media:description>▶ 訂閱我的頻道：http://bit.ly/2NdPZid
+
+我的朋友大秦，來日4年後還是心有不甘地回國了，以此Vlog作為紀念，紀錄和大秦在東京的最後一週。
+無論現在你在哪裡，或舉步維艱，或躊躇滿志，都不妨看完這部影片，也許會對你有所改變
+
+一頓飯時間，了解亞文化
+全部影片YouTube獨家放送
+如果你喜歡我的頻道，希望你訂閱、點讚、留言，謝謝！
+
+-------------------------------------------------------------------------------
+▶追蹤TenGuSan的IG：@tengusan.real
+▶我的品牌官網：www.under20.com
+
+#日本 #vlog #留學</media:description>
+   <media:community>
+    <media:starRating count="191" average="5.00" min="1" max="5"/>
+    <media:statistics views="1699"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:H6sUyICXsbk</id>
   <yt:videoId>H6sUyICXsbk</yt:videoId>
   <yt:channelId>UC9RS8EzXdRJyYDkwtcsWOuA</yt:channelId>
@@ -49,8 +85,8 @@
 
 #日本漫畫 #殺手阿一 #cult</media:description>
    <media:community>
-    <media:starRating count="860" average="5.00" min="1" max="5"/>
-    <media:statistics views="39811"/>
+    <media:starRating count="884" average="5.00" min="1" max="5"/>
+    <media:statistics views="41302"/>
    </media:community>
   </media:group>
  </entry>
@@ -94,8 +130,8 @@
 
 #日本漫畫 #殺手阿一 #cult</media:description>
    <media:community>
-    <media:starRating count="979" average="5.00" min="1" max="5"/>
-    <media:statistics views="72702"/>
+    <media:starRating count="999" average="5.00" min="1" max="5"/>
+    <media:statistics views="76490"/>
    </media:community>
   </media:group>
  </entry>
@@ -140,8 +176,8 @@
 
 #日本 #次文化 #戀物</media:description>
    <media:community>
-    <media:starRating count="872" average="5.00" min="1" max="5"/>
-    <media:statistics views="47898"/>
+    <media:starRating count="886" average="5.00" min="1" max="5"/>
+    <media:statistics views="49046"/>
    </media:community>
   </media:group>
  </entry>
@@ -184,8 +220,8 @@
 
 #遊戲 #videogames  #日本</media:description>
    <media:community>
-    <media:starRating count="2104" average="5.00" min="1" max="5"/>
-    <media:statistics views="183153"/>
+    <media:starRating count="2130" average="5.00" min="1" max="5"/>
+    <media:statistics views="186033"/>
    </media:community>
   </media:group>
  </entry>
@@ -229,8 +265,8 @@
 
 #日本 #動漫 #日本電影</media:description>
    <media:community>
-    <media:starRating count="1707" average="5.00" min="1" max="5"/>
-    <media:statistics views="131156"/>
+    <media:starRating count="1735" average="5.00" min="1" max="5"/>
+    <media:statistics views="134425"/>
    </media:community>
   </media:group>
  </entry>
@@ -274,8 +310,8 @@
 ▶追蹤TenGuSan的IG：@tengusan.real
 ▶我的品牌官網：www.under20.com</media:description>
    <media:community>
-    <media:starRating count="1529" average="5.00" min="1" max="5"/>
-    <media:statistics views="137193"/>
+    <media:starRating count="1562" average="5.00" min="1" max="5"/>
+    <media:statistics views="140358"/>
    </media:community>
   </media:group>
  </entry>
@@ -290,7 +326,7 @@
    <uri>https://www.youtube.com/channel/UC9RS8EzXdRJyYDkwtcsWOuA</uri>
   </author>
   <published>2023-08-16T12:00:28+00:00</published>
-  <updated>2023-08-16T14:39:12+00:00</updated>
+  <updated>2023-11-14T12:40:25+00:00</updated>
   <media:group>
    <media:title>為何日本美女們不惜下海拍🅰️✅也要養牛郎?!羅蘭見了都得跪的地表最強牛郎！揭秘東京夜場男公關🍷（上）</media:title>
    <media:content url="https://www.youtube.com/v/ljdY5C4dVBU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -316,8 +352,8 @@
 ▶追蹤TenGuSan的IG：@tengusan.real
 ▶我的品牌官網：www.under20.com</media:description>
    <media:community>
-    <media:starRating count="1537" average="5.00" min="1" max="5"/>
-    <media:statistics views="125573"/>
+    <media:starRating count="1558" average="5.00" min="1" max="5"/>
+    <media:statistics views="127877"/>
    </media:community>
   </media:group>
  </entry>
@@ -380,8 +416,8 @@
 ▶追蹤TenGuSan的IG：@tengusan.real
 ▶我的品牌官網：www.under20.com</media:description>
    <media:community>
-    <media:starRating count="1490" average="5.00" min="1" max="5"/>
-    <media:statistics views="271862"/>
+    <media:starRating count="1511" average="5.00" min="1" max="5"/>
+    <media:statistics views="273950"/>
    </media:community>
   </media:group>
  </entry>
@@ -422,8 +458,8 @@
 
 #日本 #日本社會</media:description>
    <media:community>
-    <media:starRating count="801" average="5.00" min="1" max="5"/>
-    <media:statistics views="60001"/>
+    <media:starRating count="802" average="5.00" min="1" max="5"/>
+    <media:statistics views="60486"/>
    </media:community>
   </media:group>
  </entry>
@@ -467,8 +503,8 @@
 
 #2ch #日本文化 #互聯網</media:description>
    <media:community>
-    <media:starRating count="851" average="5.00" min="1" max="5"/>
-    <media:statistics views="63396"/>
+    <media:starRating count="855" average="5.00" min="1" max="5"/>
+    <media:statistics views="64223"/>
    </media:community>
   </media:group>
  </entry>
@@ -508,8 +544,8 @@
 
 #日本社會 #刑務所 #越獄</media:description>
    <media:community>
-    <media:starRating count="640" average="5.00" min="1" max="5"/>
-    <media:statistics views="47211"/>
+    <media:starRating count="644" average="5.00" min="1" max="5"/>
+    <media:statistics views="47795"/>
    </media:community>
   </media:group>
  </entry>
@@ -559,8 +595,8 @@
 ▶追蹤TenGuSan的IG：@tengusan.real
 ▶我的品牌官網：www.under20.com</media:description>
    <media:community>
-    <media:starRating count="1531" average="5.00" min="1" max="5"/>
-    <media:statistics views="102143"/>
+    <media:starRating count="1551" average="5.00" min="1" max="5"/>
+    <media:statistics views="103567"/>
    </media:community>
   </media:group>
  </entry>
@@ -601,8 +637,8 @@
 
 #福島核污水 #日本核廢水 #核輻射 #科幻</media:description>
    <media:community>
-    <media:starRating count="703" average="5.00" min="1" max="5"/>
-    <media:statistics views="35860"/>
+    <media:starRating count="709" average="5.00" min="1" max="5"/>
+    <media:statistics views="36305"/>
    </media:community>
   </media:group>
  </entry>
@@ -617,7 +653,7 @@
    <uri>https://www.youtube.com/channel/UC9RS8EzXdRJyYDkwtcsWOuA</uri>
   </author>
   <published>2023-06-21T12:00:27+00:00</published>
-  <updated>2023-06-23T10:50:40+00:00</updated>
+  <updated>2023-11-10T20:14:53+00:00</updated>
   <media:group>
    <media:title>爆火恐怖大師伊藤潤二🔥在日本其實根本沒人看😱?! 伊藤式恐怖美學解碼｜ 奈飛Netflix《狂熱集》</media:title>
    <media:content url="https://www.youtube.com/v/_YRpbqikGFE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -648,56 +684,8 @@
 
 #伊藤潤二 #恐怖 #日本 #次文化</media:description>
    <media:community>
-    <media:starRating count="1234" average="5.00" min="1" max="5"/>
-    <media:statistics views="77637"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:bJpwtXTqd0w</id>
-  <yt:videoId>bJpwtXTqd0w</yt:videoId>
-  <yt:channelId>UC9RS8EzXdRJyYDkwtcsWOuA</yt:channelId>
-  <title>日本素人美女拍🅰️✅賺錢竟是為了這個?! 🅰️✅導演爆料👩優的“加錢”拍攝項目!｜對話🦄️F©️2華人導演（下）</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=bJpwtXTqd0w"/>
-  <author>
-   <name>TenGuSan</name>
-   <uri>https://www.youtube.com/channel/UC9RS8EzXdRJyYDkwtcsWOuA</uri>
-  </author>
-  <published>2023-06-14T12:00:34+00:00</published>
-  <updated>2023-06-21T11:13:32+00:00</updated>
-  <media:group>
-   <media:title>日本素人美女拍🅰️✅賺錢竟是為了這個?! 🅰️✅導演爆料👩優的“加錢”拍攝項目!｜對話🦄️F©️2華人導演（下）</media:title>
-   <media:content url="https://www.youtube.com/v/bJpwtXTqd0w?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/bJpwtXTqd0w/hqdefault.jpg" width="480" height="360"/>
-   <media:description>▶ 訂閱我的頻道：http://bit.ly/2NdPZid
-
-00:00-01:09 引子
-01:09-05:01 女演員的面試和體檢
-05:01-06:23 女演員最重要的素質是什麼？
-06:23-07:17 日本和中國的審美區別
-07:17-11:50 素人當女演員原來是為了這個？
-11:50-13:02 女演員的合同長什麼樣
-13:02-13:37 每次拍攝得有多辛苦
-13:37-15:55 拍攝中的突發事件
-15:55-16:38 更變態的女演員
-16:38-19:09 內🐍是怎麼一回事？
-19:09-22:51 男演員到底有多卑微
-22:51-24:43 這個行業誰功勞最大
-24:43-25:07 日本🅰️✅工會是什麼
-25:07-26:35 用戶調查和F©️2演算法
-26:35-27:30 🅰️✅是純商品還是文化
-27:30-29:33 白嫖的觀眾有價值嗎
-29:33-33:01 成人自媒體時代來了？
-33:01-33:52 片尾
-
-專注亞文化內容分享
-如果你喜歡我的頻道，希望你訂閱、點讚、留言，謝謝！
--------------------------------------------------------------------------------
-▶追蹤TenGuSan的IG：@tengusan.real
-▶我的品牌官網：www.under20.com</media:description>
-   <media:community>
-    <media:starRating count="11158" average="5.00" min="1" max="5"/>
-    <media:statistics views="1629185"/>
+    <media:starRating count="1244" average="5.00" min="1" max="5"/>
+    <media:statistics views="78902"/>
    </media:community>
   </media:group>
  </entry>

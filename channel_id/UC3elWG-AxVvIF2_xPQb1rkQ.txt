@@ -11,6 +11,75 @@
  </author>
  <published>2022-06-04T16:17:27+00:00</published>
  <entry>
+  <id>yt:video:do6x05mfspo</id>
+  <yt:videoId>do6x05mfspo</yt:videoId>
+  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
+  <title>男人消费力首次超越宠物狗，原因竟然是   #爱吐槽的四季妈妈 #家庭吐槽大会</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=do6x05mfspo"/>
+  <author>
+   <name>四季妈妈—小龙</name>
+   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
+  </author>
+  <published>2023-11-14T02:04:11+00:00</published>
+  <updated>2023-11-14T08:10:27+00:00</updated>
+  <media:group>
+   <media:title>男人消费力首次超越宠物狗，原因竟然是   #爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
+   <media:content url="https://www.youtube.com/v/do6x05mfspo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/do6x05mfspo/hqdefault.jpg" width="480" height="360"/>
+   <media:description>男人消费力首次超越宠物狗，原因竟然是   #爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
+   <media:community>
+    <media:starRating count="3" average="5.00" min="1" max="5"/>
+    <media:statistics views="191"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:M9snHBqgWFQ</id>
+  <yt:videoId>M9snHBqgWFQ</yt:videoId>
+  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
+  <title>山东虽然多侠义之士，但是竟然没有出过皇帝#爱吐槽的四季妈妈 #家庭吐槽大会</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=M9snHBqgWFQ"/>
+  <author>
+   <name>四季妈妈—小龙</name>
+   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
+  </author>
+  <published>2023-11-11T03:45:52+00:00</published>
+  <updated>2023-11-11T06:42:41+00:00</updated>
+  <media:group>
+   <media:title>山东虽然多侠义之士，但是竟然没有出过皇帝#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
+   <media:content url="https://www.youtube.com/v/M9snHBqgWFQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/M9snHBqgWFQ/hqdefault.jpg" width="480" height="360"/>
+   <media:description>山东虽然多侠义之士，但是竟然没有出过皇帝#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
+   <media:community>
+    <media:starRating count="8" average="5.00" min="1" max="5"/>
+    <media:statistics views="469"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:GfDl5gQbbF4</id>
+  <yt:videoId>GfDl5gQbbF4</yt:videoId>
+  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
+  <title>山东有一套独特的计量单位#爱吐槽的四季妈妈 #家庭吐槽大会</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=GfDl5gQbbF4"/>
+  <author>
+   <name>四季妈妈—小龙</name>
+   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
+  </author>
+  <published>2023-11-09T04:08:26+00:00</published>
+  <updated>2023-11-09T07:28:34+00:00</updated>
+  <media:group>
+   <media:title>山东有一套独特的计量单位#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
+   <media:content url="https://www.youtube.com/v/GfDl5gQbbF4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/GfDl5gQbbF4/hqdefault.jpg" width="480" height="360"/>
+   <media:description>山东有一套独特的计量单位#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
+   <media:community>
+    <media:starRating count="10" average="5.00" min="1" max="5"/>
+    <media:statistics views="467"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:D5vw7Rf0jRM</id>
   <yt:videoId>D5vw7Rf0jRM</yt:videoId>
   <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
@@ -28,8 +97,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/D5vw7Rf0jRM/hqdefault.jpg" width="480" height="360"/>
    <media:description>大学生喜提脆脆鲨称号，现在身体好不好真的不能用年纪来界定了#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="392"/>
+    <media:starRating count="4" average="5.00" min="1" max="5"/>
+    <media:statistics views="592"/>
    </media:community>
   </media:group>
  </entry>
@@ -51,8 +120,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/i0JtTVGLqP0/hqdefault.jpg" width="480" height="360"/>
    <media:description>在我心中，哈尔滨是最有性价比的旅游城市#爱吐槽的四季妈妈 #家庭吐槽大会 #哈尔滨</media:description>
    <media:community>
-    <media:starRating count="16" average="5.00" min="1" max="5"/>
-    <media:statistics views="495"/>
+    <media:starRating count="18" average="5.00" min="1" max="5"/>
+    <media:statistics views="557"/>
    </media:community>
   </media:group>
  </entry>
@@ -74,8 +143,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/9pOjvxFzpJg/hqdefault.jpg" width="480" height="360"/>
    <media:description>哪个北方爷们的后备箱没有拉过菜？举手让我看看#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="101" average="5.00" min="1" max="5"/>
-    <media:statistics views="5236"/>
+    <media:starRating count="116" average="5.00" min="1" max="5"/>
+    <media:statistics views="6271"/>
    </media:community>
   </media:group>
  </entry>
@@ -97,8 +166,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/FuX-h0Y0hHE/hqdefault.jpg" width="480" height="360"/>
    <media:description>男人为什么喝茶，他喝的不仅仅是茶#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="133" average="5.00" min="1" max="5"/>
-    <media:statistics views="4655"/>
+    <media:starRating count="144" average="5.00" min="1" max="5"/>
+    <media:statistics views="4957"/>
    </media:community>
   </media:group>
  </entry>
@@ -120,8 +189,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/q-LduG_klyY/hqdefault.jpg" width="480" height="360"/>
    <media:description>分享一个省钱小妙招，首先你得有一群东北的好朋友#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="9" average="5.00" min="1" max="5"/>
-    <media:statistics views="586"/>
+    <media:starRating count="10" average="5.00" min="1" max="5"/>
+    <media:statistics views="624"/>
    </media:community>
   </media:group>
  </entry>
@@ -144,7 +213,7 @@
    <media:description>东北就是我的第二故乡，它就是我心中最宜居的城市#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="14" average="5.00" min="1" max="5"/>
-    <media:statistics views="767"/>
+    <media:statistics views="788"/>
    </media:community>
   </media:group>
  </entry>
@@ -166,8 +235,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/8e5VJNclYnw/hqdefault.jpg" width="480" height="360"/>
    <media:description>东北的爱管闲事等于路见不平一声吼！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="179" average="5.00" min="1" max="5"/>
-    <media:statistics views="6206"/>
+    <media:starRating count="191" average="5.00" min="1" max="5"/>
+    <media:statistics views="6772"/>
    </media:community>
   </media:group>
  </entry>
@@ -190,7 +259,7 @@
    <media:description>上海的物价让上海本地人都很头疼吧#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="12" average="5.00" min="1" max="5"/>
-    <media:statistics views="645"/>
+    <media:statistics views="658"/>
    </media:community>
   </media:group>
  </entry>
@@ -213,7 +282,7 @@
    <media:description>新疆美女多，看了口水流成河#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="18" average="5.00" min="1" max="5"/>
-    <media:statistics views="829"/>
+    <media:statistics views="840"/>
    </media:community>
   </media:group>
  </entry>
@@ -236,7 +305,7 @@
    <media:description>原来真实的商战和我想象中差别那么大#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="11" average="5.00" min="1" max="5"/>
-    <media:statistics views="769"/>
+    <media:statistics views="774"/>
    </media:community>
   </media:group>
  </entry>
@@ -258,8 +327,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/rpdjmLUeedY/hqdefault.jpg" width="480" height="360"/>
    <media:description>都说中国的世界的，但是我觉得这句话应该反过来说#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="166" average="5.00" min="1" max="5"/>
-    <media:statistics views="6754"/>
+    <media:starRating count="168" average="5.00" min="1" max="5"/>
+    <media:statistics views="6896"/>
    </media:community>
   </media:group>
  </entry>
@@ -281,77 +350,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/6DknTtKwcNw/hqdefault.jpg" width="480" height="360"/>
    <media:description>论方言的感染力，东北方言绝对是第一了#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="224" average="5.00" min="1" max="5"/>
-    <media:statistics views="10148"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:MdAYYGuiMSY</id>
-  <yt:videoId>MdAYYGuiMSY</yt:videoId>
-  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
-  <title>给山东人送礼是个体力活，不仅劲儿得大，还得跑得快#爱吐槽的四季妈妈 #家庭吐槽大会</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=MdAYYGuiMSY"/>
-  <author>
-   <name>四季妈妈—小龙</name>
-   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
-  </author>
-  <published>2023-10-08T01:20:58+00:00</published>
-  <updated>2023-10-08T06:22:41+00:00</updated>
-  <media:group>
-   <media:title>给山东人送礼是个体力活，不仅劲儿得大，还得跑得快#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
-   <media:content url="https://www.youtube.com/v/MdAYYGuiMSY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/MdAYYGuiMSY/hqdefault.jpg" width="480" height="360"/>
-   <media:description>给山东人送礼是个体力活，不仅劲儿得大，还得跑得快#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
-   <media:community>
-    <media:starRating count="16" average="5.00" min="1" max="5"/>
-    <media:statistics views="681"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:Rlg5AhuhBAo</id>
-  <yt:videoId>Rlg5AhuhBAo</yt:videoId>
-  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
-  <title>难道这些就是男人开车累的原因吗#爱吐槽的四季妈妈 #家庭吐槽大会</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=Rlg5AhuhBAo"/>
-  <author>
-   <name>四季妈妈—小龙</name>
-   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
-  </author>
-  <published>2023-10-06T04:34:47+00:00</published>
-  <updated>2023-10-06T09:23:03+00:00</updated>
-  <media:group>
-   <media:title>难道这些就是男人开车累的原因吗#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
-   <media:content url="https://www.youtube.com/v/Rlg5AhuhBAo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/Rlg5AhuhBAo/hqdefault.jpg" width="480" height="360"/>
-   <media:description>难道这些就是男人开车累的原因吗#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
-   <media:community>
-    <media:starRating count="16" average="5.00" min="1" max="5"/>
-    <media:statistics views="1023"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:YuJlwO3ci-I</id>
-  <yt:videoId>YuJlwO3ci-I</yt:videoId>
-  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
-  <title>上有天堂下有苏杭真不是吹的#爱吐槽的四季妈妈 #家庭吐槽大会</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=YuJlwO3ci-I"/>
-  <author>
-   <name>四季妈妈—小龙</name>
-   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
-  </author>
-  <published>2023-10-04T04:11:44+00:00</published>
-  <updated>2023-10-05T13:08:27+00:00</updated>
-  <media:group>
-   <media:title>上有天堂下有苏杭真不是吹的#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
-   <media:content url="https://www.youtube.com/v/YuJlwO3ci-I?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/YuJlwO3ci-I/hqdefault.jpg" width="480" height="360"/>
-   <media:description>上有天堂下有苏杭真不是吹的#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
-   <media:community>
-    <media:starRating count="24" average="5.00" min="1" max="5"/>
-    <media:statistics views="891"/>
+    <media:starRating count="241" average="5.00" min="1" max="5"/>
+    <media:statistics views="11045"/>
    </media:community>
   </media:group>
  </entry>

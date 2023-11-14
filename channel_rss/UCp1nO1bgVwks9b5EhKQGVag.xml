@@ -7,7 +7,7 @@
         <category>TV &amp; Film</category>
         <generator>Podflow (support us at https://github.com/gruel-zxz/podflow)</generator>
         <language>en-us</language>
-        <lastBuildDate>Thu, 09 Nov 2023 01:40:13 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 14 Nov 2023 14:38:46 +0000</lastBuildDate>
         <pubDate>Sun, 24 Apr 2005 11:20:54 +0800</pubDate>
         <image>
             <url>https://yt3.googleusercontent.com/ytc/APkrFKaPoI9m8m38TM8dtwqHJy03N71RUABpnofX1p-1=s2048-c-k-c0x00ffffff-no-rj</url>
@@ -21,6 +21,24 @@
         <itunes:explicit>no</itunes:explicit>
         <itunes:category text="TV &amp; Film"></itunes:category>
 <!-- {UCp1nO1bgVwks9b5EhKQGVag} -->
+<!-- UCp1nO1bgVwks9b5EhKQGVag -->
+        <item>
+            <guid>c58vLZDXlGM</guid>
+            <title>如何用数学去证伪人类的情感——科幻神作《除以零》</title>
+            <link>https://youtube.com/watch?v=c58vLZDXlGM</link>
+            <description>『幻海航行--science fiction』&#xA;《除以零》，作者：特德姜，出自科幻小说集《你一生的故事》&#xA;这是我们最喜欢的作品之一，作者以极为另类的写作方式用数学公式描述了一对人们的情感，堪称神作！</description>
+            <pubDate>Sat, 11 Nov 2023 07:16:57 +0000</pubDate>
+            <enclosure url="https://raw.githubusercontent.com/gruel-zxz/podflow/main/channel_audiovisual/UCp1nO1bgVwks9b5EhKQGVag/c58vLZDXlGM.m4a" length="16837029" type="audio/x-m4a"></enclosure>
+            <itunes:author>如何用数学去证伪人类的情感——科幻神作《除以零》</itunes:author>
+            <itunes:subtitle>如何用数学去证伪人类的情感——科幻神作《除以零》</itunes:subtitle>
+            <itunes:summary><![CDATA[『幻海航行--science fiction』
+《除以零》，作者：特德姜，出自科幻小说集《你一生的故事》
+这是我们最喜欢的作品之一，作者以极为另类的写作方式用数学公式描述了一对人们的情感，堪称神作！]]></itunes:summary>
+            <itunes:image href="https://i4.ytimg.com/vi/c58vLZDXlGM/hqdefault.jpg"></itunes:image>
+            <itunes:duration>17:22</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:order>1</itunes:order>
+        </item>
 <!-- UCp1nO1bgVwks9b5EhKQGVag -->
         <item>
             <guid>TY-ce_fiWK8</guid>
