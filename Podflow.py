@@ -396,8 +396,8 @@ def video_format(video_website, video_url, media = "m4a", quality = "480"):
         return fail_message, duration, formats
     error_reason = {
         "Premieres in ": "\033[31m预播\033[0m|",
-        "Premieres ": "\033[31m预播\033[0m|",
-        "Video unavailable. This video contains content from SME, who has blocked it in your country on copyright grounds": "\033[31m版权保护\033[0m|"
+        "Video unavailable. This video contains content from SME, who has blocked it in your country on copyright grounds": "\033[31m版权保护\033[0m",
+        "Premiere will begin shortly": "\033[31m马上开始首映\033[0m"
     }
     def fail_message_initialize(fail_message, error_reason):
         for key in error_reason:
@@ -841,6 +841,7 @@ else:
 # 更新Youtube频道xml
 channelid_youtube_ids_update = {}  #创建需更新的频道
 youtube_content_ytid_update = {}  #创建需下载视频列表
+channelid_youtube_rss = {}
 # 判断频道id是否正确
 pattern_youtube404 = r"Error 404"  # 设置要匹配的正则表达式模式
 pattern_youtube_varys = [r'[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-2][0-9]:[0-6][0-9]:[0-6][0-9]\+00:00',
@@ -848,7 +849,6 @@ pattern_youtube_varys = [r'[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-2][0-9]:[0-6][0-9]:[0-6
                         r'statistics views="[0-9]*"',
                         r'<id>yt:channel:(UC)?(.{22})?</id>',
                         r'<yt:channelId>(UC)?(.{22})?</yt:channelId>']
-channelid_youtube_rss = {}
 def youtube_rss_update(youtube_key, youtube_value):
     # 构建 URL
     youtube_url = f"https://www.youtube.com/feeds/videos.xml?channel_id={youtube_key}"
