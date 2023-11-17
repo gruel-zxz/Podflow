@@ -29,8 +29,8 @@
    <media:description>《除以零》，作者：特德姜，出自科幻小说集《你一生的故事》
 这是我们最喜欢的作品之一，作者以极为另类的写作方式用数学公式描述了一对人们的情感，堪称神作！</media:description>
    <media:community>
-    <media:starRating count="133" average="5.00" min="1" max="5"/>
-    <media:statistics views="6332"/>
+    <media:starRating count="135" average="5.00" min="1" max="5"/>
+    <media:statistics views="6373"/>
    </media:community>
   </media:group>
  </entry>
@@ -53,7 +53,7 @@
    <media:description>本期更新一期克苏鲁神话（非科幻内容）极北坚冰，食人梦魇——克苏鲁神话巅峰之作《虚境奇谭》</media:description>
    <media:community>
     <media:starRating count="138" average="5.00" min="1" max="5"/>
-    <media:statistics views="7781"/>
+    <media:statistics views="7810"/>
    </media:community>
   </media:group>
  </entry>
@@ -76,7 +76,7 @@
    <media:description>科幻小说《橱窗里的荷兰赌徒》，作者李兴春，银河奖获奖作品，是一部不可多得的国产佳作。所谓：数学天才与疯子赌徒之间，正如上帝的左右手。</media:description>
    <media:community>
     <media:starRating count="55" average="5.00" min="1" max="5"/>
-    <media:statistics views="3148"/>
+    <media:statistics views="3150"/>
    </media:community>
   </media:group>
  </entry>
@@ -122,7 +122,7 @@
    <media:description>人类史上第一位时间穿越者，居然成功了！经典科幻解读，原著：宝树.</media:description>
    <media:community>
     <media:starRating count="89" average="5.00" min="1" max="5"/>
-    <media:statistics views="5094"/>
+    <media:statistics views="5095"/>
    </media:community>
   </media:group>
  </entry>
@@ -146,7 +146,7 @@
 虽然过去了二十多年，但是好的作品值得让大家记得，分上下集发布</media:description>
    <media:community>
     <media:starRating count="96" average="5.00" min="1" max="5"/>
-    <media:statistics views="5509"/>
+    <media:statistics views="5514"/>
    </media:community>
   </media:group>
  </entry>
@@ -170,7 +170,7 @@
 下来尽量在3期内搞定这个系列。</media:description>
    <media:community>
     <media:starRating count="192" average="5.00" min="1" max="5"/>
-    <media:statistics views="10041"/>
+    <media:statistics views="10043"/>
    </media:community>
   </media:group>
  </entry>
@@ -193,7 +193,7 @@
    <media:description>在时间加速的情况下，数字生命也可以飞向星空——科幻小说《晶体之夜》，出自格雷格.伊根（Greg Egan）的短篇小说集《数学陷落》Oceanic。</media:description>
    <media:community>
     <media:starRating count="167" average="5.00" min="1" max="5"/>
-    <media:statistics views="7453"/>
+    <media:statistics views="7455"/>
    </media:community>
   </media:group>
  </entry>
@@ -217,7 +217,7 @@
 这部40万字的长篇硬核科幻啊！人类无处可逃，因为地球也不过是另一艘飞船：科幻巨著《极光》大结局</media:description>
    <media:community>
     <media:starRating count="231" average="5.00" min="1" max="5"/>
-    <media:statistics views="15539"/>
+    <media:statistics views="15545"/>
    </media:community>
   </media:group>
  </entry>
@@ -240,7 +240,7 @@
    <media:description>一艘1/10光速的飞船回归地球，它该如何减速？科幻巨著《极光》第二集。</media:description>
    <media:community>
     <media:starRating count="165" average="5.00" min="1" max="5"/>
-    <media:statistics views="9844"/>
+    <media:statistics views="9846"/>
    </media:community>
   </media:group>
  </entry>
@@ -264,7 +264,7 @@
 这部小说堪称人类航天的教科书级的小说，全程充满知识点，严谨的写作手法让这部小说毫无逻辑漏洞，堪称经典！</media:description>
    <media:community>
     <media:starRating count="378" average="5.00" min="1" max="5"/>
-    <media:statistics views="46015"/>
+    <media:statistics views="46026"/>
    </media:community>
   </media:group>
  </entry>
@@ -287,7 +287,7 @@
    <media:description>《XeeLee》系列从第三集开始，也要正式进入正题了，真正意义上的战争和剧情走向也要开始了。而且我们文案的叙事也相对加快了，以前计划十多集完成，目前计划在8集以内搞定。</media:description>
    <media:community>
     <media:starRating count="208" average="5.00" min="1" max="5"/>
-    <media:statistics views="10535"/>
+    <media:statistics views="10539"/>
    </media:community>
   </media:group>
  </entry>
@@ -311,7 +311,7 @@
 《幻影帝国》是暮夏之薰所著科幻小说，如感兴趣，请在起点读书app搜索“幻影帝国”阅读原著。</media:description>
    <media:community>
     <media:starRating count="112" average="5.00" min="1" max="5"/>
-    <media:statistics views="6539"/>
+    <media:statistics views="6543"/>
    </media:community>
   </media:group>
  </entry>
@@ -337,7 +337,7 @@
 08：46 巨引源的真相</media:description>
    <media:community>
     <media:starRating count="259" average="5.00" min="1" max="5"/>
-    <media:statistics views="11389"/>
+    <media:statistics views="11395"/>
    </media:community>
   </media:group>
  </entry>
@@ -361,7 +361,7 @@
 这个系列总算开始更新了，第一次尝试这么大体量的内容还是有点胆怯，不过开始更新就没法回头了。目前整理出了五期内容，内容量大致占XeeLee宇宙的50%。</media:description>
    <media:community>
     <media:starRating count="354" average="5.00" min="1" max="5"/>
-    <media:statistics views="21456"/>
+    <media:statistics views="21464"/>
    </media:community>
   </media:group>
  </entry>

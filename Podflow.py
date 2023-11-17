@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[150]:
-
-
 import os
 import re
 import sys
@@ -58,9 +55,6 @@ default_config = {
 print(f"{datetime.now().strftime('%H:%M:%S')}|Podflow开始运行.....")
 
 
-# In[151]:
-
-
 # 文件保存模块
 def file_save(content, file_name, folder=None):
     # 如果指定了文件夹则将文件保存到指定的文件夹中
@@ -72,9 +66,6 @@ def file_save(content, file_name, folder=None):
     # 保存文件
     with open(file_path, "w", encoding="utf-8") as file:
         file.write(content)
-
-
-# In[152]:
 
 
 #日志模块
@@ -100,9 +91,6 @@ def write_log(log, suffix = None, display = True, time_display = True):
         log_print = f"{formatted_time_mini}|{log}" if time_display else f"{log}"
         log_print = f"{log_print}|{suffix}" if suffix else f"{log_print}"
         print(log_print)
-
-
-# In[153]:
 
 
 # 查看requests模块是否安装
@@ -150,9 +138,6 @@ except ImportError:
         sys.exit(0)
 
 
-# In[154]:
-
-
 # HTTP GET请求重试模块
 def get_with_retry(url, name, max_retries = 10, retry_delay = 6, headers_possess = False):
     user_agent = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36'}
@@ -180,9 +165,6 @@ def vary_replace(varys, text):
     for vary in varys:
         text = re.sub(vary, '', text)
     return text
-
-
-# In[155]:
 
 
 # 安装库模块
@@ -226,9 +208,6 @@ def library_install(library ,library_install_dic = None):
             sys.exit(0)
 
 
-# In[156]:
-
-
 # 安装/更新并加载三方库
 library_install_list = ["yt-dlp", "RangeHTTPServer", "chardet", "requests", "astral", "qrcode"]
 library_install_dic = {}
@@ -259,9 +238,6 @@ import qrcode
 import yt_dlp
 from astral.sun import sun
 from astral import LocationInfo
-
-
-# In[157]:
 
 
 # 格式化时间模块
@@ -328,9 +304,6 @@ def qr_code(data):
     print(ascii_art)
 
 
-# In[158]:
-
-
 # 下载显示模块
 def show_progress(stream):
     stream = dict(stream)
@@ -361,9 +334,6 @@ def show_progress(stream):
         else:
             elapsed = "Unknown "
         print((f"\r100.0%|{downloaded_bytes}\{total_bytes}|\033[32m{speed}/s\033[0m|\033[97m{elapsed}\033[0m"))
-
-
-# In[159]:
 
 
 # 获取媒体时长和ID模块
@@ -510,6 +480,7 @@ def download_video(video_url, output_dir, output_format, format_id, video_websit
         'quiet': True,
         "progress_hooks": [show_progress],
         'logger': MyLogger(),
+        'throttled_rate': '70K',  # 设置最小下载速率为:字节/秒
     }
     try:
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
@@ -517,9 +488,6 @@ def download_video(video_url, output_dir, output_format, format_id, video_websit
     except Exception as e:
         write_log((f"{video_write_log} \033[31m下载失败\033[0m\n错误信息：{str(e)}").replace("ERROR: ", "").replace(f"{video_url}: ", "").replace("[youtube] ",""))  # 写入下载失败的日志信息
         return video_url
-
-
-# In[160]:
 
 
 # 视频完整下载模块
@@ -588,9 +556,6 @@ def dl_aideo_video(video_url, output_dir, output_format, video_format, retry_cou
     return yt_id_failed
 
 
-# In[161]:
-
-
 # 构建文件夹模块
 def folder_build(folder_name, parent_folder_name = None):
     if parent_folder_name:
@@ -600,9 +565,6 @@ def folder_build(folder_name, parent_folder_name = None):
     if not os.path.exists(folder_path):  # 判断文件夹是否存在
         os.makedirs(folder_path)  # 创建文件夹
         write_log(f"文件夹{folder_name}创建成功")
-
-
-# In[162]:
 
 
 # 检查当前文件夹中是否存在config.json文件
@@ -622,9 +584,6 @@ else:
     except Exception as e:
         write_log(f"配置文件有误, 请检查config.json, {str(e)}")
         sys.exit(0)
-
-
-# In[163]:
 
 
 # 对retry_count进行纠正
@@ -707,9 +666,6 @@ if config["icon"] == default_config["icon"]:
         config["icon"] = f"https://raw.githubusercontent.com/gruel-zxz/podflow/main/{picture_name}.png"
 
 
-# In[164]:
-
-
 # 从配置文件中获取YouTube的频道
 if 'channelid_youtube' in config:
     channelid_youtube = config["channelid_youtube"]
@@ -726,16 +682,10 @@ else:
     write_log("bilibili频道信息不存在")
 
 
-# In[165]:
-
-
 # 构建文件夹channel_id
 folder_build("channel_id")
 # 构建文件夹channel_audiovisual
 folder_build("channel_audiovisual")
-
-
-# In[166]:
 
 
 # channelid修正模块
@@ -822,9 +772,6 @@ def correct_channelid(channelid, website):
 channelid_youtube = correct_channelid(channelid_youtube, "youtube")
 
 
-# In[167]:
-
-
 # 读取youtube频道的id
 if channelid_youtube is not None:
     channelid_youtube_ids = dict({channel["id"]: key for key, channel in channelid_youtube.items()})
@@ -837,9 +784,6 @@ if channelid_bilibili is not None:
     write_log("读取bilibili频道的channelid成功")
 else:
     channelid_bilibili_ids = None
-
-
-# In[168]:
 
 
 # 更新Youtube频道xml
@@ -920,9 +864,6 @@ for youtube_key, youtube_value in channelid_youtube_ids.copy().items():
         write_log(f"频道 {youtube_value} 无法更新")
 
 
-# In[169]:
-
-
 # 输出需要更新的信息
 if channelid_youtube_ids_update:
     print_channelid_youtube_ids_update = "需更新的YouTube频道:\n"
@@ -952,9 +893,6 @@ if channelid_youtube_ids_update:
                     print_channelid_youtube_ids_update += "\n"
                 count_channelid_youtube_ids_update += 1
     write_log(print_channelid_youtube_ids_update)
-
-
-# In[170]:
 
 
 # 获取YouTube视频格式信息
@@ -1031,9 +969,6 @@ if len(youtube_content_ytid_update_format) != 0:
     prepare_youtube_2.join()
 
 
-# In[171]:
-
-
 # 下载YouTube视频
 for yt_id in youtube_content_ytid_update_format.keys():
     if dl_aideo_video(
@@ -1048,9 +983,6 @@ for yt_id in youtube_content_ytid_update_format.keys():
         ):
             yt_id_failed.append(yt_id)
             write_log(f"{channelid_youtube_ids[youtube_content_ytid_update_format[yt_id]['id']]}|{yt_id} \033[31m无法下载\033[0m")
-
-
-# In[172]:
 
 
 #生成XML模块
@@ -1094,9 +1026,6 @@ def xml_rss(title,link,description,category,icon,items):
 {items}
     </channel>
 </rss>'''
-
-
-# In[173]:
 
 
 # 生成item模块
@@ -1143,9 +1072,6 @@ def xml_item(video_url, output_dir, video_website, channelid_title,title, descri
 '''
 
 
-# In[174]:
-
-
 # 生成YouTube的item模块
 def youtube_xml_item(entry):
     # 输入时间字符串和原始时区
@@ -1172,9 +1098,6 @@ def youtube_xml_item(entry):
         pubDate,
         re.search(r"(?<=<media:thumbnail url=\").+(?=\" width=\")", entry).group()
     )
-
-
-# In[175]:
 
 
 # 生成原有的item模块
@@ -1220,9 +1143,6 @@ def xml_original_item(original_item):
 '''
 
 
-# In[176]:
-
-
 # 获取原始xml文件
 try:
     with open(f"{config['filename']}.xml", 'r', encoding='utf-8') as file:  # 打开文件进行读取
@@ -1249,14 +1169,8 @@ for youtube_key in channelid_youtube_ids.keys():
             write_log(f"RSS文件中不存在 {channelid_youtube_ids[youtube_key]} 无法保留原节目")
 
 
-# In[177]:
-
-
 # 构建文件夹channel_rss
 folder_build("channel_rss")
-
-
-# In[178]:
 
 
 # 创建线程锁
@@ -1292,9 +1206,6 @@ for output_dir in channelid_youtube_ids_update.keys():
 # 等待所有线程完成
 for thread in youtube_xml_get_threads:
     thread.join()
-
-
-# In[179]:
 
 
 # 生成YouTube对应channel的需更新的items模块
@@ -1348,9 +1259,6 @@ def youtube_xml_items(output_dir):
     return items
 
 
-# In[180]:
-
-
 # 生成主rss
 all_youtube_content_ytid = {}
 all_items = ""
@@ -1365,9 +1273,6 @@ write_log("总播客已更新", f"地址:\n\033[34m{config['url']}/{config['file
 qr_code(f"{config['url']}/{config['filename']}.xml")
 
 
-# In[181]:
-
-
 # 删除多余媒体文件模块
 def remove_file(output_dir):
     for file_name in os.listdir(f"channel_audiovisual/{output_dir}"):
@@ -1376,15 +1281,9 @@ def remove_file(output_dir):
             write_log(f"{channelid_youtube_ids[output_dir]}|{file_name}已删除")
 
 
-# In[182]:
-
-
 # 删除不在rss中的媒体文件
 for output_dir in channelid_youtube_ids:
     remove_file(output_dir)
-
-
-# In[183]:
 
 
 # 删除已抛弃的媒体文件夹
@@ -1396,9 +1295,6 @@ def remove_dir():
             os.system(f"rm -r channel_audiovisual/{name}")
             write_log(f"{name}文件夹已删除")
 remove_dir()
-
-
-# In[184]:
 
 
 # 补全缺失的媒体文件到字典模块
@@ -1413,9 +1309,6 @@ def make_up_file(output_dir):
                 video_quality = 480
             video_id_format["quality"] = video_quality
             make_up_file_format[file_name.split(".")[0]] = video_id_format
-
-
-# In[185]:
 
 
 # 补全在rss中缺失的媒体格式信息
@@ -1457,9 +1350,6 @@ for yt_id in make_up_file_format.keys():
         ):
             yt_id_failed.append(yt_id)
             write_log(f"{channelid_youtube_ids[make_up_file_format[yt_id]['id']]}|{yt_id} \033[31m无法下载\033[0m")
-
-
-# In[186]:
 
 
 if sys.argv[1] == "a-shell":
