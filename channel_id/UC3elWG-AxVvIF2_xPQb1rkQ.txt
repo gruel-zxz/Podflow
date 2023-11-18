@@ -11,6 +11,33 @@
  </author>
  <published>2022-06-04T16:17:27+00:00</published>
  <entry>
+  <id>yt:video:c4s51iNsdvQ</id>
+  <yt:videoId>c4s51iNsdvQ</yt:videoId>
+  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
+  <title>男人：世界上最先进的人工智能？爆笑揭秘！#爱吐槽的四季妈妈 #家庭吐槽大会</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=c4s51iNsdvQ"/>
+  <author>
+   <name>四季妈妈—小龙</name>
+   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
+  </author>
+  <published>2023-11-18T05:56:21+00:00</published>
+  <updated>2023-11-18T06:00:10+00:00</updated>
+  <media:group>
+   <media:title>男人：世界上最先进的人工智能？爆笑揭秘！#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
+   <media:content url="https://www.youtube.com/v/c4s51iNsdvQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/c4s51iNsdvQ/hqdefault.jpg" width="480" height="360"/>
+   <media:description>大家好，欢迎来到我的频道！今天我们要探讨一个别开生面的话题：男人是否是世界上最先进的人工智能？在这期视频中，我将以幽默的方式为大家揭秘男人在家庭中的“智能”表现，并分享一些令人捧腹的家庭吐槽。
+
+我们将通过四季妈妈的眼睛看男人，在笑声中挖掘男人在家庭中的“高级智能”特质。无论是处理家务还是应对感情问题，我们都将一一道来，看看男人是不是真的是地球上最先进的“AI”！
+
+别忘了点赞、订阅，并在评论区分享您对这一独特观点的看法。一起来笑破肚皮，揭秘男人“高级智能”背后的幽默真相吧！ #家庭生活 #幽默解读 #笑料百出</media:description>
+   <media:community>
+    <media:starRating count="2" average="5.00" min="1" max="5"/>
+    <media:statistics views="104"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:t1C1KcreZvE</id>
   <yt:videoId>t1C1KcreZvE</yt:videoId>
   <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
@@ -33,7 +60,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一话题的看法和经验。一起来揭秘婚姻中男人为何不回复老婆消息的神秘现象吧！ #婚姻沟通 #家庭生活 #幽默解读</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="283"/>
+    <media:statistics views="376"/>
    </media:community>
   </media:group>
  </entry>
@@ -56,7 +83,7 @@
    <media:description>男人消费力首次超越宠物狗，原因竟然是   #爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="327"/>
+    <media:statistics views="340"/>
    </media:community>
   </media:group>
  </entry>
@@ -79,7 +106,7 @@
    <media:description>山东虽然多侠义之士，但是竟然没有出过皇帝#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="10" average="5.00" min="1" max="5"/>
-    <media:statistics views="524"/>
+    <media:statistics views="531"/>
    </media:community>
   </media:group>
  </entry>
@@ -102,7 +129,7 @@
    <media:description>山东有一套独特的计量单位#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="10" average="5.00" min="1" max="5"/>
-    <media:statistics views="493"/>
+    <media:statistics views="503"/>
    </media:community>
   </media:group>
  </entry>
@@ -117,7 +144,7 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2023-11-07T03:19:06+00:00</published>
-  <updated>2023-11-07T06:56:06+00:00</updated>
+  <updated>2023-11-16T16:33:54+00:00</updated>
   <media:group>
    <media:title>大学生喜提脆脆鲨称号，现在身体好不好真的不能用年纪来界定了#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
    <media:content url="https://www.youtube.com/v/D5vw7Rf0jRM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -125,7 +152,7 @@
    <media:description>大学生喜提脆脆鲨称号，现在身体好不好真的不能用年纪来界定了#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="650"/>
+    <media:statistics views="671"/>
    </media:community>
   </media:group>
  </entry>
@@ -148,7 +175,7 @@
    <media:description>在我心中，哈尔滨是最有性价比的旅游城市#爱吐槽的四季妈妈 #家庭吐槽大会 #哈尔滨</media:description>
    <media:community>
     <media:starRating count="18" average="5.00" min="1" max="5"/>
-    <media:statistics views="562"/>
+    <media:statistics views="569"/>
    </media:community>
   </media:group>
  </entry>
@@ -171,7 +198,7 @@
    <media:description>哪个北方爷们的后备箱没有拉过菜？举手让我看看#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="118" average="5.00" min="1" max="5"/>
-    <media:statistics views="6450"/>
+    <media:statistics views="6500"/>
    </media:community>
   </media:group>
  </entry>
@@ -194,7 +221,7 @@
    <media:description>男人为什么喝茶，他喝的不仅仅是茶#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="149" average="5.00" min="1" max="5"/>
-    <media:statistics views="5048"/>
+    <media:statistics views="5073"/>
    </media:community>
   </media:group>
  </entry>
@@ -217,7 +244,7 @@
    <media:description>分享一个省钱小妙招，首先你得有一群东北的好朋友#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="10" average="5.00" min="1" max="5"/>
-    <media:statistics views="627"/>
+    <media:statistics views="632"/>
    </media:community>
   </media:group>
  </entry>
@@ -240,7 +267,7 @@
    <media:description>东北就是我的第二故乡，它就是我心中最宜居的城市#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="14" average="5.00" min="1" max="5"/>
-    <media:statistics views="789"/>
+    <media:statistics views="791"/>
    </media:community>
   </media:group>
  </entry>
@@ -263,7 +290,7 @@
    <media:description>东北的爱管闲事等于路见不平一声吼！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="195" average="5.00" min="1" max="5"/>
-    <media:statistics views="6846"/>
+    <media:statistics views="6889"/>
    </media:community>
   </media:group>
  </entry>
@@ -286,7 +313,7 @@
    <media:description>上海的物价让上海本地人都很头疼吧#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="12" average="5.00" min="1" max="5"/>
-    <media:statistics views="658"/>
+    <media:statistics views="660"/>
    </media:community>
   </media:group>
  </entry>
@@ -309,7 +336,7 @@
    <media:description>新疆美女多，看了口水流成河#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="18" average="5.00" min="1" max="5"/>
-    <media:statistics views="845"/>
+    <media:statistics views="846"/>
    </media:community>
   </media:group>
  </entry>
@@ -332,30 +359,7 @@
    <media:description>原来真实的商战和我想象中差别那么大#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="11" average="5.00" min="1" max="5"/>
-    <media:statistics views="779"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:rpdjmLUeedY</id>
-  <yt:videoId>rpdjmLUeedY</yt:videoId>
-  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
-  <title>都说中国的世界的，但是我觉得这句话应该反过来说#爱吐槽的四季妈妈 #家庭吐槽大会</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=rpdjmLUeedY"/>
-  <author>
-   <name>四季妈妈—小龙</name>
-   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
-  </author>
-  <published>2023-10-12T00:17:55+00:00</published>
-  <updated>2023-10-12T06:29:44+00:00</updated>
-  <media:group>
-   <media:title>都说中国的世界的，但是我觉得这句话应该反过来说#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
-   <media:content url="https://www.youtube.com/v/rpdjmLUeedY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/rpdjmLUeedY/hqdefault.jpg" width="480" height="360"/>
-   <media:description>都说中国的世界的，但是我觉得这句话应该反过来说#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
-   <media:community>
-    <media:starRating count="168" average="5.00" min="1" max="5"/>
-    <media:statistics views="6949"/>
+    <media:statistics views="781"/>
    </media:community>
   </media:group>
  </entry>

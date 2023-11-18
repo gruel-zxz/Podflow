@@ -10,6 +10,29 @@
   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
  </author>
  <entry>
+  <id>yt:video:H4qYL9S6qK4</id>
+  <yt:videoId>H4qYL9S6qK4</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>do you #DuaLipaHoudini like @CarterKench, @happykelli, @SIMJIShorts, &amp; @TheFitnessMarshall?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=H4qYL9S6qK4"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2023-11-17T21:00:32+00:00</published>
+  <updated>2023-11-17T21:07:24+00:00</updated>
+  <media:group>
+   <media:title>do you #DuaLipaHoudini like @CarterKench, @happykelli, @SIMJIShorts, &amp; @TheFitnessMarshall?</media:title>
+   <media:content url="https://www.youtube.com/v/H4qYL9S6qK4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/H4qYL9S6qK4/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="721" average="5.00" min="1" max="5"/>
+    <media:statistics views="13055"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:BdvcatsORiU</id>
   <yt:videoId>BdvcatsORiU</yt:videoId>
   <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
@@ -27,8 +50,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/BdvcatsORiU/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="704" average="5.00" min="1" max="5"/>
-    <media:statistics views="11690"/>
+    <media:starRating count="1225" average="5.00" min="1" max="5"/>
+    <media:statistics views="26004"/>
    </media:community>
   </media:group>
  </entry>
@@ -75,8 +98,8 @@ FEATURED CREATORS:
 @ShevandDev 
 @MarkWiens</media:description>
    <media:community>
-    <media:starRating count="549" average="5.00" min="1" max="5"/>
-    <media:statistics views="45012"/>
+    <media:starRating count="695" average="5.00" min="1" max="5"/>
+    <media:statistics views="140745"/>
    </media:community>
   </media:group>
  </entry>
@@ -132,8 +155,8 @@ Featured Creators:
 
 #cozygaming #YouTube #Gaming</media:description>
    <media:community>
-    <media:starRating count="1151" average="5.00" min="1" max="5"/>
-    <media:statistics views="97182"/>
+    <media:starRating count="1458" average="5.00" min="1" max="5"/>
+    <media:statistics views="121809"/>
    </media:community>
   </media:group>
  </entry>
@@ -155,8 +178,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/JB1v-XN_lAw/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1339" average="5.00" min="1" max="5"/>
-    <media:statistics views="24273"/>
+    <media:starRating count="1474" average="5.00" min="1" max="5"/>
+    <media:statistics views="27895"/>
    </media:community>
   </media:group>
  </entry>
@@ -178,8 +201,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/zfNFE4d3aSQ/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3496" average="5.00" min="1" max="5"/>
-    <media:statistics views="135913"/>
+    <media:starRating count="3646" average="5.00" min="1" max="5"/>
+    <media:statistics views="141757"/>
    </media:community>
   </media:group>
  </entry>
@@ -201,8 +224,8 @@ Featured Creators:
    <media:thumbnail url="https://i2.ytimg.com/vi/IqCrfQX6JNw/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1787" average="5.00" min="1" max="5"/>
-    <media:statistics views="48006"/>
+    <media:starRating count="1862" average="5.00" min="1" max="5"/>
+    <media:statistics views="50223"/>
    </media:community>
   </media:group>
  </entry>
@@ -224,8 +247,8 @@ Featured Creators:
    <media:thumbnail url="https://i4.ytimg.com/vi/gXLGzPfvh1k/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2593" average="5.00" min="1" max="5"/>
-    <media:statistics views="48601"/>
+    <media:starRating count="2644" average="5.00" min="1" max="5"/>
+    <media:statistics views="50255"/>
    </media:community>
   </media:group>
  </entry>
@@ -247,8 +270,8 @@ Featured Creators:
    <media:thumbnail url="https://i1.ytimg.com/vi/HlcyeYhzAgA/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1760" average="5.00" min="1" max="5"/>
-    <media:statistics views="36022"/>
+    <media:starRating count="1785" average="5.00" min="1" max="5"/>
+    <media:statistics views="37102"/>
    </media:community>
   </media:group>
  </entry>
@@ -270,8 +293,8 @@ Featured Creators:
    <media:thumbnail url="https://i2.ytimg.com/vi/UC3sVvf6W4M/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3143" average="5.00" min="1" max="5"/>
-    <media:statistics views="61383"/>
+    <media:starRating count="3193" average="5.00" min="1" max="5"/>
+    <media:statistics views="63151"/>
    </media:community>
   </media:group>
  </entry>
@@ -293,8 +316,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/FryGklzi_q0/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2623" average="5.00" min="1" max="5"/>
-    <media:statistics views="69309"/>
+    <media:starRating count="2658" average="5.00" min="1" max="5"/>
+    <media:statistics views="71351"/>
    </media:community>
   </media:group>
  </entry>
@@ -316,8 +339,8 @@ Featured Creators:
    <media:thumbnail url="https://i4.ytimg.com/vi/w8ggPIk_r54/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2438" average="5.00" min="1" max="5"/>
-    <media:statistics views="73813"/>
+    <media:starRating count="2465" average="5.00" min="1" max="5"/>
+    <media:statistics views="75551"/>
    </media:community>
   </media:group>
  </entry>
@@ -348,8 +371,8 @@ Featured Creators:
 
 #LexiRivera #YouTube #WatchHistory</media:description>
    <media:community>
-    <media:starRating count="1931" average="5.00" min="1" max="5"/>
-    <media:statistics views="862320"/>
+    <media:starRating count="1943" average="5.00" min="1" max="5"/>
+    <media:statistics views="838032"/>
    </media:community>
   </media:group>
  </entry>
@@ -364,15 +387,15 @@ Featured Creators:
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2023-11-01T21:04:12+00:00</published>
-  <updated>2023-11-01T21:10:50+00:00</updated>
+  <updated>2023-11-17T09:04:31+00:00</updated>
   <media:group>
    <media:title>it’s giving NFL Sunday Ticket.</media:title>
    <media:content url="https://www.youtube.com/v/wIjX4-vUzKM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i4.ytimg.com/vi/wIjX4-vUzKM/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3154" average="5.00" min="1" max="5"/>
-    <media:statistics views="81362"/>
+    <media:starRating count="3198" average="5.00" min="1" max="5"/>
+    <media:statistics views="83460"/>
    </media:community>
   </media:group>
  </entry>
@@ -394,31 +417,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/jpK7IdmSAKc/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1711" average="5.00" min="1" max="5"/>
-    <media:statistics views="43480"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:LLJexMkoRy0</id>
-  <yt:videoId>LLJexMkoRy0</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>find out how to really scare @wendigoon this halloween</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=LLJexMkoRy0"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2023-10-31T19:00:26+00:00</published>
-  <updated>2023-10-31T19:06:15+00:00</updated>
-  <media:group>
-   <media:title>find out how to really scare @wendigoon this halloween</media:title>
-   <media:content url="https://www.youtube.com/v/LLJexMkoRy0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i1.ytimg.com/vi/LLJexMkoRy0/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="1717" average="5.00" min="1" max="5"/>
-    <media:statistics views="35368"/>
+    <media:starRating count="1733" average="5.00" min="1" max="5"/>
+    <media:statistics views="44469"/>
    </media:community>
   </media:group>
  </entry>
