@@ -53,7 +53,6 @@ default_config = {
 
 print(f"{datetime.now().strftime('%H:%M:%S')}|Podflow开始运行.....")
 
-
 # 文件保存模块
 def file_save(content, file_name, folder=None):
     # 如果指定了文件夹则将文件保存到指定的文件夹中
@@ -65,7 +64,6 @@ def file_save(content, file_name, folder=None):
     # 保存文件
     with open(file_path, "w", encoding="utf-8") as file:
         file.write(content)
-
 
 # 日志模块
 def write_log(log, suffix=None, display=True, time_display=True):
@@ -90,7 +88,6 @@ def write_log(log, suffix=None, display=True, time_display=True):
         log_print = f"{formatted_time_mini}|{log}" if time_display else f"{log}"
         log_print = f"{log_print}|{suffix}" if suffix else f"{log_print}"
         print(log_print)
-
 
 # 查看requests模块是否安装
 ffmpeg_worry = """\033[0mFFmpeg安装方法:
@@ -122,10 +119,8 @@ except FileNotFoundError:
     print(ffmpeg_worry)
     sys.exit(0)
 
-# 查看requests模块是否安装并安装
 try:
     import requests
-
     # 如果导入成功你可以在这里使用requests库
 except ImportError:
     try:
@@ -140,7 +135,6 @@ except ImportError:
     except FileNotFoundError:
         write_log("\033[31mrequests安装失败请重试\033[0m")
         sys.exit(0)
-
 
 # HTTP GET请求重试模块
 def get_with_retry(url, name, max_retries=10, retry_delay=6, headers_possess=False):
@@ -172,13 +166,11 @@ def get_with_retry(url, name, max_retries=10, retry_delay=6, headers_possess=Fal
     )
     return response
 
-
 # 批量正则表达式替换删除模块
 def vary_replace(varys, text):
     for vary in varys:
         text = re.sub(vary, "", text)
     return text
-
 
 # 安装库模块
 def library_install(library, library_install_dic=None):
@@ -226,7 +218,6 @@ def library_install(library, library_install_dic=None):
             write_log(f"{library}安装失败")
             sys.exit(0)
 
-
 # 安装/更新并加载三方库
 library_install_list = [
     "yt-dlp",
@@ -237,7 +228,6 @@ library_install_list = [
     "qrcode",
 ]
 library_install_dic = {}
-
 
 def library_install_get(library):
     # 获取最新版本编号
@@ -252,7 +242,6 @@ def library_install_get(library):
         )
     if version_update:
         library_install_dic[library] = version_update
-
 
 # 创建线程列表
 library_install_get_threads = []
@@ -271,7 +260,6 @@ import yt_dlp
 from astral.sun import sun
 from astral import LocationInfo
 
-
 # 格式化时间模块
 def time_format(duration):
     if duration is None:
@@ -284,7 +272,6 @@ def time_format(duration):
         return "{:02}:{:02}:{:02}".format(hours, minutes, remaining_seconds)
     else:
         return "{:02}:{:02}".format(minutes, remaining_seconds)
-
 
 # 格式化字节模块
 def convert_bytes(byte_size, units=None, outweigh=1024):
@@ -300,7 +287,6 @@ def convert_bytes(byte_size, units=None, outweigh=1024):
         unit_index += 1
     # 格式化结果并返回
     return f"{byte_size:.2f}{units[unit_index]}"
-
 
 # 网址二维码模块
 def qr_code(data):
@@ -325,7 +311,9 @@ def qr_code(data):
     for y in range(height_double):
         if (y + 1) * 2 - 1 >= height:
             for x in range(width):
-                ascii_art += fonts[0] if matrix[(y + 1) * 2 - 2][x] is True else fonts[3]
+                ascii_art += (
+                    fonts[0] if matrix[(y + 1) * 2 - 2][x] is True else fonts[3]
+                )
         else:
             for x in range(width):
                 if (
@@ -348,7 +336,6 @@ def qr_code(data):
             ascii_art += "\n"
     print(ascii_art)
 
-
 # 下载显示模块
 def show_progress(stream):
     stream = dict(stream)
@@ -363,9 +350,7 @@ def show_progress(stream):
     if stream["speed"] is None:
         speed = " Unknow B"
     else:
-        speed = convert_bytes(stream["speed"], [" B", "KiB", "MiB", "GiB"], 1000).rjust(
-            9
-        )
+        speed = convert_bytes(stream["speed"], [" B", "KiB", "MiB", "GiB"], 1000).rjust(9)
     if stream["status"] in ["downloading", "error"]:
         if "total_bytes" in stream:
             bar = stream["downloaded_bytes"] / stream["total_bytes"] * 100
@@ -385,30 +370,20 @@ def show_progress(stream):
             elapsed = time_format(stream["elapsed"]).ljust(8)
         else:
             elapsed = "Unknown "
-        print(
-            (
-                f"\r100.0%|{downloaded_bytes}\{total_bytes}|\033[32m{speed}/s\033[0m|\033[97m{elapsed}\033[0m"
-            )
-        )
-
+        print(f"\r100.0%|{downloaded_bytes}\{total_bytes}|\033[32m{speed}/s\033[0m|\033[97m{elapsed}\033[0m")
 
 # 获取媒体时长和ID模块
 def video_format(video_website, video_url, media="m4a", quality="480"):
     fail_message = None
-
     class MyLogger:
         def debug(self, msg):
             pass
-
         def warning(self, msg):
             pass
-
         def info(self, msg):
             pass
-
         def error(self, msg):
             pass
-
     def duration_and_formats(video_website, video_url):
         fail_message, duration, formats = None, None, None
         try:
@@ -434,18 +409,15 @@ def video_format(video_website, video_url, media="m4a", quality="480"):
                 .replace("[youtube] ", "")
             )
         return fail_message, duration, formats
-
     error_reason = {
         "Premieres in ": "\033[31m预播\033[0m|",
         "Video unavailable. This video contains content from SME, who has blocked it in your country on copyright grounds": "\033[31m版权保护\033[0m",
         "Premiere will begin shortly": "\033[31m马上开始首映\033[0m",
     }
-
     def fail_message_initialize(fail_message, error_reason):
         for key in error_reason:
             if key in fail_message:
                 return [key, error_reason[key]]
-
     yt_id_count, change_error, fail_message, duration, formats = 0, None, "", "", ""
     while (
         yt_id_count < 3
@@ -465,7 +437,6 @@ def video_format(video_website, video_url, media="m4a", quality="480"):
             return "无法获取格式"
         duration_and_id = []
         duration_and_id.append(duration)
-
         # 定义条件判断函数
         def check_resolution(item):
             if "aspect_ratio" in item and (
@@ -477,10 +448,8 @@ def video_format(video_website, video_url, media="m4a", quality="480"):
                     return item["width"] <= int(quality)
             else:
                 return False
-
         def check_ext(item, media):
             return item["ext"] == media if "ext" in item else False
-
         def check_vcodec(item):
             if "vcodec" in item:
                 return (
@@ -489,7 +458,6 @@ def video_format(video_website, video_url, media="m4a", quality="480"):
                 )
             else:
                 return False
-
         # 获取最好质量媒体的id
         def best_format_id(formats):
             filesize_max = 0
@@ -505,7 +473,6 @@ def video_format(video_website, video_url, media="m4a", quality="480"):
                     format_id_best = format["format_id"]
                     vcodec_best = format["vcodec"]
             return format_id_best, vcodec_best
-
         # 进行筛选
         formats_m4a = list(
             filter(lambda item: check_ext(item, "m4a") and check_vcodec(item), formats)
@@ -532,7 +499,6 @@ def video_format(video_website, video_url, media="m4a", quality="480"):
     else:
         return fail_message
 
-
 # 获取已下载视频时长模块
 def get_duration_ffprobe(file_path):
     try:
@@ -558,7 +524,6 @@ def get_duration_ffprobe(file_path):
         write_log(f"Error: {e.output}")
         return None
 
-
 # 下载视频模块
 def download_video(
     video_url,
@@ -567,26 +532,21 @@ def download_video(
     format_id,
     video_website,
     video_write_log,
-    format_code="480",
     sesuffix="",
 ):
     class MyLogger:
         def debug(self, msg):
             pass
-
         def warning(self, msg):
             pass
-
         def info(self, msg):
             pass
-
         def error(self, msg):
             print(
                 msg.replace("ERROR: ", "")
                 .replace(f"{video_url}: ", "")
                 .replace("[youtube] ", "")
             )
-
     ydl_opts = {
         "outtmpl": f"channel_audiovisual/{output_dir}/{video_url}{sesuffix}.{output_format}",  # 输出文件路径和名称
         "format": f"{format_id}",  # 指定下载的最佳音频和视频格式
@@ -608,7 +568,6 @@ def download_video(
         )  # 写入下载失败的日志信息
         return video_url
 
-
 # 视频完整下载模块
 def dl_full_video(
     video_url,
@@ -618,7 +577,6 @@ def dl_full_video(
     id_duration,
     video_website,
     video_write_log,
-    format_code="480",
     sesuffix="",
 ):
     if download_video(
@@ -628,7 +586,6 @@ def dl_full_video(
         format_id,
         video_website,
         video_write_log,
-        format_code,
         sesuffix,
     ):
         return video_url
@@ -646,7 +603,6 @@ def dl_full_video(
         )  # 删除不完整的视频
     return video_url
 
-
 # 视频重试下载模块
 def dl_retry_video(
     video_url,
@@ -657,7 +613,6 @@ def dl_retry_video(
     retry_count,
     video_website,
     video_write_log,
-    format_code="480",
     sesuffix="",
 ):
     yt_id_failed = dl_full_video(
@@ -668,7 +623,6 @@ def dl_retry_video(
         id_duration,
         video_website,
         video_write_log,
-        format_code,
         sesuffix,
     )
     # 下载失败后重复尝试下载视频
@@ -684,11 +638,9 @@ def dl_retry_video(
             id_duration,
             video_website,
             video_write_log,
-            format_code,
             sesuffix,
         )
     return yt_id_failed
-
 
 # 音视频总下载模块
 def dl_aideo_video(
@@ -698,7 +650,6 @@ def dl_aideo_video(
     video_format,
     retry_count,
     video_website,
-    format_code="480",
     output_dir_name="",
 ):
     if output_dir_name:
@@ -710,7 +661,7 @@ def dl_aideo_video(
         f"{datetime.now().strftime('%H:%M:%S')}|{video_write_log} \033[34m开始下载\033[0m",
         end="",
     )
-    if output_format == "m4a":
+    if output_format == "m4a" and id_duration != "140":
         print(f" \033[97m{video_format[1]}\033[0m")
         yt_id_failed = dl_retry_video(
             video_url,
@@ -721,7 +672,6 @@ def dl_aideo_video(
             retry_count,
             video_website,
             video_write_log,
-            format_code,
             "",
         )
     else:
@@ -737,7 +687,6 @@ def dl_aideo_video(
             retry_count,
             video_website,
             video_write_log,
-            format_code,
             ".part",
         )
         if yt_id_failed is None:
@@ -753,7 +702,6 @@ def dl_aideo_video(
                 retry_count,
                 video_website,
                 video_write_log,
-                format_code,
                 ".part",
             )
         if yt_id_failed is None:
@@ -788,7 +736,6 @@ def dl_aideo_video(
         write_log(f"{video_write_log} \033[32m下载成功\033[0m")  # 写入下载成功的日志信息
     return yt_id_failed
 
-
 # 构建文件夹模块
 def folder_build(folder_name, parent_folder_name=None):
     if parent_folder_name:
@@ -798,7 +745,6 @@ def folder_build(folder_name, parent_folder_name=None):
     if not os.path.exists(folder_path):  # 判断文件夹是否存在
         os.makedirs(folder_path)  # 创建文件夹
         write_log(f"文件夹{folder_name}创建成功")
-
 
 # 检查当前文件夹中是否存在config.json文件
 if not os.path.exists("config.json"):
@@ -869,7 +815,6 @@ if config["icon"] == default_config["icon"]:
         now = datetime.now(timezone.utc)
         yesterday = now - timedelta(days=1)
         tommorrow = now + timedelta(days=1)
-
         def sunrise_sunset(time):
             # 创建一个 Sun 对象
             sun_time = sun(location.observer, date=time)
@@ -879,7 +824,6 @@ if config["icon"] == default_config["icon"]:
             sunrise_minus_one_hour = sunrise  # - timedelta(hours=1)
             sunset_plus_one_hour = sunset  # + timedelta(hours=1)
             return sunrise_minus_one_hour, sunset_plus_one_hour
-
         sunrise_now, sunset_now = sunrise_sunset(now)
         sunrise_yesterday, sunset_yesterday = sunrise_sunset(yesterday)
         sunrise_tommorrow, sunset_tommorrow = sunrise_sunset(tommorrow)
@@ -925,7 +869,6 @@ else:
 folder_build("channel_id")
 # 构建文件夹channel_audiovisual
 folder_build("channel_audiovisual")
-
 
 # channelid修正模块
 def correct_channelid(channelid, website):
@@ -1052,7 +995,6 @@ def correct_channelid(channelid, website):
                 channelid[channelid_key]["QRcode"] = False
     return channelid
 
-
 # 修正channelid_youtube
 channelid_youtube = correct_channelid(channelid_youtube, "youtube")
 
@@ -1086,7 +1028,6 @@ pattern_youtube_varys = [
     r"<id>yt:channel:(UC)?(.{22})?</id>",
     r"<yt:channelId>(UC)?(.{22})?</yt:channelId>",
 ]
-
 
 def youtube_rss_update(youtube_key, youtube_value):
     # 构建 URL
@@ -1148,7 +1089,6 @@ def youtube_rss_update(youtube_key, youtube_value):
                 "DisplayRSSaddress"
             ] = True
             youtube_content_ytid_update[youtube_key] = youtube_content_ytid
-
 
 # 创建线程列表
 youtube_rss_update_threads = []
@@ -1271,12 +1211,10 @@ if len(youtube_content_ytid_update_format) != 0:
                 animation += "."
             i += 1
             time.sleep(0.5)
-
     # 获取视频信息多线程模块
     def before_youtube_video_format(stop_flag):
         # 创建线程锁
         youtube_video_format_lock = threading.Lock()
-
         def youtube_video_format(yt_id):
             ytid_update_format = video_format(
                 "https://www.youtube.com/watch?v=",
@@ -1298,7 +1236,6 @@ if len(youtube_content_ytid_update_format) != 0:
                         False,
                     )
                     del youtube_content_ytid_update_format[yt_id]
-
         # 创建线程列表
         youtube_content_ytid_update_threads = []
         for yt_id in youtube_content_ytid_update_format.keys():
@@ -1333,14 +1270,12 @@ for yt_id in youtube_content_ytid_update_format.keys():
         youtube_content_ytid_update_format[yt_id]["format"],
         config["retry_count"],
         "https://www.youtube.com/watch?v=",
-        youtube_content_ytid_update_format[yt_id]["quality"],
         channelid_youtube_ids[youtube_content_ytid_update_format[yt_id]["id"]],
     ):
         yt_id_failed.append(yt_id)
         write_log(
             f"{channelid_youtube_ids[youtube_content_ytid_update_format[yt_id]['id']]}|{yt_id} \033[31m无法下载\033[0m"
         )
-
 
 # 生成XML模块
 def xml_rss(title, link, description, category, icon, items):
@@ -1383,7 +1318,6 @@ def xml_rss(title, link, description, category, icon, items):
 {items}
     </channel>
 </rss>"""
-
 
 # 生成item模块
 def xml_item(
@@ -1445,7 +1379,6 @@ def xml_item(
         </item>
 """
 
-
 # 生成YouTube的item模块
 def youtube_xml_item(entry):
     # 输入时间字符串和原始时区
@@ -1476,7 +1409,6 @@ def youtube_xml_item(entry):
         pubDate,
         re.search(r"(?<=<media:thumbnail url=\").+(?=\" width=\")", entry).group(),
     )
-
 
 # 生成原有的item模块
 def xml_original_item(original_item):
@@ -1538,7 +1470,6 @@ def xml_original_item(original_item):
         </item>
 """
 
-
 # 获取原始xml文件
 try:
     with open(f"{config['filename']}.xml", "r", encoding="utf-8") as file:  # 打开文件进行读取
@@ -1575,7 +1506,6 @@ folder_build("channel_rss")
 youtube_xml_get_lock = threading.Lock()
 youtube_xml_get_tree = {}
 
-
 # 使用http获取youtube频道简介和图标模块
 def youtube_xml_get(output_dir):
     if channel_about := get_with_retry(
@@ -1603,7 +1533,6 @@ def youtube_xml_get(output_dir):
         with youtube_xml_get_lock:
             youtube_xml_get_tree[output_dir] = xml_tree
 
-
 # 创建线程列表
 youtube_xml_get_threads = []
 for output_dir in channelid_youtube_ids_update.keys():
@@ -1613,7 +1542,6 @@ for output_dir in channelid_youtube_ids_update.keys():
 # 等待所有线程完成
 for thread in youtube_xml_get_threads:
     thread.join()
-
 
 # 生成YouTube对应channel的需更新的items模块
 def youtube_xml_items(output_dir):
@@ -1691,7 +1619,6 @@ def youtube_xml_items(output_dir):
         qr_code(f"{config['url']}/channel_rss/{output_dir}.xml")
     return items
 
-
 # 生成主rss
 all_youtube_content_ytid = {}
 all_items = ""
@@ -1721,7 +1648,6 @@ file_save(
 write_log("总播客已更新", f"地址:\n\033[34m{config['url']}/{config['filename']}.xml\033[0m")
 qr_code(f"{config['url']}/{config['filename']}.xml")
 
-
 # 删除多余媒体文件模块
 def remove_file(output_dir):
     for file_name in os.listdir(f"channel_audiovisual/{output_dir}"):
@@ -1729,11 +1655,9 @@ def remove_file(output_dir):
             os.remove(f"channel_audiovisual/{output_dir}/{file_name}")
             write_log(f"{channelid_youtube_ids[output_dir]}|{file_name}已删除")
 
-
 # 删除不在rss中的媒体文件
 for output_dir in channelid_youtube_ids:
     remove_file(output_dir)
-
 
 # 删除已抛弃的媒体文件夹
 def remove_dir():
@@ -1748,12 +1672,10 @@ def remove_dir():
             os.system(f"rm -r channel_audiovisual/{name}")
             write_log(f"{name}文件夹已删除")
 
-
 remove_dir()
 
 # 补全缺失的媒体文件到字典模块
 make_up_file_format = {}
-
 
 def make_up_file(output_dir):
     for file_name in all_youtube_content_ytid[output_dir]:
@@ -1768,7 +1690,6 @@ def make_up_file(output_dir):
             video_id_format["quality"] = video_quality
             make_up_file_format[file_name.split(".")[0]] = video_id_format
 
-
 # 补全在rss中缺失的媒体格式信息
 for output_dir in channelid_youtube_ids:
     make_up_file(output_dir)
@@ -1776,7 +1697,6 @@ if len(make_up_file_format) != 0:
     print(f"{datetime.now().strftime('%H:%M:%S')}|补全缺失媒体 \033[34m下载准备中...\033[0m")
 # 创建线程锁
 makeup_yt_format_lock = threading.Lock()
-
 
 def makeup_yt_format(yt_id):
     makeup_ytid_format = video_format(
@@ -1793,7 +1713,6 @@ def makeup_yt_format(yt_id):
             write_log(
                 f"{channelid_youtube_ids[make_up_file_format[yt_id]['id']]}|{yt_id} {makeup_ytid_format}"
             )
-
 
 # 创建线程列表
 makeup_yt_format_threads = []
@@ -1816,13 +1735,16 @@ for yt_id in make_up_file_format.keys():
         make_up_file_format[yt_id]["format"],
         config["retry_count"],
         "https://www.youtube.com/watch?v=",
-        make_up_file_format[yt_id]["quality"],
         channelid_youtube_ids[make_up_file_format[yt_id]["id"]],
     ):
         yt_id_failed.append(yt_id)
         write_log(
             f"{channelid_youtube_ids[make_up_file_format[yt_id]['id']]}|{yt_id} \033[31m无法下载\033[0m"
         )
+
+
+# In[ ]:
+
 
 if sys.argv[1] == "a-shell":
     # 启动 RangeHTTPServer
@@ -1834,3 +1756,4 @@ if sys.argv[1] == "a-shell":
     time.sleep(60)
     # 关闭服务器
     server_process.terminate()
+

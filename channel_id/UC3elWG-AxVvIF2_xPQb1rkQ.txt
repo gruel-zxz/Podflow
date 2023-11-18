@@ -32,8 +32,8 @@
 
 别忘了点赞、订阅，并在评论区分享您对这一独特观点的看法。一起来笑破肚皮，揭秘男人“高级智能”背后的幽默真相吧！ #家庭生活 #幽默解读 #笑料百出</media:description>
    <media:community>
-    <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="104"/>
+    <media:starRating count="3" average="5.00" min="1" max="5"/>
+    <media:statistics views="272"/>
    </media:community>
   </media:group>
  </entry>
@@ -59,8 +59,8 @@
 
 别忘了点赞、订阅，并在评论区分享您对这一话题的看法和经验。一起来揭秘婚姻中男人为何不回复老婆消息的神秘现象吧！ #婚姻沟通 #家庭生活 #幽默解读</media:description>
    <media:community>
-    <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="376"/>
+    <media:starRating count="5" average="5.00" min="1" max="5"/>
+    <media:statistics views="387"/>
    </media:community>
   </media:group>
  </entry>
@@ -83,7 +83,7 @@
    <media:description>男人消费力首次超越宠物狗，原因竟然是   #爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="340"/>
+    <media:statistics views="344"/>
    </media:community>
   </media:group>
  </entry>
@@ -106,7 +106,7 @@
    <media:description>山东虽然多侠义之士，但是竟然没有出过皇帝#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="10" average="5.00" min="1" max="5"/>
-    <media:statistics views="531"/>
+    <media:statistics views="533"/>
    </media:community>
   </media:group>
  </entry>
@@ -129,7 +129,7 @@
    <media:description>山东有一套独特的计量单位#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="10" average="5.00" min="1" max="5"/>
-    <media:statistics views="503"/>
+    <media:statistics views="505"/>
    </media:community>
   </media:group>
  </entry>
@@ -152,7 +152,7 @@
    <media:description>大学生喜提脆脆鲨称号，现在身体好不好真的不能用年纪来界定了#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="671"/>
+    <media:statistics views="673"/>
    </media:community>
   </media:group>
  </entry>
@@ -197,8 +197,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/9pOjvxFzpJg/hqdefault.jpg" width="480" height="360"/>
    <media:description>哪个北方爷们的后备箱没有拉过菜？举手让我看看#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="118" average="5.00" min="1" max="5"/>
-    <media:statistics views="6500"/>
+    <media:starRating count="119" average="5.00" min="1" max="5"/>
+    <media:statistics views="6516"/>
    </media:community>
   </media:group>
  </entry>
@@ -221,7 +221,7 @@
    <media:description>男人为什么喝茶，他喝的不仅仅是茶#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="149" average="5.00" min="1" max="5"/>
-    <media:statistics views="5073"/>
+    <media:statistics views="5080"/>
    </media:community>
   </media:group>
  </entry>
@@ -290,7 +290,7 @@
    <media:description>东北的爱管闲事等于路见不平一声吼！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="195" average="5.00" min="1" max="5"/>
-    <media:statistics views="6889"/>
+    <media:statistics views="6895"/>
    </media:community>
   </media:group>
  </entry>
@@ -336,7 +336,7 @@
    <media:description>新疆美女多，看了口水流成河#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="18" average="5.00" min="1" max="5"/>
-    <media:statistics views="846"/>
+    <media:statistics views="847"/>
    </media:community>
   </media:group>
  </entry>

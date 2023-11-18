@@ -29,7 +29,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="0" average="0.00" min="1" max="5"/>
-    <media:statistics views="15"/>
+    <media:statistics views="19"/>
    </media:community>
   </media:group>
  </entry>
@@ -52,7 +52,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="0" average="0.00" min="1" max="5"/>
-    <media:statistics views="18"/>
+    <media:statistics views="20"/>
    </media:community>
   </media:group>
  </entry>
@@ -144,7 +144,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="0" average="0.00" min="1" max="5"/>
-    <media:statistics views="56"/>
+    <media:statistics views="62"/>
    </media:community>
   </media:group>
  </entry>
@@ -167,7 +167,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="0" average="0.00" min="1" max="5"/>
-    <media:statistics views="61"/>
+    <media:statistics views="63"/>
    </media:community>
   </media:group>
  </entry>
@@ -190,7 +190,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="33"/>
+    <media:statistics views="34"/>
    </media:community>
   </media:group>
  </entry>
@@ -213,7 +213,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="58"/>
+    <media:statistics views="59"/>
    </media:community>
   </media:group>
  </entry>
@@ -236,7 +236,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="91"/>
+    <media:statistics views="90"/>
    </media:community>
   </media:group>
  </entry>
