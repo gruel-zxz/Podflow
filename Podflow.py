@@ -19,8 +19,8 @@ default_config = {
     "url": "http://127.0.0.1:8000",
     "title": "Podflow",
     "filename": "Podflow",
-    "link": "https://m.youtube.com",
-    "description": "在YouTube 上畅享您喜爱的视频和音乐上传原创内容并与亲朋好友和全世界观众分享您的视频。",
+    "link": "https://github.com/gruel-zxz/podflow",
+    "description": "在iOS平台上借助workflow和a-shell搭建专属的播客服务器。",
     "icon": "https://raw.githubusercontent.com/gruel-zxz/podflow/main/Podflow.png",
     "category": "TV &amp; Film",
     "channelid_youtube": {
@@ -1754,4 +1754,3 @@ if sys.argv[1] == "a-shell":
     time.sleep(60)
     # 关闭服务器
     server_process.terminate()
-
