@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
+
 import os
 import re
 import sys
@@ -661,8 +662,9 @@ def dl_aideo_video(
         f"{datetime.now().strftime('%H:%M:%S')}|{video_write_log} \033[34m开始下载\033[0m",
         end="",
     )
-    if output_format == "m4a" and id_duration != "140":
-        print(f" \033[97m{video_format[1]}\033[0m")
+    if output_format == "m4a":
+        if video_format[1] != "140":
+            print(f" \033[97m{video_format[1]}\033[0m")
         yt_id_failed = dl_retry_video(
             video_url,
             output_dir,
@@ -1741,10 +1743,6 @@ for yt_id in make_up_file_format.keys():
         write_log(
             f"{channelid_youtube_ids[make_up_file_format[yt_id]['id']]}|{yt_id} \033[31m无法下载\033[0m"
         )
-
-
-# In[ ]:
-
 
 if sys.argv[1] == "a-shell":
     # 启动 RangeHTTPServer
