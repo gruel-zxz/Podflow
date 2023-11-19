@@ -665,6 +665,8 @@ def dl_aideo_video(
     if output_format == "m4a":
         if video_format[1] != "140":
             print(f" \033[97m{video_format[1]}\033[0m")
+        else:
+            print("")
         yt_id_failed = dl_retry_video(
             video_url,
             output_dir,
