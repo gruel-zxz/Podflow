@@ -11,6 +11,31 @@
  </author>
  <published>2017-04-12T00:43:27+00:00</published>
  <entry>
+  <id>yt:video:2SnwxJEb_6k</id>
+  <yt:videoId>2SnwxJEb_6k</yt:videoId>
+  <yt:channelId>UCp1nO1bgVwks9b5EhKQGVag</yt:channelId>
+  <title>人类的终局之战——《XeeLee》宇宙大结局！</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=2SnwxJEb_6k"/>
+  <author>
+   <name>幻海航行--science fiction</name>
+   <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
+  </author>
+  <published>2023-11-24T04:14:20+00:00</published>
+  <updated>2023-11-24T06:37:05+00:00</updated>
+  <media:group>
+   <media:title>人类的终局之战——《XeeLee》宇宙大结局！</media:title>
+   <media:content url="https://www.youtube.com/v/2SnwxJEb_6k?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/2SnwxJEb_6k/hqdefault.jpg" width="480" height="360"/>
+   <media:description>人类的终局之战——《XeeLee》宇宙大结局！
+本系列更新完结，原计划十多期内容现在压缩到了五集，奈何精力和财力有限阿....
+不过主线剧情已经更新完毕，未收录的内容仅剩下人类最终生活在小宇宙中的场景。</media:description>
+   <media:community>
+    <media:starRating count="396" average="5.00" min="1" max="5"/>
+    <media:statistics views="21011"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:8-sJeE2YF2Q</id>
   <yt:videoId>8-sJeE2YF2Q</yt:videoId>
   <yt:channelId>UCp1nO1bgVwks9b5EhKQGVag</yt:channelId>
@@ -28,8 +53,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/8-sJeE2YF2Q/hqdefault.jpg" width="480" height="360"/>
    <media:description>《单孔衍射》出自科幻短篇集《完美末日》。作者刘洋：科幻作家，物理学博士，代表作《火星孤儿》《勾股2.013》等。这是第二次更新这位科幻作家的作品，希望大家喜欢。这部小说中提出了非常有有趣的“时间壁垒”概念。</media:description>
    <media:community>
-    <media:starRating count="87" average="5.00" min="1" max="5"/>
-    <media:statistics views="4253"/>
+    <media:starRating count="117" average="5.00" min="1" max="5"/>
+    <media:statistics views="6413"/>
    </media:community>
   </media:group>
  </entry>
@@ -52,8 +77,8 @@
    <media:description>《除以零》，作者：特德姜，出自科幻小说集《你一生的故事》
 这是我们最喜欢的作品之一，作者以极为另类的写作方式用数学公式描述了一对人们的情感，堪称神作！</media:description>
    <media:community>
-    <media:starRating count="156" average="5.00" min="1" max="5"/>
-    <media:statistics views="7347"/>
+    <media:starRating count="200" average="5.00" min="1" max="5"/>
+    <media:statistics views="9640"/>
    </media:community>
   </media:group>
  </entry>
@@ -75,8 +100,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/TY-ce_fiWK8/hqdefault.jpg" width="480" height="360"/>
    <media:description>本期更新一期克苏鲁神话（非科幻内容）极北坚冰，食人梦魇——克苏鲁神话巅峰之作《虚境奇谭》</media:description>
    <media:community>
-    <media:starRating count="147" average="5.00" min="1" max="5"/>
-    <media:statistics views="8563"/>
+    <media:starRating count="176" average="5.00" min="1" max="5"/>
+    <media:statistics views="10583"/>
    </media:community>
   </media:group>
  </entry>
@@ -98,8 +123,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/vaL_wf-krtU/hqdefault.jpg" width="480" height="360"/>
    <media:description>科幻小说《橱窗里的荷兰赌徒》，作者李兴春，银河奖获奖作品，是一部不可多得的国产佳作。所谓：数学天才与疯子赌徒之间，正如上帝的左右手。</media:description>
    <media:community>
-    <media:starRating count="56" average="5.00" min="1" max="5"/>
-    <media:statistics views="3231"/>
+    <media:starRating count="60" average="5.00" min="1" max="5"/>
+    <media:statistics views="3439"/>
    </media:community>
   </media:group>
  </entry>
@@ -114,15 +139,15 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2023-10-27T09:21:08+00:00</published>
-  <updated>2023-10-28T12:21:12+00:00</updated>
+  <updated>2023-11-28T21:47:22+00:00</updated>
   <media:group>
    <media:title>如果全人类同时闭上眼睛，宇宙将会发生何种变化？科幻小说《阖上眼五秒钟》</media:title>
    <media:content url="https://www.youtube.com/v/fFlG_zkErLQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i3.ytimg.com/vi/fFlG_zkErLQ/hqdefault.jpg" width="480" height="360"/>
    <media:description>科幻小说《阖上眼五秒钟》，作者遥控，作品刊登于早年的科幻世界杂志上，是个有趣的小说。</media:description>
    <media:community>
-    <media:starRating count="106" average="5.00" min="1" max="5"/>
-    <media:statistics views="6113"/>
+    <media:starRating count="111" average="5.00" min="1" max="5"/>
+    <media:statistics views="6449"/>
    </media:community>
   </media:group>
  </entry>
@@ -137,15 +162,15 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2023-10-23T08:36:49+00:00</published>
-  <updated>2023-10-24T06:27:01+00:00</updated>
+  <updated>2023-11-24T06:04:31+00:00</updated>
   <media:group>
    <media:title>人类史上第一位时间穿越者，居然成功了！经典科幻解读</media:title>
    <media:content url="https://www.youtube.com/v/5Z3O9vtMAvI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i2.ytimg.com/vi/5Z3O9vtMAvI/hqdefault.jpg" width="480" height="360"/>
    <media:description>人类史上第一位时间穿越者，居然成功了！经典科幻解读，原著：宝树.</media:description>
    <media:community>
-    <media:starRating count="90" average="5.00" min="1" max="5"/>
-    <media:statistics views="5189"/>
+    <media:starRating count="94" average="5.00" min="1" max="5"/>
+    <media:statistics views="5458"/>
    </media:community>
   </media:group>
  </entry>
@@ -160,7 +185,7 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2023-10-18T04:40:42+00:00</published>
-  <updated>2023-10-18T07:18:09+00:00</updated>
+  <updated>2023-11-26T09:41:18+00:00</updated>
   <media:group>
    <media:title>他逢赌必赢，只因掌握了孤波理论：科幻小说《橱窗里的荷兰赌徒》上集</media:title>
    <media:content url="https://www.youtube.com/v/P8nnmx1L9xQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -168,8 +193,8 @@
    <media:description>科幻小说《橱窗里的荷兰赌徒》，作者李兴春，银河奖获奖作品，是一部不可多得的国产佳作。
 虽然过去了二十多年，但是好的作品值得让大家记得，分上下集发布</media:description>
    <media:community>
-    <media:starRating count="96" average="5.00" min="1" max="5"/>
-    <media:statistics views="5582"/>
+    <media:starRating count="101" average="5.00" min="1" max="5"/>
+    <media:statistics views="5777"/>
    </media:community>
   </media:group>
  </entry>
@@ -184,7 +209,7 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2023-10-08T09:08:09+00:00</published>
-  <updated>2023-10-09T07:39:25+00:00</updated>
+  <updated>2023-11-21T06:08:45+00:00</updated>
   <media:group>
    <media:title>人类洞悉宇宙后，开始主动入侵地外文明：XeeLee宇宙4</media:title>
    <media:content url="https://www.youtube.com/v/aAdgvEUeUoo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -192,8 +217,8 @@
    <media:description>人类洞悉宇宙后，开始主动入侵地外文明：XeeLee宇宙4。主线剧情从本期就开始了。
 下来尽量在3期内搞定这个系列。</media:description>
    <media:community>
-    <media:starRating count="193" average="5.00" min="1" max="5"/>
-    <media:statistics views="10189"/>
+    <media:starRating count="200" average="5.00" min="1" max="5"/>
+    <media:statistics views="10927"/>
    </media:community>
   </media:group>
  </entry>
@@ -208,15 +233,15 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2023-10-04T03:14:39+00:00</published>
-  <updated>2023-10-04T07:23:55+00:00</updated>
+  <updated>2023-11-25T03:46:52+00:00</updated>
   <media:group>
    <media:title>在时间加速的情况下，数字生命也可以飞向星空：科幻名著《晶体之夜》</media:title>
    <media:content url="https://www.youtube.com/v/0UdW8Gaxdek?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i1.ytimg.com/vi/0UdW8Gaxdek/hqdefault.jpg" width="480" height="360"/>
    <media:description>在时间加速的情况下，数字生命也可以飞向星空——科幻小说《晶体之夜》，出自格雷格.伊根（Greg Egan）的短篇小说集《数学陷落》Oceanic。</media:description>
    <media:community>
-    <media:starRating count="167" average="5.00" min="1" max="5"/>
-    <media:statistics views="7520"/>
+    <media:starRating count="169" average="5.00" min="1" max="5"/>
+    <media:statistics views="7741"/>
    </media:community>
   </media:group>
  </entry>
@@ -231,7 +256,7 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2023-09-29T11:00:54+00:00</published>
-  <updated>2023-09-29T18:46:06+00:00</updated>
+  <updated>2023-11-22T15:27:40+00:00</updated>
   <media:group>
    <media:title>人类无处可逃，因为地球不过是另一艘飞船：科幻巨著《极光》大结局</media:title>
    <media:content url="https://www.youtube.com/v/y67wNHOfzwA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -239,8 +264,8 @@
    <media:description>终于更新完毕了！
 这部40万字的长篇硬核科幻啊！人类无处可逃，因为地球也不过是另一艘飞船：科幻巨著《极光》大结局</media:description>
    <media:community>
-    <media:starRating count="233" average="5.00" min="1" max="5"/>
-    <media:statistics views="15747"/>
+    <media:starRating count="235" average="5.00" min="1" max="5"/>
+    <media:statistics views="16410"/>
    </media:community>
   </media:group>
  </entry>
@@ -255,15 +280,15 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2023-09-28T07:48:03+00:00</published>
-  <updated>2023-09-28T07:48:03+00:00</updated>
+  <updated>2023-11-22T13:18:18+00:00</updated>
   <media:group>
    <media:title>一艘1/10光速的飞船回归地球，它该如何减速？科幻巨著《极光》2</media:title>
    <media:content url="https://www.youtube.com/v/XmYvQwYO_jk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i1.ytimg.com/vi/XmYvQwYO_jk/hqdefault.jpg" width="480" height="360"/>
    <media:description>一艘1/10光速的飞船回归地球，它该如何减速？科幻巨著《极光》第二集。</media:description>
    <media:community>
-    <media:starRating count="166" average="5.00" min="1" max="5"/>
-    <media:statistics views="9944"/>
+    <media:starRating count="170" average="5.00" min="1" max="5"/>
+    <media:statistics views="10295"/>
    </media:community>
   </media:group>
  </entry>
@@ -278,7 +303,7 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2023-09-14T09:27:32+00:00</published>
-  <updated>2023-09-16T09:59:29+00:00</updated>
+  <updated>2023-11-26T13:49:04+00:00</updated>
   <media:group>
    <media:title>人类去往鲸鱼座的伟大征途：科幻巨著《极光》</media:title>
    <media:content url="https://www.youtube.com/v/cWWswUeRlps?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -286,8 +311,8 @@
    <media:description>科幻巨著《极光》，原著：金·斯坦利·罗宾逊。
 这部小说堪称人类航天的教科书级的小说，全程充满知识点，严谨的写作手法让这部小说毫无逻辑漏洞，堪称经典！</media:description>
    <media:community>
-    <media:starRating count="381" average="5.00" min="1" max="5"/>
-    <media:statistics views="46695"/>
+    <media:starRating count="392" average="5.00" min="1" max="5"/>
+    <media:statistics views="48554"/>
    </media:community>
   </media:group>
  </entry>
@@ -302,15 +327,15 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2023-09-13T05:47:26+00:00</published>
-  <updated>2023-09-21T10:21:58+00:00</updated>
+  <updated>2023-11-23T17:40:22+00:00</updated>
   <media:group>
    <media:title>如果抹去人类历史，从零开始的人类最终会去向何方？</media:title>
    <media:content url="https://www.youtube.com/v/P_hIXilcn60?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i1.ytimg.com/vi/P_hIXilcn60/hqdefault.jpg" width="480" height="360"/>
    <media:description>《XeeLee》系列从第三集开始，也要正式进入正题了，真正意义上的战争和剧情走向也要开始了。而且我们文案的叙事也相对加快了，以前计划十多集完成，目前计划在8集以内搞定。</media:description>
    <media:community>
-    <media:starRating count="211" average="5.00" min="1" max="5"/>
-    <media:statistics views="10626"/>
+    <media:starRating count="222" average="5.00" min="1" max="5"/>
+    <media:statistics views="11312"/>
    </media:community>
   </media:group>
  </entry>
@@ -325,7 +350,7 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2023-09-08T04:31:14+00:00</published>
-  <updated>2023-09-10T10:09:27+00:00</updated>
+  <updated>2023-11-24T00:56:37+00:00</updated>
   <media:group>
    <media:title>在未来，数字王国和现实世界谁才是真正的主宰：科幻小说《幻影帝国》</media:title>
    <media:content url="https://www.youtube.com/v/LM5i4tp1n3E?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -334,33 +359,7 @@
 《幻影帝国》是暮夏之薰所著科幻小说，如感兴趣，请在起点读书app搜索“幻影帝国”阅读原著。</media:description>
    <media:community>
     <media:starRating count="112" average="5.00" min="1" max="5"/>
-    <media:statistics views="6581"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:5Y6Lm4dXeAc</id>
-  <yt:videoId>5Y6Lm4dXeAc</yt:videoId>
-  <yt:channelId>UCp1nO1bgVwks9b5EhKQGVag</yt:channelId>
-  <title>关于宇宙中“巨引源”的真相——科幻巨著《XeeLee》第二集</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=5Y6Lm4dXeAc"/>
-  <author>
-   <name>幻海航行--science fiction</name>
-   <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
-  </author>
-  <published>2023-09-04T03:55:02+00:00</published>
-  <updated>2023-11-17T05:45:17+00:00</updated>
-  <media:group>
-   <media:title>关于宇宙中“巨引源”的真相——科幻巨著《XeeLee》第二集</media:title>
-   <media:content url="https://www.youtube.com/v/5Y6Lm4dXeAc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/5Y6Lm4dXeAc/hqdefault.jpg" width="480" height="360"/>
-   <media:description>基本上在前五集就能更完完毕人类崛起的大阶段，下来就到了人类对泽利，泽利对“光微子”鸟的战争。
-
-0：00 夸克斯人占领地球
-08：46 巨引源的真相</media:description>
-   <media:community>
-    <media:starRating count="259" average="5.00" min="1" max="5"/>
-    <media:statistics views="11475"/>
+    <media:statistics views="6672"/>
    </media:community>
   </media:group>
  </entry>
