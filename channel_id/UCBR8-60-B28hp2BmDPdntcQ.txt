@@ -10,6 +10,29 @@
   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
  </author>
  <entry>
+  <id>yt:video:Iz_YgNfceXA</id>
+  <yt:videoId>Iz_YgNfceXA</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>@MissJazminaD made the perfect lip for @TateMcRae’s #KissesToMyExes 👄</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Iz_YgNfceXA"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2023-11-29T17:13:28+00:00</published>
+  <updated>2023-11-29T17:13:30+00:00</updated>
+  <media:group>
+   <media:title>@MissJazminaD made the perfect lip for @TateMcRae’s #KissesToMyExes 👄</media:title>
+   <media:content url="https://www.youtube.com/v/Iz_YgNfceXA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/Iz_YgNfceXA/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="739" average="5.00" min="1" max="5"/>
+    <media:statistics views="18785"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:Rv0z6FNUBlE</id>
   <yt:videoId>Rv0z6FNUBlE</yt:videoId>
   <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
@@ -27,8 +50,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/Rv0z6FNUBlE/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="532" average="5.00" min="1" max="5"/>
-    <media:statistics views="8324"/>
+    <media:starRating count="859" average="5.00" min="1" max="5"/>
+    <media:statistics views="21428"/>
    </media:community>
   </media:group>
  </entry>
@@ -50,8 +73,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/t1hdFbaTXfM/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1048" average="5.00" min="1" max="5"/>
-    <media:statistics views="20051"/>
+    <media:starRating count="1228" average="5.00" min="1" max="5"/>
+    <media:statistics views="25836"/>
    </media:community>
   </media:group>
  </entry>
@@ -73,8 +96,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/lLHrUcNFpjo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1657" average="5.00" min="1" max="5"/>
-    <media:statistics views="31511"/>
+    <media:starRating count="1852" average="5.00" min="1" max="5"/>
+    <media:statistics views="37223"/>
    </media:community>
   </media:group>
  </entry>
@@ -96,8 +119,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/DbL-mBV1mtA/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1581" average="5.00" min="1" max="5"/>
-    <media:statistics views="40974"/>
+    <media:starRating count="1696" average="5.00" min="1" max="5"/>
+    <media:statistics views="44786"/>
    </media:community>
   </media:group>
  </entry>
@@ -119,8 +142,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/sbJCo2ODPxI/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1775" average="5.00" min="1" max="5"/>
-    <media:statistics views="41705"/>
+    <media:starRating count="1862" average="5.00" min="1" max="5"/>
+    <media:statistics views="44159"/>
    </media:community>
   </media:group>
  </entry>
@@ -142,8 +165,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/LjYKeKLEk30/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1555" average="5.00" min="1" max="5"/>
-    <media:statistics views="36686"/>
+    <media:starRating count="1598" average="5.00" min="1" max="5"/>
+    <media:statistics views="38771"/>
    </media:community>
   </media:group>
  </entry>
@@ -165,8 +188,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/AdilfuzaeTI/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1443" average="5.00" min="1" max="5"/>
-    <media:statistics views="43061"/>
+    <media:starRating count="1488" average="5.00" min="1" max="5"/>
+    <media:statistics views="45500"/>
    </media:community>
   </media:group>
  </entry>
@@ -188,8 +211,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/H4qYL9S6qK4/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1959" average="5.00" min="1" max="5"/>
-    <media:statistics views="56953"/>
+    <media:starRating count="1999" average="5.00" min="1" max="5"/>
+    <media:statistics views="58523"/>
    </media:community>
   </media:group>
  </entry>
@@ -211,8 +234,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/BdvcatsORiU/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2484" average="5.00" min="1" max="5"/>
-    <media:statistics views="70720"/>
+    <media:starRating count="2513" average="5.00" min="1" max="5"/>
+    <media:statistics views="72522"/>
    </media:community>
   </media:group>
  </entry>
@@ -259,8 +282,8 @@ FEATURED CREATORS:
 @ShevandDev 
 @MarkWiens</media:description>
    <media:community>
-    <media:starRating count="4241" average="5.00" min="1" max="5"/>
-    <media:statistics views="668288"/>
+    <media:starRating count="4275" average="5.00" min="1" max="5"/>
+    <media:statistics views="672832"/>
    </media:community>
   </media:group>
  </entry>
@@ -316,8 +339,8 @@ Featured Creators:
 
 #cozygaming #YouTube #Gaming</media:description>
    <media:community>
-    <media:starRating count="2634" average="5.00" min="1" max="5"/>
-    <media:statistics views="737478"/>
+    <media:starRating count="2779" average="5.00" min="1" max="5"/>
+    <media:statistics views="824030"/>
    </media:community>
   </media:group>
  </entry>
@@ -339,8 +362,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/JB1v-XN_lAw/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2006" average="5.00" min="1" max="5"/>
-    <media:statistics views="48977"/>
+    <media:starRating count="2029" average="5.00" min="1" max="5"/>
+    <media:statistics views="49999"/>
    </media:community>
   </media:group>
  </entry>
@@ -362,8 +385,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/zfNFE4d3aSQ/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4326" average="5.00" min="1" max="5"/>
-    <media:statistics views="182924"/>
+    <media:starRating count="4373" average="5.00" min="1" max="5"/>
+    <media:statistics views="185470"/>
    </media:community>
   </media:group>
  </entry>
@@ -385,31 +408,8 @@ Featured Creators:
    <media:thumbnail url="https://i2.ytimg.com/vi/IqCrfQX6JNw/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2159" average="5.00" min="1" max="5"/>
-    <media:statistics views="67401"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:gXLGzPfvh1k</id>
-  <yt:videoId>gXLGzPfvh1k</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>ok chip out here looking like a snack tho….</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=gXLGzPfvh1k"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2023-11-07T18:01:13+00:00</published>
-  <updated>2023-11-07T18:05:52+00:00</updated>
-  <media:group>
-   <media:title>ok chip out here looking like a snack tho….</media:title>
-   <media:content url="https://www.youtube.com/v/gXLGzPfvh1k?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/gXLGzPfvh1k/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="2966" average="5.00" min="1" max="5"/>
-    <media:statistics views="62335"/>
+    <media:starRating count="2175" average="5.00" min="1" max="5"/>
+    <media:statistics views="68499"/>
    </media:community>
   </media:group>
  </entry>

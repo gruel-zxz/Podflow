@@ -142,7 +142,7 @@ except ImportError:
 
 
 # HTTP GET请求重试模块
-def get_with_retry(url, name, max_retries=10, retry_delay=6, headers_possess=False):
+def http_get(url, name, max_retries=10, retry_delay=6, headers_possess=False):
     user_agent = {
         "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36"
     }
@@ -192,7 +192,7 @@ def library_install(library, library_install_dic=None):
             version_update = library_install_dic[library]
         else:
             # 获取最新版本编号
-            version_update = get_with_retry(
+            version_update = http_get(
                 f"https://pypi.org/project/{library}/", f"{library}", 2, 2
             )
             if version_update:
@@ -242,7 +242,7 @@ library_install_dic = {}
 
 def library_install_get(library):
     # 获取最新版本编号
-    version_update = get_with_retry(
+    version_update = http_get(
         f"https://pypi.org/project/{library}/", f"{library}", 2, 2
     )
     if version_update:
@@ -830,7 +830,7 @@ if "category" not in config:
 # 根据日出日落修改封面(只适用原封面)
 if config["icon"] == default_config["icon"]:
     # 获取公网IP地址
-    response = get_with_retry("https://ipinfo.io", "日出日落信息", 10, 6)
+    response = http_get("https://ipinfo.io", "日出日落信息", 10, 6)
     if response:
         data = response.json()
         # 提取经度和纬度
@@ -1066,7 +1066,7 @@ pattern_youtube_varys = [
 def youtube_rss_update(youtube_key, youtube_value):
     # 构建 URL
     youtube_url = f"https://www.youtube.com/feeds/videos.xml?channel_id={youtube_key}"
-    youtube_response = get_with_retry(youtube_url, youtube_value)
+    youtube_response = http_get(youtube_url, youtube_value)
     channelid_youtube_rss[youtube_key] = youtube_response
     if youtube_response:
         youtube_content = youtube_response.text
@@ -1552,7 +1552,7 @@ youtube_xml_get_tree = {}
 
 # 使用http获取youtube频道简介和图标模块
 def youtube_xml_get(output_dir):
-    if channel_about := get_with_retry(
+    if channel_about := http_get(
         f"https://www.youtube.com/channel/{output_dir}/about",
         f"{channelid_youtube_ids[output_dir]} 简介",
         2,

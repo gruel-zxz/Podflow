@@ -11,6 +11,29 @@
  </author>
  <published>2020-08-21T01:53:13+00:00</published>
  <entry>
+  <id>yt:video:fxZa9SY4RTk</id>
+  <yt:videoId>fxZa9SY4RTk</yt:videoId>
+  <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
+  <title>男女之间情感差异有多大？</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=fxZa9SY4RTk"/>
+  <author>
+   <name>绝密研究所</name>
+   <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
+  </author>
+  <published>2023-11-30T00:15:06+00:00</published>
+  <updated>2023-11-30T00:22:48+00:00</updated>
+  <media:group>
+   <media:title>男女之间情感差异有多大？</media:title>
+   <media:content url="https://www.youtube.com/v/fxZa9SY4RTk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/fxZa9SY4RTk/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="8"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:xCLh5Y8qz4k</id>
   <yt:videoId>xCLh5Y8qz4k</yt:videoId>
   <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
@@ -28,8 +51,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/xCLh5Y8qz4k/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="0" average="0.00" min="1" max="5"/>
-    <media:statistics views="4"/>
+    <media:starRating count="1" average="5.00" min="1" max="5"/>
+    <media:statistics views="22"/>
    </media:community>
   </media:group>
  </entry>
@@ -44,34 +67,11 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2023-11-28T08:08:19+00:00</published>
-  <updated>2023-11-28T09:59:52+00:00</updated>
+  <updated>2023-11-29T18:44:38+00:00</updated>
   <media:group>
    <media:title>信息茧房，是如何裹挟你的世界</media:title>
    <media:content url="https://www.youtube.com/v/wXnBeDzWBOU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i4.ytimg.com/vi/wXnBeDzWBOU/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="0" average="0.00" min="1" max="5"/>
-    <media:statistics views="0"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:fxZa9SY4RTk</id>
-  <yt:videoId>fxZa9SY4RTk</yt:videoId>
-  <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
-  <title>男女之间情感差异有多大？</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=fxZa9SY4RTk"/>
-  <author>
-   <name>绝密研究所</name>
-   <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
-  </author>
-  <published>2023-11-28T02:57:19+00:00</published>
-  <updated>2023-11-28T18:56:48+00:00</updated>
-  <media:group>
-   <media:title>男女之间情感差异有多大？</media:title>
-   <media:content url="https://www.youtube.com/v/fxZa9SY4RTk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/fxZa9SY4RTk/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
     <media:starRating count="0" average="0.00" min="1" max="5"/>
@@ -97,8 +97,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/LN6rIA_zaZU/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="0" average="0.00" min="1" max="5"/>
-    <media:statistics views="44"/>
+    <media:starRating count="1" average="5.00" min="1" max="5"/>
+    <media:statistics views="53"/>
    </media:community>
   </media:group>
  </entry>
@@ -121,7 +121,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="40"/>
+    <media:statistics views="42"/>
    </media:community>
   </media:group>
  </entry>
@@ -167,7 +167,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="138"/>
+    <media:statistics views="155"/>
    </media:community>
   </media:group>
  </entry>
@@ -190,7 +190,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="0" average="0.00" min="1" max="5"/>
-    <media:statistics views="26"/>
+    <media:statistics views="28"/>
    </media:community>
   </media:group>
  </entry>
@@ -212,8 +212,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/4hZ_tiM_Ec8/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="716"/>
+    <media:starRating count="8" average="5.00" min="1" max="5"/>
+    <media:statistics views="764"/>
    </media:community>
   </media:group>
  </entry>
@@ -236,7 +236,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="0" average="0.00" min="1" max="5"/>
-    <media:statistics views="305"/>
+    <media:statistics views="327"/>
    </media:community>
   </media:group>
  </entry>
@@ -259,7 +259,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="268"/>
+    <media:statistics views="269"/>
    </media:community>
   </media:group>
  </entry>
@@ -305,7 +305,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="31"/>
+    <media:statistics views="32"/>
    </media:community>
   </media:group>
  </entry>
@@ -328,7 +328,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="126"/>
+    <media:statistics views="127"/>
    </media:community>
   </media:group>
  </entry>
@@ -351,7 +351,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="0" average="0.00" min="1" max="5"/>
-    <media:statistics views="186"/>
+    <media:statistics views="189"/>
    </media:community>
   </media:group>
  </entry>
