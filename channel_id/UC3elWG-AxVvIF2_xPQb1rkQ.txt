@@ -11,6 +11,33 @@
  </author>
  <published>2022-06-04T16:17:27+00:00</published>
  <entry>
+  <id>yt:video:1t0mRjci4Cc</id>
+  <yt:videoId>1t0mRjci4Cc</yt:videoId>
+  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
+  <title>画饼出现前，这叫做承诺？爱吐槽的四季妈妈揭秘家庭承诺的前世今生！#家庭吐槽大会</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=1t0mRjci4Cc"/>
+  <author>
+   <name>四季妈妈—小龙</name>
+   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
+  </author>
+  <published>2023-11-30T07:09:46+00:00</published>
+  <updated>2023-11-30T07:12:47+00:00</updated>
+  <media:group>
+   <media:title>画饼出现前，这叫做承诺？爱吐槽的四季妈妈揭秘家庭承诺的前世今生！#家庭吐槽大会</media:title>
+   <media:content url="https://www.youtube.com/v/1t0mRjci4Cc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/1t0mRjci4Cc/hqdefault.jpg" width="480" height="360"/>
+   <media:description>大家好，欢迎回到我的频道！在画饼这个词出现之前，那些美好的承诺是不是有点不同呢？今天，我们将通过爱吐槽的四季妈妈的眼光，揭秘在画饼成为流行词汇之前，家庭中的承诺是什么样子的，同时分享一些令人捧腹的家庭吐槽。
+
+在这期视频中，我们将以幽默风趣的方式回顾过去的家庭承诺，看看那时候的表达方式和如今的有什么不同。或许您会在笑声中找到一些曾经的影子。
+
+别忘了点赞、订阅，并在评论区分享您对家庭承诺的见解和回忆。一起来揭秘画饼之前的美好承诺吧！#家庭生活 #幽默回顾 #笑中思考</media:description>
+   <media:community>
+    <media:starRating count="5" average="5.00" min="1" max="5"/>
+    <media:statistics views="199"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:AeRiNXB4iMY</id>
   <yt:videoId>AeRiNXB4iMY</yt:videoId>
   <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
@@ -33,7 +60,7 @@
 别忘了点赞、订阅，并在评论区分享您对河北人电商实在风格的看法。一起来感受这种独特的商业魅力吧！#电商风格 #幽默吐槽 #实在表现</media:description>
    <media:community>
     <media:starRating count="10" average="5.00" min="1" max="5"/>
-    <media:statistics views="223"/>
+    <media:statistics views="262"/>
    </media:community>
   </media:group>
  </entry>
@@ -60,7 +87,7 @@
 别忘了点赞、订阅，并在评论区分享你们的看法和有趣的经验。一起来笑一笑，学一学这个独门绝技吧！#吐槽生活 #幽默技巧 #笑中学习</media:description>
    <media:community>
     <media:starRating count="11" average="5.00" min="1" max="5"/>
-    <media:statistics views="239"/>
+    <media:statistics views="245"/>
    </media:community>
   </media:group>
  </entry>
@@ -87,7 +114,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一话题的见解和吐槽。一起来笑谈钓鱼佬的独特魅力吧！#钓鱼生活 #幽默观察 #家庭笑话</media:description>
    <media:community>
     <media:starRating count="9" average="5.00" min="1" max="5"/>
-    <media:statistics views="391"/>
+    <media:statistics views="397"/>
    </media:community>
   </media:group>
  </entry>
@@ -114,7 +141,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一时光变迁的感慨和笑点。一起来品味四川的幽默变迁吧！#四川美食 #幽默回顾 #笑谈往事</media:description>
    <media:community>
     <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="414"/>
+    <media:statistics views="426"/>
    </media:community>
   </media:group>
  </entry>
@@ -141,7 +168,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一独特观点的看法。一起来笑破肚皮，揭秘男人“高级智能”背后的幽默真相吧！ #家庭生活 #幽默解读 #笑料百出</media:description>
    <media:community>
     <media:starRating count="9" average="5.00" min="1" max="5"/>
-    <media:statistics views="492"/>
+    <media:statistics views="496"/>
    </media:community>
   </media:group>
  </entry>
@@ -168,7 +195,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一独特观点的看法。一起来笑破肚皮，揭秘男人“高级智能”背后的幽默真相吧！ #家庭生活 #幽默解读 #笑料百出</media:description>
    <media:community>
     <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="805"/>
+    <media:statistics views="808"/>
    </media:community>
   </media:group>
  </entry>
@@ -195,7 +222,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一话题的看法和经验。一起来揭秘婚姻中男人为何不回复老婆消息的神秘现象吧！ #婚姻沟通 #家庭生活 #幽默解读</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="560"/>
+    <media:statistics views="561"/>
    </media:community>
   </media:group>
  </entry>
@@ -218,7 +245,7 @@
    <media:description>男人消费力首次超越宠物狗，原因竟然是   #爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="444"/>
+    <media:statistics views="445"/>
    </media:community>
   </media:group>
  </entry>
@@ -241,7 +268,7 @@
    <media:description>山东虽然多侠义之士，但是竟然没有出过皇帝#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="10" average="5.00" min="1" max="5"/>
-    <media:statistics views="582"/>
+    <media:statistics views="583"/>
    </media:community>
   </media:group>
  </entry>
@@ -287,7 +314,7 @@
    <media:description>大学生喜提脆脆鲨称号，现在身体好不好真的不能用年纪来界定了#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="703"/>
+    <media:statistics views="704"/>
    </media:community>
   </media:group>
  </entry>
@@ -332,8 +359,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/9pOjvxFzpJg/hqdefault.jpg" width="480" height="360"/>
    <media:description>哪个北方爷们的后备箱没有拉过菜？举手让我看看#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="126" average="5.00" min="1" max="5"/>
-    <media:statistics views="6940"/>
+    <media:starRating count="127" average="5.00" min="1" max="5"/>
+    <media:statistics views="6957"/>
    </media:community>
   </media:group>
  </entry>
@@ -355,31 +382,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/FuX-h0Y0hHE/hqdefault.jpg" width="480" height="360"/>
    <media:description>男人为什么喝茶，他喝的不仅仅是茶#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="159" average="5.00" min="1" max="5"/>
-    <media:statistics views="5609"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:q-LduG_klyY</id>
-  <yt:videoId>q-LduG_klyY</yt:videoId>
-  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
-  <title>分享一个省钱小妙招，首先你得有一群东北的好朋友#爱吐槽的四季妈妈 #家庭吐槽大会</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=q-LduG_klyY"/>
-  <author>
-   <name>四季妈妈—小龙</name>
-   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
-  </author>
-  <published>2023-10-27T02:05:57+00:00</published>
-  <updated>2023-11-26T06:00:01+00:00</updated>
-  <media:group>
-   <media:title>分享一个省钱小妙招，首先你得有一群东北的好朋友#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
-   <media:content url="https://www.youtube.com/v/q-LduG_klyY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/q-LduG_klyY/hqdefault.jpg" width="480" height="360"/>
-   <media:description>分享一个省钱小妙招，首先你得有一群东北的好朋友#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
-   <media:community>
-    <media:starRating count="10" average="5.00" min="1" max="5"/>
-    <media:statistics views="652"/>
+    <media:starRating count="160" average="5.00" min="1" max="5"/>
+    <media:statistics views="5632"/>
    </media:community>
   </media:group>
  </entry>
