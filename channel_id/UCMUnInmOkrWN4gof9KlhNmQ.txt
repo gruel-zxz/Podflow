@@ -14,16 +14,16 @@
   <id>yt:video:mBcxZbS-I6w</id>
   <yt:videoId>mBcxZbS-I6w</yt:videoId>
   <yt:channelId>UCMUnInmOkrWN4gof9KlhNmQ</yt:channelId>
-  <title>二十七分鐘講完真正的海賊王和他們的寶藏 | 老高與小茉 Mr &amp; Mrs Gao</title>
+  <title>二十七分鐘講完真正的海賊王 | 老高與小茉 Mr &amp; Mrs Gao</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=mBcxZbS-I6w"/>
   <author>
    <name>老高與小茉 Mr &amp; Mrs Gao</name>
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
   <published>2023-11-29T13:00:11+00:00</published>
-  <updated>2023-11-30T13:50:08+00:00</updated>
+  <updated>2023-12-01T13:16:10+00:00</updated>
   <media:group>
-   <media:title>二十七分鐘講完真正的海賊王和他們的寶藏 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
+   <media:title>二十七分鐘講完真正的海賊王 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/mBcxZbS-I6w?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i2.ytimg.com/vi/mBcxZbS-I6w/hqdefault.jpg" width="480" height="360"/>
    <media:description>【加入會員按鈕】https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ/join
@@ -255,8 +255,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="26872" average="5.00" min="1" max="5"/>
-    <media:statistics views="1216874"/>
+    <media:starRating count="28643" average="5.00" min="1" max="5"/>
+    <media:statistics views="1337578"/>
    </media:community>
   </media:group>
  </entry>
@@ -505,8 +505,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="44999" average="5.00" min="1" max="5"/>
-    <media:statistics views="2176549"/>
+    <media:starRating count="45207" average="5.00" min="1" max="5"/>
+    <media:statistics views="2193687"/>
    </media:community>
   </media:group>
  </entry>
@@ -514,16 +514,16 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
   <id>yt:video:WtbfFFmpSnc</id>
   <yt:videoId>WtbfFFmpSnc</yt:videoId>
   <yt:channelId>UCMUnInmOkrWN4gof9KlhNmQ</yt:channelId>
-  <title>【填一個四年前的坑】神學最大的謎團，天使，研究了上千年都不知道他們究竟是什麼 | 老高與小茉 Mr &amp; Mrs Gao</title>
+  <title>神學最大的謎團，天使，研究了上千年都不知道他們究竟是什麼 | 老高與小茉 Mr &amp; Mrs Gao</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=WtbfFFmpSnc"/>
   <author>
    <name>老高與小茉 Mr &amp; Mrs Gao</name>
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
   <published>2023-11-15T13:01:21+00:00</published>
-  <updated>2023-11-30T12:30:30+00:00</updated>
+  <updated>2023-12-01T04:51:18+00:00</updated>
   <media:group>
-   <media:title>【填一個四年前的坑】神學最大的謎團，天使，研究了上千年都不知道他們究竟是什麼 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
+   <media:title>神學最大的謎團，天使，研究了上千年都不知道他們究竟是什麼 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/WtbfFFmpSnc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i4.ytimg.com/vi/WtbfFFmpSnc/hqdefault.jpg" width="480" height="360"/>
    <media:description>【加入會員按鈕】https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ/join
@@ -755,8 +755,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="40644" average="5.00" min="1" max="5"/>
-    <media:statistics views="2312165"/>
+    <media:starRating count="40725" average="5.00" min="1" max="5"/>
+    <media:statistics views="2319315"/>
    </media:community>
   </media:group>
  </entry>
@@ -1005,8 +1005,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="55988" average="5.00" min="1" max="5"/>
-    <media:statistics views="2872431"/>
+    <media:starRating count="56036" average="5.00" min="1" max="5"/>
+    <media:statistics views="2876913"/>
    </media:community>
   </media:group>
  </entry>
@@ -1255,8 +1255,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="57234" average="5.00" min="1" max="5"/>
-    <media:statistics views="2769858"/>
+    <media:starRating count="57270" average="5.00" min="1" max="5"/>
+    <media:statistics views="2774371"/>
    </media:community>
   </media:group>
  </entry>
@@ -1271,18 +1271,13 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
   <published>2023-10-25T12:00:08+00:00</published>
-  <updated>2023-11-30T06:57:55+00:00</updated>
+  <updated>2023-12-01T07:58:27+00:00</updated>
   <media:group>
    <media:title>二十六分鐘講完傳說中的各種寶劍寶刀邪刀妖刀 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/qmQr2Epo_ZQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i2.ytimg.com/vi/qmQr2Epo_ZQ/hqdefault.jpg" width="480" height="360"/>
    <media:description>【加入會員按鈕】https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ/join
 【訂閱頻道按鈕】https://goo.gl/VhzZeS
-------------------------------------------------
-參考資料：
-TBS《1600年前的國寶級蛇行劍》
-搜狐《中國十大名劍》
-維基百科等
 ------------------------------------------------
 相關鏈接：
 
@@ -1504,8 +1499,8 @@ https://www.youtube.com/watch?v=Ttus8XGK6Xw
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="43137" average="5.00" min="1" max="5"/>
-    <media:statistics views="2531748"/>
+    <media:starRating count="43172" average="5.00" min="1" max="5"/>
+    <media:statistics views="2536535"/>
    </media:community>
   </media:group>
  </entry>
@@ -1733,8 +1728,8 @@ https://www.youtube.com/watch?v=N4xXGIrzKJs
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="50526" average="5.00" min="1" max="5"/>
-    <media:statistics views="3197470"/>
+    <media:starRating count="50568" average="5.00" min="1" max="5"/>
+    <media:statistics views="3202211"/>
    </media:community>
   </media:group>
  </entry>
@@ -1982,8 +1977,8 @@ https://www.youtube.com/watch?v=Ttus8XGK6Xw
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="67548" average="5.00" min="1" max="5"/>
-    <media:statistics views="3268651"/>
+    <media:starRating count="67602" average="5.00" min="1" max="5"/>
+    <media:statistics views="3272057"/>
    </media:community>
   </media:group>
  </entry>
@@ -2154,8 +2149,8 @@ https://www.youtube.com/watch?v=7q88m5MQRhE
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="47252" average="5.00" min="1" max="5"/>
-    <media:statistics views="2726929"/>
+    <media:starRating count="47271" average="5.00" min="1" max="5"/>
+    <media:statistics views="2728862"/>
    </media:community>
   </media:group>
  </entry>
@@ -2404,8 +2399,8 @@ https://www.youtube.com/watch?v=Mshz9DxQLbE
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="55056" average="5.00" min="1" max="5"/>
-    <media:statistics views="3276037"/>
+    <media:starRating count="55078" average="5.00" min="1" max="5"/>
+    <media:statistics views="3279367"/>
    </media:community>
   </media:group>
  </entry>
@@ -2652,8 +2647,8 @@ https://www.youtube.com/watch?v=Ttus8XGK6Xw
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="78232" average="5.00" min="1" max="5"/>
-    <media:statistics views="3503560"/>
+    <media:starRating count="78274" average="5.00" min="1" max="5"/>
+    <media:statistics views="3506256"/>
    </media:community>
   </media:group>
  </entry>
@@ -2899,8 +2894,8 @@ https://www.youtube.com/watch?v=Ttus8XGK6Xw
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="80994" average="5.00" min="1" max="5"/>
-    <media:statistics views="3423751"/>
+    <media:starRating count="81050" average="5.00" min="1" max="5"/>
+    <media:statistics views="3427669"/>
    </media:community>
   </media:group>
  </entry>
@@ -3144,8 +3139,8 @@ https://www.youtube.com/watch?v=ElqnKNkiyHA
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="55523" average="5.00" min="1" max="5"/>
-    <media:statistics views="3295407"/>
+    <media:starRating count="55553" average="5.00" min="1" max="5"/>
+    <media:statistics views="3297294"/>
    </media:community>
   </media:group>
  </entry>
@@ -3361,8 +3356,8 @@ https://www.youtube.com/watch?v=N4xXGIrzKJs
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="64649" average="5.00" min="1" max="5"/>
-    <media:statistics views="3101273"/>
+    <media:starRating count="64675" average="5.00" min="1" max="5"/>
+    <media:statistics views="3103846"/>
    </media:community>
   </media:group>
  </entry>
@@ -3571,8 +3566,8 @@ https://www.youtube.com/watch?v=czNMh9kVhIE
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="60771" average="5.00" min="1" max="5"/>
-    <media:statistics views="3233883"/>
+    <media:starRating count="60781" average="5.00" min="1" max="5"/>
+    <media:statistics views="3235420"/>
    </media:community>
   </media:group>
  </entry>

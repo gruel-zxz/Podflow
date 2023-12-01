@@ -20,17 +20,21 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2023-11-30T17:00:36+00:00</published>
-  <updated>2023-11-30T21:59:59+00:00</updated>
+  <updated>2023-12-01T02:40:41+00:00</updated>
   <media:group>
    <media:title>How @NymaTang helped change the beauty industry | #YouTubeBlack presents Flowers</media:title>
    <media:content url="https://www.youtube.com/v/iHhTRAvu8k0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i2.ytimg.com/vi/iHhTRAvu8k0/hqdefault.jpg" width="480" height="360"/>
    <media:description>Nyma Tang gets the flowers she deserves, here and now, for her series The Darkest Shade, which sparked a conversation on YouTube around the need for inclusion in the beauty industry.
 
-Online video trends have evolved to become the driving force of pop culture. But do you know who’s creating them? From the moment of upload, discover the untold, true stories of the Black creators and culture behind your favorite trends.</media:description>
+Online video trends have evolved to become the driving force of pop culture. But do you know who’s creating them? From the moment of upload, discover the untold, true stories of the Black creators and culture behind your favorite trends.
+
+Watch sWooZie’s story here: http://yt.be/SwoozieFlowers
+
+Bianca Bonnie’s story coming Jan 18th.</media:description>
    <media:community>
-    <media:starRating count="701" average="5.00" min="1" max="5"/>
-    <media:statistics views="39969"/>
+    <media:starRating count="939" average="5.00" min="1" max="5"/>
+    <media:statistics views="93239"/>
    </media:community>
   </media:group>
  </entry>
@@ -45,15 +49,15 @@ Online video trends have evolved to become the driving force of pop culture. But
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2023-11-29T17:13:28+00:00</published>
-  <updated>2023-11-30T10:29:16+00:00</updated>
+  <updated>2023-12-01T13:28:18+00:00</updated>
   <media:group>
    <media:title>@MissJazminaD made the perfect lip for @TateMcRae’s #KissesToMyExes 👄</media:title>
    <media:content url="https://www.youtube.com/v/Iz_YgNfceXA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i2.ytimg.com/vi/Iz_YgNfceXA/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1132" average="5.00" min="1" max="5"/>
-    <media:statistics views="35675"/>
+    <media:starRating count="1251" average="5.00" min="1" max="5"/>
+    <media:statistics views="41388"/>
    </media:community>
   </media:group>
  </entry>
@@ -75,8 +79,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i3.ytimg.com/vi/Rv0z6FNUBlE/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1011" average="5.00" min="1" max="5"/>
-    <media:statistics views="26855"/>
+    <media:starRating count="1073" average="5.00" min="1" max="5"/>
+    <media:statistics views="29291"/>
    </media:community>
   </media:group>
  </entry>
@@ -98,8 +102,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i1.ytimg.com/vi/t1hdFbaTXfM/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1349" average="5.00" min="1" max="5"/>
-    <media:statistics views="29406"/>
+    <media:starRating count="1399" average="5.00" min="1" max="5"/>
+    <media:statistics views="31122"/>
    </media:community>
   </media:group>
  </entry>
@@ -121,8 +125,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i1.ytimg.com/vi/lLHrUcNFpjo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1992" average="5.00" min="1" max="5"/>
-    <media:statistics views="41462"/>
+    <media:starRating count="2066" average="5.00" min="1" max="5"/>
+    <media:statistics views="43619"/>
    </media:community>
   </media:group>
  </entry>
@@ -144,8 +148,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i1.ytimg.com/vi/DbL-mBV1mtA/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1774" average="5.00" min="1" max="5"/>
-    <media:statistics views="47764"/>
+    <media:starRating count="1800" average="5.00" min="1" max="5"/>
+    <media:statistics views="49256"/>
    </media:community>
   </media:group>
  </entry>
@@ -167,8 +171,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i4.ytimg.com/vi/sbJCo2ODPxI/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1910" average="5.00" min="1" max="5"/>
-    <media:statistics views="45961"/>
+    <media:starRating count="1933" average="5.00" min="1" max="5"/>
+    <media:statistics views="46829"/>
    </media:community>
   </media:group>
  </entry>
@@ -190,8 +194,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i1.ytimg.com/vi/LjYKeKLEk30/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1636" average="5.00" min="1" max="5"/>
-    <media:statistics views="40403"/>
+    <media:starRating count="1654" average="5.00" min="1" max="5"/>
+    <media:statistics views="41186"/>
    </media:community>
   </media:group>
  </entry>
@@ -213,8 +217,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i2.ytimg.com/vi/AdilfuzaeTI/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1524" average="5.00" min="1" max="5"/>
-    <media:statistics views="47504"/>
+    <media:starRating count="1544" average="5.00" min="1" max="5"/>
+    <media:statistics views="48448"/>
    </media:community>
   </media:group>
  </entry>
@@ -236,8 +240,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i1.ytimg.com/vi/H4qYL9S6qK4/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2017" average="5.00" min="1" max="5"/>
-    <media:statistics views="59866"/>
+    <media:starRating count="2034" average="5.00" min="1" max="5"/>
+    <media:statistics views="60502"/>
    </media:community>
   </media:group>
  </entry>
@@ -259,8 +263,8 @@ Online video trends have evolved to become the driving force of pop culture. But
    <media:thumbnail url="https://i3.ytimg.com/vi/BdvcatsORiU/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2537" average="5.00" min="1" max="5"/>
-    <media:statistics views="74010"/>
+    <media:starRating count="2548" average="5.00" min="1" max="5"/>
+    <media:statistics views="74693"/>
    </media:community>
   </media:group>
  </entry>
@@ -307,8 +311,8 @@ FEATURED CREATORS:
 @ShevandDev 
 @MarkWiens</media:description>
    <media:community>
-    <media:starRating count="4298" average="5.00" min="1" max="5"/>
-    <media:statistics views="676379"/>
+    <media:starRating count="4302" average="5.00" min="1" max="5"/>
+    <media:statistics views="677699"/>
    </media:community>
   </media:group>
  </entry>
@@ -364,8 +368,8 @@ Featured Creators:
 
 #cozygaming #YouTube #Gaming</media:description>
    <media:community>
-    <media:starRating count="2866" average="5.00" min="1" max="5"/>
-    <media:statistics views="871487"/>
+    <media:starRating count="2894" average="5.00" min="1" max="5"/>
+    <media:statistics views="876194"/>
    </media:community>
   </media:group>
  </entry>
@@ -387,8 +391,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/JB1v-XN_lAw/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2040" average="5.00" min="1" max="5"/>
-    <media:statistics views="50813"/>
+    <media:starRating count="2051" average="5.00" min="1" max="5"/>
+    <media:statistics views="51241"/>
    </media:community>
   </media:group>
  </entry>
@@ -410,8 +414,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/zfNFE4d3aSQ/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4397" average="5.00" min="1" max="5"/>
-    <media:statistics views="187476"/>
+    <media:starRating count="4413" average="5.00" min="1" max="5"/>
+    <media:statistics views="188488"/>
    </media:community>
   </media:group>
  </entry>
