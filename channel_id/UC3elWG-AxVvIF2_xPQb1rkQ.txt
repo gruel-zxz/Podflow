@@ -11,6 +11,33 @@
  </author>
  <published>2022-06-04T16:17:27+00:00</published>
  <entry>
+  <id>yt:video:bEN1oRIaI_E</id>
+  <yt:videoId>bEN1oRIaI_E</yt:videoId>
+  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
+  <title>老公每晚都在和别人的老婆聊天？爱吐槽的四季妈妈揭秘夜间神秘行为！#家庭吐槽大会</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=bEN1oRIaI_E"/>
+  <author>
+   <name>四季妈妈—小龙</name>
+   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
+  </author>
+  <published>2023-12-02T08:58:32+00:00</published>
+  <updated>2023-12-02T10:46:24+00:00</updated>
+  <media:group>
+   <media:title>老公每晚都在和别人的老婆聊天？爱吐槽的四季妈妈揭秘夜间神秘行为！#家庭吐槽大会</media:title>
+   <media:content url="https://www.youtube.com/v/bEN1oRIaI_E?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/bEN1oRIaI_E/hqdefault.jpg" width="480" height="360"/>
+   <media:description>嗨，各位观众朋友们，欢迎回到我的频道！今天我们要揭秘一个让人好奇的现象：老公为何每晚都在和别人的老婆发消息呢？通过爱吐槽的四季妈妈的独特视角，我将以幽默风趣的方式为大家解读这个夜间神秘行为，并分享一些家庭吐槽的趣事。
+
+在这期视频中，我们将一同调查老公夜间行为的真相，看看是不是真的有什么“鬼鬼祟祟”的事情发生。当然，这是以轻松幽默的方式呈现，纯属娱乐性质，大家不必过于紧张哦！
+
+别忘了点赞、订阅，并在评论区分享您对这一话题的看法和有趣的经验。一起来笑一笑，探讨老公的夜间神秘行为吧！#家庭生活 #幽默观察 #笑中解忧</media:description>
+   <media:community>
+    <media:starRating count="7" average="5.00" min="1" max="5"/>
+    <media:statistics views="314"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:1t0mRjci4Cc</id>
   <yt:videoId>1t0mRjci4Cc</yt:videoId>
   <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
@@ -33,7 +60,7 @@
 别忘了点赞、订阅，并在评论区分享您对家庭承诺的见解和回忆。一起来揭秘画饼之前的美好承诺吧！#家庭生活 #幽默回顾 #笑中思考</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="221"/>
+    <media:statistics views="253"/>
    </media:community>
   </media:group>
  </entry>
@@ -60,7 +87,7 @@
 别忘了点赞、订阅，并在评论区分享您对河北人电商实在风格的看法。一起来感受这种独特的商业魅力吧！#电商风格 #幽默吐槽 #实在表现</media:description>
    <media:community>
     <media:starRating count="10" average="5.00" min="1" max="5"/>
-    <media:statistics views="285"/>
+    <media:statistics views="309"/>
    </media:community>
   </media:group>
  </entry>
@@ -86,8 +113,8 @@
 
 别忘了点赞、订阅，并在评论区分享你们的看法和有趣的经验。一起来笑一笑，学一学这个独门绝技吧！#吐槽生活 #幽默技巧 #笑中学习</media:description>
    <media:community>
-    <media:starRating count="11" average="5.00" min="1" max="5"/>
-    <media:statistics views="253"/>
+    <media:starRating count="12" average="5.00" min="1" max="5"/>
+    <media:statistics views="271"/>
    </media:community>
   </media:group>
  </entry>
@@ -113,8 +140,8 @@
 
 别忘了点赞、订阅，并在评论区分享您对这一话题的见解和吐槽。一起来笑谈钓鱼佬的独特魅力吧！#钓鱼生活 #幽默观察 #家庭笑话</media:description>
    <media:community>
-    <media:starRating count="9" average="5.00" min="1" max="5"/>
-    <media:statistics views="401"/>
+    <media:starRating count="10" average="5.00" min="1" max="5"/>
+    <media:statistics views="413"/>
    </media:community>
   </media:group>
  </entry>
@@ -141,7 +168,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一时光变迁的感慨和笑点。一起来品味四川的幽默变迁吧！#四川美食 #幽默回顾 #笑谈往事</media:description>
    <media:community>
     <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="428"/>
+    <media:statistics views="433"/>
    </media:community>
   </media:group>
  </entry>
@@ -167,8 +194,8 @@
 
 别忘了点赞、订阅，并在评论区分享您对这一独特观点的看法。一起来笑破肚皮，揭秘男人“高级智能”背后的幽默真相吧！ #家庭生活 #幽默解读 #笑料百出</media:description>
    <media:community>
-    <media:starRating count="9" average="5.00" min="1" max="5"/>
-    <media:statistics views="502"/>
+    <media:starRating count="11" average="5.00" min="1" max="5"/>
+    <media:statistics views="519"/>
    </media:community>
   </media:group>
  </entry>
@@ -194,8 +221,8 @@
 
 别忘了点赞、订阅，并在评论区分享您对这一独特观点的看法。一起来笑破肚皮，揭秘男人“高级智能”背后的幽默真相吧！ #家庭生活 #幽默解读 #笑料百出</media:description>
    <media:community>
-    <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="807"/>
+    <media:starRating count="10" average="5.00" min="1" max="5"/>
+    <media:statistics views="818"/>
    </media:community>
   </media:group>
  </entry>
@@ -221,8 +248,8 @@
 
 别忘了点赞、订阅，并在评论区分享您对这一话题的看法和经验。一起来揭秘婚姻中男人为何不回复老婆消息的神秘现象吧！ #婚姻沟通 #家庭生活 #幽默解读</media:description>
    <media:community>
-    <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="563"/>
+    <media:starRating count="7" average="5.00" min="1" max="5"/>
+    <media:statistics views="567"/>
    </media:community>
   </media:group>
  </entry>
@@ -245,7 +272,7 @@
    <media:description>男人消费力首次超越宠物狗，原因竟然是   #爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="447"/>
+    <media:statistics views="448"/>
    </media:community>
   </media:group>
  </entry>
@@ -267,8 +294,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/M9snHBqgWFQ/hqdefault.jpg" width="480" height="360"/>
    <media:description>山东虽然多侠义之士，但是竟然没有出过皇帝#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="10" average="5.00" min="1" max="5"/>
-    <media:statistics views="585"/>
+    <media:starRating count="11" average="5.00" min="1" max="5"/>
+    <media:statistics views="593"/>
    </media:community>
   </media:group>
  </entry>
@@ -314,7 +341,7 @@
    <media:description>大学生喜提脆脆鲨称号，现在身体好不好真的不能用年纪来界定了#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="707"/>
+    <media:statistics views="710"/>
    </media:community>
   </media:group>
  </entry>
@@ -329,7 +356,7 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2023-11-05T03:37:39+00:00</published>
-  <updated>2023-11-05T07:12:20+00:00</updated>
+  <updated>2023-12-01T11:51:32+00:00</updated>
   <media:group>
    <media:title>在我心中，哈尔滨是最有性价比的旅游城市#爱吐槽的四季妈妈 #家庭吐槽大会 #哈尔滨</media:title>
    <media:content url="https://www.youtube.com/v/i0JtTVGLqP0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -359,31 +386,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/9pOjvxFzpJg/hqdefault.jpg" width="480" height="360"/>
    <media:description>哪个北方爷们的后备箱没有拉过菜？举手让我看看#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="128" average="5.00" min="1" max="5"/>
-    <media:statistics views="6965"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:FuX-h0Y0hHE</id>
-  <yt:videoId>FuX-h0Y0hHE</yt:videoId>
-  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
-  <title>男人为什么喝茶，他喝的不仅仅是茶#爱吐槽的四季妈妈 #家庭吐槽大会</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=FuX-h0Y0hHE"/>
-  <author>
-   <name>四季妈妈—小龙</name>
-   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
-  </author>
-  <published>2023-10-31T04:15:36+00:00</published>
-  <updated>2023-11-23T09:58:31+00:00</updated>
-  <media:group>
-   <media:title>男人为什么喝茶，他喝的不仅仅是茶#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
-   <media:content url="https://www.youtube.com/v/FuX-h0Y0hHE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/FuX-h0Y0hHE/hqdefault.jpg" width="480" height="360"/>
-   <media:description>男人为什么喝茶，他喝的不仅仅是茶#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
-   <media:community>
-    <media:starRating count="161" average="5.00" min="1" max="5"/>
-    <media:statistics views="5644"/>
+    <media:starRating count="129" average="5.00" min="1" max="5"/>
+    <media:statistics views="6999"/>
    </media:community>
   </media:group>
  </entry>

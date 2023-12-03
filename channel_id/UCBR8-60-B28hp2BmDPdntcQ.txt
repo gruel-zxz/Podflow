@@ -10,6 +10,52 @@
   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
  </author>
  <entry>
+  <id>yt:video:8LTzDC4g0gY</id>
+  <yt:videoId>8LTzDC4g0gY</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>Nyma Tang is championing inclusivity with every video she makes</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=8LTzDC4g0gY"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2023-12-01T21:00:23+00:00</published>
+  <updated>2023-12-01T21:07:37+00:00</updated>
+  <media:group>
+   <media:title>Nyma Tang is championing inclusivity with every video she makes</media:title>
+   <media:content url="https://www.youtube.com/v/8LTzDC4g0gY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/8LTzDC4g0gY/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="1072" average="5.00" min="1" max="5"/>
+    <media:statistics views="27346"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:s9x0FCwfWfM</id>
+  <yt:videoId>s9x0FCwfWfM</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>sWooZie's origin story on &quot;Flowers&quot; the series 👏👏👏</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=s9x0FCwfWfM"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2023-12-01T15:20:14+00:00</published>
+  <updated>2023-12-01T15:29:54+00:00</updated>
+  <media:group>
+   <media:title>sWooZie's origin story on &quot;Flowers&quot; the series 👏👏👏</media:title>
+   <media:content url="https://www.youtube.com/v/s9x0FCwfWfM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/s9x0FCwfWfM/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="997" average="5.00" min="1" max="5"/>
+    <media:statistics views="19799"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:iHhTRAvu8k0</id>
   <yt:videoId>iHhTRAvu8k0</yt:videoId>
   <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
@@ -20,7 +66,7 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2023-11-30T17:00:36+00:00</published>
-  <updated>2023-12-01T02:40:41+00:00</updated>
+  <updated>2023-12-01T22:54:50+00:00</updated>
   <media:group>
    <media:title>How @NymaTang helped change the beauty industry | #YouTubeBlack presents Flowers</media:title>
    <media:content url="https://www.youtube.com/v/iHhTRAvu8k0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -33,8 +79,8 @@ Watch sWooZie’s story here: http://yt.be/SwoozieFlowers
 
 Bianca Bonnie’s story coming Jan 18th.</media:description>
    <media:community>
-    <media:starRating count="939" average="5.00" min="1" max="5"/>
-    <media:statistics views="93239"/>
+    <media:starRating count="1293" average="5.00" min="1" max="5"/>
+    <media:statistics views="236153"/>
    </media:community>
   </media:group>
  </entry>
@@ -56,8 +102,8 @@ Bianca Bonnie’s story coming Jan 18th.</media:description>
    <media:thumbnail url="https://i2.ytimg.com/vi/Iz_YgNfceXA/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1251" average="5.00" min="1" max="5"/>
-    <media:statistics views="41388"/>
+    <media:starRating count="1567" average="5.00" min="1" max="5"/>
+    <media:statistics views="55894"/>
    </media:community>
   </media:group>
  </entry>
@@ -79,8 +125,8 @@ Bianca Bonnie’s story coming Jan 18th.</media:description>
    <media:thumbnail url="https://i3.ytimg.com/vi/Rv0z6FNUBlE/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1073" average="5.00" min="1" max="5"/>
-    <media:statistics views="29291"/>
+    <media:starRating count="1232" average="5.00" min="1" max="5"/>
+    <media:statistics views="36171"/>
    </media:community>
   </media:group>
  </entry>
@@ -102,8 +148,8 @@ Bianca Bonnie’s story coming Jan 18th.</media:description>
    <media:thumbnail url="https://i1.ytimg.com/vi/t1hdFbaTXfM/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1399" average="5.00" min="1" max="5"/>
-    <media:statistics views="31122"/>
+    <media:starRating count="1532" average="5.00" min="1" max="5"/>
+    <media:statistics views="35991"/>
    </media:community>
   </media:group>
  </entry>
@@ -125,8 +171,8 @@ Bianca Bonnie’s story coming Jan 18th.</media:description>
    <media:thumbnail url="https://i1.ytimg.com/vi/lLHrUcNFpjo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2066" average="5.00" min="1" max="5"/>
-    <media:statistics views="43619"/>
+    <media:starRating count="2223" average="5.00" min="1" max="5"/>
+    <media:statistics views="49696"/>
    </media:community>
   </media:group>
  </entry>
@@ -148,8 +194,8 @@ Bianca Bonnie’s story coming Jan 18th.</media:description>
    <media:thumbnail url="https://i1.ytimg.com/vi/DbL-mBV1mtA/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1800" average="5.00" min="1" max="5"/>
-    <media:statistics views="49256"/>
+    <media:starRating count="1890" average="5.00" min="1" max="5"/>
+    <media:statistics views="54036"/>
    </media:community>
   </media:group>
  </entry>
@@ -171,8 +217,8 @@ Bianca Bonnie’s story coming Jan 18th.</media:description>
    <media:thumbnail url="https://i4.ytimg.com/vi/sbJCo2ODPxI/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1933" average="5.00" min="1" max="5"/>
-    <media:statistics views="46829"/>
+    <media:starRating count="1997" average="5.00" min="1" max="5"/>
+    <media:statistics views="49477"/>
    </media:community>
   </media:group>
  </entry>
@@ -194,8 +240,8 @@ Bianca Bonnie’s story coming Jan 18th.</media:description>
    <media:thumbnail url="https://i1.ytimg.com/vi/LjYKeKLEk30/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1654" average="5.00" min="1" max="5"/>
-    <media:statistics views="41186"/>
+    <media:starRating count="1710" average="5.00" min="1" max="5"/>
+    <media:statistics views="43956"/>
    </media:community>
   </media:group>
  </entry>
@@ -217,8 +263,8 @@ Bianca Bonnie’s story coming Jan 18th.</media:description>
    <media:thumbnail url="https://i2.ytimg.com/vi/AdilfuzaeTI/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1544" average="5.00" min="1" max="5"/>
-    <media:statistics views="48448"/>
+    <media:starRating count="1590" average="5.00" min="1" max="5"/>
+    <media:statistics views="51782"/>
    </media:community>
   </media:group>
  </entry>
@@ -240,8 +286,8 @@ Bianca Bonnie’s story coming Jan 18th.</media:description>
    <media:thumbnail url="https://i1.ytimg.com/vi/H4qYL9S6qK4/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2034" average="5.00" min="1" max="5"/>
-    <media:statistics views="60502"/>
+    <media:starRating count="2064" average="5.00" min="1" max="5"/>
+    <media:statistics views="62625"/>
    </media:community>
   </media:group>
  </entry>
@@ -263,8 +309,8 @@ Bianca Bonnie’s story coming Jan 18th.</media:description>
    <media:thumbnail url="https://i3.ytimg.com/vi/BdvcatsORiU/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2548" average="5.00" min="1" max="5"/>
-    <media:statistics views="74693"/>
+    <media:starRating count="2590" average="5.00" min="1" max="5"/>
+    <media:statistics views="77072"/>
    </media:community>
   </media:group>
  </entry>
@@ -311,8 +357,8 @@ FEATURED CREATORS:
 @ShevandDev 
 @MarkWiens</media:description>
    <media:community>
-    <media:starRating count="4302" average="5.00" min="1" max="5"/>
-    <media:statistics views="677699"/>
+    <media:starRating count="4313" average="5.00" min="1" max="5"/>
+    <media:statistics views="681704"/>
    </media:community>
   </media:group>
  </entry>
@@ -368,54 +414,8 @@ Featured Creators:
 
 #cozygaming #YouTube #Gaming</media:description>
    <media:community>
-    <media:starRating count="2894" average="5.00" min="1" max="5"/>
-    <media:statistics views="876194"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:JB1v-XN_lAw</id>
-  <yt:videoId>JB1v-XN_lAw</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>any other first-date-at-the-movies people out there? @LonnieIIV @AndrewFenichel @Ben_Brainard</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=JB1v-XN_lAw"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2023-11-14T22:00:17+00:00</published>
-  <updated>2023-11-14T22:03:27+00:00</updated>
-  <media:group>
-   <media:title>any other first-date-at-the-movies people out there? @LonnieIIV @AndrewFenichel @Ben_Brainard</media:title>
-   <media:content url="https://www.youtube.com/v/JB1v-XN_lAw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/JB1v-XN_lAw/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="2051" average="5.00" min="1" max="5"/>
-    <media:statistics views="51241"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:zfNFE4d3aSQ</id>
-  <yt:videoId>zfNFE4d3aSQ</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>...and for @dualipa's next trick 🪄 #DuaLipaHoudini</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=zfNFE4d3aSQ"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2023-11-10T23:00:13+00:00</published>
-  <updated>2023-11-10T23:07:42+00:00</updated>
-  <media:group>
-   <media:title>...and for @dualipa's next trick 🪄 #DuaLipaHoudini</media:title>
-   <media:content url="https://www.youtube.com/v/zfNFE4d3aSQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/zfNFE4d3aSQ/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="4413" average="5.00" min="1" max="5"/>
-    <media:statistics views="188488"/>
+    <media:starRating count="3008" average="5.00" min="1" max="5"/>
+    <media:statistics views="886206"/>
    </media:community>
   </media:group>
  </entry>
