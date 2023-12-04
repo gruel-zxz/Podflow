@@ -3,11 +3,11 @@
     <channel>
         <title>YouTube</title>
         <link>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</link>
-        <description>YouTube&#39;s Official Channel helps you discover what&#39;s new &amp; trending globally. Watch must-see videos, from music to culture to Internet phenomena</description>
+        <description>YouTube&#x27;s Official Channel helps you discover what&#x27;s new &amp; trending globally. Watch must-see videos, from music to culture to Internet phenomena</description>
         <category>TV &amp; Film</category>
         <generator>Podflow (support us at https://github.com/gruel-zxz/podflow)</generator>
         <language>en-us</language>
-        <lastBuildDate>Sun, 03 Dec 2023 07:20:37 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 04 Dec 2023 04:48:48 +0000</lastBuildDate>
         <pubDate>Sun, 24 Apr 2005 11:20:54 +0800</pubDate>
         <image>
             <url>https://yt3.googleusercontent.com/584JjRp5QMuKbyduM_2k5RlXFqHJtQ0qLIPZpwbUjMJmgzZngHcam5JMuZQxyzGMV5ljwJRl0Q=s2048-c-k-c0x00ffffff-no-rj</url>
@@ -16,11 +16,27 @@
         </image>
         <itunes:author>YouTube</itunes:author>
         <itunes:subtitle>YouTube</itunes:subtitle>
-        <itunes:summary><![CDATA[YouTube&#39;s Official Channel helps you discover what&#39;s new &amp; trending globally. Watch must-see videos, from music to culture to Internet phenomena]]></itunes:summary>
+        <itunes:summary><![CDATA[YouTube&#x27;s Official Channel helps you discover what&#x27;s new &amp; trending globally. Watch must-see videos, from music to culture to Internet phenomena]]></itunes:summary>
         <itunes:image href="https://yt3.googleusercontent.com/584JjRp5QMuKbyduM_2k5RlXFqHJtQ0qLIPZpwbUjMJmgzZngHcam5JMuZQxyzGMV5ljwJRl0Q=s2048-c-k-c0x00ffffff-no-rj"></itunes:image>
         <itunes:explicit>no</itunes:explicit>
         <itunes:category text="TV &amp; Film"></itunes:category>
 <!-- {UCBR8-60-B28hp2BmDPdntcQ} -->
+<!-- UCBR8-60-B28hp2BmDPdntcQ -->
+        <item>
+            <guid>iUeEYjf6BTA</guid>
+            <title>@JennaPhipps w the perfect jersey for @TateMcRae fans 😍 #KissesToMyExes</title>
+            <link>https://youtube.com/watch?v=iUeEYjf6BTA</link>
+            <description>『YouTube』</description>
+            <pubDate>Sun, 03 Dec 2023 17:14:04 +0000</pubDate>
+            <enclosure url="https://raw.githubusercontent.com/gruel-zxz/podflow/main/channel_audiovisual/UCBR8-60-B28hp2BmDPdntcQ/iUeEYjf6BTA.mp4" length="4767009" type="video/mp4"></enclosure>
+            <itunes:author>@JennaPhipps w the perfect jersey for @TateMcRae fans 😍 #KissesToMyExes</itunes:author>
+            <itunes:subtitle>@JennaPhipps w the perfect jersey for @TateMcRae fans 😍 #KissesToMyExes</itunes:subtitle>
+            <itunes:summary><![CDATA[『YouTube』]]></itunes:summary>
+            <itunes:image href="https://i2.ytimg.com/vi/iUeEYjf6BTA/hqdefault.jpg"></itunes:image>
+            <itunes:duration>00:30</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:order>1</itunes:order>
+        </item>
 <!-- UCBR8-60-B28hp2BmDPdntcQ -->
         <item>
             <guid>8LTzDC4g0gY</guid>
@@ -378,22 +394,6 @@ Featured Creators:
             <itunes:summary><![CDATA[『YouTube』]]></itunes:summary>
             <itunes:image href="https://i4.ytimg.com/vi/gXLGzPfvh1k/hqdefault.jpg"></itunes:image>
             <itunes:duration>00:14</itunes:duration>
-            <itunes:explicit>no</itunes:explicit>
-            <itunes:order>1</itunes:order>
-        </item>
-<!-- UCBR8-60-B28hp2BmDPdntcQ -->
-        <item>
-            <guid>HlcyeYhzAgA</guid>
-            <title>pawpaw always told me: hard work is just work that’s hard</title>
-            <link>https://youtube.com/watch?v=HlcyeYhzAgA</link>
-            <description>『YouTube』</description>
-            <pubDate>Sun, 05 Nov 2023 19:00:13 +0000</pubDate>
-            <enclosure url="https://raw.githubusercontent.com/gruel-zxz/podflow/main/channel_audiovisual/UCBR8-60-B28hp2BmDPdntcQ/HlcyeYhzAgA.mp4" length="3632285" type="video/mp4"></enclosure>
-            <itunes:author>pawpaw always told me: hard work is just work that’s hard</itunes:author>
-            <itunes:subtitle>pawpaw always told me: hard work is just work that’s hard</itunes:subtitle>
-            <itunes:summary><![CDATA[『YouTube』]]></itunes:summary>
-            <itunes:image href="https://i1.ytimg.com/vi/HlcyeYhzAgA/hqdefault.jpg"></itunes:image>
-            <itunes:duration>00:24</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
             <itunes:order>1</itunes:order>
         </item>

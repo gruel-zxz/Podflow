@@ -21,7 +21,7 @@
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
   <published>2023-12-02T21:04:54+00:00</published>
-  <updated>2023-12-03T01:08:45+00:00</updated>
+  <updated>2023-12-03T08:27:31+00:00</updated>
   <media:group>
    <media:title>纽约时报教唆并且教导中国人用“何种方法”才能偷偷把资金转移出中国（20231202第6566期）</media:title>
    <media:content url="https://www.youtube.com/v/uI_xxf5wAhI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -78,8 +78,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="287" average="5.00" min="1" max="5"/>
-    <media:statistics views="30711"/>
+    <media:starRating count="438" average="5.00" min="1" max="5"/>
+    <media:statistics views="68404"/>
    </media:community>
   </media:group>
  </entry>
@@ -94,7 +94,7 @@ https://youtu.be/BbtTwsP_-zc</media:description>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
   <published>2023-12-02T20:49:01+00:00</published>
-  <updated>2023-12-02T21:18:15+00:00</updated>
+  <updated>2023-12-03T07:56:35+00:00</updated>
   <media:group>
    <media:title>11月中国经济冰火两重天（20231202第6567期）</media:title>
    <media:content url="https://www.youtube.com/v/PEGJfFZMAF0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -151,8 +151,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="339" average="5.00" min="1" max="5"/>
-    <media:statistics views="44637"/>
+    <media:starRating count="475" average="5.00" min="1" max="5"/>
+    <media:statistics views="93570"/>
    </media:community>
   </media:group>
  </entry>
@@ -224,8 +224,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="197" average="5.00" min="1" max="5"/>
-    <media:statistics views="41843"/>
+    <media:starRating count="202" average="5.00" min="1" max="5"/>
+    <media:statistics views="44581"/>
    </media:community>
   </media:group>
  </entry>
@@ -297,8 +297,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="230" average="5.00" min="1" max="5"/>
-    <media:statistics views="50143"/>
+    <media:starRating count="242" average="5.00" min="1" max="5"/>
+    <media:statistics views="53829"/>
    </media:community>
   </media:group>
  </entry>
@@ -370,8 +370,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="139" average="5.00" min="1" max="5"/>
-    <media:statistics views="20059"/>
+    <media:starRating count="152" average="5.00" min="1" max="5"/>
+    <media:statistics views="22594"/>
    </media:community>
   </media:group>
  </entry>
@@ -443,8 +443,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="410" average="5.00" min="1" max="5"/>
-    <media:statistics views="58822"/>
+    <media:starRating count="420" average="5.00" min="1" max="5"/>
+    <media:statistics views="53040"/>
    </media:community>
   </media:group>
  </entry>
@@ -516,8 +516,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="311" average="5.00" min="1" max="5"/>
-    <media:statistics views="54481"/>
+    <media:starRating count="325" average="5.00" min="1" max="5"/>
+    <media:statistics views="50187"/>
    </media:community>
   </media:group>
  </entry>
@@ -589,8 +589,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="403" average="5.00" min="1" max="5"/>
-    <media:statistics views="82367"/>
+    <media:starRating count="412" average="5.00" min="1" max="5"/>
+    <media:statistics views="74747"/>
    </media:community>
   </media:group>
  </entry>
@@ -662,8 +662,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="326" average="5.00" min="1" max="5"/>
-    <media:statistics views="58088"/>
+    <media:starRating count="330" average="5.00" min="1" max="5"/>
+    <media:statistics views="56393"/>
    </media:community>
   </media:group>
  </entry>
@@ -735,8 +735,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="289" average="5.00" min="1" max="5"/>
-    <media:statistics views="62291"/>
+    <media:starRating count="298" average="5.00" min="1" max="5"/>
+    <media:statistics views="59633"/>
    </media:community>
   </media:group>
  </entry>
@@ -808,8 +808,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="213" average="5.00" min="1" max="5"/>
-    <media:statistics views="49507"/>
+    <media:starRating count="216" average="5.00" min="1" max="5"/>
+    <media:statistics views="49116"/>
    </media:community>
   </media:group>
  </entry>
@@ -882,7 +882,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="148" average="5.00" min="1" max="5"/>
-    <media:statistics views="40457"/>
+    <media:statistics views="40523"/>
    </media:community>
   </media:group>
  </entry>
@@ -954,8 +954,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="400" average="5.00" min="1" max="5"/>
-    <media:statistics views="83738"/>
+    <media:starRating count="401" average="5.00" min="1" max="5"/>
+    <media:statistics views="82864"/>
    </media:community>
   </media:group>
  </entry>
@@ -1027,8 +1027,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="223" average="5.00" min="1" max="5"/>
-    <media:statistics views="52592"/>
+    <media:starRating count="226" average="5.00" min="1" max="5"/>
+    <media:statistics views="53048"/>
    </media:community>
   </media:group>
  </entry>
@@ -1100,8 +1100,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="430" average="5.00" min="1" max="5"/>
-    <media:statistics views="75316"/>
+    <media:starRating count="433" average="5.00" min="1" max="5"/>
+    <media:statistics views="74513"/>
    </media:community>
   </media:group>
  </entry>
