@@ -11,6 +11,75 @@
  </author>
  <published>2020-08-21T01:53:13+00:00</published>
  <entry>
+  <id>yt:video:GWjWCVrp3P0</id>
+  <yt:videoId>GWjWCVrp3P0</yt:videoId>
+  <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
+  <title>伊藤诗织事件，安倍幕僚性侵女学生</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=GWjWCVrp3P0"/>
+  <author>
+   <name>绝密研究所</name>
+   <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
+  </author>
+  <published>2023-12-05T00:15:07+00:00</published>
+  <updated>2023-12-05T00:23:24+00:00</updated>
+  <media:group>
+   <media:title>伊藤诗织事件，安倍幕僚性侵女学生</media:title>
+   <media:content url="https://www.youtube.com/v/GWjWCVrp3P0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/GWjWCVrp3P0/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="4"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:u6xD45-p7NE</id>
+  <yt:videoId>u6xD45-p7NE</yt:videoId>
+  <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
+  <title>不要再遮遮掩掩，各国性教育对比</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=u6xD45-p7NE"/>
+  <author>
+   <name>绝密研究所</name>
+   <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
+  </author>
+  <published>2023-12-04T08:24:39+00:00</published>
+  <updated>2023-12-04T20:57:17+00:00</updated>
+  <media:group>
+   <media:title>不要再遮遮掩掩，各国性教育对比</media:title>
+   <media:content url="https://www.youtube.com/v/u6xD45-p7NE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/u6xD45-p7NE/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Vva0RkQQTtM</id>
+  <yt:videoId>Vva0RkQQTtM</yt:videoId>
+  <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
+  <title>水果越来越甜，是科技与狠活吗？</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Vva0RkQQTtM"/>
+  <author>
+   <name>绝密研究所</name>
+   <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
+  </author>
+  <published>2023-12-04T07:43:04+00:00</published>
+  <updated>2023-12-04T15:16:37+00:00</updated>
+  <media:group>
+   <media:title>水果越来越甜，是科技与狠活吗？</media:title>
+   <media:content url="https://www.youtube.com/v/Vva0RkQQTtM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/Vva0RkQQTtM/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:00FPsX4t9lY</id>
   <yt:videoId>00FPsX4t9lY</yt:videoId>
   <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
@@ -29,7 +98,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="9"/>
+    <media:statistics views="34"/>
    </media:community>
   </media:group>
  </entry>
@@ -52,7 +121,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="39"/>
+    <media:statistics views="41"/>
    </media:community>
   </media:group>
  </entry>
@@ -75,30 +144,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="81"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:GWjWCVrp3P0</id>
-  <yt:videoId>GWjWCVrp3P0</yt:videoId>
-  <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
-  <title>伊藤诗织事件，安倍幕僚性侵女学生</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=GWjWCVrp3P0"/>
-  <author>
-   <name>绝密研究所</name>
-   <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
-  </author>
-  <published>2023-12-01T01:33:20+00:00</published>
-  <updated>2023-12-01T08:37:53+00:00</updated>
-  <media:group>
-   <media:title>伊藤诗织事件，安倍幕僚性侵女学生</media:title>
-   <media:content url="https://www.youtube.com/v/GWjWCVrp3P0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/GWjWCVrp3P0/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="0" average="0.00" min="1" max="5"/>
-    <media:statistics views="0"/>
+    <media:statistics views="82"/>
    </media:community>
   </media:group>
  </entry>
@@ -121,7 +167,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="28"/>
+    <media:statistics views="29"/>
    </media:community>
   </media:group>
  </entry>
@@ -144,7 +190,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="39"/>
+    <media:statistics views="44"/>
    </media:community>
   </media:group>
  </entry>
@@ -190,7 +236,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="56"/>
+    <media:statistics views="55"/>
    </media:community>
   </media:group>
  </entry>
@@ -213,7 +259,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="49"/>
+    <media:statistics views="50"/>
    </media:community>
   </media:group>
  </entry>
@@ -306,52 +352,6 @@
    <media:community>
     <media:starRating count="8" average="5.00" min="1" max="5"/>
     <media:statistics views="770"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:XpQS1HrDaO4</id>
-  <yt:videoId>XpQS1HrDaO4</yt:videoId>
-  <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
-  <title>临期食品便宜那么多，到底能不能买?</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=XpQS1HrDaO4"/>
-  <author>
-   <name>绝密研究所</name>
-   <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
-  </author>
-  <published>2023-11-22T08:03:58+00:00</published>
-  <updated>2023-11-24T09:30:53+00:00</updated>
-  <media:group>
-   <media:title>临期食品便宜那么多，到底能不能买?</media:title>
-   <media:content url="https://www.youtube.com/v/XpQS1HrDaO4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i1.ytimg.com/vi/XpQS1HrDaO4/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="0" average="0.00" min="1" max="5"/>
-    <media:statistics views="325"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:iut2sgEIVHo</id>
-  <yt:videoId>iut2sgEIVHo</yt:videoId>
-  <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
-  <title>国粹文化 ，脏话发展史</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=iut2sgEIVHo"/>
-  <author>
-   <name>绝密研究所</name>
-   <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
-  </author>
-  <published>2023-11-21T00:15:07+00:00</published>
-  <updated>2023-11-21T00:22:27+00:00</updated>
-  <media:group>
-   <media:title>国粹文化 ，脏话发展史</media:title>
-   <media:content url="https://www.youtube.com/v/iut2sgEIVHo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/iut2sgEIVHo/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="271"/>
    </media:community>
   </media:group>
  </entry>

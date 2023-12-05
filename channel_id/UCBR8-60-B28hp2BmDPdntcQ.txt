@@ -10,6 +10,52 @@
   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
  </author>
  <entry>
+  <id>yt:video:CBAlbj2eIJo</id>
+  <yt:videoId>CBAlbj2eIJo</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>5 minutes or 5 days? you can't rush trick shot perfection</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=CBAlbj2eIJo"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2023-12-04T22:20:30+00:00</published>
+  <updated>2023-12-04T22:27:02+00:00</updated>
+  <media:group>
+   <media:title>5 minutes or 5 days? you can't rush trick shot perfection</media:title>
+   <media:content url="https://www.youtube.com/v/CBAlbj2eIJo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/CBAlbj2eIJo/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="725" average="5.00" min="1" max="5"/>
+    <media:statistics views="8970"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:5AJKoIt-S1Y</id>
+  <yt:videoId>5AJKoIt-S1Y</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>we would like to issue an apology to all capybaras. @aceof_spadess @joshuasuarez @93waysmane</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=5AJKoIt-S1Y"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2023-12-04T16:30:22+00:00</published>
+  <updated>2023-12-04T16:37:21+00:00</updated>
+  <media:group>
+   <media:title>we would like to issue an apology to all capybaras. @aceof_spadess @joshuasuarez @93waysmane</media:title>
+   <media:content url="https://www.youtube.com/v/5AJKoIt-S1Y?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/5AJKoIt-S1Y/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="738" average="5.00" min="1" max="5"/>
+    <media:statistics views="12241"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:iUeEYjf6BTA</id>
   <yt:videoId>iUeEYjf6BTA</yt:videoId>
   <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
@@ -27,8 +73,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/iUeEYjf6BTA/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="758" average="5.00" min="1" max="5"/>
-    <media:statistics views="13298"/>
+    <media:starRating count="1061" average="5.00" min="1" max="5"/>
+    <media:statistics views="25113"/>
    </media:community>
   </media:group>
  </entry>
@@ -50,8 +96,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/8LTzDC4g0gY/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1240" average="5.00" min="1" max="5"/>
-    <media:statistics views="35196"/>
+    <media:starRating count="1345" average="5.00" min="1" max="5"/>
+    <media:statistics views="38622"/>
    </media:community>
   </media:group>
  </entry>
@@ -73,8 +119,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/s9x0FCwfWfM/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1134" average="5.00" min="1" max="5"/>
-    <media:statistics views="23859"/>
+    <media:starRating count="1211" average="5.00" min="1" max="5"/>
+    <media:statistics views="27098"/>
    </media:community>
   </media:group>
  </entry>
@@ -102,8 +148,8 @@ Watch sWooZie’s story here: http://yt.be/SwoozieFlowers
 
 Bianca Bonnie’s story coming Jan 18th.</media:description>
    <media:community>
-    <media:starRating count="1416" average="5.00" min="1" max="5"/>
-    <media:statistics views="307167"/>
+    <media:starRating count="1524" average="5.00" min="1" max="5"/>
+    <media:statistics views="391706"/>
    </media:community>
   </media:group>
  </entry>
@@ -125,8 +171,8 @@ Bianca Bonnie’s story coming Jan 18th.</media:description>
    <media:thumbnail url="https://i2.ytimg.com/vi/Iz_YgNfceXA/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1688" average="5.00" min="1" max="5"/>
-    <media:statistics views="61560"/>
+    <media:starRating count="1801" average="5.00" min="1" max="5"/>
+    <media:statistics views="67444"/>
    </media:community>
   </media:group>
  </entry>
@@ -148,8 +194,8 @@ Bianca Bonnie’s story coming Jan 18th.</media:description>
    <media:thumbnail url="https://i3.ytimg.com/vi/Rv0z6FNUBlE/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1315" average="5.00" min="1" max="5"/>
-    <media:statistics views="39112"/>
+    <media:starRating count="1371" average="5.00" min="1" max="5"/>
+    <media:statistics views="42021"/>
    </media:community>
   </media:group>
  </entry>
@@ -171,8 +217,8 @@ Bianca Bonnie’s story coming Jan 18th.</media:description>
    <media:thumbnail url="https://i1.ytimg.com/vi/t1hdFbaTXfM/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1602" average="5.00" min="1" max="5"/>
-    <media:statistics views="38119"/>
+    <media:starRating count="1652" average="5.00" min="1" max="5"/>
+    <media:statistics views="40111"/>
    </media:community>
   </media:group>
  </entry>
@@ -194,8 +240,8 @@ Bianca Bonnie’s story coming Jan 18th.</media:description>
    <media:thumbnail url="https://i1.ytimg.com/vi/lLHrUcNFpjo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2299" average="5.00" min="1" max="5"/>
-    <media:statistics views="52165"/>
+    <media:starRating count="2347" average="5.00" min="1" max="5"/>
+    <media:statistics views="54786"/>
    </media:community>
   </media:group>
  </entry>
@@ -217,8 +263,8 @@ Bianca Bonnie’s story coming Jan 18th.</media:description>
    <media:thumbnail url="https://i1.ytimg.com/vi/DbL-mBV1mtA/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1922" average="5.00" min="1" max="5"/>
-    <media:statistics views="55947"/>
+    <media:starRating count="1952" average="5.00" min="1" max="5"/>
+    <media:statistics views="57994"/>
    </media:community>
   </media:group>
  </entry>
@@ -240,8 +286,8 @@ Bianca Bonnie’s story coming Jan 18th.</media:description>
    <media:thumbnail url="https://i4.ytimg.com/vi/sbJCo2ODPxI/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2022" average="5.00" min="1" max="5"/>
-    <media:statistics views="50558"/>
+    <media:starRating count="2041" average="5.00" min="1" max="5"/>
+    <media:statistics views="51785"/>
    </media:community>
   </media:group>
  </entry>
@@ -263,8 +309,8 @@ Bianca Bonnie’s story coming Jan 18th.</media:description>
    <media:thumbnail url="https://i1.ytimg.com/vi/LjYKeKLEk30/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1729" average="5.00" min="1" max="5"/>
-    <media:statistics views="45015"/>
+    <media:starRating count="1758" average="5.00" min="1" max="5"/>
+    <media:statistics views="46349"/>
    </media:community>
   </media:group>
  </entry>
@@ -286,8 +332,8 @@ Bianca Bonnie’s story coming Jan 18th.</media:description>
    <media:thumbnail url="https://i2.ytimg.com/vi/AdilfuzaeTI/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1606" average="5.00" min="1" max="5"/>
-    <media:statistics views="53101"/>
+    <media:starRating count="1635" average="5.00" min="1" max="5"/>
+    <media:statistics views="54670"/>
    </media:community>
   </media:group>
  </entry>
@@ -309,79 +355,8 @@ Bianca Bonnie’s story coming Jan 18th.</media:description>
    <media:thumbnail url="https://i1.ytimg.com/vi/H4qYL9S6qK4/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2085" average="5.00" min="1" max="5"/>
-    <media:statistics views="63508"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:BdvcatsORiU</id>
-  <yt:videoId>BdvcatsORiU</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>lexi rivera is an expert in all things pineapple - find out what else was in her watch history</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=BdvcatsORiU"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2023-11-16T22:00:20+00:00</published>
-  <updated>2023-11-16T22:06:58+00:00</updated>
-  <media:group>
-   <media:title>lexi rivera is an expert in all things pineapple - find out what else was in her watch history</media:title>
-   <media:content url="https://www.youtube.com/v/BdvcatsORiU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/BdvcatsORiU/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="2610" average="5.00" min="1" max="5"/>
-    <media:statistics views="78080"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:nWrc84fDPRY</id>
-  <yt:videoId>nWrc84fDPRY</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>@MarkWiens shows us the world’s best street food…DO NOT WATCH IF HUNGRY!!</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=nWrc84fDPRY"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2023-11-16T17:17:39+00:00</published>
-  <updated>2023-11-24T05:17:49+00:00</updated>
-  <media:group>
-   <media:title>@MarkWiens shows us the world’s best street food…DO NOT WATCH IF HUNGRY!!</media:title>
-   <media:content url="https://www.youtube.com/v/nWrc84fDPRY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/nWrc84fDPRY/hqdefault.jpg" width="480" height="360"/>
-   <media:description>Breakfast in Cambodia → a snack in Chicago → lunch in Osaka.
-
-@MarkWiens takes us on a worldwide street food celebration that only YouTube creators can provide.
-
-Comment your favorite spot 📍
-
-FEATURED CREATORS:
-@Livingabroadalex 
-@TrishaVelarmino
-@GoWithAli 
-@LisaNguyen 
-@strictlydumpling 
-@ChasingaPlate 
-@Davidsbeenhere 
-@GarethEats 
-@QueenDesta 
-@EoinandAisling 
-@whatthepato 
-@SammyandTommy 
-@jimmykimtv 
-@LukeMartin 
-@RockstarEater 
-@uaeats 
-@biteswithlily 
-@ShevandDev 
-@MarkWiens</media:description>
-   <media:community>
-    <media:starRating count="4318" average="5.00" min="1" max="5"/>
-    <media:statistics views="683320"/>
+    <media:starRating count="2102" average="5.00" min="1" max="5"/>
+    <media:statistics views="64509"/>
    </media:community>
   </media:group>
  </entry>
