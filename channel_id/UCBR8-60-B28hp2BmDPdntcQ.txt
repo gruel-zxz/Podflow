@@ -27,8 +27,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/A_A6zeVP1tk/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="751" average="5.00" min="1" max="5"/>
-    <media:statistics views="12428"/>
+    <media:starRating count="789" average="5.00" min="1" max="5"/>
+    <media:statistics views="14268"/>
    </media:community>
   </media:group>
  </entry>
@@ -50,8 +50,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/CBAlbj2eIJo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2782" average="5.00" min="1" max="5"/>
-    <media:statistics views="64042"/>
+    <media:starRating count="2963" average="5.00" min="1" max="5"/>
+    <media:statistics views="71347"/>
    </media:community>
   </media:group>
  </entry>
@@ -73,8 +73,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/5AJKoIt-S1Y/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1033" average="5.00" min="1" max="5"/>
-    <media:statistics views="22056"/>
+    <media:starRating count="1046" average="5.00" min="1" max="5"/>
+    <media:statistics views="22665"/>
    </media:community>
   </media:group>
  </entry>
@@ -96,8 +96,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/iUeEYjf6BTA/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1198" average="5.00" min="1" max="5"/>
-    <media:statistics views="30528"/>
+    <media:starRating count="1206" average="5.00" min="1" max="5"/>
+    <media:statistics views="30884"/>
    </media:community>
   </media:group>
  </entry>
@@ -119,8 +119,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/8LTzDC4g0gY/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1418" average="5.00" min="1" max="5"/>
-    <media:statistics views="41354"/>
+    <media:starRating count="1427" average="5.00" min="1" max="5"/>
+    <media:statistics views="41641"/>
    </media:community>
   </media:group>
  </entry>
@@ -142,8 +142,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/s9x0FCwfWfM/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1263" average="5.00" min="1" max="5"/>
-    <media:statistics views="30052"/>
+    <media:starRating count="1271" average="5.00" min="1" max="5"/>
+    <media:statistics views="30298"/>
    </media:community>
   </media:group>
  </entry>
@@ -171,8 +171,8 @@ Watch sWooZie’s story here: http://yt.be/SwoozieFlowers
 
 Bianca Bonnie’s story coming Jan 18th.</media:description>
    <media:community>
-    <media:starRating count="1709" average="5.00" min="1" max="5"/>
-    <media:statistics views="482746"/>
+    <media:starRating count="1723" average="5.00" min="1" max="5"/>
+    <media:statistics views="489565"/>
    </media:community>
   </media:group>
  </entry>
@@ -194,8 +194,8 @@ Bianca Bonnie’s story coming Jan 18th.</media:description>
    <media:thumbnail url="https://i2.ytimg.com/vi/Iz_YgNfceXA/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1906" average="5.00" min="1" max="5"/>
-    <media:statistics views="73174"/>
+    <media:starRating count="1913" average="5.00" min="1" max="5"/>
+    <media:statistics views="73539"/>
    </media:community>
   </media:group>
  </entry>
@@ -217,8 +217,8 @@ Bianca Bonnie’s story coming Jan 18th.</media:description>
    <media:thumbnail url="https://i3.ytimg.com/vi/Rv0z6FNUBlE/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1429" average="5.00" min="1" max="5"/>
-    <media:statistics views="44842"/>
+    <media:starRating count="1434" average="5.00" min="1" max="5"/>
+    <media:statistics views="45027"/>
    </media:community>
   </media:group>
  </entry>
@@ -240,8 +240,8 @@ Bianca Bonnie’s story coming Jan 18th.</media:description>
    <media:thumbnail url="https://i1.ytimg.com/vi/t1hdFbaTXfM/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1688" average="5.00" min="1" max="5"/>
-    <media:statistics views="41843"/>
+    <media:starRating count="1689" average="5.00" min="1" max="5"/>
+    <media:statistics views="41940"/>
    </media:community>
   </media:group>
  </entry>
@@ -263,8 +263,8 @@ Bianca Bonnie’s story coming Jan 18th.</media:description>
    <media:thumbnail url="https://i1.ytimg.com/vi/lLHrUcNFpjo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2410" average="5.00" min="1" max="5"/>
-    <media:statistics views="57542"/>
+    <media:starRating count="2414" average="5.00" min="1" max="5"/>
+    <media:statistics views="57713"/>
    </media:community>
   </media:group>
  </entry>
@@ -287,7 +287,7 @@ Bianca Bonnie’s story coming Jan 18th.</media:description>
    <media:description></media:description>
    <media:community>
     <media:starRating count="1987" average="5.00" min="1" max="5"/>
-    <media:statistics views="60197"/>
+    <media:statistics views="60341"/>
    </media:community>
   </media:group>
  </entry>
@@ -309,8 +309,8 @@ Bianca Bonnie’s story coming Jan 18th.</media:description>
    <media:thumbnail url="https://i4.ytimg.com/vi/sbJCo2ODPxI/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2066" average="5.00" min="1" max="5"/>
-    <media:statistics views="53170"/>
+    <media:starRating count="2067" average="5.00" min="1" max="5"/>
+    <media:statistics views="53264"/>
    </media:community>
   </media:group>
  </entry>
@@ -332,8 +332,8 @@ Bianca Bonnie’s story coming Jan 18th.</media:description>
    <media:thumbnail url="https://i1.ytimg.com/vi/LjYKeKLEk30/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1789" average="5.00" min="1" max="5"/>
-    <media:statistics views="47891"/>
+    <media:starRating count="1790" average="5.00" min="1" max="5"/>
+    <media:statistics views="47994"/>
    </media:community>
   </media:group>
  </entry>
@@ -355,8 +355,8 @@ Bianca Bonnie’s story coming Jan 18th.</media:description>
    <media:thumbnail url="https://i2.ytimg.com/vi/AdilfuzaeTI/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1663" average="5.00" min="1" max="5"/>
-    <media:statistics views="56522"/>
+    <media:starRating count="1664" average="5.00" min="1" max="5"/>
+    <media:statistics views="56645"/>
    </media:community>
   </media:group>
  </entry>

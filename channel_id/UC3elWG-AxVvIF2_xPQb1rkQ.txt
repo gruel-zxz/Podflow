@@ -32,8 +32,8 @@
 
 别忘了点赞、订阅，并在评论区分享你所知道的四字真言或者你的观点。一起来参与这场百分之八十男人的四字真言吐槽大会吧！#幽默观察 #笑中思考 #家庭调侃</media:description>
    <media:community>
-    <media:starRating count="16" average="5.00" min="1" max="5"/>
-    <media:statistics views="647"/>
+    <media:starRating count="19" average="5.00" min="1" max="5"/>
+    <media:statistics views="683"/>
    </media:community>
   </media:group>
  </entry>
@@ -60,7 +60,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一话题的看法和有趣的经验。一起来笑一笑，探讨老公的夜间神秘行为吧！#家庭生活 #幽默观察 #笑中解忧</media:description>
    <media:community>
     <media:starRating count="12" average="5.00" min="1" max="5"/>
-    <media:statistics views="544"/>
+    <media:statistics views="547"/>
    </media:community>
   </media:group>
  </entry>
@@ -87,7 +87,7 @@
 别忘了点赞、订阅，并在评论区分享您对家庭承诺的见解和回忆。一起来揭秘画饼之前的美好承诺吧！#家庭生活 #幽默回顾 #笑中思考</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="279"/>
+    <media:statistics views="282"/>
    </media:community>
   </media:group>
  </entry>
@@ -114,7 +114,7 @@
 别忘了点赞、订阅，并在评论区分享您对河北人电商实在风格的看法。一起来感受这种独特的商业魅力吧！#电商风格 #幽默吐槽 #实在表现</media:description>
    <media:community>
     <media:starRating count="11" average="5.00" min="1" max="5"/>
-    <media:statistics views="345"/>
+    <media:statistics views="346"/>
    </media:community>
   </media:group>
  </entry>
