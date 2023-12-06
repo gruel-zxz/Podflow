@@ -10,6 +10,29 @@
   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
  </author>
  <entry>
+  <id>yt:video:A_A6zeVP1tk</id>
+  <yt:videoId>A_A6zeVP1tk</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>pov: my last brain cell getting a lil serotonin, as a treat</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=A_A6zeVP1tk"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2023-12-05T15:35:51+00:00</published>
+  <updated>2023-12-05T15:39:58+00:00</updated>
+  <media:group>
+   <media:title>pov: my last brain cell getting a lil serotonin, as a treat</media:title>
+   <media:content url="https://www.youtube.com/v/A_A6zeVP1tk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/A_A6zeVP1tk/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="751" average="5.00" min="1" max="5"/>
+    <media:statistics views="12428"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:CBAlbj2eIJo</id>
   <yt:videoId>CBAlbj2eIJo</yt:videoId>
   <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
@@ -27,8 +50,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/CBAlbj2eIJo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="725" average="5.00" min="1" max="5"/>
-    <media:statistics views="8970"/>
+    <media:starRating count="2782" average="5.00" min="1" max="5"/>
+    <media:statistics views="64042"/>
    </media:community>
   </media:group>
  </entry>
@@ -50,8 +73,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/5AJKoIt-S1Y/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="738" average="5.00" min="1" max="5"/>
-    <media:statistics views="12241"/>
+    <media:starRating count="1033" average="5.00" min="1" max="5"/>
+    <media:statistics views="22056"/>
    </media:community>
   </media:group>
  </entry>
@@ -73,8 +96,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/iUeEYjf6BTA/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1061" average="5.00" min="1" max="5"/>
-    <media:statistics views="25113"/>
+    <media:starRating count="1198" average="5.00" min="1" max="5"/>
+    <media:statistics views="30528"/>
    </media:community>
   </media:group>
  </entry>
@@ -96,8 +119,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/8LTzDC4g0gY/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1345" average="5.00" min="1" max="5"/>
-    <media:statistics views="38622"/>
+    <media:starRating count="1418" average="5.00" min="1" max="5"/>
+    <media:statistics views="41354"/>
    </media:community>
   </media:group>
  </entry>
@@ -119,8 +142,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/s9x0FCwfWfM/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1211" average="5.00" min="1" max="5"/>
-    <media:statistics views="27098"/>
+    <media:starRating count="1263" average="5.00" min="1" max="5"/>
+    <media:statistics views="30052"/>
    </media:community>
   </media:group>
  </entry>
@@ -148,8 +171,8 @@ Watch sWooZie’s story here: http://yt.be/SwoozieFlowers
 
 Bianca Bonnie’s story coming Jan 18th.</media:description>
    <media:community>
-    <media:starRating count="1524" average="5.00" min="1" max="5"/>
-    <media:statistics views="391706"/>
+    <media:starRating count="1709" average="5.00" min="1" max="5"/>
+    <media:statistics views="482746"/>
    </media:community>
   </media:group>
  </entry>
@@ -171,8 +194,8 @@ Bianca Bonnie’s story coming Jan 18th.</media:description>
    <media:thumbnail url="https://i2.ytimg.com/vi/Iz_YgNfceXA/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1801" average="5.00" min="1" max="5"/>
-    <media:statistics views="67444"/>
+    <media:starRating count="1906" average="5.00" min="1" max="5"/>
+    <media:statistics views="73174"/>
    </media:community>
   </media:group>
  </entry>
@@ -194,8 +217,8 @@ Bianca Bonnie’s story coming Jan 18th.</media:description>
    <media:thumbnail url="https://i3.ytimg.com/vi/Rv0z6FNUBlE/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1371" average="5.00" min="1" max="5"/>
-    <media:statistics views="42021"/>
+    <media:starRating count="1429" average="5.00" min="1" max="5"/>
+    <media:statistics views="44842"/>
    </media:community>
   </media:group>
  </entry>
@@ -217,8 +240,8 @@ Bianca Bonnie’s story coming Jan 18th.</media:description>
    <media:thumbnail url="https://i1.ytimg.com/vi/t1hdFbaTXfM/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1652" average="5.00" min="1" max="5"/>
-    <media:statistics views="40111"/>
+    <media:starRating count="1688" average="5.00" min="1" max="5"/>
+    <media:statistics views="41843"/>
    </media:community>
   </media:group>
  </entry>
@@ -240,8 +263,8 @@ Bianca Bonnie’s story coming Jan 18th.</media:description>
    <media:thumbnail url="https://i1.ytimg.com/vi/lLHrUcNFpjo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2347" average="5.00" min="1" max="5"/>
-    <media:statistics views="54786"/>
+    <media:starRating count="2410" average="5.00" min="1" max="5"/>
+    <media:statistics views="57542"/>
    </media:community>
   </media:group>
  </entry>
@@ -263,8 +286,8 @@ Bianca Bonnie’s story coming Jan 18th.</media:description>
    <media:thumbnail url="https://i1.ytimg.com/vi/DbL-mBV1mtA/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1952" average="5.00" min="1" max="5"/>
-    <media:statistics views="57994"/>
+    <media:starRating count="1987" average="5.00" min="1" max="5"/>
+    <media:statistics views="60197"/>
    </media:community>
   </media:group>
  </entry>
@@ -286,8 +309,8 @@ Bianca Bonnie’s story coming Jan 18th.</media:description>
    <media:thumbnail url="https://i4.ytimg.com/vi/sbJCo2ODPxI/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2041" average="5.00" min="1" max="5"/>
-    <media:statistics views="51785"/>
+    <media:starRating count="2066" average="5.00" min="1" max="5"/>
+    <media:statistics views="53170"/>
    </media:community>
   </media:group>
  </entry>
@@ -309,8 +332,8 @@ Bianca Bonnie’s story coming Jan 18th.</media:description>
    <media:thumbnail url="https://i1.ytimg.com/vi/LjYKeKLEk30/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1758" average="5.00" min="1" max="5"/>
-    <media:statistics views="46349"/>
+    <media:starRating count="1789" average="5.00" min="1" max="5"/>
+    <media:statistics views="47891"/>
    </media:community>
   </media:group>
  </entry>
@@ -332,31 +355,8 @@ Bianca Bonnie’s story coming Jan 18th.</media:description>
    <media:thumbnail url="https://i2.ytimg.com/vi/AdilfuzaeTI/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1635" average="5.00" min="1" max="5"/>
-    <media:statistics views="54670"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:H4qYL9S6qK4</id>
-  <yt:videoId>H4qYL9S6qK4</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>do you #DuaLipaHoudini like @CarterKench, @happykelli, @SIMJIShorts, &amp; @TheFitnessMarshall?</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=H4qYL9S6qK4"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2023-11-17T21:00:32+00:00</published>
-  <updated>2023-11-17T21:07:24+00:00</updated>
-  <media:group>
-   <media:title>do you #DuaLipaHoudini like @CarterKench, @happykelli, @SIMJIShorts, &amp; @TheFitnessMarshall?</media:title>
-   <media:content url="https://www.youtube.com/v/H4qYL9S6qK4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i1.ytimg.com/vi/H4qYL9S6qK4/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="2102" average="5.00" min="1" max="5"/>
-    <media:statistics views="64509"/>
+    <media:starRating count="1663" average="5.00" min="1" max="5"/>
+    <media:statistics views="56522"/>
    </media:community>
   </media:group>
  </entry>

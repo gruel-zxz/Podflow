@@ -21,7 +21,7 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2023-12-05T03:51:23+00:00</published>
-  <updated>2023-12-05T03:52:23+00:00</updated>
+  <updated>2023-12-05T07:34:55+00:00</updated>
   <media:group>
    <media:title>百分之八十男人说过的四字真言，爱吐槽的四季妈妈揭秘！#家庭吐槽大会</media:title>
    <media:content url="https://www.youtube.com/v/pEoD-MDflJs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -32,8 +32,8 @@
 
 别忘了点赞、订阅，并在评论区分享你所知道的四字真言或者你的观点。一起来参与这场百分之八十男人的四字真言吐槽大会吧！#幽默观察 #笑中思考 #家庭调侃</media:description>
    <media:community>
-    <media:starRating count="0" average="0.00" min="1" max="5"/>
-    <media:statistics views="0"/>
+    <media:starRating count="16" average="5.00" min="1" max="5"/>
+    <media:statistics views="647"/>
    </media:community>
   </media:group>
  </entry>
@@ -59,8 +59,8 @@
 
 别忘了点赞、订阅，并在评论区分享您对这一话题的看法和有趣的经验。一起来笑一笑，探讨老公的夜间神秘行为吧！#家庭生活 #幽默观察 #笑中解忧</media:description>
    <media:community>
-    <media:starRating count="10" average="5.00" min="1" max="5"/>
-    <media:statistics views="477"/>
+    <media:starRating count="12" average="5.00" min="1" max="5"/>
+    <media:statistics views="544"/>
    </media:community>
   </media:group>
  </entry>
@@ -87,7 +87,7 @@
 别忘了点赞、订阅，并在评论区分享您对家庭承诺的见解和回忆。一起来揭秘画饼之前的美好承诺吧！#家庭生活 #幽默回顾 #笑中思考</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="272"/>
+    <media:statistics views="279"/>
    </media:community>
   </media:group>
  </entry>
@@ -113,8 +113,8 @@
 
 别忘了点赞、订阅，并在评论区分享您对河北人电商实在风格的看法。一起来感受这种独特的商业魅力吧！#电商风格 #幽默吐槽 #实在表现</media:description>
    <media:community>
-    <media:starRating count="10" average="5.00" min="1" max="5"/>
-    <media:statistics views="340"/>
+    <media:starRating count="11" average="5.00" min="1" max="5"/>
+    <media:statistics views="345"/>
    </media:community>
   </media:group>
  </entry>
@@ -140,8 +140,8 @@
 
 别忘了点赞、订阅，并在评论区分享你们的看法和有趣的经验。一起来笑一笑，学一学这个独门绝技吧！#吐槽生活 #幽默技巧 #笑中学习</media:description>
    <media:community>
-    <media:starRating count="12" average="5.00" min="1" max="5"/>
-    <media:statistics views="283"/>
+    <media:starRating count="13" average="5.00" min="1" max="5"/>
+    <media:statistics views="290"/>
    </media:community>
   </media:group>
  </entry>
@@ -195,7 +195,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一时光变迁的感慨和笑点。一起来品味四川的幽默变迁吧！#四川美食 #幽默回顾 #笑谈往事</media:description>
    <media:community>
     <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="440"/>
+    <media:statistics views="441"/>
    </media:community>
   </media:group>
  </entry>
@@ -222,7 +222,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一独特观点的看法。一起来笑破肚皮，揭秘男人“高级智能”背后的幽默真相吧！ #家庭生活 #幽默解读 #笑料百出</media:description>
    <media:community>
     <media:starRating count="11" average="5.00" min="1" max="5"/>
-    <media:statistics views="520"/>
+    <media:statistics views="519"/>
    </media:community>
   </media:group>
  </entry>
@@ -276,7 +276,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一话题的看法和经验。一起来揭秘婚姻中男人为何不回复老婆消息的神秘现象吧！ #婚姻沟通 #家庭生活 #幽默解读</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="570"/>
+    <media:statistics views="571"/>
    </media:community>
   </media:group>
  </entry>
@@ -344,8 +344,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/GfDl5gQbbF4/hqdefault.jpg" width="480" height="360"/>
    <media:description>山东有一套独特的计量单位#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="10" average="5.00" min="1" max="5"/>
-    <media:statistics views="551"/>
+    <media:starRating count="11" average="5.00" min="1" max="5"/>
+    <media:statistics views="554"/>
    </media:community>
   </media:group>
  </entry>
@@ -368,7 +368,7 @@
    <media:description>大学生喜提脆脆鲨称号，现在身体好不好真的不能用年纪来界定了#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="712"/>
+    <media:statistics views="715"/>
    </media:community>
   </media:group>
  </entry>
@@ -390,8 +390,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/i0JtTVGLqP0/hqdefault.jpg" width="480" height="360"/>
    <media:description>在我心中，哈尔滨是最有性价比的旅游城市#爱吐槽的四季妈妈 #家庭吐槽大会 #哈尔滨</media:description>
    <media:community>
-    <media:starRating count="17" average="5.00" min="1" max="5"/>
-    <media:statistics views="584"/>
+    <media:starRating count="18" average="5.00" min="1" max="5"/>
+    <media:statistics views="586"/>
    </media:community>
   </media:group>
  </entry>
