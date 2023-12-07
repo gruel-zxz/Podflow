@@ -11,6 +11,33 @@
  </author>
  <published>2022-06-04T16:17:27+00:00</published>
  <entry>
+  <id>yt:video:0k7mTc2qC2I</id>
+  <yt:videoId>0k7mTc2qC2I</yt:videoId>
+  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
+  <title>副驾驶坐老婆，男人表情全国统一？爱吐槽的四季妈妈调皮揭秘！#家庭吐槽大会</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=0k7mTc2qC2I"/>
+  <author>
+   <name>四季妈妈—小龙</name>
+   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
+  </author>
+  <published>2023-12-07T02:26:54+00:00</published>
+  <updated>2023-12-07T02:29:52+00:00</updated>
+  <media:group>
+   <media:title>副驾驶坐老婆，男人表情全国统一？爱吐槽的四季妈妈调皮揭秘！#家庭吐槽大会</media:title>
+   <media:content url="https://www.youtube.com/v/0k7mTc2qC2I?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/0k7mTc2qC2I/hqdefault.jpg" width="480" height="360"/>
+   <media:description>嗨，亲爱的观众们，欢迎回到我的频道！今天我们要揭秘一个众所周知的现象：副驾驶坐的是老婆，男人的表情居然是全国统一的？通过爱吐槽的四季妈妈的视角，我将以轻松幽默的方式为大家分享这个有趣的观察，并呈现一些家庭吐槽的笑点。
+
+在这期视频中，我们将一同欣赏男人们在副驾驶时的表情，看看是否真的存在一种全国统一的“副驾驶表情”。当然，这是以娱乐为主，希望大家能在笑声中找到共鸣。
+
+别忘了点赞、订阅，并在评论区分享您对这一话题的看法和自己的经验。一起来参与这场男人副驾驶表情吐槽大会吧！#家庭生活 #幽默观察 #笑中解压</media:description>
+   <media:community>
+    <media:starRating count="9" average="5.00" min="1" max="5"/>
+    <media:statistics views="133"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:pEoD-MDflJs</id>
   <yt:videoId>pEoD-MDflJs</yt:videoId>
   <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
@@ -32,8 +59,8 @@
 
 别忘了点赞、订阅，并在评论区分享你所知道的四字真言或者你的观点。一起来参与这场百分之八十男人的四字真言吐槽大会吧！#幽默观察 #笑中思考 #家庭调侃</media:description>
    <media:community>
-    <media:starRating count="19" average="5.00" min="1" max="5"/>
-    <media:statistics views="683"/>
+    <media:starRating count="34" average="5.00" min="1" max="5"/>
+    <media:statistics views="1334"/>
    </media:community>
   </media:group>
  </entry>
@@ -59,8 +86,8 @@
 
 别忘了点赞、订阅，并在评论区分享您对这一话题的看法和有趣的经验。一起来笑一笑，探讨老公的夜间神秘行为吧！#家庭生活 #幽默观察 #笑中解忧</media:description>
    <media:community>
-    <media:starRating count="12" average="5.00" min="1" max="5"/>
-    <media:statistics views="547"/>
+    <media:starRating count="13" average="5.00" min="1" max="5"/>
+    <media:statistics views="558"/>
    </media:community>
   </media:group>
  </entry>
@@ -86,8 +113,8 @@
 
 别忘了点赞、订阅，并在评论区分享您对家庭承诺的见解和回忆。一起来揭秘画饼之前的美好承诺吧！#家庭生活 #幽默回顾 #笑中思考</media:description>
    <media:community>
-    <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="282"/>
+    <media:starRating count="7" average="5.00" min="1" max="5"/>
+    <media:statistics views="300"/>
    </media:community>
   </media:group>
  </entry>
@@ -114,7 +141,7 @@
 别忘了点赞、订阅，并在评论区分享您对河北人电商实在风格的看法。一起来感受这种独特的商业魅力吧！#电商风格 #幽默吐槽 #实在表现</media:description>
    <media:community>
     <media:starRating count="11" average="5.00" min="1" max="5"/>
-    <media:statistics views="346"/>
+    <media:statistics views="351"/>
    </media:community>
   </media:group>
  </entry>
@@ -141,7 +168,7 @@
 别忘了点赞、订阅，并在评论区分享你们的看法和有趣的经验。一起来笑一笑，学一学这个独门绝技吧！#吐槽生活 #幽默技巧 #笑中学习</media:description>
    <media:community>
     <media:starRating count="13" average="5.00" min="1" max="5"/>
-    <media:statistics views="290"/>
+    <media:statistics views="298"/>
    </media:community>
   </media:group>
  </entry>
@@ -167,8 +194,8 @@
 
 别忘了点赞、订阅，并在评论区分享您对这一话题的见解和吐槽。一起来笑谈钓鱼佬的独特魅力吧！#钓鱼生活 #幽默观察 #家庭笑话</media:description>
    <media:community>
-    <media:starRating count="10" average="5.00" min="1" max="5"/>
-    <media:statistics views="436"/>
+    <media:starRating count="11" average="5.00" min="1" max="5"/>
+    <media:statistics views="446"/>
    </media:community>
   </media:group>
  </entry>
@@ -194,8 +221,8 @@
 
 别忘了点赞、订阅，并在评论区分享您对这一时光变迁的感慨和笑点。一起来品味四川的幽默变迁吧！#四川美食 #幽默回顾 #笑谈往事</media:description>
    <media:community>
-    <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="441"/>
+    <media:starRating count="9" average="5.00" min="1" max="5"/>
+    <media:statistics views="444"/>
    </media:community>
   </media:group>
  </entry>
@@ -221,8 +248,8 @@
 
 别忘了点赞、订阅，并在评论区分享您对这一独特观点的看法。一起来笑破肚皮，揭秘男人“高级智能”背后的幽默真相吧！ #家庭生活 #幽默解读 #笑料百出</media:description>
    <media:community>
-    <media:starRating count="11" average="5.00" min="1" max="5"/>
-    <media:statistics views="519"/>
+    <media:starRating count="12" average="5.00" min="1" max="5"/>
+    <media:statistics views="522"/>
    </media:community>
   </media:group>
  </entry>
@@ -248,8 +275,8 @@
 
 别忘了点赞、订阅，并在评论区分享您对这一独特观点的看法。一起来笑破肚皮，揭秘男人“高级智能”背后的幽默真相吧！ #家庭生活 #幽默解读 #笑料百出</media:description>
    <media:community>
-    <media:starRating count="10" average="5.00" min="1" max="5"/>
-    <media:statistics views="823"/>
+    <media:starRating count="11" average="5.00" min="1" max="5"/>
+    <media:statistics views="828"/>
    </media:community>
   </media:group>
  </entry>
@@ -276,7 +303,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一话题的看法和经验。一起来揭秘婚姻中男人为何不回复老婆消息的神秘现象吧！ #婚姻沟通 #家庭生活 #幽默解读</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="571"/>
+    <media:statistics views="572"/>
    </media:community>
   </media:group>
  </entry>
@@ -299,7 +326,7 @@
    <media:description>男人消费力首次超越宠物狗，原因竟然是   #爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="451"/>
+    <media:statistics views="453"/>
    </media:community>
   </media:group>
  </entry>
@@ -322,7 +349,7 @@
    <media:description>山东虽然多侠义之士，但是竟然没有出过皇帝#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="11" average="5.00" min="1" max="5"/>
-    <media:statistics views="595"/>
+    <media:statistics views="596"/>
    </media:community>
   </media:group>
  </entry>
@@ -368,30 +395,7 @@
    <media:description>大学生喜提脆脆鲨称号，现在身体好不好真的不能用年纪来界定了#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="715"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:i0JtTVGLqP0</id>
-  <yt:videoId>i0JtTVGLqP0</yt:videoId>
-  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
-  <title>在我心中，哈尔滨是最有性价比的旅游城市#爱吐槽的四季妈妈 #家庭吐槽大会 #哈尔滨</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=i0JtTVGLqP0"/>
-  <author>
-   <name>四季妈妈—小龙</name>
-   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
-  </author>
-  <published>2023-11-05T03:37:39+00:00</published>
-  <updated>2023-12-01T11:51:32+00:00</updated>
-  <media:group>
-   <media:title>在我心中，哈尔滨是最有性价比的旅游城市#爱吐槽的四季妈妈 #家庭吐槽大会 #哈尔滨</media:title>
-   <media:content url="https://www.youtube.com/v/i0JtTVGLqP0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/i0JtTVGLqP0/hqdefault.jpg" width="480" height="360"/>
-   <media:description>在我心中，哈尔滨是最有性价比的旅游城市#爱吐槽的四季妈妈 #家庭吐槽大会 #哈尔滨</media:description>
-   <media:community>
-    <media:starRating count="18" average="5.00" min="1" max="5"/>
-    <media:statistics views="586"/>
+    <media:statistics views="716"/>
    </media:community>
   </media:group>
  </entry>
