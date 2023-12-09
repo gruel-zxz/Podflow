@@ -10,6 +10,7 @@ import math
 import time
 import threading
 import subprocess
+import http.cookiejar
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 
@@ -74,7 +75,7 @@ def write_log(log, suffix=None, display=True, time_display=True):
     formatted_time = current_time.strftime("%Y-%m-%d %H:%M:%S")
     # 打开文件, 并读取原有内容
     try:
-        with open("log.txt", "r") as file:
+        with open("log.txt", "r", encoding="utf-8") as file:
             contents = file.read()
     except FileNotFoundError:
         contents = ""
@@ -138,18 +139,28 @@ except ImportError:
         sys.exit(0)
 
 # HTTP GET请求重试模块
-def http_get(url, name, max_retries=10, retry_delay=6, headers_possess=False):
+def http_get(url, name, max_retries=10, retry_delay=6, headers_possess=False, cookies=None, data=None, cookie_jar_name=None):
     user_agent = {
         "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36"
     }
     err = None  # 初始化 err 变量
     response = None  # 初始化 response 变量
+    # 创建一个Session对象
+    session = requests.Session()
+    if cookie_jar_name:
+        # 创建一个MozillaCookieJar对象，指定保存文件
+        cookie_jar = http.cookiejar.MozillaCookieJar(f"{cookie_jar_name}.txt")
+        # 将CookieJar对象绑定到Session对象
+        session.cookies = cookie_jar
+    if headers_possess:
+        session.headers.update(user_agent)
+    if cookies:
+        session.cookies.update(cookies)
+    if data:
+        session.params.update(data)
     for num in range(max_retries):
         try:
-            if headers_possess:
-                response = requests.get(url, headers=user_agent, timeout=5)
-            else:
-                response = requests.get(url, timeout=5)
+            response = session.get(url, timeout=5)
             response.raise_for_status()
         except Exception as e:
             if response is not None and response.status_code in {404}:
@@ -397,14 +408,14 @@ def video_format(video_website, video_url, media="m4a", quality="480"):
                 "quiet": True,  # 禁止非错误信息的输出
                 "logger": MyLogger(),
             }
-            ydl = yt_dlp.YoutubeDL(ydl_opts)
-            # 使用提供的 URL 提取视频信息
-            if info_dict := ydl.extract_info(
-                f"{video_website}{video_url}", download=False
-            ):
-                # 获取视频时长并返回
-                duration = info_dict.get("duration")
-                formats = info_dict.get("formats")
+            with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+                # 使用提供的 URL 提取视频信息
+                if info_dict := ydl.extract_info(
+                    f"{video_website}{video_url}", download=False
+                ):
+                    # 获取视频时长并返回
+                    duration = info_dict.get("duration")
+                    formats = info_dict.get("formats")
         except Exception as e:
             fail_message = (
                 (str(e))
@@ -763,7 +774,7 @@ if not os.path.exists("config.json"):
 else:
     # 如果文件存在, 读取字典并保存到config变量中
     try:
-        with open("config.json", "r") as file:
+        with open("config.json", "r", encoding="utf-8") as file:
             config = json.load(file)
         write_log("已读取配置文件")
     # 如果config格式有问题, 停止运行并报错

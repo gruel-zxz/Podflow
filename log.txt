@@ -1,3 +1,136 @@
+2023-12-09 17:40:17 总播客已更新
+2023-12-09 17:40:17 四季妈妈—小龙 播客无更新
+2023-12-09 17:40:17 stone记 播客无更新
+2023-12-09 17:40:16 youtube 播客无更新
+2023-12-09 17:40:14 读取youtube频道的channelid成功
+2023-12-09 17:40:14 bilibili频道信息不存在
+2023-12-09 17:40:14 已读取youtube频道信息
+2023-12-09 17:40:14 已读取配置文件
+2023-12-09 17:40:13 pycryptodome无需更新|版本：3.19.0
+2023-12-09 17:40:13 pycryptodome已安装
+2023-12-09 17:40:11 qrcode无需更新|版本：7.4.2
+2023-12-09 17:40:11 qrcode已安装
+2023-12-09 17:40:10 astral无需更新|版本：3.2
+2023-12-09 17:40:10 astral已安装
+2023-12-09 17:40:09 requests无需更新|版本：2.31.0
+2023-12-09 17:40:09 requests已安装
+2023-12-09 17:40:07 chardet无需更新|版本：5.2.0
+2023-12-09 17:40:07 chardet已安装
+2023-12-09 17:40:06 RangeHTTPServer无需更新|版本：1.3.3
+2023-12-09 17:40:06 RangeHTTPServer已安装
+2023-12-09 17:40:04 yt-dlp无需更新|版本：2023.11.16
+2023-12-09 17:40:04 yt-dlp已安装
+2023-12-09 17:31:16 youtube|sbJCo2ODPxI 下载成功
+2023-12-09 17:31:14 youtube|sbJCo2ODPxI 缺失并重新下载
+2023-12-09 17:31:14 youtube|DbL-mBV1mtA 下载成功
+2023-12-09 17:31:11 youtube|DbL-mBV1mtA 缺失并重新下载
+2023-12-09 17:31:11 youtube|lLHrUcNFpjo 下载成功
+2023-12-09 17:31:08 youtube|lLHrUcNFpjo 缺失并重新下载
+2023-12-09 17:31:08 youtube|t1hdFbaTXfM 下载成功
+2023-12-09 17:31:05 youtube|t1hdFbaTXfM 缺失并重新下载
+2023-12-09 17:31:05 youtube|Rv0z6FNUBlE 下载成功
+2023-12-09 17:31:02 youtube|Rv0z6FNUBlE 缺失并重新下载
+2023-12-09 17:31:02 youtube|Iz_YgNfceXA 下载成功
+2023-12-09 17:31:00 youtube|Iz_YgNfceXA 缺失并重新下载
+2023-12-09 17:31:00 youtube|iHhTRAvu8k0 下载成功
+2023-12-09 17:30:55 youtube|iHhTRAvu8k0 缺失并重新下载
+2023-12-09 17:30:55 youtube|s9x0FCwfWfM 下载成功
+2023-12-09 17:30:52 youtube|s9x0FCwfWfM 缺失并重新下载
+2023-12-09 17:30:52 youtube|8LTzDC4g0gY 下载成功
+2023-12-09 17:30:49 youtube|8LTzDC4g0gY 缺失并重新下载
+2023-12-09 17:30:49 youtube|iUeEYjf6BTA 下载成功
+2023-12-09 17:30:47 youtube|iUeEYjf6BTA 缺失并重新下载
+2023-12-09 17:30:47 youtube|5AJKoIt-S1Y 下载成功
+2023-12-09 17:30:44 youtube|5AJKoIt-S1Y 缺失并重新下载
+2023-12-09 17:30:44 youtube|CBAlbj2eIJo 下载成功
+2023-12-09 17:30:39 youtube|CBAlbj2eIJo 缺失并重新下载
+2023-12-09 17:30:36 总播客已更新
+2023-12-09 17:30:36 四季妈妈—小龙 播客无更新
+2023-12-09 17:30:36 stone记 播客无更新
+2023-12-09 17:30:35 youtube 播客已更新
+2023-12-09 17:30:34 youtube|A_A6zeVP1tk 下载成功
+2023-12-09 17:30:31 youtube|NqQP-3dMACo 下载成功
+2023-12-09 17:30:28 youtube|idfu04-5sGs 下载成功
+2023-12-09 17:30:26 youtube|Rb0k9vUCEno 下载成功
+2023-12-09 17:30:21 youtube|jvJqtCJwHmQ 下载成功
+2023-12-09 17:30:18 youtube|gjWem-emN2w 下载成功
+2023-12-09 17:30:16 youtube|6-AaRIfLhD8 下载成功
+2023-12-09 17:30:13 youtube|WqpyNQQLSmc 下载成功
+2023-12-09 17:30:07 需更新的YouTube频道:youtube
+2023-12-09 17:30:07 文件夹UCBR8-60-B28hp2BmDPdntcQ创建成功
+2023-12-09 17:30:07 读取youtube频道的channelid成功
+2023-12-09 17:30:07 bilibili频道信息不存在
+2023-12-09 17:30:07 已读取youtube频道信息
+2023-12-09 17:30:06 已读取配置文件
+2023-12-09 17:30:05 pycryptodome无需更新|版本：3.19.0
+2023-12-09 17:30:05 pycryptodome已安装
+2023-12-09 17:30:04 qrcode无需更新|版本：7.4.2
+2023-12-09 17:30:04 qrcode已安装
+2023-12-09 17:30:02 astral无需更新|版本：3.2
+2023-12-09 17:30:02 astral已安装
+2023-12-09 17:30:01 requests无需更新|版本：2.31.0
+2023-12-09 17:30:01 requests已安装
+2023-12-09 17:30:00 chardet无需更新|版本：5.2.0
+2023-12-09 17:30:00 chardet已安装
+2023-12-09 17:29:58 RangeHTTPServer无需更新|版本：1.3.3
+2023-12-09 17:29:58 RangeHTTPServer已安装
+2023-12-09 17:29:57 yt-dlp无需更新|版本：2023.11.16
+2023-12-09 17:29:57 yt-dlp已安装
+2023-12-09 16:54:05 四季妈妈—小龙|1t0mRjci4Cc 下载成功
+2023-12-09 16:54:04 四季妈妈—小龙|1t0mRjci4Cc 缺失并重新下载
+2023-12-09 16:54:04 四季妈妈—小龙|bEN1oRIaI_E 下载成功
+2023-12-09 16:54:03 四季妈妈—小龙|bEN1oRIaI_E 缺失并重新下载
+2023-12-09 16:54:01 总播客已更新
+2023-12-09 16:54:01 四季妈妈—小龙 播客已更新
+2023-12-09 16:54:01 stone记 播客无更新
+2023-12-09 16:54:00 四季妈妈—小龙|pEoD-MDflJs 下载成功
+2023-12-09 16:53:59 四季妈妈—小龙|0k7mTc2qC2I 下载成功
+2023-12-09 16:53:57 四季妈妈—小龙|VFWSc2qszEo 下载成功
+2023-12-09 16:53:53 需更新的YouTube频道:四季妈妈—小龙
+2023-12-09 16:53:53 读取youtube频道的channelid成功
+2023-12-09 16:53:53 bilibili频道信息不存在
+2023-12-09 16:53:53 已读取youtube频道信息
+2023-12-09 16:53:53 已读取配置文件
+2023-12-09 16:53:52 pycryptodome无需更新|版本：3.19.0
+2023-12-09 16:53:52 pycryptodome已安装
+2023-12-09 16:53:51 qrcode无需更新|版本：7.4.2
+2023-12-09 16:53:51 qrcode已安装
+2023-12-09 16:53:49 astral无需更新|版本：3.2
+2023-12-09 16:53:49 astral已安装
+2023-12-09 16:53:48 requests无需更新|版本：2.31.0
+2023-12-09 16:53:48 requests已安装
+2023-12-09 16:53:47 chardet无需更新|版本：5.2.0
+2023-12-09 16:53:47 chardet已安装
+2023-12-09 16:53:45 RangeHTTPServer无需更新|版本：1.3.3
+2023-12-09 16:53:45 RangeHTTPServer已安装
+2023-12-09 16:53:44 yt-dlp无需更新|版本：2023.11.16
+2023-12-09 16:53:44 yt-dlp已安装
+2023-12-09 16:33:06 总播客已更新
+2023-12-09 16:33:06 四季妈妈—小龙 播客已更新
+2023-12-09 16:33:06 stone记 播客无更新
+2023-12-09 16:33:04 四季妈妈—小龙|pEoD-MDflJs|Failed to parse JSON (caused by JSONDecodeError("Expecting value in '': line 1 column 1 (char 0)")); please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
+2023-12-09 16:33:04 四季妈妈—小龙|VFWSc2qszEo|Failed to parse JSON (caused by JSONDecodeError("Expecting value in '': line 1 column 1 (char 0)")); please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
+2023-12-09 16:33:03 四季妈妈—小龙|0k7mTc2qC2I|Failed to parse JSON (caused by JSONDecodeError("Expecting value in '': line 1 column 1 (char 0)")); please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
+2023-12-09 16:32:59 需更新的YouTube频道:四季妈妈—小龙
+2023-12-09 16:32:59 文件夹UC3elWG-AxVvIF2_xPQb1rkQ创建成功
+2023-12-09 16:32:59 读取youtube频道的channelid成功
+2023-12-09 16:32:59 bilibili频道信息不存在
+2023-12-09 16:32:59 已读取youtube频道信息
+2023-12-09 16:32:59 已读取配置文件
+2023-12-09 16:32:58 pycryptodome无需更新|版本：3.19.0
+2023-12-09 16:32:58 pycryptodome已安装
+2023-12-09 16:32:57 qrcode无需更新|版本：7.4.2
+2023-12-09 16:32:57 qrcode已安装
+2023-12-09 16:32:56 astral无需更新|版本：3.2
+2023-12-09 16:32:55 astral已安装
+2023-12-09 16:32:54 requests无需更新|版本：2.31.0
+2023-12-09 16:32:54 requests已安装
+2023-12-09 16:32:53 chardet无需更新|版本：5.2.0
+2023-12-09 16:32:53 chardet已安装
+2023-12-09 16:32:51 RangeHTTPServer无需更新|版本：1.3.3
+2023-12-09 16:32:51 RangeHTTPServer已安装
+2023-12-09 16:32:50 yt-dlp无需更新|版本：2023.11.16
+2023-12-09 16:32:50 yt-dlp已安装
 2023-12-09 16:25:40 总播客已更新
 2023-12-09 16:25:40 stone记 播客无更新
 2023-12-09 16:25:39 读取youtube频道的channelid成功

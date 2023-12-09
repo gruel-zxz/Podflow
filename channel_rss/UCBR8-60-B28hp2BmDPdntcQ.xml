@@ -3,11 +3,11 @@
     <channel>
         <title>YouTube</title>
         <link>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</link>
-        <description>YouTube&#39;s Official Channel helps you discover what&#39;s new &amp; trending globally. Watch must-see videos, from music to culture to Internet phenomena</description>
+        <description>YouTube&#x27;s Official Channel helps you discover what&#x27;s new &amp; trending globally. Watch must-see videos, from music to culture to Internet phenomena</description>
         <category>TV &amp; Film</category>
         <generator>Podflow (support us at https://github.com/gruel-zxz/podflow)</generator>
         <language>en-us</language>
-        <lastBuildDate>Thu, 07 Dec 2023 05:29:19 +0000</lastBuildDate>
+        <lastBuildDate>Sat, 09 Dec 2023 17:40:16 +0000</lastBuildDate>
         <pubDate>Sun, 24 Apr 2005 11:20:54 +0800</pubDate>
         <image>
             <url>https://yt3.googleusercontent.com/584JjRp5QMuKbyduM_2k5RlXFqHJtQ0qLIPZpwbUjMJmgzZngHcam5JMuZQxyzGMV5ljwJRl0Q=s2048-c-k-c0x00ffffff-no-rj</url>
@@ -16,11 +16,100 @@
         </image>
         <itunes:author>YouTube</itunes:author>
         <itunes:subtitle>YouTube</itunes:subtitle>
-        <itunes:summary><![CDATA[YouTube&#39;s Official Channel helps you discover what&#39;s new &amp; trending globally. Watch must-see videos, from music to culture to Internet phenomena]]></itunes:summary>
+        <itunes:summary><![CDATA[YouTube&#x27;s Official Channel helps you discover what&#x27;s new &amp; trending globally. Watch must-see videos, from music to culture to Internet phenomena]]></itunes:summary>
         <itunes:image href="https://yt3.googleusercontent.com/584JjRp5QMuKbyduM_2k5RlXFqHJtQ0qLIPZpwbUjMJmgzZngHcam5JMuZQxyzGMV5ljwJRl0Q=s2048-c-k-c0x00ffffff-no-rj"></itunes:image>
         <itunes:explicit>no</itunes:explicit>
         <itunes:category text="TV &amp; Film"></itunes:category>
 <!-- {UCBR8-60-B28hp2BmDPdntcQ} -->
+<!-- UCBR8-60-B28hp2BmDPdntcQ -->
+        <item>
+            <guid>WqpyNQQLSmc</guid>
+            <title>@AlishaMarie visits the ghosts of vlogmas past 👻🎄</title>
+            <link>https://youtube.com/watch?v=WqpyNQQLSmc</link>
+            <description>『YouTube』</description>
+            <pubDate>Sat, 09 Dec 2023 15:30:22 +0000</pubDate>
+            <enclosure url="https://raw.githubusercontent.com/gruel-zxz/podflow/main/channel_audiovisual/UCBR8-60-B28hp2BmDPdntcQ/WqpyNQQLSmc.mp4" length="2810813" type="video/mp4"></enclosure>
+            <itunes:author>@AlishaMarie visits the ghosts of vlogmas past 👻🎄</itunes:author>
+            <itunes:subtitle>@AlishaMarie visits the ghosts of vlogmas past 👻🎄</itunes:subtitle>
+            <itunes:summary><![CDATA[『YouTube』]]></itunes:summary>
+            <itunes:image href="https://i4.ytimg.com/vi/WqpyNQQLSmc/hqdefault.jpg"></itunes:image>
+            <itunes:duration>00:25</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:order>1</itunes:order>
+        </item>
+<!-- UCBR8-60-B28hp2BmDPdntcQ -->
+        <item>
+            <guid>6-AaRIfLhD8</guid>
+            <title>this is us if you even care</title>
+            <link>https://youtube.com/watch?v=6-AaRIfLhD8</link>
+            <description>『YouTube』</description>
+            <pubDate>Fri, 08 Dec 2023 23:30:11 +0000</pubDate>
+            <enclosure url="https://raw.githubusercontent.com/gruel-zxz/podflow/main/channel_audiovisual/UCBR8-60-B28hp2BmDPdntcQ/6-AaRIfLhD8.mp4" length="628352" type="video/mp4"></enclosure>
+            <itunes:author>this is us if you even care</itunes:author>
+            <itunes:subtitle>this is us if you even care</itunes:subtitle>
+            <itunes:summary><![CDATA[『YouTube』]]></itunes:summary>
+            <itunes:image href="https://i3.ytimg.com/vi/6-AaRIfLhD8/hqdefault.jpg"></itunes:image>
+            <itunes:duration>00:07</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:order>1</itunes:order>
+        </item>
+<!-- UCBR8-60-B28hp2BmDPdntcQ -->
+        <item>
+            <guid>gjWem-emN2w</guid>
+            <title>celebrating THINK LATER release day w @TateMcRae shorts on Shorts 💎💋 @mikaelaaluv #KissesToMyExes</title>
+            <link>https://youtube.com/watch?v=gjWem-emN2w</link>
+            <description>『YouTube』</description>
+            <pubDate>Fri, 08 Dec 2023 17:34:36 +0000</pubDate>
+            <enclosure url="https://raw.githubusercontent.com/gruel-zxz/podflow/main/channel_audiovisual/UCBR8-60-B28hp2BmDPdntcQ/gjWem-emN2w.mp4" length="3101288" type="video/mp4"></enclosure>
+            <itunes:author>celebrating THINK LATER release day w @TateMcRae shorts on Shorts 💎💋 @mikaelaaluv #KissesToMyExes</itunes:author>
+            <itunes:subtitle>celebrating THINK LATER release day w @TateMcRae shorts on Shorts 💎💋 @mikaelaaluv #KissesToMyExes</itunes:subtitle>
+            <itunes:summary><![CDATA[『YouTube』]]></itunes:summary>
+            <itunes:image href="https://i4.ytimg.com/vi/gjWem-emN2w/hqdefault.jpg"></itunes:image>
+            <itunes:duration>00:22</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:order>1</itunes:order>
+        </item>
+<!-- UCBR8-60-B28hp2BmDPdntcQ -->
+        <item>
+            <guid>jvJqtCJwHmQ</guid>
+            <title>honestly a channel hosted by kurt and his kindergarten teacher sounds awesome @KurtTocci @amandumbb</title>
+            <link>https://youtube.com/watch?v=jvJqtCJwHmQ</link>
+            <description>『YouTube』</description>
+            <pubDate>Thu, 07 Dec 2023 17:00:20 +0000</pubDate>
+            <enclosure url="https://raw.githubusercontent.com/gruel-zxz/podflow/main/channel_audiovisual/UCBR8-60-B28hp2BmDPdntcQ/jvJqtCJwHmQ.mp4" length="3560664" type="video/mp4"></enclosure>
+            <itunes:author>honestly a channel hosted by kurt and his kindergarten teacher sounds awesome @KurtTocci @amandumbb</itunes:author>
+            <itunes:subtitle>honestly a channel hosted by kurt and his kindergarten teacher sounds awesome @KurtTocci @amandumbb</itunes:subtitle>
+            <itunes:summary><![CDATA[『YouTube』]]></itunes:summary>
+            <itunes:image href="https://i3.ytimg.com/vi/jvJqtCJwHmQ/hqdefault.jpg"></itunes:image>
+            <itunes:duration>00:25</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:order>1</itunes:order>
+        </item>
+<!-- UCBR8-60-B28hp2BmDPdntcQ -->
+        <item>
+            <guid>Rb0k9vUCEno</guid>
+            <title>@AlishaMarie talks Vlogmas, DIY fails, and her most viral video | YouTube Watch History</title>
+            <link>https://youtube.com/watch?v=Rb0k9vUCEno</link>
+            <description>Did someone say vlogmas?!?! &#xA;The Holidays are upon us and YouTube’s OG vlogmas creator, Alisha Marie, sits down to share what’s in her YouTube Watch History. As she gears up for her 10th year of vlogmas, we get a peak at what festive content she’s been watching to prepare. &#xA;From dishing on her biggest DIY fails, to her viral catfish moment, to her favorite vloggers of all time, Alisha Marie tells all on what she’s been watching and what she’d recommend this holiday season!&#xA;0:00 - 0:20 Intro&#xA;0:20 - 3:13 Recent Videos&#xA;3:13 - 5:21 Keyword Search&#xA;5:21 - 9:06 Scavenger Hunt&#xA;9:06 - 11:07 Holiday Spirit Playlist&#xA;11:07 Final Thoughts&#xA;#AlishaMarie #YouTube #WatchHistory #Vlogmas</description>
+            <pubDate>Thu, 07 Dec 2023 15:00:20 +0000</pubDate>
+            <enclosure url="https://raw.githubusercontent.com/gruel-zxz/podflow/main/channel_audiovisual/UCBR8-60-B28hp2BmDPdntcQ/Rb0k9vUCEno.mp4" length="43406560" type="video/mp4"></enclosure>
+            <itunes:author>@AlishaMarie talks Vlogmas, DIY fails, and her most viral video | YouTube Watch History</itunes:author>
+            <itunes:subtitle>@AlishaMarie talks Vlogmas, DIY fails, and her most viral video | YouTube Watch History</itunes:subtitle>
+            <itunes:summary><![CDATA[Did someone say vlogmas?!?! 
+The Holidays are upon us and YouTube’s OG vlogmas creator, Alisha Marie, sits down to share what’s in her YouTube Watch History. As she gears up for her 10th year of vlogmas, we get a peak at what festive content she’s been watching to prepare. 
+From dishing on her biggest DIY fails, to her viral catfish moment, to her favorite vloggers of all time, Alisha Marie tells all on what she’s been watching and what she’d recommend this holiday season!
+0:00 - 0:20 Intro
+0:20 - 3:13 Recent Videos
+3:13 - 5:21 Keyword Search
+5:21 - 9:06 Scavenger Hunt
+9:06 - 11:07 Holiday Spirit Playlist
+11:07 Final Thoughts
+#AlishaMarie #YouTube #WatchHistory #Vlogmas]]></itunes:summary>
+            <itunes:image href="https://i3.ytimg.com/vi/Rb0k9vUCEno/hqdefault.jpg"></itunes:image>
+            <itunes:duration>11:27</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:order>1</itunes:order>
+        </item>
 <!-- UCBR8-60-B28hp2BmDPdntcQ -->
         <item>
             <guid>idfu04-5sGs</guid>
@@ -261,109 +350,6 @@ Bianca Bonnie’s story coming Jan 18th.]]></itunes:summary>
             <itunes:summary><![CDATA[『YouTube』]]></itunes:summary>
             <itunes:image href="https://i4.ytimg.com/vi/sbJCo2ODPxI/hqdefault.jpg"></itunes:image>
             <itunes:duration>00:18</itunes:duration>
-            <itunes:explicit>no</itunes:explicit>
-            <itunes:order>1</itunes:order>
-        </item>
-<!-- UCBR8-60-B28hp2BmDPdntcQ -->
-        <item>
-            <guid>LjYKeKLEk30</guid>
-            <title>@iAmJordi, @JosiahSchneider, @TheFitnessMarshall, &amp; @EllenandBrian are #DuaLipaHoudini PROS 🔑</title>
-            <link>https://youtube.com/watch?v=LjYKeKLEk30</link>
-            <description>『YouTube』</description>
-            <pubDate>Tue, 21 Nov 2023 23:00:23 +0000</pubDate>
-            <enclosure url="https://raw.githubusercontent.com/gruel-zxz/podflow/main/channel_audiovisual/UCBR8-60-B28hp2BmDPdntcQ/LjYKeKLEk30.mp4" length="6238250" type="video/mp4"></enclosure>
-            <itunes:author>@iAmJordi, @JosiahSchneider, @TheFitnessMarshall, &amp; @EllenandBrian are #DuaLipaHoudini PROS 🔑</itunes:author>
-            <itunes:subtitle>@iAmJordi, @JosiahSchneider, @TheFitnessMarshall, &amp; @EllenandBrian are #DuaLipaHoudini PROS 🔑</itunes:subtitle>
-            <itunes:summary><![CDATA[『YouTube』]]></itunes:summary>
-            <itunes:image href="https://i1.ytimg.com/vi/LjYKeKLEk30/hqdefault.jpg"></itunes:image>
-            <itunes:duration>00:57</itunes:duration>
-            <itunes:explicit>no</itunes:explicit>
-            <itunes:order>1</itunes:order>
-        </item>
-<!-- UCBR8-60-B28hp2BmDPdntcQ -->
-        <item>
-            <guid>AdilfuzaeTI</guid>
-            <title>this is just the tip of the iceberg! check out this creator’s channel for hilarious adventures</title>
-            <link>https://youtube.com/watch?v=AdilfuzaeTI</link>
-            <description>『YouTube』</description>
-            <pubDate>Tue, 21 Nov 2023 17:00:17 +0000</pubDate>
-            <enclosure url="https://raw.githubusercontent.com/gruel-zxz/podflow/main/channel_audiovisual/UCBR8-60-B28hp2BmDPdntcQ/AdilfuzaeTI.mp4" length="2256020" type="video/mp4"></enclosure>
-            <itunes:author>this is just the tip of the iceberg! check out this creator’s channel for hilarious adventures</itunes:author>
-            <itunes:subtitle>this is just the tip of the iceberg! check out this creator’s channel for hilarious adventures</itunes:subtitle>
-            <itunes:summary><![CDATA[『YouTube』]]></itunes:summary>
-            <itunes:image href="https://i2.ytimg.com/vi/AdilfuzaeTI/hqdefault.jpg"></itunes:image>
-            <itunes:duration>00:16</itunes:duration>
-            <itunes:explicit>no</itunes:explicit>
-            <itunes:order>1</itunes:order>
-        </item>
-<!-- UCBR8-60-B28hp2BmDPdntcQ -->
-        <item>
-            <guid>H4qYL9S6qK4</guid>
-            <title>do you #DuaLipaHoudini like @CarterKench, @happykelli, @SIMJIShorts, &amp; @TheFitnessMarshall?</title>
-            <link>https://youtube.com/watch?v=H4qYL9S6qK4</link>
-            <description>『YouTube』</description>
-            <pubDate>Fri, 17 Nov 2023 21:00:32 +0000</pubDate>
-            <enclosure url="https://raw.githubusercontent.com/gruel-zxz/podflow/main/channel_audiovisual/UCBR8-60-B28hp2BmDPdntcQ/H4qYL9S6qK4.mp4" length="4469281" type="video/mp4"></enclosure>
-            <itunes:author>do you #DuaLipaHoudini like @CarterKench, @happykelli, @SIMJIShorts, &amp; @TheFitnessMarshall?</itunes:author>
-            <itunes:subtitle>do you #DuaLipaHoudini like @CarterKench, @happykelli, @SIMJIShorts, &amp; @TheFitnessMarshall?</itunes:subtitle>
-            <itunes:summary><![CDATA[『YouTube』]]></itunes:summary>
-            <itunes:image href="https://i1.ytimg.com/vi/H4qYL9S6qK4/hqdefault.jpg"></itunes:image>
-            <itunes:duration>00:34</itunes:duration>
-            <itunes:explicit>no</itunes:explicit>
-            <itunes:order>1</itunes:order>
-        </item>
-<!-- UCBR8-60-B28hp2BmDPdntcQ -->
-        <item>
-            <guid>BdvcatsORiU</guid>
-            <title>lexi rivera is an expert in all things pineapple - find out what else was in her watch history</title>
-            <link>https://youtube.com/watch?v=BdvcatsORiU</link>
-            <description>『YouTube』</description>
-            <pubDate>Thu, 16 Nov 2023 22:00:20 +0000</pubDate>
-            <enclosure url="https://raw.githubusercontent.com/gruel-zxz/podflow/main/channel_audiovisual/UCBR8-60-B28hp2BmDPdntcQ/BdvcatsORiU.mp4" length="1190661" type="video/mp4"></enclosure>
-            <itunes:author>lexi rivera is an expert in all things pineapple - find out what else was in her watch history</itunes:author>
-            <itunes:subtitle>lexi rivera is an expert in all things pineapple - find out what else was in her watch history</itunes:subtitle>
-            <itunes:summary><![CDATA[『YouTube』]]></itunes:summary>
-            <itunes:image href="https://i3.ytimg.com/vi/BdvcatsORiU/hqdefault.jpg"></itunes:image>
-            <itunes:duration>00:08</itunes:duration>
-            <itunes:explicit>no</itunes:explicit>
-            <itunes:order>1</itunes:order>
-        </item>
-<!-- UCBR8-60-B28hp2BmDPdntcQ -->
-        <item>
-            <guid>nWrc84fDPRY</guid>
-            <title>@MarkWiens shows us the world’s best street food…DO NOT WATCH IF HUNGRY!!</title>
-            <link>https://youtube.com/watch?v=nWrc84fDPRY</link>
-            <description>『YouTube』&#xA;Breakfast in Cambodia → a snack in Chicago → lunch in Osaka.&#xA;@MarkWiens takes us on a worldwide street food celebration that only YouTube creators can provide.&#xA;Comment your favorite spot 📍&#xA;FEATURED CREATORS:&#xA;@Livingabroadalex &#xA;@TrishaVelarmino&#xA;@GoWithAli &#xA;@LisaNguyen &#xA;@strictlydumpling &#xA;@ChasingaPlate &#xA;@Davidsbeenhere &#xA;@GarethEats &#xA;@QueenDesta &#xA;@EoinandAisling &#xA;@whatthepato &#xA;@SammyandTommy &#xA;@jimmykimtv &#xA;@LukeMartin &#xA;@RockstarEater &#xA;@uaeats &#xA;@biteswithlily &#xA;@ShevandDev &#xA;@MarkWiens</description>
-            <pubDate>Thu, 16 Nov 2023 17:17:39 +0000</pubDate>
-            <enclosure url="https://raw.githubusercontent.com/gruel-zxz/podflow/main/channel_audiovisual/UCBR8-60-B28hp2BmDPdntcQ/nWrc84fDPRY.mp4" length="12617466" type="video/mp4"></enclosure>
-            <itunes:author>@MarkWiens shows us the world’s best street food…DO NOT WATCH IF HUNGRY!!</itunes:author>
-            <itunes:subtitle>@MarkWiens shows us the world’s best street food…DO NOT WATCH IF HUNGRY!!</itunes:subtitle>
-            <itunes:summary><![CDATA[『YouTube』
-Breakfast in Cambodia → a snack in Chicago → lunch in Osaka.
-@MarkWiens takes us on a worldwide street food celebration that only YouTube creators can provide.
-Comment your favorite spot 📍
-FEATURED CREATORS:
-@Livingabroadalex 
-@TrishaVelarmino
-@GoWithAli 
-@LisaNguyen 
-@strictlydumpling 
-@ChasingaPlate 
-@Davidsbeenhere 
-@GarethEats 
-@QueenDesta 
-@EoinandAisling 
-@whatthepato 
-@SammyandTommy 
-@jimmykimtv 
-@LukeMartin 
-@RockstarEater 
-@uaeats 
-@biteswithlily 
-@ShevandDev 
-@MarkWiens]]></itunes:summary>
-            <itunes:image href="https://i3.ytimg.com/vi/nWrc84fDPRY/hqdefault.jpg"></itunes:image>
-            <itunes:duration>02:40</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
             <itunes:order>1</itunes:order>
         </item>

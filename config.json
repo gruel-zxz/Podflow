@@ -1,9 +1,26 @@
 {
     "channelid_youtube": {
+        "youtube": {
+            "update_size": 8,
+            "id": "UCBR8-60-B28hp2BmDPdntcQ",
+            "title": "YouTube",
+            "quality": "480",
+            "last_size": 20,
+            "media": "mp4",
+            "InmainRSS": false,
+            "QRcode": true
+        },
         "stone记":{
             "update_size": 15,
             "id": "UCghLs6s95LrBWOdlZUCH4qw1",
             "last_size": 50
+        },
+        "四季妈妈—小龙": {
+            "update_size": 3,
+            "id": "UC3elWG-AxVvIF2_xPQb1rkQ",
+            "title": "四季妈妈—小龙",
+            "last_size": 5,
+            "media": "m4a"
         }
     },
     "retry_count": 2,

@@ -10,6 +10,134 @@
   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
  </author>
  <entry>
+  <id>yt:video:WqpyNQQLSmc</id>
+  <yt:videoId>WqpyNQQLSmc</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>@AlishaMarie visits the ghosts of vlogmas past 👻🎄</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=WqpyNQQLSmc"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2023-12-09T15:30:22+00:00</published>
+  <updated>2023-12-09T15:36:51+00:00</updated>
+  <media:group>
+   <media:title>@AlishaMarie visits the ghosts of vlogmas past 👻🎄</media:title>
+   <media:content url="https://www.youtube.com/v/WqpyNQQLSmc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/WqpyNQQLSmc/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="425" average="5.00" min="1" max="5"/>
+    <media:statistics views="2183"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:6-AaRIfLhD8</id>
+  <yt:videoId>6-AaRIfLhD8</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>this is us if you even care</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=6-AaRIfLhD8"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2023-12-08T23:30:11+00:00</published>
+  <updated>2023-12-08T23:36:14+00:00</updated>
+  <media:group>
+   <media:title>this is us if you even care</media:title>
+   <media:content url="https://www.youtube.com/v/6-AaRIfLhD8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/6-AaRIfLhD8/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="1677" average="5.00" min="1" max="5"/>
+    <media:statistics views="31702"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:gjWem-emN2w</id>
+  <yt:videoId>gjWem-emN2w</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>celebrating THINK LATER release day w @TateMcRae shorts on Shorts 💎💋 @mikaelaaluv #KissesToMyExes</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=gjWem-emN2w"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2023-12-08T17:34:36+00:00</published>
+  <updated>2023-12-09T07:11:30+00:00</updated>
+  <media:group>
+   <media:title>celebrating THINK LATER release day w @TateMcRae shorts on Shorts 💎💋 @mikaelaaluv #KissesToMyExes</media:title>
+   <media:content url="https://www.youtube.com/v/gjWem-emN2w?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/gjWem-emN2w/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="791" average="5.00" min="1" max="5"/>
+    <media:statistics views="19943"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:jvJqtCJwHmQ</id>
+  <yt:videoId>jvJqtCJwHmQ</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>honestly a channel hosted by kurt and his kindergarten teacher sounds awesome @KurtTocci @amandumbb</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=jvJqtCJwHmQ"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2023-12-07T17:00:20+00:00</published>
+  <updated>2023-12-07T17:05:19+00:00</updated>
+  <media:group>
+   <media:title>honestly a channel hosted by kurt and his kindergarten teacher sounds awesome @KurtTocci @amandumbb</media:title>
+   <media:content url="https://www.youtube.com/v/jvJqtCJwHmQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/jvJqtCJwHmQ/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="1197" average="5.00" min="1" max="5"/>
+    <media:statistics views="39238"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Rb0k9vUCEno</id>
+  <yt:videoId>Rb0k9vUCEno</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>@AlishaMarie talks Vlogmas, DIY fails, and her most viral video | YouTube Watch History</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Rb0k9vUCEno"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2023-12-07T15:00:20+00:00</published>
+  <updated>2023-12-07T19:00:26+00:00</updated>
+  <media:group>
+   <media:title>@AlishaMarie talks Vlogmas, DIY fails, and her most viral video | YouTube Watch History</media:title>
+   <media:content url="https://www.youtube.com/v/Rb0k9vUCEno?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/Rb0k9vUCEno/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Did someone say vlogmas?!?! 
+
+The Holidays are upon us and YouTube’s OG vlogmas creator, Alisha Marie, sits down to share what’s in her YouTube Watch History. As she gears up for her 10th year of vlogmas, we get a peak at what festive content she’s been watching to prepare. 
+
+From dishing on her biggest DIY fails, to her viral catfish moment, to her favorite vloggers of all time, Alisha Marie tells all on what she’s been watching and what she’d recommend this holiday season!
+
+0:00 - 0:20 Intro
+0:20 - 3:13 Recent Videos
+3:13 - 5:21 Keyword Search
+5:21 - 9:06 Scavenger Hunt
+9:06 - 11:07 Holiday Spirit Playlist
+11:07 Final Thoughts
+
+#AlishaMarie #YouTube #WatchHistory #Vlogmas</media:description>
+   <media:community>
+    <media:starRating count="716" average="5.00" min="1" max="5"/>
+    <media:statistics views="185879"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:idfu04-5sGs</id>
   <yt:videoId>idfu04-5sGs</yt:videoId>
   <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
@@ -20,15 +148,15 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2023-12-07T02:26:15+00:00</published>
-  <updated>2023-12-07T02:28:19+00:00</updated>
+  <updated>2023-12-08T17:37:24+00:00</updated>
   <media:group>
    <media:title>me omw to Leonida 🚙💨 whose GTA 6 streams are you most excited for?</media:title>
    <media:content url="https://www.youtube.com/v/idfu04-5sGs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i2.ytimg.com/vi/idfu04-5sGs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="479" average="5.00" min="1" max="5"/>
-    <media:statistics views="4539"/>
+    <media:starRating count="1668" average="5.00" min="1" max="5"/>
+    <media:statistics views="36119"/>
    </media:community>
   </media:group>
  </entry>
@@ -50,8 +178,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/NqQP-3dMACo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="508" average="5.00" min="1" max="5"/>
-    <media:statistics views="5783"/>
+    <media:starRating count="1293" average="5.00" min="1" max="5"/>
+    <media:statistics views="24338"/>
    </media:community>
   </media:group>
  </entry>
@@ -73,8 +201,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/A_A6zeVP1tk/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1107" average="5.00" min="1" max="5"/>
-    <media:statistics views="30560"/>
+    <media:starRating count="1407" average="5.00" min="1" max="5"/>
+    <media:statistics views="34841"/>
    </media:community>
   </media:group>
  </entry>
@@ -96,8 +224,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/CBAlbj2eIJo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3321" average="5.00" min="1" max="5"/>
-    <media:statistics views="88813"/>
+    <media:starRating count="3698" average="5.00" min="1" max="5"/>
+    <media:statistics views="102849"/>
    </media:community>
   </media:group>
  </entry>
@@ -105,22 +233,22 @@
   <id>yt:video:5AJKoIt-S1Y</id>
   <yt:videoId>5AJKoIt-S1Y</yt:videoId>
   <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>we would like to issue an apology to all capybaras. @aceof_spadess @joshuasuarez @93waysmane</title>
+  <title>we would like to issue an apology to all capybaras. @OfficiallyDaiTime @joshuasuarez @93waysmane</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=5AJKoIt-S1Y"/>
   <author>
    <name>YouTube</name>
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2023-12-04T16:30:22+00:00</published>
-  <updated>2023-12-04T16:37:21+00:00</updated>
+  <updated>2023-12-08T20:35:01+00:00</updated>
   <media:group>
-   <media:title>we would like to issue an apology to all capybaras. @aceof_spadess @joshuasuarez @93waysmane</media:title>
+   <media:title>we would like to issue an apology to all capybaras. @OfficiallyDaiTime @joshuasuarez @93waysmane</media:title>
    <media:content url="https://www.youtube.com/v/5AJKoIt-S1Y?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i2.ytimg.com/vi/5AJKoIt-S1Y/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1195" average="5.00" min="1" max="5"/>
-    <media:statistics views="28786"/>
+    <media:starRating count="1348" average="5.00" min="1" max="5"/>
+    <media:statistics views="35121"/>
    </media:community>
   </media:group>
  </entry>
@@ -142,8 +270,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/iUeEYjf6BTA/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1294" average="5.00" min="1" max="5"/>
-    <media:statistics views="33910"/>
+    <media:starRating count="1451" average="5.00" min="1" max="5"/>
+    <media:statistics views="40790"/>
    </media:community>
   </media:group>
  </entry>
@@ -165,8 +293,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/8LTzDC4g0gY/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1508" average="5.00" min="1" max="5"/>
-    <media:statistics views="44438"/>
+    <media:starRating count="1615" average="5.00" min="1" max="5"/>
+    <media:statistics views="49963"/>
    </media:community>
   </media:group>
  </entry>
@@ -188,8 +316,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/s9x0FCwfWfM/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1330" average="5.00" min="1" max="5"/>
-    <media:statistics views="33103"/>
+    <media:starRating count="1405" average="5.00" min="1" max="5"/>
+    <media:statistics views="38399"/>
    </media:community>
   </media:group>
  </entry>
@@ -217,8 +345,8 @@ Watch sWooZie’s story here: http://yt.be/SwoozieFlowers
 
 Bianca Bonnie’s story coming Jan 18th.</media:description>
    <media:community>
-    <media:starRating count="1889" average="5.00" min="1" max="5"/>
-    <media:statistics views="585904"/>
+    <media:starRating count="2137" average="5.00" min="1" max="5"/>
+    <media:statistics views="647549"/>
    </media:community>
   </media:group>
  </entry>
@@ -240,123 +368,8 @@ Bianca Bonnie’s story coming Jan 18th.</media:description>
    <media:thumbnail url="https://i2.ytimg.com/vi/Iz_YgNfceXA/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2007" average="5.00" min="1" max="5"/>
-    <media:statistics views="79077"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:Rv0z6FNUBlE</id>
-  <yt:videoId>Rv0z6FNUBlE</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>@amelialiana, @MattSDance, @Jayybeech, &amp; @roseylucci doing that #DuaLipaHoudini 🪄magic🪄</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=Rv0z6FNUBlE"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2023-11-28T18:10:19+00:00</published>
-  <updated>2023-11-28T18:16:58+00:00</updated>
-  <media:group>
-   <media:title>@amelialiana, @MattSDance, @Jayybeech, &amp; @roseylucci doing that #DuaLipaHoudini 🪄magic🪄</media:title>
-   <media:content url="https://www.youtube.com/v/Rv0z6FNUBlE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/Rv0z6FNUBlE/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="1480" average="5.00" min="1" max="5"/>
-    <media:statistics views="47823"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:t1hdFbaTXfM</id>
-  <yt:videoId>t1hdFbaTXfM</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>LOVE this #DuaLipaHoudini escape room 🔑</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=t1hdFbaTXfM"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2023-11-27T23:30:12+00:00</published>
-  <updated>2023-11-27T23:34:23+00:00</updated>
-  <media:group>
-   <media:title>LOVE this #DuaLipaHoudini escape room 🔑</media:title>
-   <media:content url="https://www.youtube.com/v/t1hdFbaTXfM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i1.ytimg.com/vi/t1hdFbaTXfM/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="1711" average="5.00" min="1" max="5"/>
-    <media:statistics views="43578"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:lLHrUcNFpjo</id>
-  <yt:videoId>lLHrUcNFpjo</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>new asmr format just dropped @ParadiseWildlifePark, @zhuazidianxia, @hahahaYouTube</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=lLHrUcNFpjo"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2023-11-26T19:00:17+00:00</published>
-  <updated>2023-11-26T19:07:04+00:00</updated>
-  <media:group>
-   <media:title>new asmr format just dropped @ParadiseWildlifePark, @zhuazidianxia, @hahahaYouTube</media:title>
-   <media:content url="https://www.youtube.com/v/lLHrUcNFpjo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i1.ytimg.com/vi/lLHrUcNFpjo/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="2456" average="5.00" min="1" max="5"/>
-    <media:statistics views="60391"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:DbL-mBV1mtA</id>
-  <yt:videoId>DbL-mBV1mtA</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>which thumbnail face is ur fav? we cant pick 🙈@FreckledZelda @Dessyy</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=DbL-mBV1mtA"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2023-11-24T20:15:15+00:00</published>
-  <updated>2023-11-24T20:19:38+00:00</updated>
-  <media:group>
-   <media:title>which thumbnail face is ur fav? we cant pick 🙈@FreckledZelda @Dessyy</media:title>
-   <media:content url="https://www.youtube.com/v/DbL-mBV1mtA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i1.ytimg.com/vi/DbL-mBV1mtA/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="2019" average="5.00" min="1" max="5"/>
-    <media:statistics views="62621"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:sbJCo2ODPxI</id>
-  <yt:videoId>sbJCo2ODPxI</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>we're bringing gifs back @EatItKate @OfficiallyDaiTime @aceof_spadess</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=sbJCo2ODPxI"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2023-11-22T15:00:19+00:00</published>
-  <updated>2023-11-22T15:03:31+00:00</updated>
-  <media:group>
-   <media:title>we're bringing gifs back @EatItKate @OfficiallyDaiTime @aceof_spadess</media:title>
-   <media:content url="https://www.youtube.com/v/sbJCo2ODPxI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/sbJCo2ODPxI/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="2088" average="5.00" min="1" max="5"/>
-    <media:statistics views="54589"/>
+    <media:starRating count="2164" average="5.00" min="1" max="5"/>
+    <media:statistics views="91412"/>
    </media:community>
   </media:group>
  </entry>
