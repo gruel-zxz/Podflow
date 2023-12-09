@@ -14,16 +14,16 @@
   <id>yt:video:BTXlGIfIJ7A</id>
   <yt:videoId>BTXlGIfIJ7A</yt:videoId>
   <yt:channelId>UCMUnInmOkrWN4gof9KlhNmQ</yt:channelId>
-  <title>這是一部今天必須看完的影片 | 老高與小茉 Mr &amp; Mrs Gao</title>
+  <title>改變人生就靠這一期，今天必須看完的影片 | 老高與小茉 Mr &amp; Mrs Gao</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=BTXlGIfIJ7A"/>
   <author>
    <name>老高與小茉 Mr &amp; Mrs Gao</name>
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
   <published>2023-12-06T13:00:07+00:00</published>
-  <updated>2023-12-08T05:08:32+00:00</updated>
+  <updated>2023-12-09T03:46:41+00:00</updated>
   <media:group>
-   <media:title>這是一部今天必須看完的影片 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
+   <media:title>改變人生就靠這一期，今天必須看完的影片 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/BTXlGIfIJ7A?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i3.ytimg.com/vi/BTXlGIfIJ7A/hqdefault.jpg" width="480" height="360"/>
    <media:description>【加入會員按鈕】https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ/join
@@ -255,8 +255,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="41513" average="5.00" min="1" max="5"/>
-    <media:statistics views="1497477"/>
+    <media:starRating count="45969" average="5.00" min="1" max="5"/>
+    <media:statistics views="1762350"/>
    </media:community>
   </media:group>
  </entry>
@@ -505,8 +505,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="33292" average="5.00" min="1" max="5"/>
-    <media:statistics views="1801815"/>
+    <media:starRating count="33598" average="5.00" min="1" max="5"/>
+    <media:statistics views="1834533"/>
    </media:community>
   </media:group>
  </entry>
@@ -755,8 +755,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="47027" average="5.00" min="1" max="5"/>
-    <media:statistics views="2396068"/>
+    <media:starRating count="47200" average="5.00" min="1" max="5"/>
+    <media:statistics views="2418392"/>
    </media:community>
   </media:group>
  </entry>
@@ -1005,8 +1005,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="41467" average="5.00" min="1" max="5"/>
-    <media:statistics views="2398776"/>
+    <media:starRating count="41586" average="5.00" min="1" max="5"/>
+    <media:statistics views="2412881"/>
    </media:community>
   </media:group>
  </entry>
@@ -1255,8 +1255,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="56554" average="5.00" min="1" max="5"/>
-    <media:statistics views="2929898"/>
+    <media:starRating count="56643" average="5.00" min="1" max="5"/>
+    <media:statistics views="2939161"/>
    </media:community>
   </media:group>
  </entry>
@@ -1505,8 +1505,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="57666" average="5.00" min="1" max="5"/>
-    <media:statistics views="2823043"/>
+    <media:starRating count="57733" average="5.00" min="1" max="5"/>
+    <media:statistics views="2830681"/>
    </media:community>
   </media:group>
  </entry>
@@ -1749,8 +1749,8 @@ https://www.youtube.com/watch?v=Ttus8XGK6Xw
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="43478" average="5.00" min="1" max="5"/>
-    <media:statistics views="2586675"/>
+    <media:starRating count="43533" average="5.00" min="1" max="5"/>
+    <media:statistics views="2594376"/>
    </media:community>
   </media:group>
  </entry>
@@ -1978,8 +1978,8 @@ https://www.youtube.com/watch?v=N4xXGIrzKJs
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="50932" average="5.00" min="1" max="5"/>
-    <media:statistics views="3260360"/>
+    <media:starRating count="50990" average="5.00" min="1" max="5"/>
+    <media:statistics views="3270947"/>
    </media:community>
   </media:group>
  </entry>
@@ -2227,8 +2227,8 @@ https://www.youtube.com/watch?v=Ttus8XGK6Xw
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="68031" average="5.00" min="1" max="5"/>
-    <media:statistics views="3319669"/>
+    <media:starRating count="68113" average="5.00" min="1" max="5"/>
+    <media:statistics views="3328421"/>
    </media:community>
   </media:group>
  </entry>
@@ -2399,8 +2399,8 @@ https://www.youtube.com/watch?v=7q88m5MQRhE
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="47472" average="5.00" min="1" max="5"/>
-    <media:statistics views="2757235"/>
+    <media:starRating count="47512" average="5.00" min="1" max="5"/>
+    <media:statistics views="2762810"/>
    </media:community>
   </media:group>
  </entry>
@@ -2649,8 +2649,8 @@ https://www.youtube.com/watch?v=Mshz9DxQLbE
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="55219" average="5.00" min="1" max="5"/>
-    <media:statistics views="3305406"/>
+    <media:starRating count="55238" average="5.00" min="1" max="5"/>
+    <media:statistics views="3310546"/>
    </media:community>
   </media:group>
  </entry>
@@ -2658,16 +2658,16 @@ https://www.youtube.com/watch?v=Mshz9DxQLbE
   <id>yt:video:CM2i6qD8nk8</id>
   <yt:videoId>CM2i6qD8nk8</yt:videoId>
   <yt:channelId>UCMUnInmOkrWN4gof9KlhNmQ</yt:channelId>
-  <title>最強手相，你的雙手決定你的人生 | 老高與小茉 Mr &amp; Mrs Gao</title>
+  <title>最強手相，這幾個手紋只要有一個就無敵了，你的雙手決定你的人生 | 老高與小茉 Mr &amp; Mrs Gao</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=CM2i6qD8nk8"/>
   <author>
    <name>老高與小茉 Mr &amp; Mrs Gao</name>
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
   <published>2023-09-20T14:12:12+00:00</published>
-  <updated>2023-11-07T00:25:58+00:00</updated>
+  <updated>2023-12-09T15:42:53+00:00</updated>
   <media:group>
-   <media:title>最強手相，你的雙手決定你的人生 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
+   <media:title>最強手相，這幾個手紋只要有一個就無敵了，你的雙手決定你的人生 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/CM2i6qD8nk8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i4.ytimg.com/vi/CM2i6qD8nk8/hqdefault.jpg" width="480" height="360"/>
    <media:description>【加入會員按鈕】https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ/join
@@ -2897,8 +2897,8 @@ https://www.youtube.com/watch?v=Ttus8XGK6Xw
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="78740" average="5.00" min="1" max="5"/>
-    <media:statistics views="3542951"/>
+    <media:starRating count="78841" average="5.00" min="1" max="5"/>
+    <media:statistics views="3551359"/>
    </media:community>
   </media:group>
  </entry>
@@ -3144,8 +3144,8 @@ https://www.youtube.com/watch?v=Ttus8XGK6Xw
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="81723" average="5.00" min="1" max="5"/>
-    <media:statistics views="3469796"/>
+    <media:starRating count="81817" average="5.00" min="1" max="5"/>
+    <media:statistics views="3477264"/>
    </media:community>
   </media:group>
  </entry>
@@ -3389,8 +3389,8 @@ https://www.youtube.com/watch?v=ElqnKNkiyHA
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="55802" average="5.00" min="1" max="5"/>
-    <media:statistics views="3324752"/>
+    <media:starRating count="55852" average="5.00" min="1" max="5"/>
+    <media:statistics views="3331397"/>
    </media:community>
   </media:group>
  </entry>
@@ -3606,8 +3606,8 @@ https://www.youtube.com/watch?v=N4xXGIrzKJs
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="65018" average="5.00" min="1" max="5"/>
-    <media:statistics views="3138328"/>
+    <media:starRating count="65097" average="5.00" min="1" max="5"/>
+    <media:statistics views="3147284"/>
    </media:community>
   </media:group>
  </entry>
