@@ -101,7 +101,7 @@
 这是我们最喜欢的作品之一，作者以极为另类的写作方式用数学公式描述了一对人们的情感，堪称神作！</media:description>
    <media:community>
     <media:starRating count="214" average="5.00" min="1" max="5"/>
-    <media:statistics views="10677"/>
+    <media:statistics views="10678"/>
    </media:community>
   </media:group>
  </entry>
@@ -124,7 +124,7 @@
    <media:description>本期更新一期克苏鲁神话（非科幻内容）极北坚冰，食人梦魇——克苏鲁神话巅峰之作《虚境奇谭》</media:description>
    <media:community>
     <media:starRating count="199" average="5.00" min="1" max="5"/>
-    <media:statistics views="11888"/>
+    <media:statistics views="11889"/>
    </media:community>
   </media:group>
  </entry>
@@ -170,7 +170,7 @@
    <media:description>科幻小说《阖上眼五秒钟》，作者遥控，作品刊登于早年的科幻世界杂志上，是个有趣的小说。</media:description>
    <media:community>
     <media:starRating count="113" average="5.00" min="1" max="5"/>
-    <media:statistics views="6712"/>
+    <media:statistics views="6713"/>
    </media:community>
   </media:group>
  </entry>
