@@ -426,12 +426,14 @@ def video_format(video_website, video_url, media="m4a", quality="480"):
         return fail_message, duration, formats
     error_reason = {
         "Premieres in ": "\033[31m预播\033[0m|",
-        "Video unavailable. This video contains content from SME, who has blocked it in your country on copyright grounds": "\033[31m版权保护\033[0m",
+        "Video unavailable\. This video contains content from SME, who has blocked it in your country on copyright grounds": "\033[31m版权保护\033[0m",
         "Premiere will begin shortly": "\033[31m马上开始首映\033[0m",
+        "Private video\. Sign in if you've been granted access to this video": "\033[31m私享视频\033[0m",
+        "This video is available to this channel's members on level: .*? Join this channel to get access to members-only content and other exclusive perks\.": "\033[31m会员专享\033[0m"
     }
     def fail_message_initialize(fail_message, error_reason):
         for key in error_reason:
-            if key in fail_message:
+            if re.search(rf"{key}", fail_message):
                 return [key, error_reason[key]]
     yt_id_count, change_error, fail_message, duration, formats = 0, None, "", "", ""
     while (
@@ -444,7 +446,7 @@ def video_format(video_website, video_url, media="m4a", quality="480"):
         if fail_message:
             change_error = fail_message_initialize(fail_message, error_reason)
     if change_error:
-        fail_message = fail_message.replace(change_error[0], change_error[1])
+        fail_message = re.sub(rf"{change_error[0]}", change_error[1], fail_message)
     if fail_message is None:
         if duration == "" or duration is None:
             return "无法获取时长"
@@ -1727,10 +1729,10 @@ def makeup_yt_format(yt_id):
         make_up_file_format[yt_id]["format"] = makeup_ytid_format
     else:
         with makeup_yt_format_lock:
-            del make_up_file_format[yt_id]
             write_log(
-                f"{channelid_youtube_ids[make_up_file_format[yt_id]['id']]}|{yt_id} {makeup_ytid_format}"
+                f"{channelid_youtube_ids[make_up_file_format[yt_id]['id']]}|{yt_id}|{makeup_ytid_format}"
             )
+            del make_up_file_format[yt_id]
 
 # 创建线程列表
 makeup_yt_format_threads = []

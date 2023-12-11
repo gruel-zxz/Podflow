@@ -56,7 +56,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一话题的看法和自己的经验。一起来参与这场男人副驾驶表情吐槽大会吧！#家庭生活 #幽默观察 #笑中解压</media:description>
    <media:community>
     <media:starRating count="76" average="5.00" min="1" max="5"/>
-    <media:statistics views="2191"/>
+    <media:statistics views="2195"/>
    </media:community>
   </media:group>
  </entry>
@@ -82,8 +82,8 @@
 
 别忘了点赞、订阅，并在评论区分享你所知道的四字真言或者你的观点。一起来参与这场百分之八十男人的四字真言吐槽大会吧！#幽默观察 #笑中思考 #家庭调侃</media:description>
    <media:community>
-    <media:starRating count="98" average="5.00" min="1" max="5"/>
-    <media:statistics views="4853"/>
+    <media:starRating count="99" average="5.00" min="1" max="5"/>
+    <media:statistics views="4857"/>
    </media:community>
   </media:group>
  </entry>
