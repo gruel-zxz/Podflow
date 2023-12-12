@@ -1762,14 +1762,18 @@ for yt_id in make_up_file_format.keys():
             f"{channelid_youtube_ids[make_up_file_format[yt_id]['id']]}|{yt_id} \033[31m无法下载\033[0m"
         )
 
-if sys.argv[1] == "a-shell":
+try:
+    arguments = sys.argv[1]
+except IndexError:
+        arguments = None
+if arguments == "a-shell":
     # 启动 RangeHTTPServer
     server_process = subprocess.Popen(
         ["open", "shortcuts://run-shortcut?name=Podflow&input=text&text=http"]
     )
-    server_process = subprocess.Popen(["python3", "-m", "RangeHTTPServer"])
-    # 延时
-    time.sleep(60)
-    # 关闭服务器
-    server_process.terminate()
+server_process = subprocess.Popen(["python3", "-m", "RangeHTTPServer"])
+# 延时
+time.sleep(60)
+# 关闭服务器
+server_process.terminate()
 

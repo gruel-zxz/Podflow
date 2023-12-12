@@ -29,7 +29,7 @@
    <media:description>如何骗走人类的十年时间：科幻名著《抉择》，原著：小松左京。这部小说收录于《科幻之路》系列。</media:description>
    <media:community>
     <media:starRating count="103" average="5.00" min="1" max="5"/>
-    <media:statistics views="5538"/>
+    <media:statistics views="5540"/>
    </media:community>
   </media:group>
  </entry>
@@ -54,7 +54,7 @@
 不过主线剧情已经更新完毕，未收录的内容仅剩下人类最终生活在小宇宙中的场景。</media:description>
    <media:community>
     <media:starRating count="490" average="5.00" min="1" max="5"/>
-    <media:statistics views="30112"/>
+    <media:statistics views="30113"/>
    </media:community>
   </media:group>
  </entry>
@@ -124,7 +124,7 @@
    <media:description>本期更新一期克苏鲁神话（非科幻内容）极北坚冰，食人梦魇——克苏鲁神话巅峰之作《虚境奇谭》</media:description>
    <media:community>
     <media:starRating count="200" average="5.00" min="1" max="5"/>
-    <media:statistics views="11910"/>
+    <media:statistics views="11911"/>
    </media:community>
   </media:group>
  </entry>
@@ -358,7 +358,7 @@
    <media:description>《XeeLee》系列从第三集开始，也要正式进入正题了，真正意义上的战争和剧情走向也要开始了。而且我们文案的叙事也相对加快了，以前计划十多集完成，目前计划在8集以内搞定。</media:description>
    <media:community>
     <media:starRating count="230" average="5.00" min="1" max="5"/>
-    <media:statistics views="12079"/>
+    <media:statistics views="12080"/>
    </media:community>
   </media:group>
  </entry>
