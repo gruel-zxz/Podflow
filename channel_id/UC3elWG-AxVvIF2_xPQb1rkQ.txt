@@ -56,7 +56,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一话题的看法和自己的经验。一起来参与这场男人副驾驶表情吐槽大会吧！#家庭生活 #幽默观察 #笑中解压</media:description>
    <media:community>
     <media:starRating count="81" average="5.00" min="1" max="5"/>
-    <media:statistics views="2316"/>
+    <media:statistics views="2319"/>
    </media:community>
   </media:group>
  </entry>
@@ -83,7 +83,7 @@
 别忘了点赞、订阅，并在评论区分享你所知道的四字真言或者你的观点。一起来参与这场百分之八十男人的四字真言吐槽大会吧！#幽默观察 #笑中思考 #家庭调侃</media:description>
    <media:community>
     <media:starRating count="102" average="5.00" min="1" max="5"/>
-    <media:statistics views="5183"/>
+    <media:statistics views="5203"/>
    </media:community>
   </media:group>
  </entry>
@@ -218,7 +218,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一话题的见解和吐槽。一起来笑谈钓鱼佬的独特魅力吧！#钓鱼生活 #幽默观察 #家庭笑话</media:description>
    <media:community>
     <media:starRating count="11" average="5.00" min="1" max="5"/>
-    <media:statistics views="464"/>
+    <media:statistics views="465"/>
    </media:community>
   </media:group>
  </entry>

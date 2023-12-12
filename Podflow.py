@@ -162,14 +162,14 @@ def http_get(url, name, max_retries=10, retry_delay=6, headers_possess=False, co
         try:
             response = session.get(url, timeout=5)
             response.raise_for_status()
-        except Exception as e:
+        except Exception as http_get_error:
             if response is not None and response.status_code in {404}:
                 return response
             print(
                 f"{datetime.now().strftime('%H:%M:%S')}|{name}|\033[31m连接异常重试中...\033[97m{num + 1}\033[0m"
             )
             if err:
-                err = f":\n{str(e)}"
+                err = f":\n{str(http_get_error)}"
             else:
                 err = ""
         else:
@@ -416,9 +416,9 @@ def video_format(video_website, video_url, media="m4a", quality="480"):
                     # 获取视频时长并返回
                     duration = info_dict.get("duration")
                     formats = info_dict.get("formats")
-        except Exception as e:
+        except Exception as message_error:
             fail_message = (
-                (str(e))
+                (str(message_error))
                 .replace("ERROR: ", "")
                 .replace(f"{video_url}: ", "")
                 .replace("[youtube] ", "")
@@ -537,8 +537,8 @@ def get_duration_ffprobe(file_path):
             return math.ceil(float(output.group()))
         else:
             return None
-    except subprocess.CalledProcessError as e:
-        write_log(f"Error: {e.output}")
+    except subprocess.CalledProcessError as get_duration_ffprobe_error:
+        write_log(f"Error: {get_duration_ffprobe_error.output}")
         return None
 
 # 下载视频模块
@@ -576,9 +576,9 @@ def download_video(
     try:
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
             ydl.download([f"{video_website}{video_url}"])  # 下载指定视频链接的视频
-    except Exception as e:
+    except Exception as download_video_error:
         write_log(
-            (f"{video_write_log} \033[31m下载失败\033[0m\n错误信息：{str(e)}")
+            (f"{video_write_log} \033[31m下载失败\033[0m\n错误信息：{str(download_video_error)}")
             .replace("ERROR: ", "")
             .replace(f"{video_url}: ", "")
             .replace("[youtube] ", "")
@@ -749,9 +749,9 @@ def dl_aideo_video(
                 print(f" \033[32m合成成功\033[0m")
                 os.remove(f"channel_audiovisual/{output_dir}/{video_url}.part.mp4")
                 os.remove(f"channel_audiovisual/{output_dir}/{video_url}.part.m4a")
-            except subprocess.CalledProcessError as e:
+            except subprocess.CalledProcessError as dl_aideo_video_error:
                 yt_id_failed = video_url
-                write_log(f"\n{video_write_log} \033[31m下载失败\033[0m\n错误信息：合成失败:{e}")
+                write_log(f"\n{video_write_log} \033[31m下载失败\033[0m\n错误信息：合成失败:{dl_aideo_video_error}")
     if yt_id_failed is None:
         write_log(f"{video_write_log} \033[32m下载成功\033[0m")  # 写入下载成功的日志信息
     return yt_id_failed
@@ -780,8 +780,8 @@ else:
             config = json.load(file)
         write_log("已读取配置文件")
     # 如果config格式有问题, 停止运行并报错
-    except Exception as e:
-        write_log(f"配置文件有误, 请检查config.json, {str(e)}")
+    except Exception as config_error:
+        write_log(f"配置文件有误, 请检查config.json, {str(config_error)}")
         sys.exit(0)
 
 # 对retry_count进行纠正

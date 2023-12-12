@@ -54,7 +54,7 @@
 不过主线剧情已经更新完毕，未收录的内容仅剩下人类最终生活在小宇宙中的场景。</media:description>
    <media:community>
     <media:starRating count="490" average="5.00" min="1" max="5"/>
-    <media:statistics views="30113"/>
+    <media:statistics views="30116"/>
    </media:community>
   </media:group>
  </entry>
@@ -101,7 +101,7 @@
 这是我们最喜欢的作品之一，作者以极为另类的写作方式用数学公式描述了一对人们的情感，堪称神作！</media:description>
    <media:community>
     <media:starRating count="214" average="5.00" min="1" max="5"/>
-    <media:statistics views="10696"/>
+    <media:statistics views="10697"/>
    </media:community>
   </media:group>
  </entry>
@@ -124,7 +124,7 @@
    <media:description>本期更新一期克苏鲁神话（非科幻内容）极北坚冰，食人梦魇——克苏鲁神话巅峰之作《虚境奇谭》</media:description>
    <media:community>
     <media:starRating count="200" average="5.00" min="1" max="5"/>
-    <media:statistics views="11911"/>
+    <media:statistics views="11912"/>
    </media:community>
   </media:group>
  </entry>
@@ -241,7 +241,7 @@
 下来尽量在3期内搞定这个系列。</media:description>
    <media:community>
     <media:starRating count="207" average="5.00" min="1" max="5"/>
-    <media:statistics views="11646"/>
+    <media:statistics views="11647"/>
    </media:community>
   </media:group>
  </entry>
