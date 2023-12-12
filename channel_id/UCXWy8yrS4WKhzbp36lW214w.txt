@@ -11,6 +11,29 @@
  </author>
  <published>2020-08-21T01:53:13+00:00</published>
  <entry>
+  <id>yt:video:m5IAPWoEy3U</id>
+  <yt:videoId>m5IAPWoEy3U</yt:videoId>
+  <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
+  <title>疑似穿越的10大逆天文物</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=m5IAPWoEy3U"/>
+  <author>
+   <name>绝密研究所</name>
+   <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
+  </author>
+  <published>2023-12-12T00:00:06+00:00</published>
+  <updated>2023-12-12T00:07:19+00:00</updated>
+  <media:group>
+   <media:title>疑似穿越的10大逆天文物</media:title>
+   <media:content url="https://www.youtube.com/v/m5IAPWoEy3U?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/m5IAPWoEy3U/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="8"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:p_ihBtn5NPo</id>
   <yt:videoId>p_ihBtn5NPo</yt:videoId>
   <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
@@ -21,7 +44,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2023-12-11T08:14:09+00:00</published>
-  <updated>2023-12-11T08:33:06+00:00</updated>
+  <updated>2023-12-11T15:38:44+00:00</updated>
   <media:group>
    <media:title>中国人不要，外国当宝的三件废品</media:title>
    <media:content url="https://www.youtube.com/v/p_ihBtn5NPo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -90,7 +113,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2023-12-11T07:09:30+00:00</published>
-  <updated>2023-12-11T10:39:12+00:00</updated>
+  <updated>2023-12-12T02:29:32+00:00</updated>
   <media:group>
    <media:title>镜头下最幸运的20个瞬间</media:title>
    <media:content url="https://www.youtube.com/v/3QayW82Gd2s?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -98,30 +121,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="9"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:m5IAPWoEy3U</id>
-  <yt:videoId>m5IAPWoEy3U</yt:videoId>
-  <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
-  <title>疑似穿越的10大逆天文物</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=m5IAPWoEy3U"/>
-  <author>
-   <name>绝密研究所</name>
-   <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
-  </author>
-  <published>2023-12-11T07:09:23+00:00</published>
-  <updated>2023-12-11T07:20:47+00:00</updated>
-  <media:group>
-   <media:title>疑似穿越的10大逆天文物</media:title>
-   <media:content url="https://www.youtube.com/v/m5IAPWoEy3U?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/m5IAPWoEy3U/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="0" average="0.00" min="1" max="5"/>
-    <media:statistics views="0"/>
+    <media:statistics views="17"/>
    </media:community>
   </media:group>
  </entry>
@@ -167,7 +167,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="0" average="0.00" min="1" max="5"/>
-    <media:statistics views="34"/>
+    <media:statistics views="36"/>
    </media:community>
   </media:group>
  </entry>
@@ -190,7 +190,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="30"/>
+    <media:statistics views="31"/>
    </media:community>
   </media:group>
  </entry>

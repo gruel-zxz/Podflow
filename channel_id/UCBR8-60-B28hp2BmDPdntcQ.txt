@@ -27,8 +27,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/WqpyNQQLSmc/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1096" average="5.00" min="1" max="5"/>
-    <media:statistics views="32630"/>
+    <media:starRating count="1209" average="5.00" min="1" max="5"/>
+    <media:statistics views="39526"/>
    </media:community>
   </media:group>
  </entry>
@@ -50,8 +50,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/6-AaRIfLhD8/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2258" average="5.00" min="1" max="5"/>
-    <media:statistics views="52634"/>
+    <media:starRating count="2394" average="5.00" min="1" max="5"/>
+    <media:statistics views="57423"/>
    </media:community>
   </media:group>
  </entry>
@@ -73,8 +73,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/gjWem-emN2w/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1023" average="5.00" min="1" max="5"/>
-    <media:statistics views="30955"/>
+    <media:starRating count="1090" average="5.00" min="1" max="5"/>
+    <media:statistics views="33052"/>
    </media:community>
   </media:group>
  </entry>
@@ -96,8 +96,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/jvJqtCJwHmQ/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1393" average="5.00" min="1" max="5"/>
-    <media:statistics views="46996"/>
+    <media:starRating count="1454" average="5.00" min="1" max="5"/>
+    <media:statistics views="49220"/>
    </media:community>
   </media:group>
  </entry>
@@ -132,8 +132,8 @@ From dishing on her biggest DIY fails, to her viral catfish moment, to her favor
 
 #AlishaMarie #YouTube #WatchHistory #Vlogmas</media:description>
    <media:community>
-    <media:starRating count="857" average="5.00" min="1" max="5"/>
-    <media:statistics views="318853"/>
+    <media:starRating count="899" average="5.00" min="1" max="5"/>
+    <media:statistics views="366481"/>
    </media:community>
   </media:group>
  </entry>
@@ -155,8 +155,8 @@ From dishing on her biggest DIY fails, to her viral catfish moment, to her favor
    <media:thumbnail url="https://i2.ytimg.com/vi/idfu04-5sGs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1922" average="5.00" min="1" max="5"/>
-    <media:statistics views="44446"/>
+    <media:starRating count="2001" average="5.00" min="1" max="5"/>
+    <media:statistics views="47300"/>
    </media:community>
   </media:group>
  </entry>
@@ -178,8 +178,8 @@ From dishing on her biggest DIY fails, to her viral catfish moment, to her favor
    <media:thumbnail url="https://i3.ytimg.com/vi/NqQP-3dMACo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1419" average="5.00" min="1" max="5"/>
-    <media:statistics views="28852"/>
+    <media:starRating count="1460" average="5.00" min="1" max="5"/>
+    <media:statistics views="30841"/>
    </media:community>
   </media:group>
  </entry>
@@ -201,8 +201,8 @@ From dishing on her biggest DIY fails, to her viral catfish moment, to her favor
    <media:thumbnail url="https://i2.ytimg.com/vi/A_A6zeVP1tk/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1471" average="5.00" min="1" max="5"/>
-    <media:statistics views="33798"/>
+    <media:starRating count="1495" average="5.00" min="1" max="5"/>
+    <media:statistics views="34872"/>
    </media:community>
   </media:group>
  </entry>
@@ -224,8 +224,8 @@ From dishing on her biggest DIY fails, to her viral catfish moment, to her favor
    <media:thumbnail url="https://i4.ytimg.com/vi/CBAlbj2eIJo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3820" average="5.00" min="1" max="5"/>
-    <media:statistics views="111419"/>
+    <media:starRating count="3870" average="5.00" min="1" max="5"/>
+    <media:statistics views="115405"/>
    </media:community>
   </media:group>
  </entry>
@@ -247,8 +247,8 @@ From dishing on her biggest DIY fails, to her viral catfish moment, to her favor
    <media:thumbnail url="https://i2.ytimg.com/vi/5AJKoIt-S1Y/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1401" average="5.00" min="1" max="5"/>
-    <media:statistics views="37866"/>
+    <media:starRating count="1417" average="5.00" min="1" max="5"/>
+    <media:statistics views="39071"/>
    </media:community>
   </media:group>
  </entry>
@@ -270,8 +270,8 @@ From dishing on her biggest DIY fails, to her viral catfish moment, to her favor
    <media:thumbnail url="https://i2.ytimg.com/vi/iUeEYjf6BTA/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1506" average="5.00" min="1" max="5"/>
-    <media:statistics views="43917"/>
+    <media:starRating count="1524" average="5.00" min="1" max="5"/>
+    <media:statistics views="45114"/>
    </media:community>
   </media:group>
  </entry>
@@ -293,8 +293,8 @@ From dishing on her biggest DIY fails, to her viral catfish moment, to her favor
    <media:thumbnail url="https://i1.ytimg.com/vi/8LTzDC4g0gY/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1651" average="5.00" min="1" max="5"/>
-    <media:statistics views="52131"/>
+    <media:starRating count="1663" average="5.00" min="1" max="5"/>
+    <media:statistics views="53036"/>
    </media:community>
   </media:group>
  </entry>
@@ -316,8 +316,8 @@ From dishing on her biggest DIY fails, to her viral catfish moment, to her favor
    <media:thumbnail url="https://i4.ytimg.com/vi/s9x0FCwfWfM/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1440" average="5.00" min="1" max="5"/>
-    <media:statistics views="40555"/>
+    <media:starRating count="1449" average="5.00" min="1" max="5"/>
+    <media:statistics views="41390"/>
    </media:community>
   </media:group>
  </entry>
@@ -345,8 +345,8 @@ Watch sWooZie’s story here: http://yt.be/SwoozieFlowers
 
 Bianca Bonnie’s story coming Jan 18th.</media:description>
    <media:community>
-    <media:starRating count="2326" average="5.00" min="1" max="5"/>
-    <media:statistics views="630421"/>
+    <media:starRating count="2359" average="5.00" min="1" max="5"/>
+    <media:statistics views="635178"/>
    </media:community>
   </media:group>
  </entry>
@@ -368,8 +368,8 @@ Bianca Bonnie’s story coming Jan 18th.</media:description>
    <media:thumbnail url="https://i2.ytimg.com/vi/Iz_YgNfceXA/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2238" average="5.00" min="1" max="5"/>
-    <media:statistics views="96588"/>
+    <media:starRating count="2261" average="5.00" min="1" max="5"/>
+    <media:statistics views="98425"/>
    </media:community>
   </media:group>
  </entry>
