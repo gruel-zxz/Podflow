@@ -101,7 +101,7 @@
 这是我们最喜欢的作品之一，作者以极为另类的写作方式用数学公式描述了一对人们的情感，堪称神作！</media:description>
    <media:community>
     <media:starRating count="214" average="5.00" min="1" max="5"/>
-    <media:statistics views="10691"/>
+    <media:statistics views="10693"/>
    </media:community>
   </media:group>
  </entry>
