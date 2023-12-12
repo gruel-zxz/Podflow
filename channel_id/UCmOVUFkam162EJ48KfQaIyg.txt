@@ -81,7 +81,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="40" average="5.00" min="1" max="5"/>
-    <media:statistics views="7765"/>
+    <media:statistics views="7769"/>
    </media:community>
   </media:group>
  </entry>
@@ -156,7 +156,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="31" average="5.00" min="1" max="5"/>
-    <media:statistics views="7038"/>
+    <media:statistics views="7039"/>
    </media:community>
   </media:group>
  </entry>
@@ -231,7 +231,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="18" average="5.00" min="1" max="5"/>
-    <media:statistics views="3905"/>
+    <media:statistics views="3906"/>
    </media:community>
   </media:group>
  </entry>

@@ -32,7 +32,12 @@
         "幻海航行--science fiction": "UCp1nO1bgVwks9b5EhKQGVag",
         "绝密研究所": "UCXWy8yrS4WKhzbp36lW214w",
         "stone pistol":"UCmOVUFkam162EJ48KfQaIyg",
-        "佬K奇谈": "UC85kpcAcVipOQQ7EEHbX55w"
+        "佬K奇谈": "UC85kpcAcVipOQQ7EEHbX55w",
+        "TenGuSan": {
+            "id": "UC9RS8EzXdRJyYDkwtcsWOuA",
+            "media": "m4a",
+            "InmainRSS": false
+        }
     },
     "retry_count": 2,
     "link": "m.youtube.com",
