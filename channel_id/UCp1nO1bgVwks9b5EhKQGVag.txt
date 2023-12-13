@@ -28,8 +28,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/Pns8RLiQeoI/hqdefault.jpg" width="480" height="360"/>
    <media:description>如何骗走人类的十年时间：科幻名著《抉择》，原著：小松左京。这部小说收录于《科幻之路》系列。</media:description>
    <media:community>
-    <media:starRating count="103" average="5.00" min="1" max="5"/>
-    <media:statistics views="5621"/>
+    <media:starRating count="104" average="5.00" min="1" max="5"/>
+    <media:statistics views="5652"/>
    </media:community>
   </media:group>
  </entry>
@@ -54,7 +54,7 @@
 不过主线剧情已经更新完毕，未收录的内容仅剩下人类最终生活在小宇宙中的场景。</media:description>
    <media:community>
     <media:starRating count="492" average="5.00" min="1" max="5"/>
-    <media:statistics views="30460"/>
+    <media:statistics views="30545"/>
    </media:community>
   </media:group>
  </entry>
@@ -77,7 +77,7 @@
    <media:description>《单孔衍射》出自科幻短篇集《完美末日》。作者刘洋：科幻作家，物理学博士，代表作《火星孤儿》《勾股2.013》等。这是第二次更新这位科幻作家的作品，希望大家喜欢。这部小说中提出了非常有有趣的“时间壁垒”概念。</media:description>
    <media:community>
     <media:starRating count="131" average="5.00" min="1" max="5"/>
-    <media:statistics views="7365"/>
+    <media:statistics views="7368"/>
    </media:community>
   </media:group>
  </entry>
@@ -101,7 +101,7 @@
 这是我们最喜欢的作品之一，作者以极为另类的写作方式用数学公式描述了一对人们的情感，堪称神作！</media:description>
    <media:community>
     <media:starRating count="215" average="5.00" min="1" max="5"/>
-    <media:statistics views="10712"/>
+    <media:statistics views="10717"/>
    </media:community>
   </media:group>
  </entry>
@@ -124,7 +124,7 @@
    <media:description>本期更新一期克苏鲁神话（非科幻内容）极北坚冰，食人梦魇——克苏鲁神话巅峰之作《虚境奇谭》</media:description>
    <media:community>
     <media:starRating count="200" average="5.00" min="1" max="5"/>
-    <media:statistics views="11944"/>
+    <media:statistics views="11951"/>
    </media:community>
   </media:group>
  </entry>
@@ -147,7 +147,7 @@
    <media:description>科幻小说《橱窗里的荷兰赌徒》，作者李兴春，银河奖获奖作品，是一部不可多得的国产佳作。所谓：数学天才与疯子赌徒之间，正如上帝的左右手。</media:description>
    <media:community>
     <media:starRating count="65" average="5.00" min="1" max="5"/>
-    <media:statistics views="3637"/>
+    <media:statistics views="3640"/>
    </media:community>
   </media:group>
  </entry>
@@ -170,7 +170,7 @@
    <media:description>科幻小说《阖上眼五秒钟》，作者遥控，作品刊登于早年的科幻世界杂志上，是个有趣的小说。</media:description>
    <media:community>
     <media:starRating count="113" average="5.00" min="1" max="5"/>
-    <media:statistics views="6738"/>
+    <media:statistics views="6742"/>
    </media:community>
   </media:group>
  </entry>
@@ -193,7 +193,7 @@
    <media:description>人类史上第一位时间穿越者，居然成功了！经典科幻解读，原著：宝树.</media:description>
    <media:community>
     <media:starRating count="99" average="5.00" min="1" max="5"/>
-    <media:statistics views="5669"/>
+    <media:statistics views="5671"/>
    </media:community>
   </media:group>
  </entry>
@@ -217,7 +217,7 @@
 虽然过去了二十多年，但是好的作品值得让大家记得，分上下集发布</media:description>
    <media:community>
     <media:starRating count="104" average="5.00" min="1" max="5"/>
-    <media:statistics views="5942"/>
+    <media:statistics views="5946"/>
    </media:community>
   </media:group>
  </entry>
@@ -241,7 +241,7 @@
 下来尽量在3期内搞定这个系列。</media:description>
    <media:community>
     <media:starRating count="207" average="5.00" min="1" max="5"/>
-    <media:statistics views="11661"/>
+    <media:statistics views="11665"/>
    </media:community>
   </media:group>
  </entry>
@@ -264,7 +264,7 @@
    <media:description>在时间加速的情况下，数字生命也可以飞向星空——科幻小说《晶体之夜》，出自格雷格.伊根（Greg Egan）的短篇小说集《数学陷落》Oceanic。</media:description>
    <media:community>
     <media:starRating count="175" average="5.00" min="1" max="5"/>
-    <media:statistics views="7966"/>
+    <media:statistics views="7968"/>
    </media:community>
   </media:group>
  </entry>
@@ -288,7 +288,7 @@
 这部40万字的长篇硬核科幻啊！人类无处可逃，因为地球也不过是另一艘飞船：科幻巨著《极光》大结局</media:description>
    <media:community>
     <media:starRating count="238" average="5.00" min="1" max="5"/>
-    <media:statistics views="16988"/>
+    <media:statistics views="16992"/>
    </media:community>
   </media:group>
  </entry>
@@ -311,7 +311,7 @@
    <media:description>一艘1/10光速的飞船回归地球，它该如何减速？科幻巨著《极光》第二集。</media:description>
    <media:community>
     <media:starRating count="173" average="5.00" min="1" max="5"/>
-    <media:statistics views="10974"/>
+    <media:statistics views="10975"/>
    </media:community>
   </media:group>
  </entry>
@@ -335,7 +335,7 @@
 这部小说堪称人类航天的教科书级的小说，全程充满知识点，严谨的写作手法让这部小说毫无逻辑漏洞，堪称经典！</media:description>
    <media:community>
     <media:starRating count="397" average="5.00" min="1" max="5"/>
-    <media:statistics views="49544"/>
+    <media:statistics views="49547"/>
    </media:community>
   </media:group>
  </entry>
@@ -358,7 +358,7 @@
    <media:description>《XeeLee》系列从第三集开始，也要正式进入正题了，真正意义上的战争和剧情走向也要开始了。而且我们文案的叙事也相对加快了，以前计划十多集完成，目前计划在8集以内搞定。</media:description>
    <media:community>
     <media:starRating count="230" average="5.00" min="1" max="5"/>
-    <media:statistics views="12095"/>
+    <media:statistics views="12100"/>
    </media:community>
   </media:group>
  </entry>
