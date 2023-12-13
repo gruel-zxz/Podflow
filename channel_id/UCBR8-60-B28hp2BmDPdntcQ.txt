@@ -10,6 +10,29 @@
   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
  </author>
  <entry>
+  <id>yt:video:FBk36cXzkOU</id>
+  <yt:videoId>FBk36cXzkOU</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>you could say vlogging runs in this creator's family...</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=FBk36cXzkOU"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2023-12-12T17:00:12+00:00</published>
+  <updated>2023-12-12T17:07:11+00:00</updated>
+  <media:group>
+   <media:title>you could say vlogging runs in this creator's family...</media:title>
+   <media:content url="https://www.youtube.com/v/FBk36cXzkOU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/FBk36cXzkOU/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="557" average="5.00" min="1" max="5"/>
+    <media:statistics views="10575"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:WqpyNQQLSmc</id>
   <yt:videoId>WqpyNQQLSmc</yt:videoId>
   <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
@@ -27,8 +50,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/WqpyNQQLSmc/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1226" average="5.00" min="1" max="5"/>
-    <media:statistics views="40520"/>
+    <media:starRating count="1351" average="5.00" min="1" max="5"/>
+    <media:statistics views="47341"/>
    </media:community>
   </media:group>
  </entry>
@@ -50,8 +73,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/6-AaRIfLhD8/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2419" average="5.00" min="1" max="5"/>
-    <media:statistics views="58236"/>
+    <media:starRating count="2558" average="5.00" min="1" max="5"/>
+    <media:statistics views="64081"/>
    </media:community>
   </media:group>
  </entry>
@@ -73,8 +96,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/gjWem-emN2w/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1097" average="5.00" min="1" max="5"/>
-    <media:statistics views="33514"/>
+    <media:starRating count="1182" average="5.00" min="1" max="5"/>
+    <media:statistics views="37127"/>
    </media:community>
   </media:group>
  </entry>
@@ -96,8 +119,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/jvJqtCJwHmQ/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1463" average="5.00" min="1" max="5"/>
-    <media:statistics views="49674"/>
+    <media:starRating count="1527" average="5.00" min="1" max="5"/>
+    <media:statistics views="53185"/>
    </media:community>
   </media:group>
  </entry>
@@ -132,8 +155,8 @@ From dishing on her biggest DIY fails, to her viral catfish moment, to her favor
 
 #AlishaMarie #YouTube #WatchHistory #Vlogmas</media:description>
    <media:community>
-    <media:starRating count="907" average="5.00" min="1" max="5"/>
-    <media:statistics views="374461"/>
+    <media:starRating count="949" average="5.00" min="1" max="5"/>
+    <media:statistics views="431120"/>
    </media:community>
   </media:group>
  </entry>
@@ -155,8 +178,8 @@ From dishing on her biggest DIY fails, to her viral catfish moment, to her favor
    <media:thumbnail url="https://i2.ytimg.com/vi/idfu04-5sGs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2009" average="5.00" min="1" max="5"/>
-    <media:statistics views="47701"/>
+    <media:starRating count="2101" average="5.00" min="1" max="5"/>
+    <media:statistics views="50686"/>
    </media:community>
   </media:group>
  </entry>
@@ -178,8 +201,8 @@ From dishing on her biggest DIY fails, to her viral catfish moment, to her favor
    <media:thumbnail url="https://i3.ytimg.com/vi/NqQP-3dMACo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1474" average="5.00" min="1" max="5"/>
-    <media:statistics views="31086"/>
+    <media:starRating count="1529" average="5.00" min="1" max="5"/>
+    <media:statistics views="33048"/>
    </media:community>
   </media:group>
  </entry>
@@ -201,8 +224,8 @@ From dishing on her biggest DIY fails, to her viral catfish moment, to her favor
    <media:thumbnail url="https://i2.ytimg.com/vi/A_A6zeVP1tk/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1498" average="5.00" min="1" max="5"/>
-    <media:statistics views="35015"/>
+    <media:starRating count="1529" average="5.00" min="1" max="5"/>
+    <media:statistics views="36148"/>
    </media:community>
   </media:group>
  </entry>
@@ -224,8 +247,8 @@ From dishing on her biggest DIY fails, to her viral catfish moment, to her favor
    <media:thumbnail url="https://i4.ytimg.com/vi/CBAlbj2eIJo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3884" average="5.00" min="1" max="5"/>
-    <media:statistics views="116263"/>
+    <media:starRating count="3965" average="5.00" min="1" max="5"/>
+    <media:statistics views="120849"/>
    </media:community>
   </media:group>
  </entry>
@@ -247,8 +270,8 @@ From dishing on her biggest DIY fails, to her viral catfish moment, to her favor
    <media:thumbnail url="https://i2.ytimg.com/vi/5AJKoIt-S1Y/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1420" average="5.00" min="1" max="5"/>
-    <media:statistics views="39219"/>
+    <media:starRating count="1440" average="5.00" min="1" max="5"/>
+    <media:statistics views="40543"/>
    </media:community>
   </media:group>
  </entry>
@@ -270,8 +293,8 @@ From dishing on her biggest DIY fails, to her viral catfish moment, to her favor
    <media:thumbnail url="https://i2.ytimg.com/vi/iUeEYjf6BTA/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1528" average="5.00" min="1" max="5"/>
-    <media:statistics views="45281"/>
+    <media:starRating count="1547" average="5.00" min="1" max="5"/>
+    <media:statistics views="46706"/>
    </media:community>
   </media:group>
  </entry>
@@ -293,8 +316,8 @@ From dishing on her biggest DIY fails, to her viral catfish moment, to her favor
    <media:thumbnail url="https://i1.ytimg.com/vi/8LTzDC4g0gY/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1666" average="5.00" min="1" max="5"/>
-    <media:statistics views="53178"/>
+    <media:starRating count="1684" average="5.00" min="1" max="5"/>
+    <media:statistics views="54391"/>
    </media:community>
   </media:group>
  </entry>
@@ -316,8 +339,8 @@ From dishing on her biggest DIY fails, to her viral catfish moment, to her favor
    <media:thumbnail url="https://i4.ytimg.com/vi/s9x0FCwfWfM/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1451" average="5.00" min="1" max="5"/>
-    <media:statistics views="41503"/>
+    <media:starRating count="1471" average="5.00" min="1" max="5"/>
+    <media:statistics views="42642"/>
    </media:community>
   </media:group>
  </entry>
@@ -345,31 +368,8 @@ Watch sWooZie’s story here: http://yt.be/SwoozieFlowers
 
 Bianca Bonnie’s story coming Jan 18th.</media:description>
    <media:community>
-    <media:starRating count="2365" average="5.00" min="1" max="5"/>
-    <media:statistics views="636040"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:Iz_YgNfceXA</id>
-  <yt:videoId>Iz_YgNfceXA</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>@MissJazminaD made the perfect lip for @TateMcRae’s #KissesToMyExes 👄</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=Iz_YgNfceXA"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2023-11-29T17:13:28+00:00</published>
-  <updated>2023-12-01T13:28:18+00:00</updated>
-  <media:group>
-   <media:title>@MissJazminaD made the perfect lip for @TateMcRae’s #KissesToMyExes 👄</media:title>
-   <media:content url="https://www.youtube.com/v/Iz_YgNfceXA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/Iz_YgNfceXA/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="2267" average="5.00" min="1" max="5"/>
-    <media:statistics views="98697"/>
+    <media:starRating count="2403" average="5.00" min="1" max="5"/>
+    <media:statistics views="640626"/>
    </media:community>
   </media:group>
  </entry>

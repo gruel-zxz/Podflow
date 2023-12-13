@@ -11,6 +11,29 @@
  </author>
  <published>2020-08-21T01:53:13+00:00</published>
  <entry>
+  <id>yt:video:sAJnkmq-pho</id>
+  <yt:videoId>sAJnkmq-pho</yt:videoId>
+  <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
+  <title>坐西安地铁，享古墓穿越</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=sAJnkmq-pho"/>
+  <author>
+   <name>绝密研究所</name>
+   <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
+  </author>
+  <published>2023-12-13T00:15:10+00:00</published>
+  <updated>2023-12-13T00:23:34+00:00</updated>
+  <media:group>
+   <media:title>坐西安地铁，享古墓穿越</media:title>
+   <media:content url="https://www.youtube.com/v/sAJnkmq-pho?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/sAJnkmq-pho/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:m5IAPWoEy3U</id>
   <yt:videoId>m5IAPWoEy3U</yt:videoId>
   <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
@@ -21,7 +44,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2023-12-12T00:00:06+00:00</published>
-  <updated>2023-12-12T00:07:19+00:00</updated>
+  <updated>2023-12-12T10:52:33+00:00</updated>
   <media:group>
    <media:title>疑似穿越的10大逆天文物</media:title>
    <media:content url="https://www.youtube.com/v/m5IAPWoEy3U?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -29,7 +52,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="18"/>
+    <media:statistics views="32"/>
    </media:community>
   </media:group>
  </entry>
@@ -44,7 +67,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2023-12-11T08:14:09+00:00</published>
-  <updated>2023-12-11T15:38:44+00:00</updated>
+  <updated>2023-12-12T10:58:41+00:00</updated>
   <media:group>
    <media:title>中国人不要，外国当宝的三件废品</media:title>
    <media:content url="https://www.youtube.com/v/p_ihBtn5NPo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -67,34 +90,11 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2023-12-11T07:34:10+00:00</published>
-  <updated>2023-12-11T12:05:50+00:00</updated>
+  <updated>2023-12-12T11:04:45+00:00</updated>
   <media:group>
    <media:title>“人造狗”茶杯犬， 可爱背后的残忍</media:title>
    <media:content url="https://www.youtube.com/v/lQulssS2Log?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i1.ytimg.com/vi/lQulssS2Log/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="0" average="0.00" min="1" max="5"/>
-    <media:statistics views="0"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:sAJnkmq-pho</id>
-  <yt:videoId>sAJnkmq-pho</yt:videoId>
-  <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
-  <title>坐西安地铁，享古墓穿越</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=sAJnkmq-pho"/>
-  <author>
-   <name>绝密研究所</name>
-   <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
-  </author>
-  <published>2023-12-11T07:28:07+00:00</published>
-  <updated>2023-12-11T09:38:06+00:00</updated>
-  <media:group>
-   <media:title>坐西安地铁，享古墓穿越</media:title>
-   <media:content url="https://www.youtube.com/v/sAJnkmq-pho?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/sAJnkmq-pho/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
     <media:starRating count="0" average="0.00" min="1" max="5"/>
@@ -113,7 +113,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2023-12-11T07:09:30+00:00</published>
-  <updated>2023-12-12T02:29:32+00:00</updated>
+  <updated>2023-12-12T10:07:22+00:00</updated>
   <media:group>
    <media:title>镜头下最幸运的20个瞬间</media:title>
    <media:content url="https://www.youtube.com/v/3QayW82Gd2s?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -121,7 +121,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="17"/>
+    <media:statistics views="21"/>
    </media:community>
   </media:group>
  </entry>
@@ -144,7 +144,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="35"/>
+    <media:statistics views="36"/>
    </media:community>
   </media:group>
  </entry>
@@ -167,7 +167,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="0" average="0.00" min="1" max="5"/>
-    <media:statistics views="36"/>
+    <media:statistics views="38"/>
    </media:community>
   </media:group>
  </entry>
@@ -190,7 +190,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="31"/>
+    <media:statistics views="32"/>
    </media:community>
   </media:group>
  </entry>
@@ -213,7 +213,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="0" average="0.00" min="1" max="5"/>
-    <media:statistics views="20"/>
+    <media:statistics views="21"/>
    </media:community>
   </media:group>
  </entry>
@@ -282,7 +282,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="111"/>
+    <media:statistics views="112"/>
    </media:community>
   </media:group>
  </entry>
@@ -328,7 +328,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="51"/>
+    <media:statistics views="52"/>
    </media:community>
   </media:group>
  </entry>
@@ -351,7 +351,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="41"/>
+    <media:statistics views="42"/>
    </media:community>
   </media:group>
  </entry>
