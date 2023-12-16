@@ -21,7 +21,7 @@
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
   <published>2023-12-13T12:58:08+00:00</published>
-  <updated>2023-12-13T13:43:19+00:00</updated>
+  <updated>2023-12-15T23:37:41+00:00</updated>
   <media:group>
    <media:title>【震撼】四十三分鐘講完來自非洲薩滿的人類真相 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/OlVP0OUrfFI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -255,8 +255,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="23077" average="5.00" min="1" max="5"/>
-    <media:statistics views="954704"/>
+    <media:starRating count="34082" average="5.00" min="1" max="5"/>
+    <media:statistics views="1811059"/>
    </media:community>
   </media:group>
  </entry>
@@ -264,16 +264,16 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
   <id>yt:video:BTXlGIfIJ7A</id>
   <yt:videoId>BTXlGIfIJ7A</yt:videoId>
   <yt:channelId>UCMUnInmOkrWN4gof9KlhNmQ</yt:channelId>
-  <title>改變人生就靠這一期，今天必須看完的影片 | 老高與小茉 Mr &amp; Mrs Gao</title>
+  <title>改變人生就靠這一期，今天一定要把它看完 | 老高與小茉 Mr &amp; Mrs Gao</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=BTXlGIfIJ7A"/>
   <author>
    <name>老高與小茉 Mr &amp; Mrs Gao</name>
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
   <published>2023-12-06T13:00:07+00:00</published>
-  <updated>2023-12-12T00:43:52+00:00</updated>
+  <updated>2023-12-15T06:33:06+00:00</updated>
   <media:group>
-   <media:title>改變人生就靠這一期，今天必須看完的影片 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
+   <media:title>改變人生就靠這一期，今天一定要把它看完 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/BTXlGIfIJ7A?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i3.ytimg.com/vi/BTXlGIfIJ7A/hqdefault.jpg" width="480" height="360"/>
    <media:description>【加入會員按鈕】https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ/join
@@ -505,8 +505,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="51088" average="5.00" min="1" max="5"/>
-    <media:statistics views="2069911"/>
+    <media:starRating count="52171" average="5.00" min="1" max="5"/>
+    <media:statistics views="2136824"/>
    </media:community>
   </media:group>
  </entry>
@@ -514,16 +514,16 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
   <id>yt:video:mBcxZbS-I6w</id>
   <yt:videoId>mBcxZbS-I6w</yt:videoId>
   <yt:channelId>UCMUnInmOkrWN4gof9KlhNmQ</yt:channelId>
-  <title>真正的海賊王，你能破解他的密碼找到那些價值四十億美金的寶藏嗎 | 老高與小茉 Mr &amp; Mrs Gao</title>
+  <title>海盜和海盜的海盜 | 老高與小茉 Mr &amp; Mrs Gao</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=mBcxZbS-I6w"/>
   <author>
    <name>老高與小茉 Mr &amp; Mrs Gao</name>
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
   <published>2023-11-29T13:00:11+00:00</published>
-  <updated>2023-12-07T08:32:02+00:00</updated>
+  <updated>2023-12-15T14:01:48+00:00</updated>
   <media:group>
-   <media:title>真正的海賊王，你能破解他的密碼找到那些價值四十億美金的寶藏嗎 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
+   <media:title>海盜和海盜的海盜 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/mBcxZbS-I6w?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i2.ytimg.com/vi/mBcxZbS-I6w/hqdefault.jpg" width="480" height="360"/>
    <media:description>【加入會員按鈕】https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ/join
@@ -755,8 +755,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="34311" average="5.00" min="1" max="5"/>
-    <media:statistics views="1907769"/>
+    <media:starRating count="34493" average="5.00" min="1" max="5"/>
+    <media:statistics views="1926591"/>
    </media:community>
   </media:group>
  </entry>
@@ -1005,8 +1005,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="47771" average="5.00" min="1" max="5"/>
-    <media:statistics views="2482895"/>
+    <media:starRating count="47947" average="5.00" min="1" max="5"/>
+    <media:statistics views="2502791"/>
    </media:community>
   </media:group>
  </entry>
@@ -1255,8 +1255,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="41960" average="5.00" min="1" max="5"/>
-    <media:statistics views="2455447"/>
+    <media:starRating count="42110" average="5.00" min="1" max="5"/>
+    <media:statistics views="2471957"/>
    </media:community>
   </media:group>
  </entry>
@@ -1505,8 +1505,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="56869" average="5.00" min="1" max="5"/>
-    <media:statistics views="2965752"/>
+    <media:starRating count="56958" average="5.00" min="1" max="5"/>
+    <media:statistics views="2975750"/>
    </media:community>
   </media:group>
  </entry>
@@ -1514,16 +1514,16 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
   <id>yt:video:32pL6ZTnRi4</id>
   <yt:videoId>32pL6ZTnRi4</yt:videoId>
   <yt:channelId>UCMUnInmOkrWN4gof9KlhNmQ</yt:channelId>
-  <title>【震撼】最多只能說到這了，請自行體會 | 老高與小茉 Mr &amp; Mrs Gao</title>
+  <title>【震撼】真的只能說到這了，千萬不要聯想下去 | 老高與小茉 Mr &amp; Mrs Gao</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=32pL6ZTnRi4"/>
   <author>
    <name>老高與小茉 Mr &amp; Mrs Gao</name>
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
   <published>2023-11-01T13:00:10+00:00</published>
-  <updated>2023-12-12T08:30:58+00:00</updated>
+  <updated>2023-12-15T06:09:35+00:00</updated>
   <media:group>
-   <media:title>【震撼】最多只能說到這了，請自行體會 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
+   <media:title>【震撼】真的只能說到這了，千萬不要聯想下去 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/32pL6ZTnRi4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i4.ytimg.com/vi/32pL6ZTnRi4/hqdefault.jpg" width="480" height="360"/>
    <media:description>【加入會員按鈕】https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ/join
@@ -1755,8 +1755,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="57940" average="5.00" min="1" max="5"/>
-    <media:statistics views="2857709"/>
+    <media:starRating count="58016" average="5.00" min="1" max="5"/>
+    <media:statistics views="2865925"/>
    </media:community>
   </media:group>
  </entry>
@@ -1764,16 +1764,16 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
   <id>yt:video:qmQr2Epo_ZQ</id>
   <yt:videoId>qmQr2Epo_ZQ</yt:videoId>
   <yt:channelId>UCMUnInmOkrWN4gof9KlhNmQ</yt:channelId>
-  <title>二十六分鐘講完傳說中的各種寶劍寶刀邪刀妖刀 | 老高與小茉 Mr &amp; Mrs Gao</title>
+  <title>傳說中和現實存在的各種神奇武器，越王勾踐劍，湛盧，純鈞，魚腸，勝邪，巨闕，妖刀村正，祢祢切丸，鬼切丸，咎瓦尤斯，石中劍 | 老高與小茉 Mr &amp; Mrs Gao</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=qmQr2Epo_ZQ"/>
   <author>
    <name>老高與小茉 Mr &amp; Mrs Gao</name>
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
   <published>2023-10-25T12:00:08+00:00</published>
-  <updated>2023-12-01T07:58:27+00:00</updated>
+  <updated>2023-12-14T11:41:56+00:00</updated>
   <media:group>
-   <media:title>二十六分鐘講完傳說中的各種寶劍寶刀邪刀妖刀 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
+   <media:title>傳說中和現實存在的各種神奇武器，越王勾踐劍，湛盧，純鈞，魚腸，勝邪，巨闕，妖刀村正，祢祢切丸，鬼切丸，咎瓦尤斯，石中劍 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/qmQr2Epo_ZQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i2.ytimg.com/vi/qmQr2Epo_ZQ/hqdefault.jpg" width="480" height="360"/>
    <media:description>【加入會員按鈕】https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ/join
@@ -1999,8 +1999,8 @@ https://www.youtube.com/watch?v=Ttus8XGK6Xw
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="43620" average="5.00" min="1" max="5"/>
-    <media:statistics views="2612487"/>
+    <media:starRating count="43668" average="5.00" min="1" max="5"/>
+    <media:statistics views="2618183"/>
    </media:community>
   </media:group>
  </entry>
@@ -2228,8 +2228,8 @@ https://www.youtube.com/watch?v=N4xXGIrzKJs
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="51162" average="5.00" min="1" max="5"/>
-    <media:statistics views="3299744"/>
+    <media:starRating count="51231" average="5.00" min="1" max="5"/>
+    <media:statistics views="3313877"/>
    </media:community>
   </media:group>
  </entry>
@@ -2477,8 +2477,8 @@ https://www.youtube.com/watch?v=Ttus8XGK6Xw
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="68339" average="5.00" min="1" max="5"/>
-    <media:statistics views="3351941"/>
+    <media:starRating count="68413" average="5.00" min="1" max="5"/>
+    <media:statistics views="3358982"/>
    </media:community>
   </media:group>
  </entry>
@@ -2486,16 +2486,16 @@ https://www.youtube.com/watch?v=Ttus8XGK6Xw
   <id>yt:video:Ieks8KB_eyo</id>
   <yt:videoId>Ieks8KB_eyo</yt:videoId>
   <yt:channelId>UCMUnInmOkrWN4gof9KlhNmQ</yt:channelId>
-  <title>最新公開的五個不明飛行物影像 | 老高與小茉 Mr &amp; Mrs Gao</title>
+  <title>【最新】外星人木乃伊和美軍公開的五個不明飛行物影像 | 老高與小茉 Mr &amp; Mrs Gao</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=Ieks8KB_eyo"/>
   <author>
    <name>老高與小茉 Mr &amp; Mrs Gao</name>
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
   <published>2023-10-04T14:48:41+00:00</published>
-  <updated>2023-12-06T08:31:51+00:00</updated>
+  <updated>2023-12-15T06:15:07+00:00</updated>
   <media:group>
-   <media:title>最新公開的五個不明飛行物影像 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
+   <media:title>【最新】外星人木乃伊和美軍公開的五個不明飛行物影像 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/Ieks8KB_eyo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i2.ytimg.com/vi/Ieks8KB_eyo/hqdefault.jpg" width="480" height="360"/>
    <media:description>【加入會員按鈕】https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ/join
@@ -2649,8 +2649,8 @@ https://www.youtube.com/watch?v=7q88m5MQRhE
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="47599" average="5.00" min="1" max="5"/>
-    <media:statistics views="2776165"/>
+    <media:starRating count="47633" average="5.00" min="1" max="5"/>
+    <media:statistics views="2781154"/>
    </media:community>
   </media:group>
  </entry>
@@ -2899,8 +2899,8 @@ https://www.youtube.com/watch?v=Mshz9DxQLbE
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="55327" average="5.00" min="1" max="5"/>
-    <media:statistics views="3324377"/>
+    <media:starRating count="55361" average="5.00" min="1" max="5"/>
+    <media:statistics views="3329311"/>
    </media:community>
   </media:group>
  </entry>
@@ -3147,8 +3147,8 @@ https://www.youtube.com/watch?v=Ttus8XGK6Xw
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="79151" average="5.00" min="1" max="5"/>
-    <media:statistics views="3576832"/>
+    <media:starRating count="79249" average="5.00" min="1" max="5"/>
+    <media:statistics views="3585722"/>
    </media:community>
   </media:group>
  </entry>
@@ -3394,8 +3394,8 @@ https://www.youtube.com/watch?v=Ttus8XGK6Xw
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="82197" average="5.00" min="1" max="5"/>
-    <media:statistics views="3503798"/>
+    <media:starRating count="82327" average="5.00" min="1" max="5"/>
+    <media:statistics views="3512481"/>
    </media:community>
   </media:group>
  </entry>
@@ -3639,8 +3639,8 @@ https://www.youtube.com/watch?v=ElqnKNkiyHA
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="56057" average="5.00" min="1" max="5"/>
-    <media:statistics views="3351591"/>
+    <media:starRating count="56140" average="5.00" min="1" max="5"/>
+    <media:statistics views="3359267"/>
    </media:community>
   </media:group>
  </entry>
