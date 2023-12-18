@@ -21,7 +21,7 @@
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
   <published>2023-12-13T12:58:08+00:00</published>
-  <updated>2023-12-15T23:37:41+00:00</updated>
+  <updated>2023-12-16T15:42:40+00:00</updated>
   <media:group>
    <media:title>【震撼】四十三分鐘講完來自非洲薩滿的人類真相 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/OlVP0OUrfFI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -255,8 +255,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="34082" average="5.00" min="1" max="5"/>
-    <media:statistics views="1811059"/>
+    <media:starRating count="38033" average="5.00" min="1" max="5"/>
+    <media:statistics views="2198462"/>
    </media:community>
   </media:group>
  </entry>
@@ -505,8 +505,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="52171" average="5.00" min="1" max="5"/>
-    <media:statistics views="2136824"/>
+    <media:starRating count="53419" average="5.00" min="1" max="5"/>
+    <media:statistics views="2217727"/>
    </media:community>
   </media:group>
  </entry>
@@ -514,16 +514,16 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
   <id>yt:video:mBcxZbS-I6w</id>
   <yt:videoId>mBcxZbS-I6w</yt:videoId>
   <yt:channelId>UCMUnInmOkrWN4gof9KlhNmQ</yt:channelId>
-  <title>海盜和海盜的海盜 | 老高與小茉 Mr &amp; Mrs Gao</title>
+  <title>以前女人不能上船的真正原因 | 老高與小茉 Mr &amp; Mrs Gao</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=mBcxZbS-I6w"/>
   <author>
    <name>老高與小茉 Mr &amp; Mrs Gao</name>
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
   <published>2023-11-29T13:00:11+00:00</published>
-  <updated>2023-12-15T14:01:48+00:00</updated>
+  <updated>2023-12-18T02:31:03+00:00</updated>
   <media:group>
-   <media:title>海盜和海盜的海盜 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
+   <media:title>以前女人不能上船的真正原因 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/mBcxZbS-I6w?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i2.ytimg.com/vi/mBcxZbS-I6w/hqdefault.jpg" width="480" height="360"/>
    <media:description>【加入會員按鈕】https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ/join
@@ -755,8 +755,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="34493" average="5.00" min="1" max="5"/>
-    <media:statistics views="1926591"/>
+    <media:starRating count="34659" average="5.00" min="1" max="5"/>
+    <media:statistics views="1944849"/>
    </media:community>
   </media:group>
  </entry>
@@ -1005,8 +1005,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="47947" average="5.00" min="1" max="5"/>
-    <media:statistics views="2502791"/>
+    <media:starRating count="48137" average="5.00" min="1" max="5"/>
+    <media:statistics views="2522316"/>
    </media:community>
   </media:group>
  </entry>
@@ -1255,8 +1255,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="42110" average="5.00" min="1" max="5"/>
-    <media:statistics views="2471957"/>
+    <media:starRating count="42326" average="5.00" min="1" max="5"/>
+    <media:statistics views="2491452"/>
    </media:community>
   </media:group>
  </entry>
@@ -1264,16 +1264,16 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
   <id>yt:video:YKaEeuuMp5U</id>
   <yt:videoId>YKaEeuuMp5U</yt:videoId>
   <yt:channelId>UCMUnInmOkrWN4gof9KlhNmQ</yt:channelId>
-  <title>【震撼】這一期能夠用量子力學解答所有死後世界的問題 | 老高與小茉 Mr &amp; Mrs Gao</title>
+  <title>【震撼】用量子力學解答所有死後世界的問題 | 老高與小茉 Mr &amp; Mrs Gao</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=YKaEeuuMp5U"/>
   <author>
    <name>老高與小茉 Mr &amp; Mrs Gao</name>
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
   <published>2023-11-08T13:00:12+00:00</published>
-  <updated>2023-11-21T03:42:01+00:00</updated>
+  <updated>2023-12-18T02:50:08+00:00</updated>
   <media:group>
-   <media:title>【震撼】這一期能夠用量子力學解答所有死後世界的問題 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
+   <media:title>【震撼】用量子力學解答所有死後世界的問題 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/YKaEeuuMp5U?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i2.ytimg.com/vi/YKaEeuuMp5U/hqdefault.jpg" width="480" height="360"/>
    <media:description>【加入會員按鈕】https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ/join
@@ -1505,8 +1505,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="56958" average="5.00" min="1" max="5"/>
-    <media:statistics views="2975750"/>
+    <media:starRating count="57060" average="5.00" min="1" max="5"/>
+    <media:statistics views="2987323"/>
    </media:community>
   </media:group>
  </entry>
@@ -1755,8 +1755,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="58016" average="5.00" min="1" max="5"/>
-    <media:statistics views="2865925"/>
+    <media:starRating count="58106" average="5.00" min="1" max="5"/>
+    <media:statistics views="2875944"/>
    </media:community>
   </media:group>
  </entry>
@@ -1764,16 +1764,16 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
   <id>yt:video:qmQr2Epo_ZQ</id>
   <yt:videoId>qmQr2Epo_ZQ</yt:videoId>
   <yt:channelId>UCMUnInmOkrWN4gof9KlhNmQ</yt:channelId>
-  <title>傳說中和現實存在的各種神奇武器，越王勾踐劍，湛盧，純鈞，魚腸，勝邪，巨闕，妖刀村正，祢祢切丸，鬼切丸，咎瓦尤斯，石中劍 | 老高與小茉 Mr &amp; Mrs Gao</title>
+  <title>傳說中和現實存在的各種神奇兵器，越王勾踐劍，湛盧，純鈞，魚腸，勝邪，巨闕，妖刀村正，祢祢切丸，鬼切丸，咎瓦尤斯，石中劍 | 老高與小茉 Mr &amp; Mrs Gao</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=qmQr2Epo_ZQ"/>
   <author>
    <name>老高與小茉 Mr &amp; Mrs Gao</name>
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
   <published>2023-10-25T12:00:08+00:00</published>
-  <updated>2023-12-14T11:41:56+00:00</updated>
+  <updated>2023-12-18T02:32:15+00:00</updated>
   <media:group>
-   <media:title>傳說中和現實存在的各種神奇武器，越王勾踐劍，湛盧，純鈞，魚腸，勝邪，巨闕，妖刀村正，祢祢切丸，鬼切丸，咎瓦尤斯，石中劍 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
+   <media:title>傳說中和現實存在的各種神奇兵器，越王勾踐劍，湛盧，純鈞，魚腸，勝邪，巨闕，妖刀村正，祢祢切丸，鬼切丸，咎瓦尤斯，石中劍 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/qmQr2Epo_ZQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i2.ytimg.com/vi/qmQr2Epo_ZQ/hqdefault.jpg" width="480" height="360"/>
    <media:description>【加入會員按鈕】https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ/join
@@ -1999,8 +1999,8 @@ https://www.youtube.com/watch?v=Ttus8XGK6Xw
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="43668" average="5.00" min="1" max="5"/>
-    <media:statistics views="2618183"/>
+    <media:starRating count="43710" average="5.00" min="1" max="5"/>
+    <media:statistics views="2624956"/>
    </media:community>
   </media:group>
  </entry>
@@ -2015,7 +2015,7 @@ https://www.youtube.com/watch?v=Ttus8XGK6Xw
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
   <published>2023-10-18T13:30:23+00:00</published>
-  <updated>2023-11-30T07:11:57+00:00</updated>
+  <updated>2023-12-17T13:54:52+00:00</updated>
   <media:group>
    <media:title>【震撼】三十二分鐘講完新的金字塔，不可解的謎 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/y59ZYVK7K-o?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -2228,8 +2228,8 @@ https://www.youtube.com/watch?v=N4xXGIrzKJs
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="51231" average="5.00" min="1" max="5"/>
-    <media:statistics views="3313877"/>
+    <media:starRating count="51319" average="5.00" min="1" max="5"/>
+    <media:statistics views="3329165"/>
    </media:community>
   </media:group>
  </entry>
@@ -2477,8 +2477,8 @@ https://www.youtube.com/watch?v=Ttus8XGK6Xw
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="68413" average="5.00" min="1" max="5"/>
-    <media:statistics views="3358982"/>
+    <media:starRating count="68481" average="5.00" min="1" max="5"/>
+    <media:statistics views="3365508"/>
    </media:community>
   </media:group>
  </entry>
@@ -2649,8 +2649,8 @@ https://www.youtube.com/watch?v=7q88m5MQRhE
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="47633" average="5.00" min="1" max="5"/>
-    <media:statistics views="2781154"/>
+    <media:starRating count="47666" average="5.00" min="1" max="5"/>
+    <media:statistics views="2785970"/>
    </media:community>
   </media:group>
  </entry>
@@ -2899,8 +2899,8 @@ https://www.youtube.com/watch?v=Mshz9DxQLbE
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="55361" average="5.00" min="1" max="5"/>
-    <media:statistics views="3329311"/>
+    <media:starRating count="55401" average="5.00" min="1" max="5"/>
+    <media:statistics views="3335708"/>
    </media:community>
   </media:group>
  </entry>
@@ -3147,8 +3147,8 @@ https://www.youtube.com/watch?v=Ttus8XGK6Xw
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="79249" average="5.00" min="1" max="5"/>
-    <media:statistics views="3585722"/>
+    <media:starRating count="79366" average="5.00" min="1" max="5"/>
+    <media:statistics views="3596735"/>
    </media:community>
   </media:group>
  </entry>
@@ -3394,8 +3394,8 @@ https://www.youtube.com/watch?v=Ttus8XGK6Xw
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="82327" average="5.00" min="1" max="5"/>
-    <media:statistics views="3512481"/>
+    <media:starRating count="82487" average="5.00" min="1" max="5"/>
+    <media:statistics views="3521599"/>
    </media:community>
   </media:group>
  </entry>
@@ -3410,7 +3410,7 @@ https://www.youtube.com/watch?v=Ttus8XGK6Xw
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
   <published>2023-09-06T14:26:18+00:00</published>
-  <updated>2023-11-09T00:36:26+00:00</updated>
+  <updated>2023-12-16T09:17:08+00:00</updated>
   <media:group>
    <media:title>實驗證明，你和另一個宇宙的你相互干擾，只要結果沒有被觀察，一切皆有可能 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/FVuBQiBL8NQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -3639,8 +3639,8 @@ https://www.youtube.com/watch?v=ElqnKNkiyHA
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="56140" average="5.00" min="1" max="5"/>
-    <media:statistics views="3359267"/>
+    <media:starRating count="56218" average="5.00" min="1" max="5"/>
+    <media:statistics views="3368615"/>
    </media:community>
   </media:group>
  </entry>

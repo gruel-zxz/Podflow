@@ -20,15 +20,15 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2023-12-15T23:42:44+00:00</published>
-  <updated>2023-12-15T23:57:13+00:00</updated>
+  <updated>2023-12-16T19:21:03+00:00</updated>
   <media:group>
    <media:title>@itsmeissie @hariyo @iamneetubisht and @PaniBottle say hello to 2024 in style</media:title>
    <media:content url="https://www.youtube.com/v/F0fBpUU3a-o?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i3.ytimg.com/vi/F0fBpUU3a-o/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="427" average="5.00" min="1" max="5"/>
-    <media:statistics views="3612"/>
+    <media:starRating count="1308" average="5.00" min="1" max="5"/>
+    <media:statistics views="27423"/>
    </media:community>
   </media:group>
  </entry>
@@ -43,15 +43,15 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2023-12-15T16:15:18+00:00</published>
-  <updated>2023-12-15T16:22:26+00:00</updated>
+  <updated>2023-12-16T05:54:58+00:00</updated>
   <media:group>
    <media:title>tell us ur high score, this is a safe space @AlanChikinChow</media:title>
    <media:content url="https://www.youtube.com/v/sKVQN8SHxBE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i4.ytimg.com/vi/sKVQN8SHxBE/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="838" average="5.00" min="1" max="5"/>
-    <media:statistics views="14589"/>
+    <media:starRating count="1533" average="5.00" min="1" max="5"/>
+    <media:statistics views="37211"/>
    </media:community>
   </media:group>
  </entry>
@@ -66,15 +66,15 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2023-12-14T18:00:19+00:00</published>
-  <updated>2023-12-14T18:05:29+00:00</updated>
+  <updated>2023-12-17T00:28:28+00:00</updated>
   <media:group>
    <media:title>@TooTurntTony @thedonato @NERDULT @ShortsBreak_Official pass the📱around the 🌎 to say 👋 to 2023</media:title>
    <media:content url="https://www.youtube.com/v/3EFqFGp4E60?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i4.ytimg.com/vi/3EFqFGp4E60/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1144" average="5.00" min="1" max="5"/>
-    <media:statistics views="22537"/>
+    <media:starRating count="1454" average="5.00" min="1" max="5"/>
+    <media:statistics views="33117"/>
    </media:community>
   </media:group>
  </entry>
@@ -89,15 +89,15 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2023-12-12T17:00:12+00:00</published>
-  <updated>2023-12-12T17:07:11+00:00</updated>
+  <updated>2023-12-16T07:09:06+00:00</updated>
   <media:group>
    <media:title>you could say vlogging runs in this creator's family...</media:title>
    <media:content url="https://www.youtube.com/v/FBk36cXzkOU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i3.ytimg.com/vi/FBk36cXzkOU/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1416" average="5.00" min="1" max="5"/>
-    <media:statistics views="43299"/>
+    <media:starRating count="1614" average="5.00" min="1" max="5"/>
+    <media:statistics views="51414"/>
    </media:community>
   </media:group>
  </entry>
@@ -119,8 +119,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/WqpyNQQLSmc/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1643" average="5.00" min="1" max="5"/>
-    <media:statistics views="54506"/>
+    <media:starRating count="1748" average="5.00" min="1" max="5"/>
+    <media:statistics views="59111"/>
    </media:community>
   </media:group>
  </entry>
@@ -142,8 +142,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/6-AaRIfLhD8/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3005" average="5.00" min="1" max="5"/>
-    <media:statistics views="81104"/>
+    <media:starRating count="3142" average="5.00" min="1" max="5"/>
+    <media:statistics views="87337"/>
    </media:community>
   </media:group>
  </entry>
@@ -165,8 +165,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/gjWem-emN2w/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1403" average="5.00" min="1" max="5"/>
-    <media:statistics views="45274"/>
+    <media:starRating count="1480" average="5.00" min="1" max="5"/>
+    <media:statistics views="49374"/>
    </media:community>
   </media:group>
  </entry>
@@ -188,8 +188,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/jvJqtCJwHmQ/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1709" average="5.00" min="1" max="5"/>
-    <media:statistics views="62050"/>
+    <media:starRating count="1774" average="5.00" min="1" max="5"/>
+    <media:statistics views="66320"/>
    </media:community>
   </media:group>
  </entry>
@@ -204,7 +204,7 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2023-12-07T15:00:20+00:00</published>
-  <updated>2023-12-07T19:00:26+00:00</updated>
+  <updated>2023-12-16T15:30:19+00:00</updated>
   <media:group>
    <media:title>@AlishaMarie talks Vlogmas, DIY fails, and her most viral video | YouTube Watch History</media:title>
    <media:content url="https://www.youtube.com/v/Rb0k9vUCEno?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -224,8 +224,8 @@ From dishing on her biggest DIY fails, to her viral catfish moment, to her favor
 
 #AlishaMarie #YouTube #WatchHistory #Vlogmas</media:description>
    <media:community>
-    <media:starRating count="1133" average="5.00" min="1" max="5"/>
-    <media:statistics views="543754"/>
+    <media:starRating count="1242" average="5.00" min="1" max="5"/>
+    <media:statistics views="646179"/>
    </media:community>
   </media:group>
  </entry>
@@ -247,8 +247,8 @@ From dishing on her biggest DIY fails, to her viral catfish moment, to her favor
    <media:thumbnail url="https://i2.ytimg.com/vi/idfu04-5sGs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2307" average="5.00" min="1" max="5"/>
-    <media:statistics views="60114"/>
+    <media:starRating count="2398" average="5.00" min="1" max="5"/>
+    <media:statistics views="64162"/>
    </media:community>
   </media:group>
  </entry>
@@ -270,8 +270,8 @@ From dishing on her biggest DIY fails, to her viral catfish moment, to her favor
    <media:thumbnail url="https://i3.ytimg.com/vi/NqQP-3dMACo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1661" average="5.00" min="1" max="5"/>
-    <media:statistics views="39335"/>
+    <media:starRating count="1712" average="5.00" min="1" max="5"/>
+    <media:statistics views="42009"/>
    </media:community>
   </media:group>
  </entry>
@@ -293,8 +293,8 @@ From dishing on her biggest DIY fails, to her viral catfish moment, to her favor
    <media:thumbnail url="https://i2.ytimg.com/vi/A_A6zeVP1tk/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1622" average="5.00" min="1" max="5"/>
-    <media:statistics views="40276"/>
+    <media:starRating count="1657" average="5.00" min="1" max="5"/>
+    <media:statistics views="42112"/>
    </media:community>
   </media:group>
  </entry>
@@ -316,8 +316,8 @@ From dishing on her biggest DIY fails, to her viral catfish moment, to her favor
    <media:thumbnail url="https://i4.ytimg.com/vi/CBAlbj2eIJo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4151" average="5.00" min="1" max="5"/>
-    <media:statistics views="133950"/>
+    <media:starRating count="4224" average="5.00" min="1" max="5"/>
+    <media:statistics views="140414"/>
    </media:community>
   </media:group>
  </entry>
@@ -339,8 +339,8 @@ From dishing on her biggest DIY fails, to her viral catfish moment, to her favor
    <media:thumbnail url="https://i2.ytimg.com/vi/5AJKoIt-S1Y/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1510" average="5.00" min="1" max="5"/>
-    <media:statistics views="45197"/>
+    <media:starRating count="1545" average="5.00" min="1" max="5"/>
+    <media:statistics views="47220"/>
    </media:community>
   </media:group>
  </entry>
@@ -362,8 +362,8 @@ From dishing on her biggest DIY fails, to her viral catfish moment, to her favor
    <media:thumbnail url="https://i2.ytimg.com/vi/iUeEYjf6BTA/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1618" average="5.00" min="1" max="5"/>
-    <media:statistics views="51345"/>
+    <media:starRating count="1650" average="5.00" min="1" max="5"/>
+    <media:statistics views="53567"/>
    </media:community>
   </media:group>
  </entry>

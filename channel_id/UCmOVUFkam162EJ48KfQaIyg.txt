@@ -81,7 +81,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="40" average="5.00" min="1" max="5"/>
-    <media:statistics views="7801"/>
+    <media:statistics views="7822"/>
    </media:community>
   </media:group>
  </entry>
@@ -156,7 +156,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="31" average="5.00" min="1" max="5"/>
-    <media:statistics views="7068"/>
+    <media:statistics views="7084"/>
    </media:community>
   </media:group>
  </entry>
@@ -231,7 +231,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="18" average="5.00" min="1" max="5"/>
-    <media:statistics views="3921"/>
+    <media:statistics views="3922"/>
    </media:community>
   </media:group>
  </entry>
@@ -306,7 +306,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="15" average="5.00" min="1" max="5"/>
-    <media:statistics views="2848"/>
+    <media:statistics views="2856"/>
    </media:community>
   </media:group>
  </entry>
@@ -381,7 +381,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="15" average="5.00" min="1" max="5"/>
-    <media:statistics views="3216"/>
+    <media:statistics views="3221"/>
    </media:community>
   </media:group>
  </entry>
@@ -456,7 +456,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="27" average="5.00" min="1" max="5"/>
-    <media:statistics views="3825"/>
+    <media:statistics views="3833"/>
    </media:community>
   </media:group>
  </entry>
@@ -531,7 +531,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="29" average="5.00" min="1" max="5"/>
-    <media:statistics views="5764"/>
+    <media:statistics views="5766"/>
    </media:community>
   </media:group>
  </entry>
@@ -606,7 +606,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="15" average="5.00" min="1" max="5"/>
-    <media:statistics views="1803"/>
+    <media:statistics views="1805"/>
    </media:community>
   </media:group>
  </entry>
@@ -681,7 +681,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="11" average="5.00" min="1" max="5"/>
-    <media:statistics views="2807"/>
+    <media:statistics views="2808"/>
    </media:community>
   </media:group>
  </entry>
@@ -696,7 +696,7 @@ Twitter：stone记@stone62855987</media:description>
    <uri>https://www.youtube.com/channel/UCmOVUFkam162EJ48KfQaIyg</uri>
   </author>
   <published>2023-05-06T07:00:05+00:00</published>
-  <updated>2023-11-20T00:37:03+00:00</updated>
+  <updated>2023-12-17T02:51:29+00:00</updated>
   <media:group>
    <media:title>Old boy big toy，7000美元的大玩具Korth NXS 6&quot;（20230506第5934期）</media:title>
    <media:content url="https://www.youtube.com/v/5unuJCDGiss?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -831,7 +831,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="35" average="5.00" min="1" max="5"/>
-    <media:statistics views="5839"/>
+    <media:statistics views="5840"/>
    </media:community>
   </media:group>
  </entry>
@@ -846,7 +846,7 @@ Twitter：stone记@stone62855987</media:description>
    <uri>https://www.youtube.com/channel/UCmOVUFkam162EJ48KfQaIyg</uri>
   </author>
   <published>2023-04-06T11:21:35+00:00</published>
-  <updated>2023-11-22T07:53:58+00:00</updated>
+  <updated>2023-12-16T04:59:44+00:00</updated>
   <media:group>
    <media:title>Careful：MPA DS9 use red loctite on the optic mount and thumb rest screws（20230406第5854期）</media:title>
    <media:content url="https://www.youtube.com/v/BlMjk-dE-X8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -906,7 +906,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="82" average="5.00" min="1" max="5"/>
-    <media:statistics views="8377"/>
+    <media:statistics views="8380"/>
    </media:community>
   </media:group>
  </entry>
@@ -981,7 +981,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="29" average="5.00" min="1" max="5"/>
-    <media:statistics views="4017"/>
+    <media:statistics views="4018"/>
    </media:community>
   </media:group>
  </entry>

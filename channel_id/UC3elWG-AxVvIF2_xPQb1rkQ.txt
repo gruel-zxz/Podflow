@@ -11,6 +11,33 @@
  </author>
  <published>2022-06-04T16:17:27+00:00</published>
  <entry>
+  <id>yt:video:9ieTBbN6FOE</id>
+  <yt:videoId>9ieTBbN6FOE</yt:videoId>
+  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
+  <title>女人心中的完美好男人，竟然只需三点？爱吐槽的四季妈妈大解密！#家庭吐槽大会</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=9ieTBbN6FOE"/>
+  <author>
+   <name>四季妈妈—小龙</name>
+   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
+  </author>
+  <published>2023-12-17T06:23:51+00:00</published>
+  <updated>2023-12-17T21:36:09+00:00</updated>
+  <media:group>
+   <media:title>女人心中的完美好男人，竟然只需三点？爱吐槽的四季妈妈大解密！#家庭吐槽大会</media:title>
+   <media:content url="https://www.youtube.com/v/9ieTBbN6FOE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/9ieTBbN6FOE/hqdefault.jpg" width="480" height="360"/>
+   <media:description>大家好，欢迎回到我的频道！今天我们将探讨一个引人注目的话题：在女人心中，要成为完美好男人究竟需要做到哪三点呢？通过爱吐槽的四季妈妈的独特视角，我将以轻松幽默的方式为大家揭示这神秘三点，并分享一些家庭吐槽的趣事。
+
+在这期视频中，我们将一同探讨女人们对完美好男人的期望，看看这三点是否会触及你的心弦。当然，这是以娱乐为主，希望大家能在笑声中找到共鸣。
+
+别忘了点赞、订阅，并在评论区分享您对这一话题的看法和您自己的心中完美好男人的标准。一起来参与这场完美好男人的吐槽大会吧！#爱情观察 #幽默解读 #笑中思考</media:description>
+   <media:community>
+    <media:starRating count="11" average="5.00" min="1" max="5"/>
+    <media:statistics views="406"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:SERV5xkvBIY</id>
   <yt:videoId>SERV5xkvBIY</yt:videoId>
   <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
@@ -21,15 +48,15 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2023-12-15T07:18:57+00:00</published>
-  <updated>2023-12-15T19:41:38+00:00</updated>
+  <updated>2023-12-17T01:51:36+00:00</updated>
   <media:group>
    <media:title>美女闺蜜上了老公的车，会擦出怎样的火花？爱吐槽的四季妈妈解密化学反应！#家庭吐槽大会</media:title>
    <media:content url="https://www.youtube.com/v/SERV5xkvBIY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i4.ytimg.com/vi/SERV5xkvBIY/hqdefault.jpg" width="480" height="360"/>
    <media:description>嘿，各位观众朋友们，欢迎回到我的频道！今天我们要探讨一个颇具话题性的场景：美女闺蜜上了老公的车，究竟会擦出怎样的火花呢？通过爱吐槽的四季妈妈的独特视角，我将以轻松幽默的方式为大家解密这种化学反应，并带来一些有趣的家庭吐槽。</media:description>
    <media:community>
-    <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="368"/>
+    <media:starRating count="10" average="5.00" min="1" max="5"/>
+    <media:statistics views="575"/>
    </media:community>
   </media:group>
  </entry>
@@ -52,7 +79,7 @@
    <media:description>大家好，欢迎回到我的频道！今天我们要聊一个家庭吐槽的大对决：他在前面脱，我在后面捡，他挺潇洒，我贼废腰！通过爱吐槽的四季妈妈的独特视角，我将以轻松幽默的方式为大家分享这个颇具幽默感的家庭场景，并带来一些搞笑的笑点。</media:description>
    <media:community>
     <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="626"/>
+    <media:statistics views="817"/>
    </media:community>
   </media:group>
  </entry>
@@ -75,7 +102,7 @@
    <media:description>嘿，各位观众朋友们，欢迎回到我的频道！今天我们要上演一场家庭吐槽的大对决，看看你们夫妻中谁才是真正的“吐槽之王”！通过爱吐槽的四季妈妈的独特视角，我将为大家呈现一场笑中争论，究竟是你说的是废话还是对方说的是废话？</media:description>
    <media:community>
     <media:starRating count="10" average="5.00" min="1" max="5"/>
-    <media:statistics views="504"/>
+    <media:statistics views="519"/>
    </media:community>
   </media:group>
  </entry>
@@ -101,8 +128,8 @@
 
 别忘了点赞、订阅，并在评论区分享您对这一话题的看法和自己的经验。一起来参与这场男人副驾驶表情吐槽大会吧！#家庭生活 #幽默观察 #笑中解压</media:description>
    <media:community>
-    <media:starRating count="89" average="5.00" min="1" max="5"/>
-    <media:statistics views="2872"/>
+    <media:starRating count="92" average="5.00" min="1" max="5"/>
+    <media:statistics views="2988"/>
    </media:community>
   </media:group>
  </entry>
@@ -128,8 +155,8 @@
 
 别忘了点赞、订阅，并在评论区分享你所知道的四字真言或者你的观点。一起来参与这场百分之八十男人的四字真言吐槽大会吧！#幽默观察 #笑中思考 #家庭调侃</media:description>
    <media:community>
-    <media:starRating count="118" average="5.00" min="1" max="5"/>
-    <media:statistics views="6992"/>
+    <media:starRating count="120" average="5.00" min="1" max="5"/>
+    <media:statistics views="7411"/>
    </media:community>
   </media:group>
  </entry>
@@ -156,7 +183,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一话题的看法和有趣的经验。一起来笑一笑，探讨老公的夜间神秘行为吧！#家庭生活 #幽默观察 #笑中解忧</media:description>
    <media:community>
     <media:starRating count="14" average="5.00" min="1" max="5"/>
-    <media:statistics views="670"/>
+    <media:statistics views="690"/>
    </media:community>
   </media:group>
  </entry>
@@ -183,7 +210,7 @@
 别忘了点赞、订阅，并在评论区分享您对家庭承诺的见解和回忆。一起来揭秘画饼之前的美好承诺吧！#家庭生活 #幽默回顾 #笑中思考</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="419"/>
+    <media:statistics views="425"/>
    </media:community>
   </media:group>
  </entry>
@@ -210,7 +237,7 @@
 别忘了点赞、订阅，并在评论区分享您对河北人电商实在风格的看法。一起来感受这种独特的商业魅力吧！#电商风格 #幽默吐槽 #实在表现</media:description>
    <media:community>
     <media:starRating count="11" average="5.00" min="1" max="5"/>
-    <media:statistics views="425"/>
+    <media:statistics views="432"/>
    </media:community>
   </media:group>
  </entry>
@@ -237,7 +264,7 @@
 别忘了点赞、订阅，并在评论区分享你们的看法和有趣的经验。一起来笑一笑，学一学这个独门绝技吧！#吐槽生活 #幽默技巧 #笑中学习</media:description>
    <media:community>
     <media:starRating count="14" average="5.00" min="1" max="5"/>
-    <media:statistics views="349"/>
+    <media:statistics views="352"/>
    </media:community>
   </media:group>
  </entry>
@@ -264,7 +291,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一话题的见解和吐槽。一起来笑谈钓鱼佬的独特魅力吧！#钓鱼生活 #幽默观察 #家庭笑话</media:description>
    <media:community>
     <media:starRating count="11" average="5.00" min="1" max="5"/>
-    <media:statistics views="469"/>
+    <media:statistics views="470"/>
    </media:community>
   </media:group>
  </entry>
@@ -291,7 +318,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一时光变迁的感慨和笑点。一起来品味四川的幽默变迁吧！#四川美食 #幽默回顾 #笑谈往事</media:description>
    <media:community>
     <media:starRating count="9" average="5.00" min="1" max="5"/>
-    <media:statistics views="459"/>
+    <media:statistics views="462"/>
    </media:community>
   </media:group>
  </entry>
@@ -318,7 +345,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一独特观点的看法。一起来笑破肚皮，揭秘男人“高级智能”背后的幽默真相吧！ #家庭生活 #幽默解读 #笑料百出</media:description>
    <media:community>
     <media:starRating count="13" average="5.00" min="1" max="5"/>
-    <media:statistics views="534"/>
+    <media:statistics views="536"/>
    </media:community>
   </media:group>
  </entry>
@@ -345,7 +372,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一独特观点的看法。一起来笑破肚皮，揭秘男人“高级智能”背后的幽默真相吧！ #家庭生活 #幽默解读 #笑料百出</media:description>
    <media:community>
     <media:starRating count="12" average="5.00" min="1" max="5"/>
-    <media:statistics views="854"/>
+    <media:statistics views="858"/>
    </media:community>
   </media:group>
  </entry>
@@ -372,30 +399,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一话题的看法和经验。一起来揭秘婚姻中男人为何不回复老婆消息的神秘现象吧！ #婚姻沟通 #家庭生活 #幽默解读</media:description>
    <media:community>
     <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="586"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:do6x05mfspo</id>
-  <yt:videoId>do6x05mfspo</yt:videoId>
-  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
-  <title>男人消费力首次超越宠物狗，原因竟然是   #爱吐槽的四季妈妈 #家庭吐槽大会</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=do6x05mfspo"/>
-  <author>
-   <name>四季妈妈—小龙</name>
-   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
-  </author>
-  <published>2023-11-14T02:04:11+00:00</published>
-  <updated>2023-11-14T08:10:27+00:00</updated>
-  <media:group>
-   <media:title>男人消费力首次超越宠物狗，原因竟然是   #爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
-   <media:content url="https://www.youtube.com/v/do6x05mfspo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i1.ytimg.com/vi/do6x05mfspo/hqdefault.jpg" width="480" height="360"/>
-   <media:description>男人消费力首次超越宠物狗，原因竟然是   #爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
-   <media:community>
-    <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="468"/>
+    <media:statistics views="592"/>
    </media:community>
   </media:group>
  </entry>
