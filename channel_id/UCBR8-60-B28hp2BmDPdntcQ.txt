@@ -10,6 +10,29 @@
   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
  </author>
  <entry>
+  <id>yt:video:hCbrZ1AKnHA</id>
+  <yt:videoId>hCbrZ1AKnHA</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>soaps that are food shaped soaps that are soap shaped @safiya</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=hCbrZ1AKnHA"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2023-12-18T17:00:15+00:00</published>
+  <updated>2023-12-18T17:08:41+00:00</updated>
+  <media:group>
+   <media:title>soaps that are food shaped soaps that are soap shaped @safiya</media:title>
+   <media:content url="https://www.youtube.com/v/hCbrZ1AKnHA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/hCbrZ1AKnHA/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="61" average="5.00" min="1" max="5"/>
+    <media:statistics views="2219"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:F0fBpUU3a-o</id>
   <yt:videoId>F0fBpUU3a-o</yt:videoId>
   <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
@@ -27,8 +50,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/F0fBpUU3a-o/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1308" average="5.00" min="1" max="5"/>
-    <media:statistics views="27423"/>
+    <media:starRating count="1448" average="5.00" min="1" max="5"/>
+    <media:statistics views="33591"/>
    </media:community>
   </media:group>
  </entry>
@@ -50,8 +73,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/sKVQN8SHxBE/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1533" average="5.00" min="1" max="5"/>
-    <media:statistics views="37211"/>
+    <media:starRating count="1695" average="5.00" min="1" max="5"/>
+    <media:statistics views="43015"/>
    </media:community>
   </media:group>
  </entry>
@@ -73,8 +96,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/3EFqFGp4E60/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1454" average="5.00" min="1" max="5"/>
-    <media:statistics views="33117"/>
+    <media:starRating count="1544" average="5.00" min="1" max="5"/>
+    <media:statistics views="36605"/>
    </media:community>
   </media:group>
  </entry>
@@ -96,8 +119,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/FBk36cXzkOU/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1614" average="5.00" min="1" max="5"/>
-    <media:statistics views="51414"/>
+    <media:starRating count="1653" average="5.00" min="1" max="5"/>
+    <media:statistics views="53519"/>
    </media:community>
   </media:group>
  </entry>
@@ -112,15 +135,15 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2023-12-09T15:30:22+00:00</published>
-  <updated>2023-12-09T15:36:51+00:00</updated>
+  <updated>2023-12-18T15:40:21+00:00</updated>
   <media:group>
    <media:title>@AlishaMarie visits the ghosts of vlogmas past 👻🎄</media:title>
    <media:content url="https://www.youtube.com/v/WqpyNQQLSmc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i4.ytimg.com/vi/WqpyNQQLSmc/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1748" average="5.00" min="1" max="5"/>
-    <media:statistics views="59111"/>
+    <media:starRating count="1777" average="5.00" min="1" max="5"/>
+    <media:statistics views="60466"/>
    </media:community>
   </media:group>
  </entry>
@@ -135,15 +158,15 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2023-12-08T23:30:11+00:00</published>
-  <updated>2023-12-08T23:36:14+00:00</updated>
+  <updated>2023-12-18T15:40:29+00:00</updated>
   <media:group>
    <media:title>this is us if you even care</media:title>
    <media:content url="https://www.youtube.com/v/6-AaRIfLhD8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i3.ytimg.com/vi/6-AaRIfLhD8/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3142" average="5.00" min="1" max="5"/>
-    <media:statistics views="87337"/>
+    <media:starRating count="3188" average="5.00" min="1" max="5"/>
+    <media:statistics views="89514"/>
    </media:community>
   </media:group>
  </entry>
@@ -158,15 +181,15 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2023-12-08T17:34:36+00:00</published>
-  <updated>2023-12-09T07:11:30+00:00</updated>
+  <updated>2023-12-18T15:40:41+00:00</updated>
   <media:group>
    <media:title>celebrating THINK LATER release day w @TateMcRae shorts on Shorts 💎💋 @mikaelaaluv #KissesToMyExes</media:title>
    <media:content url="https://www.youtube.com/v/gjWem-emN2w?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i4.ytimg.com/vi/gjWem-emN2w/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1480" average="5.00" min="1" max="5"/>
-    <media:statistics views="49374"/>
+    <media:starRating count="1500" average="5.00" min="1" max="5"/>
+    <media:statistics views="50690"/>
    </media:community>
   </media:group>
  </entry>
@@ -188,8 +211,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/jvJqtCJwHmQ/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1774" average="5.00" min="1" max="5"/>
-    <media:statistics views="66320"/>
+    <media:starRating count="1802" average="5.00" min="1" max="5"/>
+    <media:statistics views="67810"/>
    </media:community>
   </media:group>
  </entry>
@@ -224,8 +247,8 @@ From dishing on her biggest DIY fails, to her viral catfish moment, to her favor
 
 #AlishaMarie #YouTube #WatchHistory #Vlogmas</media:description>
    <media:community>
-    <media:starRating count="1242" average="5.00" min="1" max="5"/>
-    <media:statistics views="646179"/>
+    <media:starRating count="1284" average="5.00" min="1" max="5"/>
+    <media:statistics views="663915"/>
    </media:community>
   </media:group>
  </entry>
@@ -247,8 +270,8 @@ From dishing on her biggest DIY fails, to her viral catfish moment, to her favor
    <media:thumbnail url="https://i2.ytimg.com/vi/idfu04-5sGs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2398" average="5.00" min="1" max="5"/>
-    <media:statistics views="64162"/>
+    <media:starRating count="2426" average="5.00" min="1" max="5"/>
+    <media:statistics views="65529"/>
    </media:community>
   </media:group>
  </entry>
@@ -270,8 +293,8 @@ From dishing on her biggest DIY fails, to her viral catfish moment, to her favor
    <media:thumbnail url="https://i3.ytimg.com/vi/NqQP-3dMACo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1712" average="5.00" min="1" max="5"/>
-    <media:statistics views="42009"/>
+    <media:starRating count="1733" average="5.00" min="1" max="5"/>
+    <media:statistics views="42938"/>
    </media:community>
   </media:group>
  </entry>
@@ -293,8 +316,8 @@ From dishing on her biggest DIY fails, to her viral catfish moment, to her favor
    <media:thumbnail url="https://i2.ytimg.com/vi/A_A6zeVP1tk/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1657" average="5.00" min="1" max="5"/>
-    <media:statistics views="42112"/>
+    <media:starRating count="1673" average="5.00" min="1" max="5"/>
+    <media:statistics views="42770"/>
    </media:community>
   </media:group>
  </entry>
@@ -316,8 +339,8 @@ From dishing on her biggest DIY fails, to her viral catfish moment, to her favor
    <media:thumbnail url="https://i4.ytimg.com/vi/CBAlbj2eIJo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4224" average="5.00" min="1" max="5"/>
-    <media:statistics views="140414"/>
+    <media:starRating count="4252" average="5.00" min="1" max="5"/>
+    <media:statistics views="142348"/>
    </media:community>
   </media:group>
  </entry>
@@ -339,31 +362,8 @@ From dishing on her biggest DIY fails, to her viral catfish moment, to her favor
    <media:thumbnail url="https://i2.ytimg.com/vi/5AJKoIt-S1Y/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1545" average="5.00" min="1" max="5"/>
-    <media:statistics views="47220"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:iUeEYjf6BTA</id>
-  <yt:videoId>iUeEYjf6BTA</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>@JennaPhipps w the perfect jersey for @TateMcRae fans 😍 #KissesToMyExes</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=iUeEYjf6BTA"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2023-12-03T17:14:04+00:00</published>
-  <updated>2023-12-03T17:14:05+00:00</updated>
-  <media:group>
-   <media:title>@JennaPhipps w the perfect jersey for @TateMcRae fans 😍 #KissesToMyExes</media:title>
-   <media:content url="https://www.youtube.com/v/iUeEYjf6BTA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/iUeEYjf6BTA/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="1650" average="5.00" min="1" max="5"/>
-    <media:statistics views="53567"/>
+    <media:starRating count="1553" average="5.00" min="1" max="5"/>
+    <media:statistics views="47903"/>
    </media:community>
   </media:group>
  </entry>
