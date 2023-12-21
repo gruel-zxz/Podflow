@@ -11,6 +11,33 @@
  </author>
  <published>2022-06-04T16:17:27+00:00</published>
  <entry>
+  <id>yt:video:KJv0j91LRHI</id>
+  <yt:videoId>KJv0j91LRHI</yt:videoId>
+  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
+  <title>男人秘而不宣的秘密，爱吐槽的四季妈妈为你解密！#家庭吐槽大会</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=KJv0j91LRHI"/>
+  <author>
+   <name>四季妈妈—小龙</name>
+   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
+  </author>
+  <published>2023-12-20T07:00:31+00:00</published>
+  <updated>2023-12-21T06:53:45+00:00</updated>
+  <media:group>
+   <media:title>男人秘而不宣的秘密，爱吐槽的四季妈妈为你解密！#家庭吐槽大会</media:title>
+   <media:content url="https://www.youtube.com/v/KJv0j91LRHI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/KJv0j91LRHI/hqdefault.jpg" width="480" height="360"/>
+   <media:description>大家好，欢迎回到我的频道！今天我们要揭开一个男人秘而不宣的秘密，通过爱吐槽的四季妈妈的独特视角，我将以轻松幽默的方式为大家解密这个神秘的男人秘密，并分享一些家庭吐槽的趣事。
+
+在这期视频中，我们将一同探讨男人可能隐藏的那些秘密，看看是否真的存在一些男人们普遍共有的秘密。当然，这是以娱乐为主，希望大家能在欢笑中轻松愉快。
+
+别忘了点赞、订阅，并在评论区分享您对这一话题的看法和自己的经验。一起来参与这场男人秘密的吐槽大会吧！#家庭生活 #幽默观察 #笑中解忧</media:description>
+   <media:community>
+    <media:starRating count="8" average="5.00" min="1" max="5"/>
+    <media:statistics views="433"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:9ieTBbN6FOE</id>
   <yt:videoId>9ieTBbN6FOE</yt:videoId>
   <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
@@ -32,8 +59,8 @@
 
 别忘了点赞、订阅，并在评论区分享您对这一话题的看法和您自己的心中完美好男人的标准。一起来参与这场完美好男人的吐槽大会吧！#爱情观察 #幽默解读 #笑中思考</media:description>
    <media:community>
-    <media:starRating count="13" average="5.00" min="1" max="5"/>
-    <media:statistics views="523"/>
+    <media:starRating count="14" average="5.00" min="1" max="5"/>
+    <media:statistics views="577"/>
    </media:community>
   </media:group>
  </entry>
@@ -56,7 +83,7 @@
    <media:description>嘿，各位观众朋友们，欢迎回到我的频道！今天我们要探讨一个颇具话题性的场景：美女闺蜜上了老公的车，究竟会擦出怎样的火花呢？通过爱吐槽的四季妈妈的独特视角，我将以轻松幽默的方式为大家解密这种化学反应，并带来一些有趣的家庭吐槽。</media:description>
    <media:community>
     <media:starRating count="10" average="5.00" min="1" max="5"/>
-    <media:statistics views="604"/>
+    <media:statistics views="637"/>
    </media:community>
   </media:group>
  </entry>
@@ -78,8 +105,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/V-DghS860_E/hqdefault.jpg" width="480" height="360"/>
    <media:description>大家好，欢迎回到我的频道！今天我们要聊一个家庭吐槽的大对决：他在前面脱，我在后面捡，他挺潇洒，我贼废腰！通过爱吐槽的四季妈妈的独特视角，我将以轻松幽默的方式为大家分享这个颇具幽默感的家庭场景，并带来一些搞笑的笑点。</media:description>
    <media:community>
-    <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="929"/>
+    <media:starRating count="9" average="5.00" min="1" max="5"/>
+    <media:statistics views="1005"/>
    </media:community>
   </media:group>
  </entry>
@@ -102,7 +129,7 @@
    <media:description>嘿，各位观众朋友们，欢迎回到我的频道！今天我们要上演一场家庭吐槽的大对决，看看你们夫妻中谁才是真正的“吐槽之王”！通过爱吐槽的四季妈妈的独特视角，我将为大家呈现一场笑中争论，究竟是你说的是废话还是对方说的是废话？</media:description>
    <media:community>
     <media:starRating count="10" average="5.00" min="1" max="5"/>
-    <media:statistics views="525"/>
+    <media:statistics views="555"/>
    </media:community>
   </media:group>
  </entry>
@@ -128,8 +155,8 @@
 
 别忘了点赞、订阅，并在评论区分享您对这一话题的看法和自己的经验。一起来参与这场男人副驾驶表情吐槽大会吧！#家庭生活 #幽默观察 #笑中解压</media:description>
    <media:community>
-    <media:starRating count="96" average="5.00" min="1" max="5"/>
-    <media:statistics views="3038"/>
+    <media:starRating count="104" average="5.00" min="1" max="5"/>
+    <media:statistics views="3190"/>
    </media:community>
   </media:group>
  </entry>
@@ -155,8 +182,8 @@
 
 别忘了点赞、订阅，并在评论区分享你所知道的四字真言或者你的观点。一起来参与这场百分之八十男人的四字真言吐槽大会吧！#幽默观察 #笑中思考 #家庭调侃</media:description>
    <media:community>
-    <media:starRating count="122" average="5.00" min="1" max="5"/>
-    <media:statistics views="7481"/>
+    <media:starRating count="123" average="5.00" min="1" max="5"/>
+    <media:statistics views="7557"/>
    </media:community>
   </media:group>
  </entry>
@@ -183,7 +210,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一话题的看法和有趣的经验。一起来笑一笑，探讨老公的夜间神秘行为吧！#家庭生活 #幽默观察 #笑中解忧</media:description>
    <media:community>
     <media:starRating count="14" average="5.00" min="1" max="5"/>
-    <media:statistics views="696"/>
+    <media:statistics views="708"/>
    </media:community>
   </media:group>
  </entry>
@@ -210,7 +237,7 @@
 别忘了点赞、订阅，并在评论区分享您对家庭承诺的见解和回忆。一起来揭秘画饼之前的美好承诺吧！#家庭生活 #幽默回顾 #笑中思考</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="425"/>
+    <media:statistics views="431"/>
    </media:community>
   </media:group>
  </entry>
@@ -237,7 +264,7 @@
 别忘了点赞、订阅，并在评论区分享您对河北人电商实在风格的看法。一起来感受这种独特的商业魅力吧！#电商风格 #幽默吐槽 #实在表现</media:description>
    <media:community>
     <media:starRating count="11" average="5.00" min="1" max="5"/>
-    <media:statistics views="433"/>
+    <media:statistics views="436"/>
    </media:community>
   </media:group>
  </entry>
@@ -264,7 +291,7 @@
 别忘了点赞、订阅，并在评论区分享你们的看法和有趣的经验。一起来笑一笑，学一学这个独门绝技吧！#吐槽生活 #幽默技巧 #笑中学习</media:description>
    <media:community>
     <media:starRating count="14" average="5.00" min="1" max="5"/>
-    <media:statistics views="352"/>
+    <media:statistics views="355"/>
    </media:community>
   </media:group>
  </entry>
@@ -318,7 +345,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一时光变迁的感慨和笑点。一起来品味四川的幽默变迁吧！#四川美食 #幽默回顾 #笑谈往事</media:description>
    <media:community>
     <media:starRating count="9" average="5.00" min="1" max="5"/>
-    <media:statistics views="464"/>
+    <media:statistics views="476"/>
    </media:community>
   </media:group>
  </entry>
@@ -333,7 +360,7 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2023-11-20T07:12:54+00:00</published>
-  <updated>2023-11-21T07:40:02+00:00</updated>
+  <updated>2023-12-17T05:13:50+00:00</updated>
   <media:group>
    <media:title>世界上最先进的人工智能？爆笑揭秘！#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
    <media:content url="https://www.youtube.com/v/teOwM9eqza0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -344,8 +371,8 @@
 
 别忘了点赞、订阅，并在评论区分享您对这一独特观点的看法。一起来笑破肚皮，揭秘男人“高级智能”背后的幽默真相吧！ #家庭生活 #幽默解读 #笑料百出</media:description>
    <media:community>
-    <media:starRating count="13" average="5.00" min="1" max="5"/>
-    <media:statistics views="537"/>
+    <media:starRating count="14" average="5.00" min="1" max="5"/>
+    <media:statistics views="545"/>
    </media:community>
   </media:group>
  </entry>
@@ -372,34 +399,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一独特观点的看法。一起来笑破肚皮，揭秘男人“高级智能”背后的幽默真相吧！ #家庭生活 #幽默解读 #笑料百出</media:description>
    <media:community>
     <media:starRating count="12" average="5.00" min="1" max="5"/>
-    <media:statistics views="860"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:t1C1KcreZvE</id>
-  <yt:videoId>t1C1KcreZvE</yt:videoId>
-  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
-  <title>为何男人结婚后不回复老婆消息？揭秘婚姻中的通讯迷思！#爱吐槽的四季妈妈 #家庭吐槽大会</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=t1C1KcreZvE"/>
-  <author>
-   <name>四季妈妈—小龙</name>
-   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
-  </author>
-  <published>2023-11-16T02:50:04+00:00</published>
-  <updated>2023-11-16T06:32:13+00:00</updated>
-  <media:group>
-   <media:title>为何男人结婚后不回复老婆消息？揭秘婚姻中的通讯迷思！#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
-   <media:content url="https://www.youtube.com/v/t1C1KcreZvE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i1.ytimg.com/vi/t1C1KcreZvE/hqdefault.jpg" width="480" height="360"/>
-   <media:description>嘿，大家好！欢迎来到我的频道，今天我们要谈论一个备受关注的话题：为什么男人结婚后似乎不太喜欢回复老婆的消息？在这期视频中，我将真诚探讨这一现象的原因，并通过幽默的方式与各位分享一些家庭吐槽的趣事。
-
-我们将剖析婚姻中的通讯迷思，探讨男人可能面临的困扰和压力，以及如何建立更有效的沟通。四季妈妈也将为大家呈现一场欢乐的家庭吐槽大会，让您在笑声中找到共鸣。
-
-别忘了点赞、订阅，并在评论区分享您对这一话题的看法和经验。一起来揭秘婚姻中男人为何不回复老婆消息的神秘现象吧！ #婚姻沟通 #家庭生活 #幽默解读</media:description>
-   <media:community>
-    <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="593"/>
+    <media:statistics views="861"/>
    </media:community>
   </media:group>
  </entry>

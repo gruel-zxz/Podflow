@@ -10,6 +10,29 @@
   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
  </author>
  <entry>
+  <id>yt:video:JWIVJlXtzeA</id>
+  <yt:videoId>JWIVJlXtzeA</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>is this #relatable #content @Tarayummy @GeorgiaBridgersYT @jackjerry @carolinericke @kellyuu</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=JWIVJlXtzeA"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2023-12-20T22:00:18+00:00</published>
+  <updated>2023-12-20T22:03:10+00:00</updated>
+  <media:group>
+   <media:title>is this #relatable #content @Tarayummy @GeorgiaBridgersYT @jackjerry @carolinericke @kellyuu</media:title>
+   <media:content url="https://www.youtube.com/v/JWIVJlXtzeA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/JWIVJlXtzeA/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="868" average="5.00" min="1" max="5"/>
+    <media:statistics views="14745"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:hCbrZ1AKnHA</id>
   <yt:videoId>hCbrZ1AKnHA</yt:videoId>
   <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
@@ -27,8 +50,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/hCbrZ1AKnHA/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="61" average="5.00" min="1" max="5"/>
-    <media:statistics views="2219"/>
+    <media:starRating count="282" average="5.00" min="1" max="5"/>
+    <media:statistics views="12260"/>
    </media:community>
   </media:group>
  </entry>
@@ -50,8 +73,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/F0fBpUU3a-o/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1448" average="5.00" min="1" max="5"/>
-    <media:statistics views="33591"/>
+    <media:starRating count="1703" average="5.00" min="1" max="5"/>
+    <media:statistics views="40859"/>
    </media:community>
   </media:group>
  </entry>
@@ -73,8 +96,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/sKVQN8SHxBE/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1695" average="5.00" min="1" max="5"/>
-    <media:statistics views="43015"/>
+    <media:starRating count="1967" average="5.00" min="1" max="5"/>
+    <media:statistics views="52754"/>
    </media:community>
   </media:group>
  </entry>
@@ -96,8 +119,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/3EFqFGp4E60/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1544" average="5.00" min="1" max="5"/>
-    <media:statistics views="36605"/>
+    <media:starRating count="1728" average="5.00" min="1" max="5"/>
+    <media:statistics views="42734"/>
    </media:community>
   </media:group>
  </entry>
@@ -119,8 +142,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/FBk36cXzkOU/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1653" average="5.00" min="1" max="5"/>
-    <media:statistics views="53519"/>
+    <media:starRating count="1786" average="5.00" min="1" max="5"/>
+    <media:statistics views="58815"/>
    </media:community>
   </media:group>
  </entry>
@@ -142,8 +165,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/WqpyNQQLSmc/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1777" average="5.00" min="1" max="5"/>
-    <media:statistics views="60466"/>
+    <media:starRating count="1859" average="5.00" min="1" max="5"/>
+    <media:statistics views="63747"/>
    </media:community>
   </media:group>
  </entry>
@@ -165,8 +188,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/6-AaRIfLhD8/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3188" average="5.00" min="1" max="5"/>
-    <media:statistics views="89514"/>
+    <media:starRating count="3284" average="5.00" min="1" max="5"/>
+    <media:statistics views="93376"/>
    </media:community>
   </media:group>
  </entry>
@@ -188,8 +211,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/gjWem-emN2w/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1500" average="5.00" min="1" max="5"/>
-    <media:statistics views="50690"/>
+    <media:starRating count="1565" average="5.00" min="1" max="5"/>
+    <media:statistics views="53742"/>
    </media:community>
   </media:group>
  </entry>
@@ -211,8 +234,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/jvJqtCJwHmQ/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1802" average="5.00" min="1" max="5"/>
-    <media:statistics views="67810"/>
+    <media:starRating count="1861" average="5.00" min="1" max="5"/>
+    <media:statistics views="70950"/>
    </media:community>
   </media:group>
  </entry>
@@ -247,8 +270,8 @@ From dishing on her biggest DIY fails, to her viral catfish moment, to her favor
 
 #AlishaMarie #YouTube #WatchHistory #Vlogmas</media:description>
    <media:community>
-    <media:starRating count="1284" average="5.00" min="1" max="5"/>
-    <media:statistics views="663915"/>
+    <media:starRating count="1374" average="5.00" min="1" max="5"/>
+    <media:statistics views="752569"/>
    </media:community>
   </media:group>
  </entry>
@@ -270,8 +293,8 @@ From dishing on her biggest DIY fails, to her viral catfish moment, to her favor
    <media:thumbnail url="https://i2.ytimg.com/vi/idfu04-5sGs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2426" average="5.00" min="1" max="5"/>
-    <media:statistics views="65529"/>
+    <media:starRating count="2489" average="5.00" min="1" max="5"/>
+    <media:statistics views="68110"/>
    </media:community>
   </media:group>
  </entry>
@@ -286,15 +309,15 @@ From dishing on her biggest DIY fails, to her viral catfish moment, to her favor
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2023-12-07T00:20:15+00:00</published>
-  <updated>2023-12-07T00:28:08+00:00</updated>
+  <updated>2023-12-16T10:42:36+00:00</updated>
   <media:group>
    <media:title>@RickyLimon @ZacharyRyan @jtcasey wrap up 2023 with 👻 🍔 🤡</media:title>
    <media:content url="https://www.youtube.com/v/NqQP-3dMACo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i3.ytimg.com/vi/NqQP-3dMACo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1733" average="5.00" min="1" max="5"/>
-    <media:statistics views="42938"/>
+    <media:starRating count="1777" average="5.00" min="1" max="5"/>
+    <media:statistics views="44891"/>
    </media:community>
   </media:group>
  </entry>
@@ -316,8 +339,8 @@ From dishing on her biggest DIY fails, to her viral catfish moment, to her favor
    <media:thumbnail url="https://i2.ytimg.com/vi/A_A6zeVP1tk/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1673" average="5.00" min="1" max="5"/>
-    <media:statistics views="42770"/>
+    <media:starRating count="1710" average="5.00" min="1" max="5"/>
+    <media:statistics views="44180"/>
    </media:community>
   </media:group>
  </entry>
@@ -339,31 +362,8 @@ From dishing on her biggest DIY fails, to her viral catfish moment, to her favor
    <media:thumbnail url="https://i4.ytimg.com/vi/CBAlbj2eIJo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4252" average="5.00" min="1" max="5"/>
-    <media:statistics views="142348"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:5AJKoIt-S1Y</id>
-  <yt:videoId>5AJKoIt-S1Y</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>we would like to issue an apology to all capybaras. @OfficiallyDaiTime @joshuasuarez @93waysmane</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=5AJKoIt-S1Y"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2023-12-04T16:30:22+00:00</published>
-  <updated>2023-12-08T20:35:01+00:00</updated>
-  <media:group>
-   <media:title>we would like to issue an apology to all capybaras. @OfficiallyDaiTime @joshuasuarez @93waysmane</media:title>
-   <media:content url="https://www.youtube.com/v/5AJKoIt-S1Y?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/5AJKoIt-S1Y/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="1553" average="5.00" min="1" max="5"/>
-    <media:statistics views="47903"/>
+    <media:starRating count="4328" average="5.00" min="1" max="5"/>
+    <media:statistics views="146576"/>
    </media:community>
   </media:group>
  </entry>
