@@ -21,7 +21,7 @@
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
   <published>2023-12-20T12:58:11+00:00</published>
-  <updated>2023-12-20T13:25:07+00:00</updated>
+  <updated>2023-12-23T14:38:14+00:00</updated>
   <media:group>
    <media:title>【隨時下架】千萬不要喝，喝了毀一生 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/OmED8FDtHAw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -255,8 +255,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="33802" average="5.00" min="1" max="5"/>
-    <media:statistics views="1191883"/>
+    <media:starRating count="50901" average="5.00" min="1" max="5"/>
+    <media:statistics views="2255997"/>
    </media:community>
   </media:group>
  </entry>
@@ -505,8 +505,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="40640" average="5.00" min="1" max="5"/>
-    <media:statistics views="2491020"/>
+    <media:starRating count="42058" average="5.00" min="1" max="5"/>
+    <media:statistics views="2660483"/>
    </media:community>
   </media:group>
  </entry>
@@ -514,16 +514,16 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
   <id>yt:video:BTXlGIfIJ7A</id>
   <yt:videoId>BTXlGIfIJ7A</yt:videoId>
   <yt:channelId>UCMUnInmOkrWN4gof9KlhNmQ</yt:channelId>
-  <title>改變人生就靠這一期，今天一定要把它看完 | 老高與小茉 Mr &amp; Mrs Gao</title>
+  <title>改變人生就靠這一期，今天一定要看完 | 老高與小茉 Mr &amp; Mrs Gao</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=BTXlGIfIJ7A"/>
   <author>
    <name>老高與小茉 Mr &amp; Mrs Gao</name>
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
   <published>2023-12-06T13:00:07+00:00</published>
-  <updated>2023-12-19T14:41:53+00:00</updated>
+  <updated>2023-12-21T15:07:02+00:00</updated>
   <media:group>
-   <media:title>改變人生就靠這一期，今天一定要把它看完 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
+   <media:title>改變人生就靠這一期，今天一定要看完 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/BTXlGIfIJ7A?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i3.ytimg.com/vi/BTXlGIfIJ7A/hqdefault.jpg" width="480" height="360"/>
    <media:description>【加入會員按鈕】https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ/join
@@ -755,8 +755,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="55024" average="5.00" min="1" max="5"/>
-    <media:statistics views="2325093"/>
+    <media:starRating count="56223" average="5.00" min="1" max="5"/>
+    <media:statistics views="2405605"/>
    </media:community>
   </media:group>
  </entry>
@@ -1005,8 +1005,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="34998" average="5.00" min="1" max="5"/>
-    <media:statistics views="1979915"/>
+    <media:starRating count="35338" average="5.00" min="1" max="5"/>
+    <media:statistics views="2014627"/>
    </media:community>
   </media:group>
  </entry>
@@ -1255,8 +1255,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="48385" average="5.00" min="1" max="5"/>
-    <media:statistics views="2549110"/>
+    <media:starRating count="48707" average="5.00" min="1" max="5"/>
+    <media:statistics views="2580259"/>
    </media:community>
   </media:group>
  </entry>
@@ -1264,16 +1264,16 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
   <id>yt:video:WtbfFFmpSnc</id>
   <yt:videoId>WtbfFFmpSnc</yt:videoId>
   <yt:channelId>UCMUnInmOkrWN4gof9KlhNmQ</yt:channelId>
-  <title>神學最大的謎團，天使，研究了上千年都不知道他們究竟是什麼 | 老高與小茉 Mr &amp; Mrs Gao</title>
+  <title>他們一直在監視我們 | 老高與小茉 Mr &amp; Mrs Gao</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=WtbfFFmpSnc"/>
   <author>
    <name>老高與小茉 Mr &amp; Mrs Gao</name>
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
   <published>2023-11-15T13:01:21+00:00</published>
-  <updated>2023-12-01T04:51:18+00:00</updated>
+  <updated>2023-12-21T15:06:39+00:00</updated>
   <media:group>
-   <media:title>神學最大的謎團，天使，研究了上千年都不知道他們究竟是什麼 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
+   <media:title>他們一直在監視我們 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/WtbfFFmpSnc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i4.ytimg.com/vi/WtbfFFmpSnc/hqdefault.jpg" width="480" height="360"/>
    <media:description>【加入會員按鈕】https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ/join
@@ -1505,8 +1505,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="42554" average="5.00" min="1" max="5"/>
-    <media:statistics views="2514561"/>
+    <media:starRating count="42826" average="5.00" min="1" max="5"/>
+    <media:statistics views="2540875"/>
    </media:community>
   </media:group>
  </entry>
@@ -1755,8 +1755,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="57216" average="5.00" min="1" max="5"/>
-    <media:statistics views="3004151"/>
+    <media:starRating count="57403" average="5.00" min="1" max="5"/>
+    <media:statistics views="3025471"/>
    </media:community>
   </media:group>
  </entry>
@@ -1999,8 +1999,8 @@ https://www.youtube.com/watch?v=Ttus8XGK6Xw
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="43782" average="5.00" min="1" max="5"/>
-    <media:statistics views="2636204"/>
+    <media:starRating count="43890" average="5.00" min="1" max="5"/>
+    <media:statistics views="2648665"/>
    </media:community>
   </media:group>
  </entry>
@@ -2228,8 +2228,8 @@ https://www.youtube.com/watch?v=N4xXGIrzKJs
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="51478" average="5.00" min="1" max="5"/>
-    <media:statistics views="3354501"/>
+    <media:starRating count="51696" average="5.00" min="1" max="5"/>
+    <media:statistics views="3388272"/>
    </media:community>
   </media:group>
  </entry>
@@ -2477,8 +2477,8 @@ https://www.youtube.com/watch?v=Ttus8XGK6Xw
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="68598" average="5.00" min="1" max="5"/>
-    <media:statistics views="3375628"/>
+    <media:starRating count="68758" average="5.00" min="1" max="5"/>
+    <media:statistics views="3388285"/>
    </media:community>
   </media:group>
  </entry>
@@ -2649,8 +2649,8 @@ https://www.youtube.com/watch?v=7q88m5MQRhE
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="47722" average="5.00" min="1" max="5"/>
-    <media:statistics views="2792741"/>
+    <media:starRating count="47815" average="5.00" min="1" max="5"/>
+    <media:statistics views="2802121"/>
    </media:community>
   </media:group>
  </entry>
@@ -2899,8 +2899,8 @@ https://www.youtube.com/watch?v=Mshz9DxQLbE
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="55462" average="5.00" min="1" max="5"/>
-    <media:statistics views="3344633"/>
+    <media:starRating count="55534" average="5.00" min="1" max="5"/>
+    <media:statistics views="3357239"/>
    </media:community>
   </media:group>
  </entry>
@@ -2915,7 +2915,7 @@ https://www.youtube.com/watch?v=Mshz9DxQLbE
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
   <published>2023-09-20T14:12:12+00:00</published>
-  <updated>2023-12-09T15:42:53+00:00</updated>
+  <updated>2023-12-22T05:55:03+00:00</updated>
   <media:group>
    <media:title>最強手相，這幾個手紋只要有一個就無敵了，你的雙手決定你的人生 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/CM2i6qD8nk8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -3147,8 +3147,8 @@ https://www.youtube.com/watch?v=Ttus8XGK6Xw
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="79628" average="5.00" min="1" max="5"/>
-    <media:statistics views="3616618"/>
+    <media:starRating count="79998" average="5.00" min="1" max="5"/>
+    <media:statistics views="3643784"/>
    </media:community>
   </media:group>
  </entry>
@@ -3394,8 +3394,8 @@ https://www.youtube.com/watch?v=Ttus8XGK6Xw
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="82748" average="5.00" min="1" max="5"/>
-    <media:statistics views="3536845"/>
+    <media:starRating count="83032" average="5.00" min="1" max="5"/>
+    <media:statistics views="3553717"/>
    </media:community>
   </media:group>
  </entry>
@@ -3639,8 +3639,8 @@ https://www.youtube.com/watch?v=ElqnKNkiyHA
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="56333" average="5.00" min="1" max="5"/>
-    <media:statistics views="3382784"/>
+    <media:starRating count="56487" average="5.00" min="1" max="5"/>
+    <media:statistics views="3398690"/>
    </media:community>
   </media:group>
  </entry>

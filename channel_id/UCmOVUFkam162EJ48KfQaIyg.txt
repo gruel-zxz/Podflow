@@ -80,8 +80,8 @@ https://youtu.be/BbtTwsP_-zc
 
 Twitter：stone记@stone62855987</media:description>
    <media:community>
-    <media:starRating count="40" average="5.00" min="1" max="5"/>
-    <media:statistics views="7883"/>
+    <media:starRating count="41" average="5.00" min="1" max="5"/>
+    <media:statistics views="7924"/>
    </media:community>
   </media:group>
  </entry>
@@ -96,7 +96,7 @@ Twitter：stone记@stone62855987</media:description>
    <uri>https://www.youtube.com/channel/UCmOVUFkam162EJ48KfQaIyg</uri>
   </author>
   <published>2023-07-16T20:17:01+00:00</published>
-  <updated>2023-11-16T16:14:18+00:00</updated>
+  <updated>2023-12-23T13:58:36+00:00</updated>
   <media:group>
    <media:title>左轮手枪是如何能够一秒钟打6枪的（20230716第6154期）</media:title>
    <media:content url="https://www.youtube.com/v/8IJTt4ULklM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -156,7 +156,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="31" average="5.00" min="1" max="5"/>
-    <media:statistics views="7111"/>
+    <media:statistics views="7137"/>
    </media:community>
   </media:group>
  </entry>
@@ -231,7 +231,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="18" average="5.00" min="1" max="5"/>
-    <media:statistics views="3937"/>
+    <media:statistics views="3950"/>
    </media:community>
   </media:group>
  </entry>
@@ -306,7 +306,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="16" average="5.00" min="1" max="5"/>
-    <media:statistics views="2863"/>
+    <media:statistics views="2873"/>
    </media:community>
   </media:group>
  </entry>
@@ -321,7 +321,7 @@ Twitter：stone记@stone62855987</media:description>
    <uri>https://www.youtube.com/channel/UCmOVUFkam162EJ48KfQaIyg</uri>
   </author>
   <published>2023-05-26T05:00:30+00:00</published>
-  <updated>2023-11-16T11:01:01+00:00</updated>
+  <updated>2023-12-21T09:22:11+00:00</updated>
   <media:group>
    <media:title>JP5, MPA Opne, Korth NXS（20230525第5994期）</media:title>
    <media:content url="https://www.youtube.com/v/sfXiZ4YGs8E?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -381,7 +381,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="15" average="5.00" min="1" max="5"/>
-    <media:statistics views="3236"/>
+    <media:statistics views="3247"/>
    </media:community>
   </media:group>
  </entry>
@@ -455,8 +455,8 @@ https://youtu.be/BbtTwsP_-zc
 
 Twitter：stone记@stone62855987</media:description>
    <media:community>
-    <media:starRating count="27" average="5.00" min="1" max="5"/>
-    <media:statistics views="3839"/>
+    <media:starRating count="28" average="5.00" min="1" max="5"/>
+    <media:statistics views="3841"/>
    </media:community>
   </media:group>
  </entry>
@@ -531,7 +531,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="29" average="5.00" min="1" max="5"/>
-    <media:statistics views="5774"/>
+    <media:statistics views="5780"/>
    </media:community>
   </media:group>
  </entry>
@@ -606,7 +606,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="15" average="5.00" min="1" max="5"/>
-    <media:statistics views="1805"/>
+    <media:statistics views="1807"/>
    </media:community>
   </media:group>
  </entry>
@@ -681,7 +681,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="11" average="5.00" min="1" max="5"/>
-    <media:statistics views="2811"/>
+    <media:statistics views="2813"/>
    </media:community>
   </media:group>
  </entry>
@@ -756,7 +756,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="33" average="5.00" min="1" max="5"/>
-    <media:statistics views="4759"/>
+    <media:statistics views="4764"/>
    </media:community>
   </media:group>
  </entry>
@@ -771,7 +771,7 @@ Twitter：stone记@stone62855987</media:description>
    <uri>https://www.youtube.com/channel/UCmOVUFkam162EJ48KfQaIyg</uri>
   </author>
   <published>2023-04-22T15:33:50+00:00</published>
-  <updated>2023-11-21T07:19:04+00:00</updated>
+  <updated>2023-12-23T17:36:35+00:00</updated>
   <media:group>
    <media:title>7300美元订购了一只左轮手枪（20230422第5914期）</media:title>
    <media:content url="https://www.youtube.com/v/ZyV-xMXXNTg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -831,7 +831,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="35" average="5.00" min="1" max="5"/>
-    <media:statistics views="5846"/>
+    <media:statistics views="5848"/>
    </media:community>
   </media:group>
  </entry>
@@ -906,7 +906,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="82" average="5.00" min="1" max="5"/>
-    <media:statistics views="8389"/>
+    <media:statistics views="8395"/>
    </media:community>
   </media:group>
  </entry>
@@ -921,7 +921,7 @@ Twitter：stone记@stone62855987</media:description>
    <uri>https://www.youtube.com/channel/UCmOVUFkam162EJ48KfQaIyg</uri>
   </author>
   <published>2023-04-03T08:46:55+00:00</published>
-  <updated>2023-11-05T04:33:36+00:00</updated>
+  <updated>2023-12-21T23:15:12+00:00</updated>
   <media:group>
    <media:title>MPA DS9 Comp Open and Atlas Erebus 1500 Round Review（20230403第5844期）</media:title>
    <media:content url="https://www.youtube.com/v/-o-DaVgJfQg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -981,7 +981,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="29" average="5.00" min="1" max="5"/>
-    <media:statistics views="4021"/>
+    <media:statistics views="4025"/>
    </media:community>
   </media:group>
  </entry>
@@ -1056,7 +1056,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="13" average="5.00" min="1" max="5"/>
-    <media:statistics views="3330"/>
+    <media:statistics views="3329"/>
    </media:community>
   </media:group>
  </entry>
@@ -1131,7 +1131,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="2079"/>
+    <media:statistics views="2078"/>
    </media:community>
   </media:group>
  </entry>
