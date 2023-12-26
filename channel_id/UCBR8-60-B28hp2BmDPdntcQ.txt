@@ -27,8 +27,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/2jXTHZHQ0C0/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="659" average="5.00" min="1" max="5"/>
-    <media:statistics views="8919"/>
+    <media:starRating count="1031" average="5.00" min="1" max="5"/>
+    <media:statistics views="19985"/>
    </media:community>
   </media:group>
  </entry>
@@ -50,8 +50,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/RJKMtataH78/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1513" average="5.00" min="1" max="5"/>
-    <media:statistics views="24606"/>
+    <media:starRating count="1750" average="5.00" min="1" max="5"/>
+    <media:statistics views="31036"/>
    </media:community>
   </media:group>
  </entry>
@@ -73,8 +73,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/i1hZQjZaYS8/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1386" average="5.00" min="1" max="5"/>
-    <media:statistics views="33067"/>
+    <media:starRating count="1507" average="5.00" min="1" max="5"/>
+    <media:statistics views="37780"/>
    </media:community>
   </media:group>
  </entry>
@@ -121,8 +121,8 @@ https://www.youtube.com/watch?v=ImL2oQ_FxfU&amp;list=PL-ZXraMeHBPLZWTMFc3n43JdBg
 
 #youtube #LikeAndDescribe #trending</media:description>
    <media:community>
-    <media:starRating count="1120" average="5.00" min="1" max="5"/>
-    <media:statistics views="213220"/>
+    <media:starRating count="1211" average="5.00" min="1" max="5"/>
+    <media:statistics views="251778"/>
    </media:community>
   </media:group>
  </entry>
@@ -144,8 +144,8 @@ https://www.youtube.com/watch?v=ImL2oQ_FxfU&amp;list=PL-ZXraMeHBPLZWTMFc3n43JdBg
    <media:thumbnail url="https://i3.ytimg.com/vi/JWIVJlXtzeA/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2102" average="5.00" min="1" max="5"/>
-    <media:statistics views="53303"/>
+    <media:starRating count="2220" average="5.00" min="1" max="5"/>
+    <media:statistics views="57532"/>
    </media:community>
   </media:group>
  </entry>
@@ -167,8 +167,8 @@ https://www.youtube.com/watch?v=ImL2oQ_FxfU&amp;list=PL-ZXraMeHBPLZWTMFc3n43JdBg
    <media:thumbnail url="https://i1.ytimg.com/vi/hCbrZ1AKnHA/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="536" average="5.00" min="1" max="5"/>
-    <media:statistics views="20129"/>
+    <media:starRating count="568" average="5.00" min="1" max="5"/>
+    <media:statistics views="21386"/>
    </media:community>
   </media:group>
  </entry>
@@ -190,8 +190,8 @@ https://www.youtube.com/watch?v=ImL2oQ_FxfU&amp;list=PL-ZXraMeHBPLZWTMFc3n43JdBg
    <media:thumbnail url="https://i3.ytimg.com/vi/F0fBpUU3a-o/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2007" average="5.00" min="1" max="5"/>
-    <media:statistics views="51373"/>
+    <media:starRating count="2049" average="5.00" min="1" max="5"/>
+    <media:statistics views="53208"/>
    </media:community>
   </media:group>
  </entry>
@@ -213,8 +213,8 @@ https://www.youtube.com/watch?v=ImL2oQ_FxfU&amp;list=PL-ZXraMeHBPLZWTMFc3n43JdBg
    <media:thumbnail url="https://i4.ytimg.com/vi/sKVQN8SHxBE/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2353" average="5.00" min="1" max="5"/>
-    <media:statistics views="68741"/>
+    <media:starRating count="2422" average="5.00" min="1" max="5"/>
+    <media:statistics views="71430"/>
    </media:community>
   </media:group>
  </entry>
@@ -236,8 +236,8 @@ https://www.youtube.com/watch?v=ImL2oQ_FxfU&amp;list=PL-ZXraMeHBPLZWTMFc3n43JdBg
    <media:thumbnail url="https://i4.ytimg.com/vi/3EFqFGp4E60/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1981" average="5.00" min="1" max="5"/>
-    <media:statistics views="53489"/>
+    <media:starRating count="2024" average="5.00" min="1" max="5"/>
+    <media:statistics views="55494"/>
    </media:community>
   </media:group>
  </entry>
@@ -259,8 +259,8 @@ https://www.youtube.com/watch?v=ImL2oQ_FxfU&amp;list=PL-ZXraMeHBPLZWTMFc3n43JdBg
    <media:thumbnail url="https://i3.ytimg.com/vi/FBk36cXzkOU/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1967" average="5.00" min="1" max="5"/>
-    <media:statistics views="68820"/>
+    <media:starRating count="2008" average="5.00" min="1" max="5"/>
+    <media:statistics views="70713"/>
    </media:community>
   </media:group>
  </entry>
@@ -282,8 +282,8 @@ https://www.youtube.com/watch?v=ImL2oQ_FxfU&amp;list=PL-ZXraMeHBPLZWTMFc3n43JdBg
    <media:thumbnail url="https://i4.ytimg.com/vi/WqpyNQQLSmc/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1977" average="5.00" min="1" max="5"/>
-    <media:statistics views="70484"/>
+    <media:starRating count="1991" average="5.00" min="1" max="5"/>
+    <media:statistics views="71753"/>
    </media:community>
   </media:group>
  </entry>
@@ -305,8 +305,8 @@ https://www.youtube.com/watch?v=ImL2oQ_FxfU&amp;list=PL-ZXraMeHBPLZWTMFc3n43JdBg
    <media:thumbnail url="https://i3.ytimg.com/vi/6-AaRIfLhD8/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3445" average="5.00" min="1" max="5"/>
-    <media:statistics views="101447"/>
+    <media:starRating count="3479" average="5.00" min="1" max="5"/>
+    <media:statistics views="103020"/>
    </media:community>
   </media:group>
  </entry>
@@ -328,8 +328,8 @@ https://www.youtube.com/watch?v=ImL2oQ_FxfU&amp;list=PL-ZXraMeHBPLZWTMFc3n43JdBg
    <media:thumbnail url="https://i4.ytimg.com/vi/gjWem-emN2w/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1656" average="5.00" min="1" max="5"/>
-    <media:statistics views="60063"/>
+    <media:starRating count="1679" average="5.00" min="1" max="5"/>
+    <media:statistics views="61298"/>
    </media:community>
   </media:group>
  </entry>
@@ -351,8 +351,8 @@ https://www.youtube.com/watch?v=ImL2oQ_FxfU&amp;list=PL-ZXraMeHBPLZWTMFc3n43JdBg
    <media:thumbnail url="https://i3.ytimg.com/vi/jvJqtCJwHmQ/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1962" average="5.00" min="1" max="5"/>
-    <media:statistics views="77736"/>
+    <media:starRating count="1982" average="5.00" min="1" max="5"/>
+    <media:statistics views="79022"/>
    </media:community>
   </media:group>
  </entry>
@@ -388,7 +388,7 @@ From dishing on her biggest DIY fails, to her viral catfish moment, to her favor
 #AlishaMarie #YouTube #WatchHistory #Vlogmas</media:description>
    <media:community>
     <media:starRating count="1403" average="5.00" min="1" max="5"/>
-    <media:statistics views="747133"/>
+    <media:statistics views="716440"/>
    </media:community>
   </media:group>
  </entry>

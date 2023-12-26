@@ -21,7 +21,7 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2023-12-24T12:08:00+00:00</published>
-  <updated>2023-12-24T20:22:52+00:00</updated>
+  <updated>2023-12-25T06:01:20+00:00</updated>
   <media:group>
    <media:title>揭秘厨房内幕！是老公做饭还是老婆做饭？爱吐槽的四季妈妈为您解密！#家庭吐槽大会</media:title>
    <media:content url="https://www.youtube.com/v/Yfdqg5HpUqM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -32,8 +32,8 @@
 
 别忘了点赞、订阅，并在评论区分享您家庭中的烹饪趣事。一起来参与这场揭秘厨房内幕的吐槽大会吧！#家庭生活 #幽默观察 #笑中解忧</media:description>
    <media:community>
-    <media:starRating count="11" average="5.00" min="1" max="5"/>
-    <media:statistics views="294"/>
+    <media:starRating count="12" average="5.00" min="1" max="5"/>
+    <media:statistics views="428"/>
    </media:community>
   </media:group>
  </entry>
@@ -59,8 +59,8 @@
 
 别忘了点赞、订阅，并在评论区分享您对这一话题的看法和自己的经验。一起来参与这场男人温柔乡的吐槽大会吧！#男人风采 #幽默观察 #笑中解压</media:description>
    <media:community>
-    <media:starRating count="224" average="5.00" min="1" max="5"/>
-    <media:statistics views="10153"/>
+    <media:starRating count="232" average="5.00" min="1" max="5"/>
+    <media:statistics views="11386"/>
    </media:community>
   </media:group>
  </entry>
@@ -86,8 +86,8 @@
 
 别忘了点赞、订阅，并在评论区分享您对这一话题的看法和自己的经验。一起来参与这场男人秘密的吐槽大会吧！#家庭生活 #幽默观察 #笑中解忧</media:description>
    <media:community>
-    <media:starRating count="11" average="5.00" min="1" max="5"/>
-    <media:statistics views="648"/>
+    <media:starRating count="12" average="5.00" min="1" max="5"/>
+    <media:statistics views="664"/>
    </media:community>
   </media:group>
  </entry>
@@ -114,7 +114,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一话题的看法和您自己的心中完美好男人的标准。一起来参与这场完美好男人的吐槽大会吧！#爱情观察 #幽默解读 #笑中思考</media:description>
    <media:community>
     <media:starRating count="15" average="5.00" min="1" max="5"/>
-    <media:statistics views="616"/>
+    <media:statistics views="628"/>
    </media:community>
   </media:group>
  </entry>
@@ -137,7 +137,7 @@
    <media:description>嘿，各位观众朋友们，欢迎回到我的频道！今天我们要探讨一个颇具话题性的场景：美女闺蜜上了老公的车，究竟会擦出怎样的火花呢？通过爱吐槽的四季妈妈的独特视角，我将以轻松幽默的方式为大家解密这种化学反应，并带来一些有趣的家庭吐槽。</media:description>
    <media:community>
     <media:starRating count="11" average="5.00" min="1" max="5"/>
-    <media:statistics views="739"/>
+    <media:statistics views="760"/>
    </media:community>
   </media:group>
  </entry>
@@ -160,7 +160,7 @@
    <media:description>大家好，欢迎回到我的频道！今天我们要聊一个家庭吐槽的大对决：他在前面脱，我在后面捡，他挺潇洒，我贼废腰！通过爱吐槽的四季妈妈的独特视角，我将以轻松幽默的方式为大家分享这个颇具幽默感的家庭场景，并带来一些搞笑的笑点。</media:description>
    <media:community>
     <media:starRating count="9" average="5.00" min="1" max="5"/>
-    <media:statistics views="1065"/>
+    <media:statistics views="1068"/>
    </media:community>
   </media:group>
  </entry>
@@ -183,7 +183,7 @@
    <media:description>嘿，各位观众朋友们，欢迎回到我的频道！今天我们要上演一场家庭吐槽的大对决，看看你们夫妻中谁才是真正的“吐槽之王”！通过爱吐槽的四季妈妈的独特视角，我将为大家呈现一场笑中争论，究竟是你说的是废话还是对方说的是废话？</media:description>
    <media:community>
     <media:starRating count="10" average="5.00" min="1" max="5"/>
-    <media:statistics views="584"/>
+    <media:statistics views="589"/>
    </media:community>
   </media:group>
  </entry>
@@ -209,8 +209,8 @@
 
 别忘了点赞、订阅，并在评论区分享您对这一话题的看法和自己的经验。一起来参与这场男人副驾驶表情吐槽大会吧！#家庭生活 #幽默观察 #笑中解压</media:description>
    <media:community>
-    <media:starRating count="121" average="5.00" min="1" max="5"/>
-    <media:statistics views="3549"/>
+    <media:starRating count="124" average="5.00" min="1" max="5"/>
+    <media:statistics views="3658"/>
    </media:community>
   </media:group>
  </entry>
@@ -236,8 +236,8 @@
 
 别忘了点赞、订阅，并在评论区分享你所知道的四字真言或者你的观点。一起来参与这场百分之八十男人的四字真言吐槽大会吧！#幽默观察 #笑中思考 #家庭调侃</media:description>
    <media:community>
-    <media:starRating count="132" average="5.00" min="1" max="5"/>
-    <media:statistics views="7899"/>
+    <media:starRating count="133" average="5.00" min="1" max="5"/>
+    <media:statistics views="7991"/>
    </media:community>
   </media:group>
  </entry>
@@ -264,7 +264,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一话题的看法和有趣的经验。一起来笑一笑，探讨老公的夜间神秘行为吧！#家庭生活 #幽默观察 #笑中解忧</media:description>
    <media:community>
     <media:starRating count="13" average="5.00" min="1" max="5"/>
-    <media:statistics views="731"/>
+    <media:statistics views="740"/>
    </media:community>
   </media:group>
  </entry>
@@ -291,7 +291,7 @@
 别忘了点赞、订阅，并在评论区分享您对家庭承诺的见解和回忆。一起来揭秘画饼之前的美好承诺吧！#家庭生活 #幽默回顾 #笑中思考</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="435"/>
+    <media:statistics views="438"/>
    </media:community>
   </media:group>
  </entry>
@@ -318,7 +318,7 @@
 别忘了点赞、订阅，并在评论区分享您对河北人电商实在风格的看法。一起来感受这种独特的商业魅力吧！#电商风格 #幽默吐槽 #实在表现</media:description>
    <media:community>
     <media:starRating count="11" average="5.00" min="1" max="5"/>
-    <media:statistics views="441"/>
+    <media:statistics views="446"/>
    </media:community>
   </media:group>
  </entry>
@@ -345,7 +345,7 @@
 别忘了点赞、订阅，并在评论区分享你们的看法和有趣的经验。一起来笑一笑，学一学这个独门绝技吧！#吐槽生活 #幽默技巧 #笑中学习</media:description>
    <media:community>
     <media:starRating count="13" average="5.00" min="1" max="5"/>
-    <media:statistics views="358"/>
+    <media:statistics views="361"/>
    </media:community>
   </media:group>
  </entry>
@@ -372,7 +372,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一话题的见解和吐槽。一起来笑谈钓鱼佬的独特魅力吧！#钓鱼生活 #幽默观察 #家庭笑话</media:description>
    <media:community>
     <media:starRating count="10" average="5.00" min="1" max="5"/>
-    <media:statistics views="475"/>
+    <media:statistics views="477"/>
    </media:community>
   </media:group>
  </entry>
@@ -399,7 +399,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一时光变迁的感慨和笑点。一起来品味四川的幽默变迁吧！#四川美食 #幽默回顾 #笑谈往事</media:description>
    <media:community>
     <media:starRating count="9" average="5.00" min="1" max="5"/>
-    <media:statistics views="483"/>
+    <media:statistics views="486"/>
    </media:community>
   </media:group>
  </entry>
