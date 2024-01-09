@@ -41,13 +41,8 @@
 
 #日本 #vlog #留學</media:description>
    <media:community>
-<<<<<<< HEAD
-    <media:starRating count="3362" average="5.00" min="1" max="5"/>
-    <media:statistics views="152009"/>
-=======
-    <media:starRating count="3221" average="5.00" min="1" max="5"/>
-    <media:statistics views="141540"/>
->>>>>>> parent of 0b84bbf (202312261403)
+    <media:starRating count="3364" average="5.00" min="1" max="5"/>
+    <media:statistics views="152125"/>
    </media:community>
   </media:group>
  </entry>
@@ -90,13 +85,8 @@
 
 #日本漫畫 #殺手阿一 #cult</media:description>
    <media:community>
-<<<<<<< HEAD
     <media:starRating count="1056" average="5.00" min="1" max="5"/>
-    <media:statistics views="50281"/>
-=======
-    <media:starRating count="1029" average="5.00" min="1" max="5"/>
-    <media:statistics views="48961"/>
->>>>>>> parent of 0b84bbf (202312261403)
+    <media:statistics views="50297"/>
    </media:community>
   </media:group>
  </entry>
@@ -140,13 +130,8 @@
 
 #日本漫畫 #殺手阿一 #cult</media:description>
    <media:community>
-<<<<<<< HEAD
     <media:starRating count="1128" average="5.00" min="1" max="5"/>
-    <media:statistics views="89823"/>
-=======
-    <media:starRating count="1113" average="5.00" min="1" max="5"/>
-    <media:statistics views="88159"/>
->>>>>>> parent of 0b84bbf (202312261403)
+    <media:statistics views="89834"/>
    </media:community>
   </media:group>
  </entry>
@@ -191,13 +176,8 @@
 
 #日本 #次文化 #戀物</media:description>
    <media:community>
-<<<<<<< HEAD
     <media:starRating count="991" average="5.00" min="1" max="5"/>
-    <media:statistics views="58486"/>
-=======
-    <media:starRating count="968" average="5.00" min="1" max="5"/>
-    <media:statistics views="56878"/>
->>>>>>> parent of 0b84bbf (202312261403)
+    <media:statistics views="58494"/>
    </media:community>
   </media:group>
  </entry>
@@ -240,13 +220,8 @@
 
 #遊戲 #videogames  #日本</media:description>
    <media:community>
-<<<<<<< HEAD
     <media:starRating count="2471" average="5.00" min="1" max="5"/>
-    <media:statistics views="223205"/>
-=======
-    <media:starRating count="2422" average="5.00" min="1" max="5"/>
-    <media:statistics views="216983"/>
->>>>>>> parent of 0b84bbf (202312261403)
+    <media:statistics views="223258"/>
    </media:community>
   </media:group>
  </entry>
@@ -290,13 +265,8 @@
 
 #日本 #動漫 #日本電影</media:description>
    <media:community>
-<<<<<<< HEAD
     <media:starRating count="2152" average="5.00" min="1" max="5"/>
-    <media:statistics views="204959"/>
-=======
-    <media:starRating count="2068" average="5.00" min="1" max="5"/>
-    <media:statistics views="190381"/>
->>>>>>> parent of 0b84bbf (202312261403)
+    <media:statistics views="205062"/>
    </media:community>
   </media:group>
  </entry>
@@ -340,13 +310,8 @@
 ▶追蹤TenGuSan的IG：@tengusan.real
 ▶我的品牌官網：www.under20.com</media:description>
    <media:community>
-<<<<<<< HEAD
-    <media:starRating count="1935" average="5.00" min="1" max="5"/>
-    <media:statistics views="177534"/>
-=======
-    <media:starRating count="1832" average="5.00" min="1" max="5"/>
-    <media:statistics views="166832"/>
->>>>>>> parent of 0b84bbf (202312261403)
+    <media:starRating count="1937" average="5.00" min="1" max="5"/>
+    <media:statistics views="177636"/>
    </media:community>
   </media:group>
  </entry>
@@ -387,13 +352,8 @@
 ▶追蹤TenGuSan的IG：@tengusan.real
 ▶我的品牌官網：www.under20.com</media:description>
    <media:community>
-<<<<<<< HEAD
     <media:starRating count="1768" average="5.00" min="1" max="5"/>
-    <media:statistics views="149822"/>
-=======
-    <media:starRating count="1709" average="5.00" min="1" max="5"/>
-    <media:statistics views="144591"/>
->>>>>>> parent of 0b84bbf (202312261403)
+    <media:statistics views="149859"/>
    </media:community>
   </media:group>
  </entry>
@@ -456,13 +416,8 @@
 ▶追蹤TenGuSan的IG：@tengusan.real
 ▶我的品牌官網：www.under20.com</media:description>
    <media:community>
-<<<<<<< HEAD
-    <media:starRating count="1697" average="5.00" min="1" max="5"/>
-    <media:statistics views="290841"/>
-=======
-    <media:starRating count="1656" average="5.00" min="1" max="5"/>
-    <media:statistics views="287214"/>
->>>>>>> parent of 0b84bbf (202312261403)
+    <media:starRating count="1698" average="5.00" min="1" max="5"/>
+    <media:statistics views="290860"/>
    </media:community>
   </media:group>
  </entry>
@@ -503,13 +458,8 @@
 
 #日本 #日本社會</media:description>
    <media:community>
-<<<<<<< HEAD
     <media:starRating count="854" average="5.00" min="1" max="5"/>
-    <media:statistics views="64742"/>
-=======
-    <media:starRating count="847" average="5.00" min="1" max="5"/>
-    <media:statistics views="64013"/>
->>>>>>> parent of 0b84bbf (202312261403)
+    <media:statistics views="64746"/>
    </media:community>
   </media:group>
  </entry>
@@ -553,13 +503,8 @@
 
 #2ch #日本文化 #互聯網</media:description>
    <media:community>
-<<<<<<< HEAD
     <media:starRating count="928" average="5.00" min="1" max="5"/>
-    <media:statistics views="70885"/>
-=======
-    <media:starRating count="917" average="5.00" min="1" max="5"/>
-    <media:statistics views="69680"/>
->>>>>>> parent of 0b84bbf (202312261403)
+    <media:statistics views="70894"/>
    </media:community>
   </media:group>
  </entry>
@@ -599,13 +544,8 @@
 
 #日本社會 #刑務所 #越獄</media:description>
    <media:community>
-<<<<<<< HEAD
     <media:starRating count="691" average="5.00" min="1" max="5"/>
-    <media:statistics views="52309"/>
-=======
-    <media:starRating count="681" average="5.00" min="1" max="5"/>
-    <media:statistics views="51462"/>
->>>>>>> parent of 0b84bbf (202312261403)
+    <media:statistics views="52316"/>
    </media:community>
   </media:group>
  </entry>
@@ -655,13 +595,8 @@
 ▶追蹤TenGuSan的IG：@tengusan.real
 ▶我的品牌官網：www.under20.com</media:description>
    <media:community>
-<<<<<<< HEAD
     <media:starRating count="1714" average="5.00" min="1" max="5"/>
-    <media:statistics views="114611"/>
-=======
-    <media:starRating count="1688" average="5.00" min="1" max="5"/>
-    <media:statistics views="112828"/>
->>>>>>> parent of 0b84bbf (202312261403)
+    <media:statistics views="114620"/>
    </media:community>
   </media:group>
  </entry>
@@ -702,13 +637,8 @@
 
 #福島核污水 #日本核廢水 #核輻射 #科幻</media:description>
    <media:community>
-<<<<<<< HEAD
     <media:starRating count="754" average="5.00" min="1" max="5"/>
-    <media:statistics views="40057"/>
-=======
-    <media:starRating count="750" average="5.00" min="1" max="5"/>
-    <media:statistics views="39466"/>
->>>>>>> parent of 0b84bbf (202312261403)
+    <media:statistics views="40060"/>
    </media:community>
   </media:group>
  </entry>
@@ -754,13 +684,8 @@
 
 #伊藤潤二 #恐怖 #日本 #次文化</media:description>
    <media:community>
-<<<<<<< HEAD
     <media:starRating count="1357" average="5.00" min="1" max="5"/>
-    <media:statistics views="87228"/>
-=======
-    <media:starRating count="1345" average="5.00" min="1" max="5"/>
-    <media:statistics views="86079"/>
->>>>>>> parent of 0b84bbf (202312261403)
+    <media:statistics views="87235"/>
    </media:community>
   </media:group>
  </entry>

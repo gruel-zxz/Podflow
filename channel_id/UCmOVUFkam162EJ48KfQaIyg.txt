@@ -80,13 +80,8 @@ https://youtu.be/BbtTwsP_-zc
 
 Twitter：stone记@stone62855987</media:description>
    <media:community>
-<<<<<<< HEAD
     <media:starRating count="43" average="5.00" min="1" max="5"/>
-    <media:statistics views="8066"/>
-=======
-    <media:starRating count="41" average="5.00" min="1" max="5"/>
-    <media:statistics views="7924"/>
->>>>>>> parent of 0b84bbf (202312261403)
+    <media:statistics views="8068"/>
    </media:community>
   </media:group>
  </entry>
@@ -161,11 +156,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="31" average="5.00" min="1" max="5"/>
-<<<<<<< HEAD
-    <media:statistics views="7260"/>
-=======
-    <media:statistics views="7137"/>
->>>>>>> parent of 0b84bbf (202312261403)
+    <media:statistics views="7259"/>
    </media:community>
   </media:group>
  </entry>
@@ -240,11 +231,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="18" average="5.00" min="1" max="5"/>
-<<<<<<< HEAD
-    <media:statistics views="3989"/>
-=======
-    <media:statistics views="3950"/>
->>>>>>> parent of 0b84bbf (202312261403)
+    <media:statistics views="3990"/>
    </media:community>
   </media:group>
  </entry>
@@ -319,11 +306,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="16" average="5.00" min="1" max="5"/>
-<<<<<<< HEAD
     <media:statistics views="2910"/>
-=======
-    <media:statistics views="2873"/>
->>>>>>> parent of 0b84bbf (202312261403)
    </media:community>
   </media:group>
  </entry>
@@ -473,11 +456,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="28" average="5.00" min="1" max="5"/>
-<<<<<<< HEAD
-    <media:statistics views="3874"/>
-=======
-    <media:statistics views="3841"/>
->>>>>>> parent of 0b84bbf (202312261403)
+    <media:statistics views="3875"/>
    </media:community>
   </media:group>
  </entry>
@@ -552,11 +531,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="29" average="5.00" min="1" max="5"/>
-<<<<<<< HEAD
     <media:statistics views="5794"/>
-=======
-    <media:statistics views="5780"/>
->>>>>>> parent of 0b84bbf (202312261403)
    </media:community>
   </media:group>
  </entry>
@@ -781,11 +756,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="33" average="5.00" min="1" max="5"/>
-<<<<<<< HEAD
     <media:statistics views="4769"/>
-=======
-    <media:statistics views="4764"/>
->>>>>>> parent of 0b84bbf (202312261403)
    </media:community>
   </media:group>
  </entry>
@@ -860,7 +831,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="35" average="5.00" min="1" max="5"/>
-    <media:statistics views="5854"/>
+    <media:statistics views="5856"/>
    </media:community>
   </media:group>
  </entry>
@@ -934,13 +905,8 @@ https://youtu.be/BbtTwsP_-zc
 
 Twitter：stone记@stone62855987</media:description>
    <media:community>
-<<<<<<< HEAD
     <media:starRating count="81" average="5.00" min="1" max="5"/>
     <media:statistics views="8410"/>
-=======
-    <media:starRating count="82" average="5.00" min="1" max="5"/>
-    <media:statistics views="8395"/>
->>>>>>> parent of 0b84bbf (202312261403)
    </media:community>
   </media:group>
  </entry>
@@ -1090,11 +1056,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="13" average="5.00" min="1" max="5"/>
-<<<<<<< HEAD
     <media:statistics views="3332"/>
-=======
-    <media:statistics views="3329"/>
->>>>>>> parent of 0b84bbf (202312261403)
    </media:community>
   </media:group>
  </entry>
@@ -1169,11 +1131,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-<<<<<<< HEAD
     <media:statistics views="2081"/>
-=======
-    <media:statistics views="2078"/>
->>>>>>> parent of 0b84bbf (202312261403)
    </media:community>
   </media:group>
  </entry>

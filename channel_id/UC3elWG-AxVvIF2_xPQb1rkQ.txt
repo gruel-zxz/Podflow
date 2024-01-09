@@ -33,7 +33,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一话题的看法和自己的经验。一起来参与这场男人为何把车当成老婆的吐槽大会吧！#车辆关系 #幽默观察 #笑中解忧</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="375"/>
+    <media:statistics views="378"/>
    </media:community>
   </media:group>
  </entry>
@@ -59,8 +59,8 @@
 
 别忘了点赞、订阅，并在评论区分享您对这一话题的看法和自己的开车经验。一起来参与这场老司机方向盘暴走的吐槽大会吧！#开车趣事 #幽默观察 #笑中解压</media:description>
    <media:community>
-    <media:starRating count="53" average="5.00" min="1" max="5"/>
-    <media:statistics views="2083"/>
+    <media:starRating count="54" average="5.00" min="1" max="5"/>
+    <media:statistics views="2097"/>
    </media:community>
   </media:group>
  </entry>
@@ -114,7 +114,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一话题的看法和自己的后备箱趣事。一起来参与这场后备箱“秘密档案”的吐槽大会吧！#后备箱探秘 #幽默观察 #笑中解压</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="547"/>
+    <media:statistics views="549"/>
    </media:community>
   </media:group>
  </entry>
@@ -141,7 +141,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一话题的看法和自己的驾驶经验。一起来参与这场老司机开车姿势的吐槽大会吧！#驾驶趣事 #幽默观察 #笑中解忧</media:description>
    <media:community>
     <media:starRating count="12" average="5.00" min="1" max="5"/>
-    <media:statistics views="538"/>
+    <media:statistics views="540"/>
    </media:community>
   </media:group>
  </entry>
@@ -168,7 +168,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一话题的看法和自己的经验。一起来参与这场男人专一面的吐槽大会吧！#男人生活 #幽默观察 #笑中解压</media:description>
    <media:community>
     <media:starRating count="61" average="5.00" min="1" max="5"/>
-    <media:statistics views="2443"/>
+    <media:statistics views="2445"/>
    </media:community>
   </media:group>
  </entry>
@@ -183,7 +183,7 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2023-12-24T12:08:00+00:00</published>
-  <updated>2023-12-24T20:22:52+00:00</updated>
+  <updated>2023-12-25T06:01:20+00:00</updated>
   <media:group>
    <media:title>揭秘厨房内幕！是老公做饭还是老婆做饭？爱吐槽的四季妈妈为您解密！#家庭吐槽大会</media:title>
    <media:content url="https://www.youtube.com/v/Yfdqg5HpUqM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -194,13 +194,8 @@
 
 别忘了点赞、订阅，并在评论区分享您家庭中的烹饪趣事。一起来参与这场揭秘厨房内幕的吐槽大会吧！#家庭生活 #幽默观察 #笑中解忧</media:description>
    <media:community>
-<<<<<<< HEAD
     <media:starRating count="21" average="5.00" min="1" max="5"/>
-    <media:statistics views="749"/>
-=======
-    <media:starRating count="11" average="5.00" min="1" max="5"/>
-    <media:statistics views="294"/>
->>>>>>> parent of 0b84bbf (202312261403)
+    <media:statistics views="746"/>
    </media:community>
   </media:group>
  </entry>
@@ -226,13 +221,8 @@
 
 别忘了点赞、订阅，并在评论区分享您对这一话题的看法和自己的经验。一起来参与这场男人温柔乡的吐槽大会吧！#男人风采 #幽默观察 #笑中解压</media:description>
    <media:community>
-<<<<<<< HEAD
     <media:starRating count="270" average="5.00" min="1" max="5"/>
-    <media:statistics views="13197"/>
-=======
-    <media:starRating count="224" average="5.00" min="1" max="5"/>
-    <media:statistics views="10153"/>
->>>>>>> parent of 0b84bbf (202312261403)
+    <media:statistics views="13198"/>
    </media:community>
   </media:group>
  </entry>
@@ -258,13 +248,8 @@
 
 别忘了点赞、订阅，并在评论区分享您对这一话题的看法和自己的经验。一起来参与这场男人秘密的吐槽大会吧！#家庭生活 #幽默观察 #笑中解忧</media:description>
    <media:community>
-<<<<<<< HEAD
     <media:starRating count="19" average="5.00" min="1" max="5"/>
     <media:statistics views="948"/>
-=======
-    <media:starRating count="11" average="5.00" min="1" max="5"/>
-    <media:statistics views="648"/>
->>>>>>> parent of 0b84bbf (202312261403)
    </media:community>
   </media:group>
  </entry>
@@ -290,13 +275,8 @@
 
 别忘了点赞、订阅，并在评论区分享您对这一话题的看法和您自己的心中完美好男人的标准。一起来参与这场完美好男人的吐槽大会吧！#爱情观察 #幽默解读 #笑中思考</media:description>
    <media:community>
-<<<<<<< HEAD
     <media:starRating count="16" average="5.00" min="1" max="5"/>
     <media:statistics views="702"/>
-=======
-    <media:starRating count="15" average="5.00" min="1" max="5"/>
-    <media:statistics views="616"/>
->>>>>>> parent of 0b84bbf (202312261403)
    </media:community>
   </media:group>
  </entry>
@@ -319,11 +299,7 @@
    <media:description>嘿，各位观众朋友们，欢迎回到我的频道！今天我们要探讨一个颇具话题性的场景：美女闺蜜上了老公的车，究竟会擦出怎样的火花呢？通过爱吐槽的四季妈妈的独特视角，我将以轻松幽默的方式为大家解密这种化学反应，并带来一些有趣的家庭吐槽。</media:description>
    <media:community>
     <media:starRating count="11" average="5.00" min="1" max="5"/>
-<<<<<<< HEAD
     <media:statistics views="872"/>
-=======
-    <media:statistics views="739"/>
->>>>>>> parent of 0b84bbf (202312261403)
    </media:community>
   </media:group>
  </entry>
@@ -345,13 +321,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/V-DghS860_E/hqdefault.jpg" width="480" height="360"/>
    <media:description>大家好，欢迎回到我的频道！今天我们要聊一个家庭吐槽的大对决：他在前面脱，我在后面捡，他挺潇洒，我贼废腰！通过爱吐槽的四季妈妈的独特视角，我将以轻松幽默的方式为大家分享这个颇具幽默感的家庭场景，并带来一些搞笑的笑点。</media:description>
    <media:community>
-<<<<<<< HEAD
     <media:starRating count="10" average="5.00" min="1" max="5"/>
-    <media:statistics views="1131"/>
-=======
-    <media:starRating count="9" average="5.00" min="1" max="5"/>
-    <media:statistics views="1065"/>
->>>>>>> parent of 0b84bbf (202312261403)
+    <media:statistics views="1132"/>
    </media:community>
   </media:group>
  </entry>
@@ -374,11 +345,7 @@
    <media:description>嘿，各位观众朋友们，欢迎回到我的频道！今天我们要上演一场家庭吐槽的大对决，看看你们夫妻中谁才是真正的“吐槽之王”！通过爱吐槽的四季妈妈的独特视角，我将为大家呈现一场笑中争论，究竟是你说的是废话还是对方说的是废话？</media:description>
    <media:community>
     <media:starRating count="10" average="5.00" min="1" max="5"/>
-<<<<<<< HEAD
     <media:statistics views="615"/>
-=======
-    <media:statistics views="584"/>
->>>>>>> parent of 0b84bbf (202312261403)
    </media:community>
   </media:group>
  </entry>
@@ -404,13 +371,8 @@
 
 别忘了点赞、订阅，并在评论区分享您对这一话题的看法和自己的经验。一起来参与这场男人副驾驶表情吐槽大会吧！#家庭生活 #幽默观察 #笑中解压</media:description>
    <media:community>
-<<<<<<< HEAD
     <media:starRating count="144" average="5.00" min="1" max="5"/>
     <media:statistics views="4257"/>
-=======
-    <media:starRating count="121" average="5.00" min="1" max="5"/>
-    <media:statistics views="3549"/>
->>>>>>> parent of 0b84bbf (202312261403)
    </media:community>
   </media:group>
  </entry>
@@ -436,175 +398,8 @@
 
 别忘了点赞、订阅，并在评论区分享你所知道的四字真言或者你的观点。一起来参与这场百分之八十男人的四字真言吐槽大会吧！#幽默观察 #笑中思考 #家庭调侃</media:description>
    <media:community>
-<<<<<<< HEAD
     <media:starRating count="145" average="5.00" min="1" max="5"/>
-    <media:statistics views="8493"/>
-=======
-    <media:starRating count="132" average="5.00" min="1" max="5"/>
-    <media:statistics views="7899"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:bEN1oRIaI_E</id>
-  <yt:videoId>bEN1oRIaI_E</yt:videoId>
-  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
-  <title>老公每晚都在和别人的老婆聊天？爱吐槽的四季妈妈揭秘夜间神秘行为！#家庭吐槽大会</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=bEN1oRIaI_E"/>
-  <author>
-   <name>四季妈妈—小龙</name>
-   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
-  </author>
-  <published>2023-12-02T08:58:32+00:00</published>
-  <updated>2023-12-03T08:51:41+00:00</updated>
-  <media:group>
-   <media:title>老公每晚都在和别人的老婆聊天？爱吐槽的四季妈妈揭秘夜间神秘行为！#家庭吐槽大会</media:title>
-   <media:content url="https://www.youtube.com/v/bEN1oRIaI_E?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/bEN1oRIaI_E/hqdefault.jpg" width="480" height="360"/>
-   <media:description>嗨，各位观众朋友们，欢迎回到我的频道！今天我们要揭秘一个让人好奇的现象：老公为何每晚都在和别人的老婆发消息呢？通过爱吐槽的四季妈妈的独特视角，我将以幽默风趣的方式为大家解读这个夜间神秘行为，并分享一些家庭吐槽的趣事。
-
-在这期视频中，我们将一同调查老公夜间行为的真相，看看是不是真的有什么“鬼鬼祟祟”的事情发生。当然，这是以轻松幽默的方式呈现，纯属娱乐性质，大家不必过于紧张哦！
-
-别忘了点赞、订阅，并在评论区分享您对这一话题的看法和有趣的经验。一起来笑一笑，探讨老公的夜间神秘行为吧！#家庭生活 #幽默观察 #笑中解忧</media:description>
-   <media:community>
-    <media:starRating count="13" average="5.00" min="1" max="5"/>
-    <media:statistics views="731"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:1t0mRjci4Cc</id>
-  <yt:videoId>1t0mRjci4Cc</yt:videoId>
-  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
-  <title>画饼出现前，这叫做承诺？爱吐槽的四季妈妈揭秘家庭承诺的前世今生！#家庭吐槽大会</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=1t0mRjci4Cc"/>
-  <author>
-   <name>四季妈妈—小龙</name>
-   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
-  </author>
-  <published>2023-11-30T07:09:46+00:00</published>
-  <updated>2023-12-01T07:00:55+00:00</updated>
-  <media:group>
-   <media:title>画饼出现前，这叫做承诺？爱吐槽的四季妈妈揭秘家庭承诺的前世今生！#家庭吐槽大会</media:title>
-   <media:content url="https://www.youtube.com/v/1t0mRjci4Cc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/1t0mRjci4Cc/hqdefault.jpg" width="480" height="360"/>
-   <media:description>大家好，欢迎回到我的频道！在画饼这个词出现之前，那些美好的承诺是不是有点不同呢？今天，我们将通过爱吐槽的四季妈妈的眼光，揭秘在画饼成为流行词汇之前，家庭中的承诺是什么样子的，同时分享一些令人捧腹的家庭吐槽。
-
-在这期视频中，我们将以幽默风趣的方式回顾过去的家庭承诺，看看那时候的表达方式和如今的有什么不同。或许您会在笑声中找到一些曾经的影子。
-
-别忘了点赞、订阅，并在评论区分享您对家庭承诺的见解和回忆。一起来揭秘画饼之前的美好承诺吧！#家庭生活 #幽默回顾 #笑中思考</media:description>
-   <media:community>
-    <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="435"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:AeRiNXB4iMY</id>
-  <yt:videoId>AeRiNXB4iMY</yt:videoId>
-  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
-  <title>实在到底！河北人做电商的独特风格大揭秘！#爱吐槽的四季妈妈 #家庭吐槽大会</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=AeRiNXB4iMY"/>
-  <author>
-   <name>四季妈妈—小龙</name>
-   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
-  </author>
-  <published>2023-11-28T09:08:40+00:00</published>
-  <updated>2023-11-29T06:50:30+00:00</updated>
-  <media:group>
-   <media:title>实在到底！河北人做电商的独特风格大揭秘！#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
-   <media:content url="https://www.youtube.com/v/AeRiNXB4iMY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/AeRiNXB4iMY/hqdefault.jpg" width="480" height="360"/>
-   <media:description>嗨，各位观众朋友们，欢迎回到我的频道！今天我们将深入河北，探讨河北人在电商领域的独特之处——实在！通过爱吐槽的四季妈妈的眼光，我将以幽默风趣的方式为大家揭示河北人在电商中的实在表现，并分享一些令人捧腹的家庭吐槽。
-
-我们将一探究竟在电商交易中，河北人是如何展现实在风格的。无论是独特的推销手法还是实事求是的态度，都将在笑声中展现出河北人的电商风采。
-
-别忘了点赞、订阅，并在评论区分享您对河北人电商实在风格的看法。一起来感受这种独特的商业魅力吧！#电商风格 #幽默吐槽 #实在表现</media:description>
-   <media:community>
-    <media:starRating count="11" average="5.00" min="1" max="5"/>
-    <media:statistics views="441"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:t2vFfn9Nk4A</id>
-  <yt:videoId>t2vFfn9Nk4A</yt:videoId>
-  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
-  <title>轻松白吃白喝一路！爱吐槽的四季妈妈传授独门绝技！#家庭吐槽大会</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=t2vFfn9Nk4A"/>
-  <author>
-   <name>四季妈妈—小龙</name>
-   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
-  </author>
-  <published>2023-11-26T07:27:35+00:00</published>
-  <updated>2023-11-27T06:37:06+00:00</updated>
-  <media:group>
-   <media:title>轻松白吃白喝一路！爱吐槽的四季妈妈传授独门绝技！#家庭吐槽大会</media:title>
-   <media:content url="https://www.youtube.com/v/t2vFfn9Nk4A?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i1.ytimg.com/vi/t2vFfn9Nk4A/hqdefault.jpg" width="480" height="360"/>
-   <media:description>大家好，欢迎回到我的频道！今天我将分享一项不可多得的技能，教大家如何用一句话轻松白吃白喝一路。通过爱吐槽的四季妈妈的独特视角，我们将以幽默的方式揭示这项“神技”。
-
-在这期视频中，我将为大家解密如何用口头禅或搞笑理由，巧妙避开支付的尴尬，享受美好的白吃白喝时光。当然，这是以幽默轻松的氛围为主，纯属娱乐性质，大家可不要当真哦！
-
-别忘了点赞、订阅，并在评论区分享你们的看法和有趣的经验。一起来笑一笑，学一学这个独门绝技吧！#吐槽生活 #幽默技巧 #笑中学习</media:description>
-   <media:community>
-    <media:starRating count="13" average="5.00" min="1" max="5"/>
-    <media:statistics views="358"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:j6LuGxmIWX0</id>
-  <yt:videoId>j6LuGxmIWX0</yt:videoId>
-  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
-  <title>揭秘钓鱼佬：是不是都这样？#爱吐槽的四季妈妈 #家庭吐槽大会</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=j6LuGxmIWX0"/>
-  <author>
-   <name>四季妈妈—小龙</name>
-   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
-  </author>
-  <published>2023-11-24T06:36:10+00:00</published>
-  <updated>2023-11-25T07:04:40+00:00</updated>
-  <media:group>
-   <media:title>揭秘钓鱼佬：是不是都这样？#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
-   <media:content url="https://www.youtube.com/v/j6LuGxmIWX0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/j6LuGxmIWX0/hqdefault.jpg" width="480" height="360"/>
-   <media:description>嗨，各位观众朋友们，欢迎回到我的频道！今天我们要探讨一个充满趣味的话题：是不是所有的钓鱼佬都有着相似的特质？通过爱吐槽的四季妈妈的独特观察，我将以幽默风趣的方式为大家揭秘钓鱼佬的一些有趣行为，并分享一些家庭吐槽的笑料。
-
-我们将深入挖掘钓鱼佬们在垂钓世界中的奇葩之处，看看是否存在一些普遍规律。当然，这也是带着幽默眼光，以轻松愉快的方式来欣赏这一特殊群体的风采。
-
-别忘了点赞、订阅，并在评论区分享您对这一话题的见解和吐槽。一起来笑谈钓鱼佬的独特魅力吧！#钓鱼生活 #幽默观察 #家庭笑话</media:description>
-   <media:community>
-    <media:starRating count="10" average="5.00" min="1" max="5"/>
-    <media:statistics views="475"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:yVLy6h5AdZ8</id>
-  <yt:videoId>yVLy6h5AdZ8</yt:videoId>
-  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
-  <title>曾经家养三只兔，不愁盐和醋？现如今的四川却是兔兔太好吃了！#爱吐槽的四季妈妈</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=yVLy6h5AdZ8"/>
-  <author>
-   <name>四季妈妈—小龙</name>
-   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
-  </author>
-  <published>2023-11-22T05:06:04+00:00</published>
-  <updated>2023-11-23T06:41:30+00:00</updated>
-  <media:group>
-   <media:title>曾经家养三只兔，不愁盐和醋？现如今的四川却是兔兔太好吃了！#爱吐槽的四季妈妈</media:title>
-   <media:content url="https://www.youtube.com/v/yVLy6h5AdZ8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/yVLy6h5AdZ8/hqdefault.jpg" width="480" height="360"/>
-   <media:description>嘿，大家好！欢迎来到我的频道。今天我们要回顾一下曾经的四川，那个家养三只兔，不愁盐和醋的时代。然而，现如今的四川却是兔兔太好吃了！在这期视频中，我将以幽默的方式调侃四川的变迁，通过爱吐槽的四季妈妈的视角，分享一些令人捧腹的笑话。
-
-我们将带您穿越时光，感受曾经的那个养兔时代和现在兔兔“太好吃”的时刻。笑中带有对时光流转的回忆，让我们一同享受这段幽默的时空之旅。
-
-别忘了点赞、订阅，并在评论区分享您对这一时光变迁的感慨和笑点。一起来品味四川的幽默变迁吧！#四川美食 #幽默回顾 #笑谈往事</media:description>
-   <media:community>
-    <media:starRating count="9" average="5.00" min="1" max="5"/>
-    <media:statistics views="483"/>
->>>>>>> parent of 0b84bbf (202312261403)
+    <media:statistics views="8495"/>
    </media:community>
   </media:group>
  </entry>

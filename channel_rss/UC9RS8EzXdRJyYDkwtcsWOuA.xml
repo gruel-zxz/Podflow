@@ -3,26 +3,21 @@
     <channel>
         <title>TenGuSan</title>
         <link>https://www.youtube.com/channel/UC9RS8EzXdRJyYDkwtcsWOuA</link>
-        <description>一頓飯時間，了解亞文化
-全部影片YouTube獨家放送</description>
+        <description>在iOS平台上借助workflow和a-shell搭建专属的播客服务器。</description>
         <category>TV &amp; Film</category>
         <generator>Podflow (support us at https://github.com/gruel-zxz/podflow)</generator>
         <language>en-us</language>
-<<<<<<< HEAD
-        <lastBuildDate>Tue, 09 Jan 2024 02:45:06 +0000</lastBuildDate>
-=======
-        <lastBuildDate>Mon, 25 Dec 2023 05:33:19 +0000</lastBuildDate>
->>>>>>> parent of 0b84bbf (202312261403)
+        <lastBuildDate>Tue, 09 Jan 2024 05:07:53 +0000</lastBuildDate>
         <pubDate>Sun, 24 Apr 2005 11:20:54 +0800</pubDate>
         <image>
-            <url>https://yt3.googleusercontent.com/usp3VXLTAa0WjvDKFMqZwx0iRHMVWnoPtfJWOFHALf9majw2tQY3RLagG9AdJhce8fbd-9_0Mw=s2048-c-k-c0x00ffffff-no-rj</url>
+            <url>https://raw.githubusercontent.com/gruel-zxz/podflow/main/Podflow_dark.png</url>
             <title>TenGuSan</title>
             <link>https://www.youtube.com/channel/UC9RS8EzXdRJyYDkwtcsWOuA</link>
         </image>
         <itunes:author>TenGuSan</itunes:author>
         <itunes:subtitle>TenGuSan</itunes:subtitle>
-        <itunes:summary><![CDATA[一頓飯時間，了解亞文化&#xA;全部影片YouTube獨家放送]]></itunes:summary>
-        <itunes:image href="https://yt3.googleusercontent.com/usp3VXLTAa0WjvDKFMqZwx0iRHMVWnoPtfJWOFHALf9majw2tQY3RLagG9AdJhce8fbd-9_0Mw=s2048-c-k-c0x00ffffff-no-rj"></itunes:image>
+        <itunes:summary><![CDATA[在iOS平台上借助workflow和a-shell搭建专属的播客服务器。]]></itunes:summary>
+        <itunes:image href="https://raw.githubusercontent.com/gruel-zxz/podflow/main/Podflow_dark.png"></itunes:image>
         <itunes:explicit>no</itunes:explicit>
         <itunes:category text="TV &amp; Film"></itunes:category>
 <!-- {UC9RS8EzXdRJyYDkwtcsWOuA} -->
@@ -562,69 +557,6 @@
 #伊藤潤二 #恐怖 #日本 #次文化]]></itunes:summary>
             <itunes:image href="https://i4.ytimg.com/vi/_YRpbqikGFE/hqdefault.jpg"></itunes:image>
             <itunes:duration>28:38</itunes:duration>
-            <itunes:explicit>no</itunes:explicit>
-            <itunes:order>1</itunes:order>
-        </item>
-<!-- UC9RS8EzXdRJyYDkwtcsWOuA -->
-        <item>
-            <guid>bJpwtXTqd0w</guid>
-            <title>日本素人美女拍🅰️✅賺錢竟是為了這個?! 🅰️✅導演爆料👩優的“加錢”拍攝項目!｜對話🦄️F©️2華人導演（下）</title>
-            <link>https://youtube.com/watch?v=bJpwtXTqd0w</link>
-            <description>『TenGuSan』&#xA;▶ 訂閱我的頻道：http://bit.ly/2NdPZid&#xA;00:00-01:09 引子&#xA;01:09-05:01 女演員的面試和體檢&#xA;05:01-06:23 女演員最重要的素質是什麼？&#xA;06:23-07:17 日本和中國的審美區別&#xA;07:17-11:50 素人當女演員原來是為了這個？&#xA;11:50-13:02 女演員的合同長什麼樣&#xA;13:02-13:37 每次拍攝得有多辛苦&#xA;13:37-15:55 拍攝中的突發事件&#xA;15:55-16:38 更變態的女演員&#xA;16:38-19:09 內🐍是怎麼一回事？&#xA;19:09-22:51 男演員到底有多卑微&#xA;22:51-24:43 這個行業誰功勞最大&#xA;24:43-25:07 日本🅰️✅工會是什麼&#xA;25:07-26:35 用戶調查和F©️2演算法&#xA;26:35-27:30 🅰️✅是純商品還是文化&#xA;27:30-29:33 白嫖的觀眾有價值嗎&#xA;29:33-33:01 成人自媒體時代來了？&#xA;33:01-33:52 片尾&#xA;專注亞文化內容分享&#xA;如果你喜歡我的頻道，希望你訂閱、點讚、留言，謝謝！&#xA;-------------------------------------------------------------------------------&#xA;▶追蹤TenGuSan的IG：@tengusan.real&#xA;▶我的品牌官網：www.under20.com</description>
-            <pubDate>Wed, 14 Jun 2023 12:00:34 +0000</pubDate>
-            <enclosure url="https://raw.githubusercontent.com/gruel-zxz/podflow/main/channel_audiovisual/UC9RS8EzXdRJyYDkwtcsWOuA/bJpwtXTqd0w.m4a" length="32856877" type="audio/x-m4a"></enclosure>
-            <itunes:author>日本素人美女拍🅰️✅賺錢竟是為了這個?! 🅰️✅導演爆料👩優的“加錢”拍攝項目!｜對話🦄️F©️2華人導演（下）</itunes:author>
-            <itunes:subtitle>日本素人美女拍🅰️✅賺錢竟是為了這個?! 🅰️✅導演爆料👩優的“加錢”拍攝項目!｜對話🦄️F©️2華人導演（下）</itunes:subtitle>
-            <itunes:summary><![CDATA[『TenGuSan』
-▶ 訂閱我的頻道：http://bit.ly/2NdPZid
-00:00-01:09 引子
-01:09-05:01 女演員的面試和體檢
-05:01-06:23 女演員最重要的素質是什麼？
-06:23-07:17 日本和中國的審美區別
-07:17-11:50 素人當女演員原來是為了這個？
-11:50-13:02 女演員的合同長什麼樣
-13:02-13:37 每次拍攝得有多辛苦
-13:37-15:55 拍攝中的突發事件
-15:55-16:38 更變態的女演員
-16:38-19:09 內🐍是怎麼一回事？
-19:09-22:51 男演員到底有多卑微
-22:51-24:43 這個行業誰功勞最大
-24:43-25:07 日本🅰️✅工會是什麼
-25:07-26:35 用戶調查和F©️2演算法
-26:35-27:30 🅰️✅是純商品還是文化
-27:30-29:33 白嫖的觀眾有價值嗎
-29:33-33:01 成人自媒體時代來了？
-33:01-33:52 片尾
-專注亞文化內容分享
-如果你喜歡我的頻道，希望你訂閱、點讚、留言，謝謝！
--------------------------------------------------------------------------------
-▶追蹤TenGuSan的IG：@tengusan.real
-▶我的品牌官網：www.under20.com]]></itunes:summary>
-            <itunes:image href="https://i3.ytimg.com/vi/bJpwtXTqd0w/hqdefault.jpg"></itunes:image>
-            <itunes:duration>33:52</itunes:duration>
-            <itunes:explicit>no</itunes:explicit>
-            <itunes:order>1</itunes:order>
-        </item>
-<!-- UC9RS8EzXdRJyYDkwtcsWOuA -->
-        <item>
-            <guid>iBw75MqnFs0</guid>
-            <title>【預告】🅰️✅導演親歷：拍攝現場突發狀況！女優提出勁爆要求？!🦄️F©️2金牌🅰️✅導演真實無禁忌分享（下）</title>
-            <link>https://youtube.com/watch?v=iBw75MqnFs0</link>
-            <description>『TenGuSan』&#xA;▶ 訂閱我的頻道：http://bit.ly/2NdPZid&#xA;對話FC2金牌華人導演，下集預告，週三晚8:00發布&#xA;專注亞文化內容分享&#xA;如果你喜歡我的頻道，希望你訂閱、點讚、留言，謝謝！&#xA;-------------------------------------------------------------------------------&#xA;▶追蹤TenGuSan的IG：@tengusan.real&#xA;▶我的品牌官網：www.under20.com</description>
-            <pubDate>Tue, 13 Jun 2023 09:00:12 +0000</pubDate>
-            <enclosure url="https://raw.githubusercontent.com/gruel-zxz/podflow/main/channel_audiovisual/UC9RS8EzXdRJyYDkwtcsWOuA/iBw75MqnFs0.m4a" length="797533" type="audio/x-m4a"></enclosure>
-            <itunes:author>【預告】🅰️✅導演親歷：拍攝現場突發狀況！女優提出勁爆要求？!🦄️F©️2金牌🅰️✅導演真實無禁忌分享（下）</itunes:author>
-            <itunes:subtitle>【預告】🅰️✅導演親歷：拍攝現場突發狀況！女優提出勁爆要求？!🦄️F©️2金牌🅰️✅導演真實無禁忌分享（下）</itunes:subtitle>
-            <itunes:summary><![CDATA[『TenGuSan』
-▶ 訂閱我的頻道：http://bit.ly/2NdPZid
-對話FC2金牌華人導演，下集預告，週三晚8:00發布
-專注亞文化內容分享
-如果你喜歡我的頻道，希望你訂閱、點讚、留言，謝謝！
--------------------------------------------------------------------------------
-▶追蹤TenGuSan的IG：@tengusan.real
-▶我的品牌官網：www.under20.com]]></itunes:summary>
-            <itunes:image href="https://i2.ytimg.com/vi/iBw75MqnFs0/hqdefault.jpg"></itunes:image>
-            <itunes:duration>00:49</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
             <itunes:order>1</itunes:order>
         </item>

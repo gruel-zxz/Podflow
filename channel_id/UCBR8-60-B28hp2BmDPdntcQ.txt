@@ -27,8 +27,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/t-PScA8j1mg/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="688" average="5.00" min="1" max="5"/>
-    <media:statistics views="12149"/>
+    <media:starRating count="745" average="5.00" min="1" max="5"/>
+    <media:statistics views="13600"/>
    </media:community>
   </media:group>
  </entry>
@@ -50,8 +50,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/DJ2JQJRxHNs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1701" average="5.00" min="1" max="5"/>
-    <media:statistics views="48381"/>
+    <media:starRating count="1712" average="5.00" min="1" max="5"/>
+    <media:statistics views="48872"/>
    </media:community>
   </media:group>
  </entry>
@@ -73,8 +73,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/qki4vpkxvgM/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2066" average="5.00" min="1" max="5"/>
-    <media:statistics views="52202"/>
+    <media:starRating count="2081" average="5.00" min="1" max="5"/>
+    <media:statistics views="52574"/>
    </media:community>
   </media:group>
  </entry>
@@ -96,8 +96,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/lxdOQNQYmBo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2232" average="5.00" min="1" max="5"/>
-    <media:statistics views="57862"/>
+    <media:starRating count="2238" average="5.00" min="1" max="5"/>
+    <media:statistics views="58098"/>
    </media:community>
   </media:group>
  </entry>
@@ -119,8 +119,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/N07z_gt7nAs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1969" average="5.00" min="1" max="5"/>
-    <media:statistics views="45872"/>
+    <media:starRating count="1976" average="5.00" min="1" max="5"/>
+    <media:statistics views="46053"/>
    </media:community>
   </media:group>
  </entry>
@@ -142,8 +142,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/ZW_Z0_IA7ZI/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3388" average="5.00" min="1" max="5"/>
-    <media:statistics views="69137"/>
+    <media:starRating count="3398" average="5.00" min="1" max="5"/>
+    <media:statistics views="69264"/>
    </media:community>
   </media:group>
  </entry>
@@ -165,13 +165,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/2jXTHZHQ0C0/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-<<<<<<< HEAD
-    <media:starRating count="3629" average="5.00" min="1" max="5"/>
-    <media:statistics views="70312"/>
-=======
-    <media:starRating count="659" average="5.00" min="1" max="5"/>
-    <media:statistics views="8919"/>
->>>>>>> parent of 0b84bbf (202312261403)
+    <media:starRating count="3631" average="5.00" min="1" max="5"/>
+    <media:statistics views="70397"/>
    </media:community>
   </media:group>
  </entry>
@@ -193,13 +188,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/RJKMtataH78/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-<<<<<<< HEAD
-    <media:starRating count="3082" average="5.00" min="1" max="5"/>
-    <media:statistics views="68681"/>
-=======
-    <media:starRating count="1513" average="5.00" min="1" max="5"/>
-    <media:statistics views="24606"/>
->>>>>>> parent of 0b84bbf (202312261403)
+    <media:starRating count="3087" average="5.00" min="1" max="5"/>
+    <media:statistics views="68786"/>
    </media:community>
   </media:group>
  </entry>
@@ -221,13 +211,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/i1hZQjZaYS8/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-<<<<<<< HEAD
-    <media:starRating count="2319" average="5.00" min="1" max="5"/>
-    <media:statistics views="71236"/>
-=======
-    <media:starRating count="1386" average="5.00" min="1" max="5"/>
-    <media:statistics views="33067"/>
->>>>>>> parent of 0b84bbf (202312261403)
+    <media:starRating count="2326" average="5.00" min="1" max="5"/>
+    <media:statistics views="71362"/>
    </media:community>
   </media:group>
  </entry>
@@ -274,13 +259,8 @@ https://www.youtube.com/watch?v=ImL2oQ_FxfU&amp;list=PL-ZXraMeHBPLZWTMFc3n43JdBg
 
 #youtube #LikeAndDescribe #trending</media:description>
    <media:community>
-<<<<<<< HEAD
-    <media:starRating count="2433" average="5.00" min="1" max="5"/>
-    <media:statistics views="847099"/>
-=======
-    <media:starRating count="1120" average="5.00" min="1" max="5"/>
-    <media:statistics views="213220"/>
->>>>>>> parent of 0b84bbf (202312261403)
+    <media:starRating count="2440" average="5.00" min="1" max="5"/>
+    <media:statistics views="831724"/>
    </media:community>
   </media:group>
  </entry>
@@ -302,13 +282,8 @@ https://www.youtube.com/watch?v=ImL2oQ_FxfU&amp;list=PL-ZXraMeHBPLZWTMFc3n43JdBg
    <media:thumbnail url="https://i3.ytimg.com/vi/JWIVJlXtzeA/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-<<<<<<< HEAD
-    <media:starRating count="3101" average="5.00" min="1" max="5"/>
-    <media:statistics views="89774"/>
-=======
-    <media:starRating count="2102" average="5.00" min="1" max="5"/>
-    <media:statistics views="53303"/>
->>>>>>> parent of 0b84bbf (202312261403)
+    <media:starRating count="3110" average="5.00" min="1" max="5"/>
+    <media:statistics views="89885"/>
    </media:community>
   </media:group>
  </entry>
@@ -330,13 +305,8 @@ https://www.youtube.com/watch?v=ImL2oQ_FxfU&amp;list=PL-ZXraMeHBPLZWTMFc3n43JdBg
    <media:thumbnail url="https://i1.ytimg.com/vi/hCbrZ1AKnHA/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-<<<<<<< HEAD
-    <media:starRating count="929" average="5.00" min="1" max="5"/>
-    <media:statistics views="32770"/>
-=======
-    <media:starRating count="536" average="5.00" min="1" max="5"/>
-    <media:statistics views="20129"/>
->>>>>>> parent of 0b84bbf (202312261403)
+    <media:starRating count="931" average="5.00" min="1" max="5"/>
+    <media:statistics views="32820"/>
    </media:community>
   </media:group>
  </entry>
@@ -358,13 +328,8 @@ https://www.youtube.com/watch?v=ImL2oQ_FxfU&amp;list=PL-ZXraMeHBPLZWTMFc3n43JdBg
    <media:thumbnail url="https://i3.ytimg.com/vi/F0fBpUU3a-o/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-<<<<<<< HEAD
-    <media:starRating count="2470" average="5.00" min="1" max="5"/>
-    <media:statistics views="68138"/>
-=======
-    <media:starRating count="2007" average="5.00" min="1" max="5"/>
-    <media:statistics views="51373"/>
->>>>>>> parent of 0b84bbf (202312261403)
+    <media:starRating count="2474" average="5.00" min="1" max="5"/>
+    <media:statistics views="68203"/>
    </media:community>
   </media:group>
  </entry>
@@ -386,13 +351,8 @@ https://www.youtube.com/watch?v=ImL2oQ_FxfU&amp;list=PL-ZXraMeHBPLZWTMFc3n43JdBg
    <media:thumbnail url="https://i4.ytimg.com/vi/sKVQN8SHxBE/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-<<<<<<< HEAD
-    <media:starRating count="3010" average="5.00" min="1" max="5"/>
-    <media:statistics views="98359"/>
-=======
-    <media:starRating count="2353" average="5.00" min="1" max="5"/>
-    <media:statistics views="68741"/>
->>>>>>> parent of 0b84bbf (202312261403)
+    <media:starRating count="3015" average="5.00" min="1" max="5"/>
+    <media:statistics views="98461"/>
    </media:community>
   </media:group>
  </entry>
@@ -414,164 +374,8 @@ https://www.youtube.com/watch?v=ImL2oQ_FxfU&amp;list=PL-ZXraMeHBPLZWTMFc3n43JdBg
    <media:thumbnail url="https://i4.ytimg.com/vi/3EFqFGp4E60/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-<<<<<<< HEAD
-    <media:starRating count="2507" average="5.00" min="1" max="5"/>
-    <media:statistics views="75292"/>
-=======
-    <media:starRating count="1981" average="5.00" min="1" max="5"/>
-    <media:statistics views="53489"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:FBk36cXzkOU</id>
-  <yt:videoId>FBk36cXzkOU</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>you could say vlogging runs in this creator's family...</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=FBk36cXzkOU"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2023-12-12T17:00:12+00:00</published>
-  <updated>2023-12-16T07:09:06+00:00</updated>
-  <media:group>
-   <media:title>you could say vlogging runs in this creator's family...</media:title>
-   <media:content url="https://www.youtube.com/v/FBk36cXzkOU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/FBk36cXzkOU/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="1967" average="5.00" min="1" max="5"/>
-    <media:statistics views="68820"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:WqpyNQQLSmc</id>
-  <yt:videoId>WqpyNQQLSmc</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>@AlishaMarie visits the ghosts of vlogmas past 👻🎄</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=WqpyNQQLSmc"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2023-12-09T15:30:22+00:00</published>
-  <updated>2023-12-18T15:40:21+00:00</updated>
-  <media:group>
-   <media:title>@AlishaMarie visits the ghosts of vlogmas past 👻🎄</media:title>
-   <media:content url="https://www.youtube.com/v/WqpyNQQLSmc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/WqpyNQQLSmc/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="1977" average="5.00" min="1" max="5"/>
-    <media:statistics views="70484"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:6-AaRIfLhD8</id>
-  <yt:videoId>6-AaRIfLhD8</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>this is us if you even care</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=6-AaRIfLhD8"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2023-12-08T23:30:11+00:00</published>
-  <updated>2023-12-18T15:40:29+00:00</updated>
-  <media:group>
-   <media:title>this is us if you even care</media:title>
-   <media:content url="https://www.youtube.com/v/6-AaRIfLhD8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/6-AaRIfLhD8/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="3445" average="5.00" min="1" max="5"/>
-    <media:statistics views="101447"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:gjWem-emN2w</id>
-  <yt:videoId>gjWem-emN2w</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>celebrating THINK LATER release day w @TateMcRae shorts on Shorts 💎💋 @mikaelaaluv #KissesToMyExes</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=gjWem-emN2w"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2023-12-08T17:34:36+00:00</published>
-  <updated>2023-12-18T15:40:41+00:00</updated>
-  <media:group>
-   <media:title>celebrating THINK LATER release day w @TateMcRae shorts on Shorts 💎💋 @mikaelaaluv #KissesToMyExes</media:title>
-   <media:content url="https://www.youtube.com/v/gjWem-emN2w?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/gjWem-emN2w/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="1656" average="5.00" min="1" max="5"/>
-    <media:statistics views="60063"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:jvJqtCJwHmQ</id>
-  <yt:videoId>jvJqtCJwHmQ</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>honestly a channel hosted by kurt and his kindergarten teacher sounds awesome @KurtTocci @amandumbb</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=jvJqtCJwHmQ"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2023-12-07T17:00:20+00:00</published>
-  <updated>2023-12-07T17:05:19+00:00</updated>
-  <media:group>
-   <media:title>honestly a channel hosted by kurt and his kindergarten teacher sounds awesome @KurtTocci @amandumbb</media:title>
-   <media:content url="https://www.youtube.com/v/jvJqtCJwHmQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/jvJqtCJwHmQ/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="1962" average="5.00" min="1" max="5"/>
-    <media:statistics views="77736"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:Rb0k9vUCEno</id>
-  <yt:videoId>Rb0k9vUCEno</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>@AlishaMarie talks Vlogmas, DIY fails, and her most viral video | YouTube Watch History</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=Rb0k9vUCEno"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2023-12-07T15:00:20+00:00</published>
-  <updated>2023-12-16T15:30:19+00:00</updated>
-  <media:group>
-   <media:title>@AlishaMarie talks Vlogmas, DIY fails, and her most viral video | YouTube Watch History</media:title>
-   <media:content url="https://www.youtube.com/v/Rb0k9vUCEno?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/Rb0k9vUCEno/hqdefault.jpg" width="480" height="360"/>
-   <media:description>Did someone say vlogmas?!?! 
-
-The Holidays are upon us and YouTube’s OG vlogmas creator, Alisha Marie, sits down to share what’s in her YouTube Watch History. As she gears up for her 10th year of vlogmas, we get a peak at what festive content she’s been watching to prepare. 
-
-From dishing on her biggest DIY fails, to her viral catfish moment, to her favorite vloggers of all time, Alisha Marie tells all on what she’s been watching and what she’d recommend this holiday season!
-
-0:00 - 0:20 Intro
-0:20 - 3:13 Recent Videos
-3:13 - 5:21 Keyword Search
-5:21 - 9:06 Scavenger Hunt
-9:06 - 11:07 Holiday Spirit Playlist
-11:07 Final Thoughts
-
-#AlishaMarie #YouTube #WatchHistory #Vlogmas</media:description>
-   <media:community>
-    <media:starRating count="1403" average="5.00" min="1" max="5"/>
-    <media:statistics views="747133"/>
->>>>>>> parent of 0b84bbf (202312261403)
+    <media:starRating count="2511" average="5.00" min="1" max="5"/>
+    <media:statistics views="75384"/>
    </media:community>
   </media:group>
  </entry>

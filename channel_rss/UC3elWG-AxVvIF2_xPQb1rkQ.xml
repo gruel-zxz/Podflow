@@ -3,28 +3,21 @@
     <channel>
         <title>四季妈妈—小龙</title>
         <link>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</link>
-        <description>十年电视节目主持人。
-
-来来来，我们来聊聊婚姻生活那点事儿。
-</description>
+        <description>在iOS平台上借助workflow和a-shell搭建专属的播客服务器。</description>
         <category>TV &amp; Film</category>
         <generator>Podflow (support us at https://github.com/gruel-zxz/podflow)</generator>
         <language>en-us</language>
-<<<<<<< HEAD
-        <lastBuildDate>Tue, 09 Jan 2024 02:44:59 +0000</lastBuildDate>
-=======
-        <lastBuildDate>Mon, 25 Dec 2023 05:33:13 +0000</lastBuildDate>
->>>>>>> parent of 0b84bbf (202312261403)
+        <lastBuildDate>Tue, 09 Jan 2024 05:07:48 +0000</lastBuildDate>
         <pubDate>Sun, 24 Apr 2005 11:20:54 +0800</pubDate>
         <image>
-            <url>https://yt3.googleusercontent.com/xCkxVoAagKoB-CZ53-3RaS5dOI-6Fy_VTSb9LLkci1Rx5ynIqRJ5yxmM4qJo8mTynOHbGWczRA=s2048-c-k-c0x00ffffff-no-rj</url>
+            <url>https://raw.githubusercontent.com/gruel-zxz/podflow/main/Podflow_dark.png</url>
             <title>四季妈妈—小龙</title>
             <link>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</link>
         </image>
         <itunes:author>四季妈妈—小龙</itunes:author>
         <itunes:subtitle>四季妈妈—小龙</itunes:subtitle>
-        <itunes:summary><![CDATA[十年电视节目主持人。&#xA;&#xA;来来来，我们来聊聊婚姻生活那点事儿。&#xA;]]></itunes:summary>
-        <itunes:image href="https://yt3.googleusercontent.com/xCkxVoAagKoB-CZ53-3RaS5dOI-6Fy_VTSb9LLkci1Rx5ynIqRJ5yxmM4qJo8mTynOHbGWczRA=s2048-c-k-c0x00ffffff-no-rj"></itunes:image>
+        <itunes:summary><![CDATA[在iOS平台上借助workflow和a-shell搭建专属的播客服务器。]]></itunes:summary>
+        <itunes:image href="https://raw.githubusercontent.com/gruel-zxz/podflow/main/Podflow_dark.png"></itunes:image>
         <itunes:explicit>no</itunes:explicit>
         <itunes:category text="TV &amp; Film"></itunes:category>
 <!-- {UC3elWG-AxVvIF2_xPQb1rkQ} -->
@@ -82,44 +75,6 @@
 别忘了点赞、订阅，并在评论区分享您对新年的期许和祝福。让我们共同期待，新的一年里笑对人生，笑迎幸福！#新年快乐 #幸福笑容 #家庭欢聚]]></itunes:summary>
             <itunes:image href="https://i1.ytimg.com/vi/LW9OjputNZw/hqdefault.jpg"></itunes:image>
             <itunes:duration>01:00</itunes:duration>
-            <itunes:explicit>no</itunes:explicit>
-            <itunes:order>1</itunes:order>
-        </item>
-<!-- UC3elWG-AxVvIF2_xPQb1rkQ -->
-        <item>
-            <guid>Vc5kiaqqTuw</guid>
-            <title>后备箱“秘密档案”揭晓！看看男人的后备箱里都有什么？爱吐槽的四季妈妈大公开！#家庭吐槽大会</title>
-            <link>https://youtube.com/watch?v=Vc5kiaqqTuw</link>
-            <description>『四季妈妈—小龙』&#xA;大家好，欢迎回到我的频道！今天我们要深入后备箱，揭开男人们的“秘密档案”，看看后备箱里都藏着什么宝贝？通过爱吐槽的四季妈妈的独特视角，我将以轻松幽默的方式为大家解开后备箱的神秘面纱，并分享一些家庭吐槽的趣事。&#xA;在这期视频中，我们将一同瞄准后备箱，探索男人们的“私人领地”，看看是否也触及了你的好奇心。当然，这是以娱乐为主，希望大家能在欢笑中轻松愉快。&#xA;别忘了点赞、订阅，并在评论区分享您对这一话题的看法和自己的后备箱趣事。一起来参与这场后备箱“秘密档案”的吐槽大会吧！#后备箱探秘 #幽默观察 #笑中解压</description>
-            <pubDate>Mon, 01 Jan 2024 08:31:23 +0000</pubDate>
-            <enclosure url="https://raw.githubusercontent.com/gruel-zxz/podflow/main/channel_audiovisual/UC3elWG-AxVvIF2_xPQb1rkQ/Vc5kiaqqTuw.m4a" length="1226690" type="audio/x-m4a"></enclosure>
-            <itunes:author>后备箱“秘密档案”揭晓！看看男人的后备箱里都有什么？爱吐槽的四季妈妈大公开！#家庭吐槽大会</itunes:author>
-            <itunes:subtitle>后备箱“秘密档案”揭晓！看看男人的后备箱里都有什么？爱吐槽的四季妈妈大公开！#家庭吐槽大会</itunes:subtitle>
-            <itunes:summary><![CDATA[『四季妈妈—小龙』
-大家好，欢迎回到我的频道！今天我们要深入后备箱，揭开男人们的“秘密档案”，看看后备箱里都藏着什么宝贝？通过爱吐槽的四季妈妈的独特视角，我将以轻松幽默的方式为大家解开后备箱的神秘面纱，并分享一些家庭吐槽的趣事。
-在这期视频中，我们将一同瞄准后备箱，探索男人们的“私人领地”，看看是否也触及了你的好奇心。当然，这是以娱乐为主，希望大家能在欢笑中轻松愉快。
-别忘了点赞、订阅，并在评论区分享您对这一话题的看法和自己的后备箱趣事。一起来参与这场后备箱“秘密档案”的吐槽大会吧！#后备箱探秘 #幽默观察 #笑中解压]]></itunes:summary>
-            <itunes:image href="https://i3.ytimg.com/vi/Vc5kiaqqTuw/hqdefault.jpg"></itunes:image>
-            <itunes:duration>01:16</itunes:duration>
-            <itunes:explicit>no</itunes:explicit>
-            <itunes:order>1</itunes:order>
-        </item>
-<!-- UC3elWG-AxVvIF2_xPQb1rkQ -->
-        <item>
-            <guid>GbTZzq1sGnM</guid>
-            <title>男人的专一面，爱吐槽的四季妈妈为你揭秘！#家庭吐槽大会</title>
-            <link>https://youtube.com/watch?v=GbTZzq1sGnM</link>
-            <description>『四季妈妈—小龙』&#xA;大家好，欢迎回到我的频道！今天我们要谈论一个有趣的话题：男人对待生活是否都如此专一？通过爱吐槽的四季妈妈的独特视角，我将以轻松幽默的方式为大家揭秘男人的专一面，并分享一些家庭吐槽的趣事。&#xA;在这期视频中，我们将一同探讨男人在生活中表现出的专一态度，看看是否在你的家庭中也有相似的场景。当然，这是以娱乐为主，希望大家能在欢笑中轻松愉快。&#xA;别忘了点赞、订阅，并在评论区分享您对这一话题的看法和自己的经验。一起来参与这场男人专一面的吐槽大会吧！#男人生活 #幽默观察 #笑中解压</description>
-            <pubDate>Wed, 27 Dec 2023 01:53:11 +0000</pubDate>
-            <enclosure url="https://raw.githubusercontent.com/gruel-zxz/podflow/main/channel_audiovisual/UC3elWG-AxVvIF2_xPQb1rkQ/GbTZzq1sGnM.m4a" length="920858" type="audio/x-m4a"></enclosure>
-            <itunes:author>男人的专一面，爱吐槽的四季妈妈为你揭秘！#家庭吐槽大会</itunes:author>
-            <itunes:subtitle>男人的专一面，爱吐槽的四季妈妈为你揭秘！#家庭吐槽大会</itunes:subtitle>
-            <itunes:summary><![CDATA[『四季妈妈—小龙』
-大家好，欢迎回到我的频道！今天我们要谈论一个有趣的话题：男人对待生活是否都如此专一？通过爱吐槽的四季妈妈的独特视角，我将以轻松幽默的方式为大家揭秘男人的专一面，并分享一些家庭吐槽的趣事。
-在这期视频中，我们将一同探讨男人在生活中表现出的专一态度，看看是否在你的家庭中也有相似的场景。当然，这是以娱乐为主，希望大家能在欢笑中轻松愉快。
-别忘了点赞、订阅，并在评论区分享您对这一话题的看法和自己的经验。一起来参与这场男人专一面的吐槽大会吧！#男人生活 #幽默观察 #笑中解压]]></itunes:summary>
-            <itunes:image href="https://i4.ytimg.com/vi/GbTZzq1sGnM/hqdefault.jpg"></itunes:image>
-            <itunes:duration>00:57</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
             <itunes:order>1</itunes:order>
         </item>
