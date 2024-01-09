@@ -7,7 +7,11 @@
         <category>TV &amp; Film</category>
         <generator>Podflow (support us at https://github.com/gruel-zxz/podflow)</generator>
         <language>en-us</language>
-        <lastBuildDate>Tue, 26 Dec 2023 06:01:50 +0000</lastBuildDate>
+<<<<<<< HEAD
+        <lastBuildDate>Tue, 09 Jan 2024 02:45:01 +0000</lastBuildDate>
+=======
+        <lastBuildDate>Mon, 25 Dec 2023 05:33:15 +0000</lastBuildDate>
+>>>>>>> parent of 0b84bbf (202312261403)
         <pubDate>Sun, 24 Apr 2005 11:20:54 +0800</pubDate>
         <image>
             <url>https://yt3.googleusercontent.com/ytc/AIf8zZRHilE6jSKCAhCrNb2_dUS7ReJUYPXr5l73LoGu=s2048-c-k-c0x00ffffff-no-rj</url>
@@ -21,6 +25,41 @@
         <itunes:explicit>no</itunes:explicit>
         <itunes:category text="TV &amp; Film"></itunes:category>
 <!-- {UCp1nO1bgVwks9b5EhKQGVag} -->
+<!-- UCp1nO1bgVwks9b5EhKQGVag -->
+        <item>
+            <guid>hxYk-IYXCHk</guid>
+            <title>时空穿越的奥秘，探寻宇宙的终极真相：《宇宙全能侦探社》</title>
+            <link>https://youtube.com/watch?v=hxYk-IYXCHk</link>
+            <description>『幻海航行--science fiction』&#xA;时空穿越的无尽奥秘，探寻宇宙的终极真相：《宇宙全能侦探社》，上集。&#xA;原著：道格拉斯亚当斯，一位搞怪又不失科幻内核的作家。</description>
+            <pubDate>Mon, 08 Jan 2024 07:59:00 +0000</pubDate>
+            <enclosure url="https://raw.githubusercontent.com/gruel-zxz/podflow/main/channel_audiovisual/UCp1nO1bgVwks9b5EhKQGVag/hxYk-IYXCHk.m4a" length="16455114" type="audio/x-m4a"></enclosure>
+            <itunes:author>时空穿越的奥秘，探寻宇宙的终极真相：《宇宙全能侦探社》</itunes:author>
+            <itunes:subtitle>时空穿越的奥秘，探寻宇宙的终极真相：《宇宙全能侦探社》</itunes:subtitle>
+            <itunes:summary><![CDATA[『幻海航行--science fiction』
+时空穿越的无尽奥秘，探寻宇宙的终极真相：《宇宙全能侦探社》，上集。
+原著：道格拉斯亚当斯，一位搞怪又不失科幻内核的作家。]]></itunes:summary>
+            <itunes:image href="https://i1.ytimg.com/vi/hxYk-IYXCHk/hqdefault.jpg"></itunes:image>
+            <itunes:duration>16:58</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:order>1</itunes:order>
+        </item>
+<!-- UCp1nO1bgVwks9b5EhKQGVag -->
+        <item>
+            <guid>k_ZrLJMFE98</guid>
+            <title>给AI投喂海量数据，它能计算出未来吗？科幻名著《世界上所有的烦恼》</title>
+            <link>https://youtube.com/watch?v=k_ZrLJMFE98</link>
+            <description>『幻海航行--science fiction』&#xA;《世界上所有的烦恼》，原著：阿西莫夫，出自阿西莫夫科幻短篇全集、 阿西莫夫的这个短篇系列终于出版了！阿西莫夫最神的就是他的短篇，所谓：人类近50年来的科技进步，一直在追赶阿西莫夫科幻小说的脚步。</description>
+            <pubDate>Fri, 29 Dec 2023 17:38:45 +0000</pubDate>
+            <enclosure url="https://raw.githubusercontent.com/gruel-zxz/podflow/main/channel_audiovisual/UCp1nO1bgVwks9b5EhKQGVag/k_ZrLJMFE98.m4a" length="14475223" type="audio/x-m4a"></enclosure>
+            <itunes:author>给AI投喂海量数据，它能计算出未来吗？科幻名著《世界上所有的烦恼》</itunes:author>
+            <itunes:subtitle>给AI投喂海量数据，它能计算出未来吗？科幻名著《世界上所有的烦恼》</itunes:subtitle>
+            <itunes:summary><![CDATA[『幻海航行--science fiction』
+《世界上所有的烦恼》，原著：阿西莫夫，出自阿西莫夫科幻短篇全集、 阿西莫夫的这个短篇系列终于出版了！阿西莫夫最神的就是他的短篇，所谓：人类近50年来的科技进步，一直在追赶阿西莫夫科幻小说的脚步。]]></itunes:summary>
+            <itunes:image href="https://i4.ytimg.com/vi/k_ZrLJMFE98/hqdefault.jpg"></itunes:image>
+            <itunes:duration>14:55</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:order>1</itunes:order>
+        </item>
 <!-- UCp1nO1bgVwks9b5EhKQGVag -->
         <item>
             <guid>MR_wrpZo9S0</guid>

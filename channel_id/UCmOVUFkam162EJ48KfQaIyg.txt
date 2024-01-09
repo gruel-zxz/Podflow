@@ -21,7 +21,7 @@
    <uri>https://www.youtube.com/channel/UCmOVUFkam162EJ48KfQaIyg</uri>
   </author>
   <published>2023-08-27T23:41:49+00:00</published>
-  <updated>2023-12-16T00:17:28+00:00</updated>
+  <updated>2023-12-27T02:36:13+00:00</updated>
   <media:group>
    <media:title>一万美元一只的Infinity手枪（20230827第6284期）</media:title>
    <media:content url="https://www.youtube.com/v/QgJZKrtZZ6E?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -80,8 +80,13 @@ https://youtu.be/BbtTwsP_-zc
 
 Twitter：stone记@stone62855987</media:description>
    <media:community>
+<<<<<<< HEAD
+    <media:starRating count="43" average="5.00" min="1" max="5"/>
+    <media:statistics views="8066"/>
+=======
     <media:starRating count="41" average="5.00" min="1" max="5"/>
-    <media:statistics views="7926"/>
+    <media:statistics views="7924"/>
+>>>>>>> parent of 0b84bbf (202312261403)
    </media:community>
   </media:group>
  </entry>
@@ -156,7 +161,11 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="31" average="5.00" min="1" max="5"/>
-    <media:statistics views="7144"/>
+<<<<<<< HEAD
+    <media:statistics views="7260"/>
+=======
+    <media:statistics views="7137"/>
+>>>>>>> parent of 0b84bbf (202312261403)
    </media:community>
   </media:group>
  </entry>
@@ -171,7 +180,7 @@ Twitter：stone记@stone62855987</media:description>
    <uri>https://www.youtube.com/channel/UCmOVUFkam162EJ48KfQaIyg</uri>
   </author>
   <published>2023-06-30T22:30:00+00:00</published>
-  <updated>2023-12-19T00:12:11+00:00</updated>
+  <updated>2023-12-28T07:56:57+00:00</updated>
   <media:group>
    <media:title>Benelli M4可调节6个位置的stock tube，俄罗斯蹲（20230630第6114期）</media:title>
    <media:content url="https://www.youtube.com/v/5D-getPqCW8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -231,7 +240,11 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="18" average="5.00" min="1" max="5"/>
-    <media:statistics views="3951"/>
+<<<<<<< HEAD
+    <media:statistics views="3989"/>
+=======
+    <media:statistics views="3950"/>
+>>>>>>> parent of 0b84bbf (202312261403)
    </media:community>
   </media:group>
  </entry>
@@ -246,7 +259,7 @@ Twitter：stone记@stone62855987</media:description>
    <uri>https://www.youtube.com/channel/UCmOVUFkam162EJ48KfQaIyg</uri>
   </author>
   <published>2023-05-29T06:13:33+00:00</published>
-  <updated>2023-11-05T22:46:55+00:00</updated>
+  <updated>2024-01-03T01:08:10+00:00</updated>
   <media:group>
    <media:title>手枪的三种手部握持方法（20230529第6004期）</media:title>
    <media:content url="https://www.youtube.com/v/5Y2yIzUPYP0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -306,7 +319,11 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="16" average="5.00" min="1" max="5"/>
-    <media:statistics views="2871"/>
+<<<<<<< HEAD
+    <media:statistics views="2910"/>
+=======
+    <media:statistics views="2873"/>
+>>>>>>> parent of 0b84bbf (202312261403)
    </media:community>
   </media:group>
  </entry>
@@ -380,8 +397,8 @@ https://youtu.be/BbtTwsP_-zc
 
 Twitter：stone记@stone62855987</media:description>
    <media:community>
-    <media:starRating count="15" average="5.00" min="1" max="5"/>
-    <media:statistics views="3247"/>
+    <media:starRating count="16" average="5.00" min="1" max="5"/>
+    <media:statistics views="3288"/>
    </media:community>
   </media:group>
  </entry>
@@ -396,7 +413,7 @@ Twitter：stone记@stone62855987</media:description>
    <uri>https://www.youtube.com/channel/UCmOVUFkam162EJ48KfQaIyg</uri>
   </author>
   <published>2023-05-23T04:15:00+00:00</published>
-  <updated>2023-11-12T13:34:56+00:00</updated>
+  <updated>2023-12-26T22:03:43+00:00</updated>
   <media:group>
    <media:title>JP5 对比 CMMG Banshee 300（20230522第5984期）</media:title>
    <media:content url="https://www.youtube.com/v/kCPR17fMDOU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -456,7 +473,11 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="28" average="5.00" min="1" max="5"/>
-    <media:statistics views="3843"/>
+<<<<<<< HEAD
+    <media:statistics views="3874"/>
+=======
+    <media:statistics views="3841"/>
+>>>>>>> parent of 0b84bbf (202312261403)
    </media:community>
   </media:group>
  </entry>
@@ -471,7 +492,7 @@ Twitter：stone记@stone62855987</media:description>
    <uri>https://www.youtube.com/channel/UCmOVUFkam162EJ48KfQaIyg</uri>
   </author>
   <published>2023-05-18T15:30:02+00:00</published>
-  <updated>2023-11-08T12:14:48+00:00</updated>
+  <updated>2023-12-28T21:45:35+00:00</updated>
   <media:group>
    <media:title>订制了5个月，JP5终于到了（20230518第5974期）</media:title>
    <media:content url="https://www.youtube.com/v/MbGAUvonlZ4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -531,7 +552,11 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="29" average="5.00" min="1" max="5"/>
-    <media:statistics views="5781"/>
+<<<<<<< HEAD
+    <media:statistics views="5794"/>
+=======
+    <media:statistics views="5780"/>
+>>>>>>> parent of 0b84bbf (202312261403)
    </media:community>
   </media:group>
  </entry>
@@ -606,7 +631,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="15" average="5.00" min="1" max="5"/>
-    <media:statistics views="1807"/>
+    <media:statistics views="1809"/>
    </media:community>
   </media:group>
  </entry>
@@ -621,7 +646,7 @@ Twitter：stone记@stone62855987</media:description>
    <uri>https://www.youtube.com/channel/UCmOVUFkam162EJ48KfQaIyg</uri>
   </author>
   <published>2023-05-07T08:00:08+00:00</published>
-  <updated>2023-11-22T20:57:48+00:00</updated>
+  <updated>2024-01-08T22:14:55+00:00</updated>
   <media:group>
    <media:title>Moon Clip左轮手枪的专属弹夹（202305067第5944期）</media:title>
    <media:content url="https://www.youtube.com/v/DZuGRXLFvwE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -681,7 +706,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="11" average="5.00" min="1" max="5"/>
-    <media:statistics views="2813"/>
+    <media:statistics views="2815"/>
    </media:community>
   </media:group>
  </entry>
@@ -756,7 +781,11 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="33" average="5.00" min="1" max="5"/>
-    <media:statistics views="4765"/>
+<<<<<<< HEAD
+    <media:statistics views="4769"/>
+=======
+    <media:statistics views="4764"/>
+>>>>>>> parent of 0b84bbf (202312261403)
    </media:community>
   </media:group>
  </entry>
@@ -831,7 +860,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="35" average="5.00" min="1" max="5"/>
-    <media:statistics views="5848"/>
+    <media:statistics views="5854"/>
    </media:community>
   </media:group>
  </entry>
@@ -846,7 +875,7 @@ Twitter：stone记@stone62855987</media:description>
    <uri>https://www.youtube.com/channel/UCmOVUFkam162EJ48KfQaIyg</uri>
   </author>
   <published>2023-04-06T11:21:35+00:00</published>
-  <updated>2023-12-16T04:59:44+00:00</updated>
+  <updated>2023-12-27T19:22:38+00:00</updated>
   <media:group>
    <media:title>Careful：MPA DS9 use red loctite on the optic mount and thumb rest screws（20230406第5854期）</media:title>
    <media:content url="https://www.youtube.com/v/BlMjk-dE-X8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -905,8 +934,13 @@ https://youtu.be/BbtTwsP_-zc
 
 Twitter：stone记@stone62855987</media:description>
    <media:community>
+<<<<<<< HEAD
     <media:starRating count="81" average="5.00" min="1" max="5"/>
+    <media:statistics views="8410"/>
+=======
+    <media:starRating count="82" average="5.00" min="1" max="5"/>
     <media:statistics views="8395"/>
+>>>>>>> parent of 0b84bbf (202312261403)
    </media:community>
   </media:group>
  </entry>
@@ -921,7 +955,7 @@ Twitter：stone记@stone62855987</media:description>
    <uri>https://www.youtube.com/channel/UCmOVUFkam162EJ48KfQaIyg</uri>
   </author>
   <published>2023-04-03T08:46:55+00:00</published>
-  <updated>2023-12-21T23:15:12+00:00</updated>
+  <updated>2023-12-27T16:42:16+00:00</updated>
   <media:group>
    <media:title>MPA DS9 Comp Open and Atlas Erebus 1500 Round Review（20230403第5844期）</media:title>
    <media:content url="https://www.youtube.com/v/-o-DaVgJfQg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -981,7 +1015,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="29" average="5.00" min="1" max="5"/>
-    <media:statistics views="4025"/>
+    <media:statistics views="4031"/>
    </media:community>
   </media:group>
  </entry>
@@ -996,7 +1030,7 @@ Twitter：stone记@stone62855987</media:description>
    <uri>https://www.youtube.com/channel/UCmOVUFkam162EJ48KfQaIyg</uri>
   </author>
   <published>2023-03-11T22:11:19+00:00</published>
-  <updated>2023-11-09T18:52:00+00:00</updated>
+  <updated>2024-01-02T16:17:38+00:00</updated>
   <media:group>
    <media:title>2023 shot show Walther（20230311第5754期）</media:title>
    <media:content url="https://www.youtube.com/v/UJ3fb_7fvww?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -1056,7 +1090,11 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="13" average="5.00" min="1" max="5"/>
-    <media:statistics views="3330"/>
+<<<<<<< HEAD
+    <media:statistics views="3332"/>
+=======
+    <media:statistics views="3329"/>
+>>>>>>> parent of 0b84bbf (202312261403)
    </media:community>
   </media:group>
  </entry>
@@ -1071,7 +1109,7 @@ Twitter：stone记@stone62855987</media:description>
    <uri>https://www.youtube.com/channel/UCmOVUFkam162EJ48KfQaIyg</uri>
   </author>
   <published>2023-03-08T17:45:01+00:00</published>
-  <updated>2023-12-19T00:23:10+00:00</updated>
+  <updated>2023-12-28T13:09:38+00:00</updated>
   <media:group>
    <media:title>2023 shot show SPRINGFIELD 1911 DS prodigy（20230307第5744期）</media:title>
    <media:content url="https://www.youtube.com/v/5VZFIleh4JY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -1131,7 +1169,11 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="2080"/>
+<<<<<<< HEAD
+    <media:statistics views="2081"/>
+=======
+    <media:statistics views="2078"/>
+>>>>>>> parent of 0b84bbf (202312261403)
    </media:community>
   </media:group>
  </entry>

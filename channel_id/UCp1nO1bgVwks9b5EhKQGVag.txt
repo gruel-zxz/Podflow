@@ -11,6 +11,53 @@
  </author>
  <published>2017-04-12T00:43:27+00:00</published>
  <entry>
+  <id>yt:video:hxYk-IYXCHk</id>
+  <yt:videoId>hxYk-IYXCHk</yt:videoId>
+  <yt:channelId>UCp1nO1bgVwks9b5EhKQGVag</yt:channelId>
+  <title>时空穿越的奥秘，探寻宇宙的终极真相：《宇宙全能侦探社》</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=hxYk-IYXCHk"/>
+  <author>
+   <name>幻海航行--science fiction</name>
+   <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
+  </author>
+  <published>2024-01-08T07:59:00+00:00</published>
+  <updated>2024-01-08T08:05:34+00:00</updated>
+  <media:group>
+   <media:title>时空穿越的奥秘，探寻宇宙的终极真相：《宇宙全能侦探社》</media:title>
+   <media:content url="https://www.youtube.com/v/hxYk-IYXCHk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/hxYk-IYXCHk/hqdefault.jpg" width="480" height="360"/>
+   <media:description>时空穿越的无尽奥秘，探寻宇宙的终极真相：《宇宙全能侦探社》，上集。
+原著：道格拉斯亚当斯，一位搞怪又不失科幻内核的作家。</media:description>
+   <media:community>
+    <media:starRating count="40" average="5.00" min="1" max="5"/>
+    <media:statistics views="1909"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:k_ZrLJMFE98</id>
+  <yt:videoId>k_ZrLJMFE98</yt:videoId>
+  <yt:channelId>UCp1nO1bgVwks9b5EhKQGVag</yt:channelId>
+  <title>给AI投喂海量数据，它能计算出未来吗？科幻名著《世界上所有的烦恼》</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=k_ZrLJMFE98"/>
+  <author>
+   <name>幻海航行--science fiction</name>
+   <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
+  </author>
+  <published>2023-12-29T17:38:45+00:00</published>
+  <updated>2023-12-30T06:56:10+00:00</updated>
+  <media:group>
+   <media:title>给AI投喂海量数据，它能计算出未来吗？科幻名著《世界上所有的烦恼》</media:title>
+   <media:content url="https://www.youtube.com/v/k_ZrLJMFE98?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/k_ZrLJMFE98/hqdefault.jpg" width="480" height="360"/>
+   <media:description>《世界上所有的烦恼》，原著：阿西莫夫，出自阿西莫夫科幻短篇全集、 阿西莫夫的这个短篇系列终于出版了！阿西莫夫最神的就是他的短篇，所谓：人类近50年来的科技进步，一直在追赶阿西莫夫科幻小说的脚步。</media:description>
+   <media:community>
+    <media:starRating count="115" average="5.00" min="1" max="5"/>
+    <media:statistics views="5589"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:MR_wrpZo9S0</id>
   <yt:videoId>MR_wrpZo9S0</yt:videoId>
   <yt:channelId>UCp1nO1bgVwks9b5EhKQGVag</yt:channelId>
@@ -21,15 +68,20 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2023-12-21T05:54:00+00:00</published>
-  <updated>2023-12-21T07:33:01+00:00</updated>
+  <updated>2023-12-27T08:16:18+00:00</updated>
   <media:group>
    <media:title>一个中子星文明的毁灭与重生：《星震》大结局</media:title>
    <media:content url="https://www.youtube.com/v/MR_wrpZo9S0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i2.ytimg.com/vi/MR_wrpZo9S0/hqdefault.jpg" width="480" height="360"/>
    <media:description>一个中子星文明的毁灭与重生：《星震》大结局</media:description>
    <media:community>
-    <media:starRating count="67" average="5.00" min="1" max="5"/>
-    <media:statistics views="3320"/>
+<<<<<<< HEAD
+    <media:starRating count="83" average="5.00" min="1" max="5"/>
+    <media:statistics views="4466"/>
+=======
+    <media:starRating count="63" average="5.00" min="1" max="5"/>
+    <media:statistics views="3167"/>
+>>>>>>> parent of 0b84bbf (202312261403)
    </media:community>
   </media:group>
  </entry>
@@ -44,7 +96,7 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2023-12-14T04:37:33+00:00</published>
-  <updated>2023-12-14T07:07:04+00:00</updated>
+  <updated>2023-12-28T04:34:54+00:00</updated>
   <media:group>
    <media:title>《龙蛋》续集《星震》：一个诞生于中子星上的文明！</media:title>
    <media:content url="https://www.youtube.com/v/W_UNH0JY05Y?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -52,8 +104,13 @@
    <media:description>《星震》作为《龙蛋》的续集，很好的继承了前作的“硬核”科幻风格，并且作者罗伯特·福沃德对故事剧情做了不小的优化，很好的承接了上集的剧情。我们一起来欣赏一下吧。
 时隔几年，终于更新到这部了！</media:description>
    <media:community>
-    <media:starRating count="97" average="5.00" min="1" max="5"/>
-    <media:statistics views="5638"/>
+<<<<<<< HEAD
+    <media:starRating count="106" average="5.00" min="1" max="5"/>
+    <media:statistics views="6305"/>
+=======
+    <media:starRating count="96" average="5.00" min="1" max="5"/>
+    <media:statistics views="5544"/>
+>>>>>>> parent of 0b84bbf (202312261403)
    </media:community>
   </media:group>
  </entry>
@@ -75,8 +132,13 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/Pns8RLiQeoI/hqdefault.jpg" width="480" height="360"/>
    <media:description>如何骗走人类的十年时间：科幻名著《抉择》，原著：小松左京。这部小说收录于《科幻之路》系列。</media:description>
    <media:community>
-    <media:starRating count="114" average="5.00" min="1" max="5"/>
-    <media:statistics views="6569"/>
+<<<<<<< HEAD
+    <media:starRating count="116" average="5.00" min="1" max="5"/>
+    <media:statistics views="7029"/>
+=======
+    <media:starRating count="113" average="5.00" min="1" max="5"/>
+    <media:statistics views="6543"/>
+>>>>>>> parent of 0b84bbf (202312261403)
    </media:community>
   </media:group>
  </entry>
@@ -91,7 +153,7 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2023-11-24T04:14:20+00:00</published>
-  <updated>2023-11-24T06:37:05+00:00</updated>
+  <updated>2024-01-02T03:00:01+00:00</updated>
   <media:group>
    <media:title>人类的终局之战——《XeeLee》宇宙大结局！</media:title>
    <media:content url="https://www.youtube.com/v/2SnwxJEb_6k?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -100,8 +162,13 @@
 本系列更新完结，原计划十多期内容现在压缩到了五集，奈何精力和财力有限阿....
 不过主线剧情已经更新完毕，未收录的内容仅剩下人类最终生活在小宇宙中的场景。</media:description>
    <media:community>
-    <media:starRating count="520" average="5.00" min="1" max="5"/>
-    <media:statistics views="33979"/>
+<<<<<<< HEAD
+    <media:starRating count="530" average="5.00" min="1" max="5"/>
+    <media:statistics views="35382"/>
+=======
+    <media:starRating count="518" average="5.00" min="1" max="5"/>
+    <media:statistics views="33796"/>
+>>>>>>> parent of 0b84bbf (202312261403)
    </media:community>
   </media:group>
  </entry>
@@ -116,15 +183,20 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2023-11-17T08:51:40+00:00</published>
-  <updated>2023-11-18T12:26:06+00:00</updated>
+  <updated>2024-01-05T01:55:29+00:00</updated>
   <media:group>
    <media:title>打破时间壁垒，世界迎来新生！科幻名作《单孔衍射》</media:title>
    <media:content url="https://www.youtube.com/v/8-sJeE2YF2Q?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i1.ytimg.com/vi/8-sJeE2YF2Q/hqdefault.jpg" width="480" height="360"/>
    <media:description>《单孔衍射》出自科幻短篇集《完美末日》。作者刘洋：科幻作家，物理学博士，代表作《火星孤儿》《勾股2.013》等。这是第二次更新这位科幻作家的作品，希望大家喜欢。这部小说中提出了非常有有趣的“时间壁垒”概念。</media:description>
    <media:community>
+<<<<<<< HEAD
+    <media:starRating count="138" average="5.00" min="1" max="5"/>
+    <media:statistics views="8030"/>
+=======
     <media:starRating count="135" average="5.00" min="1" max="5"/>
-    <media:statistics views="7711"/>
+    <media:statistics views="7681"/>
+>>>>>>> parent of 0b84bbf (202312261403)
    </media:community>
   </media:group>
  </entry>
@@ -139,7 +211,7 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2023-11-11T07:16:57+00:00</published>
-  <updated>2023-11-11T08:01:33+00:00</updated>
+  <updated>2023-12-27T20:22:14+00:00</updated>
   <media:group>
    <media:title>如何用数学去证伪人类的情感——科幻神作《除以零》</media:title>
    <media:content url="https://www.youtube.com/v/c58vLZDXlGM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -147,8 +219,13 @@
    <media:description>《除以零》，作者：特德姜，出自科幻小说集《你一生的故事》
 这是我们最喜欢的作品之一，作者以极为另类的写作方式用数学公式描述了一对人们的情感，堪称神作！</media:description>
    <media:community>
+<<<<<<< HEAD
+    <media:starRating count="223" average="5.00" min="1" max="5"/>
+    <media:statistics views="11290"/>
+=======
     <media:starRating count="217" average="5.00" min="1" max="5"/>
-    <media:statistics views="11028"/>
+    <media:statistics views="10999"/>
+>>>>>>> parent of 0b84bbf (202312261403)
    </media:community>
   </media:group>
  </entry>
@@ -170,8 +247,13 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/TY-ce_fiWK8/hqdefault.jpg" width="480" height="360"/>
    <media:description>本期更新一期克苏鲁神话（非科幻内容）极北坚冰，食人梦魇——克苏鲁神话巅峰之作《虚境奇谭》</media:description>
    <media:community>
+<<<<<<< HEAD
+    <media:starRating count="209" average="5.00" min="1" max="5"/>
+    <media:statistics views="12882"/>
+=======
     <media:starRating count="207" average="5.00" min="1" max="5"/>
-    <media:statistics views="12479"/>
+    <media:statistics views="12446"/>
+>>>>>>> parent of 0b84bbf (202312261403)
    </media:community>
   </media:group>
  </entry>
@@ -186,7 +268,7 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2023-11-02T04:09:51+00:00</published>
-  <updated>2023-12-21T04:00:28+00:00</updated>
+  <updated>2024-01-03T20:22:30+00:00</updated>
   <media:group>
    <media:title>数学天才与疯子赌徒之间，正如上帝的左右手：《橱窗里的荷兰赌徒》下集</media:title>
    <media:content url="https://www.youtube.com/v/vaL_wf-krtU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -194,7 +276,11 @@
    <media:description>科幻小说《橱窗里的荷兰赌徒》，作者李兴春，银河奖获奖作品，是一部不可多得的国产佳作。所谓：数学天才与疯子赌徒之间，正如上帝的左右手。</media:description>
    <media:community>
     <media:starRating count="66" average="5.00" min="1" max="5"/>
-    <media:statistics views="3750"/>
+<<<<<<< HEAD
+    <media:statistics views="3851"/>
+=======
+    <media:statistics views="3743"/>
+>>>>>>> parent of 0b84bbf (202312261403)
    </media:community>
   </media:group>
  </entry>
@@ -209,15 +295,20 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2023-10-27T09:21:08+00:00</published>
-  <updated>2023-12-04T00:52:32+00:00</updated>
+  <updated>2024-01-06T03:11:07+00:00</updated>
   <media:group>
    <media:title>如果全人类同时闭上眼睛，宇宙将会发生何种变化？科幻小说《阖上眼五秒钟》</media:title>
    <media:content url="https://www.youtube.com/v/fFlG_zkErLQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i3.ytimg.com/vi/fFlG_zkErLQ/hqdefault.jpg" width="480" height="360"/>
    <media:description>科幻小说《阖上眼五秒钟》，作者遥控，作品刊登于早年的科幻世界杂志上，是个有趣的小说。</media:description>
    <media:community>
+<<<<<<< HEAD
+    <media:starRating count="117" average="5.00" min="1" max="5"/>
+    <media:statistics views="7136"/>
+=======
     <media:starRating count="116" average="5.00" min="1" max="5"/>
-    <media:statistics views="6946"/>
+    <media:statistics views="6941"/>
+>>>>>>> parent of 0b84bbf (202312261403)
    </media:community>
   </media:group>
  </entry>
@@ -239,8 +330,13 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/5Z3O9vtMAvI/hqdefault.jpg" width="480" height="360"/>
    <media:description>人类史上第一位时间穿越者，居然成功了！经典科幻解读，原著：宝树.</media:description>
    <media:community>
+<<<<<<< HEAD
+    <media:starRating count="101" average="5.00" min="1" max="5"/>
+    <media:statistics views="5947"/>
+=======
     <media:starRating count="100" average="5.00" min="1" max="5"/>
-    <media:statistics views="5805"/>
+    <media:statistics views="5797"/>
+>>>>>>> parent of 0b84bbf (202312261403)
    </media:community>
   </media:group>
  </entry>
@@ -264,7 +360,11 @@
 虽然过去了二十多年，但是好的作品值得让大家记得，分上下集发布</media:description>
    <media:community>
     <media:starRating count="105" average="5.00" min="1" max="5"/>
-    <media:statistics views="6077"/>
+<<<<<<< HEAD
+    <media:statistics views="6187"/>
+=======
+    <media:statistics views="6067"/>
+>>>>>>> parent of 0b84bbf (202312261403)
    </media:community>
   </media:group>
  </entry>
@@ -279,7 +379,7 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2023-10-08T09:08:09+00:00</published>
-  <updated>2023-12-20T00:14:41+00:00</updated>
+  <updated>2024-01-03T00:41:44+00:00</updated>
   <media:group>
    <media:title>人类洞悉宇宙后，开始主动入侵地外文明：XeeLee宇宙4</media:title>
    <media:content url="https://www.youtube.com/v/aAdgvEUeUoo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -287,8 +387,13 @@
    <media:description>人类洞悉宇宙后，开始主动入侵地外文明：XeeLee宇宙4。主线剧情从本期就开始了。
 下来尽量在3期内搞定这个系列。</media:description>
    <media:community>
+<<<<<<< HEAD
+    <media:starRating count="209" average="5.00" min="1" max="5"/>
+    <media:statistics views="12132"/>
+=======
     <media:starRating count="208" average="5.00" min="1" max="5"/>
-    <media:statistics views="11903"/>
+    <media:statistics views="11881"/>
+>>>>>>> parent of 0b84bbf (202312261403)
    </media:community>
   </media:group>
  </entry>
@@ -303,15 +408,19 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2023-10-04T03:14:39+00:00</published>
-  <updated>2023-11-25T03:46:52+00:00</updated>
+  <updated>2023-12-28T23:51:17+00:00</updated>
   <media:group>
    <media:title>在时间加速的情况下，数字生命也可以飞向星空：科幻名著《晶体之夜》</media:title>
    <media:content url="https://www.youtube.com/v/0UdW8Gaxdek?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i1.ytimg.com/vi/0UdW8Gaxdek/hqdefault.jpg" width="480" height="360"/>
    <media:description>在时间加速的情况下，数字生命也可以飞向星空——科幻小说《晶体之夜》，出自格雷格.伊根（Greg Egan）的短篇小说集《数学陷落》Oceanic。</media:description>
    <media:community>
+<<<<<<< HEAD
+    <media:starRating count="176" average="5.00" min="1" max="5"/>
+    <media:statistics views="8296"/>
+=======
     <media:starRating count="175" average="5.00" min="1" max="5"/>
-    <media:statistics views="8082"/>
+    <media:statistics views="8072"/>
    </media:community>
   </media:group>
  </entry>
@@ -335,7 +444,7 @@
 这部40万字的长篇硬核科幻啊！人类无处可逃，因为地球也不过是另一艘飞船：科幻巨著《极光》大结局</media:description>
    <media:community>
     <media:starRating count="242" average="5.00" min="1" max="5"/>
-    <media:statistics views="17192"/>
+    <media:statistics views="17186"/>
    </media:community>
   </media:group>
  </entry>
@@ -357,8 +466,9 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/XmYvQwYO_jk/hqdefault.jpg" width="480" height="360"/>
    <media:description>一艘1/10光速的飞船回归地球，它该如何减速？科幻巨著《极光》第二集。</media:description>
    <media:community>
-    <media:starRating count="174" average="5.00" min="1" max="5"/>
-    <media:statistics views="11139"/>
+    <media:starRating count="175" average="5.00" min="1" max="5"/>
+    <media:statistics views="11132"/>
+>>>>>>> parent of 0b84bbf (202312261403)
    </media:community>
   </media:group>
  </entry>

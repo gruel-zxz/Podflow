@@ -11,6 +11,62 @@
  </author>
  <published>2019-12-25T10:15:50+00:00</published>
  <entry>
+  <id>yt:video:guABXP7SbW0</id>
+  <yt:videoId>guABXP7SbW0</yt:videoId>
+  <yt:channelId>UC85kpcAcVipOQQ7EEHbX55w</yt:channelId>
+  <title>宇宙第一渣男，跟他好過的女人都不得好死，殺妻狂魔亨利八世！</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=guABXP7SbW0"/>
+  <author>
+   <name>佬K奇談</name>
+   <uri>https://www.youtube.com/channel/UC85kpcAcVipOQQ7EEHbX55w</uri>
+  </author>
+  <published>2024-01-05T12:30:25+00:00</published>
+  <updated>2024-01-05T12:30:25+00:00</updated>
+  <media:group>
+   <media:title>宇宙第一渣男，跟他好過的女人都不得好死，殺妻狂魔亨利八世！</media:title>
+   <media:content url="https://www.youtube.com/v/guABXP7SbW0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/guABXP7SbW0/hqdefault.jpg" width="480" height="360"/>
+   <media:description>成为此频道的会员：
+https://www.youtube.com/channel/UC85kpcAcVipOQQ7EEHbX55w/join
+
+#佬K奇談#老K奇谈
+歡迎訂閱☞https://is.gd/Av4UlQ
+聽佬K給妳們講奇聞異事以及各种未解之謎，以不同的視角講述妳知道的或不知道的故事。喜歡我的視頻請點贊，開啓小鈴鐺第一時間接收最新影片通知</media:description>
+   <media:community>
+    <media:starRating count="3662" average="5.00" min="1" max="5"/>
+    <media:statistics views="92348"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:WoNNW_cQj7M</id>
+  <yt:videoId>WoNNW_cQj7M</yt:videoId>
+  <yt:channelId>UC85kpcAcVipOQQ7EEHbX55w</yt:channelId>
+  <title>海濱小城突发連環侵犯案，兇手好不容易落網，新案件卻又发生了！</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=WoNNW_cQj7M"/>
+  <author>
+   <name>佬K奇談</name>
+   <uri>https://www.youtube.com/channel/UC85kpcAcVipOQQ7EEHbX55w</uri>
+  </author>
+  <published>2023-12-29T12:30:26+00:00</published>
+  <updated>2023-12-29T12:30:26+00:00</updated>
+  <media:group>
+   <media:title>海濱小城突发連環侵犯案，兇手好不容易落網，新案件卻又发生了！</media:title>
+   <media:content url="https://www.youtube.com/v/WoNNW_cQj7M?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/WoNNW_cQj7M/hqdefault.jpg" width="480" height="360"/>
+   <media:description>成为此频道的会员：
+https://www.youtube.com/channel/UC85kpcAcVipOQQ7EEHbX55w/join
+
+#佬K奇談#老K奇谈
+歡迎訂閱☞https://is.gd/Av4UlQ
+聽佬K給妳們講奇聞異事以及各种未解之謎，以不同的視角講述妳知道的或不知道的故事。喜歡我的視頻請點贊，開啓小鈴鐺第一時間接收最新影片通知</media:description>
+   <media:community>
+    <media:starRating count="5008" average="5.00" min="1" max="5"/>
+    <media:statistics views="145284"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:GslCo7CWBT8</id>
   <yt:videoId>GslCo7CWBT8</yt:videoId>
   <yt:channelId>UC85kpcAcVipOQQ7EEHbX55w</yt:channelId>
@@ -21,7 +77,7 @@
    <uri>https://www.youtube.com/channel/UC85kpcAcVipOQQ7EEHbX55w</uri>
   </author>
   <published>2023-12-22T12:30:13+00:00</published>
-  <updated>2023-12-22T12:30:16+00:00</updated>
+  <updated>2023-12-27T21:23:47+00:00</updated>
   <media:group>
    <media:title>女子殞命公園，兇手竟是位偵探小説家，她不僅能逃過製裁還差點得奧斯卡獎！</media:title>
    <media:content url="https://www.youtube.com/v/GslCo7CWBT8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -33,8 +89,13 @@ https://www.youtube.com/channel/UC85kpcAcVipOQQ7EEHbX55w/join
 歡迎訂閱☞https://is.gd/Av4UlQ
 聽佬K給妳們講奇聞異事以及各种未解之謎，以不同的視角講述妳知道的或不知道的故事。喜歡我的視頻請點贊，開啓小鈴鐺第一時間接收最新影片通知</media:description>
    <media:community>
-    <media:starRating count="4755" average="5.00" min="1" max="5"/>
-    <media:statistics views="141393"/>
+<<<<<<< HEAD
+    <media:starRating count="6035" average="5.00" min="1" max="5"/>
+    <media:statistics views="224246"/>
+=======
+    <media:starRating count="4400" average="5.00" min="1" max="5"/>
+    <media:statistics views="123245"/>
+>>>>>>> parent of 0b84bbf (202312261403)
    </media:community>
   </media:group>
  </entry>
@@ -61,8 +122,13 @@ https://www.youtube.com/channel/UC85kpcAcVipOQQ7EEHbX55w/join
 歡迎訂閱☞https://is.gd/Av4UlQ
 聽佬K給妳們講奇聞異事以及各种未解之謎，以不同的視角講述妳知道的或不知道的故事。喜歡我的視頻請點贊，開啓小鈴鐺第一時間接收最新影片通知</media:description>
    <media:community>
-    <media:starRating count="4634" average="5.00" min="1" max="5"/>
-    <media:statistics views="134693"/>
+<<<<<<< HEAD
+    <media:starRating count="4953" average="5.00" min="1" max="5"/>
+    <media:statistics views="153273"/>
+=======
+    <media:starRating count="4599" average="5.00" min="1" max="5"/>
+    <media:statistics views="132595"/>
+>>>>>>> parent of 0b84bbf (202312261403)
    </media:community>
   </media:group>
  </entry>
@@ -77,7 +143,7 @@ https://www.youtube.com/channel/UC85kpcAcVipOQQ7EEHbX55w/join
    <uri>https://www.youtube.com/channel/UC85kpcAcVipOQQ7EEHbX55w</uri>
   </author>
   <published>2023-12-08T12:30:30+00:00</published>
-  <updated>2023-12-20T18:21:43+00:00</updated>
+  <updated>2023-12-28T04:53:31+00:00</updated>
   <media:group>
    <media:title>富太太遭綁架撕票，當兇手落網之時，巨大的麻煩也隨之而來！</media:title>
    <media:content url="https://www.youtube.com/v/Ta7nSMjauBM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -89,8 +155,13 @@ https://www.youtube.com/channel/UC85kpcAcVipOQQ7EEHbX55w/join
 歡迎訂閱☞https://is.gd/Av4UlQ
 聽佬K給妳們講奇聞異事以及各种未解之謎，以不同的視角講述妳知道的或不知道的故事。喜歡我的視頻請點贊，開啓小鈴鐺第一時間接收最新影片通知</media:description>
    <media:community>
-    <media:starRating count="6480" average="5.00" min="1" max="5"/>
-    <media:statistics views="193857"/>
+<<<<<<< HEAD
+    <media:starRating count="6885" average="5.00" min="1" max="5"/>
+    <media:statistics views="213571"/>
+=======
+    <media:starRating count="6439" average="5.00" min="1" max="5"/>
+    <media:statistics views="192048"/>
+>>>>>>> parent of 0b84bbf (202312261403)
    </media:community>
   </media:group>
  </entry>
@@ -117,8 +188,13 @@ https://www.youtube.com/channel/UC85kpcAcVipOQQ7EEHbX55w/join
 歡迎訂閱☞https://is.gd/Av4UlQ
 聽佬K給妳們講奇聞異事以及各种未解之謎，以不同的視角講述妳知道的或不知道的故事。喜歡我的視頻請點贊，開啓小鈴鐺第一時間接收最新影片通知</media:description>
    <media:community>
-    <media:starRating count="16828" average="5.00" min="1" max="5"/>
-    <media:statistics views="611770"/>
+<<<<<<< HEAD
+    <media:starRating count="17288" average="5.00" min="1" max="5"/>
+    <media:statistics views="639421"/>
+=======
+    <media:starRating count="16787" average="5.00" min="1" max="5"/>
+    <media:statistics views="609141"/>
+>>>>>>> parent of 0b84bbf (202312261403)
    </media:community>
   </media:group>
  </entry>
@@ -133,7 +209,7 @@ https://www.youtube.com/channel/UC85kpcAcVipOQQ7EEHbX55w/join
    <uri>https://www.youtube.com/channel/UC85kpcAcVipOQQ7EEHbX55w</uri>
   </author>
   <published>2023-11-24T12:30:09+00:00</published>
-  <updated>2023-11-24T13:27:54+00:00</updated>
+  <updated>2023-12-28T10:42:40+00:00</updated>
   <media:group>
    <media:title>多名女性無故中毒，兇手不僅蹤跡全無，還敢敲詐警方，結局完全出人意料！</media:title>
    <media:content url="https://www.youtube.com/v/CG6hAXr4eV4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -145,8 +221,13 @@ https://www.youtube.com/channel/UC85kpcAcVipOQQ7EEHbX55w/join
 歡迎訂閱☞https://is.gd/Av4UlQ
 聽佬K給妳們講奇聞異事以及各种未解之謎，以不同的視角講述妳知道的或不知道的故事。喜歡我的視頻請點贊，開啓小鈴鐺第一時間接收最新影片通知</media:description>
    <media:community>
-    <media:starRating count="4683" average="5.00" min="1" max="5"/>
-    <media:statistics views="136608"/>
+<<<<<<< HEAD
+    <media:starRating count="4805" average="5.00" min="1" max="5"/>
+    <media:statistics views="143508"/>
+=======
+    <media:starRating count="4673" average="5.00" min="1" max="5"/>
+    <media:statistics views="136108"/>
+>>>>>>> parent of 0b84bbf (202312261403)
    </media:community>
   </media:group>
  </entry>
@@ -161,7 +242,7 @@ https://www.youtube.com/channel/UC85kpcAcVipOQQ7EEHbX55w/join
    <uri>https://www.youtube.com/channel/UC85kpcAcVipOQQ7EEHbX55w</uri>
   </author>
   <published>2023-11-17T12:30:02+00:00</published>
-  <updated>2023-11-17T12:30:02+00:00</updated>
+  <updated>2024-01-07T05:17:26+00:00</updated>
   <media:group>
    <media:title>新婚妻子發現丈夫和通緝犯的照片很像，於是她化身成了偵探！</media:title>
    <media:content url="https://www.youtube.com/v/2iDx6xcce4Q?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -173,8 +254,13 @@ https://www.youtube.com/channel/UC85kpcAcVipOQQ7EEHbX55w/join
 歡迎訂閱☞https://is.gd/Av4UlQ
 聽佬K給妳們講奇聞異事以及各种未解之謎，以不同的視角講述妳知道的或不知道的故事。喜歡我的視頻請點贊，開啓小鈴鐺第一時間接收最新影片通知</media:description>
    <media:community>
-    <media:starRating count="6415" average="5.00" min="1" max="5"/>
-    <media:statistics views="197432"/>
+<<<<<<< HEAD
+    <media:starRating count="6620" average="5.00" min="1" max="5"/>
+    <media:statistics views="209831"/>
+=======
+    <media:starRating count="6401" average="5.00" min="1" max="5"/>
+    <media:statistics views="196371"/>
+>>>>>>> parent of 0b84bbf (202312261403)
    </media:community>
   </media:group>
  </entry>
@@ -189,7 +275,7 @@ https://www.youtube.com/channel/UC85kpcAcVipOQQ7EEHbX55w/join
    <uri>https://www.youtube.com/channel/UC85kpcAcVipOQQ7EEHbX55w</uri>
   </author>
   <published>2023-11-15T12:00:55+00:00</published>
-  <updated>2023-11-15T12:58:40+00:00</updated>
+  <updated>2023-12-27T08:20:31+00:00</updated>
   <media:group>
    <media:title>製造巫術？報復社會？那些和食物有關的奇葩犯罪！</media:title>
    <media:content url="https://www.youtube.com/v/yG1eODqYk88?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -201,8 +287,13 @@ https://www.youtube.com/channel/UC85kpcAcVipOQQ7EEHbX55w/join
 歡迎訂閱☞https://is.gd/Av4UlQ
 聽佬K給妳們講奇聞異事以及各种未解之謎，以不同的視角講述妳知道的或不知道的故事。喜歡我的視頻請點贊，開啓小鈴鐺第一時間接收最新影片通知</media:description>
    <media:community>
-    <media:starRating count="4063" average="5.00" min="1" max="5"/>
-    <media:statistics views="88461"/>
+<<<<<<< HEAD
+    <media:starRating count="4103" average="5.00" min="1" max="5"/>
+    <media:statistics views="90439"/>
+=======
+    <media:starRating count="4057" average="5.00" min="1" max="5"/>
+    <media:statistics views="88273"/>
+>>>>>>> parent of 0b84bbf (202312261403)
    </media:community>
   </media:group>
  </entry>
@@ -229,8 +320,13 @@ https://www.youtube.com/channel/UC85kpcAcVipOQQ7EEHbX55w/join
 歡迎訂閱☞https://is.gd/Av4UlQ
 聽佬K給妳們講奇聞異事以及各种未解之謎，以不同的視角講述妳知道的或不知道的故事。喜歡我的視頻請點贊，開啓小鈴鐺第一時間接收最新影片通知</media:description>
    <media:community>
-    <media:starRating count="6698" average="5.00" min="1" max="5"/>
-    <media:statistics views="191667"/>
+<<<<<<< HEAD
+    <media:starRating count="6833" average="5.00" min="1" max="5"/>
+    <media:statistics views="199011"/>
+=======
+    <media:starRating count="6694" average="5.00" min="1" max="5"/>
+    <media:statistics views="191178"/>
+>>>>>>> parent of 0b84bbf (202312261403)
    </media:community>
   </media:group>
  </entry>
@@ -245,7 +341,7 @@ https://www.youtube.com/channel/UC85kpcAcVipOQQ7EEHbX55w/join
    <uri>https://www.youtube.com/channel/UC85kpcAcVipOQQ7EEHbX55w</uri>
   </author>
   <published>2023-11-03T12:30:03+00:00</published>
-  <updated>2023-11-22T20:06:28+00:00</updated>
+  <updated>2024-01-03T13:08:59+00:00</updated>
   <media:group>
    <media:title>富豪夫婦家中遇害，關鍵證人反成作案兇手，真相震碎三觀！</media:title>
    <media:content url="https://www.youtube.com/v/6ikWu-0lAEE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -257,8 +353,13 @@ https://www.youtube.com/channel/UC85kpcAcVipOQQ7EEHbX55w/join
 歡迎訂閱☞https://is.gd/Av4UlQ
 聽佬K給妳們講奇聞異事以及各种未解之謎，以不同的視角講述妳知道的或不知道的故事。喜歡我的視頻請點贊，開啓小鈴鐺第一時間接收最新影片通知</media:description>
    <media:community>
-    <media:starRating count="6023" average="5.00" min="1" max="5"/>
-    <media:statistics views="171388"/>
+<<<<<<< HEAD
+    <media:starRating count="6110" average="5.00" min="1" max="5"/>
+    <media:statistics views="176437"/>
+=======
+    <media:starRating count="6017" average="5.00" min="1" max="5"/>
+    <media:statistics views="171109"/>
+>>>>>>> parent of 0b84bbf (202312261403)
    </media:community>
   </media:group>
  </entry>
@@ -285,8 +386,13 @@ https://www.youtube.com/channel/UC85kpcAcVipOQQ7EEHbX55w/join
 歡迎訂閱☞https://is.gd/Av4UlQ
 聽佬K給妳們講奇聞異事以及各种未解之謎，以不同的視角講述妳知道的或不知道的故事。喜歡我的視頻請點贊，開啓小鈴鐺第一時間接收最新影片通知</media:description>
    <media:community>
-    <media:starRating count="6071" average="5.00" min="1" max="5"/>
-    <media:statistics views="213356"/>
+<<<<<<< HEAD
+    <media:starRating count="6168" average="5.00" min="1" max="5"/>
+    <media:statistics views="220994"/>
+=======
+    <media:starRating count="6061" average="5.00" min="1" max="5"/>
+    <media:statistics views="212757"/>
+>>>>>>> parent of 0b84bbf (202312261403)
    </media:community>
   </media:group>
  </entry>
@@ -313,8 +419,13 @@ https://www.youtube.com/channel/UC85kpcAcVipOQQ7EEHbX55w/join
 歡迎訂閱☞https://is.gd/Av4UlQ
 聽佬K給妳們講奇聞異事以及各种未解之謎，以不同的視角講述妳知道的或不知道的故事。喜歡我的視頻請點贊，開啓小鈴鐺第一時間接收最新影片通知</media:description>
    <media:community>
-    <media:starRating count="9250" average="5.00" min="1" max="5"/>
-    <media:statistics views="413448"/>
+<<<<<<< HEAD
+    <media:starRating count="9533" average="5.00" min="1" max="5"/>
+    <media:statistics views="430518"/>
+=======
+    <media:starRating count="9218" average="5.00" min="1" max="5"/>
+    <media:statistics views="411928"/>
+>>>>>>> parent of 0b84bbf (202312261403)
    </media:community>
   </media:group>
  </entry>
@@ -329,7 +440,7 @@ https://www.youtube.com/channel/UC85kpcAcVipOQQ7EEHbX55w/join
    <uri>https://www.youtube.com/channel/UC85kpcAcVipOQQ7EEHbX55w</uri>
   </author>
   <published>2023-10-18T12:00:26+00:00</published>
-  <updated>2023-11-17T13:30:24+00:00</updated>
+  <updated>2023-12-28T23:43:24+00:00</updated>
   <media:group>
    <media:title>為了躲避冤魂索命而建造的詭異建築，溫切斯特神秘屋的驚人隱秘！</media:title>
    <media:content url="https://www.youtube.com/v/HwCIFIkKMKU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -341,8 +452,13 @@ https://www.youtube.com/channel/UC85kpcAcVipOQQ7EEHbX55w/join
 歡迎訂閱☞https://is.gd/Av4UlQ
 聽佬K給妳們講奇聞異事以及各种未解之謎，以不同的視角講述妳知道的或不知道的故事。喜歡我的視頻請點贊，開啓小鈴鐺第一時間接收最新影片通知</media:description>
    <media:community>
-    <media:starRating count="4693" average="5.00" min="1" max="5"/>
-    <media:statistics views="112679"/>
+<<<<<<< HEAD
+    <media:starRating count="4754" average="5.00" min="1" max="5"/>
+    <media:statistics views="114919"/>
+=======
+    <media:starRating count="4687" average="5.00" min="1" max="5"/>
+    <media:statistics views="112468"/>
+>>>>>>> parent of 0b84bbf (202312261403)
    </media:community>
   </media:group>
  </entry>
@@ -357,7 +473,7 @@ https://www.youtube.com/channel/UC85kpcAcVipOQQ7EEHbX55w/join
    <uri>https://www.youtube.com/channel/UC85kpcAcVipOQQ7EEHbX55w</uri>
   </author>
   <published>2023-10-13T12:30:31+00:00</published>
-  <updated>2023-11-24T03:44:42+00:00</updated>
+  <updated>2023-12-26T23:34:35+00:00</updated>
   <media:group>
    <media:title>橄欖球巨星因女友的突然去世名聲大噪，半年後卻因一篇報道爆發驚天逆轉！</media:title>
    <media:content url="https://www.youtube.com/v/hXDpn79hsnw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -369,8 +485,12 @@ https://www.youtube.com/channel/UC85kpcAcVipOQQ7EEHbX55w/join
 歡迎訂閱☞https://is.gd/Av4UlQ
 聽佬K給妳們講奇聞異事以及各种未解之謎，以不同的視角講述妳知道的或不知道的故事。喜歡我的視頻請點贊，開啓小鈴鐺第一時間接收最新影片通知</media:description>
    <media:community>
-    <media:starRating count="4602" average="5.00" min="1" max="5"/>
-    <media:statistics views="155768"/>
+<<<<<<< HEAD
+    <media:starRating count="4670" average="5.00" min="1" max="5"/>
+    <media:statistics views="159991"/>
+=======
+    <media:starRating count="4597" average="5.00" min="1" max="5"/>
+    <media:statistics views="155419"/>
    </media:community>
   </media:group>
  </entry>
@@ -397,8 +517,8 @@ https://www.youtube.com/channel/UC85kpcAcVipOQQ7EEHbX55w/join
 歡迎訂閱☞https://is.gd/Av4UlQ
 聽佬K給妳們講奇聞異事以及各种未解之謎，以不同的視角講述妳知道的或不知道的故事。喜歡我的視頻請點贊，開啓小鈴鐺第一時間接收最新影片通知</media:description>
    <media:community>
-    <media:starRating count="5767" average="5.00" min="1" max="5"/>
-    <media:statistics views="220873"/>
+    <media:starRating count="5759" average="5.00" min="1" max="5"/>
+    <media:statistics views="220296"/>
    </media:community>
   </media:group>
  </entry>
@@ -424,8 +544,9 @@ https://www.youtube.com/channel/UC85kpcAcVipOQQ7EEHbX55w/join
 歡迎訂閱☞https://is.gd/Av4UlQ
 聽佬K給妳們講奇聞異事以及各种未解之謎，以不同的視角講述妳知道的或不知道的故事。喜歡我的視頻請點贊，開啓小鈴鐺第一時間接收最新影片通知</media:description>
    <media:community>
-    <media:starRating count="3475" average="5.00" min="1" max="5"/>
-    <media:statistics views="69034"/>
+    <media:starRating count="3472" average="5.00" min="1" max="5"/>
+    <media:statistics views="68982"/>
+>>>>>>> parent of 0b84bbf (202312261403)
    </media:community>
   </media:group>
  </entry>
