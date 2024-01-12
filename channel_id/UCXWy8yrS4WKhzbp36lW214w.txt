@@ -29,7 +29,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="0" average="0.00" min="1" max="5"/>
-    <media:statistics views="4"/>
+    <media:statistics views="10"/>
    </media:community>
   </media:group>
  </entry>
@@ -44,7 +44,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-01-11T06:34:55+00:00</published>
-  <updated>2024-01-11T07:44:31+00:00</updated>
+  <updated>2024-01-12T06:16:27+00:00</updated>
   <media:group>
    <media:title>伤口为什么会长蛆？神奇的蛆虫疗法</media:title>
    <media:content url="https://www.youtube.com/v/qsr8sVbKM7s?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -98,7 +98,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="69"/>
+    <media:statistics views="74"/>
    </media:community>
   </media:group>
  </entry>
@@ -144,7 +144,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="0" average="0.00" min="1" max="5"/>
-    <media:statistics views="43"/>
+    <media:statistics views="44"/>
    </media:community>
   </media:group>
  </entry>
@@ -167,7 +167,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="43"/>
+    <media:statistics views="42"/>
    </media:community>
   </media:group>
  </entry>
@@ -282,7 +282,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="67"/>
+    <media:statistics views="68"/>
    </media:community>
   </media:group>
  </entry>

@@ -30,8 +30,8 @@
 更新预告：阅读总结——人类的三种终极宿命。
 阅读总结——我心目中的科幻TOP系列盘点。</media:description>
    <media:community>
-    <media:starRating count="77" average="5.00" min="1" max="5"/>
-    <media:statistics views="2329"/>
+    <media:starRating count="80" average="5.00" min="1" max="5"/>
+    <media:statistics views="2505"/>
    </media:community>
   </media:group>
  </entry>
@@ -53,8 +53,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/7yIuEGj7IXU/hqdefault.jpg" width="480" height="360"/>
    <media:description>用40亿年去纠正一个错误，错误是创造全人类：《宇宙全能侦探社》下集</media:description>
    <media:community>
-    <media:starRating count="43" average="5.00" min="1" max="5"/>
-    <media:statistics views="1330"/>
+    <media:starRating count="44" average="5.00" min="1" max="5"/>
+    <media:statistics views="1454"/>
    </media:community>
   </media:group>
  </entry>
@@ -77,8 +77,8 @@
    <media:description>时空穿越的无尽奥秘，探寻宇宙的终极真相：《宇宙全能侦探社》，上集。
 原著：道格拉斯亚当斯，一位搞怪又不失科幻内核的作家。</media:description>
    <media:community>
-    <media:starRating count="58" average="5.00" min="1" max="5"/>
-    <media:statistics views="3483"/>
+    <media:starRating count="59" average="5.00" min="1" max="5"/>
+    <media:statistics views="3521"/>
    </media:community>
   </media:group>
  </entry>
@@ -101,7 +101,7 @@
    <media:description>《世界上所有的烦恼》，原著：阿西莫夫，出自阿西莫夫科幻短篇全集、 阿西莫夫的这个短篇系列终于出版了！阿西莫夫最神的就是他的短篇，所谓：人类近50年来的科技进步，一直在追赶阿西莫夫科幻小说的脚步。</media:description>
    <media:community>
     <media:starRating count="120" average="5.00" min="1" max="5"/>
-    <media:statistics views="5933"/>
+    <media:statistics views="5943"/>
    </media:community>
   </media:group>
  </entry>
@@ -124,7 +124,7 @@
    <media:description>一个中子星文明的毁灭与重生：《星震》大结局</media:description>
    <media:community>
     <media:starRating count="84" average="5.00" min="1" max="5"/>
-    <media:statistics views="4562"/>
+    <media:statistics views="4567"/>
    </media:community>
   </media:group>
  </entry>
@@ -148,7 +148,7 @@
 时隔几年，终于更新到这部了！</media:description>
    <media:community>
     <media:starRating count="107" average="5.00" min="1" max="5"/>
-    <media:statistics views="6350"/>
+    <media:statistics views="6347"/>
    </media:community>
   </media:group>
  </entry>
@@ -171,7 +171,7 @@
    <media:description>如何骗走人类的十年时间：科幻名著《抉择》，原著：小松左京。这部小说收录于《科幻之路》系列。</media:description>
    <media:community>
     <media:starRating count="118" average="5.00" min="1" max="5"/>
-    <media:statistics views="7162"/>
+    <media:statistics views="7164"/>
    </media:community>
   </media:group>
  </entry>
@@ -196,7 +196,7 @@
 不过主线剧情已经更新完毕，未收录的内容仅剩下人类最终生活在小宇宙中的场景。</media:description>
    <media:community>
     <media:starRating count="530" average="5.00" min="1" max="5"/>
-    <media:statistics views="35480"/>
+    <media:statistics views="35486"/>
    </media:community>
   </media:group>
  </entry>
@@ -219,7 +219,7 @@
    <media:description>《单孔衍射》出自科幻短篇集《完美末日》。作者刘洋：科幻作家，物理学博士，代表作《火星孤儿》《勾股2.013》等。这是第二次更新这位科幻作家的作品，希望大家喜欢。这部小说中提出了非常有有趣的“时间壁垒”概念。</media:description>
    <media:community>
     <media:starRating count="137" average="5.00" min="1" max="5"/>
-    <media:statistics views="8087"/>
+    <media:statistics views="8089"/>
    </media:community>
   </media:group>
  </entry>
@@ -243,7 +243,7 @@
 这是我们最喜欢的作品之一，作者以极为另类的写作方式用数学公式描述了一对人们的情感，堪称神作！</media:description>
    <media:community>
     <media:starRating count="223" average="5.00" min="1" max="5"/>
-    <media:statistics views="11354"/>
+    <media:statistics views="11355"/>
    </media:community>
   </media:group>
  </entry>
@@ -266,7 +266,7 @@
    <media:description>本期更新一期克苏鲁神话（非科幻内容）极北坚冰，食人梦魇——克苏鲁神话巅峰之作《虚境奇谭》</media:description>
    <media:community>
     <media:starRating count="210" average="5.00" min="1" max="5"/>
-    <media:statistics views="12993"/>
+    <media:statistics views="12997"/>
    </media:community>
   </media:group>
  </entry>
@@ -327,7 +327,7 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2023-10-23T08:36:49+00:00</published>
-  <updated>2023-11-24T06:04:31+00:00</updated>
+  <updated>2024-01-12T06:39:49+00:00</updated>
   <media:group>
    <media:title>人类史上第一位时间穿越者，居然成功了！经典科幻解读</media:title>
    <media:content url="https://www.youtube.com/v/5Z3O9vtMAvI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -335,7 +335,7 @@
    <media:description>人类史上第一位时间穿越者，居然成功了！经典科幻解读，原著：宝树.</media:description>
    <media:community>
     <media:starRating count="100" average="5.00" min="1" max="5"/>
-    <media:statistics views="5980"/>
+    <media:statistics views="5982"/>
    </media:community>
   </media:group>
  </entry>
@@ -359,7 +359,7 @@
 虽然过去了二十多年，但是好的作品值得让大家记得，分上下集发布</media:description>
    <media:community>
     <media:starRating count="105" average="5.00" min="1" max="5"/>
-    <media:statistics views="6208"/>
+    <media:statistics views="6207"/>
    </media:community>
   </media:group>
  </entry>
