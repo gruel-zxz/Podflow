@@ -10,6 +10,29 @@
   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
  </author>
  <entry>
+  <id>yt:video:V7OgtMMEieI</id>
+  <yt:videoId>V7OgtMMEieI</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>how fast do i gotta walk @The.NavaRose</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=V7OgtMMEieI"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2024-01-11T18:00:18+00:00</published>
+  <updated>2024-01-11T18:11:03+00:00</updated>
+  <media:group>
+   <media:title>how fast do i gotta walk @The.NavaRose</media:title>
+   <media:content url="https://www.youtube.com/v/V7OgtMMEieI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/V7OgtMMEieI/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="674" average="5.00" min="1" max="5"/>
+    <media:statistics views="9763"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:xBI9uePWH3Y</id>
   <yt:videoId>xBI9uePWH3Y</yt:videoId>
   <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
@@ -27,8 +50,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/xBI9uePWH3Y/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="545" average="5.00" min="1" max="5"/>
-    <media:statistics views="12719"/>
+    <media:starRating count="693" average="5.00" min="1" max="5"/>
+    <media:statistics views="18214"/>
    </media:community>
   </media:group>
  </entry>
@@ -50,8 +73,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/y98N0oZ4DD8/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="949" average="5.00" min="1" max="5"/>
-    <media:statistics views="20293"/>
+    <media:starRating count="1048" average="5.00" min="1" max="5"/>
+    <media:statistics views="22599"/>
    </media:community>
   </media:group>
  </entry>
@@ -73,8 +96,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/t-PScA8j1mg/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1250" average="5.00" min="1" max="5"/>
-    <media:statistics views="32188"/>
+    <media:starRating count="1316" average="5.00" min="1" max="5"/>
+    <media:statistics views="34739"/>
    </media:community>
   </media:group>
  </entry>
@@ -96,8 +119,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/DJ2JQJRxHNs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1948" average="5.00" min="1" max="5"/>
-    <media:statistics views="58490"/>
+    <media:starRating count="1996" average="5.00" min="1" max="5"/>
+    <media:statistics views="60417"/>
    </media:community>
   </media:group>
  </entry>
@@ -119,8 +142,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/qki4vpkxvgM/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2310" average="5.00" min="1" max="5"/>
-    <media:statistics views="61339"/>
+    <media:starRating count="2353" average="5.00" min="1" max="5"/>
+    <media:statistics views="63090"/>
    </media:community>
   </media:group>
  </entry>
@@ -142,8 +165,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/lxdOQNQYmBo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2353" average="5.00" min="1" max="5"/>
-    <media:statistics views="63321"/>
+    <media:starRating count="2379" average="5.00" min="1" max="5"/>
+    <media:statistics views="64448"/>
    </media:community>
   </media:group>
  </entry>
@@ -158,15 +181,15 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2023-12-31T20:00:18+00:00</published>
-  <updated>2023-12-31T20:06:49+00:00</updated>
+  <updated>2024-01-10T19:03:28+00:00</updated>
   <media:group>
    <media:title>my new year's resolution is to join @justi-star in 2024</media:title>
    <media:content url="https://www.youtube.com/v/N07z_gt7nAs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i3.ytimg.com/vi/N07z_gt7nAs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2066" average="5.00" min="1" max="5"/>
-    <media:statistics views="49752"/>
+    <media:starRating count="2087" average="5.00" min="1" max="5"/>
+    <media:statistics views="50544"/>
    </media:community>
   </media:group>
  </entry>
@@ -188,8 +211,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/ZW_Z0_IA7ZI/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3484" average="5.00" min="1" max="5"/>
-    <media:statistics views="72039"/>
+    <media:starRating count="3500" average="5.00" min="1" max="5"/>
+    <media:statistics views="72646"/>
    </media:community>
   </media:group>
  </entry>
@@ -211,8 +234,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/2jXTHZHQ0C0/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3677" average="5.00" min="1" max="5"/>
-    <media:statistics views="72547"/>
+    <media:starRating count="3694" average="5.00" min="1" max="5"/>
+    <media:statistics views="73052"/>
    </media:community>
   </media:group>
  </entry>
@@ -234,8 +257,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/RJKMtataH78/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3157" average="5.00" min="1" max="5"/>
-    <media:statistics views="71677"/>
+    <media:starRating count="3179" average="5.00" min="1" max="5"/>
+    <media:statistics views="72458"/>
    </media:community>
   </media:group>
  </entry>
@@ -257,8 +280,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/i1hZQjZaYS8/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2373" average="5.00" min="1" max="5"/>
-    <media:statistics views="74370"/>
+    <media:starRating count="2387" average="5.00" min="1" max="5"/>
+    <media:statistics views="75109"/>
    </media:community>
   </media:group>
  </entry>
@@ -305,8 +328,8 @@ https://www.youtube.com/watch?v=ImL2oQ_FxfU&amp;list=PL-ZXraMeHBPLZWTMFc3n43JdBg
 
 #youtube #LikeAndDescribe #trending</media:description>
    <media:community>
-    <media:starRating count="2622" average="5.00" min="1" max="5"/>
-    <media:statistics views="964378"/>
+    <media:starRating count="2672" average="5.00" min="1" max="5"/>
+    <media:statistics views="1003057"/>
    </media:community>
   </media:group>
  </entry>
@@ -328,8 +351,8 @@ https://www.youtube.com/watch?v=ImL2oQ_FxfU&amp;list=PL-ZXraMeHBPLZWTMFc3n43JdBg
    <media:thumbnail url="https://i3.ytimg.com/vi/JWIVJlXtzeA/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3145" average="5.00" min="1" max="5"/>
-    <media:statistics views="92758"/>
+    <media:starRating count="3155" average="5.00" min="1" max="5"/>
+    <media:statistics views="93448"/>
    </media:community>
   </media:group>
  </entry>
@@ -351,31 +374,8 @@ https://www.youtube.com/watch?v=ImL2oQ_FxfU&amp;list=PL-ZXraMeHBPLZWTMFc3n43JdBg
    <media:thumbnail url="https://i1.ytimg.com/vi/hCbrZ1AKnHA/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="954" average="5.00" min="1" max="5"/>
-    <media:statistics views="34002"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:F0fBpUU3a-o</id>
-  <yt:videoId>F0fBpUU3a-o</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>@itsmeissie @hariyo @iamneetubisht and @PaniBottle say hello to 2024 in style</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=F0fBpUU3a-o"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2023-12-15T23:42:44+00:00</published>
-  <updated>2023-12-16T19:21:03+00:00</updated>
-  <media:group>
-   <media:title>@itsmeissie @hariyo @iamneetubisht and @PaniBottle say hello to 2024 in style</media:title>
-   <media:content url="https://www.youtube.com/v/F0fBpUU3a-o?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/F0fBpUU3a-o/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="2494" average="5.00" min="1" max="5"/>
-    <media:statistics views="69687"/>
+    <media:starRating count="959" average="5.00" min="1" max="5"/>
+    <media:statistics views="34298"/>
    </media:community>
   </media:group>
  </entry>
