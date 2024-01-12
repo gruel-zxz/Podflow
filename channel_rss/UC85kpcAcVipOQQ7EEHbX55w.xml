@@ -3,24 +3,46 @@
     <channel>
         <title>佬K奇談</title>
         <link>https://www.youtube.com/channel/UC85kpcAcVipOQQ7EEHbX55w</link>
-        <description>在iOS平台上借助workflow和a-shell搭建专属的播客服务器。</description>
+        <description>佬K奇談，帶您領略古今中外的奇聞異事。
+每周五晚8:30分更新影片</description>
         <category>TV &amp; Film</category>
         <generator>Podflow (support us at https://github.com/gruel-zxz/podflow)</generator>
         <language>en-us</language>
-        <lastBuildDate>Fri, 12 Jan 2024 07:44:12 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 12 Jan 2024 23:06:37 +0000</lastBuildDate>
         <pubDate>Sun, 24 Apr 2005 11:20:54 +0800</pubDate>
         <image>
-            <url>https://raw.githubusercontent.com/gruel-zxz/podflow/main/Podflow_dark.png</url>
+            <url>https://yt3.googleusercontent.com/ytc/AIf8zZRTeT1wabVX1hVRW5JC5hjr7zb3nMXDQ6-ip5ETgw=s2048-c-k-c0x00ffffff-no-rj</url>
             <title>佬K奇談</title>
             <link>https://www.youtube.com/channel/UC85kpcAcVipOQQ7EEHbX55w</link>
         </image>
         <itunes:author>佬K奇談</itunes:author>
         <itunes:subtitle>佬K奇談</itunes:subtitle>
-        <itunes:summary><![CDATA[在iOS平台上借助workflow和a-shell搭建专属的播客服务器。]]></itunes:summary>
-        <itunes:image href="https://raw.githubusercontent.com/gruel-zxz/podflow/main/Podflow_dark.png"></itunes:image>
+        <itunes:summary><![CDATA[佬K奇談，帶您領略古今中外的奇聞異事。&#xA;每周五晚8:30分更新影片]]></itunes:summary>
+        <itunes:image href="https://yt3.googleusercontent.com/ytc/AIf8zZRTeT1wabVX1hVRW5JC5hjr7zb3nMXDQ6-ip5ETgw=s2048-c-k-c0x00ffffff-no-rj"></itunes:image>
         <itunes:explicit>no</itunes:explicit>
         <itunes:category text="TV &amp; Film"></itunes:category>
 <!-- {UC85kpcAcVipOQQ7EEHbX55w} -->
+<!-- UC85kpcAcVipOQQ7EEHbX55w -->
+        <item>
+            <guid>o6oJ0B-Ulz4</guid>
+            <title>斯坦福才女殞命浴室，現場除了被害只有一個人，可所有斯坦福校友都說其不可能是兇手！那誰才是真兇呢？</title>
+            <link>https://youtube.com/watch?v=o6oJ0B-Ulz4</link>
+            <description>『佬K奇谈』&#xA;成为此频道的会员：&#xA;https://www.youtube.com/channel/UC85kpcAcVipOQQ7EEHbX55w/join&#xA;#佬K奇談#老K奇谈&#xA;歡迎訂閱☞https://is.gd/Av4UlQ&#xA;聽佬K給妳們講奇聞異事以及各种未解之謎，以不同的視角講述妳知道的或不知道的故事。喜歡我的視頻請點贊，開啓小鈴鐺第一時間接收最新影片通知</description>
+            <pubDate>Fri, 12 Jan 2024 12:30:35 +0000</pubDate>
+            <enclosure url="https://raw.githubusercontent.com/gruel-zxz/podflow/main/channel_audiovisual/UC85kpcAcVipOQQ7EEHbX55w/o6oJ0B-Ulz4.m4a" length="27315297" type="audio/x-m4a"></enclosure>
+            <itunes:author>斯坦福才女殞命浴室，現場除了被害只有一個人，可所有斯坦福校友都說其不可能是兇手！那誰才是真兇呢？</itunes:author>
+            <itunes:subtitle>斯坦福才女殞命浴室，現場除了被害只有一個人，可所有斯坦福校友都說其不可能是兇手！那誰才是真兇呢？</itunes:subtitle>
+            <itunes:summary><![CDATA[『佬K奇谈』
+成为此频道的会员：
+https://www.youtube.com/channel/UC85kpcAcVipOQQ7EEHbX55w/join
+#佬K奇談#老K奇谈
+歡迎訂閱☞https://is.gd/Av4UlQ
+聽佬K給妳們講奇聞異事以及各种未解之謎，以不同的視角講述妳知道的或不知道的故事。喜歡我的視頻請點贊，開啓小鈴鐺第一時間接收最新影片通知]]></itunes:summary>
+            <itunes:image href="https://i4.ytimg.com/vi/o6oJ0B-Ulz4/hqdefault.jpg"></itunes:image>
+            <itunes:duration>28:09</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:order>1</itunes:order>
+        </item>
 <!-- UC85kpcAcVipOQQ7EEHbX55w -->
         <item>
             <guid>guABXP7SbW0</guid>
