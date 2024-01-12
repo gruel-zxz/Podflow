@@ -78,8 +78,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="220" average="5.00" min="1" max="5"/>
-    <media:statistics views="30673"/>
+    <media:starRating count="229" average="5.00" min="1" max="5"/>
+    <media:statistics views="34713"/>
    </media:community>
   </media:group>
  </entry>
@@ -94,7 +94,7 @@ https://youtu.be/BbtTwsP_-zc</media:description>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
   <published>2024-01-11T22:26:28+00:00</published>
-  <updated>2024-01-11T22:37:21+00:00</updated>
+  <updated>2024-01-12T06:55:13+00:00</updated>
   <media:group>
    <media:title>中国医保保费20年涨37倍，一年2500万人医保退保（20240111第6668期）</media:title>
    <media:content url="https://www.youtube.com/v/OorquuIQ8No?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -151,8 +151,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="123" average="5.00" min="1" max="5"/>
-    <media:statistics views="18183"/>
+    <media:starRating count="131" average="5.00" min="1" max="5"/>
+    <media:statistics views="20511"/>
    </media:community>
   </media:group>
  </entry>
@@ -167,7 +167,7 @@ https://youtu.be/BbtTwsP_-zc</media:description>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
   <published>2024-01-11T21:44:26+00:00</published>
-  <updated>2024-01-12T02:41:46+00:00</updated>
+  <updated>2024-01-12T06:45:05+00:00</updated>
   <media:group>
    <media:title>日本实际富足程度超美国，2024可以投资日本股市（20240110第6666期）</media:title>
    <media:content url="https://www.youtube.com/v/tVOKPpOHi94?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -224,8 +224,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="131" average="5.00" min="1" max="5"/>
-    <media:statistics views="21287"/>
+    <media:starRating count="138" average="5.00" min="1" max="5"/>
+    <media:statistics views="23604"/>
    </media:community>
   </media:group>
  </entry>
@@ -298,7 +298,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="351" average="5.00" min="1" max="5"/>
-    <media:statistics views="69105"/>
+    <media:statistics views="69450"/>
    </media:community>
   </media:group>
  </entry>
@@ -371,7 +371,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="146" average="5.00" min="1" max="5"/>
-    <media:statistics views="23644"/>
+    <media:statistics views="23772"/>
    </media:community>
   </media:group>
  </entry>
@@ -444,7 +444,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="171" average="5.00" min="1" max="5"/>
-    <media:statistics views="37324"/>
+    <media:statistics views="37529"/>
    </media:community>
   </media:group>
  </entry>
@@ -517,7 +517,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="364" average="5.00" min="1" max="5"/>
-    <media:statistics views="77971"/>
+    <media:statistics views="78637"/>
    </media:community>
   </media:group>
  </entry>
@@ -590,7 +590,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="321" average="5.00" min="1" max="5"/>
-    <media:statistics views="65414"/>
+    <media:statistics views="65515"/>
    </media:community>
   </media:group>
  </entry>
@@ -663,7 +663,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="225" average="5.00" min="1" max="5"/>
-    <media:statistics views="48414"/>
+    <media:statistics views="48465"/>
    </media:community>
   </media:group>
  </entry>
@@ -735,8 +735,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="279" average="5.00" min="1" max="5"/>
-    <media:statistics views="55691"/>
+    <media:starRating count="281" average="5.00" min="1" max="5"/>
+    <media:statistics views="55849"/>
    </media:community>
   </media:group>
  </entry>
@@ -898,7 +898,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="61" average="5.00" min="1" max="5"/>
-    <media:statistics views="14513"/>
+    <media:statistics views="14522"/>
    </media:community>
   </media:group>
  </entry>
@@ -1044,7 +1044,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="346" average="5.00" min="1" max="5"/>
-    <media:statistics views="73497"/>
+    <media:statistics views="73550"/>
    </media:community>
   </media:group>
  </entry>
@@ -1117,7 +1117,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="431" average="5.00" min="1" max="5"/>
-    <media:statistics views="61521"/>
+    <media:statistics views="61582"/>
    </media:community>
   </media:group>
  </entry>

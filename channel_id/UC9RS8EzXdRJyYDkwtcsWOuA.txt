@@ -42,7 +42,7 @@
 #日本 #vlog #留學</media:description>
    <media:community>
     <media:starRating count="3399" average="5.00" min="1" max="5"/>
-    <media:statistics views="155400"/>
+    <media:statistics views="155427"/>
    </media:community>
   </media:group>
  </entry>
@@ -86,7 +86,7 @@
 #日本漫畫 #殺手阿一 #cult</media:description>
    <media:community>
     <media:starRating count="1065" average="5.00" min="1" max="5"/>
-    <media:statistics views="50589"/>
+    <media:statistics views="50590"/>
    </media:community>
   </media:group>
  </entry>
@@ -266,7 +266,7 @@
 #日本 #動漫 #日本電影</media:description>
    <media:community>
     <media:starRating count="2170" average="5.00" min="1" max="5"/>
-    <media:statistics views="207518"/>
+    <media:statistics views="207544"/>
    </media:community>
   </media:group>
  </entry>
@@ -311,7 +311,7 @@
 ▶我的品牌官網：www.under20.com</media:description>
    <media:community>
     <media:starRating count="1962" average="5.00" min="1" max="5"/>
-    <media:statistics views="180487"/>
+    <media:statistics views="180513"/>
    </media:community>
   </media:group>
  </entry>
@@ -353,7 +353,7 @@
 ▶我的品牌官網：www.under20.com</media:description>
    <media:community>
     <media:starRating count="1782" average="5.00" min="1" max="5"/>
-    <media:statistics views="151131"/>
+    <media:statistics views="151149"/>
    </media:community>
   </media:group>
  </entry>
@@ -417,7 +417,7 @@
 ▶我的品牌官網：www.under20.com</media:description>
    <media:community>
     <media:starRating count="1704" average="5.00" min="1" max="5"/>
-    <media:statistics views="291529"/>
+    <media:statistics views="291538"/>
    </media:community>
   </media:group>
  </entry>
@@ -459,7 +459,7 @@
 #日本 #日本社會</media:description>
    <media:community>
     <media:starRating count="859" average="5.00" min="1" max="5"/>
-    <media:statistics views="64938"/>
+    <media:statistics views="64939"/>
    </media:community>
   </media:group>
  </entry>
@@ -504,7 +504,7 @@
 #2ch #日本文化 #互聯網</media:description>
    <media:community>
     <media:starRating count="932" average="5.00" min="1" max="5"/>
-    <media:statistics views="71162"/>
+    <media:statistics views="71167"/>
    </media:community>
   </media:group>
  </entry>
@@ -545,7 +545,7 @@
 #日本社會 #刑務所 #越獄</media:description>
    <media:community>
     <media:starRating count="692" average="5.00" min="1" max="5"/>
-    <media:statistics views="52527"/>
+    <media:statistics views="52536"/>
    </media:community>
   </media:group>
  </entry>
@@ -596,7 +596,7 @@
 ▶我的品牌官網：www.under20.com</media:description>
    <media:community>
     <media:starRating count="1717" average="5.00" min="1" max="5"/>
-    <media:statistics views="115092"/>
+    <media:statistics views="115101"/>
    </media:community>
   </media:group>
  </entry>
@@ -638,7 +638,7 @@
 #福島核污水 #日本核廢水 #核輻射 #科幻</media:description>
    <media:community>
     <media:starRating count="756" average="5.00" min="1" max="5"/>
-    <media:statistics views="40199"/>
+    <media:statistics views="40196"/>
    </media:community>
   </media:group>
  </entry>

@@ -30,8 +30,8 @@
 更新预告：阅读总结——人类的三种终极宿命。
 阅读总结——我心目中的科幻TOP系列盘点。</media:description>
    <media:community>
-    <media:starRating count="80" average="5.00" min="1" max="5"/>
-    <media:statistics views="2505"/>
+    <media:starRating count="82" average="5.00" min="1" max="5"/>
+    <media:statistics views="2623"/>
    </media:community>
   </media:group>
  </entry>
@@ -78,7 +78,7 @@
 原著：道格拉斯亚当斯，一位搞怪又不失科幻内核的作家。</media:description>
    <media:community>
     <media:starRating count="59" average="5.00" min="1" max="5"/>
-    <media:statistics views="3521"/>
+    <media:statistics views="3534"/>
    </media:community>
   </media:group>
  </entry>
@@ -101,7 +101,7 @@
    <media:description>《世界上所有的烦恼》，原著：阿西莫夫，出自阿西莫夫科幻短篇全集、 阿西莫夫的这个短篇系列终于出版了！阿西莫夫最神的就是他的短篇，所谓：人类近50年来的科技进步，一直在追赶阿西莫夫科幻小说的脚步。</media:description>
    <media:community>
     <media:starRating count="120" average="5.00" min="1" max="5"/>
-    <media:statistics views="5943"/>
+    <media:statistics views="5953"/>
    </media:community>
   </media:group>
  </entry>
@@ -148,7 +148,7 @@
 时隔几年，终于更新到这部了！</media:description>
    <media:community>
     <media:starRating count="107" average="5.00" min="1" max="5"/>
-    <media:statistics views="6347"/>
+    <media:statistics views="6350"/>
    </media:community>
   </media:group>
  </entry>
@@ -171,7 +171,7 @@
    <media:description>如何骗走人类的十年时间：科幻名著《抉择》，原著：小松左京。这部小说收录于《科幻之路》系列。</media:description>
    <media:community>
     <media:starRating count="118" average="5.00" min="1" max="5"/>
-    <media:statistics views="7164"/>
+    <media:statistics views="7167"/>
    </media:community>
   </media:group>
  </entry>
@@ -196,7 +196,7 @@
 不过主线剧情已经更新完毕，未收录的内容仅剩下人类最终生活在小宇宙中的场景。</media:description>
    <media:community>
     <media:starRating count="530" average="5.00" min="1" max="5"/>
-    <media:statistics views="35486"/>
+    <media:statistics views="35489"/>
    </media:community>
   </media:group>
  </entry>
@@ -219,7 +219,7 @@
    <media:description>《单孔衍射》出自科幻短篇集《完美末日》。作者刘洋：科幻作家，物理学博士，代表作《火星孤儿》《勾股2.013》等。这是第二次更新这位科幻作家的作品，希望大家喜欢。这部小说中提出了非常有有趣的“时间壁垒”概念。</media:description>
    <media:community>
     <media:starRating count="137" average="5.00" min="1" max="5"/>
-    <media:statistics views="8089"/>
+    <media:statistics views="8088"/>
    </media:community>
   </media:group>
  </entry>
@@ -266,7 +266,7 @@
    <media:description>本期更新一期克苏鲁神话（非科幻内容）极北坚冰，食人梦魇——克苏鲁神话巅峰之作《虚境奇谭》</media:description>
    <media:community>
     <media:starRating count="210" average="5.00" min="1" max="5"/>
-    <media:statistics views="12997"/>
+    <media:statistics views="12999"/>
    </media:community>
   </media:group>
  </entry>
@@ -312,7 +312,7 @@
    <media:description>科幻小说《阖上眼五秒钟》，作者遥控，作品刊登于早年的科幻世界杂志上，是个有趣的小说。</media:description>
    <media:community>
     <media:starRating count="117" average="5.00" min="1" max="5"/>
-    <media:statistics views="7206"/>
+    <media:statistics views="7207"/>
    </media:community>
   </media:group>
  </entry>
@@ -335,7 +335,7 @@
    <media:description>人类史上第一位时间穿越者，居然成功了！经典科幻解读，原著：宝树.</media:description>
    <media:community>
     <media:starRating count="100" average="5.00" min="1" max="5"/>
-    <media:statistics views="5982"/>
+    <media:statistics views="5983"/>
    </media:community>
   </media:group>
  </entry>
