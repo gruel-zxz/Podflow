@@ -1565,7 +1565,7 @@ for thread in youtube_xml_get_threads:
 
 # 生成YouTube对应channel的需更新的items模块
 def youtube_xml_items(output_dir):
-    items = f"<!-- {output_dir} -->"
+    items_list = [f"<!-- {output_dir} -->"]
     with open(
         f"channel_id/{output_dir}.txt", "r", encoding="utf-8"
     ) as file:  # 打开文件进行读取
@@ -1577,14 +1577,14 @@ def youtube_xml_items(output_dir):
             re.search(r"(?<=<yt:videoId>).+(?=</yt:videoId>)", entry).group()
             not in yt_id_failed
         ):
-            items = f"{items}{youtube_xml_item(entry)}<!-- {output_dir} -->"
+            items_list.append(f"{youtube_xml_item(entry)}<!-- {output_dir} -->")
         entry_num += 1
         if (
             entry_num
             >= channelid_youtube[channelid_youtube_ids[output_dir]]["update_size"]
         ):
             break
-    items_guid = re.findall(r"(?<=<guid>).+?(?=</guid>)", items)
+    items_guid = re.findall(r"(?<=<guid>).+?(?=</guid>)", "".join(items_list))
     entry_count = channelid_youtube[channelid_youtube_ids[output_dir]][
         "last_size"
     ] - len(items_guid)
@@ -1593,7 +1593,7 @@ def youtube_xml_items(output_dir):
         for xml in xmls_original[output_dir].split(f"<!-- {output_dir} -->"):
             xml_guid = re.search(r"(?<=<guid>).+(?=</guid>)", xml)
             if xml_guid and xml_guid.group() not in items_guid and xml_guid.group() not in yt_id_failed:
-                items = f"{items}{xml_original_item(xml)}<!-- {output_dir} -->"
+                items_list.append(f"{xml_original_item(xml)}<!-- {output_dir} -->")
                 xml_num += 1
             if xml_num >= entry_count:
                 break
@@ -1619,6 +1619,7 @@ def youtube_xml_items(output_dir):
     category = config["category"]
     title = re.search(r"(?<=<title>).+(?=</title>)", file_xml).group()
     link = f"https://www.youtube.com/channel/{output_dir}"
+    items = "".join(items_list)
     items = f"""<!-- {{{output_dir}}} -->
 {items}
 <!-- {{{output_dir}}} -->"""
@@ -1641,16 +1642,11 @@ def youtube_xml_items(output_dir):
 
 # 生成主rss
 all_youtube_content_ytid = {}
-all_items = ""
+all_items = []
 for output_dir in channelid_youtube_ids:
     items = youtube_xml_items(output_dir)
     if channelid_youtube[channelid_youtube_ids[output_dir]]["InmainRSS"]:
-        all_items = (
-            items
-            if all_items == ""
-            else f"""{all_items}
-{items}"""
-        )
+        all_items.append(items)
     all_youtube_content_ytid[output_dir] = re.findall(
         r"(?<=UC.{22}/)(.+\.m4a|.+\.mp4)(?=\")", items
     )
@@ -1661,7 +1657,7 @@ file_save(
         config["description"],
         config["category"],
         config["icon"],
-        all_items,
+        "\n".join(all_items),
     ),
     f"{config['filename']}.xml",
 )
@@ -1773,7 +1769,10 @@ if arguments == "a-shell":
     )
 server_process = subprocess.Popen(["python3", "-m", "RangeHTTPServer"])
 # 延时
-time.sleep(60)
+if arguments == "a-shell":
+    time.sleep(60)
+else:
+    time.sleep(1)
 # 关闭服务器
 server_process.terminate()
 
