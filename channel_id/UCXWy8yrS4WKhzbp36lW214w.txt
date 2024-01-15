@@ -11,6 +11,29 @@
  </author>
  <published>2020-08-21T01:53:13+00:00</published>
  <entry>
+  <id>yt:video:1OwnegyLaus</id>
+  <yt:videoId>1OwnegyLaus</yt:videoId>
+  <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
+  <title>恋爱脑， 21世纪新型“绝症”</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=1OwnegyLaus"/>
+  <author>
+   <name>绝密研究所</name>
+   <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
+  </author>
+  <published>2024-01-15T03:32:52+00:00</published>
+  <updated>2024-01-15T04:29:27+00:00</updated>
+  <media:group>
+   <media:title>恋爱脑， 21世纪新型“绝症”</media:title>
+   <media:content url="https://www.youtube.com/v/1OwnegyLaus?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/1OwnegyLaus/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="4"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:qsr8sVbKM7s</id>
   <yt:videoId>qsr8sVbKM7s</yt:videoId>
   <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
@@ -21,7 +44,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-01-14T00:30:09+00:00</published>
-  <updated>2024-01-14T00:37:24+00:00</updated>
+  <updated>2024-01-15T02:34:37+00:00</updated>
   <media:group>
    <media:title>伤口为什么会长蛆？神奇的蛆虫疗法</media:title>
    <media:content url="https://www.youtube.com/v/qsr8sVbKM7s?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -29,7 +52,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="59"/>
+    <media:statistics views="75"/>
    </media:community>
   </media:group>
  </entry>
@@ -44,7 +67,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-01-13T00:00:11+00:00</published>
-  <updated>2024-01-14T12:53:16+00:00</updated>
+  <updated>2024-01-15T04:00:07+00:00</updated>
   <media:group>
    <media:title>屁股包治百病， 欧洲灌肠史</media:title>
    <media:content url="https://www.youtube.com/v/dHq-Clcu6I0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -329,29 +352,6 @@
    <media:community>
     <media:starRating count="0" average="0.00" min="1" max="5"/>
     <media:statistics views="54"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:C2eZixjaiTE</id>
-  <yt:videoId>C2eZixjaiTE</yt:videoId>
-  <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
-  <title>歪打正着 ，意外诞生的美食</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=C2eZixjaiTE"/>
-  <author>
-   <name>绝密研究所</name>
-   <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
-  </author>
-  <published>2023-12-28T00:00:09+00:00</published>
-  <updated>2023-12-28T00:07:01+00:00</updated>
-  <media:group>
-   <media:title>歪打正着 ，意外诞生的美食</media:title>
-   <media:content url="https://www.youtube.com/v/C2eZixjaiTE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/C2eZixjaiTE/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="85"/>
    </media:community>
   </media:group>
  </entry>
