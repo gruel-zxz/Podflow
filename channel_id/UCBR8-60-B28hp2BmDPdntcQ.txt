@@ -10,6 +10,29 @@
   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
  </author>
  <entry>
+  <id>yt:video:4meQIH3xAFw</id>
+  <yt:videoId>4meQIH3xAFw</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>craving more competition? don't forget to catch the ludwig x tarik invitational this weekend</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=4meQIH3xAFw"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2024-01-13T17:00:17+00:00</published>
+  <updated>2024-01-13T17:07:11+00:00</updated>
+  <media:group>
+   <media:title>craving more competition? don't forget to catch the ludwig x tarik invitational this weekend</media:title>
+   <media:content url="https://www.youtube.com/v/4meQIH3xAFw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/4meQIH3xAFw/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="1255" average="5.00" min="1" max="5"/>
+    <media:statistics views="27753"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:V7OgtMMEieI</id>
   <yt:videoId>V7OgtMMEieI</yt:videoId>
   <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
@@ -27,8 +50,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/V7OgtMMEieI/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1241" average="5.00" min="1" max="5"/>
-    <media:statistics views="25901"/>
+    <media:starRating count="1913" average="5.00" min="1" max="5"/>
+    <media:statistics views="45982"/>
    </media:community>
   </media:group>
  </entry>
@@ -50,8 +73,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/xBI9uePWH3Y/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="837" average="5.00" min="1" max="5"/>
-    <media:statistics views="23293"/>
+    <media:starRating count="1102" average="5.00" min="1" max="5"/>
+    <media:statistics views="32802"/>
    </media:community>
   </media:group>
  </entry>
@@ -73,8 +96,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/y98N0oZ4DD8/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1147" average="5.00" min="1" max="5"/>
-    <media:statistics views="25660"/>
+    <media:starRating count="1386" average="5.00" min="1" max="5"/>
+    <media:statistics views="32163"/>
    </media:community>
   </media:group>
  </entry>
@@ -96,8 +119,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/t-PScA8j1mg/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1393" average="5.00" min="1" max="5"/>
-    <media:statistics views="38390"/>
+    <media:starRating count="1593" average="5.00" min="1" max="5"/>
+    <media:statistics views="46811"/>
    </media:community>
   </media:group>
  </entry>
@@ -119,8 +142,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/DJ2JQJRxHNs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2058" average="5.00" min="1" max="5"/>
-    <media:statistics views="63126"/>
+    <media:starRating count="2226" average="5.00" min="1" max="5"/>
+    <media:statistics views="69450"/>
    </media:community>
   </media:group>
  </entry>
@@ -142,8 +165,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/qki4vpkxvgM/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2410" average="5.00" min="1" max="5"/>
-    <media:statistics views="65589"/>
+    <media:starRating count="2531" average="5.00" min="1" max="5"/>
+    <media:statistics views="71333"/>
    </media:community>
   </media:group>
  </entry>
@@ -165,8 +188,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/lxdOQNQYmBo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2405" average="5.00" min="1" max="5"/>
-    <media:statistics views="66067"/>
+    <media:starRating count="2483" average="5.00" min="1" max="5"/>
+    <media:statistics views="70053"/>
    </media:community>
   </media:group>
  </entry>
@@ -188,8 +211,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/N07z_gt7nAs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2113" average="5.00" min="1" max="5"/>
-    <media:statistics views="51701"/>
+    <media:starRating count="2170" average="5.00" min="1" max="5"/>
+    <media:statistics views="54353"/>
    </media:community>
   </media:group>
  </entry>
@@ -211,8 +234,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/ZW_Z0_IA7ZI/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3522" average="5.00" min="1" max="5"/>
-    <media:statistics views="73556"/>
+    <media:starRating count="3583" average="5.00" min="1" max="5"/>
+    <media:statistics views="75805"/>
    </media:community>
   </media:group>
  </entry>
@@ -234,8 +257,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/2jXTHZHQ0C0/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3704" average="5.00" min="1" max="5"/>
-    <media:statistics views="73731"/>
+    <media:starRating count="3736" average="5.00" min="1" max="5"/>
+    <media:statistics views="75448"/>
    </media:community>
   </media:group>
  </entry>
@@ -257,8 +280,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/RJKMtataH78/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3201" average="5.00" min="1" max="5"/>
-    <media:statistics views="73491"/>
+    <media:starRating count="3267" average="5.00" min="1" max="5"/>
+    <media:statistics views="76101"/>
    </media:community>
   </media:group>
  </entry>
@@ -280,8 +303,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/i1hZQjZaYS8/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2405" average="5.00" min="1" max="5"/>
-    <media:statistics views="76100"/>
+    <media:starRating count="2440" average="5.00" min="1" max="5"/>
+    <media:statistics views="78625"/>
    </media:community>
   </media:group>
  </entry>
@@ -328,8 +351,8 @@ https://www.youtube.com/watch?v=ImL2oQ_FxfU&amp;list=PL-ZXraMeHBPLZWTMFc3n43JdBg
 
 #youtube #LikeAndDescribe #trending</media:description>
    <media:community>
-    <media:starRating count="2726" average="5.00" min="1" max="5"/>
-    <media:statistics views="1030609"/>
+    <media:starRating count="3229" average="5.00" min="1" max="5"/>
+    <media:statistics views="1123953"/>
    </media:community>
   </media:group>
  </entry>
@@ -351,31 +374,8 @@ https://www.youtube.com/watch?v=ImL2oQ_FxfU&amp;list=PL-ZXraMeHBPLZWTMFc3n43JdBg
    <media:thumbnail url="https://i3.ytimg.com/vi/JWIVJlXtzeA/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3165" average="5.00" min="1" max="5"/>
-    <media:statistics views="94378"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:hCbrZ1AKnHA</id>
-  <yt:videoId>hCbrZ1AKnHA</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>soaps that are food shaped soaps that are soap shaped @safiya</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=hCbrZ1AKnHA"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2023-12-18T17:00:15+00:00</published>
-  <updated>2023-12-27T14:45:20+00:00</updated>
-  <media:group>
-   <media:title>soaps that are food shaped soaps that are soap shaped @safiya</media:title>
-   <media:content url="https://www.youtube.com/v/hCbrZ1AKnHA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i1.ytimg.com/vi/hCbrZ1AKnHA/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="966" average="5.00" min="1" max="5"/>
-    <media:statistics views="34681"/>
+    <media:starRating count="3209" average="5.00" min="1" max="5"/>
+    <media:statistics views="96767"/>
    </media:community>
   </media:group>
  </entry>
