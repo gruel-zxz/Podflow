@@ -30,8 +30,8 @@
 更新预告：阅读总结——人类的三种终极宿命。
 阅读总结——我心目中的科幻TOP系列盘点。</media:description>
    <media:community>
-    <media:starRating count="116" average="5.00" min="1" max="5"/>
-    <media:statistics views="4070"/>
+    <media:starRating count="126" average="5.00" min="1" max="5"/>
+    <media:statistics views="4912"/>
    </media:community>
   </media:group>
  </entry>
@@ -53,8 +53,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/7yIuEGj7IXU/hqdefault.jpg" width="480" height="360"/>
    <media:description>用40亿年去纠正一个错误，错误是创造全人类：《宇宙全能侦探社》下集</media:description>
    <media:community>
-    <media:starRating count="63" average="5.00" min="1" max="5"/>
-    <media:statistics views="2263"/>
+    <media:starRating count="65" average="5.00" min="1" max="5"/>
+    <media:statistics views="2580"/>
    </media:community>
   </media:group>
  </entry>
@@ -78,7 +78,7 @@
 原著：道格拉斯亚当斯，一位搞怪又不失科幻内核的作家。</media:description>
    <media:community>
     <media:starRating count="73" average="5.00" min="1" max="5"/>
-    <media:statistics views="4194"/>
+    <media:statistics views="4483"/>
    </media:community>
   </media:group>
  </entry>
@@ -100,8 +100,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/k_ZrLJMFE98/hqdefault.jpg" width="480" height="360"/>
    <media:description>《世界上所有的烦恼》，原著：阿西莫夫，出自阿西莫夫科幻短篇全集、 阿西莫夫的这个短篇系列终于出版了！阿西莫夫最神的就是他的短篇，所谓：人类近50年来的科技进步，一直在追赶阿西莫夫科幻小说的脚步。</media:description>
    <media:community>
-    <media:starRating count="129" average="5.00" min="1" max="5"/>
-    <media:statistics views="6190"/>
+    <media:starRating count="132" average="5.00" min="1" max="5"/>
+    <media:statistics views="6323"/>
    </media:community>
   </media:group>
  </entry>
@@ -124,7 +124,7 @@
    <media:description>一个中子星文明的毁灭与重生：《星震》大结局</media:description>
    <media:community>
     <media:starRating count="84" average="5.00" min="1" max="5"/>
-    <media:statistics views="4634"/>
+    <media:statistics views="4688"/>
    </media:community>
   </media:group>
  </entry>
@@ -148,7 +148,7 @@
 时隔几年，终于更新到这部了！</media:description>
    <media:community>
     <media:starRating count="108" average="5.00" min="1" max="5"/>
-    <media:statistics views="6394"/>
+    <media:statistics views="6432"/>
    </media:community>
   </media:group>
  </entry>
@@ -170,8 +170,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/Pns8RLiQeoI/hqdefault.jpg" width="480" height="360"/>
    <media:description>如何骗走人类的十年时间：科幻名著《抉择》，原著：小松左京。这部小说收录于《科幻之路》系列。</media:description>
    <media:community>
-    <media:starRating count="118" average="5.00" min="1" max="5"/>
-    <media:statistics views="7239"/>
+    <media:starRating count="119" average="5.00" min="1" max="5"/>
+    <media:statistics views="7296"/>
    </media:community>
   </media:group>
  </entry>
@@ -196,7 +196,7 @@
 不过主线剧情已经更新完毕，未收录的内容仅剩下人类最终生活在小宇宙中的场景。</media:description>
    <media:community>
     <media:starRating count="532" average="5.00" min="1" max="5"/>
-    <media:statistics views="35611"/>
+    <media:statistics views="35692"/>
    </media:community>
   </media:group>
  </entry>
@@ -219,7 +219,7 @@
    <media:description>《单孔衍射》出自科幻短篇集《完美末日》。作者刘洋：科幻作家，物理学博士，代表作《火星孤儿》《勾股2.013》等。这是第二次更新这位科幻作家的作品，希望大家喜欢。这部小说中提出了非常有有趣的“时间壁垒”概念。</media:description>
    <media:community>
     <media:starRating count="138" average="5.00" min="1" max="5"/>
-    <media:statistics views="8118"/>
+    <media:statistics views="8158"/>
    </media:community>
   </media:group>
  </entry>
@@ -242,8 +242,8 @@
    <media:description>《除以零》，作者：特德姜，出自科幻小说集《你一生的故事》
 这是我们最喜欢的作品之一，作者以极为另类的写作方式用数学公式描述了一对人们的情感，堪称神作！</media:description>
    <media:community>
-    <media:starRating count="223" average="5.00" min="1" max="5"/>
-    <media:statistics views="11397"/>
+    <media:starRating count="224" average="5.00" min="1" max="5"/>
+    <media:statistics views="11424"/>
    </media:community>
   </media:group>
  </entry>
@@ -266,7 +266,7 @@
    <media:description>本期更新一期克苏鲁神话（非科幻内容）极北坚冰，食人梦魇——克苏鲁神话巅峰之作《虚境奇谭》</media:description>
    <media:community>
     <media:starRating count="210" average="5.00" min="1" max="5"/>
-    <media:statistics views="13080"/>
+    <media:statistics views="13173"/>
    </media:community>
   </media:group>
  </entry>
@@ -289,7 +289,7 @@
    <media:description>科幻小说《橱窗里的荷兰赌徒》，作者李兴春，银河奖获奖作品，是一部不可多得的国产佳作。所谓：数学天才与疯子赌徒之间，正如上帝的左右手。</media:description>
    <media:community>
     <media:starRating count="66" average="5.00" min="1" max="5"/>
-    <media:statistics views="3882"/>
+    <media:statistics views="3896"/>
    </media:community>
   </media:group>
  </entry>
@@ -312,7 +312,7 @@
    <media:description>科幻小说《阖上眼五秒钟》，作者遥控，作品刊登于早年的科幻世界杂志上，是个有趣的小说。</media:description>
    <media:community>
     <media:starRating count="118" average="5.00" min="1" max="5"/>
-    <media:statistics views="7243"/>
+    <media:statistics views="7273"/>
    </media:community>
   </media:group>
  </entry>
@@ -335,7 +335,7 @@
    <media:description>人类史上第一位时间穿越者，居然成功了！经典科幻解读，原著：宝树.</media:description>
    <media:community>
     <media:starRating count="100" average="5.00" min="1" max="5"/>
-    <media:statistics views="5996"/>
+    <media:statistics views="6013"/>
    </media:community>
   </media:group>
  </entry>
@@ -359,7 +359,7 @@
 虽然过去了二十多年，但是好的作品值得让大家记得，分上下集发布</media:description>
    <media:community>
     <media:starRating count="105" average="5.00" min="1" max="5"/>
-    <media:statistics views="6232"/>
+    <media:statistics views="6245"/>
    </media:community>
   </media:group>
  </entry>
