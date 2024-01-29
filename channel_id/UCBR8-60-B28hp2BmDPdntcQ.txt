@@ -10,6 +10,29 @@
   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
  </author>
  <entry>
+  <id>yt:video:kwC5ABBK3mg</id>
+  <yt:videoId>kwC5ABBK3mg</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>are the wires a metaphor? drop your thoughts in the comments</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=kwC5ABBK3mg"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2024-01-29T16:00:24+00:00</published>
+  <updated>2024-01-29T16:07:28+00:00</updated>
+  <media:group>
+   <media:title>are the wires a metaphor? drop your thoughts in the comments</media:title>
+   <media:content url="https://www.youtube.com/v/kwC5ABBK3mg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/kwC5ABBK3mg/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="478" average="5.00" min="1" max="5"/>
+    <media:statistics views="7672"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:nQHNmvb37nc</id>
   <yt:videoId>nQHNmvb37nc</yt:videoId>
   <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
@@ -27,54 +50,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/nQHNmvb37nc/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1407" average="5.00" min="1" max="5"/>
-    <media:statistics views="29171"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:45GgX2CwIko</id>
-  <yt:videoId>45GgX2CwIko</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>Tap Effects. Click AI Bloom. Voila…now you are one with the Earth.</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=45GgX2CwIko"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2024-01-26T18:35:05+00:00</published>
-  <updated>2024-01-26T20:47:28+00:00</updated>
-  <media:group>
-   <media:title>Tap Effects. Click AI Bloom. Voila…now you are one with the Earth.</media:title>
-   <media:content url="https://www.youtube.com/v/45GgX2CwIko?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i1.ytimg.com/vi/45GgX2CwIko/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="950" average="5.00" min="1" max="5"/>
-    <media:statistics views="19282"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:XnMzIcvp_88</id>
-  <yt:videoId>XnMzIcvp_88</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>Just imagine a world…where everything is a plant. Try the AI Bloom effect on Shorts.</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=XnMzIcvp_88"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2024-01-26T18:34:09+00:00</published>
-  <updated>2024-01-26T20:53:05+00:00</updated>
-  <media:group>
-   <media:title>Just imagine a world…where everything is a plant. Try the AI Bloom effect on Shorts.</media:title>
-   <media:content url="https://www.youtube.com/v/XnMzIcvp_88?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i1.ytimg.com/vi/XnMzIcvp_88/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="690" average="5.00" min="1" max="5"/>
-    <media:statistics views="12740"/>
+    <media:starRating count="1823" average="5.00" min="1" max="5"/>
+    <media:statistics views="43964"/>
    </media:community>
   </media:group>
  </entry>
@@ -89,7 +66,7 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-01-25T13:00:42+00:00</published>
-  <updated>2024-01-25T13:00:43+00:00</updated>
+  <updated>2024-01-28T15:09:03+00:00</updated>
   <media:group>
    <media:title>Enter the realm of the Tabletop Role Playing Games community</media:title>
    <media:content url="https://www.youtube.com/v/ly-xfCNDK3U?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -141,8 +118,8 @@ Featured Creators:
 
 #TTRPG #TabletopRoleplayGame #YouTube</media:description>
    <media:community>
-    <media:starRating count="2566" average="5.00" min="1" max="5"/>
-    <media:statistics views="286677"/>
+    <media:starRating count="2949" average="5.00" min="1" max="5"/>
+    <media:statistics views="433426"/>
    </media:community>
   </media:group>
  </entry>
@@ -164,8 +141,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/fuZUe37PXCs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1740" average="5.00" min="1" max="5"/>
-    <media:statistics views="39872"/>
+    <media:starRating count="1942" average="5.00" min="1" max="5"/>
+    <media:statistics views="47044"/>
    </media:community>
   </media:group>
  </entry>
@@ -187,8 +164,8 @@ Featured Creators:
    <media:thumbnail url="https://i1.ytimg.com/vi/PXkDjNI5RSg/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1149" average="5.00" min="1" max="5"/>
-    <media:statistics views="26233"/>
+    <media:starRating count="1226" average="5.00" min="1" max="5"/>
+    <media:statistics views="28261"/>
    </media:community>
   </media:group>
  </entry>
@@ -210,8 +187,8 @@ Featured Creators:
    <media:thumbnail url="https://i4.ytimg.com/vi/s-D68FF8Q_c/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="8339" average="5.00" min="1" max="5"/>
-    <media:statistics views="486818"/>
+    <media:starRating count="8437" average="5.00" min="1" max="5"/>
+    <media:statistics views="491176"/>
    </media:community>
   </media:group>
  </entry>
@@ -233,8 +210,8 @@ Featured Creators:
    <media:thumbnail url="https://i2.ytimg.com/vi/i5KuVIZFTNo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1708" average="5.00" min="1" max="5"/>
-    <media:statistics views="48636"/>
+    <media:starRating count="1769" average="5.00" min="1" max="5"/>
+    <media:statistics views="50831"/>
    </media:community>
   </media:group>
  </entry>
@@ -262,8 +239,8 @@ Watch sWooZie’s story here: http://yt.be/SwoozieFlowers
 
 Watch Nyma Tang's story here: https://yt.be/NymaFlowers</media:description>
    <media:community>
-    <media:starRating count="3890" average="5.00" min="1" max="5"/>
-    <media:statistics views="604379"/>
+    <media:starRating count="4072" average="5.00" min="1" max="5"/>
+    <media:statistics views="617753"/>
    </media:community>
   </media:group>
  </entry>
@@ -285,8 +262,8 @@ Watch Nyma Tang's story here: https://yt.be/NymaFlowers</media:description>
    <media:thumbnail url="https://i3.ytimg.com/vi/VoqnCaE8HPA/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1198" average="5.00" min="1" max="5"/>
-    <media:statistics views="32405"/>
+    <media:starRating count="1229" average="5.00" min="1" max="5"/>
+    <media:statistics views="33776"/>
    </media:community>
   </media:group>
  </entry>
@@ -308,8 +285,8 @@ Watch Nyma Tang's story here: https://yt.be/NymaFlowers</media:description>
    <media:thumbnail url="https://i1.ytimg.com/vi/4meQIH3xAFw/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2710" average="5.00" min="1" max="5"/>
-    <media:statistics views="85415"/>
+    <media:starRating count="2751" average="5.00" min="1" max="5"/>
+    <media:statistics views="87904"/>
    </media:community>
   </media:group>
  </entry>
@@ -331,8 +308,8 @@ Watch Nyma Tang's story here: https://yt.be/NymaFlowers</media:description>
    <media:thumbnail url="https://i3.ytimg.com/vi/V7OgtMMEieI/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3457" average="5.00" min="1" max="5"/>
-    <media:statistics views="92604"/>
+    <media:starRating count="3514" average="5.00" min="1" max="5"/>
+    <media:statistics views="95379"/>
    </media:community>
   </media:group>
  </entry>
@@ -354,8 +331,8 @@ Watch Nyma Tang's story here: https://yt.be/NymaFlowers</media:description>
    <media:thumbnail url="https://i1.ytimg.com/vi/xBI9uePWH3Y/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1747" average="5.00" min="1" max="5"/>
-    <media:statistics views="61619"/>
+    <media:starRating count="1791" average="5.00" min="1" max="5"/>
+    <media:statistics views="63642"/>
    </media:community>
   </media:group>
  </entry>
@@ -377,8 +354,8 @@ Watch Nyma Tang's story here: https://yt.be/NymaFlowers</media:description>
    <media:thumbnail url="https://i2.ytimg.com/vi/y98N0oZ4DD8/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1980" average="5.00" min="1" max="5"/>
-    <media:statistics views="51768"/>
+    <media:starRating count="2015" average="5.00" min="1" max="5"/>
+    <media:statistics views="52976"/>
    </media:community>
   </media:group>
  </entry>
@@ -400,8 +377,31 @@ Watch Nyma Tang's story here: https://yt.be/NymaFlowers</media:description>
    <media:thumbnail url="https://i1.ytimg.com/vi/t-PScA8j1mg/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2126" average="5.00" min="1" max="5"/>
-    <media:statistics views="75984"/>
+    <media:starRating count="2157" average="5.00" min="1" max="5"/>
+    <media:statistics views="78056"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:DJ2JQJRxHNs</id>
+  <yt:videoId>DJ2JQJRxHNs</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>@MatthewandRyan @CoreyTonge and @MoreAliA had a lot to smile about in 2023!</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=DJ2JQJRxHNs"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2024-01-05T16:00:17+00:00</published>
+  <updated>2024-01-10T04:16:35+00:00</updated>
+  <media:group>
+   <media:title>@MatthewandRyan @CoreyTonge and @MoreAliA had a lot to smile about in 2023!</media:title>
+   <media:content url="https://www.youtube.com/v/DJ2JQJRxHNs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/DJ2JQJRxHNs/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="2761" average="5.00" min="1" max="5"/>
+    <media:statistics views="96199"/>
    </media:community>
   </media:group>
  </entry>

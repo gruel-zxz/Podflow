@@ -80,8 +80,8 @@ https://youtu.be/BbtTwsP_-zc
 
 Twitter：stone记@stone62855987</media:description>
    <media:community>
-    <media:starRating count="18" average="5.00" min="1" max="5"/>
-    <media:statistics views="1460"/>
+    <media:starRating count="21" average="5.00" min="1" max="5"/>
+    <media:statistics views="1885"/>
    </media:community>
   </media:group>
  </entry>
@@ -155,8 +155,8 @@ https://youtu.be/BbtTwsP_-zc
 
 Twitter：stone记@stone62855987</media:description>
    <media:community>
-    <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="306"/>
+    <media:starRating count="6" average="5.00" min="1" max="5"/>
+    <media:statistics views="372"/>
    </media:community>
   </media:group>
  </entry>
@@ -230,8 +230,8 @@ https://youtu.be/BbtTwsP_-zc
 
 Twitter：stone记@stone62855987</media:description>
    <media:community>
-    <media:starRating count="10" average="5.00" min="1" max="5"/>
-    <media:statistics views="1044"/>
+    <media:starRating count="11" average="5.00" min="1" max="5"/>
+    <media:statistics views="1142"/>
    </media:community>
   </media:group>
  </entry>
@@ -306,7 +306,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="360"/>
+    <media:statistics views="377"/>
    </media:community>
   </media:group>
  </entry>
@@ -381,7 +381,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="919"/>
+    <media:statistics views="848"/>
    </media:community>
   </media:group>
  </entry>
@@ -456,7 +456,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="22" average="5.00" min="1" max="5"/>
-    <media:statistics views="2547"/>
+    <media:statistics views="2600"/>
    </media:community>
   </media:group>
  </entry>
@@ -530,8 +530,8 @@ https://youtu.be/BbtTwsP_-zc
 
 Twitter：stone记@stone62855987</media:description>
    <media:community>
-    <media:starRating count="43" average="5.00" min="1" max="5"/>
-    <media:statistics views="8286"/>
+    <media:starRating count="44" average="5.00" min="1" max="5"/>
+    <media:statistics views="8307"/>
    </media:community>
   </media:group>
  </entry>
@@ -606,7 +606,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="31" average="5.00" min="1" max="5"/>
-    <media:statistics views="7378"/>
+    <media:statistics views="7389"/>
    </media:community>
   </media:group>
  </entry>
@@ -681,7 +681,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="19" average="5.00" min="1" max="5"/>
-    <media:statistics views="4053"/>
+    <media:statistics views="4054"/>
    </media:community>
   </media:group>
  </entry>
@@ -756,7 +756,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="17" average="5.00" min="1" max="5"/>
-    <media:statistics views="2950"/>
+    <media:statistics views="2957"/>
    </media:community>
   </media:group>
  </entry>
@@ -831,7 +831,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="16" average="5.00" min="1" max="5"/>
-    <media:statistics views="3344"/>
+    <media:statistics views="3348"/>
    </media:community>
   </media:group>
  </entry>
@@ -906,7 +906,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="28" average="5.00" min="1" max="5"/>
-    <media:statistics views="3946"/>
+    <media:statistics views="3948"/>
    </media:community>
   </media:group>
  </entry>
@@ -980,8 +980,8 @@ https://youtu.be/BbtTwsP_-zc
 
 Twitter：stone记@stone62855987</media:description>
    <media:community>
-    <media:starRating count="29" average="5.00" min="1" max="5"/>
-    <media:statistics views="5837"/>
+    <media:starRating count="30" average="5.00" min="1" max="5"/>
+    <media:statistics views="5843"/>
    </media:community>
   </media:group>
  </entry>
@@ -996,7 +996,7 @@ Twitter：stone记@stone62855987</media:description>
    <uri>https://www.youtube.com/channel/UCmOVUFkam162EJ48KfQaIyg</uri>
   </author>
   <published>2023-05-16T10:41:36+00:00</published>
-  <updated>2023-11-10T17:12:59+00:00</updated>
+  <updated>2024-01-28T22:37:09+00:00</updated>
   <media:group>
    <media:title>订制Korth NXS之前先看这个视频（20230516第5964期）</media:title>
    <media:content url="https://www.youtube.com/v/IAssXIsRF4A?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
