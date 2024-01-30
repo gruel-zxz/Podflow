@@ -1028,6 +1028,7 @@ if channelid_youtube is not None:
     write_log("读取youtube频道的channelid成功")
 else:
     channelid_youtube_ids = None
+channelid_youtube_ids_original = channelid_youtube_ids.copy()  # 复制youtube频道id用于删除已抛弃的媒体文件夹
 # 读取bilibili频道的id
 if channelid_bilibili is not None:
     channelid_bilibili_ids = [
@@ -1686,7 +1687,7 @@ def remove_dir():
     ]
     folder_names = [name for name in folder_names if re.match(r"UC.{22}", name)]
     for name in folder_names:
-        if name not in channelid_youtube_ids:
+        if name not in channelid_youtube_ids_original:
             os.system(f"rm -r channel_audiovisual/{name}")
             write_log(f"{name}文件夹已删除")
 

@@ -28,8 +28,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/wnP-yUQ1MkQ/hqdefault.jpg" width="480" height="360"/>
    <media:description>说明：这个盘点清单是根据幻海团队的阅读经历，从读者的接受度、作品故事性、作品的思想深度等特点做出的盘点清单，均为我们的个人观点。所以《龙蛋》、《盲视》、《量子魔术师》《泥人十四》等过于硬核的优秀作品不在其中，同时《三体》与《泽利》也不在其中，它们之前已经总结过了，另外《太空漫游系列》/《火星救援》《索拉里斯星》等优秀作品，由于已经被影视化，熟悉的人很多，所以也不在其中。</media:description>
    <media:community>
-    <media:starRating count="141" average="5.00" min="1" max="5"/>
-    <media:statistics views="4192"/>
+    <media:starRating count="142" average="5.00" min="1" max="5"/>
+    <media:statistics views="4214"/>
    </media:community>
   </media:group>
  </entry>
@@ -53,7 +53,7 @@
 我们最看好的是05：15的部分，在科技断代之后，人类存活到了最后。</media:description>
    <media:community>
     <media:starRating count="121" average="5.00" min="1" max="5"/>
-    <media:statistics views="6285"/>
+    <media:statistics views="6292"/>
    </media:community>
   </media:group>
  </entry>
@@ -77,8 +77,8 @@
 更新预告：阅读总结——人类的三种终极宿命。
 阅读总结——我心目中的科幻TOP系列盘点。</media:description>
    <media:community>
-    <media:starRating count="149" average="5.00" min="1" max="5"/>
-    <media:statistics views="6234"/>
+    <media:starRating count="150" average="5.00" min="1" max="5"/>
+    <media:statistics views="6238"/>
    </media:community>
   </media:group>
  </entry>
@@ -101,7 +101,7 @@
    <media:description>用40亿年去纠正一个错误，错误是创造全人类：《宇宙全能侦探社》下集</media:description>
    <media:community>
     <media:starRating count="71" average="5.00" min="1" max="5"/>
-    <media:statistics views="3164"/>
+    <media:statistics views="3166"/>
    </media:community>
   </media:group>
  </entry>
@@ -125,7 +125,7 @@
 原著：道格拉斯亚当斯，一位搞怪又不失科幻内核的作家。</media:description>
    <media:community>
     <media:starRating count="80" average="5.00" min="1" max="5"/>
-    <media:statistics views="5318"/>
+    <media:statistics views="5320"/>
    </media:community>
   </media:group>
  </entry>
@@ -148,7 +148,7 @@
    <media:description>《世界上所有的烦恼》，原著：阿西莫夫，出自阿西莫夫科幻短篇全集、 阿西莫夫的这个短篇系列终于出版了！阿西莫夫最神的就是他的短篇，所谓：人类近50年来的科技进步，一直在追赶阿西莫夫科幻小说的脚步。</media:description>
    <media:community>
     <media:starRating count="139" average="5.00" min="1" max="5"/>
-    <media:statistics views="6893"/>
+    <media:statistics views="6898"/>
    </media:community>
   </media:group>
  </entry>
@@ -171,7 +171,7 @@
    <media:description>一个中子星文明的毁灭与重生：《星震》大结局</media:description>
    <media:community>
     <media:starRating count="86" average="5.00" min="1" max="5"/>
-    <media:statistics views="4983"/>
+    <media:statistics views="4984"/>
    </media:community>
   </media:group>
  </entry>
@@ -218,7 +218,7 @@
    <media:description>如何骗走人类的十年时间：科幻名著《抉择》，原著：小松左京。这部小说收录于《科幻之路》系列。</media:description>
    <media:community>
     <media:starRating count="125" average="5.00" min="1" max="5"/>
-    <media:statistics views="7588"/>
+    <media:statistics views="7592"/>
    </media:community>
   </media:group>
  </entry>
@@ -243,7 +243,7 @@
 不过主线剧情已经更新完毕，未收录的内容仅剩下人类最终生活在小宇宙中的场景。</media:description>
    <media:community>
     <media:starRating count="534" average="5.00" min="1" max="5"/>
-    <media:statistics views="36081"/>
+    <media:statistics views="36084"/>
    </media:community>
   </media:group>
  </entry>
@@ -266,7 +266,7 @@
    <media:description>《单孔衍射》出自科幻短篇集《完美末日》。作者刘洋：科幻作家，物理学博士，代表作《火星孤儿》《勾股2.013》等。这是第二次更新这位科幻作家的作品，希望大家喜欢。这部小说中提出了非常有有趣的“时间壁垒”概念。</media:description>
    <media:community>
     <media:starRating count="141" average="5.00" min="1" max="5"/>
-    <media:statistics views="8344"/>
+    <media:statistics views="8346"/>
    </media:community>
   </media:group>
  </entry>
@@ -290,7 +290,7 @@
 这是我们最喜欢的作品之一，作者以极为另类的写作方式用数学公式描述了一对人们的情感，堪称神作！</media:description>
    <media:community>
     <media:starRating count="226" average="5.00" min="1" max="5"/>
-    <media:statistics views="11632"/>
+    <media:statistics views="11633"/>
    </media:community>
   </media:group>
  </entry>
@@ -313,7 +313,7 @@
    <media:description>本期更新一期克苏鲁神话（非科幻内容）极北坚冰，食人梦魇——克苏鲁神话巅峰之作《虚境奇谭》</media:description>
    <media:community>
     <media:starRating count="213" average="5.00" min="1" max="5"/>
-    <media:statistics views="13459"/>
+    <media:statistics views="13461"/>
    </media:community>
   </media:group>
  </entry>
@@ -359,7 +359,7 @@
    <media:description>科幻小说《阖上眼五秒钟》，作者遥控，作品刊登于早年的科幻世界杂志上，是个有趣的小说。</media:description>
    <media:community>
     <media:starRating count="119" average="5.00" min="1" max="5"/>
-    <media:statistics views="7411"/>
+    <media:statistics views="7412"/>
    </media:community>
   </media:group>
  </entry>
