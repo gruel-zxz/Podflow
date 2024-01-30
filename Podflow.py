@@ -1736,7 +1736,7 @@ def make_up_file(output_dir):
 for output_dir in channelid_youtube_ids:
     make_up_file(output_dir)
 # 拆分补全字典并判断是否补全
-make_up_file_format = split_dict(data, config["completion_count"], True)[0]
+make_up_file_format = split_dict(make_up_file_format, config["completion_count"], True)[0]
 if len(make_up_file_format) != 0:
     print(f"{datetime.now().strftime('%H:%M:%S')}|补全缺失媒体 \033[34m下载准备中...\033[0m")
 # 创建线程锁
