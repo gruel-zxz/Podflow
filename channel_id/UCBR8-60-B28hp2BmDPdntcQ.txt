@@ -27,8 +27,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/kwC5ABBK3mg/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="566" average="5.00" min="1" max="5"/>
-    <media:statistics views="9964"/>
+    <media:starRating count="691" average="5.00" min="1" max="5"/>
+    <media:statistics views="14568"/>
    </media:community>
   </media:group>
  </entry>
@@ -50,8 +50,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/nQHNmvb37nc/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1842" average="5.00" min="1" max="5"/>
-    <media:statistics views="44476"/>
+    <media:starRating count="1887" average="5.00" min="1" max="5"/>
+    <media:statistics views="45618"/>
    </media:community>
   </media:group>
  </entry>
@@ -118,8 +118,8 @@ Featured Creators:
 
 #TTRPG #TabletopRoleplayGame #YouTube</media:description>
    <media:community>
-    <media:starRating count="2967" average="5.00" min="1" max="5"/>
-    <media:statistics views="442084"/>
+    <media:starRating count="3015" average="5.00" min="1" max="5"/>
+    <media:statistics views="464698"/>
    </media:community>
   </media:group>
  </entry>
@@ -141,8 +141,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/fuZUe37PXCs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1960" average="5.00" min="1" max="5"/>
-    <media:statistics views="47478"/>
+    <media:starRating count="1996" average="5.00" min="1" max="5"/>
+    <media:statistics views="48573"/>
    </media:community>
   </media:group>
  </entry>
@@ -164,8 +164,8 @@ Featured Creators:
    <media:thumbnail url="https://i1.ytimg.com/vi/PXkDjNI5RSg/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1231" average="5.00" min="1" max="5"/>
-    <media:statistics views="28396"/>
+    <media:starRating count="1238" average="5.00" min="1" max="5"/>
+    <media:statistics views="28699"/>
    </media:community>
   </media:group>
  </entry>
@@ -187,8 +187,8 @@ Featured Creators:
    <media:thumbnail url="https://i4.ytimg.com/vi/s-D68FF8Q_c/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="8444" average="5.00" min="1" max="5"/>
-    <media:statistics views="491433"/>
+    <media:starRating count="8460" average="5.00" min="1" max="5"/>
+    <media:statistics views="492098"/>
    </media:community>
   </media:group>
  </entry>
@@ -210,8 +210,8 @@ Featured Creators:
    <media:thumbnail url="https://i2.ytimg.com/vi/i5KuVIZFTNo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1775" average="5.00" min="1" max="5"/>
-    <media:statistics views="50979"/>
+    <media:starRating count="1780" average="5.00" min="1" max="5"/>
+    <media:statistics views="51309"/>
    </media:community>
   </media:group>
  </entry>
@@ -239,8 +239,8 @@ Watch sWooZie’s story here: http://yt.be/SwoozieFlowers
 
 Watch Nyma Tang's story here: https://yt.be/NymaFlowers</media:description>
    <media:community>
-    <media:starRating count="4090" average="5.00" min="1" max="5"/>
-    <media:statistics views="619049"/>
+    <media:starRating count="4117" average="5.00" min="1" max="5"/>
+    <media:statistics views="621511"/>
    </media:community>
   </media:group>
  </entry>
@@ -262,8 +262,8 @@ Watch Nyma Tang's story here: https://yt.be/NymaFlowers</media:description>
    <media:thumbnail url="https://i3.ytimg.com/vi/VoqnCaE8HPA/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1230" average="5.00" min="1" max="5"/>
-    <media:statistics views="33858"/>
+    <media:starRating count="1234" average="5.00" min="1" max="5"/>
+    <media:statistics views="34071"/>
    </media:community>
   </media:group>
  </entry>
@@ -285,8 +285,8 @@ Watch Nyma Tang's story here: https://yt.be/NymaFlowers</media:description>
    <media:thumbnail url="https://i1.ytimg.com/vi/4meQIH3xAFw/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2754" average="5.00" min="1" max="5"/>
-    <media:statistics views="88065"/>
+    <media:starRating count="2755" average="5.00" min="1" max="5"/>
+    <media:statistics views="88431"/>
    </media:community>
   </media:group>
  </entry>
@@ -308,8 +308,8 @@ Watch Nyma Tang's story here: https://yt.be/NymaFlowers</media:description>
    <media:thumbnail url="https://i3.ytimg.com/vi/V7OgtMMEieI/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3518" average="5.00" min="1" max="5"/>
-    <media:statistics views="95534"/>
+    <media:starRating count="3521" average="5.00" min="1" max="5"/>
+    <media:statistics views="95941"/>
    </media:community>
   </media:group>
  </entry>
@@ -331,8 +331,8 @@ Watch Nyma Tang's story here: https://yt.be/NymaFlowers</media:description>
    <media:thumbnail url="https://i1.ytimg.com/vi/xBI9uePWH3Y/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1793" average="5.00" min="1" max="5"/>
-    <media:statistics views="63751"/>
+    <media:starRating count="1796" average="5.00" min="1" max="5"/>
+    <media:statistics views="64029"/>
    </media:community>
   </media:group>
  </entry>
@@ -354,8 +354,8 @@ Watch Nyma Tang's story here: https://yt.be/NymaFlowers</media:description>
    <media:thumbnail url="https://i2.ytimg.com/vi/y98N0oZ4DD8/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2018" average="5.00" min="1" max="5"/>
-    <media:statistics views="53050"/>
+    <media:starRating count="2022" average="5.00" min="1" max="5"/>
+    <media:statistics views="53259"/>
    </media:community>
   </media:group>
  </entry>
@@ -377,8 +377,8 @@ Watch Nyma Tang's story here: https://yt.be/NymaFlowers</media:description>
    <media:thumbnail url="https://i1.ytimg.com/vi/t-PScA8j1mg/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2158" average="5.00" min="1" max="5"/>
-    <media:statistics views="78181"/>
+    <media:starRating count="2159" average="5.00" min="1" max="5"/>
+    <media:statistics views="78482"/>
    </media:community>
   </media:group>
  </entry>
@@ -400,8 +400,8 @@ Watch Nyma Tang's story here: https://yt.be/NymaFlowers</media:description>
    <media:thumbnail url="https://i1.ytimg.com/vi/DJ2JQJRxHNs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2761" average="5.00" min="1" max="5"/>
-    <media:statistics views="96310"/>
+    <media:starRating count="2765" average="5.00" min="1" max="5"/>
+    <media:statistics views="96615"/>
    </media:community>
   </media:group>
  </entry>

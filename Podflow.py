@@ -16,6 +16,7 @@ from datetime import datetime, timedelta, timezone
 
 # 默认参数
 default_config = {
+    "completion_count": 100,
     "retry_count": 5,
     "url": "http://127.0.0.1:8000",
     "title": "Podflow",
@@ -768,6 +769,21 @@ def folder_build(folder_name, parent_folder_name=None):
         os.makedirs(folder_path)  # 创建文件夹
         write_log(f"文件夹{folder_name}创建成功")
 
+# 字典拆分模块
+def split_dict(data, chunk_size=100, firse_item_only=False):
+    chunks = []
+    if chunk_size == 0:
+        return [{}]
+    else:
+        if firse_item_only:
+            end_value = chunk_size
+        else:
+            end_value = len(data)
+        for i in range(0, end_value, chunk_size):
+            chunk = dict(list(data.items())[i:i+chunk_size])
+            chunks.append(chunk)
+        return chunks
+
 # 检查当前文件夹中是否存在config.json文件
 if not os.path.exists("config.json"):
     # 如果文件不存在, 创建并写入默认字典
@@ -786,6 +802,13 @@ else:
         write_log(f"配置文件有误, 请检查config.json, {str(config_error)}")
         sys.exit(0)
 
+# 对completion_count进行纠正
+if (
+    "completion_count" not in config
+    or not isinstance(config["completion_count"], int)
+    or config["completion_count"] < 0
+):
+    config["completion_count"] = default_config["completion_count"]
 # 对retry_count进行纠正
 if (
     "retry_count" not in config
@@ -1712,6 +1735,8 @@ def make_up_file(output_dir):
 # 补全在rss中缺失的媒体格式信息
 for output_dir in channelid_youtube_ids:
     make_up_file(output_dir)
+# 拆分补全字典并判断是否补全
+    make_up_file_format = split_dict(data, config["completion_count"], True)[0]
 if len(make_up_file_format) != 0:
     print(f"{datetime.now().strftime('%H:%M:%S')}|补全缺失媒体 \033[34m下载准备中...\033[0m")
 # 创建线程锁

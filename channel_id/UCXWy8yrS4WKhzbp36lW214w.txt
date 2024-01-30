@@ -28,8 +28,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/eTClo2Z8hXg/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="1"/>
+    <media:starRating count="2" average="5.00" min="1" max="5"/>
+    <media:statistics views="18"/>
    </media:community>
   </media:group>
  </entry>
@@ -44,7 +44,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-01-29T08:23:22+00:00</published>
-  <updated>2024-01-29T10:48:12+00:00</updated>
+  <updated>2024-01-30T06:30:05+00:00</updated>
   <media:group>
    <media:title>16个小时不吃东西， 身体会变成啥样？</media:title>
    <media:content url="https://www.youtube.com/v/7VJiaAM-v-M?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -67,7 +67,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-01-29T03:03:26+00:00</published>
-  <updated>2024-01-29T10:55:03+00:00</updated>
+  <updated>2024-01-30T06:38:16+00:00</updated>
   <media:group>
    <media:title>谁抹去了地球十亿年历史</media:title>
    <media:content url="https://www.youtube.com/v/ZPCZ5sN7ZVE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -121,7 +121,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="44"/>
+    <media:statistics views="50"/>
    </media:community>
   </media:group>
  </entry>
@@ -143,8 +143,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/TYNFCEnryrM/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="0" average="0.00" min="1" max="5"/>
-    <media:statistics views="607"/>
+    <media:starRating count="2" average="5.00" min="1" max="5"/>
+    <media:statistics views="784"/>
    </media:community>
   </media:group>
  </entry>
@@ -167,7 +167,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="3" average="5.00" min="1" max="5"/>
-    <media:statistics views="87"/>
+    <media:statistics views="91"/>
    </media:community>
   </media:group>
  </entry>
