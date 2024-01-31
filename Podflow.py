@@ -16,6 +16,7 @@ from datetime import datetime, timedelta, timezone
 
 # 默认参数
 default_config = {
+    "preparation_per_count": 100,
     "completion_count": 100,
     "retry_count": 5,
     "url": "http://127.0.0.1:8000",
@@ -27,7 +28,7 @@ default_config = {
     "category": "TV &amp; Film",
     "channelid_youtube": {
         "youtube": {
-            "update_size": 2,
+            "update_size": 5,
             "id": "UCBR8-60-B28hp2BmDPdntcQ",
             "title": "YouTube",
             "quality": "480",
@@ -809,6 +810,13 @@ if (
     or config["completion_count"] < 0
 ):
     config["completion_count"] = default_config["completion_count"]
+# 对preparation_per_count进行纠正
+if (
+    "preparation_per_count" not in config
+    or not isinstance(config["preparation_per_count"], int)
+    or config["preparation_per_count"] <= 0
+):
+    config["preparation_per_count"] = default_config["preparation_per_count"]
 # 对retry_count进行纠正
 if (
     "retry_count" not in config
@@ -1230,82 +1238,90 @@ for ytid_key, ytid_value in youtube_content_ytid_update.items():
         youtube_content_ytid_update_format[yt_id] = yt_id_format
 
 if len(youtube_content_ytid_update_format) != 0:
-    # 等待动画模块
-    def wait_animation(stop_flag):
-        animation = "."
-        i = 1
-        prepare_youtube_print = datetime.now().strftime("%H:%M:%S")
-        while True:
-            if stop_flag[0] == "keep":
-                print(
-                    f"\r{prepare_youtube_print}|YouTube视频 \033[34m下载准备中{animation.ljust(5)}\033[0m",
-                    end="",
-                )
-            elif stop_flag[0] == "error":
-                print(
-                    f"\r{prepare_youtube_print}|YouTube视频 \033[34m下载准备中{animation} \033[31m失败：\033[0m"
-                )
-                break
-            elif stop_flag[0] == "end":
-                print(
-                    f"\r{prepare_youtube_print}|YouTube视频 \033[34m下载准备中{animation} 已完成\033[0m"
-                )
-                break
-            if i % 5 == 0:
-                animation = "."
-            else:
-                animation += "."
-            i += 1
-            time.sleep(0.5)
-    # 获取视频信息多线程模块
-    def before_youtube_video_format(stop_flag):
-        # 创建线程锁
-        youtube_video_format_lock = threading.Lock()
-        def youtube_video_format(yt_id):
-            ytid_update_format = video_format(
-                "https://www.youtube.com/watch?v=",
-                yt_id,
-                youtube_content_ytid_update_format[yt_id]["media"],
-                youtube_content_ytid_update_format[yt_id]["quality"],
-            )
-            if isinstance(ytid_update_format, list):
-                youtube_content_ytid_update_format[yt_id]["format"] = ytid_update_format
-            else:
-                with youtube_video_format_lock:
-                    stop_flag[0] = "error"
-                    time.sleep(0.5)
-                    yt_id_failed.append(yt_id)
-                    write_log(
-                        f"{channelid_youtube_ids[youtube_content_ytid_update_format[yt_id]['id']]}|{yt_id}|{ytid_update_format}",
-                        None,
-                        True,
-                        False,
+    youtube_content_ytid_update_format_list = split_dict(youtube_content_ytid_update_format, config["preparation_per_count"])
+    wait_animation_num = 1
+    for youtube_content_ytid_update_format_item in youtube_content_ytid_update_format_list:
+        if len(youtube_content_ytid_update_format_list) == 1:
+            wait_animation_display_info = ""
+        else:
+            wait_animation_display_info = f"第{wait_animation_num}段 "
+        wait_animation_num += 1
+        # 等待动画模块
+        def wait_animation(stop_flag):
+            animation = "."
+            i = 1
+            prepare_youtube_print = datetime.now().strftime("%H:%M:%S")
+            while True:
+                if stop_flag[0] == "keep":
+                    print(
+                        f"\r{prepare_youtube_print}|YouTube视频 {wait_animation_display_info}\033[34m下载准备中{animation.ljust(5)}\033[0m",
+                        end="",
                     )
-                    del youtube_content_ytid_update_format[yt_id]
-        # 创建线程列表
-        youtube_content_ytid_update_threads = []
-        for yt_id in youtube_content_ytid_update_format.keys():
-            thread = threading.Thread(target=youtube_video_format, args=(yt_id,))
-            youtube_content_ytid_update_threads.append(thread)
-            thread.start()
-        # 等待所有线程完成
-        for thread in youtube_content_ytid_update_threads:
-            thread.join()
-        stop_flag[0] = "end"
+                elif stop_flag[0] == "error":
+                    print(
+                        f"\r{prepare_youtube_print}|YouTube视频 {wait_animation_display_info}\033[34m下载准备中{animation} \033[31m失败：\033[0m"
+                    )
+                    break
+                elif stop_flag[0] == "end":
+                    print(
+                        f"\r{prepare_youtube_print}|YouTube视频 {wait_animation_display_info}\033[34m下载准备中{animation} 已完成\033[0m"
+                    )
+                    break
+                if i % 5 == 0:
+                    animation = "."
+                else:
+                    animation += "."
+                i += 1
+                time.sleep(0.5)
+        # 获取视频信息多线程模块
+        def before_youtube_video_format(stop_flag):
+            # 创建线程锁
+            youtube_video_format_lock = threading.Lock()
+            def youtube_video_format(yt_id):
+                ytid_update_format = video_format(
+                    "https://www.youtube.com/watch?v=",
+                    yt_id,
+                    youtube_content_ytid_update_format[yt_id]["media"],
+                    youtube_content_ytid_update_format[yt_id]["quality"],
+                )
+                if isinstance(ytid_update_format, list):
+                    youtube_content_ytid_update_format[yt_id]["format"] = ytid_update_format
+                else:
+                    with youtube_video_format_lock:
+                        stop_flag[0] = "error"
+                        time.sleep(0.5)
+                        yt_id_failed.append(yt_id)
+                        write_log(
+                            f"{channelid_youtube_ids[youtube_content_ytid_update_format[yt_id]['id']]}|{yt_id}|{ytid_update_format}",
+                            None,
+                            True,
+                            False,
+                        )
+                        del youtube_content_ytid_update_format[yt_id]
+            # 创建线程列表
+            youtube_content_ytid_update_threads = []
+            for yt_id in youtube_content_ytid_update_format_item.keys():
+                thread = threading.Thread(target=youtube_video_format, args=(yt_id,))
+                youtube_content_ytid_update_threads.append(thread)
+                thread.start()
+            # 等待所有线程完成
+            for thread in youtube_content_ytid_update_threads:
+                thread.join()
+            stop_flag[0] = "end"
 
-    # 创建共享的标志变量
-    stop_flag = ["keep"]  # 使用列表来存储标志变量
-    # 创建两个线程分别运行等待动画和其他代码，并传递共享的标志变量
-    prepare_youtube_1 = threading.Thread(target=wait_animation, args=(stop_flag,))
-    prepare_youtube_2 = threading.Thread(
-        target=before_youtube_video_format, args=(stop_flag,)
-    )
-    # 启动两个线程
-    prepare_youtube_1.start()
-    prepare_youtube_2.start()
-    # 等待两个线程结束
-    prepare_youtube_1.join()
-    prepare_youtube_2.join()
+        # 创建共享的标志变量
+        stop_flag = ["keep"]  # 使用列表来存储标志变量
+        # 创建两个线程分别运行等待动画和其他代码，并传递共享的标志变量
+        prepare_youtube_1 = threading.Thread(target=wait_animation, args=(stop_flag,))
+        prepare_youtube_2 = threading.Thread(
+            target=before_youtube_video_format, args=(stop_flag,)
+        )
+        # 启动两个线程
+        prepare_youtube_1.start()
+        prepare_youtube_2.start()
+        # 等待两个线程结束
+        prepare_youtube_1.join()
+        prepare_youtube_2.join()
 
 # 下载YouTube视频
 for yt_id in youtube_content_ytid_update_format.keys():
