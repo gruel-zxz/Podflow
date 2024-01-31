@@ -28,7 +28,7 @@ default_config = {
     "category": "TV &amp; Film",
     "channelid_youtube": {
         "youtube": {
-            "update_size": 5,
+            "update_size": 15,
             "id": "UCBR8-60-B28hp2BmDPdntcQ",
             "title": "YouTube",
             "quality": "480",
