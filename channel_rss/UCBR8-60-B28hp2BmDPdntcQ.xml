@@ -7,7 +7,7 @@
         <category>TV &amp; Film</category>
         <generator>Podflow (support us at https://github.com/gruel-zxz/podflow)</generator>
         <language>en-us</language>
-        <lastBuildDate>Wed, 31 Jan 2024 11:26:42 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 01 Feb 2024 03:02:27 +0000</lastBuildDate>
         <pubDate>Sun, 24 Apr 2005 11:20:54 +0800</pubDate>
         <image>
             <url>https://yt3.googleusercontent.com/584JjRp5QMuKbyduM_2k5RlXFqHJtQ0qLIPZpwbUjMJmgzZngHcam5JMuZQxyzGMV5ljwJRl0Q=s2048-c-k-c0x00ffffff-no-rj</url>
@@ -21,6 +21,22 @@
         <itunes:explicit>no</itunes:explicit>
         <itunes:category text="TV &amp; Film"></itunes:category>
 <!-- {UCBR8-60-B28hp2BmDPdntcQ} -->
+<!-- UCBR8-60-B28hp2BmDPdntcQ -->
+        <item>
+            <guid>q49c-Wb1UBo</guid>
+            <title>it's not nottt doll @kellyuu</title>
+            <link>https://youtube.com/watch?v=q49c-Wb1UBo</link>
+            <description>『YouTube』</description>
+            <pubDate>Wed, 31 Jan 2024 19:00:38 +0000</pubDate>
+            <enclosure url="https://raw.githubusercontent.com/gruel-zxz/podflow/main/channel_audiovisual/UCBR8-60-B28hp2BmDPdntcQ/q49c-Wb1UBo.mp4" length="3634897" type="video/mp4"></enclosure>
+            <itunes:author>it's not nottt doll @kellyuu</itunes:author>
+            <itunes:subtitle>it's not nottt doll @kellyuu</itunes:subtitle>
+            <itunes:summary><![CDATA[『YouTube』]]></itunes:summary>
+            <itunes:image href="https://i2.ytimg.com/vi/q49c-Wb1UBo/hqdefault.jpg"></itunes:image>
+            <itunes:duration>00:27</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:order>1</itunes:order>
+        </item>
 <!-- UCBR8-60-B28hp2BmDPdntcQ -->
         <item>
             <guid>kwC5ABBK3mg</guid>
@@ -366,22 +382,6 @@ Watch Nyma Tang's story here: https://yt.be/NymaFlowers]]></itunes:summary>
             <itunes:summary><![CDATA[『YouTube』]]></itunes:summary>
             <itunes:image href="https://i1.ytimg.com/vi/lxdOQNQYmBo/hqdefault.jpg"></itunes:image>
             <itunes:duration>00:26</itunes:duration>
-            <itunes:explicit>no</itunes:explicit>
-            <itunes:order>1</itunes:order>
-        </item>
-<!-- UCBR8-60-B28hp2BmDPdntcQ -->
-        <item>
-            <guid>N07z_gt7nAs</guid>
-            <title>my new year's resolution is to join @justi-star in 2024</title>
-            <link>https://youtube.com/watch?v=N07z_gt7nAs</link>
-            <description>『YouTube』</description>
-            <pubDate>Sun, 31 Dec 2023 20:00:18 +0000</pubDate>
-            <enclosure url="https://raw.githubusercontent.com/gruel-zxz/podflow/main/channel_audiovisual/UCBR8-60-B28hp2BmDPdntcQ/N07z_gt7nAs.mp4" length="4423726" type="video/mp4"></enclosure>
-            <itunes:author>my new year's resolution is to join @justi-star in 2024</itunes:author>
-            <itunes:subtitle>my new year's resolution is to join @justi-star in 2024</itunes:subtitle>
-            <itunes:summary><![CDATA[『YouTube』]]></itunes:summary>
-            <itunes:image href="https://i3.ytimg.com/vi/N07z_gt7nAs/hqdefault.jpg"></itunes:image>
-            <itunes:duration>00:44</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
             <itunes:order>1</itunes:order>
         </item>

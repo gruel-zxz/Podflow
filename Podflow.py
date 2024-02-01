@@ -28,7 +28,7 @@ default_config = {
     "category": "TV &amp; Film",
     "channelid_youtube": {
         "youtube": {
-            "update_size": 15,
+            "update_size": 5,
             "id": "UCBR8-60-B28hp2BmDPdntcQ",
             "title": "YouTube",
             "quality": "480",
@@ -1074,7 +1074,7 @@ channelid_youtube_ids_update = {}  # 创建需更新的频道
 youtube_content_ytid_update = {}  # 创建需下载视频列表
 channelid_youtube_rss = {}
 # 判断频道id是否正确
-pattern_youtube404 = r"Error 404"  # 设置要匹配的正则表达式模式
+pattern_youtube404 = r"Error 404 \(Not Found\)"  # 设置要匹配的正则表达式模式
 pattern_youtube_varys = [
     r"[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-2][0-9]:[0-6][0-9]:[0-6][0-9]\+00:00",
     r'starRating count="[0-9]*"',
@@ -1159,7 +1159,7 @@ for youtube_key, youtube_value in channelid_youtube_ids.copy().items():
     youtube_response = channelid_youtube_rss[youtube_key]
     if youtube_response is not None:
         youtube_content = youtube_response.text
-        if re.search(pattern_youtube404, youtube_content):
+        if re.search(pattern_youtube404, youtube_content, re.DOTALL):
             del channelid_youtube_ids[youtube_key]  # 删除错误ID
             write_log(f"YouTube频道 {youtube_value} ID不正确无法获取")
         else:
@@ -1242,9 +1242,9 @@ if len(youtube_content_ytid_update_format) != 0:
     wait_animation_num = 1
     for youtube_content_ytid_update_format_item in youtube_content_ytid_update_format_list:
         if len(youtube_content_ytid_update_format_list) == 1:
-            wait_animation_display_info = ""
+            wait_animation_display_info = " "
         else:
-            wait_animation_display_info = f"第{wait_animation_num}段 "
+            wait_animation_display_info = f"{wait_animation_num}部分 "
         wait_animation_num += 1
         # 等待动画模块
         def wait_animation(stop_flag):
@@ -1254,17 +1254,17 @@ if len(youtube_content_ytid_update_format) != 0:
             while True:
                 if stop_flag[0] == "keep":
                     print(
-                        f"\r{prepare_youtube_print}|YouTube视频 {wait_animation_display_info}\033[34m下载准备中{animation.ljust(5)}\033[0m",
+                        f"\r{prepare_youtube_print}|YouTube视频{wait_animation_display_info}\033[34m下载准备中{animation.ljust(5)}\033[0m",
                         end="",
                     )
                 elif stop_flag[0] == "error":
                     print(
-                        f"\r{prepare_youtube_print}|YouTube视频 {wait_animation_display_info}\033[34m下载准备中{animation} \033[31m失败：\033[0m"
+                        f"\r{prepare_youtube_print}|YouTube视频{wait_animation_display_info}\033[34m下载准备中{animation} \033[31m失败：\033[0m"
                     )
                     break
                 elif stop_flag[0] == "end":
                     print(
-                        f"\r{prepare_youtube_print}|YouTube视频 {wait_animation_display_info}\033[34m下载准备中{animation} 已完成\033[0m"
+                        f"\r{prepare_youtube_print}|YouTube视频{wait_animation_display_info}\033[34m下载准备中{animation} 已完成\033[0m"
                     )
                     break
                 if i % 5 == 0:
