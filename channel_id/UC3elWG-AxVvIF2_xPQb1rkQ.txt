@@ -11,6 +11,33 @@
  </author>
  <published>2022-06-04T16:17:27+00:00</published>
  <entry>
+  <id>yt:video:01zcDSsAZxA</id>
+  <yt:videoId>01zcDSsAZxA</yt:videoId>
+  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
+  <title>车是男人第二个家？四季妈妈爱聊车，爱吐槽的四季妈妈揭秘这个说法#四季妈妈爱聊车 #爱吐槽的四季妈妈</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=01zcDSsAZxA"/>
+  <author>
+   <name>四季妈妈—小龙</name>
+   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
+  </author>
+  <published>2024-02-01T03:38:35+00:00</published>
+  <updated>2024-02-01T05:45:33+00:00</updated>
+  <media:group>
+   <media:title>车是男人第二个家？四季妈妈爱聊车，爱吐槽的四季妈妈揭秘这个说法#四季妈妈爱聊车 #爱吐槽的四季妈妈</media:title>
+   <media:content url="https://www.youtube.com/v/01zcDSsAZxA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/01zcDSsAZxA/hqdefault.jpg" width="480" height="360"/>
+   <media:description>大家好，欢迎回到我的频道！今天我们要探讨一个有趣的话题：都说车是男人第二个家，究竟是真是假？四季妈妈爱聊车，爱吐槽的四季妈妈将为你揭秘这个说法！通过独特的视角，我将以轻松幽默的方式分享一些有关男人与车的趣事。
+
+在这期视频中，我们将一同思考车对男人意味着什么，以及为什么有人说它是男人的第二个家。当然，这是以娱乐为主，希望大家能在欢笑中轻松愉快。
+
+别忘了点赞、订阅，并在评论区分享您对这一说法的看法和自己的经验。一起来参与这场车是男人第二个家的吐槽大会吧！#车辆文化 #男人生活 #幽默观察</media:description>
+   <media:community>
+    <media:starRating count="1" average="5.00" min="1" max="5"/>
+    <media:statistics views="26"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:9GL2hSQzqA8</id>
   <yt:videoId>9GL2hSQzqA8</yt:videoId>
   <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
@@ -33,7 +60,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一平衡问题的看法和自己的经验。一起来参与这场爱与空间的吐槽大会吧！#爱情平衡 #家庭观察 #笑中解压</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="248"/>
+    <media:statistics views="250"/>
    </media:community>
   </media:group>
  </entry>
@@ -60,7 +87,7 @@
 别忘了点赞、订阅，并在评论区分享您对这个主题的看法和自己的豪车梦想。一起来参与这场衣锦还乡的吐槽大会吧！#豪车人生 #奢华体验 #幽默观察</media:description>
    <media:community>
     <media:starRating count="3" average="5.00" min="1" max="5"/>
-    <media:statistics views="180"/>
+    <media:statistics views="182"/>
    </media:community>
   </media:group>
  </entry>
@@ -87,7 +114,7 @@
 别忘了点赞、订阅，并在评论区分享您对这三个问题的看法和自己的经验。一起来参与这场男人生活困扰的吐槽大会吧！#男人生活 #困扰解密 #幽默观察</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="114"/>
+    <media:statistics views="115"/>
    </media:community>
   </media:group>
  </entry>
@@ -114,7 +141,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一仪式的看法和自己的经验。一起来参与这场深入交往前的吐槽大会吧！#深入交往 #幽默观察 #笑中解压</media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="173"/>
+    <media:statistics views="175"/>
    </media:community>
   </media:group>
  </entry>
@@ -141,7 +168,7 @@
 别忘了点赞、订阅，并在评论区分享您对这辆不一般车辆的看法和自己的车主故事。一起来参与这场不一般的座驾吐槽大会吧！#车辆风采 #独特车主 #幽默观察</media:description>
    <media:community>
     <media:starRating count="3" average="5.00" min="1" max="5"/>
-    <media:statistics views="232"/>
+    <media:statistics views="233"/>
    </media:community>
   </media:group>
  </entry>
@@ -168,7 +195,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一情景的看法和自己的经验。一起来参与这场老公喝酒后的正确做法吐槽大会吧！#家庭生活 #幽默观察 #笑中解压</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="329"/>
+    <media:statistics views="331"/>
    </media:community>
   </media:group>
  </entry>
@@ -195,7 +222,7 @@
 别忘了点赞、订阅，并在评论区分享您对这个借车理由的看法和自己的经验。一起来参与这场借车理由新招的吐槽大会吧！#借车新招 #幽默观察 #笑中解压</media:description>
    <media:community>
     <media:starRating count="10" average="5.00" min="1" max="5"/>
-    <media:statistics views="570"/>
+    <media:statistics views="571"/>
    </media:community>
   </media:group>
  </entry>
@@ -222,7 +249,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一比喻的看法和自己的家庭吐槽经历。一起来参与这场已婚男人“保姆车”之吐槽大会吧！#已婚生活 #幽默观察 #笑中解压</media:description>
    <media:community>
     <media:starRating count="150" average="5.00" min="1" max="5"/>
-    <media:statistics views="11820"/>
+    <media:statistics views="11835"/>
    </media:community>
   </media:group>
  </entry>
@@ -249,7 +276,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一话题的看法和自己的中年新爱好。一起来参与这场中年男人新爱好的吐槽大会吧！#中年生活 #兴趣转变 #笑中解压</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="468"/>
+    <media:statistics views="470"/>
    </media:community>
   </media:group>
  </entry>
@@ -329,8 +356,8 @@
 
 别忘了点赞、订阅，并在评论区分享您对这一话题的看法和自己的开车经验。一起来参与这场老司机方向盘暴走的吐槽大会吧！#开车趣事 #幽默观察 #笑中解压</media:description>
    <media:community>
-    <media:starRating count="222" average="5.00" min="1" max="5"/>
-    <media:statistics views="14449"/>
+    <media:starRating count="223" average="5.00" min="1" max="5"/>
+    <media:statistics views="14520"/>
    </media:community>
   </media:group>
  </entry>
@@ -357,7 +384,7 @@
 别忘了点赞、订阅，并在评论区分享您对新年的期许和祝福。让我们共同期待，新的一年里笑对人生，笑迎幸福！#新年快乐 #幸福笑容 #家庭欢聚</media:description>
    <media:community>
     <media:starRating count="178" average="5.00" min="1" max="5"/>
-    <media:statistics views="17840"/>
+    <media:statistics views="17900"/>
    </media:community>
   </media:group>
  </entry>
@@ -385,33 +412,6 @@
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
     <media:statistics views="602"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:Kgs0Vk-NJCg</id>
-  <yt:videoId>Kgs0Vk-NJCg</yt:videoId>
-  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
-  <title>老司机的开车姿势，原来都是这样？爱吐槽的四季妈妈为你揭秘！#家庭吐槽大会</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=Kgs0Vk-NJCg"/>
-  <author>
-   <name>四季妈妈—小龙</name>
-   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
-  </author>
-  <published>2023-12-29T03:29:32+00:00</published>
-  <updated>2023-12-29T06:55:30+00:00</updated>
-  <media:group>
-   <media:title>老司机的开车姿势，原来都是这样？爱吐槽的四季妈妈为你揭秘！#家庭吐槽大会</media:title>
-   <media:content url="https://www.youtube.com/v/Kgs0Vk-NJCg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/Kgs0Vk-NJCg/hqdefault.jpg" width="480" height="360"/>
-   <media:description>大家好，欢迎回到我的频道！今天我们要讨论一个颇具幽默感的话题：老司机开车都采用同一个姿势？通过爱吐槽的四季妈妈的独特视角，我将以轻松幽默的方式为大家揭秘老司机的开车姿势，并分享一些家庭吐槽的趣事。
-
-在这期视频中，我们将一同探讨老司机们在驾驶时的神秘姿势，看看是否也触及了你的笑点。当然，这是以娱乐为主，希望大家能在欢笑中轻松愉快。
-
-别忘了点赞、订阅，并在评论区分享您对这一话题的看法和自己的驾驶经验。一起来参与这场老司机开车姿势的吐槽大会吧！#驾驶趣事 #幽默观察 #笑中解忧</media:description>
-   <media:community>
-    <media:starRating count="13" average="5.00" min="1" max="5"/>
-    <media:statistics views="583"/>
    </media:community>
   </media:group>
  </entry>

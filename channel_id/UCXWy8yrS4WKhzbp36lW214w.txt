@@ -29,7 +29,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="0" average="0.00" min="1" max="5"/>
-    <media:statistics views="4"/>
+    <media:statistics views="8"/>
    </media:community>
   </media:group>
  </entry>
@@ -44,7 +44,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-01-31T17:02:20+00:00</published>
-  <updated>2024-01-31T17:19:10+00:00</updated>
+  <updated>2024-02-01T06:18:10+00:00</updated>
   <media:group>
    <media:title>古墓蒙面公主， 破解悲愤历史</media:title>
    <media:content url="https://www.youtube.com/v/NVBne_rGKe0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -67,7 +67,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-01-31T16:50:45+00:00</published>
-  <updated>2024-01-31T20:56:59+00:00</updated>
+  <updated>2024-02-01T06:36:51+00:00</updated>
   <media:group>
    <media:title>医生都无法解释的3个神秘死亡</media:title>
    <media:content url="https://www.youtube.com/v/gnLmVAlu7hQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -90,7 +90,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-01-31T16:39:45+00:00</published>
-  <updated>2024-02-01T01:27:38+00:00</updated>
+  <updated>2024-02-01T06:39:25+00:00</updated>
   <media:group>
    <media:title>为什么聪明的人都喜欢独处</media:title>
    <media:content url="https://www.youtube.com/v/V9encPR_Y-0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -113,7 +113,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-01-31T16:30:26+00:00</published>
-  <updated>2024-01-31T20:46:26+00:00</updated>
+  <updated>2024-02-01T06:26:29+00:00</updated>
   <media:group>
    <media:title>婴儿不怕蛇 ，却为什么抗拒草坪</media:title>
    <media:content url="https://www.youtube.com/v/m-Q7n-6VbN0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -136,7 +136,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-01-31T16:18:12+00:00</published>
-  <updated>2024-01-31T22:55:05+00:00</updated>
+  <updated>2024-02-01T06:26:08+00:00</updated>
   <media:group>
    <media:title>柳京饭店， 世界最大烂尾楼</media:title>
    <media:content url="https://www.youtube.com/v/Lbp0gf5haY4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -190,7 +190,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="42"/>
+    <media:statistics views="43"/>
    </media:community>
   </media:group>
  </entry>
@@ -328,7 +328,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="3" average="5.00" min="1" max="5"/>
-    <media:statistics views="100"/>
+    <media:statistics views="102"/>
    </media:community>
   </media:group>
  </entry>
