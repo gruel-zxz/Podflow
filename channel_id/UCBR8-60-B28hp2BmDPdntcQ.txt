@@ -10,6 +10,86 @@
   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
  </author>
  <entry>
+  <id>yt:video:aw6iKr6ndZU</id>
+  <yt:videoId>aw6iKr6ndZU</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>look du jour ✨ @thevanezznezz @JaninaBuckman @Lady-Nneka @emilykatearmato</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=aw6iKr6ndZU"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2024-02-02T16:00:13+00:00</published>
+  <updated>2024-02-02T16:06:07+00:00</updated>
+  <media:group>
+   <media:title>look du jour ✨ @thevanezznezz @JaninaBuckman @Lady-Nneka @emilykatearmato</media:title>
+   <media:content url="https://www.youtube.com/v/aw6iKr6ndZU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/aw6iKr6ndZU/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="426" average="5.00" min="1" max="5"/>
+    <media:statistics views="5785"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:78Ok52tMB30</id>
+  <yt:videoId>78Ok52tMB30</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>@CallMeKevin explores the wild world of simulation games</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=78Ok52tMB30"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2024-02-01T13:00:10+00:00</published>
+  <updated>2024-02-01T13:00:10+00:00</updated>
+  <media:group>
+   <media:title>@CallMeKevin explores the wild world of simulation games</media:title>
+   <media:content url="https://www.youtube.com/v/78Ok52tMB30?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/78Ok52tMB30/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Whether you want to experience what it’s like to run your own farm, powerwash a subway station, or become a beekeeper, simulation games are making it happen! 
+
+Join @CallMeKevin as he dives deep into the world of sim games, highlighting everything from the most popular to the downright absurd and how YouTube creators are making these games their own. 
+
+Which sim game is your favorite? Let us know in the comments below!
+
+Featured Creators: 
+@melanmari 
+@RachelPedd 
+@DanLeikr 
+@Walkrman 
+@TCMVCinemaShorts 
+@EAMobileGames 
+@sarahkendall 
+@xJuliettex 
+@stumpt 
+@GrubMagnet 
+@madeofjadeshorts9023 
+@DannySuperNoob 
+@YourManJam 
+@iHasCupquake 
+@Lillulah 
+@FTToasty 
+@Keenling 
+@CozyK 
+@PaytonsCorner 
+@RicoTheGiant 
+@BestInSlotGaming 
+@SamTaborGaming 
+@EvanandKatelynGaming 
+@GrayStillPlays 
+@tigerb 
+
+
+#Gaming #SimulationGames #CallMeKevin</media:description>
+   <media:community>
+    <media:starRating count="4595" average="5.00" min="1" max="5"/>
+    <media:statistics views="425030"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:q49c-Wb1UBo</id>
   <yt:videoId>q49c-Wb1UBo</yt:videoId>
   <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
@@ -27,8 +107,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/q49c-Wb1UBo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="700" average="5.00" min="1" max="5"/>
-    <media:statistics views="12699"/>
+    <media:starRating count="1205" average="5.00" min="1" max="5"/>
+    <media:statistics views="27791"/>
    </media:community>
   </media:group>
  </entry>
@@ -50,8 +130,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/kwC5ABBK3mg/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1150" average="5.00" min="1" max="5"/>
-    <media:statistics views="35335"/>
+    <media:starRating count="1365" average="5.00" min="1" max="5"/>
+    <media:statistics views="42565"/>
    </media:community>
   </media:group>
  </entry>
@@ -73,8 +153,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/nQHNmvb37nc/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2169" average="5.00" min="1" max="5"/>
-    <media:statistics views="54226"/>
+    <media:starRating count="2376" average="5.00" min="1" max="5"/>
+    <media:statistics views="58979"/>
    </media:community>
   </media:group>
  </entry>
@@ -141,8 +221,8 @@ Featured Creators:
 
 #TTRPG #TabletopRoleplayGame #YouTube</media:description>
    <media:community>
-    <media:starRating count="3459" average="5.00" min="1" max="5"/>
-    <media:statistics views="614197"/>
+    <media:starRating count="4160" average="5.00" min="1" max="5"/>
+    <media:statistics views="738832"/>
    </media:community>
   </media:group>
  </entry>
@@ -164,8 +244,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/fuZUe37PXCs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2280" average="5.00" min="1" max="5"/>
-    <media:statistics views="56799"/>
+    <media:starRating count="2436" average="5.00" min="1" max="5"/>
+    <media:statistics views="61572"/>
    </media:community>
   </media:group>
  </entry>
@@ -187,8 +267,8 @@ Featured Creators:
    <media:thumbnail url="https://i1.ytimg.com/vi/PXkDjNI5RSg/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1329" average="5.00" min="1" max="5"/>
-    <media:statistics views="30901"/>
+    <media:starRating count="1386" average="5.00" min="1" max="5"/>
+    <media:statistics views="32358"/>
    </media:community>
   </media:group>
  </entry>
@@ -210,8 +290,8 @@ Featured Creators:
    <media:thumbnail url="https://i4.ytimg.com/vi/s-D68FF8Q_c/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="8595" average="5.00" min="1" max="5"/>
-    <media:statistics views="497731"/>
+    <media:starRating count="8702" average="5.00" min="1" max="5"/>
+    <media:statistics views="501288"/>
    </media:community>
   </media:group>
  </entry>
@@ -233,8 +313,8 @@ Featured Creators:
    <media:thumbnail url="https://i2.ytimg.com/vi/i5KuVIZFTNo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1833" average="5.00" min="1" max="5"/>
-    <media:statistics views="54052"/>
+    <media:starRating count="1888" average="5.00" min="1" max="5"/>
+    <media:statistics views="55873"/>
    </media:community>
   </media:group>
  </entry>
@@ -262,8 +342,8 @@ Watch sWooZie’s story here: http://yt.be/SwoozieFlowers
 
 Watch Nyma Tang's story here: https://yt.be/NymaFlowers</media:description>
    <media:community>
-    <media:starRating count="4346" average="5.00" min="1" max="5"/>
-    <media:statistics views="638365"/>
+    <media:starRating count="4428" average="5.00" min="1" max="5"/>
+    <media:statistics views="644674"/>
    </media:community>
   </media:group>
  </entry>
@@ -285,8 +365,8 @@ Watch Nyma Tang's story here: https://yt.be/NymaFlowers</media:description>
    <media:thumbnail url="https://i3.ytimg.com/vi/VoqnCaE8HPA/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1270" average="5.00" min="1" max="5"/>
-    <media:statistics views="35676"/>
+    <media:starRating count="1300" average="5.00" min="1" max="5"/>
+    <media:statistics views="36834"/>
    </media:community>
   </media:group>
  </entry>
@@ -308,8 +388,8 @@ Watch Nyma Tang's story here: https://yt.be/NymaFlowers</media:description>
    <media:thumbnail url="https://i1.ytimg.com/vi/4meQIH3xAFw/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2811" average="5.00" min="1" max="5"/>
-    <media:statistics views="91411"/>
+    <media:starRating count="2861" average="5.00" min="1" max="5"/>
+    <media:statistics views="93547"/>
    </media:community>
   </media:group>
  </entry>
@@ -331,8 +411,8 @@ Watch Nyma Tang's story here: https://yt.be/NymaFlowers</media:description>
    <media:thumbnail url="https://i3.ytimg.com/vi/V7OgtMMEieI/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3578" average="5.00" min="1" max="5"/>
-    <media:statistics views="99180"/>
+    <media:starRating count="3615" average="5.00" min="1" max="5"/>
+    <media:statistics views="101449"/>
    </media:community>
   </media:group>
  </entry>
@@ -354,54 +434,8 @@ Watch Nyma Tang's story here: https://yt.be/NymaFlowers</media:description>
    <media:thumbnail url="https://i1.ytimg.com/vi/xBI9uePWH3Y/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1845" average="5.00" min="1" max="5"/>
-    <media:statistics views="66532"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:y98N0oZ4DD8</id>
-  <yt:videoId>y98N0oZ4DD8</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>2023 was quiiiite the year for @amezianee @jordan_the_stallion8 @Reneschmock</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=y98N0oZ4DD8"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2024-01-09T14:00:20+00:00</published>
-  <updated>2024-01-09T14:03:53+00:00</updated>
-  <media:group>
-   <media:title>2023 was quiiiite the year for @amezianee @jordan_the_stallion8 @Reneschmock</media:title>
-   <media:content url="https://www.youtube.com/v/y98N0oZ4DD8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/y98N0oZ4DD8/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="2061" average="5.00" min="1" max="5"/>
-    <media:statistics views="54806"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:t-PScA8j1mg</id>
-  <yt:videoId>t-PScA8j1mg</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>want to know what this creator’s been watching lately? watch the video on our channel to find out!</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=t-PScA8j1mg"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2024-01-08T16:00:15+00:00</published>
-  <updated>2024-01-08T16:05:16+00:00</updated>
-  <media:group>
-   <media:title>want to know what this creator’s been watching lately? watch the video on our channel to find out!</media:title>
-   <media:content url="https://www.youtube.com/v/t-PScA8j1mg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i1.ytimg.com/vi/t-PScA8j1mg/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="2196" average="5.00" min="1" max="5"/>
-    <media:statistics views="81034"/>
+    <media:starRating count="1890" average="5.00" min="1" max="5"/>
+    <media:statistics views="68341"/>
    </media:community>
   </media:group>
  </entry>

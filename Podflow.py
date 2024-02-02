@@ -28,7 +28,7 @@ default_config = {
     "category": "TV &amp; Film",
     "channelid_youtube": {
         "youtube": {
-            "update_size": 5,
+            "update_size": 15,
             "id": "UCBR8-60-B28hp2BmDPdntcQ",
             "title": "YouTube",
             "quality": "480",
@@ -433,7 +433,7 @@ def video_format(video_website, video_url, media="m4a", quality="480"):
         "Premiere will begin shortly": "\033[31m马上开始首映\033[0m",
         "Private video\. Sign in if you've been granted access to this video": "\033[31m私享视频\033[0m",
         "This video is available to this channel's members on level: .*? Join this channel to get access to members-only content and other exclusive perks\.": "\033[31m会员专享\033[0m",
-        "Join this channel to get access to members-only content like this video, and other exclusive perks": "\033[31m会员视频\033[0m",
+        "Join this channel to get access to members-only content like this video, and other exclusive perks\.": "\033[31m会员视频\033[0m",
     }
     def fail_message_initialize(fail_message, error_reason):
         for key in error_reason:
