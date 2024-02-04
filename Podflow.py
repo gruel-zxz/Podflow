@@ -434,6 +434,7 @@ def video_format(video_website, video_url, media="m4a", quality="480"):
         "Private video\. Sign in if you've been granted access to this video": "\033[31m私享视频\033[0m",
         "This video is available to this channel's members on level: .*? Join this channel to get access to members-only content and other exclusive perks\.": "\033[31m会员专享\033[0m",
         "Join this channel to get access to members-only content like this video, and other exclusive perks\.": "\033[31m会员视频\033[0m",
+        "Video unavailable": "\033[31m视频不可用\033[0m",
     }
     def fail_message_initialize(fail_message, error_reason):
         for key in error_reason:

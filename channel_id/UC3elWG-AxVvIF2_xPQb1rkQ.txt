@@ -33,7 +33,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一说法的看法和自己的经验。一起来参与这场车是男人第二个家的吐槽大会吧！#车辆文化 #男人生活 #幽默观察</media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="115"/>
+    <media:statistics views="113"/>
    </media:community>
   </media:group>
  </entry>
@@ -249,7 +249,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一比喻的看法和自己的家庭吐槽经历。一起来参与这场已婚男人“保姆车”之吐槽大会吧！#已婚生活 #幽默观察 #笑中解压</media:description>
    <media:community>
     <media:starRating count="151" average="5.00" min="1" max="5"/>
-    <media:statistics views="12008"/>
+    <media:statistics views="12016"/>
    </media:community>
   </media:group>
  </entry>
@@ -357,7 +357,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一话题的看法和自己的开车经验。一起来参与这场老司机方向盘暴走的吐槽大会吧！#开车趣事 #幽默观察 #笑中解压</media:description>
    <media:community>
     <media:starRating count="228" average="5.00" min="1" max="5"/>
-    <media:statistics views="15103"/>
+    <media:statistics views="15125"/>
    </media:community>
   </media:group>
  </entry>
@@ -383,8 +383,8 @@
 
 别忘了点赞、订阅，并在评论区分享您对新年的期许和祝福。让我们共同期待，新的一年里笑对人生，笑迎幸福！#新年快乐 #幸福笑容 #家庭欢聚</media:description>
    <media:community>
-    <media:starRating count="183" average="5.00" min="1" max="5"/>
-    <media:statistics views="18495"/>
+    <media:starRating count="184" average="5.00" min="1" max="5"/>
+    <media:statistics views="18529"/>
    </media:community>
   </media:group>
  </entry>
