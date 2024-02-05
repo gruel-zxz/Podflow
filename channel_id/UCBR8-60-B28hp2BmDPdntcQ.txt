@@ -27,8 +27,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/aw6iKr6ndZU/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="794" average="5.00" min="1" max="5"/>
-    <media:statistics views="19753"/>
+    <media:starRating count="956" average="5.00" min="1" max="5"/>
+    <media:statistics views="26981"/>
    </media:community>
   </media:group>
  </entry>
@@ -43,7 +43,7 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-02-01T13:00:10+00:00</published>
-  <updated>2024-02-01T13:00:10+00:00</updated>
+  <updated>2024-02-04T16:26:23+00:00</updated>
   <media:group>
    <media:title>@CallMeKevin explores the wild world of simulation games</media:title>
    <media:content url="https://www.youtube.com/v/78Ok52tMB30?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -84,8 +84,8 @@ Featured Creators:
 
 #Gaming #SimulationGames #CallMeKevin</media:description>
    <media:community>
-    <media:starRating count="6914" average="5.00" min="1" max="5"/>
-    <media:statistics views="564767"/>
+    <media:starRating count="7660" average="5.00" min="1" max="5"/>
+    <media:statistics views="634474"/>
    </media:community>
   </media:group>
  </entry>
@@ -107,8 +107,8 @@ Featured Creators:
    <media:thumbnail url="https://i2.ytimg.com/vi/q49c-Wb1UBo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1398" average="5.00" min="1" max="5"/>
-    <media:statistics views="33451"/>
+    <media:starRating count="1510" average="5.00" min="1" max="5"/>
+    <media:statistics views="36952"/>
    </media:community>
   </media:group>
  </entry>
@@ -130,8 +130,8 @@ Featured Creators:
    <media:thumbnail url="https://i4.ytimg.com/vi/kwC5ABBK3mg/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1461" average="5.00" min="1" max="5"/>
-    <media:statistics views="46584"/>
+    <media:starRating count="1542" average="5.00" min="1" max="5"/>
+    <media:statistics views="49145"/>
    </media:community>
   </media:group>
  </entry>
@@ -153,8 +153,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/nQHNmvb37nc/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2461" average="5.00" min="1" max="5"/>
-    <media:statistics views="61792"/>
+    <media:starRating count="2533" average="5.00" min="1" max="5"/>
+    <media:statistics views="63526"/>
    </media:community>
   </media:group>
  </entry>
@@ -221,8 +221,8 @@ Featured Creators:
 
 #TTRPG #TabletopRoleplayGame #YouTube</media:description>
    <media:community>
-    <media:starRating count="4324" average="5.00" min="1" max="5"/>
-    <media:statistics views="737402"/>
+    <media:starRating count="4431" average="5.00" min="1" max="5"/>
+    <media:statistics views="765486"/>
    </media:community>
   </media:group>
  </entry>
@@ -244,8 +244,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/fuZUe37PXCs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2546" average="5.00" min="1" max="5"/>
-    <media:statistics views="65043"/>
+    <media:starRating count="2618" average="5.00" min="1" max="5"/>
+    <media:statistics views="67268"/>
    </media:community>
   </media:group>
  </entry>
@@ -267,8 +267,8 @@ Featured Creators:
    <media:thumbnail url="https://i1.ytimg.com/vi/PXkDjNI5RSg/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1427" average="5.00" min="1" max="5"/>
-    <media:statistics views="33490"/>
+    <media:starRating count="1460" average="5.00" min="1" max="5"/>
+    <media:statistics views="34164"/>
    </media:community>
   </media:group>
  </entry>
@@ -290,8 +290,8 @@ Featured Creators:
    <media:thumbnail url="https://i4.ytimg.com/vi/s-D68FF8Q_c/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="8743" average="5.00" min="1" max="5"/>
-    <media:statistics views="503691"/>
+    <media:starRating count="8787" average="5.00" min="1" max="5"/>
+    <media:statistics views="505185"/>
    </media:community>
   </media:group>
  </entry>
@@ -313,8 +313,8 @@ Featured Creators:
    <media:thumbnail url="https://i2.ytimg.com/vi/i5KuVIZFTNo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1911" average="5.00" min="1" max="5"/>
-    <media:statistics views="57137"/>
+    <media:starRating count="1936" average="5.00" min="1" max="5"/>
+    <media:statistics views="57909"/>
    </media:community>
   </media:group>
  </entry>
@@ -342,8 +342,8 @@ Watch sWooZie’s story here: http://yt.be/SwoozieFlowers
 
 Watch Nyma Tang's story here: https://yt.be/NymaFlowers</media:description>
    <media:community>
-    <media:starRating count="4453" average="5.00" min="1" max="5"/>
-    <media:statistics views="646891"/>
+    <media:starRating count="4461" average="5.00" min="1" max="5"/>
+    <media:statistics views="648426"/>
    </media:community>
   </media:group>
  </entry>
@@ -365,8 +365,8 @@ Watch Nyma Tang's story here: https://yt.be/NymaFlowers</media:description>
    <media:thumbnail url="https://i3.ytimg.com/vi/VoqnCaE8HPA/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1312" average="5.00" min="1" max="5"/>
-    <media:statistics views="37619"/>
+    <media:starRating count="1324" average="5.00" min="1" max="5"/>
+    <media:statistics views="38079"/>
    </media:community>
   </media:group>
  </entry>
@@ -388,8 +388,8 @@ Watch Nyma Tang's story here: https://yt.be/NymaFlowers</media:description>
    <media:thumbnail url="https://i1.ytimg.com/vi/4meQIH3xAFw/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2887" average="5.00" min="1" max="5"/>
-    <media:statistics views="95068"/>
+    <media:starRating count="2913" average="5.00" min="1" max="5"/>
+    <media:statistics views="96055"/>
    </media:community>
   </media:group>
  </entry>
@@ -411,8 +411,8 @@ Watch Nyma Tang's story here: https://yt.be/NymaFlowers</media:description>
    <media:thumbnail url="https://i3.ytimg.com/vi/V7OgtMMEieI/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3646" average="5.00" min="1" max="5"/>
-    <media:statistics views="103116"/>
+    <media:starRating count="3672" average="5.00" min="1" max="5"/>
+    <media:statistics views="104138"/>
    </media:community>
   </media:group>
  </entry>
@@ -434,8 +434,8 @@ Watch Nyma Tang's story here: https://yt.be/NymaFlowers</media:description>
    <media:thumbnail url="https://i1.ytimg.com/vi/xBI9uePWH3Y/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1905" average="5.00" min="1" max="5"/>
-    <media:statistics views="69630"/>
+    <media:starRating count="1919" average="5.00" min="1" max="5"/>
+    <media:statistics views="70434"/>
    </media:community>
   </media:group>
  </entry>

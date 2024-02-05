@@ -11,6 +11,33 @@
  </author>
  <published>2022-06-04T16:17:27+00:00</published>
  <entry>
+  <id>yt:video:bDuoNK0iscc</id>
+  <yt:videoId>bDuoNK0iscc</yt:videoId>
+  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
+  <title>老公生气了怎么办？爱吐槽的四季妈妈分享家庭吐槽大会经验，与汤唯共赴星运之约#lolarose</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=bDuoNK0iscc"/>
+  <author>
+   <name>四季妈妈—小龙</name>
+   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
+  </author>
+  <published>2024-02-04T10:17:05+00:00</published>
+  <updated>2024-02-04T10:17:06+00:00</updated>
+  <media:group>
+   <media:title>老公生气了怎么办？爱吐槽的四季妈妈分享家庭吐槽大会经验，与汤唯共赴星运之约#lolarose</media:title>
+   <media:content url="https://www.youtube.com/v/bDuoNK0iscc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/bDuoNK0iscc/hqdefault.jpg" width="480" height="360"/>
+   <media:description>大家好，欢迎回到我的频道！今天我们要探讨一个家庭中常见的问题：老公生气了，我该怎么哄？爱吐槽的四季妈妈将分享一些家庭吐槽大会的经验，同时与大家一同赴汤唯的星运之约，尽情展现女性魅力！#lolarose
+
+在这期视频中，我们将一同讨论如何妙手回春，解决老公生气的尴尬局面，同时感受与汤唯一同共赴星运之约的美好时刻。当然，这是以娱乐为主，希望大家能在欢笑中轻松愉快。
+
+别忘了点赞、订阅，并在评论区分享您对这一问题的看法和自己的经验。一起来参与这场老公生气应对的吐槽大会吧！#家庭生活 #情感经验 #幽默观察</media:description>
+   <media:community>
+    <media:starRating count="3" average="5.00" min="1" max="5"/>
+    <media:statistics views="144"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:01zcDSsAZxA</id>
   <yt:videoId>01zcDSsAZxA</yt:videoId>
   <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
@@ -33,7 +60,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一说法的看法和自己的经验。一起来参与这场车是男人第二个家的吐槽大会吧！#车辆文化 #男人生活 #幽默观察</media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="113"/>
+    <media:statistics views="119"/>
    </media:community>
   </media:group>
  </entry>
@@ -60,7 +87,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一平衡问题的看法和自己的经验。一起来参与这场爱与空间的吐槽大会吧！#爱情平衡 #家庭观察 #笑中解压</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="280"/>
+    <media:statistics views="286"/>
    </media:community>
   </media:group>
  </entry>
@@ -87,7 +114,7 @@
 别忘了点赞、订阅，并在评论区分享您对这个主题的看法和自己的豪车梦想。一起来参与这场衣锦还乡的吐槽大会吧！#豪车人生 #奢华体验 #幽默观察</media:description>
    <media:community>
     <media:starRating count="3" average="5.00" min="1" max="5"/>
-    <media:statistics views="195"/>
+    <media:statistics views="202"/>
    </media:community>
   </media:group>
  </entry>
@@ -114,7 +141,7 @@
 别忘了点赞、订阅，并在评论区分享您对这三个问题的看法和自己的经验。一起来参与这场男人生活困扰的吐槽大会吧！#男人生活 #困扰解密 #幽默观察</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="116"/>
+    <media:statistics views="119"/>
    </media:community>
   </media:group>
  </entry>
@@ -141,7 +168,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一仪式的看法和自己的经验。一起来参与这场深入交往前的吐槽大会吧！#深入交往 #幽默观察 #笑中解压</media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="197"/>
+    <media:statistics views="201"/>
    </media:community>
   </media:group>
  </entry>
@@ -168,7 +195,7 @@
 别忘了点赞、订阅，并在评论区分享您对这辆不一般车辆的看法和自己的车主故事。一起来参与这场不一般的座驾吐槽大会吧！#车辆风采 #独特车主 #幽默观察</media:description>
    <media:community>
     <media:starRating count="3" average="5.00" min="1" max="5"/>
-    <media:statistics views="249"/>
+    <media:statistics views="253"/>
    </media:community>
   </media:group>
  </entry>
@@ -195,7 +222,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一情景的看法和自己的经验。一起来参与这场老公喝酒后的正确做法吐槽大会吧！#家庭生活 #幽默观察 #笑中解压</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="333"/>
+    <media:statistics views="335"/>
    </media:community>
   </media:group>
  </entry>
@@ -222,7 +249,7 @@
 别忘了点赞、订阅，并在评论区分享您对这个借车理由的看法和自己的经验。一起来参与这场借车理由新招的吐槽大会吧！#借车新招 #幽默观察 #笑中解压</media:description>
    <media:community>
     <media:starRating count="10" average="5.00" min="1" max="5"/>
-    <media:statistics views="575"/>
+    <media:statistics views="578"/>
    </media:community>
   </media:group>
  </entry>
@@ -248,8 +275,8 @@
 
 别忘了点赞、订阅，并在评论区分享您对这一比喻的看法和自己的家庭吐槽经历。一起来参与这场已婚男人“保姆车”之吐槽大会吧！#已婚生活 #幽默观察 #笑中解压</media:description>
    <media:community>
-    <media:starRating count="151" average="5.00" min="1" max="5"/>
-    <media:statistics views="12016"/>
+    <media:starRating count="153" average="5.00" min="1" max="5"/>
+    <media:statistics views="12050"/>
    </media:community>
   </media:group>
  </entry>
@@ -276,7 +303,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一话题的看法和自己的中年新爱好。一起来参与这场中年男人新爱好的吐槽大会吧！#中年生活 #兴趣转变 #笑中解压</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="473"/>
+    <media:statistics views="474"/>
    </media:community>
   </media:group>
  </entry>
@@ -330,7 +357,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一话题的看法和自己的经验。一起来参与这场男人为何把车当成老婆的吐槽大会吧！#车辆关系 #幽默观察 #笑中解忧</media:description>
    <media:community>
     <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="540"/>
+    <media:statistics views="541"/>
    </media:community>
   </media:group>
  </entry>
@@ -357,7 +384,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一话题的看法和自己的开车经验。一起来参与这场老司机方向盘暴走的吐槽大会吧！#开车趣事 #幽默观察 #笑中解压</media:description>
    <media:community>
     <media:starRating count="228" average="5.00" min="1" max="5"/>
-    <media:statistics views="15125"/>
+    <media:statistics views="15208"/>
    </media:community>
   </media:group>
  </entry>
@@ -383,35 +410,8 @@
 
 别忘了点赞、订阅，并在评论区分享您对新年的期许和祝福。让我们共同期待，新的一年里笑对人生，笑迎幸福！#新年快乐 #幸福笑容 #家庭欢聚</media:description>
    <media:community>
-    <media:starRating count="184" average="5.00" min="1" max="5"/>
-    <media:statistics views="18529"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:Vc5kiaqqTuw</id>
-  <yt:videoId>Vc5kiaqqTuw</yt:videoId>
-  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
-  <title>后备箱“秘密档案”揭晓！看看男人的后备箱里都有什么？爱吐槽的四季妈妈大公开！#家庭吐槽大会</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=Vc5kiaqqTuw"/>
-  <author>
-   <name>四季妈妈—小龙</name>
-   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
-  </author>
-  <published>2024-01-01T08:31:23+00:00</published>
-  <updated>2024-01-03T04:49:36+00:00</updated>
-  <media:group>
-   <media:title>后备箱“秘密档案”揭晓！看看男人的后备箱里都有什么？爱吐槽的四季妈妈大公开！#家庭吐槽大会</media:title>
-   <media:content url="https://www.youtube.com/v/Vc5kiaqqTuw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/Vc5kiaqqTuw/hqdefault.jpg" width="480" height="360"/>
-   <media:description>大家好，欢迎回到我的频道！今天我们要深入后备箱，揭开男人们的“秘密档案”，看看后备箱里都藏着什么宝贝？通过爱吐槽的四季妈妈的独特视角，我将以轻松幽默的方式为大家解开后备箱的神秘面纱，并分享一些家庭吐槽的趣事。
-
-在这期视频中，我们将一同瞄准后备箱，探索男人们的“私人领地”，看看是否也触及了你的好奇心。当然，这是以娱乐为主，希望大家能在欢笑中轻松愉快。
-
-别忘了点赞、订阅，并在评论区分享您对这一话题的看法和自己的后备箱趣事。一起来参与这场后备箱“秘密档案”的吐槽大会吧！#后备箱探秘 #幽默观察 #笑中解压</media:description>
-   <media:community>
-    <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="604"/>
+    <media:starRating count="186" average="5.00" min="1" max="5"/>
+    <media:statistics views="18614"/>
    </media:community>
   </media:group>
  </entry>
