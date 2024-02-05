@@ -28,8 +28,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/yjQoHB4Bs9w/hqdefault.jpg" width="480" height="360"/>
    <media:description>老龄化问题的终极答案：让40亿老人移民外星？科幻小说《暮星归途》</media:description>
    <media:community>
-    <media:starRating count="65" average="5.00" min="1" max="5"/>
-    <media:statistics views="3221"/>
+    <media:starRating count="68" average="5.00" min="1" max="5"/>
+    <media:statistics views="3328"/>
    </media:community>
   </media:group>
  </entry>
@@ -52,7 +52,7 @@
    <media:description>说明：这个盘点清单是根据幻海团队的阅读经历，从读者的接受度、作品故事性、作品的思想深度等特点做出的盘点清单，均为我们的个人观点。所以《龙蛋》、《盲视》、《量子魔术师》《泥人十四》等过于硬核的优秀作品不在其中，同时《三体》与《泽利》也不在其中，它们之前已经总结过了，另外《太空漫游系列》/《火星救援》《索拉里斯星》等优秀作品，由于已经被影视化，熟悉的人很多，所以也不在其中。</media:description>
    <media:community>
     <media:starRating count="163" average="5.00" min="1" max="5"/>
-    <media:statistics views="5076"/>
+    <media:statistics views="5087"/>
    </media:community>
   </media:group>
  </entry>
@@ -76,7 +76,7 @@
 我们最看好的是05：15的部分，在科技断代之后，人类存活到了最后。</media:description>
    <media:community>
     <media:starRating count="132" average="5.00" min="1" max="5"/>
-    <media:statistics views="6842"/>
+    <media:statistics views="6854"/>
    </media:community>
   </media:group>
  </entry>
@@ -124,7 +124,7 @@
    <media:description>用40亿年去纠正一个错误，错误是创造全人类：《宇宙全能侦探社》下集</media:description>
    <media:community>
     <media:starRating count="72" average="5.00" min="1" max="5"/>
-    <media:statistics views="3297"/>
+    <media:statistics views="3301"/>
    </media:community>
   </media:group>
  </entry>
@@ -170,8 +170,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/k_ZrLJMFE98/hqdefault.jpg" width="480" height="360"/>
    <media:description>《世界上所有的烦恼》，原著：阿西莫夫，出自阿西莫夫科幻短篇全集、 阿西莫夫的这个短篇系列终于出版了！阿西莫夫最神的就是他的短篇，所谓：人类近50年来的科技进步，一直在追赶阿西莫夫科幻小说的脚步。</media:description>
    <media:community>
-    <media:starRating count="140" average="5.00" min="1" max="5"/>
-    <media:statistics views="7087"/>
+    <media:starRating count="141" average="5.00" min="1" max="5"/>
+    <media:statistics views="7097"/>
    </media:community>
   </media:group>
  </entry>
@@ -194,7 +194,7 @@
    <media:description>一个中子星文明的毁灭与重生：《星震》大结局</media:description>
    <media:community>
     <media:starRating count="86" average="5.00" min="1" max="5"/>
-    <media:statistics views="5068"/>
+    <media:statistics views="5074"/>
    </media:community>
   </media:group>
  </entry>
@@ -218,7 +218,7 @@
 时隔几年，终于更新到这部了！</media:description>
    <media:community>
     <media:starRating count="116" average="5.00" min="1" max="5"/>
-    <media:statistics views="6729"/>
+    <media:statistics views="6731"/>
    </media:community>
   </media:group>
  </entry>
@@ -241,7 +241,7 @@
    <media:description>如何骗走人类的十年时间：科幻名著《抉择》，原著：小松左京。这部小说收录于《科幻之路》系列。</media:description>
    <media:community>
     <media:starRating count="125" average="5.00" min="1" max="5"/>
-    <media:statistics views="7733"/>
+    <media:statistics views="7738"/>
    </media:community>
   </media:group>
  </entry>
@@ -266,7 +266,7 @@
 不过主线剧情已经更新完毕，未收录的内容仅剩下人类最终生活在小宇宙中的场景。</media:description>
    <media:community>
     <media:starRating count="534" average="5.00" min="1" max="5"/>
-    <media:statistics views="36198"/>
+    <media:statistics views="36201"/>
    </media:community>
   </media:group>
  </entry>
@@ -289,7 +289,7 @@
    <media:description>《单孔衍射》出自科幻短篇集《完美末日》。作者刘洋：科幻作家，物理学博士，代表作《火星孤儿》《勾股2.013》等。这是第二次更新这位科幻作家的作品，希望大家喜欢。这部小说中提出了非常有有趣的“时间壁垒”概念。</media:description>
    <media:community>
     <media:starRating count="142" average="5.00" min="1" max="5"/>
-    <media:statistics views="8415"/>
+    <media:statistics views="8421"/>
    </media:community>
   </media:group>
  </entry>
@@ -313,7 +313,7 @@
 这是我们最喜欢的作品之一，作者以极为另类的写作方式用数学公式描述了一对人们的情感，堪称神作！</media:description>
    <media:community>
     <media:starRating count="226" average="5.00" min="1" max="5"/>
-    <media:statistics views="11717"/>
+    <media:statistics views="11720"/>
    </media:community>
   </media:group>
  </entry>
@@ -336,7 +336,7 @@
    <media:description>本期更新一期克苏鲁神话（非科幻内容）极北坚冰，食人梦魇——克苏鲁神话巅峰之作《虚境奇谭》</media:description>
    <media:community>
     <media:starRating count="215" average="5.00" min="1" max="5"/>
-    <media:statistics views="13563"/>
+    <media:statistics views="13564"/>
    </media:community>
   </media:group>
  </entry>
@@ -359,7 +359,7 @@
    <media:description>科幻小说《橱窗里的荷兰赌徒》，作者李兴春，银河奖获奖作品，是一部不可多得的国产佳作。所谓：数学天才与疯子赌徒之间，正如上帝的左右手。</media:description>
    <media:community>
     <media:starRating count="65" average="5.00" min="1" max="5"/>
-    <media:statistics views="4010"/>
+    <media:statistics views="4013"/>
    </media:community>
   </media:group>
  </entry>
