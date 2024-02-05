@@ -8,10 +8,14 @@ import html
 import json
 import math
 import time
+import binascii
 import threading
 import subprocess
 import http.cookiejar
+from Crypto.Hash import SHA256
+from Crypto.PublicKey import RSA
 import xml.etree.ElementTree as ET
+from Crypto.Cipher import PKCS1_OAEP
 from datetime import datetime, timedelta, timezone
 
 # 默认参数
@@ -435,6 +439,7 @@ def video_format(video_website, video_url, media="m4a", quality="480"):
         "This video is available to this channel's members on level: .*? Join this channel to get access to members-only content and other exclusive perks\.": "\033[31m会员专享\033[0m",
         "Join this channel to get access to members-only content like this video, and other exclusive perks\.": "\033[31m会员视频\033[0m",
         "Video unavailable": "\033[31m视频不可用\033[0m",
+        "This video has been removed for violating YouTube's policy on harassment and bullying": "\033[31m违规视频\033[0m",
     }
     def fail_message_initialize(fail_message, error_reason):
         for key in error_reason:
