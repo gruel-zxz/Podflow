@@ -21,7 +21,7 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-02-04T10:17:05+00:00</published>
-  <updated>2024-02-05T06:34:42+00:00</updated>
+  <updated>2024-02-05T09:54:00+00:00</updated>
   <media:group>
    <media:title>老公生气了怎么办？爱吐槽的四季妈妈分享家庭吐槽大会经验，与汤唯共赴星运之约#lolarose</media:title>
    <media:content url="https://www.youtube.com/v/bDuoNK0iscc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -33,7 +33,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一问题的看法和自己的经验。一起来参与这场老公生气应对的吐槽大会吧！#家庭生活 #情感经验 #幽默观察</media:description>
    <media:community>
     <media:starRating count="3" average="5.00" min="1" max="5"/>
-    <media:statistics views="160"/>
+    <media:statistics views="188"/>
    </media:community>
   </media:group>
  </entry>
@@ -60,7 +60,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一说法的看法和自己的经验。一起来参与这场车是男人第二个家的吐槽大会吧！#车辆文化 #男人生活 #幽默观察</media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="122"/>
+    <media:statistics views="129"/>
    </media:community>
   </media:group>
  </entry>
@@ -87,7 +87,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一平衡问题的看法和自己的经验。一起来参与这场爱与空间的吐槽大会吧！#爱情平衡 #家庭观察 #笑中解压</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="287"/>
+    <media:statistics views="294"/>
    </media:community>
   </media:group>
  </entry>
@@ -114,7 +114,7 @@
 别忘了点赞、订阅，并在评论区分享您对这个主题的看法和自己的豪车梦想。一起来参与这场衣锦还乡的吐槽大会吧！#豪车人生 #奢华体验 #幽默观察</media:description>
    <media:community>
     <media:starRating count="3" average="5.00" min="1" max="5"/>
-    <media:statistics views="203"/>
+    <media:statistics views="207"/>
    </media:community>
   </media:group>
  </entry>
@@ -168,7 +168,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一仪式的看法和自己的经验。一起来参与这场深入交往前的吐槽大会吧！#深入交往 #幽默观察 #笑中解压</media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="202"/>
+    <media:statistics views="207"/>
    </media:community>
   </media:group>
  </entry>
@@ -249,7 +249,7 @@
 别忘了点赞、订阅，并在评论区分享您对这个借车理由的看法和自己的经验。一起来参与这场借车理由新招的吐槽大会吧！#借车新招 #幽默观察 #笑中解压</media:description>
    <media:community>
     <media:starRating count="10" average="5.00" min="1" max="5"/>
-    <media:statistics views="578"/>
+    <media:statistics views="577"/>
    </media:community>
   </media:group>
  </entry>
@@ -276,7 +276,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一比喻的看法和自己的家庭吐槽经历。一起来参与这场已婚男人“保姆车”之吐槽大会吧！#已婚生活 #幽默观察 #笑中解压</media:description>
    <media:community>
     <media:starRating count="153" average="5.00" min="1" max="5"/>
-    <media:statistics views="12057"/>
+    <media:statistics views="12087"/>
    </media:community>
   </media:group>
  </entry>
@@ -303,7 +303,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一话题的看法和自己的中年新爱好。一起来参与这场中年男人新爱好的吐槽大会吧！#中年生活 #兴趣转变 #笑中解压</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="476"/>
+    <media:statistics views="477"/>
    </media:community>
   </media:group>
  </entry>
@@ -330,7 +330,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一话题的看法和自己的梦中情车。一起来参与这场梦幻心动和汽车吐槽大会吧！#梦中情人 #汽车梦想 #幽默观察</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="286"/>
+    <media:statistics views="287"/>
    </media:community>
   </media:group>
  </entry>
@@ -357,7 +357,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一话题的看法和自己的经验。一起来参与这场男人为何把车当成老婆的吐槽大会吧！#车辆关系 #幽默观察 #笑中解忧</media:description>
    <media:community>
     <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="541"/>
+    <media:statistics views="542"/>
    </media:community>
   </media:group>
  </entry>
@@ -384,7 +384,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一话题的看法和自己的开车经验。一起来参与这场老司机方向盘暴走的吐槽大会吧！#开车趣事 #幽默观察 #笑中解压</media:description>
    <media:community>
     <media:starRating count="228" average="5.00" min="1" max="5"/>
-    <media:statistics views="15238"/>
+    <media:statistics views="15353"/>
    </media:community>
   </media:group>
  </entry>
@@ -411,7 +411,7 @@
 别忘了点赞、订阅，并在评论区分享您对新年的期许和祝福。让我们共同期待，新的一年里笑对人生，笑迎幸福！#新年快乐 #幸福笑容 #家庭欢聚</media:description>
    <media:community>
     <media:starRating count="187" average="5.00" min="1" max="5"/>
-    <media:statistics views="18644"/>
+    <media:statistics views="18703"/>
    </media:community>
   </media:group>
  </entry>
