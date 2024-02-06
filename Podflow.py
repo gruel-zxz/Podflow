@@ -439,6 +439,7 @@ def video_format(video_website, video_url, media="m4a", quality="480"):
         "Join this channel to get access to members-only content like this video, and other exclusive perks\.": "\033[31m会员视频\033[0m",
         "Video unavailable": "\033[31m视频不可用\033[0m",
         "This video has been removed for violating YouTube's policy on harassment and bullying": "\033[31m违规视频\033[0m",
+        "This video is private\. If the owner of this video has granted you access, please sign in\.": "\033[31m私人视频\033[0m",
     }
     def fail_message_initialize(fail_message, error_reason):
         for key in error_reason:
