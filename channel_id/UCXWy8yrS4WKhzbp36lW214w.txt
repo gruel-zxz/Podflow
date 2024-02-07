@@ -11,6 +11,29 @@
  </author>
  <published>2020-08-21T01:53:13+00:00</published>
  <entry>
+  <id>yt:video:V9encPR_Y-0</id>
+  <yt:videoId>V9encPR_Y-0</yt:videoId>
+  <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
+  <title>为什么聪明的人都喜欢独处</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=V9encPR_Y-0"/>
+  <author>
+   <name>绝密研究所</name>
+   <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
+  </author>
+  <published>2024-02-07T00:15:06+00:00</published>
+  <updated>2024-02-07T00:22:17+00:00</updated>
+  <media:group>
+   <media:title>为什么聪明的人都喜欢独处</media:title>
+   <media:content url="https://www.youtube.com/v/V9encPR_Y-0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/V9encPR_Y-0/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="4"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:vFi8iUNr4gU</id>
   <yt:videoId>vFi8iUNr4gU</yt:videoId>
   <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
@@ -51,8 +74,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/m-Q7n-6VbN0/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="0" average="0.00" min="1" max="5"/>
-    <media:statistics views="12"/>
+    <media:starRating count="2" average="5.00" min="1" max="5"/>
+    <media:statistics views="24"/>
    </media:community>
   </media:group>
  </entry>
@@ -67,7 +90,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-02-05T14:52:41+00:00</published>
-  <updated>2024-02-06T05:51:08+00:00</updated>
+  <updated>2024-02-06T10:46:25+00:00</updated>
   <media:group>
    <media:title>高中生破防FBI ，入侵NASA的男孩</media:title>
    <media:content url="https://www.youtube.com/v/JEAeJUJvUDE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -113,7 +136,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-02-05T14:15:31+00:00</published>
-  <updated>2024-02-05T14:30:17+00:00</updated>
+  <updated>2024-02-06T06:39:03+00:00</updated>
   <media:group>
    <media:title>通往另一个世界的门户——梅尔的洞</media:title>
    <media:content url="https://www.youtube.com/v/cKxoqj_ayG8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -190,7 +213,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="35"/>
+    <media:statistics views="37"/>
    </media:community>
   </media:group>
  </entry>
@@ -213,7 +236,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="47"/>
+    <media:statistics views="50"/>
    </media:community>
   </media:group>
  </entry>
@@ -235,8 +258,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/ZPCZ5sN7ZVE/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3" average="5.00" min="1" max="5"/>
-    <media:statistics views="224"/>
+    <media:starRating count="5" average="5.00" min="1" max="5"/>
+    <media:statistics views="403"/>
    </media:community>
   </media:group>
  </entry>
@@ -325,29 +348,6 @@
    <media:title>医生都无法解释的3个神秘死亡</media:title>
    <media:content url="https://www.youtube.com/v/gnLmVAlu7hQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i4.ytimg.com/vi/gnLmVAlu7hQ/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="0" average="0.00" min="1" max="5"/>
-    <media:statistics views="0"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:V9encPR_Y-0</id>
-  <yt:videoId>V9encPR_Y-0</yt:videoId>
-  <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
-  <title>为什么聪明的人都喜欢独处</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=V9encPR_Y-0"/>
-  <author>
-   <name>绝密研究所</name>
-   <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
-  </author>
-  <published>2024-01-31T16:39:45+00:00</published>
-  <updated>2024-02-01T06:39:25+00:00</updated>
-  <media:group>
-   <media:title>为什么聪明的人都喜欢独处</media:title>
-   <media:content url="https://www.youtube.com/v/V9encPR_Y-0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/V9encPR_Y-0/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
     <media:starRating count="0" average="0.00" min="1" max="5"/>
