@@ -10,6 +10,29 @@
   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
  </author>
  <entry>
+  <id>yt:video:fMHBCtJu-7A</id>
+  <yt:videoId>fMHBCtJu-7A</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>saving half of this video for later</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=fMHBCtJu-7A"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2024-02-07T23:30:19+00:00</published>
+  <updated>2024-02-07T23:33:23+00:00</updated>
+  <media:group>
+   <media:title>saving half of this video for later</media:title>
+   <media:content url="https://www.youtube.com/v/fMHBCtJu-7A?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/fMHBCtJu-7A/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="832" average="5.00" min="1" max="5"/>
+    <media:statistics views="20704"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:aw6iKr6ndZU</id>
   <yt:videoId>aw6iKr6ndZU</yt:videoId>
   <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
@@ -27,8 +50,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/aw6iKr6ndZU/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1259" average="5.00" min="1" max="5"/>
-    <media:statistics views="43432"/>
+    <media:starRating count="1459" average="5.00" min="1" max="5"/>
+    <media:statistics views="55040"/>
    </media:community>
   </media:group>
  </entry>
@@ -84,8 +107,8 @@ Featured Creators:
 
 #Gaming #SimulationGames #CallMeKevin</media:description>
    <media:community>
-    <media:starRating count="8727" average="5.00" min="1" max="5"/>
-    <media:statistics views="807658"/>
+    <media:starRating count="9185" average="5.00" min="1" max="5"/>
+    <media:statistics views="938173"/>
    </media:community>
   </media:group>
  </entry>
@@ -107,8 +130,8 @@ Featured Creators:
    <media:thumbnail url="https://i2.ytimg.com/vi/q49c-Wb1UBo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1736" average="5.00" min="1" max="5"/>
-    <media:statistics views="44322"/>
+    <media:starRating count="1916" average="5.00" min="1" max="5"/>
+    <media:statistics views="50348"/>
    </media:community>
   </media:group>
  </entry>
@@ -130,8 +153,8 @@ Featured Creators:
    <media:thumbnail url="https://i4.ytimg.com/vi/kwC5ABBK3mg/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1669" average="5.00" min="1" max="5"/>
-    <media:statistics views="54781"/>
+    <media:starRating count="1794" average="5.00" min="1" max="5"/>
+    <media:statistics views="59829"/>
    </media:community>
   </media:group>
  </entry>
@@ -153,8 +176,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/nQHNmvb37nc/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2673" average="5.00" min="1" max="5"/>
-    <media:statistics views="67581"/>
+    <media:starRating count="2764" average="5.00" min="1" max="5"/>
+    <media:statistics views="71274"/>
    </media:community>
   </media:group>
  </entry>
@@ -221,8 +244,8 @@ Featured Creators:
 
 #TTRPG #TabletopRoleplayGame #YouTube</media:description>
    <media:community>
-    <media:starRating count="4620" average="5.00" min="1" max="5"/>
-    <media:statistics views="822515"/>
+    <media:starRating count="4782" average="5.00" min="1" max="5"/>
+    <media:statistics views="862734"/>
    </media:community>
   </media:group>
  </entry>
@@ -244,8 +267,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/fuZUe37PXCs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2768" average="5.00" min="1" max="5"/>
-    <media:statistics views="72041"/>
+    <media:starRating count="2874" average="5.00" min="1" max="5"/>
+    <media:statistics views="76409"/>
    </media:community>
   </media:group>
  </entry>
@@ -267,8 +290,8 @@ Featured Creators:
    <media:thumbnail url="https://i1.ytimg.com/vi/PXkDjNI5RSg/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1512" average="5.00" min="1" max="5"/>
-    <media:statistics views="35671"/>
+    <media:starRating count="1566" average="5.00" min="1" max="5"/>
+    <media:statistics views="37014"/>
    </media:community>
   </media:group>
  </entry>
@@ -290,8 +313,8 @@ Featured Creators:
    <media:thumbnail url="https://i4.ytimg.com/vi/s-D68FF8Q_c/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="8866" average="5.00" min="1" max="5"/>
-    <media:statistics views="508832"/>
+    <media:starRating count="8942" average="5.00" min="1" max="5"/>
+    <media:statistics views="512484"/>
    </media:community>
   </media:group>
  </entry>
@@ -313,8 +336,8 @@ Featured Creators:
    <media:thumbnail url="https://i2.ytimg.com/vi/i5KuVIZFTNo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1985" average="5.00" min="1" max="5"/>
-    <media:statistics views="59820"/>
+    <media:starRating count="2022" average="5.00" min="1" max="5"/>
+    <media:statistics views="61578"/>
    </media:community>
   </media:group>
  </entry>
@@ -342,8 +365,8 @@ Watch sWooZie’s story here: http://yt.be/SwoozieFlowers
 
 Watch Nyma Tang's story here: https://yt.be/NymaFlowers</media:description>
    <media:community>
-    <media:starRating count="4491" average="5.00" min="1" max="5"/>
-    <media:statistics views="651944"/>
+    <media:starRating count="4518" average="5.00" min="1" max="5"/>
+    <media:statistics views="655169"/>
    </media:community>
   </media:group>
  </entry>
@@ -365,8 +388,8 @@ Watch Nyma Tang's story here: https://yt.be/NymaFlowers</media:description>
    <media:thumbnail url="https://i3.ytimg.com/vi/VoqnCaE8HPA/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1355" average="5.00" min="1" max="5"/>
-    <media:statistics views="39275"/>
+    <media:starRating count="1382" average="5.00" min="1" max="5"/>
+    <media:statistics views="40368"/>
    </media:community>
   </media:group>
  </entry>
@@ -388,8 +411,8 @@ Watch Nyma Tang's story here: https://yt.be/NymaFlowers</media:description>
    <media:thumbnail url="https://i1.ytimg.com/vi/4meQIH3xAFw/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2962" average="5.00" min="1" max="5"/>
-    <media:statistics views="98217"/>
+    <media:starRating count="2998" average="5.00" min="1" max="5"/>
+    <media:statistics views="100340"/>
    </media:community>
   </media:group>
  </entry>
@@ -411,31 +434,8 @@ Watch Nyma Tang's story here: https://yt.be/NymaFlowers</media:description>
    <media:thumbnail url="https://i3.ytimg.com/vi/V7OgtMMEieI/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3715" average="5.00" min="1" max="5"/>
-    <media:statistics views="106554"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:xBI9uePWH3Y</id>
-  <yt:videoId>xBI9uePWH3Y</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>on wednesdays we wear 🩷 esp this week @RuthieRidleyBlog @Shanygne @KerinaWang @pinkshirtcouple 🩷🎬</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=xBI9uePWH3Y"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2024-01-10T20:00:22+00:00</published>
-  <updated>2024-01-10T20:07:30+00:00</updated>
-  <media:group>
-   <media:title>on wednesdays we wear 🩷 esp this week @RuthieRidleyBlog @Shanygne @KerinaWang @pinkshirtcouple 🩷🎬</media:title>
-   <media:content url="https://www.youtube.com/v/xBI9uePWH3Y?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i1.ytimg.com/vi/xBI9uePWH3Y/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="1953" average="5.00" min="1" max="5"/>
-    <media:statistics views="72356"/>
+    <media:starRating count="3754" average="5.00" min="1" max="5"/>
+    <media:statistics views="108944"/>
    </media:community>
   </media:group>
  </entry>
