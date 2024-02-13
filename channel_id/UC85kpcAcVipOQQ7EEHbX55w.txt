@@ -11,6 +11,62 @@
  </author>
  <published>2019-12-25T10:15:50+00:00</published>
  <entry>
+  <id>yt:video:5DrMmNKJ_oU</id>
+  <yt:videoId>5DrMmNKJ_oU</yt:videoId>
+  <yt:channelId>UC85kpcAcVipOQQ7EEHbX55w</yt:channelId>
+  <title>一幅普通畫作被多名買家慌張退回，警方介入後发現驚人內幕！</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=5DrMmNKJ_oU"/>
+  <author>
+   <name>佬K奇談</name>
+   <uri>https://www.youtube.com/channel/UC85kpcAcVipOQQ7EEHbX55w</uri>
+  </author>
+  <published>2024-02-12T12:30:02+00:00</published>
+  <updated>2024-02-12T12:30:03+00:00</updated>
+  <media:group>
+   <media:title>一幅普通畫作被多名買家慌張退回，警方介入後发現驚人內幕！</media:title>
+   <media:content url="https://www.youtube.com/v/5DrMmNKJ_oU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/5DrMmNKJ_oU/hqdefault.jpg" width="480" height="360"/>
+   <media:description>成为此频道的会员：
+https://www.youtube.com/channel/UC85kpcAcVipOQQ7EEHbX55w/join
+
+#佬K奇談#老K奇谈
+歡迎訂閱☞https://is.gd/Av4UlQ
+聽佬K給妳們講奇聞異事以及各种未解之謎，以不同的視角講述妳知道的或不知道的故事。喜歡我的視頻請點贊，開啓小鈴鐺第一時間接收最新影片通知</media:description>
+   <media:community>
+    <media:starRating count="2951" average="5.00" min="1" max="5"/>
+    <media:statistics views="47140"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:TBqa1syO2K4</id>
+  <yt:videoId>TBqa1syO2K4</yt:videoId>
+  <yt:channelId>UC85kpcAcVipOQQ7EEHbX55w</yt:channelId>
+  <title>海南海鮮貴嗎？只要找對了地方海鮮便宜到你懷疑人生！！新春特輯-《跟著佬K去旅行》</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=TBqa1syO2K4"/>
+  <author>
+   <name>佬K奇談</name>
+   <uri>https://www.youtube.com/channel/UC85kpcAcVipOQQ7EEHbX55w</uri>
+  </author>
+  <published>2024-02-09T12:30:28+00:00</published>
+  <updated>2024-02-09T15:20:44+00:00</updated>
+  <media:group>
+   <media:title>海南海鮮貴嗎？只要找對了地方海鮮便宜到你懷疑人生！！新春特輯-《跟著佬K去旅行》</media:title>
+   <media:content url="https://www.youtube.com/v/TBqa1syO2K4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/TBqa1syO2K4/hqdefault.jpg" width="480" height="360"/>
+   <media:description>成为此频道的会员：
+https://www.youtube.com/channel/UC85kpcAcVipOQQ7EEHbX55w/join
+
+#佬K奇談#老K奇谈
+歡迎訂閱☞https://is.gd/Av4UlQ
+聽佬K給妳們講奇聞異事以及各种未解之謎，以不同的視角講述妳知道的或不知道的故事。喜歡我的視頻請點贊，開啓小鈴鐺第一時間接收最新影片通知</media:description>
+   <media:community>
+    <media:starRating count="2390" average="5.00" min="1" max="5"/>
+    <media:statistics views="28307"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:Gb9XnLzgYdU</id>
   <yt:videoId>Gb9XnLzgYdU</yt:videoId>
   <yt:channelId>UC85kpcAcVipOQQ7EEHbX55w</yt:channelId>
@@ -33,8 +89,8 @@ https://www.youtube.com/channel/UC85kpcAcVipOQQ7EEHbX55w/join
 歡迎訂閱☞https://is.gd/Av4UlQ
 聽佬K給妳們講奇聞異事以及各种未解之謎，以不同的視角講述妳知道的或不知道的故事。喜歡我的視頻請點贊，開啓小鈴鐺第一時間接收最新影片通知</media:description>
    <media:community>
-    <media:starRating count="4761" average="5.00" min="1" max="5"/>
-    <media:statistics views="131780"/>
+    <media:starRating count="4980" average="5.00" min="1" max="5"/>
+    <media:statistics views="142342"/>
    </media:community>
   </media:group>
  </entry>
@@ -61,8 +117,8 @@ https://www.youtube.com/channel/UC85kpcAcVipOQQ7EEHbX55w/join
 歡迎訂閱☞https://is.gd/Av4UlQ
 聽佬K給妳們講奇聞異事以及各种未解之謎，以不同的視角講述妳知道的或不知道的故事。喜歡我的視頻請點贊，開啓小鈴鐺第一時間接收最新影片通知</media:description>
    <media:community>
-    <media:starRating count="5799" average="5.00" min="1" max="5"/>
-    <media:statistics views="187377"/>
+    <media:starRating count="5921" average="5.00" min="1" max="5"/>
+    <media:statistics views="195572"/>
    </media:community>
   </media:group>
  </entry>
@@ -89,8 +145,8 @@ https://www.youtube.com/channel/UC85kpcAcVipOQQ7EEHbX55w/join
 歡迎訂閱☞https://is.gd/Av4UlQ
 聽佬K給妳們講奇聞異事以及各种未解之謎，以不同的視角講述妳知道的或不知道的故事。喜歡我的視頻請點贊，開啓小鈴鐺第一時間接收最新影片通知</media:description>
    <media:community>
-    <media:starRating count="5597" average="5.00" min="1" max="5"/>
-    <media:statistics views="177234"/>
+    <media:starRating count="5633" average="5.00" min="1" max="5"/>
+    <media:statistics views="178357"/>
    </media:community>
   </media:group>
  </entry>
@@ -117,8 +173,8 @@ https://www.youtube.com/channel/UC85kpcAcVipOQQ7EEHbX55w/join
 歡迎訂閱☞https://is.gd/Av4UlQ
 聽佬K給妳們講奇聞異事以及各种未解之謎，以不同的視角講述妳知道的或不知道的故事。喜歡我的視頻請點贊，開啓小鈴鐺第一時間接收最新影片通知</media:description>
    <media:community>
-    <media:starRating count="4796" average="5.00" min="1" max="5"/>
-    <media:statistics views="156576"/>
+    <media:starRating count="4858" average="5.00" min="1" max="5"/>
+    <media:statistics views="160519"/>
    </media:community>
   </media:group>
  </entry>
@@ -145,8 +201,8 @@ https://www.youtube.com/channel/UC85kpcAcVipOQQ7EEHbX55w/join
 歡迎訂閱☞https://is.gd/Av4UlQ
 聽佬K給妳們講奇聞異事以及各种未解之謎，以不同的視角講述妳知道的或不知道的故事。喜歡我的視頻請點贊，開啓小鈴鐺第一時間接收最新影片通知</media:description>
    <media:community>
-    <media:starRating count="4345" average="5.00" min="1" max="5"/>
-    <media:statistics views="125813"/>
+    <media:starRating count="4373" average="5.00" min="1" max="5"/>
+    <media:statistics views="127760"/>
    </media:community>
   </media:group>
  </entry>
@@ -173,8 +229,8 @@ https://www.youtube.com/channel/UC85kpcAcVipOQQ7EEHbX55w/join
 歡迎訂閱☞https://is.gd/Av4UlQ
 聽佬K給妳們講奇聞異事以及各种未解之謎，以不同的視角講述妳知道的或不知道的故事。喜歡我的視頻請點贊，開啓小鈴鐺第一時間接收最新影片通知</media:description>
    <media:community>
-    <media:starRating count="5496" average="5.00" min="1" max="5"/>
-    <media:statistics views="179599"/>
+    <media:starRating count="5519" average="5.00" min="1" max="5"/>
+    <media:statistics views="181879"/>
    </media:community>
   </media:group>
  </entry>
@@ -201,8 +257,8 @@ https://www.youtube.com/channel/UC85kpcAcVipOQQ7EEHbX55w/join
 歡迎訂閱☞https://is.gd/Av4UlQ
 聽佬K給妳們講奇聞異事以及各种未解之謎，以不同的視角講述妳知道的或不知道的故事。喜歡我的視頻請點贊，開啓小鈴鐺第一時間接收最新影片通知</media:description>
    <media:community>
-    <media:starRating count="6654" average="5.00" min="1" max="5"/>
-    <media:statistics views="272023"/>
+    <media:starRating count="6732" average="5.00" min="1" max="5"/>
+    <media:statistics views="278068"/>
    </media:community>
   </media:group>
  </entry>
@@ -229,8 +285,8 @@ https://www.youtube.com/channel/UC85kpcAcVipOQQ7EEHbX55w/join
 歡迎訂閱☞https://is.gd/Av4UlQ
 聽佬K給妳們講奇聞異事以及各种未解之謎，以不同的視角講述妳知道的或不知道的故事。喜歡我的視頻請點贊，開啓小鈴鐺第一時間接收最新影片通知</media:description>
    <media:community>
-    <media:starRating count="5219" average="5.00" min="1" max="5"/>
-    <media:statistics views="173258"/>
+    <media:starRating count="5227" average="5.00" min="1" max="5"/>
+    <media:statistics views="174618"/>
    </media:community>
   </media:group>
  </entry>
@@ -257,8 +313,8 @@ https://www.youtube.com/channel/UC85kpcAcVipOQQ7EEHbX55w/join
 歡迎訂閱☞https://is.gd/Av4UlQ
 聽佬K給妳們講奇聞異事以及各种未解之謎，以不同的視角講述妳知道的或不知道的故事。喜歡我的視頻請點贊，開啓小鈴鐺第一時間接收最新影片通知</media:description>
    <media:community>
-    <media:starRating count="7251" average="5.00" min="1" max="5"/>
-    <media:statistics views="241283"/>
+    <media:starRating count="7278" average="5.00" min="1" max="5"/>
+    <media:statistics views="243149"/>
    </media:community>
   </media:group>
  </entry>
@@ -285,8 +341,8 @@ https://www.youtube.com/channel/UC85kpcAcVipOQQ7EEHbX55w/join
 歡迎訂閱☞https://is.gd/Av4UlQ
 聽佬K給妳們講奇聞異事以及各种未解之謎，以不同的視角講述妳知道的或不知道的故事。喜歡我的視頻請點贊，開啓小鈴鐺第一時間接收最新影片通知</media:description>
    <media:community>
-    <media:starRating count="17764" average="5.00" min="1" max="5"/>
-    <media:statistics views="665879"/>
+    <media:starRating count="17776" average="5.00" min="1" max="5"/>
+    <media:statistics views="666759"/>
    </media:community>
   </media:group>
  </entry>
@@ -313,8 +369,8 @@ https://www.youtube.com/channel/UC85kpcAcVipOQQ7EEHbX55w/join
 歡迎訂閱☞https://is.gd/Av4UlQ
 聽佬K給妳們講奇聞異事以及各种未解之謎，以不同的視角講述妳知道的或不知道的故事。喜歡我的視頻請點贊，開啓小鈴鐺第一時間接收最新影片通知</media:description>
    <media:community>
-    <media:starRating count="4913" average="5.00" min="1" max="5"/>
-    <media:statistics views="152485"/>
+    <media:starRating count="4931" average="5.00" min="1" max="5"/>
+    <media:statistics views="153841"/>
    </media:community>
   </media:group>
  </entry>
@@ -341,8 +397,8 @@ https://www.youtube.com/channel/UC85kpcAcVipOQQ7EEHbX55w/join
 歡迎訂閱☞https://is.gd/Av4UlQ
 聽佬K給妳們講奇聞異事以及各种未解之謎，以不同的視角講述妳知道的或不知道的故事。喜歡我的視頻請點贊，開啓小鈴鐺第一時間接收最新影片通知</media:description>
    <media:community>
-    <media:starRating count="6874" average="5.00" min="1" max="5"/>
-    <media:statistics views="227996"/>
+    <media:starRating count="6900" average="5.00" min="1" max="5"/>
+    <media:statistics views="229736"/>
    </media:community>
   </media:group>
  </entry>
@@ -369,64 +425,8 @@ https://www.youtube.com/channel/UC85kpcAcVipOQQ7EEHbX55w/join
 歡迎訂閱☞https://is.gd/Av4UlQ
 聽佬K給妳們講奇聞異事以及各种未解之謎，以不同的視角講述妳知道的或不知道的故事。喜歡我的視頻請點贊，開啓小鈴鐺第一時間接收最新影片通知</media:description>
    <media:community>
-    <media:starRating count="4160" average="5.00" min="1" max="5"/>
-    <media:statistics views="93351"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:D_D8K1Gwys4</id>
-  <yt:videoId>D_D8K1Gwys4</yt:videoId>
-  <yt:channelId>UC85kpcAcVipOQQ7EEHbX55w</yt:channelId>
-  <title>一家老小慘遭滅門,明知兇手身份卻無人知其長相，18年後竟靠一座雕像成功破案！</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=D_D8K1Gwys4"/>
-  <author>
-   <name>佬K奇談</name>
-   <uri>https://www.youtube.com/channel/UC85kpcAcVipOQQ7EEHbX55w</uri>
-  </author>
-  <published>2023-11-10T12:30:08+00:00</published>
-  <updated>2023-12-19T06:21:51+00:00</updated>
-  <media:group>
-   <media:title>一家老小慘遭滅門,明知兇手身份卻無人知其長相，18年後竟靠一座雕像成功破案！</media:title>
-   <media:content url="https://www.youtube.com/v/D_D8K1Gwys4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i1.ytimg.com/vi/D_D8K1Gwys4/hqdefault.jpg" width="480" height="360"/>
-   <media:description>成为此频道的会员：
-https://www.youtube.com/channel/UC85kpcAcVipOQQ7EEHbX55w/join
-
-#佬K奇談#老K奇谈
-歡迎訂閱☞https://is.gd/Av4UlQ
-聽佬K給妳們講奇聞異事以及各种未解之謎，以不同的視角講述妳知道的或不知道的故事。喜歡我的視頻請點贊，開啓小鈴鐺第一時間接收最新影片通知</media:description>
-   <media:community>
-    <media:starRating count="6969" average="5.00" min="1" max="5"/>
-    <media:statistics views="208225"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:6ikWu-0lAEE</id>
-  <yt:videoId>6ikWu-0lAEE</yt:videoId>
-  <yt:channelId>UC85kpcAcVipOQQ7EEHbX55w</yt:channelId>
-  <title>富豪夫婦家中遇害，關鍵證人反成作案兇手，真相震碎三觀！</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=6ikWu-0lAEE"/>
-  <author>
-   <name>佬K奇談</name>
-   <uri>https://www.youtube.com/channel/UC85kpcAcVipOQQ7EEHbX55w</uri>
-  </author>
-  <published>2023-11-03T12:30:03+00:00</published>
-  <updated>2024-01-03T13:08:59+00:00</updated>
-  <media:group>
-   <media:title>富豪夫婦家中遇害，關鍵證人反成作案兇手，真相震碎三觀！</media:title>
-   <media:content url="https://www.youtube.com/v/6ikWu-0lAEE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/6ikWu-0lAEE/hqdefault.jpg" width="480" height="360"/>
-   <media:description>成为此频道的会员：
-https://www.youtube.com/channel/UC85kpcAcVipOQQ7EEHbX55w/join
-
-#佬K奇談#老K奇谈
-歡迎訂閱☞https://is.gd/Av4UlQ
-聽佬K給妳們講奇聞異事以及各种未解之謎，以不同的視角講述妳知道的或不知道的故事。喜歡我的視頻請點贊，開啓小鈴鐺第一時間接收最新影片通知</media:description>
-   <media:community>
-    <media:starRating count="6262" average="5.00" min="1" max="5"/>
-    <media:statistics views="188857"/>
+    <media:starRating count="4172" average="5.00" min="1" max="5"/>
+    <media:statistics views="93784"/>
    </media:community>
   </media:group>
  </entry>

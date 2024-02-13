@@ -21,15 +21,15 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2024-02-08T17:46:36+00:00</published>
-  <updated>2024-02-08T17:46:37+00:00</updated>
+  <updated>2024-02-09T05:44:20+00:00</updated>
   <media:group>
    <media:title>打破种族禁忌，第四人称接触：科幻小说《第四人称》</media:title>
    <media:content url="https://www.youtube.com/v/DakEnnN9-io?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i1.ytimg.com/vi/DakEnnN9-io/hqdefault.jpg" width="480" height="360"/>
    <media:description>在目前语言学界的主流观点中，不存在“第4人称”。当然这是科幻小说，作者藤野另辟蹊径，以全新的视角揭开了一个地外生命群体的存在模式。《第四人称》  选自：《科幻世界》2016年12月刊。</media:description>
    <media:community>
-    <media:starRating count="43" average="5.00" min="1" max="5"/>
-    <media:statistics views="1123"/>
+    <media:starRating count="110" average="5.00" min="1" max="5"/>
+    <media:statistics views="4765"/>
    </media:community>
   </media:group>
  </entry>
@@ -51,8 +51,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/yjQoHB4Bs9w/hqdefault.jpg" width="480" height="360"/>
    <media:description>老龄化问题的终极答案：让40亿老人移民外星？科幻小说《暮星归途》</media:description>
    <media:community>
-    <media:starRating count="82" average="5.00" min="1" max="5"/>
-    <media:statistics views="4321"/>
+    <media:starRating count="88" average="5.00" min="1" max="5"/>
+    <media:statistics views="4922"/>
    </media:community>
   </media:group>
  </entry>
@@ -74,8 +74,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/wnP-yUQ1MkQ/hqdefault.jpg" width="480" height="360"/>
    <media:description>说明：这个盘点清单是根据幻海团队的阅读经历，从读者的接受度、作品故事性、作品的思想深度等特点做出的盘点清单，均为我们的个人观点。所以《龙蛋》、《盲视》、《量子魔术师》《泥人十四》等过于硬核的优秀作品不在其中，同时《三体》与《泽利》也不在其中，它们之前已经总结过了，另外《太空漫游系列》/《火星救援》《索拉里斯星》等优秀作品，由于已经被影视化，熟悉的人很多，所以也不在其中。</media:description>
    <media:community>
-    <media:starRating count="169" average="5.00" min="1" max="5"/>
-    <media:statistics views="5317"/>
+    <media:starRating count="177" average="5.00" min="1" max="5"/>
+    <media:statistics views="5513"/>
    </media:community>
   </media:group>
  </entry>
@@ -98,8 +98,8 @@
    <media:description>列举了六部经典科幻小说中，人类的终极宿命。
 我们最看好的是05：15的部分，在科技断代之后，人类存活到了最后。</media:description>
    <media:community>
-    <media:starRating count="134" average="5.00" min="1" max="5"/>
-    <media:statistics views="7013"/>
+    <media:starRating count="137" average="5.00" min="1" max="5"/>
+    <media:statistics views="7184"/>
    </media:community>
   </media:group>
  </entry>
@@ -123,8 +123,8 @@
 更新预告：阅读总结——人类的三种终极宿命。
 阅读总结——我心目中的科幻TOP系列盘点。</media:description>
    <media:community>
-    <media:starRating count="155" average="5.00" min="1" max="5"/>
-    <media:statistics views="6423"/>
+    <media:starRating count="158" average="5.00" min="1" max="5"/>
+    <media:statistics views="6479"/>
    </media:community>
   </media:group>
  </entry>
@@ -146,8 +146,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/7yIuEGj7IXU/hqdefault.jpg" width="480" height="360"/>
    <media:description>用40亿年去纠正一个错误，错误是创造全人类：《宇宙全能侦探社》下集</media:description>
    <media:community>
-    <media:starRating count="72" average="5.00" min="1" max="5"/>
-    <media:statistics views="3356"/>
+    <media:starRating count="74" average="5.00" min="1" max="5"/>
+    <media:statistics views="3433"/>
    </media:community>
   </media:group>
  </entry>
@@ -171,7 +171,7 @@
 原著：道格拉斯亚当斯，一位搞怪又不失科幻内核的作家。</media:description>
    <media:community>
     <media:starRating count="85" average="5.00" min="1" max="5"/>
-    <media:statistics views="5641"/>
+    <media:statistics views="5770"/>
    </media:community>
   </media:group>
  </entry>
@@ -194,7 +194,7 @@
    <media:description>《世界上所有的烦恼》，原著：阿西莫夫，出自阿西莫夫科幻短篇全集、 阿西莫夫的这个短篇系列终于出版了！阿西莫夫最神的就是他的短篇，所谓：人类近50年来的科技进步，一直在追赶阿西莫夫科幻小说的脚步。</media:description>
    <media:community>
     <media:starRating count="145" average="5.00" min="1" max="5"/>
-    <media:statistics views="7205"/>
+    <media:statistics views="7325"/>
    </media:community>
   </media:group>
  </entry>
@@ -217,7 +217,7 @@
    <media:description>一个中子星文明的毁灭与重生：《星震》大结局</media:description>
    <media:community>
     <media:starRating count="87" average="5.00" min="1" max="5"/>
-    <media:statistics views="5112"/>
+    <media:statistics views="5147"/>
    </media:community>
   </media:group>
  </entry>
@@ -232,7 +232,7 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2023-12-14T04:37:33+00:00</published>
-  <updated>2023-12-28T04:34:54+00:00</updated>
+  <updated>2024-02-11T09:05:39+00:00</updated>
   <media:group>
    <media:title>《龙蛋》续集《星震》：一个诞生于中子星上的文明！</media:title>
    <media:content url="https://www.youtube.com/v/W_UNH0JY05Y?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -241,7 +241,7 @@
 时隔几年，终于更新到这部了！</media:description>
    <media:community>
     <media:starRating count="118" average="5.00" min="1" max="5"/>
-    <media:statistics views="6757"/>
+    <media:statistics views="6801"/>
    </media:community>
   </media:group>
  </entry>
@@ -256,15 +256,15 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2023-12-04T15:01:14+00:00</published>
-  <updated>2023-12-06T04:20:32+00:00</updated>
+  <updated>2024-02-10T20:33:32+00:00</updated>
   <media:group>
    <media:title>未来的新型诈骗：骗走人类的十年时间——科幻名著《抉择》</media:title>
    <media:content url="https://www.youtube.com/v/Pns8RLiQeoI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i1.ytimg.com/vi/Pns8RLiQeoI/hqdefault.jpg" width="480" height="360"/>
    <media:description>如何骗走人类的十年时间：科幻名著《抉择》，原著：小松左京。这部小说收录于《科幻之路》系列。</media:description>
    <media:community>
-    <media:starRating count="126" average="5.00" min="1" max="5"/>
-    <media:statistics views="7786"/>
+    <media:starRating count="127" average="5.00" min="1" max="5"/>
+    <media:statistics views="7849"/>
    </media:community>
   </media:group>
  </entry>
@@ -288,8 +288,8 @@
 本系列更新完结，原计划十多期内容现在压缩到了五集，奈何精力和财力有限阿....
 不过主线剧情已经更新完毕，未收录的内容仅剩下人类最终生活在小宇宙中的场景。</media:description>
    <media:community>
-    <media:starRating count="535" average="5.00" min="1" max="5"/>
-    <media:statistics views="36282"/>
+    <media:starRating count="536" average="5.00" min="1" max="5"/>
+    <media:statistics views="36398"/>
    </media:community>
   </media:group>
  </entry>
@@ -311,8 +311,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/8-sJeE2YF2Q/hqdefault.jpg" width="480" height="360"/>
    <media:description>《单孔衍射》出自科幻短篇集《完美末日》。作者刘洋：科幻作家，物理学博士，代表作《火星孤儿》《勾股2.013》等。这是第二次更新这位科幻作家的作品，希望大家喜欢。这部小说中提出了非常有有趣的“时间壁垒”概念。</media:description>
    <media:community>
-    <media:starRating count="142" average="5.00" min="1" max="5"/>
-    <media:statistics views="8498"/>
+    <media:starRating count="143" average="5.00" min="1" max="5"/>
+    <media:statistics views="8571"/>
    </media:community>
   </media:group>
  </entry>
@@ -335,8 +335,8 @@
    <media:description>《除以零》，作者：特德姜，出自科幻小说集《你一生的故事》
 这是我们最喜欢的作品之一，作者以极为另类的写作方式用数学公式描述了一对人们的情感，堪称神作！</media:description>
    <media:community>
-    <media:starRating count="226" average="5.00" min="1" max="5"/>
-    <media:statistics views="11782"/>
+    <media:starRating count="228" average="5.00" min="1" max="5"/>
+    <media:statistics views="11836"/>
    </media:community>
   </media:group>
  </entry>
@@ -351,15 +351,15 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2023-11-05T13:05:27+00:00</published>
-  <updated>2023-11-16T08:26:17+00:00</updated>
+  <updated>2024-02-11T02:21:51+00:00</updated>
   <media:group>
    <media:title>极北坚冰，食人梦魇——克苏鲁神话巅峰之作《虚境奇谭》</media:title>
    <media:content url="https://www.youtube.com/v/TY-ce_fiWK8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i1.ytimg.com/vi/TY-ce_fiWK8/hqdefault.jpg" width="480" height="360"/>
    <media:description>本期更新一期克苏鲁神话（非科幻内容）极北坚冰，食人梦魇——克苏鲁神话巅峰之作《虚境奇谭》</media:description>
    <media:community>
-    <media:starRating count="216" average="5.00" min="1" max="5"/>
-    <media:statistics views="13645"/>
+    <media:starRating count="217" average="5.00" min="1" max="5"/>
+    <media:statistics views="13745"/>
    </media:community>
   </media:group>
  </entry>
