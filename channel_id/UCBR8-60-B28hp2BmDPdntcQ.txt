@@ -10,6 +10,52 @@
   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
  </author>
  <entry>
+  <id>yt:video:tc52SWcMwXk</id>
+  <yt:videoId>tc52SWcMwXk</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>we 🫶 all your #LoveNotes. big thanks to all the YouTube Partners who inspire us fr.</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=tc52SWcMwXk"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2024-02-14T12:00:17+00:00</published>
+  <updated>2024-02-14T12:04:03+00:00</updated>
+  <media:group>
+   <media:title>we 🫶 all your #LoveNotes. big thanks to all the YouTube Partners who inspire us fr.</media:title>
+   <media:content url="https://www.youtube.com/v/tc52SWcMwXk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/tc52SWcMwXk/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="855" average="5.00" min="1" max="5"/>
+    <media:statistics views="25584"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:bX0YHFif81U</id>
+  <yt:videoId>bX0YHFif81U</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>the perfect cake for the most perfect galentine @bakingthursdays @mistermainer 💕</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=bX0YHFif81U"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2024-02-13T23:15:20+00:00</published>
+  <updated>2024-02-13T23:19:33+00:00</updated>
+  <media:group>
+   <media:title>the perfect cake for the most perfect galentine @bakingthursdays @mistermainer 💕</media:title>
+   <media:content url="https://www.youtube.com/v/bX0YHFif81U?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/bX0YHFif81U/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="1389" average="5.00" min="1" max="5"/>
+    <media:statistics views="26375"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:LaKS5B3enNY</id>
   <yt:videoId>LaKS5B3enNY</yt:videoId>
   <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
@@ -20,15 +66,15 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-02-10T17:00:15+00:00</published>
-  <updated>2024-02-10T17:06:53+00:00</updated>
+  <updated>2024-02-15T10:22:25+00:00</updated>
   <media:group>
    <media:title>gotta be extraaaaa careful handling these looks ⭐️ @KevinRupard @Melrosemua @sacheu</media:title>
    <media:content url="https://www.youtube.com/v/LaKS5B3enNY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i1.ytimg.com/vi/LaKS5B3enNY/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1128" average="5.00" min="1" max="5"/>
-    <media:statistics views="37715"/>
+    <media:starRating count="1490" average="5.00" min="1" max="5"/>
+    <media:statistics views="54272"/>
    </media:community>
   </media:group>
  </entry>
@@ -50,8 +96,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/SmUjSY0ZHlo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1746" average="5.00" min="1" max="5"/>
-    <media:statistics views="40920"/>
+    <media:starRating count="2128" average="5.00" min="1" max="5"/>
+    <media:statistics views="53681"/>
    </media:community>
   </media:group>
  </entry>
@@ -73,8 +119,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/fMHBCtJu-7A/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1310" average="5.00" min="1" max="5"/>
-    <media:statistics views="42927"/>
+    <media:starRating count="1483" average="5.00" min="1" max="5"/>
+    <media:statistics views="49211"/>
    </media:community>
   </media:group>
  </entry>
@@ -96,8 +142,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/aw6iKr6ndZU/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1697" average="5.00" min="1" max="5"/>
-    <media:statistics views="65510"/>
+    <media:starRating count="1838" average="5.00" min="1" max="5"/>
+    <media:statistics views="70135"/>
    </media:community>
   </media:group>
  </entry>
@@ -153,8 +199,8 @@ Featured Creators:
 
 #Gaming #SimulationGames #CallMeKevin</media:description>
    <media:community>
-    <media:starRating count="10205" average="5.00" min="1" max="5"/>
-    <media:statistics views="1034872"/>
+    <media:starRating count="10783" average="5.00" min="1" max="5"/>
+    <media:statistics views="1081872"/>
    </media:community>
   </media:group>
  </entry>
@@ -176,8 +222,8 @@ Featured Creators:
    <media:thumbnail url="https://i2.ytimg.com/vi/q49c-Wb1UBo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2143" average="5.00" min="1" max="5"/>
-    <media:statistics views="61742"/>
+    <media:starRating count="2275" average="5.00" min="1" max="5"/>
+    <media:statistics views="67668"/>
    </media:community>
   </media:group>
  </entry>
@@ -199,8 +245,8 @@ Featured Creators:
    <media:thumbnail url="https://i4.ytimg.com/vi/kwC5ABBK3mg/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1985" average="5.00" min="1" max="5"/>
-    <media:statistics views="70531"/>
+    <media:starRating count="2093" average="5.00" min="1" max="5"/>
+    <media:statistics views="77201"/>
    </media:community>
   </media:group>
  </entry>
@@ -222,8 +268,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/nQHNmvb37nc/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2946" average="5.00" min="1" max="5"/>
-    <media:statistics views="79162"/>
+    <media:starRating count="3045" average="5.00" min="1" max="5"/>
+    <media:statistics views="83523"/>
    </media:community>
   </media:group>
  </entry>
@@ -238,7 +284,7 @@ Featured Creators:
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-01-25T13:00:42+00:00</published>
-  <updated>2024-01-31T16:42:15+00:00</updated>
+  <updated>2024-02-13T19:25:38+00:00</updated>
   <media:group>
    <media:title>Enter the realm of the Tabletop Role Playing Games community</media:title>
    <media:content url="https://www.youtube.com/v/ly-xfCNDK3U?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -290,8 +336,8 @@ Featured Creators:
 
 #TTRPG #TabletopRoleplayGame #YouTube</media:description>
    <media:community>
-    <media:starRating count="4943" average="5.00" min="1" max="5"/>
-    <media:statistics views="915340"/>
+    <media:starRating count="5005" average="5.00" min="1" max="5"/>
+    <media:statistics views="937395"/>
    </media:community>
   </media:group>
  </entry>
@@ -313,8 +359,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/fuZUe37PXCs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3060" average="5.00" min="1" max="5"/>
-    <media:statistics views="85741"/>
+    <media:starRating count="3165" average="5.00" min="1" max="5"/>
+    <media:statistics views="90789"/>
    </media:community>
   </media:group>
  </entry>
@@ -336,8 +382,8 @@ Featured Creators:
    <media:thumbnail url="https://i1.ytimg.com/vi/PXkDjNI5RSg/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1641" average="5.00" min="1" max="5"/>
-    <media:statistics views="40268"/>
+    <media:starRating count="1684" average="5.00" min="1" max="5"/>
+    <media:statistics views="42030"/>
    </media:community>
   </media:group>
  </entry>
@@ -359,8 +405,8 @@ Featured Creators:
    <media:thumbnail url="https://i4.ytimg.com/vi/s-D68FF8Q_c/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="9064" average="5.00" min="1" max="5"/>
-    <media:statistics views="520868"/>
+    <media:starRating count="9138" average="5.00" min="1" max="5"/>
+    <media:statistics views="525761"/>
    </media:community>
   </media:group>
  </entry>
@@ -382,60 +428,8 @@ Featured Creators:
    <media:thumbnail url="https://i2.ytimg.com/vi/i5KuVIZFTNo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2100" average="5.00" min="1" max="5"/>
-    <media:statistics views="65883"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:_iqmCO-344A</id>
-  <yt:videoId>_iqmCO-344A</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>How “Chicken Noodle Soup” paved the way for viral dance trends | #YouTubeBlack presents Flowers</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=_iqmCO-344A"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2024-01-18T16:59:15+00:00</published>
-  <updated>2024-01-19T00:19:07+00:00</updated>
-  <media:group>
-   <media:title>How “Chicken Noodle Soup” paved the way for viral dance trends | #YouTubeBlack presents Flowers</media:title>
-   <media:content url="https://www.youtube.com/v/_iqmCO-344A?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/_iqmCO-344A/hqdefault.jpg" width="480" height="360"/>
-   <media:description>Bianca Bonnie gets the flowers she deserves, here and now, for bringing together a song, a dance from Harlem, and the internet, creating the blueprint for viral dance trends with the hit “Chicken Noodle Soup.”
-
-Online video trends have evolved to become the driving force of pop culture. But do you know who’s creating them? From the moment of upload, discover the untold, true stories of the Black creators and culture behind your favorite trends.
-
-Watch sWooZie’s story here: http://yt.be/SwoozieFlowers
-
-Watch Nyma Tang's story here: https://yt.be/NymaFlowers</media:description>
-   <media:community>
-    <media:starRating count="4600" average="5.00" min="1" max="5"/>
-    <media:statistics views="661866"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:VoqnCaE8HPA</id>
-  <yt:videoId>VoqnCaE8HPA</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>are u as excited for coachella as @CocoMocoe ?!?!?!</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=VoqnCaE8HPA"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2024-01-17T19:00:22+00:00</published>
-  <updated>2024-01-17T19:07:11+00:00</updated>
-  <media:group>
-   <media:title>are u as excited for coachella as @CocoMocoe ?!?!?!</media:title>
-   <media:content url="https://www.youtube.com/v/VoqnCaE8HPA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/VoqnCaE8HPA/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="1428" average="5.00" min="1" max="5"/>
-    <media:statistics views="42953"/>
+    <media:starRating count="2158" average="5.00" min="1" max="5"/>
+    <media:statistics views="68376"/>
    </media:community>
   </media:group>
  </entry>
