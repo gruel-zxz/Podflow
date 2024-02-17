@@ -140,7 +140,7 @@ except ImportError:
         write_log("\033[31mrequests安装失败请重试\033[0m")
         sys.exit(0)
 
-# HTTP GET请求重试模块
+# HTTP 请求重试模块
 def http_client(url, name, max_retries=10, retry_delay=6, headers_possess=False, cookies=None, data=None, cookie_jar_name=None, mode="get"):
     user_agent = {
         "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36"
