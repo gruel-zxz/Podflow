@@ -6,9 +6,9 @@ import re
 import sys
 import html
 import json
+import lzma
 import math
 import time
-import zipfile
 import threading
 import subprocess
 import http.cookiejar
@@ -1692,7 +1692,7 @@ def youtube_xml_items(output_dir):
 
 # xml备份保存模块
 def backup_zip_save(file_content):
-    def file_name():
+    def get_file_name():
         # 获取当前的具体时间
         current_time = datetime.now()
         # 格式化输出, 只保留年月日时分秒
@@ -1702,15 +1702,13 @@ def backup_zip_save(file_content):
     compress_file_name = "Podflow_backup.zip"
     save_success = False
 
-    while save_success == False:
-        file_name = file_name()
-    # 打开现有的压缩包并添加文件
-        with zipfile.ZipFile(compress_file_name, 'a') as zipf:
-            if file_name not in zipf.namelist():
-                zipf.writestr(file_name, file_content)
-                save_success = True
-            else:
-                print(f"{file_name}已存在于压缩包中 重试中...")
+    while not save_success:
+        file_name_str = get_file_name()
+        # 使用 lzma.open 创建压缩文件对象，并以追加模式打开
+        with lzma.open(compress_file_name, 'a') as xz_file:
+            # 将文件内容编码为 utf-8 后写入压缩文件
+            xz_file.write(file_content.encode('utf-8'))
+            save_success = True
 
 # 生成主rss
 all_youtube_content_ytid = {}
