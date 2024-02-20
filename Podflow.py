@@ -6,9 +6,9 @@ import re
 import sys
 import html
 import json
-import lzma
 import math
 import time
+import zipfile
 import threading
 import subprocess
 import http.cookiejar
@@ -1704,11 +1704,14 @@ def backup_zip_save(file_content):
 
     while not save_success:
         file_name_str = get_file_name()
-        # 使用 lzma.open 创建压缩文件对象，并以追加模式打开
-        with lzma.open(compress_file_name, 'a') as xz_file:
-            # 将文件内容编码为 utf-8 后写入压缩文件
-            xz_file.write(file_content.encode('utf-8'))
-            save_success = True
+        with zipfile.ZipFile(compress_file_name, 'a') as zipf:
+            zipf.compression = zipfile.ZIP_DEFLATED
+            zipf.compresslevel = 9  # 设置最大压缩级别
+            if file_name_str not in zipf.namelist():
+                zipf.writestr(file_name_str, file_content)
+                save_success = True
+            else:
+                print(f"{file_name_str}已存在于压缩包中，重试中...")
 
 # 生成主rss
 all_youtube_content_ytid = {}
