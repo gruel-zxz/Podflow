@@ -8,6 +8,7 @@ import html
 import json
 import math
 import time
+import zipfile
 import threading
 import subprocess
 import http.cookiejar
@@ -1689,6 +1690,28 @@ def youtube_xml_items(output_dir):
         qr_code(f"{config['url']}/channel_rss/{output_dir}.xml")
     return items
 
+# xml备份保存模块
+def backup_zip_save(file_content):
+    def file_name():
+        # 获取当前的具体时间
+        current_time = datetime.now()
+        # 格式化输出, 只保留年月日时分秒
+        formatted_time = current_time.strftime("%Y%m%d%H%M%S")
+        return f"{formatted_time}.xml"
+    # 定义要添加到压缩包中的文件名和内容
+    compress_file_name = "Podflow_backup.zip"
+    save_success = False
+
+    while save_success == False:
+        file_name = file_name()
+    # 打开现有的压缩包并添加文件
+        with zipfile.ZipFile(compress_file_name, 'a') as zipf:
+            if file_name not in zipf.namelist():
+                zipf.writestr(file_name, file_content)
+                save_success = True
+            else:
+                print(f"{file_name}已存在于压缩包中 重试中...")
+
 # 生成主rss
 all_youtube_content_ytid = {}
 all_items = []
@@ -1699,17 +1722,19 @@ for output_dir in channelid_youtube_ids:
     all_youtube_content_ytid[output_dir] = re.findall(
         r"(?<=UC.{22}/)(.+\.m4a|.+\.mp4)(?=\")", items
     )
+overall_rss = xml_rss(
+    config["title"],
+    config["link"],
+    config["description"],
+    config["category"],
+    config["icon"],
+    "\n".join(all_items),
+    )
 file_save(
-    xml_rss(
-        config["title"],
-        config["link"],
-        config["description"],
-        config["category"],
-        config["icon"],
-        "\n".join(all_items),
-    ),
+    overall_rss,
     f"{config['filename']}.xml",
 )
+backup_zip_save(overall_rss)
 write_log("总播客已更新", f"地址:\n\033[34m{config['url']}/{config['filename']}.xml\033[0m")
 qr_code(f"{config['url']}/{config['filename']}.xml")
 

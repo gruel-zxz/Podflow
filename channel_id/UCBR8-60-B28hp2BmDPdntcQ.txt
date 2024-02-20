@@ -27,8 +27,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/tc52SWcMwXk/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1043" average="5.00" min="1" max="5"/>
-    <media:statistics views="36868"/>
+    <media:starRating count="1570" average="5.00" min="1" max="5"/>
+    <media:statistics views="70913"/>
    </media:community>
   </media:group>
  </entry>
@@ -50,8 +50,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/bX0YHFif81U/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1567" average="5.00" min="1" max="5"/>
-    <media:statistics views="32423"/>
+    <media:starRating count="2115" average="5.00" min="1" max="5"/>
+    <media:statistics views="49805"/>
    </media:community>
   </media:group>
  </entry>
@@ -73,8 +73,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/LaKS5B3enNY/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1571" average="5.00" min="1" max="5"/>
-    <media:statistics views="57761"/>
+    <media:starRating count="1826" average="5.00" min="1" max="5"/>
+    <media:statistics views="67732"/>
    </media:community>
   </media:group>
  </entry>
@@ -96,8 +96,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/SmUjSY0ZHlo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2227" average="5.00" min="1" max="5"/>
-    <media:statistics views="57849"/>
+    <media:starRating count="2502" average="5.00" min="1" max="5"/>
+    <media:statistics views="69151"/>
    </media:community>
   </media:group>
  </entry>
@@ -119,8 +119,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/fMHBCtJu-7A/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1532" average="5.00" min="1" max="5"/>
-    <media:statistics views="51093"/>
+    <media:starRating count="1692" average="5.00" min="1" max="5"/>
+    <media:statistics views="57219"/>
    </media:community>
   </media:group>
  </entry>
@@ -142,8 +142,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/aw6iKr6ndZU/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1894" average="5.00" min="1" max="5"/>
-    <media:statistics views="71699"/>
+    <media:starRating count="2014" average="5.00" min="1" max="5"/>
+    <media:statistics views="76410"/>
    </media:community>
   </media:group>
  </entry>
@@ -199,8 +199,8 @@ Featured Creators:
 
 #Gaming #SimulationGames #CallMeKevin</media:description>
    <media:community>
-    <media:starRating count="10989" average="5.00" min="1" max="5"/>
-    <media:statistics views="1101972"/>
+    <media:starRating count="11590" average="5.00" min="1" max="5"/>
+    <media:statistics views="1161903"/>
    </media:community>
   </media:group>
  </entry>
@@ -222,8 +222,8 @@ Featured Creators:
    <media:thumbnail url="https://i2.ytimg.com/vi/q49c-Wb1UBo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2320" average="5.00" min="1" max="5"/>
-    <media:statistics views="69855"/>
+    <media:starRating count="2444" average="5.00" min="1" max="5"/>
+    <media:statistics views="76279"/>
    </media:community>
   </media:group>
  </entry>
@@ -238,15 +238,15 @@ Featured Creators:
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-01-29T16:00:24+00:00</published>
-  <updated>2024-01-29T16:07:28+00:00</updated>
+  <updated>2024-02-17T05:02:17+00:00</updated>
   <media:group>
    <media:title>are the wires a metaphor? drop your thoughts in the comments</media:title>
    <media:content url="https://www.youtube.com/v/kwC5ABBK3mg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i4.ytimg.com/vi/kwC5ABBK3mg/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2128" average="5.00" min="1" max="5"/>
-    <media:statistics views="79787"/>
+    <media:starRating count="2222" average="5.00" min="1" max="5"/>
+    <media:statistics views="86833"/>
    </media:community>
   </media:group>
  </entry>
@@ -268,8 +268,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/nQHNmvb37nc/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3072" average="5.00" min="1" max="5"/>
-    <media:statistics views="85168"/>
+    <media:starRating count="3172" average="5.00" min="1" max="5"/>
+    <media:statistics views="90119"/>
    </media:community>
   </media:group>
  </entry>
@@ -336,8 +336,8 @@ Featured Creators:
 
 #TTRPG #TabletopRoleplayGame #YouTube</media:description>
    <media:community>
-    <media:starRating count="5022" average="5.00" min="1" max="5"/>
-    <media:statistics views="943252"/>
+    <media:starRating count="5093" average="5.00" min="1" max="5"/>
+    <media:statistics views="970085"/>
    </media:community>
   </media:group>
  </entry>
@@ -352,15 +352,15 @@ Featured Creators:
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-01-24T18:00:17+00:00</published>
-  <updated>2024-01-24T18:05:05+00:00</updated>
+  <updated>2024-02-18T16:08:27+00:00</updated>
   <media:group>
    <media:title>2nd and 3rd place… show yourself in the comments 🏆</media:title>
    <media:content url="https://www.youtube.com/v/fuZUe37PXCs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i3.ytimg.com/vi/fuZUe37PXCs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3201" average="5.00" min="1" max="5"/>
-    <media:statistics views="92713"/>
+    <media:starRating count="3305" average="5.00" min="1" max="5"/>
+    <media:statistics views="98538"/>
    </media:community>
   </media:group>
  </entry>
@@ -382,8 +382,8 @@ Featured Creators:
    <media:thumbnail url="https://i1.ytimg.com/vi/PXkDjNI5RSg/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1698" average="5.00" min="1" max="5"/>
-    <media:statistics views="42688"/>
+    <media:starRating count="1744" average="5.00" min="1" max="5"/>
+    <media:statistics views="44727"/>
    </media:community>
   </media:group>
  </entry>
@@ -398,15 +398,15 @@ Featured Creators:
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-01-19T20:45:22+00:00</published>
-  <updated>2024-01-19T20:48:30+00:00</updated>
+  <updated>2024-02-18T05:05:56+00:00</updated>
   <media:group>
    <media:title>explore the world of 3D printing ⚙️ with creators literally bringing their imaginations to life</media:title>
    <media:content url="https://www.youtube.com/v/s-D68FF8Q_c?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i4.ytimg.com/vi/s-D68FF8Q_c/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="9170" average="5.00" min="1" max="5"/>
-    <media:statistics views="527903"/>
+    <media:starRating count="9253" average="5.00" min="1" max="5"/>
+    <media:statistics views="534347"/>
    </media:community>
   </media:group>
  </entry>
@@ -428,8 +428,8 @@ Featured Creators:
    <media:thumbnail url="https://i2.ytimg.com/vi/i5KuVIZFTNo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2169" average="5.00" min="1" max="5"/>
-    <media:statistics views="69301"/>
+    <media:starRating count="2209" average="5.00" min="1" max="5"/>
+    <media:statistics views="71985"/>
    </media:community>
   </media:group>
  </entry>

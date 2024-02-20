@@ -21,7 +21,7 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-02-17T01:54:13+00:00</published>
-  <updated>2024-02-17T01:54:38+00:00</updated>
+  <updated>2024-02-17T06:20:36+00:00</updated>
   <media:group>
    <media:title>揭秘男人的共同选择！四季妈妈爱聊车告诉你这款车的独特魅力 #四季妈妈爱聊车</media:title>
    <media:content url="https://www.youtube.com/v/G9Oa8sUeg78?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -32,8 +32,8 @@
 
 别忘了点赞、订阅，并在评论区分享您对这款车的看法和自己的车主经历。一起来参与这场揭秘男人选择的吐槽大会吧！#汽车选择 #男人座驾 #幽默观察</media:description>
    <media:community>
-    <media:starRating count="0" average="0.00" min="1" max="5"/>
-    <media:statistics views="28"/>
+    <media:starRating count="37" average="5.00" min="1" max="5"/>
+    <media:statistics views="3291"/>
    </media:community>
   </media:group>
  </entry>
@@ -48,7 +48,7 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-02-17T01:49:01+00:00</published>
-  <updated>2024-02-17T01:49:32+00:00</updated>
+  <updated>2024-02-17T21:35:14+00:00</updated>
   <media:group>
    <media:title>过年期间，车主最怕听见的声音！四季妈妈教你保护爱车，愿生活对所有的车门温柔以待</media:title>
    <media:content url="https://www.youtube.com/v/9sQr6W8iyBI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -59,8 +59,8 @@
 
 别忘了点赞、订阅，并在评论区分享您对这些保护爱车的看法和自己的经验。一起来参与这场车主心声的吐槽大会吧！#爱车保养 #过年注意事项 #幽默观察</media:description>
    <media:community>
-    <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="19"/>
+    <media:starRating count="90" average="5.00" min="1" max="5"/>
+    <media:statistics views="6965"/>
    </media:community>
   </media:group>
  </entry>
@@ -75,7 +75,7 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-02-17T01:38:40+00:00</published>
-  <updated>2024-02-17T01:38:42+00:00</updated>
+  <updated>2024-02-17T07:45:13+00:00</updated>
   <media:group>
    <media:title>小钱办大事！四季妈妈教你如何精打细算办同学聚会 #四季妈妈爱聊车</media:title>
    <media:content url="https://www.youtube.com/v/o-16rRgfdHU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -86,8 +86,8 @@
 
 别忘了点赞、订阅，并在评论区分享您对这些妙招的看法和自己的经验。一起来参与这场小钱办大事的吐槽大会吧！#聚会策划 #预算管理 #幽默观察</media:description>
    <media:community>
-    <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="36"/>
+    <media:starRating count="2" average="5.00" min="1" max="5"/>
+    <media:statistics views="143"/>
    </media:community>
   </media:group>
  </entry>
@@ -102,7 +102,7 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-02-17T01:36:52+00:00</published>
-  <updated>2024-02-17T01:37:50+00:00</updated>
+  <updated>2024-02-17T06:44:54+00:00</updated>
   <media:group>
    <media:title>拿捏山东老丈人的小妙招！四季妈妈教你如何与山东老丈人相处 #四季妈妈爱聊车</media:title>
    <media:content url="https://www.youtube.com/v/VR-Ra6zi8RE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -113,8 +113,8 @@
 
 别忘了点赞、订阅，并在评论区分享您对这些技巧的看法和自己的经验。一起来参与这场拿捏山东老丈人的吐槽大会吧！#亲家关系 #家庭相处 #幽默观察</media:description>
    <media:community>
-    <media:starRating count="0" average="0.00" min="1" max="5"/>
-    <media:statistics views="14"/>
+    <media:starRating count="1" average="5.00" min="1" max="5"/>
+    <media:statistics views="102"/>
    </media:community>
   </media:group>
  </entry>
@@ -140,8 +140,8 @@
 
 别忘了点赞、订阅，并在评论区分享您对这一现象的看法和自己的观点。一起来参与这场国产三蹦子的吐槽大会吧！#国产汽车 #海外热潮 #车辆文化</media:description>
    <media:community>
-    <media:starRating count="11" average="5.00" min="1" max="5"/>
-    <media:statistics views="326"/>
+    <media:starRating count="12" average="5.00" min="1" max="5"/>
+    <media:statistics views="345"/>
    </media:community>
   </media:group>
  </entry>
@@ -168,7 +168,7 @@
 别忘了点赞、订阅，并在评论区分享您对这个问题的看法和自己的经验。一起来参与这场改车选择的吐槽大会吧！#车辆改装 #选择困难 #幽默观察</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="464"/>
+    <media:statistics views="480"/>
    </media:community>
   </media:group>
  </entry>
@@ -195,7 +195,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一问题的看法和自己的经验。一起来参与这场老公生气应对的吐槽大会吧！#家庭生活 #情感经验 #幽默观察</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="365"/>
+    <media:statistics views="372"/>
    </media:community>
   </media:group>
  </entry>
@@ -222,7 +222,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一说法的看法和自己的经验。一起来参与这场车是男人第二个家的吐槽大会吧！#车辆文化 #男人生活 #幽默观察</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="174"/>
+    <media:statistics views="177"/>
    </media:community>
   </media:group>
  </entry>
@@ -249,7 +249,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一平衡问题的看法和自己的经验。一起来参与这场爱与空间的吐槽大会吧！#爱情平衡 #家庭观察 #笑中解压</media:description>
    <media:community>
     <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="327"/>
+    <media:statistics views="330"/>
    </media:community>
   </media:group>
  </entry>
@@ -276,7 +276,7 @@
 别忘了点赞、订阅，并在评论区分享您对这个主题的看法和自己的豪车梦想。一起来参与这场衣锦还乡的吐槽大会吧！#豪车人生 #奢华体验 #幽默观察</media:description>
    <media:community>
     <media:starRating count="3" average="5.00" min="1" max="5"/>
-    <media:statistics views="225"/>
+    <media:statistics views="226"/>
    </media:community>
   </media:group>
  </entry>
@@ -357,7 +357,7 @@
 别忘了点赞、订阅，并在评论区分享您对这辆不一般车辆的看法和自己的车主故事。一起来参与这场不一般的座驾吐槽大会吧！#车辆风采 #独特车主 #幽默观察</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="280"/>
+    <media:statistics views="285"/>
    </media:community>
   </media:group>
  </entry>
@@ -384,7 +384,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一情景的看法和自己的经验。一起来参与这场老公喝酒后的正确做法吐槽大会吧！#家庭生活 #幽默观察 #笑中解压</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="339"/>
+    <media:statistics views="343"/>
    </media:community>
   </media:group>
  </entry>
@@ -411,7 +411,7 @@
 别忘了点赞、订阅，并在评论区分享您对这个借车理由的看法和自己的经验。一起来参与这场借车理由新招的吐槽大会吧！#借车新招 #幽默观察 #笑中解压</media:description>
    <media:community>
     <media:starRating count="10" average="5.00" min="1" max="5"/>
-    <media:statistics views="588"/>
+    <media:statistics views="593"/>
    </media:community>
   </media:group>
  </entry>
