@@ -1708,7 +1708,7 @@ def backup_zip_save(file_content):
         # 打开压缩文件，如果不存在则创建
         with zipfile.ZipFile(compress_file_name, 'a') as zipf:
             # 设置压缩级别为最大
-            zipf.compression = zipfile.ZIP_BZIP2
+            zipf.compression = zipfile.ZIP_LZMA
             zipf.compresslevel = 9
             # 检查文件是否已存在于压缩包中
             if file_name_str not in zipf.namelist():
