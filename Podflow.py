@@ -1703,14 +1703,20 @@ def backup_zip_save(file_content):
     save_success = False
 
     while not save_success:
+        # 获取要写入压缩包的文件名
         file_name_str = get_file_name()
+        # 打开压缩文件，如果不存在则创建
         with zipfile.ZipFile(compress_file_name, 'a') as zipf:
-            zipf.compression = zipfile.ZIP_DEFLATED
-            zipf.compresslevel = 9  # 设置最大压缩级别
+            # 设置压缩级别为最大
+            zipf.compression = zipfile.ZIP_BZIP2
+            zipf.compresslevel = 9
+            # 检查文件是否已存在于压缩包中
             if file_name_str not in zipf.namelist():
+                # 将文件内容写入压缩包
                 zipf.writestr(file_name_str, file_content)
                 save_success = True
             else:
+                # 如果文件已存在，输出提示信息
                 print(f"{file_name_str}已存在于压缩包中，重试中...")
 
 # 生成主rss
