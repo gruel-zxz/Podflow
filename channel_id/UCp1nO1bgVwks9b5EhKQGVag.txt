@@ -28,8 +28,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/FLiRhZsVLws/hqdefault.jpg" width="480" height="360"/>
    <media:description>一个战争机器人与人类孩子的最后时光：意识流科幻小说《潮痕》，原著：伊丽莎白·贝尔《潮痕》 (2008年雨果奖最佳短篇)</media:description>
    <media:community>
-    <media:starRating count="82" average="5.00" min="1" max="5"/>
-    <media:statistics views="2862"/>
+    <media:starRating count="83" average="5.00" min="1" max="5"/>
+    <media:statistics views="2927"/>
    </media:community>
   </media:group>
  </entry>
@@ -51,8 +51,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/DakEnnN9-io/hqdefault.jpg" width="480" height="360"/>
    <media:description>在目前语言学界的主流观点中，不存在“第4人称”。当然这是科幻小说，作者藤野另辟蹊径，以全新的视角揭开了一个地外生命群体的存在模式。《第四人称》  选自：《科幻世界》2016年12月刊。</media:description>
    <media:community>
-    <media:starRating count="129" average="5.00" min="1" max="5"/>
-    <media:statistics views="6437"/>
+    <media:starRating count="130" average="5.00" min="1" max="5"/>
+    <media:statistics views="6513"/>
    </media:community>
   </media:group>
  </entry>
@@ -75,7 +75,7 @@
    <media:description>老龄化问题的终极答案：让40亿老人移民外星？科幻小说《暮星归途》</media:description>
    <media:community>
     <media:starRating count="94" average="5.00" min="1" max="5"/>
-    <media:statistics views="5686"/>
+    <media:statistics views="5717"/>
    </media:community>
   </media:group>
  </entry>
@@ -98,7 +98,7 @@
    <media:description>说明：这个盘点清单是根据幻海团队的阅读经历，从读者的接受度、作品故事性、作品的思想深度等特点做出的盘点清单，均为我们的个人观点。所以《龙蛋》、《盲视》、《量子魔术师》《泥人十四》等过于硬核的优秀作品不在其中，同时《三体》与《泽利》也不在其中，它们之前已经总结过了，另外《太空漫游系列》/《火星救援》《索拉里斯星》等优秀作品，由于已经被影视化，熟悉的人很多，所以也不在其中。</media:description>
    <media:community>
     <media:starRating count="184" average="5.00" min="1" max="5"/>
-    <media:statistics views="5745"/>
+    <media:statistics views="5757"/>
    </media:community>
   </media:group>
  </entry>
@@ -122,7 +122,7 @@
 我们最看好的是05：15的部分，在科技断代之后，人类存活到了最后。</media:description>
    <media:community>
     <media:starRating count="140" average="5.00" min="1" max="5"/>
-    <media:statistics views="7400"/>
+    <media:statistics views="7418"/>
    </media:community>
   </media:group>
  </entry>
@@ -147,7 +147,7 @@
 阅读总结——我心目中的科幻TOP系列盘点。</media:description>
    <media:community>
     <media:starRating count="159" average="5.00" min="1" max="5"/>
-    <media:statistics views="6602"/>
+    <media:statistics views="6608"/>
    </media:community>
   </media:group>
  </entry>
@@ -170,7 +170,7 @@
    <media:description>用40亿年去纠正一个错误，错误是创造全人类：《宇宙全能侦探社》下集</media:description>
    <media:community>
     <media:starRating count="76" average="5.00" min="1" max="5"/>
-    <media:statistics views="3554"/>
+    <media:statistics views="3558"/>
    </media:community>
   </media:group>
  </entry>
@@ -194,7 +194,7 @@
 原著：道格拉斯亚当斯，一位搞怪又不失科幻内核的作家。</media:description>
    <media:community>
     <media:starRating count="86" average="5.00" min="1" max="5"/>
-    <media:statistics views="5953"/>
+    <media:statistics views="5960"/>
    </media:community>
   </media:group>
  </entry>
@@ -217,7 +217,7 @@
    <media:description>《世界上所有的烦恼》，原著：阿西莫夫，出自阿西莫夫科幻短篇全集、 阿西莫夫的这个短篇系列终于出版了！阿西莫夫最神的就是他的短篇，所谓：人类近50年来的科技进步，一直在追赶阿西莫夫科幻小说的脚步。</media:description>
    <media:community>
     <media:starRating count="145" average="5.00" min="1" max="5"/>
-    <media:statistics views="7501"/>
+    <media:statistics views="7523"/>
    </media:community>
   </media:group>
  </entry>
@@ -240,7 +240,7 @@
    <media:description>一个中子星文明的毁灭与重生：《星震》大结局</media:description>
    <media:community>
     <media:starRating count="89" average="5.00" min="1" max="5"/>
-    <media:statistics views="5216"/>
+    <media:statistics views="5225"/>
    </media:community>
   </media:group>
  </entry>
@@ -264,7 +264,7 @@
 时隔几年，终于更新到这部了！</media:description>
    <media:community>
     <media:starRating count="119" average="5.00" min="1" max="5"/>
-    <media:statistics views="6878"/>
+    <media:statistics views="6883"/>
    </media:community>
   </media:group>
  </entry>
@@ -287,7 +287,7 @@
    <media:description>如何骗走人类的十年时间：科幻名著《抉择》，原著：小松左京。这部小说收录于《科幻之路》系列。</media:description>
    <media:community>
     <media:starRating count="127" average="5.00" min="1" max="5"/>
-    <media:statistics views="7951"/>
+    <media:statistics views="7960"/>
    </media:community>
   </media:group>
  </entry>
@@ -312,7 +312,7 @@
 不过主线剧情已经更新完毕，未收录的内容仅剩下人类最终生活在小宇宙中的场景。</media:description>
    <media:community>
     <media:starRating count="537" average="5.00" min="1" max="5"/>
-    <media:statistics views="36615"/>
+    <media:statistics views="36629"/>
    </media:community>
   </media:group>
  </entry>
@@ -335,7 +335,7 @@
    <media:description>《单孔衍射》出自科幻短篇集《完美末日》。作者刘洋：科幻作家，物理学博士，代表作《火星孤儿》《勾股2.013》等。这是第二次更新这位科幻作家的作品，希望大家喜欢。这部小说中提出了非常有有趣的“时间壁垒”概念。</media:description>
    <media:community>
     <media:starRating count="143" average="5.00" min="1" max="5"/>
-    <media:statistics views="8657"/>
+    <media:statistics views="8665"/>
    </media:community>
   </media:group>
  </entry>
@@ -359,7 +359,7 @@
 这是我们最喜欢的作品之一，作者以极为另类的写作方式用数学公式描述了一对人们的情感，堪称神作！</media:description>
    <media:community>
     <media:starRating count="228" average="5.00" min="1" max="5"/>
-    <media:statistics views="11901"/>
+    <media:statistics views="11907"/>
    </media:community>
   </media:group>
  </entry>
