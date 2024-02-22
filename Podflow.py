@@ -1165,6 +1165,14 @@ for thread in youtube_rss_update_threads:
     thread.join()
 for youtube_key, youtube_value in channelid_youtube_ids.copy().items():
     youtube_response = channelid_youtube_rss[youtube_key]
+    # 异常xml排查及重新获取
+    num_try_update = 0
+    while (re.search(pattern_youtube404, youtube_response.text, re.DOTALL) and num_try_update < 3) or not re.search(rf"{youtube_key}", youtube_response.text, re.DOTALL) and youtube_response:
+        print(f"{datetime.now().strftime('%H:%M:%S')}|YouTube频道 {youtube_value}|\033[31m获取异常重试中...\033[97m{num_try_update + 1}\033[0m")
+        youtube_rss_update(youtube_key, youtube_value)
+        num_try_update += 1
+        youtube_response = channelid_youtube_rss[youtube_key]
+    # xml分类及存储
     if youtube_response is not None:
         youtube_content = youtube_response.text
         if re.search(pattern_youtube404, youtube_content, re.DOTALL):
@@ -1178,7 +1186,7 @@ for youtube_key, youtube_value in channelid_youtube_ids.copy().items():
     else:
         if not os.path.exists(os.path.join("channel_id", f"{youtube_key}.txt")):
             del channelid_youtube_ids[youtube_key]
-        write_log(f"频道 {youtube_value} 无法更新")
+        write_log(f"YouTube频道 {youtube_value} 无法更新")
 
 # 输出需要更新的信息
 if channelid_youtube_ids_update:
