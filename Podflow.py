@@ -1167,7 +1167,7 @@ for youtube_key, youtube_value in channelid_youtube_ids.copy().items():
     youtube_response = channelid_youtube_rss[youtube_key]
     # 异常xml排查及重新获取
     num_try_update = 0
-    while (re.search(pattern_youtube404, youtube_response.text, re.DOTALL) and num_try_update < 3) or not re.search(rf"{youtube_key}", youtube_response.text, re.DOTALL) and youtube_response:
+    while youtube_response is not None and ((re.search(pattern_youtube404, youtube_response.text, re.DOTALL) and num_try_update < 3) or not re.search(rf"{youtube_key}", youtube_response.text, re.DOTALL)):
         print(f"{datetime.now().strftime('%H:%M:%S')}|YouTube频道 {youtube_value}|\033[31m获取异常重试中...\033[97m{num_try_update + 1}\033[0m")
         youtube_rss_update(youtube_key, youtube_value)
         num_try_update += 1
@@ -1624,10 +1624,7 @@ for thread in youtube_xml_get_threads:
 # 生成YouTube对应channel的需更新的items模块
 def youtube_xml_items(output_dir):
     items_list = [f"<!-- {output_dir} -->"]
-    with open(
-        f"channel_id/{output_dir}.txt", "r", encoding="utf-8"
-    ) as file:  # 打开文件进行读取
-        file_xml = file.read()
+    file_xml = channelid_youtube_rss[output_dir].text  # 获取最新的rss信息
     entrys = re.findall(r"<entry>.+?</entry>", file_xml, re.DOTALL)
     entry_num = 0
     for entry in entrys:
