@@ -21,7 +21,7 @@
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
   <published>2024-02-22T09:48:03+00:00</published>
-  <updated>2024-02-22T09:54:54+00:00</updated>
+  <updated>2024-02-23T06:48:54+00:00</updated>
   <media:group>
    <media:title>美国政府抓获超大个的中国间谍“港口起重机”（20240222第6830期）</media:title>
    <media:content url="https://www.youtube.com/v/r3YHQpLff8g?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -78,8 +78,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="237" average="5.00" min="1" max="5"/>
-    <media:statistics views="39741"/>
+    <media:starRating count="238" average="5.00" min="1" max="5"/>
+    <media:statistics views="40700"/>
    </media:community>
   </media:group>
  </entry>
@@ -94,7 +94,7 @@ https://youtu.be/BbtTwsP_-zc</media:description>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
   <published>2024-02-22T09:46:08+00:00</published>
-  <updated>2024-02-22T09:51:31+00:00</updated>
+  <updated>2024-02-23T06:37:10+00:00</updated>
   <media:group>
    <media:title>俄罗斯叛逃飞行员在西班牙被残酷处决，恐惧情绪在欧洲蔓延（20240222第6828期）</media:title>
    <media:content url="https://www.youtube.com/v/ELnJ1GkPAw4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -151,8 +151,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="175" average="5.00" min="1" max="5"/>
-    <media:statistics views="36112"/>
+    <media:starRating count="177" average="5.00" min="1" max="5"/>
+    <media:statistics views="37051"/>
    </media:community>
   </media:group>
  </entry>
@@ -167,7 +167,7 @@ https://youtu.be/BbtTwsP_-zc</media:description>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
   <published>2024-02-22T05:31:58+00:00</published>
-  <updated>2024-02-22T06:04:54+00:00</updated>
+  <updated>2024-02-23T06:49:22+00:00</updated>
   <media:group>
    <media:title>大反转，台湾承认大陆渔船是被台湾海巡队撞翻的（20240221第6826期）</media:title>
    <media:content url="https://www.youtube.com/v/p5gpxAz9ytw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -224,8 +224,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="383" average="5.00" min="1" max="5"/>
-    <media:statistics views="65514"/>
+    <media:starRating count="385" average="5.00" min="1" max="5"/>
+    <media:statistics views="66411"/>
    </media:community>
   </media:group>
  </entry>
@@ -298,7 +298,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="148" average="5.00" min="1" max="5"/>
-    <media:statistics views="24523"/>
+    <media:statistics views="24914"/>
    </media:community>
   </media:group>
  </entry>
@@ -313,7 +313,7 @@ https://youtu.be/BbtTwsP_-zc</media:description>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
   <published>2024-02-22T05:26:16+00:00</published>
-  <updated>2024-02-22T05:29:17+00:00</updated>
+  <updated>2024-02-23T06:38:00+00:00</updated>
   <media:group>
    <media:title>德国《纽伦堡消息报》：阿桑奇就是美国的纳瓦尔尼，俄罗斯迫害纳瓦尔尼，美国迫害阿桑奇（20240221第6827期）</media:title>
    <media:content url="https://www.youtube.com/v/ErmmU7QOd7M?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -370,8 +370,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="73" average="5.00" min="1" max="5"/>
-    <media:statistics views="12616"/>
+    <media:starRating count="74" average="5.00" min="1" max="5"/>
+    <media:statistics views="12784"/>
    </media:community>
   </media:group>
  </entry>
@@ -444,7 +444,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="12" average="5.00" min="1" max="5"/>
-    <media:statistics views="3565"/>
+    <media:statistics views="3583"/>
    </media:community>
   </media:group>
  </entry>
@@ -517,7 +517,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="108" average="5.00" min="1" max="5"/>
-    <media:statistics views="13356"/>
+    <media:statistics views="13436"/>
    </media:community>
   </media:group>
  </entry>
@@ -590,7 +590,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="80" average="5.00" min="1" max="5"/>
-    <media:statistics views="14649"/>
+    <media:statistics views="14729"/>
    </media:community>
   </media:group>
  </entry>
@@ -663,7 +663,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="259" average="5.00" min="1" max="5"/>
-    <media:statistics views="43365"/>
+    <media:statistics views="43522"/>
    </media:community>
   </media:group>
  </entry>
@@ -736,7 +736,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="201" average="5.00" min="1" max="5"/>
-    <media:statistics views="36041"/>
+    <media:statistics views="36176"/>
    </media:community>
   </media:group>
  </entry>
@@ -809,7 +809,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="367" average="5.00" min="1" max="5"/>
-    <media:statistics views="71106"/>
+    <media:statistics views="71224"/>
    </media:community>
   </media:group>
  </entry>
@@ -882,7 +882,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="203" average="5.00" min="1" max="5"/>
-    <media:statistics views="32983"/>
+    <media:statistics views="33024"/>
    </media:community>
   </media:group>
  </entry>
@@ -955,7 +955,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="108" average="5.00" min="1" max="5"/>
-    <media:statistics views="23787"/>
+    <media:statistics views="23821"/>
    </media:community>
   </media:group>
  </entry>
@@ -1028,7 +1028,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="628" average="5.00" min="1" max="5"/>
-    <media:statistics views="116814"/>
+    <media:statistics views="116929"/>
    </media:community>
   </media:group>
  </entry>
@@ -1101,7 +1101,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="283" average="5.00" min="1" max="5"/>
-    <media:statistics views="59143"/>
+    <media:statistics views="59166"/>
    </media:community>
   </media:group>
  </entry>

@@ -412,7 +412,7 @@ def show_progress(stream):
         eta = time_format(stream["eta"]).ljust(8)
         print(
             (
-                f"\r\033[94m{bar}%\033[0m|{downloaded_bytes}\{total_bytes}|\033[32m{speed}/s\033[0m|\033[93m{eta}\033[0m"
+                f"\r\033[94m{bar}%\033[0m|{downloaded_bytes}/{total_bytes}|\033[32m{speed}/s\033[0m|\033[93m{eta}\033[0m"
             ),
             end="",
         )
@@ -421,7 +421,7 @@ def show_progress(stream):
             elapsed = time_format(stream["elapsed"]).ljust(8)
         else:
             elapsed = "Unknown "
-        print(f"\r100.0%|{downloaded_bytes}\{total_bytes}|\033[32m{speed}/s\033[0m|\033[97m{elapsed}\033[0m")
+        print(f"\r100.0%|{downloaded_bytes}/{total_bytes}|\033[32m{speed}/s\033[0m|\033[97m{elapsed}\033[0m")
 
 # 获取媒体时长和ID模块
 def video_format(video_website, video_url, media="m4a", quality="480"):
@@ -461,21 +461,21 @@ def video_format(video_website, video_url, media="m4a", quality="480"):
             )
         return fail_message, duration, formats
     error_reason = {
-        "Premieres in ": "\033[31m预播\033[0m|",
-        "This live event will begin in ": "\033[31m直播预约\033[0m|",
-        "Video unavailable\. This video contains content from SME, who has blocked it in your country on copyright grounds": "\033[31m版权保护\033[0m",
-        "Premiere will begin shortly": "\033[31m马上开始首映\033[0m",
-        "Private video\. Sign in if you've been granted access to this video": "\033[31m私享视频\033[0m",
-        "This video is available to this channel's members on level: .*? Join this channel to get access to members-only content and other exclusive perks\.": "\033[31m会员专享\033[0m",
-        "Join this channel to get access to members-only content like this video, and other exclusive perks\.": "\033[31m会员视频\033[0m",
-        "Video unavailable": "\033[31m视频不可用\033[0m",
-        "This video has been removed for violating YouTube's policy on harassment and bullying": "\033[31m违规视频\033[0m",
-        "This video is private\. If the owner of this video has granted you access, please sign in\.": "\033[31m私人视频\033[0m",
-        "This video is unavailable": "\033[31m无法观看\033[0m",
+        r"Premieres in ": "\033[31m预播\033[0m|",
+        r"This live event will begin in ": "\033[31m直播预约\033[0m|",
+        r"Video unavailable\. This video contains content from SME, who has blocked it in your country on copyright grounds": "\033[31m版权保护\033[0m",
+        r"Premiere will begin shortly": "\033[31m马上开始首映\033[0m",
+        r"Private video\. Sign in if you've been granted access to this video": "\033[31m私享视频\033[0m",
+        r"This video is available to this channel's members on level: .*? Join this channel to get access to members-only content and other exclusive perks\.": "\033[31m会员专享\033[0m",
+        r"Join this channel to get access to members-only content like this video, and other exclusive perks\.": "\033[31m会员视频\033[0m",
+        r"Video unavailable": "\033[31m视频不可用\033[0m",
+        r"This video has been removed for violating YouTube's policy on harassment and bullying": "\033[31m违规视频\033[0m",
+        r"This video is private\. If the owner of this video has granted you access, please sign in\.": "\033[31m私人视频\033[0m",
+        r"This video is unavailable": "\033[31m无法观看\033[0m",
     }
     def fail_message_initialize(fail_message, error_reason):
         for key in error_reason:
-            if re.search(rf"{key}", fail_message):
+            if re.search(key, fail_message):
                 return [key, error_reason[key]]
     yt_id_count, change_error, fail_message, duration, formats = 0, None, "", "", ""
     while (
