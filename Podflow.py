@@ -192,6 +192,26 @@ def vary_replace(varys, text):
         text = re.sub(vary, "", text)
     return text
 
+# 读取三方库当日日志模块
+def read_today_library_log():
+    try:
+        # 打开文件进行读取
+        with open("log.txt", "r", encoding="utf-8") as log_file:
+            log_lines = log_file.readlines()  # 读取所有行
+        today_log_lines = []
+        for log_line in log_lines:
+            if f"{datetime.now().strftime('%Y-%m-%d')}" in log_line:
+                if "更新成功" in log_line or "安装成功" in log_line or "无需更新" in log_line:
+                    today_log_lines.append(log_line)
+            else:
+                break
+        today_library_log = "".join(today_log_lines)
+        # 释放 lines 变量内存空间
+        del log_lines
+        return today_library_log
+    except:
+        return ""
+
 # 安装库模块
 def library_install(library, library_install_dic=None):
     if version := re.search(
@@ -248,38 +268,48 @@ library_install_list = [
     "qrcode",
     "pycryptodome",
 ]
-library_install_dic = {}
 
-def library_install_get(library):
-    # 获取最新版本编号
-    version_update = http_client(
-        f"https://pypi.org/project/{library}/", f"{library}", 2, 2
-    )
-    if version_update:
-        version_update = re.search(
-            r"(?<=<h1 class=\"package-header__name\">).+?(?=</h1>)",
-            version_update.text,
-            flags=re.DOTALL,
-        )
-    if version_update:
-        library_install_dic[library] = version_update
+library_import = False
+today_library_log = read_today_library_log()
 
-# 创建线程列表
-library_install_get_threads = []
-for library in library_install_list:
-    thread = threading.Thread(target=library_install_get, args=(library,))
-    library_install_get_threads.append(thread)
-    thread.start()
-# 等待所有线程完成
-for thread in library_install_get_threads:
-    thread.join()
-for library in library_install_list:
-    library_install(library, library_install_dic)
+while library_import == False:
+    try:
+        import qrcode
+        import yt_dlp
+        from astral.sun import sun
+        from astral import LocationInfo
+        library_import = True
+    except:
+        today_library_log = ""
+    for library in library_install_list:
+        if library not in today_library_log:
+            library_install_dic = {}
+            def library_install_get(library):
+                # 获取最新版本编号
+                version_update = http_client(
+                    f"https://pypi.org/project/{library}/", f"{library}", 2, 2
+                )
+                if version_update:
+                    version_update = re.search(
+                        r"(?<=<h1 class=\"package-header__name\">).+?(?=</h1>)",
+                        version_update.text,
+                        flags=re.DOTALL,
+                    )
+                if version_update:
+                    library_install_dic[library] = version_update
 
-import qrcode
-import yt_dlp
-from astral.sun import sun
-from astral import LocationInfo
+            # 创建线程列表
+            library_install_get_threads = []
+            for library in library_install_list:
+                thread = threading.Thread(target=library_install_get, args=(library,))
+                library_install_get_threads.append(thread)
+                thread.start()
+            # 等待所有线程完成
+            for thread in library_install_get_threads:
+                thread.join()
+            for library in library_install_list:
+                library_install(library, library_install_dic)
+            break
 
 # 格式化时间模块
 def time_format(duration):
