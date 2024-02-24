@@ -10,6 +10,29 @@
   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
  </author>
  <entry>
+  <id>yt:video:l99nzkak0Gs</id>
+  <yt:videoId>l99nzkak0Gs</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>which one are you reading first?? @khalilahd @meagancarioti @haleypham @mrsbethanynoel #booktube</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=l99nzkak0Gs"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2024-02-23T17:00:18+00:00</published>
+  <updated>2024-02-23T17:15:59+00:00</updated>
+  <media:group>
+   <media:title>which one are you reading first?? @khalilahd @meagancarioti @haleypham @mrsbethanynoel #booktube</media:title>
+   <media:content url="https://www.youtube.com/v/l99nzkak0Gs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/l99nzkak0Gs/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="706" average="5.00" min="1" max="5"/>
+    <media:statistics views="16757"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:N6vvD8jXB94</id>
   <yt:videoId>N6vvD8jXB94</yt:videoId>
   <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
@@ -27,8 +50,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/N6vvD8jXB94/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1345" average="5.00" min="1" max="5"/>
-    <media:statistics views="31449"/>
+    <media:starRating count="1780" average="5.00" min="1" max="5"/>
+    <media:statistics views="45683"/>
    </media:community>
   </media:group>
  </entry>
@@ -50,8 +73,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/tc52SWcMwXk/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2008" average="5.00" min="1" max="5"/>
-    <media:statistics views="95467"/>
+    <media:starRating count="2168" average="5.00" min="1" max="5"/>
+    <media:statistics views="101624"/>
    </media:community>
   </media:group>
  </entry>
@@ -73,8 +96,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/bX0YHFif81U/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2502" average="5.00" min="1" max="5"/>
-    <media:statistics views="63367"/>
+    <media:starRating count="2655" average="5.00" min="1" max="5"/>
+    <media:statistics views="68396"/>
    </media:community>
   </media:group>
  </entry>
@@ -96,8 +119,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/LaKS5B3enNY/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2017" average="5.00" min="1" max="5"/>
-    <media:statistics views="76466"/>
+    <media:starRating count="2091" average="5.00" min="1" max="5"/>
+    <media:statistics views="79701"/>
    </media:community>
   </media:group>
  </entry>
@@ -119,8 +142,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/SmUjSY0ZHlo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2722" average="5.00" min="1" max="5"/>
-    <media:statistics views="78976"/>
+    <media:starRating count="2820" average="5.00" min="1" max="5"/>
+    <media:statistics views="83394"/>
    </media:community>
   </media:group>
  </entry>
@@ -142,8 +165,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/fMHBCtJu-7A/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1821" average="5.00" min="1" max="5"/>
-    <media:statistics views="62710"/>
+    <media:starRating count="1878" average="5.00" min="1" max="5"/>
+    <media:statistics views="64950"/>
    </media:community>
   </media:group>
  </entry>
@@ -165,8 +188,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/aw6iKr6ndZU/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2100" average="5.00" min="1" max="5"/>
-    <media:statistics views="80826"/>
+    <media:starRating count="2137" average="5.00" min="1" max="5"/>
+    <media:statistics views="82723"/>
    </media:community>
   </media:group>
  </entry>
@@ -222,8 +245,8 @@ Featured Creators:
 
 #Gaming #SimulationGames #CallMeKevin</media:description>
    <media:community>
-    <media:starRating count="12171" average="5.00" min="1" max="5"/>
-    <media:statistics views="1218433"/>
+    <media:starRating count="12373" average="5.00" min="1" max="5"/>
+    <media:statistics views="1237557"/>
    </media:community>
   </media:group>
  </entry>
@@ -245,8 +268,8 @@ Featured Creators:
    <media:thumbnail url="https://i2.ytimg.com/vi/q49c-Wb1UBo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2560" average="5.00" min="1" max="5"/>
-    <media:statistics views="82077"/>
+    <media:starRating count="2615" average="5.00" min="1" max="5"/>
+    <media:statistics views="84603"/>
    </media:community>
   </media:group>
  </entry>
@@ -268,8 +291,8 @@ Featured Creators:
    <media:thumbnail url="https://i4.ytimg.com/vi/kwC5ABBK3mg/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2307" average="5.00" min="1" max="5"/>
-    <media:statistics views="93440"/>
+    <media:starRating count="2359" average="5.00" min="1" max="5"/>
+    <media:statistics views="96433"/>
    </media:community>
   </media:group>
  </entry>
@@ -291,8 +314,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/nQHNmvb37nc/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3248" average="5.00" min="1" max="5"/>
-    <media:statistics views="94696"/>
+    <media:starRating count="3290" average="5.00" min="1" max="5"/>
+    <media:statistics views="96732"/>
    </media:community>
   </media:group>
  </entry>
@@ -359,8 +382,8 @@ Featured Creators:
 
 #TTRPG #TabletopRoleplayGame #YouTube</media:description>
    <media:community>
-    <media:starRating count="5138" average="5.00" min="1" max="5"/>
-    <media:statistics views="993000"/>
+    <media:starRating count="5152" average="5.00" min="1" max="5"/>
+    <media:statistics views="999806"/>
    </media:community>
   </media:group>
  </entry>
@@ -382,8 +405,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/fuZUe37PXCs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3380" average="5.00" min="1" max="5"/>
-    <media:statistics views="103658"/>
+    <media:starRating count="3419" average="5.00" min="1" max="5"/>
+    <media:statistics views="105869"/>
    </media:community>
   </media:group>
  </entry>
@@ -405,31 +428,8 @@ Featured Creators:
    <media:thumbnail url="https://i1.ytimg.com/vi/PXkDjNI5RSg/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1781" average="5.00" min="1" max="5"/>
-    <media:statistics views="46624"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:s-D68FF8Q_c</id>
-  <yt:videoId>s-D68FF8Q_c</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>explore the world of 3D printing ⚙️ with creators literally bringing their imaginations to life</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=s-D68FF8Q_c"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2024-01-19T20:45:22+00:00</published>
-  <updated>2024-02-18T05:05:56+00:00</updated>
-  <media:group>
-   <media:title>explore the world of 3D printing ⚙️ with creators literally bringing their imaginations to life</media:title>
-   <media:content url="https://www.youtube.com/v/s-D68FF8Q_c?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/s-D68FF8Q_c/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="9303" average="5.00" min="1" max="5"/>
-    <media:statistics views="539514"/>
+    <media:starRating count="1801" average="5.00" min="1" max="5"/>
+    <media:statistics views="47410"/>
    </media:community>
   </media:group>
  </entry>

@@ -11,6 +11,33 @@
  </author>
  <published>2022-06-04T16:17:27+00:00</published>
  <entry>
+  <id>yt:video:yEMHYQjKU2g</id>
+  <yt:videoId>yEMHYQjKU2g</yt:videoId>
+  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
+  <title>奇特魅力！四季妈妈爱聊车揭秘那些能同时拥有面子和自卑感的座驾#四季妈妈爱聊车</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=yEMHYQjKU2g"/>
+  <author>
+   <name>四季妈妈—小龙</name>
+   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
+  </author>
+  <published>2024-02-23T11:07:14+00:00</published>
+  <updated>2024-02-24T06:18:13+00:00</updated>
+  <media:group>
+   <media:title>奇特魅力！四季妈妈爱聊车揭秘那些能同时拥有面子和自卑感的座驾#四季妈妈爱聊车</media:title>
+   <media:content url="https://www.youtube.com/v/yEMHYQjKU2g?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/yEMHYQjKU2g/hqdefault.jpg" width="480" height="360"/>
+   <media:description>大家好，欢迎来到我的频道！今天我们要探讨一些奇特的座驾，它们能够让你同时拥有面子和自卑感。四季妈妈爱聊车将为你揭秘这些车型的特殊魅力！
+
+在这期视频中，我们将分享一些拥有奇特魅力的车型，让你在车展或车市中一探究竟。这些车型可能在外观、性能或品牌地位上拥有一定的面子，但同时可能也会引发一些自卑感。让我们一起去看看，探索它们的独特之处！
+
+别忘了点赞、订阅，并在评论区分享您对这些车型的看法和自己的感受。一起来参与这场面子与自卑的吐槽大会吧！#车辆选择 #面子与自卑 #幽默观察</media:description>
+   <media:community>
+    <media:starRating count="3" average="5.00" min="1" max="5"/>
+    <media:statistics views="125"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:raTSKT8WgPk</id>
   <yt:videoId>raTSKT8WgPk</yt:videoId>
   <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
@@ -33,7 +60,7 @@
 别忘了点赞、订阅，并在评论区分享您对外观在选择中的看法和自己的经验。一起来参与这场外貌与市场的吐槽大会吧！#外貌选择 #市场价值 #幽默观察</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="168"/>
+    <media:statistics views="198"/>
    </media:community>
   </media:group>
  </entry>
@@ -59,8 +86,8 @@
 
 别忘了点赞、订阅，并在评论区分享您对这款车的看法和自己的车主经历。一起来参与这场揭秘男人选择的吐槽大会吧！#汽车选择 #男人座驾 #幽默观察</media:description>
    <media:community>
-    <media:starRating count="40" average="5.00" min="1" max="5"/>
-    <media:statistics views="3592"/>
+    <media:starRating count="41" average="5.00" min="1" max="5"/>
+    <media:statistics views="3654"/>
    </media:community>
   </media:group>
  </entry>
@@ -87,7 +114,7 @@
 别忘了点赞、订阅，并在评论区分享您对这些保护爱车的看法和自己的经验。一起来参与这场车主心声的吐槽大会吧！#爱车保养 #过年注意事项 #幽默观察</media:description>
    <media:community>
     <media:starRating count="96" average="5.00" min="1" max="5"/>
-    <media:statistics views="7529"/>
+    <media:statistics views="7616"/>
    </media:community>
   </media:group>
  </entry>
@@ -114,7 +141,7 @@
 别忘了点赞、订阅，并在评论区分享您对这些妙招的看法和自己的经验。一起来参与这场小钱办大事的吐槽大会吧！#聚会策划 #预算管理 #幽默观察</media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="174"/>
+    <media:statistics views="181"/>
    </media:community>
   </media:group>
  </entry>
@@ -141,7 +168,7 @@
 别忘了点赞、订阅，并在评论区分享您对这些技巧的看法和自己的经验。一起来参与这场拿捏山东老丈人的吐槽大会吧！#亲家关系 #家庭相处 #幽默观察</media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="137"/>
+    <media:statistics views="139"/>
    </media:community>
   </media:group>
  </entry>
@@ -168,7 +195,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一现象的看法和自己的观点。一起来参与这场国产三蹦子的吐槽大会吧！#国产汽车 #海外热潮 #车辆文化</media:description>
    <media:community>
     <media:starRating count="13" average="5.00" min="1" max="5"/>
-    <media:statistics views="356"/>
+    <media:statistics views="360"/>
    </media:community>
   </media:group>
  </entry>
@@ -195,7 +222,7 @@
 别忘了点赞、订阅，并在评论区分享您对这个问题的看法和自己的经验。一起来参与这场改车选择的吐槽大会吧！#车辆改装 #选择困难 #幽默观察</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="482"/>
+    <media:statistics views="483"/>
    </media:community>
   </media:group>
  </entry>
@@ -222,7 +249,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一问题的看法和自己的经验。一起来参与这场老公生气应对的吐槽大会吧！#家庭生活 #情感经验 #幽默观察</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="372"/>
+    <media:statistics views="374"/>
    </media:community>
   </media:group>
  </entry>
@@ -276,7 +303,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一平衡问题的看法和自己的经验。一起来参与这场爱与空间的吐槽大会吧！#爱情平衡 #家庭观察 #笑中解压</media:description>
    <media:community>
     <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="332"/>
+    <media:statistics views="333"/>
    </media:community>
   </media:group>
  </entry>
@@ -303,7 +330,7 @@
 别忘了点赞、订阅，并在评论区分享您对这个主题的看法和自己的豪车梦想。一起来参与这场衣锦还乡的吐槽大会吧！#豪车人生 #奢华体验 #幽默观察</media:description>
    <media:community>
     <media:starRating count="3" average="5.00" min="1" max="5"/>
-    <media:statistics views="228"/>
+    <media:statistics views="229"/>
    </media:community>
   </media:group>
  </entry>
@@ -384,34 +411,7 @@
 别忘了点赞、订阅，并在评论区分享您对这辆不一般车辆的看法和自己的车主故事。一起来参与这场不一般的座驾吐槽大会吧！#车辆风采 #独特车主 #幽默观察</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="285"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:IkctTEXnJBI</id>
-  <yt:videoId>IkctTEXnJBI</yt:videoId>
-  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
-  <title>老公喝酒后，老婆的正确做法！赵丽颖的牛奶新选择，喝牛奶闹肚的人有福了！#家庭吐槽大会</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=IkctTEXnJBI"/>
-  <author>
-   <name>四季妈妈—小龙</name>
-   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
-  </author>
-  <published>2024-01-22T11:24:23+00:00</published>
-  <updated>2024-01-23T06:23:00+00:00</updated>
-  <media:group>
-   <media:title>老公喝酒后，老婆的正确做法！赵丽颖的牛奶新选择，喝牛奶闹肚的人有福了！#家庭吐槽大会</media:title>
-   <media:content url="https://www.youtube.com/v/IkctTEXnJBI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/IkctTEXnJBI/hqdefault.jpg" width="480" height="360"/>
-   <media:description>嘿，各位观众朋友们，欢迎回到我的频道！今天我们要探讨一个生活中常见的情景：老公喝酒后，老婆应该采取什么正确的做法呢？赵丽颖的牛奶新选择，也让喝牛奶闹肚的人有福了！通过爱吐槽的四季妈妈的独特视角，我将以轻松幽默的方式为大家分享这个家庭吐槽的趣事。
-
-在这期视频中，我们将一同探讨老公喝酒后，老婆们的正确应对方式，以及赵丽颖的牛奶新选择是什么神器。当然，这是以娱乐为主，希望大家能在欢笑中轻松愉快。
-
-别忘了点赞、订阅，并在评论区分享您对这一情景的看法和自己的经验。一起来参与这场老公喝酒后的正确做法吐槽大会吧！#家庭生活 #幽默观察 #笑中解压</media:description>
-   <media:community>
-    <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="344"/>
+    <media:statistics views="286"/>
    </media:community>
   </media:group>
  </entry>
