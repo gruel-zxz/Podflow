@@ -1888,7 +1888,7 @@ overall_rss = xml_rss(
     "\n".join(all_items),
     )
 # 删除无法补全的媒体
-overall_rss = del_makeup_yt_format_fail(overall_rss)
+# overall_rss = del_makeup_yt_format_fail(overall_rss)
 # 保存主rss
 file_save(
     overall_rss,
