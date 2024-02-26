@@ -1855,8 +1855,8 @@ def make_up_file_mod():
 # 删除无法补全的媒体模块
 def del_makeup_yt_format_fail(overall_rss):
     for yt_id in make_up_file_format_fail.keys():
-        pattern_youtube_fail_item = rf'<!-- {make_up_file_format_fail[yt_id]} -->.+?<guid>{yt_id}</guid>.+?<!-- {make_up_file_format_fail[yt_id]} -->'
-        replacement_youtube_fail_item = rf'<!-- {make_up_file_format_fail[yt_id]} -->'
+        pattern_youtube_fail_item = rf'<!-- {make_up_file_format_fail[yt_id]} -->(?:(?!<!-- {make_up_file_format_fail[yt_id]} -->).)+?<guid>{yt_id}</guid>.+?<!-- {make_up_file_format_fail[yt_id]} -->'
+        replacement_youtube_fail_item = f'<!-- {make_up_file_format_fail[yt_id]} -->'
         overall_rss = re.sub(pattern_youtube_fail_item, replacement_youtube_fail_item, overall_rss, flags=re.DOTALL)
     return overall_rss
 
@@ -1889,7 +1889,7 @@ overall_rss = xml_rss(
     "\n".join(all_items),
     )
 # 删除无法补全的媒体
-#overall_rss = del_makeup_yt_format_fail(overall_rss)
+overall_rss = del_makeup_yt_format_fail(overall_rss)
 # 保存主rss
 file_save(
     overall_rss,

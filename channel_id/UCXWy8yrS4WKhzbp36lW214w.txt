@@ -75,7 +75,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="19"/>
+    <media:statistics views="23"/>
    </media:community>
   </media:group>
  </entry>
@@ -98,7 +98,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="27"/>
+    <media:statistics views="30"/>
    </media:community>
   </media:group>
  </entry>
@@ -121,7 +121,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="32"/>
+    <media:statistics views="33"/>
    </media:community>
   </media:group>
  </entry>
@@ -144,7 +144,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="63"/>
+    <media:statistics views="64"/>
    </media:community>
   </media:group>
  </entry>
@@ -159,7 +159,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-02-22T00:15:07+00:00</published>
-  <updated>2024-02-22T00:23:43+00:00</updated>
+  <updated>2024-02-24T07:45:32+00:00</updated>
   <media:group>
    <media:title>纳粹在南极找到通往地心的入口</media:title>
    <media:content url="https://www.youtube.com/v/mgj_B7tNYyI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -205,7 +205,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-02-20T00:15:08+00:00</published>
-  <updated>2024-02-20T00:22:15+00:00</updated>
+  <updated>2024-02-25T01:47:51+00:00</updated>
   <media:group>
    <media:title>洞穴发现巨型骨骼， 巨人是否真实存在</media:title>
    <media:content url="https://www.youtube.com/v/sQvdP8J6ePA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -213,7 +213,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="79"/>
+    <media:statistics views="81"/>
    </media:community>
   </media:group>
  </entry>
