@@ -42,7 +42,7 @@
 #日本 #vlog #留學</media:description>
    <media:community>
     <media:starRating count="3976" average="5.00" min="1" max="5"/>
-    <media:statistics views="197087"/>
+    <media:statistics views="197098"/>
    </media:community>
   </media:group>
  </entry>
@@ -86,7 +86,7 @@
 #日本漫畫 #殺手阿一 #cult</media:description>
    <media:community>
     <media:starRating count="1108" average="5.00" min="1" max="5"/>
-    <media:statistics views="53598"/>
+    <media:statistics views="53619"/>
    </media:community>
   </media:group>
  </entry>
@@ -131,7 +131,7 @@
 #日本漫畫 #殺手阿一 #cult</media:description>
    <media:community>
     <media:starRating count="1159" average="5.00" min="1" max="5"/>
-    <media:statistics views="94320"/>
+    <media:statistics views="94337"/>
    </media:community>
   </media:group>
  </entry>
@@ -177,7 +177,7 @@
 #日本 #次文化 #戀物</media:description>
    <media:community>
     <media:starRating count="1037" average="5.00" min="1" max="5"/>
-    <media:statistics views="62065"/>
+    <media:statistics views="62081"/>
    </media:community>
   </media:group>
  </entry>
@@ -221,7 +221,7 @@
 #遊戲 #videogames  #日本</media:description>
    <media:community>
     <media:starRating count="2581" average="5.00" min="1" max="5"/>
-    <media:statistics views="234454"/>
+    <media:statistics views="234489"/>
    </media:community>
   </media:group>
  </entry>
@@ -266,7 +266,7 @@
 #日本 #動漫 #日本電影</media:description>
    <media:community>
     <media:starRating count="2280" average="5.00" min="1" max="5"/>
-    <media:statistics views="221840"/>
+    <media:statistics views="221893"/>
    </media:community>
   </media:group>
  </entry>
@@ -311,7 +311,7 @@
 ▶我的品牌官網：www.under20.com</media:description>
    <media:community>
     <media:starRating count="2287" average="5.00" min="1" max="5"/>
-    <media:statistics views="213155"/>
+    <media:statistics views="213317"/>
    </media:community>
   </media:group>
  </entry>
@@ -353,7 +353,7 @@
 ▶我的品牌官網：www.under20.com</media:description>
    <media:community>
     <media:starRating count="1927" average="5.00" min="1" max="5"/>
-    <media:statistics views="165054"/>
+    <media:statistics views="165090"/>
    </media:community>
   </media:group>
  </entry>
@@ -417,7 +417,7 @@
 ▶我的品牌官網：www.under20.com</media:description>
    <media:community>
     <media:starRating count="1800" average="5.00" min="1" max="5"/>
-    <media:statistics views="298901"/>
+    <media:statistics views="298923"/>
    </media:community>
   </media:group>
  </entry>
@@ -459,7 +459,7 @@
 #日本 #日本社會</media:description>
    <media:community>
     <media:starRating count="880" average="5.00" min="1" max="5"/>
-    <media:statistics views="66649"/>
+    <media:statistics views="66661"/>
    </media:community>
   </media:group>
  </entry>
@@ -504,7 +504,7 @@
 #2ch #日本文化 #互聯網</media:description>
    <media:community>
     <media:starRating count="959" average="5.00" min="1" max="5"/>
-    <media:statistics views="73510"/>
+    <media:statistics views="73518"/>
    </media:community>
   </media:group>
  </entry>
@@ -545,7 +545,7 @@
 #日本社會 #刑務所 #越獄</media:description>
    <media:community>
     <media:starRating count="711" average="5.00" min="1" max="5"/>
-    <media:statistics views="54375"/>
+    <media:statistics views="54381"/>
    </media:community>
   </media:group>
  </entry>
@@ -596,7 +596,7 @@
 ▶我的品牌官網：www.under20.com</media:description>
    <media:community>
     <media:starRating count="1774" average="5.00" min="1" max="5"/>
-    <media:statistics views="119581"/>
+    <media:statistics views="119601"/>
    </media:community>
   </media:group>
  </entry>
@@ -638,7 +638,7 @@
 #福島核污水 #日本核廢水 #核輻射 #科幻</media:description>
    <media:community>
     <media:starRating count="772" average="5.00" min="1" max="5"/>
-    <media:statistics views="41328"/>
+    <media:statistics views="41336"/>
    </media:community>
   </media:group>
  </entry>
@@ -653,7 +653,7 @@
    <uri>https://www.youtube.com/channel/UC9RS8EzXdRJyYDkwtcsWOuA</uri>
   </author>
   <published>2023-06-21T12:00:27+00:00</published>
-  <updated>2024-02-12T02:03:00+00:00</updated>
+  <updated>2024-02-25T03:06:38+00:00</updated>
   <media:group>
    <media:title>爆火恐怖大師伊藤潤二🔥在日本其實根本沒人看😱?! 伊藤式恐怖美學解碼｜ 奈飛Netflix《狂熱集》</media:title>
    <media:content url="https://www.youtube.com/v/_YRpbqikGFE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -685,7 +685,7 @@
 #伊藤潤二 #恐怖 #日本 #次文化</media:description>
    <media:community>
     <media:starRating count="1401" average="5.00" min="1" max="5"/>
-    <media:statistics views="90057"/>
+    <media:statistics views="90068"/>
    </media:community>
   </media:group>
  </entry>

@@ -18,7 +18,7 @@ from datetime import datetime, timedelta, timezone
 # 默认参数
 default_config = {
     "preparation_per_count": 100,
-    "completion_count": 1,
+    "completion_count": 100,
     "retry_count": 5,
     "url": "http://127.0.0.1:8000",
     "title": "Podflow",
@@ -474,7 +474,9 @@ def video_format(video_website, video_url, media="m4a", quality="480"):
         r"Private video\. Sign in if you've been granted access to this video": "\033[31m私享视频\033[0m",
         r"This video is available to this channel's members on level: .*? Join this channel to get access to members-only content and other exclusive perks\.": "\033[31m会员专享\033[0m",
         r"Join this channel to get access to members-only content like this video, and other exclusive perks\.": "\033[31m会员视频\033[0m",
+        r"Video unavailable\. This video has been removed by the uploader": "\033[31m视频被删除\033[0m",
         r"Video unavailable": "\033[31m视频不可用\033[0m",
+        r"This video has been removed by the uploader": "\033[31m发布者删除\033[0m",
         r"This video has been removed for violating YouTube's policy on harassment and bullying": "\033[31m违规视频\033[0m",
         r"This video is private\. If the owner of this video has granted you access, please sign in\.": "\033[31m私人视频\033[0m",
         r"This video is unavailable": "\033[31m无法观看\033[0m",
@@ -1781,23 +1783,22 @@ def remove_dir():
             write_log(f"{name}文件夹已删除")
 
 # 补全缺失媒体文件到字典模块
-def make_up_file(output_dir):
-    for file_name in all_youtube_content_ytid[output_dir]:
-        if file_name not in os.listdir(f"channel_audiovisual/{output_dir}"):
-            video_id_format = {"id": output_dir, "media": file_name.split(".")[1]}
-            if file_name.split(".")[0] == "mp4":
-                video_quality = channelid_youtube[channelid_youtube_ids[output_dir]][
-                    "quality"
-                ]
-            else:
-                video_quality = 480
-            video_id_format["quality"] = video_quality
-            make_up_file_format[file_name.split(".")[0]] = video_id_format
+def make_up_file():
+    for output_dir in channelid_youtube_ids:
+        for file_name in all_youtube_content_ytid[output_dir]:
+            if file_name not in os.listdir(f"channel_audiovisual/{output_dir}"):
+                video_id_format = {"id": output_dir, "media": file_name.split(".")[1]}
+                if file_name.split(".")[0] == "mp4":
+                    video_quality = channelid_youtube[channelid_youtube_ids[output_dir]][
+                        "quality"
+                    ]
+                else:
+                    video_quality = 480
+                video_id_format["quality"] = video_quality
+                make_up_file_format[file_name.split(".")[0]] = video_id_format
 
 # 补全在rss中缺失的媒体格式信息模块
 def make_up_file_format_mod():
-    for output_dir in channelid_youtube_ids:
-        make_up_file(output_dir)
     # 判断是否补全
     if len(make_up_file_format) != 0:
         print(f"{datetime.now().strftime('%H:%M:%S')}|补全缺失媒体 \033[34m下载准备中...\033[0m")
@@ -1872,12 +1873,12 @@ for output_dir in channelid_youtube_ids:
     remove_file(output_dir)
 # 删除已抛弃的媒体文件夹
 remove_dir()
-# 按参数获取需要补全的最多量
+# 补全缺失媒体文件到字典
+make_up_file()
+# 按参数获取需要补全的最大个数
 make_up_file_format = split_dict(make_up_file_format, config["completion_count"], True)[0]
 # 补全在rss中缺失的媒体格式信息
 make_up_file_format_mod()
-# 下载补全YouTube视频模块
-make_up_file_mod()
 # 生成主rss
 overall_rss = xml_rss(
     config["title"],
@@ -1888,7 +1889,7 @@ overall_rss = xml_rss(
     "\n".join(all_items),
     )
 # 删除无法补全的媒体
-# overall_rss = del_makeup_yt_format_fail(overall_rss)
+overall_rss = del_makeup_yt_format_fail(overall_rss)
 # 保存主rss
 file_save(
     overall_rss,
@@ -1898,6 +1899,8 @@ file_save(
 backup_zip_save(overall_rss)
 write_log("总播客已更新", f"地址:\n\033[34m{config['url']}/{config['filename']}.xml\033[0m")
 qr_code(f"{config['url']}/{config['filename']}.xml")
+# 下载补全YouTube视频模块
+make_up_file_mod()
 
 try:
     arguments = sys.argv[1]

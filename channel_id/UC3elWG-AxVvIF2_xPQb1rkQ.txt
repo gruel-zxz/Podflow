@@ -21,7 +21,7 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-02-23T11:07:14+00:00</published>
-  <updated>2024-02-24T06:18:13+00:00</updated>
+  <updated>2024-02-24T23:37:34+00:00</updated>
   <media:group>
    <media:title>奇特魅力！四季妈妈爱聊车揭秘那些能同时拥有面子和自卑感的座驾#四季妈妈爱聊车</media:title>
    <media:content url="https://www.youtube.com/v/yEMHYQjKU2g?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -60,7 +60,7 @@
 别忘了点赞、订阅，并在评论区分享您对外观在选择中的看法和自己的经验。一起来参与这场外貌与市场的吐槽大会吧！#外貌选择 #市场价值 #幽默观察</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="235"/>
+    <media:statistics views="236"/>
    </media:community>
   </media:group>
  </entry>
@@ -129,7 +129,7 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-02-17T01:38:40+00:00</published>
-  <updated>2024-02-17T07:45:13+00:00</updated>
+  <updated>2024-02-24T13:31:46+00:00</updated>
   <media:group>
    <media:title>小钱办大事！四季妈妈教你如何精打细算办同学聚会 #四季妈妈爱聊车</media:title>
    <media:content url="https://www.youtube.com/v/o-16rRgfdHU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -141,7 +141,7 @@
 别忘了点赞、订阅，并在评论区分享您对这些妙招的看法和自己的经验。一起来参与这场小钱办大事的吐槽大会吧！#聚会策划 #预算管理 #幽默观察</media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="186"/>
+    <media:statistics views="187"/>
    </media:community>
   </media:group>
  </entry>
