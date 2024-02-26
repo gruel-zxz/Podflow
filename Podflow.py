@@ -18,7 +18,7 @@ from datetime import datetime, timedelta, timezone
 # 默认参数
 default_config = {
     "preparation_per_count": 100,
-    "completion_count": 100,
+    "completion_count": 1,
     "retry_count": 5,
     "url": "http://127.0.0.1:8000",
     "title": "Podflow",
@@ -57,6 +57,12 @@ default_config = {
 # 如果InmainRSS为False或频道有更新则无视DisplayRSSaddress的状态, 都会变为True。
 
 print(f"{datetime.now().strftime('%H:%M:%S')}|Podflow开始运行.....")
+
+# 全局变量
+all_youtube_content_ytid = {}  # 所有youtube视频id字典
+all_items = []  # 所有item明细列表
+make_up_file_format = {}  # 补全缺失媒体字典
+make_up_file_format_fail = {}  # 补全缺失媒体失败字典
 
 # 文件保存模块
 def file_save(content, file_name, folder=None):
@@ -1754,32 +1760,6 @@ def backup_zip_save(file_content):
                 # 如果文件已存在，输出提示信息
                 print(f"{file_name_str}已存在于压缩包中，重试中...")
 
-# 生成主rss
-all_youtube_content_ytid = {}
-all_items = []
-for output_dir in channelid_youtube_ids:
-    items = youtube_xml_items(output_dir)
-    if channelid_youtube[channelid_youtube_ids[output_dir]]["InmainRSS"]:
-        all_items.append(items)
-    all_youtube_content_ytid[output_dir] = re.findall(
-        r"(?<=UC.{22}/)(.+\.m4a|.+\.mp4)(?=\")", items
-    )
-overall_rss = xml_rss(
-    config["title"],
-    config["link"],
-    config["description"],
-    config["category"],
-    config["icon"],
-    "\n".join(all_items),
-    )
-file_save(
-    overall_rss,
-    f"{config['filename']}.xml",
-)
-backup_zip_save(overall_rss)
-write_log("总播客已更新", f"地址:\n\033[34m{config['url']}/{config['filename']}.xml\033[0m")
-qr_code(f"{config['url']}/{config['filename']}.xml")
-
 # 删除多余媒体文件模块
 def remove_file(output_dir):
     for file_name in os.listdir(f"channel_audiovisual/{output_dir}"):
@@ -1787,11 +1767,7 @@ def remove_file(output_dir):
             os.remove(f"channel_audiovisual/{output_dir}/{file_name}")
             write_log(f"{channelid_youtube_ids[output_dir]}|{file_name}已删除")
 
-# 删除不在rss中的媒体文件
-for output_dir in channelid_youtube_ids:
-    remove_file(output_dir)
-
-# 删除已抛弃的媒体文件夹
+# 删除已抛弃的媒体文件夹模块
 def remove_dir():
     folder_names = [
         folder
@@ -1804,11 +1780,7 @@ def remove_dir():
             os.system(f"rm -r channel_audiovisual/{name}")
             write_log(f"{name}文件夹已删除")
 
-remove_dir()
-
-# 补全缺失的媒体文件到字典模块
-make_up_file_format = {}
-
+# 补全缺失媒体文件到字典模块
 def make_up_file(output_dir):
     for file_name in all_youtube_content_ytid[output_dir]:
         if file_name not in os.listdir(f"channel_audiovisual/{output_dir}"):
@@ -1822,59 +1794,110 @@ def make_up_file(output_dir):
             video_id_format["quality"] = video_quality
             make_up_file_format[file_name.split(".")[0]] = video_id_format
 
-# 补全在rss中缺失的媒体格式信息
-for output_dir in channelid_youtube_ids:
-    make_up_file(output_dir)
-# 拆分补全字典并判断是否补全
-make_up_file_format = split_dict(make_up_file_format, config["completion_count"], True)[0]
-if len(make_up_file_format) != 0:
-    print(f"{datetime.now().strftime('%H:%M:%S')}|补全缺失媒体 \033[34m下载准备中...\033[0m")
-# 创建线程锁
-makeup_yt_format_lock = threading.Lock()
+# 补全在rss中缺失的媒体格式信息模块
+def make_up_file_format_mod():
+    for output_dir in channelid_youtube_ids:
+        make_up_file(output_dir)
+    # 判断是否补全
+    if len(make_up_file_format) != 0:
+        print(f"{datetime.now().strftime('%H:%M:%S')}|补全缺失媒体 \033[34m下载准备中...\033[0m")
+    # 创建线程锁
+    makeup_yt_format_lock = threading.Lock()
 
-def makeup_yt_format(yt_id):
-    makeup_ytid_format = video_format(
-        "https://www.youtube.com/watch?v=",
-        yt_id,
-        make_up_file_format[yt_id]["media"],
-        make_up_file_format[yt_id]["quality"],
-    )
-    if isinstance(makeup_ytid_format, list):
-        make_up_file_format[yt_id]["format"] = makeup_ytid_format
-    else:
-        with makeup_yt_format_lock:
-            write_log(
-                f"{channelid_youtube_ids[make_up_file_format[yt_id]['id']]}|{yt_id}|{makeup_ytid_format}"
-            )
-            del make_up_file_format[yt_id]
-
-# 创建线程列表
-makeup_yt_format_threads = []
-for yt_id in make_up_file_format.keys():
-    thread = threading.Thread(target=makeup_yt_format, args=(yt_id,))
-    makeup_yt_format_threads.append(thread)
-    thread.start()
-# 等待所有线程完成
-for thread in makeup_yt_format_threads:
-    thread.join()
-# 下载YouTube视频
-for yt_id in make_up_file_format.keys():
-    write_log(
-        f"{channelid_youtube_ids[make_up_file_format[yt_id]['id']]}|{yt_id} 缺失并重新下载"
-    )
-    if dl_aideo_video(
-        yt_id,
-        make_up_file_format[yt_id]["id"],
-        make_up_file_format[yt_id]["media"],
-        make_up_file_format[yt_id]["format"],
-        config["retry_count"],
-        "https://www.youtube.com/watch?v=",
-        channelid_youtube_ids[make_up_file_format[yt_id]["id"]],
-    ):
-        yt_id_failed.append(yt_id)
-        write_log(
-            f"{channelid_youtube_ids[make_up_file_format[yt_id]['id']]}|{yt_id} \033[31m无法下载\033[0m"
+    def makeup_yt_format(yt_id):
+        makeup_ytid_format = video_format(
+            "https://www.youtube.com/watch?v=",
+            yt_id,
+            make_up_file_format[yt_id]["media"],
+            make_up_file_format[yt_id]["quality"],
         )
+        if isinstance(makeup_ytid_format, list):
+            make_up_file_format[yt_id]["format"] = makeup_ytid_format
+        else:
+            with makeup_yt_format_lock:
+                write_log(
+                    f"{channelid_youtube_ids[make_up_file_format[yt_id]['id']]}|{yt_id}|{makeup_ytid_format}"
+                )
+                make_up_file_format_fail[yt_id] = make_up_file_format[yt_id]['id']  # 将无法补全的媒体添加到失败字典中
+                del make_up_file_format[yt_id]
+
+    # 创建线程列表
+    makeup_yt_format_threads = []
+    for yt_id in make_up_file_format.keys():
+        thread = threading.Thread(target=makeup_yt_format, args=(yt_id,))
+        makeup_yt_format_threads.append(thread)
+        thread.start()
+    # 等待所有线程完成
+    for thread in makeup_yt_format_threads:
+        thread.join()
+
+# 下载补全YouTube视频模块
+def make_up_file_mod():
+    for yt_id in make_up_file_format.keys():
+        write_log(
+            f"{channelid_youtube_ids[make_up_file_format[yt_id]['id']]}|{yt_id} 缺失并重新下载"
+        )
+        if dl_aideo_video(
+            yt_id,
+            make_up_file_format[yt_id]["id"],
+            make_up_file_format[yt_id]["media"],
+            make_up_file_format[yt_id]["format"],
+            config["retry_count"],
+            "https://www.youtube.com/watch?v=",
+            channelid_youtube_ids[make_up_file_format[yt_id]["id"]],
+        ):
+            yt_id_failed.append(yt_id)
+            write_log(
+                f"{channelid_youtube_ids[make_up_file_format[yt_id]['id']]}|{yt_id} \033[31m无法下载\033[0m"
+            )
+
+# 删除无法补全的媒体模块
+def del_makeup_yt_format_fail(overall_rss):
+    for yt_id in make_up_file_format_fail.keys():
+        pattern_youtube_fail_item = rf'<!-- {make_up_file_format_fail[yt_id]} -->.+?<guid>{yt_id}</guid>.+?<!-- {make_up_file_format_fail[yt_id]} -->'
+        replacement_youtube_fail_item = rf'<!-- {make_up_file_format_fail[yt_id]} -->'
+        overall_rss = re.sub(pattern_youtube_fail_item, replacement_youtube_fail_item, overall_rss, flags=re.DOTALL)
+    return overall_rss
+
+# 生成主rss
+for output_dir in channelid_youtube_ids:
+    items = youtube_xml_items(output_dir)
+    if channelid_youtube[channelid_youtube_ids[output_dir]]["InmainRSS"]:
+        all_items.append(items)
+    all_youtube_content_ytid[output_dir] = re.findall(
+        r"(?<=UC.{22}/)(.+\.m4a|.+\.mp4)(?=\")", items
+    )
+# 删除不在rss中的媒体文件
+for output_dir in channelid_youtube_ids:
+    remove_file(output_dir)
+# 删除已抛弃的媒体文件夹
+remove_dir()
+# 按参数获取需要补全的最多量
+make_up_file_format = split_dict(make_up_file_format, config["completion_count"], True)[0]
+# 补全在rss中缺失的媒体格式信息
+make_up_file_format_mod()
+# 下载补全YouTube视频模块
+make_up_file_mod()
+# 生成主rss
+overall_rss = xml_rss(
+    config["title"],
+    config["link"],
+    config["description"],
+    config["category"],
+    config["icon"],
+    "\n".join(all_items),
+    )
+# 删除无法补全的媒体
+overall_rss = del_makeup_yt_format_fail(overall_rss)
+# 保存主rss
+file_save(
+    overall_rss,
+    f"{config['filename']}.xml",
+)
+# 备份主rss
+backup_zip_save(overall_rss)
+write_log("总播客已更新", f"地址:\n\033[34m{config['url']}/{config['filename']}.xml\033[0m")
+qr_code(f"{config['url']}/{config['filename']}.xml")
 
 try:
     arguments = sys.argv[1]
