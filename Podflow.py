@@ -59,8 +59,10 @@ default_config = {
 print(f"{datetime.now().strftime('%H:%M:%S')}|Podflow开始运行.....")
 
 # 全局变量
+xmls_original = {}  # 原始xml信息字典
+youtube_xml_get_tree = {}  # youtube频道简介和图标字典
 all_youtube_content_ytid = {}  # 所有youtube视频id字典
-all_items = []  # 所有item明细列表
+all_items = []  # 更新后所有item明细列表
 make_up_file_format = {}  # 补全缺失媒体字典
 make_up_file_format_fail = {}  # 补全缺失媒体失败字典
 
@@ -1586,78 +1588,78 @@ def xml_original_item(original_item):
         </item>
 """
 
-# 获取原始xml文件
-try:
-    with open(f"{config['filename']}.xml", "r", encoding="utf-8") as file:  # 打开文件进行读取
-        rss_original = file.read()  # 读取文件内容
-        xmls_original = {
-            rss_original_channel: rss_original.split(
-                f"<!-- {{{rss_original_channel}}} -->\n"
-            )[1]
-            for rss_original_channel in list(
-                set(re.findall(r"(?<=<!-- \{).+?(?=\} -->)", rss_original))
-            )
-        }
-except FileNotFoundError:  # 文件不存在直接更新
-    xmls_original = {}
-
-# 如原始xml无对应的原频道items, 将尝试从对应频道的xml中获取
-for youtube_key in channelid_youtube_ids.keys():
-    if youtube_key not in xmls_original.keys():
-        try:
-            with open(
-                f"channel_rss/{youtube_key}.xml", "r", encoding="utf-8"
-            ) as file:  # 打开文件进行读取
-                youtube_rss_original = file.read()  # 读取文件内容
-                xmls_original[youtube_key] = youtube_rss_original.split(
-                    f"<!-- {{{youtube_key}}} -->\n"
+# 获取原始xml模块
+def get_original_rss():
+    # 获取原始总xml文件
+    try:
+        with open(f"{config['filename']}.xml", "r", encoding="utf-8") as file:  # 打开文件进行读取
+            rss_original = file.read()  # 读取文件内容
+            get_xmls_original = {
+                rss_original_channel: rss_original.split(
+                    f"<!-- {{{rss_original_channel}}} -->\n"
                 )[1]
-        except FileNotFoundError:  # 文件不存在直接更新
-            write_log(f"RSS文件中不存在 {channelid_youtube_ids[youtube_key]} 无法保留原节目")
+                for rss_original_channel in list(
+                    set(re.findall(r"(?<=<!-- \{).+?(?=\} -->)", rss_original))
+                )
+            }
+    except FileNotFoundError:  # 文件不存在直接更新
+        get_xmls_original = {}
+    # 如原始xml无对应的原频道items, 将尝试从对应频道的xml中获取
+    for youtube_key in channelid_youtube_ids.keys():
+        if youtube_key not in get_xmls_original.keys():
+            try:
+                with open(
+                    f"channel_rss/{youtube_key}.xml", "r", encoding="utf-8"
+                ) as file:  # 打开文件进行读取
+                    youtube_rss_original = file.read()  # 读取文件内容
+                    get_xmls_original[youtube_key] = youtube_rss_original.split(
+                        f"<!-- {{{youtube_key}}} -->\n"
+                    )[1]
+            except FileNotFoundError:  # 文件不存在直接更新
+                write_log(f"RSS文件中不存在 {channelid_youtube_ids[youtube_key]} 无法保留原节目")
+    return get_xmls_original
 
-# 构建文件夹channel_rss
-folder_build("channel_rss")
+# 获取youtube频道简介模块
+def get_youtube_introduction():
+    # 创建线程锁
+    youtube_xml_get_lock = threading.Lock()
 
-# 创建线程锁
-youtube_xml_get_lock = threading.Lock()
-youtube_xml_get_tree = {}
+    # 使用http获取youtube频道简介和图标模块
+    def youtube_xml_get(output_dir):
+        if channel_about := http_client(
+            f"https://www.youtube.com/channel/{output_dir}/about",
+            f"{channelid_youtube_ids[output_dir]} 简介",
+            2,
+            5,
+        ):
+            channel_about = channel_about.text
+            xml_tree = {
+                "icon": re.sub(
+                    r"=s(0|[1-9]\d{0,3}|1[0-9]{1,3}|20[0-3][0-9]|204[0-8])-c-k",
+                    "=s2048-c-k",
+                    re.search(
+                        r"https?://yt3.googleusercontent.com/[^\s]*(?=\">)",
+                        channel_about,
+                    ).group(),
+                )
+            }
+            xml_tree["description"] = re.search(
+                r"(?<=\<meta itemprop\=\"description\" content\=\").*?(?=\")",
+                channel_about,
+                flags=re.DOTALL,
+            ).group()
+            with youtube_xml_get_lock:
+                youtube_xml_get_tree[output_dir] = xml_tree
 
-# 使用http获取youtube频道简介和图标模块
-def youtube_xml_get(output_dir):
-    if channel_about := http_client(
-        f"https://www.youtube.com/channel/{output_dir}/about",
-        f"{channelid_youtube_ids[output_dir]} 简介",
-        2,
-        5,
-    ):
-        channel_about = channel_about.text
-        xml_tree = {
-            "icon": re.sub(
-                r"=s(0|[1-9]\d{0,3}|1[0-9]{1,3}|20[0-3][0-9]|204[0-8])-c-k",
-                "=s2048-c-k",
-                re.search(
-                    r"https?://yt3.googleusercontent.com/[^\s]*(?=\">)",
-                    channel_about,
-                ).group(),
-            )
-        }
-        xml_tree["description"] = re.search(
-            r"(?<=\<meta itemprop\=\"description\" content\=\").*?(?=\")",
-            channel_about,
-            flags=re.DOTALL,
-        ).group()
-        with youtube_xml_get_lock:
-            youtube_xml_get_tree[output_dir] = xml_tree
-
-# 创建线程列表
-youtube_xml_get_threads = []
-for output_dir in channelid_youtube_ids_update.keys():
-    thread = threading.Thread(target=youtube_xml_get, args=(output_dir,))
-    youtube_xml_get_threads.append(thread)
-    thread.start()
-# 等待所有线程完成
-for thread in youtube_xml_get_threads:
-    thread.join()
+    # 创建线程列表
+    youtube_xml_get_threads = []
+    for output_dir in channelid_youtube_ids_update.keys():
+        thread = threading.Thread(target=youtube_xml_get, args=(output_dir,))
+        youtube_xml_get_threads.append(thread)
+        thread.start()
+    # 等待所有线程完成
+    for thread in youtube_xml_get_threads:
+        thread.join()
 
 # 生成YouTube对应channel的需更新的items模块
 def youtube_xml_items(output_dir):
@@ -1733,6 +1735,16 @@ def youtube_xml_items(output_dir):
         qr_code(f"{config['url']}/channel_rss/{output_dir}.xml")
     return items
 
+# 生成主rss模块
+def create_main_rss():
+    for output_dir in channelid_youtube_ids:
+        items = youtube_xml_items(output_dir)
+        if channelid_youtube[channelid_youtube_ids[output_dir]]["InmainRSS"]:
+            all_items.append(items)
+        all_youtube_content_ytid[output_dir] = re.findall(
+            r"(?<=UC.{22}/)(.+\.m4a|.+\.mp4)(?=\")", items
+        )
+
 # xml备份保存模块
 def backup_zip_save(file_content):
     def get_file_name():
@@ -1763,11 +1775,12 @@ def backup_zip_save(file_content):
                 print(f"{file_name_str}已存在于压缩包中，重试中...")
 
 # 删除多余媒体文件模块
-def remove_file(output_dir):
-    for file_name in os.listdir(f"channel_audiovisual/{output_dir}"):
-        if file_name not in all_youtube_content_ytid[output_dir]:
-            os.remove(f"channel_audiovisual/{output_dir}/{file_name}")
-            write_log(f"{channelid_youtube_ids[output_dir]}|{file_name}已删除")
+def remove_file():
+    for output_dir in channelid_youtube_ids:
+        for file_name in os.listdir(f"channel_audiovisual/{output_dir}"):
+            if file_name not in all_youtube_content_ytid[output_dir]:
+                os.remove(f"channel_audiovisual/{output_dir}/{file_name}")
+                write_log(f"{channelid_youtube_ids[output_dir]}|{file_name}已删除")
 
 # 删除已抛弃的媒体文件夹模块
 def remove_dir():
@@ -1860,17 +1873,16 @@ def del_makeup_yt_format_fail(overall_rss):
         overall_rss = re.sub(pattern_youtube_fail_item, replacement_youtube_fail_item, overall_rss, flags=re.DOTALL)
     return overall_rss
 
-# 生成主rss
-for output_dir in channelid_youtube_ids:
-    items = youtube_xml_items(output_dir)
-    if channelid_youtube[channelid_youtube_ids[output_dir]]["InmainRSS"]:
-        all_items.append(items)
-    all_youtube_content_ytid[output_dir] = re.findall(
-        r"(?<=UC.{22}/)(.+\.m4a|.+\.mp4)(?=\")", items
-    )
+# 获取原始xml
+xmls_original = get_original_rss()
+# 构建文件夹channel_rss
+folder_build("channel_rss")
+# 获取youtube频道简介
+get_youtube_introduction()
+# 生成分和主rss
+create_main_rss()
 # 删除不在rss中的媒体文件
-for output_dir in channelid_youtube_ids:
-    remove_file(output_dir)
+remove_file()
 # 删除已抛弃的媒体文件夹
 remove_dir()
 # 补全缺失媒体文件到字典
@@ -1891,10 +1903,7 @@ overall_rss = xml_rss(
 # 删除无法补全的媒体
 overall_rss = del_makeup_yt_format_fail(overall_rss)
 # 保存主rss
-file_save(
-    overall_rss,
-    f"{config['filename']}.xml",
-)
+file_save(overall_rss, f"{config['filename']}.xml")
 # 备份主rss
 backup_zip_save(overall_rss)
 write_log("总播客已更新", f"地址:\n\033[34m{config['url']}/{config['filename']}.xml\033[0m")

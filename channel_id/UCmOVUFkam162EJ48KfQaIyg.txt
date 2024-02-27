@@ -81,7 +81,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="580"/>
+    <media:statistics views="585"/>
    </media:community>
   </media:group>
  </entry>
@@ -231,7 +231,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="507"/>
+    <media:statistics views="508"/>
    </media:community>
   </media:group>
  </entry>
@@ -321,7 +321,7 @@ Twitter：stone记@stone62855987</media:description>
    <uri>https://www.youtube.com/channel/UCmOVUFkam162EJ48KfQaIyg</uri>
   </author>
   <published>2024-01-25T03:51:59+00:00</published>
-  <updated>2024-01-25T12:33:38+00:00</updated>
+  <updated>2024-02-24T09:58:38+00:00</updated>
   <media:group>
    <media:title>Oracle Arms and Laugo Arms Alien（20240124第6764期）</media:title>
    <media:content url="https://www.youtube.com/v/jmzXBJTrQxo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -396,7 +396,7 @@ Twitter：stone记@stone62855987</media:description>
    <uri>https://www.youtube.com/channel/UCmOVUFkam162EJ48KfQaIyg</uri>
   </author>
   <published>2024-01-24T17:23:12+00:00</published>
-  <updated>2024-01-25T12:27:54+00:00</updated>
+  <updated>2024-02-24T10:57:06+00:00</updated>
   <media:group>
    <media:title>LWRC（20240124第6754期）</media:title>
    <media:content url="https://www.youtube.com/v/q1cjgds1VVU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -456,7 +456,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="908"/>
+    <media:statistics views="909"/>
    </media:community>
   </media:group>
  </entry>
@@ -756,7 +756,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="20" average="5.00" min="1" max="5"/>
-    <media:statistics views="4103"/>
+    <media:statistics views="4104"/>
    </media:community>
   </media:group>
  </entry>
