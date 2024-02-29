@@ -255,8 +255,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="28281" average="5.00" min="1" max="5"/>
-    <media:statistics views="949156"/>
+    <media:starRating count="28265" average="5.00" min="1" max="5"/>
+    <media:statistics views="945480"/>
    </media:community>
   </media:group>
  </entry>
@@ -755,7 +755,7 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="38745" average="5.00" min="1" max="5"/>
+    <media:starRating count="38744" average="5.00" min="1" max="5"/>
     <media:statistics views="2001593"/>
    </media:community>
   </media:group>
@@ -1006,7 +1006,7 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
     <media:starRating count="50519" average="5.00" min="1" max="5"/>
-    <media:statistics views="2422570"/>
+    <media:statistics views="2422530"/>
    </media:community>
   </media:group>
  </entry>
@@ -1756,7 +1756,7 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
     <media:starRating count="73368" average="5.00" min="1" max="5"/>
-    <media:statistics views="2976073"/>
+    <media:statistics views="2976061"/>
    </media:community>
   </media:group>
  </entry>
@@ -3255,7 +3255,7 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="62636" average="5.00" min="1" max="5"/>
+    <media:starRating count="62635" average="5.00" min="1" max="5"/>
     <media:statistics views="2864710"/>
    </media:community>
   </media:group>
@@ -3756,7 +3756,7 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
     <media:starRating count="51290" average="5.00" min="1" max="5"/>
-    <media:statistics views="2868281"/>
+    <media:statistics views="2868266"/>
    </media:community>
   </media:group>
  </entry>

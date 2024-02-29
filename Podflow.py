@@ -8,6 +8,7 @@ import html
 import json
 import math
 import time
+import hashlib
 import zipfile
 import threading
 import subprocess
@@ -59,10 +60,12 @@ default_config = {
 print(f"{datetime.now().strftime('%H:%M:%S')}|Podflow开始运行.....")
 
 # 全局变量
+hash_rss_original = ""  # 原始rss哈希值文本
 xmls_original = {}  # 原始xml信息字典
 youtube_xml_get_tree = {}  # youtube频道简介和图标字典
 all_youtube_content_ytid = {}  # 所有youtube视频id字典
 all_items = []  # 更新后所有item明细列表
+overall_rss = ""  # 更新后的rss文本
 make_up_file_format = {}  # 补全缺失媒体字典
 make_up_file_format_fail = {}  # 补全缺失媒体失败字典
 
@@ -208,7 +211,7 @@ def read_today_library_log():
             log_lines = log_file.readlines()  # 读取所有行
         today_log_lines = []
         for log_line in log_lines:
-            if f"{datetime.now().strftime('%Y-%m-%d')}" in log_line:
+            if f"{(datetime.now()- timedelta(days=1)).strftime('%Y-%m-%d')}" not in log_line:
                 if "更新成功" in log_line or "安装成功" in log_line or "无需更新" in log_line:
                     today_log_lines.append(log_line)
             else:
@@ -315,6 +318,7 @@ while library_import == False:
             # 等待所有线程完成
             for thread in library_install_get_threads:
                 thread.join()
+            # 安装更新三方库
             for library in library_install_list:
                 library_install(library, library_install_dic)
             break
@@ -615,6 +619,7 @@ def download_video(
                 msg.replace("ERROR: ", "")
                 .replace(f"{video_url}: ", "")
                 .replace("[youtube] ", "")
+                .replace("[download] ", "")
             )
     ydl_opts = {
         "outtmpl": f"channel_audiovisual/{output_dir}/{video_url}{sesuffix}.{output_format}",  # 输出文件路径和名称
@@ -1588,6 +1593,22 @@ def xml_original_item(original_item):
         </item>
 """
 
+# 生成哈希值模块
+def create_hash(data):
+    data_str = str(data)
+    hash_object = hashlib.sha256()
+    hash_object.update(data_str.encode())
+    hash_value = hash_object.hexdigest()
+    return hash_value
+
+# rss生成哈希值模块
+def rss_create_hash(data):
+    pattern = r"<lastBuildDate>(\w+), (\d{2}) (\w+) (\d{4}) (\d{2}):(\d{2}):(\d{2}) \+\d{4}</lastBuildDate>"
+    replacement = ""
+    new_date = re.sub(pattern, replacement, data)
+    hash_value = create_hash(new_date)
+    return hash_value
+
 # 获取原始xml模块
 def get_original_rss():
     # 获取原始总xml文件
@@ -1604,6 +1625,7 @@ def get_original_rss():
             }
     except FileNotFoundError:  # 文件不存在直接更新
         get_xmls_original = {}
+        rss_original = ""
     # 如原始xml无对应的原频道items, 将尝试从对应频道的xml中获取
     for youtube_key in channelid_youtube_ids.keys():
         if youtube_key not in get_xmls_original.keys():
@@ -1617,7 +1639,9 @@ def get_original_rss():
                     )[1]
             except FileNotFoundError:  # 文件不存在直接更新
                 write_log(f"RSS文件中不存在 {channelid_youtube_ids[youtube_key]} 无法保留原节目")
-    return get_xmls_original
+    # 生成原始rss的哈希值
+    hash_rss_original = rss_create_hash(rss_original)
+    return get_xmls_original, hash_rss_original
 
 # 获取youtube频道简介模块
 def get_youtube_introduction():
@@ -1755,9 +1779,16 @@ def backup_zip_save(file_content):
         return f"{formatted_time}.xml"
     # 定义要添加到压缩包中的文件名和内容
     compress_file_name = "Podflow_backup.zip"
-    save_success = False
+    # 生成新rss的哈希值
+    hash_overall_rss = rss_create_hash(overall_rss)
+    # 使用哈希值判断新老rss是否一致
+    if hash_overall_rss == hash_rss_original:
+        judging_save = True
+        write_log(f"无更新内容将不进行备份")
+    else:
+        judging_save = False
 
-    while not save_success:
+    while not judging_save:
         # 获取要写入压缩包的文件名
         file_name_str = get_file_name()
         # 打开压缩文件，如果不存在则创建
@@ -1769,7 +1800,7 @@ def backup_zip_save(file_content):
             if file_name_str not in zipf.namelist():
                 # 将文件内容写入压缩包
                 zipf.writestr(file_name_str, file_content)
-                save_success = True
+                judging_save = True
             else:
                 # 如果文件已存在，输出提示信息
                 print(f"{file_name_str}已存在于压缩包中，重试中...")
@@ -1873,8 +1904,8 @@ def del_makeup_yt_format_fail(overall_rss):
         overall_rss = re.sub(pattern_youtube_fail_item, replacement_youtube_fail_item, overall_rss, flags=re.DOTALL)
     return overall_rss
 
-# 获取原始xml
-xmls_original = get_original_rss()
+# 获取原始xml字典和rss文本
+xmls_original, hash_rss_original = get_original_rss()
 # 构建文件夹channel_rss
 folder_build("channel_rss")
 # 获取youtube频道简介
@@ -1904,10 +1935,10 @@ overall_rss = xml_rss(
 overall_rss = del_makeup_yt_format_fail(overall_rss)
 # 保存主rss
 file_save(overall_rss, f"{config['filename']}.xml")
-# 备份主rss
-backup_zip_save(overall_rss)
 write_log("总播客已更新", f"地址:\n\033[34m{config['url']}/{config['filename']}.xml\033[0m")
 qr_code(f"{config['url']}/{config['filename']}.xml")
+# 备份主rss
+backup_zip_save(overall_rss)
 # 下载补全YouTube视频模块
 make_up_file_mod()
 
@@ -1928,4 +1959,3 @@ else:
     time.sleep(1)
 # 关闭服务器
 server_process.terminate()
-
