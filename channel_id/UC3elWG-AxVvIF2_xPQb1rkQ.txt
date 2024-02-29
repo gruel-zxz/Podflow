@@ -11,6 +11,33 @@
  </author>
  <published>2022-06-04T16:17:27+00:00</published>
  <entry>
+  <id>yt:video:WcbVDET2O5U</id>
+  <yt:videoId>WcbVDET2O5U</yt:videoId>
+  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
+  <title>一招让你拥有“老钱风”。#四季妈妈爱聊车</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=WcbVDET2O5U"/>
+  <author>
+   <name>四季妈妈—小龙</name>
+   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
+  </author>
+  <published>2024-02-27T09:29:23+00:00</published>
+  <updated>2024-02-29T04:34:10+00:00</updated>
+  <media:group>
+   <media:title>一招让你拥有“老钱风”。#四季妈妈爱聊车</media:title>
+   <media:content url="https://www.youtube.com/v/WcbVDET2O5U?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/WcbVDET2O5U/hqdefault.jpg" width="480" height="360"/>
+   <media:description>大家好，欢迎来到我的频道！今天我将分享一招让你轻松拥有“老钱风”的独家秘籍。四季妈妈爱聊车，但今天我们将分享的不仅仅是车，而是一种生活态度！
+
+在这期视频中，我将向大家介绍一种简单而又实用的方法，让你在不费吹灰之力的情况下拥有“老钱风”。这并不需要花费大量金钱，而是关乎于心态和生活方式的改变。让我们一起来看看这个独家秘籍吧！
+
+别忘了点赞、订阅，并在评论区分享你的看法和自己的经验。一起来感受“老钱风”的魅力吧！#生活态度 #独家秘籍 #幽默观察</media:description>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="61"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:yEMHYQjKU2g</id>
   <yt:videoId>yEMHYQjKU2g</yt:videoId>
   <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
@@ -21,7 +48,7 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-02-23T11:07:14+00:00</published>
-  <updated>2024-02-27T02:18:54+00:00</updated>
+  <updated>2024-02-27T08:53:19+00:00</updated>
   <media:group>
    <media:title>奇特魅力！四季妈妈爱聊车揭秘那些能同时拥有面子和自卑感的座驾#四季妈妈爱聊车</media:title>
    <media:content url="https://www.youtube.com/v/yEMHYQjKU2g?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -33,7 +60,7 @@
 别忘了点赞、订阅，并在评论区分享您对这些车型的看法和自己的感受。一起来参与这场面子与自卑的吐槽大会吧！#车辆选择 #面子与自卑 #幽默观察</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="205"/>
+    <media:statistics views="224"/>
    </media:community>
   </media:group>
  </entry>
@@ -48,7 +75,7 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-02-20T09:37:42+00:00</published>
-  <updated>2024-02-24T11:29:52+00:00</updated>
+  <updated>2024-02-29T05:59:27+00:00</updated>
   <media:group>
    <media:title>外观重要！四季妈妈爱聊车告诉你选老婆和选车一样，漂亮的有市场 #四季妈妈爱聊车</media:title>
    <media:content url="https://www.youtube.com/v/raTSKT8WgPk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -60,7 +87,7 @@
 别忘了点赞、订阅，并在评论区分享您对外观在选择中的看法和自己的经验。一起来参与这场外貌与市场的吐槽大会吧！#外貌选择 #市场价值 #幽默观察</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="240"/>
+    <media:statistics views="243"/>
    </media:community>
   </media:group>
  </entry>
@@ -75,7 +102,7 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-02-17T01:54:13+00:00</published>
-  <updated>2024-02-17T06:20:36+00:00</updated>
+  <updated>2024-02-27T08:50:28+00:00</updated>
   <media:group>
    <media:title>揭秘男人的共同选择！四季妈妈爱聊车告诉你这款车的独特魅力 #四季妈妈爱聊车</media:title>
    <media:content url="https://www.youtube.com/v/G9Oa8sUeg78?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -87,7 +114,7 @@
 别忘了点赞、订阅，并在评论区分享您对这款车的看法和自己的车主经历。一起来参与这场揭秘男人选择的吐槽大会吧！#汽车选择 #男人座驾 #幽默观察</media:description>
    <media:community>
     <media:starRating count="41" average="5.00" min="1" max="5"/>
-    <media:statistics views="3671"/>
+    <media:statistics views="3680"/>
    </media:community>
   </media:group>
  </entry>
@@ -102,7 +129,7 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-02-17T01:49:01+00:00</published>
-  <updated>2024-02-17T21:35:14+00:00</updated>
+  <updated>2024-02-27T08:48:44+00:00</updated>
   <media:group>
    <media:title>过年期间，车主最怕听见的声音！四季妈妈教你保护爱车，愿生活对所有的车门温柔以待</media:title>
    <media:content url="https://www.youtube.com/v/9sQr6W8iyBI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -114,7 +141,7 @@
 别忘了点赞、订阅，并在评论区分享您对这些保护爱车的看法和自己的经验。一起来参与这场车主心声的吐槽大会吧！#爱车保养 #过年注意事项 #幽默观察</media:description>
    <media:community>
     <media:starRating count="96" average="5.00" min="1" max="5"/>
-    <media:statistics views="7654"/>
+    <media:statistics views="7672"/>
    </media:community>
   </media:group>
  </entry>
@@ -141,7 +168,7 @@
 别忘了点赞、订阅，并在评论区分享您对这些妙招的看法和自己的经验。一起来参与这场小钱办大事的吐槽大会吧！#聚会策划 #预算管理 #幽默观察</media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="190"/>
+    <media:statistics views="199"/>
    </media:community>
   </media:group>
  </entry>
@@ -168,7 +195,7 @@
 别忘了点赞、订阅，并在评论区分享您对这些技巧的看法和自己的经验。一起来参与这场拿捏山东老丈人的吐槽大会吧！#亲家关系 #家庭相处 #幽默观察</media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="145"/>
+    <media:statistics views="146"/>
    </media:community>
   </media:group>
  </entry>
@@ -195,7 +222,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一现象的看法和自己的观点。一起来参与这场国产三蹦子的吐槽大会吧！#国产汽车 #海外热潮 #车辆文化</media:description>
    <media:community>
     <media:starRating count="13" average="5.00" min="1" max="5"/>
-    <media:statistics views="364"/>
+    <media:statistics views="365"/>
    </media:community>
   </media:group>
  </entry>
@@ -210,7 +237,7 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-02-07T05:27:21+00:00</published>
-  <updated>2024-02-08T05:56:40+00:00</updated>
+  <updated>2024-02-27T01:46:56+00:00</updated>
   <media:group>
    <media:title>如果由我决定，会选择这样改吗？四季妈妈爱聊车，爱吐槽的四季妈妈告诉你#四季妈妈爱聊车 #爱吐槽的四季妈妈</media:title>
    <media:content url="https://www.youtube.com/v/CxDjkZOSeXY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -222,7 +249,7 @@
 别忘了点赞、订阅，并在评论区分享您对这个问题的看法和自己的经验。一起来参与这场改车选择的吐槽大会吧！#车辆改装 #选择困难 #幽默观察</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="487"/>
+    <media:statistics views="488"/>
    </media:community>
   </media:group>
  </entry>
@@ -249,7 +276,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一问题的看法和自己的经验。一起来参与这场老公生气应对的吐槽大会吧！#家庭生活 #情感经验 #幽默观察</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="374"/>
+    <media:statistics views="375"/>
    </media:community>
   </media:group>
  </entry>
@@ -264,7 +291,7 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-02-01T03:38:35+00:00</published>
-  <updated>2024-02-01T07:38:14+00:00</updated>
+  <updated>2024-02-27T02:55:56+00:00</updated>
   <media:group>
    <media:title>车是男人第二个家？四季妈妈爱聊车，爱吐槽的四季妈妈揭秘这个说法#四季妈妈爱聊车 #爱吐槽的四季妈妈</media:title>
    <media:content url="https://www.youtube.com/v/01zcDSsAZxA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -291,7 +318,7 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-01-27T09:04:52+00:00</published>
-  <updated>2024-01-28T06:02:01+00:00</updated>
+  <updated>2024-02-27T07:28:05+00:00</updated>
   <media:group>
    <media:title>爱与空间的平衡！他给了我很多，但男人的空间只有一点点#家庭吐槽大会 #龙光焕发好物赏 #绝色 #熬夜眼霜</media:title>
    <media:content url="https://www.youtube.com/v/9GL2hSQzqA8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -303,7 +330,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一平衡问题的看法和自己的经验。一起来参与这场爱与空间的吐槽大会吧！#爱情平衡 #家庭观察 #笑中解压</media:description>
    <media:community>
     <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="332"/>
+    <media:statistics views="333"/>
    </media:community>
   </media:group>
  </entry>
@@ -345,7 +372,7 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-01-27T08:50:38+00:00</published>
-  <updated>2024-01-28T20:40:57+00:00</updated>
+  <updated>2024-02-28T06:26:49+00:00</updated>
   <media:group>
    <media:title>男人一生的三个困扰！爱吐槽的四季妈妈为你解密#家庭吐槽大会 #碧春</media:title>
    <media:content url="https://www.youtube.com/v/C_7QUOHH-oA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -372,7 +399,7 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-01-24T01:57:47+00:00</published>
-  <updated>2024-01-24T07:32:09+00:00</updated>
+  <updated>2024-02-27T14:14:37+00:00</updated>
   <media:group>
    <media:title>深入交往前的必备仪式！先和他喝一次酒，爱吐槽的四季妈妈告诉你为什么！#家庭吐槽大会</media:title>
    <media:content url="https://www.youtube.com/v/CTxSG9pLDO8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -385,33 +412,6 @@
    <media:community>
     <media:starRating count="3" average="5.00" min="1" max="5"/>
     <media:statistics views="211"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:_vtT_dbPYbk</id>
-  <yt:videoId>_vtT_dbPYbk</yt:videoId>
-  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
-  <title>车不凡，主人更是独特！爱吐槽的四季妈妈带你了解一辆不一般的座驾！#四季妈妈爱聊车 #爱吐槽的四季妈妈 #四季妈妈爱聊车</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=_vtT_dbPYbk"/>
-  <author>
-   <name>四季妈妈—小龙</name>
-   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
-  </author>
-  <published>2024-01-24T01:53:12+00:00</published>
-  <updated>2024-02-25T02:07:53+00:00</updated>
-  <media:group>
-   <media:title>车不凡，主人更是独特！爱吐槽的四季妈妈带你了解一辆不一般的座驾！#四季妈妈爱聊车 #爱吐槽的四季妈妈 #四季妈妈爱聊车</media:title>
-   <media:content url="https://www.youtube.com/v/_vtT_dbPYbk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/_vtT_dbPYbk/hqdefault.jpg" width="480" height="360"/>
-   <media:description>嗨，各位观众朋友们，欢迎回到我的频道！今天我们要聊一聊那些不一般的车，因为买它的人也都是独特的！通过爱吐槽的四季妈妈的独特视角，我将为大家介绍一辆不一般的座驾，并分享一些有趣的车主故事。
-
-在这期视频中，我们将一同探讨这辆特殊车辆的独特之处，以及它的主人们有哪些独特之处。当然，这是以娱乐为主，希望大家能在欢笑中轻松愉快。
-
-别忘了点赞、订阅，并在评论区分享您对这辆不一般车辆的看法和自己的车主故事。一起来参与这场不一般的座驾吐槽大会吧！#车辆风采 #独特车主 #幽默观察</media:description>
-   <media:community>
-    <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="290"/>
    </media:community>
   </media:group>
  </entry>
