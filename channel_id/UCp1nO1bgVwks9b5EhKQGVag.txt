@@ -29,7 +29,7 @@
    <media:description>《逃兵》上世纪40年代的科幻作品，原著：克利福德.西马克，作者以较为严谨的写作手法和大胆的想象力，在上世纪就为我们构想出了另类生命对人类的看法，是科幻黄金时代的佳作之一。</media:description>
    <media:community>
     <media:starRating count="117" average="5.00" min="1" max="5"/>
-    <media:statistics views="4479"/>
+    <media:statistics views="4635"/>
    </media:community>
   </media:group>
  </entry>
@@ -51,8 +51,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/FLiRhZsVLws/hqdefault.jpg" width="480" height="360"/>
    <media:description>一个战争机器人与人类孩子的最后时光：意识流科幻小说《潮痕》，原著：伊丽莎白·贝尔《潮痕》 (2008年雨果奖最佳短篇)</media:description>
    <media:community>
-    <media:starRating count="101" average="5.00" min="1" max="5"/>
-    <media:statistics views="3513"/>
+    <media:starRating count="102" average="5.00" min="1" max="5"/>
+    <media:statistics views="3543"/>
    </media:community>
   </media:group>
  </entry>
@@ -74,8 +74,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/DakEnnN9-io/hqdefault.jpg" width="480" height="360"/>
    <media:description>在目前语言学界的主流观点中，不存在“第4人称”。当然这是科幻小说，作者藤野另辟蹊径，以全新的视角揭开了一个地外生命群体的存在模式。《第四人称》  选自：《科幻世界》2016年12月刊。</media:description>
    <media:community>
-    <media:starRating count="137" average="5.00" min="1" max="5"/>
-    <media:statistics views="7072"/>
+    <media:starRating count="139" average="5.00" min="1" max="5"/>
+    <media:statistics views="7105"/>
    </media:community>
   </media:group>
  </entry>
@@ -98,7 +98,7 @@
    <media:description>老龄化问题的终极答案：让40亿老人移民外星？科幻小说《暮星归途》</media:description>
    <media:community>
     <media:starRating count="101" average="5.00" min="1" max="5"/>
-    <media:statistics views="6126"/>
+    <media:statistics views="6156"/>
    </media:community>
   </media:group>
  </entry>
@@ -120,8 +120,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/wnP-yUQ1MkQ/hqdefault.jpg" width="480" height="360"/>
    <media:description>说明：这个盘点清单是根据幻海团队的阅读经历，从读者的接受度、作品故事性、作品的思想深度等特点做出的盘点清单，均为我们的个人观点。所以《龙蛋》、《盲视》、《量子魔术师》《泥人十四》等过于硬核的优秀作品不在其中，同时《三体》与《泽利》也不在其中，它们之前已经总结过了，另外《太空漫游系列》/《火星救援》《索拉里斯星》等优秀作品，由于已经被影视化，熟悉的人很多，所以也不在其中。</media:description>
    <media:community>
-    <media:starRating count="189" average="5.00" min="1" max="5"/>
-    <media:statistics views="5942"/>
+    <media:starRating count="188" average="5.00" min="1" max="5"/>
+    <media:statistics views="5955"/>
    </media:community>
   </media:group>
  </entry>
@@ -136,7 +136,7 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2024-01-18T09:24:27+00:00</published>
-  <updated>2024-01-19T07:08:34+00:00</updated>
+  <updated>2024-02-28T11:21:50+00:00</updated>
   <media:group>
    <media:title>盘点：那些科幻大师笔下人类的最终宿命</media:title>
    <media:content url="https://www.youtube.com/v/Bsm94LuBQyo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -145,7 +145,7 @@
 我们最看好的是05：15的部分，在科技断代之后，人类存活到了最后。</media:description>
    <media:community>
     <media:starRating count="144" average="5.00" min="1" max="5"/>
-    <media:statistics views="7622"/>
+    <media:statistics views="7637"/>
    </media:community>
   </media:group>
  </entry>
@@ -170,7 +170,7 @@
 阅读总结——我心目中的科幻TOP系列盘点。</media:description>
    <media:community>
     <media:starRating count="161" average="5.00" min="1" max="5"/>
-    <media:statistics views="6696"/>
+    <media:statistics views="6711"/>
    </media:community>
   </media:group>
  </entry>
@@ -193,7 +193,7 @@
    <media:description>用40亿年去纠正一个错误，错误是创造全人类：《宇宙全能侦探社》下集</media:description>
    <media:community>
     <media:starRating count="78" average="5.00" min="1" max="5"/>
-    <media:statistics views="3663"/>
+    <media:statistics views="3675"/>
    </media:community>
   </media:group>
  </entry>
@@ -217,7 +217,7 @@
 原著：道格拉斯亚当斯，一位搞怪又不失科幻内核的作家。</media:description>
    <media:community>
     <media:starRating count="90" average="5.00" min="1" max="5"/>
-    <media:statistics views="6153"/>
+    <media:statistics views="6167"/>
    </media:community>
   </media:group>
  </entry>
@@ -240,7 +240,7 @@
    <media:description>《世界上所有的烦恼》，原著：阿西莫夫，出自阿西莫夫科幻短篇全集、 阿西莫夫的这个短篇系列终于出版了！阿西莫夫最神的就是他的短篇，所谓：人类近50年来的科技进步，一直在追赶阿西莫夫科幻小说的脚步。</media:description>
    <media:community>
     <media:starRating count="149" average="5.00" min="1" max="5"/>
-    <media:statistics views="7687"/>
+    <media:statistics views="7698"/>
    </media:community>
   </media:group>
  </entry>
@@ -263,7 +263,7 @@
    <media:description>一个中子星文明的毁灭与重生：《星震》大结局</media:description>
    <media:community>
     <media:starRating count="89" average="5.00" min="1" max="5"/>
-    <media:statistics views="5284"/>
+    <media:statistics views="5293"/>
    </media:community>
   </media:group>
  </entry>
@@ -287,7 +287,7 @@
 时隔几年，终于更新到这部了！</media:description>
    <media:community>
     <media:starRating count="121" average="5.00" min="1" max="5"/>
-    <media:statistics views="6979"/>
+    <media:statistics views="6987"/>
    </media:community>
   </media:group>
  </entry>
@@ -302,7 +302,7 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2023-12-04T15:01:14+00:00</published>
-  <updated>2024-02-10T20:33:32+00:00</updated>
+  <updated>2024-02-29T05:30:52+00:00</updated>
   <media:group>
    <media:title>未来的新型诈骗：骗走人类的十年时间——科幻名著《抉择》</media:title>
    <media:content url="https://www.youtube.com/v/Pns8RLiQeoI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -310,7 +310,7 @@
    <media:description>如何骗走人类的十年时间：科幻名著《抉择》，原著：小松左京。这部小说收录于《科幻之路》系列。</media:description>
    <media:community>
     <media:starRating count="127" average="5.00" min="1" max="5"/>
-    <media:statistics views="8092"/>
+    <media:statistics views="8100"/>
    </media:community>
   </media:group>
  </entry>
@@ -335,7 +335,7 @@
 不过主线剧情已经更新完毕，未收录的内容仅剩下人类最终生活在小宇宙中的场景。</media:description>
    <media:community>
     <media:starRating count="540" average="5.00" min="1" max="5"/>
-    <media:statistics views="36811"/>
+    <media:statistics views="36837"/>
    </media:community>
   </media:group>
  </entry>
@@ -358,7 +358,7 @@
    <media:description>《单孔衍射》出自科幻短篇集《完美末日》。作者刘洋：科幻作家，物理学博士，代表作《火星孤儿》《勾股2.013》等。这是第二次更新这位科幻作家的作品，希望大家喜欢。这部小说中提出了非常有有趣的“时间壁垒”概念。</media:description>
    <media:community>
     <media:starRating count="143" average="5.00" min="1" max="5"/>
-    <media:statistics views="8755"/>
+    <media:statistics views="8757"/>
    </media:community>
   </media:group>
  </entry>

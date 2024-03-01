@@ -11,6 +11,79 @@
  </author>
  <published>2018-03-31T05:35:30+00:00</published>
  <entry>
+  <id>yt:video:ynHCBXEBRsU</id>
+  <yt:videoId>ynHCBXEBRsU</yt:videoId>
+  <yt:channelId>UCghLs6s95LrBWOdlZUCH4qw</yt:channelId>
+  <title>89年六四运动的经济原因，新中国十次危机之第六次危机 1985 1989（三）（20240229第6857期）</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=ynHCBXEBRsU"/>
+  <author>
+   <name>stone记</name>
+   <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
+  </author>
+  <published>2024-02-29T20:11:01+00:00</published>
+  <updated>2024-03-01T06:43:48+00:00</updated>
+  <media:group>
+   <media:title>89年六四运动的经济原因，新中国十次危机之第六次危机 1985 1989（三）（20240229第6857期）</media:title>
+   <media:content url="https://www.youtube.com/v/ynHCBXEBRsU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/ynHCBXEBRsU/hqdefault.jpg" width="480" height="360"/>
+   <media:description>加入stone记会员链接
+https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw/join
+合作联系Twitter：stone记@stone62855987
+我们现阶段录制视频使用的设备
+主力相机Canon EOS R
+https://amzn.to/2L2eHQG
+主力镜头Canon RF 50mm f/1.2L USM Lens
+https://amzn.to/2L3qWwt
+主力无线麦克风Sennheiser AVX 配合MKE2
+https://amzn.to/2ZliYnj
+桌面三角架
+https://amzn.to/321gZqc
+将两个麦克风合一的Saramonic SR-AX100
+https://amzn.to/2TWRofg
+铁威马D8 332
+https://amzn.to/3BqlGxT
+
+一些实用的附件推荐
+相机背带Peak Design Slide Lite Camera Strap SLL-BK-3 (Black)
+https://amzn.to/2QC0csh
+相机腕带Peak Design Cuff Camera Wrist Strap
+https://amzn.to/2S6Z4cZ
+相机包Lowepro Adventura SH 160 II
+https://amzn.to/2USOA2Q
+三星T5 2TB移动硬盘
+https://amzn.to/2rK72xf
+佳能照片打印机Canon SELPHY CP1300
+https://amzn.to/2EA2CBp
+Flash Hot Shoe Mount Adapter热靴
+https://amzn.to/2x9NPXU
+Logitech BRIO
+https://amzn.to/2Qp4Q9E
+Rode VideoMicro 手机麦克风
+https://amzn.to/2CLwquJ
+JOBY GorillaPod 3K Kit 八爪魚三腳架
+https://amzn.to/2QqAofl
+Logitech G903
+https://amzn.to/2QocOzv
+Logitech G Powerplay Wireless Charging System
+https://amzn.to/2x29EIQ
+Blue Yeti USB Microphone 桌面麦克风
+https://amzn.to/2x52Eet
+Marathon CL030060WH 显示温度和湿度的桌面时钟
+https://amzn.to/2CLyfYB
+Marathon CL030054WH 显示温度和湿度的床头时钟
+https://amzn.to/2QkOS02
+
+介绍我们最近升级的新设备和心得（20181218第444期）
+https://youtu.be/4G8yWQyBKak
+介绍我们录制视频使用的全部设备（20180912第257期）
+https://youtu.be/BbtTwsP_-zc</media:description>
+   <media:community>
+    <media:starRating count="112" average="5.00" min="1" max="5"/>
+    <media:statistics views="10763"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:Q_Hn8N9rQtg</id>
   <yt:videoId>Q_Hn8N9rQtg</yt:videoId>
   <yt:channelId>UCghLs6s95LrBWOdlZUCH4qw</yt:channelId>
@@ -21,7 +94,7 @@
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
   <published>2024-02-28T18:23:32+00:00</published>
-  <updated>2024-02-29T06:31:53+00:00</updated>
+  <updated>2024-02-29T21:01:44+00:00</updated>
   <media:group>
    <media:title>89年六四运动的经济原因，新中国十次危机之第六次危机 1985-1989（二）（20240228第6856期）</media:title>
    <media:content url="https://www.youtube.com/v/Q_Hn8N9rQtg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -78,8 +151,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="73" average="5.00" min="1" max="5"/>
-    <media:statistics views="9290"/>
+    <media:starRating count="120" average="5.00" min="1" max="5"/>
+    <media:statistics views="20471"/>
    </media:community>
   </media:group>
  </entry>
@@ -94,7 +167,7 @@ https://youtu.be/BbtTwsP_-zc</media:description>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
   <published>2024-02-28T13:07:29+00:00</published>
-  <updated>2024-02-29T06:16:01+00:00</updated>
+  <updated>2024-03-01T05:18:55+00:00</updated>
   <media:group>
    <media:title>89年六四运动的经济原因，新中国十次危机之第六次危机 1985 1989（一）（20240228第6855期）</media:title>
    <media:content url="https://www.youtube.com/v/rlZHgx7nnT0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -151,8 +224,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="92" average="5.00" min="1" max="5"/>
-    <media:statistics views="18359"/>
+    <media:starRating count="126" average="5.00" min="1" max="5"/>
+    <media:statistics views="29955"/>
    </media:community>
   </media:group>
  </entry>
@@ -167,7 +240,7 @@ https://youtu.be/BbtTwsP_-zc</media:description>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
   <published>2024-02-28T08:15:52+00:00</published>
-  <updated>2024-02-29T06:10:03+00:00</updated>
+  <updated>2024-02-29T21:54:03+00:00</updated>
   <media:group>
    <media:title>索杰恩、艾什、黑影、查莉娅（20240228第6854期）</media:title>
    <media:content url="https://www.youtube.com/v/4c2BtyVv8vw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -224,8 +297,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="3" average="5.00" min="1" max="5"/>
-    <media:statistics views="1452"/>
+    <media:starRating count="4" average="5.00" min="1" max="5"/>
+    <media:statistics views="1940"/>
    </media:community>
   </media:group>
  </entry>
@@ -297,8 +370,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="160" average="5.00" min="1" max="5"/>
-    <media:statistics views="34867"/>
+    <media:starRating count="180" average="5.00" min="1" max="5"/>
+    <media:statistics views="43977"/>
    </media:community>
   </media:group>
  </entry>
@@ -370,8 +443,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="76" average="5.00" min="1" max="5"/>
-    <media:statistics views="12043"/>
+    <media:starRating count="84" average="5.00" min="1" max="5"/>
+    <media:statistics views="15649"/>
    </media:community>
   </media:group>
  </entry>
@@ -443,8 +516,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="88" average="5.00" min="1" max="5"/>
-    <media:statistics views="16020"/>
+    <media:starRating count="96" average="5.00" min="1" max="5"/>
+    <media:statistics views="19150"/>
    </media:community>
   </media:group>
  </entry>
@@ -516,8 +589,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="170" average="5.00" min="1" max="5"/>
-    <media:statistics views="39796"/>
+    <media:starRating count="185" average="5.00" min="1" max="5"/>
+    <media:statistics views="45737"/>
    </media:community>
   </media:group>
  </entry>
@@ -589,8 +662,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="127" average="5.00" min="1" max="5"/>
-    <media:statistics views="8090"/>
+    <media:starRating count="145" average="5.00" min="1" max="5"/>
+    <media:statistics views="8956"/>
    </media:community>
   </media:group>
  </entry>
@@ -662,8 +735,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="74" average="5.00" min="1" max="5"/>
-    <media:statistics views="10799"/>
+    <media:starRating count="83" average="5.00" min="1" max="5"/>
+    <media:statistics views="11960"/>
    </media:community>
   </media:group>
  </entry>
@@ -735,8 +808,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="164" average="5.00" min="1" max="5"/>
-    <media:statistics views="29226"/>
+    <media:starRating count="173" average="5.00" min="1" max="5"/>
+    <media:statistics views="31347"/>
    </media:community>
   </media:group>
  </entry>
@@ -808,8 +881,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="102" average="5.00" min="1" max="5"/>
-    <media:statistics views="22833"/>
+    <media:starRating count="107" average="5.00" min="1" max="5"/>
+    <media:statistics views="21679"/>
    </media:community>
   </media:group>
  </entry>
@@ -881,8 +954,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="138" average="5.00" min="1" max="5"/>
-    <media:statistics views="26794"/>
+    <media:starRating count="143" average="5.00" min="1" max="5"/>
+    <media:statistics views="21185"/>
    </media:community>
   </media:group>
  </entry>
@@ -955,7 +1028,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="84" average="5.00" min="1" max="5"/>
-    <media:statistics views="15757"/>
+    <media:statistics views="14891"/>
    </media:community>
   </media:group>
  </entry>
@@ -1027,81 +1100,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="96" average="5.00" min="1" max="5"/>
-    <media:statistics views="16860"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:rjmfTFHpyn8</id>
-  <yt:videoId>rjmfTFHpyn8</yt:videoId>
-  <yt:channelId>UCghLs6s95LrBWOdlZUCH4qw</yt:channelId>
-  <title>中国房地产需要两条腿走路，“经济学家建言2024中国经济”系列（二）（20240225第6842期）</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=rjmfTFHpyn8"/>
-  <author>
-   <name>stone记</name>
-   <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
-  </author>
-  <published>2024-02-26T08:16:53+00:00</published>
-  <updated>2024-02-28T08:17:44+00:00</updated>
-  <media:group>
-   <media:title>中国房地产需要两条腿走路，“经济学家建言2024中国经济”系列（二）（20240225第6842期）</media:title>
-   <media:content url="https://www.youtube.com/v/rjmfTFHpyn8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/rjmfTFHpyn8/hqdefault.jpg" width="480" height="360"/>
-   <media:description>加入stone记会员链接
-https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw/join
-合作联系Twitter：stone记@stone62855987
-我们现阶段录制视频使用的设备
-主力相机Canon EOS R
-https://amzn.to/2L2eHQG
-主力镜头Canon RF 50mm f/1.2L USM Lens
-https://amzn.to/2L3qWwt
-主力无线麦克风Sennheiser AVX 配合MKE2
-https://amzn.to/2ZliYnj
-桌面三角架
-https://amzn.to/321gZqc
-将两个麦克风合一的Saramonic SR-AX100
-https://amzn.to/2TWRofg
-铁威马D8 332
-https://amzn.to/3BqlGxT
-
-一些实用的附件推荐
-相机背带Peak Design Slide Lite Camera Strap SLL-BK-3 (Black)
-https://amzn.to/2QC0csh
-相机腕带Peak Design Cuff Camera Wrist Strap
-https://amzn.to/2S6Z4cZ
-相机包Lowepro Adventura SH 160 II
-https://amzn.to/2USOA2Q
-三星T5 2TB移动硬盘
-https://amzn.to/2rK72xf
-佳能照片打印机Canon SELPHY CP1300
-https://amzn.to/2EA2CBp
-Flash Hot Shoe Mount Adapter热靴
-https://amzn.to/2x9NPXU
-Logitech BRIO
-https://amzn.to/2Qp4Q9E
-Rode VideoMicro 手机麦克风
-https://amzn.to/2CLwquJ
-JOBY GorillaPod 3K Kit 八爪魚三腳架
-https://amzn.to/2QqAofl
-Logitech G903
-https://amzn.to/2QocOzv
-Logitech G Powerplay Wireless Charging System
-https://amzn.to/2x29EIQ
-Blue Yeti USB Microphone 桌面麦克风
-https://amzn.to/2x52Eet
-Marathon CL030060WH 显示温度和湿度的桌面时钟
-https://amzn.to/2CLyfYB
-Marathon CL030054WH 显示温度和湿度的床头时钟
-https://amzn.to/2QkOS02
-
-介绍我们最近升级的新设备和心得（20181218第444期）
-https://youtu.be/4G8yWQyBKak
-介绍我们录制视频使用的全部设备（20180912第257期）
-https://youtu.be/BbtTwsP_-zc</media:description>
-   <media:community>
-    <media:starRating count="97" average="5.00" min="1" max="5"/>
-    <media:statistics views="20486"/>
+    <media:starRating count="99" average="5.00" min="1" max="5"/>
+    <media:statistics views="15868"/>
    </media:community>
   </media:group>
  </entry>

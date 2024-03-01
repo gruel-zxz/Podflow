@@ -20,15 +20,15 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-02-28T23:30:21+00:00</published>
-  <updated>2024-02-28T23:37:58+00:00</updated>
+  <updated>2024-03-01T07:38:52+00:00</updated>
   <media:group>
    <media:title>celebrate BHM with Swoozie, Bianca, and Nyma as they receive their 💐 💐💐 ft.Rumi Robinson</media:title>
    <media:content url="https://www.youtube.com/v/9mlKH-h5az4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i2.ytimg.com/vi/9mlKH-h5az4/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="455" average="5.00" min="1" max="5"/>
-    <media:statistics views="5290"/>
+    <media:starRating count="873" average="5.00" min="1" max="5"/>
+    <media:statistics views="16464"/>
    </media:community>
   </media:group>
  </entry>
@@ -50,8 +50,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/F0W9nBpO7zU/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="872" average="5.00" min="1" max="5"/>
-    <media:statistics views="28631"/>
+    <media:starRating count="1120" average="5.00" min="1" max="5"/>
+    <media:statistics views="33852"/>
    </media:community>
   </media:group>
  </entry>
@@ -73,8 +73,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/l99nzkak0Gs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1577" average="5.00" min="1" max="5"/>
-    <media:statistics views="61792"/>
+    <media:starRating count="1664" average="5.00" min="1" max="5"/>
+    <media:statistics views="64376"/>
    </media:community>
   </media:group>
  </entry>
@@ -96,8 +96,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/N6vvD8jXB94/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2642" average="5.00" min="1" max="5"/>
-    <media:statistics views="73219"/>
+    <media:starRating count="2745" average="5.00" min="1" max="5"/>
+    <media:statistics views="76390"/>
    </media:community>
   </media:group>
  </entry>
@@ -119,8 +119,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/tc52SWcMwXk/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2609" average="5.00" min="1" max="5"/>
-    <media:statistics views="118437"/>
+    <media:starRating count="2697" average="5.00" min="1" max="5"/>
+    <media:statistics views="120781"/>
    </media:community>
   </media:group>
  </entry>
@@ -142,8 +142,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/bX0YHFif81U/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3117" average="5.00" min="1" max="5"/>
-    <media:statistics views="82756"/>
+    <media:starRating count="3200" average="5.00" min="1" max="5"/>
+    <media:statistics views="84814"/>
    </media:community>
   </media:group>
  </entry>
@@ -165,8 +165,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/LaKS5B3enNY/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2358" average="5.00" min="1" max="5"/>
-    <media:statistics views="88860"/>
+    <media:starRating count="2407" average="5.00" min="1" max="5"/>
+    <media:statistics views="90088"/>
    </media:community>
   </media:group>
  </entry>
@@ -181,15 +181,15 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-02-09T18:30:30+00:00</published>
-  <updated>2024-02-09T18:36:30+00:00</updated>
+  <updated>2024-02-29T06:30:11+00:00</updated>
   <media:group>
    <media:title>maybe the real lunar new year is the friendship we found along the way hehe ❤️🧧✨</media:title>
    <media:content url="https://www.youtube.com/v/SmUjSY0ZHlo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i4.ytimg.com/vi/SmUjSY0ZHlo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3141" average="5.00" min="1" max="5"/>
-    <media:statistics views="96006"/>
+    <media:starRating count="3202" average="5.00" min="1" max="5"/>
+    <media:statistics views="97976"/>
    </media:community>
   </media:group>
  </entry>
@@ -211,8 +211,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/fMHBCtJu-7A/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2035" average="5.00" min="1" max="5"/>
-    <media:statistics views="71596"/>
+    <media:starRating count="2070" average="5.00" min="1" max="5"/>
+    <media:statistics views="72663"/>
    </media:community>
   </media:group>
  </entry>
@@ -234,8 +234,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/aw6iKr6ndZU/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2280" average="5.00" min="1" max="5"/>
-    <media:statistics views="88109"/>
+    <media:starRating count="2316" average="5.00" min="1" max="5"/>
+    <media:statistics views="88985"/>
    </media:community>
   </media:group>
  </entry>
@@ -250,7 +250,7 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-02-01T13:00:10+00:00</published>
-  <updated>2024-02-27T18:13:14+00:00</updated>
+  <updated>2024-03-01T05:20:15+00:00</updated>
   <media:group>
    <media:title>@CallMeKevin explores the wild world of simulation games</media:title>
    <media:content url="https://www.youtube.com/v/78Ok52tMB30?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -291,8 +291,8 @@ Featured Creators:
 
 #Gaming #SimulationGames #CallMeKevin</media:description>
    <media:community>
-    <media:starRating count="12541" average="5.00" min="1" max="5"/>
-    <media:statistics views="1252175"/>
+    <media:starRating count="12580" average="5.00" min="1" max="5"/>
+    <media:statistics views="1255811"/>
    </media:community>
   </media:group>
  </entry>
@@ -314,8 +314,8 @@ Featured Creators:
    <media:thumbnail url="https://i2.ytimg.com/vi/q49c-Wb1UBo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2778" average="5.00" min="1" max="5"/>
-    <media:statistics views="91932"/>
+    <media:starRating count="2806" average="5.00" min="1" max="5"/>
+    <media:statistics views="93192"/>
    </media:community>
   </media:group>
  </entry>
@@ -337,8 +337,8 @@ Featured Creators:
    <media:thumbnail url="https://i4.ytimg.com/vi/kwC5ABBK3mg/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2508" average="5.00" min="1" max="5"/>
-    <media:statistics views="104287"/>
+    <media:starRating count="2530" average="5.00" min="1" max="5"/>
+    <media:statistics views="105348"/>
    </media:community>
   </media:group>
  </entry>
@@ -360,8 +360,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/nQHNmvb37nc/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3434" average="5.00" min="1" max="5"/>
-    <media:statistics views="102923"/>
+    <media:starRating count="3471" average="5.00" min="1" max="5"/>
+    <media:statistics views="104138"/>
    </media:community>
   </media:group>
  </entry>
@@ -428,8 +428,8 @@ Featured Creators:
 
 #TTRPG #TabletopRoleplayGame #YouTube</media:description>
    <media:community>
-    <media:starRating count="5257" average="5.00" min="1" max="5"/>
-    <media:statistics views="1048156"/>
+    <media:starRating count="5316" average="5.00" min="1" max="5"/>
+    <media:statistics views="1065188"/>
    </media:community>
   </media:group>
  </entry>

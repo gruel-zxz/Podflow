@@ -255,8 +255,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="28265" average="5.00" min="1" max="5"/>
-    <media:statistics views="945480"/>
+    <media:starRating count="37517" average="5.00" min="1" max="5"/>
+    <media:statistics views="1485519"/>
    </media:community>
   </media:group>
  </entry>
@@ -264,16 +264,16 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
   <id>yt:video:bgnn1lsL1Fk</id>
   <yt:videoId>bgnn1lsL1Fk</yt:videoId>
   <yt:channelId>UCMUnInmOkrWN4gof9KlhNmQ</yt:channelId>
-  <title>遺傳，其實你的一切都來自父母 | 老高與小茉 Mr &amp; Mrs Gao</title>
+  <title>你的命是遺傳來的 | 老高與小茉 Mr &amp; Mrs Gao</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=bgnn1lsL1Fk"/>
   <author>
    <name>老高與小茉 Mr &amp; Mrs Gao</name>
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
   <published>2024-02-21T12:58:11+00:00</published>
-  <updated>2024-02-27T01:46:03+00:00</updated>
+  <updated>2024-02-29T16:05:09+00:00</updated>
   <media:group>
-   <media:title>遺傳，其實你的一切都來自父母 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
+   <media:title>你的命是遺傳來的 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/bgnn1lsL1Fk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i3.ytimg.com/vi/bgnn1lsL1Fk/hqdefault.jpg" width="480" height="360"/>
    <media:description>【加入會員按鈕】https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ/join
@@ -505,8 +505,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="41999" average="5.00" min="1" max="5"/>
-    <media:statistics views="1992261"/>
+    <media:starRating count="42421" average="5.00" min="1" max="5"/>
+    <media:statistics views="2025599"/>
    </media:community>
   </media:group>
  </entry>
@@ -755,8 +755,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="38744" average="5.00" min="1" max="5"/>
-    <media:statistics views="2001593"/>
+    <media:starRating count="38993" average="5.00" min="1" max="5"/>
+    <media:statistics views="2018620"/>
    </media:community>
   </media:group>
  </entry>
@@ -1005,8 +1005,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="50519" average="5.00" min="1" max="5"/>
-    <media:statistics views="2422530"/>
+    <media:starRating count="50641" average="5.00" min="1" max="5"/>
+    <media:statistics views="2431688"/>
    </media:community>
   </media:group>
  </entry>
@@ -1255,8 +1255,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="52485" average="5.00" min="1" max="5"/>
-    <media:statistics views="2629385"/>
+    <media:starRating count="52575" average="5.00" min="1" max="5"/>
+    <media:statistics views="2636701"/>
    </media:community>
   </media:group>
  </entry>
@@ -1505,8 +1505,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="57336" average="5.00" min="1" max="5"/>
-    <media:statistics views="3369344"/>
+    <media:starRating count="57392" average="5.00" min="1" max="5"/>
+    <media:statistics views="3376358"/>
    </media:community>
   </media:group>
  </entry>
@@ -1755,8 +1755,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="73368" average="5.00" min="1" max="5"/>
-    <media:statistics views="2976061"/>
+    <media:starRating count="73414" average="5.00" min="1" max="5"/>
+    <media:statistics views="2979450"/>
    </media:community>
   </media:group>
  </entry>
@@ -2005,8 +2005,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="48018" average="5.00" min="1" max="5"/>
-    <media:statistics views="2819745"/>
+    <media:starRating count="48052" average="5.00" min="1" max="5"/>
+    <media:statistics views="2822588"/>
    </media:community>
   </media:group>
  </entry>
@@ -2021,7 +2021,7 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
   <published>2024-01-03T13:43:15+00:00</published>
-  <updated>2024-02-27T02:56:04+00:00</updated>
+  <updated>2024-02-29T07:18:46+00:00</updated>
   <media:group>
    <media:title>2024預言，大事件 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/UjDmFq08XWI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -2255,8 +2255,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="76788" average="5.00" min="1" max="5"/>
-    <media:statistics views="3705854"/>
+    <media:starRating count="76864" average="5.00" min="1" max="5"/>
+    <media:statistics views="3713863"/>
    </media:community>
   </media:group>
  </entry>
@@ -2505,8 +2505,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="51512" average="5.00" min="1" max="5"/>
-    <media:statistics views="2886347"/>
+    <media:starRating count="51522" average="5.00" min="1" max="5"/>
+    <media:statistics views="2888801"/>
    </media:community>
   </media:group>
  </entry>
@@ -2521,7 +2521,7 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
   <published>2023-12-20T12:58:11+00:00</published>
-  <updated>2024-02-27T02:56:18+00:00</updated>
+  <updated>2024-02-29T00:27:17+00:00</updated>
   <media:group>
    <media:title>【隨時下架】千萬不要喝，喝了毀一生 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/OmED8FDtHAw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -2755,8 +2755,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="61958" average="5.00" min="1" max="5"/>
-    <media:statistics views="3171197"/>
+    <media:starRating count="61977" average="5.00" min="1" max="5"/>
+    <media:statistics views="3173429"/>
    </media:community>
   </media:group>
  </entry>
@@ -3005,8 +3005,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="48427" average="5.00" min="1" max="5"/>
-    <media:statistics views="3508108"/>
+    <media:starRating count="48469" average="5.00" min="1" max="5"/>
+    <media:statistics views="3517458"/>
    </media:community>
   </media:group>
  </entry>
@@ -3255,8 +3255,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="62635" average="5.00" min="1" max="5"/>
-    <media:statistics views="2864710"/>
+    <media:starRating count="62671" average="5.00" min="1" max="5"/>
+    <media:statistics views="2867854"/>
    </media:community>
   </media:group>
  </entry>
@@ -3505,8 +3505,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="39166" average="5.00" min="1" max="5"/>
-    <media:statistics views="2443525"/>
+    <media:starRating count="39187" average="5.00" min="1" max="5"/>
+    <media:statistics views="2446338"/>
    </media:community>
   </media:group>
  </entry>
@@ -3755,8 +3755,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="51290" average="5.00" min="1" max="5"/>
-    <media:statistics views="2868266"/>
+    <media:starRating count="51313" average="5.00" min="1" max="5"/>
+    <media:statistics views="2870773"/>
    </media:community>
   </media:group>
  </entry>
