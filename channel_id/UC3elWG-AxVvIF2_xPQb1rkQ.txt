@@ -33,7 +33,7 @@
 别忘了点赞、订阅，并在评论区分享你对男人爱车的看法和自己的经验。让我们一起来揭开男人心中的这个秘密吧！#男人爱车 #汽车情感 #幽默观察</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="78"/>
+    <media:statistics views="112"/>
    </media:community>
   </media:group>
  </entry>
@@ -59,8 +59,8 @@
 
 别忘了点赞、订阅，并在评论区分享您对这款车型的看法和自己的梦想之旅。让我们一起来实现环游世界的梦想吧！#长安汽车 #环球旅行 #梦想之旅</media:description>
    <media:community>
-    <media:starRating count="3" average="5.00" min="1" max="5"/>
-    <media:statistics views="54"/>
+    <media:starRating count="4" average="5.00" min="1" max="5"/>
+    <media:statistics views="75"/>
    </media:community>
   </media:group>
  </entry>
@@ -75,7 +75,7 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-02-27T09:29:23+00:00</published>
-  <updated>2024-02-29T04:34:10+00:00</updated>
+  <updated>2024-02-29T11:23:14+00:00</updated>
   <media:group>
    <media:title>一招让你拥有“老钱风”。#四季妈妈爱聊车</media:title>
    <media:content url="https://www.youtube.com/v/WcbVDET2O5U?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -87,7 +87,7 @@
 别忘了点赞、订阅，并在评论区分享你的看法和自己的经验。一起来感受“老钱风”的魅力吧！#生活态度 #独家秘籍 #幽默观察</media:description>
    <media:community>
     <media:starRating count="0" average="0.00" min="1" max="5"/>
-    <media:statistics views="73"/>
+    <media:statistics views="83"/>
    </media:community>
   </media:group>
  </entry>
@@ -114,7 +114,7 @@
 别忘了点赞、订阅，并在评论区分享您对这些车型的看法和自己的感受。一起来参与这场面子与自卑的吐槽大会吧！#车辆选择 #面子与自卑 #幽默观察</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="232"/>
+    <media:statistics views="238"/>
    </media:community>
   </media:group>
  </entry>
@@ -141,7 +141,7 @@
 别忘了点赞、订阅，并在评论区分享您对外观在选择中的看法和自己的经验。一起来参与这场外貌与市场的吐槽大会吧！#外貌选择 #市场价值 #幽默观察</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="244"/>
+    <media:statistics views="248"/>
    </media:community>
   </media:group>
  </entry>
@@ -168,7 +168,7 @@
 别忘了点赞、订阅，并在评论区分享您对这款车的看法和自己的车主经历。一起来参与这场揭秘男人选择的吐槽大会吧！#汽车选择 #男人座驾 #幽默观察</media:description>
    <media:community>
     <media:starRating count="41" average="5.00" min="1" max="5"/>
-    <media:statistics views="3690"/>
+    <media:statistics views="3695"/>
    </media:community>
   </media:group>
  </entry>
@@ -195,7 +195,7 @@
 别忘了点赞、订阅，并在评论区分享您对这些保护爱车的看法和自己的经验。一起来参与这场车主心声的吐槽大会吧！#爱车保养 #过年注意事项 #幽默观察</media:description>
    <media:community>
     <media:starRating count="96" average="5.00" min="1" max="5"/>
-    <media:statistics views="7676"/>
+    <media:statistics views="7683"/>
    </media:community>
   </media:group>
  </entry>
@@ -222,7 +222,7 @@
 别忘了点赞、订阅，并在评论区分享您对这些妙招的看法和自己的经验。一起来参与这场小钱办大事的吐槽大会吧！#聚会策划 #预算管理 #幽默观察</media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="204"/>
+    <media:statistics views="206"/>
    </media:community>
   </media:group>
  </entry>
@@ -264,7 +264,7 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-02-08T10:10:42+00:00</published>
-  <updated>2024-02-09T06:35:57+00:00</updated>
+  <updated>2024-02-29T18:12:15+00:00</updated>
   <media:group>
    <media:title>国产三蹦子风靡海外！四季妈妈爱聊车带你解密这股热潮 #四季妈妈爱聊车</media:title>
    <media:content url="https://www.youtube.com/v/SUd3tb-GlM0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -330,7 +330,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一问题的看法和自己的经验。一起来参与这场老公生气应对的吐槽大会吧！#家庭生活 #情感经验 #幽默观察</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="375"/>
+    <media:statistics views="376"/>
    </media:community>
   </media:group>
  </entry>
@@ -357,7 +357,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一说法的看法和自己的经验。一起来参与这场车是男人第二个家的吐槽大会吧！#车辆文化 #男人生活 #幽默观察</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="178"/>
+    <media:statistics views="179"/>
    </media:community>
   </media:group>
  </entry>
