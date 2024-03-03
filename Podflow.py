@@ -157,7 +157,7 @@ except ImportError:
         sys.exit(0)
 
 # HTTP 请求重试模块
-def http_client(url, name, max_retries=10, retry_delay=6, headers_possess=False, cookies=None, data=None, cookie_jar_name=None, mode="get"):
+def http_client(url, name, max_retries=10, retry_delay=4, headers_possess=False, cookies=None, data=None, cookie_jar_name=None, mode="get"):
     user_agent = {
         "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36"
     }
@@ -179,9 +179,9 @@ def http_client(url, name, max_retries=10, retry_delay=6, headers_possess=False,
     for num in range(max_retries):
         try:
             if mode == "get":
-                response = session.get(url, timeout=5)
+                response = session.get(url, timeout=3)
             else:
-                response = session.post(url, timeout=5)
+                response = session.post(url, timeout=3)
             response.raise_for_status()
         except Exception as http_get_error:
             if response is not None and response.status_code in {404}:
@@ -1273,7 +1273,7 @@ def update_information_display():
         try:
             terminal_width = os.get_terminal_size().columns
         except:
-            terminal_width = 48
+            terminal_width = 47
         # 尝试拆分输出
         try:
             for channelid_key, channelid_value in channelid_youtube_ids_update.items():
@@ -1287,7 +1287,7 @@ def update_information_display():
                             ).encode("GBK")
                         )
                         + len(f" | {channelid_value}".encode("utf-8"))
-                        < terminal_width
+                        <= terminal_width
                     ):
                         print_channelid_youtube_ids_update += " | "
                     else:
