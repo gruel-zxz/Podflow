@@ -33,7 +33,7 @@
 别忘了点赞、订阅，并在评论区分享你对男人爱车的看法和自己的经验。让我们一起来揭开男人心中的这个秘密吧！#男人爱车 #汽车情感 #幽默观察</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="112"/>
+    <media:statistics views="123"/>
    </media:community>
   </media:group>
  </entry>
@@ -48,7 +48,7 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-02-29T13:05:23+00:00</published>
-  <updated>2024-03-01T06:43:46+00:00</updated>
+  <updated>2024-03-03T01:26:33+00:00</updated>
   <media:group>
    <media:title>十万块钱，圆你环游世界的梦#四季妈妈爱聊车 #启新龘年有你真好 #长安第三代CS75PLUS</media:title>
    <media:content url="https://www.youtube.com/v/pkTLOLgZU4Q?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -60,7 +60,7 @@
 别忘了点赞、订阅，并在评论区分享您对这款车型的看法和自己的梦想之旅。让我们一起来实现环游世界的梦想吧！#长安汽车 #环球旅行 #梦想之旅</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="75"/>
+    <media:statistics views="83"/>
    </media:community>
   </media:group>
  </entry>
@@ -87,7 +87,7 @@
 别忘了点赞、订阅，并在评论区分享你的看法和自己的经验。一起来感受“老钱风”的魅力吧！#生活态度 #独家秘籍 #幽默观察</media:description>
    <media:community>
     <media:starRating count="0" average="0.00" min="1" max="5"/>
-    <media:statistics views="83"/>
+    <media:statistics views="91"/>
    </media:community>
   </media:group>
  </entry>
@@ -114,7 +114,7 @@
 别忘了点赞、订阅，并在评论区分享您对这些车型的看法和自己的感受。一起来参与这场面子与自卑的吐槽大会吧！#车辆选择 #面子与自卑 #幽默观察</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="238"/>
+    <media:statistics views="247"/>
    </media:community>
   </media:group>
  </entry>
@@ -141,7 +141,7 @@
 别忘了点赞、订阅，并在评论区分享您对外观在选择中的看法和自己的经验。一起来参与这场外貌与市场的吐槽大会吧！#外貌选择 #市场价值 #幽默观察</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="248"/>
+    <media:statistics views="249"/>
    </media:community>
   </media:group>
  </entry>
@@ -168,7 +168,7 @@
 别忘了点赞、订阅，并在评论区分享您对这款车的看法和自己的车主经历。一起来参与这场揭秘男人选择的吐槽大会吧！#汽车选择 #男人座驾 #幽默观察</media:description>
    <media:community>
     <media:starRating count="41" average="5.00" min="1" max="5"/>
-    <media:statistics views="3695"/>
+    <media:statistics views="3699"/>
    </media:community>
   </media:group>
  </entry>
@@ -222,7 +222,7 @@
 别忘了点赞、订阅，并在评论区分享您对这些妙招的看法和自己的经验。一起来参与这场小钱办大事的吐槽大会吧！#聚会策划 #预算管理 #幽默观察</media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="206"/>
+    <media:statistics views="207"/>
    </media:community>
   </media:group>
  </entry>
@@ -276,7 +276,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一现象的看法和自己的观点。一起来参与这场国产三蹦子的吐槽大会吧！#国产汽车 #海外热潮 #车辆文化</media:description>
    <media:community>
     <media:starRating count="13" average="5.00" min="1" max="5"/>
-    <media:statistics views="365"/>
+    <media:statistics views="366"/>
    </media:community>
   </media:group>
  </entry>
@@ -303,7 +303,7 @@
 别忘了点赞、订阅，并在评论区分享您对这个问题的看法和自己的经验。一起来参与这场改车选择的吐槽大会吧！#车辆改装 #选择困难 #幽默观察</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="488"/>
+    <media:statistics views="489"/>
    </media:community>
   </media:group>
  </entry>

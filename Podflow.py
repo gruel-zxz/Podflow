@@ -60,10 +60,11 @@ default_config = {
 print(f"{datetime.now().strftime('%H:%M:%S')}|Podflow开始运行.....")
 
 # 全局变量
-channelid_youtube_ids_update = {} # 需要更新的YouTube频道姿字典
+channelid_youtube_ids_update = {}  # 需更新的YouTube频道字典
+youtube_content_ytid_update = {}  # 需下载YouTube视频字典
+channelid_youtube_rss = {}  # YouTube频道最新Rss Response字典
 yt_id_failed = []  # YouTube视频下载失败列表
 youtube_content_ytid_update_format = {}  # YouTube视频下载的详细信息字典
-
 hash_rss_original = ""  # 原始rss哈希值文本
 xmls_original = {}  # 原始xml信息字典
 youtube_xml_get_tree = {}  # YouTube频道简介和图标字典
@@ -224,7 +225,7 @@ def read_today_library_log():
         # 释放 lines 变量内存空间
         del log_lines
         return today_library_log
-    except:
+    except Exception:
         return ""
 
 # 安装库模块
@@ -287,14 +288,14 @@ library_install_list = [
 library_import = False
 today_library_log = read_today_library_log()
 
-while library_import == False:
+while library_import is False:
     try:
         import qrcode
         import yt_dlp
         from astral.sun import sun
         from astral import LocationInfo
         library_import = True
-    except:
+    except ImportError:
         today_library_log = ""
     for library in library_install_list:
         if library not in today_library_log:
@@ -835,7 +836,7 @@ def dl_aideo_video(
             # 执行FFmpeg命令
             try:
                 subprocess.run(ffmpeg_cmd, check=True, capture_output=True, text=True)
-                print(f" \033[32m合成成功\033[0m")
+                print(" \033[32m合成成功\033[0m")
                 os.remove(f"channel_audiovisual/{output_dir}/{video_url}.part.mp4")
                 os.remove(f"channel_audiovisual/{output_dir}/{video_url}.part.m4a")
             except subprocess.CalledProcessError as dl_aideo_video_error:
@@ -1154,21 +1155,8 @@ if channelid_bilibili is not None:
 else:
     channelid_bilibili_ids = None
 
-# 更新Youtube频道xml
-channelid_youtube_ids_update = {}  # 创建需更新的频道
-youtube_content_ytid_update = {}  # 创建需下载视频列表
-channelid_youtube_rss = {}
-# 判断频道id是否正确
-pattern_youtube404 = r"Error 404 \(Not Found\)"  # 设置要匹配的正则表达式模式
-pattern_youtube_varys = [
-    r"[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-2][0-9]:[0-6][0-9]:[0-6][0-9]\+00:00",
-    r'starRating count="[0-9]*"',
-    r'statistics views="[0-9]*"',
-    r"<id>yt:channel:(UC)?(.{22})?</id>",
-    r"<yt:channelId>(UC)?(.{22})?</yt:channelId>",
-]
-
-def youtube_rss_update(youtube_key, youtube_value):
+# 更新Youtube频道xml模块
+def youtube_rss_update(youtube_key, youtube_value, pattern_youtube_varys):
     # 构建 URL
     youtube_url = f"https://www.youtube.com/feeds/videos.xml?channel_id={youtube_key}"
     youtube_response = http_client(youtube_url, youtube_value)
@@ -1229,41 +1217,51 @@ def youtube_rss_update(youtube_key, youtube_value):
             ] = True
             youtube_content_ytid_update[youtube_key] = youtube_content_ytid
 
-# 创建线程列表
-youtube_rss_update_threads = []
-for youtube_key, youtube_value in channelid_youtube_ids.items():
-    thread = threading.Thread(
-        target=youtube_rss_update, args=(youtube_key, youtube_value)
-    )
-    youtube_rss_update_threads.append(thread)
-    thread.start()
-# 等待所有线程完成
-for thread in youtube_rss_update_threads:
-    thread.join()
-for youtube_key, youtube_value in channelid_youtube_ids.copy().items():
-    youtube_response = channelid_youtube_rss[youtube_key]
-    # 异常xml排查及重新获取
-    num_try_update = 0
-    while youtube_response is not None and ((re.search(pattern_youtube404, youtube_response.text, re.DOTALL) and num_try_update < 3) or not re.search(rf"{youtube_key}", youtube_response.text, re.DOTALL)):
-        print(f"{datetime.now().strftime('%H:%M:%S')}|YouTube频道 {youtube_value}|\033[31m获取异常重试中...\033[97m{num_try_update + 1}\033[0m")
-        youtube_rss_update(youtube_key, youtube_value)
-        num_try_update += 1
+# 更新Youtube频道xml多线程模块
+def update_youtube_rss():
+    pattern_youtube404 = r"Error 404 \(Not Found\)"  # 设置要匹配的正则表达式模式
+    pattern_youtube_varys = [
+        r"[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-2][0-9]:[0-6][0-9]:[0-6][0-9]\+00:00",
+        r'starRating count="[0-9]*"',
+        r'statistics views="[0-9]*"',
+        r"<id>yt:channel:(UC)?(.{22})?</id>",
+        r"<yt:channelId>(UC)?(.{22})?</yt:channelId>",
+    ]
+    youtube_rss_update_threads = []  # 创建线程列表
+    for youtube_key, youtube_value in channelid_youtube_ids.items():
+        thread = threading.Thread(
+            target=youtube_rss_update, args=(youtube_key, youtube_value, pattern_youtube_varys)
+        )
+        youtube_rss_update_threads.append(thread)
+        thread.start()
+    # 等待所有线程完成
+    for thread in youtube_rss_update_threads:
+        thread.join()
+    for youtube_key, youtube_value in channelid_youtube_ids.copy().items():
         youtube_response = channelid_youtube_rss[youtube_key]
-    # xml分类及存储
-    if youtube_response is not None:
-        youtube_content = youtube_response.text
-        if re.search(pattern_youtube404, youtube_content, re.DOTALL):
-            del channelid_youtube_ids[youtube_key]  # 删除错误ID
-            write_log(f"YouTube频道 {youtube_value} ID不正确无法获取")
+        # 异常xml排查及重新获取
+        num_try_update = 0
+        while youtube_response is not None and ((re.search(pattern_youtube404, youtube_response.text, re.DOTALL) and num_try_update < 3) or not re.search(rf"{youtube_key}", youtube_response.text, re.DOTALL)):
+            print(f"{datetime.now().strftime('%H:%M:%S')}|YouTube频道 {youtube_value}|\033[31m获取异常重试中...\033[97m{num_try_update + 1}\033[0m")
+            youtube_rss_update(youtube_key, youtube_value, pattern_youtube_varys)
+            num_try_update += 1
+            youtube_response = channelid_youtube_rss[youtube_key]
+        # xml分类及存储
+        if youtube_response is not None:
+            youtube_content = youtube_response.text
+            # 判断频道id是否正确
+            if re.search(pattern_youtube404, youtube_content, re.DOTALL):
+                del channelid_youtube_ids[youtube_key]  # 删除错误ID
+                write_log(f"YouTube频道 {youtube_value} ID不正确无法获取")
+            else:
+                # 构建文件
+                file_save(youtube_content, f"{youtube_key}.txt", "channel_id")
+                # 构建频道文件夹
+                folder_build(youtube_key, "channel_audiovisual")
         else:
-            # 构建文件
-            file_save(youtube_content, f"{youtube_key}.txt", "channel_id")
-            # 构建频道文件夹
-            folder_build(youtube_key, "channel_audiovisual")
-    else:
-        if not os.path.exists(os.path.join("channel_id", f"{youtube_key}.txt")):
-            del channelid_youtube_ids[youtube_key]
-        write_log(f"YouTube频道 {youtube_value} 无法更新")
+            if not os.path.exists(os.path.join("channel_id", f"{youtube_key}.txt")):
+                del channelid_youtube_ids[youtube_key]
+            write_log(f"YouTube频道 {youtube_value} 无法更新")
 
 # 输出需要更新的信息模块
 def update_information_display():
@@ -1272,7 +1270,7 @@ def update_information_display():
         # 获取命令行字节宽度
         try:
             terminal_width = os.get_terminal_size().columns
-        except:
+        except OSError:
             terminal_width = 47
         # 尝试拆分输出
         try:
@@ -1801,7 +1799,7 @@ def backup_zip_save(file_content):
     # 使用哈希值判断新老rss是否一致
     if hash_overall_rss == hash_rss_original:
         judging_save = True
-        write_log(f"无更新内容将不进行备份")
+        write_log("无更新内容将不进行备份")
     else:
         judging_save = False
 
@@ -1921,6 +1919,8 @@ def del_makeup_yt_format_fail(overall_rss):
         overall_rss = re.sub(pattern_youtube_fail_item, replacement_youtube_fail_item, overall_rss, flags=re.DOTALL)
     return overall_rss
 
+# 更新Youtube频道xml
+update_youtube_rss()
 # 输出需要更新的信息
 update_information_display()
 # 获取YouTube视频格式信息
