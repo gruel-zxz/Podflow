@@ -60,6 +60,13 @@ default_config = {
 print(f"{datetime.now().strftime('%H:%M:%S')}|Podflow开始运行.....")
 
 # 全局变量
+config = {}  #配置文件字典
+channelid_youtube = {}  # YouTube频道字典
+channelid_bilibili = {}  # 哔哩哔哩频道字典
+channelid_youtube_ids = {}  # YouTube频道ID字典
+channelid_youtube_ids_original = {}  # 原始YouTube频道ID字典
+channelid_bilibili_ids = {}  # YouTube频道ID字典
+channelid_bilibili_ids_original = {}  # 原始YouTube频道ID字典
 channelid_youtube_ids_update = {}  # 需更新的YouTube频道字典
 youtube_content_ytid_update = {}  # 需下载YouTube视频字典
 channelid_youtube_rss = {}  # YouTube频道最新Rss Response字典
@@ -871,143 +878,140 @@ def split_dict(data, chunk_size=100, firse_item_only=False):
             chunks.append(chunk)
         return chunks
 
-# 检查当前文件夹中是否存在config.json文件
-if not os.path.exists("config.json"):
-    # 如果文件不存在, 创建并写入默认字典
-    with open("config.json", "w") as file:
-        json.dump(default_config, file, indent=4)
-    write_log("不存在配置文件, 已新建, 默认频道")
-    config = default_config
-else:
-    # 如果文件存在, 读取字典并保存到config变量中
-    try:
-        with open("config.json", "r", encoding="utf-8") as file:
-            config = json.load(file)
-        write_log("已读取配置文件")
-    # 如果config格式有问题, 停止运行并报错
-    except Exception as config_error:
-        write_log(f"配置文件有误, 请检查config.json, {str(config_error)}")
-        sys.exit(0)
+# 获取配置信息config模块
+def get_config():
+    # 检查当前文件夹中是否存在config.json文件
+    if not os.path.exists("config.json"):
+        # 如果文件不存在, 创建并写入默认字典
+        with open("config.json", "w") as file:
+            json.dump(default_config, file, indent=4)
+        write_log("不存在配置文件, 已新建, 默认频道")
+        config = default_config
+    else:
+        # 如果文件存在, 读取字典并保存到config变量中
+        try:
+            with open("config.json", "r", encoding="utf-8") as file:
+                config = json.load(file)
+            write_log("已读取配置文件")
+        # 如果config格式有问题, 停止运行并报错
+        except Exception as config_error:
+            write_log(f"配置文件有误, 请检查config.json, {str(config_error)}")
+            sys.exit(0)
+    return config
 
-# 对completion_count进行纠正
-if (
-    "completion_count" not in config
-    or not isinstance(config["completion_count"], int)
-    or config["completion_count"] < 0
-):
-    config["completion_count"] = default_config["completion_count"]
-# 对preparation_per_count进行纠正
-if (
-    "preparation_per_count" not in config
-    or not isinstance(config["preparation_per_count"], int)
-    or config["preparation_per_count"] <= 0
-):
-    config["preparation_per_count"] = default_config["preparation_per_count"]
-# 对retry_count进行纠正
-if (
-    "retry_count" not in config
-    or not isinstance(config["retry_count"], int)
-    or config["retry_count"] <= 0
-):
-    config["retry_count"] = default_config["retry_count"]
-# 对url进行纠正
-if "url" not in config or not re.search(
-    r"^(https?|ftp)://[^\s/$.?#].[^\s]*$", config["url"]
-):
-    config["url"] = default_config["url"]
-# 对title进行纠正
-if "title" not in config:
-    config["title"] = default_config["title"]
-# 对filename进行纠正
-if "filename" not in config:
-    config["filename"] = default_config["filename"]
-# 对link进行纠正
-if "link" not in config or not re.search(
-    r"^(https?|ftp)://[^\s/$.?#].[^\s]*$", config["link"]
-):
-    config["link"] = default_config["link"]
-# 对description进行纠正
-if "description" not in config:
-    config["description"] = default_config["description"]
-# 对icon进行纠正
-if "icon" not in config or not re.search(
-    r"^(https?|ftp)://[^\s/$.?#].[^\s]*$", config["icon"]
-):
-    config["icon"] = default_config["icon"]
-# 对category进行纠正
-if "category" not in config:
-    config["category"] = default_config["category"]
+# 纠正配置信息config模块
+def correct_config():
+    # 对completion_count进行纠正
+    if (
+        "completion_count" not in config
+        or not isinstance(config["completion_count"], int)
+        or config["completion_count"] < 0
+    ):
+        config["completion_count"] = default_config["completion_count"]
+    # 对preparation_per_count进行纠正
+    if (
+        "preparation_per_count" not in config
+        or not isinstance(config["preparation_per_count"], int)
+        or config["preparation_per_count"] <= 0
+    ):
+        config["preparation_per_count"] = default_config["preparation_per_count"]
+    # 对retry_count进行纠正
+    if (
+        "retry_count" not in config
+        or not isinstance(config["retry_count"], int)
+        or config["retry_count"] <= 0
+    ):
+        config["retry_count"] = default_config["retry_count"]
+    # 对url进行纠正
+    if "url" not in config or not re.search(
+        r"^(https?|ftp)://[^\s/$.?#].[^\s]*$", config["url"]
+    ):
+        config["url"] = default_config["url"]
+    # 对title进行纠正
+    if "title" not in config:
+        config["title"] = default_config["title"]
+    # 对filename进行纠正
+    if "filename" not in config:
+        config["filename"] = default_config["filename"]
+    # 对link进行纠正
+    if "link" not in config or not re.search(
+        r"^(https?|ftp)://[^\s/$.?#].[^\s]*$", config["link"]
+    ):
+        config["link"] = default_config["link"]
+    # 对description进行纠正
+    if "description" not in config:
+        config["description"] = default_config["description"]
+    # 对icon进行纠正
+    if "icon" not in config or not re.search(
+        r"^(https?|ftp)://[^\s/$.?#].[^\s]*$", config["icon"]
+    ):
+        config["icon"] = default_config["icon"]
+    # 对category进行纠正
+    if "category" not in config:
+        config["category"] = default_config["category"]
 
-# 根据日出日落修改封面(只适用原封面)
-if config["icon"] == default_config["icon"]:
-    # 获取公网IP地址
-    response = http_client("https://ipinfo.io", "日出日落信息", 10, 6)
-    if response:
-        data = response.json()
-        # 提取经度和纬度
-        coordinates = data["loc"].split(",")
-        latitude = coordinates[0]
-        longitude = coordinates[1]
-        # 创建一个 LocationInfo 对象，只提供经纬度信息
-        location = LocationInfo("", "", "", latitude=latitude, longitude=longitude)
-        # 获取当前日期和时间，并为其添加时区信息
-        now = datetime.now(timezone.utc)
-        yesterday = now - timedelta(days=1)
-        tommorrow = now + timedelta(days=1)
-        def sunrise_sunset(time):
-            # 创建一个 Sun 对象
-            sun_time = sun(location.observer, date=time)
-            # 计算日出和日落时间，以及日落前和日出后的一小时
-            sunrise = sun_time["sunrise"]
-            sunset = sun_time["sunset"]
-            sunrise_minus_one_hour = sunrise  # - timedelta(hours=1)
-            sunset_plus_one_hour = sunset  # + timedelta(hours=1)
-            return sunrise_minus_one_hour, sunset_plus_one_hour
-        sunrise_now, sunset_now = sunrise_sunset(now)
-        sunrise_yesterday, sunset_yesterday = sunrise_sunset(yesterday)
-        sunrise_tommorrow, sunset_tommorrow = sunrise_sunset(tommorrow)
-        # 判断现在是白天还是晚上
-        if sunrise_now < sunset_now:
-            if (
-                sunrise_now < now < sunset_now
-                or sunrise_yesterday < now < sunset_yesterday
-                or sunrise_tommorrow < now < sunset_tommorrow
-            ):
-                picture_name = "Podflow_light"
-            else:
-                picture_name = "Podflow_dark"
+# 根据经纬度判断昼夜模块
+def judging_day_and_night(latitude, longitude):
+    # 创建一个 LocationInfo 对象，只提供经纬度信息
+    location = LocationInfo("", "", "", latitude=latitude, longitude=longitude)
+    # 获取当前日期和时间，并为其添加时区信息
+    now = datetime.now(timezone.utc)
+    yesterday = now - timedelta(days=1)
+    tommorrow = now + timedelta(days=1)
+    def sunrise_sunset(time):
+        # 创建一个 Sun 对象
+        sun_time = sun(location.observer, date=time)
+        # 计算日出和日落时间，以及日落前和日出后的一小时
+        sunrise = sun_time["sunrise"]
+        sunset = sun_time["sunset"]
+        sunrise_minus_one_hour = sunrise  # - timedelta(hours=1)
+        sunset_plus_one_hour = sunset  # + timedelta(hours=1)
+        return sunrise_minus_one_hour, sunset_plus_one_hour
+    sunrise_now, sunset_now = sunrise_sunset(now)
+    sunrise_yesterday, sunset_yesterday = sunrise_sunset(yesterday)
+    sunrise_tommorrow, sunset_tommorrow = sunrise_sunset(tommorrow)
+    # 判断现在是白天还是晚上
+    if sunrise_now < sunset_now:
+        if (
+            sunrise_now < now < sunset_now
+            or sunrise_yesterday < now < sunset_yesterday
+            or sunrise_tommorrow < now < sunset_tommorrow
+        ):
+            return "light"
         else:
-            if (
-                sunrise_now > now > sunset_now
-                or sunrise_yesterday > now > sunset_yesterday
-                or sunrise_tommorrow > now > sunset_tommorrow
-            ):
-                picture_name = "Podflow_dark"
-            else:
-                picture_name = "Podflow_light"
-        config[
-            "icon"
-        ] = f"https://raw.githubusercontent.com/gruel-zxz/podflow/main/{picture_name}.png"
+            return "dark"
+    else:
+        if (
+            sunrise_now > now > sunset_now
+            or sunrise_yesterday > now > sunset_yesterday
+            or sunrise_tommorrow > now > sunset_tommorrow
+        ):
+            return "dark"
+        else:
+            return "light"
 
-# 从配置文件中获取YouTube的频道
-if "channelid_youtube" in config:
-    channelid_youtube = config["channelid_youtube"]
-    write_log("已读取youtube频道信息")
-else:
-    channelid_youtube = None
-    write_log("youtube频道信息不存在")
-# 从配置文件中获取bilibili的频道
-if "channelid_bilibili" in config:
-    channelid_bilibili = config["channelid_bilibili"]
-    write_log("已读取bilibili频道信息")
-else:
-    channelid_bilibili = None
-    write_log("bilibili频道信息不存在")
+# 根据日出日落修改封面(只适用原封面)模块
+def channge_icon():
+    if config["icon"] == default_config["icon"]:
+        # 获取公网IP地址
+        response = http_client("https://ipinfo.io", "日出日落信息", 10, 6)
+        if response:
+            data = response.json()
+            # 提取经度和纬度
+            coordinates = data["loc"].split(",")
+            latitude = coordinates[0]
+            longitude = coordinates[1]
+            picture_name = f"Podflow_{judging_day_and_night(latitude, longitude)}"
+            config["icon"] = f"https://raw.githubusercontent.com/gruel-zxz/podflow/main/{picture_name}.png"
 
-# 构建文件夹channel_id
-folder_build("channel_id")
-# 构建文件夹channel_audiovisual
-folder_build("channel_audiovisual")
+# 从配置文件中获取频道模块
+def get_channelid(name):
+    if f"channelid_{name}" in config:
+        write_log(f"已读取{name}频道信息")
+        return config[f"channelid_{name}"]
+    else:
+        write_log(f"{name}频道信息不存在")
+        return None
 
 # channelid修正模块
 def correct_channelid(channelid, website):
@@ -1134,26 +1138,16 @@ def correct_channelid(channelid, website):
                 channelid[channelid_key]["QRcode"] = False
     return channelid
 
-# 修正channelid_youtube
-channelid_youtube = correct_channelid(channelid_youtube, "youtube")
-
-# 读取youtube频道的id
-if channelid_youtube is not None:
-    channelid_youtube_ids = dict(
-        {channel["id"]: key for key, channel in channelid_youtube.items()}
-    )
-    write_log("读取youtube频道的channelid成功")
-else:
-    channelid_youtube_ids = None
-channelid_youtube_ids_original = channelid_youtube_ids.copy()  # 复制youtube频道id用于删除已抛弃的媒体文件夹
-# 读取bilibili频道的id
-if channelid_bilibili is not None:
-    channelid_bilibili_ids = [
-        channelid_bilibili[key]["id"] for key in channelid_bilibili
-    ]
-    write_log("读取bilibili频道的channelid成功")
-else:
-    channelid_bilibili_ids = None
+# 读取频道ID模块
+def get_channelid_id(channelid):
+    if channelid is not None:
+        channelid_ids = dict(
+            {channel["id"]: key for key, channel in channelid.items()}
+        )
+        write_log("读取youtube频道的channelid成功")
+    else:
+        channelid_ids = None
+    return channelid_ids
 
 # 更新Youtube频道xml模块
 def youtube_rss_update(youtube_key, youtube_value, pattern_youtube_varys):
@@ -1918,6 +1912,29 @@ def del_makeup_yt_format_fail(overall_rss):
         replacement_youtube_fail_item = f'<!-- {make_up_file_format_fail[yt_id]} -->'
         overall_rss = re.sub(pattern_youtube_fail_item, replacement_youtube_fail_item, overall_rss, flags=re.DOTALL)
     return overall_rss
+
+#获取配置文件config
+config = get_config()
+# 纠正配置信息config
+correct_config()
+# 根据日出日落修改封面(只适用原封面)
+channge_icon()
+# 从配置文件中获取YouTube的频道
+channelid_youtube = get_channelid("youtube")
+# 从配置文件中获取哔哩哔哩的频道
+channelid_bilibili = get_channelid("bilibili")
+# 构建文件夹channel_id
+folder_build("channel_id")
+# 构建文件夹channel_audiovisual
+folder_build("channel_audiovisual")
+# 修正channelid_youtube
+channelid_youtube = correct_channelid(channelid_youtube, "youtube")
+# 读取youtube频道的id
+channelid_youtube_ids = get_channelid_id(channelid_youtube)
+# 复制youtube频道id用于删除已抛弃的媒体文件夹
+channelid_youtube_ids_original = channelid_youtube_ids.copy()
+# 读取bilibili频道的id
+channelid_bilibili_ids = get_channelid_id(channelid_bilibili)
 
 # 更新Youtube频道xml
 update_youtube_rss()

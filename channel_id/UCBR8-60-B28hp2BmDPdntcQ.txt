@@ -27,8 +27,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/9mlKH-h5az4/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1546" average="5.00" min="1" max="5"/>
-    <media:statistics views="46888"/>
+    <media:starRating count="1755" average="5.00" min="1" max="5"/>
+    <media:statistics views="57316"/>
    </media:community>
   </media:group>
  </entry>
@@ -50,8 +50,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/F0W9nBpO7zU/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1541" average="5.00" min="1" max="5"/>
-    <media:statistics views="47681"/>
+    <media:starRating count="1673" average="5.00" min="1" max="5"/>
+    <media:statistics views="52165"/>
    </media:community>
   </media:group>
  </entry>
@@ -73,8 +73,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/l99nzkak0Gs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1902" average="5.00" min="1" max="5"/>
-    <media:statistics views="71206"/>
+    <media:starRating count="1963" average="5.00" min="1" max="5"/>
+    <media:statistics views="73486"/>
    </media:community>
   </media:group>
  </entry>
@@ -96,8 +96,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/N6vvD8jXB94/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3046" average="5.00" min="1" max="5"/>
-    <media:statistics views="85877"/>
+    <media:starRating count="3136" average="5.00" min="1" max="5"/>
+    <media:statistics views="89086"/>
    </media:community>
   </media:group>
  </entry>
@@ -119,8 +119,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/tc52SWcMwXk/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2885" average="5.00" min="1" max="5"/>
-    <media:statistics views="127727"/>
+    <media:starRating count="2948" average="5.00" min="1" max="5"/>
+    <media:statistics views="129897"/>
    </media:community>
   </media:group>
  </entry>
@@ -142,8 +142,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/bX0YHFif81U/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3430" average="5.00" min="1" max="5"/>
-    <media:statistics views="91124"/>
+    <media:starRating count="3502" average="5.00" min="1" max="5"/>
+    <media:statistics views="93217"/>
    </media:community>
   </media:group>
  </entry>
@@ -165,8 +165,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/LaKS5B3enNY/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2516" average="5.00" min="1" max="5"/>
-    <media:statistics views="93783"/>
+    <media:starRating count="2549" average="5.00" min="1" max="5"/>
+    <media:statistics views="95052"/>
    </media:community>
   </media:group>
  </entry>
@@ -188,8 +188,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/SmUjSY0ZHlo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3344" average="5.00" min="1" max="5"/>
-    <media:statistics views="103932"/>
+    <media:starRating count="3390" average="5.00" min="1" max="5"/>
+    <media:statistics views="105907"/>
    </media:community>
   </media:group>
  </entry>
@@ -211,8 +211,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/fMHBCtJu-7A/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2153" average="5.00" min="1" max="5"/>
-    <media:statistics views="75936"/>
+    <media:starRating count="2176" average="5.00" min="1" max="5"/>
+    <media:statistics views="76999"/>
    </media:community>
   </media:group>
  </entry>
@@ -234,8 +234,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/aw6iKr6ndZU/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2382" average="5.00" min="1" max="5"/>
-    <media:statistics views="91758"/>
+    <media:starRating count="2402" average="5.00" min="1" max="5"/>
+    <media:statistics views="92665"/>
    </media:community>
   </media:group>
  </entry>
@@ -250,7 +250,7 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-02-01T13:00:10+00:00</published>
-  <updated>2024-03-01T05:20:15+00:00</updated>
+  <updated>2024-03-05T03:34:25+00:00</updated>
   <media:group>
    <media:title>@CallMeKevin explores the wild world of simulation games</media:title>
    <media:content url="https://www.youtube.com/v/78Ok52tMB30?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -291,8 +291,8 @@ Featured Creators:
 
 #Gaming #SimulationGames #CallMeKevin</media:description>
    <media:community>
-    <media:starRating count="12766" average="5.00" min="1" max="5"/>
-    <media:statistics views="1272731"/>
+    <media:starRating count="15043" average="5.00" min="1" max="5"/>
+    <media:statistics views="1781874"/>
    </media:community>
   </media:group>
  </entry>
@@ -314,8 +314,8 @@ Featured Creators:
    <media:thumbnail url="https://i2.ytimg.com/vi/q49c-Wb1UBo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2892" average="5.00" min="1" max="5"/>
-    <media:statistics views="97016"/>
+    <media:starRating count="2920" average="5.00" min="1" max="5"/>
+    <media:statistics views="98248"/>
    </media:community>
   </media:group>
  </entry>
@@ -337,8 +337,8 @@ Featured Creators:
    <media:thumbnail url="https://i4.ytimg.com/vi/kwC5ABBK3mg/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2586" average="5.00" min="1" max="5"/>
-    <media:statistics views="108885"/>
+    <media:starRating count="2607" average="5.00" min="1" max="5"/>
+    <media:statistics views="110016"/>
    </media:community>
   </media:group>
  </entry>
@@ -360,8 +360,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/nQHNmvb37nc/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3575" average="5.00" min="1" max="5"/>
-    <media:statistics views="108079"/>
+    <media:starRating count="3607" average="5.00" min="1" max="5"/>
+    <media:statistics views="109495"/>
    </media:community>
   </media:group>
  </entry>
@@ -428,8 +428,8 @@ Featured Creators:
 
 #TTRPG #TabletopRoleplayGame #YouTube</media:description>
    <media:community>
-    <media:starRating count="5409" average="5.00" min="1" max="5"/>
-    <media:statistics views="1117475"/>
+    <media:starRating count="5423" average="5.00" min="1" max="5"/>
+    <media:statistics views="1122307"/>
    </media:community>
   </media:group>
  </entry>
