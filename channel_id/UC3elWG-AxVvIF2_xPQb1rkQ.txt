@@ -21,7 +21,7 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-03-05T10:11:36+00:00</published>
-  <updated>2024-03-05T16:32:34+00:00</updated>
+  <updated>2024-03-06T06:33:41+00:00</updated>
   <media:group>
    <media:title>什么车不车的，视频最后的大哥才是真的赢家#四季妈妈爱聊车</media:title>
    <media:content url="https://www.youtube.com/v/xhOoBWCFlw8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -32,8 +32,8 @@
 
 别忘了点赞、订阅，并在评论区分享你对这个话题的看法和自己的经验。让我们一起来看看谁才是最终的赢家吧！#汽车竞争 #胜利者 #幽默观察</media:description>
    <media:community>
-    <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="86"/>
+    <media:starRating count="5" average="5.00" min="1" max="5"/>
+    <media:statistics views="119"/>
    </media:community>
   </media:group>
  </entry>
@@ -60,7 +60,7 @@
 别忘了点赞、订阅，并在评论区分享你对男人爱车的看法和自己的经验。让我们一起来揭开男人心中的这个秘密吧！#男人爱车 #汽车情感 #幽默观察</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="133"/>
+    <media:statistics views="140"/>
    </media:community>
   </media:group>
  </entry>
@@ -114,7 +114,7 @@
 别忘了点赞、订阅，并在评论区分享你的看法和自己的经验。一起来感受“老钱风”的魅力吧！#生活态度 #独家秘籍 #幽默观察</media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="105"/>
+    <media:statistics views="107"/>
    </media:community>
   </media:group>
  </entry>
@@ -141,7 +141,7 @@
 别忘了点赞、订阅，并在评论区分享您对这些车型的看法和自己的感受。一起来参与这场面子与自卑的吐槽大会吧！#车辆选择 #面子与自卑 #幽默观察</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="255"/>
+    <media:statistics views="256"/>
    </media:community>
   </media:group>
  </entry>
@@ -195,7 +195,7 @@
 别忘了点赞、订阅，并在评论区分享您对这款车的看法和自己的车主经历。一起来参与这场揭秘男人选择的吐槽大会吧！#汽车选择 #男人座驾 #幽默观察</media:description>
    <media:community>
     <media:starRating count="41" average="5.00" min="1" max="5"/>
-    <media:statistics views="3703"/>
+    <media:statistics views="3707"/>
    </media:community>
   </media:group>
  </entry>
@@ -249,7 +249,7 @@
 别忘了点赞、订阅，并在评论区分享您对这些妙招的看法和自己的经验。一起来参与这场小钱办大事的吐槽大会吧！#聚会策划 #预算管理 #幽默观察</media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="208"/>
+    <media:statistics views="207"/>
    </media:community>
   </media:group>
  </entry>
@@ -276,7 +276,7 @@
 别忘了点赞、订阅，并在评论区分享您对这些技巧的看法和自己的经验。一起来参与这场拿捏山东老丈人的吐槽大会吧！#亲家关系 #家庭相处 #幽默观察</media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="150"/>
+    <media:statistics views="151"/>
    </media:community>
   </media:group>
  </entry>

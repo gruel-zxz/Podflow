@@ -480,6 +480,7 @@ def video_format(video_website, video_url, media="m4a", quality="480"):
             fail_message = (
                 (str(message_error))
                 .replace("ERROR: ", "")
+                .replace("\033[0;31mERROR:\033[0m ", "")
                 .replace(f"{video_url}: ", "")
                 .replace("[youtube] ", "")
             )
@@ -657,6 +658,7 @@ def download_video(
         def error(self, msg):
             print(
                 msg.replace("ERROR: ", "")
+                .replace("\033[0;31mERROR:\033[0m ", "")
                 .replace(f"{video_url}: ", "")
                 .replace("[youtube] ", "")
                 .replace("[download] ", "")
@@ -677,6 +679,7 @@ def download_video(
         write_log(
             (f"{video_write_log} \033[31m下载失败\033[0m\n错误信息：{str(download_video_error)}")
             .replace("ERROR: ", "")
+            .replace("\033[0;31mERROR:\033[0m ", "")
             .replace(f"{video_url}: ", "")
             .replace("[youtube] ", "")
         )  # 写入下载失败的日志信息
@@ -1612,10 +1615,15 @@ def create_hash(data):
 
 # rss生成哈希值模块
 def rss_create_hash(data):
-    pattern = r"<lastBuildDate>(\w+), (\d{2}) (\w+) (\d{4}) (\d{2}):(\d{2}):(\d{2}) \+\d{4}</lastBuildDate>"
+    patterns = [
+        r"<lastBuildDate>(\w+), (\d{2}) (\w+) (\d{4}) (\d{2}):(\d{2}):(\d{2}) \+\d{4}</lastBuildDate>",
+        r"Podflow_light\.png",
+        r"Podflow_dark\.png"
+    ]
     replacement = ""
-    new_date = re.sub(pattern, replacement, data)
-    hash_value = create_hash(new_date)
+    for pattern in patterns:
+        data = re.sub(pattern, replacement, data)
+    hash_value = create_hash(data)
     return hash_value
 
 # 获取原始xml模块
