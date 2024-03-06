@@ -21,7 +21,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-03-05T08:06:15+00:00</published>
-  <updated>2024-03-05T08:23:13+00:00</updated>
+  <updated>2024-03-05T14:10:49+00:00</updated>
   <media:group>
    <media:title>人生命结束后，灵魂将去那里</media:title>
    <media:content url="https://www.youtube.com/v/pQbtHBEonTY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -98,7 +98,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="24"/>
+    <media:statistics views="41"/>
    </media:community>
   </media:group>
  </entry>
@@ -121,7 +121,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="30"/>
+    <media:statistics views="33"/>
    </media:community>
   </media:group>
  </entry>
@@ -144,7 +144,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="36"/>
+    <media:statistics views="39"/>
    </media:community>
   </media:group>
  </entry>
@@ -167,7 +167,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="530"/>
+    <media:statistics views="531"/>
    </media:community>
   </media:group>
  </entry>
@@ -205,7 +205,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-02-29T00:15:10+00:00</published>
-  <updated>2024-03-02T06:54:58+00:00</updated>
+  <updated>2024-03-05T02:55:37+00:00</updated>
   <media:group>
    <media:title>世界上最长寿的9种动物</media:title>
    <media:content url="https://www.youtube.com/v/1Ayw8X9Wb7I?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -213,7 +213,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="41"/>
+    <media:statistics views="40"/>
    </media:community>
   </media:group>
  </entry>
@@ -236,7 +236,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="31"/>
+    <media:statistics views="30"/>
    </media:community>
   </media:group>
  </entry>
@@ -282,7 +282,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="35"/>
+    <media:statistics views="34"/>
    </media:community>
   </media:group>
  </entry>
@@ -305,7 +305,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="36"/>
+    <media:statistics views="38"/>
    </media:community>
   </media:group>
  </entry>
