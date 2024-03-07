@@ -65,8 +65,9 @@ channelid_youtube = {}  # YouTube频道字典
 channelid_bilibili = {}  # 哔哩哔哩频道字典
 channelid_youtube_ids = {}  # YouTube频道ID字典
 channelid_youtube_ids_original = {}  # 原始YouTube频道ID字典
-channelid_bilibili_ids = {}  # YouTube频道ID字典
-channelid_bilibili_ids_original = {}  # 原始YouTube频道ID字典
+channelid_bilibili_ids = {}  # 哔哩哔哩频道ID字典
+channelid_bilibili_ids_original = {}  # 原始哔哩哔哩频道ID字典
+
 channelid_youtube_ids_update = {}  # 需更新的YouTube频道字典
 youtube_content_ytid_update = {}  # 需下载YouTube视频字典
 channelid_youtube_rss = {}  # YouTube频道最新Rss Response字典
@@ -1358,7 +1359,7 @@ def get_youtube_video_format_multithreading(youtube_content_ytid_update_format_i
     # 创建共享的标志变量
     stop_flag = ["keep"]  # 使用列表来存储标志变量
     # 创建两个线程分别运行等待动画和其他代码，并传递共享的标志变量
-    prepare_youtube_animation = threading.Thread(target=wait_animation, args=(stop_flag, wait_animation_display_info))
+    prepare_youtube_animation = threading.Thread(target=wait_animation, args=(stop_flag, wait_animation_display_info,))
     prepare_youtube_get = threading.Thread(target=before_youtube_video_format, args=(stop_flag,))
     # 启动两个线程
     prepare_youtube_animation.start()
@@ -1993,17 +1994,21 @@ make_up_file_mod()
 try:
     arguments = sys.argv[1]
 except IndexError:
-        arguments = None
+    arguments = None
 if arguments == "a-shell":
     # 启动 RangeHTTPServer
     server_process = subprocess.Popen(
         ["open", "shortcuts://run-shortcut?name=Podflow&input=text&text=http"]
     )
+    sleep_num = 60
+else:
+    arguments = int(arguments)
+    if isinstance(arguments, int) and arguments > 0:
+        sleep_num = arguments
+    else:
+        sleep_num = 1
 server_process = subprocess.Popen(["python3", "-m", "RangeHTTPServer"])
 # 延时
-if arguments == "a-shell":
-    time.sleep(60)
-else:
-    time.sleep(1)
+time.sleep(sleep_num)
 # 关闭服务器
 server_process.terminate()
