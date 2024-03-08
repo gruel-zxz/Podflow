@@ -1765,11 +1765,8 @@ def youtube_xml_items(output_dir):
         f"{output_dir}.xml",
         "channel_rss",
     )
-    write_log(
-        f"{channelid_youtube_ids[output_dir]} 播客{update_text}",
-        f"地址:\n\033[34m{config['url']}/channel_rss/{output_dir}.xml\033[0m",
-        channelid_youtube[channelid_youtube_ids[output_dir]]["DisplayRSSaddress"],
-    )
+    if channelid_youtube[channelid_youtube_ids[output_dir]]["DisplayRSSaddress"]:
+        print(f"{datetime.now().strftime('%H:%M:%S')}|{channelid_youtube_ids[output_dir]} 播客{update_text}|地址:\n\033[34m{config['url']}/channel_rss/{output_dir}.xml\033[0m")
     if (
         channelid_youtube[channelid_youtube_ids[output_dir]]["DisplayRSSaddress"]
         and channelid_youtube[channelid_youtube_ids[output_dir]]["QRcode"]
@@ -1922,12 +1919,76 @@ def del_makeup_yt_format_fail(overall_rss):
         overall_rss = re.sub(pattern_youtube_fail_item, replacement_youtube_fail_item, overall_rss, flags=re.DOTALL)
     return overall_rss
 
+# 主更新模块
+def main_update():
+    # 设置全局变量
+    global channelid_youtube_ids_update, youtube_content_ytid_update, channelid_youtube_rss, yt_id_failed, youtube_content_ytid_update_format, hash_rss_original, xmls_original, youtube_xml_get_tree, all_youtube_content_ytid, all_items, overall_rss, make_up_file_format, make_up_file_format_fail
+    # 根据日出日落修改封面(只适用原封面)
+    channge_icon()
+    # 更新Youtube频道xml
+    update_youtube_rss()
+    # 输出需要更新的信息
+    update_information_display()
+    # 获取YouTube视频格式信息
+    get_youtube_format()
+    # 下载YouTube视频
+    youtube_download()
+    # 获取原始xml字典和rss文本
+    xmls_original, hash_rss_original = get_original_rss()
+
+    # 获取youtube频道简介
+    get_youtube_introduction()
+    # 生成分和主rss
+    create_main_rss()
+    # 删除不在rss中的媒体文件
+    remove_file()
+    # 删除已抛弃的媒体文件夹
+    remove_dir()
+    # 补全缺失媒体文件到字典
+    make_up_file()
+    # 按参数获取需要补全的最大个数
+    make_up_file_format = split_dict(make_up_file_format, config["completion_count"], True)[0]
+    # 补全在rss中缺失的媒体格式信息
+    make_up_file_format_mod()
+    # 生成主rss
+    overall_rss = xml_rss(
+        config["title"],
+        config["link"],
+        config["description"],
+        config["category"],
+        config["icon"],
+        "\n".join(all_items),
+        )
+    # 删除无法补全的媒体
+    overall_rss = del_makeup_yt_format_fail(overall_rss)
+    # 保存主rss
+    file_save(overall_rss, f"{config['filename']}.xml")
+    write_log("总播客已更新", f"地址:\n\033[34m{config['url']}/{config['filename']}.xml\033[0m")
+    qr_code(f"{config['url']}/{config['filename']}.xml")
+    # 备份主rss
+    backup_zip_save(overall_rss)
+    # 下载补全YouTube视频模块
+    make_up_file_mod()
+
+    # 清空变量内数据
+    channelid_youtube_ids_update.clear()  # 需更新的YouTube频道字典
+    youtube_content_ytid_update.clear()  # 需下载YouTube视频字典
+    channelid_youtube_rss.clear()  # YouTube频道最新Rss Response字典
+    yt_id_failed.clear()  # YouTube视频下载失败列表
+    youtube_content_ytid_update_format.clear()  # YouTube视频下载的详细信息字典
+    hash_rss_original = ""  # 原始rss哈希值文本
+    xmls_original.clear()  # 原始xml信息字典
+    youtube_xml_get_tree.clear()  # YouTube频道简介和图标字典
+    all_youtube_content_ytid.clear()  # 所有YouTube视频id字典
+    all_items.clear()  # 更新后所有item明细列表
+    overall_rss = ""  # 更新后的rss文本
+    make_up_file_format.clear()  # 补全缺失媒体字典
+    make_up_file_format_fail.clear()  # 补全缺失媒体失败字典
+
 #获取配置文件config
 config = get_config()
 # 纠正配置信息config
 correct_config()
-# 根据日出日落修改封面(只适用原封面)
-channge_icon()
 # 从配置文件中获取YouTube的频道
 channelid_youtube = get_channelid("youtube")
 # 从配置文件中获取哔哩哔哩的频道
@@ -1936,6 +1997,8 @@ channelid_bilibili = get_channelid("bilibili")
 folder_build("channel_id")
 # 构建文件夹channel_audiovisual
 folder_build("channel_audiovisual")
+# 构建文件夹channel_rss
+folder_build("channel_rss")
 # 修正channelid_youtube
 channelid_youtube = correct_channelid(channelid_youtube, "youtube")
 # 读取youtube频道的id
@@ -1945,69 +2008,30 @@ channelid_youtube_ids_original = channelid_youtube_ids.copy()
 # 读取bilibili频道的id
 channelid_bilibili_ids = get_channelid_id(channelid_bilibili)
 
-# 更新Youtube频道xml
-update_youtube_rss()
-# 输出需要更新的信息
-update_information_display()
-# 获取YouTube视频格式信息
-get_youtube_format()
-# 下载YouTube视频
-youtube_download()
-# 获取原始xml字典和rss文本
-xmls_original, hash_rss_original = get_original_rss()
-# 构建文件夹channel_rss
-folder_build("channel_rss")
-# 获取youtube频道简介
-get_youtube_introduction()
-# 生成分和主rss
-create_main_rss()
-# 删除不在rss中的媒体文件
-remove_file()
-# 删除已抛弃的媒体文件夹
-remove_dir()
-# 补全缺失媒体文件到字典
-make_up_file()
-# 按参数获取需要补全的最大个数
-make_up_file_format = split_dict(make_up_file_format, config["completion_count"], True)[0]
-# 补全在rss中缺失的媒体格式信息
-make_up_file_format_mod()
-# 生成主rss
-overall_rss = xml_rss(
-    config["title"],
-    config["link"],
-    config["description"],
-    config["category"],
-    config["icon"],
-    "\n".join(all_items),
-    )
-# 删除无法补全的媒体
-overall_rss = del_makeup_yt_format_fail(overall_rss)
-# 保存主rss
-file_save(overall_rss, f"{config['filename']}.xml")
-write_log("总播客已更新", f"地址:\n\033[34m{config['url']}/{config['filename']}.xml\033[0m")
-qr_code(f"{config['url']}/{config['filename']}.xml")
-# 备份主rss
-backup_zip_save(overall_rss)
-# 下载补全YouTube视频模块
-make_up_file_mod()
+# 启动 RangeHTTPServer
+server_process = subprocess.Popen(["python3", "-m", "RangeHTTPServer"])
+
+# 主更新
+main_update()
 
 try:
     arguments = sys.argv[1]
 except IndexError:
     arguments = None
 if arguments == "a-shell":
-    # 启动 RangeHTTPServer
     server_process = subprocess.Popen(
         ["open", "shortcuts://run-shortcut?name=Podflow&input=text&text=http"]
     )
     sleep_num = 60
 else:
-    arguments = int(arguments)
-    if isinstance(arguments, int) and arguments > 0:
-        sleep_num = arguments
-    else:
+    try:
+        arguments = int(arguments)
+        if isinstance(arguments, int) and arguments > 0:
+            sleep_num = arguments
+        else:
+            sleep_num = 1
+    except ValueError:
         sleep_num = 1
-server_process = subprocess.Popen(["python3", "-m", "RangeHTTPServer"])
 # 延时
 time.sleep(sleep_num)
 # 关闭服务器

@@ -21,7 +21,7 @@
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
   <published>2024-03-06T13:30:10+00:00</published>
-  <updated>2024-03-07T07:09:51+00:00</updated>
+  <updated>2024-03-07T21:21:10+00:00</updated>
   <media:group>
    <media:title>世界上所有的災難，都是神明對我們的提醒，一定要關好所有的門 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/kppn__POdp4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -255,8 +255,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="25236" average="5.00" min="1" max="5"/>
-    <media:statistics views="911222"/>
+    <media:starRating count="32358" average="5.00" min="1" max="5"/>
+    <media:statistics views="1333963"/>
    </media:community>
   </media:group>
  </entry>
@@ -271,7 +271,7 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
   <published>2024-02-28T12:58:08+00:00</published>
-  <updated>2024-03-02T18:10:20+00:00</updated>
+  <updated>2024-03-06T21:52:01+00:00</updated>
   <media:group>
    <media:title>人不會死，一名醫生親眼看到的魂 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/OsajhwXixoo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -505,8 +505,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="47966" average="5.00" min="1" max="5"/>
-    <media:statistics views="2248436"/>
+    <media:starRating count="48461" average="5.00" min="1" max="5"/>
+    <media:statistics views="2290665"/>
    </media:community>
   </media:group>
  </entry>
@@ -755,8 +755,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="44300" average="5.00" min="1" max="5"/>
-    <media:statistics views="2191189"/>
+    <media:starRating count="44453" average="5.00" min="1" max="5"/>
+    <media:statistics views="2207001"/>
    </media:community>
   </media:group>
  </entry>
@@ -1005,8 +1005,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="39826" average="5.00" min="1" max="5"/>
-    <media:statistics views="2091404"/>
+    <media:starRating count="39934" average="5.00" min="1" max="5"/>
+    <media:statistics views="2098881"/>
    </media:community>
   </media:group>
  </entry>
@@ -1255,8 +1255,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="51232" average="5.00" min="1" max="5"/>
-    <media:statistics views="2480054"/>
+    <media:starRating count="51327" average="5.00" min="1" max="5"/>
+    <media:statistics views="2486202"/>
    </media:community>
   </media:group>
  </entry>
@@ -1505,8 +1505,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="53074" average="5.00" min="1" max="5"/>
-    <media:statistics views="2679629"/>
+    <media:starRating count="53133" average="5.00" min="1" max="5"/>
+    <media:statistics views="2685025"/>
    </media:community>
   </media:group>
  </entry>
@@ -1755,8 +1755,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="57752" average="5.00" min="1" max="5"/>
-    <media:statistics views="3417400"/>
+    <media:starRating count="57792" average="5.00" min="1" max="5"/>
+    <media:statistics views="3422007"/>
    </media:community>
   </media:group>
  </entry>
@@ -2005,8 +2005,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="73601" average="5.00" min="1" max="5"/>
-    <media:statistics views="2996344"/>
+    <media:starRating count="73632" average="5.00" min="1" max="5"/>
+    <media:statistics views="2998672"/>
    </media:community>
   </media:group>
  </entry>
@@ -2255,8 +2255,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="48253" average="5.00" min="1" max="5"/>
-    <media:statistics views="2840710"/>
+    <media:starRating count="48282" average="5.00" min="1" max="5"/>
+    <media:statistics views="2843355"/>
    </media:community>
   </media:group>
  </entry>
@@ -2505,8 +2505,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="77254" average="5.00" min="1" max="5"/>
-    <media:statistics views="3757325"/>
+    <media:starRating count="77308" average="5.00" min="1" max="5"/>
+    <media:statistics views="3763678"/>
    </media:community>
   </media:group>
  </entry>
@@ -2755,8 +2755,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="51642" average="5.00" min="1" max="5"/>
-    <media:statistics views="2904166"/>
+    <media:starRating count="51669" average="5.00" min="1" max="5"/>
+    <media:statistics views="2906769"/>
    </media:community>
   </media:group>
  </entry>
@@ -3005,8 +3005,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="62099" average="5.00" min="1" max="5"/>
-    <media:statistics views="3187454"/>
+    <media:starRating count="62109" average="5.00" min="1" max="5"/>
+    <media:statistics views="3189503"/>
    </media:community>
   </media:group>
  </entry>
@@ -3021,7 +3021,7 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
   <published>2023-12-13T12:58:08+00:00</published>
-  <updated>2024-02-10T12:48:49+00:00</updated>
+  <updated>2024-03-07T21:51:07+00:00</updated>
   <media:group>
    <media:title>【震撼】信息量更大，四十三分鐘講完來自非洲薩滿的人類真相 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/OlVP0OUrfFI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -3255,8 +3255,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="48696" average="5.00" min="1" max="5"/>
-    <media:statistics views="3569676"/>
+    <media:starRating count="48732" average="5.00" min="1" max="5"/>
+    <media:statistics views="3580485"/>
    </media:community>
   </media:group>
  </entry>
@@ -3505,8 +3505,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="62959" average="5.00" min="1" max="5"/>
-    <media:statistics views="2888918"/>
+    <media:starRating count="62988" average="5.00" min="1" max="5"/>
+    <media:statistics views="2892416"/>
    </media:community>
   </media:group>
  </entry>
@@ -3755,8 +3755,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="39329" average="5.00" min="1" max="5"/>
-    <media:statistics views="2467182"/>
+    <media:starRating count="39356" average="5.00" min="1" max="5"/>
+    <media:statistics views="2470464"/>
    </media:community>
   </media:group>
  </entry>
