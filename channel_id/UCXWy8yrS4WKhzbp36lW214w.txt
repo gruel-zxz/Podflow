@@ -29,7 +29,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="0" average="0.00" min="1" max="5"/>
-    <media:statistics views="8"/>
+    <media:statistics views="40"/>
    </media:community>
   </media:group>
  </entry>
@@ -44,7 +44,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-03-07T07:05:50+00:00</published>
-  <updated>2024-03-07T21:05:31+00:00</updated>
+  <updated>2024-03-08T06:52:00+00:00</updated>
   <media:group>
    <media:title>脑洞大开的另类葬礼</media:title>
    <media:content url="https://www.youtube.com/v/36JRKNTHCEg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -74,8 +74,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/5UQf1CE3E9g/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3" average="5.00" min="1" max="5"/>
-    <media:statistics views="82"/>
+    <media:starRating count="4" average="5.00" min="1" max="5"/>
+    <media:statistics views="164"/>
    </media:community>
   </media:group>
  </entry>
@@ -167,7 +167,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="102"/>
+    <media:statistics views="104"/>
    </media:community>
   </media:group>
  </entry>
@@ -190,7 +190,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="70"/>
+    <media:statistics views="72"/>
    </media:community>
   </media:group>
  </entry>
@@ -228,7 +228,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-03-02T00:15:11+00:00</published>
-  <updated>2024-03-02T00:21:27+00:00</updated>
+  <updated>2024-03-07T01:26:42+00:00</updated>
   <media:group>
    <media:title>达尔文奖，愚蠢死法大赏</media:title>
    <media:content url="https://www.youtube.com/v/Qn5Os-d5IkI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -328,7 +328,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="75"/>
+    <media:statistics views="76"/>
    </media:community>
   </media:group>
  </entry>
