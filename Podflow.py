@@ -68,6 +68,8 @@ channelid_youtube_ids_original = {}  # 原始YouTube频道ID字典
 channelid_bilibili_ids = {}  # 哔哩哔哩频道ID字典
 channelid_bilibili_ids_original = {}  # 原始哔哩哔哩频道ID字典
 
+server_process_print_flag = ["keep"]  # 进程打印标志列表
+
 channelid_youtube_ids_update = {}  # 需更新的YouTube频道字典
 youtube_content_ytid_update = {}  # 需下载YouTube视频字典
 channelid_youtube_rss = {}  # YouTube频道最新Rss Response字典
@@ -1922,24 +1924,35 @@ def del_makeup_yt_format_fail(overall_rss):
 # 主更新模块
 def main_update():
     # 设置全局变量
-    global channelid_youtube_ids_update, youtube_content_ytid_update, channelid_youtube_rss, yt_id_failed, youtube_content_ytid_update_format, hash_rss_original, xmls_original, youtube_xml_get_tree, all_youtube_content_ytid, all_items, overall_rss, make_up_file_format, make_up_file_format_fail
+    global channelid_youtube_ids_update, youtube_content_ytid_update, channelid_youtube_rss, yt_id_failed, youtube_content_ytid_update_format, hash_rss_original, xmls_original, youtube_xml_get_tree, all_youtube_content_ytid, all_items, overall_rss, make_up_file_format, make_up_file_format_fail, server_process_print_flag
     # 根据日出日落修改封面(只适用原封面)
     channge_icon()
     # 更新Youtube频道xml
     update_youtube_rss()
     # 输出需要更新的信息
     update_information_display()
+    # 暂停进程打印
+    server_process_print_flag[0] = "pause"
     # 获取YouTube视频格式信息
     get_youtube_format()
+    # 恢复进程打印
+    server_process_print_flag[0] = "keep"
+    # 暂停进程打印
+    server_process_print_flag[0] = "pause"
     # 下载YouTube视频
     youtube_download()
+    # 恢复进程打印
+    server_process_print_flag[0] = "keep"
     # 获取原始xml字典和rss文本
     xmls_original, hash_rss_original = get_original_rss()
-
     # 获取youtube频道简介
     get_youtube_introduction()
+    # 暂停进程打印
+    server_process_print_flag[0] = "pause"
     # 生成分和主rss
     create_main_rss()
+    # 恢复进程打印
+    server_process_print_flag[0] = "keep"
     # 删除不在rss中的媒体文件
     remove_file()
     # 删除已抛弃的媒体文件夹
@@ -1948,8 +1961,12 @@ def main_update():
     make_up_file()
     # 按参数获取需要补全的最大个数
     make_up_file_format = split_dict(make_up_file_format, config["completion_count"], True)[0]
+    # 暂停进程打印
+    server_process_print_flag[0] = "pause"
     # 补全在rss中缺失的媒体格式信息
     make_up_file_format_mod()
+    # 恢复进程打印
+    server_process_print_flag[0] = "keep"
     # 生成主rss
     overall_rss = xml_rss(
         config["title"],
@@ -1963,12 +1980,20 @@ def main_update():
     overall_rss = del_makeup_yt_format_fail(overall_rss)
     # 保存主rss
     file_save(overall_rss, f"{config['filename']}.xml")
+    # 暂停进程打印
+    server_process_print_flag[0] = "pause"
     write_log("总播客已更新", f"地址:\n\033[34m{config['url']}/{config['filename']}.xml\033[0m")
     qr_code(f"{config['url']}/{config['filename']}.xml")
+    # 恢复进程打印
+    server_process_print_flag[0] = "keep"
     # 备份主rss
     backup_zip_save(overall_rss)
+    # 暂停进程打印
+    server_process_print_flag[0] = "pause"
     # 下载补全YouTube视频模块
     make_up_file_mod()
+    # 恢复进程打印
+    server_process_print_flag[0] = "keep"
 
     # 清空变量内数据
     channelid_youtube_ids_update.clear()  # 需更新的YouTube频道字典
@@ -2008,31 +2033,73 @@ channelid_youtube_ids_original = channelid_youtube_ids.copy()
 # 读取bilibili频道的id
 channelid_bilibili_ids = get_channelid_id(channelid_bilibili)
 
-# 启动 RangeHTTPServer
-server_process = subprocess.Popen(["python3", "-m", "RangeHTTPServer"])
-
-# 主更新
-main_update()
-
+# 尝试获取命令行参数
 try:
-    arguments = sys.argv[1]
+    argument = sys.argv[1]
 except IndexError:
-    arguments = None
-if arguments == "a-shell":
-    server_process = subprocess.Popen(
-        ["open", "shortcuts://run-shortcut?name=Podflow&input=text&text=http"]
-    )
-    sleep_num = 60
+    argument = None
+# 判断命令行参数
+if argument == "a-shell" or ".json" in argument:
+    update_num = 1
 else:
     try:
-        arguments = int(arguments)
-        if isinstance(arguments, int) and arguments > 0:
-            sleep_num = arguments
-        else:
-            sleep_num = 1
+        argument = int(argument)
+        update_num = argument if isinstance(argument, int) and argument > 0 else 1
     except ValueError:
-        sleep_num = 1
-# 延时
-time.sleep(sleep_num)
-# 关闭服务器
-server_process.terminate()
+        update_num = -1
+# 启动 RangeHTTPServer
+httpserver_process = subprocess.Popen(["python3", "-m", "RangeHTTPServer"], stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+# 进程打印标志初始化
+server_process_print_flag = ["keep"]
+
+# 进程打印模块
+def server_process_print():
+    global httpserver_process, server_process_print_flag
+    need_keep = ""
+    while True:
+        output = httpserver_process.stdout.readline().decode().strip()
+        if need_keep == "":
+            need_keep = output
+        elif output != "" and output != "\n":
+            need_keep += f"\n{output}"
+        if server_process_print_flag[0] == "keep":
+            print(need_keep)
+            need_keep = ""
+        if server_process_print_flag[0] == "end":
+            break
+        time.sleep(0.1)
+
+# 循环主更新模块
+def circulate_main_update(num):
+    global httpserver_process, argument, server_process_print_flag
+    while num > 0 or num == -1:
+        main_update()
+        if num != -1:
+            num -= 1
+        if argument == "a-shell":
+            openserver_process = subprocess.Popen(
+                ["open", "shortcuts://run-shortcut?name=Podflow&input=text&text=http"]
+            )
+            # 延时
+            time.sleep(60)
+            openserver_process.terminate()
+            break
+        elif num == 0:
+            break
+        else:
+            # 延时
+            time.sleep(30)
+    httpserver_process.terminate()
+    server_process_print_flag[0] = "end"
+
+# 创建两个线程分别执行输出和终止操作
+prepare_print = threading.Thread(target=server_process_print)
+prepare_update = threading.Thread(target=circulate_main_update, args=(update_num,))
+
+# 启动两个线程
+prepare_print.start()
+prepare_update.start()
+
+# 等待两个线程结束
+prepare_print.join()
+prepare_update.join()
