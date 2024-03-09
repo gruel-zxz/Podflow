@@ -1363,6 +1363,7 @@ def get_youtube_video_format_multithreading(youtube_content_ytid_update_format_i
     for thread in youtube_content_ytid_update_threads:
         thread.join()
     stop_flag[0] = "end"
+    prepare_youtube_animation.join()
 
 # 获取YouTube视频格式信息模块
 def get_youtube_format():
@@ -1971,13 +1972,12 @@ def server_process_print():
             need_keep = ""
         if server_process_print_flag[0] == "end":
             break
-        time.sleep(1)
-
-# 启动 RangeHTTPServer
-httpserver_process = subprocess.Popen(["python3", "-m", "RangeHTTPServer"], stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
 
 # 创建进程打印线程
 prepare_print = threading.Thread(target=server_process_print)
+
+# 启动 RangeHTTPServer
+httpserver_process = subprocess.Popen(["python3", "-m", "RangeHTTPServer"], stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
 
 # 启动进程打印线程
 prepare_print.start()
@@ -2085,5 +2085,8 @@ while update_num > 0 or update_num == -1:
         # 延时
         time.sleep(900)
 
+# 停止 RangeHTTPServer
 httpserver_process.terminate()
 server_process_print_flag[0] = "end"
+prepare_print.join()
+print(f"{datetime.now().strftime('%H:%M:%S')}|Podflow运行结束")
