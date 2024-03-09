@@ -30,7 +30,7 @@
 这是一部非常硬核的国产长篇科幻小说，作者用专业的知识，为我们呈现了这部《造神年代》，建议感兴趣的同学阅读原著。《造神年代》原著：严曦。</media:description>
    <media:community>
     <media:starRating count="99" average="5.00" min="1" max="5"/>
-    <media:statistics views="4161"/>
+    <media:statistics views="4177"/>
    </media:community>
   </media:group>
  </entry>
@@ -359,7 +359,7 @@
 不过主线剧情已经更新完毕，未收录的内容仅剩下人类最终生活在小宇宙中的场景。</media:description>
    <media:community>
     <media:starRating count="542" average="5.00" min="1" max="5"/>
-    <media:statistics views="37027"/>
+    <media:statistics views="37028"/>
    </media:community>
   </media:group>
  </entry>

@@ -32,8 +32,8 @@
 
 别忘了点赞、订阅，并在评论区分享你对男人下班后“必去地点”的看法和自己的观察。让我们一起来探讨这个有趣的话题吧！#男人生活 #消遣去处 #幽默观察</media:description>
    <media:community>
-    <media:starRating count="0" average="0.00" min="1" max="5"/>
-    <media:statistics views="32"/>
+    <media:starRating count="1" average="5.00" min="1" max="5"/>
+    <media:statistics views="35"/>
    </media:community>
   </media:group>
  </entry>
@@ -141,7 +141,7 @@
 别忘了点赞、订阅，并在评论区分享你的看法和自己的经验。一起来感受“老钱风”的魅力吧！#生活态度 #独家秘籍 #幽默观察</media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="111"/>
+    <media:statistics views="112"/>
    </media:community>
   </media:group>
  </entry>
