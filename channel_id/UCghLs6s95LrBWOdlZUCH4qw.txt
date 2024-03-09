@@ -21,7 +21,7 @@
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
   <published>2024-03-08T19:12:24+00:00</published>
-  <updated>2024-03-08T19:19:53+00:00</updated>
+  <updated>2024-03-09T05:55:10+00:00</updated>
   <media:group>
    <media:title>解读两会：拜登把美国变成一个巨大的培养皿，习近平无动于衷（20240308第6883期）</media:title>
    <media:content url="https://www.youtube.com/v/hCPh2Qh5uUM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -78,8 +78,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="211" average="5.00" min="1" max="5"/>
-    <media:statistics views="19331"/>
+    <media:starRating count="277" average="5.00" min="1" max="5"/>
+    <media:statistics views="35311"/>
    </media:community>
   </media:group>
  </entry>
@@ -94,7 +94,7 @@ https://youtu.be/BbtTwsP_-zc</media:description>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
   <published>2024-03-08T07:18:26+00:00</published>
-  <updated>2024-03-08T08:16:34+00:00</updated>
+  <updated>2024-03-09T06:43:55+00:00</updated>
   <media:group>
    <media:title>李洪志跑路了，你们还死活要练法轮功，不能怪陈桂林痛下杀手（20240307第6882期）</media:title>
    <media:content url="https://www.youtube.com/v/TPV-ZEOqehQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -151,8 +151,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="422" average="5.00" min="1" max="5"/>
-    <media:statistics views="59524"/>
+    <media:starRating count="443" average="5.00" min="1" max="5"/>
+    <media:statistics views="70610"/>
    </media:community>
   </media:group>
  </entry>
@@ -224,8 +224,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="76" average="5.00" min="1" max="5"/>
-    <media:statistics views="11597"/>
+    <media:starRating count="75" average="5.00" min="1" max="5"/>
+    <media:statistics views="12866"/>
    </media:community>
   </media:group>
  </entry>
@@ -240,7 +240,7 @@ https://youtu.be/BbtTwsP_-zc</media:description>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
   <published>2024-03-07T17:34:32+00:00</published>
-  <updated>2024-03-08T06:56:54+00:00</updated>
+  <updated>2024-03-09T06:30:20+00:00</updated>
   <media:group>
    <media:title>2023年摩根士丹利瑞士腕表年度报告（20240307第6879期）</media:title>
    <media:content url="https://www.youtube.com/v/PIb9-XNWIYs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -297,8 +297,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="117" average="5.00" min="1" max="5"/>
-    <media:statistics views="20998"/>
+    <media:starRating count="115" average="5.00" min="1" max="5"/>
+    <media:statistics views="22057"/>
    </media:community>
   </media:group>
  </entry>
@@ -370,8 +370,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="271" average="5.00" min="1" max="5"/>
-    <media:statistics views="62215"/>
+    <media:starRating count="273" average="5.00" min="1" max="5"/>
+    <media:statistics views="66374"/>
    </media:community>
   </media:group>
  </entry>
@@ -443,8 +443,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="131" average="5.00" min="1" max="5"/>
-    <media:statistics views="22760"/>
+    <media:starRating count="129" average="5.00" min="1" max="5"/>
+    <media:statistics views="23335"/>
    </media:community>
   </media:group>
  </entry>
@@ -517,7 +517,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="110" average="5.00" min="1" max="5"/>
-    <media:statistics views="15809"/>
+    <media:statistics views="16197"/>
    </media:community>
   </media:group>
  </entry>
@@ -590,7 +590,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="31" average="5.00" min="1" max="5"/>
-    <media:statistics views="5384"/>
+    <media:statistics views="5515"/>
    </media:community>
   </media:group>
  </entry>
@@ -663,7 +663,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="33" average="5.00" min="1" max="5"/>
-    <media:statistics views="3811"/>
+    <media:statistics views="3895"/>
    </media:community>
   </media:group>
  </entry>
@@ -735,8 +735,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="573" average="5.00" min="1" max="5"/>
-    <media:statistics views="110215"/>
+    <media:starRating count="575" average="5.00" min="1" max="5"/>
+    <media:statistics views="112687"/>
    </media:community>
   </media:group>
  </entry>
@@ -808,8 +808,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="185" average="5.00" min="1" max="5"/>
-    <media:statistics views="24463"/>
+    <media:starRating count="184" average="5.00" min="1" max="5"/>
+    <media:statistics views="24812"/>
    </media:community>
   </media:group>
  </entry>
@@ -881,8 +881,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="177" average="5.00" min="1" max="5"/>
-    <media:statistics views="33700"/>
+    <media:starRating count="179" average="5.00" min="1" max="5"/>
+    <media:statistics views="33917"/>
    </media:community>
   </media:group>
  </entry>
@@ -954,8 +954,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="174" average="5.00" min="1" max="5"/>
-    <media:statistics views="28329"/>
+    <media:starRating count="175" average="5.00" min="1" max="5"/>
+    <media:statistics views="28588"/>
    </media:community>
   </media:group>
  </entry>
@@ -1027,8 +1027,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="300" average="5.00" min="1" max="5"/>
-    <media:statistics views="38581"/>
+    <media:starRating count="302" average="5.00" min="1" max="5"/>
+    <media:statistics views="38987"/>
    </media:community>
   </media:group>
  </entry>
@@ -1100,8 +1100,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="278" average="5.00" min="1" max="5"/>
-    <media:statistics views="41555"/>
+    <media:starRating count="280" average="5.00" min="1" max="5"/>
+    <media:statistics views="41849"/>
    </media:community>
   </media:group>
  </entry>

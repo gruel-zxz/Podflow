@@ -11,6 +11,33 @@
  </author>
  <published>2022-06-04T16:17:27+00:00</published>
  <entry>
+  <id>yt:video:HRqse3S-a_o</id>
+  <yt:videoId>HRqse3S-a_o</yt:videoId>
+  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
+  <title>果然，男人下班后都喜欢去这些地方，是有原因的#爱吐槽的四季妈妈 #家庭吐槽大会</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=HRqse3S-a_o"/>
+  <author>
+   <name>四季妈妈—小龙</name>
+   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
+  </author>
+  <published>2024-03-09T07:43:57+00:00</published>
+  <updated>2024-03-09T08:02:20+00:00</updated>
+  <media:group>
+   <media:title>果然，男人下班后都喜欢去这些地方，是有原因的#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
+   <media:content url="https://www.youtube.com/v/HRqse3S-a_o?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/HRqse3S-a_o/hqdefault.jpg" width="480" height="360"/>
+   <media:description>大家好，欢迎来到我的频道！今天我们要讨论的是男人下班后喜欢去的那些地方，其背后的原因绝非偶然！四季妈妈爱吐槽，带你一起揭秘男人下班后的必去地点。
+
+在这期视频中，我将分享一些男人常去的地方，以及背后的原因和逻辑。从酒吧到体育场馆，再到美食街，这些地方不仅仅是为了消遣放松，更多时候是为了寻求某种满足或解压。让我们一起来看看这些地方的真实内涵！
+
+别忘了点赞、订阅，并在评论区分享你对男人下班后“必去地点”的看法和自己的观察。让我们一起来探讨这个有趣的话题吧！#男人生活 #消遣去处 #幽默观察</media:description>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="32"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:xhOoBWCFlw8</id>
   <yt:videoId>xhOoBWCFlw8</yt:videoId>
   <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
@@ -33,7 +60,7 @@
 别忘了点赞、订阅，并在评论区分享你对这个话题的看法和自己的经验。让我们一起来看看谁才是最终的赢家吧！#汽车竞争 #胜利者 #幽默观察</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="223"/>
+    <media:statistics views="227"/>
    </media:community>
   </media:group>
  </entry>
@@ -60,7 +87,7 @@
 别忘了点赞、订阅，并在评论区分享你对男人爱车的看法和自己的经验。让我们一起来揭开男人心中的这个秘密吧！#男人爱车 #汽车情感 #幽默观察</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="156"/>
+    <media:statistics views="157"/>
    </media:community>
   </media:group>
  </entry>
@@ -87,7 +114,7 @@
 别忘了点赞、订阅，并在评论区分享您对这款车型的看法和自己的梦想之旅。让我们一起来实现环游世界的梦想吧！#长安汽车 #环球旅行 #梦想之旅</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="108"/>
+    <media:statistics views="109"/>
    </media:community>
   </media:group>
  </entry>
@@ -195,7 +222,7 @@
 别忘了点赞、订阅，并在评论区分享您对这款车的看法和自己的车主经历。一起来参与这场揭秘男人选择的吐槽大会吧！#汽车选择 #男人座驾 #幽默观察</media:description>
    <media:community>
     <media:starRating count="41" average="5.00" min="1" max="5"/>
-    <media:statistics views="3718"/>
+    <media:statistics views="3719"/>
    </media:community>
   </media:group>
  </entry>
@@ -222,7 +249,7 @@
 别忘了点赞、订阅，并在评论区分享您对这些保护爱车的看法和自己的经验。一起来参与这场车主心声的吐槽大会吧！#爱车保养 #过年注意事项 #幽默观察</media:description>
    <media:community>
     <media:starRating count="97" average="5.00" min="1" max="5"/>
-    <media:statistics views="7686"/>
+    <media:statistics views="7688"/>
    </media:community>
   </media:group>
  </entry>
@@ -385,33 +412,6 @@
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
     <media:statistics views="182"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:9GL2hSQzqA8</id>
-  <yt:videoId>9GL2hSQzqA8</yt:videoId>
-  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
-  <title>爱与空间的平衡！他给了我很多，但男人的空间只有一点点#家庭吐槽大会 #龙光焕发好物赏 #绝色 #熬夜眼霜</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=9GL2hSQzqA8"/>
-  <author>
-   <name>四季妈妈—小龙</name>
-   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
-  </author>
-  <published>2024-01-27T09:04:52+00:00</published>
-  <updated>2024-02-27T07:28:05+00:00</updated>
-  <media:group>
-   <media:title>爱与空间的平衡！他给了我很多，但男人的空间只有一点点#家庭吐槽大会 #龙光焕发好物赏 #绝色 #熬夜眼霜</media:title>
-   <media:content url="https://www.youtube.com/v/9GL2hSQzqA8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/9GL2hSQzqA8/hqdefault.jpg" width="480" height="360"/>
-   <media:description>大家好，欢迎回到我的频道！今天我们要谈论一个关于爱与空间的平衡问题：他给了我很多，但男人的空间只有一点点！爱吐槽的四季妈妈将带你一同探讨这个家庭吐槽的趣事，同时分享一些龙光焕发好物和绝色熬夜眼霜。
-
-在这期视频中，我们将一同思考在感情中如何保持爱与空间的平衡，以及男人在家中的独特“领地”。当然，这是以娱乐为主，希望大家能在欢笑中轻松愉快。
-
-别忘了点赞、订阅，并在评论区分享您对这一平衡问题的看法和自己的经验。一起来参与这场爱与空间的吐槽大会吧！#爱情平衡 #家庭观察 #笑中解压</media:description>
-   <media:community>
-    <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="336"/>
    </media:community>
   </media:group>
  </entry>

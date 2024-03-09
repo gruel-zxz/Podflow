@@ -27,8 +27,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/z_1eMyD_D74/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1643" average="5.00" min="1" max="5"/>
-    <media:statistics views="24876"/>
+    <media:starRating count="2128" average="5.00" min="1" max="5"/>
+    <media:statistics views="38974"/>
    </media:community>
   </media:group>
  </entry>
@@ -87,8 +87,8 @@ Tom Robinson
 
 #gametheory  #thegametheorists  #matpat #retirement #youtube</media:description>
    <media:community>
-    <media:starRating count="102080" average="5.00" min="1" max="5"/>
-    <media:statistics views="638222"/>
+    <media:starRating count="124588" average="5.00" min="1" max="5"/>
+    <media:statistics views="877084"/>
    </media:community>
   </media:group>
  </entry>
@@ -110,8 +110,8 @@ Tom Robinson
    <media:thumbnail url="https://i3.ytimg.com/vi/Z8xdXcWgyqY/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2474" average="5.00" min="1" max="5"/>
-    <media:statistics views="76687"/>
+    <media:starRating count="2614" average="5.00" min="1" max="5"/>
+    <media:statistics views="83997"/>
    </media:community>
   </media:group>
  </entry>
@@ -133,8 +133,8 @@ Tom Robinson
    <media:thumbnail url="https://i2.ytimg.com/vi/9mlKH-h5az4/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2412" average="5.00" min="1" max="5"/>
-    <media:statistics views="82330"/>
+    <media:starRating count="2452" average="5.00" min="1" max="5"/>
+    <media:statistics views="83418"/>
    </media:community>
   </media:group>
  </entry>
@@ -156,8 +156,8 @@ Tom Robinson
    <media:thumbnail url="https://i3.ytimg.com/vi/F0W9nBpO7zU/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2190" average="5.00" min="1" max="5"/>
-    <media:statistics views="72862"/>
+    <media:starRating count="2229" average="5.00" min="1" max="5"/>
+    <media:statistics views="74674"/>
    </media:community>
   </media:group>
  </entry>
@@ -179,8 +179,8 @@ Tom Robinson
    <media:thumbnail url="https://i1.ytimg.com/vi/l99nzkak0Gs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2271" average="5.00" min="1" max="5"/>
-    <media:statistics views="83049"/>
+    <media:starRating count="2291" average="5.00" min="1" max="5"/>
+    <media:statistics views="83866"/>
    </media:community>
   </media:group>
  </entry>
@@ -195,15 +195,15 @@ Tom Robinson
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-02-21T21:31:14+00:00</published>
-  <updated>2024-02-28T09:21:36+00:00</updated>
+  <updated>2024-03-09T04:27:58+00:00</updated>
   <media:group>
    <media:title>birds do stuff on the ground too</media:title>
    <media:content url="https://www.youtube.com/v/N6vvD8jXB94?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i3.ytimg.com/vi/N6vvD8jXB94/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3570" average="5.00" min="1" max="5"/>
-    <media:statistics views="104356"/>
+    <media:starRating count="3597" average="5.00" min="1" max="5"/>
+    <media:statistics views="105624"/>
    </media:community>
   </media:group>
  </entry>
@@ -225,8 +225,8 @@ Tom Robinson
    <media:thumbnail url="https://i1.ytimg.com/vi/tc52SWcMwXk/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3210" average="5.00" min="1" max="5"/>
-    <media:statistics views="140185"/>
+    <media:starRating count="3228" average="5.00" min="1" max="5"/>
+    <media:statistics views="140966"/>
    </media:community>
   </media:group>
  </entry>
@@ -248,8 +248,8 @@ Tom Robinson
    <media:thumbnail url="https://i3.ytimg.com/vi/bX0YHFif81U/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3757" average="5.00" min="1" max="5"/>
-    <media:statistics views="103071"/>
+    <media:starRating count="3788" average="5.00" min="1" max="5"/>
+    <media:statistics views="103953"/>
    </media:community>
   </media:group>
  </entry>
@@ -271,8 +271,8 @@ Tom Robinson
    <media:thumbnail url="https://i1.ytimg.com/vi/LaKS5B3enNY/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2682" average="5.00" min="1" max="5"/>
-    <media:statistics views="100855"/>
+    <media:starRating count="2689" average="5.00" min="1" max="5"/>
+    <media:statistics views="101293"/>
    </media:community>
   </media:group>
  </entry>
@@ -294,8 +294,8 @@ Tom Robinson
    <media:thumbnail url="https://i4.ytimg.com/vi/SmUjSY0ZHlo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3567" average="5.00" min="1" max="5"/>
-    <media:statistics views="116401"/>
+    <media:starRating count="3580" average="5.00" min="1" max="5"/>
+    <media:statistics views="117291"/>
    </media:community>
   </media:group>
  </entry>
@@ -317,8 +317,8 @@ Tom Robinson
    <media:thumbnail url="https://i3.ytimg.com/vi/fMHBCtJu-7A/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2270" average="5.00" min="1" max="5"/>
-    <media:statistics views="82620"/>
+    <media:starRating count="2281" average="5.00" min="1" max="5"/>
+    <media:statistics views="83112"/>
    </media:community>
   </media:group>
  </entry>
@@ -340,8 +340,8 @@ Tom Robinson
    <media:thumbnail url="https://i2.ytimg.com/vi/aw6iKr6ndZU/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2494" average="5.00" min="1" max="5"/>
-    <media:statistics views="97429"/>
+    <media:starRating count="2504" average="5.00" min="1" max="5"/>
+    <media:statistics views="97789"/>
    </media:community>
   </media:group>
  </entry>
@@ -397,8 +397,8 @@ Featured Creators:
 
 #Gaming #SimulationGames #CallMeKevin</media:description>
    <media:community>
-    <media:starRating count="16202" average="5.00" min="1" max="5"/>
-    <media:statistics views="2049331"/>
+    <media:starRating count="16285" average="5.00" min="1" max="5"/>
+    <media:statistics views="2056913"/>
    </media:community>
   </media:group>
  </entry>
@@ -420,8 +420,8 @@ Featured Creators:
    <media:thumbnail url="https://i2.ytimg.com/vi/q49c-Wb1UBo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3030" average="5.00" min="1" max="5"/>
-    <media:statistics views="105154"/>
+    <media:starRating count="3042" average="5.00" min="1" max="5"/>
+    <media:statistics views="105765"/>
    </media:community>
   </media:group>
  </entry>
