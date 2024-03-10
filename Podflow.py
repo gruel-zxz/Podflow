@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 # coding: utf-8
-
 import os
 import re
 import sys
@@ -2079,7 +2078,6 @@ while update_num > 0 or update_num == -1:
         # 延时
         time.sleep(60)
         openserver_process.terminate()
-        http_client(f"http://127.0.0.1:8000/{uuid.uuid4()}", "UUID", 1)
         break
     elif update_num == 0:
         break
@@ -2090,5 +2088,7 @@ while update_num > 0 or update_num == -1:
 # 停止 RangeHTTPServer
 httpserver_process.terminate()
 server_process_print_flag[0] = "end"
+http_client(f"http://127.0.0.1:8000/{uuid.uuid4()}", "UUID", 1)
 prepare_print.join()
 print(f"{datetime.now().strftime('%H:%M:%S')}|Podflow运行结束")
+
