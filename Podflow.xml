@@ -7,17 +7,17 @@
         <category>TV &amp; Film</category>
         <generator>Podflow (support us at https://github.com/gruel-zxz/podflow)</generator>
         <language>en-us</language>
-        <lastBuildDate>Sun, 10 Mar 2024 13:39:11 +0000</lastBuildDate>
+        <lastBuildDate>Sun, 10 Mar 2024 14:40:27 +0000</lastBuildDate>
         <pubDate>Sun, 24 Apr 2005 11:20:54 +0800</pubDate>
         <image>
-            <url>https://raw.githubusercontent.com/gruel-zxz/podflow/main/Podflow_dark.png</url>
+            <url>https://raw.githubusercontent.com/gruel-zxz/podflow/main/Podflow_light.png</url>
             <title>Podflow</title>
             <link>https://github.com/gruel-zxz/podflow</link>
         </image>
         <itunes:author>gruel-zxz</itunes:author>
         <itunes:subtitle>gruel-zxz-podflow</itunes:subtitle>
         <itunes:summary><![CDATA[在iOS平台上借助workflow和a-shell搭建专属的播客服务器。]]></itunes:summary>
-        <itunes:image href="https://raw.githubusercontent.com/gruel-zxz/podflow/main/Podflow_dark.png"></itunes:image>
+        <itunes:image href="https://raw.githubusercontent.com/gruel-zxz/podflow/main/Podflow_light.png"></itunes:image>
         <itunes:explicit>no</itunes:explicit>
         <itunes:category text="TV &amp; Film"></itunes:category>
 <!-- {UCghLs6s95LrBWOdlZUCH4qw} -->

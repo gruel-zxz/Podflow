@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
+
 import os
 import re
 import sys
@@ -197,9 +198,10 @@ def http_client(url, name, max_retries=10, retry_delay=4, headers_possess=False,
         except Exception as http_get_error:
             if response is not None and response.status_code in {404}:
                 return response
-            print(
-                f"{datetime.now().strftime('%H:%M:%S')}|{name}|\033[31m连接异常重试中...\033[97m{num + 1}\033[0m"
-            )
+            if name:
+                print(
+                    f"{datetime.now().strftime('%H:%M:%S')}|{name}|\033[31m连接异常重试中...\033[97m{num + 1}\033[0m"
+                )
             if err:
                 err = f":\n{str(http_get_error)}"
             else:
@@ -207,9 +209,10 @@ def http_client(url, name, max_retries=10, retry_delay=4, headers_possess=False,
         else:
             return response
         time.sleep(retry_delay)
-    print(
-        f"{datetime.now().strftime('%H:%M:%S')}|{name}|\033[31m达到最大重试次数\033[97m{max_retries}\033[0m{err}"
-    )
+    if name:
+        print(
+            f"{datetime.now().strftime('%H:%M:%S')}|{name}|\033[31m达到最大重试次数\033[97m{max_retries}\033[0m{err}"
+        )
     return response
 
 # 批量正则表达式替换删除模块
@@ -2088,7 +2091,6 @@ while update_num > 0 or update_num == -1:
 # 停止 RangeHTTPServer
 httpserver_process.terminate()
 server_process_print_flag[0] = "end"
-http_client(f"http://127.0.0.1:8000/{uuid.uuid4()}", "UUID", 1)
+http_client(f"http://127.0.0.1:8000/{uuid.uuid4()}", "", 1, 0)
 prepare_print.join()
 print(f"{datetime.now().strftime('%H:%M:%S')}|Podflow运行结束")
-
