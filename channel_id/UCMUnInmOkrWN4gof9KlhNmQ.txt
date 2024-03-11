@@ -255,8 +255,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="40211" average="5.00" min="1" max="5"/>
-    <media:statistics views="1851512"/>
+    <media:starRating count="40308" average="5.00" min="1" max="5"/>
+    <media:statistics views="1857592"/>
    </media:community>
   </media:group>
  </entry>
@@ -505,8 +505,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="49891" average="5.00" min="1" max="5"/>
-    <media:statistics views="2412344"/>
+    <media:starRating count="49916" average="5.00" min="1" max="5"/>
+    <media:statistics views="2414091"/>
    </media:community>
   </media:group>
  </entry>
@@ -755,8 +755,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="45109" average="5.00" min="1" max="5"/>
-    <media:statistics views="2268741"/>
+    <media:starRating count="45123" average="5.00" min="1" max="5"/>
+    <media:statistics views="2269860"/>
    </media:community>
   </media:group>
  </entry>
@@ -1005,8 +1005,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="40221" average="5.00" min="1" max="5"/>
-    <media:statistics views="2127091"/>
+    <media:starRating count="40224" average="5.00" min="1" max="5"/>
+    <media:statistics views="2127523"/>
    </media:community>
   </media:group>
  </entry>
@@ -1255,8 +1255,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="51606" average="5.00" min="1" max="5"/>
-    <media:statistics views="2508822"/>
+    <media:starRating count="51618" average="5.00" min="1" max="5"/>
+    <media:statistics views="2509223"/>
    </media:community>
   </media:group>
  </entry>
@@ -1505,8 +1505,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="53340" average="5.00" min="1" max="5"/>
-    <media:statistics views="2703701"/>
+    <media:starRating count="53345" average="5.00" min="1" max="5"/>
+    <media:statistics views="2704014"/>
    </media:community>
   </media:group>
  </entry>
@@ -1755,8 +1755,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="57923" average="5.00" min="1" max="5"/>
-    <media:statistics views="3438463"/>
+    <media:starRating count="57926" average="5.00" min="1" max="5"/>
+    <media:statistics views="3438780"/>
    </media:community>
   </media:group>
  </entry>
@@ -2005,8 +2005,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="73738" average="5.00" min="1" max="5"/>
-    <media:statistics views="3007774"/>
+    <media:starRating count="73739" average="5.00" min="1" max="5"/>
+    <media:statistics views="3007957"/>
    </media:community>
   </media:group>
  </entry>
@@ -2255,8 +2255,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="48376" average="5.00" min="1" max="5"/>
-    <media:statistics views="2854211"/>
+    <media:starRating count="48377" average="5.00" min="1" max="5"/>
+    <media:statistics views="2854397"/>
    </media:community>
   </media:group>
  </entry>
@@ -2505,8 +2505,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="77561" average="5.00" min="1" max="5"/>
-    <media:statistics views="3793056"/>
+    <media:starRating count="77565" average="5.00" min="1" max="5"/>
+    <media:statistics views="3793560"/>
    </media:community>
   </media:group>
  </entry>
@@ -2755,8 +2755,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="51805" average="5.00" min="1" max="5"/>
-    <media:statistics views="2919591"/>
+    <media:starRating count="51811" average="5.00" min="1" max="5"/>
+    <media:statistics views="2919801"/>
    </media:community>
   </media:group>
  </entry>
@@ -3006,7 +3006,7 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
     <media:starRating count="62203" average="5.00" min="1" max="5"/>
-    <media:statistics views="3198229"/>
+    <media:statistics views="3198373"/>
    </media:community>
   </media:group>
  </entry>
@@ -3255,8 +3255,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="48871" average="5.00" min="1" max="5"/>
-    <media:statistics views="3618718"/>
+    <media:starRating count="48873" average="5.00" min="1" max="5"/>
+    <media:statistics views="3619162"/>
    </media:community>
   </media:group>
  </entry>
@@ -3505,8 +3505,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="63101" average="5.00" min="1" max="5"/>
-    <media:statistics views="2902106"/>
+    <media:starRating count="63104" average="5.00" min="1" max="5"/>
+    <media:statistics views="2902240"/>
    </media:community>
   </media:group>
  </entry>
@@ -3755,8 +3755,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="39437" average="5.00" min="1" max="5"/>
-    <media:statistics views="2482826"/>
+    <media:starRating count="39440" average="5.00" min="1" max="5"/>
+    <media:statistics views="2483002"/>
    </media:community>
   </media:group>
  </entry>
