@@ -41,8 +41,8 @@
 
 #日本 #vlog #留學</media:description>
    <media:community>
-    <media:starRating count="3995" average="5.00" min="1" max="5"/>
-    <media:statistics views="198232"/>
+    <media:starRating count="3994" average="5.00" min="1" max="5"/>
+    <media:statistics views="198291"/>
    </media:community>
   </media:group>
  </entry>
@@ -86,7 +86,7 @@
 #日本漫畫 #殺手阿一 #cult</media:description>
    <media:community>
     <media:starRating count="1118" average="5.00" min="1" max="5"/>
-    <media:statistics views="54430"/>
+    <media:statistics views="54459"/>
    </media:community>
   </media:group>
  </entry>
@@ -131,7 +131,7 @@
 #日本漫畫 #殺手阿一 #cult</media:description>
    <media:community>
     <media:starRating count="1168" average="5.00" min="1" max="5"/>
-    <media:statistics views="95458"/>
+    <media:statistics views="95491"/>
    </media:community>
   </media:group>
  </entry>
@@ -176,8 +176,8 @@
 
 #日本 #次文化 #戀物</media:description>
    <media:community>
-    <media:starRating count="1043" average="5.00" min="1" max="5"/>
-    <media:statistics views="63048"/>
+    <media:starRating count="1042" average="5.00" min="1" max="5"/>
+    <media:statistics views="63085"/>
    </media:community>
   </media:group>
  </entry>
@@ -220,8 +220,8 @@
 
 #遊戲 #videogames  #日本</media:description>
    <media:community>
-    <media:starRating count="2590" average="5.00" min="1" max="5"/>
-    <media:statistics views="237380"/>
+    <media:starRating count="2593" average="5.00" min="1" max="5"/>
+    <media:statistics views="237511"/>
    </media:community>
   </media:group>
  </entry>
@@ -265,8 +265,8 @@
 
 #日本 #動漫 #日本電影</media:description>
    <media:community>
-    <media:starRating count="2301" average="5.00" min="1" max="5"/>
-    <media:statistics views="225673"/>
+    <media:starRating count="2304" average="5.00" min="1" max="5"/>
+    <media:statistics views="225899"/>
    </media:community>
   </media:group>
  </entry>
@@ -310,8 +310,8 @@
 ▶追蹤TenGuSan的IG：@tengusan.real
 ▶我的品牌官網：www.under20.com</media:description>
    <media:community>
-    <media:starRating count="2424" average="5.00" min="1" max="5"/>
-    <media:statistics views="230136"/>
+    <media:starRating count="2439" average="5.00" min="1" max="5"/>
+    <media:statistics views="231700"/>
    </media:community>
   </media:group>
  </entry>
@@ -352,8 +352,8 @@
 ▶追蹤TenGuSan的IG：@tengusan.real
 ▶我的品牌官網：www.under20.com</media:description>
    <media:community>
-    <media:starRating count="1963" average="5.00" min="1" max="5"/>
-    <media:statistics views="170196"/>
+    <media:starRating count="1966" average="5.00" min="1" max="5"/>
+    <media:statistics views="170440"/>
    </media:community>
   </media:group>
  </entry>
@@ -416,8 +416,8 @@
 ▶追蹤TenGuSan的IG：@tengusan.real
 ▶我的品牌官網：www.under20.com</media:description>
    <media:community>
-    <media:starRating count="1822" average="5.00" min="1" max="5"/>
-    <media:statistics views="300993"/>
+    <media:starRating count="1823" average="5.00" min="1" max="5"/>
+    <media:statistics views="301091"/>
    </media:community>
   </media:group>
  </entry>
@@ -458,8 +458,8 @@
 
 #日本 #日本社會</media:description>
    <media:community>
-    <media:starRating count="881" average="5.00" min="1" max="5"/>
-    <media:statistics views="67153"/>
+    <media:starRating count="882" average="5.00" min="1" max="5"/>
+    <media:statistics views="67196"/>
    </media:community>
   </media:group>
  </entry>
@@ -504,7 +504,7 @@
 #2ch #日本文化 #互聯網</media:description>
    <media:community>
     <media:starRating count="968" average="5.00" min="1" max="5"/>
-    <media:statistics views="74250"/>
+    <media:statistics views="74277"/>
    </media:community>
   </media:group>
  </entry>
@@ -519,7 +519,7 @@
    <uri>https://www.youtube.com/channel/UC9RS8EzXdRJyYDkwtcsWOuA</uri>
   </author>
   <published>2023-07-12T12:00:43+00:00</published>
-  <updated>2024-02-14T02:41:06+00:00</updated>
+  <updated>2024-03-10T21:51:21+00:00</updated>
   <media:group>
    <media:title>揭秘日本監獄的奇葩規則：絕對不能違背！不然小心被爆🌼到死</media:title>
    <media:content url="https://www.youtube.com/v/pxZplUGT70g?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -545,7 +545,7 @@
 #日本社會 #刑務所 #越獄</media:description>
    <media:community>
     <media:starRating count="712" average="5.00" min="1" max="5"/>
-    <media:statistics views="54893"/>
+    <media:statistics views="54919"/>
    </media:community>
   </media:group>
  </entry>
@@ -595,8 +595,8 @@
 ▶追蹤TenGuSan的IG：@tengusan.real
 ▶我的品牌官網：www.under20.com</media:description>
    <media:community>
-    <media:starRating count="1785" average="5.00" min="1" max="5"/>
-    <media:statistics views="120710"/>
+    <media:starRating count="1786" average="5.00" min="1" max="5"/>
+    <media:statistics views="120754"/>
    </media:community>
   </media:group>
  </entry>
@@ -611,7 +611,7 @@
    <uri>https://www.youtube.com/channel/UC9RS8EzXdRJyYDkwtcsWOuA</uri>
   </author>
   <published>2023-06-28T12:00:09+00:00</published>
-  <updated>2024-02-27T21:34:40+00:00</updated>
+  <updated>2024-03-11T05:02:25+00:00</updated>
   <media:group>
    <media:title>【全網獨家】他在64年前就預言了福島核污水事件！日本神級作家星新一：劉慈欣, 伊藤潤二, 日本首相都是他的狂熱粉絲, 柯南也是致敬了他!</media:title>
    <media:content url="https://www.youtube.com/v/AyNmjJgmBVM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -637,8 +637,8 @@
 
 #福島核污水 #日本核廢水 #核輻射 #科幻</media:description>
    <media:community>
-    <media:starRating count="775" average="5.00" min="1" max="5"/>
-    <media:statistics views="41569"/>
+    <media:starRating count="776" average="5.00" min="1" max="5"/>
+    <media:statistics views="41580"/>
    </media:community>
   </media:group>
  </entry>
@@ -685,7 +685,7 @@
 #伊藤潤二 #恐怖 #日本 #次文化</media:description>
    <media:community>
     <media:starRating count="1401" average="5.00" min="1" max="5"/>
-    <media:statistics views="90693"/>
+    <media:statistics views="90722"/>
    </media:community>
   </media:group>
  </entry>

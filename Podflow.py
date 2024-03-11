@@ -8,7 +8,6 @@ import html
 import json
 import math
 import time
-import uuid
 import hashlib
 import zipfile
 import threading
@@ -69,7 +68,9 @@ channelid_youtube_ids_original = {}  # 原始YouTube频道ID字典
 channelid_bilibili_ids = {}  # 哔哩哔哩频道ID字典
 channelid_bilibili_ids_original = {}  # 原始哔哩哔哩频道ID字典
 
-server_process_print_flag = ["keep"]  # 进程打印标志列表
+server_process_print_flag = ["keep"]  # httpserver进程打印标志列表
+update_generate_rss = True  # 更新并生成rss布朗值
+displayed_QRcode = []  # 已显示二维码列表
 
 channelid_youtube_ids_update = {}  # 需更新的YouTube频道字典
 youtube_content_ytid_update = {}  # 需下载YouTube视频字典
@@ -629,7 +630,7 @@ def wait_animation(stop_flag, wait_animation_display_info):
             )
         elif stop_flag[0] == "error":
             print(
-                f"\r{prepare_youtube_print}|{wait_animation_display_info}\033[34m准备中{animation} \033[31m失败：\033[0m"
+                f"\r{prepare_youtube_print}|{wait_animation_display_info}\033[34m准备中{animation} \033[31m失败: \033[0m"
             )
             break
         elif stop_flag[0] == "end":
@@ -683,7 +684,7 @@ def download_video(
             ydl.download([f"{video_website}{video_url}"])  # 下载指定视频链接的视频
     except Exception as download_video_error:
         write_log(
-            (f"{video_write_log} \033[31m下载失败\033[0m\n错误信息：{str(download_video_error)}")
+            (f"{video_write_log} \033[31m下载失败\033[0m\n错误信息: {str(download_video_error)}")
             .replace("ERROR: ", "")
             .replace("\033[0;31mERROR:\033[0m ", "")
             .replace(f"{video_url}: ", "")
@@ -719,7 +720,7 @@ def dl_full_video(
         return None
     if duration_video:
         write_log(
-            f"{video_write_log} \033[31m下载失败\033[0m\n错误信息：不完整({id_duration}|{duration_video})"
+            f"{video_write_log} \033[31m下载失败\033[0m\n错误信息: 不完整({id_duration}|{duration_video})"
         )
         os.remove(
             f"channel_audiovisual/{output_dir}/{video_url}{sesuffix}.{output_format}"
@@ -857,7 +858,7 @@ def dl_aideo_video(
                 os.remove(f"channel_audiovisual/{output_dir}/{video_url}.part.m4a")
             except subprocess.CalledProcessError as dl_aideo_video_error:
                 yt_id_failed = video_url
-                write_log(f"\n{video_write_log} \033[31m下载失败\033[0m\n错误信息：合成失败:{dl_aideo_video_error}")
+                write_log(f"\n{video_write_log} \033[31m下载失败\033[0m\n错误信息: 合成失败:{dl_aideo_video_error}")
     if yt_id_failed is None:
         write_log(f"{video_write_log} \033[32m下载成功\033[0m")  # 写入下载成功的日志信息
     return yt_id_failed
@@ -1770,8 +1771,10 @@ def youtube_xml_items(output_dir):
     if (
         channelid_youtube[channelid_youtube_ids[output_dir]]["DisplayRSSaddress"]
         and channelid_youtube[channelid_youtube_ids[output_dir]]["QRcode"]
+        and output_dir not in displayed_QRcode
     ):
         qr_code(f"{config['url']}/channel_rss/{output_dir}.xml")
+        displayed_QRcode.append(output_dir)
     return items
 
 # 生成主rss模块
@@ -1799,7 +1802,7 @@ def backup_zip_save(file_content):
     # 使用哈希值判断新老rss是否一致
     if hash_overall_rss == hash_rss_original:
         judging_save = True
-        write_log("无更新内容将不进行备份")
+        write_log("频道无更新内容将不进行备份")
     else:
         judging_save = False
 
@@ -1946,7 +1949,7 @@ channelid_bilibili_ids = get_channelid_id(channelid_bilibili)
 try:
     argument = sys.argv[1]
 except IndexError:
-    argument = None
+    argument = ""
 # 判断命令行参数
 if argument == "a-shell" or ".json" in argument:
     update_num = 1
@@ -1966,6 +1969,12 @@ def server_process_print():
     need_keep = ""
     while True:
         output = httpserver_process.stdout.readline().decode().strip()
+        try:
+            re1_output = re.search(r"(?<=\[[0-9]{2}/[a-zA-Z]{3}/[0-9]{4} )[0-2][0-9]:[0-6][0-9]:[0-6][0-9](?=\])", output).group(0) 
+            re2_output = re.search(r"(?<=\[[0-9]{2}/[a-zA-Z]{3}/[0-9]{4} [0-2][0-9]:[0-6][0-9]:[0-6][0-9]\] )\".+\".+", output).group(0)
+            output = re1_output + "|" + re2_output
+        except Exception:
+            output = f"{datetime.now().strftime('%H:%M:%S')}|{output}"
         if need_keep == "":
             need_keep = output
         elif output != "" and output != "\n":
@@ -1987,75 +1996,84 @@ prepare_print.start()
 
 # 循环主更新
 while update_num > 0 or update_num == -1:
-    # 根据日出日落修改封面(只适用原封面)
-    channge_icon()
+    
     # 更新Youtube频道xml
     update_youtube_rss()
-    # 输出需要更新的信息
-    update_information_display()
-    # 暂停进程打印
-    server_process_print_flag[0] = "pause"
-    # 获取YouTube视频格式信息
-    get_youtube_format()
-    # 恢复进程打印
-    server_process_print_flag[0] = "keep"
-    # 暂停进程打印
-    server_process_print_flag[0] = "pause"
-    # 下载YouTube视频
-    youtube_download()
-    # 恢复进程打印
-    server_process_print_flag[0] = "keep"
-    # 获取原始xml字典和rss文本
-    xmls_original, hash_rss_original = get_original_rss()
-    # 获取youtube频道简介
-    get_youtube_introduction()
-    # 暂停进程打印
-    server_process_print_flag[0] = "pause"
-    # 生成分和主rss
-    create_main_rss()
-    # 恢复进程打印
-    server_process_print_flag[0] = "keep"
-    # 删除不在rss中的媒体文件
-    remove_file()
-    # 删除已抛弃的媒体文件夹
-    remove_dir()
-    # 补全缺失媒体文件到字典
-    make_up_file()
-    # 按参数获取需要补全的最大个数
-    make_up_file_format = split_dict(make_up_file_format, config["completion_count"], True)[0]
-    # 暂停进程打印
-    server_process_print_flag[0] = "pause"
-    # 补全在rss中缺失的媒体格式信息
-    make_up_file_format_mod()
-    # 恢复进程打印
-    server_process_print_flag[0] = "keep"
-    # 生成主rss
-    overall_rss = xml_rss(
-        config["title"],
-        config["link"],
-        config["description"],
-        config["category"],
-        config["icon"],
-        "\n".join(all_items),
-        )
-    # 删除无法补全的媒体
-    overall_rss = del_makeup_yt_format_fail(overall_rss)
-    # 保存主rss
-    file_save(overall_rss, f"{config['filename']}.xml")
-    # 暂停进程打印
-    server_process_print_flag[0] = "pause"
-    write_log("总播客已更新", f"地址:\n\033[34m{config['url']}/{config['filename']}.xml\033[0m")
-    qr_code(f"{config['url']}/{config['filename']}.xml")
-    # 恢复进程打印
-    server_process_print_flag[0] = "keep"
-    # 备份主rss
-    backup_zip_save(overall_rss)
-    # 暂停进程打印
-    server_process_print_flag[0] = "pause"
-    # 下载补全YouTube视频模块
-    make_up_file_mod()
-    # 恢复进程打印
-    server_process_print_flag[0] = "keep"
+    # 判断是否有更新内容
+    if channelid_youtube_ids_update != {}:
+        update_generate_rss = True
+    if update_generate_rss:
+        # 根据日出日落修改封面(只适用原封面)
+        channge_icon()
+        # 输出需要更新的信息
+        update_information_display()
+        # 暂停进程打印
+        server_process_print_flag[0] = "pause"
+        # 获取YouTube视频格式信息
+        get_youtube_format()
+        # 恢复进程打印
+        server_process_print_flag[0] = "keep"
+        # 暂停进程打印
+        server_process_print_flag[0] = "pause"
+        # 下载YouTube视频
+        youtube_download()
+        # 恢复进程打印
+        server_process_print_flag[0] = "keep"
+        # 获取原始xml字典和rss文本
+        xmls_original, hash_rss_original = get_original_rss()
+        # 获取youtube频道简介
+        get_youtube_introduction()
+        # 暂停进程打印
+        server_process_print_flag[0] = "pause"
+        # 生成分和主rss
+        create_main_rss()
+        # 恢复进程打印
+        server_process_print_flag[0] = "keep"
+        # 删除不在rss中的媒体文件
+        remove_file()
+        # 删除已抛弃的媒体文件夹
+        remove_dir()
+        # 补全缺失媒体文件到字典
+        make_up_file()
+        # 按参数获取需要补全的最大个数
+        make_up_file_format = split_dict(make_up_file_format, config["completion_count"], True)[0]
+        # 暂停进程打印
+        server_process_print_flag[0] = "pause"
+        # 补全在rss中缺失的媒体格式信息
+        make_up_file_format_mod()
+        # 恢复进程打印
+        server_process_print_flag[0] = "keep"
+        # 生成主rss
+        overall_rss = xml_rss(
+            config["title"],
+            config["link"],
+            config["description"],
+            config["category"],
+            config["icon"],
+            "\n".join(all_items),
+            )
+        # 删除无法补全的媒体
+        overall_rss = del_makeup_yt_format_fail(overall_rss)
+        # 保存主rss
+        file_save(overall_rss, f"{config['filename']}.xml")
+        # 暂停进程打印
+        server_process_print_flag[0] = "pause"
+        write_log("总播客已更新", f"地址:\n\033[34m{config['url']}/{config['filename']}.xml\033[0m")
+        if "main" not in displayed_QRcode:
+            qr_code(f"{config['url']}/{config['filename']}.xml")
+            displayed_QRcode.append("main")
+        # 恢复进程打印
+        server_process_print_flag[0] = "keep"
+        # 备份主rss
+        backup_zip_save(overall_rss)
+        # 暂停进程打印
+        server_process_print_flag[0] = "pause"
+        # 下载补全YouTube视频模块
+        make_up_file_mod()
+        # 恢复进程打印
+        server_process_print_flag[0] = "keep"
+    else:
+        print(f"{datetime.now().strftime('%H:%M:%S')}|频道无更新内容")
 
     # 清空变量内数据
     channelid_youtube_ids_update.clear()  # 需更新的YouTube频道字典
@@ -2071,6 +2089,9 @@ while update_num > 0 or update_num == -1:
     overall_rss = ""  # 更新后的rss文本
     make_up_file_format.clear()  # 补全缺失媒体字典
     make_up_file_format_fail.clear()  # 补全缺失媒体失败字典
+
+    # 将需要更新转为否
+    update_generate_rss = False
 
     if update_num != -1:
         update_num -= 1
@@ -2091,6 +2112,6 @@ while update_num > 0 or update_num == -1:
 # 停止 RangeHTTPServer
 httpserver_process.terminate()
 server_process_print_flag[0] = "end"
-http_client(f"http://127.0.0.1:8000/{uuid.uuid4()}", "", 1, 0)
+http_client("http://127.0.0.1:8000/", "", 1, 0)
 prepare_print.join()
 print(f"{datetime.now().strftime('%H:%M:%S')}|Podflow运行结束")
