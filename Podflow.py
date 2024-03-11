@@ -1969,11 +1969,11 @@ def server_process_print():
     need_keep = ""
     while True:
         output = httpserver_process.stdout.readline().decode().strip()
-        try:
-            re1_output = re.search(r"(?<=\[[0-9]{2}/[a-zA-Z]{3}/[0-9]{4} )[0-2][0-9]:[0-6][0-9]:[0-6][0-9](?=\])", output).group(0) 
-            re2_output = re.search(r"(?<=\[[0-9]{2}/[a-zA-Z]{3}/[0-9]{4} [0-2][0-9]:[0-6][0-9]:[0-6][0-9]\] )\".+\".+", output).group(0)
-            output = re1_output + "|" + re2_output
-        except Exception:
+        re1_output = re.search(r"(?<=\[[0-9]{2}/[a-zA-Z]{3}/[0-9]{4} )[0-2][0-9]:[0-6][0-9]:[0-6][0-9](?=\])", output)
+        re2_output = re.search(r"(?<=\[[0-9]{2}/[a-zA-Z]{3}/[0-9]{4} [0-2][0-9]:[0-6][0-9]:[0-6][0-9]\] )\".+\".+", output)
+        if re1_output and re2_output:
+            output = re1_output.group(0)  + "|" + re2_output.group(0) 
+        else:
             output = f"{datetime.now().strftime('%H:%M:%S')}|{output}"
         if need_keep == "":
             need_keep = output

@@ -21,7 +21,7 @@
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
   <published>2024-03-10T23:39:50+00:00</published>
-  <updated>2024-03-10T23:47:58+00:00</updated>
+  <updated>2024-03-11T07:05:42+00:00</updated>
   <media:group>
    <media:title>Smith &amp; wollensky（20240310第6914期）</media:title>
    <media:content url="https://www.youtube.com/v/GxVDDsIWoso?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -78,8 +78,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="30" average="5.00" min="1" max="5"/>
-    <media:statistics views="2872"/>
+    <media:starRating count="33" average="5.00" min="1" max="5"/>
+    <media:statistics views="3202"/>
    </media:community>
   </media:group>
  </entry>
@@ -151,8 +151,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="237" average="5.00" min="1" max="5"/>
-    <media:statistics views="35149"/>
+    <media:starRating count="245" average="5.00" min="1" max="5"/>
+    <media:statistics views="38816"/>
    </media:community>
   </media:group>
  </entry>
@@ -224,8 +224,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="371" average="5.00" min="1" max="5"/>
-    <media:statistics views="74214"/>
+    <media:starRating count="373" average="5.00" min="1" max="5"/>
+    <media:statistics views="75721"/>
    </media:community>
   </media:group>
  </entry>
@@ -297,8 +297,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="134" average="5.00" min="1" max="5"/>
-    <media:statistics views="22108"/>
+    <media:starRating count="136" average="5.00" min="1" max="5"/>
+    <media:statistics views="22557"/>
    </media:community>
   </media:group>
  </entry>
@@ -371,7 +371,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="79" average="5.00" min="1" max="5"/>
-    <media:statistics views="12370"/>
+    <media:statistics views="12712"/>
    </media:community>
   </media:group>
  </entry>
@@ -444,8 +444,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="266" average="5.00" min="1" max="5"/>
-    <media:statistics views="48936"/>
+    <media:starRating count="271" average="5.00" min="1" max="5"/>
+    <media:statistics views="49491"/>
    </media:community>
   </media:group>
  </entry>
@@ -517,8 +517,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="278" average="5.00" min="1" max="5"/>
-    <media:statistics views="40258"/>
+    <media:starRating count="279" average="5.00" min="1" max="5"/>
+    <media:statistics views="40707"/>
    </media:community>
   </media:group>
  </entry>
@@ -590,8 +590,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="168" average="5.00" min="1" max="5"/>
-    <media:statistics views="22704"/>
+    <media:starRating count="169" average="5.00" min="1" max="5"/>
+    <media:statistics views="22920"/>
    </media:community>
   </media:group>
  </entry>
@@ -663,8 +663,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="358" average="5.00" min="1" max="5"/>
-    <media:statistics views="62410"/>
+    <media:starRating count="361" average="5.00" min="1" max="5"/>
+    <media:statistics views="62687"/>
    </media:community>
   </media:group>
  </entry>
@@ -736,8 +736,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="511" average="5.00" min="1" max="5"/>
-    <media:statistics views="89739"/>
+    <media:starRating count="512" average="5.00" min="1" max="5"/>
+    <media:statistics views="90146"/>
    </media:community>
   </media:group>
  </entry>
@@ -809,8 +809,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="92" average="5.00" min="1" max="5"/>
-    <media:statistics views="14780"/>
+    <media:starRating count="93" average="5.00" min="1" max="5"/>
+    <media:statistics views="14833"/>
    </media:community>
   </media:group>
  </entry>
@@ -883,7 +883,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="122" average="5.00" min="1" max="5"/>
-    <media:statistics views="24540"/>
+    <media:statistics views="24579"/>
    </media:community>
   </media:group>
  </entry>
@@ -956,7 +956,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="295" average="5.00" min="1" max="5"/>
-    <media:statistics views="68466"/>
+    <media:statistics views="68591"/>
    </media:community>
   </media:group>
  </entry>
@@ -1029,7 +1029,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="132" average="5.00" min="1" max="5"/>
-    <media:statistics views="21312"/>
+    <media:statistics views="21346"/>
    </media:community>
   </media:group>
  </entry>
@@ -1102,7 +1102,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="115" average="5.00" min="1" max="5"/>
-    <media:statistics views="17239"/>
+    <media:statistics views="17261"/>
    </media:community>
   </media:group>
  </entry>
