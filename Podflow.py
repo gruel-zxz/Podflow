@@ -99,7 +99,7 @@ def file_save(content, file_name, folder=None):
         file.write(content)
 
 # 日志模块
-def write_log(log, suffix=None, display=True, time_display=True):
+def write_log(log, suffix=None, display=True, time_display=True, only_log=None):
     # 获取当前的具体时间
     current_time = datetime.now()
     # 格式化输出, 只保留年月日时分秒
@@ -113,7 +113,7 @@ def write_log(log, suffix=None, display=True, time_display=True):
     # 将新的日志内容添加在原有内容之前
     log_in = re.sub(r"\033\[[0-9;]+m", "", log)
     log_in = re.sub(r"\n", "", log_in)
-    new_contents = f"{formatted_time} {log_in}\n{contents}"
+    new_contents = f"{formatted_time} {log_in}{only_log}\n{contents}" if only_log else f"{formatted_time} {log_in}\n{contents}"
     # 将新的日志内容写入文件
     file_save(new_contents, "log.txt")
     if display:
@@ -881,7 +881,7 @@ def dl_aideo_video(
                 yt_id_failed = video_url
                 write_log(f"\n{video_write_log} \033[31m下载失败\033[0m\n错误信息: 合成失败:{dl_aideo_video_error}")
     if yt_id_failed is None:
-        write_log(f"{video_write_log} \033[32m下载成功\033[0m")  # 写入下载成功的日志信息
+        write_log(f"{video_write_log} \033[32m下载成功\033[0m", None, True, True, f' {video_format[1] if output_format == "m4a" else f"{video_format[1]}+{video_format[2]}"}')  # 写入下载成功的日志信息
     return yt_id_failed
 
 # 构建文件夹模块
