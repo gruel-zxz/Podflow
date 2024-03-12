@@ -122,7 +122,9 @@ def write_log(log, suffix=None, display=True, time_display=True):
         log_print = f"{log_print}|{suffix}" if suffix else f"{log_print}"
         print(log_print)
 
-# 查看requests模块是否安装
+# 查看ffmpeg、requests、yt-dlp模块是否安装
+exit_sys = False  # 设置暂停运行变量
+
 ffmpeg_worry = """\033[0mFFmpeg安装方法:
 Ubuntu:
 \033[32msudo apt update
@@ -164,10 +166,27 @@ except ImportError:
             ["pip", "install", "requests", "-U"], capture_output=True, text=True
         )
         write_log("\033[31mrequests安装成功, 请重新运行\033[0m")
-        sys.exit(0)
+        exit_sys = True
     except FileNotFoundError:
         write_log("\033[31mrequests安装失败请重试\033[0m")
-        sys.exit(0)
+        exit_sys = True
+
+try:
+    import yt_dlp
+    # 如果导入成功你可以在这里使用requests库
+except ImportError:
+    try:
+        subprocess.run(
+            ["pip", "install", "yt-dlp", "-U"], capture_output=True, text=True
+        )
+        write_log("\033[31myt-dlp安装成功, 请重新运行\033[0m")
+        exit_sys = True
+    except FileNotFoundError:
+        write_log("\033[31myt-dlp安装失败请重试\033[0m")
+        exit_sys = True
+
+if exit_sys:  #判断是否暂停运行
+    sys.exit(0)
 
 # HTTP 请求重试模块
 def http_client(url, name, max_retries=10, retry_delay=4, headers_possess=False, cookies=None, data=None, cookie_jar_name=None, mode="get"):
@@ -340,6 +359,7 @@ while library_import is False:
             # 安装更新三方库
             for library in library_install_list:
                 library_install(library, library_install_dic)
+                today_library_log += f" {library}"
             break
 
 # 格式化时间模块
@@ -1979,7 +1999,7 @@ def server_process_print():
             output_time = datetime.now().strftime('%H:%M:%S')
         if need_keep == "":
             need_keep = f"{output_time}|{output}"
-        elif output not in ["", "\n"]:
+        elif output != "":
             need_keep += f"\n{output_time}|{output}"
         if server_process_print_flag[0] == "keep":
             print(need_keep)

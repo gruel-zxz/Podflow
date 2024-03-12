@@ -11,6 +11,29 @@
  </author>
  <published>2020-08-21T01:53:13+00:00</published>
  <entry>
+  <id>yt:video:f0IZzP2Pv4M</id>
+  <yt:videoId>f0IZzP2Pv4M</yt:videoId>
+  <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
+  <title>现实世界的“超能力者”</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=f0IZzP2Pv4M"/>
+  <author>
+   <name>绝密研究所</name>
+   <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
+  </author>
+  <published>2024-03-12T00:00:06+00:00</published>
+  <updated>2024-03-12T06:45:33+00:00</updated>
+  <media:group>
+   <media:title>现实世界的“超能力者”</media:title>
+   <media:content url="https://www.youtube.com/v/f0IZzP2Pv4M?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/f0IZzP2Pv4M/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="1" average="5.00" min="1" max="5"/>
+    <media:statistics views="8"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:uzu7JF2WZWg</id>
   <yt:videoId>uzu7JF2WZWg</yt:videoId>
   <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
@@ -21,7 +44,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-03-11T08:08:07+00:00</published>
-  <updated>2024-03-11T09:03:21+00:00</updated>
+  <updated>2024-03-12T06:09:24+00:00</updated>
   <media:group>
    <media:title>飞机失联35年后降落，机上载着92具骷髅</media:title>
    <media:content url="https://www.youtube.com/v/uzu7JF2WZWg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -44,34 +67,11 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-03-11T07:59:52+00:00</published>
-  <updated>2024-03-11T08:59:14+00:00</updated>
+  <updated>2024-03-12T06:49:21+00:00</updated>
   <media:group>
    <media:title>震惊世界的三个非洲发现</media:title>
    <media:content url="https://www.youtube.com/v/8w8PP5vv_5Q?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i1.ytimg.com/vi/8w8PP5vv_5Q/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="0" average="0.00" min="1" max="5"/>
-    <media:statistics views="0"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:f0IZzP2Pv4M</id>
-  <yt:videoId>f0IZzP2Pv4M</yt:videoId>
-  <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
-  <title>现实世界的“超能力者”</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=f0IZzP2Pv4M"/>
-  <author>
-   <name>绝密研究所</name>
-   <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
-  </author>
-  <published>2024-03-11T07:30:15+00:00</published>
-  <updated>2024-03-11T08:38:02+00:00</updated>
-  <media:group>
-   <media:title>现实世界的“超能力者”</media:title>
-   <media:content url="https://www.youtube.com/v/f0IZzP2Pv4M?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/f0IZzP2Pv4M/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
     <media:starRating count="0" average="0.00" min="1" max="5"/>
@@ -97,8 +97,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/36JRKNTHCEg/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="16"/>
+    <media:starRating count="3" average="5.00" min="1" max="5"/>
+    <media:statistics views="18"/>
    </media:community>
   </media:group>
  </entry>
@@ -121,7 +121,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="22"/>
+    <media:statistics views="34"/>
    </media:community>
   </media:group>
  </entry>
@@ -136,7 +136,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-03-09T00:15:05+00:00</published>
-  <updated>2024-03-09T00:23:01+00:00</updated>
+  <updated>2024-03-10T05:37:07+00:00</updated>
   <media:group>
    <media:title>人类历史上的三大超级失误</media:title>
    <media:content url="https://www.youtube.com/v/uf9_zSvc4HA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -144,7 +144,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="79"/>
+    <media:statistics views="77"/>
    </media:community>
   </media:group>
  </entry>
@@ -228,7 +228,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-03-05T07:35:22+00:00</published>
-  <updated>2024-03-05T07:42:38+00:00</updated>
+  <updated>2024-03-11T04:11:49+00:00</updated>
   <media:group>
    <media:title>棺材屋 ，底层人的蜗居</media:title>
    <media:content url="https://www.youtube.com/v/3CgyQve3T3k?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -236,7 +236,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="105"/>
+    <media:statistics views="106"/>
    </media:community>
   </media:group>
  </entry>
@@ -259,7 +259,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="79"/>
+    <media:statistics views="82"/>
    </media:community>
   </media:group>
  </entry>
@@ -328,7 +328,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="138"/>
+    <media:statistics views="140"/>
    </media:community>
   </media:group>
  </entry>
