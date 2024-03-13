@@ -1200,14 +1200,8 @@ def youtube_rss_update(youtube_key, youtube_value, pattern_youtube_varys):
                 )
             if youtube_content_clean != youtube_content_original_clean:  # 判断是否要更新
                 channelid_youtube_ids_update[youtube_key] = youtube_value
-                channelid_youtube[channelid_youtube_ids[youtube_key]][
-                    "DisplayRSSaddress"
-                ] = True
         except FileNotFoundError:  # 文件不存在直接更新
             channelid_youtube_ids_update[youtube_key] = youtube_value
-            channelid_youtube[channelid_youtube_ids[youtube_key]][
-                "DisplayRSSaddress"
-            ] = True
         # 获取Youtube视频ID列表
         youtube_content_ytid = re.findall(
             r"(?<=<id>yt:video:).{11}(?=</id>)", youtube_content
@@ -1237,9 +1231,6 @@ def youtube_rss_update(youtube_key, youtube_value, pattern_youtube_varys):
             if exclude not in youtube_content_ytid_original
         ]:
             channelid_youtube_ids_update[youtube_key] = youtube_value
-            channelid_youtube[channelid_youtube_ids[youtube_key]][
-                "DisplayRSSaddress"
-            ] = True
             youtube_content_ytid_update[youtube_key] = youtube_content_ytid
 
 # 更新Youtube频道xml多线程模块
@@ -1787,10 +1778,16 @@ def youtube_xml_items(output_dir):
         f"{output_dir}.xml",
         "channel_rss",
     )
-    if channelid_youtube[channelid_youtube_ids[output_dir]]["DisplayRSSaddress"]:
+    if (
+        channelid_youtube[channelid_youtube_ids[output_dir]]["DisplayRSSaddress"] 
+        or output_dir in channelid_youtube_ids_update
+    ):
         print(f"{datetime.now().strftime('%H:%M:%S')}|{channelid_youtube_ids[output_dir]} 播客{update_text}|地址:\n\033[34m{config['url']}/channel_rss/{output_dir}.xml\033[0m")
     if (
-        channelid_youtube[channelid_youtube_ids[output_dir]]["DisplayRSSaddress"]
+        (
+            channelid_youtube[channelid_youtube_ids[output_dir]]["DisplayRSSaddress"] 
+            or output_dir in channelid_youtube_ids_update
+        )
         and channelid_youtube[channelid_youtube_ids[output_dir]]["QRcode"]
         and output_dir not in displayed_QRcode
     ):
@@ -2011,7 +2008,10 @@ def server_process_print():
 prepare_print = threading.Thread(target=server_process_print)
 
 # 启动 RangeHTTPServer
-httpserver_process = subprocess.Popen(["python3", "-m", "RangeHTTPServer"], stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+try:
+    httpserver_process = subprocess.Popen(["python3", "-m", "RangeHTTPServer"], stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+except FileNotFoundError:
+    httpserver_process = subprocess.Popen(["python", "-m", "RangeHTTPServer"], stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
 
 # 启动进程打印线程
 prepare_print.start()

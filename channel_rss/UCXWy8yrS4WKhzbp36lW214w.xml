@@ -9,7 +9,7 @@ Please look at it from the perspective of objective rationality and science
         <category>TV &amp; Film</category>
         <generator>Podflow (support us at https://github.com/gruel-zxz/podflow)</generator>
         <language>en-us</language>
-        <lastBuildDate>Tue, 12 Mar 2024 16:36:30 +0800</lastBuildDate>
+        <lastBuildDate>Wed, 13 Mar 2024 13:57:39 +0800</lastBuildDate>
         <pubDate>Sun, 24 Apr 2005 11:20:54 +0800</pubDate>
         <image>
             <url>https://yt3.googleusercontent.com/ytc/AIdro_maxTOYLzV1cZihL_F-UCt2wLInOm20EXzKhAC1=s2048-c-k-c0x00ffffff-no-rj</url>
@@ -23,6 +23,22 @@ Please look at it from the perspective of objective rationality and science
         <itunes:explicit>no</itunes:explicit>
         <itunes:category text="TV &amp; Film"></itunes:category>
 <!-- {UCXWy8yrS4WKhzbp36lW214w} -->
+<!-- UCXWy8yrS4WKhzbp36lW214w -->
+        <item>
+            <guid>8w8PP5vv_5Q</guid>
+            <title>震惊世界的三个非洲发现</title>
+            <link>https://youtube.com/watch?v=8w8PP5vv_5Q</link>
+            <description>『绝密研究所』</description>
+            <pubDate>Wed, 13 Mar 2024 08:15:06 +0800</pubDate>
+            <enclosure url="https://raw.githubusercontent.com/gruel-zxz/podflow/main/channel_audiovisual/UCXWy8yrS4WKhzbp36lW214w/8w8PP5vv_5Q.m4a" length="4733538" type="audio/x-m4a"></enclosure>
+            <itunes:author>震惊世界的三个非洲发现</itunes:author>
+            <itunes:subtitle>震惊世界的三个非洲发现</itunes:subtitle>
+            <itunes:summary><![CDATA[『绝密研究所』]]></itunes:summary>
+            <itunes:image href="https://i1.ytimg.com/vi/8w8PP5vv_5Q/hqdefault.jpg"></itunes:image>
+            <itunes:duration>04:53</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:order>1</itunes:order>
+        </item>
 <!-- UCXWy8yrS4WKhzbp36lW214w -->
         <item>
             <guid>f0IZzP2Pv4M</guid>
@@ -804,22 +820,6 @@ Please look at it from the perspective of objective rationality and science
             <itunes:summary><![CDATA[『绝密研究所』]]></itunes:summary>
             <itunes:image href="https://i4.ytimg.com/vi/oAVeDvXs07w/hqdefault.jpg"></itunes:image>
             <itunes:duration>04:54</itunes:duration>
-            <itunes:explicit>no</itunes:explicit>
-            <itunes:order>1</itunes:order>
-        </item>
-<!-- UCXWy8yrS4WKhzbp36lW214w -->
-        <item>
-            <guid>ZWhpXw6CN9M</guid>
-            <title>三本被诅咒的邪恶书籍 ，谁看谁倒霉</title>
-            <link>https://youtube.com/watch?v=ZWhpXw6CN9M</link>
-            <description>『绝密研究所』</description>
-            <pubDate>Mon, 22 Jan 2024 00:15:09 +0000</pubDate>
-            <enclosure url="https://raw.githubusercontent.com/gruel-zxz/podflow/main/channel_audiovisual/UCXWy8yrS4WKhzbp36lW214w/ZWhpXw6CN9M.m4a" length="4246352" type="audio/x-m4a"></enclosure>
-            <itunes:author>三本被诅咒的邪恶书籍 ，谁看谁倒霉</itunes:author>
-            <itunes:subtitle>三本被诅咒的邪恶书籍 ，谁看谁倒霉</itunes:subtitle>
-            <itunes:summary><![CDATA[『绝密研究所』]]></itunes:summary>
-            <itunes:image href="https://i3.ytimg.com/vi/ZWhpXw6CN9M/hqdefault.jpg"></itunes:image>
-            <itunes:duration>04:23</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
             <itunes:order>1</itunes:order>
         </item>
