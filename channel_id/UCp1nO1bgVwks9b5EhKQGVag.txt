@@ -11,6 +11,29 @@
  </author>
  <published>2017-04-12T00:43:27+00:00</published>
  <entry>
+  <id>yt:video:6dnBjGU-N2w</id>
+  <yt:videoId>6dnBjGU-N2w</yt:videoId>
+  <yt:channelId>UCp1nO1bgVwks9b5EhKQGVag</yt:channelId>
+  <title>人类版“忒休斯之船”，星际旅程遭遇生死循环：科幻小说《米奇7号》</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=6dnBjGU-N2w"/>
+  <author>
+   <name>幻海航行--science fiction</name>
+   <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
+  </author>
+  <published>2024-03-14T10:35:13+00:00</published>
+  <updated>2024-03-15T08:12:21+00:00</updated>
+  <media:group>
+   <media:title>人类版“忒休斯之船”，星际旅程遭遇生死循环：科幻小说《米奇7号》</media:title>
+   <media:content url="https://www.youtube.com/v/6dnBjGU-N2w?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/6dnBjGU-N2w/hqdefault.jpg" width="480" height="360"/>
+   <media:description>《米奇7号》，原著：爱德华·阿什顿。这部一经问世，便获得了美国全国公共广播电台2022最佳图书奖，《寄生虫》的导演奉俊昊也将其改编为电影剧本，预计2025年会和大家见面。</media:description>
+   <media:community>
+    <media:starRating count="100" average="5.00" min="1" max="5"/>
+    <media:statistics views="4317"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:Mzl3ZUvbRmk</id>
   <yt:videoId>Mzl3ZUvbRmk</yt:videoId>
   <yt:channelId>UCp1nO1bgVwks9b5EhKQGVag</yt:channelId>
@@ -29,8 +52,8 @@
    <media:description>刘慈欣、那多，联合推荐本书，书中写出了“奇点”到来后的那一刻。那一刻，无数人想过却没想清，无数人想写却没写出.....
 这是一部非常硬核的国产长篇科幻小说，作者用专业的知识，为我们呈现了这部《造神年代》，建议感兴趣的同学阅读原著。《造神年代》原著：严曦。</media:description>
    <media:community>
-    <media:starRating count="119" average="5.00" min="1" max="5"/>
-    <media:statistics views="5374"/>
+    <media:starRating count="134" average="5.00" min="1" max="5"/>
+    <media:statistics views="6092"/>
    </media:community>
   </media:group>
  </entry>
@@ -52,8 +75,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/xJ8hsPpczvI/hqdefault.jpg" width="480" height="360"/>
    <media:description>《逃兵》上世纪40年代的科幻作品，原著：克利福德.西马克，作者以较为严谨的写作手法和大胆的想象力，在上世纪就为我们构想出了另类生命对人类的看法，是科幻黄金时代的佳作之一。</media:description>
    <media:community>
-    <media:starRating count="133" average="5.00" min="1" max="5"/>
-    <media:statistics views="5561"/>
+    <media:starRating count="137" average="5.00" min="1" max="5"/>
+    <media:statistics views="5712"/>
    </media:community>
   </media:group>
  </entry>
@@ -75,8 +98,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/FLiRhZsVLws/hqdefault.jpg" width="480" height="360"/>
    <media:description>一个战争机器人与人类孩子的最后时光：意识流科幻小说《潮痕》，原著：伊丽莎白·贝尔《潮痕》 (2008年雨果奖最佳短篇)</media:description>
    <media:community>
-    <media:starRating count="107" average="5.00" min="1" max="5"/>
-    <media:statistics views="3787"/>
+    <media:starRating count="110" average="5.00" min="1" max="5"/>
+    <media:statistics views="3877"/>
    </media:community>
   </media:group>
  </entry>
@@ -98,8 +121,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/DakEnnN9-io/hqdefault.jpg" width="480" height="360"/>
    <media:description>在目前语言学界的主流观点中，不存在“第4人称”。当然这是科幻小说，作者藤野另辟蹊径，以全新的视角揭开了一个地外生命群体的存在模式。《第四人称》  选自：《科幻世界》2016年12月刊。</media:description>
    <media:community>
-    <media:starRating count="141" average="5.00" min="1" max="5"/>
-    <media:statistics views="7464"/>
+    <media:starRating count="142" average="5.00" min="1" max="5"/>
+    <media:statistics views="7582"/>
    </media:community>
   </media:group>
  </entry>
@@ -114,15 +137,15 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2024-02-02T07:04:46+00:00</published>
-  <updated>2024-02-25T04:50:34+00:00</updated>
+  <updated>2024-03-14T20:49:45+00:00</updated>
   <media:group>
    <media:title>老龄化问题的终极答案：让40亿老人移民外星？科幻小说《暮星归途》</media:title>
    <media:content url="https://www.youtube.com/v/yjQoHB4Bs9w?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i2.ytimg.com/vi/yjQoHB4Bs9w/hqdefault.jpg" width="480" height="360"/>
    <media:description>老龄化问题的终极答案：让40亿老人移民外星？科幻小说《暮星归途》</media:description>
    <media:community>
-    <media:starRating count="104" average="5.00" min="1" max="5"/>
-    <media:statistics views="6558"/>
+    <media:starRating count="106" average="5.00" min="1" max="5"/>
+    <media:statistics views="6712"/>
    </media:community>
   </media:group>
  </entry>
@@ -144,8 +167,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/wnP-yUQ1MkQ/hqdefault.jpg" width="480" height="360"/>
    <media:description>说明：这个盘点清单是根据幻海团队的阅读经历，从读者的接受度、作品故事性、作品的思想深度等特点做出的盘点清单，均为我们的个人观点。所以《龙蛋》、《盲视》、《量子魔术师》《泥人十四》等过于硬核的优秀作品不在其中，同时《三体》与《泽利》也不在其中，它们之前已经总结过了，另外《太空漫游系列》/《火星救援》《索拉里斯星》等优秀作品，由于已经被影视化，熟悉的人很多，所以也不在其中。</media:description>
    <media:community>
-    <media:starRating count="194" average="5.00" min="1" max="5"/>
-    <media:statistics views="6169"/>
+    <media:starRating count="195" average="5.00" min="1" max="5"/>
+    <media:statistics views="6246"/>
    </media:community>
   </media:group>
  </entry>
@@ -160,7 +183,7 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2024-01-18T09:24:27+00:00</published>
-  <updated>2024-02-28T11:21:50+00:00</updated>
+  <updated>2024-03-15T09:45:51+00:00</updated>
   <media:group>
    <media:title>盘点：那些科幻大师笔下人类的最终宿命</media:title>
    <media:content url="https://www.youtube.com/v/Bsm94LuBQyo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -168,8 +191,8 @@
    <media:description>列举了六部经典科幻小说中，人类的终极宿命。
 我们最看好的是05：15的部分，在科技断代之后，人类存活到了最后。</media:description>
    <media:community>
-    <media:starRating count="146" average="5.00" min="1" max="5"/>
-    <media:statistics views="7851"/>
+    <media:starRating count="148" average="5.00" min="1" max="5"/>
+    <media:statistics views="7963"/>
    </media:community>
   </media:group>
  </entry>
@@ -184,7 +207,7 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2024-01-11T06:00:21+00:00</published>
-  <updated>2024-02-24T09:35:57+00:00</updated>
+  <updated>2024-03-15T19:20:05+00:00</updated>
   <media:group>
    <media:title>《三体》与《XeeLee》是如此相似，又如此不同：年度阅读总结</media:title>
    <media:content url="https://www.youtube.com/v/j-uy4bG3uYM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -193,8 +216,8 @@
 更新预告：阅读总结——人类的三种终极宿命。
 阅读总结——我心目中的科幻TOP系列盘点。</media:description>
    <media:community>
-    <media:starRating count="164" average="5.00" min="1" max="5"/>
-    <media:statistics views="6839"/>
+    <media:starRating count="167" average="5.00" min="1" max="5"/>
+    <media:statistics views="6875"/>
    </media:community>
   </media:group>
  </entry>
@@ -209,15 +232,15 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2024-01-11T03:14:15+00:00</published>
-  <updated>2024-02-26T17:34:24+00:00</updated>
+  <updated>2024-03-14T18:05:21+00:00</updated>
   <media:group>
    <media:title>用40亿年去纠正一个错误，错误是创造全人类：《宇宙全能侦探社》下集</media:title>
    <media:content url="https://www.youtube.com/v/7yIuEGj7IXU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i4.ytimg.com/vi/7yIuEGj7IXU/hqdefault.jpg" width="480" height="360"/>
    <media:description>用40亿年去纠正一个错误，错误是创造全人类：《宇宙全能侦探社》下集</media:description>
    <media:community>
-    <media:starRating count="78" average="5.00" min="1" max="5"/>
-    <media:statistics views="3775"/>
+    <media:starRating count="79" average="5.00" min="1" max="5"/>
+    <media:statistics views="3815"/>
    </media:community>
   </media:group>
  </entry>
@@ -240,8 +263,8 @@
    <media:description>时空穿越的无尽奥秘，探寻宇宙的终极真相：《宇宙全能侦探社》，上集。
 原著：道格拉斯亚当斯，一位搞怪又不失科幻内核的作家。</media:description>
    <media:community>
-    <media:starRating count="90" average="5.00" min="1" max="5"/>
-    <media:statistics views="6309"/>
+    <media:starRating count="91" average="5.00" min="1" max="5"/>
+    <media:statistics views="6391"/>
    </media:community>
   </media:group>
  </entry>
@@ -263,8 +286,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/k_ZrLJMFE98/hqdefault.jpg" width="480" height="360"/>
    <media:description>《世界上所有的烦恼》，原著：阿西莫夫，出自阿西莫夫科幻短篇全集、 阿西莫夫的这个短篇系列终于出版了！阿西莫夫最神的就是他的短篇，所谓：人类近50年来的科技进步，一直在追赶阿西莫夫科幻小说的脚步。</media:description>
    <media:community>
-    <media:starRating count="151" average="5.00" min="1" max="5"/>
-    <media:statistics views="7827"/>
+    <media:starRating count="152" average="5.00" min="1" max="5"/>
+    <media:statistics views="7891"/>
    </media:community>
   </media:group>
  </entry>
@@ -279,15 +302,15 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2023-12-21T05:54:00+00:00</published>
-  <updated>2023-12-27T08:16:18+00:00</updated>
+  <updated>2024-03-14T05:45:05+00:00</updated>
   <media:group>
    <media:title>一个中子星文明的毁灭与重生：《星震》大结局</media:title>
    <media:content url="https://www.youtube.com/v/MR_wrpZo9S0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i2.ytimg.com/vi/MR_wrpZo9S0/hqdefault.jpg" width="480" height="360"/>
    <media:description>一个中子星文明的毁灭与重生：《星震》大结局</media:description>
    <media:community>
-    <media:starRating count="89" average="5.00" min="1" max="5"/>
-    <media:statistics views="5396"/>
+    <media:starRating count="93" average="5.00" min="1" max="5"/>
+    <media:statistics views="5430"/>
    </media:community>
   </media:group>
  </entry>
@@ -310,8 +333,8 @@
    <media:description>《星震》作为《龙蛋》的续集，很好的继承了前作的“硬核”科幻风格，并且作者罗伯特·福沃德对故事剧情做了不小的优化，很好的承接了上集的剧情。我们一起来欣赏一下吧。
 时隔几年，终于更新到这部了！</media:description>
    <media:community>
-    <media:starRating count="121" average="5.00" min="1" max="5"/>
-    <media:statistics views="7068"/>
+    <media:starRating count="124" average="5.00" min="1" max="5"/>
+    <media:statistics views="7101"/>
    </media:community>
   </media:group>
  </entry>
@@ -333,33 +356,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/Pns8RLiQeoI/hqdefault.jpg" width="480" height="360"/>
    <media:description>如何骗走人类的十年时间：科幻名著《抉择》，原著：小松左京。这部小说收录于《科幻之路》系列。</media:description>
    <media:community>
-    <media:starRating count="129" average="5.00" min="1" max="5"/>
-    <media:statistics views="8233"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:2SnwxJEb_6k</id>
-  <yt:videoId>2SnwxJEb_6k</yt:videoId>
-  <yt:channelId>UCp1nO1bgVwks9b5EhKQGVag</yt:channelId>
-  <title>人类的终局之战——《XeeLee》宇宙大结局！</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=2SnwxJEb_6k"/>
-  <author>
-   <name>幻海航行--science fiction</name>
-   <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
-  </author>
-  <published>2023-11-24T04:14:20+00:00</published>
-  <updated>2024-03-12T16:05:35+00:00</updated>
-  <media:group>
-   <media:title>人类的终局之战——《XeeLee》宇宙大结局！</media:title>
-   <media:content url="https://www.youtube.com/v/2SnwxJEb_6k?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/2SnwxJEb_6k/hqdefault.jpg" width="480" height="360"/>
-   <media:description>人类的终局之战——《XeeLee》宇宙大结局！
-本系列更新完结，原计划十多期内容现在压缩到了五集，奈何精力和财力有限阿....
-不过主线剧情已经更新完毕，未收录的内容仅剩下人类最终生活在小宇宙中的场景。</media:description>
-   <media:community>
-    <media:starRating count="546" average="5.00" min="1" max="5"/>
-    <media:statistics views="37117"/>
+    <media:starRating count="131" average="5.00" min="1" max="5"/>
+    <media:statistics views="8345"/>
    </media:community>
   </media:group>
  </entry>

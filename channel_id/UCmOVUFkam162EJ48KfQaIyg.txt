@@ -81,7 +81,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="682"/>
+    <media:statistics views="717"/>
    </media:community>
   </media:group>
  </entry>
@@ -156,7 +156,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="23" average="5.00" min="1" max="5"/>
-    <media:statistics views="2265"/>
+    <media:statistics views="2277"/>
    </media:community>
   </media:group>
  </entry>
@@ -231,7 +231,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="526"/>
+    <media:statistics views="528"/>
    </media:community>
   </media:group>
  </entry>
@@ -246,7 +246,7 @@ Twitter：stone记@stone62855987</media:description>
    <uri>https://www.youtube.com/channel/UCmOVUFkam162EJ48KfQaIyg</uri>
   </author>
   <published>2024-01-25T16:49:23+00:00</published>
-  <updated>2024-02-25T18:10:53+00:00</updated>
+  <updated>2024-03-15T00:15:06+00:00</updated>
   <media:group>
    <media:title>Taran Tactical，STACCATO，Holosun（20240125第6774期）</media:title>
    <media:content url="https://www.youtube.com/v/t-dVyGnq2BY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -306,7 +306,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="12" average="5.00" min="1" max="5"/>
-    <media:statistics views="1273"/>
+    <media:statistics views="1280"/>
    </media:community>
   </media:group>
  </entry>
@@ -321,7 +321,7 @@ Twitter：stone记@stone62855987</media:description>
    <uri>https://www.youtube.com/channel/UCmOVUFkam162EJ48KfQaIyg</uri>
   </author>
   <published>2024-01-25T03:51:59+00:00</published>
-  <updated>2024-02-24T09:58:38+00:00</updated>
+  <updated>2024-03-14T20:45:25+00:00</updated>
   <media:group>
    <media:title>Oracle Arms and Laugo Arms Alien（20240124第6764期）</media:title>
    <media:content url="https://www.youtube.com/v/jmzXBJTrQxo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -381,7 +381,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="441"/>
+    <media:statistics views="443"/>
    </media:community>
   </media:group>
  </entry>
@@ -456,7 +456,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="919"/>
+    <media:statistics views="923"/>
    </media:community>
   </media:group>
  </entry>
@@ -606,7 +606,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="45" average="5.00" min="1" max="5"/>
-    <media:statistics views="8451"/>
+    <media:statistics views="8468"/>
    </media:community>
   </media:group>
  </entry>
@@ -681,7 +681,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="31" average="5.00" min="1" max="5"/>
-    <media:statistics views="7492"/>
+    <media:statistics views="7495"/>
    </media:community>
   </media:group>
  </entry>
@@ -756,7 +756,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="20" average="5.00" min="1" max="5"/>
-    <media:statistics views="4131"/>
+    <media:statistics views="4141"/>
    </media:community>
   </media:group>
  </entry>
@@ -771,7 +771,7 @@ Twitter：stone记@stone62855987</media:description>
    <uri>https://www.youtube.com/channel/UCmOVUFkam162EJ48KfQaIyg</uri>
   </author>
   <published>2023-05-29T06:13:33+00:00</published>
-  <updated>2024-01-03T01:08:10+00:00</updated>
+  <updated>2024-03-15T11:48:57+00:00</updated>
   <media:group>
    <media:title>手枪的三种手部握持方法（20230529第6004期）</media:title>
    <media:content url="https://www.youtube.com/v/5Y2yIzUPYP0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -831,7 +831,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="18" average="5.00" min="1" max="5"/>
-    <media:statistics views="3025"/>
+    <media:statistics views="3031"/>
    </media:community>
   </media:group>
  </entry>
@@ -906,7 +906,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="16" average="5.00" min="1" max="5"/>
-    <media:statistics views="3418"/>
+    <media:statistics views="3424"/>
    </media:community>
   </media:group>
  </entry>
@@ -981,7 +981,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="28" average="5.00" min="1" max="5"/>
-    <media:statistics views="4020"/>
+    <media:statistics views="4024"/>
    </media:community>
   </media:group>
  </entry>
@@ -1056,7 +1056,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="31" average="5.00" min="1" max="5"/>
-    <media:statistics views="5906"/>
+    <media:statistics views="5909"/>
    </media:community>
   </media:group>
  </entry>
@@ -1131,7 +1131,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="16" average="5.00" min="1" max="5"/>
-    <media:statistics views="1853"/>
+    <media:statistics views="1854"/>
    </media:community>
   </media:group>
  </entry>

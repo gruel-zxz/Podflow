@@ -11,6 +11,33 @@
  </author>
  <published>2022-06-04T16:17:27+00:00</published>
  <entry>
+  <id>yt:video:Y8vCN3tHTCI</id>
+  <yt:videoId>Y8vCN3tHTCI</yt:videoId>
+  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
+  <title>钓鱼初体验，让我理解钓鱼佬，成为钓鱼佬#爱吐槽的 #爱吐槽的四季妈妈 #家庭吐槽大会</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Y8vCN3tHTCI"/>
+  <author>
+   <name>四季妈妈—小龙</name>
+   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
+  </author>
+  <published>2024-03-14T08:05:23+00:00</published>
+  <updated>2024-03-15T07:58:19+00:00</updated>
+  <media:group>
+   <media:title>钓鱼初体验，让我理解钓鱼佬，成为钓鱼佬#爱吐槽的 #爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
+   <media:content url="https://www.youtube.com/v/Y8vCN3tHTCI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/Y8vCN3tHTCI/hqdefault.jpg" width="480" height="360"/>
+   <media:description>大家好，欢迎来到我的频道！今天我要和大家分享我的钓鱼初体验，以及如何成为真正的钓鱼高手！作为一个爱吐槽的人，我要告诉你，钓鱼并不仅仅是一种娱乐活动，更是一种心灵与自然的交流方式。
+
+在这期视频中，我将分享我自己的钓鱼初体验，以及在钓鱼过程中领悟到的一些道理。无论你是想了解钓鱼的乐趣，还是想成为一名优秀的钓鱼高手，本视频都将为你提供一些宝贵的经验和技巧。
+
+别忘了点赞、订阅，并在评论区分享你对钓鱼的看法和自己的钓鱼经历。让我们一起来探讨这个有趣的娱乐活动吧！#钓鱼初体验 #钓鱼高手 #幽默观察</media:description>
+   <media:community>
+    <media:starRating count="4" average="5.00" min="1" max="5"/>
+    <media:statistics views="151"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:UdVn7efEVjk</id>
   <yt:videoId>UdVn7efEVjk</yt:videoId>
   <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
@@ -21,15 +48,15 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-03-12T13:15:33+00:00</published>
-  <updated>2024-03-12T14:08:40+00:00</updated>
+  <updated>2024-03-15T06:39:52+00:00</updated>
   <media:group>
    <media:title>男人的没事儿什么时候才是有事？#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
    <media:content url="https://www.youtube.com/v/UdVn7efEVjk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i2.ytimg.com/vi/UdVn7efEVjk/hqdefault.jpg" width="480" height="360"/>
    <media:description>男人的没事儿什么时候才是有事？#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="93"/>
+    <media:starRating count="8" average="5.00" min="1" max="5"/>
+    <media:statistics views="213"/>
    </media:community>
   </media:group>
  </entry>
@@ -44,7 +71,7 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-03-09T07:43:57+00:00</published>
-  <updated>2024-03-10T06:28:03+00:00</updated>
+  <updated>2024-03-12T19:52:28+00:00</updated>
   <media:group>
    <media:title>果然，男人下班后都喜欢去这些地方，是有原因的#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
    <media:content url="https://www.youtube.com/v/HRqse3S-a_o?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -56,7 +83,7 @@
 别忘了点赞、订阅，并在评论区分享你对男人下班后“必去地点”的看法和自己的观察。让我们一起来探讨这个有趣的话题吧！#男人生活 #消遣去处 #幽默观察</media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="140"/>
+    <media:statistics views="175"/>
    </media:community>
   </media:group>
  </entry>
@@ -83,7 +110,7 @@
 别忘了点赞、订阅，并在评论区分享你对这个话题的看法和自己的经验。让我们一起来看看谁才是最终的赢家吧！#汽车竞争 #胜利者 #幽默观察</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="268"/>
+    <media:statistics views="289"/>
    </media:community>
   </media:group>
  </entry>
@@ -110,7 +137,7 @@
 别忘了点赞、订阅，并在评论区分享你对男人爱车的看法和自己的经验。让我们一起来揭开男人心中的这个秘密吧！#男人爱车 #汽车情感 #幽默观察</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="170"/>
+    <media:statistics views="175"/>
    </media:community>
   </media:group>
  </entry>
@@ -137,7 +164,7 @@
 别忘了点赞、订阅，并在评论区分享您对这款车型的看法和自己的梦想之旅。让我们一起来实现环游世界的梦想吧！#长安汽车 #环球旅行 #梦想之旅</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="111"/>
+    <media:statistics views="115"/>
    </media:community>
   </media:group>
  </entry>
@@ -164,7 +191,7 @@
 别忘了点赞、订阅，并在评论区分享你的看法和自己的经验。一起来感受“老钱风”的魅力吧！#生活态度 #独家秘籍 #幽默观察</media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="122"/>
+    <media:statistics views="125"/>
    </media:community>
   </media:group>
  </entry>
@@ -191,7 +218,7 @@
 别忘了点赞、订阅，并在评论区分享您对这些车型的看法和自己的感受。一起来参与这场面子与自卑的吐槽大会吧！#车辆选择 #面子与自卑 #幽默观察</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="265"/>
+    <media:statistics views="270"/>
    </media:community>
   </media:group>
  </entry>
@@ -218,7 +245,7 @@
 别忘了点赞、订阅，并在评论区分享您对外观在选择中的看法和自己的经验。一起来参与这场外貌与市场的吐槽大会吧！#外貌选择 #市场价值 #幽默观察</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="256"/>
+    <media:statistics views="258"/>
    </media:community>
   </media:group>
  </entry>
@@ -245,7 +272,7 @@
 别忘了点赞、订阅，并在评论区分享您对这款车的看法和自己的车主经历。一起来参与这场揭秘男人选择的吐槽大会吧！#汽车选择 #男人座驾 #幽默观察</media:description>
    <media:community>
     <media:starRating count="42" average="5.00" min="1" max="5"/>
-    <media:statistics views="3732"/>
+    <media:statistics views="3752"/>
    </media:community>
   </media:group>
  </entry>
@@ -272,7 +299,7 @@
 别忘了点赞、订阅，并在评论区分享您对这些保护爱车的看法和自己的经验。一起来参与这场车主心声的吐槽大会吧！#爱车保养 #过年注意事项 #幽默观察</media:description>
    <media:community>
     <media:starRating count="97" average="5.00" min="1" max="5"/>
-    <media:statistics views="7693"/>
+    <media:statistics views="7699"/>
    </media:community>
   </media:group>
  </entry>
@@ -299,7 +326,7 @@
 别忘了点赞、订阅，并在评论区分享您对这些妙招的看法和自己的经验。一起来参与这场小钱办大事的吐槽大会吧！#聚会策划 #预算管理 #幽默观察</media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="210"/>
+    <media:statistics views="215"/>
    </media:community>
   </media:group>
  </entry>
@@ -326,7 +353,7 @@
 别忘了点赞、订阅，并在评论区分享您对这些技巧的看法和自己的经验。一起来参与这场拿捏山东老丈人的吐槽大会吧！#亲家关系 #家庭相处 #幽默观察</media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="154"/>
+    <media:statistics views="158"/>
    </media:community>
   </media:group>
  </entry>
@@ -353,7 +380,7 @@
 别忘了点赞、订阅，并在评论区分享您对这一现象的看法和自己的观点。一起来参与这场国产三蹦子的吐槽大会吧！#国产汽车 #海外热潮 #车辆文化</media:description>
    <media:community>
     <media:starRating count="13" average="5.00" min="1" max="5"/>
-    <media:statistics views="368"/>
+    <media:statistics views="370"/>
    </media:community>
   </media:group>
  </entry>
@@ -368,7 +395,7 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-02-07T05:27:21+00:00</published>
-  <updated>2024-02-27T01:46:56+00:00</updated>
+  <updated>2024-03-13T08:49:33+00:00</updated>
   <media:group>
    <media:title>如果由我决定，会选择这样改吗？四季妈妈爱聊车，爱吐槽的四季妈妈告诉你#四季妈妈爱聊车 #爱吐槽的四季妈妈</media:title>
    <media:content url="https://www.youtube.com/v/CxDjkZOSeXY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -380,34 +407,7 @@
 别忘了点赞、订阅，并在评论区分享您对这个问题的看法和自己的经验。一起来参与这场改车选择的吐槽大会吧！#车辆改装 #选择困难 #幽默观察</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="492"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:bDuoNK0iscc</id>
-  <yt:videoId>bDuoNK0iscc</yt:videoId>
-  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
-  <title>老公生气了怎么办？爱吐槽的四季妈妈分享家庭吐槽大会经验，与汤唯共赴星运之约#lolarose</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=bDuoNK0iscc"/>
-  <author>
-   <name>四季妈妈—小龙</name>
-   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
-  </author>
-  <published>2024-02-04T10:17:05+00:00</published>
-  <updated>2024-02-24T00:54:17+00:00</updated>
-  <media:group>
-   <media:title>老公生气了怎么办？爱吐槽的四季妈妈分享家庭吐槽大会经验，与汤唯共赴星运之约#lolarose</media:title>
-   <media:content url="https://www.youtube.com/v/bDuoNK0iscc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/bDuoNK0iscc/hqdefault.jpg" width="480" height="360"/>
-   <media:description>大家好，欢迎回到我的频道！今天我们要探讨一个家庭中常见的问题：老公生气了，我该怎么哄？爱吐槽的四季妈妈将分享一些家庭吐槽大会的经验，同时与大家一同赴汤唯的星运之约，尽情展现女性魅力！#lolarose
-
-在这期视频中，我们将一同讨论如何妙手回春，解决老公生气的尴尬局面，同时感受与汤唯一同共赴星运之约的美好时刻。当然，这是以娱乐为主，希望大家能在欢笑中轻松愉快。
-
-别忘了点赞、订阅，并在评论区分享您对这一问题的看法和自己的经验。一起来参与这场老公生气应对的吐槽大会吧！#家庭生活 #情感经验 #幽默观察</media:description>
-   <media:community>
-    <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="378"/>
+    <media:statistics views="493"/>
    </media:community>
   </media:group>
  </entry>

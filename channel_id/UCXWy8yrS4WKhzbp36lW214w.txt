@@ -11,6 +11,75 @@
  </author>
  <published>2020-08-21T01:53:13+00:00</published>
  <entry>
+  <id>yt:video:wzzGBA81tOY</id>
+  <yt:videoId>wzzGBA81tOY</yt:videoId>
+  <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
+  <title>诡异怪兽尸体， 牵出恐怖实验室真相</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=wzzGBA81tOY"/>
+  <author>
+   <name>绝密研究所</name>
+   <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
+  </author>
+  <published>2024-03-17T00:15:06+00:00</published>
+  <updated>2024-03-17T00:23:17+00:00</updated>
+  <media:group>
+   <media:title>诡异怪兽尸体， 牵出恐怖实验室真相</media:title>
+   <media:content url="https://www.youtube.com/v/wzzGBA81tOY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/wzzGBA81tOY/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="13"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:jOQWlRbxEQI</id>
+  <yt:videoId>jOQWlRbxEQI</yt:videoId>
+  <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
+  <title>刷新你想象的骆驼冷知识</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=jOQWlRbxEQI"/>
+  <author>
+   <name>绝密研究所</name>
+   <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
+  </author>
+  <published>2024-03-16T00:15:06+00:00</published>
+  <updated>2024-03-16T00:21:27+00:00</updated>
+  <media:group>
+   <media:title>刷新你想象的骆驼冷知识</media:title>
+   <media:content url="https://www.youtube.com/v/jOQWlRbxEQI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/jOQWlRbxEQI/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="29"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:sehCDtGuDl4</id>
+  <yt:videoId>sehCDtGuDl4</yt:videoId>
+  <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
+  <title>历史三大神秘集体消失案</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=sehCDtGuDl4"/>
+  <author>
+   <name>绝密研究所</name>
+   <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
+  </author>
+  <published>2024-03-15T06:39:25+00:00</published>
+  <updated>2024-03-16T08:36:28+00:00</updated>
+  <media:group>
+   <media:title>历史三大神秘集体消失案</media:title>
+   <media:content url="https://www.youtube.com/v/sehCDtGuDl4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/sehCDtGuDl4/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:7lFAnrWu944</id>
   <yt:videoId>7lFAnrWu944</yt:videoId>
   <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
@@ -20,16 +89,39 @@
    <name>绝密研究所</name>
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
-  <published>2024-03-13T01:53:22+00:00</published>
-  <updated>2024-03-13T02:04:28+00:00</updated>
+  <published>2024-03-15T00:15:06+00:00</published>
+  <updated>2024-03-15T00:21:58+00:00</updated>
   <media:group>
    <media:title>不死之身，砍头后还能继续存活</media:title>
    <media:content url="https://www.youtube.com/v/7lFAnrWu944?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i4.ytimg.com/vi/7lFAnrWu944/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="0" average="0.00" min="1" max="5"/>
-    <media:statistics views="0"/>
+    <media:starRating count="1" average="5.00" min="1" max="5"/>
+    <media:statistics views="35"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:uzu7JF2WZWg</id>
+  <yt:videoId>uzu7JF2WZWg</yt:videoId>
+  <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
+  <title>飞机失联35年后降落，机上载着92具骷髅</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=uzu7JF2WZWg"/>
+  <author>
+   <name>绝密研究所</name>
+   <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
+  </author>
+  <published>2024-03-14T00:15:07+00:00</published>
+  <updated>2024-03-14T00:23:45+00:00</updated>
+  <media:group>
+   <media:title>飞机失联35年后降落，机上载着92具骷髅</media:title>
+   <media:content url="https://www.youtube.com/v/uzu7JF2WZWg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/uzu7JF2WZWg/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="2" average="5.00" min="1" max="5"/>
+    <media:statistics views="37"/>
    </media:community>
   </media:group>
  </entry>
@@ -51,8 +143,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/8w8PP5vv_5Q/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="62"/>
+    <media:starRating count="6" average="5.00" min="1" max="5"/>
+    <media:statistics views="727"/>
    </media:community>
   </media:group>
  </entry>
@@ -67,38 +159,15 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-03-12T00:00:06+00:00</published>
-  <updated>2024-03-12T06:45:33+00:00</updated>
+  <updated>2024-03-15T00:29:11+00:00</updated>
   <media:group>
    <media:title>现实世界的“超能力者”</media:title>
    <media:content url="https://www.youtube.com/v/f0IZzP2Pv4M?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i3.ytimg.com/vi/f0IZzP2Pv4M/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="37"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:uzu7JF2WZWg</id>
-  <yt:videoId>uzu7JF2WZWg</yt:videoId>
-  <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
-  <title>飞机失联35年后降落，机上载着92具骷髅</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=uzu7JF2WZWg"/>
-  <author>
-   <name>绝密研究所</name>
-   <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
-  </author>
-  <published>2024-03-11T08:08:07+00:00</published>
-  <updated>2024-03-12T06:09:24+00:00</updated>
-  <media:group>
-   <media:title>飞机失联35年后降落，机上载着92具骷髅</media:title>
-   <media:content url="https://www.youtube.com/v/uzu7JF2WZWg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/uzu7JF2WZWg/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="0" average="0.00" min="1" max="5"/>
-    <media:statistics views="0"/>
+    <media:starRating count="2" average="5.00" min="1" max="5"/>
+    <media:statistics views="86"/>
    </media:community>
   </media:group>
  </entry>
@@ -121,7 +190,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="3" average="5.00" min="1" max="5"/>
-    <media:statistics views="21"/>
+    <media:statistics views="24"/>
    </media:community>
   </media:group>
  </entry>
@@ -144,7 +213,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="46"/>
+    <media:statistics views="57"/>
    </media:community>
   </media:group>
  </entry>
@@ -167,7 +236,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="78"/>
+    <media:statistics views="83"/>
    </media:community>
   </media:group>
  </entry>
@@ -190,7 +259,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="0" average="0.00" min="1" max="5"/>
-    <media:statistics views="74"/>
+    <media:statistics views="77"/>
    </media:community>
   </media:group>
  </entry>
@@ -205,7 +274,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-03-07T00:15:06+00:00</published>
-  <updated>2024-03-07T00:22:21+00:00</updated>
+  <updated>2024-03-12T15:06:32+00:00</updated>
   <media:group>
    <media:title>搜索技术，普通人变强的唯一外挂</media:title>
    <media:content url="https://www.youtube.com/v/5UQf1CE3E9g?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -213,7 +282,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="227"/>
+    <media:statistics views="231"/>
    </media:community>
   </media:group>
  </entry>
@@ -236,7 +305,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="30"/>
+    <media:statistics views="31"/>
    </media:community>
   </media:group>
  </entry>
@@ -259,7 +328,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="107"/>
+    <media:statistics views="111"/>
    </media:community>
   </media:group>
  </entry>
@@ -282,76 +351,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="82"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:klQaWb9cM3w</id>
-  <yt:videoId>klQaWb9cM3w</yt:videoId>
-  <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
-  <title>藏在婚纱店的“僵尸新娘”</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=klQaWb9cM3w"/>
-  <author>
-   <name>绝密研究所</name>
-   <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
-  </author>
-  <published>2024-03-03T00:15:07+00:00</published>
-  <updated>2024-03-03T00:22:26+00:00</updated>
-  <media:group>
-   <media:title>藏在婚纱店的“僵尸新娘”</media:title>
-   <media:content url="https://www.youtube.com/v/klQaWb9cM3w?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/klQaWb9cM3w/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="47"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:Qn5Os-d5IkI</id>
-  <yt:videoId>Qn5Os-d5IkI</yt:videoId>
-  <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
-  <title>达尔文奖，愚蠢死法大赏</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=Qn5Os-d5IkI"/>
-  <author>
-   <name>绝密研究所</name>
-   <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
-  </author>
-  <published>2024-03-02T00:15:11+00:00</published>
-  <updated>2024-03-07T01:26:42+00:00</updated>
-  <media:group>
-   <media:title>达尔文奖，愚蠢死法大赏</media:title>
-   <media:content url="https://www.youtube.com/v/Qn5Os-d5IkI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/Qn5Os-d5IkI/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="532"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:rEBhURD3OcU</id>
-  <yt:videoId>rEBhURD3OcU</yt:videoId>
-  <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
-  <title>纳粹与圣杯，企图用魔法征服世界</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=rEBhURD3OcU"/>
-  <author>
-   <name>绝密研究所</name>
-   <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
-  </author>
-  <published>2024-03-01T00:15:10+00:00</published>
-  <updated>2024-03-02T22:54:08+00:00</updated>
-  <media:group>
-   <media:title>纳粹与圣杯，企图用魔法征服世界</media:title>
-   <media:content url="https://www.youtube.com/v/rEBhURD3OcU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/rEBhURD3OcU/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="140"/>
+    <media:statistics views="85"/>
    </media:community>
   </media:group>
  </entry>
