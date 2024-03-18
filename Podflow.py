@@ -1994,10 +1994,11 @@ def server_process_print():
             output_time = re1_output.group(0)
         else:
             output_time = datetime.now().strftime('%H:%M:%S')
-        if need_keep == "":
-            need_keep = f"{output_time}|{output}"
-        elif output != "":
-            need_keep += f"\n{output_time}|{output}"
+        if output != "":
+            if need_keep == "":
+                need_keep = f"{output_time}|{output}"
+            else:
+                need_keep += f"\n{output_time}|{output}"
         if server_process_print_flag[0] == "keep":
             print(need_keep)
             need_keep = ""
@@ -2137,3 +2138,5 @@ server_process_print_flag[0] = "end"
 http_client("http://127.0.0.1:8000/", "", 1, 0)
 prepare_print.join()
 print(f"{datetime.now().strftime('%H:%M:%S')}|Podflow运行结束")
+
+
