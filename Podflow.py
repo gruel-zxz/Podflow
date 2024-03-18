@@ -1994,15 +1994,16 @@ def server_process_print():
             output_time = re1_output.group(0)
         else:
             output_time = datetime.now().strftime('%H:%M:%S')
-        if output != "":
+        if output:
             if need_keep == "":
                 need_keep = f"{output_time}|{output}"
             else:
                 need_keep += f"\n{output_time}|{output}"
         if server_process_print_flag[0] == "keep":
-            print(need_keep)
+            if need_keep:
+                print(need_keep)
             need_keep = ""
-        if server_process_print_flag[0] == "end":
+        if server_process_print_flag[0] == "end" or output == "Keyboard interrupt received, exiting.":
             break
 
 # 创建进程打印线程

@@ -21,7 +21,7 @@
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
   <published>2024-03-18T02:25:10+00:00</published>
-  <updated>2024-03-18T02:29:16+00:00</updated>
+  <updated>2024-03-18T03:04:31+00:00</updated>
   <media:group>
    <media:title>亚裔支持民主党的原因，奥斯卡金像奖歧视风波（20240317第6925期）</media:title>
    <media:content url="https://www.youtube.com/v/BGL7nAllRwM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -78,8 +78,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="20" average="5.00" min="1" max="5"/>
-    <media:statistics views="1297"/>
+    <media:starRating count="103" average="5.00" min="1" max="5"/>
+    <media:statistics views="6686"/>
    </media:community>
   </media:group>
  </entry>
@@ -151,8 +151,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="22" average="5.00" min="1" max="5"/>
-    <media:statistics views="1670"/>
+    <media:starRating count="91" average="5.00" min="1" max="5"/>
+    <media:statistics views="10102"/>
    </media:community>
   </media:group>
  </entry>
@@ -224,8 +224,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="206" average="5.00" min="1" max="5"/>
-    <media:statistics views="33429"/>
+    <media:starRating count="219" average="5.00" min="1" max="5"/>
+    <media:statistics views="36706"/>
    </media:community>
   </media:group>
  </entry>
@@ -297,8 +297,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="126" average="5.00" min="1" max="5"/>
-    <media:statistics views="20911"/>
+    <media:starRating count="125" average="5.00" min="1" max="5"/>
+    <media:statistics views="22835"/>
    </media:community>
   </media:group>
  </entry>
@@ -370,8 +370,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="130" average="5.00" min="1" max="5"/>
-    <media:statistics views="18799"/>
+    <media:starRating count="136" average="5.00" min="1" max="5"/>
+    <media:statistics views="20518"/>
    </media:community>
   </media:group>
  </entry>
@@ -444,7 +444,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="32" average="5.00" min="1" max="5"/>
-    <media:statistics views="3122"/>
+    <media:statistics views="3295"/>
    </media:community>
   </media:group>
  </entry>
@@ -516,8 +516,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="248" average="5.00" min="1" max="5"/>
-    <media:statistics views="46298"/>
+    <media:starRating count="250" average="5.00" min="1" max="5"/>
+    <media:statistics views="47346"/>
    </media:community>
   </media:group>
  </entry>
@@ -589,8 +589,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="486" average="5.00" min="1" max="5"/>
-    <media:statistics views="93684"/>
+    <media:starRating count="491" average="5.00" min="1" max="5"/>
+    <media:statistics views="95874"/>
    </media:community>
   </media:group>
  </entry>
@@ -662,8 +662,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="87" average="5.00" min="1" max="5"/>
-    <media:statistics views="7609"/>
+    <media:starRating count="88" average="5.00" min="1" max="5"/>
+    <media:statistics views="7756"/>
    </media:community>
   </media:group>
  </entry>
@@ -735,8 +735,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="229" average="5.00" min="1" max="5"/>
-    <media:statistics views="24688"/>
+    <media:starRating count="231" average="5.00" min="1" max="5"/>
+    <media:statistics views="25108"/>
    </media:community>
   </media:group>
  </entry>
@@ -808,8 +808,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="345" average="5.00" min="1" max="5"/>
-    <media:statistics views="53325"/>
+    <media:starRating count="346" average="5.00" min="1" max="5"/>
+    <media:statistics views="54012"/>
    </media:community>
   </media:group>
  </entry>
@@ -824,7 +824,7 @@ https://youtu.be/BbtTwsP_-zc</media:description>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
   <published>2024-03-15T01:00:45+00:00</published>
-  <updated>2024-03-16T11:36:43+00:00</updated>
+  <updated>2024-03-18T03:03:41+00:00</updated>
   <media:group>
    <media:title>美国国会指责拼多多的商品太便宜危害美国国家安全，将立法制裁拼多多（20240314第6916期）</media:title>
    <media:content url="https://www.youtube.com/v/qZc4zl9M-Ig?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -882,7 +882,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="499" average="5.00" min="1" max="5"/>
-    <media:statistics views="62938"/>
+    <media:statistics views="63175"/>
    </media:community>
   </media:group>
  </entry>
@@ -954,8 +954,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="175" average="5.00" min="1" max="5"/>
-    <media:statistics views="25632"/>
+    <media:starRating count="177" average="5.00" min="1" max="5"/>
+    <media:statistics views="25729"/>
    </media:community>
   </media:group>
  </entry>
@@ -1028,7 +1028,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="226" average="5.00" min="1" max="5"/>
-    <media:statistics views="34561"/>
+    <media:statistics views="34683"/>
    </media:community>
   </media:group>
  </entry>
@@ -1101,7 +1101,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="177" average="5.00" min="1" max="5"/>
-    <media:statistics views="27769"/>
+    <media:statistics views="27885"/>
    </media:community>
   </media:group>
  </entry>
