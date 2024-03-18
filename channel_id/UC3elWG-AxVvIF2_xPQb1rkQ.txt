@@ -11,6 +11,33 @@
  </author>
  <published>2022-06-04T16:17:27+00:00</published>
  <entry>
+  <id>yt:video:5OYi6KlMt8Y</id>
+  <yt:videoId>5OYi6KlMt8Y</yt:videoId>
+  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
+  <title>你是不是和我老公一样，进商场就直奔 #丈夫寄存处 #爱吐槽的四季妈妈 #家庭吐槽大会</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=5OYi6KlMt8Y"/>
+  <author>
+   <name>四季妈妈—小龙</name>
+   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
+  </author>
+  <published>2024-03-17T10:22:05+00:00</published>
+  <updated>2024-03-17T20:03:13+00:00</updated>
+  <media:group>
+   <media:title>你是不是和我老公一样，进商场就直奔 #丈夫寄存处 #爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
+   <media:content url="https://www.youtube.com/v/5OYi6KlMt8Y?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/5OYi6KlMt8Y/hqdefault.jpg" width="480" height="360"/>
+   <media:description>大家好，欢迎来到我的频道！今天我们要探讨的是进入商场后，丈夫们都会直奔的那个地方——丈夫寄存处！四季妈妈爱吐槽，带你一起揭秘商场内的这个神秘地点。
+
+在这期视频中，我将分享一些商场中丈夫们最爱去的地方，以及背后的原因和有趣的吐槽。无论是休息椅、儿童游乐区还是电子产品专区，丈夫们总是有着自己的偏好和行为习惯。让我们一起来探索这个有趣的话题！
+
+别忘了点赞、订阅，并在评论区分享你对丈夫寄存处的看法和自己的观察。让我们一起来笑谈商场购物的趣事吧！#商场购物 #丈夫寄存处 #幽默观察</media:description>
+   <media:community>
+    <media:starRating count="5" average="5.00" min="1" max="5"/>
+    <media:statistics views="97"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:Y8vCN3tHTCI</id>
   <yt:videoId>Y8vCN3tHTCI</yt:videoId>
   <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
@@ -33,7 +60,7 @@
 别忘了点赞、订阅，并在评论区分享你对钓鱼的看法和自己的钓鱼经历。让我们一起来探讨这个有趣的娱乐活动吧！#钓鱼初体验 #钓鱼高手 #幽默观察</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="151"/>
+    <media:statistics views="167"/>
    </media:community>
   </media:group>
  </entry>
@@ -56,7 +83,7 @@
    <media:description>男人的没事儿什么时候才是有事？#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="213"/>
+    <media:statistics views="228"/>
    </media:community>
   </media:group>
  </entry>
@@ -83,7 +110,7 @@
 别忘了点赞、订阅，并在评论区分享你对男人下班后“必去地点”的看法和自己的观察。让我们一起来探讨这个有趣的话题吧！#男人生活 #消遣去处 #幽默观察</media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="175"/>
+    <media:statistics views="176"/>
    </media:community>
   </media:group>
  </entry>
@@ -110,7 +137,7 @@
 别忘了点赞、订阅，并在评论区分享你对这个话题的看法和自己的经验。让我们一起来看看谁才是最终的赢家吧！#汽车竞争 #胜利者 #幽默观察</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="289"/>
+    <media:statistics views="291"/>
    </media:community>
   </media:group>
  </entry>
@@ -137,7 +164,7 @@
 别忘了点赞、订阅，并在评论区分享你对男人爱车的看法和自己的经验。让我们一起来揭开男人心中的这个秘密吧！#男人爱车 #汽车情感 #幽默观察</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="175"/>
+    <media:statistics views="176"/>
    </media:community>
   </media:group>
  </entry>
@@ -164,7 +191,7 @@
 别忘了点赞、订阅，并在评论区分享您对这款车型的看法和自己的梦想之旅。让我们一起来实现环游世界的梦想吧！#长安汽车 #环球旅行 #梦想之旅</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="115"/>
+    <media:statistics views="116"/>
    </media:community>
   </media:group>
  </entry>
@@ -272,7 +299,7 @@
 别忘了点赞、订阅，并在评论区分享您对这款车的看法和自己的车主经历。一起来参与这场揭秘男人选择的吐槽大会吧！#汽车选择 #男人座驾 #幽默观察</media:description>
    <media:community>
     <media:starRating count="42" average="5.00" min="1" max="5"/>
-    <media:statistics views="3752"/>
+    <media:statistics views="3754"/>
    </media:community>
   </media:group>
  </entry>
@@ -299,7 +326,7 @@
 别忘了点赞、订阅，并在评论区分享您对这些保护爱车的看法和自己的经验。一起来参与这场车主心声的吐槽大会吧！#爱车保养 #过年注意事项 #幽默观察</media:description>
    <media:community>
     <media:starRating count="97" average="5.00" min="1" max="5"/>
-    <media:statistics views="7699"/>
+    <media:statistics views="7705"/>
    </media:community>
   </media:group>
  </entry>
@@ -353,7 +380,7 @@
 别忘了点赞、订阅，并在评论区分享您对这些技巧的看法和自己的经验。一起来参与这场拿捏山东老丈人的吐槽大会吧！#亲家关系 #家庭相处 #幽默观察</media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="158"/>
+    <media:statistics views="159"/>
    </media:community>
   </media:group>
  </entry>
@@ -381,33 +408,6 @@
    <media:community>
     <media:starRating count="13" average="5.00" min="1" max="5"/>
     <media:statistics views="370"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:CxDjkZOSeXY</id>
-  <yt:videoId>CxDjkZOSeXY</yt:videoId>
-  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
-  <title>如果由我决定，会选择这样改吗？四季妈妈爱聊车，爱吐槽的四季妈妈告诉你#四季妈妈爱聊车 #爱吐槽的四季妈妈</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=CxDjkZOSeXY"/>
-  <author>
-   <name>四季妈妈—小龙</name>
-   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
-  </author>
-  <published>2024-02-07T05:27:21+00:00</published>
-  <updated>2024-03-13T08:49:33+00:00</updated>
-  <media:group>
-   <media:title>如果由我决定，会选择这样改吗？四季妈妈爱聊车，爱吐槽的四季妈妈告诉你#四季妈妈爱聊车 #爱吐槽的四季妈妈</media:title>
-   <media:content url="https://www.youtube.com/v/CxDjkZOSeXY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/CxDjkZOSeXY/hqdefault.jpg" width="480" height="360"/>
-   <media:description>大家好，欢迎回到我的频道！今天我们要讨论一个改车问题：如果由我决定，我会选择这样改吗？四季妈妈爱聊车，爱吐槽的四季妈妈将告诉你！通过独特的视角，我将分享一些有关车辆改装的趣事。
-
-在这期视频中，我们将一同探讨改车时可能遇到的选择，以及我会如何决定。当然，这是以娱乐为主，希望大家能在欢笑中轻松愉快。
-
-别忘了点赞、订阅，并在评论区分享您对这个问题的看法和自己的经验。一起来参与这场改车选择的吐槽大会吧！#车辆改装 #选择困难 #幽默观察</media:description>
-   <media:community>
-    <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="493"/>
    </media:community>
   </media:group>
  </entry>
