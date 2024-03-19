@@ -28,8 +28,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/6dnBjGU-N2w/hqdefault.jpg" width="480" height="360"/>
    <media:description>《米奇7号》，原著：爱德华·阿什顿。这部一经问世，便获得了美国全国公共广播电台2022最佳图书奖，《寄生虫》的导演奉俊昊也将其改编为电影剧本，预计2025年会和大家见面。</media:description>
    <media:community>
-    <media:starRating count="106" average="5.00" min="1" max="5"/>
-    <media:statistics views="4760"/>
+    <media:starRating count="112" average="5.00" min="1" max="5"/>
+    <media:statistics views="5125"/>
    </media:community>
   </media:group>
  </entry>
@@ -52,8 +52,8 @@
    <media:description>刘慈欣、那多，联合推荐本书，书中写出了“奇点”到来后的那一刻。那一刻，无数人想过却没想清，无数人想写却没写出.....
 这是一部非常硬核的国产长篇科幻小说，作者用专业的知识，为我们呈现了这部《造神年代》，建议感兴趣的同学阅读原著。《造神年代》原著：严曦。</media:description>
    <media:community>
-    <media:starRating count="136" average="5.00" min="1" max="5"/>
-    <media:statistics views="6244"/>
+    <media:starRating count="137" average="5.00" min="1" max="5"/>
+    <media:statistics views="6388"/>
    </media:community>
   </media:group>
  </entry>
@@ -76,7 +76,7 @@
    <media:description>《逃兵》上世纪40年代的科幻作品，原著：克利福德.西马克，作者以较为严谨的写作手法和大胆的想象力，在上世纪就为我们构想出了另类生命对人类的看法，是科幻黄金时代的佳作之一。</media:description>
    <media:community>
     <media:starRating count="137" average="5.00" min="1" max="5"/>
-    <media:statistics views="5741"/>
+    <media:statistics views="5769"/>
    </media:community>
   </media:group>
  </entry>
@@ -98,8 +98,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/FLiRhZsVLws/hqdefault.jpg" width="480" height="360"/>
    <media:description>一个战争机器人与人类孩子的最后时光：意识流科幻小说《潮痕》，原著：伊丽莎白·贝尔《潮痕》 (2008年雨果奖最佳短篇)</media:description>
    <media:community>
-    <media:starRating count="110" average="5.00" min="1" max="5"/>
-    <media:statistics views="3895"/>
+    <media:starRating count="111" average="5.00" min="1" max="5"/>
+    <media:statistics views="3915"/>
    </media:community>
   </media:group>
  </entry>
@@ -122,7 +122,7 @@
    <media:description>在目前语言学界的主流观点中，不存在“第4人称”。当然这是科幻小说，作者藤野另辟蹊径，以全新的视角揭开了一个地外生命群体的存在模式。《第四人称》  选自：《科幻世界》2016年12月刊。</media:description>
    <media:community>
     <media:starRating count="142" average="5.00" min="1" max="5"/>
-    <media:statistics views="7609"/>
+    <media:statistics views="7636"/>
    </media:community>
   </media:group>
  </entry>
@@ -145,7 +145,7 @@
    <media:description>老龄化问题的终极答案：让40亿老人移民外星？科幻小说《暮星归途》</media:description>
    <media:community>
     <media:starRating count="106" average="5.00" min="1" max="5"/>
-    <media:statistics views="6740"/>
+    <media:statistics views="6767"/>
    </media:community>
   </media:group>
  </entry>
@@ -167,8 +167,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/wnP-yUQ1MkQ/hqdefault.jpg" width="480" height="360"/>
    <media:description>说明：这个盘点清单是根据幻海团队的阅读经历，从读者的接受度、作品故事性、作品的思想深度等特点做出的盘点清单，均为我们的个人观点。所以《龙蛋》、《盲视》、《量子魔术师》《泥人十四》等过于硬核的优秀作品不在其中，同时《三体》与《泽利》也不在其中，它们之前已经总结过了，另外《太空漫游系列》/《火星救援》《索拉里斯星》等优秀作品，由于已经被影视化，熟悉的人很多，所以也不在其中。</media:description>
    <media:community>
-    <media:starRating count="195" average="5.00" min="1" max="5"/>
-    <media:statistics views="6281"/>
+    <media:starRating count="196" average="5.00" min="1" max="5"/>
+    <media:statistics views="6300"/>
    </media:community>
   </media:group>
  </entry>
@@ -183,7 +183,7 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2024-01-18T09:24:27+00:00</published>
-  <updated>2024-03-15T09:45:51+00:00</updated>
+  <updated>2024-03-19T02:05:16+00:00</updated>
   <media:group>
    <media:title>盘点：那些科幻大师笔下人类的最终宿命</media:title>
    <media:content url="https://www.youtube.com/v/Bsm94LuBQyo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -192,7 +192,7 @@
 我们最看好的是05：15的部分，在科技断代之后，人类存活到了最后。</media:description>
    <media:community>
     <media:starRating count="148" average="5.00" min="1" max="5"/>
-    <media:statistics views="7980"/>
+    <media:statistics views="7994"/>
    </media:community>
   </media:group>
  </entry>
@@ -216,8 +216,8 @@
 更新预告：阅读总结——人类的三种终极宿命。
 阅读总结——我心目中的科幻TOP系列盘点。</media:description>
    <media:community>
-    <media:starRating count="168" average="5.00" min="1" max="5"/>
-    <media:statistics views="6886"/>
+    <media:starRating count="167" average="5.00" min="1" max="5"/>
+    <media:statistics views="6896"/>
    </media:community>
   </media:group>
  </entry>
@@ -240,7 +240,7 @@
    <media:description>用40亿年去纠正一个错误，错误是创造全人类：《宇宙全能侦探社》下集</media:description>
    <media:community>
     <media:starRating count="80" average="5.00" min="1" max="5"/>
-    <media:statistics views="3830"/>
+    <media:statistics views="3842"/>
    </media:community>
   </media:group>
  </entry>
@@ -255,7 +255,7 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2024-01-08T07:59:00+00:00</published>
-  <updated>2024-02-24T03:34:47+00:00</updated>
+  <updated>2024-03-18T18:58:21+00:00</updated>
   <media:group>
    <media:title>时空穿越的奥秘，探寻宇宙的终极真相：《宇宙全能侦探社》</media:title>
    <media:content url="https://www.youtube.com/v/hxYk-IYXCHk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -264,7 +264,7 @@
 原著：道格拉斯亚当斯，一位搞怪又不失科幻内核的作家。</media:description>
    <media:community>
     <media:starRating count="91" average="5.00" min="1" max="5"/>
-    <media:statistics views="6404"/>
+    <media:statistics views="6411"/>
    </media:community>
   </media:group>
  </entry>
@@ -287,7 +287,7 @@
    <media:description>《世界上所有的烦恼》，原著：阿西莫夫，出自阿西莫夫科幻短篇全集、 阿西莫夫的这个短篇系列终于出版了！阿西莫夫最神的就是他的短篇，所谓：人类近50年来的科技进步，一直在追赶阿西莫夫科幻小说的脚步。</media:description>
    <media:community>
     <media:starRating count="153" average="5.00" min="1" max="5"/>
-    <media:statistics views="7906"/>
+    <media:statistics views="7923"/>
    </media:community>
   </media:group>
  </entry>
@@ -310,7 +310,7 @@
    <media:description>一个中子星文明的毁灭与重生：《星震》大结局</media:description>
    <media:community>
     <media:starRating count="93" average="5.00" min="1" max="5"/>
-    <media:statistics views="5438"/>
+    <media:statistics views="5440"/>
    </media:community>
   </media:group>
  </entry>
@@ -334,7 +334,7 @@
 时隔几年，终于更新到这部了！</media:description>
    <media:community>
     <media:starRating count="125" average="5.00" min="1" max="5"/>
-    <media:statistics views="7114"/>
+    <media:statistics views="7123"/>
    </media:community>
   </media:group>
  </entry>
@@ -357,7 +357,7 @@
    <media:description>如何骗走人类的十年时间：科幻名著《抉择》，原著：小松左京。这部小说收录于《科幻之路》系列。</media:description>
    <media:community>
     <media:starRating count="131" average="5.00" min="1" max="5"/>
-    <media:statistics views="8365"/>
+    <media:statistics views="8379"/>
    </media:community>
   </media:group>
  </entry>

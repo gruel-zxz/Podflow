@@ -11,6 +11,33 @@
  </author>
  <published>2022-06-04T16:17:27+00:00</published>
  <entry>
+  <id>yt:video:9SB47dCpiwo</id>
+  <yt:videoId>9SB47dCpiwo</yt:videoId>
+  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
+  <title>跟我老公分床住了几天，现在后悔了#家庭吐槽大会 #爱吐槽的四季妈妈|</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=9SB47dCpiwo"/>
+  <author>
+   <name>四季妈妈—小龙</name>
+   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
+  </author>
+  <published>2024-03-18T12:55:06+00:00</published>
+  <updated>2024-03-18T19:33:34+00:00</updated>
+  <media:group>
+   <media:title>跟我老公分床住了几天，现在后悔了#家庭吐槽大会 #爱吐槽的四季妈妈|</media:title>
+   <media:content url="https://www.youtube.com/v/9SB47dCpiwo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/9SB47dCpiwo/hqdefault.jpg" width="480" height="360"/>
+   <media:description>大家好，欢迎来到我的频道！今天我要和大家分享一个有趣的经历：我和老公分床住了几天，现在却后悔了！四季妈妈爱吐槽，带你一起笑谈家庭中的趣事。
+
+在这期视频中，我将分享我和老公分床住的经历，以及这段日子带给我的反思和感悟。有时候，家庭生活中的小插曲会给我们带来意想不到的启示和笑料。让我们一起来笑对生活中的趣事！
+
+别忘了点赞、订阅，并在评论区分享你对家庭生活的看法和自己的趣事经历。让我们一起来共享家庭吐槽的乐趣吧！#家庭生活 #趣事经历 #幽默观察</media:description>
+   <media:community>
+    <media:starRating count="6" average="5.00" min="1" max="5"/>
+    <media:statistics views="191"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:5OYi6KlMt8Y</id>
   <yt:videoId>5OYi6KlMt8Y</yt:videoId>
   <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
@@ -21,7 +48,7 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-03-17T10:22:05+00:00</published>
-  <updated>2024-03-17T20:03:13+00:00</updated>
+  <updated>2024-03-18T08:00:50+00:00</updated>
   <media:group>
    <media:title>你是不是和我老公一样，进商场就直奔 #丈夫寄存处 #爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
    <media:content url="https://www.youtube.com/v/5OYi6KlMt8Y?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -32,8 +59,8 @@
 
 别忘了点赞、订阅，并在评论区分享你对丈夫寄存处的看法和自己的观察。让我们一起来笑谈商场购物的趣事吧！#商场购物 #丈夫寄存处 #幽默观察</media:description>
    <media:community>
-    <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="114"/>
+    <media:starRating count="6" average="5.00" min="1" max="5"/>
+    <media:statistics views="175"/>
    </media:community>
   </media:group>
  </entry>
@@ -48,7 +75,7 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-03-14T08:05:23+00:00</published>
-  <updated>2024-03-15T07:58:19+00:00</updated>
+  <updated>2024-03-18T08:06:38+00:00</updated>
   <media:group>
    <media:title>钓鱼初体验，让我理解钓鱼佬，成为钓鱼佬#爱吐槽的 #爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
    <media:content url="https://www.youtube.com/v/Y8vCN3tHTCI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -60,7 +87,7 @@
 别忘了点赞、订阅，并在评论区分享你对钓鱼的看法和自己的钓鱼经历。让我们一起来探讨这个有趣的娱乐活动吧！#钓鱼初体验 #钓鱼高手 #幽默观察</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="170"/>
+    <media:statistics views="175"/>
    </media:community>
   </media:group>
  </entry>
@@ -83,7 +110,7 @@
    <media:description>男人的没事儿什么时候才是有事？#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="230"/>
+    <media:statistics views="240"/>
    </media:community>
   </media:group>
  </entry>
@@ -110,7 +137,7 @@
 别忘了点赞、订阅，并在评论区分享你对男人下班后“必去地点”的看法和自己的观察。让我们一起来探讨这个有趣的话题吧！#男人生活 #消遣去处 #幽默观察</media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="177"/>
+    <media:statistics views="179"/>
    </media:community>
   </media:group>
  </entry>
@@ -137,7 +164,7 @@
 别忘了点赞、订阅，并在评论区分享你对这个话题的看法和自己的经验。让我们一起来看看谁才是最终的赢家吧！#汽车竞争 #胜利者 #幽默观察</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="292"/>
+    <media:statistics views="293"/>
    </media:community>
   </media:group>
  </entry>
@@ -164,7 +191,7 @@
 别忘了点赞、订阅，并在评论区分享你对男人爱车的看法和自己的经验。让我们一起来揭开男人心中的这个秘密吧！#男人爱车 #汽车情感 #幽默观察</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="178"/>
+    <media:statistics views="180"/>
    </media:community>
   </media:group>
  </entry>
@@ -217,8 +244,8 @@
 
 别忘了点赞、订阅，并在评论区分享你的看法和自己的经验。一起来感受“老钱风”的魅力吧！#生活态度 #独家秘籍 #幽默观察</media:description>
    <media:community>
-    <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="125"/>
+    <media:starRating count="2" average="5.00" min="1" max="5"/>
+    <media:statistics views="126"/>
    </media:community>
   </media:group>
  </entry>
@@ -245,7 +272,7 @@
 别忘了点赞、订阅，并在评论区分享您对这些车型的看法和自己的感受。一起来参与这场面子与自卑的吐槽大会吧！#车辆选择 #面子与自卑 #幽默观察</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="270"/>
+    <media:statistics views="271"/>
    </media:community>
   </media:group>
  </entry>
@@ -326,7 +353,7 @@
 别忘了点赞、订阅，并在评论区分享您对这些保护爱车的看法和自己的经验。一起来参与这场车主心声的吐槽大会吧！#爱车保养 #过年注意事项 #幽默观察</media:description>
    <media:community>
     <media:starRating count="97" average="5.00" min="1" max="5"/>
-    <media:statistics views="7707"/>
+    <media:statistics views="7708"/>
    </media:community>
   </media:group>
  </entry>
@@ -353,7 +380,7 @@
 别忘了点赞、订阅，并在评论区分享您对这些妙招的看法和自己的经验。一起来参与这场小钱办大事的吐槽大会吧！#聚会策划 #预算管理 #幽默观察</media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="215"/>
+    <media:statistics views="216"/>
    </media:community>
   </media:group>
  </entry>
@@ -381,33 +408,6 @@
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
     <media:statistics views="159"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:SUd3tb-GlM0</id>
-  <yt:videoId>SUd3tb-GlM0</yt:videoId>
-  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
-  <title>国产三蹦子风靡海外！四季妈妈爱聊车带你解密这股热潮 #四季妈妈爱聊车</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=SUd3tb-GlM0"/>
-  <author>
-   <name>四季妈妈—小龙</name>
-   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
-  </author>
-  <published>2024-02-08T10:10:42+00:00</published>
-  <updated>2024-02-29T18:12:15+00:00</updated>
-  <media:group>
-   <media:title>国产三蹦子风靡海外！四季妈妈爱聊车带你解密这股热潮 #四季妈妈爱聊车</media:title>
-   <media:content url="https://www.youtube.com/v/SUd3tb-GlM0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/SUd3tb-GlM0/hqdefault.jpg" width="480" height="360"/>
-   <media:description>大家好，欢迎来到我的频道！今天我们要谈论一个惊人的现象：国产三蹦子在国外走红，老外看了直呼羡慕！四季妈妈爱聊车，今天将带你解密这股热潮！我们会探讨这些国产三蹦子在海外为何如此受欢迎，以及其背后的故事。
-
-在这期视频中，我们将一同探索这个有趣的话题，并从不同角度解读这股国产三蹦子的海外热潮。当然，这是以娱乐为主，希望大家能在欢笑中获得乐趣。
-
-别忘了点赞、订阅，并在评论区分享您对这一现象的看法和自己的观点。一起来参与这场国产三蹦子的吐槽大会吧！#国产汽车 #海外热潮 #车辆文化</media:description>
-   <media:community>
-    <media:starRating count="13" average="5.00" min="1" max="5"/>
-    <media:statistics views="370"/>
    </media:community>
   </media:group>
  </entry>
