@@ -327,6 +327,9 @@ while library_import is False:
         import yt_dlp
         from astral.sun import sun
         from astral import LocationInfo
+        from Cryptodome.Cipher import PKCS1_OAEP
+        from Cryptodome.PublicKey import RSA
+        from Cryptodome.Hash import SHA256
         library_import = True
     except ImportError:
         today_library_log = ""
@@ -1046,7 +1049,7 @@ def get_channelid(name):
 
 # channelid修正模块
 def correct_channelid(channelid, website):
-    # 音视频格式及分辨率长量
+    # 音视频格式及分辨率常量
     video_media = [
         "m4v",
         "mov",
