@@ -21,7 +21,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-03-20T00:15:07+00:00</published>
-  <updated>2024-03-20T00:22:13+00:00</updated>
+  <updated>2024-03-20T05:52:14+00:00</updated>
   <media:group>
    <media:title>镜头捕捉到的6个不可思议的时刻</media:title>
    <media:content url="https://www.youtube.com/v/Y8x0oSD9ocU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -29,7 +29,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="0" average="0.00" min="1" max="5"/>
-    <media:statistics views="6"/>
+    <media:statistics views="10"/>
    </media:community>
   </media:group>
  </entry>
@@ -44,7 +44,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-03-19T09:25:38+00:00</published>
-  <updated>2024-03-19T10:06:54+00:00</updated>
+  <updated>2024-03-20T07:11:22+00:00</updated>
   <media:group>
    <media:title>大家来找茬 ，动物界的隐身大师</media:title>
    <media:content url="https://www.youtube.com/v/B9wrPX-tL38?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -67,7 +67,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-03-19T09:15:30+00:00</published>
-  <updated>2024-03-19T17:54:30+00:00</updated>
+  <updated>2024-03-20T07:34:21+00:00</updated>
   <media:group>
    <media:title>贝尔女巫杀人案 ，美国官方承认的灵异事件</media:title>
    <media:content url="https://www.youtube.com/v/CpzRYAU2Bo0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -90,7 +90,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-03-19T09:09:14+00:00</published>
-  <updated>2024-03-19T11:09:24+00:00</updated>
+  <updated>2024-03-20T06:58:27+00:00</updated>
   <media:group>
    <media:title>日本人身高为什么越来越矮了</media:title>
    <media:content url="https://www.youtube.com/v/Hv_vlY0osj0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -113,7 +113,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-03-19T08:30:06+00:00</published>
-  <updated>2024-03-19T08:43:02+00:00</updated>
+  <updated>2024-03-20T07:26:56+00:00</updated>
   <media:group>
    <media:title>17岁偷飞机的赤脚大盗</media:title>
    <media:content url="https://www.youtube.com/v/d16X4VkOlPM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -121,7 +121,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="27"/>
+    <media:statistics views="30"/>
    </media:community>
   </media:group>
  </entry>
@@ -144,7 +144,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="30"/>
+    <media:statistics views="33"/>
    </media:community>
   </media:group>
  </entry>
@@ -236,7 +236,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="44"/>
+    <media:statistics views="45"/>
    </media:community>
   </media:group>
  </entry>
@@ -259,7 +259,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="751"/>
+    <media:statistics views="753"/>
    </media:community>
   </media:group>
  </entry>

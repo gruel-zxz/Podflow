@@ -1988,6 +1988,7 @@ server_process_print_flag = ["keep"]
 def server_process_print():
     global httpserver_process, server_process_print_flag
     need_keep = ""
+    output_replace_infos = ["channel_rss/", "channel_audiovisual/", "\"", " HTTP/1.1", " 200 -"]
     while True:
         output = httpserver_process.stdout.readline().decode().strip()
         re1_output = re.search(r"(?<=\[[0-9]{2}/[a-zA-Z]{3}/[0-9]{4} )[0-2][0-9]:[0-6][0-9]:[0-6][0-9](?=\])", output)
@@ -1998,7 +1999,8 @@ def server_process_print():
         else:
             output_time = datetime.now().strftime('%H:%M:%S')
         if output:
-            output = output.replace("/channel_audiovisual/", "")
+            for output_replace_info in output_replace_infos:
+                output = output.replace(output_replace_info, "")
             for channelid_youtube_ids_original_key, channelid_youtube_ids_original_value in channelid_youtube_ids_original.items():
                 output = output.replace(channelid_youtube_ids_original_key, channelid_youtube_ids_original_value)
             if need_keep == "":
