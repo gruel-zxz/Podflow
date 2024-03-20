@@ -1998,6 +1998,9 @@ def server_process_print():
         else:
             output_time = datetime.now().strftime('%H:%M:%S')
         if output:
+            output = output.replace("/channel_audiovisual/", "")
+            for channelid_youtube_ids_original_key, channelid_youtube_ids_original_value in channelid_youtube_ids_original.items():
+                output = output.replace(channelid_youtube_ids_original_key, channelid_youtube_ids_original_value)
             if need_keep == "":
                 need_keep = f"{output_time}|{output}"
             else:
