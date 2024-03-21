@@ -32,8 +32,8 @@
 
 别忘了点赞、订阅，并在评论区分享你对家庭生活的看法和自己的趣事经历。让我们一起来共享家庭吐槽的乐趣吧！#家庭生活 #趣事经历 #幽默观察</media:description>
    <media:community>
-    <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="321"/>
+    <media:starRating count="9" average="5.00" min="1" max="5"/>
+    <media:statistics views="353"/>
    </media:community>
   </media:group>
  </entry>
@@ -60,7 +60,7 @@
 别忘了点赞、订阅，并在评论区分享你对丈夫寄存处的看法和自己的观察。让我们一起来笑谈商场购物的趣事吧！#商场购物 #丈夫寄存处 #幽默观察</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="212"/>
+    <media:statistics views="227"/>
    </media:community>
   </media:group>
  </entry>
@@ -87,7 +87,7 @@
 别忘了点赞、订阅，并在评论区分享你对钓鱼的看法和自己的钓鱼经历。让我们一起来探讨这个有趣的娱乐活动吧！#钓鱼初体验 #钓鱼高手 #幽默观察</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="193"/>
+    <media:statistics views="198"/>
    </media:community>
   </media:group>
  </entry>
@@ -109,8 +109,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/UdVn7efEVjk/hqdefault.jpg" width="480" height="360"/>
    <media:description>男人的没事儿什么时候才是有事？#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="9" average="5.00" min="1" max="5"/>
-    <media:statistics views="251"/>
+    <media:starRating count="10" average="5.00" min="1" max="5"/>
+    <media:statistics views="257"/>
    </media:community>
   </media:group>
  </entry>
@@ -164,7 +164,7 @@
 别忘了点赞、订阅，并在评论区分享你对这个话题的看法和自己的经验。让我们一起来看看谁才是最终的赢家吧！#汽车竞争 #胜利者 #幽默观察</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="294"/>
+    <media:statistics views="295"/>
    </media:community>
   </media:group>
  </entry>
@@ -326,7 +326,7 @@
 别忘了点赞、订阅，并在评论区分享您对这款车的看法和自己的车主经历。一起来参与这场揭秘男人选择的吐槽大会吧！#汽车选择 #男人座驾 #幽默观察</media:description>
    <media:community>
     <media:starRating count="42" average="5.00" min="1" max="5"/>
-    <media:statistics views="3761"/>
+    <media:statistics views="3765"/>
    </media:community>
   </media:group>
  </entry>
@@ -353,7 +353,7 @@
 别忘了点赞、订阅，并在评论区分享您对这些保护爱车的看法和自己的经验。一起来参与这场车主心声的吐槽大会吧！#爱车保养 #过年注意事项 #幽默观察</media:description>
    <media:community>
     <media:starRating count="97" average="5.00" min="1" max="5"/>
-    <media:statistics views="7710"/>
+    <media:statistics views="7711"/>
    </media:community>
   </media:group>
  </entry>

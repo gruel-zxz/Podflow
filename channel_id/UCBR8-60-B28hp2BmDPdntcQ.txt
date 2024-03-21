@@ -10,6 +10,29 @@
   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
  </author>
  <entry>
+  <id>yt:video:5YEcGXpuxHA</id>
+  <yt:videoId>5YEcGXpuxHA</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>if i touched this without looking i would scream too @GeorgiaBridgersYT @carolinericke @JackJerry</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=5YEcGXpuxHA"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2024-03-20T18:00:47+00:00</published>
+  <updated>2024-03-20T18:05:33+00:00</updated>
+  <media:group>
+   <media:title>if i touched this without looking i would scream too @GeorgiaBridgersYT @carolinericke @JackJerry</media:title>
+   <media:content url="https://www.youtube.com/v/5YEcGXpuxHA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/5YEcGXpuxHA/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="646" average="5.00" min="1" max="5"/>
+    <media:statistics views="9305"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:Yx-y_3AZj4s</id>
   <yt:videoId>Yx-y_3AZj4s</yt:videoId>
   <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
@@ -27,8 +50,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/Yx-y_3AZj4s/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="5625" average="5.00" min="1" max="5"/>
-    <media:statistics views="48917"/>
+    <media:starRating count="13651" average="5.00" min="1" max="5"/>
+    <media:statistics views="155270"/>
    </media:community>
   </media:group>
  </entry>
@@ -52,8 +75,8 @@
 
 celebrando los logros del #BillionViewsClub de @KarolG escuchando Contigo una y otra vez 🔊 #KarolGContigo</media:description>
    <media:community>
-    <media:starRating count="1482" average="5.00" min="1" max="5"/>
-    <media:statistics views="69501"/>
+    <media:starRating count="1585" average="5.00" min="1" max="5"/>
+    <media:statistics views="71683"/>
    </media:community>
   </media:group>
  </entry>
@@ -75,8 +98,8 @@ celebrando los logros del #BillionViewsClub de @KarolG escuchando Contigo una y 
    <media:thumbnail url="https://i2.ytimg.com/vi/QlkJiCxrHko/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1612" average="5.00" min="1" max="5"/>
-    <media:statistics views="42789"/>
+    <media:starRating count="1685" average="5.00" min="1" max="5"/>
+    <media:statistics views="44411"/>
    </media:community>
   </media:group>
  </entry>
@@ -100,8 +123,8 @@ celebrando los logros del #BillionViewsClub de @KarolG escuchando Contigo una y 
 
 sí, voy a celebrar la canción Contigo de @KarolG &amp; @tiesto comiéndome un pastel entero de @TuCrazyCakes 🎂 #KarolGContigo</media:description>
    <media:community>
-    <media:starRating count="2898" average="5.00" min="1" max="5"/>
-    <media:statistics views="86103"/>
+    <media:starRating count="2974" average="5.00" min="1" max="5"/>
+    <media:statistics views="89564"/>
    </media:community>
   </media:group>
  </entry>
@@ -123,8 +146,8 @@ sí, voy a celebrar la canción Contigo de @KarolG &amp; @tiesto comiéndome un 
    <media:thumbnail url="https://i3.ytimg.com/vi/z_1eMyD_D74/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="7976" average="5.00" min="1" max="5"/>
-    <media:statistics views="194775"/>
+    <media:starRating count="8109" average="5.00" min="1" max="5"/>
+    <media:statistics views="198289"/>
    </media:community>
   </media:group>
  </entry>
@@ -183,8 +206,8 @@ Tom Robinson
 
 #gametheory  #thegametheorists  #matpat #retirement #youtube</media:description>
    <media:community>
-    <media:starRating count="332771" average="5.00" min="1" max="5"/>
-    <media:statistics views="3020639"/>
+    <media:starRating count="333627" average="5.00" min="1" max="5"/>
+    <media:statistics views="3037599"/>
    </media:community>
   </media:group>
  </entry>
@@ -206,8 +229,8 @@ Tom Robinson
    <media:thumbnail url="https://i3.ytimg.com/vi/Z8xdXcWgyqY/hqdefault.jpg" width="480" height="360"/>
    <media:description>listening to @KarolG  @tiesto's song Contigo while drinking @fenitasnl's Contigo-themed smoothie, life is good 😎 #KarolGContigo</media:description>
    <media:community>
-    <media:starRating count="6594" average="5.00" min="1" max="5"/>
-    <media:statistics views="266140"/>
+    <media:starRating count="7152" average="5.00" min="1" max="5"/>
+    <media:statistics views="304731"/>
    </media:community>
   </media:group>
  </entry>
@@ -229,8 +252,8 @@ Tom Robinson
    <media:thumbnail url="https://i2.ytimg.com/vi/9mlKH-h5az4/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3298" average="5.00" min="1" max="5"/>
-    <media:statistics views="105051"/>
+    <media:starRating count="3321" average="5.00" min="1" max="5"/>
+    <media:statistics views="105868"/>
    </media:community>
   </media:group>
  </entry>
@@ -252,8 +275,8 @@ Tom Robinson
    <media:thumbnail url="https://i3.ytimg.com/vi/F0W9nBpO7zU/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3135" average="5.00" min="1" max="5"/>
-    <media:statistics views="116202"/>
+    <media:starRating count="3162" average="5.00" min="1" max="5"/>
+    <media:statistics views="117753"/>
    </media:community>
   </media:group>
  </entry>
@@ -275,8 +298,8 @@ Tom Robinson
    <media:thumbnail url="https://i1.ytimg.com/vi/l99nzkak0Gs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2818" average="5.00" min="1" max="5"/>
-    <media:statistics views="100192"/>
+    <media:starRating count="2831" average="5.00" min="1" max="5"/>
+    <media:statistics views="100870"/>
    </media:community>
   </media:group>
  </entry>
@@ -298,8 +321,8 @@ Tom Robinson
    <media:thumbnail url="https://i3.ytimg.com/vi/N6vvD8jXB94/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4313" average="5.00" min="1" max="5"/>
-    <media:statistics views="134309"/>
+    <media:starRating count="4335" average="5.00" min="1" max="5"/>
+    <media:statistics views="135410"/>
    </media:community>
   </media:group>
  </entry>
@@ -321,8 +344,8 @@ Tom Robinson
    <media:thumbnail url="https://i1.ytimg.com/vi/tc52SWcMwXk/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3661" average="5.00" min="1" max="5"/>
-    <media:statistics views="162024"/>
+    <media:starRating count="3678" average="5.00" min="1" max="5"/>
+    <media:statistics views="162901"/>
    </media:community>
   </media:group>
  </entry>
@@ -344,8 +367,8 @@ Tom Robinson
    <media:thumbnail url="https://i3.ytimg.com/vi/bX0YHFif81U/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4308" average="5.00" min="1" max="5"/>
-    <media:statistics views="125571"/>
+    <media:starRating count="4332" average="5.00" min="1" max="5"/>
+    <media:statistics views="126427"/>
    </media:community>
   </media:group>
  </entry>
@@ -367,31 +390,8 @@ Tom Robinson
    <media:thumbnail url="https://i1.ytimg.com/vi/LaKS5B3enNY/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2985" average="5.00" min="1" max="5"/>
-    <media:statistics views="112809"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:SmUjSY0ZHlo</id>
-  <yt:videoId>SmUjSY0ZHlo</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>maybe the real lunar new year is the friendship we found along the way hehe ❤️🧧✨</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=SmUjSY0ZHlo"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2024-02-09T18:30:30+00:00</published>
-  <updated>2024-03-09T12:33:12+00:00</updated>
-  <media:group>
-   <media:title>maybe the real lunar new year is the friendship we found along the way hehe ❤️🧧✨</media:title>
-   <media:content url="https://www.youtube.com/v/SmUjSY0ZHlo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/SmUjSY0ZHlo/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="4039" average="5.00" min="1" max="5"/>
-    <media:statistics views="141057"/>
+    <media:starRating count="2998" average="5.00" min="1" max="5"/>
+    <media:statistics views="113342"/>
    </media:community>
   </media:group>
  </entry>
