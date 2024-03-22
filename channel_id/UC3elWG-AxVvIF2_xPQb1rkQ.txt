@@ -11,6 +11,33 @@
  </author>
  <published>2022-06-04T16:17:27+00:00</published>
  <entry>
+  <id>yt:video:N3XoVhFR_tY</id>
+  <yt:videoId>N3XoVhFR_tY</yt:videoId>
+  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
+  <title>男人必备的三件套，你凑齐了吗？四季妈妈爱吐槽带你嘲笑家庭趣事？#爱吐槽的四季妈妈 #家庭吐槽大会</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=N3XoVhFR_tY"/>
+  <author>
+   <name>四季妈妈—小龙</name>
+   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
+  </author>
+  <published>2024-03-21T08:28:06+00:00</published>
+  <updated>2024-03-21T09:19:41+00:00</updated>
+  <media:group>
+   <media:title>男人必备的三件套，你凑齐了吗？四季妈妈爱吐槽带你嘲笑家庭趣事？#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
+   <media:content url="https://www.youtube.com/v/N3XoVhFR_tY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/N3XoVhFR_tY/hqdefault.jpg" width="480" height="360"/>
+   <media:description>大家好，欢迎来到我的频道！今天我们要探讨的是男人必备的三件套，你凑齐了吗？四季妈妈爱吐槽，带你一起嘲笑家庭中的趣事。
+
+在这期视频中，我将分享男人必备的三件套：遥控器、拖鞋和睡衣。这些家庭生活中的必备物品，有时候会成为男人们的“标配”，引发家庭中的各种趣事和笑料。让我们一起来笑对生活中的这些小插曲！
+
+别忘了点赞、订阅，并在评论区分享你对男人必备三件套的看法和自己的趣事经历。让我们一起来享受家庭生活中的乐趣吧！#家庭生活 #趣事经历 #幽默观察</media:description>
+   <media:community>
+    <media:starRating count="2" average="5.00" min="1" max="5"/>
+    <media:statistics views="40"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:9SB47dCpiwo</id>
   <yt:videoId>9SB47dCpiwo</yt:videoId>
   <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
@@ -33,7 +60,7 @@
 别忘了点赞、订阅，并在评论区分享你对家庭生活的看法和自己的趣事经历。让我们一起来共享家庭吐槽的乐趣吧！#家庭生活 #趣事经历 #幽默观察</media:description>
    <media:community>
     <media:starRating count="9" average="5.00" min="1" max="5"/>
-    <media:statistics views="353"/>
+    <media:statistics views="400"/>
    </media:community>
   </media:group>
  </entry>
@@ -60,7 +87,7 @@
 别忘了点赞、订阅，并在评论区分享你对丈夫寄存处的看法和自己的观察。让我们一起来笑谈商场购物的趣事吧！#商场购物 #丈夫寄存处 #幽默观察</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="227"/>
+    <media:statistics views="278"/>
    </media:community>
   </media:group>
  </entry>
@@ -87,7 +114,7 @@
 别忘了点赞、订阅，并在评论区分享你对钓鱼的看法和自己的钓鱼经历。让我们一起来探讨这个有趣的娱乐活动吧！#钓鱼初体验 #钓鱼高手 #幽默观察</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="198"/>
+    <media:statistics views="199"/>
    </media:community>
   </media:group>
  </entry>
@@ -110,7 +137,7 @@
    <media:description>男人的没事儿什么时候才是有事？#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="10" average="5.00" min="1" max="5"/>
-    <media:statistics views="257"/>
+    <media:statistics views="262"/>
    </media:community>
   </media:group>
  </entry>
@@ -137,7 +164,7 @@
 别忘了点赞、订阅，并在评论区分享你对男人下班后“必去地点”的看法和自己的观察。让我们一起来探讨这个有趣的话题吧！#男人生活 #消遣去处 #幽默观察</media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="185"/>
+    <media:statistics views="186"/>
    </media:community>
   </media:group>
  </entry>
@@ -326,7 +353,7 @@
 别忘了点赞、订阅，并在评论区分享您对这款车的看法和自己的车主经历。一起来参与这场揭秘男人选择的吐槽大会吧！#汽车选择 #男人座驾 #幽默观察</media:description>
    <media:community>
     <media:starRating count="42" average="5.00" min="1" max="5"/>
-    <media:statistics views="3765"/>
+    <media:statistics views="3767"/>
    </media:community>
   </media:group>
  </entry>
@@ -353,7 +380,7 @@
 别忘了点赞、订阅，并在评论区分享您对这些保护爱车的看法和自己的经验。一起来参与这场车主心声的吐槽大会吧！#爱车保养 #过年注意事项 #幽默观察</media:description>
    <media:community>
     <media:starRating count="97" average="5.00" min="1" max="5"/>
-    <media:statistics views="7711"/>
+    <media:statistics views="7712"/>
    </media:community>
   </media:group>
  </entry>
@@ -381,33 +408,6 @@
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
     <media:statistics views="216"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:VR-Ra6zi8RE</id>
-  <yt:videoId>VR-Ra6zi8RE</yt:videoId>
-  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
-  <title>拿捏山东老丈人的小妙招！四季妈妈教你如何与山东老丈人相处 #四季妈妈爱聊车</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=VR-Ra6zi8RE"/>
-  <author>
-   <name>四季妈妈—小龙</name>
-   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
-  </author>
-  <published>2024-02-17T01:36:52+00:00</published>
-  <updated>2024-02-29T07:59:50+00:00</updated>
-  <media:group>
-   <media:title>拿捏山东老丈人的小妙招！四季妈妈教你如何与山东老丈人相处 #四季妈妈爱聊车</media:title>
-   <media:content url="https://www.youtube.com/v/VR-Ra6zi8RE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/VR-Ra6zi8RE/hqdefault.jpg" width="480" height="360"/>
-   <media:description>大家好，欢迎来到我的频道！今天我们要分享一些拿捏山东老丈人的小妙招。四季妈妈爱聊车，但今天我们将探讨与山东老丈人相处的技巧！我们将分享一些细微但实用的方法，帮助你与山东老丈人建立良好关系。
-
-在这期视频中，我们将一同讨论如何应对山东老丈人，以及如何在与他们相处时展现自己的魅力。当然，这是以娱乐为主，希望大家能在欢笑中学到一些有用的技巧。
-
-别忘了点赞、订阅，并在评论区分享您对这些技巧的看法和自己的经验。一起来参与这场拿捏山东老丈人的吐槽大会吧！#亲家关系 #家庭相处 #幽默观察</media:description>
-   <media:community>
-    <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="160"/>
    </media:community>
   </media:group>
  </entry>

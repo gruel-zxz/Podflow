@@ -189,7 +189,7 @@ if exit_sys:  #判断是否暂停运行
     sys.exit(0)
 
 # HTTP 请求重试模块
-def http_client(url, name, max_retries=10, retry_delay=4, headers_possess=False, cookies=None, data=None, cookie_jar_name=None, mode="get"):
+def http_client(url, name, max_retries=10, retry_delay=4, headers_possess=False, cookies=None, data=None, mode="get"):
     user_agent = {
         "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36"
     }
@@ -197,11 +197,6 @@ def http_client(url, name, max_retries=10, retry_delay=4, headers_possess=False,
     response = None  # 初始化 response 变量
     # 创建一个Session对象
     session = requests.Session()
-    if cookie_jar_name:
-        # 创建一个MozillaCookieJar对象，指定保存文件
-        cookie_jar = http.cookiejar.MozillaCookieJar(f"{cookie_jar_name}.txt")
-        # 将CookieJar对象绑定到Session对象
-        session.cookies = cookie_jar
     if headers_possess:
         session.headers.update(user_agent)
     if cookies:
@@ -210,7 +205,7 @@ def http_client(url, name, max_retries=10, retry_delay=4, headers_possess=False,
         session.params.update(data)
     for num in range(max_retries):
         try:
-            if mode == "get":
+            if mode != "post":
                 response = session.get(url, timeout=8)
             else:
                 response = session.post(url, timeout=8)
