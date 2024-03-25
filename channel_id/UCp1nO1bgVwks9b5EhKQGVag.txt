@@ -21,15 +21,15 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2024-03-20T08:50:41+00:00</published>
-  <updated>2024-03-21T07:00:06+00:00</updated>
+  <updated>2024-03-22T09:18:37+00:00</updated>
   <media:group>
    <media:title>古老的“电车难题”有解了？科幻小说《电车难题》</media:title>
    <media:content url="https://www.youtube.com/v/Kgr8G-Mzkzc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i4.ytimg.com/vi/Kgr8G-Mzkzc/hqdefault.jpg" width="480" height="360"/>
    <media:description>《电车悖论》是基于电车难题”的再创作，将古老的问题放置于未来社会的背景之下。小说曾刊登再科幻世界杂志（原著：康乃馨），虽然过去了很多年，但是值得让更多的人看见。</media:description>
    <media:community>
-    <media:starRating count="84" average="5.00" min="1" max="5"/>
-    <media:statistics views="3271"/>
+    <media:starRating count="117" average="5.00" min="1" max="5"/>
+    <media:statistics views="5020"/>
    </media:community>
   </media:group>
  </entry>
@@ -51,8 +51,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/6dnBjGU-N2w/hqdefault.jpg" width="480" height="360"/>
    <media:description>《米奇7号》，原著：爱德华·阿什顿。这部一经问世，便获得了美国全国公共广播电台2022最佳图书奖，《寄生虫》的导演奉俊昊也将其改编为电影剧本，预计2025年会和大家见面。</media:description>
    <media:community>
-    <media:starRating count="122" average="5.00" min="1" max="5"/>
-    <media:statistics views="6103"/>
+    <media:starRating count="126" average="5.00" min="1" max="5"/>
+    <media:statistics views="6607"/>
    </media:community>
   </media:group>
  </entry>
@@ -75,8 +75,8 @@
    <media:description>刘慈欣、那多，联合推荐本书，书中写出了“奇点”到来后的那一刻。那一刻，无数人想过却没想清，无数人想写却没写出.....
 这是一部非常硬核的国产长篇科幻小说，作者用专业的知识，为我们呈现了这部《造神年代》，建议感兴趣的同学阅读原著。《造神年代》原著：严曦。</media:description>
    <media:community>
-    <media:starRating count="141" average="5.00" min="1" max="5"/>
-    <media:statistics views="6772"/>
+    <media:starRating count="143" average="5.00" min="1" max="5"/>
+    <media:statistics views="7054"/>
    </media:community>
   </media:group>
  </entry>
@@ -98,8 +98,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/xJ8hsPpczvI/hqdefault.jpg" width="480" height="360"/>
    <media:description>《逃兵》上世纪40年代的科幻作品，原著：克利福德.西马克，作者以较为严谨的写作手法和大胆的想象力，在上世纪就为我们构想出了另类生命对人类的看法，是科幻黄金时代的佳作之一。</media:description>
    <media:community>
-    <media:starRating count="137" average="5.00" min="1" max="5"/>
-    <media:statistics views="5879"/>
+    <media:starRating count="139" average="5.00" min="1" max="5"/>
+    <media:statistics views="5990"/>
    </media:community>
   </media:group>
  </entry>
@@ -121,8 +121,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/FLiRhZsVLws/hqdefault.jpg" width="480" height="360"/>
    <media:description>一个战争机器人与人类孩子的最后时光：意识流科幻小说《潮痕》，原著：伊丽莎白·贝尔《潮痕》 (2008年雨果奖最佳短篇)</media:description>
    <media:community>
-    <media:starRating count="111" average="5.00" min="1" max="5"/>
-    <media:statistics views="3967"/>
+    <media:starRating count="112" average="5.00" min="1" max="5"/>
+    <media:statistics views="4008"/>
    </media:community>
   </media:group>
  </entry>
@@ -144,8 +144,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/DakEnnN9-io/hqdefault.jpg" width="480" height="360"/>
    <media:description>在目前语言学界的主流观点中，不存在“第4人称”。当然这是科幻小说，作者藤野另辟蹊径，以全新的视角揭开了一个地外生命群体的存在模式。《第四人称》  选自：《科幻世界》2016年12月刊。</media:description>
    <media:community>
-    <media:starRating count="143" average="5.00" min="1" max="5"/>
-    <media:statistics views="7715"/>
+    <media:starRating count="146" average="5.00" min="1" max="5"/>
+    <media:statistics views="7821"/>
    </media:community>
   </media:group>
  </entry>
@@ -167,8 +167,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/yjQoHB4Bs9w/hqdefault.jpg" width="480" height="360"/>
    <media:description>老龄化问题的终极答案：让40亿老人移民外星？科幻小说《暮星归途》</media:description>
    <media:community>
-    <media:starRating count="108" average="5.00" min="1" max="5"/>
-    <media:statistics views="6874"/>
+    <media:starRating count="109" average="5.00" min="1" max="5"/>
+    <media:statistics views="6966"/>
    </media:community>
   </media:group>
  </entry>
@@ -190,8 +190,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/wnP-yUQ1MkQ/hqdefault.jpg" width="480" height="360"/>
    <media:description>说明：这个盘点清单是根据幻海团队的阅读经历，从读者的接受度、作品故事性、作品的思想深度等特点做出的盘点清单，均为我们的个人观点。所以《龙蛋》、《盲视》、《量子魔术师》《泥人十四》等过于硬核的优秀作品不在其中，同时《三体》与《泽利》也不在其中，它们之前已经总结过了，另外《太空漫游系列》/《火星救援》《索拉里斯星》等优秀作品，由于已经被影视化，熟悉的人很多，所以也不在其中。</media:description>
    <media:community>
-    <media:starRating count="199" average="5.00" min="1" max="5"/>
-    <media:statistics views="6366"/>
+    <media:starRating count="203" average="5.00" min="1" max="5"/>
+    <media:statistics views="6470"/>
    </media:community>
   </media:group>
  </entry>
@@ -214,8 +214,8 @@
    <media:description>列举了六部经典科幻小说中，人类的终极宿命。
 我们最看好的是05：15的部分，在科技断代之后，人类存活到了最后。</media:description>
    <media:community>
-    <media:starRating count="149" average="5.00" min="1" max="5"/>
-    <media:statistics views="8069"/>
+    <media:starRating count="150" average="5.00" min="1" max="5"/>
+    <media:statistics views="8145"/>
    </media:community>
   </media:group>
  </entry>
@@ -239,8 +239,8 @@
 更新预告：阅读总结——人类的三种终极宿命。
 阅读总结——我心目中的科幻TOP系列盘点。</media:description>
    <media:community>
-    <media:starRating count="168" average="5.00" min="1" max="5"/>
-    <media:statistics views="6921"/>
+    <media:starRating count="170" average="5.00" min="1" max="5"/>
+    <media:statistics views="6971"/>
    </media:community>
   </media:group>
  </entry>
@@ -262,8 +262,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/7yIuEGj7IXU/hqdefault.jpg" width="480" height="360"/>
    <media:description>用40亿年去纠正一个错误，错误是创造全人类：《宇宙全能侦探社》下集</media:description>
    <media:community>
-    <media:starRating count="81" average="5.00" min="1" max="5"/>
-    <media:statistics views="3879"/>
+    <media:starRating count="82" average="5.00" min="1" max="5"/>
+    <media:statistics views="3900"/>
    </media:community>
   </media:group>
  </entry>
@@ -286,8 +286,8 @@
    <media:description>时空穿越的无尽奥秘，探寻宇宙的终极真相：《宇宙全能侦探社》，上集。
 原著：道格拉斯亚当斯，一位搞怪又不失科幻内核的作家。</media:description>
    <media:community>
-    <media:starRating count="91" average="5.00" min="1" max="5"/>
-    <media:statistics views="6460"/>
+    <media:starRating count="92" average="5.00" min="1" max="5"/>
+    <media:statistics views="6500"/>
    </media:community>
   </media:group>
  </entry>
@@ -302,15 +302,15 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2023-12-29T17:38:45+00:00</published>
-  <updated>2024-01-10T09:15:13+00:00</updated>
+  <updated>2024-03-23T07:18:35+00:00</updated>
   <media:group>
    <media:title>给AI投喂海量数据，它能计算出未来吗？科幻名著《世界上所有的烦恼》</media:title>
    <media:content url="https://www.youtube.com/v/k_ZrLJMFE98?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i4.ytimg.com/vi/k_ZrLJMFE98/hqdefault.jpg" width="480" height="360"/>
    <media:description>《世界上所有的烦恼》，原著：阿西莫夫，出自阿西莫夫科幻短篇全集、 阿西莫夫的这个短篇系列终于出版了！阿西莫夫最神的就是他的短篇，所谓：人类近50年来的科技进步，一直在追赶阿西莫夫科幻小说的脚步。</media:description>
    <media:community>
-    <media:starRating count="155" average="5.00" min="1" max="5"/>
-    <media:statistics views="7996"/>
+    <media:starRating count="159" average="5.00" min="1" max="5"/>
+    <media:statistics views="8064"/>
    </media:community>
   </media:group>
  </entry>
@@ -333,7 +333,7 @@
    <media:description>一个中子星文明的毁灭与重生：《星震》大结局</media:description>
    <media:community>
     <media:starRating count="93" average="5.00" min="1" max="5"/>
-    <media:statistics views="5462"/>
+    <media:statistics views="5500"/>
    </media:community>
   </media:group>
  </entry>
@@ -357,7 +357,7 @@
 时隔几年，终于更新到这部了！</media:description>
    <media:community>
     <media:starRating count="125" average="5.00" min="1" max="5"/>
-    <media:statistics views="7153"/>
+    <media:statistics views="7200"/>
    </media:community>
   </media:group>
  </entry>

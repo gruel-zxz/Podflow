@@ -11,6 +11,60 @@
  </author>
  <published>2022-06-04T16:17:27+00:00</published>
  <entry>
+  <id>yt:video:OoIX9wqdto8</id>
+  <yt:videoId>OoIX9wqdto8</yt:videoId>
+  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
+  <title>我穿越了，穿越到去开封相亲那一年#爱吐槽的四季妈妈 #家庭吐槽大会</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=OoIX9wqdto8"/>
+  <author>
+   <name>四季妈妈—小龙</name>
+   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
+  </author>
+  <published>2024-03-24T07:15:56+00:00</published>
+  <updated>2024-03-24T11:43:11+00:00</updated>
+  <media:group>
+   <media:title>我穿越了，穿越到去开封相亲那一年#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
+   <media:content url="https://www.youtube.com/v/OoIX9wqdto8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/OoIX9wqdto8/hqdefault.jpg" width="480" height="360"/>
+   <media:description>大家好，欢迎来到我的频道！今天我要分享一个奇幻的故事：我穿越了，穿越到去开封相亲的那一年！四季妈妈爱吐槽，带你一起嘲笑相亲中的趣事。
+
+在这期视频中，我将带领大家回到开封相亲的年代，探索那个充满神秘和浪漫的时代。无论是相亲的场景、人物还是对话，都将成为我们笑谈的对象。让我们一起来体验这段奇幻的相亲之旅！
+
+别忘了点赞、订阅，并在评论区分享你对相亲的看法和自己的奇遇经历。让我们一起来笑对相亲的种种趣事吧！#相亲趣事 #穿越奇遇 #幽默观察</media:description>
+   <media:community>
+    <media:starRating count="3" average="5.00" min="1" max="5"/>
+    <media:statistics views="110"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:FKxJZlTCy68</id>
+  <yt:videoId>FKxJZlTCy68</yt:videoId>
+  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
+  <title>这些都是小众用法吧，毕竟我在女浴没见过#爱吐槽的四季妈妈 #家庭吐槽大会</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=FKxJZlTCy68"/>
+  <author>
+   <name>四季妈妈—小龙</name>
+   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
+  </author>
+  <published>2024-03-22T06:01:17+00:00</published>
+  <updated>2024-03-23T06:56:57+00:00</updated>
+  <media:group>
+   <media:title>这些都是小众用法吧，毕竟我在女浴没见过#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
+   <media:content url="https://www.youtube.com/v/FKxJZlTCy68?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/FKxJZlTCy68/hqdefault.jpg" width="480" height="360"/>
+   <media:description>大家好，欢迎来到我的频道！今天我们要探讨的是一些极其小众的用法，难道只有我觉得奇怪吗？四季妈妈爱吐槽，带你一起嘲笑家庭生活中的奇葩趣事。
+
+在这期视频中，我将分享一些我认为太小众的用法，比如在女浴室出现的一些“奇怪”行为。这些趣事或许在其他人眼中很正常，但在我的观察中却显得有点古怪。让我们一起来嘲笑这些不可思议的小插曲！
+
+别忘了点赞、订阅，并在评论区分享你对这些小众用法的看法和自己的奇葩经历。让我们一起来欣赏家庭生活中的不可思议之处吧！#家庭生活 #趣事经历 #幽默观察</media:description>
+   <media:community>
+    <media:starRating count="52" average="5.00" min="1" max="5"/>
+    <media:statistics views="2926"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:N3XoVhFR_tY</id>
   <yt:videoId>N3XoVhFR_tY</yt:videoId>
   <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
@@ -21,7 +75,7 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-03-21T08:28:06+00:00</published>
-  <updated>2024-03-21T09:19:41+00:00</updated>
+  <updated>2024-03-22T07:17:23+00:00</updated>
   <media:group>
    <media:title>男人必备的三件套，你凑齐了吗？四季妈妈爱吐槽带你嘲笑家庭趣事？#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
    <media:content url="https://www.youtube.com/v/N3XoVhFR_tY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -32,8 +86,8 @@
 
 别忘了点赞、订阅，并在评论区分享你对男人必备三件套的看法和自己的趣事经历。让我们一起来享受家庭生活中的乐趣吧！#家庭生活 #趣事经历 #幽默观察</media:description>
    <media:community>
-    <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="40"/>
+    <media:starRating count="5" average="5.00" min="1" max="5"/>
+    <media:statistics views="172"/>
    </media:community>
   </media:group>
  </entry>
@@ -59,8 +113,8 @@
 
 别忘了点赞、订阅，并在评论区分享你对家庭生活的看法和自己的趣事经历。让我们一起来共享家庭吐槽的乐趣吧！#家庭生活 #趣事经历 #幽默观察</media:description>
    <media:community>
-    <media:starRating count="9" average="5.00" min="1" max="5"/>
-    <media:statistics views="400"/>
+    <media:starRating count="12" average="5.00" min="1" max="5"/>
+    <media:statistics views="722"/>
    </media:community>
   </media:group>
  </entry>
@@ -86,8 +140,8 @@
 
 别忘了点赞、订阅，并在评论区分享你对丈夫寄存处的看法和自己的观察。让我们一起来笑谈商场购物的趣事吧！#商场购物 #丈夫寄存处 #幽默观察</media:description>
    <media:community>
-    <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="278"/>
+    <media:starRating count="7" average="5.00" min="1" max="5"/>
+    <media:statistics views="525"/>
    </media:community>
   </media:group>
  </entry>
@@ -102,7 +156,7 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-03-14T08:05:23+00:00</published>
-  <updated>2024-03-18T08:06:38+00:00</updated>
+  <updated>2024-03-21T11:00:23+00:00</updated>
   <media:group>
    <media:title>钓鱼初体验，让我理解钓鱼佬，成为钓鱼佬#爱吐槽的 #爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
    <media:content url="https://www.youtube.com/v/Y8vCN3tHTCI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -114,7 +168,7 @@
 别忘了点赞、订阅，并在评论区分享你对钓鱼的看法和自己的钓鱼经历。让我们一起来探讨这个有趣的娱乐活动吧！#钓鱼初体验 #钓鱼高手 #幽默观察</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="199"/>
+    <media:statistics views="218"/>
    </media:community>
   </media:group>
  </entry>
@@ -137,7 +191,7 @@
    <media:description>男人的没事儿什么时候才是有事？#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="10" average="5.00" min="1" max="5"/>
-    <media:statistics views="262"/>
+    <media:statistics views="281"/>
    </media:community>
   </media:group>
  </entry>
@@ -164,7 +218,7 @@
 别忘了点赞、订阅，并在评论区分享你对男人下班后“必去地点”的看法和自己的观察。让我们一起来探讨这个有趣的话题吧！#男人生活 #消遣去处 #幽默观察</media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="186"/>
+    <media:statistics views="189"/>
    </media:community>
   </media:group>
  </entry>
@@ -191,7 +245,7 @@
 别忘了点赞、订阅，并在评论区分享你对这个话题的看法和自己的经验。让我们一起来看看谁才是最终的赢家吧！#汽车竞争 #胜利者 #幽默观察</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="295"/>
+    <media:statistics views="300"/>
    </media:community>
   </media:group>
  </entry>
@@ -218,7 +272,7 @@
 别忘了点赞、订阅，并在评论区分享你对男人爱车的看法和自己的经验。让我们一起来揭开男人心中的这个秘密吧！#男人爱车 #汽车情感 #幽默观察</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="181"/>
+    <media:statistics views="182"/>
    </media:community>
   </media:group>
  </entry>
@@ -245,7 +299,7 @@
 别忘了点赞、订阅，并在评论区分享您对这款车型的看法和自己的梦想之旅。让我们一起来实现环游世界的梦想吧！#长安汽车 #环球旅行 #梦想之旅</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="118"/>
+    <media:statistics views="119"/>
    </media:community>
   </media:group>
  </entry>
@@ -272,7 +326,7 @@
 别忘了点赞、订阅，并在评论区分享你的看法和自己的经验。一起来感受“老钱风”的魅力吧！#生活态度 #独家秘籍 #幽默观察</media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="126"/>
+    <media:statistics views="127"/>
    </media:community>
   </media:group>
  </entry>
@@ -299,7 +353,7 @@
 别忘了点赞、订阅，并在评论区分享您对这些车型的看法和自己的感受。一起来参与这场面子与自卑的吐槽大会吧！#车辆选择 #面子与自卑 #幽默观察</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="272"/>
+    <media:statistics views="273"/>
    </media:community>
   </media:group>
  </entry>
@@ -326,7 +380,7 @@
 别忘了点赞、订阅，并在评论区分享您对外观在选择中的看法和自己的经验。一起来参与这场外貌与市场的吐槽大会吧！#外貌选择 #市场价值 #幽默观察</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="258"/>
+    <media:statistics views="259"/>
    </media:community>
   </media:group>
  </entry>
@@ -352,62 +406,8 @@
 
 别忘了点赞、订阅，并在评论区分享您对这款车的看法和自己的车主经历。一起来参与这场揭秘男人选择的吐槽大会吧！#汽车选择 #男人座驾 #幽默观察</media:description>
    <media:community>
-    <media:starRating count="42" average="5.00" min="1" max="5"/>
-    <media:statistics views="3767"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:9sQr6W8iyBI</id>
-  <yt:videoId>9sQr6W8iyBI</yt:videoId>
-  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
-  <title>过年期间，车主最怕听见的声音！四季妈妈教你保护爱车，愿生活对所有的车门温柔以待</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=9sQr6W8iyBI"/>
-  <author>
-   <name>四季妈妈—小龙</name>
-   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
-  </author>
-  <published>2024-02-17T01:49:01+00:00</published>
-  <updated>2024-02-27T08:48:44+00:00</updated>
-  <media:group>
-   <media:title>过年期间，车主最怕听见的声音！四季妈妈教你保护爱车，愿生活对所有的车门温柔以待</media:title>
-   <media:content url="https://www.youtube.com/v/9sQr6W8iyBI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/9sQr6W8iyBI/hqdefault.jpg" width="480" height="360"/>
-   <media:description>大家好，欢迎来到我的频道！今天我们要谈论一个过年期间车主最怕听见的声音。四季妈妈爱聊车，但今天我们将教你如何保护爱车，让生活对所有的车门温柔以待！我们将分享一些在过年期间保护爱车的小窍门，让你的车子远离意外和损坏。
-
-在这期视频中，我们将一同探讨在过年期间如何保护爱车，让它始终处于最佳状态。当然，这是以娱乐为主，希望大家能在欢笑中学到一些保护爱车的技巧。
-
-别忘了点赞、订阅，并在评论区分享您对这些保护爱车的看法和自己的经验。一起来参与这场车主心声的吐槽大会吧！#爱车保养 #过年注意事项 #幽默观察</media:description>
-   <media:community>
-    <media:starRating count="97" average="5.00" min="1" max="5"/>
-    <media:statistics views="7712"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:o-16rRgfdHU</id>
-  <yt:videoId>o-16rRgfdHU</yt:videoId>
-  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
-  <title>小钱办大事！四季妈妈教你如何精打细算办同学聚会 #四季妈妈爱聊车</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=o-16rRgfdHU"/>
-  <author>
-   <name>四季妈妈—小龙</name>
-   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
-  </author>
-  <published>2024-02-17T01:38:40+00:00</published>
-  <updated>2024-02-24T13:31:46+00:00</updated>
-  <media:group>
-   <media:title>小钱办大事！四季妈妈教你如何精打细算办同学聚会 #四季妈妈爱聊车</media:title>
-   <media:content url="https://www.youtube.com/v/o-16rRgfdHU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/o-16rRgfdHU/hqdefault.jpg" width="480" height="360"/>
-   <media:description>大家好，欢迎来到我的频道！今天我们要分享一些小钱办大事的妙招，让你轻松办好同学聚会。四季妈妈爱聊车，但今天我们将探讨如何在同学聚会上精打细算，做到花小钱办大事！我们将分享一些实用的方法和策略，让你的聚会变得更加精彩。
-
-在这期视频中，我们将一同讨论如何在预算有限的情况下办好同学聚会，让每一分钱都物有所值。当然，这是以娱乐为主，希望大家能在欢笑中学到一些有用的小窍门。
-
-别忘了点赞、订阅，并在评论区分享您对这些妙招的看法和自己的经验。一起来参与这场小钱办大事的吐槽大会吧！#聚会策划 #预算管理 #幽默观察</media:description>
-   <media:community>
-    <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="216"/>
+    <media:starRating count="44" average="5.00" min="1" max="5"/>
+    <media:statistics views="3811"/>
    </media:community>
   </media:group>
  </entry>
