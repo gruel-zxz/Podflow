@@ -7,7 +7,7 @@
         <category>TV &amp; Film</category>
         <generator>Podflow (support us at https://github.com/gruel-zxz/podflow)</generator>
         <language>en-us</language>
-        <lastBuildDate>Mon, 25 Mar 2024 08:51:14 +0800</lastBuildDate>
+        <lastBuildDate>Wed, 27 Mar 2024 10:39:09 +0800</lastBuildDate>
         <pubDate>Sun, 24 Apr 2005 11:20:54 +0800</pubDate>
         <image>
             <url>https://yt3.googleusercontent.com/584JjRp5QMuKbyduM_2k5RlXFqHJtQ0qLIPZpwbUjMJmgzZngHcam5JMuZQxyzGMV5ljwJRl0Q=s2048-c-k-c0x00ffffff-no-rj</url>
@@ -21,6 +21,22 @@
         <itunes:explicit>no</itunes:explicit>
         <itunes:category text="TV &amp; Film"></itunes:category>
 <!-- {UCBR8-60-B28hp2BmDPdntcQ} -->
+<!-- UCBR8-60-B28hp2BmDPdntcQ -->
+        <item>
+            <guid>UPtzL13BLOA</guid>
+            <title>what my headphones look like after being in my pocket for five minutes @GlamWithNikki #interview</title>
+            <link>https://youtube.com/watch?v=UPtzL13BLOA</link>
+            <description>『YouTube』</description>
+            <pubDate>Tue, 26 Mar 2024 04:15:22 +0800</pubDate>
+            <enclosure url="https://raw.githubusercontent.com/gruel-zxz/podflow/main/channel_audiovisual/UCBR8-60-B28hp2BmDPdntcQ/UPtzL13BLOA.mp4" length="4896538" type="video/mp4"></enclosure>
+            <itunes:author>what my headphones look like after being in my pocket for five minutes @GlamWithNikki #interview</itunes:author>
+            <itunes:subtitle>what my headphones look like after being in my pocket for five minutes @GlamWithNikki #interview</itunes:subtitle>
+            <itunes:summary><![CDATA[『YouTube』]]></itunes:summary>
+            <itunes:image href="https://i2.ytimg.com/vi/UPtzL13BLOA/hqdefault.jpg"></itunes:image>
+            <itunes:duration>00:34</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:order>1</itunes:order>
+        </item>
 <!-- UCBR8-60-B28hp2BmDPdntcQ -->
         <item>
             <guid>6N2yO7DPHAs</guid>
@@ -382,22 +398,6 @@ listening to @KarolG  @tiesto's song Contigo while drinking @fenitasnl's Contigo
             <itunes:summary><![CDATA[『YouTube』]]></itunes:summary>
             <itunes:image href="https://i3.ytimg.com/vi/fMHBCtJu-7A/hqdefault.jpg"></itunes:image>
             <itunes:duration>00:13</itunes:duration>
-            <itunes:explicit>no</itunes:explicit>
-            <itunes:order>1</itunes:order>
-        </item>
-<!-- UCBR8-60-B28hp2BmDPdntcQ -->
-        <item>
-            <guid>aw6iKr6ndZU</guid>
-            <title>look du jour ✨ @thevanezznezz @JaninaBuckman @Lady-Nneka @emilykatearmato</title>
-            <link>https://youtube.com/watch?v=aw6iKr6ndZU</link>
-            <description>『YouTube』</description>
-            <pubDate>Fri, 02 Feb 2024 16:00:13 +0000</pubDate>
-            <enclosure url="https://raw.githubusercontent.com/gruel-zxz/podflow/main/channel_audiovisual/UCBR8-60-B28hp2BmDPdntcQ/aw6iKr6ndZU.mp4" length="2599238" type="video/mp4"></enclosure>
-            <itunes:author>look du jour ✨ @thevanezznezz @JaninaBuckman @Lady-Nneka @emilykatearmato</itunes:author>
-            <itunes:subtitle>look du jour ✨ @thevanezznezz @JaninaBuckman @Lady-Nneka @emilykatearmato</itunes:subtitle>
-            <itunes:summary><![CDATA[『YouTube』]]></itunes:summary>
-            <itunes:image href="https://i2.ytimg.com/vi/aw6iKr6ndZU/hqdefault.jpg"></itunes:image>
-            <itunes:duration>00:20</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
             <itunes:order>1</itunes:order>
         </item>

@@ -189,7 +189,7 @@ if exit_sys:  #判断是否暂停运行
     sys.exit(0)
 
 # HTTP 请求重试模块
-def http_client(url, name, max_retries=10, retry_delay=4, headers_possess=False, cookies=None, data=None, mode="get"):
+def http_client(url, name="", max_retries=10, retry_delay=4, headers_possess=False, cookies=None, data=None, mode="get"):
     user_agent = {
         "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36"
     }
@@ -435,6 +435,7 @@ def qr_code(data):
                     ascii_art += " "
             ascii_art += "\n"
     print(ascii_art)
+    return height_double
 
 # 下载显示模块
 def show_progress(stream):
@@ -1256,10 +1257,13 @@ def update_youtube_rss():
         # 异常xml排查及重新获取
         num_try_update = 0
         while youtube_response is not None and ((re.search(pattern_youtube404, youtube_response.text, re.DOTALL) and num_try_update < 3) or not re.search(rf"{youtube_key}", youtube_response.text, re.DOTALL)):
-            print(f"{datetime.now().strftime('%H:%M:%S')}|YouTube频道 {youtube_value}|\033[31m获取异常重试中...\033[97m{num_try_update + 1}\033[0m")
-            youtube_rss_update(youtube_key, youtube_value, pattern_youtube_varys)
+            if f"https://www.youtube.com/channel/{youtube_key}?" in http_client(f"https://www.youtube.com/channel/{youtube_key}", youtube_value).text:
+                youtube_response = None
+            else:
+                print(f"{datetime.now().strftime('%H:%M:%S')}|YouTube频道 {youtube_value}|\033[31m获取异常重试中...\033[97m{num_try_update + 1}\033[0m")
+                youtube_rss_update(youtube_key, youtube_value, pattern_youtube_varys)
+                youtube_response = channelid_youtube_rss[youtube_key]
             num_try_update += 1
-            youtube_response = channelid_youtube_rss[youtube_key]
         # xml分类及存储
         if youtube_response is not None:
             youtube_content = youtube_response.text

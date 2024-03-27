@@ -10,6 +10,29 @@
   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
  </author>
  <entry>
+  <id>yt:video:UPtzL13BLOA</id>
+  <yt:videoId>UPtzL13BLOA</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>what my headphones look like after being in my pocket for five minutes @GlamWithNikki #interview</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=UPtzL13BLOA"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2024-03-25T20:15:22+00:00</published>
+  <updated>2024-03-25T20:21:58+00:00</updated>
+  <media:group>
+   <media:title>what my headphones look like after being in my pocket for five minutes @GlamWithNikki #interview</media:title>
+   <media:content url="https://www.youtube.com/v/UPtzL13BLOA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/UPtzL13BLOA/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="1072" average="5.00" min="1" max="5"/>
+    <media:statistics views="28819"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:6N2yO7DPHAs</id>
   <yt:videoId>6N2yO7DPHAs</yt:videoId>
   <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
@@ -20,15 +43,15 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-03-22T20:13:38+00:00</published>
-  <updated>2024-03-24T06:27:11+00:00</updated>
+  <updated>2024-03-25T05:56:40+00:00</updated>
   <media:group>
    <media:title>TYLA the album is out now! tag @Tylaofficial in your ART challenge Shorts 🐅💕 #FreshOutTheGallery</media:title>
    <media:content url="https://www.youtube.com/v/6N2yO7DPHAs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i3.ytimg.com/vi/6N2yO7DPHAs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1545" average="5.00" min="1" max="5"/>
-    <media:statistics views="40189"/>
+    <media:starRating count="1937" average="5.00" min="1" max="5"/>
+    <media:statistics views="56867"/>
    </media:community>
   </media:group>
  </entry>
@@ -43,7 +66,7 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-03-22T18:00:03+00:00</published>
-  <updated>2024-03-23T21:34:47+00:00</updated>
+  <updated>2024-03-25T04:02:01+00:00</updated>
   <media:group>
    <media:title>Discussing the Influence of Black Creators on Anime's Fandom - Like &amp; Describe Podcast #6</media:title>
    <media:content url="https://www.youtube.com/v/6I2N1b7dN60?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -78,8 +101,8 @@ Danganronpa: Trigger Happy Havoc: https://www.youtube.com/watch?v=KGBF6a6sxe4&am
 Polygon Article:
 Anime is huge — and we finally have numbers to prove it: https://www.polygon.com/c/2024/1/22/24034466/anime-is-huge-and-we-finally-have-numbers-to-prove-it</media:description>
    <media:community>
-    <media:starRating count="2713" average="5.00" min="1" max="5"/>
-    <media:statistics views="81106"/>
+    <media:starRating count="3085" average="5.00" min="1" max="5"/>
+    <media:statistics views="106815"/>
    </media:community>
   </media:group>
  </entry>
@@ -94,15 +117,15 @@ Anime is huge — and we finally have numbers to prove it: https://www.polygon.c
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-03-20T18:00:47+00:00</published>
-  <updated>2024-03-22T03:16:33+00:00</updated>
+  <updated>2024-03-24T23:04:13+00:00</updated>
   <media:group>
    <media:title>if i touched this without looking i would scream too @GeorgiaBridgersYT @carolinericke @JackJerry</media:title>
    <media:content url="https://www.youtube.com/v/5YEcGXpuxHA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i2.ytimg.com/vi/5YEcGXpuxHA/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1729" average="5.00" min="1" max="5"/>
-    <media:statistics views="40749"/>
+    <media:starRating count="1947" average="5.00" min="1" max="5"/>
+    <media:statistics views="47964"/>
    </media:community>
   </media:group>
  </entry>
@@ -124,8 +147,8 @@ Anime is huge — and we finally have numbers to prove it: https://www.polygon.c
    <media:thumbnail url="https://i2.ytimg.com/vi/Yx-y_3AZj4s/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="14710" average="5.00" min="1" max="5"/>
-    <media:statistics views="182887"/>
+    <media:starRating count="14905" average="5.00" min="1" max="5"/>
+    <media:statistics views="190033"/>
    </media:community>
   </media:group>
  </entry>
@@ -149,8 +172,8 @@ Anime is huge — and we finally have numbers to prove it: https://www.polygon.c
 
 celebrando los logros del #BillionViewsClub de @KarolG escuchando Contigo una y otra vez 🔊 #KarolGContigo</media:description>
    <media:community>
-    <media:starRating count="1855" average="5.00" min="1" max="5"/>
-    <media:statistics views="79371"/>
+    <media:starRating count="1972" average="5.00" min="1" max="5"/>
+    <media:statistics views="82831"/>
    </media:community>
   </media:group>
  </entry>
@@ -172,8 +195,8 @@ celebrando los logros del #BillionViewsClub de @KarolG escuchando Contigo una y 
    <media:thumbnail url="https://i2.ytimg.com/vi/QlkJiCxrHko/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1909" average="5.00" min="1" max="5"/>
-    <media:statistics views="51384"/>
+    <media:starRating count="1991" average="5.00" min="1" max="5"/>
+    <media:statistics views="54352"/>
    </media:community>
   </media:group>
  </entry>
@@ -197,8 +220,8 @@ celebrando los logros del #BillionViewsClub de @KarolG escuchando Contigo una y 
 
 sí, voy a celebrar la canción Contigo de @KarolG &amp; @tiesto comiéndome un pastel entero de @TuCrazyCakes 🎂 #KarolGContigo</media:description>
    <media:community>
-    <media:starRating count="3426" average="5.00" min="1" max="5"/>
-    <media:statistics views="105546"/>
+    <media:starRating count="3555" average="5.00" min="1" max="5"/>
+    <media:statistics views="111651"/>
    </media:community>
   </media:group>
  </entry>
@@ -220,8 +243,8 @@ sí, voy a celebrar la canción Contigo de @KarolG &amp; @tiesto comiéndome un 
    <media:thumbnail url="https://i3.ytimg.com/vi/z_1eMyD_D74/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="8542" average="5.00" min="1" max="5"/>
-    <media:statistics views="212384"/>
+    <media:starRating count="8687" average="5.00" min="1" max="5"/>
+    <media:statistics views="218219"/>
    </media:community>
   </media:group>
  </entry>
@@ -280,8 +303,8 @@ Tom Robinson
 
 #gametheory  #thegametheorists  #matpat #retirement #youtube</media:description>
    <media:community>
-    <media:starRating count="336628" average="5.00" min="1" max="5"/>
-    <media:statistics views="3090440"/>
+    <media:starRating count="337766" average="5.00" min="1" max="5"/>
+    <media:statistics views="3111293"/>
    </media:community>
   </media:group>
  </entry>
@@ -303,8 +326,8 @@ Tom Robinson
    <media:thumbnail url="https://i3.ytimg.com/vi/Z8xdXcWgyqY/hqdefault.jpg" width="480" height="360"/>
    <media:description>listening to @KarolG  @tiesto's song Contigo while drinking @fenitasnl's Contigo-themed smoothie, life is good 😎 #KarolGContigo</media:description>
    <media:community>
-    <media:starRating count="9251" average="5.00" min="1" max="5"/>
-    <media:statistics views="454889"/>
+    <media:starRating count="9431" average="5.00" min="1" max="5"/>
+    <media:statistics views="464457"/>
    </media:community>
   </media:group>
  </entry>
@@ -326,8 +349,8 @@ Tom Robinson
    <media:thumbnail url="https://i2.ytimg.com/vi/9mlKH-h5az4/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3447" average="5.00" min="1" max="5"/>
-    <media:statistics views="109912"/>
+    <media:starRating count="3506" average="5.00" min="1" max="5"/>
+    <media:statistics views="111550"/>
    </media:community>
   </media:group>
  </entry>
@@ -349,8 +372,8 @@ Tom Robinson
    <media:thumbnail url="https://i3.ytimg.com/vi/F0W9nBpO7zU/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3289" average="5.00" min="1" max="5"/>
-    <media:statistics views="125775"/>
+    <media:starRating count="3347" average="5.00" min="1" max="5"/>
+    <media:statistics views="129441"/>
    </media:community>
   </media:group>
  </entry>
@@ -372,8 +395,8 @@ Tom Robinson
    <media:thumbnail url="https://i1.ytimg.com/vi/l99nzkak0Gs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2905" average="5.00" min="1" max="5"/>
-    <media:statistics views="104319"/>
+    <media:starRating count="2940" average="5.00" min="1" max="5"/>
+    <media:statistics views="105726"/>
    </media:community>
   </media:group>
  </entry>
@@ -395,31 +418,8 @@ Tom Robinson
    <media:thumbnail url="https://i3.ytimg.com/vi/N6vvD8jXB94/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4450" average="5.00" min="1" max="5"/>
-    <media:statistics views="141361"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:tc52SWcMwXk</id>
-  <yt:videoId>tc52SWcMwXk</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>we 🫶 all your #LoveNotes. big thanks to all the YouTube Partners who inspire us fr.</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=tc52SWcMwXk"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2024-02-14T12:00:17+00:00</published>
-  <updated>2024-03-09T12:32:57+00:00</updated>
-  <media:group>
-   <media:title>we 🫶 all your #LoveNotes. big thanks to all the YouTube Partners who inspire us fr.</media:title>
-   <media:content url="https://www.youtube.com/v/tc52SWcMwXk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i1.ytimg.com/vi/tc52SWcMwXk/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="3773" average="5.00" min="1" max="5"/>
-    <media:statistics views="167239"/>
+    <media:starRating count="4490" average="5.00" min="1" max="5"/>
+    <media:statistics views="144118"/>
    </media:community>
   </media:group>
  </entry>
