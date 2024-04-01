@@ -11,29 +11,6 @@
  </author>
  <published>2020-08-21T01:53:13+00:00</published>
  <entry>
-  <id>yt:video:cK6VP9pO6wc</id>
-  <yt:videoId>cK6VP9pO6wc</yt:videoId>
-  <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
-  <title>令科学家困惑的6张真实照片</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=cK6VP9pO6wc"/>
-  <author>
-   <name>绝密研究所</name>
-   <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
-  </author>
-  <published>2024-03-27T00:15:06+00:00</published>
-  <updated>2024-03-27T00:21:42+00:00</updated>
-  <media:group>
-   <media:title>令科学家困惑的6张真实照片</media:title>
-   <media:content url="https://www.youtube.com/v/cK6VP9pO6wc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/cK6VP9pO6wc/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="0" average="0.00" min="1" max="5"/>
-    <media:statistics views="3"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
   <id>yt:video:TaAZjOXCnxo</id>
   <yt:videoId>TaAZjOXCnxo</yt:videoId>
   <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
@@ -43,8 +20,8 @@
    <name>绝密研究所</name>
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
-  <published>2024-03-26T08:33:46+00:00</published>
-  <updated>2024-03-26T10:47:05+00:00</updated>
+  <published>2024-04-01T00:15:07+00:00</published>
+  <updated>2024-04-01T00:22:41+00:00</updated>
   <media:group>
    <media:title>一人高空抛物 ，全楼81户赔钱</media:title>
    <media:content url="https://www.youtube.com/v/TaAZjOXCnxo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -52,7 +29,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="0" average="0.00" min="1" max="5"/>
-    <media:statistics views="0"/>
+    <media:statistics views="1"/>
    </media:community>
   </media:group>
  </entry>
@@ -66,8 +43,8 @@
    <name>绝密研究所</name>
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
-  <published>2024-03-26T08:20:53+00:00</published>
-  <updated>2024-03-26T17:31:01+00:00</updated>
+  <published>2024-03-31T00:15:07+00:00</published>
+  <updated>2024-03-31T00:21:56+00:00</updated>
   <media:group>
    <media:title>非洲“萨普 ” ，破落街头的底层绅士</media:title>
    <media:content url="https://www.youtube.com/v/YW18vN_BgsA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -75,7 +52,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="0" average="0.00" min="1" max="5"/>
-    <media:statistics views="0"/>
+    <media:statistics views="52"/>
    </media:community>
   </media:group>
  </entry>
@@ -89,12 +66,35 @@
    <name>绝密研究所</name>
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
-  <published>2024-03-26T08:07:26+00:00</published>
-  <updated>2024-03-26T17:37:32+00:00</updated>
+  <published>2024-03-29T00:15:06+00:00</published>
+  <updated>2024-03-30T00:27:31+00:00</updated>
   <media:group>
    <media:title>韩国霸凌为何如此严重？</media:title>
    <media:content url="https://www.youtube.com/v/joT0q837_pQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i3.ytimg.com/vi/joT0q837_pQ/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="1" average="5.00" min="1" max="5"/>
+    <media:statistics views="103"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:8QLQOFa2EHg</id>
+  <yt:videoId>8QLQOFa2EHg</yt:videoId>
+  <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
+  <title>行尸走肉， “僵尸之城”内罗毕</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=8QLQOFa2EHg"/>
+  <author>
+   <name>绝密研究所</name>
+   <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
+  </author>
+  <published>2024-03-28T02:55:31+00:00</published>
+  <updated>2024-03-28T06:53:57+00:00</updated>
+  <media:group>
+   <media:title>行尸走肉， “僵尸之城”内罗毕</media:title>
+   <media:content url="https://www.youtube.com/v/8QLQOFa2EHg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/8QLQOFa2EHg/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
     <media:starRating count="0" average="0.00" min="1" max="5"/>
@@ -112,16 +112,39 @@
    <name>绝密研究所</name>
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
-  <published>2024-03-26T07:55:15+00:00</published>
-  <updated>2024-03-26T08:38:06+00:00</updated>
+  <published>2024-03-28T00:15:07+00:00</published>
+  <updated>2024-03-28T00:23:25+00:00</updated>
   <media:group>
    <media:title>母亲为7岁女儿复仇， 法庭当场枪杀凶手</media:title>
    <media:content url="https://www.youtube.com/v/Ca-jqncFZ9w?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i4.ytimg.com/vi/Ca-jqncFZ9w/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="0" average="0.00" min="1" max="5"/>
-    <media:statistics views="0"/>
+    <media:starRating count="2" average="5.00" min="1" max="5"/>
+    <media:statistics views="43"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:cK6VP9pO6wc</id>
+  <yt:videoId>cK6VP9pO6wc</yt:videoId>
+  <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
+  <title>令科学家困惑的6张真实照片</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=cK6VP9pO6wc"/>
+  <author>
+   <name>绝密研究所</name>
+   <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
+  </author>
+  <published>2024-03-27T00:15:06+00:00</published>
+  <updated>2024-03-28T20:18:05+00:00</updated>
+  <media:group>
+   <media:title>令科学家困惑的6张真实照片</media:title>
+   <media:content url="https://www.youtube.com/v/cK6VP9pO6wc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/cK6VP9pO6wc/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="2" average="5.00" min="1" max="5"/>
+    <media:statistics views="167"/>
    </media:community>
   </media:group>
  </entry>
@@ -136,15 +159,15 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-03-26T07:47:10+00:00</published>
-  <updated>2024-03-26T09:15:05+00:00</updated>
+  <updated>2024-03-28T06:41:49+00:00</updated>
   <media:group>
    <media:title>韩国医疗“大地震”， 近万医生集体辞职</media:title>
    <media:content url="https://www.youtube.com/v/VLmJfXuE0Z4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i3.ytimg.com/vi/VLmJfXuE0Z4/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="24"/>
+    <media:starRating count="2" average="5.00" min="1" max="5"/>
+    <media:statistics views="30"/>
    </media:community>
   </media:group>
  </entry>
@@ -159,7 +182,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-03-24T00:15:06+00:00</published>
-  <updated>2024-03-24T00:21:45+00:00</updated>
+  <updated>2024-03-27T22:05:57+00:00</updated>
   <media:group>
    <media:title>如果没有人死去世界会怎么样？</media:title>
    <media:content url="https://www.youtube.com/v/ZW_Ky81J1lY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -167,7 +190,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="24"/>
+    <media:statistics views="31"/>
    </media:community>
   </media:group>
  </entry>
@@ -182,7 +205,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-03-23T00:15:06+00:00</published>
-  <updated>2024-03-23T00:21:49+00:00</updated>
+  <updated>2024-03-26T10:29:35+00:00</updated>
   <media:group>
    <media:title>大家来找茬 ，动物界的隐身大师</media:title>
    <media:content url="https://www.youtube.com/v/B9wrPX-tL38?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -190,7 +213,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="24"/>
+    <media:statistics views="28"/>
    </media:community>
   </media:group>
  </entry>
@@ -205,7 +228,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-03-22T00:15:07+00:00</published>
-  <updated>2024-03-22T00:23:09+00:00</updated>
+  <updated>2024-03-26T09:52:23+00:00</updated>
   <media:group>
    <media:title>贝尔女巫杀人案 ，美国官方承认的灵异事件</media:title>
    <media:content url="https://www.youtube.com/v/CpzRYAU2Bo0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -213,7 +236,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="26"/>
+    <media:statistics views="33"/>
    </media:community>
   </media:group>
  </entry>
@@ -236,7 +259,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="37"/>
+    <media:statistics views="38"/>
    </media:community>
   </media:group>
  </entry>
@@ -259,7 +282,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="67"/>
+    <media:statistics views="69"/>
    </media:community>
   </media:group>
  </entry>
@@ -282,7 +305,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="46"/>
+    <media:statistics views="47"/>
    </media:community>
   </media:group>
  </entry>
@@ -305,7 +328,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="46"/>
+    <media:statistics views="49"/>
    </media:community>
   </media:group>
  </entry>
@@ -328,30 +351,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="42"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:jOQWlRbxEQI</id>
-  <yt:videoId>jOQWlRbxEQI</yt:videoId>
-  <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
-  <title>刷新你想象的骆驼冷知识</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=jOQWlRbxEQI"/>
-  <author>
-   <name>绝密研究所</name>
-   <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
-  </author>
-  <published>2024-03-16T00:15:06+00:00</published>
-  <updated>2024-03-16T21:59:26+00:00</updated>
-  <media:group>
-   <media:title>刷新你想象的骆驼冷知识</media:title>
-   <media:content url="https://www.youtube.com/v/jOQWlRbxEQI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/jOQWlRbxEQI/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="56"/>
+    <media:statistics views="43"/>
    </media:community>
   </media:group>
  </entry>

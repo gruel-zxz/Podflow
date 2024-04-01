@@ -10,6 +10,75 @@
   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
  </author>
  <entry>
+  <id>yt:video:DnfaW7KaGws</id>
+  <yt:videoId>DnfaW7KaGws</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>@tatikapaya names her #WomenofYouTube faves @scoladondo @jadebeason @rikkisandhuu 🎀🎀🎀</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=DnfaW7KaGws"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2024-03-30T18:00:25+00:00</published>
+  <updated>2024-03-31T22:19:08+00:00</updated>
+  <media:group>
+   <media:title>@tatikapaya names her #WomenofYouTube faves @scoladondo @jadebeason @rikkisandhuu 🎀🎀🎀</media:title>
+   <media:content url="https://www.youtube.com/v/DnfaW7KaGws?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/DnfaW7KaGws/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="893" average="5.00" min="1" max="5"/>
+    <media:statistics views="20347"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:ZjqHACGf0cY</id>
+  <yt:videoId>ZjqHACGf0cY</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>unwind with a calming @ricollinart_official2119 paint sesh 💄 @Tylaofficial #FreshOutTheGallery</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=ZjqHACGf0cY"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2024-03-29T16:07:26+00:00</published>
+  <updated>2024-03-31T02:29:36+00:00</updated>
+  <media:group>
+   <media:title>unwind with a calming @ricollinart_official2119 paint sesh 💄 @Tylaofficial #FreshOutTheGallery</media:title>
+   <media:content url="https://www.youtube.com/v/ZjqHACGf0cY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/ZjqHACGf0cY/hqdefault.jpg" width="480" height="360"/>
+   <media:description>watching @ricollinart_official2119 paint @Tylaofficial counts as meditation 🌀 #FreshOutTheGallery</media:description>
+   <media:community>
+    <media:starRating count="1318" average="5.00" min="1" max="5"/>
+    <media:statistics views="32364"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:3IuZD1ddSVY</id>
+  <yt:videoId>3IuZD1ddSVY</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>ok can't think of anyone braver than @JackJerry #guessinggame</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=3IuZD1ddSVY"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2024-03-28T15:00:43+00:00</published>
+  <updated>2024-03-30T16:10:09+00:00</updated>
+  <media:group>
+   <media:title>ok can't think of anyone braver than @JackJerry #guessinggame</media:title>
+   <media:content url="https://www.youtube.com/v/3IuZD1ddSVY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/3IuZD1ddSVY/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="1663" average="5.00" min="1" max="5"/>
+    <media:statistics views="42148"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:UPtzL13BLOA</id>
   <yt:videoId>UPtzL13BLOA</yt:videoId>
   <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
@@ -20,15 +89,15 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-03-25T20:15:22+00:00</published>
-  <updated>2024-03-25T20:21:58+00:00</updated>
+  <updated>2024-03-27T22:05:28+00:00</updated>
   <media:group>
    <media:title>what my headphones look like after being in my pocket for five minutes @GlamWithNikki #interview</media:title>
    <media:content url="https://www.youtube.com/v/UPtzL13BLOA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i2.ytimg.com/vi/UPtzL13BLOA/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1072" average="5.00" min="1" max="5"/>
-    <media:statistics views="28819"/>
+    <media:starRating count="1745" average="5.00" min="1" max="5"/>
+    <media:statistics views="65677"/>
    </media:community>
   </media:group>
  </entry>
@@ -50,8 +119,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/6N2yO7DPHAs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1937" average="5.00" min="1" max="5"/>
-    <media:statistics views="56867"/>
+    <media:starRating count="2503" average="5.00" min="1" max="5"/>
+    <media:statistics views="77998"/>
    </media:community>
   </media:group>
  </entry>
@@ -66,7 +135,7 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-03-22T18:00:03+00:00</published>
-  <updated>2024-03-25T04:02:01+00:00</updated>
+  <updated>2024-03-28T11:50:07+00:00</updated>
   <media:group>
    <media:title>Discussing the Influence of Black Creators on Anime's Fandom - Like &amp; Describe Podcast #6</media:title>
    <media:content url="https://www.youtube.com/v/6I2N1b7dN60?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -101,8 +170,8 @@ Danganronpa: Trigger Happy Havoc: https://www.youtube.com/watch?v=KGBF6a6sxe4&am
 Polygon Article:
 Anime is huge — and we finally have numbers to prove it: https://www.polygon.com/c/2024/1/22/24034466/anime-is-huge-and-we-finally-have-numbers-to-prove-it</media:description>
    <media:community>
-    <media:starRating count="3085" average="5.00" min="1" max="5"/>
-    <media:statistics views="106815"/>
+    <media:starRating count="4040" average="5.00" min="1" max="5"/>
+    <media:statistics views="135998"/>
    </media:community>
   </media:group>
  </entry>
@@ -124,8 +193,8 @@ Anime is huge — and we finally have numbers to prove it: https://www.polygon.c
    <media:thumbnail url="https://i2.ytimg.com/vi/5YEcGXpuxHA/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1947" average="5.00" min="1" max="5"/>
-    <media:statistics views="47964"/>
+    <media:starRating count="2231" average="5.00" min="1" max="5"/>
+    <media:statistics views="61549"/>
    </media:community>
   </media:group>
  </entry>
@@ -147,8 +216,8 @@ Anime is huge — and we finally have numbers to prove it: https://www.polygon.c
    <media:thumbnail url="https://i2.ytimg.com/vi/Yx-y_3AZj4s/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="14905" average="5.00" min="1" max="5"/>
-    <media:statistics views="190033"/>
+    <media:starRating count="15200" average="5.00" min="1" max="5"/>
+    <media:statistics views="204121"/>
    </media:community>
   </media:group>
  </entry>
@@ -163,7 +232,7 @@ Anime is huge — and we finally have numbers to prove it: https://www.polygon.c
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-03-13T15:05:28+00:00</published>
-  <updated>2024-03-15T11:29:51+00:00</updated>
+  <updated>2024-03-29T18:46:43+00:00</updated>
   <media:group>
    <media:title>obsessed with @KarolG’s #BillionViewsClub journey 💫 #KarolGContigo</media:title>
    <media:content url="https://www.youtube.com/v/g8za8j5tG18?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -172,8 +241,8 @@ Anime is huge — and we finally have numbers to prove it: https://www.polygon.c
 
 celebrando los logros del #BillionViewsClub de @KarolG escuchando Contigo una y otra vez 🔊 #KarolGContigo</media:description>
    <media:community>
-    <media:starRating count="1972" average="5.00" min="1" max="5"/>
-    <media:statistics views="82831"/>
+    <media:starRating count="2139" average="5.00" min="1" max="5"/>
+    <media:statistics views="89723"/>
    </media:community>
   </media:group>
  </entry>
@@ -195,8 +264,8 @@ celebrando los logros del #BillionViewsClub de @KarolG escuchando Contigo una y 
    <media:thumbnail url="https://i2.ytimg.com/vi/QlkJiCxrHko/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1991" average="5.00" min="1" max="5"/>
-    <media:statistics views="54352"/>
+    <media:starRating count="2113" average="5.00" min="1" max="5"/>
+    <media:statistics views="60804"/>
    </media:community>
   </media:group>
  </entry>
@@ -220,8 +289,8 @@ celebrando los logros del #BillionViewsClub de @KarolG escuchando Contigo una y 
 
 sí, voy a celebrar la canción Contigo de @KarolG &amp; @tiesto comiéndome un pastel entero de @TuCrazyCakes 🎂 #KarolGContigo</media:description>
    <media:community>
-    <media:starRating count="3555" average="5.00" min="1" max="5"/>
-    <media:statistics views="111651"/>
+    <media:starRating count="3790" average="5.00" min="1" max="5"/>
+    <media:statistics views="124360"/>
    </media:community>
   </media:group>
  </entry>
@@ -236,15 +305,15 @@ sí, voy a celebrar la canción Contigo de @KarolG &amp; @tiesto comiéndome un 
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-03-08T18:00:12+00:00</published>
-  <updated>2024-03-10T20:14:03+00:00</updated>
+  <updated>2024-03-28T09:21:32+00:00</updated>
   <media:group>
    <media:title>i didn’t have the heart to tell him it wasn’t 12 seconds #staringcontest #karl</media:title>
    <media:content url="https://www.youtube.com/v/z_1eMyD_D74?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i3.ytimg.com/vi/z_1eMyD_D74/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="8687" average="5.00" min="1" max="5"/>
-    <media:statistics views="218219"/>
+    <media:starRating count="8934" average="5.00" min="1" max="5"/>
+    <media:statistics views="230583"/>
    </media:community>
   </media:group>
  </entry>
@@ -303,8 +372,8 @@ Tom Robinson
 
 #gametheory  #thegametheorists  #matpat #retirement #youtube</media:description>
    <media:community>
-    <media:starRating count="337766" average="5.00" min="1" max="5"/>
-    <media:statistics views="3111293"/>
+    <media:starRating count="340655" average="5.00" min="1" max="5"/>
+    <media:statistics views="3168605"/>
    </media:community>
   </media:group>
  </entry>
@@ -319,15 +388,15 @@ Tom Robinson
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-03-06T16:03:47+00:00</published>
-  <updated>2024-03-15T10:18:14+00:00</updated>
+  <updated>2024-03-29T02:25:06+00:00</updated>
   <media:group>
    <media:title>mesmerized by @fenitasnl’s Contigo-themed smoothie 🌀 #KarolGContigo</media:title>
    <media:content url="https://www.youtube.com/v/Z8xdXcWgyqY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i3.ytimg.com/vi/Z8xdXcWgyqY/hqdefault.jpg" width="480" height="360"/>
    <media:description>listening to @KarolG  @tiesto's song Contigo while drinking @fenitasnl's Contigo-themed smoothie, life is good 😎 #KarolGContigo</media:description>
    <media:community>
-    <media:starRating count="9431" average="5.00" min="1" max="5"/>
-    <media:statistics views="464457"/>
+    <media:starRating count="9807" average="5.00" min="1" max="5"/>
+    <media:statistics views="490297"/>
    </media:community>
   </media:group>
  </entry>
@@ -342,84 +411,15 @@ Tom Robinson
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-02-28T23:30:21+00:00</published>
-  <updated>2024-03-05T04:12:58+00:00</updated>
+  <updated>2024-03-29T21:00:32+00:00</updated>
   <media:group>
    <media:title>celebrate BHM with Swoozie, Bianca, and Nyma as they receive their 💐 💐💐 ft.Rumi Robinson</media:title>
    <media:content url="https://www.youtube.com/v/9mlKH-h5az4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i2.ytimg.com/vi/9mlKH-h5az4/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3506" average="5.00" min="1" max="5"/>
-    <media:statistics views="111550"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:F0W9nBpO7zU</id>
-  <yt:videoId>F0W9nBpO7zU</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>just trying to untangle wires and our life choices at the same time #peachmonkey #interview</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=F0W9nBpO7zU"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2024-02-27T18:00:23+00:00</published>
-  <updated>2024-03-04T22:57:27+00:00</updated>
-  <media:group>
-   <media:title>just trying to untangle wires and our life choices at the same time #peachmonkey #interview</media:title>
-   <media:content url="https://www.youtube.com/v/F0W9nBpO7zU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/F0W9nBpO7zU/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="3347" average="5.00" min="1" max="5"/>
-    <media:statistics views="129441"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:l99nzkak0Gs</id>
-  <yt:videoId>l99nzkak0Gs</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>which one are you reading first?? @khalilahd @meagancarioti @haleypham @mrsbethanynoel #booktube</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=l99nzkak0Gs"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2024-02-23T17:00:18+00:00</published>
-  <updated>2024-03-03T05:04:32+00:00</updated>
-  <media:group>
-   <media:title>which one are you reading first?? @khalilahd @meagancarioti @haleypham @mrsbethanynoel #booktube</media:title>
-   <media:content url="https://www.youtube.com/v/l99nzkak0Gs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i1.ytimg.com/vi/l99nzkak0Gs/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="2940" average="5.00" min="1" max="5"/>
-    <media:statistics views="105726"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:N6vvD8jXB94</id>
-  <yt:videoId>N6vvD8jXB94</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>birds do stuff on the ground too</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=N6vvD8jXB94"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2024-02-21T21:31:14+00:00</published>
-  <updated>2024-03-09T04:27:58+00:00</updated>
-  <media:group>
-   <media:title>birds do stuff on the ground too</media:title>
-   <media:content url="https://www.youtube.com/v/N6vvD8jXB94?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/N6vvD8jXB94/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="4490" average="5.00" min="1" max="5"/>
-    <media:statistics views="144118"/>
+    <media:starRating count="3574" average="5.00" min="1" max="5"/>
+    <media:statistics views="115160"/>
    </media:community>
   </media:group>
  </entry>

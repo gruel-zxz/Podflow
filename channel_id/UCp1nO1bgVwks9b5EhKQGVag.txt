@@ -11,6 +11,53 @@
  </author>
  <published>2017-04-12T00:43:27+00:00</published>
  <entry>
+  <id>yt:video:ZdpxbqNuolg</id>
+  <yt:videoId>ZdpxbqNuolg</yt:videoId>
+  <yt:channelId>UCp1nO1bgVwks9b5EhKQGVag</yt:channelId>
+  <title>当人类缩小十万倍，变成细菌大小，世界会发生怎样的变化？</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=ZdpxbqNuolg"/>
+  <author>
+   <name>幻海航行--science fiction</name>
+   <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
+  </author>
+  <published>2024-03-27T08:08:06+00:00</published>
+  <updated>2024-03-29T03:39:56+00:00</updated>
+  <media:group>
+   <media:title>当人类缩小十万倍，变成细菌大小，世界会发生怎样的变化？</media:title>
+   <media:content url="https://www.youtube.com/v/ZdpxbqNuolg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/ZdpxbqNuolg/hqdefault.jpg" width="480" height="360"/>
+   <media:description>这是幻海航行的短视频内容，均收录在短视频文件中。长视频，大于10分钟的视频会持续更新不断更。
+当人类缩小十万倍，变成细菌大小</media:description>
+   <media:community>
+    <media:starRating count="76" average="5.00" min="1" max="5"/>
+    <media:statistics views="2967"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:BsXzCiDN5SU</id>
+  <yt:videoId>BsXzCiDN5SU</yt:videoId>
+  <yt:channelId>UCp1nO1bgVwks9b5EhKQGVag</yt:channelId>
+  <title>科幻小说对宇宙异象“巨引源“的解释</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=BsXzCiDN5SU"/>
+  <author>
+   <name>幻海航行--science fiction</name>
+   <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
+  </author>
+  <published>2024-03-27T07:26:37+00:00</published>
+  <updated>2024-03-29T12:54:57+00:00</updated>
+  <media:group>
+   <media:title>科幻小说对宇宙异象“巨引源“的解释</media:title>
+   <media:content url="https://www.youtube.com/v/BsXzCiDN5SU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/BsXzCiDN5SU/hqdefault.jpg" width="480" height="360"/>
+   <media:description>我们也顺应时代，开始制作5分钟以内的短内容了，当然长视频不会断更。只是在此基础上增加了短视频的数量。</media:description>
+   <media:community>
+    <media:starRating count="67" average="5.00" min="1" max="5"/>
+    <media:statistics views="2621"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:cIRW8gOSV8o</id>
   <yt:videoId>cIRW8gOSV8o</yt:videoId>
   <yt:channelId>UCp1nO1bgVwks9b5EhKQGVag</yt:channelId>
@@ -21,15 +68,15 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2024-03-25T10:16:21+00:00</published>
-  <updated>2024-03-26T06:46:22+00:00</updated>
+  <updated>2024-03-28T20:23:24+00:00</updated>
   <media:group>
    <media:title>克苏鲁作品《诡丽幻谭》：决战星际梦魇，揭开星球黯淡之谜</media:title>
    <media:content url="https://www.youtube.com/v/cIRW8gOSV8o?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i4.ytimg.com/vi/cIRW8gOSV8o/hqdefault.jpg" width="480" height="360"/>
    <media:description>我们的第二期克苏鲁风格作品——《诡丽幻谭》。《诡丽幻谭》创刊于1923年，主打奇幻、科幻、惊悚等各类型怪奇文学，创刊100年后由国内阿拉法文化从杂志100年来的几千篇小说中，挑选了25篇最有代表性的作品，翻译成中文，集结成了这部《诡丽幻谭·百年精选·Vol.1》。</media:description>
    <media:community>
-    <media:starRating count="76" average="5.00" min="1" max="5"/>
-    <media:statistics views="3032"/>
+    <media:starRating count="98" average="5.00" min="1" max="5"/>
+    <media:statistics views="4241"/>
    </media:community>
   </media:group>
  </entry>
@@ -44,15 +91,15 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2024-03-20T08:50:41+00:00</published>
-  <updated>2024-03-22T09:18:37+00:00</updated>
+  <updated>2024-03-26T23:56:35+00:00</updated>
   <media:group>
    <media:title>古老的“电车难题”有解了？科幻小说《电车难题》</media:title>
    <media:content url="https://www.youtube.com/v/Kgr8G-Mzkzc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i4.ytimg.com/vi/Kgr8G-Mzkzc/hqdefault.jpg" width="480" height="360"/>
    <media:description>《电车悖论》是基于电车难题”的再创作，将古老的问题放置于未来社会的背景之下。小说曾刊登再科幻世界杂志（原著：康乃馨），虽然过去了很多年，但是值得让更多的人看见。</media:description>
    <media:community>
-    <media:starRating count="129" average="5.00" min="1" max="5"/>
-    <media:statistics views="6028"/>
+    <media:starRating count="140" average="5.00" min="1" max="5"/>
+    <media:statistics views="7354"/>
    </media:community>
   </media:group>
  </entry>
@@ -74,8 +121,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/6dnBjGU-N2w/hqdefault.jpg" width="480" height="360"/>
    <media:description>《米奇7号》，原著：爱德华·阿什顿。这部一经问世，便获得了美国全国公共广播电台2022最佳图书奖，《寄生虫》的导演奉俊昊也将其改编为电影剧本，预计2025年会和大家见面。</media:description>
    <media:community>
-    <media:starRating count="127" average="5.00" min="1" max="5"/>
-    <media:statistics views="6832"/>
+    <media:starRating count="130" average="5.00" min="1" max="5"/>
+    <media:statistics views="7221"/>
    </media:community>
   </media:group>
  </entry>
@@ -98,8 +145,8 @@
    <media:description>刘慈欣、那多，联合推荐本书，书中写出了“奇点”到来后的那一刻。那一刻，无数人想过却没想清，无数人想写却没写出.....
 这是一部非常硬核的国产长篇科幻小说，作者用专业的知识，为我们呈现了这部《造神年代》，建议感兴趣的同学阅读原著。《造神年代》原著：严曦。</media:description>
    <media:community>
-    <media:starRating count="148" average="5.00" min="1" max="5"/>
-    <media:statistics views="7279"/>
+    <media:starRating count="154" average="5.00" min="1" max="5"/>
+    <media:statistics views="7573"/>
    </media:community>
   </media:group>
  </entry>
@@ -121,8 +168,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/xJ8hsPpczvI/hqdefault.jpg" width="480" height="360"/>
    <media:description>《逃兵》上世纪40年代的科幻作品，原著：克利福德.西马克，作者以较为严谨的写作手法和大胆的想象力，在上世纪就为我们构想出了另类生命对人类的看法，是科幻黄金时代的佳作之一。</media:description>
    <media:community>
-    <media:starRating count="140" average="5.00" min="1" max="5"/>
-    <media:statistics views="6067"/>
+    <media:starRating count="142" average="5.00" min="1" max="5"/>
+    <media:statistics views="6263"/>
    </media:community>
   </media:group>
  </entry>
@@ -145,7 +192,7 @@
    <media:description>一个战争机器人与人类孩子的最后时光：意识流科幻小说《潮痕》，原著：伊丽莎白·贝尔《潮痕》 (2008年雨果奖最佳短篇)</media:description>
    <media:community>
     <media:starRating count="113" average="5.00" min="1" max="5"/>
-    <media:statistics views="4054"/>
+    <media:statistics views="4140"/>
    </media:community>
   </media:group>
  </entry>
@@ -167,8 +214,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/DakEnnN9-io/hqdefault.jpg" width="480" height="360"/>
    <media:description>在目前语言学界的主流观点中，不存在“第4人称”。当然这是科幻小说，作者藤野另辟蹊径，以全新的视角揭开了一个地外生命群体的存在模式。《第四人称》  选自：《科幻世界》2016年12月刊。</media:description>
    <media:community>
-    <media:starRating count="149" average="5.00" min="1" max="5"/>
-    <media:statistics views="7881"/>
+    <media:starRating count="151" average="5.00" min="1" max="5"/>
+    <media:statistics views="7994"/>
    </media:community>
   </media:group>
  </entry>
@@ -190,8 +237,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/yjQoHB4Bs9w/hqdefault.jpg" width="480" height="360"/>
    <media:description>老龄化问题的终极答案：让40亿老人移民外星？科幻小说《暮星归途》</media:description>
    <media:community>
-    <media:starRating count="110" average="5.00" min="1" max="5"/>
-    <media:statistics views="7020"/>
+    <media:starRating count="113" average="5.00" min="1" max="5"/>
+    <media:statistics views="7201"/>
    </media:community>
   </media:group>
  </entry>
@@ -213,8 +260,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/wnP-yUQ1MkQ/hqdefault.jpg" width="480" height="360"/>
    <media:description>说明：这个盘点清单是根据幻海团队的阅读经历，从读者的接受度、作品故事性、作品的思想深度等特点做出的盘点清单，均为我们的个人观点。所以《龙蛋》、《盲视》、《量子魔术师》《泥人十四》等过于硬核的优秀作品不在其中，同时《三体》与《泽利》也不在其中，它们之前已经总结过了，另外《太空漫游系列》/《火星救援》《索拉里斯星》等优秀作品，由于已经被影视化，熟悉的人很多，所以也不在其中。</media:description>
    <media:community>
-    <media:starRating count="204" average="5.00" min="1" max="5"/>
-    <media:statistics views="6529"/>
+    <media:starRating count="208" average="5.00" min="1" max="5"/>
+    <media:statistics views="6676"/>
    </media:community>
   </media:group>
  </entry>
@@ -229,7 +276,7 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2024-01-18T09:24:27+00:00</published>
-  <updated>2024-03-19T02:05:16+00:00</updated>
+  <updated>2024-03-28T23:46:33+00:00</updated>
   <media:group>
    <media:title>盘点：那些科幻大师笔下人类的最终宿命</media:title>
    <media:content url="https://www.youtube.com/v/Bsm94LuBQyo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -238,7 +285,7 @@
 我们最看好的是05：15的部分，在科技断代之后，人类存活到了最后。</media:description>
    <media:community>
     <media:starRating count="151" average="5.00" min="1" max="5"/>
-    <media:statistics views="8222"/>
+    <media:statistics views="8406"/>
    </media:community>
   </media:group>
  </entry>
@@ -262,8 +309,8 @@
 更新预告：阅读总结——人类的三种终极宿命。
 阅读总结——我心目中的科幻TOP系列盘点。</media:description>
    <media:community>
-    <media:starRating count="170" average="5.00" min="1" max="5"/>
-    <media:statistics views="7023"/>
+    <media:starRating count="174" average="5.00" min="1" max="5"/>
+    <media:statistics views="7127"/>
    </media:community>
   </media:group>
  </entry>
@@ -278,7 +325,7 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2024-01-11T03:14:15+00:00</published>
-  <updated>2024-03-14T18:05:21+00:00</updated>
+  <updated>2024-03-27T18:13:13+00:00</updated>
   <media:group>
    <media:title>用40亿年去纠正一个错误，错误是创造全人类：《宇宙全能侦探社》下集</media:title>
    <media:content url="https://www.youtube.com/v/7yIuEGj7IXU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -286,7 +333,7 @@
    <media:description>用40亿年去纠正一个错误，错误是创造全人类：《宇宙全能侦探社》下集</media:description>
    <media:community>
     <media:starRating count="84" average="5.00" min="1" max="5"/>
-    <media:statistics views="3944"/>
+    <media:statistics views="3993"/>
    </media:community>
   </media:group>
  </entry>
@@ -309,54 +356,8 @@
    <media:description>时空穿越的无尽奥秘，探寻宇宙的终极真相：《宇宙全能侦探社》，上集。
 原著：道格拉斯亚当斯，一位搞怪又不失科幻内核的作家。</media:description>
    <media:community>
-    <media:starRating count="92" average="5.00" min="1" max="5"/>
-    <media:statistics views="6562"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:k_ZrLJMFE98</id>
-  <yt:videoId>k_ZrLJMFE98</yt:videoId>
-  <yt:channelId>UCp1nO1bgVwks9b5EhKQGVag</yt:channelId>
-  <title>给AI投喂海量数据，它能计算出未来吗？科幻名著《世界上所有的烦恼》</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=k_ZrLJMFE98"/>
-  <author>
-   <name>幻海航行--science fiction</name>
-   <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
-  </author>
-  <published>2023-12-29T17:38:45+00:00</published>
-  <updated>2024-03-23T07:18:35+00:00</updated>
-  <media:group>
-   <media:title>给AI投喂海量数据，它能计算出未来吗？科幻名著《世界上所有的烦恼》</media:title>
-   <media:content url="https://www.youtube.com/v/k_ZrLJMFE98?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/k_ZrLJMFE98/hqdefault.jpg" width="480" height="360"/>
-   <media:description>《世界上所有的烦恼》，原著：阿西莫夫，出自阿西莫夫科幻短篇全集、 阿西莫夫的这个短篇系列终于出版了！阿西莫夫最神的就是他的短篇，所谓：人类近50年来的科技进步，一直在追赶阿西莫夫科幻小说的脚步。</media:description>
-   <media:community>
-    <media:starRating count="159" average="5.00" min="1" max="5"/>
-    <media:statistics views="8119"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:MR_wrpZo9S0</id>
-  <yt:videoId>MR_wrpZo9S0</yt:videoId>
-  <yt:channelId>UCp1nO1bgVwks9b5EhKQGVag</yt:channelId>
-  <title>一个中子星文明的毁灭与重生：《星震》大结局</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=MR_wrpZo9S0"/>
-  <author>
-   <name>幻海航行--science fiction</name>
-   <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
-  </author>
-  <published>2023-12-21T05:54:00+00:00</published>
-  <updated>2024-03-14T05:45:05+00:00</updated>
-  <media:group>
-   <media:title>一个中子星文明的毁灭与重生：《星震》大结局</media:title>
-   <media:content url="https://www.youtube.com/v/MR_wrpZo9S0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/MR_wrpZo9S0/hqdefault.jpg" width="480" height="360"/>
-   <media:description>一个中子星文明的毁灭与重生：《星震》大结局</media:description>
-   <media:community>
-    <media:starRating count="94" average="5.00" min="1" max="5"/>
-    <media:statistics views="5532"/>
+    <media:starRating count="93" average="5.00" min="1" max="5"/>
+    <media:statistics views="6656"/>
    </media:community>
   </media:group>
  </entry>
