@@ -41,8 +41,8 @@
 
 #日本 #vlog #留學</media:description>
    <media:community>
-    <media:starRating count="4023" average="5.00" min="1" max="5"/>
-    <media:statistics views="199505"/>
+    <media:starRating count="4024" average="5.00" min="1" max="5"/>
+    <media:statistics views="199657"/>
    </media:community>
   </media:group>
  </entry>
@@ -85,8 +85,8 @@
 
 #日本漫畫 #殺手阿一 #cult</media:description>
    <media:community>
-    <media:starRating count="1131" average="5.00" min="1" max="5"/>
-    <media:statistics views="55418"/>
+    <media:starRating count="1132" average="5.00" min="1" max="5"/>
+    <media:statistics views="55546"/>
    </media:community>
   </media:group>
  </entry>
@@ -130,8 +130,8 @@
 
 #日本漫畫 #殺手阿一 #cult</media:description>
    <media:community>
-    <media:starRating count="1174" average="5.00" min="1" max="5"/>
-    <media:statistics views="96756"/>
+    <media:starRating count="1175" average="5.00" min="1" max="5"/>
+    <media:statistics views="96918"/>
    </media:community>
   </media:group>
  </entry>
@@ -176,8 +176,8 @@
 
 #日本 #次文化 #戀物</media:description>
    <media:community>
-    <media:starRating count="1048" average="5.00" min="1" max="5"/>
-    <media:statistics views="64224"/>
+    <media:starRating count="1049" average="5.00" min="1" max="5"/>
+    <media:statistics views="64341"/>
    </media:community>
   </media:group>
  </entry>
@@ -220,8 +220,8 @@
 
 #遊戲 #videogames  #日本</media:description>
    <media:community>
-    <media:starRating count="2618" average="5.00" min="1" max="5"/>
-    <media:statistics views="240906"/>
+    <media:starRating count="2621" average="5.00" min="1" max="5"/>
+    <media:statistics views="241168"/>
    </media:community>
   </media:group>
  </entry>
@@ -236,7 +236,7 @@
    <uri>https://www.youtube.com/channel/UC9RS8EzXdRJyYDkwtcsWOuA</uri>
   </author>
   <published>2023-09-06T12:41:15+00:00</published>
-  <updated>2024-03-15T04:07:24+00:00</updated>
+  <updated>2024-04-04T14:31:48+00:00</updated>
   <media:group>
    <media:title>尺度巨大😱日本無碼動畫和電影也太好看了｜🇯🇵日本的文化下限有多低？（上）</media:title>
    <media:content url="https://www.youtube.com/v/WCphiNgkhYo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -265,8 +265,8 @@
 
 #日本 #動漫 #日本電影</media:description>
    <media:community>
-    <media:starRating count="2330" average="5.00" min="1" max="5"/>
-    <media:statistics views="230286"/>
+    <media:starRating count="2339" average="5.00" min="1" max="5"/>
+    <media:statistics views="231093"/>
    </media:community>
   </media:group>
  </entry>
@@ -310,8 +310,8 @@
 ▶追蹤TenGuSan的IG：@tengusan.real
 ▶我的品牌官網：www.under20.com</media:description>
    <media:community>
-    <media:starRating count="2540" average="5.00" min="1" max="5"/>
-    <media:statistics views="245447"/>
+    <media:starRating count="2543" average="5.00" min="1" max="5"/>
+    <media:statistics views="246127"/>
    </media:community>
   </media:group>
  </entry>
@@ -326,7 +326,7 @@
    <uri>https://www.youtube.com/channel/UC9RS8EzXdRJyYDkwtcsWOuA</uri>
   </author>
   <published>2023-08-16T12:00:28+00:00</published>
-  <updated>2024-02-13T15:10:05+00:00</updated>
+  <updated>2024-04-03T12:27:52+00:00</updated>
   <media:group>
    <media:title>為何日本美女們不惜下海拍🅰️✅也要養牛郎?!羅蘭見了都得跪的地表最強牛郎！揭秘東京夜場男公關🍷（上）</media:title>
    <media:content url="https://www.youtube.com/v/ljdY5C4dVBU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -352,8 +352,8 @@
 ▶追蹤TenGuSan的IG：@tengusan.real
 ▶我的品牌官網：www.under20.com</media:description>
    <media:community>
-    <media:starRating count="1999" average="5.00" min="1" max="5"/>
-    <media:statistics views="175370"/>
+    <media:starRating count="2003" average="5.00" min="1" max="5"/>
+    <media:statistics views="175826"/>
    </media:community>
   </media:group>
  </entry>
@@ -416,8 +416,8 @@
 ▶追蹤TenGuSan的IG：@tengusan.real
 ▶我的品牌官網：www.under20.com</media:description>
    <media:community>
-    <media:starRating count="1840" average="5.00" min="1" max="5"/>
-    <media:statistics views="303104"/>
+    <media:starRating count="1845" average="5.00" min="1" max="5"/>
+    <media:statistics views="303405"/>
    </media:community>
   </media:group>
  </entry>
@@ -458,8 +458,8 @@
 
 #日本 #日本社會</media:description>
    <media:community>
-    <media:starRating count="890" average="5.00" min="1" max="5"/>
-    <media:statistics views="67722"/>
+    <media:starRating count="889" average="5.00" min="1" max="5"/>
+    <media:statistics views="67783"/>
    </media:community>
   </media:group>
  </entry>
@@ -503,8 +503,8 @@
 
 #2ch #日本文化 #互聯網</media:description>
    <media:community>
-    <media:starRating count="973" average="5.00" min="1" max="5"/>
-    <media:statistics views="75148"/>
+    <media:starRating count="974" average="5.00" min="1" max="5"/>
+    <media:statistics views="75257"/>
    </media:community>
   </media:group>
  </entry>
@@ -544,8 +544,8 @@
 
 #日本社會 #刑務所 #越獄</media:description>
    <media:community>
-    <media:starRating count="719" average="5.00" min="1" max="5"/>
-    <media:statistics views="55563"/>
+    <media:starRating count="718" average="5.00" min="1" max="5"/>
+    <media:statistics views="55632"/>
    </media:community>
   </media:group>
  </entry>
@@ -595,8 +595,8 @@
 ▶追蹤TenGuSan的IG：@tengusan.real
 ▶我的品牌官網：www.under20.com</media:description>
    <media:community>
-    <media:starRating count="1792" average="5.00" min="1" max="5"/>
-    <media:statistics views="122056"/>
+    <media:starRating count="1794" average="5.00" min="1" max="5"/>
+    <media:statistics views="122222"/>
    </media:community>
   </media:group>
  </entry>
@@ -638,7 +638,7 @@
 #福島核污水 #日本核廢水 #核輻射 #科幻</media:description>
    <media:community>
     <media:starRating count="780" average="5.00" min="1" max="5"/>
-    <media:statistics views="41914"/>
+    <media:statistics views="41960"/>
    </media:community>
   </media:group>
  </entry>
@@ -684,8 +684,8 @@
 
 #伊藤潤二 #恐怖 #日本 #次文化</media:description>
    <media:community>
-    <media:starRating count="1414" average="5.00" min="1" max="5"/>
-    <media:statistics views="91562"/>
+    <media:starRating count="1416" average="5.00" min="1" max="5"/>
+    <media:statistics views="91715"/>
    </media:community>
   </media:group>
  </entry>

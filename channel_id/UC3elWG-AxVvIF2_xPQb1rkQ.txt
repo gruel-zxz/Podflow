@@ -11,6 +11,33 @@
  </author>
  <published>2022-06-04T16:17:27+00:00</published>
  <entry>
+  <id>yt:video:mtwBje_ogyg</id>
+  <yt:videoId>mtwBje_ogyg</yt:videoId>
+  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
+  <title>北方烧烤是一串塞不下，南方烧烤是两串都塞牙啊#爱吐槽的四季妈妈 #家庭吐槽大会</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=mtwBje_ogyg"/>
+  <author>
+   <name>四季妈妈—小龙</name>
+   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
+  </author>
+  <published>2024-04-04T11:03:54+00:00</published>
+  <updated>2024-04-05T06:56:34+00:00</updated>
+  <media:group>
+   <media:title>北方烧烤是一串塞不下，南方烧烤是两串都塞牙啊#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
+   <media:content url="https://www.youtube.com/v/mtwBje_ogyg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/mtwBje_ogyg/hqdefault.jpg" width="480" height="360"/>
+   <media:description>大家好，欢迎来到我的频道！今天，我要和大家一起揭秘北方与南方烧烤的不同之处：一串塞不下 vs 两串都塞牙？四季妈妈爱吐槽，带你一起探索家庭生活中的趣事。
+
+在这期视频中，我将分享一些关于北方与南方烧烤的有趣现象。北方烧烤通常是一串串大块的肉，塞不下的情况时有发生；而南方烧烤则更注重于细碎的食材，两串都能塞牙。让我们一起来揭秘这些有趣的差异！
+
+别忘了点赞、订阅，并在评论区分享你对北方与南方烧烤的看法和自己的烧烤经历。期待和大家一起分享更多有趣的家庭吐槽！#北方烧烤 #南方烧烤 #家庭趣事 #幽默观察</media:description>
+   <media:community>
+    <media:starRating count="3" average="5.00" min="1" max="5"/>
+    <media:statistics views="144"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:9Y7BectlDQU</id>
   <yt:videoId>9Y7BectlDQU</yt:videoId>
   <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
@@ -21,7 +48,7 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-03-31T09:29:07+00:00</published>
-  <updated>2024-03-31T09:31:35+00:00</updated>
+  <updated>2024-04-03T02:02:53+00:00</updated>
   <media:group>
    <media:title>该快的时候很快，该慢的时候很慢，这是男人独有的超能力#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
    <media:content url="https://www.youtube.com/v/9Y7BectlDQU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -32,8 +59,8 @@
 
 别忘了点赞、订阅，并在评论区分享你对男人超能力的看法和自己的趣事经历。期待和大家一起分享更多有趣的家庭吐槽！#男人超能力 #家庭趣事 #幽默观察</media:description>
    <media:community>
-    <media:starRating count="10" average="5.00" min="1" max="5"/>
-    <media:statistics views="564"/>
+    <media:starRating count="31" average="5.00" min="1" max="5"/>
+    <media:statistics views="1997"/>
    </media:community>
   </media:group>
  </entry>
@@ -48,7 +75,7 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-03-30T04:48:52+00:00</published>
-  <updated>2024-03-30T22:52:44+00:00</updated>
+  <updated>2024-04-02T22:16:59+00:00</updated>
   <media:group>
    <media:title>婚后兄弟的工资上缴：婚前潇洒，婚后紧巴巴？四季妈妈爆笑解读</media:title>
    <media:content url="https://www.youtube.com/v/Lx0ZOLeeruE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -59,8 +86,8 @@
 
 别忘了点赞、订阅，并在评论区分享你对婚后生活的看法和自己的趣事经历。期待和大家一起分享更多有趣的家庭吐槽！#婚后生活 #工资上缴 #家庭趣事</media:description>
    <media:community>
-    <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="151"/>
+    <media:starRating count="5" average="5.00" min="1" max="5"/>
+    <media:statistics views="244"/>
    </media:community>
   </media:group>
  </entry>
@@ -86,8 +113,8 @@
 
 别忘了点赞、订阅，并在评论区分享你对钓鱼佬心性之坚定的看法和自己的钓鱼经历。期待和大家一起分享更多有趣的家庭吐槽！#钓鱼佬 #心性之坚定 #家庭趣事</media:description>
    <media:community>
-    <media:starRating count="9" average="5.00" min="1" max="5"/>
-    <media:statistics views="191"/>
+    <media:starRating count="10" average="5.00" min="1" max="5"/>
+    <media:statistics views="235"/>
    </media:community>
   </media:group>
  </entry>
@@ -113,8 +140,8 @@
 
 别忘了点赞、订阅，并在评论区分享你对北方洗浴的看法和自己的趣事经历。期待和大家一起分享更多家庭洗浴的趣事！#洗浴趣事 #奇葩项目 #幽默观察</media:description>
    <media:community>
-    <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="376"/>
+    <media:starRating count="7" average="5.00" min="1" max="5"/>
+    <media:statistics views="420"/>
    </media:community>
   </media:group>
  </entry>
@@ -141,7 +168,7 @@
 别忘了点赞、订阅，并在评论区分享你对洗浴经验的看法和自己的趣事。让我们一起来欣赏洗浴场所中的各种趣事吧！#洗浴技巧 #幽默观察 #新手与浴皇</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="157"/>
+    <media:statistics views="182"/>
    </media:community>
   </media:group>
  </entry>
@@ -167,8 +194,8 @@
 
 别忘了点赞、订阅，并在评论区分享你对相亲的看法和自己的奇遇经历。让我们一起来笑对相亲的种种趣事吧！#相亲趣事 #穿越奇遇 #幽默观察</media:description>
    <media:community>
-    <media:starRating count="3" average="5.00" min="1" max="5"/>
-    <media:statistics views="196"/>
+    <media:starRating count="4" average="5.00" min="1" max="5"/>
+    <media:statistics views="220"/>
    </media:community>
   </media:group>
  </entry>
@@ -194,8 +221,8 @@
 
 别忘了点赞、订阅，并在评论区分享你对这些小众用法的看法和自己的奇葩经历。让我们一起来欣赏家庭生活中的不可思议之处吧！#家庭生活 #趣事经历 #幽默观察</media:description>
    <media:community>
-    <media:starRating count="64" average="5.00" min="1" max="5"/>
-    <media:statistics views="3957"/>
+    <media:starRating count="66" average="5.00" min="1" max="5"/>
+    <media:statistics views="4217"/>
    </media:community>
   </media:group>
  </entry>
@@ -222,7 +249,7 @@
 别忘了点赞、订阅，并在评论区分享你对男人必备三件套的看法和自己的趣事经历。让我们一起来享受家庭生活中的乐趣吧！#家庭生活 #趣事经历 #幽默观察</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="243"/>
+    <media:statistics views="247"/>
    </media:community>
   </media:group>
  </entry>
@@ -249,7 +276,7 @@
 别忘了点赞、订阅，并在评论区分享你对家庭生活的看法和自己的趣事经历。让我们一起来共享家庭吐槽的乐趣吧！#家庭生活 #趣事经历 #幽默观察</media:description>
    <media:community>
     <media:starRating count="15" average="5.00" min="1" max="5"/>
-    <media:statistics views="1305"/>
+    <media:statistics views="1313"/>
    </media:community>
   </media:group>
  </entry>
@@ -276,7 +303,7 @@
 别忘了点赞、订阅，并在评论区分享你对丈夫寄存处的看法和自己的观察。让我们一起来笑谈商场购物的趣事吧！#商场购物 #丈夫寄存处 #幽默观察</media:description>
    <media:community>
     <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="836"/>
+    <media:statistics views="835"/>
    </media:community>
   </media:group>
  </entry>
@@ -303,7 +330,7 @@
 别忘了点赞、订阅，并在评论区分享你对钓鱼的看法和自己的钓鱼经历。让我们一起来探讨这个有趣的娱乐活动吧！#钓鱼初体验 #钓鱼高手 #幽默观察</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="235"/>
+    <media:statistics views="236"/>
    </media:community>
   </media:group>
  </entry>
@@ -326,7 +353,7 @@
    <media:description>男人的没事儿什么时候才是有事？#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="11" average="5.00" min="1" max="5"/>
-    <media:statistics views="293"/>
+    <media:statistics views="296"/>
    </media:community>
   </media:group>
  </entry>
@@ -353,7 +380,7 @@
 别忘了点赞、订阅，并在评论区分享你对男人下班后“必去地点”的看法和自己的观察。让我们一起来探讨这个有趣的话题吧！#男人生活 #消遣去处 #幽默观察</media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="195"/>
+    <media:statistics views="197"/>
    </media:community>
   </media:group>
  </entry>
@@ -380,34 +407,7 @@
 别忘了点赞、订阅，并在评论区分享你对这个话题的看法和自己的经验。让我们一起来看看谁才是最终的赢家吧！#汽车竞争 #胜利者 #幽默观察</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="309"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:bS970Yw9HRU</id>
-  <yt:videoId>bS970Yw9HRU</yt:videoId>
-  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
-  <title>作为女人，我找了很多理由，也不懂男人为什么更爱它#四季妈妈爱聊车</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=bS970Yw9HRU"/>
-  <author>
-   <name>四季妈妈—小龙</name>
-   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
-  </author>
-  <published>2024-02-29T13:08:41+00:00</published>
-  <updated>2024-03-08T22:12:42+00:00</updated>
-  <media:group>
-   <media:title>作为女人，我找了很多理由，也不懂男人为什么更爱它#四季妈妈爱聊车</media:title>
-   <media:content url="https://www.youtube.com/v/bS970Yw9HRU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/bS970Yw9HRU/hqdefault.jpg" width="480" height="360"/>
-   <media:description>大家好，欢迎来到我的频道！作为女人，你可能找了很多理由，但却不明白为什么男人更爱车。四季妈妈爱聊车，今天将为你揭秘男人对车的独特情感！
-
-在这期视频中，我将探讨男人对车的独特情感和热爱，以及他们选择车辆的原因。无论是外观设计、性能表现还是品牌认同，都是男人选择车辆的重要考量因素。通过了解这些，你或许能更好地理解男人与车之间的特殊关系。
-
-别忘了点赞、订阅，并在评论区分享你对男人爱车的看法和自己的经验。让我们一起来揭开男人心中的这个秘密吧！#男人爱车 #汽车情感 #幽默观察</media:description>
-   <media:community>
-    <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="185"/>
+    <media:statistics views="310"/>
    </media:community>
   </media:group>
  </entry>
