@@ -33,7 +33,7 @@
 别忘了点赞、订阅，并在评论区分享你对东北人的看法和自己的趣事经历。期待和大家一起分享更多有趣的家庭吐槽！#东北人 #家庭趣事 #幽默观察</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="278"/>
+    <media:statistics views="334"/>
    </media:community>
   </media:group>
  </entry>
@@ -60,7 +60,7 @@
 别忘了点赞、订阅，并在评论区分享你对北方与南方烧烤的看法和自己的烧烤经历。期待和大家一起分享更多有趣的家庭吐槽！#北方烧烤 #南方烧烤 #家庭趣事 #幽默观察</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="370"/>
+    <media:statistics views="382"/>
    </media:community>
   </media:group>
  </entry>
@@ -86,8 +86,8 @@
 
 别忘了点赞、订阅，并在评论区分享你对男人超能力的看法和自己的趣事经历。期待和大家一起分享更多有趣的家庭吐槽！#男人超能力 #家庭趣事 #幽默观察</media:description>
    <media:community>
-    <media:starRating count="43" average="5.00" min="1" max="5"/>
-    <media:statistics views="3707"/>
+    <media:starRating count="48" average="5.00" min="1" max="5"/>
+    <media:statistics views="4129"/>
    </media:community>
   </media:group>
  </entry>
@@ -114,7 +114,7 @@
 别忘了点赞、订阅，并在评论区分享你对婚后生活的看法和自己的趣事经历。期待和大家一起分享更多有趣的家庭吐槽！#婚后生活 #工资上缴 #家庭趣事</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="259"/>
+    <media:statistics views="260"/>
    </media:community>
   </media:group>
  </entry>
@@ -141,7 +141,7 @@
 别忘了点赞、订阅，并在评论区分享你对钓鱼佬心性之坚定的看法和自己的钓鱼经历。期待和大家一起分享更多有趣的家庭吐槽！#钓鱼佬 #心性之坚定 #家庭趣事</media:description>
    <media:community>
     <media:starRating count="10" average="5.00" min="1" max="5"/>
-    <media:statistics views="258"/>
+    <media:statistics views="259"/>
    </media:community>
   </media:group>
  </entry>
@@ -168,7 +168,7 @@
 别忘了点赞、订阅，并在评论区分享你对北方洗浴的看法和自己的趣事经历。期待和大家一起分享更多家庭洗浴的趣事！#洗浴趣事 #奇葩项目 #幽默观察</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="446"/>
+    <media:statistics views="449"/>
    </media:community>
   </media:group>
  </entry>
@@ -248,8 +248,8 @@
 
 别忘了点赞、订阅，并在评论区分享你对这些小众用法的看法和自己的奇葩经历。让我们一起来欣赏家庭生活中的不可思议之处吧！#家庭生活 #趣事经历 #幽默观察</media:description>
    <media:community>
-    <media:starRating count="66" average="5.00" min="1" max="5"/>
-    <media:statistics views="4319"/>
+    <media:starRating count="67" average="5.00" min="1" max="5"/>
+    <media:statistics views="4418"/>
    </media:community>
   </media:group>
  </entry>
@@ -276,7 +276,7 @@
 别忘了点赞、订阅，并在评论区分享你对男人必备三件套的看法和自己的趣事经历。让我们一起来享受家庭生活中的乐趣吧！#家庭生活 #趣事经历 #幽默观察</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="249"/>
+    <media:statistics views="250"/>
    </media:community>
   </media:group>
  </entry>
@@ -303,7 +303,7 @@
 别忘了点赞、订阅，并在评论区分享你对家庭生活的看法和自己的趣事经历。让我们一起来共享家庭吐槽的乐趣吧！#家庭生活 #趣事经历 #幽默观察</media:description>
    <media:community>
     <media:starRating count="15" average="5.00" min="1" max="5"/>
-    <media:statistics views="1317"/>
+    <media:statistics views="1318"/>
    </media:community>
   </media:group>
  </entry>
@@ -407,7 +407,7 @@
 别忘了点赞、订阅，并在评论区分享你对男人下班后“必去地点”的看法和自己的观察。让我们一起来探讨这个有趣的话题吧！#男人生活 #消遣去处 #幽默观察</media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="197"/>
+    <media:statistics views="198"/>
    </media:community>
   </media:group>
  </entry>

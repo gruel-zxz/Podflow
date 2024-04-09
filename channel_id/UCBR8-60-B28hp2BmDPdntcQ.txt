@@ -10,6 +10,29 @@
   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
  </author>
  <entry>
+  <id>yt:video:zyoCmgQoYs0</id>
+  <yt:videoId>zyoCmgQoYs0</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>the pressure washing community understands the art of a big reveal</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=zyoCmgQoYs0"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2024-04-08T14:30:15+00:00</published>
+  <updated>2024-04-08T14:35:11+00:00</updated>
+  <media:group>
+   <media:title>the pressure washing community understands the art of a big reveal</media:title>
+   <media:content url="https://www.youtube.com/v/zyoCmgQoYs0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/zyoCmgQoYs0/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="1021" average="5.00" min="1" max="5"/>
+    <media:statistics views="17500"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:BVdnpR_BaWk</id>
   <yt:videoId>BVdnpR_BaWk</yt:videoId>
   <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
@@ -27,8 +50,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/BVdnpR_BaWk/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1339" average="5.00" min="1" max="5"/>
-    <media:statistics views="39058"/>
+    <media:starRating count="1458" average="5.00" min="1" max="5"/>
+    <media:statistics views="42907"/>
    </media:community>
   </media:group>
  </entry>
@@ -50,8 +73,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/nQccoTTe7Bc/hqdefault.jpg" width="480" height="360"/>
    <media:description>join @CrissaJackson, @MattSDance, @ReginaEigbe, &amp; @jaymondy. on Shorts to show the world you can dance like @Tylaofficial 🪩 #FreshOutTheGallery</media:description>
    <media:community>
-    <media:starRating count="1511" average="5.00" min="1" max="5"/>
-    <media:statistics views="54245"/>
+    <media:starRating count="1582" average="5.00" min="1" max="5"/>
+    <media:statistics views="57966"/>
    </media:community>
   </media:group>
  </entry>
@@ -66,15 +89,15 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-04-01T16:46:18+00:00</published>
-  <updated>2024-04-02T22:51:20+00:00</updated>
+  <updated>2024-04-07T23:24:38+00:00</updated>
   <media:group>
    <media:title>11 years is the exact time we needed to pick YouTube's best video</media:title>
    <media:content url="https://www.youtube.com/v/9hvWBP1q0GI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i2.ytimg.com/vi/9hvWBP1q0GI/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2173" average="5.00" min="1" max="5"/>
-    <media:statistics views="60537"/>
+    <media:starRating count="2240" average="5.00" min="1" max="5"/>
+    <media:statistics views="63367"/>
    </media:community>
   </media:group>
  </entry>
@@ -96,8 +119,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/DnfaW7KaGws/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1454" average="5.00" min="1" max="5"/>
-    <media:statistics views="41164"/>
+    <media:starRating count="1489" average="5.00" min="1" max="5"/>
+    <media:statistics views="42362"/>
    </media:community>
   </media:group>
  </entry>
@@ -119,8 +142,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/ZjqHACGf0cY/hqdefault.jpg" width="480" height="360"/>
    <media:description>watching @ricollinart_official2119 paint @Tylaofficial counts as meditation 🌀 #FreshOutTheGallery</media:description>
    <media:community>
-    <media:starRating count="1881" average="5.00" min="1" max="5"/>
-    <media:statistics views="56239"/>
+    <media:starRating count="1924" average="5.00" min="1" max="5"/>
+    <media:statistics views="58144"/>
    </media:community>
   </media:group>
  </entry>
@@ -142,8 +165,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/3IuZD1ddSVY/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2079" average="5.00" min="1" max="5"/>
-    <media:statistics views="63544"/>
+    <media:starRating count="2114" average="5.00" min="1" max="5"/>
+    <media:statistics views="64947"/>
    </media:community>
   </media:group>
  </entry>
@@ -165,8 +188,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/UPtzL13BLOA/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2009" average="5.00" min="1" max="5"/>
-    <media:statistics views="84221"/>
+    <media:starRating count="2029" average="5.00" min="1" max="5"/>
+    <media:statistics views="85738"/>
    </media:community>
   </media:group>
  </entry>
@@ -181,15 +204,15 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-03-22T20:13:38+00:00</published>
-  <updated>2024-03-25T05:56:40+00:00</updated>
+  <updated>2024-04-08T23:07:30+00:00</updated>
   <media:group>
    <media:title>TYLA the album is out now! tag @Tylaofficial in your ART challenge Shorts 🐅💕 #FreshOutTheGallery</media:title>
    <media:content url="https://www.youtube.com/v/6N2yO7DPHAs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i3.ytimg.com/vi/6N2yO7DPHAs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2795" average="5.00" min="1" max="5"/>
-    <media:statistics views="93809"/>
+    <media:starRating count="2823" average="5.00" min="1" max="5"/>
+    <media:statistics views="95143"/>
    </media:community>
   </media:group>
  </entry>
@@ -239,8 +262,8 @@ Danganronpa: Trigger Happy Havoc: https://www.youtube.com/watch?v=KGBF6a6sxe4&am
 Polygon Article:
 Anime is huge — and we finally have numbers to prove it: https://www.polygon.com/c/2024/1/22/24034466/anime-is-huge-and-we-finally-have-numbers-to-prove-it</media:description>
    <media:community>
-    <media:starRating count="5774" average="5.00" min="1" max="5"/>
-    <media:statistics views="787769"/>
+    <media:starRating count="5850" average="5.00" min="1" max="5"/>
+    <media:statistics views="841966"/>
    </media:community>
   </media:group>
  </entry>
@@ -262,8 +285,8 @@ Anime is huge — and we finally have numbers to prove it: https://www.polygon.c
    <media:thumbnail url="https://i2.ytimg.com/vi/5YEcGXpuxHA/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2403" average="5.00" min="1" max="5"/>
-    <media:statistics views="73671"/>
+    <media:starRating count="2421" average="5.00" min="1" max="5"/>
+    <media:statistics views="74704"/>
    </media:community>
   </media:group>
  </entry>
@@ -285,8 +308,8 @@ Anime is huge — and we finally have numbers to prove it: https://www.polygon.c
    <media:thumbnail url="https://i2.ytimg.com/vi/Yx-y_3AZj4s/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="15636" average="5.00" min="1" max="5"/>
-    <media:statistics views="229206"/>
+    <media:starRating count="15655" average="5.00" min="1" max="5"/>
+    <media:statistics views="230522"/>
    </media:community>
   </media:group>
  </entry>
@@ -310,8 +333,8 @@ Anime is huge — and we finally have numbers to prove it: https://www.polygon.c
 
 celebrando los logros del #BillionViewsClub de @KarolG escuchando Contigo una y otra vez 🔊 #KarolGContigo</media:description>
    <media:community>
-    <media:starRating count="2256" average="5.00" min="1" max="5"/>
-    <media:statistics views="97182"/>
+    <media:starRating count="2273" average="5.00" min="1" max="5"/>
+    <media:statistics views="97861"/>
    </media:community>
   </media:group>
  </entry>
@@ -326,15 +349,15 @@ celebrando los logros del #BillionViewsClub de @KarolG escuchando Contigo una y 
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-03-12T18:00:26+00:00</published>
-  <updated>2024-03-21T00:51:09+00:00</updated>
+  <updated>2024-04-08T07:57:37+00:00</updated>
   <media:group>
    <media:title>if we had an extra arm, we’d give it three thumbs up #themooneybros #thumbwrestling #comedy</media:title>
    <media:content url="https://www.youtube.com/v/QlkJiCxrHko?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i2.ytimg.com/vi/QlkJiCxrHko/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2210" average="5.00" min="1" max="5"/>
-    <media:statistics views="67877"/>
+    <media:starRating count="2222" average="5.00" min="1" max="5"/>
+    <media:statistics views="68534"/>
    </media:community>
   </media:group>
  </entry>
@@ -358,31 +381,8 @@ celebrando los logros del #BillionViewsClub de @KarolG escuchando Contigo una y 
 
 sí, voy a celebrar la canción Contigo de @KarolG &amp; @tiesto comiéndome un pastel entero de @TuCrazyCakes 🎂 #KarolGContigo</media:description>
    <media:community>
-    <media:starRating count="3996" average="5.00" min="1" max="5"/>
-    <media:statistics views="138351"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:z_1eMyD_D74</id>
-  <yt:videoId>z_1eMyD_D74</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>i didn’t have the heart to tell him it wasn’t 12 seconds #staringcontest #karl</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=z_1eMyD_D74"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2024-03-08T18:00:12+00:00</published>
-  <updated>2024-03-28T09:21:32+00:00</updated>
-  <media:group>
-   <media:title>i didn’t have the heart to tell him it wasn’t 12 seconds #staringcontest #karl</media:title>
-   <media:content url="https://www.youtube.com/v/z_1eMyD_D74?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/z_1eMyD_D74/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="9135" average="5.00" min="1" max="5"/>
-    <media:statistics views="242950"/>
+    <media:starRating count="4013" average="5.00" min="1" max="5"/>
+    <media:statistics views="139610"/>
    </media:community>
   </media:group>
  </entry>
