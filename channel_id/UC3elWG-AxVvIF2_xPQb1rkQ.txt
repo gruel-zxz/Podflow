@@ -11,6 +11,60 @@
  </author>
  <published>2022-06-04T16:17:27+00:00</published>
  <entry>
+  <id>yt:video:ExndQ1xmbw4</id>
+  <yt:videoId>ExndQ1xmbw4</yt:videoId>
+  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
+  <title>烧烤季要到了，男人一眼就知道哪个摊好吃？四季妈妈幽默吐槽 #爱吐槽的四季妈妈 #家庭吐槽大会</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=ExndQ1xmbw4"/>
+  <author>
+   <name>四季妈妈—小龙</name>
+   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
+  </author>
+  <published>2024-04-11T10:20:45+00:00</published>
+  <updated>2024-04-12T06:13:06+00:00</updated>
+  <media:group>
+   <media:title>烧烤季要到了，男人一眼就知道哪个摊好吃？四季妈妈幽默吐槽 #爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
+   <media:content url="https://www.youtube.com/v/ExndQ1xmbw4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/ExndQ1xmbw4/hqdefault.jpg" width="480" height="360"/>
+   <media:description>大家好，欢迎来到我的频道！随着烧烤季的到来，男人们似乎总能一眼就知道哪个摊位的烧烤最好吃！在这期视频中，四季妈妈将带你一起探讨男人独特的烧烤直觉。
+
+在烧烤季即将到来之际，男人们似乎总能以一种神秘的方式辨别出哪个摊位的烧烤最美味。是直觉？还是经验？让我们一起来幽默吐槽一下这个有趣的现象吧！
+
+别忘了点赞、订阅，并在评论区分享你对男人独特烧烤直觉的看法和自己的烧烤经历。期待和大家一起分享更多有趣的家庭吐槽！#烧烤季 #男人的直觉 #幽默吐槽</media:description>
+   <media:community>
+    <media:starRating count="9" average="5.00" min="1" max="5"/>
+    <media:statistics views="231"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:XOzcqgaKOgw</id>
+  <yt:videoId>XOzcqgaKOgw</yt:videoId>
+  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
+  <title>怎么快速在男女沟通中建立自信的小妙招#爱吐槽的四季妈妈 #家庭吐槽大会</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=XOzcqgaKOgw"/>
+  <author>
+   <name>四季妈妈—小龙</name>
+   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
+  </author>
+  <published>2024-04-09T08:13:48+00:00</published>
+  <updated>2024-04-11T22:45:47+00:00</updated>
+  <media:group>
+   <media:title>怎么快速在男女沟通中建立自信的小妙招#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
+   <media:content url="https://www.youtube.com/v/XOzcqgaKOgw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/XOzcqgaKOgw/hqdefault.jpg" width="480" height="360"/>
+   <media:description>大家好，欢迎来到我的频道！今天，我要和大家分享一些在男女沟通中建立自信的小妙招！四季妈妈爱吐槽，带你一起探索家庭生活中的趣事。
+
+在这期视频中，我将分享一些简单易行的技巧，帮助你在男女沟通中更加自信。无论是面对陌生人还是与伴侣交流，自信都是吸引人的关键。让我们一起来学习这些有趣的小妙招吧！
+
+别忘了点赞、订阅，并在评论区分享你对建立自信的看法和自己的沟通经历。期待和大家一起分享更多有趣的家庭吐槽！#建立自信 #男女沟通 #幽默分享</media:description>
+   <media:community>
+    <media:starRating count="4" average="5.00" min="1" max="5"/>
+    <media:statistics views="217"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:lHSmzQaCRF4</id>
   <yt:videoId>lHSmzQaCRF4</yt:videoId>
   <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
@@ -33,7 +87,7 @@
 别忘了点赞、订阅，并在评论区分享你对东北人的看法和自己的趣事经历。期待和大家一起分享更多有趣的家庭吐槽！#东北人 #家庭趣事 #幽默观察</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="334"/>
+    <media:statistics views="389"/>
    </media:community>
   </media:group>
  </entry>
@@ -48,7 +102,7 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-04-04T11:03:54+00:00</published>
-  <updated>2024-04-06T11:02:16+00:00</updated>
+  <updated>2024-04-12T14:20:52+00:00</updated>
   <media:group>
    <media:title>北方烧烤是一串塞不下，南方烧烤是两串都塞牙啊#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
    <media:content url="https://www.youtube.com/v/mtwBje_ogyg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -60,7 +114,7 @@
 别忘了点赞、订阅，并在评论区分享你对北方与南方烧烤的看法和自己的烧烤经历。期待和大家一起分享更多有趣的家庭吐槽！#北方烧烤 #南方烧烤 #家庭趣事 #幽默观察</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="382"/>
+    <media:statistics views="397"/>
    </media:community>
   </media:group>
  </entry>
@@ -86,8 +140,8 @@
 
 别忘了点赞、订阅，并在评论区分享你对男人超能力的看法和自己的趣事经历。期待和大家一起分享更多有趣的家庭吐槽！#男人超能力 #家庭趣事 #幽默观察</media:description>
    <media:community>
-    <media:starRating count="48" average="5.00" min="1" max="5"/>
-    <media:statistics views="4129"/>
+    <media:starRating count="59" average="5.00" min="1" max="5"/>
+    <media:statistics views="5151"/>
    </media:community>
   </media:group>
  </entry>
@@ -114,7 +168,7 @@
 别忘了点赞、订阅，并在评论区分享你对婚后生活的看法和自己的趣事经历。期待和大家一起分享更多有趣的家庭吐槽！#婚后生活 #工资上缴 #家庭趣事</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="260"/>
+    <media:statistics views="278"/>
    </media:community>
   </media:group>
  </entry>
@@ -141,7 +195,7 @@
 别忘了点赞、订阅，并在评论区分享你对钓鱼佬心性之坚定的看法和自己的钓鱼经历。期待和大家一起分享更多有趣的家庭吐槽！#钓鱼佬 #心性之坚定 #家庭趣事</media:description>
    <media:community>
     <media:starRating count="10" average="5.00" min="1" max="5"/>
-    <media:statistics views="259"/>
+    <media:statistics views="266"/>
    </media:community>
   </media:group>
  </entry>
@@ -168,7 +222,7 @@
 别忘了点赞、订阅，并在评论区分享你对北方洗浴的看法和自己的趣事经历。期待和大家一起分享更多家庭洗浴的趣事！#洗浴趣事 #奇葩项目 #幽默观察</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="449"/>
+    <media:statistics views="453"/>
    </media:community>
   </media:group>
  </entry>
@@ -195,7 +249,7 @@
 别忘了点赞、订阅，并在评论区分享你对洗浴经验的看法和自己的趣事。让我们一起来欣赏洗浴场所中的各种趣事吧！#洗浴技巧 #幽默观察 #新手与浴皇</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="194"/>
+    <media:statistics views="200"/>
    </media:community>
   </media:group>
  </entry>
@@ -222,7 +276,7 @@
 别忘了点赞、订阅，并在评论区分享你对相亲的看法和自己的奇遇经历。让我们一起来笑对相亲的种种趣事吧！#相亲趣事 #穿越奇遇 #幽默观察</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="221"/>
+    <media:statistics views="225"/>
    </media:community>
   </media:group>
  </entry>
@@ -248,8 +302,8 @@
 
 别忘了点赞、订阅，并在评论区分享你对这些小众用法的看法和自己的奇葩经历。让我们一起来欣赏家庭生活中的不可思议之处吧！#家庭生活 #趣事经历 #幽默观察</media:description>
    <media:community>
-    <media:starRating count="67" average="5.00" min="1" max="5"/>
-    <media:statistics views="4418"/>
+    <media:starRating count="73" average="5.00" min="1" max="5"/>
+    <media:statistics views="4822"/>
    </media:community>
   </media:group>
  </entry>
@@ -276,7 +330,7 @@
 别忘了点赞、订阅，并在评论区分享你对男人必备三件套的看法和自己的趣事经历。让我们一起来享受家庭生活中的乐趣吧！#家庭生活 #趣事经历 #幽默观察</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="250"/>
+    <media:statistics views="255"/>
    </media:community>
   </media:group>
  </entry>
@@ -303,7 +357,7 @@
 别忘了点赞、订阅，并在评论区分享你对家庭生活的看法和自己的趣事经历。让我们一起来共享家庭吐槽的乐趣吧！#家庭生活 #趣事经历 #幽默观察</media:description>
    <media:community>
     <media:starRating count="15" average="5.00" min="1" max="5"/>
-    <media:statistics views="1318"/>
+    <media:statistics views="1322"/>
    </media:community>
   </media:group>
  </entry>
@@ -330,7 +384,7 @@
 别忘了点赞、订阅，并在评论区分享你对丈夫寄存处的看法和自己的观察。让我们一起来笑谈商场购物的趣事吧！#商场购物 #丈夫寄存处 #幽默观察</media:description>
    <media:community>
     <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="838"/>
+    <media:statistics views="840"/>
    </media:community>
   </media:group>
  </entry>
@@ -357,57 +411,7 @@
 别忘了点赞、订阅，并在评论区分享你对钓鱼的看法和自己的钓鱼经历。让我们一起来探讨这个有趣的娱乐活动吧！#钓鱼初体验 #钓鱼高手 #幽默观察</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="236"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:UdVn7efEVjk</id>
-  <yt:videoId>UdVn7efEVjk</yt:videoId>
-  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
-  <title>男人的没事儿什么时候才是有事？#爱吐槽的四季妈妈 #家庭吐槽大会</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=UdVn7efEVjk"/>
-  <author>
-   <name>四季妈妈—小龙</name>
-   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
-  </author>
-  <published>2024-03-12T13:15:33+00:00</published>
-  <updated>2024-03-15T06:39:52+00:00</updated>
-  <media:group>
-   <media:title>男人的没事儿什么时候才是有事？#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
-   <media:content url="https://www.youtube.com/v/UdVn7efEVjk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/UdVn7efEVjk/hqdefault.jpg" width="480" height="360"/>
-   <media:description>男人的没事儿什么时候才是有事？#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
-   <media:community>
-    <media:starRating count="11" average="5.00" min="1" max="5"/>
-    <media:statistics views="302"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:HRqse3S-a_o</id>
-  <yt:videoId>HRqse3S-a_o</yt:videoId>
-  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
-  <title>果然，男人下班后都喜欢去这些地方，是有原因的#爱吐槽的四季妈妈 #家庭吐槽大会</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=HRqse3S-a_o"/>
-  <author>
-   <name>四季妈妈—小龙</name>
-   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
-  </author>
-  <published>2024-03-09T07:43:57+00:00</published>
-  <updated>2024-03-12T19:52:28+00:00</updated>
-  <media:group>
-   <media:title>果然，男人下班后都喜欢去这些地方，是有原因的#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
-   <media:content url="https://www.youtube.com/v/HRqse3S-a_o?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i1.ytimg.com/vi/HRqse3S-a_o/hqdefault.jpg" width="480" height="360"/>
-   <media:description>大家好，欢迎来到我的频道！今天我们要讨论的是男人下班后喜欢去的那些地方，其背后的原因绝非偶然！四季妈妈爱吐槽，带你一起揭秘男人下班后的必去地点。
-
-在这期视频中，我将分享一些男人常去的地方，以及背后的原因和逻辑。从酒吧到体育场馆，再到美食街，这些地方不仅仅是为了消遣放松，更多时候是为了寻求某种满足或解压。让我们一起来看看这些地方的真实内涵！
-
-别忘了点赞、订阅，并在评论区分享你对男人下班后“必去地点”的看法和自己的观察。让我们一起来探讨这个有趣的话题吧！#男人生活 #消遣去处 #幽默观察</media:description>
-   <media:community>
-    <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="198"/>
+    <media:statistics views="241"/>
    </media:community>
   </media:group>
  </entry>
