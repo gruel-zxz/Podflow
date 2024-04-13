@@ -255,8 +255,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="30931" average="5.00" min="1" max="5"/>
-    <media:statistics views="1465668"/>
+    <media:starRating count="31371" average="5.00" min="1" max="5"/>
+    <media:statistics views="1494780"/>
    </media:community>
   </media:group>
  </entry>
@@ -505,8 +505,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="56116" average="5.00" min="1" max="5"/>
-    <media:statistics views="2689376"/>
+    <media:starRating count="56151" average="5.00" min="1" max="5"/>
+    <media:statistics views="2692383"/>
    </media:community>
   </media:group>
  </entry>
@@ -755,8 +755,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="44520" average="5.00" min="1" max="5"/>
-    <media:statistics views="2581117"/>
+    <media:starRating count="44540" average="5.00" min="1" max="5"/>
+    <media:statistics views="2583049"/>
    </media:community>
   </media:group>
  </entry>
@@ -1005,8 +1005,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="68003" average="5.00" min="1" max="5"/>
-    <media:statistics views="2911481"/>
+    <media:starRating count="68027" average="5.00" min="1" max="5"/>
+    <media:statistics views="2913029"/>
    </media:community>
   </media:group>
  </entry>
@@ -1014,16 +1014,16 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
   <id>yt:video:kppn__POdp4</id>
   <yt:videoId>kppn__POdp4</yt:videoId>
   <yt:channelId>UCMUnInmOkrWN4gof9KlhNmQ</yt:channelId>
-  <title>地震和門的故事，鈴芽之旅 | 老高與小茉 Mr &amp; Mrs Gao</title>
+  <title>地震之門，鈴芽之旅 | 老高與小茉 Mr &amp; Mrs Gao</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=kppn__POdp4"/>
   <author>
    <name>老高與小茉 Mr &amp; Mrs Gao</name>
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
   <published>2024-03-06T13:30:10+00:00</published>
-  <updated>2024-04-11T12:15:34+00:00</updated>
+  <updated>2024-04-13T06:28:29+00:00</updated>
   <media:group>
-   <media:title>地震和門的故事，鈴芽之旅 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
+   <media:title>地震之門，鈴芽之旅 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/kppn__POdp4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i4.ytimg.com/vi/kppn__POdp4/hqdefault.jpg" width="480" height="360"/>
    <media:description>【加入會員按鈕】https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ/join
@@ -1255,8 +1255,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="45351" average="5.00" min="1" max="5"/>
-    <media:statistics views="2313503"/>
+    <media:starRating count="45359" average="5.00" min="1" max="5"/>
+    <media:statistics views="2314098"/>
    </media:community>
   </media:group>
  </entry>
@@ -1505,8 +1505,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="52804" average="5.00" min="1" max="5"/>
-    <media:statistics views="2687403"/>
+    <media:starRating count="52819" average="5.00" min="1" max="5"/>
+    <media:statistics views="2688042"/>
    </media:community>
   </media:group>
  </entry>
@@ -1755,8 +1755,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="47550" average="5.00" min="1" max="5"/>
-    <media:statistics views="2502420"/>
+    <media:starRating count="47553" average="5.00" min="1" max="5"/>
+    <media:statistics views="2503095"/>
    </media:community>
   </media:group>
  </entry>
@@ -1764,16 +1764,16 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
   <id>yt:video:0Nbpnhqijj4</id>
   <yt:videoId>0Nbpnhqijj4</yt:videoId>
   <yt:channelId>UCMUnInmOkrWN4gof9KlhNmQ</yt:channelId>
-  <title>千萬不要坐，坐下毀一生 | 老高與小茉 Mr &amp; Mrs Gao</title>
+  <title>千萬別久坐，久坐毀一生 | 老高與小茉 Mr &amp; Mrs Gao</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=0Nbpnhqijj4"/>
   <author>
    <name>老高與小茉 Mr &amp; Mrs Gao</name>
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
   <published>2024-02-14T13:00:02+00:00</published>
-  <updated>2024-04-06T16:35:17+00:00</updated>
+  <updated>2024-04-13T06:28:03+00:00</updated>
   <media:group>
-   <media:title>千萬不要坐，坐下毀一生 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
+   <media:title>千萬別久坐，久坐毀一生 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/0Nbpnhqijj4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i1.ytimg.com/vi/0Nbpnhqijj4/hqdefault.jpg" width="480" height="360"/>
    <media:description>【加入會員按鈕】https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ/join
@@ -2005,8 +2005,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="41737" average="5.00" min="1" max="5"/>
-    <media:statistics views="2259542"/>
+    <media:starRating count="41742" average="5.00" min="1" max="5"/>
+    <media:statistics views="2259875"/>
    </media:community>
   </media:group>
  </entry>
@@ -2255,8 +2255,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="53239" average="5.00" min="1" max="5"/>
-    <media:statistics views="2640058"/>
+    <media:starRating count="53245" average="5.00" min="1" max="5"/>
+    <media:statistics views="2640570"/>
    </media:community>
   </media:group>
  </entry>
@@ -2505,8 +2505,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="54868" average="5.00" min="1" max="5"/>
-    <media:statistics views="2838735"/>
+    <media:starRating count="54871" average="5.00" min="1" max="5"/>
+    <media:statistics views="2839180"/>
    </media:community>
   </media:group>
  </entry>
@@ -2755,8 +2755,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="59045" average="5.00" min="1" max="5"/>
-    <media:statistics views="3595093"/>
+    <media:starRating count="59051" average="5.00" min="1" max="5"/>
+    <media:statistics views="3596020"/>
    </media:community>
   </media:group>
  </entry>
@@ -3005,8 +3005,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="75177" average="5.00" min="1" max="5"/>
-    <media:statistics views="3104418"/>
+    <media:starRating count="75184" average="5.00" min="1" max="5"/>
+    <media:statistics views="3104850"/>
    </media:community>
   </media:group>
  </entry>
@@ -3255,8 +3255,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="49370" average="5.00" min="1" max="5"/>
-    <media:statistics views="2981072"/>
+    <media:starRating count="49380" average="5.00" min="1" max="5"/>
+    <media:statistics views="2982284"/>
    </media:community>
   </media:group>
  </entry>
@@ -3505,8 +3505,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="79719" average="5.00" min="1" max="5"/>
-    <media:statistics views="4080015"/>
+    <media:starRating count="79734" average="5.00" min="1" max="5"/>
+    <media:statistics views="4081794"/>
    </media:community>
   </media:group>
  </entry>
@@ -3755,8 +3755,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="52814" average="5.00" min="1" max="5"/>
-    <media:statistics views="3044950"/>
+    <media:starRating count="52819" average="5.00" min="1" max="5"/>
+    <media:statistics views="3045744"/>
    </media:community>
   </media:group>
  </entry>

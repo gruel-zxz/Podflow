@@ -27,8 +27,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/cqhALBcg4WI/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="601" average="5.00" min="1" max="5"/>
-    <media:statistics views="10067"/>
+    <media:starRating count="690" average="5.00" min="1" max="5"/>
+    <media:statistics views="12696"/>
    </media:community>
   </media:group>
  </entry>
@@ -50,8 +50,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/ftXP3CUVnL4/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="943" average="5.00" min="1" max="5"/>
-    <media:statistics views="20796"/>
+    <media:starRating count="959" average="5.00" min="1" max="5"/>
+    <media:statistics views="21671"/>
    </media:community>
   </media:group>
  </entry>
@@ -73,8 +73,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/vTSRRg6YJ-4/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1300" average="5.00" min="1" max="5"/>
-    <media:statistics views="40396"/>
+    <media:starRating count="1311" average="5.00" min="1" max="5"/>
+    <media:statistics views="40919"/>
    </media:community>
   </media:group>
  </entry>
@@ -89,15 +89,15 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-04-08T14:30:15+00:00</published>
-  <updated>2024-04-11T16:58:49+00:00</updated>
+  <updated>2024-04-13T04:38:46+00:00</updated>
   <media:group>
    <media:title>the pressure washing community understands the art of a big reveal</media:title>
    <media:content url="https://www.youtube.com/v/zyoCmgQoYs0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i3.ytimg.com/vi/zyoCmgQoYs0/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="9127" average="5.00" min="1" max="5"/>
-    <media:statistics views="187517"/>
+    <media:starRating count="9139" average="5.00" min="1" max="5"/>
+    <media:statistics views="188400"/>
    </media:community>
   </media:group>
  </entry>
@@ -119,8 +119,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/BVdnpR_BaWk/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1834" average="5.00" min="1" max="5"/>
-    <media:statistics views="56372"/>
+    <media:starRating count="1840" average="5.00" min="1" max="5"/>
+    <media:statistics views="56739"/>
    </media:community>
   </media:group>
  </entry>
@@ -142,8 +142,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/nQccoTTe7Bc/hqdefault.jpg" width="480" height="360"/>
    <media:description>join @CrissaJackson, @MattSDance, @ReginaEigbe, &amp; @jaymondy. on Shorts to show the world you can dance like @Tylaofficial 🪩 #FreshOutTheGallery</media:description>
    <media:community>
-    <media:starRating count="1834" average="5.00" min="1" max="5"/>
-    <media:statistics views="73238"/>
+    <media:starRating count="1841" average="5.00" min="1" max="5"/>
+    <media:statistics views="73635"/>
    </media:community>
   </media:group>
  </entry>
@@ -165,8 +165,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/9hvWBP1q0GI/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2451" average="5.00" min="1" max="5"/>
-    <media:statistics views="75204"/>
+    <media:starRating count="2454" average="5.00" min="1" max="5"/>
+    <media:statistics views="75511"/>
    </media:community>
   </media:group>
  </entry>
@@ -188,8 +188,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/DnfaW7KaGws/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1615" average="5.00" min="1" max="5"/>
-    <media:statistics views="47780"/>
+    <media:starRating count="1619" average="5.00" min="1" max="5"/>
+    <media:statistics views="47940"/>
    </media:community>
   </media:group>
  </entry>
@@ -211,8 +211,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/ZjqHACGf0cY/hqdefault.jpg" width="480" height="360"/>
    <media:description>watching @ricollinart_official2119 paint @Tylaofficial counts as meditation 🌀 #FreshOutTheGallery</media:description>
    <media:community>
-    <media:starRating count="2079" average="5.00" min="1" max="5"/>
-    <media:statistics views="67654"/>
+    <media:starRating count="2085" average="5.00" min="1" max="5"/>
+    <media:statistics views="67927"/>
    </media:community>
   </media:group>
  </entry>
@@ -234,8 +234,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/3IuZD1ddSVY/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2253" average="5.00" min="1" max="5"/>
-    <media:statistics views="72261"/>
+    <media:starRating count="2257" average="5.00" min="1" max="5"/>
+    <media:statistics views="72484"/>
    </media:community>
   </media:group>
  </entry>
@@ -257,8 +257,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/UPtzL13BLOA/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2126" average="5.00" min="1" max="5"/>
-    <media:statistics views="93465"/>
+    <media:starRating count="2130" average="5.00" min="1" max="5"/>
+    <media:statistics views="93679"/>
    </media:community>
   </media:group>
  </entry>
@@ -280,8 +280,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/6N2yO7DPHAs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2927" average="5.00" min="1" max="5"/>
-    <media:statistics views="101956"/>
+    <media:starRating count="2929" average="5.00" min="1" max="5"/>
+    <media:statistics views="102150"/>
    </media:community>
   </media:group>
  </entry>
@@ -331,8 +331,8 @@ Danganronpa: Trigger Happy Havoc: https://www.youtube.com/watch?v=KGBF6a6sxe4&am
 Polygon Article:
 Anime is huge — and we finally have numbers to prove it: https://www.polygon.com/c/2024/1/22/24034466/anime-is-huge-and-we-finally-have-numbers-to-prove-it</media:description>
    <media:community>
-    <media:starRating count="6203" average="5.00" min="1" max="5"/>
-    <media:statistics views="1068960"/>
+    <media:starRating count="6218" average="5.00" min="1" max="5"/>
+    <media:statistics views="1083554"/>
    </media:community>
   </media:group>
  </entry>
@@ -354,8 +354,8 @@ Anime is huge — and we finally have numbers to prove it: https://www.polygon.c
    <media:thumbnail url="https://i2.ytimg.com/vi/5YEcGXpuxHA/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2495" average="5.00" min="1" max="5"/>
-    <media:statistics views="79811"/>
+    <media:starRating count="2496" average="5.00" min="1" max="5"/>
+    <media:statistics views="79961"/>
    </media:community>
   </media:group>
  </entry>
@@ -377,8 +377,8 @@ Anime is huge — and we finally have numbers to prove it: https://www.polygon.c
    <media:thumbnail url="https://i2.ytimg.com/vi/Yx-y_3AZj4s/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="15747" average="5.00" min="1" max="5"/>
-    <media:statistics views="237397"/>
+    <media:starRating count="15749" average="5.00" min="1" max="5"/>
+    <media:statistics views="237607"/>
    </media:community>
   </media:group>
  </entry>
