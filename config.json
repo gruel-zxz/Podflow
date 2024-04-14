@@ -13,7 +13,8 @@
         "stone记":{
             "update_size": 25,
             "id": "UCghLs6s95LrBWOdlZUCH4qw1",
-            "last_size": 100
+            "last_size": 75,
+            "BackwardUpdate": true
         },
         "四季妈妈—小龙": {
             "update_size": 3,
@@ -38,7 +39,11 @@
             "media": "m4a",
             "InmainRSS": false
         },
-        "测试": "UCXWy8yrS4WKhzbp36lW2141"
+        "测试": "UCXWy8yrS4WKhzbp36lW2141",
+        "王竹子的SM教学频道": {
+            "id": "UC-hTwjkGlNB5vyR6qccXr7A",
+            "update_size": 2
+        }
     },
     "retry_count": 2,
     "link": "m.youtube.com",
