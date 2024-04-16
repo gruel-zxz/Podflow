@@ -11,6 +11,33 @@
  </author>
  <published>2022-06-04T16:17:27+00:00</published>
  <entry>
+  <id>yt:video:b32uh27KBXQ</id>
+  <yt:videoId>b32uh27KBXQ</yt:videoId>
+  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
+  <title>今年夏天怎么也得去趟山东吧？四季妈妈带你爆笑游山东 #爱吐槽的四季妈妈 #家庭吐槽大会</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=b32uh27KBXQ"/>
+  <author>
+   <name>四季妈妈—小龙</name>
+   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
+  </author>
+  <published>2024-04-15T08:21:06+00:00</published>
+  <updated>2024-04-16T06:26:02+00:00</updated>
+  <media:group>
+   <media:title>今年夏天怎么也得去趟山东吧？四季妈妈带你爆笑游山东 #爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
+   <media:content url="https://www.youtube.com/v/b32uh27KBXQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/b32uh27KBXQ/hqdefault.jpg" width="480" height="360"/>
+   <media:description>大家好，欢迎来到我的频道！在这期视频中，四季妈妈要和大家一起探讨今年夏天为什么一定要去趟山东。
+
+山东以其丰富的历史文化和美味的特色美食而闻名于世，夏天更是一个探索山东之美的绝佳时机！无论是登泰山赏日出，还是游泳沙滩享海风，抑或是品尝山东大菜、鲁菜等各色美食，都是让人心驰神往的旅行体验。
+
+别忘了点赞、订阅，并在评论区分享你对山东之旅的期待和自己的旅行计划。期待和大家一起分享更多有趣的家庭吐槽！#山东之旅 #夏日游山东 #家庭旅行 #幽默探索</media:description>
+   <media:community>
+    <media:starRating count="5" average="5.00" min="1" max="5"/>
+    <media:statistics views="121"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:ae-wEDCBwrk</id>
   <yt:videoId>ae-wEDCBwrk</yt:videoId>
   <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
@@ -21,7 +48,7 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-04-13T07:18:59+00:00</published>
-  <updated>2024-04-14T01:17:54+00:00</updated>
+  <updated>2024-04-15T04:37:31+00:00</updated>
   <media:group>
    <media:title>结婚前后，老公对待老婆睡衣的态度差别究竟有多大？四季妈妈揭秘</media:title>
    <media:content url="https://www.youtube.com/v/ae-wEDCBwrk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -32,8 +59,8 @@
 
 别忘了点赞、订阅，并在评论区分享你对老公对待老婆睡衣的看法和自己的经历。期待和大家一起分享更多有趣的家庭吐槽！#老公 #老婆睡衣 #家庭生活 #幽默揭秘</media:description>
    <media:community>
-    <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="226"/>
+    <media:starRating count="7" average="5.00" min="1" max="5"/>
+    <media:statistics views="580"/>
    </media:community>
   </media:group>
  </entry>
@@ -60,7 +87,7 @@
 别忘了点赞、订阅，并在评论区分享你对男人独特烧烤直觉的看法和自己的烧烤经历。期待和大家一起分享更多有趣的家庭吐槽！#烧烤季 #男人的直觉 #幽默吐槽</media:description>
    <media:community>
     <media:starRating count="9" average="5.00" min="1" max="5"/>
-    <media:statistics views="260"/>
+    <media:statistics views="304"/>
    </media:community>
   </media:group>
  </entry>
@@ -86,8 +113,8 @@
 
 别忘了点赞、订阅，并在评论区分享你对建立自信的看法和自己的沟通经历。期待和大家一起分享更多有趣的家庭吐槽！#建立自信 #男女沟通 #幽默分享</media:description>
    <media:community>
-    <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="229"/>
+    <media:starRating count="5" average="5.00" min="1" max="5"/>
+    <media:statistics views="260"/>
    </media:community>
   </media:group>
  </entry>
@@ -114,7 +141,7 @@
 别忘了点赞、订阅，并在评论区分享你对东北人的看法和自己的趣事经历。期待和大家一起分享更多有趣的家庭吐槽！#东北人 #家庭趣事 #幽默观察</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="394"/>
+    <media:statistics views="408"/>
    </media:community>
   </media:group>
  </entry>
@@ -141,7 +168,7 @@
 别忘了点赞、订阅，并在评论区分享你对北方与南方烧烤的看法和自己的烧烤经历。期待和大家一起分享更多有趣的家庭吐槽！#北方烧烤 #南方烧烤 #家庭趣事 #幽默观察</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="400"/>
+    <media:statistics views="408"/>
    </media:community>
   </media:group>
  </entry>
@@ -168,7 +195,7 @@
 别忘了点赞、订阅，并在评论区分享你对男人超能力的看法和自己的趣事经历。期待和大家一起分享更多有趣的家庭吐槽！#男人超能力 #家庭趣事 #幽默观察</media:description>
    <media:community>
     <media:starRating count="61" average="5.00" min="1" max="5"/>
-    <media:statistics views="5197"/>
+    <media:statistics views="5256"/>
    </media:community>
   </media:group>
  </entry>
@@ -195,7 +222,7 @@
 别忘了点赞、订阅，并在评论区分享你对婚后生活的看法和自己的趣事经历。期待和大家一起分享更多有趣的家庭吐槽！#婚后生活 #工资上缴 #家庭趣事</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="282"/>
+    <media:statistics views="284"/>
    </media:community>
   </media:group>
  </entry>
@@ -249,7 +276,7 @@
 别忘了点赞、订阅，并在评论区分享你对北方洗浴的看法和自己的趣事经历。期待和大家一起分享更多家庭洗浴的趣事！#洗浴趣事 #奇葩项目 #幽默观察</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="455"/>
+    <media:statistics views="456"/>
    </media:community>
   </media:group>
  </entry>
@@ -276,7 +303,7 @@
 别忘了点赞、订阅，并在评论区分享你对洗浴经验的看法和自己的趣事。让我们一起来欣赏洗浴场所中的各种趣事吧！#洗浴技巧 #幽默观察 #新手与浴皇</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="201"/>
+    <media:statistics views="203"/>
    </media:community>
   </media:group>
  </entry>
@@ -303,7 +330,7 @@
 别忘了点赞、订阅，并在评论区分享你对相亲的看法和自己的奇遇经历。让我们一起来笑对相亲的种种趣事吧！#相亲趣事 #穿越奇遇 #幽默观察</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="226"/>
+    <media:statistics views="229"/>
    </media:community>
   </media:group>
  </entry>
@@ -330,7 +357,7 @@
 别忘了点赞、订阅，并在评论区分享你对这些小众用法的看法和自己的奇葩经历。让我们一起来欣赏家庭生活中的不可思议之处吧！#家庭生活 #趣事经历 #幽默观察</media:description>
    <media:community>
     <media:starRating count="73" average="5.00" min="1" max="5"/>
-    <media:statistics views="4860"/>
+    <media:statistics views="4934"/>
    </media:community>
   </media:group>
  </entry>
@@ -357,7 +384,7 @@
 别忘了点赞、订阅，并在评论区分享你对男人必备三件套的看法和自己的趣事经历。让我们一起来享受家庭生活中的乐趣吧！#家庭生活 #趣事经历 #幽默观察</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="258"/>
+    <media:statistics views="264"/>
    </media:community>
   </media:group>
  </entry>
@@ -384,34 +411,7 @@
 别忘了点赞、订阅，并在评论区分享你对家庭生活的看法和自己的趣事经历。让我们一起来共享家庭吐槽的乐趣吧！#家庭生活 #趣事经历 #幽默观察</media:description>
    <media:community>
     <media:starRating count="15" average="5.00" min="1" max="5"/>
-    <media:statistics views="1324"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:5OYi6KlMt8Y</id>
-  <yt:videoId>5OYi6KlMt8Y</yt:videoId>
-  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
-  <title>你是不是和我老公一样，进商场就直奔 #丈夫寄存处 #爱吐槽的四季妈妈 #家庭吐槽大会</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=5OYi6KlMt8Y"/>
-  <author>
-   <name>四季妈妈—小龙</name>
-   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
-  </author>
-  <published>2024-03-17T10:22:05+00:00</published>
-  <updated>2024-03-20T04:53:54+00:00</updated>
-  <media:group>
-   <media:title>你是不是和我老公一样，进商场就直奔 #丈夫寄存处 #爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
-   <media:content url="https://www.youtube.com/v/5OYi6KlMt8Y?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/5OYi6KlMt8Y/hqdefault.jpg" width="480" height="360"/>
-   <media:description>大家好，欢迎来到我的频道！今天我们要探讨的是进入商场后，丈夫们都会直奔的那个地方——丈夫寄存处！四季妈妈爱吐槽，带你一起揭秘商场内的这个神秘地点。
-
-在这期视频中，我将分享一些商场中丈夫们最爱去的地方，以及背后的原因和有趣的吐槽。无论是休息椅、儿童游乐区还是电子产品专区，丈夫们总是有着自己的偏好和行为习惯。让我们一起来探索这个有趣的话题！
-
-别忘了点赞、订阅，并在评论区分享你对丈夫寄存处的看法和自己的观察。让我们一起来笑谈商场购物的趣事吧！#商场购物 #丈夫寄存处 #幽默观察</media:description>
-   <media:community>
-    <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="840"/>
+    <media:statistics views="1330"/>
    </media:community>
   </media:group>
  </entry>

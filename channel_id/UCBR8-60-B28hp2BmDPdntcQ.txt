@@ -10,6 +10,29 @@
   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
  </author>
  <entry>
+  <id>yt:video:gnP02efaslQ</id>
+  <yt:videoId>gnP02efaslQ</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>drink water and wear your spf @benoftheweek said so</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=gnP02efaslQ"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2024-04-14T19:03:22+00:00</published>
+  <updated>2024-04-15T06:08:16+00:00</updated>
+  <media:group>
+   <media:title>drink water and wear your spf @benoftheweek said so</media:title>
+   <media:content url="https://www.youtube.com/v/gnP02efaslQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/gnP02efaslQ/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="1268" average="5.00" min="1" max="5"/>
+    <media:statistics views="29269"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:cqhALBcg4WI</id>
   <yt:videoId>cqhALBcg4WI</yt:videoId>
   <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
@@ -20,15 +43,15 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-04-12T15:00:15+00:00</published>
-  <updated>2024-04-12T15:58:57+00:00</updated>
+  <updated>2024-04-14T17:16:45+00:00</updated>
   <media:group>
    <media:title>COACHELLA IS ALMOST HERE 🌴 comment a question for your fave artists and we’ll ask them ASAP</media:title>
    <media:content url="https://www.youtube.com/v/cqhALBcg4WI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i4.ytimg.com/vi/cqhALBcg4WI/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1019" average="5.00" min="1" max="5"/>
-    <media:statistics views="24812"/>
+    <media:starRating count="1373" average="5.00" min="1" max="5"/>
+    <media:statistics views="39618"/>
    </media:community>
   </media:group>
  </entry>
@@ -50,8 +73,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/ftXP3CUVnL4/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1075" average="5.00" min="1" max="5"/>
-    <media:statistics views="25652"/>
+    <media:starRating count="1251" average="5.00" min="1" max="5"/>
+    <media:statistics views="32119"/>
    </media:community>
   </media:group>
  </entry>
@@ -66,15 +89,15 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-04-09T17:00:21+00:00</published>
-  <updated>2024-04-12T09:33:33+00:00</updated>
+  <updated>2024-04-13T21:46:08+00:00</updated>
   <media:group>
    <media:title>TUNE IN! TUNE IN! TO COACHELLA 🚨 comment a question for your fave artists and we’ll ask them ASAP</media:title>
    <media:content url="https://www.youtube.com/v/vTSRRg6YJ-4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i3.ytimg.com/vi/vTSRRg6YJ-4/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1374" average="5.00" min="1" max="5"/>
-    <media:statistics views="43307"/>
+    <media:starRating count="1474" average="5.00" min="1" max="5"/>
+    <media:statistics views="47762"/>
    </media:community>
   </media:group>
  </entry>
@@ -89,15 +112,15 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-04-08T14:30:15+00:00</published>
-  <updated>2024-04-13T04:38:46+00:00</updated>
+  <updated>2024-04-15T00:06:14+00:00</updated>
   <media:group>
    <media:title>the pressure washing community understands the art of a big reveal</media:title>
    <media:content url="https://www.youtube.com/v/zyoCmgQoYs0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i3.ytimg.com/vi/zyoCmgQoYs0/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="9240" average="5.00" min="1" max="5"/>
-    <media:statistics views="193059"/>
+    <media:starRating count="9424" average="5.00" min="1" max="5"/>
+    <media:statistics views="201896"/>
    </media:community>
   </media:group>
  </entry>
@@ -119,8 +142,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/BVdnpR_BaWk/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1881" average="5.00" min="1" max="5"/>
-    <media:statistics views="58700"/>
+    <media:starRating count="1949" average="5.00" min="1" max="5"/>
+    <media:statistics views="62329"/>
    </media:community>
   </media:group>
  </entry>
@@ -135,15 +158,15 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-04-02T17:44:07+00:00</published>
-  <updated>2024-04-05T19:53:29+00:00</updated>
+  <updated>2024-04-15T23:02:43+00:00</updated>
   <media:group>
    <media:title>a lil inspo for @Tylaofficial’s ART challenge 💖 #FreshOutTheGallery</media:title>
    <media:content url="https://www.youtube.com/v/nQccoTTe7Bc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i3.ytimg.com/vi/nQccoTTe7Bc/hqdefault.jpg" width="480" height="360"/>
    <media:description>join @CrissaJackson, @MattSDance, @ReginaEigbe, &amp; @jaymondy. on Shorts to show the world you can dance like @Tylaofficial 🪩 #FreshOutTheGallery</media:description>
    <media:community>
-    <media:starRating count="1874" average="5.00" min="1" max="5"/>
-    <media:statistics views="75701"/>
+    <media:starRating count="1929" average="5.00" min="1" max="5"/>
+    <media:statistics views="79330"/>
    </media:community>
   </media:group>
  </entry>
@@ -165,8 +188,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/9hvWBP1q0GI/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2490" average="5.00" min="1" max="5"/>
-    <media:statistics views="77250"/>
+    <media:starRating count="2547" average="5.00" min="1" max="5"/>
+    <media:statistics views="80458"/>
    </media:community>
   </media:group>
  </entry>
@@ -188,8 +211,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/DnfaW7KaGws/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1637" average="5.00" min="1" max="5"/>
-    <media:statistics views="48723"/>
+    <media:starRating count="1667" average="5.00" min="1" max="5"/>
+    <media:statistics views="50251"/>
    </media:community>
   </media:group>
  </entry>
@@ -211,8 +234,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/ZjqHACGf0cY/hqdefault.jpg" width="480" height="360"/>
    <media:description>watching @ricollinart_official2119 paint @Tylaofficial counts as meditation 🌀 #FreshOutTheGallery</media:description>
    <media:community>
-    <media:starRating count="2106" average="5.00" min="1" max="5"/>
-    <media:statistics views="69491"/>
+    <media:starRating count="2149" average="5.00" min="1" max="5"/>
+    <media:statistics views="72245"/>
    </media:community>
   </media:group>
  </entry>
@@ -234,8 +257,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/3IuZD1ddSVY/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2275" average="5.00" min="1" max="5"/>
-    <media:statistics views="73690"/>
+    <media:starRating count="2308" average="5.00" min="1" max="5"/>
+    <media:statistics views="75945"/>
    </media:community>
   </media:group>
  </entry>
@@ -257,8 +280,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/UPtzL13BLOA/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2143" average="5.00" min="1" max="5"/>
-    <media:statistics views="94948"/>
+    <media:starRating count="2159" average="5.00" min="1" max="5"/>
+    <media:statistics views="97294"/>
    </media:community>
   </media:group>
  </entry>
@@ -280,8 +303,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/6N2yO7DPHAs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2944" average="5.00" min="1" max="5"/>
-    <media:statistics views="103273"/>
+    <media:starRating count="2970" average="5.00" min="1" max="5"/>
+    <media:statistics views="105319"/>
    </media:community>
   </media:group>
  </entry>
@@ -296,7 +319,7 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-03-22T18:00:03+00:00</published>
-  <updated>2024-04-10T18:21:29+00:00</updated>
+  <updated>2024-04-16T05:03:42+00:00</updated>
   <media:group>
    <media:title>Discussing the Influence of Black Creators on Anime's Fandom - Like &amp; Describe Podcast #6</media:title>
    <media:content url="https://www.youtube.com/v/6I2N1b7dN60?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -331,8 +354,8 @@ Danganronpa: Trigger Happy Havoc: https://www.youtube.com/watch?v=KGBF6a6sxe4&am
 Polygon Article:
 Anime is huge — and we finally have numbers to prove it: https://www.polygon.com/c/2024/1/22/24034466/anime-is-huge-and-we-finally-have-numbers-to-prove-it</media:description>
    <media:community>
-    <media:starRating count="6288" average="5.00" min="1" max="5"/>
-    <media:statistics views="1114395"/>
+    <media:starRating count="6447" average="5.00" min="1" max="5"/>
+    <media:statistics views="1224560"/>
    </media:community>
   </media:group>
  </entry>
@@ -354,31 +377,8 @@ Anime is huge — and we finally have numbers to prove it: https://www.polygon.c
    <media:thumbnail url="https://i2.ytimg.com/vi/5YEcGXpuxHA/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2506" average="5.00" min="1" max="5"/>
-    <media:statistics views="80803"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:Yx-y_3AZj4s</id>
-  <yt:videoId>Yx-y_3AZj4s</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>the pottery community is only growing 👀 watch @saramicspottery3875 take cookie jars to a new level</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=Yx-y_3AZj4s"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2024-03-19T14:10:23+00:00</published>
-  <updated>2024-03-21T15:19:02+00:00</updated>
-  <media:group>
-   <media:title>the pottery community is only growing 👀 watch @saramicspottery3875 take cookie jars to a new level</media:title>
-   <media:content url="https://www.youtube.com/v/Yx-y_3AZj4s?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/Yx-y_3AZj4s/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="15763" average="5.00" min="1" max="5"/>
-    <media:statistics views="238855"/>
+    <media:starRating count="2520" average="5.00" min="1" max="5"/>
+    <media:statistics views="82424"/>
    </media:community>
   </media:group>
  </entry>
