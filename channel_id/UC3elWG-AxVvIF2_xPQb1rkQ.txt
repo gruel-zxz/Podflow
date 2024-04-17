@@ -11,6 +11,33 @@
  </author>
  <published>2022-06-04T16:17:27+00:00</published>
  <entry>
+  <id>yt:video:1ThgqDO-30E</id>
+  <yt:videoId>1ThgqDO-30E</yt:videoId>
+  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
+  <title>有水的地方不光有鱼，还有他们？四季妈妈带你发现水域的有趣之处</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=1ThgqDO-30E"/>
+  <author>
+   <name>四季妈妈—小龙</name>
+   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
+  </author>
+  <published>2024-04-17T09:13:31+00:00</published>
+  <updated>2024-04-17T09:13:32+00:00</updated>
+  <media:group>
+   <media:title>有水的地方不光有鱼，还有他们？四季妈妈带你发现水域的有趣之处</media:title>
+   <media:content url="https://www.youtube.com/v/1ThgqDO-30E?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/1ThgqDO-30E/hqdefault.jpg" width="480" height="360"/>
+   <media:description>大家好，欢迎来到我的频道！在这期视频中，四季妈妈要和大家一起探索有水的地方不仅有鱼，还有什么有趣的事物。
+
+水域不仅是鱼儿的乐园，还是各种有趣生物和活动的聚集地。无论是嬉水游泳，还是垂钓娱乐，水域都承载着无尽的乐趣和惊喜。让我们一起来发现水域的更多有趣之处！
+
+别忘了点赞、订阅，并在评论区分享你对水域活动的喜爱和自己的水域经历。期待和大家一起分享更多有趣的家庭吐槽！#水域活动 #家庭娱乐 #幽默探索</media:description>
+   <media:community>
+    <media:starRating count="4" average="5.00" min="1" max="5"/>
+    <media:statistics views="78"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:b32uh27KBXQ</id>
   <yt:videoId>b32uh27KBXQ</yt:videoId>
   <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
@@ -21,7 +48,7 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-04-15T08:21:06+00:00</published>
-  <updated>2024-04-16T06:26:02+00:00</updated>
+  <updated>2024-04-17T05:10:13+00:00</updated>
   <media:group>
    <media:title>今年夏天怎么也得去趟山东吧？四季妈妈带你爆笑游山东 #爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
    <media:content url="https://www.youtube.com/v/b32uh27KBXQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -32,8 +59,8 @@
 
 别忘了点赞、订阅，并在评论区分享你对山东之旅的期待和自己的旅行计划。期待和大家一起分享更多有趣的家庭吐槽！#山东之旅 #夏日游山东 #家庭旅行 #幽默探索</media:description>
    <media:community>
-    <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="121"/>
+    <media:starRating count="8" average="5.00" min="1" max="5"/>
+    <media:statistics views="429"/>
    </media:community>
   </media:group>
  </entry>
@@ -60,7 +87,7 @@
 别忘了点赞、订阅，并在评论区分享你对老公对待老婆睡衣的看法和自己的经历。期待和大家一起分享更多有趣的家庭吐槽！#老公 #老婆睡衣 #家庭生活 #幽默揭秘</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="580"/>
+    <media:statistics views="673"/>
    </media:community>
   </media:group>
  </entry>
@@ -75,7 +102,7 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-04-11T10:20:45+00:00</published>
-  <updated>2024-04-13T15:52:04+00:00</updated>
+  <updated>2024-04-16T02:27:07+00:00</updated>
   <media:group>
    <media:title>烧烤季要到了，男人一眼就知道哪个摊好吃？四季妈妈幽默吐槽 #爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
    <media:content url="https://www.youtube.com/v/ExndQ1xmbw4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -87,7 +114,7 @@
 别忘了点赞、订阅，并在评论区分享你对男人独特烧烤直觉的看法和自己的烧烤经历。期待和大家一起分享更多有趣的家庭吐槽！#烧烤季 #男人的直觉 #幽默吐槽</media:description>
    <media:community>
     <media:starRating count="9" average="5.00" min="1" max="5"/>
-    <media:statistics views="304"/>
+    <media:statistics views="335"/>
    </media:community>
   </media:group>
  </entry>
@@ -114,7 +141,7 @@
 别忘了点赞、订阅，并在评论区分享你对建立自信的看法和自己的沟通经历。期待和大家一起分享更多有趣的家庭吐槽！#建立自信 #男女沟通 #幽默分享</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="260"/>
+    <media:statistics views="272"/>
    </media:community>
   </media:group>
  </entry>
@@ -141,7 +168,7 @@
 别忘了点赞、订阅，并在评论区分享你对东北人的看法和自己的趣事经历。期待和大家一起分享更多有趣的家庭吐槽！#东北人 #家庭趣事 #幽默观察</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="408"/>
+    <media:statistics views="411"/>
    </media:community>
   </media:group>
  </entry>
@@ -168,7 +195,7 @@
 别忘了点赞、订阅，并在评论区分享你对北方与南方烧烤的看法和自己的烧烤经历。期待和大家一起分享更多有趣的家庭吐槽！#北方烧烤 #南方烧烤 #家庭趣事 #幽默观察</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="408"/>
+    <media:statistics views="409"/>
    </media:community>
   </media:group>
  </entry>
@@ -194,8 +221,8 @@
 
 别忘了点赞、订阅，并在评论区分享你对男人超能力的看法和自己的趣事经历。期待和大家一起分享更多有趣的家庭吐槽！#男人超能力 #家庭趣事 #幽默观察</media:description>
    <media:community>
-    <media:starRating count="61" average="5.00" min="1" max="5"/>
-    <media:statistics views="5256"/>
+    <media:starRating count="62" average="5.00" min="1" max="5"/>
+    <media:statistics views="5276"/>
    </media:community>
   </media:group>
  </entry>
@@ -222,7 +249,7 @@
 别忘了点赞、订阅，并在评论区分享你对婚后生活的看法和自己的趣事经历。期待和大家一起分享更多有趣的家庭吐槽！#婚后生活 #工资上缴 #家庭趣事</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="284"/>
+    <media:statistics views="285"/>
    </media:community>
   </media:group>
  </entry>
@@ -356,8 +383,8 @@
 
 别忘了点赞、订阅，并在评论区分享你对这些小众用法的看法和自己的奇葩经历。让我们一起来欣赏家庭生活中的不可思议之处吧！#家庭生活 #趣事经历 #幽默观察</media:description>
    <media:community>
-    <media:starRating count="73" average="5.00" min="1" max="5"/>
-    <media:statistics views="4934"/>
+    <media:starRating count="74" average="5.00" min="1" max="5"/>
+    <media:statistics views="4955"/>
    </media:community>
   </media:group>
  </entry>
@@ -384,34 +411,7 @@
 别忘了点赞、订阅，并在评论区分享你对男人必备三件套的看法和自己的趣事经历。让我们一起来享受家庭生活中的乐趣吧！#家庭生活 #趣事经历 #幽默观察</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="264"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:9SB47dCpiwo</id>
-  <yt:videoId>9SB47dCpiwo</yt:videoId>
-  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
-  <title>跟我老公分床住了几天，现在后悔了#家庭吐槽大会 #爱吐槽的四季妈妈|</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=9SB47dCpiwo"/>
-  <author>
-   <name>四季妈妈—小龙</name>
-   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
-  </author>
-  <published>2024-03-18T12:55:06+00:00</published>
-  <updated>2024-03-25T08:57:12+00:00</updated>
-  <media:group>
-   <media:title>跟我老公分床住了几天，现在后悔了#家庭吐槽大会 #爱吐槽的四季妈妈|</media:title>
-   <media:content url="https://www.youtube.com/v/9SB47dCpiwo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/9SB47dCpiwo/hqdefault.jpg" width="480" height="360"/>
-   <media:description>大家好，欢迎来到我的频道！今天我要和大家分享一个有趣的经历：我和老公分床住了几天，现在却后悔了！四季妈妈爱吐槽，带你一起笑谈家庭中的趣事。
-
-在这期视频中，我将分享我和老公分床住的经历，以及这段日子带给我的反思和感悟。有时候，家庭生活中的小插曲会给我们带来意想不到的启示和笑料。让我们一起来笑对生活中的趣事！
-
-别忘了点赞、订阅，并在评论区分享你对家庭生活的看法和自己的趣事经历。让我们一起来共享家庭吐槽的乐趣吧！#家庭生活 #趣事经历 #幽默观察</media:description>
-   <media:community>
-    <media:starRating count="15" average="5.00" min="1" max="5"/>
-    <media:statistics views="1330"/>
+    <media:statistics views="266"/>
    </media:community>
   </media:group>
  </entry>
