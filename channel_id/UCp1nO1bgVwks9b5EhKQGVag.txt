@@ -29,7 +29,7 @@
    <media:description>《过去已死》,原著：阿西莫夫，出自|《阿西莫夫科幻短篇全集》。是作者的另一部代表作。</media:description>
    <media:community>
     <media:starRating count="70" average="5.00" min="1" max="5"/>
-    <media:statistics views="2433"/>
+    <media:statistics views="2464"/>
    </media:community>
   </media:group>
  </entry>
@@ -262,7 +262,7 @@
    <media:description>一个战争机器人与人类孩子的最后时光：意识流科幻小说《潮痕》，原著：伊丽莎白·贝尔《潮痕》 (2008年雨果奖最佳短篇)</media:description>
    <media:community>
     <media:starRating count="117" average="5.00" min="1" max="5"/>
-    <media:statistics views="4326"/>
+    <media:statistics views="4327"/>
    </media:community>
   </media:group>
  </entry>
@@ -285,7 +285,7 @@
    <media:description>在目前语言学界的主流观点中，不存在“第4人称”。当然这是科幻小说，作者藤野另辟蹊径，以全新的视角揭开了一个地外生命群体的存在模式。《第四人称》  选自：《科幻世界》2016年12月刊。</media:description>
    <media:community>
     <media:starRating count="156" average="5.00" min="1" max="5"/>
-    <media:statistics views="8364"/>
+    <media:statistics views="8366"/>
    </media:community>
   </media:group>
  </entry>
@@ -308,7 +308,7 @@
    <media:description>老龄化问题的终极答案：让40亿老人移民外星？科幻小说《暮星归途》</media:description>
    <media:community>
     <media:starRating count="119" average="5.00" min="1" max="5"/>
-    <media:statistics views="7616"/>
+    <media:statistics views="7617"/>
    </media:community>
   </media:group>
  </entry>
@@ -331,7 +331,7 @@
    <media:description>说明：这个盘点清单是根据幻海团队的阅读经历，从读者的接受度、作品故事性、作品的思想深度等特点做出的盘点清单，均为我们的个人观点。所以《龙蛋》、《盲视》、《量子魔术师》《泥人十四》等过于硬核的优秀作品不在其中，同时《三体》与《泽利》也不在其中，它们之前已经总结过了，另外《太空漫游系列》/《火星救援》《索拉里斯星》等优秀作品，由于已经被影视化，熟悉的人很多，所以也不在其中。</media:description>
    <media:community>
     <media:starRating count="216" average="5.00" min="1" max="5"/>
-    <media:statistics views="6973"/>
+    <media:statistics views="6974"/>
    </media:community>
   </media:group>
  </entry>
@@ -355,7 +355,7 @@
 我们最看好的是05：15的部分，在科技断代之后，人类存活到了最后。</media:description>
    <media:community>
     <media:starRating count="157" average="5.00" min="1" max="5"/>
-    <media:statistics views="8765"/>
+    <media:statistics views="8767"/>
    </media:community>
   </media:group>
  </entry>

@@ -27,8 +27,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/gnP02efaslQ/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1620" average="5.00" min="1" max="5"/>
-    <media:statistics views="49747"/>
+    <media:starRating count="1626" average="5.00" min="1" max="5"/>
+    <media:statistics views="49870"/>
    </media:community>
   </media:group>
  </entry>
@@ -50,8 +50,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/cqhALBcg4WI/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1551" average="5.00" min="1" max="5"/>
-    <media:statistics views="47665"/>
+    <media:starRating count="1553" average="5.00" min="1" max="5"/>
+    <media:statistics views="47721"/>
    </media:community>
   </media:group>
  </entry>
@@ -74,7 +74,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1329" average="5.00" min="1" max="5"/>
-    <media:statistics views="36967"/>
+    <media:statistics views="36998"/>
    </media:community>
   </media:group>
  </entry>
@@ -97,7 +97,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1531" average="5.00" min="1" max="5"/>
-    <media:statistics views="51463"/>
+    <media:statistics views="51486"/>
    </media:community>
   </media:group>
  </entry>
@@ -119,8 +119,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/zyoCmgQoYs0/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="9527" average="5.00" min="1" max="5"/>
-    <media:statistics views="209093"/>
+    <media:starRating count="9529" average="5.00" min="1" max="5"/>
+    <media:statistics views="209135"/>
    </media:community>
   </media:group>
  </entry>
@@ -142,8 +142,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/BVdnpR_BaWk/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1985" average="5.00" min="1" max="5"/>
-    <media:statistics views="65423"/>
+    <media:starRating count="1986" average="5.00" min="1" max="5"/>
+    <media:statistics views="65441"/>
    </media:community>
   </media:group>
  </entry>
@@ -166,7 +166,7 @@
    <media:description>join @CrissaJackson, @MattSDance, @ReginaEigbe, &amp; @jaymondy. on Shorts to show the world you can dance like @Tylaofficial 🪩 #FreshOutTheGallery</media:description>
    <media:community>
     <media:starRating count="1969" average="5.00" min="1" max="5"/>
-    <media:statistics views="82481"/>
+    <media:statistics views="82513"/>
    </media:community>
   </media:group>
  </entry>
@@ -189,7 +189,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="2574" average="5.00" min="1" max="5"/>
-    <media:statistics views="83422"/>
+    <media:statistics views="83449"/>
    </media:community>
   </media:group>
  </entry>
@@ -212,7 +212,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1683" average="5.00" min="1" max="5"/>
-    <media:statistics views="51665"/>
+    <media:statistics views="51678"/>
    </media:community>
   </media:group>
  </entry>
@@ -235,7 +235,7 @@
    <media:description>watching @ricollinart_official2119 paint @Tylaofficial counts as meditation 🌀 #FreshOutTheGallery</media:description>
    <media:community>
     <media:starRating count="2180" average="5.00" min="1" max="5"/>
-    <media:statistics views="75119"/>
+    <media:statistics views="75137"/>
    </media:community>
   </media:group>
  </entry>
@@ -258,7 +258,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="2327" average="5.00" min="1" max="5"/>
-    <media:statistics views="78028"/>
+    <media:statistics views="78044"/>
    </media:community>
   </media:group>
  </entry>
@@ -281,7 +281,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="2173" average="5.00" min="1" max="5"/>
-    <media:statistics views="99617"/>
+    <media:statistics views="99636"/>
    </media:community>
   </media:group>
  </entry>
@@ -304,7 +304,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="2990" average="5.00" min="1" max="5"/>
-    <media:statistics views="107277"/>
+    <media:statistics views="107288"/>
    </media:community>
   </media:group>
  </entry>
@@ -355,7 +355,7 @@ Polygon Article:
 Anime is huge — and we finally have numbers to prove it: https://www.polygon.com/c/2024/1/22/24034466/anime-is-huge-and-we-finally-have-numbers-to-prove-it</media:description>
    <media:community>
     <media:starRating count="6537" average="5.00" min="1" max="5"/>
-    <media:statistics views="1168061"/>
+    <media:statistics views="1168144"/>
    </media:community>
   </media:group>
  </entry>
@@ -378,7 +378,7 @@ Anime is huge — and we finally have numbers to prove it: https://www.polygon.c
    <media:description></media:description>
    <media:community>
     <media:starRating count="2527" average="5.00" min="1" max="5"/>
-    <media:statistics views="84042"/>
+    <media:statistics views="84056"/>
    </media:community>
   </media:group>
  </entry>
