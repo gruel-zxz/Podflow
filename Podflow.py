@@ -39,6 +39,8 @@ default_config = {
             "DisplayRSSaddress": False,
             "InmainRSS": True,
             "QRcode": False,
+            "BackwardUpdate": False,
+            "BackwardUpdate_size": 3,
         }
     },
     "channelid_bilibili": {
@@ -79,6 +81,7 @@ yt_id_failed = []  # YouTube视频下载失败列表
 youtube_content_ytid_update_format = {}  # YouTube视频下载的详细信息字典
 hash_rss_original = ""  # 原始rss哈希值文本
 xmls_original = {}  # 原始xml信息字典
+xmls_original_fail = []  # 未获取原始xml频道列表
 youtube_xml_get_tree = {}  # YouTube频道简介和图标字典
 all_youtube_content_ytid = {}  # 所有YouTube视频id字典
 all_items = []  # 更新后所有item明细列表
@@ -311,6 +314,7 @@ library_install_list = [
     "astral",
     "qrcode",
     "pycryptodome",
+    "BeautifulSoup4"
 ]
 
 library_import = False
@@ -325,6 +329,7 @@ while library_import is False:
         from Cryptodome.Cipher import PKCS1_OAEP
         from Cryptodome.PublicKey import RSA
         from Cryptodome.Hash import SHA256
+        from bs4 import BeautifulSoup
         library_import = True
     except ImportError:
         today_library_log = ""
@@ -1023,14 +1028,40 @@ def judging_day_and_night(latitude, longitude):
 # 根据日出日落修改封面(只适用原封面)模块
 def channge_icon():
     if config["icon"] == default_config["icon"]:
-        # 获取公网IP地址
-        response = http_client("https://ipinfo.io", "日出日落信息", 10, 6)
-        if response:
-            data = response.json()
-            # 提取经度和纬度
-            coordinates = data["loc"].split(",")
-            latitude = coordinates[0]
-            longitude = coordinates[1]
+        def ipinfo():
+            if response:= http_client("https://ipinfo.io/json/", "", 1, 0):
+                data = response.json()
+                # 提取经度和纬度
+                coordinates = data ["loc"].split(",")
+                return True, coordinates[0], coordinates[1]
+            else: 
+                return False, None, None
+        def ipapi():
+            if response:= http_client("http://ip-api.com/json/", "", 1, 0):
+                data = response.json()
+                # 提取经度和纬度
+                return True, data["lat"], data["lon"]
+            else: 
+                return False, None, None
+        def freegeoip():
+            if response:= http_client("https://freegeoip.app/json/", "", 1, 0):
+                data = response.json()
+                # 提取经度和纬度
+                return True, data["latitude"], data["longitude"]
+            else: 
+                return False, None, None
+        label = False
+        # 公网获取经纬度
+        label, latitude, longitude = ipinfo()
+        if label is False:
+            write_log("获取昼夜信息重试中...\033[97m1\033[0m")
+            label, latitude, longitude = ipapi()
+            if label is False:
+                write_log("获取昼夜信息重试中...\033[97m2\033[0m")
+                label, latitude, longitude = freegeoip()
+                if label is False:
+                    write_log("获取昼夜信息失败")
+        if label:
             picture_name = f"Podflow_{judging_day_and_night(latitude, longitude)}"
             config["icon"] = f"https://raw.githubusercontent.com/gruel-zxz/podflow/main/{picture_name}.png"
 
@@ -1045,6 +1076,8 @@ def get_channelid(name):
 
 # channelid修正模块
 def correct_channelid(channelid, website):
+    if website == "youtube":
+        channelid_name = "youtube"
     # 音视频格式及分辨率常量
     video_media = [
         "m4v",
@@ -1102,7 +1135,7 @@ def correct_channelid(channelid, website):
             ):
                 channelid[channelid_key]["update_size"] = default_config[
                     f"channelid_{website}"
-                ]["youtube"]["update_size"]
+                ][channelid_name]["update_size"]
             # 对id进行纠正
             channelid[channelid_key]["id"] = re.search(
                 r"UC.{22}", channeli_value["id"]
@@ -1115,7 +1148,7 @@ def correct_channelid(channelid, website):
             ):
                 channelid[channelid_key]["last_size"] = default_config[
                     f"channelid_{website}"
-                ]["youtube"]["last_size"]
+                ][channelid_name]["last_size"]
             channelid[channelid_key]["last_size"] = max(
                 channelid[channelid_key]["last_size"],
                 channelid[channelid_key]["update_size"],
@@ -1134,7 +1167,7 @@ def correct_channelid(channelid, website):
             ):
                 channelid[channelid_key]["quality"] = default_config[
                     f"channelid_{website}"
-                ]["youtube"]["quality"]
+                ][channelid_name]["quality"]
             # 对media进行纠正
             if (
                 "media" in channeli_value
@@ -1166,6 +1199,20 @@ def correct_channelid(channelid, website):
                 channeli_value["QRcode"], bool
             ):
                 channelid[channelid_key]["QRcode"] = False
+            # 对BackwardUpdate进行纠正
+            if "BackwardUpdate" not in channeli_value or not isinstance(
+                channeli_value["BackwardUpdate"], bool
+            ):
+                channelid[channelid_key]["BackwardUpdate"] = False
+            # 对BackwardUpdate_size进行纠正
+            if channelid[channelid_key]["BackwardUpdate"] and (
+                "BackwardUpdate_size" not in channeli_value
+                or not isinstance(channeli_value["BackwardUpdate_size"], int)
+                or channeli_value["BackwardUpdate_size"] <= 0
+            ):
+                channelid[channelid_key]["BackwardUpdate_size"] = default_config[
+                    f"channelid_{website}"
+                ][channelid_name]["BackwardUpdate_size"]
     return channelid
 
 # 读取频道ID模块
@@ -1179,58 +1226,210 @@ def get_channelid_id(channelid):
         channelid_ids = None
     return channelid_ids
 
+# 通过bs4获取html中字典模块
+def get_html_dict(url, name, script_label):
+    if response:= http_client(url, name):
+        html_content = response.text
+        # 使用Beautiful Soup解析HTML
+        soup = BeautifulSoup(html_content, 'html.parser')
+        # 查找对应的 script 标签
+        data_script = soup.find('script', string=lambda t: t and script_label in t)
+        if data_script:
+            try:
+                # 使用正则表达式提取 JSON 数据
+                pattern = re.compile(r'\{.*\}', re.DOTALL)
+                match = pattern.search(data_script.text)
+                if match:
+                    data_str = match.group()
+                    data = json.loads(data_str)
+                    return data
+            except json.JSONDecodeError:
+                None
+
+# 从YouTube播放列表获取更新模块
+def get_youtube_html_playlists(youtube_key, youtube_value, guids=[""], direction_forward=True, update_size=20):
+    idlist = []
+    item = {}
+    threads = []
+    fail = []
+    try:
+        if direction_forward:
+            videoid_start = guids[0]
+        else:
+            videoid_start = guids[-1]
+    except IndexError:
+        videoid_start = ""
+    # 获取媒体相关信息模块
+    def get_video_item(videoid, youtube_value):
+        yt_Initial_Player_Response = get_html_dict(f"https://www.youtube.com/watch?v={videoid}", f"{youtube_value}|{videoid} HTML", "ytInitialPlayerResponse")
+        try:
+            player_Microformat_Renderer = yt_Initial_Player_Response["microformat"]["playerMicroformatRenderer"]
+        except (KeyError, TypeError, IndexError, ValueError):
+            player_Microformat_Renderer = {}
+            fail.append(videoid)
+        if player_Microformat_Renderer:
+            try:
+                item[videoid]["description"] = player_Microformat_Renderer["description"]["simpleText"]
+            except (KeyError, TypeError, IndexError, ValueError):
+                item[videoid]["description"] = ""
+            item[videoid]["pubDate"] = player_Microformat_Renderer["publishDate"]
+            item[videoid]["image"] = player_Microformat_Renderer["thumbnail"]["thumbnails"][0]["url"]
+            try:
+                fail.remove(videoid)
+            except (KeyError, TypeError, IndexError, ValueError):
+                pass
+    yt_initial_data = get_html_dict(f"https://www.youtube.com/watch?v={videoid_start}&list=UULF{youtube_key[-22:]}", f"{youtube_value} HTML", "ytInitialData")
+    try:
+        playlists = yt_initial_data['contents']['twoColumnWatchNextResults']['playlist']['playlist']['contents']
+        main_title = yt_initial_data["engagementPanels"][2]["engagementPanelSectionListRenderer"]["content"]["structuredDescriptionContentRenderer"]["items"][0]["videoDescriptionHeaderRenderer"]["channel"]["simpleText"]
+    except (KeyError, TypeError, IndexError, ValueError):
+        return None
+    if direction_forward or videoid_start == "":
+        for playlist in playlists:
+            videoid = playlist['playlistPanelVideoRenderer']['videoId']
+            if playlist['playlistPanelVideoRenderer']['navigationEndpoint']['watchEndpoint']['index'] == update_size:
+                break
+            if videoid not in guids:
+                title = playlist['playlistPanelVideoRenderer']['title']['simpleText']
+                idlist.append(videoid)
+                item[videoid] = {"title": title}
+                item_thread = threading.Thread(target=get_video_item, args=(videoid, youtube_value,))
+                item_thread.start()
+                threads.append(item_thread)
+    else:
+        judge = False
+        num = 1
+        for playlist in playlists:
+            videoid = playlist['playlistPanelVideoRenderer']['videoId']
+            if judge:
+                if num <= min(20, update_size):
+                    title = playlist['playlistPanelVideoRenderer']['title']['simpleText']
+                    idlist.append(videoid)
+                    item[videoid] = {"title": title}
+                    num += 1
+                    item_thread = threading.Thread(target=get_video_item, args=(videoid, youtube_value,))
+                    item_thread.start()
+                    threads.append(item_thread)
+                else:
+                    break
+            if videoid == videoid_start:
+                judge = True
+    for thread in threads:
+        thread.join()
+    for videoid in fail:
+        get_video_item(videoid, youtube_value)
+    if fail:
+        if direction_forward or videoid_start == "":
+            for videoid in fail:
+                print(f"{datetime.now().strftime('%H:%M:%S')}|{youtube_value}|{videoid} HTML无法更新, 将不获取")
+                idlist.remove(videoid)
+                del item[videoid]
+        else:
+            print(f"{datetime.now().strftime('%H:%M:%S')}|{youtube_value} HTML有失败只更新部分")
+            index = len(idlist)
+            for videoid in fail:
+                if videoid in idlist:
+                    index = min(idlist.index(videoid), index)
+            idlist_fail = idlist[index:]
+            idlist = idlist[:index]
+            for videoid in idlist_fail:
+                idlist.remove(videoid)
+    return {"list": idlist, "item": item, "title": main_title}
+
 # 更新Youtube频道xml模块
-def youtube_rss_update(youtube_key, youtube_value, pattern_youtube_varys):
+def youtube_rss_update(youtube_key, youtube_value, pattern_youtube_varys, pattern_youtube404):
+    # 获取已下载媒体名称
+    youtube_media = (
+        ("m4a", "mp4")
+        if channelid_youtube[youtube_value]["media"] == "m4a"
+        else ("mp4")
+    )
+    try:
+        youtube_content_ytid_original = [
+            os.path.splitext(file)[0]  # 获取文件名（不包括扩展名）
+            for file in os.listdir(
+                f"channel_audiovisual/{youtube_key}"
+            )  # 遍历指定目录下的所有文件
+            if file.endswith(youtube_media)  # 筛选出以 youtube_media 结尾的文件
+        ]
+    except Exception:
+        youtube_content_ytid_original = []
+    try:
+        original_item = xmls_original[youtube_key]
+        guids = re.findall(r"(?<=<guid>).+(?=</guid>)", original_item)
+    except KeyError:
+        guids = []
     # 构建 URL
     youtube_url = f"https://www.youtube.com/feeds/videos.xml?channel_id={youtube_key}"
     youtube_response = http_client(youtube_url, youtube_value)
-    channelid_youtube_rss[youtube_key] = youtube_response
-    if youtube_response:
-        youtube_content = youtube_response.text
-        youtube_content_clean = vary_replace(pattern_youtube_varys, youtube_content)
-        # 读取原Youtube频道xml文件并判断是否要更新
-        try:
-            with open(
-                f"channel_id/{youtube_key}.txt", "r", encoding="utf-8"
-            ) as file:  # 打开文件进行读取
-                youtube_content_original = file.read()  # 读取文件内容
-                youtube_content_original_clean = vary_replace(
-                    pattern_youtube_varys, youtube_content_original
-                )
-            if youtube_content_clean != youtube_content_original_clean:  # 判断是否要更新
-                channelid_youtube_ids_update[youtube_key] = youtube_value
-        except FileNotFoundError:  # 文件不存在直接更新
-            channelid_youtube_ids_update[youtube_key] = youtube_value
-        # 获取Youtube视频ID列表
-        youtube_content_ytid = re.findall(
-            r"(?<=<id>yt:video:).{11}(?=</id>)", youtube_content
+    youtube_html_playlists = None
+    if youtube_response is not None and re.search(pattern_youtube404, youtube_response.text, re.DOTALL):
+        youtube_html_playlists = get_youtube_html_playlists(
+            youtube_key,
+            youtube_value,
+            [elem for elem in guids if elem in youtube_content_ytid_original],
+            True,
+            channelid_youtube[youtube_value]["update_size"]
         )
+    # 读取原Youtube频道xml文件并判断是否要更新
+    try:
+        with open(
+            f"channel_id/{youtube_key}.txt", "r", encoding="utf-8"
+        ) as file:  # 打开文件进行读取
+            youtube_content_original = file.read()  # 读取文件内容
+            youtube_content_original_clean = vary_replace(pattern_youtube_varys, youtube_content_original)
+    except FileNotFoundError:  # 文件不存在
+        youtube_content_original = None
+        youtube_content_original_clean = None
+    if youtube_html_playlists is not None:
+        channelid_youtube_rss[youtube_key] = {"content": youtube_html_playlists, "type": "dict"}
+        if youtube_html_playlists["item"]:
+            channelid_youtube_ids_update[youtube_key] = youtube_value
+        youtube_content_ytid = youtube_html_playlists["list"]
+    else:
+        if youtube_response is not None:
+            channelid_youtube_rss[youtube_key] = {"content": youtube_response, "type": "html"}
+            youtube_content = youtube_response.text
+            youtube_content_clean = vary_replace(pattern_youtube_varys, youtube_content)
+            if youtube_content_clean != youtube_content_original_clean and youtube_response:  # 判断是否要更新
+                channelid_youtube_ids_update[youtube_key] = youtube_value
+        else:
+            channelid_youtube_rss[youtube_key] = {"content": youtube_content_original, "type": "text"}
+            youtube_content = youtube_content_original
+        try:
+            youtube_content_ytid = re.findall(
+                r"(?<=<id>yt:video:).{11}(?=</id>)", youtube_content
+            )
+        except TypeError:
+            youtube_content_ytid = []
         youtube_content_ytid = youtube_content_ytid[
             : channelid_youtube[youtube_value]["update_size"]
         ]
-        # 获取已下载媒体名称
-        youtube_media = (
-            ("m4a", "mp4")
-            if channelid_youtube[youtube_value]["media"] == "m4a"
-            else ("mp4")
-        )
-        try:
-            youtube_content_ytid_original = [
-                os.path.splitext(file)[0]  # 获取文件名（不包括扩展名）
-                for file in os.listdir(
-                    f"channel_audiovisual/{youtube_key}"
-                )  # 遍历指定目录下的所有文件
-                if file.endswith(youtube_media)  # 筛选出以 youtube_media 结尾的文件
-            ]
-        except Exception:
-            youtube_content_ytid_original = []
-        if youtube_content_ytid := [
-            exclude
-            for exclude in youtube_content_ytid
-            if exclude not in youtube_content_ytid_original
-        ]:
-            channelid_youtube_ids_update[youtube_key] = youtube_value
-            youtube_content_ytid_update[youtube_key] = youtube_content_ytid
+    if youtube_content_ytid := [
+        exclude
+        for exclude in youtube_content_ytid
+        if exclude not in youtube_content_ytid_original
+    ]:
+        channelid_youtube_ids_update[youtube_key] = youtube_value
+        youtube_content_ytid_update[youtube_key] = youtube_content_ytid
+    if channelid_youtube[youtube_value]["BackwardUpdate"] and guids:
+        backward_update_size = channelid_youtube[youtube_value]["last_size"] - len(youtube_content_ytid_original) - len(youtube_content_ytid)
+        if backward_update_size > 0:
+            youtube_html_backward_playlists = get_youtube_html_playlists(
+                youtube_key,
+                youtube_value,
+                guids,
+                False,
+                min(backward_update_size, channelid_youtube[youtube_value]["BackwardUpdate_size"])
+            )
+            if youtube_html_backward_playlists["list"]:
+                channelid_youtube_ids_update[youtube_key] = youtube_value
+                channelid_youtube_rss[youtube_key].update({"backward": youtube_html_backward_playlists})
+                for guid in youtube_html_backward_playlists["list"]:
+                    if guid not in youtube_content_ytid_original:
+                        youtube_content_ytid.append(guid)
+                if youtube_content_ytid:
+                    youtube_content_ytid_update[youtube_key] = youtube_content_ytid
 
 # 更新Youtube频道xml多线程模块
 def update_youtube_rss():
@@ -1245,7 +1444,7 @@ def update_youtube_rss():
     youtube_rss_update_threads = []  # 创建线程列表
     for youtube_key, youtube_value in channelid_youtube_ids.items():
         thread = threading.Thread(
-            target=youtube_rss_update, args=(youtube_key, youtube_value, pattern_youtube_varys)
+            target=youtube_rss_update, args=(youtube_key, youtube_value, pattern_youtube_varys, pattern_youtube404)
         )
         youtube_rss_update_threads.append(thread)
         thread.start()
@@ -1253,31 +1452,30 @@ def update_youtube_rss():
     for thread in youtube_rss_update_threads:
         thread.join()
     for youtube_key, youtube_value in channelid_youtube_ids.copy().items():
-        youtube_response = channelid_youtube_rss[youtube_key]
-        # 异常xml排查及重新获取
-        num_try_update = 0
-        while youtube_response is not None and ((re.search(pattern_youtube404, youtube_response.text, re.DOTALL) and num_try_update < 3) or not re.search(rf"{youtube_key}", youtube_response.text, re.DOTALL)):
-            if f"https://www.youtube.com/channel/{youtube_key}?" in http_client(f"https://www.youtube.com/channel/{youtube_key}", youtube_value).text:
-                youtube_response = None
-            else:
-                print(f"{datetime.now().strftime('%H:%M:%S')}|YouTube频道 {youtube_value}|\033[31m获取异常重试中...\033[97m{num_try_update + 1}\033[0m")
-                youtube_rss_update(youtube_key, youtube_value, pattern_youtube_varys)
-                youtube_response = channelid_youtube_rss[youtube_key]
-            num_try_update += 1
+        youtube_response = channelid_youtube_rss[youtube_key]["content"]
+        youtube_response_type = channelid_youtube_rss[youtube_key]["type"]
         # xml分类及存储
         if youtube_response is not None:
-            youtube_content = youtube_response.text
-            # 判断频道id是否正确
-            if re.search(pattern_youtube404, youtube_content, re.DOTALL):
-                del channelid_youtube_ids[youtube_key]  # 删除错误ID
-                write_log(f"YouTube频道 {youtube_value} ID不正确无法获取")
-            else:
-                # 构建文件
-                file_save(youtube_content, f"{youtube_key}.txt", "channel_id")
+            if youtube_response_type ==  "dict":
                 # 构建频道文件夹
                 folder_build(youtube_key, "channel_audiovisual")
+            else:
+                if youtube_response_type ==  "html":
+                    youtube_content = youtube_response.text
+                elif youtube_response_type ==  "text":
+                    youtube_content = youtube_response
+                    write_log(f"YouTube频道 {youtube_value} 无法更新")
+                # 判断频道id是否正确
+                if re.search(pattern_youtube404, youtube_content, re.DOTALL):
+                    del channelid_youtube_ids[youtube_key]  # 删除错误ID
+                    write_log(f"YouTube频道 {youtube_value} ID不正确无法获取")
+                else:
+                    # 构建文件
+                    file_save(youtube_content, f"{youtube_key}.txt", "channel_id")
+                    # 构建频道文件夹
+                    folder_build(youtube_key, "channel_audiovisual")
         else:
-            if not os.path.exists(os.path.join("channel_id", f"{youtube_key}.txt")):
+            if youtube_response_type == "text":
                 del channelid_youtube_ids[youtube_key]
             write_log(f"YouTube频道 {youtube_value} 无法更新")
 
@@ -1530,19 +1728,26 @@ def xml_item(
         </item>
 """
 
-# 生成YouTube的item模块
-def youtube_xml_item(entry):
-    # 输入时间字符串和原始时区
-    time_str = re.search(r"(?<=<published>).+(?=</published>)", entry).group()
+# 格式化时间模块
+def format_time(time_str):
     original_tz = timezone.utc  # 原始时区为UTC
     # 解析时间字符串并转换为datetime对象
-    dt = datetime.fromisoformat(time_str[:-6]).replace(tzinfo=original_tz)
+    dt = datetime.fromisoformat(time_str).replace(tzinfo=original_tz)
     # 转换为目标时区
+    tz = timedelta(hours=int(time_str[-6:-3]),minutes=int(f"{time_str[-6]}{time_str[-2:]}"))
+    dt -= tz
     target_tz = timezone(timedelta(seconds=-(time.timezone + time.daylight)))
     dt_target = dt.astimezone(target_tz)
     # 格式化为目标时间字符串
     target_format = "%a, %d %b %Y %H:%M:%S %z"
     pubDate = dt_target.strftime(target_format)
+    return pubDate
+
+# 生成YouTube的item模块
+def youtube_xml_item(entry):
+    # 输入时间字符串和原始时区
+    time_str = re.search(r"(?<=<published>).+(?=</published>)", entry).group()
+    pubDate = format_time(time_str)
     output_dir = re.search(r"(?<=<yt:channelId>).+(?=</yt:channelId>)", entry).group()
     description = re.search(
         r"(?<=<media:description>).+(?=</media:description>)",
@@ -1644,6 +1849,7 @@ def rss_create_hash(data):
 
 # 获取原始xml模块
 def get_original_rss():
+    xmls_original_fail =[]
     # 获取原始总xml文件
     try:
         with open(f"{config['filename']}.xml", "r", encoding="utf-8") as file:  # 打开文件进行读取
@@ -1671,10 +1877,16 @@ def get_original_rss():
                         f"<!-- {{{youtube_key}}} -->\n"
                     )[1]
             except FileNotFoundError:  # 文件不存在直接更新
-                write_log(f"RSS文件中不存在 {channelid_youtube_ids[youtube_key]} 无法保留原节目")
+                xmls_original_fail.append(youtube_key)
     # 生成原始rss的哈希值
     hash_rss_original = rss_create_hash(rss_original)
-    return get_xmls_original, hash_rss_original
+    return get_xmls_original, hash_rss_original, xmls_original_fail
+
+# 打印无法保留原节目信息模块
+def original_rss_fail_print(xmls_original_fail):
+    for item in xmls_original_fail:
+        if item in channelid_youtube_ids.keys():
+            write_log(f"RSS文件中不存在 {channelid_youtube_ids[item]} 无法保留原节目")
 
 # 获取youtube频道简介模块
 def get_youtube_introduction():
@@ -1721,21 +1933,41 @@ def get_youtube_introduction():
 # 生成YouTube对应channel的需更新的items模块
 def youtube_xml_items(output_dir):
     items_list = [f"<!-- {output_dir} -->"]
-    file_xml = channelid_youtube_rss[output_dir].text  # 获取最新的rss信息
-    entrys = re.findall(r"<entry>.+?</entry>", file_xml, re.DOTALL)
     entry_num = 0
-    for entry in entrys:
-        if (
-            re.search(r"(?<=<yt:videoId>).+(?=</yt:videoId>)", entry).group()
-            not in yt_id_failed
-        ):
-            items_list.append(f"{youtube_xml_item(entry)}<!-- {output_dir} -->")
-        entry_num += 1
-        if (
-            entry_num
-            >= channelid_youtube[channelid_youtube_ids[output_dir]]["update_size"]
-        ):
-            break
+    if channelid_youtube_rss[output_dir]["type"] == "dict":
+        for guid in channelid_youtube_rss[output_dir]["content"]["list"]:
+            if guid not in yt_id_failed:
+                item = channelid_youtube_rss[output_dir]["content"]["item"][guid]
+                xml_item_text = xml_item(
+                    guid,
+                    output_dir,
+                    "https://youtube.com/watch?v=",
+                    channelid_youtube[channelid_youtube_ids[output_dir]]["title"],
+                    item["title"],
+                    re.sub(r"\n+", "\n", item["description"]),
+                    format_time(item["pubDate"]),
+                    item["image"],
+                )
+                items_list.append(f"{xml_item_text}<!-- {output_dir} -->")
+                entry_num += 1
+    else:
+        if channelid_youtube_rss[output_dir]["type"] == "html":  # 获取最新的rss信息
+            file_xml = channelid_youtube_rss[output_dir]["content"].text
+        else:
+            file_xml = channelid_youtube_rss[output_dir]["content"]
+        entrys = re.findall(r"<entry>.+?</entry>", file_xml, re.DOTALL)
+        for entry in entrys:
+            if (
+                re.search(r"(?<=<yt:videoId>).+(?=</yt:videoId>)", entry).group()
+                not in yt_id_failed
+            ):
+                items_list.append(f"{youtube_xml_item(entry)}<!-- {output_dir} -->")
+                entry_num += 1
+            if (
+                entry_num
+                >= channelid_youtube[channelid_youtube_ids[output_dir]]["update_size"]
+            ):
+                break
     items_guid = re.findall(r"(?<=<guid>).+?(?=</guid>)", "".join(items_list))
     entry_count = channelid_youtube[channelid_youtube_ids[output_dir]][
         "last_size"
@@ -1749,6 +1981,24 @@ def youtube_xml_items(output_dir):
                 xml_num += 1
             if xml_num >= entry_count:
                 break
+    try:
+        backward = channelid_youtube_rss[output_dir]["backward"]
+        for backward_guid in backward["list"]:
+            if backward_guid not in yt_id_failed:
+                backward_item = backward["item"][backward_guid]
+                backward_xml_item_text = xml_item(
+                    backward_guid,
+                    output_dir,
+                    "https://youtube.com/watch?v=",
+                    channelid_youtube[channelid_youtube_ids[output_dir]]["title"],
+                    backward_item["title"],
+                    re.sub(r"\n+", "\n", backward_item["description"]),
+                    format_time(backward_item["pubDate"]),
+                    backward_item["image"],
+                )
+                items_list.append(f"{backward_xml_item_text}<!-- {output_dir} -->")
+    except KeyError:
+        pass
     update_text = "无更新"
     try:
         with open(
@@ -1769,7 +2019,10 @@ def youtube_xml_items(output_dir):
         icon = youtube_xml_get_tree[output_dir]["icon"]
         update_text = "已更新"
     category = config["category"]
-    title = re.search(r"(?<=<title>).+(?=</title>)", file_xml).group()
+    if channelid_youtube_rss[output_dir]["type"] == "dict":
+        title = channelid_youtube_rss[output_dir]["content"]["title"]
+    else:
+        title = re.search(r"(?<=<title>).+(?=</title>)", file_xml).group()
     link = f"https://www.youtube.com/channel/{output_dir}"
     items = "".join(items_list)
     items = f"""<!-- {{{output_dir}}} -->
@@ -2028,6 +2281,8 @@ prepare_print.start()
 # 循环主更新
 while update_num > 0 or update_num == -1:
     
+    # 获取原始xml字典和rss文本
+    xmls_original, hash_rss_original, xmls_original_fail = get_original_rss()
     # 更新Youtube频道xml
     update_youtube_rss()
     # 判断是否有更新内容
@@ -2050,8 +2305,8 @@ while update_num > 0 or update_num == -1:
         youtube_download()
         # 恢复进程打印
         server_process_print_flag[0] = "keep"
-        # 获取原始xml字典和rss文本
-        xmls_original, hash_rss_original = get_original_rss()
+        # 打印无法保留原节目信息
+        original_rss_fail_print(xmls_original_fail)
         # 获取youtube频道简介
         get_youtube_introduction()
         # 暂停进程打印
@@ -2114,6 +2369,7 @@ while update_num > 0 or update_num == -1:
     youtube_content_ytid_update_format.clear()  # YouTube视频下载的详细信息字典
     hash_rss_original = ""  # 原始rss哈希值文本
     xmls_original.clear()  # 原始xml信息字典
+    xmls_original_fail.clear()  # 未获取原始xml频道列表
     youtube_xml_get_tree.clear()  # YouTube频道简介和图标字典
     all_youtube_content_ytid.clear()  # 所有YouTube视频id字典
     all_items.clear()  # 更新后所有item明细列表

@@ -33,7 +33,7 @@
 别忘了点赞、订阅，并在评论区分享你对水域活动的喜爱和自己的水域经历。期待和大家一起分享更多有趣的家庭吐槽！#水域活动 #家庭娱乐 #幽默探索</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="139"/>
+    <media:statistics views="159"/>
    </media:community>
   </media:group>
  </entry>
@@ -60,7 +60,7 @@
 别忘了点赞、订阅，并在评论区分享你对山东之旅的期待和自己的旅行计划。期待和大家一起分享更多有趣的家庭吐槽！#山东之旅 #夏日游山东 #家庭旅行 #幽默探索</media:description>
    <media:community>
     <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="557"/>
+    <media:statistics views="577"/>
    </media:community>
   </media:group>
  </entry>
@@ -87,7 +87,7 @@
 别忘了点赞、订阅，并在评论区分享你对老公对待老婆睡衣的看法和自己的经历。期待和大家一起分享更多有趣的家庭吐槽！#老公 #老婆睡衣 #家庭生活 #幽默揭秘</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="770"/>
+    <media:statistics views="772"/>
    </media:community>
   </media:group>
  </entry>
@@ -114,7 +114,7 @@
 别忘了点赞、订阅，并在评论区分享你对男人独特烧烤直觉的看法和自己的烧烤经历。期待和大家一起分享更多有趣的家庭吐槽！#烧烤季 #男人的直觉 #幽默吐槽</media:description>
    <media:community>
     <media:starRating count="9" average="5.00" min="1" max="5"/>
-    <media:statistics views="341"/>
+    <media:statistics views="342"/>
    </media:community>
   </media:group>
  </entry>
@@ -222,7 +222,7 @@
 别忘了点赞、订阅，并在评论区分享你对男人超能力的看法和自己的趣事经历。期待和大家一起分享更多有趣的家庭吐槽！#男人超能力 #家庭趣事 #幽默观察</media:description>
    <media:community>
     <media:starRating count="62" average="5.00" min="1" max="5"/>
-    <media:statistics views="5279"/>
+    <media:statistics views="5285"/>
    </media:community>
   </media:group>
  </entry>
@@ -249,7 +249,7 @@
 别忘了点赞、订阅，并在评论区分享你对婚后生活的看法和自己的趣事经历。期待和大家一起分享更多有趣的家庭吐槽！#婚后生活 #工资上缴 #家庭趣事</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="289"/>
+    <media:statistics views="290"/>
    </media:community>
   </media:group>
  </entry>
@@ -357,7 +357,7 @@
 别忘了点赞、订阅，并在评论区分享你对相亲的看法和自己的奇遇经历。让我们一起来笑对相亲的种种趣事吧！#相亲趣事 #穿越奇遇 #幽默观察</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="230"/>
+    <media:statistics views="231"/>
    </media:community>
   </media:group>
  </entry>
@@ -411,7 +411,7 @@
 别忘了点赞、订阅，并在评论区分享你对男人必备三件套的看法和自己的趣事经历。让我们一起来享受家庭生活中的乐趣吧！#家庭生活 #趣事经历 #幽默观察</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="268"/>
+    <media:statistics views="269"/>
    </media:community>
   </media:group>
  </entry>
