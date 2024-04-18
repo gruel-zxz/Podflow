@@ -27,8 +27,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/gnP02efaslQ/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1640" average="5.00" min="1" max="5"/>
-    <media:statistics views="50675"/>
+    <media:starRating count="1656" average="5.00" min="1" max="5"/>
+    <media:statistics views="51719"/>
    </media:community>
   </media:group>
  </entry>
@@ -50,8 +50,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/cqhALBcg4WI/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1564" average="5.00" min="1" max="5"/>
-    <media:statistics views="48060"/>
+    <media:starRating count="1571" average="5.00" min="1" max="5"/>
+    <media:statistics views="48478"/>
    </media:community>
   </media:group>
  </entry>
@@ -73,8 +73,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/ftXP3CUVnL4/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1336" average="5.00" min="1" max="5"/>
-    <media:statistics views="37203"/>
+    <media:starRating count="1338" average="5.00" min="1" max="5"/>
+    <media:statistics views="37504"/>
    </media:community>
   </media:group>
  </entry>
@@ -96,8 +96,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/vTSRRg6YJ-4/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1535" average="5.00" min="1" max="5"/>
-    <media:statistics views="51635"/>
+    <media:starRating count="1533" average="5.00" min="1" max="5"/>
+    <media:statistics views="51821"/>
    </media:community>
   </media:group>
  </entry>
@@ -119,8 +119,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/zyoCmgQoYs0/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="9535" average="5.00" min="1" max="5"/>
-    <media:statistics views="209447"/>
+    <media:starRating count="9539" average="5.00" min="1" max="5"/>
+    <media:statistics views="209834"/>
    </media:community>
   </media:group>
  </entry>
@@ -142,8 +142,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/BVdnpR_BaWk/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1990" average="5.00" min="1" max="5"/>
-    <media:statistics views="65577"/>
+    <media:starRating count="1992" average="5.00" min="1" max="5"/>
+    <media:statistics views="65769"/>
    </media:community>
   </media:group>
  </entry>
@@ -165,8 +165,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/nQccoTTe7Bc/hqdefault.jpg" width="480" height="360"/>
    <media:description>join @CrissaJackson, @MattSDance, @ReginaEigbe, &amp; @jaymondy. on Shorts to show the world you can dance like @Tylaofficial 🪩 #FreshOutTheGallery</media:description>
    <media:community>
-    <media:starRating count="1971" average="5.00" min="1" max="5"/>
-    <media:statistics views="82635"/>
+    <media:starRating count="1972" average="5.00" min="1" max="5"/>
+    <media:statistics views="82809"/>
    </media:community>
   </media:group>
  </entry>
@@ -188,8 +188,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/9hvWBP1q0GI/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2578" average="5.00" min="1" max="5"/>
-    <media:statistics views="83558"/>
+    <media:starRating count="2577" average="5.00" min="1" max="5"/>
+    <media:statistics views="83732"/>
    </media:community>
   </media:group>
  </entry>
@@ -212,7 +212,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1685" average="5.00" min="1" max="5"/>
-    <media:statistics views="51736"/>
+    <media:statistics views="51809"/>
    </media:community>
   </media:group>
  </entry>
@@ -235,7 +235,7 @@
    <media:description>watching @ricollinart_official2119 paint @Tylaofficial counts as meditation 🌀 #FreshOutTheGallery</media:description>
    <media:community>
     <media:starRating count="2181" average="5.00" min="1" max="5"/>
-    <media:statistics views="75252"/>
+    <media:statistics views="75405"/>
    </media:community>
   </media:group>
  </entry>
@@ -258,7 +258,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="2326" average="5.00" min="1" max="5"/>
-    <media:statistics views="78149"/>
+    <media:statistics views="78279"/>
    </media:community>
   </media:group>
  </entry>
@@ -280,8 +280,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/UPtzL13BLOA/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2171" average="5.00" min="1" max="5"/>
-    <media:statistics views="99727"/>
+    <media:starRating count="2173" average="5.00" min="1" max="5"/>
+    <media:statistics views="99869"/>
    </media:community>
   </media:group>
  </entry>
@@ -304,7 +304,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="2988" average="5.00" min="1" max="5"/>
-    <media:statistics views="107370"/>
+    <media:statistics views="107493"/>
    </media:community>
   </media:group>
  </entry>
@@ -354,8 +354,8 @@ Danganronpa: Trigger Happy Havoc: https://www.youtube.com/watch?v=KGBF6a6sxe4&am
 Polygon Article:
 Anime is huge — and we finally have numbers to prove it: https://www.polygon.com/c/2024/1/22/24034466/anime-is-huge-and-we-finally-have-numbers-to-prove-it</media:description>
    <media:community>
-    <media:starRating count="6541" average="5.00" min="1" max="5"/>
-    <media:statistics views="1168586"/>
+    <media:starRating count="6548" average="5.00" min="1" max="5"/>
+    <media:statistics views="1169041"/>
    </media:community>
   </media:group>
  </entry>
@@ -378,7 +378,7 @@ Anime is huge — and we finally have numbers to prove it: https://www.polygon.c
    <media:description></media:description>
    <media:community>
     <media:starRating count="2528" average="5.00" min="1" max="5"/>
-    <media:statistics views="84126"/>
+    <media:statistics views="84211"/>
    </media:community>
   </media:group>
  </entry>

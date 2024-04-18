@@ -11,6 +11,52 @@
  </author>
  <published>2020-08-21T01:53:13+00:00</published>
  <entry>
+  <id>yt:video:L9ltn4pJ9_E</id>
+  <yt:videoId>L9ltn4pJ9_E</yt:videoId>
+  <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
+  <title>一条核辐射手链，他几乎被锯掉四肢</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=L9ltn4pJ9_E"/>
+  <author>
+   <name>绝密研究所</name>
+   <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
+  </author>
+  <published>2024-04-18T08:13:50+00:00</published>
+  <updated>2024-04-18T08:29:15+00:00</updated>
+  <media:group>
+   <media:title>一条核辐射手链，他几乎被锯掉四肢</media:title>
+   <media:content url="https://www.youtube.com/v/L9ltn4pJ9_E?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/L9ltn4pJ9_E/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Z00rDKpl7DE</id>
+  <yt:videoId>Z00rDKpl7DE</yt:videoId>
+  <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
+  <title>日本奇葩法律， 莫名其妙让你坐牢</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Z00rDKpl7DE"/>
+  <author>
+   <name>绝密研究所</name>
+   <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
+  </author>
+  <published>2024-04-18T07:51:28+00:00</published>
+  <updated>2024-04-18T08:05:23+00:00</updated>
+  <media:group>
+   <media:title>日本奇葩法律， 莫名其妙让你坐牢</media:title>
+   <media:content url="https://www.youtube.com/v/Z00rDKpl7DE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/Z00rDKpl7DE/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:J8MYHRJy2q4</id>
   <yt:videoId>J8MYHRJy2q4</yt:videoId>
   <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
@@ -29,7 +75,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="0" average="0.00" min="1" max="5"/>
-    <media:statistics views="4"/>
+    <media:statistics views="5"/>
    </media:community>
   </media:group>
  </entry>
@@ -75,7 +121,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="0" average="0.00" min="1" max="5"/>
-    <media:statistics views="11"/>
+    <media:statistics views="12"/>
    </media:community>
   </media:group>
  </entry>
@@ -121,7 +167,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="52"/>
+    <media:statistics views="53"/>
    </media:community>
   </media:group>
  </entry>
@@ -144,7 +190,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="68"/>
+    <media:statistics views="72"/>
    </media:community>
   </media:group>
  </entry>
@@ -167,7 +213,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="18"/>
+    <media:statistics views="20"/>
    </media:community>
   </media:group>
  </entry>
@@ -306,52 +352,6 @@
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
     <media:statistics views="27"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:1CblLzfWIS4</id>
-  <yt:videoId>1CblLzfWIS4</yt:videoId>
-  <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
-  <title>隔夜似砒霜 ，剩菜剩饭能吃不</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=1CblLzfWIS4"/>
-  <author>
-   <name>绝密研究所</name>
-   <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
-  </author>
-  <published>2024-04-07T08:26:29+00:00</published>
-  <updated>2024-04-09T05:51:15+00:00</updated>
-  <media:group>
-   <media:title>隔夜似砒霜 ，剩菜剩饭能吃不</media:title>
-   <media:content url="https://www.youtube.com/v/1CblLzfWIS4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/1CblLzfWIS4/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="371"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:uRBu-1W844I</id>
-  <yt:videoId>uRBu-1W844I</yt:videoId>
-  <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
-  <title>如何在精神病院证明自己是正常人？</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=uRBu-1W844I"/>
-  <author>
-   <name>绝密研究所</name>
-   <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
-  </author>
-  <published>2024-04-05T00:00:06+00:00</published>
-  <updated>2024-04-06T23:42:48+00:00</updated>
-  <media:group>
-   <media:title>如何在精神病院证明自己是正常人？</media:title>
-   <media:content url="https://www.youtube.com/v/uRBu-1W844I?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/uRBu-1W844I/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="22"/>
    </media:community>
   </media:group>
  </entry>

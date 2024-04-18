@@ -46,7 +46,7 @@ default_config = {
     "channelid_bilibili": {
         "哔哩哔哩漫画": {
             "update_size": 15,
-            "id": "BL-------------326499679",
+            "id": "326499679",
             "title": "哔哩哔哩漫画",
             "quality": "480",
             "last_size": 50,
@@ -1943,8 +1943,8 @@ def youtube_xml_items(output_dir):
                     output_dir,
                     "https://youtube.com/watch?v=",
                     channelid_youtube[channelid_youtube_ids[output_dir]]["title"],
-                    item["title"],
-                    re.sub(r"\n+", "\n", item["description"]),
+                    html.escape(item["title"]),
+                    html.escape(re.sub(r"\n+", "\n", item["description"])),
                     format_time(item["pubDate"]),
                     item["image"],
                 )
@@ -1991,8 +1991,8 @@ def youtube_xml_items(output_dir):
                     output_dir,
                     "https://youtube.com/watch?v=",
                     channelid_youtube[channelid_youtube_ids[output_dir]]["title"],
-                    backward_item["title"],
-                    re.sub(r"\n+", "\n", backward_item["description"]),
+                    html.escape(backward_item["title"]),
+                    html.escape(re.sub(r"\n+", "\n", backward_item["description"])),
                     format_time(backward_item["pubDate"]),
                     backward_item["image"],
                 )
