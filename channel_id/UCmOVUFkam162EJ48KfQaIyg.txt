@@ -81,7 +81,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="875"/>
+    <media:statistics views="876"/>
    </media:community>
   </media:group>
  </entry>
@@ -981,7 +981,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="28" average="5.00" min="1" max="5"/>
-    <media:statistics views="4058"/>
+    <media:statistics views="4059"/>
    </media:community>
   </media:group>
  </entry>
@@ -1071,7 +1071,7 @@ Twitter：stone记@stone62855987</media:description>
    <uri>https://www.youtube.com/channel/UCmOVUFkam162EJ48KfQaIyg</uri>
   </author>
   <published>2023-05-16T10:41:36+00:00</published>
-  <updated>2024-03-01T15:11:03+00:00</updated>
+  <updated>2024-04-18T12:44:26+00:00</updated>
   <media:group>
    <media:title>订制Korth NXS之前先看这个视频（20230516第5964期）</media:title>
    <media:content url="https://www.youtube.com/v/IAssXIsRF4A?version=3" type="application/x-shockwave-flash" width="640" height="390"/>

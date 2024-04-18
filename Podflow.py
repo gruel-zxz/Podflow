@@ -1281,7 +1281,7 @@ def get_youtube_html_playlists(youtube_key, youtube_value, guids=[""], direction
     yt_initial_data = get_html_dict(f"https://www.youtube.com/watch?v={videoid_start}&list=UULF{youtube_key[-22:]}", f"{youtube_value} HTML", "ytInitialData")
     try:
         playlists = yt_initial_data['contents']['twoColumnWatchNextResults']['playlist']['playlist']['contents']
-        main_title = yt_initial_data["engagementPanels"][2]["engagementPanelSectionListRenderer"]["content"]["structuredDescriptionContentRenderer"]["items"][0]["videoDescriptionHeaderRenderer"]["channel"]["simpleText"]
+        main_title = yt_initial_data['contents']['twoColumnWatchNextResults']['playlist']['playlist']["ownerName"]["simpleText"]
     except (KeyError, TypeError, IndexError, ValueError):
         return None
     if direction_forward or videoid_start == "":
@@ -1422,7 +1422,7 @@ def youtube_rss_update(youtube_key, youtube_value, pattern_youtube_varys, patter
                 False,
                 min(backward_update_size, channelid_youtube[youtube_value]["BackwardUpdate_size"])
             )
-            if youtube_html_backward_playlists["list"]:
+            if youtube_html_backward_playlists and youtube_html_backward_playlists["list"]:
                 channelid_youtube_ids_update[youtube_key] = youtube_value
                 channelid_youtube_rss[youtube_key].update({"backward": youtube_html_backward_playlists})
                 for guid in youtube_html_backward_playlists["list"]:

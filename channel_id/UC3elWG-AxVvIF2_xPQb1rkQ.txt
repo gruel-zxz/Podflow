@@ -33,7 +33,7 @@
 别忘了点赞、订阅，并在评论区分享你对水域活动的喜爱和自己的水域经历。期待和大家一起分享更多有趣的家庭吐槽！#水域活动 #家庭娱乐 #幽默探索</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="188"/>
+    <media:statistics views="273"/>
    </media:community>
   </media:group>
  </entry>
@@ -60,7 +60,7 @@
 别忘了点赞、订阅，并在评论区分享你对山东之旅的期待和自己的旅行计划。期待和大家一起分享更多有趣的家庭吐槽！#山东之旅 #夏日游山东 #家庭旅行 #幽默探索</media:description>
    <media:community>
     <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="586"/>
+    <media:statistics views="589"/>
    </media:community>
   </media:group>
  </entry>
@@ -86,8 +86,8 @@
 
 别忘了点赞、订阅，并在评论区分享你对老公对待老婆睡衣的看法和自己的经历。期待和大家一起分享更多有趣的家庭吐槽！#老公 #老婆睡衣 #家庭生活 #幽默揭秘</media:description>
    <media:community>
-    <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="773"/>
+    <media:starRating count="8" average="5.00" min="1" max="5"/>
+    <media:statistics views="779"/>
    </media:community>
   </media:group>
  </entry>
@@ -221,8 +221,8 @@
 
 别忘了点赞、订阅，并在评论区分享你对男人超能力的看法和自己的趣事经历。期待和大家一起分享更多有趣的家庭吐槽！#男人超能力 #家庭趣事 #幽默观察</media:description>
    <media:community>
-    <media:starRating count="62" average="5.00" min="1" max="5"/>
-    <media:statistics views="5286"/>
+    <media:starRating count="63" average="5.00" min="1" max="5"/>
+    <media:statistics views="5288"/>
    </media:community>
   </media:group>
  </entry>
@@ -384,7 +384,7 @@
 别忘了点赞、订阅，并在评论区分享你对这些小众用法的看法和自己的奇葩经历。让我们一起来欣赏家庭生活中的不可思议之处吧！#家庭生活 #趣事经历 #幽默观察</media:description>
    <media:community>
     <media:starRating count="74" average="5.00" min="1" max="5"/>
-    <media:statistics views="4964"/>
+    <media:statistics views="4966"/>
    </media:community>
   </media:group>
  </entry>
