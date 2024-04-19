@@ -10,6 +10,7 @@ import math
 import time
 import hashlib
 import zipfile
+import binascii
 import threading
 import subprocess
 import http.cookiejar
@@ -1217,15 +1218,190 @@ def correct_channelid(channelid, website):
     return channelid
 
 # 读取频道ID模块
-def get_channelid_id(channelid):
+def get_channelid_id(channelid, idname):
     if channelid is not None:
         channelid_ids = dict(
             {channel["id"]: key for key, channel in channelid.items()}
         )
-        write_log("读取youtube频道的channelid成功")
+        write_log(f"读取{idname}频道的channelid成功")
     else:
         channelid_ids = None
     return channelid_ids
+
+# 申请bilibili二维码并获取token和URL模块
+def bilibili_request_qr_code():
+    # 实际申请二维码的API请求
+    response = http_client('https://passport.bilibili.com/x/passport-login/web/qrcode/generate', '申请bilibili二维码', 3, 5, True)
+    data = response.json()
+    return data['data']['qrcode_key'], data['data']['url']
+
+# 扫码登录bilibili并返回状态和cookie模块
+def bilibili_scan_login(token):
+    # 发送GET请求
+    response = http_client('https://passport.bilibili.com/x/passport-login/web/qrcode/poll', '', 1, 1, True, None, {'qrcode_key': token})
+    if response:
+        data = response.json()
+        cookies = response.cookies
+        return data['data']['code'], cookies, data['data']['refresh_token']
+    else:
+        return None, None, None
+
+# 登陆bilibili模块
+def bilibili_login():
+    token, url = bilibili_request_qr_code()
+    print(f"{datetime.now().strftime('%H:%M:%S')}|请用bilibili App扫描登录:")
+    upward = qr_code(url)
+    login_status_change = ""
+    time_print = f"{datetime.now().strftime('%H:%M:%S')}|bilibili "
+    while True:
+        status, cookie, refresh_token = bilibili_scan_login(token)
+        if status == 86101:
+            login_status = '\033[0m未扫描\033[0m'
+        elif status == 86038:
+            login_status = '\033[31m二维码超时, 请重试\033[0m'
+        elif status == 86090:
+            login_status = '\033[32m扫描成功\033[0m'
+        elif status == 0:
+            login_status = '\033[32m登陆成功\033[0m'
+        if login_status_change != login_status:
+            if login_status == '':
+                print(f"{time_print}{login_status}".ljust(42), end = "")
+            else:
+                print(f"\r{time_print}{login_status}".ljust(42), end = "")
+        login_status_change = login_status
+        if status == 86038:
+            print("")
+            return status, refresh_token, upward
+        elif status == 0:
+            print("")
+            return cookie, refresh_token, upward
+        time.sleep(1)
+
+# 保存bilibili登陆成功后的cookies模块
+def save_bilibili_cookies():
+    bilibili_cookie, refresh_token, upward = bilibili_login()
+    if bilibili_cookie == 86038:
+        return {}, upward
+    else:
+        bilibili_cookie = requests.utils.dict_from_cookiejar(bilibili_cookie)
+        bilibili_data = {
+            "cookie": bilibili_cookie,
+            "refresh_token": refresh_token,
+        }
+        file_save(json.dumps(bilibili_data, ensure_ascii=False), "bilibili_data.json")
+        return bilibili_cookie, upward
+
+# 检查bilibili是否需要刷新模块
+def judgment_bilibili_update(cookies):
+    url = "https://passport.bilibili.com/x/passport-login/web/cookie/info"
+    response = http_client(url, 'bilibili刷新判断', 3, 5, True, cookies)
+    response = response.json()
+    if response["code"] == 0:
+        return response["code"], response["data"]["refresh"]
+    else:
+        return response["code"], None
+
+# bilibili_cookie刷新模块
+def bilibili_cookie_update(bilibili_data):
+    bilibili_cookie = bilibili_data["cookie"]
+    # 获取refresh_csrf
+    key = RSA.importKey('''\
+-----BEGIN PUBLIC KEY-----
+MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDLgd2OAkcGVtoE3ThUREbio0Eg
+Uc/prcajMKXvkCKFCWhJYJcLkcM2DKKcSeFpD/j6Boy538YXnR6VhcuUJOhH2x71
+nzPjfdTcqMz7djHum0qSZA0AyCBDABUqCrfNgCiJ00Ra7GmRj+YCK1NJEuewlb40
+JNrRuoEUXpabUzGB8QIDAQAB
+-----END PUBLIC KEY-----''')
+    # 生成CorrespondPath模块
+    def getCorrespondPath(ts):
+        cipher = PKCS1_OAEP.new(key, SHA256)
+        encrypted = cipher.encrypt(f'refresh_{ts}'.encode())
+        return binascii.b2a_hex(encrypted).decode()
+    # 获取当前时间戳
+    ts = http_client("https://api.m.taobao.com/rest/api3.do?api=mtop.common.getTimestamp", '获取时间戳', 3, 5).json()["data"]["t"]  # ts = round(time.time() * 1000)
+    # 获取refresh_csrf
+    refresh_csrf_response = http_client(f"https://www.bilibili.com/correspond/1/{getCorrespondPath(ts)}", '获取refresh_csrf', 3, 5, True, bilibili_cookie)
+    if refresh_csrf_match := re.search(r'<div id="1-name">(.+?)</div>', refresh_csrf_response.text):
+        refresh_csrf_value = refresh_csrf_match[1]
+    else:
+        return {}
+    # 更新bilibili_cookie
+    update_cookie_url = 'https://passport.bilibili.com/x/passport-login/web/cookie/refresh'
+    update_cookie_data = {
+        'csrf': bilibili_cookie["bili_jct"],
+        'refresh_csrf': refresh_csrf_value,
+        'source': 'main_web',
+        'refresh_token': bilibili_data["refresh_token"]
+    }
+    update_cookie_response = http_client(update_cookie_url, '更新bilibili_cookie', 3, 5, True, bilibili_cookie, update_cookie_data, "post")
+    if update_cookie_response.json()["code"] == 0:
+        new_bilibili_cookie = requests.utils.dict_from_cookiejar(update_cookie_response.cookies)
+        new_refresh_token = update_cookie_response.json()["data"]["refresh_token"]
+    else:
+        print(update_cookie_response.json()["code"])  # 测试
+        return {}
+    # 确认更新bilibili_cookie
+    confirm_cookie_url = 'https://passport.bilibili.com/x/passport-login/web/confirm/refresh'
+    confirm_cookie_data = {
+        'csrf': new_bilibili_cookie["bili_jct"],
+        'refresh_token': bilibili_data["refresh_token"]
+    }
+    confirm_cookie_response = http_client(confirm_cookie_url, '确认更新bilibili_cookie', 3, 5, True, new_bilibili_cookie, confirm_cookie_data, "post")
+    if confirm_cookie_response.json()["code"] == 0:
+        bilibili_data["cookie"] = new_bilibili_cookie
+        bilibili_data["refresh_token"] = new_refresh_token
+        file_save(json.dumps(bilibili_data, ensure_ascii=False), "bilibili_data.json")
+        return new_bilibili_cookie
+    else:
+        return {}
+
+# 生成Netscape_HTTP_Cookie模块
+def bulid_Netscape_HTTP_Cookie(file_name, cookie={}):
+    # 创建一个MozillaCookieJar对象，指定保存文件
+    cookie_jar = http.cookiejar.MozillaCookieJar(f"{file_name}.txt")
+    for cookie_name, cookie_value in cookie.items():
+        # 创建一个Cookie对象
+        cookie = requests.cookies.create_cookie(name=cookie_name, value=cookie_value)
+        # 将Cookie添加到CookieJar中
+        cookie_jar.set_cookie(cookie)
+    # 保存CookieJar对象的数据到文件中
+    cookie_jar.save(ignore_discard=True, ignore_expires=True)
+
+# 登陆刷新bilibili并获取data
+def get_bilibili_data():
+    try:
+        with open('bilibili_data.json', 'r') as file:
+            bilibili_data = file.read()
+        bilibili_data = json.loads(bilibili_data)
+        bilibili_cookie = bilibili_data["cookie"]
+    except Exception:
+        bilibili_cookie = {}
+    bilibili_login_code, bilibili_login_refresh_token = judgment_bilibili_update(bilibili_cookie)
+    upward = 0
+    try_num = 0
+    while try_num < 3 and (bilibili_login_code != 0 or bilibili_login_refresh_token is not False):
+        if bilibili_login_code != 0:
+            if try_num == 0:
+                print(f"{datetime.now().strftime('%H:%M:%S')}|bilibili 未登陆")
+            else:
+                print(f"\033[{upward + 3}F\033[{upward + 3}K{datetime.now().strftime('%H:%M:%S')}|bilibili 未登陆, 重试第{try_num}次")
+            bilibili_cookie, upward = save_bilibili_cookies()
+            try_num += 1
+        else:
+            print(f"{datetime.now().strftime('%H:%M:%S')}|bilibili 需刷新")
+            bilibili_cookie = bilibili_cookie_update(bilibili_data)
+            if bilibili_cookie:
+                print(f"{datetime.now().strftime('%H:%M:%S')}|bilibili 刷新成功")
+            else:
+                print(f"{datetime.now().strftime('%H:%M:%S')}|bilibili 刷新失败, 重新登陆")
+        bilibili_login_code, bilibili_login_refresh_token = judgment_bilibili_update(bilibili_cookie)
+    if bilibili_login_code == 0 and bilibili_login_refresh_token is False:
+        bulid_Netscape_HTTP_Cookie("yt_dlp_bilibili", bilibili_cookie)
+        print(f"{datetime.now().strftime('%H:%M:%S')}|bilibili 获取cookie成功")
+        return bilibili_cookie
+    else:
+        print(f"{datetime.now().strftime('%H:%M:%S')}|bilibili 获取cookie失败")
+        return None
 
 # 通过bs4获取html中字典模块
 def get_html_dict(url, name, script_label):
@@ -1298,23 +1474,21 @@ def get_youtube_html_playlists(youtube_key, youtube_value, guids=[""], direction
                 item_thread.start()
                 threads.append(item_thread)
     else:
-        judge = False
-        num = 1
-        for playlist in playlists:
+        reversed_playlists = []
+        for playlist in reversed(playlists):
             videoid = playlist['playlistPanelVideoRenderer']['videoId']
-            if judge:
-                if num <= min(20, update_size):
-                    title = playlist['playlistPanelVideoRenderer']['title']['simpleText']
-                    idlist.append(videoid)
-                    item[videoid] = {"title": title}
-                    num += 1
-                    item_thread = threading.Thread(target=get_video_item, args=(videoid, youtube_value,))
-                    item_thread.start()
-                    threads.append(item_thread)
-                else:
-                    break
-            if videoid == videoid_start:
-                judge = True
+            if videoid not in guids:
+                reversed_playlists.append(playlist)
+            else:
+                break
+        for playlist in reversed(reversed_playlists[-update_size:]):
+            videoid = playlist['playlistPanelVideoRenderer']['videoId']
+            title = playlist['playlistPanelVideoRenderer']['title']['simpleText']
+            idlist.append(videoid)
+            item[videoid] = {"title": title}
+            item_thread = threading.Thread(target=get_video_item, args=(videoid, youtube_value,))
+            item_thread.start()
+            threads.append(item_thread)
     for thread in threads:
         thread.join()
     for videoid in fail:
@@ -2225,11 +2399,11 @@ folder_build("channel_rss")
 # 修正channelid_youtube
 channelid_youtube = correct_channelid(channelid_youtube, "youtube")
 # 读取youtube频道的id
-channelid_youtube_ids = get_channelid_id(channelid_youtube)
+channelid_youtube_ids = get_channelid_id(channelid_youtube, "youtube")
 # 复制youtube频道id用于删除已抛弃的媒体文件夹
 channelid_youtube_ids_original = channelid_youtube_ids.copy()
 # 读取bilibili频道的id
-channelid_bilibili_ids = get_channelid_id(channelid_bilibili)
+channelid_bilibili_ids = get_channelid_id(channelid_bilibili, "bilibili")
 
 # 尝试获取命令行参数
 try:

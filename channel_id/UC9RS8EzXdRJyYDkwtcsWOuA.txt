@@ -42,7 +42,7 @@
 #日本 #vlog #留學</media:description>
    <media:community>
     <media:starRating count="4033" average="5.00" min="1" max="5"/>
-    <media:statistics views="200202"/>
+    <media:statistics views="200215"/>
    </media:community>
   </media:group>
  </entry>
@@ -86,7 +86,7 @@
 #日本漫畫 #殺手阿一 #cult</media:description>
    <media:community>
     <media:starRating count="1139" average="5.00" min="1" max="5"/>
-    <media:statistics views="56001"/>
+    <media:statistics views="56010"/>
    </media:community>
   </media:group>
  </entry>
@@ -131,7 +131,7 @@
 #日本漫畫 #殺手阿一 #cult</media:description>
    <media:community>
     <media:starRating count="1180" average="5.00" min="1" max="5"/>
-    <media:statistics views="97495"/>
+    <media:statistics views="97506"/>
    </media:community>
   </media:group>
  </entry>
@@ -177,7 +177,7 @@
 #日本 #次文化 #戀物</media:description>
    <media:community>
     <media:starRating count="1051" average="5.00" min="1" max="5"/>
-    <media:statistics views="64714"/>
+    <media:statistics views="64730"/>
    </media:community>
   </media:group>
  </entry>
@@ -220,8 +220,8 @@
 
 #遊戲 #videogames  #日本</media:description>
    <media:community>
-    <media:starRating count="2628" average="5.00" min="1" max="5"/>
-    <media:statistics views="242182"/>
+    <media:starRating count="2627" average="5.00" min="1" max="5"/>
+    <media:statistics views="242202"/>
    </media:community>
   </media:group>
  </entry>
@@ -266,7 +266,7 @@
 #日本 #動漫 #日本電影</media:description>
    <media:community>
     <media:starRating count="2351" average="5.00" min="1" max="5"/>
-    <media:statistics views="232838"/>
+    <media:statistics views="232872"/>
    </media:community>
   </media:group>
  </entry>
@@ -310,8 +310,8 @@
 ▶追蹤TenGuSan的IG：@tengusan.real
 ▶我的品牌官網：www.under20.com</media:description>
    <media:community>
-    <media:starRating count="2569" average="5.00" min="1" max="5"/>
-    <media:statistics views="248941"/>
+    <media:starRating count="2571" average="5.00" min="1" max="5"/>
+    <media:statistics views="249028"/>
    </media:community>
   </media:group>
  </entry>
@@ -353,7 +353,7 @@
 ▶我的品牌官網：www.under20.com</media:description>
    <media:community>
     <media:starRating count="2014" average="5.00" min="1" max="5"/>
-    <media:statistics views="178154"/>
+    <media:statistics views="178221"/>
    </media:community>
   </media:group>
  </entry>
@@ -416,8 +416,8 @@
 ▶追蹤TenGuSan的IG：@tengusan.real
 ▶我的品牌官網：www.under20.com</media:description>
    <media:community>
-    <media:starRating count="1864" average="5.00" min="1" max="5"/>
-    <media:statistics views="304730"/>
+    <media:starRating count="1865" average="5.00" min="1" max="5"/>
+    <media:statistics views="304761"/>
    </media:community>
   </media:group>
  </entry>
@@ -458,8 +458,8 @@
 
 #日本 #日本社會</media:description>
    <media:community>
-    <media:starRating count="891" average="5.00" min="1" max="5"/>
-    <media:statistics views="67973"/>
+    <media:starRating count="892" average="5.00" min="1" max="5"/>
+    <media:statistics views="67977"/>
    </media:community>
   </media:group>
  </entry>
@@ -504,7 +504,7 @@
 #2ch #日本文化 #互聯網</media:description>
    <media:community>
     <media:starRating count="979" average="5.00" min="1" max="5"/>
-    <media:statistics views="75591"/>
+    <media:statistics views="75607"/>
    </media:community>
   </media:group>
  </entry>
@@ -545,7 +545,7 @@
 #日本社會 #刑務所 #越獄</media:description>
    <media:community>
     <media:starRating count="719" average="5.00" min="1" max="5"/>
-    <media:statistics views="55868"/>
+    <media:statistics views="55872"/>
    </media:community>
   </media:group>
  </entry>
@@ -596,7 +596,7 @@
 ▶我的品牌官網：www.under20.com</media:description>
    <media:community>
     <media:starRating count="1806" average="5.00" min="1" max="5"/>
-    <media:statistics views="122797"/>
+    <media:statistics views="122811"/>
    </media:community>
   </media:group>
  </entry>
@@ -638,7 +638,7 @@
 #福島核污水 #日本核廢水 #核輻射 #科幻</media:description>
    <media:community>
     <media:starRating count="780" average="5.00" min="1" max="5"/>
-    <media:statistics views="42083"/>
+    <media:statistics views="42085"/>
    </media:community>
   </media:group>
  </entry>
@@ -685,7 +685,7 @@
 #伊藤潤二 #恐怖 #日本 #次文化</media:description>
    <media:community>
     <media:starRating count="1429" average="5.00" min="1" max="5"/>
-    <media:statistics views="92115"/>
+    <media:statistics views="92121"/>
    </media:community>
   </media:group>
  </entry>

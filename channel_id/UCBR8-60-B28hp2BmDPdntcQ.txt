@@ -27,8 +27,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/TD75mxVwPlI/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="744" average="5.00" min="1" max="5"/>
-    <media:statistics views="10510"/>
+    <media:starRating count="900" average="5.00" min="1" max="5"/>
+    <media:statistics views="16438"/>
    </media:community>
   </media:group>
  </entry>
@@ -50,8 +50,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/gnP02efaslQ/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1799" average="5.00" min="1" max="5"/>
-    <media:statistics views="58822"/>
+    <media:starRating count="1829" average="5.00" min="1" max="5"/>
+    <media:statistics views="61010"/>
    </media:community>
   </media:group>
  </entry>
@@ -66,15 +66,15 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-04-12T15:00:15+00:00</published>
-  <updated>2024-04-14T17:16:45+00:00</updated>
+  <updated>2024-04-18T21:36:56+00:00</updated>
   <media:group>
    <media:title>COACHELLA IS ALMOST HERE 🌴 comment a question for your fave artists and we’ll ask them ASAP</media:title>
    <media:content url="https://www.youtube.com/v/cqhALBcg4WI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i4.ytimg.com/vi/cqhALBcg4WI/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1648" average="5.00" min="1" max="5"/>
-    <media:statistics views="51641"/>
+    <media:starRating count="1671" average="5.00" min="1" max="5"/>
+    <media:statistics views="53054"/>
    </media:community>
   </media:group>
  </entry>
@@ -89,15 +89,15 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-04-11T18:00:12+00:00</published>
-  <updated>2024-04-17T16:33:49+00:00</updated>
+  <updated>2024-04-18T21:35:11+00:00</updated>
   <media:group>
    <media:title>coachelllaaa (so fun to say) who are you most excited to see first?? let us know in the comments 😊</media:title>
    <media:content url="https://www.youtube.com/v/ftXP3CUVnL4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i3.ytimg.com/vi/ftXP3CUVnL4/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1383" average="5.00" min="1" max="5"/>
-    <media:statistics views="39492"/>
+    <media:starRating count="1393" average="5.00" min="1" max="5"/>
+    <media:statistics views="40396"/>
    </media:community>
   </media:group>
  </entry>
@@ -119,8 +119,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/vTSRRg6YJ-4/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1562" average="5.00" min="1" max="5"/>
-    <media:statistics views="53353"/>
+    <media:starRating count="1574" average="5.00" min="1" max="5"/>
+    <media:statistics views="54131"/>
    </media:community>
   </media:group>
  </entry>
@@ -142,8 +142,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/zyoCmgQoYs0/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="9580" average="5.00" min="1" max="5"/>
-    <media:statistics views="212742"/>
+    <media:starRating count="9595" average="5.00" min="1" max="5"/>
+    <media:statistics views="214282"/>
    </media:community>
   </media:group>
  </entry>
@@ -165,8 +165,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/BVdnpR_BaWk/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2009" average="5.00" min="1" max="5"/>
-    <media:statistics views="67126"/>
+    <media:starRating count="2017" average="5.00" min="1" max="5"/>
+    <media:statistics views="67779"/>
    </media:community>
   </media:group>
  </entry>
@@ -188,8 +188,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/nQccoTTe7Bc/hqdefault.jpg" width="480" height="360"/>
    <media:description>join @CrissaJackson, @MattSDance, @ReginaEigbe, &amp; @jaymondy. on Shorts to show the world you can dance like @Tylaofficial 🪩 #FreshOutTheGallery</media:description>
    <media:community>
-    <media:starRating count="1989" average="5.00" min="1" max="5"/>
-    <media:statistics views="84239"/>
+    <media:starRating count="2003" average="5.00" min="1" max="5"/>
+    <media:statistics views="84957"/>
    </media:community>
   </media:group>
  </entry>
@@ -211,8 +211,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/9hvWBP1q0GI/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2591" average="5.00" min="1" max="5"/>
-    <media:statistics views="85082"/>
+    <media:starRating count="2598" average="5.00" min="1" max="5"/>
+    <media:statistics views="85754"/>
    </media:community>
   </media:group>
  </entry>
@@ -234,8 +234,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/DnfaW7KaGws/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1693" average="5.00" min="1" max="5"/>
-    <media:statistics views="52467"/>
+    <media:starRating count="1698" average="5.00" min="1" max="5"/>
+    <media:statistics views="52821"/>
    </media:community>
   </media:group>
  </entry>
@@ -257,8 +257,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/ZjqHACGf0cY/hqdefault.jpg" width="480" height="360"/>
    <media:description>watching @ricollinart_official2119 paint @Tylaofficial counts as meditation 🌀 #FreshOutTheGallery</media:description>
    <media:community>
-    <media:starRating count="2194" average="5.00" min="1" max="5"/>
-    <media:statistics views="76617"/>
+    <media:starRating count="2206" average="5.00" min="1" max="5"/>
+    <media:statistics views="77366"/>
    </media:community>
   </media:group>
  </entry>
@@ -280,8 +280,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/3IuZD1ddSVY/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2340" average="5.00" min="1" max="5"/>
-    <media:statistics views="79258"/>
+    <media:starRating count="2349" average="5.00" min="1" max="5"/>
+    <media:statistics views="79773"/>
    </media:community>
   </media:group>
  </entry>
@@ -303,8 +303,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/UPtzL13BLOA/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2179" average="5.00" min="1" max="5"/>
-    <media:statistics views="100898"/>
+    <media:starRating count="2182" average="5.00" min="1" max="5"/>
+    <media:statistics views="101466"/>
    </media:community>
   </media:group>
  </entry>
@@ -326,8 +326,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/6N2yO7DPHAs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2995" average="5.00" min="1" max="5"/>
-    <media:statistics views="108399"/>
+    <media:starRating count="3003" average="5.00" min="1" max="5"/>
+    <media:statistics views="108868"/>
    </media:community>
   </media:group>
  </entry>
@@ -377,8 +377,8 @@ Danganronpa: Trigger Happy Havoc: https://www.youtube.com/watch?v=KGBF6a6sxe4&am
 Polygon Article:
 Anime is huge — and we finally have numbers to prove it: https://www.polygon.com/c/2024/1/22/24034466/anime-is-huge-and-we-finally-have-numbers-to-prove-it</media:description>
    <media:community>
-    <media:starRating count="6588" average="5.00" min="1" max="5"/>
-    <media:statistics views="1153695"/>
+    <media:starRating count="6614" average="5.00" min="1" max="5"/>
+    <media:statistics views="1155187"/>
    </media:community>
   </media:group>
  </entry>

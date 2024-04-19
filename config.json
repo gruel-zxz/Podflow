@@ -46,6 +46,19 @@
             "update_size": 2
         }
     },
+    "channelid_bilibili": {
+        "哔哩哔哩漫画": {
+            "update_size": 15,
+            "id": "326499679",
+            "title": "哔哩哔哩漫画",
+            "quality": "480",
+            "last_size": 50,
+            "media": "m4a",
+            "DisplayRSSaddress": false,
+            "InmainRSS": true,
+            "QRcode": false
+        }
+    },
     "retry_count": 2,
     "link": "m.youtube.com",
     "url": "https://raw.githubusercontent.com/gruel-zxz/podflow/main",

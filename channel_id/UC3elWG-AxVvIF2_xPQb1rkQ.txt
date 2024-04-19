@@ -11,6 +11,33 @@
  </author>
  <published>2022-06-04T16:17:27+00:00</published>
  <entry>
+  <id>yt:video:JqvZO3V_UeI</id>
+  <yt:videoId>JqvZO3V_UeI</yt:videoId>
+  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
+  <title>为什么说藏私房钱的男人都是好男人？四季妈妈来解密#爱吐槽的四季妈妈 #家庭吐槽大会</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=JqvZO3V_UeI"/>
+  <author>
+   <name>四季妈妈—小龙</name>
+   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
+  </author>
+  <published>2024-04-19T09:58:30+00:00</published>
+  <updated>2024-04-19T09:58:30+00:00</updated>
+  <media:group>
+   <media:title>为什么说藏私房钱的男人都是好男人？四季妈妈来解密#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
+   <media:content url="https://www.youtube.com/v/JqvZO3V_UeI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/JqvZO3V_UeI/hqdefault.jpg" width="480" height="360"/>
+   <media:description>大家好，欢迎来到我的频道！在这期视频中，四季妈妈要和大家一起探讨为什么说藏私房钱的男人都是好男人。
+
+许多人认为，男人会为了家庭的未来和应急情况而藏私房钱是一种负责任和体贴的表现。他们的这种举动表明了他们对家庭的关爱和责任感。那么，究竟是什么原因让人们对藏私房钱的男人产生这样的看法呢？让我们一起来解密！
+
+别忘了点赞、订阅，并在评论区分享你对藏私房钱的看法和自己的家庭故事。期待和大家一起分享更多有趣的家庭吐槽！#藏私房钱 #好男人 #家庭关爱 #幽默解密</media:description>
+   <media:community>
+    <media:starRating count="4" average="5.00" min="1" max="5"/>
+    <media:statistics views="68"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:1ThgqDO-30E</id>
   <yt:videoId>1ThgqDO-30E</yt:videoId>
   <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
@@ -33,7 +60,7 @@
 别忘了点赞、订阅，并在评论区分享你对水域活动的喜爱和自己的水域经历。期待和大家一起分享更多有趣的家庭吐槽！#水域活动 #家庭娱乐 #幽默探索</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="415"/>
+    <media:statistics views="505"/>
    </media:community>
   </media:group>
  </entry>
@@ -60,7 +87,7 @@
 别忘了点赞、订阅，并在评论区分享你对山东之旅的期待和自己的旅行计划。期待和大家一起分享更多有趣的家庭吐槽！#山东之旅 #夏日游山东 #家庭旅行 #幽默探索</media:description>
    <media:community>
     <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="594"/>
+    <media:statistics views="598"/>
    </media:community>
   </media:group>
  </entry>
@@ -87,7 +114,7 @@
 别忘了点赞、订阅，并在评论区分享你对老公对待老婆睡衣的看法和自己的经历。期待和大家一起分享更多有趣的家庭吐槽！#老公 #老婆睡衣 #家庭生活 #幽默揭秘</media:description>
    <media:community>
     <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="791"/>
+    <media:statistics views="795"/>
    </media:community>
   </media:group>
  </entry>
@@ -114,7 +141,7 @@
 别忘了点赞、订阅，并在评论区分享你对男人独特烧烤直觉的看法和自己的烧烤经历。期待和大家一起分享更多有趣的家庭吐槽！#烧烤季 #男人的直觉 #幽默吐槽</media:description>
    <media:community>
     <media:starRating count="9" average="5.00" min="1" max="5"/>
-    <media:statistics views="345"/>
+    <media:statistics views="349"/>
    </media:community>
   </media:group>
  </entry>
@@ -141,7 +168,7 @@
 别忘了点赞、订阅，并在评论区分享你对建立自信的看法和自己的沟通经历。期待和大家一起分享更多有趣的家庭吐槽！#建立自信 #男女沟通 #幽默分享</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="281"/>
+    <media:statistics views="286"/>
    </media:community>
   </media:group>
  </entry>
@@ -168,7 +195,7 @@
 别忘了点赞、订阅，并在评论区分享你对东北人的看法和自己的趣事经历。期待和大家一起分享更多有趣的家庭吐槽！#东北人 #家庭趣事 #幽默观察</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="416"/>
+    <media:statistics views="415"/>
    </media:community>
   </media:group>
  </entry>
@@ -195,7 +222,7 @@
 别忘了点赞、订阅，并在评论区分享你对北方与南方烧烤的看法和自己的烧烤经历。期待和大家一起分享更多有趣的家庭吐槽！#北方烧烤 #南方烧烤 #家庭趣事 #幽默观察</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="411"/>
+    <media:statistics views="412"/>
    </media:community>
   </media:group>
  </entry>
@@ -222,7 +249,7 @@
 别忘了点赞、订阅，并在评论区分享你对男人超能力的看法和自己的趣事经历。期待和大家一起分享更多有趣的家庭吐槽！#男人超能力 #家庭趣事 #幽默观察</media:description>
    <media:community>
     <media:starRating count="63" average="5.00" min="1" max="5"/>
-    <media:statistics views="5294"/>
+    <media:statistics views="5297"/>
    </media:community>
   </media:group>
  </entry>
@@ -249,7 +276,7 @@
 别忘了点赞、订阅，并在评论区分享你对婚后生活的看法和自己的趣事经历。期待和大家一起分享更多有趣的家庭吐槽！#婚后生活 #工资上缴 #家庭趣事</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="291"/>
+    <media:statistics views="292"/>
    </media:community>
   </media:group>
  </entry>
@@ -384,34 +411,7 @@
 别忘了点赞、订阅，并在评论区分享你对这些小众用法的看法和自己的奇葩经历。让我们一起来欣赏家庭生活中的不可思议之处吧！#家庭生活 #趣事经历 #幽默观察</media:description>
    <media:community>
     <media:starRating count="74" average="5.00" min="1" max="5"/>
-    <media:statistics views="4971"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:N3XoVhFR_tY</id>
-  <yt:videoId>N3XoVhFR_tY</yt:videoId>
-  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
-  <title>男人必备的三件套，你凑齐了吗？四季妈妈爱吐槽带你嘲笑家庭趣事？#爱吐槽的四季妈妈 #家庭吐槽大会</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=N3XoVhFR_tY"/>
-  <author>
-   <name>四季妈妈—小龙</name>
-   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
-  </author>
-  <published>2024-03-21T08:28:06+00:00</published>
-  <updated>2024-03-26T23:29:44+00:00</updated>
-  <media:group>
-   <media:title>男人必备的三件套，你凑齐了吗？四季妈妈爱吐槽带你嘲笑家庭趣事？#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
-   <media:content url="https://www.youtube.com/v/N3XoVhFR_tY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/N3XoVhFR_tY/hqdefault.jpg" width="480" height="360"/>
-   <media:description>大家好，欢迎来到我的频道！今天我们要探讨的是男人必备的三件套，你凑齐了吗？四季妈妈爱吐槽，带你一起嘲笑家庭中的趣事。
-
-在这期视频中，我将分享男人必备的三件套：遥控器、拖鞋和睡衣。这些家庭生活中的必备物品，有时候会成为男人们的“标配”，引发家庭中的各种趣事和笑料。让我们一起来笑对生活中的这些小插曲！
-
-别忘了点赞、订阅，并在评论区分享你对男人必备三件套的看法和自己的趣事经历。让我们一起来享受家庭生活中的乐趣吧！#家庭生活 #趣事经历 #幽默观察</media:description>
-   <media:community>
-    <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="270"/>
+    <media:statistics views="4977"/>
    </media:community>
   </media:group>
  </entry>
