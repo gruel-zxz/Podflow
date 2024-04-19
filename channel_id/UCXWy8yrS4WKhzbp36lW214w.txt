@@ -11,6 +11,29 @@
  </author>
  <published>2020-08-21T01:53:13+00:00</published>
  <entry>
+  <id>yt:video:rz-KrAIfN84</id>
+  <yt:videoId>rz-KrAIfN84</yt:videoId>
+  <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
+  <title>绝顶聪明的8个人类设计</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=rz-KrAIfN84"/>
+  <author>
+   <name>绝密研究所</name>
+   <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
+  </author>
+  <published>2024-04-19T00:15:06+00:00</published>
+  <updated>2024-04-19T00:22:07+00:00</updated>
+  <media:group>
+   <media:title>绝顶聪明的8个人类设计</media:title>
+   <media:content url="https://www.youtube.com/v/rz-KrAIfN84?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/rz-KrAIfN84/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="6"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:L9ltn4pJ9_E</id>
   <yt:videoId>L9ltn4pJ9_E</yt:videoId>
   <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
@@ -21,7 +44,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-04-18T08:13:50+00:00</published>
-  <updated>2024-04-18T09:10:17+00:00</updated>
+  <updated>2024-04-19T06:14:43+00:00</updated>
   <media:group>
    <media:title>一条核辐射手链，他几乎被锯掉四肢</media:title>
    <media:content url="https://www.youtube.com/v/L9ltn4pJ9_E?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -44,7 +67,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-04-18T07:51:28+00:00</published>
-  <updated>2024-04-18T08:05:23+00:00</updated>
+  <updated>2024-04-19T05:44:43+00:00</updated>
   <media:group>
    <media:title>日本奇葩法律， 莫名其妙让你坐牢</media:title>
    <media:content url="https://www.youtube.com/v/Z00rDKpl7DE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -74,8 +97,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/J8MYHRJy2q4/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="0" average="0.00" min="1" max="5"/>
-    <media:statistics views="12"/>
+    <media:starRating count="1" average="5.00" min="1" max="5"/>
+    <media:statistics views="20"/>
    </media:community>
   </media:group>
  </entry>
@@ -90,7 +113,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-04-17T02:28:53+00:00</published>
-  <updated>2024-04-17T10:14:47+00:00</updated>
+  <updated>2024-04-18T18:35:26+00:00</updated>
   <media:group>
    <media:title>把牙齿植入眼睛，让盲人重见光明</media:title>
    <media:content url="https://www.youtube.com/v/4Q3Afem0Xy0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -121,30 +144,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="13"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:rz-KrAIfN84</id>
-  <yt:videoId>rz-KrAIfN84</yt:videoId>
-  <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
-  <title>绝顶聪明的8个人类设计</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=rz-KrAIfN84"/>
-  <author>
-   <name>绝密研究所</name>
-   <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
-  </author>
-  <published>2024-04-16T03:07:40+00:00</published>
-  <updated>2024-04-18T01:29:31+00:00</updated>
-  <media:group>
-   <media:title>绝顶聪明的8个人类设计</media:title>
-   <media:content url="https://www.youtube.com/v/rz-KrAIfN84?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/rz-KrAIfN84/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="0" average="0.00" min="1" max="5"/>
-    <media:statistics views="0"/>
+    <media:statistics views="14"/>
    </media:community>
   </media:group>
  </entry>
@@ -167,7 +167,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="54"/>
+    <media:statistics views="58"/>
    </media:community>
   </media:group>
  </entry>
@@ -259,7 +259,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="59"/>
+    <media:statistics views="60"/>
    </media:community>
   </media:group>
  </entry>
@@ -282,7 +282,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="46"/>
+    <media:statistics views="47"/>
    </media:community>
   </media:group>
  </entry>
@@ -305,7 +305,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="30"/>
+    <media:statistics views="31"/>
    </media:community>
   </media:group>
  </entry>
@@ -328,7 +328,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="26"/>
+    <media:statistics views="27"/>
    </media:community>
   </media:group>
  </entry>

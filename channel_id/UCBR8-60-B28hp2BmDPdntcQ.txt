@@ -10,6 +10,29 @@
   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
  </author>
  <entry>
+  <id>yt:video:TD75mxVwPlI</id>
+  <yt:videoId>TD75mxVwPlI</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>new memo for the department, get ready to join the #ForAFortnightChallenge on Shorts  🤍 #TSTTPD</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=TD75mxVwPlI"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2024-04-18T18:36:20+00:00</published>
+  <updated>2024-04-19T06:21:50+00:00</updated>
+  <media:group>
+   <media:title>new memo for the department, get ready to join the #ForAFortnightChallenge on Shorts  🤍 #TSTTPD</media:title>
+   <media:content url="https://www.youtube.com/v/TD75mxVwPlI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/TD75mxVwPlI/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="744" average="5.00" min="1" max="5"/>
+    <media:statistics views="10510"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:gnP02efaslQ</id>
   <yt:videoId>gnP02efaslQ</yt:videoId>
   <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
@@ -27,8 +50,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/gnP02efaslQ/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1704" average="5.00" min="1" max="5"/>
-    <media:statistics views="54392"/>
+    <media:starRating count="1799" average="5.00" min="1" max="5"/>
+    <media:statistics views="58822"/>
    </media:community>
   </media:group>
  </entry>
@@ -50,8 +73,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/cqhALBcg4WI/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1599" average="5.00" min="1" max="5"/>
-    <media:statistics views="49493"/>
+    <media:starRating count="1648" average="5.00" min="1" max="5"/>
+    <media:statistics views="51641"/>
    </media:community>
   </media:group>
  </entry>
@@ -73,8 +96,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/ftXP3CUVnL4/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1358" average="5.00" min="1" max="5"/>
-    <media:statistics views="38175"/>
+    <media:starRating count="1383" average="5.00" min="1" max="5"/>
+    <media:statistics views="39492"/>
    </media:community>
   </media:group>
  </entry>
@@ -96,8 +119,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/vTSRRg6YJ-4/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1546" average="5.00" min="1" max="5"/>
-    <media:statistics views="52318"/>
+    <media:starRating count="1562" average="5.00" min="1" max="5"/>
+    <media:statistics views="53353"/>
    </media:community>
   </media:group>
  </entry>
@@ -119,8 +142,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/zyoCmgQoYs0/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="9552" average="5.00" min="1" max="5"/>
-    <media:statistics views="210759"/>
+    <media:starRating count="9580" average="5.00" min="1" max="5"/>
+    <media:statistics views="212742"/>
    </media:community>
   </media:group>
  </entry>
@@ -142,8 +165,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/BVdnpR_BaWk/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1997" average="5.00" min="1" max="5"/>
-    <media:statistics views="66236"/>
+    <media:starRating count="2009" average="5.00" min="1" max="5"/>
+    <media:statistics views="67126"/>
    </media:community>
   </media:group>
  </entry>
@@ -165,8 +188,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/nQccoTTe7Bc/hqdefault.jpg" width="480" height="360"/>
    <media:description>join @CrissaJackson, @MattSDance, @ReginaEigbe, &amp; @jaymondy. on Shorts to show the world you can dance like @Tylaofficial 🪩 #FreshOutTheGallery</media:description>
    <media:community>
-    <media:starRating count="1975" average="5.00" min="1" max="5"/>
-    <media:statistics views="83302"/>
+    <media:starRating count="1989" average="5.00" min="1" max="5"/>
+    <media:statistics views="84239"/>
    </media:community>
   </media:group>
  </entry>
@@ -188,8 +211,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/9hvWBP1q0GI/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2581" average="5.00" min="1" max="5"/>
-    <media:statistics views="84151"/>
+    <media:starRating count="2591" average="5.00" min="1" max="5"/>
+    <media:statistics views="85082"/>
    </media:community>
   </media:group>
  </entry>
@@ -211,8 +234,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/DnfaW7KaGws/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1685" average="5.00" min="1" max="5"/>
-    <media:statistics views="52033"/>
+    <media:starRating count="1693" average="5.00" min="1" max="5"/>
+    <media:statistics views="52467"/>
    </media:community>
   </media:group>
  </entry>
@@ -234,8 +257,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/ZjqHACGf0cY/hqdefault.jpg" width="480" height="360"/>
    <media:description>watching @ricollinart_official2119 paint @Tylaofficial counts as meditation 🌀 #FreshOutTheGallery</media:description>
    <media:community>
-    <media:starRating count="2184" average="5.00" min="1" max="5"/>
-    <media:statistics views="75813"/>
+    <media:starRating count="2194" average="5.00" min="1" max="5"/>
+    <media:statistics views="76617"/>
    </media:community>
   </media:group>
  </entry>
@@ -257,8 +280,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/3IuZD1ddSVY/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2330" average="5.00" min="1" max="5"/>
-    <media:statistics views="78582"/>
+    <media:starRating count="2340" average="5.00" min="1" max="5"/>
+    <media:statistics views="79258"/>
    </media:community>
   </media:group>
  </entry>
@@ -280,8 +303,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/UPtzL13BLOA/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2175" average="5.00" min="1" max="5"/>
-    <media:statistics views="100186"/>
+    <media:starRating count="2179" average="5.00" min="1" max="5"/>
+    <media:statistics views="100898"/>
    </media:community>
   </media:group>
  </entry>
@@ -303,8 +326,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/6N2yO7DPHAs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2990" average="5.00" min="1" max="5"/>
-    <media:statistics views="107756"/>
+    <media:starRating count="2995" average="5.00" min="1" max="5"/>
+    <media:statistics views="108399"/>
    </media:community>
   </media:group>
  </entry>
@@ -354,31 +377,8 @@ Danganronpa: Trigger Happy Havoc: https://www.youtube.com/watch?v=KGBF6a6sxe4&am
 Polygon Article:
 Anime is huge — and we finally have numbers to prove it: https://www.polygon.com/c/2024/1/22/24034466/anime-is-huge-and-we-finally-have-numbers-to-prove-it</media:description>
    <media:community>
-    <media:starRating count="6558" average="5.00" min="1" max="5"/>
-    <media:statistics views="1170177"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:5YEcGXpuxHA</id>
-  <yt:videoId>5YEcGXpuxHA</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>if i touched this without looking i would scream too @GeorgiaBridgersYT @carolinericke @JackJerry</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=5YEcGXpuxHA"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2024-03-20T18:00:47+00:00</published>
-  <updated>2024-04-12T18:46:24+00:00</updated>
-  <media:group>
-   <media:title>if i touched this without looking i would scream too @GeorgiaBridgersYT @carolinericke @JackJerry</media:title>
-   <media:content url="https://www.youtube.com/v/5YEcGXpuxHA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/5YEcGXpuxHA/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="2529" average="5.00" min="1" max="5"/>
-    <media:statistics views="84409"/>
+    <media:starRating count="6588" average="5.00" min="1" max="5"/>
+    <media:statistics views="1153695"/>
    </media:community>
   </media:group>
  </entry>

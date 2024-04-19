@@ -9,7 +9,7 @@ Please look at it from the perspective of objective rationality and science
         <category>TV &amp; Film</category>
         <generator>Podflow (support us at https://github.com/gruel-zxz/podflow)</generator>
         <language>en-us</language>
-        <lastBuildDate>Thu, 18 Apr 2024 23:25:01 +0800</lastBuildDate>
+        <lastBuildDate>Fri, 19 Apr 2024 15:09:24 +0800</lastBuildDate>
         <pubDate>Sun, 24 Apr 2005 11:20:54 +0800</pubDate>
         <image>
             <url>https://yt3.googleusercontent.com/ytc/AIdro_ljfPIXYHJrDEJ-Pes9g1Rp6Va2vEuUyhSA-YXHCMGddw=s2048-c-k-c0x00ffffff-no-rj</url>
@@ -23,6 +23,22 @@ Please look at it from the perspective of objective rationality and science
         <itunes:explicit>no</itunes:explicit>
         <itunes:category text="TV &amp; Film"></itunes:category>
 <!-- {UCXWy8yrS4WKhzbp36lW214w} -->
+<!-- UCXWy8yrS4WKhzbp36lW214w -->
+        <item>
+            <guid>rz-KrAIfN84</guid>
+            <title>绝顶聪明的8个人类设计</title>
+            <link>https://youtube.com/watch?v=rz-KrAIfN84</link>
+            <description>『绝密研究所』</description>
+            <pubDate>Fri, 19 Apr 2024 08:15:06 +0800</pubDate>
+            <enclosure url="https://raw.githubusercontent.com/gruel-zxz/podflow/main/channel_audiovisual/UCXWy8yrS4WKhzbp36lW214w/rz-KrAIfN84.m4a" length="4880235" type="audio/x-m4a"></enclosure>
+            <itunes:author>绝顶聪明的8个人类设计</itunes:author>
+            <itunes:subtitle>绝顶聪明的8个人类设计</itunes:subtitle>
+            <itunes:summary><![CDATA[『绝密研究所』]]></itunes:summary>
+            <itunes:image href="https://i3.ytimg.com/vi/rz-KrAIfN84/hqdefault.jpg"></itunes:image>
+            <itunes:duration>05:02</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:order>1</itunes:order>
+        </item>
 <!-- UCXWy8yrS4WKhzbp36lW214w -->
         <item>
             <guid>J8MYHRJy2q4</guid>
@@ -804,22 +820,6 @@ Please look at it from the perspective of objective rationality and science
             <itunes:summary><![CDATA[『绝密研究所』]]></itunes:summary>
             <itunes:image href="https://i4.ytimg.com/vi/SVhXJ3sEx_g/hqdefault.jpg"></itunes:image>
             <itunes:duration>06:43</itunes:duration>
-            <itunes:explicit>no</itunes:explicit>
-            <itunes:order>1</itunes:order>
-        </item>
-<!-- UCXWy8yrS4WKhzbp36lW214w -->
-        <item>
-            <guid>yR7pt5PkWnY</guid>
-            <title>龙真的存在吗？真龙目击事件大揭秘</title>
-            <link>https://youtube.com/watch?v=yR7pt5PkWnY</link>
-            <description>『绝密研究所』</description>
-            <pubDate>Tue, 27 Feb 2024 08:00:09 +0800</pubDate>
-            <enclosure url="https://raw.githubusercontent.com/gruel-zxz/podflow/main/channel_audiovisual/UCXWy8yrS4WKhzbp36lW214w/yR7pt5PkWnY.m4a" length="4845265" type="audio/x-m4a"></enclosure>
-            <itunes:author>龙真的存在吗？真龙目击事件大揭秘</itunes:author>
-            <itunes:subtitle>龙真的存在吗？真龙目击事件大揭秘</itunes:subtitle>
-            <itunes:summary><![CDATA[『绝密研究所』]]></itunes:summary>
-            <itunes:image href="https://i2.ytimg.com/vi/yR7pt5PkWnY/hqdefault.jpg"></itunes:image>
-            <itunes:duration>05:00</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
             <itunes:order>1</itunes:order>
         </item>

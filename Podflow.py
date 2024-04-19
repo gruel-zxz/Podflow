@@ -76,6 +76,7 @@ displayed_QRcode = []  # 已显示二维码列表
 
 channelid_youtube_ids_update = {}  # 需更新的YouTube频道字典
 youtube_content_ytid_update = {}  # 需下载YouTube视频字典
+youtube_content_ytid_backward_update = {}  # 向后更新需下载YouTube视频字典
 channelid_youtube_rss = {}  # YouTube频道最新Rss Response字典
 yt_id_failed = []  # YouTube视频下载失败列表
 youtube_content_ytid_update_format = {}  # YouTube视频下载的详细信息字典
@@ -1425,11 +1426,12 @@ def youtube_rss_update(youtube_key, youtube_value, pattern_youtube_varys, patter
             if youtube_html_backward_playlists and youtube_html_backward_playlists["list"]:
                 channelid_youtube_ids_update[youtube_key] = youtube_value
                 channelid_youtube_rss[youtube_key].update({"backward": youtube_html_backward_playlists})
+                youtube_content_ytid_backward = []
                 for guid in youtube_html_backward_playlists["list"]:
                     if guid not in youtube_content_ytid_original:
-                        youtube_content_ytid.append(guid)
-                if youtube_content_ytid:
-                    youtube_content_ytid_update[youtube_key] = youtube_content_ytid
+                        youtube_content_ytid_backward.append(guid)
+                if youtube_content_ytid_backward:
+                    youtube_content_ytid_backward_update[youtube_key] = youtube_content_ytid_backward
 
 # 更新Youtube频道xml多线程模块
 def update_youtube_rss():
@@ -1510,6 +1512,10 @@ def update_information_display():
                     print_channelid_youtube_ids_update += (
                         f"\033[32m{channelid_value}\033[0m"
                     )
+                elif channelid_key in youtube_content_ytid_backward_update:
+                    print_channelid_youtube_ids_update += (
+                        f"\033[36m{channelid_value}\033[0m"
+                    )
                 else:
                     print_channelid_youtube_ids_update += (
                         f"\033[33m{channelid_value}\033[0m"
@@ -1522,6 +1528,10 @@ def update_information_display():
                 if channelid_key in youtube_content_ytid_update:
                     print_channelid_youtube_ids_update += (
                         f"\033[32m{channelid_value}\033[0m"
+                    )
+                elif channelid_key in youtube_content_ytid_backward_update:
+                    print_channelid_youtube_ids_update += (
+                        f"\033[36m{channelid_value}\033[0m"
                     )
                 else:
                     print_channelid_youtube_ids_update += (
@@ -1583,19 +1593,22 @@ def get_youtube_video_format_multithreading(youtube_content_ytid_update_format_i
 
 # 获取YouTube视频格式信息模块
 def get_youtube_format():
-    for ytid_key, ytid_value in youtube_content_ytid_update.items():
-        # 获取对应文件类型
-        yt_id_file = channelid_youtube[channelid_youtube_ids_update[ytid_key]]["media"]
-        # 如果为视频格式获取分辨率
-        if yt_id_file == "mp4":
-            yt_id_quality = channelid_youtube[channelid_youtube_ids_update[ytid_key]][
-                "quality"
-            ]
-        else:
-            yt_id_quality = None
-        for yt_id in ytid_value:
-            yt_id_format = {"id": ytid_key, "media": yt_id_file, "quality": yt_id_quality}
-            youtube_content_ytid_update_format[yt_id] = yt_id_format
+    def get_youtube_format_front(ytid_content_update):
+        for ytid_key, ytid_value in ytid_content_update.items():
+            # 获取对应文件类型
+            yt_id_file = channelid_youtube[channelid_youtube_ids_update[ytid_key]]["media"]
+            # 如果为视频格式获取分辨率
+            if yt_id_file == "mp4":
+                yt_id_quality = channelid_youtube[channelid_youtube_ids_update[ytid_key]][
+                    "quality"
+                ]
+            else:
+                yt_id_quality = None
+            for yt_id in ytid_value:
+                yt_id_format = {"id": ytid_key, "media": yt_id_file, "quality": yt_id_quality}
+                youtube_content_ytid_update_format[yt_id] = yt_id_format
+    get_youtube_format_front(youtube_content_ytid_update)
+    get_youtube_format_front(youtube_content_ytid_backward_update)
     # 按参数拆分获取量
     if len(youtube_content_ytid_update_format) != 0:
         youtube_content_ytid_update_format_list = split_dict(youtube_content_ytid_update_format, config["preparation_per_count"])
@@ -2364,6 +2377,7 @@ while update_num > 0 or update_num == -1:
     # 清空变量内数据
     channelid_youtube_ids_update.clear()  # 需更新的YouTube频道字典
     youtube_content_ytid_update.clear()  # 需下载YouTube视频字典
+    youtube_content_ytid_backward_update.clear()  # 向后更新需下载YouTube视频字典
     channelid_youtube_rss.clear()  # YouTube频道最新Rss Response字典
     yt_id_failed.clear()  # YouTube视频下载失败列表
     youtube_content_ytid_update_format.clear()  # YouTube视频下载的详细信息字典
