@@ -10,6 +10,121 @@
   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
  </author>
  <entry>
+  <id>yt:video:TsDlSxvrcrw</id>
+  <yt:videoId>TsDlSxvrcrw</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>tune in tonight to see Tyler, The Creator live at Coachella from wherever you are 🌟</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=TsDlSxvrcrw"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2024-04-21T04:05:50+00:00</published>
+  <updated>2024-04-21T04:06:25+00:00</updated>
+  <media:group>
+   <media:title>tune in tonight to see Tyler, The Creator live at Coachella from wherever you are 🌟</media:title>
+   <media:content url="https://www.youtube.com/v/TsDlSxvrcrw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/TsDlSxvrcrw/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="33" average="5.00" min="1" max="5"/>
+    <media:statistics views="288"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:GAXskNKYK8I</id>
+  <yt:videoId>GAXskNKYK8I</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>bringing mini tyler to Coachella today for good luck 🎡</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=GAXskNKYK8I"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2024-04-21T01:00:07+00:00</published>
+  <updated>2024-04-21T01:00:35+00:00</updated>
+  <media:group>
+   <media:title>bringing mini tyler to Coachella today for good luck 🎡</media:title>
+   <media:content url="https://www.youtube.com/v/GAXskNKYK8I?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/GAXskNKYK8I/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="902" average="5.00" min="1" max="5"/>
+    <media:statistics views="10790"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:hAUOIX7HgQM</id>
+  <yt:videoId>hAUOIX7HgQM</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>how do you say &quot;the aura is undeniable&quot; in every language??</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=hAUOIX7HgQM"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2024-04-20T22:02:13+00:00</published>
+  <updated>2024-04-21T00:03:22+00:00</updated>
+  <media:group>
+   <media:title>how do you say &quot;the aura is undeniable&quot; in every language??</media:title>
+   <media:content url="https://www.youtube.com/v/hAUOIX7HgQM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/hAUOIX7HgQM/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="493" average="5.00" min="1" max="5"/>
+    <media:statistics views="6453"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:RCUvNDe28Wg</id>
+  <yt:videoId>RCUvNDe28Wg</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>hey @dojacat can we introduce you to our friend @KingAsante? (he's a big fan)</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=RCUvNDe28Wg"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2024-04-20T17:00:22+00:00</published>
+  <updated>2024-04-20T17:08:59+00:00</updated>
+  <media:group>
+   <media:title>hey @dojacat can we introduce you to our friend @KingAsante? (he's a big fan)</media:title>
+   <media:content url="https://www.youtube.com/v/RCUvNDe28Wg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/RCUvNDe28Wg/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="664" average="5.00" min="1" max="5"/>
+    <media:statistics views="10751"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:40jclXA7mSs</id>
+  <yt:videoId>40jclXA7mSs</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>for a fortnight, there we were 🤍 #ForAFortnightChallenge #tsttpd</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=40jclXA7mSs"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2024-04-20T00:07:39+00:00</published>
+  <updated>2024-04-21T03:11:54+00:00</updated>
+  <media:group>
+   <media:title>for a fortnight, there we were 🤍 #ForAFortnightChallenge #tsttpd</media:title>
+   <media:content url="https://www.youtube.com/v/40jclXA7mSs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/40jclXA7mSs/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="1833" average="5.00" min="1" max="5"/>
+    <media:statistics views="35198"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:TD75mxVwPlI</id>
   <yt:videoId>TD75mxVwPlI</yt:videoId>
   <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
@@ -20,15 +135,15 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-04-18T18:36:20+00:00</published>
-  <updated>2024-04-19T06:21:50+00:00</updated>
+  <updated>2024-04-20T10:04:57+00:00</updated>
   <media:group>
    <media:title>new memo for the department, get ready to join the #ForAFortnightChallenge on Shorts  🤍 #TSTTPD</media:title>
    <media:content url="https://www.youtube.com/v/TD75mxVwPlI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i1.ytimg.com/vi/TD75mxVwPlI/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="900" average="5.00" min="1" max="5"/>
-    <media:statistics views="16438"/>
+    <media:starRating count="1194" average="5.00" min="1" max="5"/>
+    <media:statistics views="28219"/>
    </media:community>
   </media:group>
  </entry>
@@ -43,15 +158,15 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-04-14T19:03:22+00:00</published>
-  <updated>2024-04-16T12:04:22+00:00</updated>
+  <updated>2024-04-18T21:42:12+00:00</updated>
   <media:group>
    <media:title>drink water and wear your spf @benoftheweek said so</media:title>
    <media:content url="https://www.youtube.com/v/gnP02efaslQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i4.ytimg.com/vi/gnP02efaslQ/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1829" average="5.00" min="1" max="5"/>
-    <media:statistics views="61010"/>
+    <media:starRating count="1956" average="5.00" min="1" max="5"/>
+    <media:statistics views="67775"/>
    </media:community>
   </media:group>
  </entry>
@@ -73,8 +188,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/cqhALBcg4WI/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1671" average="5.00" min="1" max="5"/>
-    <media:statistics views="53054"/>
+    <media:starRating count="1758" average="5.00" min="1" max="5"/>
+    <media:statistics views="57842"/>
    </media:community>
   </media:group>
  </entry>
@@ -96,8 +211,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/ftXP3CUVnL4/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1393" average="5.00" min="1" max="5"/>
-    <media:statistics views="40396"/>
+    <media:starRating count="1440" average="5.00" min="1" max="5"/>
+    <media:statistics views="43453"/>
    </media:community>
   </media:group>
  </entry>
@@ -119,8 +234,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/vTSRRg6YJ-4/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1574" average="5.00" min="1" max="5"/>
-    <media:statistics views="54131"/>
+    <media:starRating count="1614" average="5.00" min="1" max="5"/>
+    <media:statistics views="56540"/>
    </media:community>
   </media:group>
  </entry>
@@ -142,8 +257,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/zyoCmgQoYs0/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="9595" average="5.00" min="1" max="5"/>
-    <media:statistics views="214282"/>
+    <media:starRating count="9653" average="5.00" min="1" max="5"/>
+    <media:statistics views="219537"/>
    </media:community>
   </media:group>
  </entry>
@@ -165,8 +280,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/BVdnpR_BaWk/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2017" average="5.00" min="1" max="5"/>
-    <media:statistics views="67779"/>
+    <media:starRating count="2038" average="5.00" min="1" max="5"/>
+    <media:statistics views="69998"/>
    </media:community>
   </media:group>
  </entry>
@@ -188,8 +303,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/nQccoTTe7Bc/hqdefault.jpg" width="480" height="360"/>
    <media:description>join @CrissaJackson, @MattSDance, @ReginaEigbe, &amp; @jaymondy. on Shorts to show the world you can dance like @Tylaofficial 🪩 #FreshOutTheGallery</media:description>
    <media:community>
-    <media:starRating count="2003" average="5.00" min="1" max="5"/>
-    <media:statistics views="84957"/>
+    <media:starRating count="2034" average="5.00" min="1" max="5"/>
+    <media:statistics views="87429"/>
    </media:community>
   </media:group>
  </entry>
@@ -211,8 +326,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/9hvWBP1q0GI/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2598" average="5.00" min="1" max="5"/>
-    <media:statistics views="85754"/>
+    <media:starRating count="2631" average="5.00" min="1" max="5"/>
+    <media:statistics views="88209"/>
    </media:community>
   </media:group>
  </entry>
@@ -234,151 +349,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/DnfaW7KaGws/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1698" average="5.00" min="1" max="5"/>
-    <media:statistics views="52821"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:ZjqHACGf0cY</id>
-  <yt:videoId>ZjqHACGf0cY</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>unwind with a calming @ricollinart_official2119 paint sesh 💄 @Tylaofficial #FreshOutTheGallery</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=ZjqHACGf0cY"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2024-03-29T16:07:26+00:00</published>
-  <updated>2024-04-04T12:05:01+00:00</updated>
-  <media:group>
-   <media:title>unwind with a calming @ricollinart_official2119 paint sesh 💄 @Tylaofficial #FreshOutTheGallery</media:title>
-   <media:content url="https://www.youtube.com/v/ZjqHACGf0cY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/ZjqHACGf0cY/hqdefault.jpg" width="480" height="360"/>
-   <media:description>watching @ricollinart_official2119 paint @Tylaofficial counts as meditation 🌀 #FreshOutTheGallery</media:description>
-   <media:community>
-    <media:starRating count="2206" average="5.00" min="1" max="5"/>
-    <media:statistics views="77366"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:3IuZD1ddSVY</id>
-  <yt:videoId>3IuZD1ddSVY</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>ok can't think of anyone braver than @JackJerry #guessinggame</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=3IuZD1ddSVY"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2024-03-28T15:00:43+00:00</published>
-  <updated>2024-04-02T22:32:14+00:00</updated>
-  <media:group>
-   <media:title>ok can't think of anyone braver than @JackJerry #guessinggame</media:title>
-   <media:content url="https://www.youtube.com/v/3IuZD1ddSVY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/3IuZD1ddSVY/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="2349" average="5.00" min="1" max="5"/>
-    <media:statistics views="79773"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:UPtzL13BLOA</id>
-  <yt:videoId>UPtzL13BLOA</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>what my headphones look like after being in my pocket for five minutes @GlamWithNikki #interview</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=UPtzL13BLOA"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2024-03-25T20:15:22+00:00</published>
-  <updated>2024-03-27T22:05:28+00:00</updated>
-  <media:group>
-   <media:title>what my headphones look like after being in my pocket for five minutes @GlamWithNikki #interview</media:title>
-   <media:content url="https://www.youtube.com/v/UPtzL13BLOA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/UPtzL13BLOA/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="2182" average="5.00" min="1" max="5"/>
-    <media:statistics views="101466"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:6N2yO7DPHAs</id>
-  <yt:videoId>6N2yO7DPHAs</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>TYLA the album is out now! tag @Tylaofficial in your ART challenge Shorts 🐅💕 #FreshOutTheGallery</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=6N2yO7DPHAs"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2024-03-22T20:13:38+00:00</published>
-  <updated>2024-04-08T23:07:30+00:00</updated>
-  <media:group>
-   <media:title>TYLA the album is out now! tag @Tylaofficial in your ART challenge Shorts 🐅💕 #FreshOutTheGallery</media:title>
-   <media:content url="https://www.youtube.com/v/6N2yO7DPHAs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/6N2yO7DPHAs/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="3003" average="5.00" min="1" max="5"/>
-    <media:statistics views="108868"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:6I2N1b7dN60</id>
-  <yt:videoId>6I2N1b7dN60</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>Discussing the Influence of Black Creators on Anime's Fandom - Like &amp; Describe Podcast #6</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=6I2N1b7dN60"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2024-03-22T18:00:03+00:00</published>
-  <updated>2024-04-16T05:03:42+00:00</updated>
-  <media:group>
-   <media:title>Discussing the Influence of Black Creators on Anime's Fandom - Like &amp; Describe Podcast #6</media:title>
-   <media:content url="https://www.youtube.com/v/6I2N1b7dN60?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/6I2N1b7dN60/hqdefault.jpg" width="480" height="360"/>
-   <media:description>We’re talking Anime! MatPat is joined by creators JazzyGuns &amp; Shonen Showdown, as well as YouTube trends expert Earnest Pettie, to delve into how Black creators have amplified anime's impact on mainstream culture. Get ready for a conversation jam packed with all things Anime that explores the influence of the artform, celebrates its diverse fanbase, and examines its expanding role in shaping popular culture.
-
-Shonen Showdown (aka Rob) is a focal point of the anime community that specializes in anime and manga debates, character power rankings, and anime inspired comedy.
-Jasmine is dedicated to in-depth anime reviews and gameplay on her personal channel, Jazzy Guns, and her duo channel, Dwayne and Jazz. 
-
-Creator Call-Outs:
-@CalebCity 
-@RDCworld1 
-@ssj9show831 
-@KINGVADERofficial 
-@Synsei_ 
-@Cj_DaChamp
-@Codenamesuper 
-@BucketHatSplash
-@animexsundays
-@rinnegoddess 
-@YaBoyRoshi 
-@Lupasan 
-
-Video Mentions: 
-If Anime Shows Were People: https://www.youtube.com/watch?v=YIjyLZGh8Yw
-
-I Asked 100 Anime Fans To Make A Tier List: https://www.youtube.com/watch?v=V134VbRe64U
-
-Danganronpa: Trigger Happy Havoc: https://www.youtube.com/watch?v=KGBF6a6sxe4&amp;list=PL9GVytZOoSJicEbvysoe070BdTWGRumuO
-
-
-Polygon Article:
-Anime is huge — and we finally have numbers to prove it: https://www.polygon.com/c/2024/1/22/24034466/anime-is-huge-and-we-finally-have-numbers-to-prove-it</media:description>
-   <media:community>
-    <media:starRating count="6614" average="5.00" min="1" max="5"/>
-    <media:statistics views="1155187"/>
+    <media:starRating count="1721" average="5.00" min="1" max="5"/>
+    <media:statistics views="53996"/>
    </media:community>
   </media:group>
  </entry>

@@ -45,12 +45,12 @@ default_config = {
         }
     },
     "channelid_bilibili": {
-        "哔哩哔哩漫画": {
-            "update_size": 15,
-            "id": "326499679",
+        "哔哩哔哩弹幕网": {
+            "update_size": 25,
+            "id": "8047632",
             "title": "哔哩哔哩漫画",
-            "quality": "480",
-            "last_size": 50,
+            "quality": "1080",
+            "last_size": 100,
             "media": "m4a",
             "DisplayRSSaddress": False,
             "InmainRSS": True,
@@ -929,7 +929,7 @@ def get_config():
         try:
             with open("config.json", "r", encoding="utf-8") as file:
                 config = json.load(file)
-            write_log("已读取配置文件")
+            print(f"{datetime.now().strftime('%H:%M:%S')}|已读取配置文件")
         # 如果config格式有问题, 停止运行并报错
         except Exception as config_error:
             write_log(f"配置文件有误, 请检查config.json, {str(config_error)}")
@@ -1070,7 +1070,7 @@ def channge_icon():
 # 从配置文件中获取频道模块
 def get_channelid(name):
     if f"channelid_{name}" in config:
-        write_log(f"已读取{name}频道信息")
+        print(f"{datetime.now().strftime('%H:%M:%S')}|已读取{name}频道信息")
         return config[f"channelid_{name}"]
     else:
         write_log(f"{name}频道信息不存在")
@@ -1080,6 +1080,8 @@ def get_channelid(name):
 def correct_channelid(channelid, website):
     if website == "youtube":
         channelid_name = "youtube"
+    elif website == "bilibili":
+        channelid_name = "哔哩哔哩弹幕网"
     # 音视频格式及分辨率常量
     video_media = [
         "m4v",
@@ -1118,12 +1120,16 @@ def correct_channelid(channelid, website):
     # 对channelid的错误进行更正
     for channelid_key, channeli_value in channelid_copy.items():
         # 判断是否为字典
-        if isinstance(channeli_value, str) and re.search(r"UC.{22}", channeli_value):
+        if not isinstance(channeli_value, dict):
             channeli_value = {"id": channeli_value}
             channelid[channelid_key] = channeli_value
         # 判断id是否正确
-        if "id" not in channeli_value or not re.search(
-            r"UC.{22}", channeli_value["id"]
+        if "id" not in channeli_value or (
+            website == "youtube" and not re.search(
+                r"^UC.{22}", channeli_value["id"]
+            )
+        ) or (
+            website == "bilibili" and not channeli_value["id"].isdigit()
         ):
             # 删除错误的
             del channelid[channelid_key]
@@ -1139,9 +1145,10 @@ def correct_channelid(channelid, website):
                     f"channelid_{website}"
                 ][channelid_name]["update_size"]
             # 对id进行纠正
-            channelid[channelid_key]["id"] = re.search(
-                r"UC.{22}", channeli_value["id"]
-            ).group()
+            if website == "youtube":
+                channelid[channelid_key]["id"] = re.search(
+                    r"UC.{22}", channeli_value["id"]
+                ).group()
             # 对last_size进行纠正
             if (
                 "last_size" not in channeli_value
@@ -1201,20 +1208,21 @@ def correct_channelid(channelid, website):
                 channeli_value["QRcode"], bool
             ):
                 channelid[channelid_key]["QRcode"] = False
-            # 对BackwardUpdate进行纠正
-            if "BackwardUpdate" not in channeli_value or not isinstance(
-                channeli_value["BackwardUpdate"], bool
-            ):
-                channelid[channelid_key]["BackwardUpdate"] = False
-            # 对BackwardUpdate_size进行纠正
-            if channelid[channelid_key]["BackwardUpdate"] and (
-                "BackwardUpdate_size" not in channeli_value
-                or not isinstance(channeli_value["BackwardUpdate_size"], int)
-                or channeli_value["BackwardUpdate_size"] <= 0
-            ):
-                channelid[channelid_key]["BackwardUpdate_size"] = default_config[
-                    f"channelid_{website}"
-                ][channelid_name]["BackwardUpdate_size"]
+            if website == "youtube":
+                # 对BackwardUpdate进行纠正
+                if "BackwardUpdate" not in channeli_value or not isinstance(
+                    channeli_value["BackwardUpdate"], bool
+                ):
+                    channelid[channelid_key]["BackwardUpdate"] = False
+                # 对BackwardUpdate_size进行纠正
+                if channelid[channelid_key]["BackwardUpdate"] and (
+                    "BackwardUpdate_size" not in channeli_value
+                    or not isinstance(channeli_value["BackwardUpdate_size"], int)
+                    or channeli_value["BackwardUpdate_size"] <= 0
+                ):
+                    channelid[channelid_key]["BackwardUpdate_size"] = default_config[
+                        f"channelid_{website}"
+                    ][channelid_name]["BackwardUpdate_size"]
     return channelid
 
 # 读取频道ID模块
@@ -1223,7 +1231,7 @@ def get_channelid_id(channelid, idname):
         channelid_ids = dict(
             {channel["id"]: key for key, channel in channelid.items()}
         )
-        write_log(f"读取{idname}频道的channelid成功")
+        print(f"{datetime.now().strftime('%H:%M:%S')}|读取{idname}频道的channelid成功")
     else:
         channelid_ids = None
     return channelid_ids
@@ -2398,6 +2406,8 @@ folder_build("channel_audiovisual")
 folder_build("channel_rss")
 # 修正channelid_youtube
 channelid_youtube = correct_channelid(channelid_youtube, "youtube")
+# 修正channelid_bilibili
+channelid_bilibili = correct_channelid(channelid_bilibili, "bilibili")
 # 读取youtube频道的id
 channelid_youtube_ids = get_channelid_id(channelid_youtube, "youtube")
 # 复制youtube频道id用于删除已抛弃的媒体文件夹

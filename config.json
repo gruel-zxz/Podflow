@@ -51,13 +51,14 @@
             "update_size": 15,
             "id": "326499679",
             "title": "哔哩哔哩漫画",
-            "quality": "480",
             "last_size": 50,
-            "media": "m4a",
+            "media": "mp4",
             "DisplayRSSaddress": false,
             "InmainRSS": true,
             "QRcode": false
-        }
+        },
+    "测试": "21738912391",
+    "无无无无语森": "3393923"
     },
     "retry_count": 2,
     "link": "m.youtube.com",

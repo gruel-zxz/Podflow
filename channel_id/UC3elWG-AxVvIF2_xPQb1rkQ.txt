@@ -21,7 +21,7 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-04-19T09:58:30+00:00</published>
-  <updated>2024-04-19T09:58:30+00:00</updated>
+  <updated>2024-04-20T06:26:26+00:00</updated>
   <media:group>
    <media:title>为什么说藏私房钱的男人都是好男人？四季妈妈来解密#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
    <media:content url="https://www.youtube.com/v/JqvZO3V_UeI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -32,8 +32,8 @@
 
 别忘了点赞、订阅，并在评论区分享你对藏私房钱的看法和自己的家庭故事。期待和大家一起分享更多有趣的家庭吐槽！#藏私房钱 #好男人 #家庭关爱 #幽默解密</media:description>
    <media:community>
-    <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="68"/>
+    <media:starRating count="6" average="5.00" min="1" max="5"/>
+    <media:statistics views="301"/>
    </media:community>
   </media:group>
  </entry>
@@ -60,7 +60,7 @@
 别忘了点赞、订阅，并在评论区分享你对水域活动的喜爱和自己的水域经历。期待和大家一起分享更多有趣的家庭吐槽！#水域活动 #家庭娱乐 #幽默探索</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="505"/>
+    <media:statistics views="769"/>
    </media:community>
   </media:group>
  </entry>
@@ -86,8 +86,8 @@
 
 别忘了点赞、订阅，并在评论区分享你对山东之旅的期待和自己的旅行计划。期待和大家一起分享更多有趣的家庭吐槽！#山东之旅 #夏日游山东 #家庭旅行 #幽默探索</media:description>
    <media:community>
-    <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="598"/>
+    <media:starRating count="9" average="5.00" min="1" max="5"/>
+    <media:statistics views="601"/>
    </media:community>
   </media:group>
  </entry>
@@ -102,7 +102,7 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-04-13T07:18:59+00:00</published>
-  <updated>2024-04-15T04:37:31+00:00</updated>
+  <updated>2024-04-18T21:41:06+00:00</updated>
   <media:group>
    <media:title>结婚前后，老公对待老婆睡衣的态度差别究竟有多大？四季妈妈揭秘</media:title>
    <media:content url="https://www.youtube.com/v/ae-wEDCBwrk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -114,7 +114,7 @@
 别忘了点赞、订阅，并在评论区分享你对老公对待老婆睡衣的看法和自己的经历。期待和大家一起分享更多有趣的家庭吐槽！#老公 #老婆睡衣 #家庭生活 #幽默揭秘</media:description>
    <media:community>
     <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="795"/>
+    <media:statistics views="806"/>
    </media:community>
   </media:group>
  </entry>
@@ -140,8 +140,8 @@
 
 别忘了点赞、订阅，并在评论区分享你对男人独特烧烤直觉的看法和自己的烧烤经历。期待和大家一起分享更多有趣的家庭吐槽！#烧烤季 #男人的直觉 #幽默吐槽</media:description>
    <media:community>
-    <media:starRating count="9" average="5.00" min="1" max="5"/>
-    <media:statistics views="349"/>
+    <media:starRating count="10" average="5.00" min="1" max="5"/>
+    <media:statistics views="357"/>
    </media:community>
   </media:group>
  </entry>
@@ -167,8 +167,8 @@
 
 别忘了点赞、订阅，并在评论区分享你对建立自信的看法和自己的沟通经历。期待和大家一起分享更多有趣的家庭吐槽！#建立自信 #男女沟通 #幽默分享</media:description>
    <media:community>
-    <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="286"/>
+    <media:starRating count="6" average="5.00" min="1" max="5"/>
+    <media:statistics views="293"/>
    </media:community>
   </media:group>
  </entry>
@@ -195,7 +195,7 @@
 别忘了点赞、订阅，并在评论区分享你对东北人的看法和自己的趣事经历。期待和大家一起分享更多有趣的家庭吐槽！#东北人 #家庭趣事 #幽默观察</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="415"/>
+    <media:statistics views="416"/>
    </media:community>
   </media:group>
  </entry>
@@ -222,7 +222,7 @@
 别忘了点赞、订阅，并在评论区分享你对北方与南方烧烤的看法和自己的烧烤经历。期待和大家一起分享更多有趣的家庭吐槽！#北方烧烤 #南方烧烤 #家庭趣事 #幽默观察</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="412"/>
+    <media:statistics views="413"/>
    </media:community>
   </media:group>
  </entry>
@@ -249,7 +249,7 @@
 别忘了点赞、订阅，并在评论区分享你对男人超能力的看法和自己的趣事经历。期待和大家一起分享更多有趣的家庭吐槽！#男人超能力 #家庭趣事 #幽默观察</media:description>
    <media:community>
     <media:starRating count="63" average="5.00" min="1" max="5"/>
-    <media:statistics views="5297"/>
+    <media:statistics views="5305"/>
    </media:community>
   </media:group>
  </entry>
@@ -276,7 +276,7 @@
 别忘了点赞、订阅，并在评论区分享你对婚后生活的看法和自己的趣事经历。期待和大家一起分享更多有趣的家庭吐槽！#婚后生活 #工资上缴 #家庭趣事</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="292"/>
+    <media:statistics views="291"/>
    </media:community>
   </media:group>
  </entry>
@@ -303,7 +303,7 @@
 别忘了点赞、订阅，并在评论区分享你对钓鱼佬心性之坚定的看法和自己的钓鱼经历。期待和大家一起分享更多有趣的家庭吐槽！#钓鱼佬 #心性之坚定 #家庭趣事</media:description>
    <media:community>
     <media:starRating count="10" average="5.00" min="1" max="5"/>
-    <media:statistics views="269"/>
+    <media:statistics views="272"/>
    </media:community>
   </media:group>
  </entry>
@@ -330,7 +330,7 @@
 别忘了点赞、订阅，并在评论区分享你对北方洗浴的看法和自己的趣事经历。期待和大家一起分享更多家庭洗浴的趣事！#洗浴趣事 #奇葩项目 #幽默观察</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="458"/>
+    <media:statistics views="459"/>
    </media:community>
   </media:group>
  </entry>
@@ -357,7 +357,7 @@
 别忘了点赞、订阅，并在评论区分享你对洗浴经验的看法和自己的趣事。让我们一起来欣赏洗浴场所中的各种趣事吧！#洗浴技巧 #幽默观察 #新手与浴皇</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="205"/>
+    <media:statistics views="206"/>
    </media:community>
   </media:group>
  </entry>
@@ -384,7 +384,7 @@
 别忘了点赞、订阅，并在评论区分享你对相亲的看法和自己的奇遇经历。让我们一起来笑对相亲的种种趣事吧！#相亲趣事 #穿越奇遇 #幽默观察</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="231"/>
+    <media:statistics views="232"/>
    </media:community>
   </media:group>
  </entry>
@@ -411,7 +411,7 @@
 别忘了点赞、订阅，并在评论区分享你对这些小众用法的看法和自己的奇葩经历。让我们一起来欣赏家庭生活中的不可思议之处吧！#家庭生活 #趣事经历 #幽默观察</media:description>
    <media:community>
     <media:starRating count="74" average="5.00" min="1" max="5"/>
-    <media:statistics views="4977"/>
+    <media:statistics views="4990"/>
    </media:community>
   </media:group>
  </entry>
