@@ -1074,7 +1074,7 @@ def get_channelid(name):
         return config[f"channelid_{name}"]
     else:
         write_log(f"{name}频道信息不存在")
-        return None
+        return {}
 
 # channelid修正模块
 def correct_channelid(channelid, website):
@@ -1233,7 +1233,7 @@ def get_channelid_id(channelid, idname):
         )
         print(f"{datetime.now().strftime('%H:%M:%S')}|读取{idname}频道的channelid成功")
     else:
-        channelid_ids = None
+        channelid_ids = {}
     return channelid_ids
 
 # 申请bilibili二维码并获取token和URL模块
