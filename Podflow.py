@@ -74,6 +74,7 @@ channelid_bilibili_ids_original = {}  # 原始哔哩哔哩频道ID字典
 server_process_print_flag = ["keep"]  # httpserver进程打印标志列表
 update_generate_rss = True  # 更新并生成rss布朗值
 displayed_QRcode = []  # 已显示二维码列表
+bilibili_cookie = {}  # 哔哩哔哩cookie字典
 
 channelid_youtube_ids_update = {}  # 需更新的YouTube频道字典
 youtube_content_ytid_update = {}  # 需下载YouTube视频字典
@@ -1236,14 +1237,14 @@ def get_channelid_id(channelid, idname):
         channelid_ids = {}
     return channelid_ids
 
-# 申请bilibili二维码并获取token和URL模块
+# 申请哔哩哔哩二维码并获取token和URL模块
 def bilibili_request_qr_code():
     # 实际申请二维码的API请求
     response = http_client('https://passport.bilibili.com/x/passport-login/web/qrcode/generate', '申请bilibili二维码', 3, 5, True)
     data = response.json()
     return data['data']['qrcode_key'], data['data']['url']
 
-# 扫码登录bilibili并返回状态和cookie模块
+# 扫码登录哔哩哔哩并返回状态和cookie模块
 def bilibili_scan_login(token):
     # 发送GET请求
     response = http_client('https://passport.bilibili.com/x/passport-login/web/qrcode/poll', '', 1, 1, True, None, {'qrcode_key': token})
@@ -1254,7 +1255,7 @@ def bilibili_scan_login(token):
     else:
         return None, None, None
 
-# 登陆bilibili模块
+# 登陆哔哩哔哩模块
 def bilibili_login():
     token, url = bilibili_request_qr_code()
     print(f"{datetime.now().strftime('%H:%M:%S')}|请用bilibili App扫描登录:")
@@ -1285,7 +1286,7 @@ def bilibili_login():
             return cookie, refresh_token, upward
         time.sleep(1)
 
-# 保存bilibili登陆成功后的cookies模块
+# 保存哔哩哔哩登陆成功后的cookies模块
 def save_bilibili_cookies():
     bilibili_cookie, refresh_token, upward = bilibili_login()
     if bilibili_cookie == 86038:
@@ -1299,7 +1300,7 @@ def save_bilibili_cookies():
         file_save(json.dumps(bilibili_data, ensure_ascii=False), "bilibili_data.json")
         return bilibili_cookie, upward
 
-# 检查bilibili是否需要刷新模块
+# 检查哔哩哔哩是否需要刷新模块
 def judgment_bilibili_update(cookies):
     url = "https://passport.bilibili.com/x/passport-login/web/cookie/info"
     response = http_client(url, 'bilibili刷新判断', 3, 5, True, cookies)
@@ -1375,7 +1376,7 @@ def bulid_Netscape_HTTP_Cookie(file_name, cookie={}):
     # 保存CookieJar对象的数据到文件中
     cookie_jar.save(ignore_discard=True, ignore_expires=True)
 
-# 登陆刷新bilibili并获取data
+# 登陆刷新哔哩哔哩并获取data
 def get_bilibili_data():
     try:
         with open('bilibili_data.json', 'r') as file:
@@ -1409,7 +1410,7 @@ def get_bilibili_data():
         return bilibili_cookie
     else:
         print(f"{datetime.now().strftime('%H:%M:%S')}|bilibili 获取cookie失败")
-        return None
+        return {}
 
 # 通过bs4获取html中字典模块
 def get_html_dict(url, name, script_label):
@@ -2475,6 +2476,10 @@ except FileNotFoundError:
 # 启动进程打印线程
 prepare_print.start()
 
+# 判断是否需要获取哔哩哔哩cookie
+if channelid_bilibili_ids:
+    bilibili_cookie = get_bilibili_data()
+
 # 循环主更新
 while update_num > 0 or update_num == -1:
     
@@ -2600,7 +2605,3 @@ server_process_print_flag[0] = "end"
 http_client("http://127.0.0.1:8000/", "", 1, 0)
 prepare_print.join()
 print(f"{datetime.now().strftime('%H:%M:%S')}|Podflow运行结束")
-if argument == "a-shell":
-    sys.exit()
-
-

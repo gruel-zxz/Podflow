@@ -21,7 +21,7 @@
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
   <published>2024-04-20T16:14:43+00:00</published>
-  <updated>2024-04-20T16:19:56+00:00</updated>
+  <updated>2024-04-21T06:25:46+00:00</updated>
   <media:group>
    <media:title>强势美元引发亚洲金融风暴，亚洲多国被迫“货币保卫战”（20240420第7060期）</media:title>
    <media:content url="https://www.youtube.com/v/BZvekCl6ZBQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -78,8 +78,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="260" average="5.00" min="1" max="5"/>
-    <media:statistics views="36171"/>
+    <media:starRating count="313" average="5.00" min="1" max="5"/>
+    <media:statistics views="49413"/>
    </media:community>
   </media:group>
  </entry>
@@ -94,7 +94,7 @@ https://youtu.be/BbtTwsP_-zc</media:description>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
   <published>2024-04-20T16:02:26+00:00</published>
-  <updated>2024-04-20T16:05:34+00:00</updated>
+  <updated>2024-04-21T05:50:40+00:00</updated>
   <media:group>
    <media:title>台湾振兴五倍券与习近平的“以旧换新救市方案”的主要区别（20240420第7065期）</media:title>
    <media:content url="https://www.youtube.com/v/-oYeMcPNRFo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -151,8 +151,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="65" average="5.00" min="1" max="5"/>
-    <media:statistics views="9158"/>
+    <media:starRating count="77" average="5.00" min="1" max="5"/>
+    <media:statistics views="13365"/>
    </media:community>
   </media:group>
  </entry>
@@ -167,7 +167,7 @@ https://youtu.be/BbtTwsP_-zc</media:description>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
   <published>2024-04-20T16:02:07+00:00</published>
-  <updated>2024-04-20T16:05:22+00:00</updated>
+  <updated>2024-04-21T06:27:51+00:00</updated>
   <media:group>
    <media:title>特斯拉股价估计还要跌，田纳西大众汽车工人投票历史性加入美国汽车工人联合会（20240420第7062期）</media:title>
    <media:content url="https://www.youtube.com/v/KWNFiUaEjkM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -224,8 +224,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="72" average="5.00" min="1" max="5"/>
-    <media:statistics views="11601"/>
+    <media:starRating count="97" average="5.00" min="1" max="5"/>
+    <media:statistics views="15993"/>
    </media:community>
   </media:group>
  </entry>
@@ -240,7 +240,7 @@ https://youtu.be/BbtTwsP_-zc</media:description>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
   <published>2024-04-20T16:01:58+00:00</published>
-  <updated>2024-04-20T16:09:35+00:00</updated>
+  <updated>2024-04-21T06:30:29+00:00</updated>
   <media:group>
    <media:title>越南女首富张美兰200亿黄金藏海上，引发大规模出海寻宝（20240420第7063期）</media:title>
    <media:content url="https://www.youtube.com/v/E0raF-5CH1c?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -297,8 +297,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="75" average="5.00" min="1" max="5"/>
-    <media:statistics views="10904"/>
+    <media:starRating count="104" average="5.00" min="1" max="5"/>
+    <media:statistics views="15161"/>
    </media:community>
   </media:group>
  </entry>
@@ -313,7 +313,7 @@ https://youtu.be/BbtTwsP_-zc</media:description>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
   <published>2024-04-20T16:00:59+00:00</published>
-  <updated>2024-04-20T16:01:18+00:00</updated>
+  <updated>2024-04-21T06:33:44+00:00</updated>
   <media:group>
    <media:title>丢人丢到国际了，4韩国人谎称是中国人在泰国盗窃（20240420第7061期）</media:title>
    <media:content url="https://www.youtube.com/v/U3CoMriyLQI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -370,8 +370,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="131" average="5.00" min="1" max="5"/>
-    <media:statistics views="10685"/>
+    <media:starRating count="149" average="5.00" min="1" max="5"/>
+    <media:statistics views="14931"/>
    </media:community>
   </media:group>
  </entry>
@@ -386,7 +386,7 @@ https://youtu.be/BbtTwsP_-zc</media:description>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
   <published>2024-04-20T11:25:48+00:00</published>
-  <updated>2024-04-20T11:27:32+00:00</updated>
+  <updated>2024-04-21T06:28:09+00:00</updated>
   <media:group>
    <media:title>Garionban酱牛肉锅（20240420第7064期）</media:title>
    <media:content url="https://www.youtube.com/v/Tt-k-FH_Hyw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -443,8 +443,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="20" average="5.00" min="1" max="5"/>
-    <media:statistics views="2606"/>
+    <media:starRating count="21" average="5.00" min="1" max="5"/>
+    <media:statistics views="2836"/>
    </media:community>
   </media:group>
  </entry>
@@ -516,8 +516,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="246" average="5.00" min="1" max="5"/>
-    <media:statistics views="44405"/>
+    <media:starRating count="248" average="5.00" min="1" max="5"/>
+    <media:statistics views="45218"/>
    </media:community>
   </media:group>
  </entry>
@@ -589,8 +589,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="317" average="5.00" min="1" max="5"/>
-    <media:statistics views="73201"/>
+    <media:starRating count="322" average="5.00" min="1" max="5"/>
+    <media:statistics views="75158"/>
    </media:community>
   </media:group>
  </entry>
@@ -663,7 +663,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="144" average="5.00" min="1" max="5"/>
-    <media:statistics views="30428"/>
+    <media:statistics views="30894"/>
    </media:community>
   </media:group>
  </entry>
@@ -678,7 +678,7 @@ https://youtu.be/BbtTwsP_-zc</media:description>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
   <published>2024-04-19T11:54:26+00:00</published>
-  <updated>2024-04-20T06:43:02+00:00</updated>
+  <updated>2024-04-21T05:22:59+00:00</updated>
   <media:group>
    <media:title>现代货币理论已经成为欧美央行当前主要的理论工具（二）（20240419第7059期）</media:title>
    <media:content url="https://www.youtube.com/v/gVe4rmCit74?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -735,8 +735,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="76" average="5.00" min="1" max="5"/>
-    <media:statistics views="8598"/>
+    <media:starRating count="77" average="5.00" min="1" max="5"/>
+    <media:statistics views="8974"/>
    </media:community>
   </media:group>
  </entry>
@@ -808,8 +808,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="84" average="5.00" min="1" max="5"/>
-    <media:statistics views="10504"/>
+    <media:starRating count="85" average="5.00" min="1" max="5"/>
+    <media:statistics views="10887"/>
    </media:community>
   </media:group>
  </entry>
@@ -882,7 +882,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="13" average="5.00" min="1" max="5"/>
-    <media:statistics views="1336"/>
+    <media:statistics views="1356"/>
    </media:community>
   </media:group>
  </entry>
@@ -954,8 +954,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="106" average="5.00" min="1" max="5"/>
-    <media:statistics views="23272"/>
+    <media:starRating count="107" average="5.00" min="1" max="5"/>
+    <media:statistics views="23371"/>
    </media:community>
   </media:group>
  </entry>
@@ -1028,7 +1028,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="243" average="5.00" min="1" max="5"/>
-    <media:statistics views="50491"/>
+    <media:statistics views="50685"/>
    </media:community>
   </media:group>
  </entry>
@@ -1101,7 +1101,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="287" average="5.00" min="1" max="5"/>
-    <media:statistics views="27775"/>
+    <media:statistics views="27917"/>
    </media:community>
   </media:group>
  </entry>

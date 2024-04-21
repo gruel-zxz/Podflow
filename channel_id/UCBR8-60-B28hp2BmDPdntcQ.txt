@@ -10,6 +10,29 @@
   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
  </author>
  <entry>
+  <id>yt:video:pfV_ezZ_jvU</id>
+  <yt:videoId>pfV_ezZ_jvU</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>honestly…they’re ALL le ssupermodels 🌟 #LESSERAFIM</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=pfV_ezZ_jvU"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2024-04-21T05:45:01+00:00</published>
+  <updated>2024-04-21T06:21:05+00:00</updated>
+  <media:group>
+   <media:title>honestly…they’re ALL le ssupermodels 🌟 #LESSERAFIM</media:title>
+   <media:content url="https://www.youtube.com/v/pfV_ezZ_jvU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/pfV_ezZ_jvU/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="475" average="5.00" min="1" max="5"/>
+    <media:statistics views="4397"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:TsDlSxvrcrw</id>
   <yt:videoId>TsDlSxvrcrw</yt:videoId>
   <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
@@ -20,15 +43,15 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-04-21T04:05:50+00:00</published>
-  <updated>2024-04-21T04:06:25+00:00</updated>
+  <updated>2024-04-21T06:02:51+00:00</updated>
   <media:group>
    <media:title>tune in tonight to see Tyler, The Creator live at Coachella from wherever you are 🌟</media:title>
    <media:content url="https://www.youtube.com/v/TsDlSxvrcrw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i1.ytimg.com/vi/TsDlSxvrcrw/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="33" average="5.00" min="1" max="5"/>
-    <media:statistics views="288"/>
+    <media:starRating count="644" average="5.00" min="1" max="5"/>
+    <media:statistics views="8885"/>
    </media:community>
   </media:group>
  </entry>
@@ -43,15 +66,15 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-04-21T01:00:07+00:00</published>
-  <updated>2024-04-21T01:00:35+00:00</updated>
+  <updated>2024-04-21T06:16:23+00:00</updated>
   <media:group>
    <media:title>bringing mini tyler to Coachella today for good luck 🎡</media:title>
    <media:content url="https://www.youtube.com/v/GAXskNKYK8I?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i4.ytimg.com/vi/GAXskNKYK8I/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="902" average="5.00" min="1" max="5"/>
-    <media:statistics views="10790"/>
+    <media:starRating count="1251" average="5.00" min="1" max="5"/>
+    <media:statistics views="20885"/>
    </media:community>
   </media:group>
  </entry>
@@ -66,15 +89,15 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-04-20T22:02:13+00:00</published>
-  <updated>2024-04-21T00:03:22+00:00</updated>
+  <updated>2024-04-21T06:31:14+00:00</updated>
   <media:group>
    <media:title>how do you say &quot;the aura is undeniable&quot; in every language??</media:title>
    <media:content url="https://www.youtube.com/v/hAUOIX7HgQM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i1.ytimg.com/vi/hAUOIX7HgQM/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="493" average="5.00" min="1" max="5"/>
-    <media:statistics views="6453"/>
+    <media:starRating count="610" average="5.00" min="1" max="5"/>
+    <media:statistics views="9114"/>
    </media:community>
   </media:group>
  </entry>
@@ -96,8 +119,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/RCUvNDe28Wg/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="664" average="5.00" min="1" max="5"/>
-    <media:statistics views="10751"/>
+    <media:starRating count="732" average="5.00" min="1" max="5"/>
+    <media:statistics views="12707"/>
    </media:community>
   </media:group>
  </entry>
@@ -119,8 +142,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/40jclXA7mSs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1833" average="5.00" min="1" max="5"/>
-    <media:statistics views="35198"/>
+    <media:starRating count="1888" average="5.00" min="1" max="5"/>
+    <media:statistics views="36499"/>
    </media:community>
   </media:group>
  </entry>
@@ -142,8 +165,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/TD75mxVwPlI/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1194" average="5.00" min="1" max="5"/>
-    <media:statistics views="28219"/>
+    <media:starRating count="1211" average="5.00" min="1" max="5"/>
+    <media:statistics views="28678"/>
    </media:community>
   </media:group>
  </entry>
@@ -165,8 +188,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/gnP02efaslQ/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1956" average="5.00" min="1" max="5"/>
-    <media:statistics views="67775"/>
+    <media:starRating count="1972" average="5.00" min="1" max="5"/>
+    <media:statistics views="68195"/>
    </media:community>
   </media:group>
  </entry>
@@ -188,8 +211,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/cqhALBcg4WI/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1758" average="5.00" min="1" max="5"/>
-    <media:statistics views="57842"/>
+    <media:starRating count="1764" average="5.00" min="1" max="5"/>
+    <media:statistics views="58155"/>
    </media:community>
   </media:group>
  </entry>
@@ -211,8 +234,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/ftXP3CUVnL4/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1440" average="5.00" min="1" max="5"/>
-    <media:statistics views="43453"/>
+    <media:starRating count="1445" average="5.00" min="1" max="5"/>
+    <media:statistics views="43712"/>
    </media:community>
   </media:group>
  </entry>
@@ -234,8 +257,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/vTSRRg6YJ-4/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1614" average="5.00" min="1" max="5"/>
-    <media:statistics views="56540"/>
+    <media:starRating count="1616" average="5.00" min="1" max="5"/>
+    <media:statistics views="56717"/>
    </media:community>
   </media:group>
  </entry>
@@ -257,8 +280,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/zyoCmgQoYs0/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="9653" average="5.00" min="1" max="5"/>
-    <media:statistics views="219537"/>
+    <media:starRating count="9660" average="5.00" min="1" max="5"/>
+    <media:statistics views="219917"/>
    </media:community>
   </media:group>
  </entry>
@@ -280,8 +303,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/BVdnpR_BaWk/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2038" average="5.00" min="1" max="5"/>
-    <media:statistics views="69998"/>
+    <media:starRating count="2042" average="5.00" min="1" max="5"/>
+    <media:statistics views="70164"/>
    </media:community>
   </media:group>
  </entry>
@@ -304,7 +327,7 @@
    <media:description>join @CrissaJackson, @MattSDance, @ReginaEigbe, &amp; @jaymondy. on Shorts to show the world you can dance like @Tylaofficial 🪩 #FreshOutTheGallery</media:description>
    <media:community>
     <media:starRating count="2034" average="5.00" min="1" max="5"/>
-    <media:statistics views="87429"/>
+    <media:statistics views="87624"/>
    </media:community>
   </media:group>
  </entry>
@@ -326,31 +349,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/9hvWBP1q0GI/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2631" average="5.00" min="1" max="5"/>
-    <media:statistics views="88209"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:DnfaW7KaGws</id>
-  <yt:videoId>DnfaW7KaGws</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>@tatikapaya names her #WomenofYouTube faves @scoladondo @jadebeason @rikkisandhuu 🎀🎀🎀</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=DnfaW7KaGws"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2024-03-30T18:00:25+00:00</published>
-  <updated>2024-04-01T23:41:14+00:00</updated>
-  <media:group>
-   <media:title>@tatikapaya names her #WomenofYouTube faves @scoladondo @jadebeason @rikkisandhuu 🎀🎀🎀</media:title>
-   <media:content url="https://www.youtube.com/v/DnfaW7KaGws?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i1.ytimg.com/vi/DnfaW7KaGws/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="1721" average="5.00" min="1" max="5"/>
-    <media:statistics views="53996"/>
+    <media:starRating count="2633" average="5.00" min="1" max="5"/>
+    <media:statistics views="88419"/>
    </media:community>
   </media:group>
  </entry>

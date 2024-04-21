@@ -28,8 +28,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/rdQboRPZZgI/hqdefault.jpg" width="480" height="360"/>
    <media:description>《过去已死》,原著：阿西莫夫，出自|《阿西莫夫科幻短篇全集》。是作者的另一部代表作。</media:description>
    <media:community>
-    <media:starRating count="95" average="5.00" min="1" max="5"/>
-    <media:statistics views="4372"/>
+    <media:starRating count="99" average="5.00" min="1" max="5"/>
+    <media:statistics views="4454"/>
    </media:community>
   </media:group>
  </entry>
@@ -53,7 +53,7 @@
 《群星的背面》作者：谢云宁，他来了！</media:description>
    <media:community>
     <media:starRating count="117" average="5.00" min="1" max="5"/>
-    <media:statistics views="4237"/>
+    <media:statistics views="4261"/>
    </media:community>
   </media:group>
  </entry>
@@ -76,7 +76,7 @@
    <media:description>谢缵泰：中国飞艇设计制造的第一人，也是中国航空先驱。于1899年完成了首例飞艇的设计。科幻小说《龙骸》，出自雨果奖获得者海漄的科幻作品集《海漄怪奇故事集》，《龙骸》中涉及到的历史人物均有原型。</media:description>
    <media:community>
     <media:starRating count="134" average="5.00" min="1" max="5"/>
-    <media:statistics views="7505"/>
+    <media:statistics views="7521"/>
    </media:community>
   </media:group>
  </entry>
@@ -100,7 +100,7 @@
 当人类缩小十万倍，变成细菌大小</media:description>
    <media:community>
     <media:starRating count="94" average="5.00" min="1" max="5"/>
-    <media:statistics views="4186"/>
+    <media:statistics views="4191"/>
    </media:community>
   </media:group>
  </entry>
@@ -123,7 +123,7 @@
    <media:description>我们也顺应时代，开始制作5分钟以内的短内容了，当然长视频不会断更。只是在此基础上增加了短视频的数量。</media:description>
    <media:community>
     <media:starRating count="86" average="5.00" min="1" max="5"/>
-    <media:statistics views="3492"/>
+    <media:statistics views="3497"/>
    </media:community>
   </media:group>
  </entry>
@@ -146,7 +146,7 @@
    <media:description>我们的第二期克苏鲁风格作品——《诡丽幻谭》。《诡丽幻谭》创刊于1923年，主打奇幻、科幻、惊悚等各类型怪奇文学，创刊100年后由国内阿拉法文化从杂志100年来的几千篇小说中，挑选了25篇最有代表性的作品，翻译成中文，集结成了这部《诡丽幻谭·百年精选·Vol.1》。</media:description>
    <media:community>
     <media:starRating count="104" average="5.00" min="1" max="5"/>
-    <media:statistics views="5237"/>
+    <media:statistics views="5242"/>
    </media:community>
   </media:group>
  </entry>
@@ -169,7 +169,7 @@
    <media:description>《电车悖论》是基于电车难题”的再创作，将古老的问题放置于未来社会的背景之下。小说曾刊登再科幻世界杂志（原著：康乃馨），虽然过去了很多年，但是值得让更多的人看见。</media:description>
    <media:community>
     <media:starRating count="156" average="5.00" min="1" max="5"/>
-    <media:statistics views="8324"/>
+    <media:statistics views="8330"/>
    </media:community>
   </media:group>
  </entry>
@@ -192,7 +192,7 @@
    <media:description>《米奇7号》，原著：爱德华·阿什顿。这部一经问世，便获得了美国全国公共广播电台2022最佳图书奖，《寄生虫》的导演奉俊昊也将其改编为电影剧本，预计2025年会和大家见面。</media:description>
    <media:community>
     <media:starRating count="145" average="5.00" min="1" max="5"/>
-    <media:statistics views="7883"/>
+    <media:statistics views="7888"/>
    </media:community>
   </media:group>
  </entry>
@@ -216,7 +216,7 @@
 这是一部非常硬核的国产长篇科幻小说，作者用专业的知识，为我们呈现了这部《造神年代》，建议感兴趣的同学阅读原著。《造神年代》原著：严曦。</media:description>
    <media:community>
     <media:starRating count="162" average="5.00" min="1" max="5"/>
-    <media:statistics views="8046"/>
+    <media:statistics views="8052"/>
    </media:community>
   </media:group>
  </entry>
@@ -239,7 +239,7 @@
    <media:description>《逃兵》上世纪40年代的科幻作品，原著：克利福德.西马克，作者以较为严谨的写作手法和大胆的想象力，在上世纪就为我们构想出了另类生命对人类的看法，是科幻黄金时代的佳作之一。</media:description>
    <media:community>
     <media:starRating count="150" average="5.00" min="1" max="5"/>
-    <media:statistics views="6730"/>
+    <media:statistics views="6732"/>
    </media:community>
   </media:group>
  </entry>
@@ -262,7 +262,7 @@
    <media:description>一个战争机器人与人类孩子的最后时光：意识流科幻小说《潮痕》，原著：伊丽莎白·贝尔《潮痕》 (2008年雨果奖最佳短篇)</media:description>
    <media:community>
     <media:starRating count="117" average="5.00" min="1" max="5"/>
-    <media:statistics views="4353"/>
+    <media:statistics views="4356"/>
    </media:community>
   </media:group>
  </entry>
@@ -285,7 +285,7 @@
    <media:description>在目前语言学界的主流观点中，不存在“第4人称”。当然这是科幻小说，作者藤野另辟蹊径，以全新的视角揭开了一个地外生命群体的存在模式。《第四人称》  选自：《科幻世界》2016年12月刊。</media:description>
    <media:community>
     <media:starRating count="157" average="5.00" min="1" max="5"/>
-    <media:statistics views="8420"/>
+    <media:statistics views="8427"/>
    </media:community>
   </media:group>
  </entry>
@@ -308,7 +308,7 @@
    <media:description>老龄化问题的终极答案：让40亿老人移民外星？科幻小说《暮星归途》</media:description>
    <media:community>
     <media:starRating count="120" average="5.00" min="1" max="5"/>
-    <media:statistics views="7711"/>
+    <media:statistics views="7717"/>
    </media:community>
   </media:group>
  </entry>
@@ -330,8 +330,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/wnP-yUQ1MkQ/hqdefault.jpg" width="480" height="360"/>
    <media:description>说明：这个盘点清单是根据幻海团队的阅读经历，从读者的接受度、作品故事性、作品的思想深度等特点做出的盘点清单，均为我们的个人观点。所以《龙蛋》、《盲视》、《量子魔术师》《泥人十四》等过于硬核的优秀作品不在其中，同时《三体》与《泽利》也不在其中，它们之前已经总结过了，另外《太空漫游系列》/《火星救援》《索拉里斯星》等优秀作品，由于已经被影视化，熟悉的人很多，所以也不在其中。</media:description>
    <media:community>
-    <media:starRating count="217" average="5.00" min="1" max="5"/>
-    <media:statistics views="7008"/>
+    <media:starRating count="218" average="5.00" min="1" max="5"/>
+    <media:statistics views="7012"/>
    </media:community>
   </media:group>
  </entry>
@@ -355,7 +355,7 @@
 我们最看好的是05：15的部分，在科技断代之后，人类存活到了最后。</media:description>
    <media:community>
     <media:starRating count="158" average="5.00" min="1" max="5"/>
-    <media:statistics views="8863"/>
+    <media:statistics views="8868"/>
    </media:community>
   </media:group>
  </entry>
