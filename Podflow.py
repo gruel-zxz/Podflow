@@ -1388,7 +1388,7 @@ def get_bilibili_data():
     bilibili_login_code, bilibili_login_refresh_token = judgment_bilibili_update(bilibili_cookie)
     upward = 0
     try_num = 0
-    while try_num < 3 and (bilibili_login_code != 0 or bilibili_login_refresh_token is not False):
+    while try_num < 2 and (bilibili_login_code != 0 or bilibili_login_refresh_token is not False):
         if bilibili_login_code != 0:
             if try_num == 0:
                 print(f"{datetime.now().strftime('%H:%M:%S')}|bilibili 未登陆")
@@ -2415,6 +2415,8 @@ channelid_youtube_ids = get_channelid_id(channelid_youtube, "youtube")
 channelid_youtube_ids_original = channelid_youtube_ids.copy()
 # 读取bilibili频道的id
 channelid_bilibili_ids = get_channelid_id(channelid_bilibili, "bilibili")
+# 复制bilibili频道id用于删除已抛弃的媒体文件夹
+channelid_bilibili_ids_original = channelid_bilibili_ids.copy()
 
 # 尝试获取命令行参数
 try:
@@ -2479,6 +2481,10 @@ prepare_print.start()
 # 判断是否需要获取哔哩哔哩cookie
 if channelid_bilibili_ids:
     bilibili_cookie = get_bilibili_data()
+    # 如cookie获取失败将不更新bilibili频道
+    if not bilibili_cookie:
+        channelid_bilibili_ids = {}
+        write_log("哔哩哔哩cookie无法获取, bilibili频道将不更新")
 
 # 循环主更新
 while update_num > 0 or update_num == -1:
