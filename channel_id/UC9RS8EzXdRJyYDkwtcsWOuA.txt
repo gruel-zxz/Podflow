@@ -42,7 +42,7 @@
 #日本 #vlog #留學</media:description>
    <media:community>
     <media:starRating count="4035" average="5.00" min="1" max="5"/>
-    <media:statistics views="200302"/>
+    <media:statistics views="200456"/>
    </media:community>
   </media:group>
  </entry>
@@ -85,8 +85,8 @@
 
 #日本漫畫 #殺手阿一 #cult</media:description>
    <media:community>
-    <media:starRating count="1139" average="5.00" min="1" max="5"/>
-    <media:statistics views="56072"/>
+    <media:starRating count="1142" average="5.00" min="1" max="5"/>
+    <media:statistics views="56192"/>
    </media:community>
   </media:group>
  </entry>
@@ -131,7 +131,7 @@
 #日本漫畫 #殺手阿一 #cult</media:description>
    <media:community>
     <media:starRating count="1181" average="5.00" min="1" max="5"/>
-    <media:statistics views="97571"/>
+    <media:statistics views="97714"/>
    </media:community>
   </media:group>
  </entry>
@@ -146,7 +146,7 @@
    <uri>https://www.youtube.com/channel/UC9RS8EzXdRJyYDkwtcsWOuA</uri>
   </author>
   <published>2023-09-27T12:00:48+00:00</published>
-  <updated>2024-02-14T23:03:27+00:00</updated>
+  <updated>2024-04-26T05:30:24+00:00</updated>
   <media:group>
    <media:title>耶穌的包皮、美女的原味內衣、傑克遜的頭髮、教主的洗澡水、😨太瘋狂了｜盤點究極詭異邪門的代表，狂熱信仰的“聖物”</media:title>
    <media:content url="https://www.youtube.com/v/wKOqvpejjTE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -176,8 +176,8 @@
 
 #日本 #次文化 #戀物</media:description>
    <media:community>
-    <media:starRating count="1052" average="5.00" min="1" max="5"/>
-    <media:statistics views="64790"/>
+    <media:starRating count="1054" average="5.00" min="1" max="5"/>
+    <media:statistics views="64863"/>
    </media:community>
   </media:group>
  </entry>
@@ -220,8 +220,8 @@
 
 #遊戲 #videogames  #日本</media:description>
    <media:community>
-    <media:starRating count="2629" average="5.00" min="1" max="5"/>
-    <media:statistics views="242343"/>
+    <media:starRating count="2635" average="5.00" min="1" max="5"/>
+    <media:statistics views="242596"/>
    </media:community>
   </media:group>
  </entry>
@@ -265,8 +265,8 @@
 
 #日本 #動漫 #日本電影</media:description>
    <media:community>
-    <media:starRating count="2354" average="5.00" min="1" max="5"/>
-    <media:statistics views="233016"/>
+    <media:starRating count="2355" average="5.00" min="1" max="5"/>
+    <media:statistics views="233350"/>
    </media:community>
   </media:group>
  </entry>
@@ -310,8 +310,8 @@
 ▶追蹤TenGuSan的IG：@tengusan.real
 ▶我的品牌官網：www.under20.com</media:description>
    <media:community>
-    <media:starRating count="2574" average="5.00" min="1" max="5"/>
-    <media:statistics views="249662"/>
+    <media:starRating count="2583" average="5.00" min="1" max="5"/>
+    <media:statistics views="250762"/>
    </media:community>
   </media:group>
  </entry>
@@ -352,8 +352,8 @@
 ▶追蹤TenGuSan的IG：@tengusan.real
 ▶我的品牌官網：www.under20.com</media:description>
    <media:community>
-    <media:starRating count="2016" average="5.00" min="1" max="5"/>
-    <media:statistics views="178672"/>
+    <media:starRating count="2019" average="5.00" min="1" max="5"/>
+    <media:statistics views="179575"/>
    </media:community>
   </media:group>
  </entry>
@@ -368,7 +368,7 @@
    <uri>https://www.youtube.com/channel/UC9RS8EzXdRJyYDkwtcsWOuA</uri>
   </author>
   <published>2023-08-09T12:00:36+00:00</published>
-  <updated>2024-03-30T22:10:37+00:00</updated>
+  <updated>2024-04-24T08:16:18+00:00</updated>
   <media:group>
    <media:title>全網獨家㊙️訪！對話金牌🅰️✅華人導演：“有些女演員，比我更變態！”｜🦄️F©️2冠軍監督，深度揭秘行業內幕！【1小時超長完整版】</media:title>
    <media:content url="https://www.youtube.com/v/eNx4mGFha2g?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -416,8 +416,8 @@
 ▶追蹤TenGuSan的IG：@tengusan.real
 ▶我的品牌官網：www.under20.com</media:description>
    <media:community>
-    <media:starRating count="1866" average="5.00" min="1" max="5"/>
-    <media:statistics views="304908"/>
+    <media:starRating count="1870" average="5.00" min="1" max="5"/>
+    <media:statistics views="305150"/>
    </media:community>
   </media:group>
  </entry>
@@ -459,7 +459,7 @@
 #日本 #日本社會</media:description>
    <media:community>
     <media:starRating count="892" average="5.00" min="1" max="5"/>
-    <media:statistics views="68013"/>
+    <media:statistics views="68062"/>
    </media:community>
   </media:group>
  </entry>
@@ -503,8 +503,8 @@
 
 #2ch #日本文化 #互聯網</media:description>
    <media:community>
-    <media:starRating count="979" average="5.00" min="1" max="5"/>
-    <media:statistics views="75645"/>
+    <media:starRating count="982" average="5.00" min="1" max="5"/>
+    <media:statistics views="75751"/>
    </media:community>
   </media:group>
  </entry>
@@ -545,7 +545,7 @@
 #日本社會 #刑務所 #越獄</media:description>
    <media:community>
     <media:starRating count="719" average="5.00" min="1" max="5"/>
-    <media:statistics views="55913"/>
+    <media:statistics views="55981"/>
    </media:community>
   </media:group>
  </entry>
@@ -595,8 +595,8 @@
 ▶追蹤TenGuSan的IG：@tengusan.real
 ▶我的品牌官網：www.under20.com</media:description>
    <media:community>
-    <media:starRating count="1808" average="5.00" min="1" max="5"/>
-    <media:statistics views="122906"/>
+    <media:starRating count="1810" average="5.00" min="1" max="5"/>
+    <media:statistics views="123141"/>
    </media:community>
   </media:group>
  </entry>
@@ -638,7 +638,7 @@
 #福島核污水 #日本核廢水 #核輻射 #科幻</media:description>
    <media:community>
     <media:starRating count="780" average="5.00" min="1" max="5"/>
-    <media:statistics views="42116"/>
+    <media:statistics views="42157"/>
    </media:community>
   </media:group>
  </entry>
@@ -653,7 +653,7 @@
    <uri>https://www.youtube.com/channel/UC9RS8EzXdRJyYDkwtcsWOuA</uri>
   </author>
   <published>2023-06-21T12:00:27+00:00</published>
-  <updated>2024-03-09T21:19:39+00:00</updated>
+  <updated>2024-04-25T17:58:03+00:00</updated>
   <media:group>
    <media:title>爆火恐怖大師伊藤潤二🔥在日本其實根本沒人看😱?! 伊藤式恐怖美學解碼｜ 奈飛Netflix《狂熱集》</media:title>
    <media:content url="https://www.youtube.com/v/_YRpbqikGFE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -685,7 +685,7 @@
 #伊藤潤二 #恐怖 #日本 #次文化</media:description>
    <media:community>
     <media:starRating count="1429" average="5.00" min="1" max="5"/>
-    <media:statistics views="92169"/>
+    <media:statistics views="92295"/>
    </media:community>
   </media:group>
  </entry>

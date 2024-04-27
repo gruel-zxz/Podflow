@@ -13,7 +13,10 @@ import zipfile
 import binascii
 import threading
 import subprocess
+import urllib.parse
 import http.cookiejar
+from hashlib import md5
+from functools import reduce
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 
@@ -74,7 +77,7 @@ channelid_bilibili_ids_original = {}  # 原始哔哩哔哩频道ID字典
 server_process_print_flag = ["keep"]  # httpserver进程打印标志列表
 update_generate_rss = True  # 更新并生成rss布朗值
 displayed_QRcode = []  # 已显示二维码列表
-bilibili_cookie = {}  # 哔哩哔哩cookie字典
+bilibili_data = {}  # 哔哩哔哩data字典
 
 channelid_youtube_ids_update = {}  # 需更新的YouTube频道字典
 youtube_content_ytid_update = {}  # 需下载YouTube视频字典
@@ -199,6 +202,8 @@ def http_client(url, name="", max_retries=10, retry_delay=4, headers_possess=Fal
     user_agent = {
         "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36"
     }
+    if "bilibili" in url:
+        user_agent["Referer"] = "https://www.bilibili.com/"
     err = None  # 初始化 err 变量
     response = None  # 初始化 response 变量
     # 创建一个Session对象
@@ -1237,6 +1242,20 @@ def get_channelid_id(channelid, idname):
         channelid_ids = {}
     return channelid_ids
 
+# 获取最新的img_key和sub_key模块
+def getWbiKeys(bilibili_cookie=None):
+    bilibili_url = "https://api.bilibili.com/x/web-interface/nav"
+    if resp:= http_client(bilibili_url, "获取最新的img_key和sub_key", 10, 4, True, bilibili_cookie):
+        resp.raise_for_status()
+        json_content = resp.json()
+        img_url: str = json_content['data']['wbi_img']['img_url']
+        sub_url: str = json_content['data']['wbi_img']['sub_url']
+        img_key = img_url.rsplit('/', 1)[1].split('.')[0]
+        sub_key = sub_url.rsplit('/', 1)[1].split('.')[0]
+        return img_key, sub_key
+    else:
+        return "", ""
+
 # 申请哔哩哔哩二维码并获取token和URL模块
 def bilibili_request_qr_code():
     # 实际申请二维码的API请求
@@ -1290,15 +1309,14 @@ def bilibili_login():
 def save_bilibili_cookies():
     bilibili_cookie, refresh_token, upward = bilibili_login()
     if bilibili_cookie == 86038:
-        return {}, upward
+        return {"cookie": None}, upward
     else:
         bilibili_cookie = requests.utils.dict_from_cookiejar(bilibili_cookie)
         bilibili_data = {
             "cookie": bilibili_cookie,
-            "refresh_token": refresh_token,
+            "refresh_token": refresh_token
         }
-        file_save(json.dumps(bilibili_data, ensure_ascii=False), "bilibili_data.json")
-        return bilibili_cookie, upward
+        return bilibili_data, upward
 
 # 检查哔哩哔哩是否需要刷新模块
 def judgment_bilibili_update(cookies):
@@ -1333,7 +1351,7 @@ JNrRuoEUXpabUzGB8QIDAQAB
     if refresh_csrf_match := re.search(r'<div id="1-name">(.+?)</div>', refresh_csrf_response.text):
         refresh_csrf_value = refresh_csrf_match[1]
     else:
-        return {}
+        return {"cookie": None}
     # 更新bilibili_cookie
     update_cookie_url = 'https://passport.bilibili.com/x/passport-login/web/cookie/refresh'
     update_cookie_data = {
@@ -1347,8 +1365,7 @@ JNrRuoEUXpabUzGB8QIDAQAB
         new_bilibili_cookie = requests.utils.dict_from_cookiejar(update_cookie_response.cookies)
         new_refresh_token = update_cookie_response.json()["data"]["refresh_token"]
     else:
-        print(update_cookie_response.json()["code"])  # 测试
-        return {}
+        return {"cookie": None}
     # 确认更新bilibili_cookie
     confirm_cookie_url = 'https://passport.bilibili.com/x/passport-login/web/confirm/refresh'
     confirm_cookie_data = {
@@ -1359,10 +1376,9 @@ JNrRuoEUXpabUzGB8QIDAQAB
     if confirm_cookie_response.json()["code"] == 0:
         bilibili_data["cookie"] = new_bilibili_cookie
         bilibili_data["refresh_token"] = new_refresh_token
-        file_save(json.dumps(bilibili_data, ensure_ascii=False), "bilibili_data.json")
-        return new_bilibili_cookie
+        return bilibili_data
     else:
-        return {}
+        return {"cookie": None}
 
 # 生成Netscape_HTTP_Cookie模块
 def bulid_Netscape_HTTP_Cookie(file_name, cookie={}):
@@ -1377,40 +1393,87 @@ def bulid_Netscape_HTTP_Cookie(file_name, cookie={}):
     cookie_jar.save(ignore_discard=True, ignore_expires=True)
 
 # 登陆刷新哔哩哔哩并获取data
-def get_bilibili_data():
-    try:
-        with open('bilibili_data.json', 'r') as file:
-            bilibili_data = file.read()
-        bilibili_data = json.loads(bilibili_data)
-        bilibili_cookie = bilibili_data["cookie"]
-    except Exception:
-        bilibili_cookie = {}
-    bilibili_login_code, bilibili_login_refresh_token = judgment_bilibili_update(bilibili_cookie)
-    upward = 0
-    try_num = 0
-    while try_num < 2 and (bilibili_login_code != 0 or bilibili_login_refresh_token is not False):
-        if bilibili_login_code != 0:
-            if try_num == 0:
-                print(f"{datetime.now().strftime('%H:%M:%S')}|bilibili 未登陆")
+def get_bilibili_data(channelid_bilibili_ids):
+    if channelid_bilibili_ids:
+        try:
+            with open('bilibili_data.json', 'r') as file:
+                bilibili_data = file.read()
+            bilibili_data = json.loads(bilibili_data)
+        except Exception:
+            bilibili_data = {"cookie":None, "timestamp": 0.0}
+        if time.time() - bilibili_data["timestamp"] - 60*60 > 0:
+            bilibili_login_code, bilibili_login_refresh_token = judgment_bilibili_update(bilibili_data["cookie"])
+            upward = 0
+            try_num = 0
+            while try_num < 2 and (bilibili_login_code != 0 or bilibili_login_refresh_token is not False):
+                if bilibili_login_code != 0:
+                    if try_num == 0:
+                        print(f"{datetime.now().strftime('%H:%M:%S')}|bilibili \033[31m未登陆\033[0m")
+                    else:
+                        print(f"\033[{upward + 3}F\033[{upward + 3}K{datetime.now().strftime('%H:%M:%S')}|bilibili \033[31m未登陆, 重试第\033[0m{try_num}\033[31m次\033[0m")
+                    bilibili_data, upward = save_bilibili_cookies()
+                    try_num += 1
+                else:
+                    print(f"{datetime.now().strftime('%H:%M:%S')}|bilibili \033[33m需刷新\033[0m")
+                    bilibili_data = bilibili_cookie_update(bilibili_data)
+                    if bilibili_data["cookie"]:
+                        print(f"{datetime.now().strftime('%H:%M:%S')}|bilibili \033[32m刷新成功\033[0m")
+                    else:
+                        print(f"{datetime.now().strftime('%H:%M:%S')}|bilibili \033[31m刷新失败, 重新登陆\033[0m")
+                bilibili_login_code, bilibili_login_refresh_token = judgment_bilibili_update(bilibili_data["cookie"])
+            if bilibili_login_code == 0 and bilibili_login_refresh_token is False:
+                bulid_Netscape_HTTP_Cookie("yt_dlp_bilibili", bilibili_data["cookie"])
+                print(f"{datetime.now().strftime('%H:%M:%S')}|bilibili \033[32m获取data成功\033[0m")
+                img_key, sub_key = getWbiKeys()
+                bilibili_data["img_key"] = img_key
+                bilibili_data["sub_key"] = sub_key
+                bilibili_data["timestamp"] = time.time()
+                file_save(json.dumps(bilibili_data, ensure_ascii=False), "bilibili_data.json")
+                return channelid_bilibili_ids, bilibili_data
             else:
-                print(f"\033[{upward + 3}F\033[{upward + 3}K{datetime.now().strftime('%H:%M:%S')}|bilibili 未登陆, 重试第{try_num}次")
-            bilibili_cookie, upward = save_bilibili_cookies()
-            try_num += 1
+                print(f"{datetime.now().strftime('%H:%M:%S')}|bilibili \033[31m获取data失败\033[0m")
+                return {}, {"cookie":None, "timestamp": 0.0}
         else:
-            print(f"{datetime.now().strftime('%H:%M:%S')}|bilibili 需刷新")
-            bilibili_cookie = bilibili_cookie_update(bilibili_data)
-            if bilibili_cookie:
-                print(f"{datetime.now().strftime('%H:%M:%S')}|bilibili 刷新成功")
-            else:
-                print(f"{datetime.now().strftime('%H:%M:%S')}|bilibili 刷新失败, 重新登陆")
-        bilibili_login_code, bilibili_login_refresh_token = judgment_bilibili_update(bilibili_cookie)
-    if bilibili_login_code == 0 and bilibili_login_refresh_token is False:
-        bulid_Netscape_HTTP_Cookie("yt_dlp_bilibili", bilibili_cookie)
-        print(f"{datetime.now().strftime('%H:%M:%S')}|bilibili 获取cookie成功")
-        return bilibili_cookie
+            print(f"{datetime.now().strftime('%H:%M:%S')}|bilibili \033[33m获取data成功\033[0m")
+            return channelid_bilibili_ids, bilibili_data
     else:
-        print(f"{datetime.now().strftime('%H:%M:%S')}|bilibili 获取cookie失败")
-        return {}
+        return {}, {"cookie":None, "timestamp": 0.0}
+
+# WBI签名模块
+def WBI_signature(params={}, img_key="", sub_key=""):
+    mixinKeyEncTab = [
+        46, 47, 18, 2, 53, 8, 23, 32, 15, 50, 10, 31, 58, 3, 45, 35, 27, 43, 5, 49,
+        33, 9, 42, 19, 29, 28, 14, 39, 12, 38, 41, 13, 37, 48, 7, 16, 24, 55, 40,
+        61, 26, 17, 0, 1, 60, 51, 30, 4, 22, 25, 54, 21, 56, 59, 6, 63, 57, 62, 11,
+        36, 20, 34, 44, 52
+    ]
+
+    def getMixinKey(orig: str):
+        '对 imgKey 和 subKey 进行字符顺序打乱编码'
+        return reduce(lambda s, i: s + orig[i], mixinKeyEncTab, '')[:32]
+
+    def encWbi(params: dict, img_key: str, sub_key: str):
+        '为请求参数进行 wbi 签名'
+        mixin_key = getMixinKey(img_key + sub_key)
+        curr_time = round(time.time())
+        params['wts'] = curr_time                                   # 添加 wts 字段
+        params = dict(sorted(params.items()))                       # 按照 key 重排参数
+        # 过滤 value 中的 "!'()*" 字符
+        params = {
+            k : ''.join(filter(lambda chr: chr not in "!'()*", str(v)))
+            for k, v 
+            in params.items()
+        }
+        query = urllib.parse.urlencode(params)                      # 序列化参数
+        wbi_sign = md5((query + mixin_key).encode()).hexdigest()    # 计算 w_rid
+        params['w_rid'] = wbi_sign
+        return params
+
+    return encWbi(
+        params=params,
+        img_key=img_key,
+        sub_key=sub_key
+    )
 
 # 通过bs4获取html中字典模块
 def get_html_dict(url, name, script_label):
@@ -2391,7 +2454,7 @@ def del_makeup_yt_format_fail(overall_rss):
         overall_rss = re.sub(pattern_youtube_fail_item, replacement_youtube_fail_item, overall_rss, flags=re.DOTALL)
     return overall_rss
 
-#获取配置文件config
+# 获取配置文件config
 config = get_config()
 # 纠正配置信息config
 correct_config()
@@ -2478,17 +2541,10 @@ except FileNotFoundError:
 # 启动进程打印线程
 prepare_print.start()
 
-# 判断是否需要获取哔哩哔哩cookie
-if channelid_bilibili_ids:
-    bilibili_cookie = get_bilibili_data()
-    # 如cookie获取失败将不更新bilibili频道
-    if not bilibili_cookie:
-        channelid_bilibili_ids = {}
-        write_log("哔哩哔哩cookie无法获取, bilibili频道将不更新")
-
 # 循环主更新
 while update_num > 0 or update_num == -1:
-    
+    # 更新哔哩哔哩data
+    channelid_bilibili_ids, bilibili_data = get_bilibili_data(channelid_bilibili_ids_original)
     # 获取原始xml字典和rss文本
     xmls_original, hash_rss_original, xmls_original_fail = get_original_rss()
     # 更新Youtube频道xml
