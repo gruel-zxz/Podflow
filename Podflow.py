@@ -14,7 +14,6 @@ import binascii
 import threading
 import subprocess
 import urllib.parse
-import http.cookiejar
 from hashlib import md5
 from functools import reduce
 import xml.etree.ElementTree as ET
@@ -49,7 +48,7 @@ default_config = {
     },
     "channelid_bilibili": {
         "哔哩哔哩弹幕网": {
-            "update_size": 25,
+            "update_size": 30,
             "id": "8047632",
             "title": "哔哩哔哩漫画",
             "quality": "1080",
@@ -77,8 +76,8 @@ channelid_bilibili_ids_original = {}  # 原始哔哩哔哩频道ID字典
 server_process_print_flag = ["keep"]  # httpserver进程打印标志列表
 update_generate_rss = True  # 更新并生成rss布朗值
 displayed_QRcode = []  # 已显示二维码列表
-bilibili_data = {}  # 哔哩哔哩data字典
 
+bilibili_data = {}  # 哔哩哔哩data字典
 channelid_youtube_ids_update = {}  # 需更新的YouTube频道字典
 youtube_content_ytid_update = {}  # 需下载YouTube视频字典
 youtube_content_ytid_backward_update = {}  # 向后更新需下载YouTube视频字典
@@ -1380,17 +1379,12 @@ JNrRuoEUXpabUzGB8QIDAQAB
     else:
         return {"cookie": None}
 
-# 生成Netscape_HTTP_Cookie模块
-def bulid_Netscape_HTTP_Cookie(file_name, cookie={}):
-    # 创建一个MozillaCookieJar对象，指定保存文件
-    cookie_jar = http.cookiejar.MozillaCookieJar(f"{file_name}.txt")
-    for cookie_name, cookie_value in cookie.items():
-        # 创建一个Cookie对象
-        cookie = requests.cookies.create_cookie(name=cookie_name, value=cookie_value)
-        # 将Cookie添加到CookieJar中
-        cookie_jar.set_cookie(cookie)
-    # 保存CookieJar对象的数据到文件中
-    cookie_jar.save(ignore_discard=True, ignore_expires=True)
+# 转换为RequestsCookieJar对象模块
+def requests_cookie_jar(cookie={}):
+    cookie_ydl = requests.cookies.RequestsCookieJar()
+    for k, v in cookie.items():
+        cookie_ydl.set(k, v)
+    return cookie_ydl
 
 # 登陆刷新哔哩哔哩并获取data
 def get_bilibili_data(channelid_bilibili_ids):
@@ -1422,22 +1416,23 @@ def get_bilibili_data(channelid_bilibili_ids):
                         print(f"{datetime.now().strftime('%H:%M:%S')}|bilibili \033[31m刷新失败, 重新登陆\033[0m")
                 bilibili_login_code, bilibili_login_refresh_token = judgment_bilibili_update(bilibili_data["cookie"])
             if bilibili_login_code == 0 and bilibili_login_refresh_token is False:
-                bulid_Netscape_HTTP_Cookie("yt_dlp_bilibili", bilibili_data["cookie"])
+                bilibili_cookie_ydl = requests_cookie_jar(bilibili_data["cookie"])
                 print(f"{datetime.now().strftime('%H:%M:%S')}|bilibili \033[32m获取data成功\033[0m")
                 img_key, sub_key = getWbiKeys()
                 bilibili_data["img_key"] = img_key
                 bilibili_data["sub_key"] = sub_key
                 bilibili_data["timestamp"] = time.time()
                 file_save(json.dumps(bilibili_data, ensure_ascii=False), "bilibili_data.json")
-                return channelid_bilibili_ids, bilibili_data
+                return channelid_bilibili_ids, bilibili_data, bilibili_cookie_ydl
             else:
                 print(f"{datetime.now().strftime('%H:%M:%S')}|bilibili \033[31m获取data失败\033[0m")
-                return {}, {"cookie":None, "timestamp": 0.0}
+                return {}, {"cookie":None, "timestamp": 0.0}, ""
         else:
             print(f"{datetime.now().strftime('%H:%M:%S')}|bilibili \033[33m获取data成功\033[0m")
-            return channelid_bilibili_ids, bilibili_data
+            bilibili_cookie_ydl = requests_cookie_jar(bilibili_data["cookie"])
+            return channelid_bilibili_ids, bilibili_data, bilibili_cookie_ydl
     else:
-        return {}, {"cookie":None, "timestamp": 0.0}
+        return {}, {"cookie":None, "timestamp": 0.0}, ""
 
 # WBI签名模块
 def WBI_signature(params={}, img_key="", sub_key=""):
@@ -1662,13 +1657,15 @@ def youtube_rss_update(youtube_key, youtube_value, pattern_youtube_varys, patter
     if channelid_youtube[youtube_value]["BackwardUpdate"] and guids:
         backward_update_size = channelid_youtube[youtube_value]["last_size"] - len(youtube_content_ytid_original) - len(youtube_content_ytid)
         if backward_update_size > 0:
-            youtube_html_backward_playlists = get_youtube_html_playlists(
-                youtube_key,
-                youtube_value,
-                guids,
-                False,
-                min(backward_update_size, channelid_youtube[youtube_value]["BackwardUpdate_size"])
-            )
+            for _ in range(3):
+                if youtube_html_backward_playlists:= get_youtube_html_playlists(
+                    youtube_key,
+                    youtube_value,
+                    guids,
+                    False,
+                    min(backward_update_size, channelid_youtube[youtube_value]["BackwardUpdate_size"])
+                ) is not None:
+                    break
             if youtube_html_backward_playlists and youtube_html_backward_playlists["list"]:
                 channelid_youtube_ids_update[youtube_key] = youtube_value
                 channelid_youtube_rss[youtube_key].update({"backward": youtube_html_backward_playlists})
@@ -1678,6 +1675,26 @@ def youtube_rss_update(youtube_key, youtube_value, pattern_youtube_varys, patter
                         youtube_content_ytid_backward.append(guid)
                 if youtube_content_ytid_backward:
                     youtube_content_ytid_backward_update[youtube_key] = youtube_content_ytid_backward
+
+# 更新哔哩哔哩频道xml模块
+def bilibili_rss_update(bilibili_key, bilibili_value):
+    bilibili_response = http_client(
+        "https://api.bilibili.com/x/space/wbi/arc/search",
+        bilibili_value,
+        10,
+        4,
+        True,
+        bilibili_data["cookie"],
+        WBI_signature(
+            {
+                "mid":bilibili_key,
+                "pn":"1",
+                "ps":"15"
+            },
+            bilibili_data["img_key"],
+            bilibili_data["sub_key"]
+        )
+    )
 
 # 更新Youtube频道xml多线程模块
 def update_youtube_rss():
@@ -1754,7 +1771,11 @@ def update_information_display():
                         print_channelid_youtube_ids_update += " | "
                     else:
                         print_channelid_youtube_ids_update += "\n"
-                if channelid_key in youtube_content_ytid_update:
+                if channelid_key in youtube_content_ytid_update and channelid_key in youtube_content_ytid_backward_update:
+                    print_channelid_youtube_ids_update += (
+                        f"\033[34m{channelid_value}\033[0m"
+                    )
+                elif channelid_key in youtube_content_ytid_update:
                     print_channelid_youtube_ids_update += (
                         f"\033[32m{channelid_value}\033[0m"
                     )
@@ -1771,7 +1792,11 @@ def update_information_display():
             len_channelid_youtube_ids_update = len(channelid_youtube_ids_update)
             count_channelid_youtube_ids_update = 1
             for channelid_key, channelid_value in channelid_youtube_ids_update.items():
-                if channelid_key in youtube_content_ytid_update:
+                if channelid_key in youtube_content_ytid_update and channelid_key in youtube_content_ytid_backward_update:
+                    print_channelid_youtube_ids_update += (
+                        f"\033[34m{channelid_value}\033[0m"
+                    )
+                elif channelid_key in youtube_content_ytid_update:
                     print_channelid_youtube_ids_update += (
                         f"\033[32m{channelid_value}\033[0m"
                     )
@@ -2481,6 +2506,7 @@ channelid_bilibili_ids = get_channelid_id(channelid_bilibili, "bilibili")
 # 复制bilibili频道id用于删除已抛弃的媒体文件夹
 channelid_bilibili_ids_original = channelid_bilibili_ids.copy()
 
+
 # 尝试获取命令行参数
 try:
     argument = sys.argv[1]
@@ -2544,7 +2570,7 @@ prepare_print.start()
 # 循环主更新
 while update_num > 0 or update_num == -1:
     # 更新哔哩哔哩data
-    channelid_bilibili_ids, bilibili_data = get_bilibili_data(channelid_bilibili_ids_original)
+    channelid_bilibili_ids, bilibili_data, bilibili_cookie_ydl = get_bilibili_data(channelid_bilibili_ids_original)
     # 获取原始xml字典和rss文本
     xmls_original, hash_rss_original, xmls_original_fail = get_original_rss()
     # 更新Youtube频道xml

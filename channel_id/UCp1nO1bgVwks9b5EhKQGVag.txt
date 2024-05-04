@@ -11,6 +11,52 @@
  </author>
  <published>2017-04-12T00:43:27+00:00</published>
  <entry>
+  <id>yt:video:f77oqs6kmPw</id>
+  <yt:videoId>f77oqs6kmPw</yt:videoId>
+  <yt:channelId>UCp1nO1bgVwks9b5EhKQGVag</yt:channelId>
+  <title>当外星人的科技树点错之后：科幻小说《最后一个外星人》</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=f77oqs6kmPw"/>
+  <author>
+   <name>幻海航行--science fiction</name>
+   <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
+  </author>
+  <published>2024-04-30T08:28:30+00:00</published>
+  <updated>2024-05-02T11:07:51+00:00</updated>
+  <media:group>
+   <media:title>当外星人的科技树点错之后：科幻小说《最后一个外星人》</media:title>
+   <media:content url="https://www.youtube.com/v/f77oqs6kmPw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/f77oqs6kmPw/hqdefault.jpg" width="480" height="360"/>
+   <media:description>当外星人的科技树点错之后：科幻小说《最后一个外星人》了，这是一篇有趣的小说，希望大家喜欢。</media:description>
+   <media:community>
+    <media:starRating count="142" average="5.00" min="1" max="5"/>
+    <media:statistics views="4978"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Dpmcni1bC58</id>
+  <yt:videoId>Dpmcni1bC58</yt:videoId>
+  <yt:channelId>UCp1nO1bgVwks9b5EhKQGVag</yt:channelId>
+  <title>用AI制作一首关于“费米悖论”的歌曲——总有一颗星为我们启明</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Dpmcni1bC58"/>
+  <author>
+   <name>幻海航行--science fiction</name>
+   <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
+  </author>
+  <published>2024-04-28T07:25:20+00:00</published>
+  <updated>2024-04-29T21:34:38+00:00</updated>
+  <media:group>
+   <media:title>用AI制作一首关于“费米悖论”的歌曲——总有一颗星为我们启明</media:title>
+   <media:content url="https://www.youtube.com/v/Dpmcni1bC58?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/Dpmcni1bC58/hqdefault.jpg" width="480" height="360"/>
+   <media:description>我们近期用AI作了这首歌曲，还算满意，大家听听看这个咋样。不过这首还是有点瑕疵，最近训练AI很久了，下次给大家呈现出更好的视听体验。这首就当纯娱乐。</media:description>
+   <media:community>
+    <media:starRating count="42" average="5.00" min="1" max="5"/>
+    <media:statistics views="1105"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:osplgJDhBxA</id>
   <yt:videoId>osplgJDhBxA</yt:videoId>
   <yt:channelId>UCp1nO1bgVwks9b5EhKQGVag</yt:channelId>
@@ -21,7 +67,7 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2024-04-25T06:21:17+00:00</published>
-  <updated>2024-04-26T18:11:32+00:00</updated>
+  <updated>2024-04-28T03:06:51+00:00</updated>
   <media:group>
    <media:title>所谓的“过去”只不过是“现在的延伸”：《过去已死》下集</media:title>
    <media:content url="https://www.youtube.com/v/osplgJDhBxA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -29,8 +75,8 @@
    <media:description>《过去已死》下集，原著：阿西莫夫。
 这是另一部阿西莫夫的代表作，只是中文版出版太晚了，很多读者也是近两年来才接触到，让我们一起欣赏一下吧。</media:description>
    <media:community>
-    <media:starRating count="56" average="5.00" min="1" max="5"/>
-    <media:statistics views="2620"/>
+    <media:starRating count="73" average="5.00" min="1" max="5"/>
+    <media:statistics views="3770"/>
    </media:community>
   </media:group>
  </entry>
@@ -52,8 +98,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/rdQboRPZZgI/hqdefault.jpg" width="480" height="360"/>
    <media:description>《过去已死》,原著：阿西莫夫，出自|《阿西莫夫科幻短篇全集》。是作者的另一部代表作。</media:description>
    <media:community>
-    <media:starRating count="156" average="5.00" min="1" max="5"/>
-    <media:statistics views="7601"/>
+    <media:starRating count="169" average="5.00" min="1" max="5"/>
+    <media:statistics views="8953"/>
    </media:community>
   </media:group>
  </entry>
@@ -76,8 +122,8 @@
    <media:description>这篇小说的结尾——有彩蛋！
 《群星的背面》作者：谢云宁，他来了！</media:description>
    <media:community>
-    <media:starRating count="124" average="5.00" min="1" max="5"/>
-    <media:statistics views="4705"/>
+    <media:starRating count="129" average="5.00" min="1" max="5"/>
+    <media:statistics views="4957"/>
    </media:community>
   </media:group>
  </entry>
@@ -99,8 +145,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/Xbz5BRzv77w/hqdefault.jpg" width="480" height="360"/>
    <media:description>谢缵泰：中国飞艇设计制造的第一人，也是中国航空先驱。于1899年完成了首例飞艇的设计。科幻小说《龙骸》，出自雨果奖获得者海漄的科幻作品集《海漄怪奇故事集》，《龙骸》中涉及到的历史人物均有原型。</media:description>
    <media:community>
-    <media:starRating count="136" average="5.00" min="1" max="5"/>
-    <media:statistics views="7817"/>
+    <media:starRating count="140" average="5.00" min="1" max="5"/>
+    <media:statistics views="8079"/>
    </media:community>
   </media:group>
  </entry>
@@ -115,7 +161,7 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2024-03-27T08:08:06+00:00</published>
-  <updated>2024-03-29T03:39:56+00:00</updated>
+  <updated>2024-04-27T14:17:58+00:00</updated>
   <media:group>
    <media:title>当人类缩小十万倍，变成细菌大小，世界会发生怎样的变化？</media:title>
    <media:content url="https://www.youtube.com/v/ZdpxbqNuolg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -123,8 +169,8 @@
    <media:description>这是幻海航行的短视频内容，均收录在短视频文件中。长视频，大于10分钟的视频会持续更新不断更。
 当人类缩小十万倍，变成细菌大小</media:description>
    <media:community>
-    <media:starRating count="101" average="5.00" min="1" max="5"/>
-    <media:statistics views="4337"/>
+    <media:starRating count="103" average="5.00" min="1" max="5"/>
+    <media:statistics views="4434"/>
    </media:community>
   </media:group>
  </entry>
@@ -147,7 +193,7 @@
    <media:description>我们也顺应时代，开始制作5分钟以内的短内容了，当然长视频不会断更。只是在此基础上增加了短视频的数量。</media:description>
    <media:community>
     <media:starRating count="88" average="5.00" min="1" max="5"/>
-    <media:statistics views="3594"/>
+    <media:statistics views="3694"/>
    </media:community>
   </media:group>
  </entry>
@@ -162,15 +208,15 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2024-03-25T10:16:21+00:00</published>
-  <updated>2024-03-28T20:23:24+00:00</updated>
+  <updated>2024-04-27T03:11:21+00:00</updated>
   <media:group>
    <media:title>克苏鲁作品《诡丽幻谭》：决战星际梦魇，揭开星球黯淡之谜</media:title>
    <media:content url="https://www.youtube.com/v/cIRW8gOSV8o?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i4.ytimg.com/vi/cIRW8gOSV8o/hqdefault.jpg" width="480" height="360"/>
    <media:description>我们的第二期克苏鲁风格作品——《诡丽幻谭》。《诡丽幻谭》创刊于1923年，主打奇幻、科幻、惊悚等各类型怪奇文学，创刊100年后由国内阿拉法文化从杂志100年来的几千篇小说中，挑选了25篇最有代表性的作品，翻译成中文，集结成了这部《诡丽幻谭·百年精选·Vol.1》。</media:description>
    <media:community>
-    <media:starRating count="108" average="5.00" min="1" max="5"/>
-    <media:statistics views="5328"/>
+    <media:starRating count="110" average="5.00" min="1" max="5"/>
+    <media:statistics views="5442"/>
    </media:community>
   </media:group>
  </entry>
@@ -185,7 +231,7 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2024-03-20T08:50:41+00:00</published>
-  <updated>2024-03-26T23:56:35+00:00</updated>
+  <updated>2024-04-26T23:56:39+00:00</updated>
   <media:group>
    <media:title>古老的“电车难题”有解了？科幻小说《电车难题》</media:title>
    <media:content url="https://www.youtube.com/v/Kgr8G-Mzkzc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -193,7 +239,7 @@
    <media:description>《电车悖论》是基于电车难题”的再创作，将古老的问题放置于未来社会的背景之下。小说曾刊登再科幻世界杂志（原著：康乃馨），虽然过去了很多年，但是值得让更多的人看见。</media:description>
    <media:community>
     <media:starRating count="158" average="5.00" min="1" max="5"/>
-    <media:statistics views="8426"/>
+    <media:statistics views="8562"/>
    </media:community>
   </media:group>
  </entry>
@@ -208,15 +254,15 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2024-03-14T10:35:13+00:00</published>
-  <updated>2024-03-18T07:07:55+00:00</updated>
+  <updated>2024-04-26T12:21:20+00:00</updated>
   <media:group>
    <media:title>人类版“忒休斯之船”，星际旅程遭遇生死循环：科幻小说《米奇7号》</media:title>
    <media:content url="https://www.youtube.com/v/6dnBjGU-N2w?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i3.ytimg.com/vi/6dnBjGU-N2w/hqdefault.jpg" width="480" height="360"/>
    <media:description>《米奇7号》，原著：爱德华·阿什顿。这部一经问世，便获得了美国全国公共广播电台2022最佳图书奖，《寄生虫》的导演奉俊昊也将其改编为电影剧本，预计2025年会和大家见面。</media:description>
    <media:community>
-    <media:starRating count="148" average="5.00" min="1" max="5"/>
-    <media:statistics views="7997"/>
+    <media:starRating count="149" average="5.00" min="1" max="5"/>
+    <media:statistics views="8230"/>
    </media:community>
   </media:group>
  </entry>
@@ -231,7 +277,7 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2024-03-05T07:59:11+00:00</published>
-  <updated>2024-03-07T07:02:26+00:00</updated>
+  <updated>2024-04-26T14:29:46+00:00</updated>
   <media:group>
    <media:title>奇点时刻，我们是造神还是造魔？——狂想科幻小说《造神年代》</media:title>
    <media:content url="https://www.youtube.com/v/Mzl3ZUvbRmk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -239,8 +285,8 @@
    <media:description>刘慈欣、那多，联合推荐本书，书中写出了“奇点”到来后的那一刻。那一刻，无数人想过却没想清，无数人想写却没写出.....
 这是一部非常硬核的国产长篇科幻小说，作者用专业的知识，为我们呈现了这部《造神年代》，建议感兴趣的同学阅读原著。《造神年代》原著：严曦。</media:description>
    <media:community>
-    <media:starRating count="163" average="5.00" min="1" max="5"/>
-    <media:statistics views="8147"/>
+    <media:starRating count="167" average="5.00" min="1" max="5"/>
+    <media:statistics views="8290"/>
    </media:community>
   </media:group>
  </entry>
@@ -263,7 +309,7 @@
    <media:description>《逃兵》上世纪40年代的科幻作品，原著：克利福德.西马克，作者以较为严谨的写作手法和大胆的想象力，在上世纪就为我们构想出了另类生命对人类的看法，是科幻黄金时代的佳作之一。</media:description>
    <media:community>
     <media:starRating count="151" average="5.00" min="1" max="5"/>
-    <media:statistics views="6840"/>
+    <media:statistics views="6988"/>
    </media:community>
   </media:group>
  </entry>
@@ -278,15 +324,15 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2024-02-14T17:58:57+00:00</published>
-  <updated>2024-02-27T19:12:45+00:00</updated>
+  <updated>2024-04-26T20:18:03+00:00</updated>
   <media:group>
    <media:title>一个战争机器人与人类孩子的最后时光：意识流科幻小说《潮痕》</media:title>
    <media:content url="https://www.youtube.com/v/FLiRhZsVLws?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i3.ytimg.com/vi/FLiRhZsVLws/hqdefault.jpg" width="480" height="360"/>
    <media:description>一个战争机器人与人类孩子的最后时光：意识流科幻小说《潮痕》，原著：伊丽莎白·贝尔《潮痕》 (2008年雨果奖最佳短篇)</media:description>
    <media:community>
-    <media:starRating count="118" average="5.00" min="1" max="5"/>
-    <media:statistics views="4426"/>
+    <media:starRating count="119" average="5.00" min="1" max="5"/>
+    <media:statistics views="4501"/>
    </media:community>
   </media:group>
  </entry>
@@ -301,7 +347,7 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2024-02-08T17:46:36+00:00</published>
-  <updated>2024-02-27T11:16:03+00:00</updated>
+  <updated>2024-04-27T04:29:35+00:00</updated>
   <media:group>
    <media:title>打破种族禁忌，第四人称接触：科幻小说《第四人称》</media:title>
    <media:content url="https://www.youtube.com/v/DakEnnN9-io?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -309,53 +355,7 @@
    <media:description>在目前语言学界的主流观点中，不存在“第4人称”。当然这是科幻小说，作者藤野另辟蹊径，以全新的视角揭开了一个地外生命群体的存在模式。《第四人称》  选自：《科幻世界》2016年12月刊。</media:description>
    <media:community>
     <media:starRating count="159" average="5.00" min="1" max="5"/>
-    <media:statistics views="8527"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:yjQoHB4Bs9w</id>
-  <yt:videoId>yjQoHB4Bs9w</yt:videoId>
-  <yt:channelId>UCp1nO1bgVwks9b5EhKQGVag</yt:channelId>
-  <title>老龄化问题的终极答案：让40亿老人移民外星？科幻小说《暮星归途》</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=yjQoHB4Bs9w"/>
-  <author>
-   <name>幻海航行--science fiction</name>
-   <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
-  </author>
-  <published>2024-02-02T07:04:46+00:00</published>
-  <updated>2024-04-06T14:14:01+00:00</updated>
-  <media:group>
-   <media:title>老龄化问题的终极答案：让40亿老人移民外星？科幻小说《暮星归途》</media:title>
-   <media:content url="https://www.youtube.com/v/yjQoHB4Bs9w?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/yjQoHB4Bs9w/hqdefault.jpg" width="480" height="360"/>
-   <media:description>老龄化问题的终极答案：让40亿老人移民外星？科幻小说《暮星归途》</media:description>
-   <media:community>
-    <media:starRating count="121" average="5.00" min="1" max="5"/>
-    <media:statistics views="7859"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:wnP-yUQ1MkQ</id>
-  <yt:videoId>wnP-yUQ1MkQ</yt:videoId>
-  <yt:channelId>UCp1nO1bgVwks9b5EhKQGVag</yt:channelId>
-  <title>盘点：我心目中的科幻小说TOP11，没有《泽利》与《三体》</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=wnP-yUQ1MkQ"/>
-  <author>
-   <name>幻海航行--science fiction</name>
-   <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
-  </author>
-  <published>2024-01-26T19:12:44+00:00</published>
-  <updated>2024-04-25T12:10:23+00:00</updated>
-  <media:group>
-   <media:title>盘点：我心目中的科幻小说TOP11，没有《泽利》与《三体》</media:title>
-   <media:content url="https://www.youtube.com/v/wnP-yUQ1MkQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/wnP-yUQ1MkQ/hqdefault.jpg" width="480" height="360"/>
-   <media:description>说明：这个盘点清单是根据幻海团队的阅读经历，从读者的接受度、作品故事性、作品的思想深度等特点做出的盘点清单，均为我们的个人观点。所以《龙蛋》、《盲视》、《量子魔术师》《泥人十四》等过于硬核的优秀作品不在其中，同时《三体》与《泽利》也不在其中，它们之前已经总结过了，另外《太空漫游系列》/《火星救援》《索拉里斯星》等优秀作品，由于已经被影视化，熟悉的人很多，所以也不在其中。</media:description>
-   <media:community>
-    <media:starRating count="220" average="5.00" min="1" max="5"/>
-    <media:statistics views="7093"/>
+    <media:statistics views="8625"/>
    </media:community>
   </media:group>
  </entry>

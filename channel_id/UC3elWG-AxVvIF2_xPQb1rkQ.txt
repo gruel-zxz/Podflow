@@ -11,6 +11,137 @@
  </author>
  <published>2022-06-04T16:17:27+00:00</published>
  <entry>
+  <id>yt:video:WUBSmK30LUg</id>
+  <yt:videoId>WUBSmK30LUg</yt:videoId>
+  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
+  <title>一人说一道你在杭州吃过的美食吧#爱吐槽的四季妈妈 #家庭吐槽大会</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=WUBSmK30LUg"/>
+  <author>
+   <name>四季妈妈—小龙</name>
+   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
+  </author>
+  <published>2024-05-01T09:19:47+00:00</published>
+  <updated>2024-05-03T22:33:10+00:00</updated>
+  <media:group>
+   <media:title>一人说一道你在杭州吃过的美食吧#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
+   <media:content url="https://www.youtube.com/v/WUBSmK30LUg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/WUBSmK30LUg/hqdefault.jpg" width="480" height="360"/>
+   <media:description>我在杭州吃过的美食是西湖醋鱼，清爽酸甜的口味，配上嫩滑鲜嫩的鱼肉，回味无穷，令人难以忘怀</media:description>
+   <media:community>
+    <media:starRating count="5" average="5.00" min="1" max="5"/>
+    <media:statistics views="129"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:aIxvOMdY7Vk</id>
+  <yt:videoId>aIxvOMdY7Vk</yt:videoId>
+  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
+  <title>来，陪我一起喝茶啦～ #召唤茶友 #今天你喝茶了吗 #爱吐槽的四季妈妈 #家庭吐槽大会</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=aIxvOMdY7Vk"/>
+  <author>
+   <name>四季妈妈—小龙</name>
+   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
+  </author>
+  <published>2024-04-30T12:21:13+00:00</published>
+  <updated>2024-05-02T11:31:22+00:00</updated>
+  <media:group>
+   <media:title>来，陪我一起喝茶啦～ #召唤茶友 #今天你喝茶了吗 #爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
+   <media:content url="https://www.youtube.com/v/aIxvOMdY7Vk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/aIxvOMdY7Vk/hqdefault.jpg" width="480" height="360"/>
+   <media:description>大家好，欢迎来到我的频道！今天我邀请大家一起来喝茶，分享一段悠闲惬意的时光！茶，是生活中的一种情调，是品味生活的一种方式。
+
+无论是独自品茶静心，还是和朋友们聚在一起畅谈人生，喝茶都能给我们带来片刻的放松与愉悦。所以，不妨让我们放下手中的烦恼，一起来品味这杯清茶，聊聊生活、聆听心声。
+
+别忘了点赞、订阅，并在评论区留言，告诉我你今天喝了什么茶，和谁一起喝的，分享你的喝茶心情！期待和大家一起度过愉快的喝茶时光！#喝茶放松 #茶友聚会 #生活品味 #悠闲时光</media:description>
+   <media:community>
+    <media:starRating count="11" average="5.00" min="1" max="5"/>
+    <media:statistics views="630"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:x4wE4IEhIPY</id>
+  <yt:videoId>x4wE4IEhIPY</yt:videoId>
+  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
+  <title>穿旗袍逛茶园～ #召唤茶友  #家庭吐槽大会 #爱吐槽的四季妈妈</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=x4wE4IEhIPY"/>
+  <author>
+   <name>四季妈妈—小龙</name>
+   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
+  </author>
+  <published>2024-04-29T06:05:26+00:00</published>
+  <updated>2024-04-30T05:49:22+00:00</updated>
+  <media:group>
+   <media:title>穿旗袍逛茶园～ #召唤茶友  #家庭吐槽大会 #爱吐槽的四季妈妈</media:title>
+   <media:content url="https://www.youtube.com/v/x4wE4IEhIPY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/x4wE4IEhIPY/hqdefault.jpg" width="480" height="360"/>
+   <media:description>大家好，欢迎来到我的频道！今天我穿上了漂亮的旗袍，准备去茶园享受一番美好时光！茶园中的每一丝清风，每一片翠绿，都让我感受到了别样的生活情趣。
+
+身着旗袍，我感觉仿佛回到了古代，置身于一片青翠的茶海之中，心情格外舒畅。在这里，我想要召唤茶友们一起来分享这份美好，一起品茶、聊天、感受生活的美好！
+
+别忘了点赞、订阅，并在评论区分享你对旗袍穿搭和茶园的想法。期待和大家一起分享更多有趣的家庭吐槽！#旗袍时光 #茶园漫步 #茶友聚会 #生活美学</media:description>
+   <media:community>
+    <media:starRating count="31" average="5.00" min="1" max="5"/>
+    <media:statistics views="718"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:kZae4gilVDk</id>
+  <yt:videoId>kZae4gilVDk</yt:videoId>
+  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
+  <title>西湖龙井茶园真的好美啊，今天看我在茶园喝茶～ #喝茶那点事 #召唤茶友</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=kZae4gilVDk"/>
+  <author>
+   <name>四季妈妈—小龙</name>
+   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
+  </author>
+  <published>2024-04-28T11:28:07+00:00</published>
+  <updated>2024-04-30T02:42:56+00:00</updated>
+  <media:group>
+   <media:title>西湖龙井茶园真的好美啊，今天看我在茶园喝茶～ #喝茶那点事 #召唤茶友</media:title>
+   <media:content url="https://www.youtube.com/v/kZae4gilVDk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/kZae4gilVDk/hqdefault.jpg" width="480" height="360"/>
+   <media:description>大家好，欢迎来到我的频道！今天我来到了西湖龙井茶园，这里的美景真是令人陶醉！在这片茶园中，我感受到了浓浓的茶香和自然的清新气息。
+
+在这里，我不仅可以欣赏到茶树成排成行，还可以亲自体验采茶的乐趣。而且，品尝到了新鲜的西湖龙井茶，清香扑鼻，回味无穷！
+
+别忘了点赞、订阅，并在评论区分享你对茶园的美景感受和自己的茶道心得。期待和大家一起分享更多有关喝茶的乐趣！#西湖龙井茶园 #茶道体验 #茶香清幽 #茶友聚会</media:description>
+   <media:community>
+    <media:starRating count="13" average="5.00" min="1" max="5"/>
+    <media:statistics views="589"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:oGY8s-oftn8</id>
+  <yt:videoId>oGY8s-oftn8</yt:videoId>
+  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
+  <title>老公说我不懂茶？来西湖找最好的西湖龙井，主打一个叛逆！</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=oGY8s-oftn8"/>
+  <author>
+   <name>四季妈妈—小龙</name>
+   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
+  </author>
+  <published>2024-04-28T11:15:00+00:00</published>
+  <updated>2024-04-30T05:02:04+00:00</updated>
+  <media:group>
+   <media:title>老公说我不懂茶？来西湖找最好的西湖龙井，主打一个叛逆！</media:title>
+   <media:content url="https://www.youtube.com/v/oGY8s-oftn8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/oGY8s-oftn8/hqdefault.jpg" width="480" height="360"/>
+   <media:description>大家好，欢迎来到我的频道！在这期视频中，我要向老公证明我懂茶！听说西湖龙井是茶界的顶级佳品，于是我决定来到西湖，寻找最好的西湖龙井，主打一个叛逆！
+
+西湖龙井作为中国十大名茶之一，以其独特的风味和历史传承而闻名于世。我要在这里寻找到最顶级的西湖龙井，向老公展示我对茶的理解和品鉴能力！
+
+别忘了点赞、订阅，并在评论区分享你对西湖龙井的了解和自己的茶叶故事。期待和大家一起分享更多有趣的家庭吐槽！#西湖龙井 #茶叶品鉴 #家庭挑战 #茶叶文化</media:description>
+   <media:community>
+    <media:starRating count="43" average="5.00" min="1" max="5"/>
+    <media:statistics views="2800"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:HwS42CHBQnQ</id>
   <yt:videoId>HwS42CHBQnQ</yt:videoId>
   <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
@@ -21,7 +152,7 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-04-26T13:01:56+00:00</published>
-  <updated>2024-04-26T13:03:49+00:00</updated>
+  <updated>2024-04-28T22:49:44+00:00</updated>
   <media:group>
    <media:title>五一马上到了，这座城市还会给我们什么样的惊喜？四季妈妈来解密#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
    <media:content url="https://www.youtube.com/v/HwS42CHBQnQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -32,8 +163,8 @@
 
 别忘了点赞、订阅，并在评论区分享你对五一假期的期待和自己的假期计划。期待和大家一起分享更多有趣的家庭吐槽！#五一假期 #城市惊喜 #家庭出游 #幽默解密</media:description>
    <media:community>
-    <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="119"/>
+    <media:starRating count="8" average="5.00" min="1" max="5"/>
+    <media:statistics views="209"/>
    </media:community>
   </media:group>
  </entry>
@@ -48,7 +179,7 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-04-24T08:18:54+00:00</published>
-  <updated>2024-04-25T22:54:34+00:00</updated>
+  <updated>2024-04-26T09:53:26+00:00</updated>
   <media:group>
    <media:title>一天给老公50块钱生活费多不多？#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
    <media:content url="https://www.youtube.com/v/4peTjk4KYbo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -59,8 +190,8 @@
 
 别忘了点赞、订阅，并在评论区分享你对给老公生活费的看法和自己的家庭经历。期待和大家一起分享更多有趣的家庭吐槽！#家庭生活 #生活费 #幽默吐槽</media:description>
    <media:community>
-    <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="254"/>
+    <media:starRating count="8" average="5.00" min="1" max="5"/>
+    <media:statistics views="305"/>
    </media:community>
   </media:group>
  </entry>
@@ -86,8 +217,8 @@
 
 别忘了点赞、订阅，并在评论区分享你对东北菜的喜爱和自己的美食故事。期待和大家一起分享更多有趣的家庭吐槽！#东北菜 #八大菜系 #美食文化 #幽默揭秘</media:description>
    <media:community>
-    <media:starRating count="23" average="5.00" min="1" max="5"/>
-    <media:statistics views="1062"/>
+    <media:starRating count="29" average="5.00" min="1" max="5"/>
+    <media:statistics views="1725"/>
    </media:community>
   </media:group>
  </entry>
@@ -114,7 +245,7 @@
 别忘了点赞、订阅，并在评论区分享你对藏私房钱的看法和自己的家庭故事。期待和大家一起分享更多有趣的家庭吐槽！#藏私房钱 #好男人 #家庭关爱 #幽默解密</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="522"/>
+    <media:statistics views="580"/>
    </media:community>
   </media:group>
  </entry>
@@ -141,7 +272,7 @@
 别忘了点赞、订阅，并在评论区分享你对水域活动的喜爱和自己的水域经历。期待和大家一起分享更多有趣的家庭吐槽！#水域活动 #家庭娱乐 #幽默探索</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="820"/>
+    <media:statistics views="836"/>
    </media:community>
   </media:group>
  </entry>
@@ -168,7 +299,7 @@
 别忘了点赞、订阅，并在评论区分享你对山东之旅的期待和自己的旅行计划。期待和大家一起分享更多有趣的家庭吐槽！#山东之旅 #夏日游山东 #家庭旅行 #幽默探索</media:description>
    <media:community>
     <media:starRating count="9" average="5.00" min="1" max="5"/>
-    <media:statistics views="626"/>
+    <media:statistics views="641"/>
    </media:community>
   </media:group>
  </entry>
@@ -194,8 +325,8 @@
 
 别忘了点赞、订阅，并在评论区分享你对老公对待老婆睡衣的看法和自己的经历。期待和大家一起分享更多有趣的家庭吐槽！#老公 #老婆睡衣 #家庭生活 #幽默揭秘</media:description>
    <media:community>
-    <media:starRating count="9" average="5.00" min="1" max="5"/>
-    <media:statistics views="831"/>
+    <media:starRating count="8" average="5.00" min="1" max="5"/>
+    <media:statistics views="839"/>
    </media:community>
   </media:group>
  </entry>
@@ -222,7 +353,7 @@
 别忘了点赞、订阅，并在评论区分享你对男人独特烧烤直觉的看法和自己的烧烤经历。期待和大家一起分享更多有趣的家庭吐槽！#烧烤季 #男人的直觉 #幽默吐槽</media:description>
    <media:community>
     <media:starRating count="12" average="5.00" min="1" max="5"/>
-    <media:statistics views="385"/>
+    <media:statistics views="388"/>
    </media:community>
   </media:group>
  </entry>
@@ -249,7 +380,7 @@
 别忘了点赞、订阅，并在评论区分享你对建立自信的看法和自己的沟通经历。期待和大家一起分享更多有趣的家庭吐槽！#建立自信 #男女沟通 #幽默分享</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="306"/>
+    <media:statistics views="310"/>
    </media:community>
   </media:group>
  </entry>
@@ -276,142 +407,7 @@
 别忘了点赞、订阅，并在评论区分享你对东北人的看法和自己的趣事经历。期待和大家一起分享更多有趣的家庭吐槽！#东北人 #家庭趣事 #幽默观察</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="432"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:mtwBje_ogyg</id>
-  <yt:videoId>mtwBje_ogyg</yt:videoId>
-  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
-  <title>北方烧烤是一串塞不下，南方烧烤是两串都塞牙啊#爱吐槽的四季妈妈 #家庭吐槽大会</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=mtwBje_ogyg"/>
-  <author>
-   <name>四季妈妈—小龙</name>
-   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
-  </author>
-  <published>2024-04-04T11:03:54+00:00</published>
-  <updated>2024-04-12T14:20:52+00:00</updated>
-  <media:group>
-   <media:title>北方烧烤是一串塞不下，南方烧烤是两串都塞牙啊#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
-   <media:content url="https://www.youtube.com/v/mtwBje_ogyg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/mtwBje_ogyg/hqdefault.jpg" width="480" height="360"/>
-   <media:description>大家好，欢迎来到我的频道！今天，我要和大家一起揭秘北方与南方烧烤的不同之处：一串塞不下 vs 两串都塞牙？四季妈妈爱吐槽，带你一起探索家庭生活中的趣事。
-
-在这期视频中，我将分享一些关于北方与南方烧烤的有趣现象。北方烧烤通常是一串串大块的肉，塞不下的情况时有发生；而南方烧烤则更注重于细碎的食材，两串都能塞牙。让我们一起来揭秘这些有趣的差异！
-
-别忘了点赞、订阅，并在评论区分享你对北方与南方烧烤的看法和自己的烧烤经历。期待和大家一起分享更多有趣的家庭吐槽！#北方烧烤 #南方烧烤 #家庭趣事 #幽默观察</media:description>
-   <media:community>
-    <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="415"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:9Y7BectlDQU</id>
-  <yt:videoId>9Y7BectlDQU</yt:videoId>
-  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
-  <title>该快的时候很快，该慢的时候很慢，这是男人独有的超能力#爱吐槽的四季妈妈 #家庭吐槽大会</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=9Y7BectlDQU"/>
-  <author>
-   <name>四季妈妈—小龙</name>
-   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
-  </author>
-  <published>2024-03-31T09:29:07+00:00</published>
-  <updated>2024-04-03T02:02:53+00:00</updated>
-  <media:group>
-   <media:title>该快的时候很快，该慢的时候很慢，这是男人独有的超能力#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
-   <media:content url="https://www.youtube.com/v/9Y7BectlDQU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/9Y7BectlDQU/hqdefault.jpg" width="480" height="360"/>
-   <media:description>大家好，欢迎来到我的频道！今天，我要和大家一起揭秘男人独有的超能力：该快的时候很快，该慢的时候很慢？四季妈妈爱吐槽，带你一起探索家庭生活中的有趣现象。
-
-在这期视频中，我将分享一些关于男人独有超能力的笑料。不知道是不是男人的天性，他们似乎总能在该快的时候变得飞快，而在该慢的时候又变得悠闲自在。让我们一起来揭秘这些有趣的现象！
-
-别忘了点赞、订阅，并在评论区分享你对男人超能力的看法和自己的趣事经历。期待和大家一起分享更多有趣的家庭吐槽！#男人超能力 #家庭趣事 #幽默观察</media:description>
-   <media:community>
-    <media:starRating count="64" average="5.00" min="1" max="5"/>
-    <media:statistics views="5387"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:Lx0ZOLeeruE</id>
-  <yt:videoId>Lx0ZOLeeruE</yt:videoId>
-  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
-  <title>婚后兄弟的工资上缴：婚前潇洒，婚后紧巴巴？四季妈妈爆笑解读</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=Lx0ZOLeeruE"/>
-  <author>
-   <name>四季妈妈—小龙</name>
-   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
-  </author>
-  <published>2024-03-30T04:48:52+00:00</published>
-  <updated>2024-04-02T22:16:59+00:00</updated>
-  <media:group>
-   <media:title>婚后兄弟的工资上缴：婚前潇洒，婚后紧巴巴？四季妈妈爆笑解读</media:title>
-   <media:content url="https://www.youtube.com/v/Lx0ZOLeeruE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i1.ytimg.com/vi/Lx0ZOLeeruE/hqdefault.jpg" width="480" height="360"/>
-   <media:description>大家好，欢迎来到我的频道！今天，我要和大家一起探讨婚后兄弟的工资上缴问题：婚前潇洒，婚后紧巴巴？四季妈妈爱吐槽，带你一起解读家庭生活中的趣事。
-
-在这期视频中，我将分享一些有关婚后生活的趣闻，特别是兄弟们在工资上缴方面的情况。婚前的生活或许自由自在，但一旦婚后，兄弟们的工资就可能成为家庭负担的一部分。让我们一起来揭秘这些有趣的现象！
-
-别忘了点赞、订阅，并在评论区分享你对婚后生活的看法和自己的趣事经历。期待和大家一起分享更多有趣的家庭吐槽！#婚后生活 #工资上缴 #家庭趣事</media:description>
-   <media:community>
-    <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="297"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:q36RXi4xN0A</id>
-  <yt:videoId>q36RXi4xN0A</yt:videoId>
-  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
-  <title>为什么说钓鱼佬心性之坚定非常人所比#爱吐槽的四季妈妈 #家庭吐槽大会</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=q36RXi4xN0A"/>
-  <author>
-   <name>四季妈妈—小龙</name>
-   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
-  </author>
-  <published>2024-03-28T05:26:37+00:00</published>
-  <updated>2024-03-30T00:30:33+00:00</updated>
-  <media:group>
-   <media:title>为什么说钓鱼佬心性之坚定非常人所比#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
-   <media:content url="https://www.youtube.com/v/q36RXi4xN0A?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/q36RXi4xN0A/hqdefault.jpg" width="480" height="360"/>
-   <media:description>大家好，欢迎来到我的频道！今天，我要和大家一起探讨为什么说钓鱼佬的心性之坚定，非常人所比！四季妈妈爱吐槽，带你一起探索家庭生活中的趣事。
-
-在这期视频中，我将分享一些关于钓鱼佬的心性之坚定的背后原因。钓鱼不仅是一项娱乐活动，更是一种坚持与耐心的体现。从钓鱼佬们对于等待的耐心，到对于失败的坚持，这些都展现了他们特有的心性。让我们一起来探索这些有趣的现象！
-
-别忘了点赞、订阅，并在评论区分享你对钓鱼佬心性之坚定的看法和自己的钓鱼经历。期待和大家一起分享更多有趣的家庭吐槽！#钓鱼佬 #心性之坚定 #家庭趣事</media:description>
-   <media:community>
-    <media:starRating count="10" average="5.00" min="1" max="5"/>
-    <media:statistics views="274"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:npK-ujCfMjs</id>
-  <yt:videoId>npK-ujCfMjs</yt:videoId>
-  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
-  <title>还有什么东西是北方洗浴没有的#爱吐槽的四季妈妈 #家庭吐槽大会</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=npK-ujCfMjs"/>
-  <author>
-   <name>四季妈妈—小龙</name>
-   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
-  </author>
-  <published>2024-03-27T09:08:57+00:00</published>
-  <updated>2024-03-30T00:23:14+00:00</updated>
-  <media:group>
-   <media:title>还有什么东西是北方洗浴没有的#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
-   <media:content url="https://www.youtube.com/v/npK-ujCfMjs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/npK-ujCfMjs/hqdefault.jpg" width="480" height="360"/>
-   <media:description>大家好，欢迎来到我的频道！今天，我要和大家一起探讨北方洗浴中少见的奇葩项目！四季妈妈爱吐槽，带你一起揭秘家庭洗浴的奇异现象。
-
-在这期视频中，我将分享一些在北方洗浴中少见的奇葩项目，或许在南方洗浴中常见，但在北方却颇为罕见的。从特殊的洗浴配套服务到独特的洗浴技巧，这些项目让人啼笑皆非，令人忍俊不禁。让我们一起来笑谈北方洗浴中的这些奇葩项目吧！
-
-别忘了点赞、订阅，并在评论区分享你对北方洗浴的看法和自己的趣事经历。期待和大家一起分享更多家庭洗浴的趣事！#洗浴趣事 #奇葩项目 #幽默观察</media:description>
-   <media:community>
-    <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="460"/>
+    <media:statistics views="437"/>
    </media:community>
   </media:group>
  </entry>
