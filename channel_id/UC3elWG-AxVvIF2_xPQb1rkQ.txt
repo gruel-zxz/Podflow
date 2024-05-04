@@ -29,7 +29,7 @@
    <media:description>我在杭州吃过的美食是西湖醋鱼，清爽酸甜的口味，配上嫩滑鲜嫩的鱼肉，回味无穷，令人难以忘怀</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="129"/>
+    <media:statistics views="130"/>
    </media:community>
   </media:group>
  </entry>
@@ -83,7 +83,7 @@
 别忘了点赞、订阅，并在评论区分享你对旗袍穿搭和茶园的想法。期待和大家一起分享更多有趣的家庭吐槽！#旗袍时光 #茶园漫步 #茶友聚会 #生活美学</media:description>
    <media:community>
     <media:starRating count="31" average="5.00" min="1" max="5"/>
-    <media:statistics views="718"/>
+    <media:statistics views="720"/>
    </media:community>
   </media:group>
  </entry>
@@ -110,7 +110,7 @@
 别忘了点赞、订阅，并在评论区分享你对茶园的美景感受和自己的茶道心得。期待和大家一起分享更多有关喝茶的乐趣！#西湖龙井茶园 #茶道体验 #茶香清幽 #茶友聚会</media:description>
    <media:community>
     <media:starRating count="13" average="5.00" min="1" max="5"/>
-    <media:statistics views="589"/>
+    <media:statistics views="600"/>
    </media:community>
   </media:group>
  </entry>
@@ -137,7 +137,7 @@
 别忘了点赞、订阅，并在评论区分享你对西湖龙井的了解和自己的茶叶故事。期待和大家一起分享更多有趣的家庭吐槽！#西湖龙井 #茶叶品鉴 #家庭挑战 #茶叶文化</media:description>
    <media:community>
     <media:starRating count="43" average="5.00" min="1" max="5"/>
-    <media:statistics views="2800"/>
+    <media:statistics views="2805"/>
    </media:community>
   </media:group>
  </entry>
@@ -191,7 +191,7 @@
 别忘了点赞、订阅，并在评论区分享你对给老公生活费的看法和自己的家庭经历。期待和大家一起分享更多有趣的家庭吐槽！#家庭生活 #生活费 #幽默吐槽</media:description>
    <media:community>
     <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="305"/>
+    <media:statistics views="306"/>
    </media:community>
   </media:group>
  </entry>
@@ -218,7 +218,7 @@
 别忘了点赞、订阅，并在评论区分享你对东北菜的喜爱和自己的美食故事。期待和大家一起分享更多有趣的家庭吐槽！#东北菜 #八大菜系 #美食文化 #幽默揭秘</media:description>
    <media:community>
     <media:starRating count="29" average="5.00" min="1" max="5"/>
-    <media:statistics views="1725"/>
+    <media:statistics views="1726"/>
    </media:community>
   </media:group>
  </entry>

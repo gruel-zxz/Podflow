@@ -1606,13 +1606,15 @@ def youtube_rss_update(youtube_key, youtube_value, pattern_youtube_varys, patter
     youtube_response = http_client(youtube_url, youtube_value)
     youtube_html_playlists = None
     if youtube_response is not None and re.search(pattern_youtube404, youtube_response.text, re.DOTALL):
-        youtube_html_playlists = get_youtube_html_playlists(
-            youtube_key,
-            youtube_value,
-            [elem for elem in guids if elem in youtube_content_ytid_original],
-            True,
-            channelid_youtube[youtube_value]["update_size"]
-        )
+        for _ in range(3):
+            if youtube_html_playlists:= get_youtube_html_playlists(
+                youtube_key,
+                youtube_value,
+                [elem for elem in guids if elem in youtube_content_ytid_original],
+                True,
+                channelid_youtube[youtube_value]["update_size"]
+            ):
+                break
     # 读取原Youtube频道xml文件并判断是否要更新
     try:
         with open(
@@ -1664,7 +1666,7 @@ def youtube_rss_update(youtube_key, youtube_value, pattern_youtube_varys, patter
                     guids,
                     False,
                     min(backward_update_size, channelid_youtube[youtube_value]["BackwardUpdate_size"])
-                ) is not None:
+                ):
                     break
             if youtube_html_backward_playlists and youtube_html_backward_playlists["list"]:
                 channelid_youtube_ids_update[youtube_key] = youtube_value

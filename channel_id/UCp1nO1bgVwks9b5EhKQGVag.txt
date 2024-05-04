@@ -29,7 +29,7 @@
    <media:description>当外星人的科技树点错之后：科幻小说《最后一个外星人》了，这是一篇有趣的小说，希望大家喜欢。</media:description>
    <media:community>
     <media:starRating count="142" average="5.00" min="1" max="5"/>
-    <media:statistics views="4978"/>
+    <media:statistics views="4995"/>
    </media:community>
   </media:group>
  </entry>
@@ -52,7 +52,7 @@
    <media:description>我们近期用AI作了这首歌曲，还算满意，大家听听看这个咋样。不过这首还是有点瑕疵，最近训练AI很久了，下次给大家呈现出更好的视听体验。这首就当纯娱乐。</media:description>
    <media:community>
     <media:starRating count="42" average="5.00" min="1" max="5"/>
-    <media:statistics views="1105"/>
+    <media:statistics views="1107"/>
    </media:community>
   </media:group>
  </entry>
@@ -76,7 +76,7 @@
 这是另一部阿西莫夫的代表作，只是中文版出版太晚了，很多读者也是近两年来才接触到，让我们一起欣赏一下吧。</media:description>
    <media:community>
     <media:starRating count="73" average="5.00" min="1" max="5"/>
-    <media:statistics views="3770"/>
+    <media:statistics views="3773"/>
    </media:community>
   </media:group>
  </entry>
@@ -99,7 +99,7 @@
    <media:description>《过去已死》,原著：阿西莫夫，出自|《阿西莫夫科幻短篇全集》。是作者的另一部代表作。</media:description>
    <media:community>
     <media:starRating count="169" average="5.00" min="1" max="5"/>
-    <media:statistics views="8953"/>
+    <media:statistics views="8956"/>
    </media:community>
   </media:group>
  </entry>
@@ -216,7 +216,7 @@
    <media:description>我们的第二期克苏鲁风格作品——《诡丽幻谭》。《诡丽幻谭》创刊于1923年，主打奇幻、科幻、惊悚等各类型怪奇文学，创刊100年后由国内阿拉法文化从杂志100年来的几千篇小说中，挑选了25篇最有代表性的作品，翻译成中文，集结成了这部《诡丽幻谭·百年精选·Vol.1》。</media:description>
    <media:community>
     <media:starRating count="110" average="5.00" min="1" max="5"/>
-    <media:statistics views="5442"/>
+    <media:statistics views="5443"/>
    </media:community>
   </media:group>
  </entry>
@@ -239,7 +239,7 @@
    <media:description>《电车悖论》是基于电车难题”的再创作，将古老的问题放置于未来社会的背景之下。小说曾刊登再科幻世界杂志（原著：康乃馨），虽然过去了很多年，但是值得让更多的人看见。</media:description>
    <media:community>
     <media:starRating count="158" average="5.00" min="1" max="5"/>
-    <media:statistics views="8562"/>
+    <media:statistics views="8564"/>
    </media:community>
   </media:group>
  </entry>
@@ -286,7 +286,7 @@
 这是一部非常硬核的国产长篇科幻小说，作者用专业的知识，为我们呈现了这部《造神年代》，建议感兴趣的同学阅读原著。《造神年代》原著：严曦。</media:description>
    <media:community>
     <media:starRating count="167" average="5.00" min="1" max="5"/>
-    <media:statistics views="8290"/>
+    <media:statistics views="8292"/>
    </media:community>
   </media:group>
  </entry>
