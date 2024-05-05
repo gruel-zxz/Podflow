@@ -14,6 +14,7 @@ import binascii
 import threading
 import subprocess
 import urllib.parse
+import http.cookiejar
 from hashlib import md5
 from functools import reduce
 import xml.etree.ElementTree as ET
@@ -486,7 +487,7 @@ def show_progress(stream):
         print(f"\r100.0%|{downloaded_bytes}/{total_bytes}|\033[32m{speed}/s\033[0m|\033[97m{elapsed}\033[0m")
 
 # 获取媒体时长和ID模块
-def video_format(video_website, video_url, media="m4a", quality="480"):
+def video_format(video_website, video_url, media="m4a", quality="480", cookies=None):
     fail_message = None
     class MyLogger:
         def debug(self, msg):
@@ -501,11 +502,23 @@ def video_format(video_website, video_url, media="m4a", quality="480"):
         fail_message, duration, formats = None, None, None
         try:
             # 初始化 yt_dlp 实例, 并忽略错误
-            ydl_opts = {
-                "no_warnings": True,
-                "quiet": True,  # 禁止非错误信息的输出
-                "logger": MyLogger(),
-            }
+            if cookies:
+                ydl_opts = {
+                    "no_warnings": True,
+                    "quiet": True,  # 禁止非错误信息的输出
+                    "logger": MyLogger(),
+                    "http_headers": {
+                        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
+                        "Referer": "https://www.bilibili.com/",
+                    },
+                    'cookiefile': cookies,  # cookies 是你的 cookies 文件名
+                }
+            else:
+                ydl_opts = {
+                    "no_warnings": True,
+                    "quiet": True,  # 禁止非错误信息的输出
+                    "logger": MyLogger(),
+                }
             with yt_dlp.YoutubeDL(ydl_opts) as ydl:
                 # 使用提供的 URL 提取视频信息
                 if info_dict := ydl.extract_info(
@@ -584,17 +597,18 @@ def video_format(video_website, video_url, media="m4a", quality="480"):
                 return False
         # 获取最好质量媒体的id
         def best_format_id(formats):
-            filesize_max = 0
+            tbr_max = 0.0
             format_id_best = ""
             vcodec_best = ""
             for format in formats:
                 if (
-                    "filesize" in format
+                    "tbr" in format
                     and "drc" not in format["format_id"]
-                    and (isinstance(format["filesize"], (float, int)))
-                    and format["filesize"] > filesize_max
+                    and format["protocol"] == "https"
+                    and (isinstance(format["tbr"], (float, int)))
+                    and format["tbr"] > tbr_max
                 ):
-                    filesize_max = format["filesize"]
+                    tbr_max = format["tbr"]
                     format_id_best = format["format_id"]
                     vcodec_best = format["vcodec"]
             return format_id_best, vcodec_best
@@ -686,6 +700,7 @@ def download_video(
     video_website,
     video_write_log,
     sesuffix="",
+    cookies=None
 ):
     class MyLogger:
         def debug(self, msg):
@@ -695,22 +710,32 @@ def download_video(
         def info(self, msg):
             pass
         def error(self, msg):
-            print(
-                msg.replace("ERROR: ", "")
-                .replace("\033[0;31mERROR:\033[0m ", "")
-                .replace(f"{video_url}: ", "")
-                .replace("[youtube] ", "")
-                .replace("[download] ", "")
-            )
-    ydl_opts = {
-        "outtmpl": f"channel_audiovisual/{output_dir}/{video_url}{sesuffix}.{output_format}",  # 输出文件路径和名称
-        "format": f"{format_id}",  # 指定下载的最佳音频和视频格式
-        "noprogress": True,
-        "quiet": True,
-        "progress_hooks": [show_progress],
-        "logger": MyLogger(),
-        "throttled_rate": "70K",  # 设置最小下载速率为:字节/秒
-    }
+            pass
+    if cookies:
+        ydl_opts = {
+            "outtmpl": f"channel_audiovisual/{output_dir}/{video_url}{sesuffix}.{output_format}",  # 输出文件路径和名称
+            "format": f"{format_id}",  # 指定下载的最佳音频和视频格式
+            "noprogress": True,
+            "quiet": True,
+            "progress_hooks": [show_progress],
+            "logger": MyLogger(),
+            "throttled_rate": "70K",  # 设置最小下载速率为:字节/秒
+            "http_headers": {
+                "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
+                "Referer": "https://www.bilibili.com/",
+            },
+            'cookiefile': cookies,  # cookies 是你的 cookies 文件名
+        }
+    else:
+        ydl_opts = {
+            "outtmpl": f"channel_audiovisual/{output_dir}/{video_url}{sesuffix}.{output_format}",  # 输出文件路径和名称
+            "format": f"{format_id}",  # 指定下载的最佳音频和视频格式
+            "noprogress": True,
+            "quiet": True,
+            "progress_hooks": [show_progress],
+            "logger": MyLogger(),
+            "throttled_rate": "70K",  # 设置最小下载速率为:字节/秒
+        }
     try:
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
             ydl.download([f"{video_website}{video_url}"])  # 下载指定视频链接的视频
@@ -734,6 +759,7 @@ def dl_full_video(
     video_website,
     video_write_log,
     sesuffix="",
+    cookies=None,
 ):
     if download_video(
         video_url,
@@ -743,6 +769,7 @@ def dl_full_video(
         video_website,
         video_write_log,
         sesuffix,
+        cookies,
     ):
         return video_url
     duration_video = get_duration_ffprobe(
@@ -770,6 +797,7 @@ def dl_retry_video(
     video_website,
     video_write_log,
     sesuffix="",
+    cookies=None,
 ):
     yt_id_failed = dl_full_video(
         video_url,
@@ -780,6 +808,7 @@ def dl_retry_video(
         video_website,
         video_write_log,
         sesuffix,
+        cookies,
     )
     # 下载失败后重复尝试下载视频
     yt_id_count = 0
@@ -795,6 +824,7 @@ def dl_retry_video(
             video_website,
             video_write_log,
             sesuffix,
+            cookies,
         )
     return yt_id_failed
 
@@ -807,6 +837,7 @@ def dl_aideo_video(
     retry_count,
     video_website,
     output_dir_name="",
+    cookies=None,
 ):
     if output_dir_name:
         video_write_log = f"\033[95m{output_dir_name}\033[0m|{video_url}"
@@ -832,6 +863,7 @@ def dl_aideo_video(
             video_website,
             video_write_log,
             "",
+            cookies,
         )
     else:
         print(
@@ -847,6 +879,7 @@ def dl_aideo_video(
             video_website,
             video_write_log,
             ".part",
+            cookies,
         )
         if yt_id_failed is None:
             print(
@@ -862,6 +895,7 @@ def dl_aideo_video(
                 video_website,
                 video_write_log,
                 ".part",
+                cookies,
             )
         if yt_id_failed is None:
             print(
@@ -1255,6 +1289,18 @@ def getWbiKeys(bilibili_cookie=None):
     else:
         return "", ""
 
+# 生成Netscape_HTTP_Cookie模块
+def bulid_Netscape_HTTP_Cookie(file_name, cookie={}):
+    # 创建一个MozillaCookieJar对象，指定保存文件
+    cookie_jar = http.cookiejar.MozillaCookieJar(f"{file_name}.txt")
+    for cookie_name, cookie_value in cookie.items():
+        # 创建一个Cookie对象
+        cookie = requests.cookies.create_cookie(name=cookie_name, value=cookie_value)
+        # 将Cookie添加到CookieJar中
+        cookie_jar.set_cookie(cookie)
+    # 保存CookieJar对象的数据到文件中
+    cookie_jar.save(ignore_discard=True, ignore_expires=True)
+
 # 申请哔哩哔哩二维码并获取token和URL模块
 def bilibili_request_qr_code():
     # 实际申请二维码的API请求
@@ -1315,6 +1361,7 @@ def save_bilibili_cookies():
             "cookie": bilibili_cookie,
             "refresh_token": refresh_token
         }
+        bulid_Netscape_HTTP_Cookie("yt_dlp_bilibili", bilibili_cookie)
         return bilibili_data, upward
 
 # 检查哔哩哔哩是否需要刷新模块
@@ -1327,7 +1374,7 @@ def judgment_bilibili_update(cookies):
     else:
         return response["code"], None
 
-# bilibili_cookie刷新模块
+# 哔哩哔哩cookie刷新模块
 def bilibili_cookie_update(bilibili_data):
     bilibili_cookie = bilibili_data["cookie"]
     # 获取refresh_csrf
@@ -1375,16 +1422,10 @@ JNrRuoEUXpabUzGB8QIDAQAB
     if confirm_cookie_response.json()["code"] == 0:
         bilibili_data["cookie"] = new_bilibili_cookie
         bilibili_data["refresh_token"] = new_refresh_token
+        bulid_Netscape_HTTP_Cookie("yt_dlp_bilibili", new_bilibili_cookie)
         return bilibili_data
     else:
         return {"cookie": None}
-
-# 转换为RequestsCookieJar对象模块
-def requests_cookie_jar(cookie={}):
-    cookie_ydl = requests.cookies.RequestsCookieJar()
-    for k, v in cookie.items():
-        cookie_ydl.set(k, v)
-    return cookie_ydl
 
 # 登陆刷新哔哩哔哩并获取data
 def get_bilibili_data(channelid_bilibili_ids):
@@ -1416,21 +1457,19 @@ def get_bilibili_data(channelid_bilibili_ids):
                         print(f"{datetime.now().strftime('%H:%M:%S')}|bilibili \033[31m刷新失败, 重新登陆\033[0m")
                 bilibili_login_code, bilibili_login_refresh_token = judgment_bilibili_update(bilibili_data["cookie"])
             if bilibili_login_code == 0 and bilibili_login_refresh_token is False:
-                bilibili_cookie_ydl = requests_cookie_jar(bilibili_data["cookie"])
                 print(f"{datetime.now().strftime('%H:%M:%S')}|bilibili \033[32m获取data成功\033[0m")
                 img_key, sub_key = getWbiKeys()
                 bilibili_data["img_key"] = img_key
                 bilibili_data["sub_key"] = sub_key
                 bilibili_data["timestamp"] = time.time()
                 file_save(json.dumps(bilibili_data, ensure_ascii=False), "bilibili_data.json")
-                return channelid_bilibili_ids, bilibili_data, bilibili_cookie_ydl
+                return channelid_bilibili_ids, bilibili_data
             else:
                 print(f"{datetime.now().strftime('%H:%M:%S')}|bilibili \033[31m获取data失败\033[0m")
                 return {}, {"cookie":None, "timestamp": 0.0}, ""
         else:
             print(f"{datetime.now().strftime('%H:%M:%S')}|bilibili \033[33m获取data成功\033[0m")
-            bilibili_cookie_ydl = requests_cookie_jar(bilibili_data["cookie"])
-            return channelid_bilibili_ids, bilibili_data, bilibili_cookie_ydl
+            return channelid_bilibili_ids, bilibili_data
     else:
         return {}, {"cookie":None, "timestamp": 0.0}, ""
 
@@ -1679,27 +1718,90 @@ def youtube_rss_update(youtube_key, youtube_value, pattern_youtube_varys, patter
                     youtube_content_ytid_backward_update[youtube_key] = youtube_content_ytid_backward
 
 # 更新哔哩哔哩频道xml模块
-def bilibili_rss_update(bilibili_key, bilibili_value):
-    bilibili_response = http_client(
-        "https://api.bilibili.com/x/space/wbi/arc/search",
+def bilibili_rss_update(bilibili_key, bilibili_value, update_size=25):
+    bilibili_space = {}
+    bilibili_list = []
+    # 用户名片信息
+    if bilibili_card_response:= http_client(
+        "https://api.bilibili.com/x/web-interface/card",
         bilibili_value,
         10,
         4,
         True,
         bilibili_data["cookie"],
-        WBI_signature(
-            {
-                "mid":bilibili_key,
-                "pn":"1",
-                "ps":"15"
-            },
-            bilibili_data["img_key"],
-            bilibili_data["sub_key"]
-        )
-    )
+        {
+            "mid": bilibili_key,
+            "photo": "true",
+        },
+    ):
+        bilibili_card_json = bilibili_card_response.json()
+        try:
+            if bilibili_card_json["code"] == 0:
+                bilibili_space = {
+                    "mid": bilibili_card_json["data"]["card"]["mid"],
+                    "name": bilibili_card_json["data"]["card"]["name"],
+                    "sex": bilibili_card_json["data"]["card"]["sex"],
+                    "face": bilibili_card_json["data"]["card"]["face"],
+                    "spacesta": bilibili_card_json["data"]["card"]["spacesta"],
+                    "sign": bilibili_card_json["data"]["card"]["sign"],
+                    "Official": bilibili_card_json["data"]["card"]["Official"],
+                    "official_verify": bilibili_card_json["data"]["card"]["official_verify"],
+                }
+            else:
+                return bilibili_card_json["code"]
+        except (KeyError, TypeError, IndexError, ValueError):
+            pass
+    else:
+        return None
+    # 查询用户投稿视频明细模块
+    def get_vlist(bilibili_key, bilibili_value, num=1):
+        bilibili_list = []
+        if bilibili_response:= http_client(
+            "https://api.bilibili.com/x/space/wbi/arc/search",
+            bilibili_value,
+            10,
+            4,
+            True,
+            bilibili_data["cookie"],
+            WBI_signature(
+                {
+                    "mid": bilibili_key,
+                    "pn": str(num),
+                    "ps": "25",
+                },
+                bilibili_data["img_key"],
+                bilibili_data["sub_key"],
+            )
+        ):
+            bilibili_json = bilibili_response.json()
+            bilibili_vlists = bilibili_json["data"]["list"]["vlist"]
+            for vlist in bilibili_vlists:
+                try:
+                    bilibili_list.append({
+                        "aid": vlist["aid"],
+                        "author": vlist["author"],
+                        "bvid": vlist["bvid"],
+                        "copyright": vlist["copyright"],
+                        "created": vlist["created"],
+                        "description": vlist["description"],
+                        "is_union_video": vlist["is_union_video"],
+                        "length": vlist["length"],
+                        "mid": vlist["mid"],
+                        "pic": vlist["pic"],
+                        "title": vlist["title"],
+                        "typeid": vlist["typeid"],
+                    })
+                except (KeyError, TypeError, IndexError, ValueError):
+                    pass
+        return bilibili_list
+    for num in range(math.ceil(update_size / 25)):
+        num += 1
+        bilibili_list += get_vlist(bilibili_key, f"{bilibili_value}第{num}页", num)
+    bilibili_space["list"] = bilibili_list
+    return bilibili_space
 
-# 更新Youtube频道xml多线程模块
-def update_youtube_rss():
+# 更新Youtube和哔哩哔哩频道xml多线程模块
+def update_youtube_bilibili_rss():
     pattern_youtube404 = r"Error 404 \(Not Found\)"  # 设置要匹配的正则表达式模式
     pattern_youtube_varys = [
         r"[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-2][0-9]:[0-6][0-9]:[0-6][0-9]\+00:00",
@@ -1708,16 +1810,21 @@ def update_youtube_rss():
         r"<id>yt:channel:(UC)?(.{22})?</id>",
         r"<yt:channelId>(UC)?(.{22})?</yt:channelId>",
     ]
-    youtube_rss_update_threads = []  # 创建线程列表
+    youtube_bilibili_rss_update_threads = []  # 创建线程列表
+    # Youtube多线程
     for youtube_key, youtube_value in channelid_youtube_ids.items():
         thread = threading.Thread(
             target=youtube_rss_update, args=(youtube_key, youtube_value, pattern_youtube_varys, pattern_youtube404)
         )
-        youtube_rss_update_threads.append(thread)
+        youtube_bilibili_rss_update_threads.append(thread)
+    # 哔哩哔哩多线程
+    
+    # 开始多线程
         thread.start()
     # 等待所有线程完成
-    for thread in youtube_rss_update_threads:
+    for thread in youtube_bilibili_rss_update_threads:
         thread.join()
+    # 更新Youtube频道
     for youtube_key, youtube_value in channelid_youtube_ids.copy().items():
         youtube_response = channelid_youtube_rss[youtube_key]["content"]
         youtube_response_type = channelid_youtube_rss[youtube_key]["type"]
@@ -1745,6 +1852,8 @@ def update_youtube_rss():
             if youtube_response_type == "text":
                 del channelid_youtube_ids[youtube_key]
             write_log(f"YouTube频道 {youtube_value} 无法更新")
+    # 更新哔哩哔哩频道
+    
 
 # 输出需要更新的信息模块
 def update_information_display():
@@ -2508,7 +2617,6 @@ channelid_bilibili_ids = get_channelid_id(channelid_bilibili, "bilibili")
 # 复制bilibili频道id用于删除已抛弃的媒体文件夹
 channelid_bilibili_ids_original = channelid_bilibili_ids.copy()
 
-
 # 尝试获取命令行参数
 try:
     argument = sys.argv[1]
@@ -2572,11 +2680,11 @@ prepare_print.start()
 # 循环主更新
 while update_num > 0 or update_num == -1:
     # 更新哔哩哔哩data
-    channelid_bilibili_ids, bilibili_data, bilibili_cookie_ydl = get_bilibili_data(channelid_bilibili_ids_original)
+    channelid_bilibili_ids, bilibili_data = get_bilibili_data(channelid_bilibili_ids_original)
     # 获取原始xml字典和rss文本
     xmls_original, hash_rss_original, xmls_original_fail = get_original_rss()
-    # 更新Youtube频道xml
-    update_youtube_rss()
+    # 更新Youtube和哔哩哔哩频道xml
+    update_youtube_bilibili_rss()
     # 判断是否有更新内容
     if channelid_youtube_ids_update != {}:
         update_generate_rss = True

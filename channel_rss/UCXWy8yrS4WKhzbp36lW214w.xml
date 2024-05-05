@@ -9,7 +9,7 @@ Please look at it from the perspective of objective rationality and science
         <category>TV &amp; Film</category>
         <generator>Podflow (support us at https://github.com/gruel-zxz/podflow)</generator>
         <language>en-us</language>
-        <lastBuildDate>Sat, 04 May 2024 12:51:57 +0800</lastBuildDate>
+        <lastBuildDate>Sun, 05 May 2024 08:35:31 +0800</lastBuildDate>
         <pubDate>Sun, 24 Apr 2005 11:20:54 +0800</pubDate>
         <image>
             <url>https://yt3.googleusercontent.com/ytc/AIdro_ljfPIXYHJrDEJ-Pes9g1Rp6Va2vEuUyhSA-YXHCMGddw=s2048-c-k-c0x00ffffff-no-rj</url>
@@ -23,6 +23,22 @@ Please look at it from the perspective of objective rationality and science
         <itunes:explicit>no</itunes:explicit>
         <itunes:category text="TV &amp; Film"></itunes:category>
 <!-- {UCXWy8yrS4WKhzbp36lW214w} -->
+<!-- UCXWy8yrS4WKhzbp36lW214w -->
+        <item>
+            <guid>_n9dZGoqqBQ</guid>
+            <title>世界上最昂贵的九种水果</title>
+            <link>https://youtube.com/watch?v=_n9dZGoqqBQ</link>
+            <description>『绝密研究所』</description>
+            <pubDate>Sun, 05 May 2024 08:00:07 +0800</pubDate>
+            <enclosure url="https://raw.githubusercontent.com/gruel-zxz/podflow/main/channel_audiovisual/UCXWy8yrS4WKhzbp36lW214w/_n9dZGoqqBQ.m4a" length="4543424" type="audio/x-m4a"></enclosure>
+            <itunes:author>世界上最昂贵的九种水果</itunes:author>
+            <itunes:subtitle>世界上最昂贵的九种水果</itunes:subtitle>
+            <itunes:summary><![CDATA[『绝密研究所』]]></itunes:summary>
+            <itunes:image href="https://i4.ytimg.com/vi/_n9dZGoqqBQ/hqdefault.jpg"></itunes:image>
+            <itunes:duration>04:41</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:order>1</itunes:order>
+        </item>
 <!-- UCXWy8yrS4WKhzbp36lW214w -->
         <item>
             <guid>jQ9cpA5ZQgU</guid>
@@ -804,22 +820,6 @@ Please look at it from the perspective of objective rationality and science
             <itunes:summary><![CDATA[『绝密研究所』]]></itunes:summary>
             <itunes:image href="https://i4.ytimg.com/vi/7lFAnrWu944/hqdefault.jpg"></itunes:image>
             <itunes:duration>04:52</itunes:duration>
-            <itunes:explicit>no</itunes:explicit>
-            <itunes:order>1</itunes:order>
-        </item>
-<!-- UCXWy8yrS4WKhzbp36lW214w -->
-        <item>
-            <guid>uzu7JF2WZWg</guid>
-            <title>飞机失联35年后降落，机上载着92具骷髅</title>
-            <link>https://youtube.com/watch?v=uzu7JF2WZWg</link>
-            <description>『绝密研究所』</description>
-            <pubDate>Thu, 14 Mar 2024 08:15:07 +0800</pubDate>
-            <enclosure url="https://raw.githubusercontent.com/gruel-zxz/podflow/main/channel_audiovisual/UCXWy8yrS4WKhzbp36lW214w/uzu7JF2WZWg.m4a" length="6459459" type="audio/x-m4a"></enclosure>
-            <itunes:author>飞机失联35年后降落，机上载着92具骷髅</itunes:author>
-            <itunes:subtitle>飞机失联35年后降落，机上载着92具骷髅</itunes:subtitle>
-            <itunes:summary><![CDATA[『绝密研究所』]]></itunes:summary>
-            <itunes:image href="https://i2.ytimg.com/vi/uzu7JF2WZWg/hqdefault.jpg"></itunes:image>
-            <itunes:duration>06:40</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
             <itunes:order>1</itunes:order>
         </item>
