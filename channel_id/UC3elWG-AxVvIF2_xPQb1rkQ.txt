@@ -11,6 +11,98 @@
  </author>
  <published>2022-06-04T16:17:27+00:00</published>
  <entry>
+  <id>yt:video:7Xssy5UMWwc</id>
+  <yt:videoId>7Xssy5UMWwc</yt:videoId>
+  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
+  <title>在青岛的夜市感受到了山东的啤酒文化，果然，提袋儿喝的味道最好#爱吐槽的四季妈妈 #家庭吐槽大会</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=7Xssy5UMWwc"/>
+  <author>
+   <name>四季妈妈—小龙</name>
+   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
+  </author>
+  <published>2024-05-15T13:50:02+00:00</published>
+  <updated>2024-05-15T13:50:03+00:00</updated>
+  <media:group>
+   <media:title>在青岛的夜市感受到了山东的啤酒文化，果然，提袋儿喝的味道最好#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
+   <media:content url="https://www.youtube.com/v/7Xssy5UMWwc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/7Xssy5UMWwc/hqdefault.jpg" width="480" height="360"/>
+   <media:description>在青岛夜市的体验真是难忘，感受到了浓郁的山东啤酒文化。提袋儿喝的啤酒果然有独特的风味！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
+   <media:community>
+    <media:starRating count="4" average="5.00" min="1" max="5"/>
+    <media:statistics views="84"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:zAeW2olRxc4</id>
+  <yt:videoId>zAeW2olRxc4</yt:videoId>
+  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
+  <title>你们山东人嘴真严啊，到了这儿，我才发现你们的秘密#爱吐槽的四季妈妈 #家庭吐槽大会</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=zAeW2olRxc4"/>
+  <author>
+   <name>四季妈妈—小龙</name>
+   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
+  </author>
+  <published>2024-05-12T03:17:40+00:00</published>
+  <updated>2024-05-14T02:52:38+00:00</updated>
+  <media:group>
+   <media:title>你们山东人嘴真严啊，到了这儿，我才发现你们的秘密#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
+   <media:content url="https://www.youtube.com/v/zAeW2olRxc4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/zAeW2olRxc4/hqdefault.jpg" width="480" height="360"/>
+   <media:description>&quot;发现山东人口才的不可思议之处！我们带你走进吐槽大会，揭开四季妈妈们幽默的口才秘密。准备好笑得前仰后合了吗？#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
+   <media:community>
+    <media:starRating count="14" average="5.00" min="1" max="5"/>
+    <media:statistics views="533"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:sXPVfr3Jpag</id>
+  <yt:videoId>sXPVfr3Jpag</yt:videoId>
+  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
+  <title>能降服东北爷们的也只有外刚内柔的东北姑娘了吧#爱吐槽的四季妈妈 #家庭吐槽大会</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=sXPVfr3Jpag"/>
+  <author>
+   <name>四季妈妈—小龙</name>
+   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
+  </author>
+  <published>2024-05-09T12:22:05+00:00</published>
+  <updated>2024-05-11T14:18:38+00:00</updated>
+  <media:group>
+   <media:title>能降服东北爷们的也只有外刚内柔的东北姑娘了吧#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
+   <media:content url="https://www.youtube.com/v/sXPVfr3Jpag?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/sXPVfr3Jpag/hqdefault.jpg" width="480" height="360"/>
+   <media:description>东北爷们，你们认同吗？只有外表坚强，内心柔软的东北姑娘才能真正降服你们！在我们的家庭吐槽大会上，一起探讨东北姑娘的魅力所在吧！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
+   <media:community>
+    <media:starRating count="7" average="5.00" min="1" max="5"/>
+    <media:statistics views="306"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Fj75R0QqsW4</id>
+  <yt:videoId>Fj75R0QqsW4</yt:videoId>
+  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
+  <title>这个字，所有东北人都会说的#爱吐槽的四季妈妈 #家庭吐槽大会 #东北方言</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Fj75R0QqsW4"/>
+  <author>
+   <name>四季妈妈—小龙</name>
+   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
+  </author>
+  <published>2024-05-06T05:17:33+00:00</published>
+  <updated>2024-05-14T05:46:56+00:00</updated>
+  <media:group>
+   <media:title>这个字，所有东北人都会说的#爱吐槽的四季妈妈 #家庭吐槽大会 #东北方言</media:title>
+   <media:content url="https://www.youtube.com/v/Fj75R0QqsW4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/Fj75R0QqsW4/hqdefault.jpg" width="480" height="360"/>
+   <media:description>在东北方言中，有一个字是几乎所有东北人都会说的。想知道是什么字吗？来参加我们的家庭吐槽大会，一起分享关于这个字的趣事和回忆！#爱吐槽的四季妈妈 #东北方言</media:description>
+   <media:community>
+    <media:starRating count="8" average="5.00" min="1" max="5"/>
+    <media:statistics views="272"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:DJwOYF8euyc</id>
   <yt:videoId>DJwOYF8euyc</yt:videoId>
   <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
@@ -21,15 +113,15 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-05-04T17:34:04+00:00</published>
-  <updated>2024-05-04T17:34:05+00:00</updated>
+  <updated>2024-05-07T23:47:06+00:00</updated>
   <media:group>
    <media:title>如果不能规范管理，那这个平台就是在安全边缘疯狂试探#爱吐槽的四季妈妈</media:title>
    <media:content url="https://www.youtube.com/v/DJwOYF8euyc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i1.ytimg.com/vi/DJwOYF8euyc/hqdefault.jpg" width="480" height="360"/>
    <media:description>如果不能规范管理，那这个平台就是在安全边缘疯狂试探。安全和管理对于任何平台都至关重要，缺乏规范管理可能导致一系列问题的出现，甚至危及用户的安全。所以，我们必须认真对待管理工作，确保平台的健康发展和用户的利益。</media:description>
    <media:community>
-    <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="74"/>
+    <media:starRating count="11" average="5.00" min="1" max="5"/>
+    <media:statistics views="245"/>
    </media:community>
   </media:group>
  </entry>
@@ -44,7 +136,7 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-05-01T09:19:47+00:00</published>
-  <updated>2024-05-03T22:33:10+00:00</updated>
+  <updated>2024-05-08T08:34:54+00:00</updated>
   <media:group>
    <media:title>一人说一道你在杭州吃过的美食吧#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
    <media:content url="https://www.youtube.com/v/WUBSmK30LUg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -52,7 +144,7 @@
    <media:description>我在杭州吃过的美食是西湖醋鱼，清爽酸甜的口味，配上嫩滑鲜嫩的鱼肉，回味无穷，令人难以忘怀</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="154"/>
+    <media:statistics views="223"/>
    </media:community>
   </media:group>
  </entry>
@@ -67,7 +159,7 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-04-30T12:21:13+00:00</published>
-  <updated>2024-05-02T11:31:22+00:00</updated>
+  <updated>2024-05-04T04:08:02+00:00</updated>
   <media:group>
    <media:title>来，陪我一起喝茶啦～ #召唤茶友 #今天你喝茶了吗 #爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
    <media:content url="https://www.youtube.com/v/aIxvOMdY7Vk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -78,8 +170,8 @@
 
 别忘了点赞、订阅，并在评论区留言，告诉我你今天喝了什么茶，和谁一起喝的，分享你的喝茶心情！期待和大家一起度过愉快的喝茶时光！#喝茶放松 #茶友聚会 #生活品味 #悠闲时光</media:description>
    <media:community>
-    <media:starRating count="13" average="5.00" min="1" max="5"/>
-    <media:statistics views="665"/>
+    <media:starRating count="16" average="5.00" min="1" max="5"/>
+    <media:statistics views="791"/>
    </media:community>
   </media:group>
  </entry>
@@ -94,7 +186,7 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-04-29T06:05:26+00:00</published>
-  <updated>2024-04-30T05:49:22+00:00</updated>
+  <updated>2024-05-05T10:14:51+00:00</updated>
   <media:group>
    <media:title>穿旗袍逛茶园～ #召唤茶友  #家庭吐槽大会 #爱吐槽的四季妈妈</media:title>
    <media:content url="https://www.youtube.com/v/x4wE4IEhIPY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -105,8 +197,8 @@
 
 别忘了点赞、订阅，并在评论区分享你对旗袍穿搭和茶园的想法。期待和大家一起分享更多有趣的家庭吐槽！#旗袍时光 #茶园漫步 #茶友聚会 #生活美学</media:description>
    <media:community>
-    <media:starRating count="33" average="5.00" min="1" max="5"/>
-    <media:statistics views="758"/>
+    <media:starRating count="35" average="5.00" min="1" max="5"/>
+    <media:statistics views="828"/>
    </media:community>
   </media:group>
  </entry>
@@ -121,7 +213,7 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-04-28T11:28:07+00:00</published>
-  <updated>2024-04-30T02:42:56+00:00</updated>
+  <updated>2024-05-05T13:55:51+00:00</updated>
   <media:group>
    <media:title>西湖龙井茶园真的好美啊，今天看我在茶园喝茶～ #喝茶那点事 #召唤茶友</media:title>
    <media:content url="https://www.youtube.com/v/kZae4gilVDk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -132,8 +224,8 @@
 
 别忘了点赞、订阅，并在评论区分享你对茶园的美景感受和自己的茶道心得。期待和大家一起分享更多有关喝茶的乐趣！#西湖龙井茶园 #茶道体验 #茶香清幽 #茶友聚会</media:description>
    <media:community>
-    <media:starRating count="14" average="5.00" min="1" max="5"/>
-    <media:statistics views="708"/>
+    <media:starRating count="19" average="5.00" min="1" max="5"/>
+    <media:statistics views="843"/>
    </media:community>
   </media:group>
  </entry>
@@ -148,7 +240,7 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-04-28T11:15:00+00:00</published>
-  <updated>2024-04-30T05:02:04+00:00</updated>
+  <updated>2024-05-06T14:01:03+00:00</updated>
   <media:group>
    <media:title>老公说我不懂茶？来西湖找最好的西湖龙井，主打一个叛逆！</media:title>
    <media:content url="https://www.youtube.com/v/oGY8s-oftn8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -159,8 +251,8 @@
 
 别忘了点赞、订阅，并在评论区分享你对西湖龙井的了解和自己的茶叶故事。期待和大家一起分享更多有趣的家庭吐槽！#西湖龙井 #茶叶品鉴 #家庭挑战 #茶叶文化</media:description>
    <media:community>
-    <media:starRating count="43" average="5.00" min="1" max="5"/>
-    <media:statistics views="2847"/>
+    <media:starRating count="48" average="5.00" min="1" max="5"/>
+    <media:statistics views="3076"/>
    </media:community>
   </media:group>
  </entry>
@@ -187,7 +279,7 @@
 别忘了点赞、订阅，并在评论区分享你对五一假期的期待和自己的假期计划。期待和大家一起分享更多有趣的家庭吐槽！#五一假期 #城市惊喜 #家庭出游 #幽默解密</media:description>
    <media:community>
     <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="211"/>
+    <media:statistics views="238"/>
    </media:community>
   </media:group>
  </entry>
@@ -214,7 +306,7 @@
 别忘了点赞、订阅，并在评论区分享你对给老公生活费的看法和自己的家庭经历。期待和大家一起分享更多有趣的家庭吐槽！#家庭生活 #生活费 #幽默吐槽</media:description>
    <media:community>
     <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="310"/>
+    <media:statistics views="342"/>
    </media:community>
   </media:group>
  </entry>
@@ -240,8 +332,8 @@
 
 别忘了点赞、订阅，并在评论区分享你对东北菜的喜爱和自己的美食故事。期待和大家一起分享更多有趣的家庭吐槽！#东北菜 #八大菜系 #美食文化 #幽默揭秘</media:description>
    <media:community>
-    <media:starRating count="29" average="5.00" min="1" max="5"/>
-    <media:statistics views="1768"/>
+    <media:starRating count="30" average="5.00" min="1" max="5"/>
+    <media:statistics views="1907"/>
    </media:community>
   </media:group>
  </entry>
@@ -268,7 +360,7 @@
 别忘了点赞、订阅，并在评论区分享你对藏私房钱的看法和自己的家庭故事。期待和大家一起分享更多有趣的家庭吐槽！#藏私房钱 #好男人 #家庭关爱 #幽默解密</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="585"/>
+    <media:statistics views="606"/>
    </media:community>
   </media:group>
  </entry>
@@ -295,115 +387,7 @@
 别忘了点赞、订阅，并在评论区分享你对水域活动的喜爱和自己的水域经历。期待和大家一起分享更多有趣的家庭吐槽！#水域活动 #家庭娱乐 #幽默探索</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="836"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:b32uh27KBXQ</id>
-  <yt:videoId>b32uh27KBXQ</yt:videoId>
-  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
-  <title>今年夏天怎么也得去趟山东吧？四季妈妈带你爆笑游山东 #爱吐槽的四季妈妈 #家庭吐槽大会</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=b32uh27KBXQ"/>
-  <author>
-   <name>四季妈妈—小龙</name>
-   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
-  </author>
-  <published>2024-04-15T08:21:06+00:00</published>
-  <updated>2024-04-19T02:50:07+00:00</updated>
-  <media:group>
-   <media:title>今年夏天怎么也得去趟山东吧？四季妈妈带你爆笑游山东 #爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
-   <media:content url="https://www.youtube.com/v/b32uh27KBXQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/b32uh27KBXQ/hqdefault.jpg" width="480" height="360"/>
-   <media:description>大家好，欢迎来到我的频道！在这期视频中，四季妈妈要和大家一起探讨今年夏天为什么一定要去趟山东。
-
-山东以其丰富的历史文化和美味的特色美食而闻名于世，夏天更是一个探索山东之美的绝佳时机！无论是登泰山赏日出，还是游泳沙滩享海风，抑或是品尝山东大菜、鲁菜等各色美食，都是让人心驰神往的旅行体验。
-
-别忘了点赞、订阅，并在评论区分享你对山东之旅的期待和自己的旅行计划。期待和大家一起分享更多有趣的家庭吐槽！#山东之旅 #夏日游山东 #家庭旅行 #幽默探索</media:description>
-   <media:community>
-    <media:starRating count="9" average="5.00" min="1" max="5"/>
-    <media:statistics views="642"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:ae-wEDCBwrk</id>
-  <yt:videoId>ae-wEDCBwrk</yt:videoId>
-  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
-  <title>结婚前后，老公对待老婆睡衣的态度差别究竟有多大？四季妈妈揭秘</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=ae-wEDCBwrk"/>
-  <author>
-   <name>四季妈妈—小龙</name>
-   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
-  </author>
-  <published>2024-04-13T07:18:59+00:00</published>
-  <updated>2024-04-18T21:41:06+00:00</updated>
-  <media:group>
-   <media:title>结婚前后，老公对待老婆睡衣的态度差别究竟有多大？四季妈妈揭秘</media:title>
-   <media:content url="https://www.youtube.com/v/ae-wEDCBwrk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/ae-wEDCBwrk/hqdefault.jpg" width="480" height="360"/>
-   <media:description>大家好，欢迎来到我的频道！在这期视频中，四季妈妈将探讨结婚前后，老公对待老婆睡衣的态度差别究竟有多大。
-
-结婚前，老公可能对老婆的睡衣还保持着一种神秘和浪漫的幻想，但是结婚后，这种态度可能会发生一些变化。从选择到关注，从赞美到理解，老公们对待老婆睡衣的态度差别究竟有多大？让我们一起来揭秘！
-
-别忘了点赞、订阅，并在评论区分享你对老公对待老婆睡衣的看法和自己的经历。期待和大家一起分享更多有趣的家庭吐槽！#老公 #老婆睡衣 #家庭生活 #幽默揭秘</media:description>
-   <media:community>
-    <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="841"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:ExndQ1xmbw4</id>
-  <yt:videoId>ExndQ1xmbw4</yt:videoId>
-  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
-  <title>烧烤季要到了，男人一眼就知道哪个摊好吃？四季妈妈幽默吐槽 #爱吐槽的四季妈妈 #家庭吐槽大会</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=ExndQ1xmbw4"/>
-  <author>
-   <name>四季妈妈—小龙</name>
-   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
-  </author>
-  <published>2024-04-11T10:20:45+00:00</published>
-  <updated>2024-04-16T02:27:07+00:00</updated>
-  <media:group>
-   <media:title>烧烤季要到了，男人一眼就知道哪个摊好吃？四季妈妈幽默吐槽 #爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
-   <media:content url="https://www.youtube.com/v/ExndQ1xmbw4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/ExndQ1xmbw4/hqdefault.jpg" width="480" height="360"/>
-   <media:description>大家好，欢迎来到我的频道！随着烧烤季的到来，男人们似乎总能一眼就知道哪个摊位的烧烤最好吃！在这期视频中，四季妈妈将带你一起探讨男人独特的烧烤直觉。
-
-在烧烤季即将到来之际，男人们似乎总能以一种神秘的方式辨别出哪个摊位的烧烤最美味。是直觉？还是经验？让我们一起来幽默吐槽一下这个有趣的现象吧！
-
-别忘了点赞、订阅，并在评论区分享你对男人独特烧烤直觉的看法和自己的烧烤经历。期待和大家一起分享更多有趣的家庭吐槽！#烧烤季 #男人的直觉 #幽默吐槽</media:description>
-   <media:community>
-    <media:starRating count="12" average="5.00" min="1" max="5"/>
-    <media:statistics views="388"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:XOzcqgaKOgw</id>
-  <yt:videoId>XOzcqgaKOgw</yt:videoId>
-  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
-  <title>怎么快速在男女沟通中建立自信的小妙招#爱吐槽的四季妈妈 #家庭吐槽大会</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=XOzcqgaKOgw"/>
-  <author>
-   <name>四季妈妈—小龙</name>
-   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
-  </author>
-  <published>2024-04-09T08:13:48+00:00</published>
-  <updated>2024-04-11T22:45:47+00:00</updated>
-  <media:group>
-   <media:title>怎么快速在男女沟通中建立自信的小妙招#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
-   <media:content url="https://www.youtube.com/v/XOzcqgaKOgw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i1.ytimg.com/vi/XOzcqgaKOgw/hqdefault.jpg" width="480" height="360"/>
-   <media:description>大家好，欢迎来到我的频道！今天，我要和大家分享一些在男女沟通中建立自信的小妙招！四季妈妈爱吐槽，带你一起探索家庭生活中的趣事。
-
-在这期视频中，我将分享一些简单易行的技巧，帮助你在男女沟通中更加自信。无论是面对陌生人还是与伴侣交流，自信都是吸引人的关键。让我们一起来学习这些有趣的小妙招吧！
-
-别忘了点赞、订阅，并在评论区分享你对建立自信的看法和自己的沟通经历。期待和大家一起分享更多有趣的家庭吐槽！#建立自信 #男女沟通 #幽默分享</media:description>
-   <media:community>
-    <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="314"/>
+    <media:statistics views="842"/>
    </media:community>
   </media:group>
  </entry>

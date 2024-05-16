@@ -48,7 +48,7 @@
     },
     "channelid_bilibili": {
         "哔哩哔哩漫画": {
-            "update_size": 15,
+            "update_size": 5,
             "id": "326499679",
             "title": "哔哩哔哩漫画",
             "last_size": 50,
@@ -58,7 +58,8 @@
             "QRcode": false
         },
     "测试": "21738912391",
-    "无无无无语森": "3393923"
+    "无无无无语森": "3393923",
+    "鹿火CAVY": "18390027530"
     },
     "retry_count": 2,
     "link": "m.youtube.com",
