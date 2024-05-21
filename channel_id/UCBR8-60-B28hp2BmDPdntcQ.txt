@@ -10,6 +10,98 @@
   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
  </author>
  <entry>
+  <id>yt:video:r6nw765Qa1w</id>
+  <yt:videoId>r6nw765Qa1w</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>thank you MatPat for inspiring so many throughout the years @GameTheory  #YouTubeCreatorCollective</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=r6nw765Qa1w"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2024-05-21T21:00:20+00:00</published>
+  <updated>2024-05-21T21:07:43+00:00</updated>
+  <media:group>
+   <media:title>thank you MatPat for inspiring so many throughout the years @GameTheory  #YouTubeCreatorCollective</media:title>
+   <media:content url="https://www.youtube.com/v/r6nw765Qa1w?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/r6nw765Qa1w/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="38" average="5.00" min="1" max="5"/>
+    <media:statistics views="38"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:jKXlnYGRQyE</id>
+  <yt:videoId>jKXlnYGRQyE</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>⁠@KristinaMakushenko makes it look too easy #LUNCHbyBillieEilish</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=jKXlnYGRQyE"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2024-05-18T18:36:42+00:00</published>
+  <updated>2024-05-21T02:08:39+00:00</updated>
+  <media:group>
+   <media:title>⁠@KristinaMakushenko makes it look too easy #LUNCHbyBillieEilish</media:title>
+   <media:content url="https://www.youtube.com/v/jKXlnYGRQyE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/jKXlnYGRQyE/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="2574" average="5.00" min="1" max="5"/>
+    <media:statistics views="56374"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:iSyLvVQqG0U</id>
+  <yt:videoId>iSyLvVQqG0U</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>when manifesting actually works @BillieEilish</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=iSyLvVQqG0U"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2024-05-17T16:00:10+00:00</published>
+  <updated>2024-05-21T01:41:58+00:00</updated>
+  <media:group>
+   <media:title>when manifesting actually works @BillieEilish</media:title>
+   <media:content url="https://www.youtube.com/v/iSyLvVQqG0U?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/iSyLvVQqG0U/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="1297" average="5.00" min="1" max="5"/>
+    <media:statistics views="31859"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:mi24tIUWuQA</id>
+  <yt:videoId>mi24tIUWuQA</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>celebrate spring and 15 years of minecraft w/ this new filter only on shorts 🌷🐓</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=mi24tIUWuQA"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2024-05-16T21:19:28+00:00</published>
+  <updated>2024-05-18T20:56:46+00:00</updated>
+  <media:group>
+   <media:title>celebrate spring and 15 years of minecraft w/ this new filter only on shorts 🌷🐓</media:title>
+   <media:content url="https://www.youtube.com/v/mi24tIUWuQA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/mi24tIUWuQA/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="1480" average="5.00" min="1" max="5"/>
+    <media:statistics views="34544"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:A7Sx93iwEqk</id>
   <yt:videoId>A7Sx93iwEqk</yt:videoId>
   <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
@@ -20,15 +112,15 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-05-16T00:45:14+00:00</published>
-  <updated>2024-05-16T00:51:22+00:00</updated>
+  <updated>2024-05-21T02:06:13+00:00</updated>
   <media:group>
    <media:title>@NFL: Here’s what your Sundays look like for the 2024 @NFL season. Us: I’m sat.</media:title>
    <media:content url="https://www.youtube.com/v/A7Sx93iwEqk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i2.ytimg.com/vi/A7Sx93iwEqk/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="59" average="5.00" min="1" max="5"/>
-    <media:statistics views="168"/>
+    <media:starRating count="914" average="5.00" min="1" max="5"/>
+    <media:statistics views="34263"/>
    </media:community>
   </media:group>
  </entry>
@@ -43,15 +135,15 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-05-13T16:00:19+00:00</published>
-  <updated>2024-05-15T19:51:35+00:00</updated>
+  <updated>2024-05-17T04:02:26+00:00</updated>
   <media:group>
    <media:title>it reminds me of a picasso! not sure which one tho @ZachKing</media:title>
    <media:content url="https://www.youtube.com/v/icc4wu0iGiw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i2.ytimg.com/vi/icc4wu0iGiw/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2919" average="5.00" min="1" max="5"/>
-    <media:statistics views="50765"/>
+    <media:starRating count="4482" average="5.00" min="1" max="5"/>
+    <media:statistics views="92680"/>
    </media:community>
   </media:group>
  </entry>
@@ -73,8 +165,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/oOhGmSVZOnk/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3437" average="5.00" min="1" max="5"/>
-    <media:statistics views="69288"/>
+    <media:starRating count="4149" average="5.00" min="1" max="5"/>
+    <media:statistics views="93488"/>
    </media:community>
   </media:group>
  </entry>
@@ -96,8 +188,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/0A0BKCfjQ-Y/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1871" average="5.00" min="1" max="5"/>
-    <media:statistics views="47436"/>
+    <media:starRating count="2290" average="5.00" min="1" max="5"/>
+    <media:statistics views="64235"/>
    </media:community>
   </media:group>
  </entry>
@@ -119,8 +211,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/mtr1ZgNzj5c/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2934" average="5.00" min="1" max="5"/>
-    <media:statistics views="61700"/>
+    <media:starRating count="3343" average="5.00" min="1" max="5"/>
+    <media:statistics views="79092"/>
    </media:community>
   </media:group>
  </entry>
@@ -142,8 +234,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/bwBiX_MvVRk/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3485" average="5.00" min="1" max="5"/>
-    <media:statistics views="93258"/>
+    <media:starRating count="3932" average="5.00" min="1" max="5"/>
+    <media:statistics views="107937"/>
    </media:community>
   </media:group>
  </entry>
@@ -165,8 +257,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/et9gw5xbtoY/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1897" average="5.00" min="1" max="5"/>
-    <media:statistics views="55910"/>
+    <media:starRating count="2112" average="5.00" min="1" max="5"/>
+    <media:statistics views="66116"/>
    </media:community>
   </media:group>
  </entry>
@@ -188,8 +280,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/L3V-0T0462Y/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3118" average="5.00" min="1" max="5"/>
-    <media:statistics views="89580"/>
+    <media:starRating count="3350" average="5.00" min="1" max="5"/>
+    <media:statistics views="103485"/>
    </media:community>
   </media:group>
  </entry>
@@ -204,15 +296,15 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-04-29T20:45:15+00:00</published>
-  <updated>2024-05-04T08:49:33+00:00</updated>
+  <updated>2024-05-18T17:29:52+00:00</updated>
   <media:group>
    <media:title>i will be eating these in one bite...well some of them</media:title>
    <media:content url="https://www.youtube.com/v/cknv4hJHCas?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i4.ytimg.com/vi/cknv4hJHCas/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3140" average="5.00" min="1" max="5"/>
-    <media:statistics views="92958"/>
+    <media:starRating count="3343" average="5.00" min="1" max="5"/>
+    <media:statistics views="105019"/>
    </media:community>
   </media:group>
  </entry>
@@ -234,8 +326,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/Hk4KwgYopXc/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2880" average="5.00" min="1" max="5"/>
-    <media:statistics views="78676"/>
+    <media:starRating count="3050" average="5.00" min="1" max="5"/>
+    <media:statistics views="87274"/>
    </media:community>
   </media:group>
  </entry>
@@ -286,100 +378,8 @@ Featured Creators:
 
 #Miniatures #TheSquaretoSpare</media:description>
    <media:community>
-    <media:starRating count="28895" average="5.00" min="1" max="5"/>
-    <media:statistics views="2157326"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:nm1WMAH_PKE</id>
-  <yt:videoId>nm1WMAH_PKE</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>the cheapest way to get to Coachella</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=nm1WMAH_PKE"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2024-04-27T18:07:45+00:00</published>
-  <updated>2024-05-08T03:50:49+00:00</updated>
-  <media:group>
-   <media:title>the cheapest way to get to Coachella</media:title>
-   <media:content url="https://www.youtube.com/v/nm1WMAH_PKE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/nm1WMAH_PKE/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="2935" average="5.00" min="1" max="5"/>
-    <media:statistics views="94733"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:80-9DtDNaEs</id>
-  <yt:videoId>80-9DtDNaEs</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>and for a fortnight THERE. SHE. WAS. 👏🤍 #ForAFortnightChallenge</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=80-9DtDNaEs"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2024-04-26T19:30:32+00:00</published>
-  <updated>2024-05-14T18:56:56+00:00</updated>
-  <media:group>
-   <media:title>and for a fortnight THERE. SHE. WAS. 👏🤍 #ForAFortnightChallenge</media:title>
-   <media:content url="https://www.youtube.com/v/80-9DtDNaEs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i1.ytimg.com/vi/80-9DtDNaEs/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="10381" average="5.00" min="1" max="5"/>
-    <media:statistics views="157048"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:1DmYnjwCt4I</id>
-  <yt:videoId>1DmYnjwCt4I</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>ding ding ding!!! @GeorgiaBridgersYT @carolinericke #guessinggame #intuition</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=1DmYnjwCt4I"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2024-04-26T15:00:17+00:00</published>
-  <updated>2024-04-28T22:51:08+00:00</updated>
-  <media:group>
-   <media:title>ding ding ding!!! @GeorgiaBridgersYT @carolinericke #guessinggame #intuition</media:title>
-   <media:content url="https://www.youtube.com/v/1DmYnjwCt4I?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/1DmYnjwCt4I/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="1807" average="5.00" min="1" max="5"/>
-    <media:statistics views="52160"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:we2oGQNQZGc</id>
-  <yt:videoId>we2oGQNQZGc</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>they said it could knot be done @ameenhalee #interview #lifestylecreator</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=we2oGQNQZGc"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2024-04-25T16:00:15+00:00</published>
-  <updated>2024-05-01T07:44:24+00:00</updated>
-  <media:group>
-   <media:title>they said it could knot be done @ameenhalee #interview #lifestylecreator</media:title>
-   <media:content url="https://www.youtube.com/v/we2oGQNQZGc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/we2oGQNQZGc/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="1720" average="5.00" min="1" max="5"/>
-    <media:statistics views="73153"/>
+    <media:starRating count="29434" average="5.00" min="1" max="5"/>
+    <media:statistics views="2289881"/>
    </media:community>
   </media:group>
  </entry>

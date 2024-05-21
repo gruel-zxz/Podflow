@@ -11,6 +11,75 @@
  </author>
  <published>2022-06-04T16:17:27+00:00</published>
  <entry>
+  <id>yt:video:_DerCYPAg88</id>
+  <yt:videoId>_DerCYPAg88</yt:videoId>
+  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
+  <title>实锤了，我们是食物链的顶端。是我们太强，还是老外太弱？#爱吐槽的四季妈妈 #家庭吐槽大会</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=_DerCYPAg88"/>
+  <author>
+   <name>四季妈妈—小龙</name>
+   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
+  </author>
+  <published>2024-05-20T12:34:00+00:00</published>
+  <updated>2024-05-21T06:08:08+00:00</updated>
+  <media:group>
+   <media:title>实锤了，我们是食物链的顶端。是我们太强，还是老外太弱？#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
+   <media:content url="https://www.youtube.com/v/_DerCYPAg88?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/_DerCYPAg88/hqdefault.jpg" width="480" height="360"/>
+   <media:description>到底是我们太强，还是老外太弱？真相揭晓！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
+   <media:community>
+    <media:starRating count="3" average="5.00" min="1" max="5"/>
+    <media:statistics views="111"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:At6TScH6W8g</id>
+  <yt:videoId>At6TScH6W8g</yt:videoId>
+  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
+  <title>男人为什么喜欢自驾#爱吐槽的四季妈妈</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=At6TScH6W8g"/>
+  <author>
+   <name>四季妈妈—小龙</name>
+   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
+  </author>
+  <published>2024-05-20T12:19:58+00:00</published>
+  <updated>2024-05-21T05:52:26+00:00</updated>
+  <media:group>
+   <media:title>男人为什么喜欢自驾#爱吐槽的四季妈妈</media:title>
+   <media:content url="https://www.youtube.com/v/At6TScH6W8g?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/At6TScH6W8g/hqdefault.jpg" width="480" height="360"/>
+   <media:description>男人为什么对自驾情有独钟？是自由、冒险，还是掌控感？#爱吐槽的四季妈妈</media:description>
+   <media:community>
+    <media:starRating count="4" average="5.00" min="1" max="5"/>
+    <media:statistics views="132"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:iJQX16H1FIc</id>
+  <yt:videoId>iJQX16H1FIc</yt:videoId>
+  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
+  <title>从没想到咱们能在自家地盘被老外踩了一脚#爱吐槽的四季妈妈 #歌手2024 #歌手2024首发歌手名单 scal</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=iJQX16H1FIc"/>
+  <author>
+   <name>四季妈妈—小龙</name>
+   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
+  </author>
+  <published>2024-05-16T13:39:33+00:00</published>
+  <updated>2024-05-21T02:18:39+00:00</updated>
+  <media:group>
+   <media:title>从没想到咱们能在自家地盘被老外踩了一脚#爱吐槽的四季妈妈 #歌手2024 #歌手2024首发歌手名单 scal</media:title>
+   <media:content url="https://www.youtube.com/v/iJQX16H1FIc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/iJQX16H1FIc/hqdefault.jpg" width="480" height="360"/>
+   <media:description>真没想到，我们会在自己的地盘上被老外踩了一脚！#爱吐槽的四季妈妈 #歌手2024 #歌手2024首发歌手名单</media:description>
+   <media:community>
+    <media:starRating count="4" average="5.00" min="1" max="5"/>
+    <media:statistics views="252"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:7Xssy5UMWwc</id>
   <yt:videoId>7Xssy5UMWwc</yt:videoId>
   <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
@@ -21,15 +90,15 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-05-15T13:50:02+00:00</published>
-  <updated>2024-05-15T13:50:03+00:00</updated>
+  <updated>2024-05-20T03:42:24+00:00</updated>
   <media:group>
    <media:title>在青岛的夜市感受到了山东的啤酒文化，果然，提袋儿喝的味道最好#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
    <media:content url="https://www.youtube.com/v/7Xssy5UMWwc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i4.ytimg.com/vi/7Xssy5UMWwc/hqdefault.jpg" width="480" height="360"/>
    <media:description>在青岛夜市的体验真是难忘，感受到了浓郁的山东啤酒文化。提袋儿喝的啤酒果然有独特的风味！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="84"/>
+    <media:starRating count="6" average="5.00" min="1" max="5"/>
+    <media:statistics views="243"/>
    </media:community>
   </media:group>
  </entry>
@@ -52,7 +121,7 @@
    <media:description>&quot;发现山东人口才的不可思议之处！我们带你走进吐槽大会，揭开四季妈妈们幽默的口才秘密。准备好笑得前仰后合了吗？#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="14" average="5.00" min="1" max="5"/>
-    <media:statistics views="533"/>
+    <media:statistics views="624"/>
    </media:community>
   </media:group>
  </entry>
@@ -74,8 +143,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/sXPVfr3Jpag/hqdefault.jpg" width="480" height="360"/>
    <media:description>东北爷们，你们认同吗？只有外表坚强，内心柔软的东北姑娘才能真正降服你们！在我们的家庭吐槽大会上，一起探讨东北姑娘的魅力所在吧！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="306"/>
+    <media:starRating count="9" average="5.00" min="1" max="5"/>
+    <media:statistics views="347"/>
    </media:community>
   </media:group>
  </entry>
@@ -98,7 +167,7 @@
    <media:description>在东北方言中，有一个字是几乎所有东北人都会说的。想知道是什么字吗？来参加我们的家庭吐槽大会，一起分享关于这个字的趣事和回忆！#爱吐槽的四季妈妈 #东北方言</media:description>
    <media:community>
     <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="272"/>
+    <media:statistics views="297"/>
    </media:community>
   </media:group>
  </entry>
@@ -121,7 +190,7 @@
    <media:description>如果不能规范管理，那这个平台就是在安全边缘疯狂试探。安全和管理对于任何平台都至关重要，缺乏规范管理可能导致一系列问题的出现，甚至危及用户的安全。所以，我们必须认真对待管理工作，确保平台的健康发展和用户的利益。</media:description>
    <media:community>
     <media:starRating count="11" average="5.00" min="1" max="5"/>
-    <media:statistics views="245"/>
+    <media:statistics views="257"/>
    </media:community>
   </media:group>
  </entry>
@@ -144,7 +213,7 @@
    <media:description>我在杭州吃过的美食是西湖醋鱼，清爽酸甜的口味，配上嫩滑鲜嫩的鱼肉，回味无穷，令人难以忘怀</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="223"/>
+    <media:statistics views="243"/>
    </media:community>
   </media:group>
  </entry>
@@ -171,7 +240,7 @@
 别忘了点赞、订阅，并在评论区留言，告诉我你今天喝了什么茶，和谁一起喝的，分享你的喝茶心情！期待和大家一起度过愉快的喝茶时光！#喝茶放松 #茶友聚会 #生活品味 #悠闲时光</media:description>
    <media:community>
     <media:starRating count="16" average="5.00" min="1" max="5"/>
-    <media:statistics views="791"/>
+    <media:statistics views="816"/>
    </media:community>
   </media:group>
  </entry>
@@ -198,7 +267,7 @@
 别忘了点赞、订阅，并在评论区分享你对旗袍穿搭和茶园的想法。期待和大家一起分享更多有趣的家庭吐槽！#旗袍时光 #茶园漫步 #茶友聚会 #生活美学</media:description>
    <media:community>
     <media:starRating count="35" average="5.00" min="1" max="5"/>
-    <media:statistics views="828"/>
+    <media:statistics views="842"/>
    </media:community>
   </media:group>
  </entry>
@@ -225,7 +294,7 @@
 别忘了点赞、订阅，并在评论区分享你对茶园的美景感受和自己的茶道心得。期待和大家一起分享更多有关喝茶的乐趣！#西湖龙井茶园 #茶道体验 #茶香清幽 #茶友聚会</media:description>
    <media:community>
     <media:starRating count="19" average="5.00" min="1" max="5"/>
-    <media:statistics views="843"/>
+    <media:statistics views="849"/>
    </media:community>
   </media:group>
  </entry>
@@ -252,7 +321,7 @@
 别忘了点赞、订阅，并在评论区分享你对西湖龙井的了解和自己的茶叶故事。期待和大家一起分享更多有趣的家庭吐槽！#西湖龙井 #茶叶品鉴 #家庭挑战 #茶叶文化</media:description>
    <media:community>
     <media:starRating count="48" average="5.00" min="1" max="5"/>
-    <media:statistics views="3076"/>
+    <media:statistics views="3112"/>
    </media:community>
   </media:group>
  </entry>
@@ -279,7 +348,7 @@
 别忘了点赞、订阅，并在评论区分享你对五一假期的期待和自己的假期计划。期待和大家一起分享更多有趣的家庭吐槽！#五一假期 #城市惊喜 #家庭出游 #幽默解密</media:description>
    <media:community>
     <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="238"/>
+    <media:statistics views="248"/>
    </media:community>
   </media:group>
  </entry>
@@ -305,89 +374,8 @@
 
 别忘了点赞、订阅，并在评论区分享你对给老公生活费的看法和自己的家庭经历。期待和大家一起分享更多有趣的家庭吐槽！#家庭生活 #生活费 #幽默吐槽</media:description>
    <media:community>
-    <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="342"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:73JqxdgSOn4</id>
-  <yt:videoId>73JqxdgSOn4</yt:videoId>
-  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
-  <title>我终于知道八大菜系没有东北菜的原因了#爱吐槽的四季妈妈 #家庭吐槽大会</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=73JqxdgSOn4"/>
-  <author>
-   <name>四季妈妈—小龙</name>
-   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
-  </author>
-  <published>2024-04-22T09:19:25+00:00</published>
-  <updated>2024-04-25T10:58:57+00:00</updated>
-  <media:group>
-   <media:title>我终于知道八大菜系没有东北菜的原因了#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
-   <media:content url="https://www.youtube.com/v/73JqxdgSOn4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/73JqxdgSOn4/hqdefault.jpg" width="480" height="360"/>
-   <media:description>大家好，欢迎来到我的频道！在这期视频中，四季妈妈要和大家一起揭秘八大菜系没有东北菜的原因。
-
-八大菜系中的川菜、鲁菜、粤菜等享誉中华，但为什么东北菜却没有成为其中之一呢？难道是因为东北菜太过特色？还是因为地理文化的原因？让我们一起来揭秘这个有趣的现象！
-
-别忘了点赞、订阅，并在评论区分享你对东北菜的喜爱和自己的美食故事。期待和大家一起分享更多有趣的家庭吐槽！#东北菜 #八大菜系 #美食文化 #幽默揭秘</media:description>
-   <media:community>
-    <media:starRating count="30" average="5.00" min="1" max="5"/>
-    <media:statistics views="1907"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:JqvZO3V_UeI</id>
-  <yt:videoId>JqvZO3V_UeI</yt:videoId>
-  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
-  <title>为什么说藏私房钱的男人都是好男人？四季妈妈来解密#爱吐槽的四季妈妈 #家庭吐槽大会</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=JqvZO3V_UeI"/>
-  <author>
-   <name>四季妈妈—小龙</name>
-   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
-  </author>
-  <published>2024-04-19T09:58:30+00:00</published>
-  <updated>2024-04-22T22:12:28+00:00</updated>
-  <media:group>
-   <media:title>为什么说藏私房钱的男人都是好男人？四季妈妈来解密#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
-   <media:content url="https://www.youtube.com/v/JqvZO3V_UeI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/JqvZO3V_UeI/hqdefault.jpg" width="480" height="360"/>
-   <media:description>大家好，欢迎来到我的频道！在这期视频中，四季妈妈要和大家一起探讨为什么说藏私房钱的男人都是好男人。
-
-许多人认为，男人会为了家庭的未来和应急情况而藏私房钱是一种负责任和体贴的表现。他们的这种举动表明了他们对家庭的关爱和责任感。那么，究竟是什么原因让人们对藏私房钱的男人产生这样的看法呢？让我们一起来解密！
-
-别忘了点赞、订阅，并在评论区分享你对藏私房钱的看法和自己的家庭故事。期待和大家一起分享更多有趣的家庭吐槽！#藏私房钱 #好男人 #家庭关爱 #幽默解密</media:description>
-   <media:community>
-    <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="606"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:1ThgqDO-30E</id>
-  <yt:videoId>1ThgqDO-30E</yt:videoId>
-  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
-  <title>有水的地方不光有鱼，还有他们？四季妈妈带你发现水域的有趣之处</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=1ThgqDO-30E"/>
-  <author>
-   <name>四季妈妈—小龙</name>
-   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
-  </author>
-  <published>2024-04-17T09:13:31+00:00</published>
-  <updated>2024-04-21T23:51:16+00:00</updated>
-  <media:group>
-   <media:title>有水的地方不光有鱼，还有他们？四季妈妈带你发现水域的有趣之处</media:title>
-   <media:content url="https://www.youtube.com/v/1ThgqDO-30E?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/1ThgqDO-30E/hqdefault.jpg" width="480" height="360"/>
-   <media:description>大家好，欢迎来到我的频道！在这期视频中，四季妈妈要和大家一起探索有水的地方不仅有鱼，还有什么有趣的事物。
-
-水域不仅是鱼儿的乐园，还是各种有趣生物和活动的聚集地。无论是嬉水游泳，还是垂钓娱乐，水域都承载着无尽的乐趣和惊喜。让我们一起来发现水域的更多有趣之处！
-
-别忘了点赞、订阅，并在评论区分享你对水域活动的喜爱和自己的水域经历。期待和大家一起分享更多有趣的家庭吐槽！#水域活动 #家庭娱乐 #幽默探索</media:description>
-   <media:community>
-    <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="842"/>
+    <media:starRating count="9" average="5.00" min="1" max="5"/>
+    <media:statistics views="365"/>
    </media:community>
   </media:group>
  </entry>

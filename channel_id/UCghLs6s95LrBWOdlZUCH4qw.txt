@@ -11,21 +11,21 @@
  </author>
  <published>2018-03-31T05:35:30+00:00</published>
  <entry>
-  <id>yt:video:RDFZkPJSJa8</id>
-  <yt:videoId>RDFZkPJSJa8</yt:videoId>
+  <id>yt:video:ktqI4vCKPis</id>
+  <yt:videoId>ktqI4vCKPis</yt:videoId>
   <yt:channelId>UCghLs6s95LrBWOdlZUCH4qw</yt:channelId>
-  <title>M4芯片OLED屏幕13寸iPad Pro开箱和使用感受（20240515第7204期）</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=RDFZkPJSJa8"/>
+  <title>温铁军卢麒元：后冷战时代，美元危机与中国飞跃（3）（20240521第7185期）</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=ktqI4vCKPis"/>
   <author>
    <name>stone记</name>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
-  <published>2024-05-16T02:52:29+00:00</published>
-  <updated>2024-05-16T03:02:13+00:00</updated>
+  <published>2024-05-21T08:06:23+00:00</published>
+  <updated>2024-05-21T08:06:32+00:00</updated>
   <media:group>
-   <media:title>M4芯片OLED屏幕13寸iPad Pro开箱和使用感受（20240515第7204期）</media:title>
-   <media:content url="https://www.youtube.com/v/RDFZkPJSJa8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/RDFZkPJSJa8/hqdefault.jpg" width="480" height="360"/>
+   <media:title>温铁军卢麒元：后冷战时代，美元危机与中国飞跃（3）（20240521第7185期）</media:title>
+   <media:content url="https://www.youtube.com/v/ktqI4vCKPis?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/ktqI4vCKPis/hqdefault.jpg" width="480" height="360"/>
    <media:description>加入stone记会员链接
 https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw/join
 合作联系Twitter：stone记@stone62855987
@@ -78,27 +78,27 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="9" average="5.00" min="1" max="5"/>
-    <media:statistics views="305"/>
+    <media:starRating count="91" average="5.00" min="1" max="5"/>
+    <media:statistics views="11221"/>
    </media:community>
   </media:group>
  </entry>
  <entry>
-  <id>yt:video:jwDvSPtmgFs</id>
-  <yt:videoId>jwDvSPtmgFs</yt:videoId>
+  <id>yt:video:T8Jjs3ZYICA</id>
+  <yt:videoId>T8Jjs3ZYICA</yt:videoId>
   <yt:channelId>UCghLs6s95LrBWOdlZUCH4qw</yt:channelId>
-  <title>反贼看不懂的，中国发行五十年超长期国债（20240515第7165期）</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=jwDvSPtmgFs"/>
+  <title>和牛T骨牛排，六刷Smith and Wollensky（20240521第7224期）</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=T8Jjs3ZYICA"/>
   <author>
    <name>stone记</name>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
-  <published>2024-05-16T01:29:39+00:00</published>
-  <updated>2024-05-16T01:36:48+00:00</updated>
+  <published>2024-05-21T07:28:10+00:00</published>
+  <updated>2024-05-21T07:34:49+00:00</updated>
   <media:group>
-   <media:title>反贼看不懂的，中国发行五十年超长期国债（20240515第7165期）</media:title>
-   <media:content url="https://www.youtube.com/v/jwDvSPtmgFs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/jwDvSPtmgFs/hqdefault.jpg" width="480" height="360"/>
+   <media:title>和牛T骨牛排，六刷Smith and Wollensky（20240521第7224期）</media:title>
+   <media:content url="https://www.youtube.com/v/T8Jjs3ZYICA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/T8Jjs3ZYICA/hqdefault.jpg" width="480" height="360"/>
    <media:description>加入stone记会员链接
 https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw/join
 合作联系Twitter：stone记@stone62855987
@@ -151,27 +151,27 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="69" average="5.00" min="1" max="5"/>
-    <media:statistics views="4637"/>
+    <media:starRating count="13" average="5.00" min="1" max="5"/>
+    <media:statistics views="2070"/>
    </media:community>
   </media:group>
  </entry>
  <entry>
-  <id>yt:video:eZg1MuykRDI</id>
-  <yt:videoId>eZg1MuykRDI</yt:videoId>
+  <id>yt:video:K3WOtzx8HTA</id>
+  <yt:videoId>K3WOtzx8HTA</yt:videoId>
   <yt:channelId>UCghLs6s95LrBWOdlZUCH4qw</yt:channelId>
-  <title>微软宣布带领中国区所有AI高级人才移民美国，可解决家属签证（20240515第7163期）</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=eZg1MuykRDI"/>
+  <title>越来越多的年轻人疯狂抄底大陆房地产“老破小” （20240521第7189期）</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=K3WOtzx8HTA"/>
   <author>
    <name>stone记</name>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
-  <published>2024-05-16T01:18:05+00:00</published>
-  <updated>2024-05-16T01:20:36+00:00</updated>
+  <published>2024-05-21T07:24:21+00:00</published>
+  <updated>2024-05-21T07:26:45+00:00</updated>
   <media:group>
-   <media:title>微软宣布带领中国区所有AI高级人才移民美国，可解决家属签证（20240515第7163期）</media:title>
-   <media:content url="https://www.youtube.com/v/eZg1MuykRDI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/eZg1MuykRDI/hqdefault.jpg" width="480" height="360"/>
+   <media:title>越来越多的年轻人疯狂抄底大陆房地产“老破小” （20240521第7189期）</media:title>
+   <media:content url="https://www.youtube.com/v/K3WOtzx8HTA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/K3WOtzx8HTA/hqdefault.jpg" width="480" height="360"/>
    <media:description>加入stone记会员链接
 https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw/join
 合作联系Twitter：stone记@stone62855987
@@ -224,27 +224,465 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="53" average="5.00" min="1" max="5"/>
-    <media:statistics views="3310"/>
+    <media:starRating count="130" average="5.00" min="1" max="5"/>
+    <media:statistics views="22768"/>
    </media:community>
   </media:group>
  </entry>
  <entry>
-  <id>yt:video:2GQBp_MTvwg</id>
-  <yt:videoId>2GQBp_MTvwg</yt:videoId>
+  <id>yt:video:OnlD-EHwmRs</id>
+  <yt:videoId>OnlD-EHwmRs</yt:videoId>
   <yt:channelId>UCghLs6s95LrBWOdlZUCH4qw</yt:channelId>
-  <title>日本平成战败，消失的三十年（20240515第7162期）</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=2GQBp_MTvwg"/>
+  <title>赖清德有种是个好样的，就职典礼喊出两国论，两岸互不隶属一边一国（20240520第7187期）</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=OnlD-EHwmRs"/>
   <author>
    <name>stone记</name>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
-  <published>2024-05-15T18:22:09+00:00</published>
-  <updated>2024-05-15T18:35:06+00:00</updated>
+  <published>2024-05-20T21:45:54+00:00</published>
+  <updated>2024-05-21T05:44:41+00:00</updated>
   <media:group>
-   <media:title>日本平成战败，消失的三十年（20240515第7162期）</media:title>
-   <media:content url="https://www.youtube.com/v/2GQBp_MTvwg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/2GQBp_MTvwg/hqdefault.jpg" width="480" height="360"/>
+   <media:title>赖清德有种是个好样的，就职典礼喊出两国论，两岸互不隶属一边一国（20240520第7187期）</media:title>
+   <media:content url="https://www.youtube.com/v/OnlD-EHwmRs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/OnlD-EHwmRs/hqdefault.jpg" width="480" height="360"/>
+   <media:description>加入stone记会员链接
+https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw/join
+合作联系Twitter：stone记@stone62855987
+我们现阶段录制视频使用的设备
+主力相机Canon EOS R
+https://amzn.to/2L2eHQG
+主力镜头Canon RF 50mm f/1.2L USM Lens
+https://amzn.to/2L3qWwt
+主力无线麦克风Sennheiser AVX 配合MKE2
+https://amzn.to/2ZliYnj
+桌面三角架
+https://amzn.to/321gZqc
+将两个麦克风合一的Saramonic SR-AX100
+https://amzn.to/2TWRofg
+铁威马D8 332
+https://amzn.to/3BqlGxT
+
+一些实用的附件推荐
+相机背带Peak Design Slide Lite Camera Strap SLL-BK-3 (Black)
+https://amzn.to/2QC0csh
+相机腕带Peak Design Cuff Camera Wrist Strap
+https://amzn.to/2S6Z4cZ
+相机包Lowepro Adventura SH 160 II
+https://amzn.to/2USOA2Q
+三星T5 2TB移动硬盘
+https://amzn.to/2rK72xf
+佳能照片打印机Canon SELPHY CP1300
+https://amzn.to/2EA2CBp
+Flash Hot Shoe Mount Adapter热靴
+https://amzn.to/2x9NPXU
+Logitech BRIO
+https://amzn.to/2Qp4Q9E
+Rode VideoMicro 手机麦克风
+https://amzn.to/2CLwquJ
+JOBY GorillaPod 3K Kit 八爪魚三腳架
+https://amzn.to/2QqAofl
+Logitech G903
+https://amzn.to/2QocOzv
+Logitech G Powerplay Wireless Charging System
+https://amzn.to/2x29EIQ
+Blue Yeti USB Microphone 桌面麦克风
+https://amzn.to/2x52Eet
+Marathon CL030060WH 显示温度和湿度的桌面时钟
+https://amzn.to/2CLyfYB
+Marathon CL030054WH 显示温度和湿度的床头时钟
+https://amzn.to/2QkOS02
+
+介绍我们最近升级的新设备和心得（20181218第444期）
+https://youtu.be/4G8yWQyBKak
+介绍我们录制视频使用的全部设备（20180912第257期）
+https://youtu.be/BbtTwsP_-zc</media:description>
+   <media:community>
+    <media:starRating count="566" average="5.00" min="1" max="5"/>
+    <media:statistics views="69664"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:TC3Gi8YsqBk</id>
+  <yt:videoId>TC3Gi8YsqBk</yt:videoId>
+  <yt:channelId>UCghLs6s95LrBWOdlZUCH4qw</yt:channelId>
+  <title>贾跃亭创造奇迹，法拉第未来股价暴涨1619%（20240520第7186期）</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=TC3Gi8YsqBk"/>
+  <author>
+   <name>stone记</name>
+   <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
+  </author>
+  <published>2024-05-20T21:38:39+00:00</published>
+  <updated>2024-05-21T06:23:49+00:00</updated>
+  <media:group>
+   <media:title>贾跃亭创造奇迹，法拉第未来股价暴涨1619%（20240520第7186期）</media:title>
+   <media:content url="https://www.youtube.com/v/TC3Gi8YsqBk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/TC3Gi8YsqBk/hqdefault.jpg" width="480" height="360"/>
+   <media:description>加入stone记会员链接
+https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw/join
+合作联系Twitter：stone记@stone62855987
+我们现阶段录制视频使用的设备
+主力相机Canon EOS R
+https://amzn.to/2L2eHQG
+主力镜头Canon RF 50mm f/1.2L USM Lens
+https://amzn.to/2L3qWwt
+主力无线麦克风Sennheiser AVX 配合MKE2
+https://amzn.to/2ZliYnj
+桌面三角架
+https://amzn.to/321gZqc
+将两个麦克风合一的Saramonic SR-AX100
+https://amzn.to/2TWRofg
+铁威马D8 332
+https://amzn.to/3BqlGxT
+
+一些实用的附件推荐
+相机背带Peak Design Slide Lite Camera Strap SLL-BK-3 (Black)
+https://amzn.to/2QC0csh
+相机腕带Peak Design Cuff Camera Wrist Strap
+https://amzn.to/2S6Z4cZ
+相机包Lowepro Adventura SH 160 II
+https://amzn.to/2USOA2Q
+三星T5 2TB移动硬盘
+https://amzn.to/2rK72xf
+佳能照片打印机Canon SELPHY CP1300
+https://amzn.to/2EA2CBp
+Flash Hot Shoe Mount Adapter热靴
+https://amzn.to/2x9NPXU
+Logitech BRIO
+https://amzn.to/2Qp4Q9E
+Rode VideoMicro 手机麦克风
+https://amzn.to/2CLwquJ
+JOBY GorillaPod 3K Kit 八爪魚三腳架
+https://amzn.to/2QqAofl
+Logitech G903
+https://amzn.to/2QocOzv
+Logitech G Powerplay Wireless Charging System
+https://amzn.to/2x29EIQ
+Blue Yeti USB Microphone 桌面麦克风
+https://amzn.to/2x52Eet
+Marathon CL030060WH 显示温度和湿度的桌面时钟
+https://amzn.to/2CLyfYB
+Marathon CL030054WH 显示温度和湿度的床头时钟
+https://amzn.to/2QkOS02
+
+介绍我们最近升级的新设备和心得（20181218第444期）
+https://youtu.be/4G8yWQyBKak
+介绍我们录制视频使用的全部设备（20180912第257期）
+https://youtu.be/BbtTwsP_-zc</media:description>
+   <media:community>
+    <media:starRating count="117" average="5.00" min="1" max="5"/>
+    <media:statistics views="20706"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Em68kesr2r8</id>
+  <yt:videoId>Em68kesr2r8</yt:videoId>
+  <yt:channelId>UCghLs6s95LrBWOdlZUCH4qw</yt:channelId>
+  <title>黄奇帆：预言2024中国房地产（20240520第7181期）</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Em68kesr2r8"/>
+  <author>
+   <name>stone记</name>
+   <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
+  </author>
+  <published>2024-05-20T20:52:46+00:00</published>
+  <updated>2024-05-21T06:31:14+00:00</updated>
+  <media:group>
+   <media:title>黄奇帆：预言2024中国房地产（20240520第7181期）</media:title>
+   <media:content url="https://www.youtube.com/v/Em68kesr2r8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/Em68kesr2r8/hqdefault.jpg" width="480" height="360"/>
+   <media:description>加入stone记会员链接
+https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw/join
+合作联系Twitter：stone记@stone62855987
+我们现阶段录制视频使用的设备
+主力相机Canon EOS R
+https://amzn.to/2L2eHQG
+主力镜头Canon RF 50mm f/1.2L USM Lens
+https://amzn.to/2L3qWwt
+主力无线麦克风Sennheiser AVX 配合MKE2
+https://amzn.to/2ZliYnj
+桌面三角架
+https://amzn.to/321gZqc
+将两个麦克风合一的Saramonic SR-AX100
+https://amzn.to/2TWRofg
+铁威马D8 332
+https://amzn.to/3BqlGxT
+
+一些实用的附件推荐
+相机背带Peak Design Slide Lite Camera Strap SLL-BK-3 (Black)
+https://amzn.to/2QC0csh
+相机腕带Peak Design Cuff Camera Wrist Strap
+https://amzn.to/2S6Z4cZ
+相机包Lowepro Adventura SH 160 II
+https://amzn.to/2USOA2Q
+三星T5 2TB移动硬盘
+https://amzn.to/2rK72xf
+佳能照片打印机Canon SELPHY CP1300
+https://amzn.to/2EA2CBp
+Flash Hot Shoe Mount Adapter热靴
+https://amzn.to/2x9NPXU
+Logitech BRIO
+https://amzn.to/2Qp4Q9E
+Rode VideoMicro 手机麦克风
+https://amzn.to/2CLwquJ
+JOBY GorillaPod 3K Kit 八爪魚三腳架
+https://amzn.to/2QqAofl
+Logitech G903
+https://amzn.to/2QocOzv
+Logitech G Powerplay Wireless Charging System
+https://amzn.to/2x29EIQ
+Blue Yeti USB Microphone 桌面麦克风
+https://amzn.to/2x52Eet
+Marathon CL030060WH 显示温度和湿度的桌面时钟
+https://amzn.to/2CLyfYB
+Marathon CL030054WH 显示温度和湿度的床头时钟
+https://amzn.to/2QkOS02
+
+介绍我们最近升级的新设备和心得（20181218第444期）
+https://youtu.be/4G8yWQyBKak
+介绍我们录制视频使用的全部设备（20180912第257期）
+https://youtu.be/BbtTwsP_-zc</media:description>
+   <media:community>
+    <media:starRating count="205" average="5.00" min="1" max="5"/>
+    <media:statistics views="41138"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Sx7wzOqtmN8</id>
+  <yt:videoId>Sx7wzOqtmN8</yt:videoId>
+  <yt:channelId>UCghLs6s95LrBWOdlZUCH4qw</yt:channelId>
+  <title>山东小伙郭有才爆火，一个人带火一座城（20240519第7183期）</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Sx7wzOqtmN8"/>
+  <author>
+   <name>stone记</name>
+   <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
+  </author>
+  <published>2024-05-20T07:07:40+00:00</published>
+  <updated>2024-05-21T06:39:53+00:00</updated>
+  <media:group>
+   <media:title>山东小伙郭有才爆火，一个人带火一座城（20240519第7183期）</media:title>
+   <media:content url="https://www.youtube.com/v/Sx7wzOqtmN8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/Sx7wzOqtmN8/hqdefault.jpg" width="480" height="360"/>
+   <media:description>加入stone记会员链接
+https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw/join
+合作联系Twitter：stone记@stone62855987
+我们现阶段录制视频使用的设备
+主力相机Canon EOS R
+https://amzn.to/2L2eHQG
+主力镜头Canon RF 50mm f/1.2L USM Lens
+https://amzn.to/2L3qWwt
+主力无线麦克风Sennheiser AVX 配合MKE2
+https://amzn.to/2ZliYnj
+桌面三角架
+https://amzn.to/321gZqc
+将两个麦克风合一的Saramonic SR-AX100
+https://amzn.to/2TWRofg
+铁威马D8 332
+https://amzn.to/3BqlGxT
+
+一些实用的附件推荐
+相机背带Peak Design Slide Lite Camera Strap SLL-BK-3 (Black)
+https://amzn.to/2QC0csh
+相机腕带Peak Design Cuff Camera Wrist Strap
+https://amzn.to/2S6Z4cZ
+相机包Lowepro Adventura SH 160 II
+https://amzn.to/2USOA2Q
+三星T5 2TB移动硬盘
+https://amzn.to/2rK72xf
+佳能照片打印机Canon SELPHY CP1300
+https://amzn.to/2EA2CBp
+Flash Hot Shoe Mount Adapter热靴
+https://amzn.to/2x9NPXU
+Logitech BRIO
+https://amzn.to/2Qp4Q9E
+Rode VideoMicro 手机麦克风
+https://amzn.to/2CLwquJ
+JOBY GorillaPod 3K Kit 八爪魚三腳架
+https://amzn.to/2QqAofl
+Logitech G903
+https://amzn.to/2QocOzv
+Logitech G Powerplay Wireless Charging System
+https://amzn.to/2x29EIQ
+Blue Yeti USB Microphone 桌面麦克风
+https://amzn.to/2x52Eet
+Marathon CL030060WH 显示温度和湿度的桌面时钟
+https://amzn.to/2CLyfYB
+Marathon CL030054WH 显示温度和湿度的床头时钟
+https://amzn.to/2QkOS02
+
+介绍我们最近升级的新设备和心得（20181218第444期）
+https://youtu.be/4G8yWQyBKak
+介绍我们录制视频使用的全部设备（20180912第257期）
+https://youtu.be/BbtTwsP_-zc</media:description>
+   <media:community>
+    <media:starRating count="180" average="5.00" min="1" max="5"/>
+    <media:statistics views="31017"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:f28txJgB9cc</id>
+  <yt:videoId>f28txJgB9cc</yt:videoId>
+  <yt:channelId>UCghLs6s95LrBWOdlZUCH4qw</yt:channelId>
+  <title>黄奇帆谈最新中国经济形势：中国的出口发生了根本性的变化（20240519第7182期）</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=f28txJgB9cc"/>
+  <author>
+   <name>stone记</name>
+   <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
+  </author>
+  <published>2024-05-20T07:05:25+00:00</published>
+  <updated>2024-05-21T06:28:17+00:00</updated>
+  <media:group>
+   <media:title>黄奇帆谈最新中国经济形势：中国的出口发生了根本性的变化（20240519第7182期）</media:title>
+   <media:content url="https://www.youtube.com/v/f28txJgB9cc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/f28txJgB9cc/hqdefault.jpg" width="480" height="360"/>
+   <media:description>加入stone记会员链接
+https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw/join
+合作联系Twitter：stone记@stone62855987
+我们现阶段录制视频使用的设备
+主力相机Canon EOS R
+https://amzn.to/2L2eHQG
+主力镜头Canon RF 50mm f/1.2L USM Lens
+https://amzn.to/2L3qWwt
+主力无线麦克风Sennheiser AVX 配合MKE2
+https://amzn.to/2ZliYnj
+桌面三角架
+https://amzn.to/321gZqc
+将两个麦克风合一的Saramonic SR-AX100
+https://amzn.to/2TWRofg
+铁威马D8 332
+https://amzn.to/3BqlGxT
+
+一些实用的附件推荐
+相机背带Peak Design Slide Lite Camera Strap SLL-BK-3 (Black)
+https://amzn.to/2QC0csh
+相机腕带Peak Design Cuff Camera Wrist Strap
+https://amzn.to/2S6Z4cZ
+相机包Lowepro Adventura SH 160 II
+https://amzn.to/2USOA2Q
+三星T5 2TB移动硬盘
+https://amzn.to/2rK72xf
+佳能照片打印机Canon SELPHY CP1300
+https://amzn.to/2EA2CBp
+Flash Hot Shoe Mount Adapter热靴
+https://amzn.to/2x9NPXU
+Logitech BRIO
+https://amzn.to/2Qp4Q9E
+Rode VideoMicro 手机麦克风
+https://amzn.to/2CLwquJ
+JOBY GorillaPod 3K Kit 八爪魚三腳架
+https://amzn.to/2QqAofl
+Logitech G903
+https://amzn.to/2QocOzv
+Logitech G Powerplay Wireless Charging System
+https://amzn.to/2x29EIQ
+Blue Yeti USB Microphone 桌面麦克风
+https://amzn.to/2x52Eet
+Marathon CL030060WH 显示温度和湿度的桌面时钟
+https://amzn.to/2CLyfYB
+Marathon CL030054WH 显示温度和湿度的床头时钟
+https://amzn.to/2QkOS02
+
+介绍我们最近升级的新设备和心得（20181218第444期）
+https://youtu.be/4G8yWQyBKak
+介绍我们录制视频使用的全部设备（20180912第257期）
+https://youtu.be/BbtTwsP_-zc</media:description>
+   <media:community>
+    <media:starRating count="231" average="5.00" min="1" max="5"/>
+    <media:statistics views="45652"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:iF-aXc8UIJg</id>
+  <yt:videoId>iF-aXc8UIJg</yt:videoId>
+  <yt:channelId>UCghLs6s95LrBWOdlZUCH4qw</yt:channelId>
+  <title>温铁军卢麒元：资源资本化，苏东灾祸与中国之困（2）（20240519第7180期）</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=iF-aXc8UIJg"/>
+  <author>
+   <name>stone记</name>
+   <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
+  </author>
+  <published>2024-05-20T04:45:12+00:00</published>
+  <updated>2024-05-21T01:31:58+00:00</updated>
+  <media:group>
+   <media:title>温铁军卢麒元：资源资本化，苏东灾祸与中国之困（2）（20240519第7180期）</media:title>
+   <media:content url="https://www.youtube.com/v/iF-aXc8UIJg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/iF-aXc8UIJg/hqdefault.jpg" width="480" height="360"/>
+   <media:description>加入stone记会员链接
+https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw/join
+合作联系Twitter：stone记@stone62855987
+我们现阶段录制视频使用的设备
+主力相机Canon EOS R
+https://amzn.to/2L2eHQG
+主力镜头Canon RF 50mm f/1.2L USM Lens
+https://amzn.to/2L3qWwt
+主力无线麦克风Sennheiser AVX 配合MKE2
+https://amzn.to/2ZliYnj
+桌面三角架
+https://amzn.to/321gZqc
+将两个麦克风合一的Saramonic SR-AX100
+https://amzn.to/2TWRofg
+铁威马D8 332
+https://amzn.to/3BqlGxT
+
+一些实用的附件推荐
+相机背带Peak Design Slide Lite Camera Strap SLL-BK-3 (Black)
+https://amzn.to/2QC0csh
+相机腕带Peak Design Cuff Camera Wrist Strap
+https://amzn.to/2S6Z4cZ
+相机包Lowepro Adventura SH 160 II
+https://amzn.to/2USOA2Q
+三星T5 2TB移动硬盘
+https://amzn.to/2rK72xf
+佳能照片打印机Canon SELPHY CP1300
+https://amzn.to/2EA2CBp
+Flash Hot Shoe Mount Adapter热靴
+https://amzn.to/2x9NPXU
+Logitech BRIO
+https://amzn.to/2Qp4Q9E
+Rode VideoMicro 手机麦克风
+https://amzn.to/2CLwquJ
+JOBY GorillaPod 3K Kit 八爪魚三腳架
+https://amzn.to/2QqAofl
+Logitech G903
+https://amzn.to/2QocOzv
+Logitech G Powerplay Wireless Charging System
+https://amzn.to/2x29EIQ
+Blue Yeti USB Microphone 桌面麦克风
+https://amzn.to/2x52Eet
+Marathon CL030060WH 显示温度和湿度的桌面时钟
+https://amzn.to/2CLyfYB
+Marathon CL030054WH 显示温度和湿度的床头时钟
+https://amzn.to/2QkOS02
+
+介绍我们最近升级的新设备和心得（20181218第444期）
+https://youtu.be/4G8yWQyBKak
+介绍我们录制视频使用的全部设备（20180912第257期）
+https://youtu.be/BbtTwsP_-zc</media:description>
+   <media:community>
+    <media:starRating count="76" average="5.00" min="1" max="5"/>
+    <media:statistics views="14019"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:9AwWWIOApB4</id>
+  <yt:videoId>9AwWWIOApB4</yt:videoId>
+  <yt:channelId>UCghLs6s95LrBWOdlZUCH4qw</yt:channelId>
+  <title>官方确认：伊朗总统和外交部长都去世，但是伊朗不会乱（20240519第7179期）</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=9AwWWIOApB4"/>
+  <author>
+   <name>stone记</name>
+   <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
+  </author>
+  <published>2024-05-20T04:33:36+00:00</published>
+  <updated>2024-05-21T02:09:59+00:00</updated>
+  <media:group>
+   <media:title>官方确认：伊朗总统和外交部长都去世，但是伊朗不会乱（20240519第7179期）</media:title>
+   <media:content url="https://www.youtube.com/v/9AwWWIOApB4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/9AwWWIOApB4/hqdefault.jpg" width="480" height="360"/>
    <media:description>加入stone记会员链接
 https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw/join
 合作联系Twitter：stone记@stone62855987
@@ -298,49 +736,26 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="210" average="5.00" min="1" max="5"/>
-    <media:statistics views="15665"/>
+    <media:statistics views="36650"/>
    </media:community>
   </media:group>
  </entry>
  <entry>
-  <id>yt:video:rQQa1ckx8NM</id>
-  <yt:videoId>rQQa1ckx8NM</yt:videoId>
+  <id>yt:video:BpNWaq1F1bc</id>
+  <yt:videoId>BpNWaq1F1bc</yt:videoId>
   <yt:channelId>UCghLs6s95LrBWOdlZUCH4qw</yt:channelId>
-  <title>卢麒元：红二代垄断中国国家资本（下）（20240514第7160期）</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=rQQa1ckx8NM"/>
+  <title>温铁军卢麒元：全球化危机，新殖民主义，幸免的社会主义国家（1）（20240519第7178期）</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=BpNWaq1F1bc"/>
   <author>
    <name>stone记</name>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
-  <published>2024-05-15T02:51:52+00:00</published>
-  <updated>2024-05-15T06:17:47+00:00</updated>
+  <published>2024-05-20T03:00:21+00:00</published>
+  <updated>2024-05-21T01:40:37+00:00</updated>
   <media:group>
-   <media:title>卢麒元：红二代垄断中国国家资本（下）（20240514第7160期）</media:title>
-   <media:content url="https://www.youtube.com/v/rQQa1ckx8NM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/rQQa1ckx8NM/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="185" average="5.00" min="1" max="5"/>
-    <media:statistics views="19566"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:9teXm8m3znU</id>
-  <yt:videoId>9teXm8m3znU</yt:videoId>
-  <yt:channelId>UCghLs6s95LrBWOdlZUCH4qw</yt:channelId>
-  <title>拜登对180亿美元中国产品加征关税只是选举需要的象征性举动（20240514第7161期）</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=9teXm8m3znU"/>
-  <author>
-   <name>stone记</name>
-   <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
-  </author>
-  <published>2024-05-15T02:45:33+00:00</published>
-  <updated>2024-05-15T06:43:20+00:00</updated>
-  <media:group>
-   <media:title>拜登对180亿美元中国产品加征关税只是选举需要的象征性举动（20240514第7161期）</media:title>
-   <media:content url="https://www.youtube.com/v/9teXm8m3znU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/9teXm8m3znU/hqdefault.jpg" width="480" height="360"/>
+   <media:title>温铁军卢麒元：全球化危机，新殖民主义，幸免的社会主义国家（1）（20240519第7178期）</media:title>
+   <media:content url="https://www.youtube.com/v/BpNWaq1F1bc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/BpNWaq1F1bc/hqdefault.jpg" width="480" height="360"/>
    <media:description>加入stone记会员链接
 https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw/join
 合作联系Twitter：stone记@stone62855987
@@ -393,27 +808,27 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="178" average="5.00" min="1" max="5"/>
-    <media:statistics views="31361"/>
+    <media:starRating count="138" average="5.00" min="1" max="5"/>
+    <media:statistics views="17387"/>
    </media:community>
   </media:group>
  </entry>
  <entry>
-  <id>yt:video:T-x4aJeG3ZI</id>
-  <yt:videoId>T-x4aJeG3ZI</yt:videoId>
+  <id>yt:video:R-zUJcc3CuE</id>
+  <yt:videoId>R-zUJcc3CuE</yt:videoId>
   <yt:channelId>UCghLs6s95LrBWOdlZUCH4qw</yt:channelId>
-  <title>卢麒元：红二代垄断中国国家资本（中）（20240514第7159期）</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=T-x4aJeG3ZI"/>
+  <title>日经：中国日本高端IT人才薪酬差距越来越大，中国比日本高70%（20240519第7177期）</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=R-zUJcc3CuE"/>
   <author>
    <name>stone记</name>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
-  <published>2024-05-14T16:27:41+00:00</published>
-  <updated>2024-05-15T06:05:26+00:00</updated>
+  <published>2024-05-20T01:54:52+00:00</published>
+  <updated>2024-05-21T01:28:43+00:00</updated>
   <media:group>
-   <media:title>卢麒元：红二代垄断中国国家资本（中）（20240514第7159期）</media:title>
-   <media:content url="https://www.youtube.com/v/T-x4aJeG3ZI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i1.ytimg.com/vi/T-x4aJeG3ZI/hqdefault.jpg" width="480" height="360"/>
+   <media:title>日经：中国日本高端IT人才薪酬差距越来越大，中国比日本高70%（20240519第7177期）</media:title>
+   <media:content url="https://www.youtube.com/v/R-zUJcc3CuE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/R-zUJcc3CuE/hqdefault.jpg" width="480" height="360"/>
    <media:description>加入stone记会员链接
 https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw/join
 合作联系Twitter：stone记@stone62855987
@@ -466,27 +881,27 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="194" average="5.00" min="1" max="5"/>
-    <media:statistics views="25071"/>
+    <media:starRating count="176" average="5.00" min="1" max="5"/>
+    <media:statistics views="30070"/>
    </media:community>
   </media:group>
  </entry>
  <entry>
-  <id>yt:video:RbuFmkhC0nY</id>
-  <yt:videoId>RbuFmkhC0nY</yt:videoId>
+  <id>yt:video:uLOtlPl-wdc</id>
+  <yt:videoId>uLOtlPl-wdc</yt:videoId>
   <yt:channelId>UCghLs6s95LrBWOdlZUCH4qw</yt:channelId>
-  <title>卢麒元：红二代垄断中国国家资本（上）（20240513第7158期）</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=RbuFmkhC0nY"/>
+  <title>卢麒元成名作：伤于财政 毁于金融（20240518第7176期）</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=uLOtlPl-wdc"/>
   <author>
    <name>stone记</name>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
-  <published>2024-05-14T04:13:11+00:00</published>
-  <updated>2024-05-16T00:31:55+00:00</updated>
+  <published>2024-05-18T22:56:14+00:00</published>
+  <updated>2024-05-21T02:04:39+00:00</updated>
   <media:group>
-   <media:title>卢麒元：红二代垄断中国国家资本（上）（20240513第7158期）</media:title>
-   <media:content url="https://www.youtube.com/v/RbuFmkhC0nY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/RbuFmkhC0nY/hqdefault.jpg" width="480" height="360"/>
+   <media:title>卢麒元成名作：伤于财政 毁于金融（20240518第7176期）</media:title>
+   <media:content url="https://www.youtube.com/v/uLOtlPl-wdc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/uLOtlPl-wdc/hqdefault.jpg" width="480" height="360"/>
    <media:description>加入stone记会员链接
 https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw/join
 合作联系Twitter：stone记@stone62855987
@@ -539,27 +954,27 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="305" average="5.00" min="1" max="5"/>
-    <media:statistics views="56618"/>
+    <media:starRating count="163" average="5.00" min="1" max="5"/>
+    <media:statistics views="29548"/>
    </media:community>
   </media:group>
  </entry>
  <entry>
-  <id>yt:video:KbXCnllnX3A</id>
-  <yt:videoId>KbXCnllnX3A</yt:videoId>
+  <id>yt:video:C0_kI1jPC7U</id>
+  <yt:videoId>C0_kI1jPC7U</yt:videoId>
   <yt:channelId>UCghLs6s95LrBWOdlZUCH4qw</yt:channelId>
-  <title>美国红脖子最爱的Eggworks（20240513第7194期）</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=KbXCnllnX3A"/>
+  <title>卢麒元：税政改革，一场不流血的革命（3:3）（20240518第7175期）</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=C0_kI1jPC7U"/>
   <author>
    <name>stone记</name>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
-  <published>2024-05-13T21:33:05+00:00</published>
-  <updated>2024-05-16T01:24:38+00:00</updated>
+  <published>2024-05-18T22:49:14+00:00</published>
+  <updated>2024-05-21T01:37:13+00:00</updated>
   <media:group>
-   <media:title>美国红脖子最爱的Eggworks（20240513第7194期）</media:title>
-   <media:content url="https://www.youtube.com/v/KbXCnllnX3A?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/KbXCnllnX3A/hqdefault.jpg" width="480" height="360"/>
+   <media:title>卢麒元：税政改革，一场不流血的革命（3:3）（20240518第7175期）</media:title>
+   <media:content url="https://www.youtube.com/v/C0_kI1jPC7U?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/C0_kI1jPC7U/hqdefault.jpg" width="480" height="360"/>
    <media:description>加入stone记会员链接
 https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw/join
 合作联系Twitter：stone记@stone62855987
@@ -612,27 +1027,27 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="49" average="5.00" min="1" max="5"/>
-    <media:statistics views="9795"/>
+    <media:starRating count="95" average="5.00" min="1" max="5"/>
+    <media:statistics views="12787"/>
    </media:community>
   </media:group>
  </entry>
  <entry>
-  <id>yt:video:7LMFi59djMg</id>
-  <yt:videoId>7LMFi59djMg</yt:videoId>
+  <id>yt:video:nGtGEM0lrmQ</id>
+  <yt:videoId>nGtGEM0lrmQ</yt:videoId>
   <yt:channelId>UCghLs6s95LrBWOdlZUCH4qw</yt:channelId>
-  <title>反贼盛传：中国房地产开发商斥巨资“打生桩”（20240513第7157期）</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=7LMFi59djMg"/>
+  <title>EQS Maybach, Grand Edition版本的G63（20240518第7214期）</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=nGtGEM0lrmQ"/>
   <author>
    <name>stone记</name>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
-  <published>2024-05-13T21:19:49+00:00</published>
-  <updated>2024-05-15T22:32:28+00:00</updated>
+  <published>2024-05-18T14:00:31+00:00</published>
+  <updated>2024-05-21T02:06:37+00:00</updated>
   <media:group>
-   <media:title>反贼盛传：中国房地产开发商斥巨资“打生桩”（20240513第7157期）</media:title>
-   <media:content url="https://www.youtube.com/v/7LMFi59djMg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/7LMFi59djMg/hqdefault.jpg" width="480" height="360"/>
+   <media:title>EQS Maybach, Grand Edition版本的G63（20240518第7214期）</media:title>
+   <media:content url="https://www.youtube.com/v/nGtGEM0lrmQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/nGtGEM0lrmQ/hqdefault.jpg" width="480" height="360"/>
    <media:description>加入stone记会员链接
 https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw/join
 合作联系Twitter：stone记@stone62855987
@@ -685,373 +1100,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="196" average="5.00" min="1" max="5"/>
-    <media:statistics views="39298"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:AwweHD5smNk</id>
-  <yt:videoId>AwweHD5smNk</yt:videoId>
-  <yt:channelId>UCghLs6s95LrBWOdlZUCH4qw</yt:channelId>
-  <title>富士康大规模撤离大陆，河南进出口数据大跌（20240513第7156期）</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=AwweHD5smNk"/>
-  <author>
-   <name>stone记</name>
-   <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
-  </author>
-  <published>2024-05-13T16:39:12+00:00</published>
-  <updated>2024-05-15T11:07:44+00:00</updated>
-  <media:group>
-   <media:title>富士康大规模撤离大陆，河南进出口数据大跌（20240513第7156期）</media:title>
-   <media:content url="https://www.youtube.com/v/AwweHD5smNk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/AwweHD5smNk/hqdefault.jpg" width="480" height="360"/>
-   <media:description>加入stone记会员链接
-https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw/join
-合作联系Twitter：stone记@stone62855987
-我们现阶段录制视频使用的设备
-主力相机Canon EOS R
-https://amzn.to/2L2eHQG
-主力镜头Canon RF 50mm f/1.2L USM Lens
-https://amzn.to/2L3qWwt
-主力无线麦克风Sennheiser AVX 配合MKE2
-https://amzn.to/2ZliYnj
-桌面三角架
-https://amzn.to/321gZqc
-将两个麦克风合一的Saramonic SR-AX100
-https://amzn.to/2TWRofg
-铁威马D8 332
-https://amzn.to/3BqlGxT
-
-一些实用的附件推荐
-相机背带Peak Design Slide Lite Camera Strap SLL-BK-3 (Black)
-https://amzn.to/2QC0csh
-相机腕带Peak Design Cuff Camera Wrist Strap
-https://amzn.to/2S6Z4cZ
-相机包Lowepro Adventura SH 160 II
-https://amzn.to/2USOA2Q
-三星T5 2TB移动硬盘
-https://amzn.to/2rK72xf
-佳能照片打印机Canon SELPHY CP1300
-https://amzn.to/2EA2CBp
-Flash Hot Shoe Mount Adapter热靴
-https://amzn.to/2x9NPXU
-Logitech BRIO
-https://amzn.to/2Qp4Q9E
-Rode VideoMicro 手机麦克风
-https://amzn.to/2CLwquJ
-JOBY GorillaPod 3K Kit 八爪魚三腳架
-https://amzn.to/2QqAofl
-Logitech G903
-https://amzn.to/2QocOzv
-Logitech G Powerplay Wireless Charging System
-https://amzn.to/2x29EIQ
-Blue Yeti USB Microphone 桌面麦克风
-https://amzn.to/2x52Eet
-Marathon CL030060WH 显示温度和湿度的桌面时钟
-https://amzn.to/2CLyfYB
-Marathon CL030054WH 显示温度和湿度的床头时钟
-https://amzn.to/2QkOS02
-
-介绍我们最近升级的新设备和心得（20181218第444期）
-https://youtu.be/4G8yWQyBKak
-介绍我们录制视频使用的全部设备（20180912第257期）
-https://youtu.be/BbtTwsP_-zc</media:description>
-   <media:community>
-    <media:starRating count="264" average="5.00" min="1" max="5"/>
-    <media:statistics views="51507"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:5wa5QcoKa2g</id>
-  <yt:videoId>5wa5QcoKa2g</yt:videoId>
-  <yt:channelId>UCghLs6s95LrBWOdlZUCH4qw</yt:channelId>
-  <title>成都“市长妈妈”引发上万人骚乱与警察冲突，警方大规模抓捕群众（20240513第7155期）</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=5wa5QcoKa2g"/>
-  <author>
-   <name>stone记</name>
-   <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
-  </author>
-  <published>2024-05-13T16:19:16+00:00</published>
-  <updated>2024-05-15T12:27:39+00:00</updated>
-  <media:group>
-   <media:title>成都“市长妈妈”引发上万人骚乱与警察冲突，警方大规模抓捕群众（20240513第7155期）</media:title>
-   <media:content url="https://www.youtube.com/v/5wa5QcoKa2g?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/5wa5QcoKa2g/hqdefault.jpg" width="480" height="360"/>
-   <media:description>加入stone记会员链接
-https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw/join
-合作联系Twitter：stone记@stone62855987
-我们现阶段录制视频使用的设备
-主力相机Canon EOS R
-https://amzn.to/2L2eHQG
-主力镜头Canon RF 50mm f/1.2L USM Lens
-https://amzn.to/2L3qWwt
-主力无线麦克风Sennheiser AVX 配合MKE2
-https://amzn.to/2ZliYnj
-桌面三角架
-https://amzn.to/321gZqc
-将两个麦克风合一的Saramonic SR-AX100
-https://amzn.to/2TWRofg
-铁威马D8 332
-https://amzn.to/3BqlGxT
-
-一些实用的附件推荐
-相机背带Peak Design Slide Lite Camera Strap SLL-BK-3 (Black)
-https://amzn.to/2QC0csh
-相机腕带Peak Design Cuff Camera Wrist Strap
-https://amzn.to/2S6Z4cZ
-相机包Lowepro Adventura SH 160 II
-https://amzn.to/2USOA2Q
-三星T5 2TB移动硬盘
-https://amzn.to/2rK72xf
-佳能照片打印机Canon SELPHY CP1300
-https://amzn.to/2EA2CBp
-Flash Hot Shoe Mount Adapter热靴
-https://amzn.to/2x9NPXU
-Logitech BRIO
-https://amzn.to/2Qp4Q9E
-Rode VideoMicro 手机麦克风
-https://amzn.to/2CLwquJ
-JOBY GorillaPod 3K Kit 八爪魚三腳架
-https://amzn.to/2QqAofl
-Logitech G903
-https://amzn.to/2QocOzv
-Logitech G Powerplay Wireless Charging System
-https://amzn.to/2x29EIQ
-Blue Yeti USB Microphone 桌面麦克风
-https://amzn.to/2x52Eet
-Marathon CL030060WH 显示温度和湿度的桌面时钟
-https://amzn.to/2CLyfYB
-Marathon CL030054WH 显示温度和湿度的床头时钟
-https://amzn.to/2QkOS02
-
-介绍我们最近升级的新设备和心得（20181218第444期）
-https://youtu.be/4G8yWQyBKak
-介绍我们录制视频使用的全部设备（20180912第257期）
-https://youtu.be/BbtTwsP_-zc</media:description>
-   <media:community>
-    <media:starRating count="430" average="5.00" min="1" max="5"/>
-    <media:statistics views="74541"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:kxzfwxbgeHI</id>
-  <yt:videoId>kxzfwxbgeHI</yt:videoId>
-  <yt:channelId>UCghLs6s95LrBWOdlZUCH4qw</yt:channelId>
-  <title>江苏南通交通信号灯故障导致严重车祸（20240512第7153期）</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=kxzfwxbgeHI"/>
-  <author>
-   <name>stone记</name>
-   <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
-  </author>
-  <published>2024-05-13T03:07:15+00:00</published>
-  <updated>2024-05-14T09:38:23+00:00</updated>
-  <media:group>
-   <media:title>江苏南通交通信号灯故障导致严重车祸（20240512第7153期）</media:title>
-   <media:content url="https://www.youtube.com/v/kxzfwxbgeHI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/kxzfwxbgeHI/hqdefault.jpg" width="480" height="360"/>
-   <media:description>加入stone记会员链接
-https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw/join
-合作联系Twitter：stone记@stone62855987
-我们现阶段录制视频使用的设备
-主力相机Canon EOS R
-https://amzn.to/2L2eHQG
-主力镜头Canon RF 50mm f/1.2L USM Lens
-https://amzn.to/2L3qWwt
-主力无线麦克风Sennheiser AVX 配合MKE2
-https://amzn.to/2ZliYnj
-桌面三角架
-https://amzn.to/321gZqc
-将两个麦克风合一的Saramonic SR-AX100
-https://amzn.to/2TWRofg
-铁威马D8 332
-https://amzn.to/3BqlGxT
-
-一些实用的附件推荐
-相机背带Peak Design Slide Lite Camera Strap SLL-BK-3 (Black)
-https://amzn.to/2QC0csh
-相机腕带Peak Design Cuff Camera Wrist Strap
-https://amzn.to/2S6Z4cZ
-相机包Lowepro Adventura SH 160 II
-https://amzn.to/2USOA2Q
-三星T5 2TB移动硬盘
-https://amzn.to/2rK72xf
-佳能照片打印机Canon SELPHY CP1300
-https://amzn.to/2EA2CBp
-Flash Hot Shoe Mount Adapter热靴
-https://amzn.to/2x9NPXU
-Logitech BRIO
-https://amzn.to/2Qp4Q9E
-Rode VideoMicro 手机麦克风
-https://amzn.to/2CLwquJ
-JOBY GorillaPod 3K Kit 八爪魚三腳架
-https://amzn.to/2QqAofl
-Logitech G903
-https://amzn.to/2QocOzv
-Logitech G Powerplay Wireless Charging System
-https://amzn.to/2x29EIQ
-Blue Yeti USB Microphone 桌面麦克风
-https://amzn.to/2x52Eet
-Marathon CL030060WH 显示温度和湿度的桌面时钟
-https://amzn.to/2CLyfYB
-Marathon CL030054WH 显示温度和湿度的床头时钟
-https://amzn.to/2QkOS02
-
-介绍我们最近升级的新设备和心得（20181218第444期）
-https://youtu.be/4G8yWQyBKak
-介绍我们录制视频使用的全部设备（20180912第257期）
-https://youtu.be/BbtTwsP_-zc</media:description>
-   <media:community>
-    <media:starRating count="216" average="5.00" min="1" max="5"/>
-    <media:statistics views="38644"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:3fcttFN7O-g</id>
-  <yt:videoId>3fcttFN7O-g</yt:videoId>
-  <yt:channelId>UCghLs6s95LrBWOdlZUCH4qw</yt:channelId>
-  <title>普京选择一名经济学家当国防部长真的是清醒（20240512第7152期）</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=3fcttFN7O-g"/>
-  <author>
-   <name>stone记</name>
-   <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
-  </author>
-  <published>2024-05-13T03:00:18+00:00</published>
-  <updated>2024-05-14T11:59:48+00:00</updated>
-  <media:group>
-   <media:title>普京选择一名经济学家当国防部长真的是清醒（20240512第7152期）</media:title>
-   <media:content url="https://www.youtube.com/v/3fcttFN7O-g?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/3fcttFN7O-g/hqdefault.jpg" width="480" height="360"/>
-   <media:description>加入stone记会员链接
-https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw/join
-合作联系Twitter：stone记@stone62855987
-我们现阶段录制视频使用的设备
-主力相机Canon EOS R
-https://amzn.to/2L2eHQG
-主力镜头Canon RF 50mm f/1.2L USM Lens
-https://amzn.to/2L3qWwt
-主力无线麦克风Sennheiser AVX 配合MKE2
-https://amzn.to/2ZliYnj
-桌面三角架
-https://amzn.to/321gZqc
-将两个麦克风合一的Saramonic SR-AX100
-https://amzn.to/2TWRofg
-铁威马D8 332
-https://amzn.to/3BqlGxT
-
-一些实用的附件推荐
-相机背带Peak Design Slide Lite Camera Strap SLL-BK-3 (Black)
-https://amzn.to/2QC0csh
-相机腕带Peak Design Cuff Camera Wrist Strap
-https://amzn.to/2S6Z4cZ
-相机包Lowepro Adventura SH 160 II
-https://amzn.to/2USOA2Q
-三星T5 2TB移动硬盘
-https://amzn.to/2rK72xf
-佳能照片打印机Canon SELPHY CP1300
-https://amzn.to/2EA2CBp
-Flash Hot Shoe Mount Adapter热靴
-https://amzn.to/2x9NPXU
-Logitech BRIO
-https://amzn.to/2Qp4Q9E
-Rode VideoMicro 手机麦克风
-https://amzn.to/2CLwquJ
-JOBY GorillaPod 3K Kit 八爪魚三腳架
-https://amzn.to/2QqAofl
-Logitech G903
-https://amzn.to/2QocOzv
-Logitech G Powerplay Wireless Charging System
-https://amzn.to/2x29EIQ
-Blue Yeti USB Microphone 桌面麦克风
-https://amzn.to/2x52Eet
-Marathon CL030060WH 显示温度和湿度的桌面时钟
-https://amzn.to/2CLyfYB
-Marathon CL030054WH 显示温度和湿度的床头时钟
-https://amzn.to/2QkOS02
-
-介绍我们最近升级的新设备和心得（20181218第444期）
-https://youtu.be/4G8yWQyBKak
-介绍我们录制视频使用的全部设备（20180912第257期）
-https://youtu.be/BbtTwsP_-zc</media:description>
-   <media:community>
-    <media:starRating count="207" average="5.00" min="1" max="5"/>
-    <media:statistics views="34235"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:GBxuiC2ewzM</id>
-  <yt:videoId>GBxuiC2ewzM</yt:videoId>
-  <yt:channelId>UCghLs6s95LrBWOdlZUCH4qw</yt:channelId>
-  <title>韩非子·八说（20240512第7151期）</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=GBxuiC2ewzM"/>
-  <author>
-   <name>stone记</name>
-   <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
-  </author>
-  <published>2024-05-13T02:54:47+00:00</published>
-  <updated>2024-05-14T04:50:02+00:00</updated>
-  <media:group>
-   <media:title>韩非子·八说（20240512第7151期）</media:title>
-   <media:content url="https://www.youtube.com/v/GBxuiC2ewzM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/GBxuiC2ewzM/hqdefault.jpg" width="480" height="360"/>
-   <media:description>加入stone记会员链接
-https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw/join
-合作联系Twitter：stone记@stone62855987
-我们现阶段录制视频使用的设备
-主力相机Canon EOS R
-https://amzn.to/2L2eHQG
-主力镜头Canon RF 50mm f/1.2L USM Lens
-https://amzn.to/2L3qWwt
-主力无线麦克风Sennheiser AVX 配合MKE2
-https://amzn.to/2ZliYnj
-桌面三角架
-https://amzn.to/321gZqc
-将两个麦克风合一的Saramonic SR-AX100
-https://amzn.to/2TWRofg
-铁威马D8 332
-https://amzn.to/3BqlGxT
-
-一些实用的附件推荐
-相机背带Peak Design Slide Lite Camera Strap SLL-BK-3 (Black)
-https://amzn.to/2QC0csh
-相机腕带Peak Design Cuff Camera Wrist Strap
-https://amzn.to/2S6Z4cZ
-相机包Lowepro Adventura SH 160 II
-https://amzn.to/2USOA2Q
-三星T5 2TB移动硬盘
-https://amzn.to/2rK72xf
-佳能照片打印机Canon SELPHY CP1300
-https://amzn.to/2EA2CBp
-Flash Hot Shoe Mount Adapter热靴
-https://amzn.to/2x9NPXU
-Logitech BRIO
-https://amzn.to/2Qp4Q9E
-Rode VideoMicro 手机麦克风
-https://amzn.to/2CLwquJ
-JOBY GorillaPod 3K Kit 八爪魚三腳架
-https://amzn.to/2QqAofl
-Logitech G903
-https://amzn.to/2QocOzv
-Logitech G Powerplay Wireless Charging System
-https://amzn.to/2x29EIQ
-Blue Yeti USB Microphone 桌面麦克风
-https://amzn.to/2x52Eet
-Marathon CL030060WH 显示温度和湿度的桌面时钟
-https://amzn.to/2CLyfYB
-Marathon CL030054WH 显示温度和湿度的床头时钟
-https://amzn.to/2QkOS02
-
-介绍我们最近升级的新设备和心得（20181218第444期）
-https://youtu.be/4G8yWQyBKak
-介绍我们录制视频使用的全部设备（20180912第257期）
-https://youtu.be/BbtTwsP_-zc</media:description>
-   <media:community>
-    <media:starRating count="141" average="5.00" min="1" max="5"/>
-    <media:statistics views="15716"/>
+    <media:starRating count="71" average="5.00" min="1" max="5"/>
+    <media:statistics views="13938"/>
    </media:community>
   </media:group>
  </entry>
