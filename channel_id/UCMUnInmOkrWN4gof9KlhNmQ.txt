@@ -14,16 +14,16 @@
   <id>yt:video:wcWjzXcWhdk</id>
   <yt:videoId>wcWjzXcWhdk</yt:videoId>
   <yt:channelId>UCMUnInmOkrWN4gof9KlhNmQ</yt:channelId>
-  <title>【六週年，六百萬】特別直播 &amp;&amp; 重大公告 | 老高與小茉 Mr &amp; Mrs Gao</title>
+  <title>頻道六週年，六百萬訂閱特別直播 | 老高與小茉 Mr &amp; Mrs Gao</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=wcWjzXcWhdk"/>
   <author>
    <name>老高與小茉 Mr &amp; Mrs Gao</name>
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
   <published>2024-05-18T15:19:22+00:00</published>
-  <updated>2024-05-20T06:29:34+00:00</updated>
+  <updated>2024-05-22T11:33:16+00:00</updated>
   <media:group>
-   <media:title>【六週年，六百萬】特別直播 &amp;&amp; 重大公告 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
+   <media:title>頻道六週年，六百萬訂閱特別直播 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/wcWjzXcWhdk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i4.ytimg.com/vi/wcWjzXcWhdk/hqdefault.jpg" width="480" height="360"/>
    <media:description>【加入財富自由團】https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ/join
@@ -33,7 +33,7 @@
 【周邊相關Discord群組】https://discord.gg/XmPrAg5EJR</media:description>
    <media:community>
     <media:starRating count="0" average="0.00" min="1" max="5"/>
-    <media:statistics views="702369"/>
+    <media:statistics views="768567"/>
    </media:community>
   </media:group>
  </entry>
@@ -280,8 +280,8 @@ https://www.youtube.com/watch?v=Mshz9DxQLbE
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="2812" average="5.00" min="1" max="5"/>
-    <media:statistics views="40956"/>
+    <media:starRating count="3242" average="5.00" min="1" max="5"/>
+    <media:statistics views="53057"/>
    </media:community>
   </media:group>
  </entry>
@@ -289,16 +289,16 @@ https://www.youtube.com/watch?v=Mshz9DxQLbE
   <id>yt:video:Fstf0n5slX4</id>
   <yt:videoId>Fstf0n5slX4</yt:videoId>
   <yt:channelId>UCMUnInmOkrWN4gof9KlhNmQ</yt:channelId>
-  <title>【重大公告】感謝大家長久以來的大力支持，緊急公告三個事情 | 老高與小茉 Mr &amp; Mrs Gao</title>
+  <title>【重大公告】我想休息一下 | 老高與小茉 Mr &amp; Mrs Gao</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=Fstf0n5slX4"/>
   <author>
    <name>老高與小茉 Mr &amp; Mrs Gao</name>
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
   <published>2024-05-17T13:45:00+00:00</published>
-  <updated>2024-05-21T01:32:31+00:00</updated>
+  <updated>2024-05-23T02:22:07+00:00</updated>
   <media:group>
-   <media:title>【重大公告】感謝大家長久以來的大力支持，緊急公告三個事情 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
+   <media:title>【重大公告】我想休息一下 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/Fstf0n5slX4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i3.ytimg.com/vi/Fstf0n5slX4/hqdefault.jpg" width="480" height="360"/>
    <media:description>【加入五歲抬頭財富自由團】https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ/join
@@ -528,8 +528,8 @@ https://www.youtube.com/watch?v=Mshz9DxQLbE
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="42077" average="5.00" min="1" max="5"/>
-    <media:statistics views="1285764"/>
+    <media:starRating count="46770" average="5.00" min="1" max="5"/>
+    <media:statistics views="1574216"/>
    </media:community>
   </media:group>
  </entry>
@@ -537,16 +537,16 @@ https://www.youtube.com/watch?v=Mshz9DxQLbE
   <id>yt:video:CcGsTuLEs14</id>
   <yt:videoId>CcGsTuLEs14</yt:videoId>
   <yt:channelId>UCMUnInmOkrWN4gof9KlhNmQ</yt:channelId>
-  <title>【講到一半，驚出一身冷汗】只要做到這一點，你的人生就將無比幸福和快樂 | 老高與小茉 Mr &amp; Mrs Gao</title>
+  <title>【講到一半突然⋯⋯】只要做到這一點，你的人生就將無比幸福和快樂 | 老高與小茉 Mr &amp; Mrs Gao</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=CcGsTuLEs14"/>
   <author>
    <name>老高與小茉 Mr &amp; Mrs Gao</name>
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
   <published>2024-05-15T13:00:21+00:00</published>
-  <updated>2024-05-21T02:02:35+00:00</updated>
+  <updated>2024-05-23T15:55:22+00:00</updated>
   <media:group>
-   <media:title>【講到一半，驚出一身冷汗】只要做到這一點，你的人生就將無比幸福和快樂 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
+   <media:title>【講到一半突然⋯⋯】只要做到這一點，你的人生就將無比幸福和快樂 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/CcGsTuLEs14?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i4.ytimg.com/vi/CcGsTuLEs14/hqdefault.jpg" width="480" height="360"/>
    <media:description>【加入會員按鈕】https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ/join
@@ -776,8 +776,8 @@ https://www.youtube.com/watch?v=Mshz9DxQLbE
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="51981" average="5.00" min="1" max="5"/>
-    <media:statistics views="2100428"/>
+    <media:starRating count="53824" average="5.00" min="1" max="5"/>
+    <media:statistics views="2244931"/>
    </media:community>
   </media:group>
  </entry>
@@ -1026,8 +1026,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="49576" average="5.00" min="1" max="5"/>
-    <media:statistics views="2585363"/>
+    <media:starRating count="50204" average="5.00" min="1" max="5"/>
+    <media:statistics views="2639017"/>
    </media:community>
   </media:group>
  </entry>
@@ -1035,16 +1035,16 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
   <id>yt:video:BtIPrmh4jnA</id>
   <yt:videoId>BtIPrmh4jnA</yt:videoId>
   <yt:channelId>UCMUnInmOkrWN4gof9KlhNmQ</yt:channelId>
-  <title>隱藏在太陽系中的巨大天體 | 老高與小茉 Mr &amp; Mrs Gao</title>
+  <title>隱藏在太陽系中的巨大天體，我們知道它存在卻看不見，這究竟是什麼 | 老高與小茉 Mr &amp; Mrs Gao</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=BtIPrmh4jnA"/>
   <author>
    <name>老高與小茉 Mr &amp; Mrs Gao</name>
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
   <published>2024-05-01T14:50:27+00:00</published>
-  <updated>2024-05-19T04:56:34+00:00</updated>
+  <updated>2024-05-23T02:13:51+00:00</updated>
   <media:group>
-   <media:title>隱藏在太陽系中的巨大天體 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
+   <media:title>隱藏在太陽系中的巨大天體，我們知道它存在卻看不見，這究竟是什麼 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/BtIPrmh4jnA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i3.ytimg.com/vi/BtIPrmh4jnA/hqdefault.jpg" width="480" height="360"/>
    <media:description>【加入會員按鈕】https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ/join
@@ -1276,8 +1276,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="34695" average="5.00" min="1" max="5"/>
-    <media:statistics views="2174152"/>
+    <media:starRating count="35054" average="5.00" min="1" max="5"/>
+    <media:statistics views="2221060"/>
    </media:community>
   </media:group>
  </entry>
@@ -1285,16 +1285,16 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
   <id>yt:video:QnhhV-ZD_3A</id>
   <yt:videoId>QnhhV-ZD_3A</yt:videoId>
   <yt:channelId>UCMUnInmOkrWN4gof9KlhNmQ</yt:channelId>
-  <title>【千萬不要系列】千萬不要賭，賭博毀三生 | 老高與小茉 Mr &amp; Mrs Gao</title>
+  <title>千萬不要賭，賭博毀三生 | 老高與小茉 Mr &amp; Mrs Gao</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=QnhhV-ZD_3A"/>
   <author>
    <name>老高與小茉 Mr &amp; Mrs Gao</name>
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
   <published>2024-04-24T14:25:17+00:00</published>
-  <updated>2024-05-19T04:31:57+00:00</updated>
+  <updated>2024-05-23T15:36:09+00:00</updated>
   <media:group>
-   <media:title>【千萬不要系列】千萬不要賭，賭博毀三生 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
+   <media:title>千萬不要賭，賭博毀三生 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/QnhhV-ZD_3A?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i2.ytimg.com/vi/QnhhV-ZD_3A/hqdefault.jpg" width="480" height="360"/>
    <media:description>【加入會員按鈕】https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ/join
@@ -1526,8 +1526,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="39561" average="5.00" min="1" max="5"/>
-    <media:statistics views="2574849"/>
+    <media:starRating count="39713" average="5.00" min="1" max="5"/>
+    <media:statistics views="2595772"/>
    </media:community>
   </media:group>
  </entry>
@@ -1535,16 +1535,16 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
   <id>yt:video:z3D664EnMy0</id>
   <yt:videoId>z3D664EnMy0</yt:videoId>
   <yt:channelId>UCMUnInmOkrWN4gof9KlhNmQ</yt:channelId>
-  <title>與惡魔對話，一本被禁的預言書 | 老高與小茉 Mr &amp; Mrs Gao</title>
+  <title>【與惡魔對話】一本被封印七十三年的預言書 | 老高與小茉 Mr &amp; Mrs Gao</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=z3D664EnMy0"/>
   <author>
    <name>老高與小茉 Mr &amp; Mrs Gao</name>
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
   <published>2024-04-17T13:45:16+00:00</published>
-  <updated>2024-05-19T07:04:19+00:00</updated>
+  <updated>2024-05-23T02:18:44+00:00</updated>
   <media:group>
-   <media:title>與惡魔對話，一本被禁的預言書 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
+   <media:title>【與惡魔對話】一本被封印七十三年的預言書 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/z3D664EnMy0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i3.ytimg.com/vi/z3D664EnMy0/hqdefault.jpg" width="480" height="360"/>
    <media:description>【加入會員按鈕】https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ/join
@@ -1776,8 +1776,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="47396" average="5.00" min="1" max="5"/>
-    <media:statistics views="2569420"/>
+    <media:starRating count="47593" average="5.00" min="1" max="5"/>
+    <media:statistics views="2587086"/>
    </media:community>
   </media:group>
  </entry>
@@ -1785,16 +1785,16 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
   <id>yt:video:iUhj8s83w3M</id>
   <yt:videoId>iUhj8s83w3M</yt:videoId>
   <yt:channelId>UCMUnInmOkrWN4gof9KlhNmQ</yt:channelId>
-  <title>失誤與奇蹟 | 老高與小茉 Mr &amp; Mrs Gao</title>
+  <title>飛機突然沒油了會怎樣，航空史上最遠的滑行記錄 | 老高與小茉 Mr &amp; Mrs Gao</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=iUhj8s83w3M"/>
   <author>
    <name>老高與小茉 Mr &amp; Mrs Gao</name>
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
   <published>2024-04-10T14:10:27+00:00</published>
-  <updated>2024-05-19T05:00:09+00:00</updated>
+  <updated>2024-05-23T15:38:27+00:00</updated>
   <media:group>
-   <media:title>失誤與奇蹟 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
+   <media:title>飛機突然沒油了會怎樣，航空史上最遠的滑行記錄 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/iUhj8s83w3M?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i2.ytimg.com/vi/iUhj8s83w3M/hqdefault.jpg" width="480" height="360"/>
    <media:description>【加入會員按鈕】https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ/join
@@ -2026,8 +2026,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="38877" average="5.00" min="1" max="5"/>
-    <media:statistics views="2140862"/>
+    <media:starRating count="38968" average="5.00" min="1" max="5"/>
+    <media:statistics views="2150210"/>
    </media:community>
   </media:group>
  </entry>
@@ -2276,8 +2276,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="59250" average="5.00" min="1" max="5"/>
-    <media:statistics views="2962985"/>
+    <media:starRating count="59412" average="5.00" min="1" max="5"/>
+    <media:statistics views="2975398"/>
    </media:community>
   </media:group>
  </entry>
@@ -2285,16 +2285,16 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
   <id>yt:video:uI1LOAaVm9g</id>
   <yt:videoId>uI1LOAaVm9g</yt:videoId>
   <yt:channelId>UCMUnInmOkrWN4gof9KlhNmQ</yt:channelId>
-  <title>中國第一個皇帝，他的陵墓可能比金字塔還要大但至今都不敢挖掘，因为内部的描述太可怕 | 老高與小茉 Mr &amp; Mrs Gao</title>
+  <title>他的陵墓可能比金字塔還要大但至今都不敢挖，因为内部的描述太可怕 | 老高與小茉 Mr &amp; Mrs Gao</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=uI1LOAaVm9g"/>
   <author>
    <name>老高與小茉 Mr &amp; Mrs Gao</name>
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
   <published>2024-03-20T14:45:07+00:00</published>
-  <updated>2024-05-13T10:32:01+00:00</updated>
+  <updated>2024-05-25T04:35:34+00:00</updated>
   <media:group>
-   <media:title>中國第一個皇帝，他的陵墓可能比金字塔還要大但至今都不敢挖掘，因为内部的描述太可怕 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
+   <media:title>他的陵墓可能比金字塔還要大但至今都不敢挖，因为内部的描述太可怕 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/uI1LOAaVm9g?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i2.ytimg.com/vi/uI1LOAaVm9g/hqdefault.jpg" width="480" height="360"/>
    <media:description>【加入會員按鈕】https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ/join
@@ -2526,8 +2526,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="46555" average="5.00" min="1" max="5"/>
-    <media:statistics views="2843971"/>
+    <media:starRating count="46871" average="5.00" min="1" max="5"/>
+    <media:statistics views="2900487"/>
    </media:community>
   </media:group>
  </entry>
@@ -2776,8 +2776,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="71536" average="5.00" min="1" max="5"/>
-    <media:statistics views="3208892"/>
+    <media:starRating count="71724" average="5.00" min="1" max="5"/>
+    <media:statistics views="3230772"/>
    </media:community>
   </media:group>
  </entry>
@@ -2785,16 +2785,16 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
   <id>yt:video:kppn__POdp4</id>
   <yt:videoId>kppn__POdp4</yt:videoId>
   <yt:channelId>UCMUnInmOkrWN4gof9KlhNmQ</yt:channelId>
-  <title>一個女孩無意間拔掉了一顆石頭卻打開了一扇災難之門 | 老高與小茉 Mr &amp; Mrs Gao</title>
+  <title>門後的世界 | 老高與小茉 Mr &amp; Mrs Gao</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=kppn__POdp4"/>
   <author>
    <name>老高與小茉 Mr &amp; Mrs Gao</name>
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
   <published>2024-03-06T13:30:10+00:00</published>
-  <updated>2024-05-12T17:59:58+00:00</updated>
+  <updated>2024-05-24T04:26:23+00:00</updated>
   <media:group>
-   <media:title>一個女孩無意間拔掉了一顆石頭卻打開了一扇災難之門 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
+   <media:title>門後的世界 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/kppn__POdp4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i4.ytimg.com/vi/kppn__POdp4/hqdefault.jpg" width="480" height="360"/>
    <media:description>【加入會員按鈕】https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ/join
@@ -3026,8 +3026,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="46402" average="5.00" min="1" max="5"/>
-    <media:statistics views="2427289"/>
+    <media:starRating count="46455" average="5.00" min="1" max="5"/>
+    <media:statistics views="2434828"/>
    </media:community>
   </media:group>
  </entry>
@@ -3035,16 +3035,16 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
   <id>yt:video:OsajhwXixoo</id>
   <yt:videoId>OsajhwXixoo</yt:videoId>
   <yt:channelId>UCMUnInmOkrWN4gof9KlhNmQ</yt:channelId>
-  <title>一名世界知名醫生親眼看到魂離開身體去往另一個世界，其實人都不會死 | 老高與小茉 Mr &amp; Mrs Gao</title>
+  <title>他親眼看到魂離開身體去往另一個世界，其實人都不會死 | 老高與小茉 Mr &amp; Mrs Gao</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=OsajhwXixoo"/>
   <author>
    <name>老高與小茉 Mr &amp; Mrs Gao</name>
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
   <published>2024-02-28T12:58:08+00:00</published>
-  <updated>2024-05-13T17:28:03+00:00</updated>
+  <updated>2024-05-24T12:12:55+00:00</updated>
   <media:group>
-   <media:title>一名世界知名醫生親眼看到魂離開身體去往另一個世界，其實人都不會死 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
+   <media:title>他親眼看到魂離開身體去往另一個世界，其實人都不會死 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/OsajhwXixoo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i4.ytimg.com/vi/OsajhwXixoo/hqdefault.jpg" width="480" height="360"/>
    <media:description>【加入會員按鈕】https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ/join
@@ -3276,8 +3276,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="53601" average="5.00" min="1" max="5"/>
-    <media:statistics views="2790026"/>
+    <media:starRating count="53661" average="5.00" min="1" max="5"/>
+    <media:statistics views="2799196"/>
    </media:community>
   </media:group>
  </entry>
@@ -3526,8 +3526,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="48912" average="5.00" min="1" max="5"/>
-    <media:statistics views="2646668"/>
+    <media:starRating count="49000" average="5.00" min="1" max="5"/>
+    <media:statistics views="2659311"/>
    </media:community>
   </media:group>
  </entry>

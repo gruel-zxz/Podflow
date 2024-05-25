@@ -11,6 +11,98 @@
  </author>
  <published>2020-08-21T01:53:13+00:00</published>
  <entry>
+  <id>yt:video:8bAv_TqMDK8</id>
+  <yt:videoId>8bAv_TqMDK8</yt:videoId>
+  <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
+  <title>没有外星人，才最为恐怖</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=8bAv_TqMDK8"/>
+  <author>
+   <name>绝密研究所</name>
+   <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
+  </author>
+  <published>2024-05-25T00:15:06+00:00</published>
+  <updated>2024-05-25T00:22:13+00:00</updated>
+  <media:group>
+   <media:title>没有外星人，才最为恐怖</media:title>
+   <media:content url="https://www.youtube.com/v/8bAv_TqMDK8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/8bAv_TqMDK8/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="1" average="5.00" min="1" max="5"/>
+    <media:statistics views="51"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Lxbu0uKOh8s</id>
+  <yt:videoId>Lxbu0uKOh8s</yt:videoId>
+  <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
+  <title>和毒枭叫板的作死网红</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Lxbu0uKOh8s"/>
+  <author>
+   <name>绝密研究所</name>
+   <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
+  </author>
+  <published>2024-05-24T08:30:55+00:00</published>
+  <updated>2024-05-25T07:15:22+00:00</updated>
+  <media:group>
+   <media:title>和毒枭叫板的作死网红</media:title>
+   <media:content url="https://www.youtube.com/v/Lxbu0uKOh8s?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/Lxbu0uKOh8s/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:vw_31u6GujY</id>
+  <yt:videoId>vw_31u6GujY</yt:videoId>
+  <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
+  <title>为啥大熊猫不租借给印度？</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=vw_31u6GujY"/>
+  <author>
+   <name>绝密研究所</name>
+   <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
+  </author>
+  <published>2024-05-24T00:15:06+00:00</published>
+  <updated>2024-05-24T05:42:11+00:00</updated>
+  <media:group>
+   <media:title>为啥大熊猫不租借给印度？</media:title>
+   <media:content url="https://www.youtube.com/v/vw_31u6GujY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/vw_31u6GujY/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="1" average="5.00" min="1" max="5"/>
+    <media:statistics views="32"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:mAD9xmHJa54</id>
+  <yt:videoId>mAD9xmHJa54</yt:videoId>
+  <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
+  <title>14岁冰封少女， 500年容颜未变</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=mAD9xmHJa54"/>
+  <author>
+   <name>绝密研究所</name>
+   <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
+  </author>
+  <published>2024-05-23T08:59:28+00:00</published>
+  <updated>2024-05-24T05:58:54+00:00</updated>
+  <media:group>
+   <media:title>14岁冰封少女， 500年容颜未变</media:title>
+   <media:content url="https://www.youtube.com/v/mAD9xmHJa54?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/mAD9xmHJa54/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="2" average="5.00" min="1" max="5"/>
+    <media:statistics views="30"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:bopbQsDGaHU</id>
   <yt:videoId>bopbQsDGaHU</yt:videoId>
   <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
@@ -20,16 +112,16 @@
    <name>绝密研究所</name>
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
-  <published>2024-05-21T07:12:11+00:00</published>
-  <updated>2024-05-21T07:33:11+00:00</updated>
+  <published>2024-05-22T00:15:07+00:00</published>
+  <updated>2024-05-22T07:09:09+00:00</updated>
   <media:group>
    <media:title>神經病專殺黑幫老大， 避走海外再犯滅門血案</media:title>
    <media:content url="https://www.youtube.com/v/bopbQsDGaHU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i3.ytimg.com/vi/bopbQsDGaHU/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="0" average="0.00" min="1" max="5"/>
-    <media:statistics views="0"/>
+    <media:starRating count="2" average="5.00" min="1" max="5"/>
+    <media:statistics views="195"/>
    </media:community>
   </media:group>
  </entry>
@@ -44,15 +136,15 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-05-21T07:12:08+00:00</published>
-  <updated>2024-05-21T07:19:52+00:00</updated>
+  <updated>2024-05-24T02:21:09+00:00</updated>
   <media:group>
    <media:title>濒死体验 ，死亡是重生的起点吗？</media:title>
    <media:content url="https://www.youtube.com/v/QUzOeMmk3wk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i2.ytimg.com/vi/QUzOeMmk3wk/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="0" average="0.00" min="1" max="5"/>
-    <media:statistics views="24"/>
+    <media:starRating count="2" average="5.00" min="1" max="5"/>
+    <media:statistics views="97"/>
    </media:community>
   </media:group>
  </entry>
@@ -74,8 +166,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/0RxzTU47VH0/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="306"/>
+    <media:starRating count="7" average="5.00" min="1" max="5"/>
+    <media:statistics views="440"/>
    </media:community>
   </media:group>
  </entry>
@@ -98,7 +190,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="165"/>
+    <media:statistics views="186"/>
    </media:community>
   </media:group>
  </entry>
@@ -121,7 +213,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="153"/>
+    <media:statistics views="157"/>
    </media:community>
   </media:group>
  </entry>
@@ -144,7 +236,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="39"/>
+    <media:statistics views="42"/>
    </media:community>
   </media:group>
  </entry>
@@ -167,7 +259,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="93"/>
+    <media:statistics views="94"/>
    </media:community>
   </media:group>
  </entry>
@@ -190,7 +282,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="57"/>
+    <media:statistics views="59"/>
    </media:community>
   </media:group>
  </entry>
@@ -212,8 +304,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/j8IkA_EU4l8/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="70"/>
+    <media:starRating count="3" average="5.00" min="1" max="5"/>
+    <media:statistics views="73"/>
    </media:community>
   </media:group>
  </entry>
@@ -236,7 +328,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="164"/>
+    <media:statistics views="161"/>
    </media:community>
   </media:group>
  </entry>
@@ -259,99 +351,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="64"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:QtKVXlzLHik</id>
-  <yt:videoId>QtKVXlzLHik</yt:videoId>
-  <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
-  <title>疯狂核试验， 五名军人自愿接受核爆</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=QtKVXlzLHik"/>
-  <author>
-   <name>绝密研究所</name>
-   <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
-  </author>
-  <published>2024-05-11T03:00:07+00:00</published>
-  <updated>2024-05-14T02:06:18+00:00</updated>
-  <media:group>
-   <media:title>疯狂核试验， 五名军人自愿接受核爆</media:title>
-   <media:content url="https://www.youtube.com/v/QtKVXlzLHik?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/QtKVXlzLHik/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="34"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:EnS8zDcikCI</id>
-  <yt:videoId>EnS8zDcikCI</yt:videoId>
-  <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
-  <title>有护照的法老 ，古埃及最早的霸道总裁</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=EnS8zDcikCI"/>
-  <author>
-   <name>绝密研究所</name>
-   <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
-  </author>
-  <published>2024-05-10T00:15:06+00:00</published>
-  <updated>2024-05-14T10:14:51+00:00</updated>
-  <media:group>
-   <media:title>有护照的法老 ，古埃及最早的霸道总裁</media:title>
-   <media:content url="https://www.youtube.com/v/EnS8zDcikCI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/EnS8zDcikCI/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="79"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:zp5uudi7LtE</id>
-  <yt:videoId>zp5uudi7LtE</yt:videoId>
-  <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
-  <title>五胡乱华， 汉人差点绝种</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=zp5uudi7LtE"/>
-  <author>
-   <name>绝密研究所</name>
-   <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
-  </author>
-  <published>2024-05-09T00:15:06+00:00</published>
-  <updated>2024-05-10T11:22:11+00:00</updated>
-  <media:group>
-   <media:title>五胡乱华， 汉人差点绝种</media:title>
-   <media:content url="https://www.youtube.com/v/zp5uudi7LtE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/zp5uudi7LtE/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="588"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:tT5tlDx6iGA</id>
-  <yt:videoId>tT5tlDx6iGA</yt:videoId>
-  <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
-  <title>体坛作弊大盘点， 韩国永争第一</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=tT5tlDx6iGA"/>
-  <author>
-   <name>绝密研究所</name>
-   <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
-  </author>
-  <published>2024-05-08T00:15:07+00:00</published>
-  <updated>2024-05-10T11:14:51+00:00</updated>
-  <media:group>
-   <media:title>体坛作弊大盘点， 韩国永争第一</media:title>
-   <media:content url="https://www.youtube.com/v/tT5tlDx6iGA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i1.ytimg.com/vi/tT5tlDx6iGA/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="3" average="5.00" min="1" max="5"/>
-    <media:statistics views="31"/>
+    <media:statistics views="69"/>
    </media:community>
   </media:group>
  </entry>

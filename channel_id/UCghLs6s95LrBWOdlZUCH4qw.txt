@@ -11,21 +11,21 @@
  </author>
  <published>2018-03-31T05:35:30+00:00</published>
  <entry>
-  <id>yt:video:ktqI4vCKPis</id>
-  <yt:videoId>ktqI4vCKPis</yt:videoId>
+  <id>yt:video:KtST5hOWwwI</id>
+  <yt:videoId>KtST5hOWwwI</yt:videoId>
   <yt:channelId>UCghLs6s95LrBWOdlZUCH4qw</yt:channelId>
-  <title>温铁军卢麒元：后冷战时代，美元危机与中国飞跃（3）（20240521第7185期）</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=ktqI4vCKPis"/>
+  <title>温铁军卢麒元：争分夺秒：美元危机与人民币国际化（7和8和9）（20240524第7202期）</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=KtST5hOWwwI"/>
   <author>
    <name>stone记</name>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
-  <published>2024-05-21T08:06:23+00:00</published>
-  <updated>2024-05-21T08:06:32+00:00</updated>
+  <published>2024-05-25T00:59:50+00:00</published>
+  <updated>2024-05-25T07:23:31+00:00</updated>
   <media:group>
-   <media:title>温铁军卢麒元：后冷战时代，美元危机与中国飞跃（3）（20240521第7185期）</media:title>
-   <media:content url="https://www.youtube.com/v/ktqI4vCKPis?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/ktqI4vCKPis/hqdefault.jpg" width="480" height="360"/>
+   <media:title>温铁军卢麒元：争分夺秒：美元危机与人民币国际化（7和8和9）（20240524第7202期）</media:title>
+   <media:content url="https://www.youtube.com/v/KtST5hOWwwI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/KtST5hOWwwI/hqdefault.jpg" width="480" height="360"/>
    <media:description>加入stone记会员链接
 https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw/join
 合作联系Twitter：stone记@stone62855987
@@ -78,27 +78,27 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="91" average="5.00" min="1" max="5"/>
-    <media:statistics views="11221"/>
+    <media:starRating count="104" average="5.00" min="1" max="5"/>
+    <media:statistics views="14503"/>
    </media:community>
   </media:group>
  </entry>
  <entry>
-  <id>yt:video:T8Jjs3ZYICA</id>
-  <yt:videoId>T8Jjs3ZYICA</yt:videoId>
+  <id>yt:video:97rFpejC_Lw</id>
+  <yt:videoId>97rFpejC_Lw</yt:videoId>
   <yt:channelId>UCghLs6s95LrBWOdlZUCH4qw</yt:channelId>
-  <title>和牛T骨牛排，六刷Smith and Wollensky（20240521第7224期）</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=T8Jjs3ZYICA"/>
+  <title>拼多多一位义乌卖家去年在拼多多挣得钱震惊了全国网友（20240524第7205期）</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=97rFpejC_Lw"/>
   <author>
    <name>stone记</name>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
-  <published>2024-05-21T07:28:10+00:00</published>
-  <updated>2024-05-21T07:34:49+00:00</updated>
+  <published>2024-05-25T00:47:11+00:00</published>
+  <updated>2024-05-25T06:40:58+00:00</updated>
   <media:group>
-   <media:title>和牛T骨牛排，六刷Smith and Wollensky（20240521第7224期）</media:title>
-   <media:content url="https://www.youtube.com/v/T8Jjs3ZYICA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i1.ytimg.com/vi/T8Jjs3ZYICA/hqdefault.jpg" width="480" height="360"/>
+   <media:title>拼多多一位义乌卖家去年在拼多多挣得钱震惊了全国网友（20240524第7205期）</media:title>
+   <media:content url="https://www.youtube.com/v/97rFpejC_Lw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/97rFpejC_Lw/hqdefault.jpg" width="480" height="360"/>
    <media:description>加入stone记会员链接
 https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw/join
 合作联系Twitter：stone记@stone62855987
@@ -151,27 +151,27 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="13" average="5.00" min="1" max="5"/>
-    <media:statistics views="2070"/>
+    <media:starRating count="160" average="5.00" min="1" max="5"/>
+    <media:statistics views="23394"/>
    </media:community>
   </media:group>
  </entry>
  <entry>
-  <id>yt:video:K3WOtzx8HTA</id>
-  <yt:videoId>K3WOtzx8HTA</yt:videoId>
+  <id>yt:video:wVSUdkzFOuI</id>
+  <yt:videoId>wVSUdkzFOuI</yt:videoId>
   <yt:channelId>UCghLs6s95LrBWOdlZUCH4qw</yt:channelId>
-  <title>越来越多的年轻人疯狂抄底大陆房地产“老破小” （20240521第7189期）</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=K3WOtzx8HTA"/>
+  <title>解放军围岛表演 “武统”，台湾民众根本不在乎，股市稳定（20240524第7203期）</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=wVSUdkzFOuI"/>
   <author>
    <name>stone记</name>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
-  <published>2024-05-21T07:24:21+00:00</published>
-  <updated>2024-05-21T07:26:45+00:00</updated>
+  <published>2024-05-25T00:45:22+00:00</published>
+  <updated>2024-05-25T06:49:44+00:00</updated>
   <media:group>
-   <media:title>越来越多的年轻人疯狂抄底大陆房地产“老破小” （20240521第7189期）</media:title>
-   <media:content url="https://www.youtube.com/v/K3WOtzx8HTA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/K3WOtzx8HTA/hqdefault.jpg" width="480" height="360"/>
+   <media:title>解放军围岛表演 “武统”，台湾民众根本不在乎，股市稳定（20240524第7203期）</media:title>
+   <media:content url="https://www.youtube.com/v/wVSUdkzFOuI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/wVSUdkzFOuI/hqdefault.jpg" width="480" height="360"/>
    <media:description>加入stone记会员链接
 https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw/join
 合作联系Twitter：stone记@stone62855987
@@ -224,27 +224,27 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="130" average="5.00" min="1" max="5"/>
-    <media:statistics views="22768"/>
+    <media:starRating count="187" average="5.00" min="1" max="5"/>
+    <media:statistics views="29549"/>
    </media:community>
   </media:group>
  </entry>
  <entry>
-  <id>yt:video:OnlD-EHwmRs</id>
-  <yt:videoId>OnlD-EHwmRs</yt:videoId>
+  <id>yt:video:np_Oce4XeSg</id>
+  <yt:videoId>np_Oce4XeSg</yt:videoId>
   <yt:channelId>UCghLs6s95LrBWOdlZUCH4qw</yt:channelId>
-  <title>赖清德有种是个好样的，就职典礼喊出两国论，两岸互不隶属一边一国（20240520第7187期）</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=OnlD-EHwmRs"/>
+  <title>温铁军卢麒元：俄乌之战：和平之路或永久战争（6）（20240524第7201期）</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=np_Oce4XeSg"/>
   <author>
    <name>stone记</name>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
-  <published>2024-05-20T21:45:54+00:00</published>
-  <updated>2024-05-21T05:44:41+00:00</updated>
+  <published>2024-05-24T09:37:58+00:00</published>
+  <updated>2024-05-25T07:14:18+00:00</updated>
   <media:group>
-   <media:title>赖清德有种是个好样的，就职典礼喊出两国论，两岸互不隶属一边一国（20240520第7187期）</media:title>
-   <media:content url="https://www.youtube.com/v/OnlD-EHwmRs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/OnlD-EHwmRs/hqdefault.jpg" width="480" height="360"/>
+   <media:title>温铁军卢麒元：俄乌之战：和平之路或永久战争（6）（20240524第7201期）</media:title>
+   <media:content url="https://www.youtube.com/v/np_Oce4XeSg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/np_Oce4XeSg/hqdefault.jpg" width="480" height="360"/>
    <media:description>加入stone记会员链接
 https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw/join
 合作联系Twitter：stone记@stone62855987
@@ -297,27 +297,27 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="566" average="5.00" min="1" max="5"/>
-    <media:statistics views="69664"/>
+    <media:starRating count="119" average="5.00" min="1" max="5"/>
+    <media:statistics views="22338"/>
    </media:community>
   </media:group>
  </entry>
  <entry>
-  <id>yt:video:TC3Gi8YsqBk</id>
-  <yt:videoId>TC3Gi8YsqBk</yt:videoId>
+  <id>yt:video:hn7Zuj1vQJ8</id>
+  <yt:videoId>hn7Zuj1vQJ8</yt:videoId>
   <yt:channelId>UCghLs6s95LrBWOdlZUCH4qw</yt:channelId>
-  <title>贾跃亭创造奇迹，法拉第未来股价暴涨1619%（20240520第7186期）</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=TC3Gi8YsqBk"/>
+  <title>温铁军卢麒元：资本环流，暗度陈仓与金融之重（5）（20240523第7200期）</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=hn7Zuj1vQJ8"/>
   <author>
    <name>stone记</name>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
-  <published>2024-05-20T21:38:39+00:00</published>
-  <updated>2024-05-21T06:23:49+00:00</updated>
+  <published>2024-05-24T09:00:19+00:00</published>
+  <updated>2024-05-25T06:41:11+00:00</updated>
   <media:group>
-   <media:title>贾跃亭创造奇迹，法拉第未来股价暴涨1619%（20240520第7186期）</media:title>
-   <media:content url="https://www.youtube.com/v/TC3Gi8YsqBk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i1.ytimg.com/vi/TC3Gi8YsqBk/hqdefault.jpg" width="480" height="360"/>
+   <media:title>温铁军卢麒元：资本环流，暗度陈仓与金融之重（5）（20240523第7200期）</media:title>
+   <media:content url="https://www.youtube.com/v/hn7Zuj1vQJ8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/hn7Zuj1vQJ8/hqdefault.jpg" width="480" height="360"/>
    <media:description>加入stone记会员链接
 https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw/join
 合作联系Twitter：stone记@stone62855987
@@ -370,27 +370,27 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="117" average="5.00" min="1" max="5"/>
-    <media:statistics views="20706"/>
+    <media:starRating count="77" average="5.00" min="1" max="5"/>
+    <media:statistics views="13053"/>
    </media:community>
   </media:group>
  </entry>
  <entry>
-  <id>yt:video:Em68kesr2r8</id>
-  <yt:videoId>Em68kesr2r8</yt:videoId>
+  <id>yt:video:v1EH1P0tjKw</id>
+  <yt:videoId>v1EH1P0tjKw</yt:videoId>
   <yt:channelId>UCghLs6s95LrBWOdlZUCH4qw</yt:channelId>
-  <title>黄奇帆：预言2024中国房地产（20240520第7181期）</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=Em68kesr2r8"/>
+  <title>5月22日郭文贵刑事案审判第一天（20240523第7197期）</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=v1EH1P0tjKw"/>
   <author>
    <name>stone记</name>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
-  <published>2024-05-20T20:52:46+00:00</published>
-  <updated>2024-05-21T06:31:14+00:00</updated>
+  <published>2024-05-23T08:55:36+00:00</published>
+  <updated>2024-05-24T06:46:11+00:00</updated>
   <media:group>
-   <media:title>黄奇帆：预言2024中国房地产（20240520第7181期）</media:title>
-   <media:content url="https://www.youtube.com/v/Em68kesr2r8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/Em68kesr2r8/hqdefault.jpg" width="480" height="360"/>
+   <media:title>5月22日郭文贵刑事案审判第一天（20240523第7197期）</media:title>
+   <media:content url="https://www.youtube.com/v/v1EH1P0tjKw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/v1EH1P0tjKw/hqdefault.jpg" width="480" height="360"/>
    <media:description>加入stone记会员链接
 https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw/join
 合作联系Twitter：stone记@stone62855987
@@ -443,27 +443,27 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="205" average="5.00" min="1" max="5"/>
-    <media:statistics views="41138"/>
+    <media:starRating count="188" average="5.00" min="1" max="5"/>
+    <media:statistics views="43451"/>
    </media:community>
   </media:group>
  </entry>
  <entry>
-  <id>yt:video:Sx7wzOqtmN8</id>
-  <yt:videoId>Sx7wzOqtmN8</yt:videoId>
+  <id>yt:video:8P26a0globA</id>
+  <yt:videoId>8P26a0globA</yt:videoId>
   <yt:channelId>UCghLs6s95LrBWOdlZUCH4qw</yt:channelId>
-  <title>山东小伙郭有才爆火，一个人带火一座城（20240519第7183期）</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=Sx7wzOqtmN8"/>
+  <title>解放军宣布即日起在台湾全岛展开“武统台湾”全过程实弹演习（20240523第7198期）</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=8P26a0globA"/>
   <author>
    <name>stone记</name>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
-  <published>2024-05-20T07:07:40+00:00</published>
-  <updated>2024-05-21T06:39:53+00:00</updated>
+  <published>2024-05-23T08:55:13+00:00</published>
+  <updated>2024-05-25T11:08:01+00:00</updated>
   <media:group>
-   <media:title>山东小伙郭有才爆火，一个人带火一座城（20240519第7183期）</media:title>
-   <media:content url="https://www.youtube.com/v/Sx7wzOqtmN8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/Sx7wzOqtmN8/hqdefault.jpg" width="480" height="360"/>
+   <media:title>解放军宣布即日起在台湾全岛展开“武统台湾”全过程实弹演习（20240523第7198期）</media:title>
+   <media:content url="https://www.youtube.com/v/8P26a0globA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/8P26a0globA/hqdefault.jpg" width="480" height="360"/>
    <media:description>加入stone记会员链接
 https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw/join
 合作联系Twitter：stone记@stone62855987
@@ -516,27 +516,27 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="180" average="5.00" min="1" max="5"/>
-    <media:statistics views="31017"/>
+    <media:starRating count="594" average="5.00" min="1" max="5"/>
+    <media:statistics views="116696"/>
    </media:community>
   </media:group>
  </entry>
  <entry>
-  <id>yt:video:f28txJgB9cc</id>
-  <yt:videoId>f28txJgB9cc</yt:videoId>
+  <id>yt:video:UUrFsx2qbzU</id>
+  <yt:videoId>UUrFsx2qbzU</yt:videoId>
   <yt:channelId>UCghLs6s95LrBWOdlZUCH4qw</yt:channelId>
-  <title>黄奇帆谈最新中国经济形势：中国的出口发生了根本性的变化（20240519第7182期）</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=f28txJgB9cc"/>
+  <title>英国媒体暗示中共将为中共执行间谍任务的英国人灭口（20240523第7199期）</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=UUrFsx2qbzU"/>
   <author>
    <name>stone记</name>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
-  <published>2024-05-20T07:05:25+00:00</published>
-  <updated>2024-05-21T06:28:17+00:00</updated>
+  <published>2024-05-23T08:50:23+00:00</published>
+  <updated>2024-05-24T06:37:46+00:00</updated>
   <media:group>
-   <media:title>黄奇帆谈最新中国经济形势：中国的出口发生了根本性的变化（20240519第7182期）</media:title>
-   <media:content url="https://www.youtube.com/v/f28txJgB9cc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/f28txJgB9cc/hqdefault.jpg" width="480" height="360"/>
+   <media:title>英国媒体暗示中共将为中共执行间谍任务的英国人灭口（20240523第7199期）</media:title>
+   <media:content url="https://www.youtube.com/v/UUrFsx2qbzU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/UUrFsx2qbzU/hqdefault.jpg" width="480" height="360"/>
    <media:description>加入stone记会员链接
 https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw/join
 合作联系Twitter：stone记@stone62855987
@@ -589,27 +589,27 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="231" average="5.00" min="1" max="5"/>
-    <media:statistics views="45652"/>
+    <media:starRating count="109" average="5.00" min="1" max="5"/>
+    <media:statistics views="25764"/>
    </media:community>
   </media:group>
  </entry>
  <entry>
-  <id>yt:video:iF-aXc8UIJg</id>
-  <yt:videoId>iF-aXc8UIJg</yt:videoId>
+  <id>yt:video:OD-xfP7zSKM</id>
+  <yt:videoId>OD-xfP7zSKM</yt:videoId>
   <yt:channelId>UCghLs6s95LrBWOdlZUCH4qw</yt:channelId>
-  <title>温铁军卢麒元：资源资本化，苏东灾祸与中国之困（2）（20240519第7180期）</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=iF-aXc8UIJg"/>
+  <title>中菲录音门，突显小马科斯和泽连斯基面对美国爸爸时的无奈（20240522第7195期）</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=OD-xfP7zSKM"/>
   <author>
    <name>stone记</name>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
-  <published>2024-05-20T04:45:12+00:00</published>
-  <updated>2024-05-21T01:31:58+00:00</updated>
+  <published>2024-05-23T01:38:55+00:00</published>
+  <updated>2024-05-23T07:06:53+00:00</updated>
   <media:group>
-   <media:title>温铁军卢麒元：资源资本化，苏东灾祸与中国之困（2）（20240519第7180期）</media:title>
-   <media:content url="https://www.youtube.com/v/iF-aXc8UIJg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/iF-aXc8UIJg/hqdefault.jpg" width="480" height="360"/>
+   <media:title>中菲录音门，突显小马科斯和泽连斯基面对美国爸爸时的无奈（20240522第7195期）</media:title>
+   <media:content url="https://www.youtube.com/v/OD-xfP7zSKM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/OD-xfP7zSKM/hqdefault.jpg" width="480" height="360"/>
    <media:description>加入stone记会员链接
 https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw/join
 合作联系Twitter：stone记@stone62855987
@@ -662,27 +662,27 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="76" average="5.00" min="1" max="5"/>
-    <media:statistics views="14019"/>
+    <media:starRating count="290" average="5.00" min="1" max="5"/>
+    <media:statistics views="55502"/>
    </media:community>
   </media:group>
  </entry>
  <entry>
-  <id>yt:video:9AwWWIOApB4</id>
-  <yt:videoId>9AwWWIOApB4</yt:videoId>
+  <id>yt:video:Nkg7ZTe7w4w</id>
+  <yt:videoId>Nkg7ZTe7w4w</yt:videoId>
   <yt:channelId>UCghLs6s95LrBWOdlZUCH4qw</yt:channelId>
-  <title>官方确认：伊朗总统和外交部长都去世，但是伊朗不会乱（20240519第7179期）</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=9AwWWIOApB4"/>
+  <title>苹果真不要脸，苹果iPad Pro将12GB内存阉割成8GB卖顾客（20240522第7196期）</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Nkg7ZTe7w4w"/>
   <author>
    <name>stone记</name>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
-  <published>2024-05-20T04:33:36+00:00</published>
-  <updated>2024-05-21T02:09:59+00:00</updated>
+  <published>2024-05-23T00:57:29+00:00</published>
+  <updated>2024-05-24T03:06:49+00:00</updated>
   <media:group>
-   <media:title>官方确认：伊朗总统和外交部长都去世，但是伊朗不会乱（20240519第7179期）</media:title>
-   <media:content url="https://www.youtube.com/v/9AwWWIOApB4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/9AwWWIOApB4/hqdefault.jpg" width="480" height="360"/>
+   <media:title>苹果真不要脸，苹果iPad Pro将12GB内存阉割成8GB卖顾客（20240522第7196期）</media:title>
+   <media:content url="https://www.youtube.com/v/Nkg7ZTe7w4w?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/Nkg7ZTe7w4w/hqdefault.jpg" width="480" height="360"/>
    <media:description>加入stone记会员链接
 https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw/join
 合作联系Twitter：stone记@stone62855987
@@ -735,27 +735,27 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="210" average="5.00" min="1" max="5"/>
-    <media:statistics views="36650"/>
+    <media:starRating count="233" average="5.00" min="1" max="5"/>
+    <media:statistics views="34185"/>
    </media:community>
   </media:group>
  </entry>
  <entry>
-  <id>yt:video:BpNWaq1F1bc</id>
-  <yt:videoId>BpNWaq1F1bc</yt:videoId>
+  <id>yt:video:Aa3XzfjnNmU</id>
+  <yt:videoId>Aa3XzfjnNmU</yt:videoId>
   <yt:channelId>UCghLs6s95LrBWOdlZUCH4qw</yt:channelId>
-  <title>温铁军卢麒元：全球化危机，新殖民主义，幸免的社会主义国家（1）（20240519第7178期）</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=BpNWaq1F1bc"/>
+  <title>中共全面封杀暴富网红，被领导睡过的就是明星，没被领导睡过的就是网红（20240521第7193期）</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Aa3XzfjnNmU"/>
   <author>
    <name>stone记</name>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
-  <published>2024-05-20T03:00:21+00:00</published>
-  <updated>2024-05-21T01:40:37+00:00</updated>
+  <published>2024-05-22T08:28:32+00:00</published>
+  <updated>2024-05-24T03:42:31+00:00</updated>
   <media:group>
-   <media:title>温铁军卢麒元：全球化危机，新殖民主义，幸免的社会主义国家（1）（20240519第7178期）</media:title>
-   <media:content url="https://www.youtube.com/v/BpNWaq1F1bc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/BpNWaq1F1bc/hqdefault.jpg" width="480" height="360"/>
+   <media:title>中共全面封杀暴富网红，被领导睡过的就是明星，没被领导睡过的就是网红（20240521第7193期）</media:title>
+   <media:content url="https://www.youtube.com/v/Aa3XzfjnNmU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/Aa3XzfjnNmU/hqdefault.jpg" width="480" height="360"/>
    <media:description>加入stone记会员链接
 https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw/join
 合作联系Twitter：stone记@stone62855987
@@ -808,27 +808,27 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="138" average="5.00" min="1" max="5"/>
-    <media:statistics views="17387"/>
+    <media:starRating count="501" average="5.00" min="1" max="5"/>
+    <media:statistics views="92067"/>
    </media:community>
   </media:group>
  </entry>
  <entry>
-  <id>yt:video:R-zUJcc3CuE</id>
-  <yt:videoId>R-zUJcc3CuE</yt:videoId>
+  <id>yt:video:7Ve_zuAt-jw</id>
+  <yt:videoId>7Ve_zuAt-jw</yt:videoId>
   <yt:channelId>UCghLs6s95LrBWOdlZUCH4qw</yt:channelId>
-  <title>日经：中国日本高端IT人才薪酬差距越来越大，中国比日本高70%（20240519第7177期）</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=R-zUJcc3CuE"/>
+  <title>大陆5月无差别报复社会恶性频频发生，大陆戾气十足动不动就拿刀砍人捅人（20240521第7192期）</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=7Ve_zuAt-jw"/>
   <author>
    <name>stone记</name>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
-  <published>2024-05-20T01:54:52+00:00</published>
-  <updated>2024-05-21T01:28:43+00:00</updated>
+  <published>2024-05-22T07:43:56+00:00</published>
+  <updated>2024-05-23T06:45:44+00:00</updated>
   <media:group>
-   <media:title>日经：中国日本高端IT人才薪酬差距越来越大，中国比日本高70%（20240519第7177期）</media:title>
-   <media:content url="https://www.youtube.com/v/R-zUJcc3CuE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/R-zUJcc3CuE/hqdefault.jpg" width="480" height="360"/>
+   <media:title>大陆5月无差别报复社会恶性频频发生，大陆戾气十足动不动就拿刀砍人捅人（20240521第7192期）</media:title>
+   <media:content url="https://www.youtube.com/v/7Ve_zuAt-jw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/7Ve_zuAt-jw/hqdefault.jpg" width="480" height="360"/>
    <media:description>加入stone记会员链接
 https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw/join
 合作联系Twitter：stone记@stone62855987
@@ -881,27 +881,27 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="176" average="5.00" min="1" max="5"/>
-    <media:statistics views="30070"/>
+    <media:starRating count="204" average="5.00" min="1" max="5"/>
+    <media:statistics views="48278"/>
    </media:community>
   </media:group>
  </entry>
  <entry>
-  <id>yt:video:uLOtlPl-wdc</id>
-  <yt:videoId>uLOtlPl-wdc</yt:videoId>
+  <id>yt:video:ZnSxOwNwCYM</id>
+  <yt:videoId>ZnSxOwNwCYM</yt:videoId>
   <yt:channelId>UCghLs6s95LrBWOdlZUCH4qw</yt:channelId>
-  <title>卢麒元成名作：伤于财政 毁于金融（20240518第7176期）</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=uLOtlPl-wdc"/>
+  <title>日经：中国民营企业快速增长，拉动就业人数激增（20240521第7191期）</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=ZnSxOwNwCYM"/>
   <author>
    <name>stone记</name>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
-  <published>2024-05-18T22:56:14+00:00</published>
-  <updated>2024-05-21T02:04:39+00:00</updated>
+  <published>2024-05-22T06:30:30+00:00</published>
+  <updated>2024-05-23T18:47:29+00:00</updated>
   <media:group>
-   <media:title>卢麒元成名作：伤于财政 毁于金融（20240518第7176期）</media:title>
-   <media:content url="https://www.youtube.com/v/uLOtlPl-wdc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/uLOtlPl-wdc/hqdefault.jpg" width="480" height="360"/>
+   <media:title>日经：中国民营企业快速增长，拉动就业人数激增（20240521第7191期）</media:title>
+   <media:content url="https://www.youtube.com/v/ZnSxOwNwCYM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/ZnSxOwNwCYM/hqdefault.jpg" width="480" height="360"/>
    <media:description>加入stone记会员链接
 https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw/join
 合作联系Twitter：stone记@stone62855987
@@ -954,27 +954,27 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="163" average="5.00" min="1" max="5"/>
-    <media:statistics views="29548"/>
+    <media:starRating count="121" average="5.00" min="1" max="5"/>
+    <media:statistics views="21569"/>
    </media:community>
   </media:group>
  </entry>
  <entry>
-  <id>yt:video:C0_kI1jPC7U</id>
-  <yt:videoId>C0_kI1jPC7U</yt:videoId>
+  <id>yt:video:EdwyC068o0s</id>
+  <yt:videoId>EdwyC068o0s</yt:videoId>
   <yt:channelId>UCghLs6s95LrBWOdlZUCH4qw</yt:channelId>
-  <title>卢麒元：税政改革，一场不流血的革命（3:3）（20240518第7175期）</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=C0_kI1jPC7U"/>
+  <title>国际刑事法庭以反人类罪申请全球通缉以色列总理内塔尼亚胡和国防部长加兰特（20240521第7190期）</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=EdwyC068o0s"/>
   <author>
    <name>stone记</name>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
-  <published>2024-05-18T22:49:14+00:00</published>
-  <updated>2024-05-21T01:37:13+00:00</updated>
+  <published>2024-05-22T06:29:37+00:00</published>
+  <updated>2024-05-24T06:14:07+00:00</updated>
   <media:group>
-   <media:title>卢麒元：税政改革，一场不流血的革命（3:3）（20240518第7175期）</media:title>
-   <media:content url="https://www.youtube.com/v/C0_kI1jPC7U?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/C0_kI1jPC7U/hqdefault.jpg" width="480" height="360"/>
+   <media:title>国际刑事法庭以反人类罪申请全球通缉以色列总理内塔尼亚胡和国防部长加兰特（20240521第7190期）</media:title>
+   <media:content url="https://www.youtube.com/v/EdwyC068o0s?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/EdwyC068o0s/hqdefault.jpg" width="480" height="360"/>
    <media:description>加入stone记会员链接
 https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw/join
 合作联系Twitter：stone记@stone62855987
@@ -1027,27 +1027,27 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="95" average="5.00" min="1" max="5"/>
-    <media:statistics views="12787"/>
+    <media:starRating count="112" average="5.00" min="1" max="5"/>
+    <media:statistics views="21101"/>
    </media:community>
   </media:group>
  </entry>
  <entry>
-  <id>yt:video:nGtGEM0lrmQ</id>
-  <yt:videoId>nGtGEM0lrmQ</yt:videoId>
+  <id>yt:video:EvIM-hd6saM</id>
+  <yt:videoId>EvIM-hd6saM</yt:videoId>
   <yt:channelId>UCghLs6s95LrBWOdlZUCH4qw</yt:channelId>
-  <title>EQS Maybach, Grand Edition版本的G63（20240518第7214期）</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=nGtGEM0lrmQ"/>
+  <title>中国政府的死亡底线（20240521第7188期）</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=EvIM-hd6saM"/>
   <author>
    <name>stone记</name>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
-  <published>2024-05-18T14:00:31+00:00</published>
-  <updated>2024-05-21T02:06:37+00:00</updated>
+  <published>2024-05-22T06:22:12+00:00</published>
+  <updated>2024-05-23T11:52:03+00:00</updated>
   <media:group>
-   <media:title>EQS Maybach, Grand Edition版本的G63（20240518第7214期）</media:title>
-   <media:content url="https://www.youtube.com/v/nGtGEM0lrmQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/nGtGEM0lrmQ/hqdefault.jpg" width="480" height="360"/>
+   <media:title>中国政府的死亡底线（20240521第7188期）</media:title>
+   <media:content url="https://www.youtube.com/v/EvIM-hd6saM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/EvIM-hd6saM/hqdefault.jpg" width="480" height="360"/>
    <media:description>加入stone记会员链接
 https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw/join
 合作联系Twitter：stone记@stone62855987
@@ -1100,8 +1100,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="71" average="5.00" min="1" max="5"/>
-    <media:statistics views="13938"/>
+    <media:starRating count="335" average="5.00" min="1" max="5"/>
+    <media:statistics views="71454"/>
    </media:community>
   </media:group>
  </entry>
