@@ -11,6 +11,29 @@
  </author>
  <published>2020-08-21T01:53:13+00:00</published>
  <entry>
+  <id>yt:video:Lxbu0uKOh8s</id>
+  <yt:videoId>Lxbu0uKOh8s</yt:videoId>
+  <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
+  <title>和毒枭叫板的作死网红</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Lxbu0uKOh8s"/>
+  <author>
+   <name>绝密研究所</name>
+   <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
+  </author>
+  <published>2024-05-26T00:00:07+00:00</published>
+  <updated>2024-05-26T00:07:28+00:00</updated>
+  <media:group>
+   <media:title>和毒枭叫板的作死网红</media:title>
+   <media:content url="https://www.youtube.com/v/Lxbu0uKOh8s?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/Lxbu0uKOh8s/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="10"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:8bAv_TqMDK8</id>
   <yt:videoId>8bAv_TqMDK8</yt:videoId>
   <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
@@ -21,7 +44,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-05-25T00:15:06+00:00</published>
-  <updated>2024-05-25T00:22:13+00:00</updated>
+  <updated>2024-05-26T05:17:02+00:00</updated>
   <media:group>
    <media:title>没有外星人，才最为恐怖</media:title>
    <media:content url="https://www.youtube.com/v/8bAv_TqMDK8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -29,30 +52,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="51"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:Lxbu0uKOh8s</id>
-  <yt:videoId>Lxbu0uKOh8s</yt:videoId>
-  <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
-  <title>和毒枭叫板的作死网红</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=Lxbu0uKOh8s"/>
-  <author>
-   <name>绝密研究所</name>
-   <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
-  </author>
-  <published>2024-05-24T08:30:55+00:00</published>
-  <updated>2024-05-25T07:15:22+00:00</updated>
-  <media:group>
-   <media:title>和毒枭叫板的作死网红</media:title>
-   <media:content url="https://www.youtube.com/v/Lxbu0uKOh8s?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i1.ytimg.com/vi/Lxbu0uKOh8s/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="0" average="0.00" min="1" max="5"/>
-    <media:statistics views="0"/>
+    <media:statistics views="67"/>
    </media:community>
   </media:group>
  </entry>
@@ -75,7 +75,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="32"/>
+    <media:statistics views="34"/>
    </media:community>
   </media:group>
  </entry>
@@ -90,7 +90,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-05-23T08:59:28+00:00</published>
-  <updated>2024-05-24T05:58:54+00:00</updated>
+  <updated>2024-05-26T07:22:09+00:00</updated>
   <media:group>
    <media:title>14岁冰封少女， 500年容颜未变</media:title>
    <media:content url="https://www.youtube.com/v/mAD9xmHJa54?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -98,7 +98,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="30"/>
+    <media:statistics views="34"/>
    </media:community>
   </media:group>
  </entry>
@@ -121,7 +121,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="195"/>
+    <media:statistics views="217"/>
    </media:community>
   </media:group>
  </entry>
@@ -144,7 +144,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="97"/>
+    <media:statistics views="101"/>
    </media:community>
   </media:group>
  </entry>
@@ -167,7 +167,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="440"/>
+    <media:statistics views="442"/>
    </media:community>
   </media:group>
  </entry>
@@ -190,7 +190,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="186"/>
+    <media:statistics views="185"/>
    </media:community>
   </media:group>
  </entry>
@@ -213,7 +213,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="157"/>
+    <media:statistics views="158"/>
    </media:community>
   </media:group>
  </entry>
@@ -259,7 +259,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="94"/>
+    <media:statistics views="93"/>
    </media:community>
   </media:group>
  </entry>
@@ -305,7 +305,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="3" average="5.00" min="1" max="5"/>
-    <media:statistics views="73"/>
+    <media:statistics views="74"/>
    </media:community>
   </media:group>
  </entry>

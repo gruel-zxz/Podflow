@@ -29,8 +29,8 @@
    <media:description>一场芯片与人脑的较量，生与死边缘的我如何获得永生？《学习成为我》Learning to Be Me 原著：格雷格伊根，出自科幻小说集《祈祷之海》，这篇堪称神作，非常建议大家看看原著。
 抱歉了大家，拖更了半个月，最近总算把几个长篇内容搞完了，近期恢复每周更新。</media:description>
    <media:community>
-    <media:starRating count="69" average="5.00" min="1" max="5"/>
-    <media:statistics views="2665"/>
+    <media:starRating count="71" average="5.00" min="1" max="5"/>
+    <media:statistics views="2832"/>
    </media:community>
   </media:group>
  </entry>
@@ -52,8 +52,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/72G9lxhGpfU/hqdefault.jpg" width="480" height="360"/>
    <media:description>天文学家发现“时间逆流星系”，能用它来做什么？《百光年日记》，原著：格雷格.伊根。</media:description>
    <media:community>
-    <media:starRating count="137" average="5.00" min="1" max="5"/>
-    <media:statistics views="5882"/>
+    <media:starRating count="138" average="5.00" min="1" max="5"/>
+    <media:statistics views="5916"/>
    </media:community>
   </media:group>
  </entry>
@@ -76,7 +76,7 @@
    <media:description>当外星人的科技树点错之后：科幻小说《最后一个外星人》了，这是一篇有趣的小说，希望大家喜欢。</media:description>
    <media:community>
     <media:starRating count="187" average="5.00" min="1" max="5"/>
-    <media:statistics views="7161"/>
+    <media:statistics views="7185"/>
    </media:community>
   </media:group>
  </entry>
@@ -99,7 +99,7 @@
    <media:description>我们近期用AI作了这首歌曲，还算满意，大家听听看这个咋样。不过这首还是有点瑕疵，最近训练AI很久了，下次给大家呈现出更好的视听体验。这首就当纯娱乐。</media:description>
    <media:community>
     <media:starRating count="51" average="5.00" min="1" max="5"/>
-    <media:statistics views="1479"/>
+    <media:statistics views="1491"/>
    </media:community>
   </media:group>
  </entry>
@@ -122,8 +122,8 @@
    <media:description>《过去已死》下集，原著：阿西莫夫。
 这是另一部阿西莫夫的代表作，只是中文版出版太晚了，很多读者也是近两年来才接触到，让我们一起欣赏一下吧。</media:description>
    <media:community>
-    <media:starRating count="80" average="5.00" min="1" max="5"/>
-    <media:statistics views="4335"/>
+    <media:starRating count="81" average="5.00" min="1" max="5"/>
+    <media:statistics views="4346"/>
    </media:community>
   </media:group>
  </entry>
@@ -146,7 +146,7 @@
    <media:description>《过去已死》,原著：阿西莫夫，出自|《阿西莫夫科幻短篇全集》。是作者的另一部代表作。</media:description>
    <media:community>
     <media:starRating count="177" average="5.00" min="1" max="5"/>
-    <media:statistics views="9624"/>
+    <media:statistics views="9637"/>
    </media:community>
   </media:group>
  </entry>
@@ -161,7 +161,7 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2024-04-10T12:07:30+00:00</published>
-  <updated>2024-05-12T10:25:10+00:00</updated>
+  <updated>2024-05-24T01:52:41+00:00</updated>
   <media:group>
    <media:title>群星的背面，“它们”在眨着眼睛：科幻小说《群星的背面》有彩蛋</media:title>
    <media:content url="https://www.youtube.com/v/UBvDhbysid0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -170,7 +170,7 @@
 《群星的背面》作者：谢云宁，他来了！</media:description>
    <media:community>
     <media:starRating count="134" average="5.00" min="1" max="5"/>
-    <media:statistics views="5337"/>
+    <media:statistics views="5349"/>
    </media:community>
   </media:group>
  </entry>
@@ -193,7 +193,7 @@
    <media:description>谢缵泰：中国飞艇设计制造的第一人，也是中国航空先驱。于1899年完成了首例飞艇的设计。科幻小说《龙骸》，出自雨果奖获得者海漄的科幻作品集《海漄怪奇故事集》，《龙骸》中涉及到的历史人物均有原型。</media:description>
    <media:community>
     <media:starRating count="147" average="5.00" min="1" max="5"/>
-    <media:statistics views="8592"/>
+    <media:statistics views="8606"/>
    </media:community>
   </media:group>
  </entry>
@@ -208,7 +208,7 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2024-03-27T08:08:06+00:00</published>
-  <updated>2024-05-12T11:39:13+00:00</updated>
+  <updated>2024-05-24T03:28:00+00:00</updated>
   <media:group>
    <media:title>当人类缩小十万倍，变成细菌大小，世界会发生怎样的变化？</media:title>
    <media:content url="https://www.youtube.com/v/ZdpxbqNuolg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -217,7 +217,7 @@
 当人类缩小十万倍，变成细菌大小</media:description>
    <media:community>
     <media:starRating count="107" average="5.00" min="1" max="5"/>
-    <media:statistics views="4672"/>
+    <media:statistics views="4680"/>
    </media:community>
   </media:group>
  </entry>
@@ -239,7 +239,7 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/BsXzCiDN5SU/hqdefault.jpg" width="480" height="360"/>
    <media:description>我们也顺应时代，开始制作5分钟以内的短内容了，当然长视频不会断更。只是在此基础上增加了短视频的数量。</media:description>
    <media:community>
-    <media:starRating count="90" average="5.00" min="1" max="5"/>
+    <media:starRating count="91" average="5.00" min="1" max="5"/>
     <media:statistics views="3887"/>
    </media:community>
   </media:group>
@@ -263,7 +263,7 @@
    <media:description>我们的第二期克苏鲁风格作品——《诡丽幻谭》。《诡丽幻谭》创刊于1923年，主打奇幻、科幻、惊悚等各类型怪奇文学，创刊100年后由国内阿拉法文化从杂志100年来的几千篇小说中，挑选了25篇最有代表性的作品，翻译成中文，集结成了这部《诡丽幻谭·百年精选·Vol.1》。</media:description>
    <media:community>
     <media:starRating count="112" average="5.00" min="1" max="5"/>
-    <media:statistics views="5750"/>
+    <media:statistics views="5759"/>
    </media:community>
   </media:group>
  </entry>
@@ -286,7 +286,7 @@
    <media:description>《电车悖论》是基于电车难题”的再创作，将古老的问题放置于未来社会的背景之下。小说曾刊登再科幻世界杂志（原著：康乃馨），虽然过去了很多年，但是值得让更多的人看见。</media:description>
    <media:community>
     <media:starRating count="162" average="5.00" min="1" max="5"/>
-    <media:statistics views="8850"/>
+    <media:statistics views="8857"/>
    </media:community>
   </media:group>
  </entry>
@@ -309,7 +309,7 @@
    <media:description>《米奇7号》，原著：爱德华·阿什顿。这部一经问世，便获得了美国全国公共广播电台2022最佳图书奖，《寄生虫》的导演奉俊昊也将其改编为电影剧本，预计2025年会和大家见面。</media:description>
    <media:community>
     <media:starRating count="155" average="5.00" min="1" max="5"/>
-    <media:statistics views="8583"/>
+    <media:statistics views="8591"/>
    </media:community>
   </media:group>
  </entry>
@@ -332,8 +332,8 @@
    <media:description>刘慈欣、那多，联合推荐本书，书中写出了“奇点”到来后的那一刻。那一刻，无数人想过却没想清，无数人想写却没写出.....
 这是一部非常硬核的国产长篇科幻小说，作者用专业的知识，为我们呈现了这部《造神年代》，建议感兴趣的同学阅读原著。《造神年代》原著：严曦。</media:description>
    <media:community>
-    <media:starRating count="172" average="5.00" min="1" max="5"/>
-    <media:statistics views="8557"/>
+    <media:starRating count="173" average="5.00" min="1" max="5"/>
+    <media:statistics views="8558"/>
    </media:community>
   </media:group>
  </entry>
@@ -355,8 +355,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/xJ8hsPpczvI/hqdefault.jpg" width="480" height="360"/>
    <media:description>《逃兵》上世纪40年代的科幻作品，原著：克利福德.西马克，作者以较为严谨的写作手法和大胆的想象力，在上世纪就为我们构想出了另类生命对人类的看法，是科幻黄金时代的佳作之一。</media:description>
    <media:community>
-    <media:starRating count="155" average="5.00" min="1" max="5"/>
-    <media:statistics views="7252"/>
+    <media:starRating count="156" average="5.00" min="1" max="5"/>
+    <media:statistics views="7255"/>
    </media:community>
   </media:group>
  </entry>

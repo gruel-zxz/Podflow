@@ -11,6 +11,29 @@
  </author>
  <published>2022-06-04T16:17:27+00:00</published>
  <entry>
+  <id>yt:video:QsWVOxadI_Q</id>
+  <yt:videoId>QsWVOxadI_Q</yt:videoId>
+  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
+  <title>是我不理解东北的浪漫，还是他们对浪漫过敏#爱吐槽的四季妈妈 #家庭吐槽大会</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=QsWVOxadI_Q"/>
+  <author>
+   <name>四季妈妈—小龙</name>
+   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
+  </author>
+  <published>2024-05-26T07:40:35+00:00</published>
+  <updated>2024-05-26T07:41:01+00:00</updated>
+  <media:group>
+   <media:title>是我不理解东北的浪漫，还是他们对浪漫过敏#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
+   <media:content url="https://www.youtube.com/v/QsWVOxadI_Q?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/QsWVOxadI_Q/hqdefault.jpg" width="480" height="360"/>
+   <media:description>我真的不理解，是我不了解东北的浪漫，还是东北人对浪漫有“过敏反应”？#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
+   <media:community>
+    <media:starRating count="5" average="5.00" min="1" max="5"/>
+    <media:statistics views="18"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:Mgp5GDXjv4w</id>
   <yt:videoId>Mgp5GDXjv4w</yt:videoId>
   <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
@@ -28,8 +51,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/Mgp5GDXjv4w/hqdefault.jpg" width="480" height="360"/>
    <media:description>为什么男人对“盘”情有独钟？干巴的东西真的入不了他们的眼吗？#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="98"/>
+    <media:starRating count="5" average="5.00" min="1" max="5"/>
+    <media:statistics views="126"/>
    </media:community>
   </media:group>
  </entry>
@@ -52,7 +75,7 @@
    <media:description>我一直以为这是老公特有的暗号，结果发现所有男人都在用它！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="244"/>
+    <media:statistics views="270"/>
    </media:community>
   </media:group>
  </entry>
@@ -75,7 +98,7 @@
    <media:description>到底是我们太强，还是老外太弱？真相揭晓！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="145"/>
+    <media:statistics views="150"/>
    </media:community>
   </media:group>
  </entry>
@@ -97,8 +120,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/At6TScH6W8g/hqdefault.jpg" width="480" height="360"/>
    <media:description>男人为什么对自驾情有独钟？是自由、冒险，还是掌控感？#爱吐槽的四季妈妈</media:description>
    <media:community>
-    <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="339"/>
+    <media:starRating count="7" average="5.00" min="1" max="5"/>
+    <media:statistics views="379"/>
    </media:community>
   </media:group>
  </entry>
@@ -144,7 +167,7 @@
    <media:description>在青岛夜市的体验真是难忘，感受到了浓郁的山东啤酒文化。提袋儿喝的啤酒果然有独特的风味！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="291"/>
+    <media:statistics views="299"/>
    </media:community>
   </media:group>
  </entry>
@@ -190,7 +213,7 @@
    <media:description>东北爷们，你们认同吗？只有外表坚强，内心柔软的东北姑娘才能真正降服你们！在我们的家庭吐槽大会上，一起探讨东北姑娘的魅力所在吧！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="9" average="5.00" min="1" max="5"/>
-    <media:statistics views="358"/>
+    <media:statistics views="359"/>
    </media:community>
   </media:group>
  </entry>
@@ -286,7 +309,7 @@
 别忘了点赞、订阅，并在评论区留言，告诉我你今天喝了什么茶，和谁一起喝的，分享你的喝茶心情！期待和大家一起度过愉快的喝茶时光！#喝茶放松 #茶友聚会 #生活品味 #悠闲时光</media:description>
    <media:community>
     <media:starRating count="17" average="5.00" min="1" max="5"/>
-    <media:statistics views="827"/>
+    <media:statistics views="830"/>
    </media:community>
   </media:group>
  </entry>
@@ -313,7 +336,7 @@
 别忘了点赞、订阅，并在评论区分享你对旗袍穿搭和茶园的想法。期待和大家一起分享更多有趣的家庭吐槽！#旗袍时光 #茶园漫步 #茶友聚会 #生活美学</media:description>
    <media:community>
     <media:starRating count="35" average="5.00" min="1" max="5"/>
-    <media:statistics views="859"/>
+    <media:statistics views="860"/>
    </media:community>
   </media:group>
  </entry>
@@ -341,33 +364,6 @@
    <media:community>
     <media:starRating count="20" average="5.00" min="1" max="5"/>
     <media:statistics views="863"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:oGY8s-oftn8</id>
-  <yt:videoId>oGY8s-oftn8</yt:videoId>
-  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
-  <title>老公说我不懂茶？来西湖找最好的西湖龙井，主打一个叛逆！</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=oGY8s-oftn8"/>
-  <author>
-   <name>四季妈妈—小龙</name>
-   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
-  </author>
-  <published>2024-04-28T11:15:00+00:00</published>
-  <updated>2024-05-22T05:39:04+00:00</updated>
-  <media:group>
-   <media:title>老公说我不懂茶？来西湖找最好的西湖龙井，主打一个叛逆！</media:title>
-   <media:content url="https://www.youtube.com/v/oGY8s-oftn8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/oGY8s-oftn8/hqdefault.jpg" width="480" height="360"/>
-   <media:description>大家好，欢迎来到我的频道！在这期视频中，我要向老公证明我懂茶！听说西湖龙井是茶界的顶级佳品，于是我决定来到西湖，寻找最好的西湖龙井，主打一个叛逆！
-
-西湖龙井作为中国十大名茶之一，以其独特的风味和历史传承而闻名于世。我要在这里寻找到最顶级的西湖龙井，向老公展示我对茶的理解和品鉴能力！
-
-别忘了点赞、订阅，并在评论区分享你对西湖龙井的了解和自己的茶叶故事。期待和大家一起分享更多有趣的家庭吐槽！#西湖龙井 #茶叶品鉴 #家庭挑战 #茶叶文化</media:description>
-   <media:community>
-    <media:starRating count="48" average="5.00" min="1" max="5"/>
-    <media:statistics views="3130"/>
    </media:community>
   </media:group>
  </entry>
