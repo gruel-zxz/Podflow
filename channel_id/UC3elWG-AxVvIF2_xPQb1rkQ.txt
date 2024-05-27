@@ -21,15 +21,15 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-05-26T07:40:35+00:00</published>
-  <updated>2024-05-26T07:41:01+00:00</updated>
+  <updated>2024-05-27T05:58:29+00:00</updated>
   <media:group>
    <media:title>是我不理解东北的浪漫，还是他们对浪漫过敏#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
    <media:content url="https://www.youtube.com/v/QsWVOxadI_Q?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i2.ytimg.com/vi/QsWVOxadI_Q/hqdefault.jpg" width="480" height="360"/>
    <media:description>我真的不理解，是我不了解东北的浪漫，还是东北人对浪漫有“过敏反应”？#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="18"/>
+    <media:starRating count="22" average="5.00" min="1" max="5"/>
+    <media:statistics views="1207"/>
    </media:community>
   </media:group>
  </entry>
@@ -52,7 +52,7 @@
    <media:description>为什么男人对“盘”情有独钟？干巴的东西真的入不了他们的眼吗？#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="126"/>
+    <media:statistics views="148"/>
    </media:community>
   </media:group>
  </entry>
@@ -67,7 +67,7 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-05-22T04:04:21+00:00</published>
-  <updated>2024-05-24T04:59:35+00:00</updated>
+  <updated>2024-05-25T11:39:13+00:00</updated>
   <media:group>
    <media:title>我以为是老公特有的暗号，没想到所有男人都用它#爱吐槽的四季妈妈 #家庭吐槽大会|</media:title>
    <media:content url="https://www.youtube.com/v/e6emQY9_-Dk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -75,7 +75,7 @@
    <media:description>我一直以为这是老公特有的暗号，结果发现所有男人都在用它！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="270"/>
+    <media:statistics views="293"/>
    </media:community>
   </media:group>
  </entry>
@@ -98,7 +98,7 @@
    <media:description>到底是我们太强，还是老外太弱？真相揭晓！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="150"/>
+    <media:statistics views="169"/>
    </media:community>
   </media:group>
  </entry>
@@ -121,7 +121,7 @@
    <media:description>男人为什么对自驾情有独钟？是自由、冒险，还是掌控感？#爱吐槽的四季妈妈</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="379"/>
+    <media:statistics views="388"/>
    </media:community>
   </media:group>
  </entry>
@@ -144,7 +144,7 @@
    <media:description>真没想到，我们会在自己的地盘上被老外踩了一脚！#爱吐槽的四季妈妈 #歌手2024 #歌手2024首发歌手名单</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="276"/>
+    <media:statistics views="280"/>
    </media:community>
   </media:group>
  </entry>
@@ -167,7 +167,7 @@
    <media:description>在青岛夜市的体验真是难忘，感受到了浓郁的山东啤酒文化。提袋儿喝的啤酒果然有独特的风味！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="299"/>
+    <media:statistics views="307"/>
    </media:community>
   </media:group>
  </entry>
@@ -190,7 +190,7 @@
    <media:description>&quot;发现山东人口才的不可思议之处！我们带你走进吐槽大会，揭开四季妈妈们幽默的口才秘密。准备好笑得前仰后合了吗？#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="14" average="5.00" min="1" max="5"/>
-    <media:statistics views="639"/>
+    <media:statistics views="640"/>
    </media:community>
   </media:group>
  </entry>
@@ -213,7 +213,7 @@
    <media:description>东北爷们，你们认同吗？只有外表坚强，内心柔软的东北姑娘才能真正降服你们！在我们的家庭吐槽大会上，一起探讨东北姑娘的魅力所在吧！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="9" average="5.00" min="1" max="5"/>
-    <media:statistics views="359"/>
+    <media:statistics views="362"/>
    </media:community>
   </media:group>
  </entry>
@@ -309,7 +309,7 @@
 别忘了点赞、订阅，并在评论区留言，告诉我你今天喝了什么茶，和谁一起喝的，分享你的喝茶心情！期待和大家一起度过愉快的喝茶时光！#喝茶放松 #茶友聚会 #生活品味 #悠闲时光</media:description>
    <media:community>
     <media:starRating count="17" average="5.00" min="1" max="5"/>
-    <media:statistics views="830"/>
+    <media:statistics views="834"/>
    </media:community>
   </media:group>
  </entry>
@@ -336,7 +336,7 @@
 别忘了点赞、订阅，并在评论区分享你对旗袍穿搭和茶园的想法。期待和大家一起分享更多有趣的家庭吐槽！#旗袍时光 #茶园漫步 #茶友聚会 #生活美学</media:description>
    <media:community>
     <media:starRating count="35" average="5.00" min="1" max="5"/>
-    <media:statistics views="860"/>
+    <media:statistics views="874"/>
    </media:community>
   </media:group>
  </entry>
@@ -362,8 +362,8 @@
 
 别忘了点赞、订阅，并在评论区分享你对茶园的美景感受和自己的茶道心得。期待和大家一起分享更多有关喝茶的乐趣！#西湖龙井茶园 #茶道体验 #茶香清幽 #茶友聚会</media:description>
    <media:community>
-    <media:starRating count="20" average="5.00" min="1" max="5"/>
-    <media:statistics views="863"/>
+    <media:starRating count="21" average="5.00" min="1" max="5"/>
+    <media:statistics views="871"/>
    </media:community>
   </media:group>
  </entry>

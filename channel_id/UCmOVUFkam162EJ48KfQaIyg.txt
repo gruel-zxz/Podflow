@@ -81,7 +81,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="1031"/>
+    <media:statistics views="1038"/>
    </media:community>
   </media:group>
  </entry>
@@ -156,7 +156,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="22" average="5.00" min="1" max="5"/>
-    <media:statistics views="2481"/>
+    <media:statistics views="2483"/>
    </media:community>
   </media:group>
  </entry>
@@ -231,7 +231,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="612"/>
+    <media:statistics views="614"/>
    </media:community>
   </media:group>
  </entry>
@@ -306,7 +306,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="13" average="5.00" min="1" max="5"/>
-    <media:statistics views="1379"/>
+    <media:statistics views="1380"/>
    </media:community>
   </media:group>
  </entry>
@@ -471,7 +471,7 @@ Twitter：stone记@stone62855987</media:description>
    <uri>https://www.youtube.com/channel/UCmOVUFkam162EJ48KfQaIyg</uri>
   </author>
   <published>2024-01-24T05:58:03+00:00</published>
-  <updated>2024-05-08T07:51:28+00:00</updated>
+  <updated>2024-05-25T19:23:30+00:00</updated>
   <media:group>
    <media:title>第一家就直奔Atlas（20240123第6744期）</media:title>
    <media:content url="https://www.youtube.com/v/lCth04kPnY0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -531,7 +531,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="23" average="5.00" min="1" max="5"/>
-    <media:statistics views="2817"/>
+    <media:statistics views="2819"/>
    </media:community>
   </media:group>
  </entry>
@@ -681,7 +681,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="32" average="5.00" min="1" max="5"/>
-    <media:statistics views="7605"/>
+    <media:statistics views="7607"/>
    </media:community>
   </media:group>
  </entry>
@@ -906,7 +906,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="16" average="5.00" min="1" max="5"/>
-    <media:statistics views="3480"/>
+    <media:statistics views="3481"/>
    </media:community>
   </media:group>
  </entry>
@@ -921,7 +921,7 @@ Twitter：stone记@stone62855987</media:description>
    <uri>https://www.youtube.com/channel/UCmOVUFkam162EJ48KfQaIyg</uri>
   </author>
   <published>2023-05-23T04:15:00+00:00</published>
-  <updated>2024-05-08T00:32:36+00:00</updated>
+  <updated>2024-05-25T22:45:15+00:00</updated>
   <media:group>
    <media:title>JP5 对比 CMMG Banshee 300（20230522第5984期）</media:title>
    <media:content url="https://www.youtube.com/v/kCPR17fMDOU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -1056,7 +1056,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="31" average="5.00" min="1" max="5"/>
-    <media:statistics views="5957"/>
+    <media:statistics views="5959"/>
    </media:community>
   </media:group>
  </entry>

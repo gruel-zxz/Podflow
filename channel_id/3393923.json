@@ -15,8 +15,8 @@
         "type": 0,
         "desc": "bilibili 知名搞笑UP主"
     },
-    "entry": [
-        {
+    "entry": {
+        "BV1Vs421g7NN": {
             "aid": 1855239536,
             "author": "无无无无语森",
             "bvid": "BV1Vs421g7NN",
@@ -30,7 +30,7 @@
             "title": "您夫人让您开空调吗？",
             "typeid": 138
         },
-        {
+        "BV1wb421q7hm": {
             "aid": 1804912537,
             "author": "无无无无语森",
             "bvid": "BV1wb421q7hm",
@@ -44,7 +44,7 @@
             "title": "您真做过违背祖宗的决定吗？",
             "typeid": 138
         },
-        {
+        "BV1Ki421D7kD": {
             "aid": 1454669072,
             "author": "无无无无语森",
             "bvid": "BV1Ki421D7kD",
@@ -58,7 +58,7 @@
             "title": "我发现一特好的吃午饭的地",
             "typeid": 138
         },
-        {
+        "BV1aE42137Xg": {
             "aid": 1654427831,
             "author": "无无无无语森",
             "bvid": "BV1aE42137Xg",
@@ -72,7 +72,7 @@
             "title": "为什么老板爱安排加班？",
             "typeid": 138
         },
-        {
+        "BV1Wm421H7hr": {
             "aid": 1604152611,
             "author": "无无无无语森",
             "bvid": "BV1Wm421H7hr",
@@ -86,7 +86,7 @@
             "title": "您上回睡好了是什么时候",
             "typeid": 138
         },
-        {
+        "BV1eD421T786": {
             "aid": 1503769342,
             "author": "无无无无语森",
             "bvid": "BV1eD421T786",
@@ -100,7 +100,7 @@
             "title": "您有没有这种状态？",
             "typeid": 138
         },
-        {
+        "BV1oZ421J72w": {
             "aid": 1153946835,
             "author": "无无无无语森",
             "bvid": "BV1oZ421J72w",
@@ -114,7 +114,7 @@
             "title": "您最近后悔什么",
             "typeid": 138
         },
-        {
+        "BV1Hu4m1c7KM": {
             "aid": 1303635339,
             "author": "无无无无语森",
             "bvid": "BV1Hu4m1c7KM",
@@ -128,7 +128,7 @@
             "title": "男的多大就不幼稚了？",
             "typeid": 138
         },
-        {
+        "BV16Z421Y7Gv": {
             "aid": 1153253037,
             "author": "无无无无语森",
             "bvid": "BV16Z421Y7Gv",
@@ -142,7 +142,7 @@
             "title": "到底有多少人不上班？",
             "typeid": 138
         },
-        {
+        "BV1DD421H7gW": {
             "aid": 1502885612,
             "author": "无无无无语森",
             "bvid": "BV1DD421H7gW",
@@ -156,7 +156,7 @@
             "title": "您去过后劲最大的地方是哪",
             "typeid": 138
         },
-        {
+        "BV1M1421S7BC": {
             "aid": 1552624215,
             "author": "无无无无语森",
             "bvid": "BV1M1421S7BC",
@@ -170,7 +170,7 @@
             "title": "吃饭怎么着最难受",
             "typeid": 138
         },
-        {
+        "BV1bj421R7vv": {
             "aid": 1652043125,
             "author": "无无无无语森",
             "bvid": "BV1bj421R7vv",
@@ -184,7 +184,7 @@
             "title": "春天来了咱上哪啊",
             "typeid": 138
         },
-        {
+        "BV1zx421C7fk": {
             "aid": 1751780592,
             "author": "无无无无语森",
             "bvid": "BV1zx421C7fk",
@@ -198,7 +198,7 @@
             "title": "您从几岁开始懂事？",
             "typeid": 138
         },
-        {
+        "BV1gu4m1g7K9": {
             "aid": 1301653635,
             "author": "无无无无语森",
             "bvid": "BV1gu4m1g7K9",
@@ -212,7 +212,7 @@
             "title": "您去过企鹅村吗",
             "typeid": 138
         },
-        {
+        "BV1wW421A74f": {
             "aid": 1851434294,
             "author": "无无无无语森",
             "bvid": "BV1wW421A74f",
@@ -226,7 +226,7 @@
             "title": "怎么做PPT",
             "typeid": 138
         },
-        {
+        "BV1E4421c7ac": {
             "aid": 1750827820,
             "author": "无无无无语森",
             "bvid": "BV1E4421c7ac",
@@ -240,7 +240,7 @@
             "title": "您每天好好洗脸吗",
             "typeid": 138
         },
-        {
+        "BV1hz421R7eD": {
             "aid": 1351030768,
             "author": "无无无无语森",
             "bvid": "BV1hz421R7eD",
@@ -254,7 +254,7 @@
             "title": "你妈嫌你屋脏么",
             "typeid": 138
         },
-        {
+        "BV1qF4m1j7hN": {
             "aid": 1201097338,
             "author": "无无无无语森",
             "bvid": "BV1qF4m1j7hN",
@@ -268,7 +268,7 @@
             "title": "您挨过揍么",
             "typeid": 138
         },
-        {
+        "BV14x4y1y7xP": {
             "aid": 1000760613,
             "author": "无无无无语森",
             "bvid": "BV14x4y1y7xP",
@@ -282,7 +282,7 @@
             "title": "一礼拜了您适应了吗",
             "typeid": 138
         },
-        {
+        "BV1LZ421m7SD": {
             "aid": 1150656934,
             "author": "无无无无语森",
             "bvid": "BV1LZ421m7SD",
@@ -296,7 +296,7 @@
             "title": "您情人节看过电影吗",
             "typeid": 138
         },
-        {
+        "BV1hK421k7q3": {
             "aid": 1700639496,
             "author": "无无无无语森",
             "bvid": "BV1hK421k7q3",
@@ -310,7 +310,7 @@
             "title": "我为什么不更新（春节放假版）",
             "typeid": 138
         },
-        {
+        "BV1Cp421o7Ch": {
             "aid": 1850430201,
             "author": "无无无无语森",
             "bvid": "BV1Cp421o7Ch",
@@ -324,7 +324,7 @@
             "title": "您放假了吗",
             "typeid": 138
         },
-        {
+        "BV1sA4m1L7tR": {
             "aid": 1100036512,
             "author": "无无无无语森",
             "bvid": "BV1sA4m1L7tR",
@@ -338,7 +338,7 @@
             "title": "高兴时候别看：我学会怎么躺平了",
             "typeid": 138
         },
-        {
+        "BV1Y64y1w7KV": {
             "aid": 581801938,
             "author": "无无无无语森",
             "bvid": "BV1Y64y1w7KV",
@@ -352,7 +352,7 @@
             "title": "澡堂子应该怎么开",
             "typeid": 138
         },
-        {
+        "BV1pe411Y78z": {
             "aid": 239179835,
             "author": "无无无无语森",
             "bvid": "BV1pe411Y78z",
@@ -366,7 +366,7 @@
             "title": "您家冰箱满吗",
             "typeid": 138
         }
-    ],
+    },
     "list": [
         "BV1Vs421g7NN",
         "BV1wb421q7hm",

@@ -20,15 +20,15 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-05-24T11:00:33+00:00</published>
-  <updated>2024-05-24T11:05:04+00:00</updated>
+  <updated>2024-05-26T14:00:39+00:00</updated>
   <media:group>
    <media:title>guess! that! invention!</media:title>
    <media:content url="https://www.youtube.com/v/_Ay8wL9QmXA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i4.ytimg.com/vi/_Ay8wL9QmXA/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="428" average="5.00" min="1" max="5"/>
-    <media:statistics views="14338"/>
+    <media:starRating count="613" average="5.00" min="1" max="5"/>
+    <media:statistics views="21849"/>
    </media:community>
   </media:group>
  </entry>
@@ -50,8 +50,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/SwHfaMBh8us/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="312" average="5.00" min="1" max="5"/>
-    <media:statistics views="9789"/>
+    <media:starRating count="415" average="5.00" min="1" max="5"/>
+    <media:statistics views="12915"/>
    </media:community>
   </media:group>
  </entry>
@@ -97,8 +97,8 @@ Featured Creators:
  
 #Inventors #SimoneGiertz</media:description>
    <media:community>
-    <media:starRating count="10574" average="5.00" min="1" max="5"/>
-    <media:statistics views="660748"/>
+    <media:starRating count="10672" average="5.00" min="1" max="5"/>
+    <media:statistics views="666237"/>
    </media:community>
   </media:group>
  </entry>
@@ -113,15 +113,15 @@ Featured Creators:
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-05-21T21:00:20+00:00</published>
-  <updated>2024-05-23T10:28:57+00:00</updated>
+  <updated>2024-05-25T18:07:14+00:00</updated>
   <media:group>
    <media:title>thank you MatPat for inspiring so many throughout the years @GameTheory  #YouTubeCreatorCollective</media:title>
    <media:content url="https://www.youtube.com/v/r6nw765Qa1w?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i3.ytimg.com/vi/r6nw765Qa1w/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1029" average="5.00" min="1" max="5"/>
-    <media:statistics views="23648"/>
+    <media:starRating count="1145" average="5.00" min="1" max="5"/>
+    <media:statistics views="26178"/>
    </media:community>
   </media:group>
  </entry>
@@ -143,8 +143,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/jKXlnYGRQyE/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3230" average="5.00" min="1" max="5"/>
-    <media:statistics views="81033"/>
+    <media:starRating count="3327" average="5.00" min="1" max="5"/>
+    <media:statistics views="84356"/>
    </media:community>
   </media:group>
  </entry>
@@ -166,8 +166,8 @@ Featured Creators:
    <media:thumbnail url="https://i2.ytimg.com/vi/iSyLvVQqG0U/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1632" average="5.00" min="1" max="5"/>
-    <media:statistics views="42621"/>
+    <media:starRating count="1691" average="5.00" min="1" max="5"/>
+    <media:statistics views="44258"/>
    </media:community>
   </media:group>
  </entry>
@@ -189,8 +189,8 @@ Featured Creators:
    <media:thumbnail url="https://i2.ytimg.com/vi/mi24tIUWuQA/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1836" average="5.00" min="1" max="5"/>
-    <media:statistics views="46917"/>
+    <media:starRating count="1917" average="5.00" min="1" max="5"/>
+    <media:statistics views="48893"/>
    </media:community>
   </media:group>
  </entry>
@@ -212,8 +212,8 @@ Featured Creators:
    <media:thumbnail url="https://i2.ytimg.com/vi/A7Sx93iwEqk/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1075" average="5.00" min="1" max="5"/>
-    <media:statistics views="41957"/>
+    <media:starRating count="1107" average="5.00" min="1" max="5"/>
+    <media:statistics views="43137"/>
    </media:community>
   </media:group>
  </entry>
@@ -235,8 +235,8 @@ Featured Creators:
    <media:thumbnail url="https://i2.ytimg.com/vi/icc4wu0iGiw/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4829" average="5.00" min="1" max="5"/>
-    <media:statistics views="105439"/>
+    <media:starRating count="4902" average="5.00" min="1" max="5"/>
+    <media:statistics views="107442"/>
    </media:community>
   </media:group>
  </entry>
@@ -258,8 +258,8 @@ Featured Creators:
    <media:thumbnail url="https://i4.ytimg.com/vi/oOhGmSVZOnk/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4303" average="5.00" min="1" max="5"/>
-    <media:statistics views="102354"/>
+    <media:starRating count="4335" average="5.00" min="1" max="5"/>
+    <media:statistics views="103775"/>
    </media:community>
   </media:group>
  </entry>
@@ -281,8 +281,8 @@ Featured Creators:
    <media:thumbnail url="https://i1.ytimg.com/vi/0A0BKCfjQ-Y/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2415" average="5.00" min="1" max="5"/>
-    <media:statistics views="71484"/>
+    <media:starRating count="2447" average="5.00" min="1" max="5"/>
+    <media:statistics views="72641"/>
    </media:community>
   </media:group>
  </entry>
@@ -304,8 +304,8 @@ Featured Creators:
    <media:thumbnail url="https://i2.ytimg.com/vi/mtr1ZgNzj5c/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3442" average="5.00" min="1" max="5"/>
-    <media:statistics views="85985"/>
+    <media:starRating count="3461" average="5.00" min="1" max="5"/>
+    <media:statistics views="87131"/>
    </media:community>
   </media:group>
  </entry>
@@ -327,8 +327,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/bwBiX_MvVRk/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4085" average="5.00" min="1" max="5"/>
-    <media:statistics views="114689"/>
+    <media:starRating count="4119" average="5.00" min="1" max="5"/>
+    <media:statistics views="115760"/>
    </media:community>
   </media:group>
  </entry>
@@ -350,8 +350,8 @@ Featured Creators:
    <media:thumbnail url="https://i2.ytimg.com/vi/et9gw5xbtoY/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2170" average="5.00" min="1" max="5"/>
-    <media:statistics views="70900"/>
+    <media:starRating count="2183" average="5.00" min="1" max="5"/>
+    <media:statistics views="71648"/>
    </media:community>
   </media:group>
  </entry>
@@ -373,8 +373,8 @@ Featured Creators:
    <media:thumbnail url="https://i1.ytimg.com/vi/L3V-0T0462Y/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3432" average="5.00" min="1" max="5"/>
-    <media:statistics views="109816"/>
+    <media:starRating count="3447" average="5.00" min="1" max="5"/>
+    <media:statistics views="110837"/>
    </media:community>
   </media:group>
  </entry>

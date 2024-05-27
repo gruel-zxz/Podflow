@@ -11,6 +11,98 @@
  </author>
  <published>2020-08-21T01:53:13+00:00</published>
  <entry>
+  <id>yt:video:WIlOUGUVWfo</id>
+  <yt:videoId>WIlOUGUVWfo</yt:videoId>
+  <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
+  <title>结婚送花圈， 韩国花圈文化</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=WIlOUGUVWfo"/>
+  <author>
+   <name>绝密研究所</name>
+   <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
+  </author>
+  <published>2024-05-27T08:39:39+00:00</published>
+  <updated>2024-05-27T09:09:23+00:00</updated>
+  <media:group>
+   <media:title>结婚送花圈， 韩国花圈文化</media:title>
+   <media:content url="https://www.youtube.com/v/WIlOUGUVWfo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/WIlOUGUVWfo/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:gHroQWiVOsU</id>
+  <yt:videoId>gHroQWiVOsU</yt:videoId>
+  <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
+  <title>拜关公烧冥币，奇怪的中华文化输出</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=gHroQWiVOsU"/>
+  <author>
+   <name>绝密研究所</name>
+   <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
+  </author>
+  <published>2024-05-27T08:09:54+00:00</published>
+  <updated>2024-05-27T08:39:01+00:00</updated>
+  <media:group>
+   <media:title>拜关公烧冥币，奇怪的中华文化输出</media:title>
+   <media:content url="https://www.youtube.com/v/gHroQWiVOsU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/gHroQWiVOsU/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Fz2sziNQWaY</id>
+  <yt:videoId>Fz2sziNQWaY</yt:videoId>
+  <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
+  <title>职业病头号杀手，尘肺病</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Fz2sziNQWaY"/>
+  <author>
+   <name>绝密研究所</name>
+   <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
+  </author>
+  <published>2024-05-27T07:57:54+00:00</published>
+  <updated>2024-05-27T08:12:47+00:00</updated>
+  <media:group>
+   <media:title>职业病头号杀手，尘肺病</media:title>
+   <media:content url="https://www.youtube.com/v/Fz2sziNQWaY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/Fz2sziNQWaY/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:t6Dl8qvghtI</id>
+  <yt:videoId>t6Dl8qvghtI</yt:videoId>
+  <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
+  <title>飞天航母，前苏联跨时代武器</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=t6Dl8qvghtI"/>
+  <author>
+   <name>绝密研究所</name>
+   <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
+  </author>
+  <published>2024-05-27T07:57:38+00:00</published>
+  <updated>2024-05-27T08:04:53+00:00</updated>
+  <media:group>
+   <media:title>飞天航母，前苏联跨时代武器</media:title>
+   <media:content url="https://www.youtube.com/v/t6Dl8qvghtI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/t6Dl8qvghtI/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="17"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:Lxbu0uKOh8s</id>
   <yt:videoId>Lxbu0uKOh8s</yt:videoId>
   <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
@@ -28,8 +120,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/Lxbu0uKOh8s/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="0" average="0.00" min="1" max="5"/>
-    <media:statistics views="10"/>
+    <media:starRating count="2" average="5.00" min="1" max="5"/>
+    <media:statistics views="33"/>
    </media:community>
   </media:group>
  </entry>
@@ -51,8 +143,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/8bAv_TqMDK8/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="67"/>
+    <media:starRating count="2" average="5.00" min="1" max="5"/>
+    <media:statistics views="78"/>
    </media:community>
   </media:group>
  </entry>
@@ -67,15 +159,15 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-05-24T00:15:06+00:00</published>
-  <updated>2024-05-24T05:42:11+00:00</updated>
+  <updated>2024-05-26T11:51:24+00:00</updated>
   <media:group>
    <media:title>为啥大熊猫不租借给印度？</media:title>
    <media:content url="https://www.youtube.com/v/vw_31u6GujY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i3.ytimg.com/vi/vw_31u6GujY/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="34"/>
+    <media:starRating count="2" average="5.00" min="1" max="5"/>
+    <media:statistics views="35"/>
    </media:community>
   </media:group>
  </entry>
@@ -97,8 +189,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/mAD9xmHJa54/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="34"/>
+    <media:starRating count="3" average="5.00" min="1" max="5"/>
+    <media:statistics views="44"/>
    </media:community>
   </media:group>
  </entry>
@@ -113,7 +205,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-05-22T00:15:07+00:00</published>
-  <updated>2024-05-22T07:09:09+00:00</updated>
+  <updated>2024-05-26T09:30:57+00:00</updated>
   <media:group>
    <media:title>神經病專殺黑幫老大， 避走海外再犯滅門血案</media:title>
    <media:content url="https://www.youtube.com/v/bopbQsDGaHU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -121,7 +213,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="217"/>
+    <media:statistics views="215"/>
    </media:community>
   </media:group>
  </entry>
@@ -167,7 +259,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="442"/>
+    <media:statistics views="445"/>
    </media:community>
   </media:group>
  </entry>
@@ -190,7 +282,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="185"/>
+    <media:statistics views="187"/>
    </media:community>
   </media:group>
  </entry>
@@ -213,7 +305,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="158"/>
+    <media:statistics views="159"/>
    </media:community>
   </media:group>
  </entry>
@@ -259,99 +351,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="93"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:6ODBei6hXR0</id>
-  <yt:videoId>6ODBei6hXR0</yt:videoId>
-  <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
-  <title>可能撞击地球的贝努小行星</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=6ODBei6hXR0"/>
-  <author>
-   <name>绝密研究所</name>
-   <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
-  </author>
-  <published>2024-05-15T09:15:06+00:00</published>
-  <updated>2024-05-20T03:49:07+00:00</updated>
-  <media:group>
-   <media:title>可能撞击地球的贝努小行星</media:title>
-   <media:content url="https://www.youtube.com/v/6ODBei6hXR0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/6ODBei6hXR0/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="59"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:j8IkA_EU4l8</id>
-  <yt:videoId>j8IkA_EU4l8</yt:videoId>
-  <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
-  <title>唯一被抓到的UFO，外星人遭百般虐待</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=j8IkA_EU4l8"/>
-  <author>
-   <name>绝密研究所</name>
-   <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
-  </author>
-  <published>2024-05-14T08:40:17+00:00</published>
-  <updated>2024-05-15T10:36:52+00:00</updated>
-  <media:group>
-   <media:title>唯一被抓到的UFO，外星人遭百般虐待</media:title>
-   <media:content url="https://www.youtube.com/v/j8IkA_EU4l8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/j8IkA_EU4l8/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="3" average="5.00" min="1" max="5"/>
-    <media:statistics views="74"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:hQwF6VOwq0I</id>
-  <yt:videoId>hQwF6VOwq0I</yt:videoId>
-  <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
-  <title>为什么有人支持大熊猫灭绝？</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=hQwF6VOwq0I"/>
-  <author>
-   <name>绝密研究所</name>
-   <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
-  </author>
-  <published>2024-05-13T00:00:07+00:00</published>
-  <updated>2024-05-14T06:00:58+00:00</updated>
-  <media:group>
-   <media:title>为什么有人支持大熊猫灭绝？</media:title>
-   <media:content url="https://www.youtube.com/v/hQwF6VOwq0I?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i1.ytimg.com/vi/hQwF6VOwq0I/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="161"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:dc1UNj_1fJM</id>
-  <yt:videoId>dc1UNj_1fJM</yt:videoId>
-  <yt:channelId>UCXWy8yrS4WKhzbp36lW214w</yt:channelId>
-  <title>被CIA封存50年禁书，周期性地质灾难或将来袭</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=dc1UNj_1fJM"/>
-  <author>
-   <name>绝密研究所</name>
-   <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
-  </author>
-  <published>2024-05-12T00:00:06+00:00</published>
-  <updated>2024-05-14T03:08:16+00:00</updated>
-  <media:group>
-   <media:title>被CIA封存50年禁书，周期性地质灾难或将来袭</media:title>
-   <media:content url="https://www.youtube.com/v/dc1UNj_1fJM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i1.ytimg.com/vi/dc1UNj_1fJM/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="69"/>
+    <media:statistics views="95"/>
    </media:community>
   </media:group>
  </entry>

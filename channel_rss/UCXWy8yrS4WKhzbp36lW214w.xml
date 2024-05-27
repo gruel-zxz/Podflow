@@ -9,7 +9,7 @@ Please look at it from the perspective of objective rationality and science
         <category>TV &amp; Film</category>
         <generator>Podflow (support us at https://github.com/gruel-zxz/podflow)</generator>
         <language>en-us</language>
-        <lastBuildDate>Sun, 26 May 2024 17:42:45 +0800</lastBuildDate>
+        <lastBuildDate>Mon, 27 May 2024 22:40:17 +0800</lastBuildDate>
         <pubDate>Sun, 24 Apr 2005 11:20:54 +0800</pubDate>
         <image>
             <url>https://yt3.googleusercontent.com/ytc/AIdro_ljfPIXYHJrDEJ-Pes9g1Rp6Va2vEuUyhSA-YXHCMGddw=s2048-c-k-c0x00ffffff-no-rj</url>
@@ -23,6 +23,22 @@ Please look at it from the perspective of objective rationality and science
         <itunes:explicit>no</itunes:explicit>
         <itunes:category text="TV &amp; Film"></itunes:category>
 <!-- {UCXWy8yrS4WKhzbp36lW214w} -->
+<!-- UCXWy8yrS4WKhzbp36lW214w -->
+        <item>
+            <guid>t6Dl8qvghtI</guid>
+            <title>飞天航母，前苏联跨时代武器</title>
+            <link>https://youtube.com/watch?v=t6Dl8qvghtI</link>
+            <description>『绝密研究所』</description>
+            <pubDate>Mon, 27 May 2024 15:57:38 +0800</pubDate>
+            <enclosure url="https://raw.githubusercontent.com/gruel-zxz/podflow/main/channel_audiovisual/UCXWy8yrS4WKhzbp36lW214w/t6Dl8qvghtI.m4a" length="5078440" type="audio/x-m4a"></enclosure>
+            <itunes:author>飞天航母，前苏联跨时代武器</itunes:author>
+            <itunes:subtitle>飞天航母，前苏联跨时代武器</itunes:subtitle>
+            <itunes:summary><![CDATA[『绝密研究所』]]></itunes:summary>
+            <itunes:image href="https://i1.ytimg.com/vi/t6Dl8qvghtI/hqdefault.jpg"></itunes:image>
+            <itunes:duration>05:14</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:order>1</itunes:order>
+        </item>
 <!-- UCXWy8yrS4WKhzbp36lW214w -->
         <item>
             <guid>Lxbu0uKOh8s</guid>
@@ -804,22 +820,6 @@ Please look at it from the perspective of objective rationality and science
             <itunes:summary><![CDATA[『绝密研究所』]]></itunes:summary>
             <itunes:image href="https://i3.ytimg.com/vi/ZuoINc3NMiw/hqdefault.jpg"></itunes:image>
             <itunes:duration>04:33</itunes:duration>
-            <itunes:explicit>no</itunes:explicit>
-            <itunes:order>1</itunes:order>
-        </item>
-<!-- UCXWy8yrS4WKhzbp36lW214w -->
-        <item>
-            <guid>1CblLzfWIS4</guid>
-            <title>隔夜似砒霜 ，剩菜剩饭能吃不</title>
-            <link>https://youtube.com/watch?v=1CblLzfWIS4</link>
-            <description>『绝密研究所』</description>
-            <pubDate>Sun, 07 Apr 2024 16:26:29 +0800</pubDate>
-            <enclosure url="https://raw.githubusercontent.com/gruel-zxz/podflow/main/channel_audiovisual/UCXWy8yrS4WKhzbp36lW214w/1CblLzfWIS4.m4a" length="4262075" type="audio/x-m4a"></enclosure>
-            <itunes:author>隔夜似砒霜 ，剩菜剩饭能吃不</itunes:author>
-            <itunes:subtitle>隔夜似砒霜 ，剩菜剩饭能吃不</itunes:subtitle>
-            <itunes:summary><![CDATA[『绝密研究所』]]></itunes:summary>
-            <itunes:image href="https://i2.ytimg.com/vi/1CblLzfWIS4/hqdefault.jpg"></itunes:image>
-            <itunes:duration>04:24</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
             <itunes:order>1</itunes:order>
         </item>

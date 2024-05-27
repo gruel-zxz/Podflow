@@ -15,8 +15,8 @@
         "type": 0,
         "desc": "bilibili 知名音乐UP主、直播高能主播"
     },
-    "entry": [
-        {
+    "entry": {
+        "BV1wf421d7Wh": {
             "aid": 1204942823,
             "author": "鹿火CAVY",
             "bvid": "BV1wf421d7Wh",
@@ -30,7 +30,7 @@
             "title": "我 猜 你 会 选 潮 妹 ！",
             "typeid": 31
         },
-        {
+        "BV1Rz421U7rw": {
             "aid": 1354162437,
             "author": "鹿火CAVY",
             "bvid": "BV1Rz421U7rw",
@@ -44,7 +44,7 @@
             "title": "“这是我为你做的魔法~请再坚持一下”是马鹿唱了迷宫饭ed《キラキラの灰》",
             "typeid": 31
         },
-        {
+        "BV1SH4y1N78H": {
             "aid": 1053505796,
             "author": "鹿火CAVY",
             "bvid": "BV1SH4y1N78H",
@@ -58,7 +58,7 @@
             "title": "或许你还记得超级酷乐猫吗？超元气地唱了主题曲《ぐるぐるクロちゃん》",
             "typeid": 31
         },
-        {
+        "BV1Bx4y187mh": {
             "aid": 1003314669,
             "author": "鹿火CAVY",
             "bvid": "BV1Bx4y187mh",
@@ -72,7 +72,7 @@
             "title": "⚡钢 门 收 缩 术⚡ 进 来 赤 石 ！！",
             "typeid": 31
         },
-        {
+        "BV1RC411V7PG": {
             "aid": 1952753611,
             "author": "鹿火CAVY",
             "bvid": "BV1RC411V7PG",
@@ -86,7 +86,7 @@
             "title": "爽唱了《Bling-Bang-Bang-Born》顺便还健了个身！",
             "typeid": 31
         },
-        {
+        "BV1Kx4y1m72A": {
             "aid": 1002330870,
             "author": "鹿火CAVY",
             "bvid": "BV1Kx4y1m72A",
@@ -100,7 +100,7 @@
             "title": "“下次相遇，能再叫我一声伙伴吗”是薇薇公主给你唱了海贼王OP《Fight Together》",
             "typeid": 31
         },
-        {
+        "BV1Wr421n7Eo": {
             "aid": 1401838108,
             "author": "鹿火CAVY",
             "bvid": "BV1Wr421n7Eo",
@@ -114,7 +114,7 @@
             "title": "和自己激情合唱了《泰罗奥特曼》！",
             "typeid": 31
         },
-        {
+        "BV1at421L7Js": {
             "aid": 1801625521,
             "author": "鹿火CAVY",
             "bvid": "BV1at421L7Js",
@@ -128,7 +128,7 @@
             "title": "几年后孤单的露西给你唱了《I Really Want To Stay At Your House》【赛博朋克边缘行者】",
             "typeid": 31
         },
-        {
+        "BV1Dj421U7Gx": {
             "aid": 1651498870,
             "author": "鹿火CAVY",
             "bvid": "BV1Dj421U7Gx",
@@ -142,7 +142,7 @@
             "title": "一位精神良好的音乐区up简单活动了一下",
             "typeid": 22
         },
-        {
+        "BV1Fj421S75A": {
             "aid": 1651000980,
             "author": "鹿火CAVY",
             "bvid": "BV1Fj421S75A",
@@ -156,7 +156,7 @@
             "title": "“这世间 从一开始就已经结束了”",
             "typeid": 31
         },
-        {
+        "BV1H4421F7dE": {
             "aid": 1750683225,
             "author": "鹿火CAVY",
             "bvid": "BV1H4421F7dE",
@@ -170,7 +170,7 @@
             "title": "筋斗云只有内心纯洁的人才能坐！激情的唱了七龙珠《摩訶不思議アドベンチャー》",
             "typeid": 31
         },
-        {
+        "BV1Nv421i7pM": {
             "aid": 1450018859,
             "author": "鹿火CAVY",
             "bvid": "BV1Nv421i7pM",
@@ -184,7 +184,7 @@
             "title": "和 我 一 起 变 成 光 吧 ！",
             "typeid": 31
         },
-        {
+        "BV1at421H7yt": {
             "aid": 1800206614,
             "author": "鹿火CAVY",
             "bvid": "BV1at421H7yt",
@@ -198,7 +198,7 @@
             "title": "听第一遍：什么福星？！第二遍：上头！！！！",
             "typeid": 31
         },
-        {
+        "BV1Pk4y1S7hx": {
             "aid": 751759678,
             "author": "鹿火CAVY",
             "bvid": "BV1Pk4y1S7hx",
@@ -212,7 +212,7 @@
             "title": "曲娘递给你一杯酒并邀请你来听一首解忧曲！",
             "typeid": 31
         },
-        {
+        "BV1mg4y1S7F7": {
             "aid": 836216530,
             "author": "鹿火CAVY",
             "bvid": "BV1mg4y1S7F7",
@@ -226,7 +226,7 @@
             "title": "都2024年了还有快乐小鬼在唱《哆啦A梦之歌》",
             "typeid": 31
         },
-        {
+        "BV11i4y187Cn": {
             "aid": 537682491,
             "author": "鹿火CAVY",
             "bvid": "BV11i4y187Cn",
@@ -240,7 +240,7 @@
             "title": "是超天酱给你唱了《INTERNET OVERDOSE》顺便让你们看看我音游的底力！",
             "typeid": 31
         },
-        {
+        "BV1Qc411y7YW": {
             "aid": 282472444,
             "author": "鹿火CAVY",
             "bvid": "BV1Qc411y7YW",
@@ -254,7 +254,7 @@
             "title": "请不要露出像牺牲品一样的表情 | 纠结地唱了钢炼OP Again",
             "typeid": 31
         },
-        {
+        "BV1dG411i7c4": {
             "aid": 409101311,
             "author": "鹿火CAVY",
             "bvid": "BV1dG411i7c4",
@@ -268,7 +268,7 @@
             "title": "跟我一起7k7k棒棒！！唱了蹦迪神曲派对咖孔明OP《チキチキバンバン》",
             "typeid": 31
         },
-        {
+        "BV1KM411f7fm": {
             "aid": 536272003,
             "author": "鹿火CAVY",
             "bvid": "BV1KM411f7fm",
@@ -282,7 +282,7 @@
             "title": "好耶！是萨勒芬妮愉快地给你唱了《Childhood Dreams》",
             "typeid": 31
         },
-        {
+        "BV1Hw411P7eh": {
             "aid": 278739863,
             "author": "鹿火CAVY",
             "bvid": "BV1Hw411P7eh",
@@ -296,7 +296,7 @@
             "title": "为何我无法满足！癫狂地唱了OVERLORD第四季OP《HOLLOW HUNGER》",
             "typeid": 31
         },
-        {
+        "BV1z94y1V7r5": {
             "aid": 365688773,
             "author": "鹿火CAVY",
             "bvid": "BV1z94y1V7r5",
@@ -310,7 +310,7 @@
             "title": "《 像 笨 蛋 一 样 》 （超 深 情）",
             "typeid": 31
         },
-        {
+        "BV1za4y1Q7g8": {
             "aid": 663217410,
             "author": "鹿火CAVY",
             "bvid": "BV1za4y1Q7g8",
@@ -324,7 +324,7 @@
             "title": "我选择不了你们，但是谢谢你选择我",
             "typeid": 21
         },
-        {
+        "BV1Tw411B7QP": {
             "aid": 322916071,
             "author": "鹿火CAVY",
             "bvid": "BV1Tw411B7QP",
@@ -338,7 +338,7 @@
             "title": "做个怪胎 也只做我自己",
             "typeid": 31
         },
-        {
+        "BV12Q4y1p7PK": {
             "aid": 705023209,
             "author": "鹿火CAVY",
             "bvid": "BV12Q4y1p7PK",
@@ -352,7 +352,7 @@
             "title": "或许你还记得Q版三国？欢乐又羞耻的唱了主题曲《BA BA BA》",
             "typeid": 31
         },
-        {
+        "BV1Rh4y1q7P5": {
             "aid": 662331025,
             "author": "鹿火CAVY",
             "bvid": "BV1Rh4y1q7P5",
@@ -366,7 +366,7 @@
             "title": "来了！目标是神奇宝贝大师！",
             "typeid": 31
         }
-    ],
+    },
     "list": [
         "BV1wf421d7Wh",
         "BV1Rz421U7rw",
