@@ -81,7 +81,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="1038"/>
+    <media:statistics views="1043"/>
    </media:community>
   </media:group>
  </entry>
@@ -96,7 +96,7 @@ Twitter：stone记@stone62855987</media:description>
    <uri>https://www.youtube.com/channel/UCmOVUFkam162EJ48KfQaIyg</uri>
   </author>
   <published>2024-01-27T07:28:05+00:00</published>
-  <updated>2024-05-08T19:24:32+00:00</updated>
+  <updated>2024-05-27T11:45:59+00:00</updated>
   <media:group>
    <media:title>P365 AXG LEGION（20240126第6794期）</media:title>
    <media:content url="https://www.youtube.com/v/5D3PURUeS64?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -156,7 +156,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="22" average="5.00" min="1" max="5"/>
-    <media:statistics views="2483"/>
+    <media:statistics views="2485"/>
    </media:community>
   </media:group>
  </entry>
@@ -456,7 +456,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="956"/>
+    <media:statistics views="957"/>
    </media:community>
   </media:group>
  </entry>
@@ -531,7 +531,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="23" average="5.00" min="1" max="5"/>
-    <media:statistics views="2819"/>
+    <media:statistics views="2822"/>
    </media:community>
   </media:group>
  </entry>
@@ -606,7 +606,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="45" average="5.00" min="1" max="5"/>
-    <media:statistics views="8655"/>
+    <media:statistics views="8659"/>
    </media:community>
   </media:group>
  </entry>
@@ -681,7 +681,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="32" average="5.00" min="1" max="5"/>
-    <media:statistics views="7607"/>
+    <media:statistics views="7608"/>
    </media:community>
   </media:group>
  </entry>
@@ -696,7 +696,7 @@ Twitter：stone记@stone62855987</media:description>
    <uri>https://www.youtube.com/channel/UCmOVUFkam162EJ48KfQaIyg</uri>
   </author>
   <published>2023-06-30T22:30:00+00:00</published>
-  <updated>2024-05-08T05:30:34+00:00</updated>
+  <updated>2024-05-28T06:57:43+00:00</updated>
   <media:group>
    <media:title>Benelli M4可调节6个位置的stock tube，俄罗斯蹲（20230630第6114期）</media:title>
    <media:content url="https://www.youtube.com/v/5D-getPqCW8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -756,7 +756,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="20" average="5.00" min="1" max="5"/>
-    <media:statistics views="4224"/>
+    <media:statistics views="4225"/>
    </media:community>
   </media:group>
  </entry>
@@ -771,7 +771,7 @@ Twitter：stone记@stone62855987</media:description>
    <uri>https://www.youtube.com/channel/UCmOVUFkam162EJ48KfQaIyg</uri>
   </author>
   <published>2023-05-29T06:13:33+00:00</published>
-  <updated>2024-05-08T18:28:16+00:00</updated>
+  <updated>2024-05-27T08:03:48+00:00</updated>
   <media:group>
    <media:title>手枪的三种手部握持方法（20230529第6004期）</media:title>
    <media:content url="https://www.youtube.com/v/5Y2yIzUPYP0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -831,7 +831,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="20" average="5.00" min="1" max="5"/>
-    <media:statistics views="3108"/>
+    <media:statistics views="3109"/>
    </media:community>
   </media:group>
  </entry>
@@ -846,7 +846,7 @@ Twitter：stone记@stone62855987</media:description>
    <uri>https://www.youtube.com/channel/UCmOVUFkam162EJ48KfQaIyg</uri>
   </author>
   <published>2023-05-26T05:00:30+00:00</published>
-  <updated>2024-05-12T00:43:34+00:00</updated>
+  <updated>2024-05-27T18:18:04+00:00</updated>
   <media:group>
    <media:title>JP5, MPA Opne, Korth NXS（20230525第5994期）</media:title>
    <media:content url="https://www.youtube.com/v/sfXiZ4YGs8E?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -906,7 +906,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="16" average="5.00" min="1" max="5"/>
-    <media:statistics views="3481"/>
+    <media:statistics views="3482"/>
    </media:community>
   </media:group>
  </entry>
@@ -981,7 +981,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="28" average="5.00" min="1" max="5"/>
-    <media:statistics views="4074"/>
+    <media:statistics views="4076"/>
    </media:community>
   </media:group>
  </entry>
@@ -1131,7 +1131,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="16" average="5.00" min="1" max="5"/>
-    <media:statistics views="1900"/>
+    <media:statistics views="1902"/>
    </media:community>
   </media:group>
  </entry>
