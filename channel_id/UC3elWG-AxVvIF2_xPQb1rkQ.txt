@@ -11,6 +11,29 @@
  </author>
  <published>2022-06-04T16:17:27+00:00</published>
  <entry>
+  <id>yt:video:YtAsN4yZeRg</id>
+  <yt:videoId>YtAsN4yZeRg</yt:videoId>
+  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
+  <title>拿捏一个男人的心跳，竟然如此简单#爱吐槽的四季妈妈 #家庭吐槽大会</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=YtAsN4yZeRg"/>
+  <author>
+   <name>四季妈妈—小龙</name>
+   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
+  </author>
+  <published>2024-05-29T13:14:29+00:00</published>
+  <updated>2024-05-29T13:14:53+00:00</updated>
+  <media:group>
+   <media:title>拿捏一个男人的心跳，竟然如此简单#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
+   <media:content url="https://www.youtube.com/v/YtAsN4yZeRg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/YtAsN4yZeRg/hqdefault.jpg" width="480" height="360"/>
+   <media:description>没想到要抓住一个男人的心跳竟然这么容易！分享我的秘诀#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
+   <media:community>
+    <media:starRating count="4" average="5.00" min="1" max="5"/>
+    <media:statistics views="21"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:_EI_MAwkixQ</id>
   <yt:videoId>_EI_MAwkixQ</yt:videoId>
   <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
@@ -21,7 +44,7 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-05-28T06:01:03+00:00</published>
-  <updated>2024-05-28T06:02:06+00:00</updated>
+  <updated>2024-05-29T06:55:51+00:00</updated>
   <media:group>
    <media:title>全天下男人都会这样吗？带不同的女人吃同一家好吃的餐厅#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
    <media:content url="https://www.youtube.com/v/_EI_MAwkixQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -29,7 +52,7 @@
    <media:description>全天下的男人是不是都有这种习惯？总是带不同的女人去同一家好吃的餐厅！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="3" average="5.00" min="1" max="5"/>
-    <media:statistics views="103"/>
+    <media:statistics views="142"/>
    </media:community>
   </media:group>
  </entry>
@@ -51,8 +74,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/QsWVOxadI_Q/hqdefault.jpg" width="480" height="360"/>
    <media:description>我真的不理解，是我不了解东北的浪漫，还是东北人对浪漫有“过敏反应”？#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="38" average="5.00" min="1" max="5"/>
-    <media:statistics views="2062"/>
+    <media:starRating count="39" average="5.00" min="1" max="5"/>
+    <media:statistics views="2310"/>
    </media:community>
   </media:group>
  </entry>
@@ -75,7 +98,7 @@
    <media:description>为什么男人对“盘”情有独钟？干巴的东西真的入不了他们的眼吗？#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="160"/>
+    <media:statistics views="163"/>
    </media:community>
   </media:group>
  </entry>
@@ -98,7 +121,7 @@
    <media:description>我一直以为这是老公特有的暗号，结果发现所有男人都在用它！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="321"/>
+    <media:statistics views="326"/>
    </media:community>
   </media:group>
  </entry>
@@ -121,7 +144,7 @@
    <media:description>到底是我们太强，还是老外太弱？真相揭晓！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="178"/>
+    <media:statistics views="180"/>
    </media:community>
   </media:group>
  </entry>
@@ -259,7 +282,7 @@
    <media:description>在东北方言中，有一个字是几乎所有东北人都会说的。想知道是什么字吗？来参加我们的家庭吐槽大会，一起分享关于这个字的趣事和回忆！#爱吐槽的四季妈妈 #东北方言</media:description>
    <media:community>
     <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="301"/>
+    <media:statistics views="302"/>
    </media:community>
   </media:group>
  </entry>
@@ -305,7 +328,7 @@
    <media:description>我在杭州吃过的美食是西湖醋鱼，清爽酸甜的口味，配上嫩滑鲜嫩的鱼肉，回味无穷，令人难以忘怀</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="245"/>
+    <media:statistics views="246"/>
    </media:community>
   </media:group>
  </entry>
@@ -332,34 +355,7 @@
 别忘了点赞、订阅，并在评论区留言，告诉我你今天喝了什么茶，和谁一起喝的，分享你的喝茶心情！期待和大家一起度过愉快的喝茶时光！#喝茶放松 #茶友聚会 #生活品味 #悠闲时光</media:description>
    <media:community>
     <media:starRating count="17" average="5.00" min="1" max="5"/>
-    <media:statistics views="842"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:x4wE4IEhIPY</id>
-  <yt:videoId>x4wE4IEhIPY</yt:videoId>
-  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
-  <title>穿旗袍逛茶园～ #召唤茶友  #家庭吐槽大会 #爱吐槽的四季妈妈</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=x4wE4IEhIPY"/>
-  <author>
-   <name>四季妈妈—小龙</name>
-   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
-  </author>
-  <published>2024-04-29T06:05:26+00:00</published>
-  <updated>2024-05-22T02:16:06+00:00</updated>
-  <media:group>
-   <media:title>穿旗袍逛茶园～ #召唤茶友  #家庭吐槽大会 #爱吐槽的四季妈妈</media:title>
-   <media:content url="https://www.youtube.com/v/x4wE4IEhIPY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i1.ytimg.com/vi/x4wE4IEhIPY/hqdefault.jpg" width="480" height="360"/>
-   <media:description>大家好，欢迎来到我的频道！今天我穿上了漂亮的旗袍，准备去茶园享受一番美好时光！茶园中的每一丝清风，每一片翠绿，都让我感受到了别样的生活情趣。
-
-身着旗袍，我感觉仿佛回到了古代，置身于一片青翠的茶海之中，心情格外舒畅。在这里，我想要召唤茶友们一起来分享这份美好，一起品茶、聊天、感受生活的美好！
-
-别忘了点赞、订阅，并在评论区分享你对旗袍穿搭和茶园的想法。期待和大家一起分享更多有趣的家庭吐槽！#旗袍时光 #茶园漫步 #茶友聚会 #生活美学</media:description>
-   <media:community>
-    <media:starRating count="35" average="5.00" min="1" max="5"/>
-    <media:statistics views="889"/>
+    <media:statistics views="843"/>
    </media:community>
   </media:group>
  </entry>

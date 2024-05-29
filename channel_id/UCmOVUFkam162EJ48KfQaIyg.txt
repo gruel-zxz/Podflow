@@ -81,7 +81,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="1043"/>
+    <media:statistics views="1046"/>
    </media:community>
   </media:group>
  </entry>
@@ -156,7 +156,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="22" average="5.00" min="1" max="5"/>
-    <media:statistics views="2485"/>
+    <media:statistics views="2486"/>
    </media:community>
   </media:group>
  </entry>
@@ -606,7 +606,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="45" average="5.00" min="1" max="5"/>
-    <media:statistics views="8659"/>
+    <media:statistics views="8660"/>
    </media:community>
   </media:group>
  </entry>
@@ -621,7 +621,7 @@ Twitter：stone记@stone62855987</media:description>
    <uri>https://www.youtube.com/channel/UCmOVUFkam162EJ48KfQaIyg</uri>
   </author>
   <published>2023-07-16T20:17:01+00:00</published>
-  <updated>2024-05-13T06:05:04+00:00</updated>
+  <updated>2024-05-27T11:17:16+00:00</updated>
   <media:group>
    <media:title>左轮手枪是如何能够一秒钟打6枪的（20230716第6154期）</media:title>
    <media:content url="https://www.youtube.com/v/8IJTt4ULklM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -681,7 +681,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="32" average="5.00" min="1" max="5"/>
-    <media:statistics views="7608"/>
+    <media:statistics views="7609"/>
    </media:community>
   </media:group>
  </entry>
@@ -756,7 +756,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="20" average="5.00" min="1" max="5"/>
-    <media:statistics views="4225"/>
+    <media:statistics views="4224"/>
    </media:community>
   </media:group>
  </entry>
