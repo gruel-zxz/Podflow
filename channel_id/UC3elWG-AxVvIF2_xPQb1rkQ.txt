@@ -11,6 +11,29 @@
  </author>
  <published>2022-06-04T16:17:27+00:00</published>
  <entry>
+  <id>yt:video:JuGRD_marxs</id>
+  <yt:videoId>JuGRD_marxs</yt:videoId>
+  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
+  <title>这大概就是男人不爱过节的原因吧#爱吐槽的四季妈妈 #家庭吐槽大会</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=JuGRD_marxs"/>
+  <author>
+   <name>四季妈妈—小龙</name>
+   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
+  </author>
+  <published>2024-05-31T05:34:27+00:00</published>
+  <updated>2024-06-01T07:58:27+00:00</updated>
+  <media:group>
+   <media:title>这大概就是男人不爱过节的原因吧#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
+   <media:content url="https://www.youtube.com/v/JuGRD_marxs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/JuGRD_marxs/hqdefault.jpg" width="480" height="360"/>
+   <media:description>终于明白了，原来这才是男人不爱过节的真正原因！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
+   <media:community>
+    <media:starRating count="6" average="5.00" min="1" max="5"/>
+    <media:statistics views="182"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:YtAsN4yZeRg</id>
   <yt:videoId>YtAsN4yZeRg</yt:videoId>
   <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
@@ -21,15 +44,15 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-05-29T13:14:29+00:00</published>
-  <updated>2024-05-29T13:14:53+00:00</updated>
+  <updated>2024-05-31T06:28:40+00:00</updated>
   <media:group>
    <media:title>拿捏一个男人的心跳，竟然如此简单#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
    <media:content url="https://www.youtube.com/v/YtAsN4yZeRg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i2.ytimg.com/vi/YtAsN4yZeRg/hqdefault.jpg" width="480" height="360"/>
    <media:description>没想到要抓住一个男人的心跳竟然这么容易！分享我的秘诀#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="21"/>
+    <media:starRating count="12" average="5.00" min="1" max="5"/>
+    <media:statistics views="205"/>
    </media:community>
   </media:group>
  </entry>
@@ -52,7 +75,7 @@
    <media:description>全天下的男人是不是都有这种习惯？总是带不同的女人去同一家好吃的餐厅！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="3" average="5.00" min="1" max="5"/>
-    <media:statistics views="142"/>
+    <media:statistics views="208"/>
    </media:community>
   </media:group>
  </entry>
@@ -67,15 +90,15 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-05-26T07:40:35+00:00</published>
-  <updated>2024-05-28T06:07:41+00:00</updated>
+  <updated>2024-05-29T10:13:40+00:00</updated>
   <media:group>
    <media:title>是我不理解东北的浪漫，还是他们对浪漫过敏#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
    <media:content url="https://www.youtube.com/v/QsWVOxadI_Q?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i2.ytimg.com/vi/QsWVOxadI_Q/hqdefault.jpg" width="480" height="360"/>
    <media:description>我真的不理解，是我不了解东北的浪漫，还是东北人对浪漫有“过敏反应”？#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="39" average="5.00" min="1" max="5"/>
-    <media:statistics views="2310"/>
+    <media:starRating count="46" average="5.00" min="1" max="5"/>
+    <media:statistics views="2713"/>
    </media:community>
   </media:group>
  </entry>
@@ -90,7 +113,7 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-05-24T06:18:03+00:00</published>
-  <updated>2024-05-25T07:25:43+00:00</updated>
+  <updated>2024-05-29T16:16:44+00:00</updated>
   <media:group>
    <media:title>男人对于“盘”的执念，干巴的东西就这么入不了眼吗#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
    <media:content url="https://www.youtube.com/v/Mgp5GDXjv4w?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -98,7 +121,7 @@
    <media:description>为什么男人对“盘”情有独钟？干巴的东西真的入不了他们的眼吗？#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="163"/>
+    <media:statistics views="188"/>
    </media:community>
   </media:group>
  </entry>
@@ -121,7 +144,7 @@
    <media:description>我一直以为这是老公特有的暗号，结果发现所有男人都在用它！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="326"/>
+    <media:statistics views="344"/>
    </media:community>
   </media:group>
  </entry>
@@ -143,8 +166,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/_DerCYPAg88/hqdefault.jpg" width="480" height="360"/>
    <media:description>到底是我们太强，还是老外太弱？真相揭晓！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="180"/>
+    <media:starRating count="6" average="5.00" min="1" max="5"/>
+    <media:statistics views="192"/>
    </media:community>
   </media:group>
  </entry>
@@ -159,7 +182,7 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-05-20T12:19:58+00:00</published>
-  <updated>2024-05-23T00:44:07+00:00</updated>
+  <updated>2024-05-28T12:41:11+00:00</updated>
   <media:group>
    <media:title>男人为什么喜欢自驾#爱吐槽的四季妈妈</media:title>
    <media:content url="https://www.youtube.com/v/At6TScH6W8g?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -167,7 +190,7 @@
    <media:description>男人为什么对自驾情有独钟？是自由、冒险，还是掌控感？#爱吐槽的四季妈妈</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="400"/>
+    <media:statistics views="411"/>
    </media:community>
   </media:group>
  </entry>
@@ -190,7 +213,7 @@
    <media:description>真没想到，我们会在自己的地盘上被老外踩了一脚！#爱吐槽的四季妈妈 #歌手2024 #歌手2024首发歌手名单</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="282"/>
+    <media:statistics views="283"/>
    </media:community>
   </media:group>
  </entry>
@@ -213,7 +236,7 @@
    <media:description>在青岛夜市的体验真是难忘，感受到了浓郁的山东啤酒文化。提袋儿喝的啤酒果然有独特的风味！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="309"/>
+    <media:statistics views="314"/>
    </media:community>
   </media:group>
  </entry>
@@ -235,8 +258,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/zAeW2olRxc4/hqdefault.jpg" width="480" height="360"/>
    <media:description>&quot;发现山东人口才的不可思议之处！我们带你走进吐槽大会，揭开四季妈妈们幽默的口才秘密。准备好笑得前仰后合了吗？#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="14" average="5.00" min="1" max="5"/>
-    <media:statistics views="642"/>
+    <media:starRating count="15" average="5.00" min="1" max="5"/>
+    <media:statistics views="645"/>
    </media:community>
   </media:group>
  </entry>
@@ -259,7 +282,7 @@
    <media:description>东北爷们，你们认同吗？只有外表坚强，内心柔软的东北姑娘才能真正降服你们！在我们的家庭吐槽大会上，一起探讨东北姑娘的魅力所在吧！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="9" average="5.00" min="1" max="5"/>
-    <media:statistics views="363"/>
+    <media:statistics views="368"/>
    </media:community>
   </media:group>
  </entry>
@@ -274,7 +297,7 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-05-06T05:17:33+00:00</published>
-  <updated>2024-05-14T05:46:56+00:00</updated>
+  <updated>2024-05-28T16:19:04+00:00</updated>
   <media:group>
    <media:title>这个字，所有东北人都会说的#爱吐槽的四季妈妈 #家庭吐槽大会 #东北方言</media:title>
    <media:content url="https://www.youtube.com/v/Fj75R0QqsW4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -282,7 +305,7 @@
    <media:description>在东北方言中，有一个字是几乎所有东北人都会说的。想知道是什么字吗？来参加我们的家庭吐槽大会，一起分享关于这个字的趣事和回忆！#爱吐槽的四季妈妈 #东北方言</media:description>
    <media:community>
     <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="302"/>
+    <media:statistics views="306"/>
    </media:community>
   </media:group>
  </entry>
@@ -305,7 +328,7 @@
    <media:description>如果不能规范管理，那这个平台就是在安全边缘疯狂试探。安全和管理对于任何平台都至关重要，缺乏规范管理可能导致一系列问题的出现，甚至危及用户的安全。所以，我们必须认真对待管理工作，确保平台的健康发展和用户的利益。</media:description>
    <media:community>
     <media:starRating count="11" average="5.00" min="1" max="5"/>
-    <media:statistics views="264"/>
+    <media:statistics views="267"/>
    </media:community>
   </media:group>
  </entry>
@@ -328,34 +351,7 @@
    <media:description>我在杭州吃过的美食是西湖醋鱼，清爽酸甜的口味，配上嫩滑鲜嫩的鱼肉，回味无穷，令人难以忘怀</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="246"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:aIxvOMdY7Vk</id>
-  <yt:videoId>aIxvOMdY7Vk</yt:videoId>
-  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
-  <title>来，陪我一起喝茶啦～ #召唤茶友 #今天你喝茶了吗 #爱吐槽的四季妈妈 #家庭吐槽大会</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=aIxvOMdY7Vk"/>
-  <author>
-   <name>四季妈妈—小龙</name>
-   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
-  </author>
-  <published>2024-04-30T12:21:13+00:00</published>
-  <updated>2024-05-22T01:39:59+00:00</updated>
-  <media:group>
-   <media:title>来，陪我一起喝茶啦～ #召唤茶友 #今天你喝茶了吗 #爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
-   <media:content url="https://www.youtube.com/v/aIxvOMdY7Vk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/aIxvOMdY7Vk/hqdefault.jpg" width="480" height="360"/>
-   <media:description>大家好，欢迎来到我的频道！今天我邀请大家一起来喝茶，分享一段悠闲惬意的时光！茶，是生活中的一种情调，是品味生活的一种方式。
-
-无论是独自品茶静心，还是和朋友们聚在一起畅谈人生，喝茶都能给我们带来片刻的放松与愉悦。所以，不妨让我们放下手中的烦恼，一起来品味这杯清茶，聊聊生活、聆听心声。
-
-别忘了点赞、订阅，并在评论区留言，告诉我你今天喝了什么茶，和谁一起喝的，分享你的喝茶心情！期待和大家一起度过愉快的喝茶时光！#喝茶放松 #茶友聚会 #生活品味 #悠闲时光</media:description>
-   <media:community>
-    <media:starRating count="17" average="5.00" min="1" max="5"/>
-    <media:statistics views="843"/>
+    <media:statistics views="249"/>
    </media:community>
   </media:group>
  </entry>

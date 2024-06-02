@@ -13,8 +13,8 @@
         "stone记":{
             "update_size": 25,
             "id": "UCghLs6s95LrBWOdlZUCH4qw1",
-            "last_size": 300,
-            "BackwardUpdate": false,
+            "last_size": 500,
+            "BackwardUpdate": true,
             "BackwardUpdate_size": 1
         },
         "四季妈妈—小龙": {
@@ -57,9 +57,14 @@
             "InmainRSS": true,
             "QRcode": false
         },
-    "测试": "21738912391",
-    "无无无无语森": "3393923",
-    "鹿火CAVY": "1839002753"
+        "测试": "21738912391",
+        "无无无无语森": "3393923",
+        "鹿火CAVY": {
+            "id": "1839002753",
+            "BackwardUpdate": true,
+            "BackwardUpdate_size": 1,
+            "update_size": 30
+        }
     },
     "retry_count": 2,
     "link": "m.youtube.com",

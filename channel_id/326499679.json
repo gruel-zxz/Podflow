@@ -16,6 +16,20 @@
         "desc": "哔哩哔哩漫画官方账号"
     },
     "entry": {
+        "BV1zw4m1S7vw": {
+            "aid": 1105169461,
+            "author": "哔哩哔哩漫画",
+            "bvid": "BV1zw4m1S7vw",
+            "copyright": "1",
+            "created": 1717071531,
+            "description": "",
+            "is_union_video": 0,
+            "length": "00:25",
+            "mid": 326499679,
+            "pic": "http://i0.hdslb.com/bfs/archive/e67b6a8e5c35e4a94e4a112d5f8c08be11811169.jpg",
+            "title": "BLG电竞选手居然也爱看哔哩哔哩漫画？上哔哩哔哩漫画搜【ON】还会给【新客大人】送出专属福利？快来一起来看看吧！",
+            "typeid": 171
+        },
         "BV1pu4m1c7L7": {
             "aid": 1303639132,
             "author": "在下小苏",
@@ -351,23 +365,10 @@
             "pic": "http://i0.hdslb.com/bfs/archive/0f0fcf6f4c1bb6701805646de577f1a334e0ded4.jpg",
             "title": "辗转异乡深处，流离千里之外，游子麓战不休。【风华回战 x bilibili MAD创作大赛】最终日稿件公开",
             "typeid": 24
-        },
-        "BV1yC4y1P7dk": {
-            "aid": 748830410,
-            "author": "Skialys",
-            "bvid": "BV1yC4y1P7dk",
-            "copyright": "1",
-            "created": 1701511200,
-            "description": "今日登场作者：@Skialys  ；@烧炭l  ；@已经去世了0-0  ；@尘垢  ；@梦想是在睡眠中进步  ；@夜寂无影  ；@-御鹿-  ；@哈以桑  ；@BaiHuaL  ；@-Kira-R  ；@发呆的亡心  。\n\n如果您需要帮助：https://www.bilibili.com/blackboard/era/3ERAmwloghvazr00.html\n【空指部见评论区】",
-            "is_union_video": 1,
-            "length": "42:24",
-            "mid": 2607918,
-            "pic": "http://i0.hdslb.com/bfs/archive/6f146824e9c6cd6a5f351b141eb7ed2a481565b4.jpg",
-            "title": "生活或许充满挫折，但请相信明天的阳光。【风华回战 x bilibili MAD创作大赛】第八日稿件公开",
-            "typeid": 24
         }
     },
     "list": [
+        "BV1zw4m1S7vw",
         "BV1pu4m1c7L7",
         "BV1TM4m1f7h6",
         "BV1TH4y1p76d",
@@ -391,7 +392,6 @@
         "BV1Xy421a7hW",
         "BV1ec411v7G6",
         "BV1N34y1c7jV",
-        "BV17C4y1P7JZ",
-        "BV1yC4y1P7dk"
+        "BV17C4y1P7JZ"
     ]
 }

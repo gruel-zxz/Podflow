@@ -16,6 +16,20 @@
         "desc": "bilibili 知名搞笑UP主"
     },
     "entry": {
+        "BV1gU411o7GM": {
+            "aid": 1905225579,
+            "author": "无无无无语森",
+            "bvid": "BV1gU411o7GM",
+            "copyright": "1",
+            "created": 1717059900,
+            "description": "",
+            "is_union_video": 0,
+            "length": "05:03",
+            "mid": 3393923,
+            "pic": "http://i2.hdslb.com/bfs/archive/54b672505635676b7edcc0c3ac8e41b4239af517.jpg",
+            "title": "您后悔过没好好学习么",
+            "typeid": 138
+        },
         "BV1Vs421g7NN": {
             "aid": 1855239536,
             "author": "无无无无语森",
@@ -351,23 +365,10 @@
             "pic": "http://i0.hdslb.com/bfs/archive/c4237ba2024a78f11e2da1f1234edeb709d9e4e5.jpg",
             "title": "澡堂子应该怎么开",
             "typeid": 138
-        },
-        "BV1pe411Y78z": {
-            "aid": 239179835,
-            "author": "无无无无语森",
-            "bvid": "BV1pe411Y78z",
-            "copyright": "1",
-            "created": 1706179800,
-            "description": "",
-            "is_union_video": 0,
-            "length": "04:30",
-            "mid": 3393923,
-            "pic": "http://i0.hdslb.com/bfs/archive/8286a871505f25d180e1f9c4ebcb6c593890f4fa.jpg",
-            "title": "您家冰箱满吗",
-            "typeid": 138
         }
     },
     "list": [
+        "BV1gU411o7GM",
         "BV1Vs421g7NN",
         "BV1wb421q7hm",
         "BV1Ki421D7kD",
@@ -391,7 +392,6 @@
         "BV1hK421k7q3",
         "BV1Cp421o7Ch",
         "BV1sA4m1L7tR",
-        "BV1Y64y1w7KV",
-        "BV1pe411Y78z"
+        "BV1Y64y1w7KV"
     ]
 }
