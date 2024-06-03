@@ -14,16 +14,16 @@
   <id>yt:video:yC_CDtRy-CU</id>
   <yt:videoId>yC_CDtRy-CU</yt:videoId>
   <yt:channelId>UCMUnInmOkrWN4gof9KlhNmQ</yt:channelId>
-  <title>不要睡覺看，五個有真實記錄的深海怪獸 | 老高與小茉 Mr &amp; Mrs Gao</title>
+  <title>恐怕會讓你難以入眠的五個有記錄的深海怪獸 | 老高與小茉 Mr &amp; Mrs Gao</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=yC_CDtRy-CU"/>
   <author>
    <name>老高與小茉 Mr &amp; Mrs Gao</name>
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
   <published>2024-05-29T14:30:12+00:00</published>
-  <updated>2024-06-01T05:38:58+00:00</updated>
+  <updated>2024-06-03T08:57:17+00:00</updated>
   <media:group>
-   <media:title>不要睡覺看，五個有真實記錄的深海怪獸 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
+   <media:title>恐怕會讓你難以入眠的五個有記錄的深海怪獸 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/yC_CDtRy-CU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i2.ytimg.com/vi/yC_CDtRy-CU/hqdefault.jpg" width="480" height="360"/>
    <media:description>【加入五歲抬頭團】https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ/join
@@ -255,8 +255,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="36384" average="5.00" min="1" max="5"/>
-    <media:statistics views="1703119"/>
+    <media:starRating count="39033" average="5.00" min="1" max="5"/>
+    <media:statistics views="1970221"/>
    </media:community>
   </media:group>
  </entry>
@@ -283,7 +283,7 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 【周邊相關Discord群組】https://discord.gg/XmPrAg5EJR</media:description>
    <media:community>
     <media:starRating count="0" average="0.00" min="1" max="5"/>
-    <media:statistics views="826517"/>
+    <media:statistics views="833146"/>
    </media:community>
   </media:group>
  </entry>
@@ -530,8 +530,8 @@ https://www.youtube.com/watch?v=Mshz9DxQLbE
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="3455" average="5.00" min="1" max="5"/>
-    <media:statistics views="59839"/>
+    <media:starRating count="3471" average="5.00" min="1" max="5"/>
+    <media:statistics views="60622"/>
    </media:community>
   </media:group>
  </entry>
@@ -778,8 +778,8 @@ https://www.youtube.com/watch?v=Mshz9DxQLbE
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="54775" average="5.00" min="1" max="5"/>
-    <media:statistics views="2053437"/>
+    <media:starRating count="55229" average="5.00" min="1" max="5"/>
+    <media:statistics views="2092286"/>
    </media:community>
   </media:group>
  </entry>
@@ -1026,8 +1026,8 @@ https://www.youtube.com/watch?v=Mshz9DxQLbE
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="56015" average="5.00" min="1" max="5"/>
-    <media:statistics views="2408821"/>
+    <media:starRating count="56314" average="5.00" min="1" max="5"/>
+    <media:statistics views="2431969"/>
    </media:community>
   </media:group>
  </entry>
@@ -1276,8 +1276,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="51202" average="5.00" min="1" max="5"/>
-    <media:statistics views="2723677"/>
+    <media:starRating count="51338" average="5.00" min="1" max="5"/>
+    <media:statistics views="2736696"/>
    </media:community>
   </media:group>
  </entry>
@@ -1285,16 +1285,16 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
   <id>yt:video:BtIPrmh4jnA</id>
   <yt:videoId>BtIPrmh4jnA</yt:videoId>
   <yt:channelId>UCMUnInmOkrWN4gof9KlhNmQ</yt:channelId>
-  <title>太陽系中隱藏著一個巨大天體，大小是地球的十倍但卻看不見 | 老高與小茉 Mr &amp; Mrs Gao</title>
+  <title>被我們發現了，一個超巨大天體隱藏在太陽系中 | 老高與小茉 Mr &amp; Mrs Gao</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=BtIPrmh4jnA"/>
   <author>
    <name>老高與小茉 Mr &amp; Mrs Gao</name>
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
   <published>2024-05-01T14:50:27+00:00</published>
-  <updated>2024-05-31T02:56:34+00:00</updated>
+  <updated>2024-06-03T08:58:42+00:00</updated>
   <media:group>
-   <media:title>太陽系中隱藏著一個巨大天體，大小是地球的十倍但卻看不見 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
+   <media:title>被我們發現了，一個超巨大天體隱藏在太陽系中 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/BtIPrmh4jnA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i3.ytimg.com/vi/BtIPrmh4jnA/hqdefault.jpg" width="480" height="360"/>
    <media:description>【加入會員按鈕】https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ/join
@@ -1526,8 +1526,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="36023" average="5.00" min="1" max="5"/>
-    <media:statistics views="2314115"/>
+    <media:starRating count="36272" average="5.00" min="1" max="5"/>
+    <media:statistics views="2340756"/>
    </media:community>
   </media:group>
  </entry>
@@ -1776,8 +1776,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="40009" average="5.00" min="1" max="5"/>
-    <media:statistics views="2634138"/>
+    <media:starRating count="40080" average="5.00" min="1" max="5"/>
+    <media:statistics views="2642297"/>
    </media:community>
   </media:group>
  </entry>
@@ -2026,8 +2026,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="48081" average="5.00" min="1" max="5"/>
-    <media:statistics views="2624674"/>
+    <media:starRating count="48215" average="5.00" min="1" max="5"/>
+    <media:statistics views="2633588"/>
    </media:community>
   </media:group>
  </entry>
@@ -2035,16 +2035,16 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
   <id>yt:video:iUhj8s83w3M</id>
   <yt:videoId>iUhj8s83w3M</yt:videoId>
   <yt:channelId>UCMUnInmOkrWN4gof9KlhNmQ</yt:channelId>
-  <title>這樣的世界紀錄，最好不要再出現 | 老高與小茉 Mr &amp; Mrs Gao</title>
+  <title>這樣的世界紀錄最好不要再出現，雖然搞笑但更嚇人 | 老高與小茉 Mr &amp; Mrs Gao</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=iUhj8s83w3M"/>
   <author>
    <name>老高與小茉 Mr &amp; Mrs Gao</name>
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
   <published>2024-04-10T14:10:27+00:00</published>
-  <updated>2024-05-31T05:39:13+00:00</updated>
+  <updated>2024-06-03T09:03:17+00:00</updated>
   <media:group>
-   <media:title>這樣的世界紀錄，最好不要再出現 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
+   <media:title>這樣的世界紀錄最好不要再出現，雖然搞笑但更嚇人 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/iUhj8s83w3M?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i2.ytimg.com/vi/iUhj8s83w3M/hqdefault.jpg" width="480" height="360"/>
    <media:description>【加入會員按鈕】https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ/join
@@ -2276,8 +2276,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="39244" average="5.00" min="1" max="5"/>
-    <media:statistics views="2171748"/>
+    <media:starRating count="39314" average="5.00" min="1" max="5"/>
+    <media:statistics views="2177537"/>
    </media:community>
   </media:group>
  </entry>
@@ -2526,8 +2526,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="59816" average="5.00" min="1" max="5"/>
-    <media:statistics views="3005079"/>
+    <media:starRating count="59903" average="5.00" min="1" max="5"/>
+    <media:statistics views="3011747"/>
    </media:community>
   </media:group>
  </entry>
@@ -2776,8 +2776,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="47523" average="5.00" min="1" max="5"/>
-    <media:statistics views="2994371"/>
+    <media:starRating count="47636" average="5.00" min="1" max="5"/>
+    <media:statistics views="3012577"/>
    </media:community>
   </media:group>
  </entry>
@@ -3026,8 +3026,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="72134" average="5.00" min="1" max="5"/>
-    <media:statistics views="3264790"/>
+    <media:starRating count="72236" average="5.00" min="1" max="5"/>
+    <media:statistics views="3273069"/>
    </media:community>
   </media:group>
  </entry>
@@ -3276,8 +3276,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="46585" average="5.00" min="1" max="5"/>
-    <media:statistics views="2450275"/>
+    <media:starRating count="46613" average="5.00" min="1" max="5"/>
+    <media:statistics views="2453717"/>
    </media:community>
   </media:group>
  </entry>
@@ -3285,16 +3285,16 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
   <id>yt:video:OsajhwXixoo</id>
   <yt:videoId>OsajhwXixoo</yt:videoId>
   <yt:channelId>UCMUnInmOkrWN4gof9KlhNmQ</yt:channelId>
-  <title>其實所有人都不會死 | 老高與小茉 Mr &amp; Mrs Gao</title>
+  <title>其實所有人都不會死，因為有人可以看見靈魂 | 老高與小茉 Mr &amp; Mrs Gao</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=OsajhwXixoo"/>
   <author>
    <name>老高與小茉 Mr &amp; Mrs Gao</name>
    <uri>https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ</uri>
   </author>
   <published>2024-02-28T12:58:08+00:00</published>
-  <updated>2024-05-31T04:50:46+00:00</updated>
+  <updated>2024-06-03T09:01:25+00:00</updated>
   <media:group>
-   <media:title>其實所有人都不會死 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
+   <media:title>其實所有人都不會死，因為有人可以看見靈魂 | 老高與小茉 Mr &amp; Mrs Gao</media:title>
    <media:content url="https://www.youtube.com/v/OsajhwXixoo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i4.ytimg.com/vi/OsajhwXixoo/hqdefault.jpg" width="480" height="360"/>
    <media:description>【加入會員按鈕】https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ/join
@@ -3526,8 +3526,8 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 
 【奇趣】https://goo.gl/Tbpiuj</media:description>
    <media:community>
-    <media:starRating count="54087" average="5.00" min="1" max="5"/>
-    <media:statistics views="2845893"/>
+    <media:starRating count="54243" average="5.00" min="1" max="5"/>
+    <media:statistics views="2863779"/>
    </media:community>
   </media:group>
  </entry>

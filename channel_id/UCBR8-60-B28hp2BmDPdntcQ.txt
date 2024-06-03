@@ -10,6 +10,29 @@
   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
  </author>
  <entry>
+  <id>yt:video:c8JGr7NblL4</id>
+  <yt:videoId>c8JGr7NblL4</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>a skill I didn’t know i needed until now @jugglinjosh</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=c8JGr7NblL4"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2024-06-03T19:03:23+00:00</published>
+  <updated>2024-06-03T19:46:20+00:00</updated>
+  <media:group>
+   <media:title>a skill I didn’t know i needed until now @jugglinjosh</media:title>
+   <media:content url="https://www.youtube.com/v/c8JGr7NblL4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/c8JGr7NblL4/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="835" average="5.00" min="1" max="5"/>
+    <media:statistics views="7411"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:TQOGsMymo4E</id>
   <yt:videoId>TQOGsMymo4E</yt:videoId>
   <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
@@ -27,8 +50,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/TQOGsMymo4E/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1570" average="5.00" min="1" max="5"/>
-    <media:statistics views="34764"/>
+    <media:starRating count="2342" average="5.00" min="1" max="5"/>
+    <media:statistics views="55425"/>
    </media:community>
   </media:group>
  </entry>
@@ -136,8 +159,8 @@ Special Thanks:
 
 #minecraft15  #minecraft  #youtube  #brickbybrick #endlesspossibilites  #creativemode #youtubegaming</media:description>
    <media:community>
-    <media:starRating count="33286" average="5.00" min="1" max="5"/>
-    <media:statistics views="2092396"/>
+    <media:starRating count="34760" average="5.00" min="1" max="5"/>
+    <media:statistics views="2187939"/>
    </media:community>
   </media:group>
  </entry>
@@ -152,15 +175,15 @@ Special Thanks:
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-05-27T16:00:24+00:00</published>
-  <updated>2024-05-29T07:26:16+00:00</updated>
+  <updated>2024-06-03T01:41:01+00:00</updated>
   <media:group>
    <media:title>cold pizza or hot pizza? @GeorgiaBridgersYT @JackJerry @Tarayummy</media:title>
    <media:content url="https://www.youtube.com/v/9ldbqbwhHno?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i2.ytimg.com/vi/9ldbqbwhHno/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2616" average="5.00" min="1" max="5"/>
-    <media:statistics views="62014"/>
+    <media:starRating count="2948" average="5.00" min="1" max="5"/>
+    <media:statistics views="71677"/>
    </media:community>
   </media:group>
  </entry>
@@ -182,8 +205,8 @@ Special Thanks:
    <media:thumbnail url="https://i4.ytimg.com/vi/_Ay8wL9QmXA/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1176" average="5.00" min="1" max="5"/>
-    <media:statistics views="43378"/>
+    <media:starRating count="1322" average="5.00" min="1" max="5"/>
+    <media:statistics views="49195"/>
    </media:community>
   </media:group>
  </entry>
@@ -205,8 +228,8 @@ Special Thanks:
    <media:thumbnail url="https://i4.ytimg.com/vi/SwHfaMBh8us/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="839" average="5.00" min="1" max="5"/>
-    <media:statistics views="26485"/>
+    <media:starRating count="951" average="5.00" min="1" max="5"/>
+    <media:statistics views="30376"/>
    </media:community>
   </media:group>
  </entry>
@@ -221,7 +244,7 @@ Special Thanks:
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-05-23T14:00:24+00:00</published>
-  <updated>2024-05-27T23:24:39+00:00</updated>
+  <updated>2024-06-02T09:55:45+00:00</updated>
   <media:group>
    <media:title>@simonegiertz Presents an Officially Unofficial Award Show for Inventors on YouTube</media:title>
    <media:content url="https://www.youtube.com/v/XPJMZg2irDg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -252,8 +275,8 @@ Featured Creators:
  
 #Inventors #SimoneGiertz</media:description>
    <media:community>
-    <media:starRating count="11344" average="5.00" min="1" max="5"/>
-    <media:statistics views="743626"/>
+    <media:starRating count="11497" average="5.00" min="1" max="5"/>
+    <media:statistics views="773947"/>
    </media:community>
   </media:group>
  </entry>
@@ -275,8 +298,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/r6nw765Qa1w/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1670" average="5.00" min="1" max="5"/>
-    <media:statistics views="39220"/>
+    <media:starRating count="1827" average="5.00" min="1" max="5"/>
+    <media:statistics views="43167"/>
    </media:community>
   </media:group>
  </entry>
@@ -298,8 +321,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/jKXlnYGRQyE/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3744" average="5.00" min="1" max="5"/>
-    <media:statistics views="101687"/>
+    <media:starRating count="3865" average="5.00" min="1" max="5"/>
+    <media:statistics views="106877"/>
    </media:community>
   </media:group>
  </entry>
@@ -321,8 +344,8 @@ Featured Creators:
    <media:thumbnail url="https://i2.ytimg.com/vi/iSyLvVQqG0U/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1932" average="5.00" min="1" max="5"/>
-    <media:statistics views="52350"/>
+    <media:starRating count="2005" average="5.00" min="1" max="5"/>
+    <media:statistics views="54736"/>
    </media:community>
   </media:group>
  </entry>
@@ -344,8 +367,8 @@ Featured Creators:
    <media:thumbnail url="https://i2.ytimg.com/vi/mi24tIUWuQA/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2138" average="5.00" min="1" max="5"/>
-    <media:statistics views="57517"/>
+    <media:starRating count="2211" average="5.00" min="1" max="5"/>
+    <media:statistics views="60083"/>
    </media:community>
   </media:group>
  </entry>
@@ -367,8 +390,8 @@ Featured Creators:
    <media:thumbnail url="https://i2.ytimg.com/vi/A7Sx93iwEqk/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1239" average="5.00" min="1" max="5"/>
-    <media:statistics views="49384"/>
+    <media:starRating count="1276" average="5.00" min="1" max="5"/>
+    <media:statistics views="51284"/>
    </media:community>
   </media:group>
  </entry>
@@ -390,8 +413,8 @@ Featured Creators:
    <media:thumbnail url="https://i2.ytimg.com/vi/icc4wu0iGiw/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="5171" average="5.00" min="1" max="5"/>
-    <media:statistics views="118032"/>
+    <media:starRating count="5232" average="5.00" min="1" max="5"/>
+    <media:statistics views="121242"/>
    </media:community>
   </media:group>
  </entry>
@@ -413,8 +436,8 @@ Featured Creators:
    <media:thumbnail url="https://i4.ytimg.com/vi/oOhGmSVZOnk/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4495" average="5.00" min="1" max="5"/>
-    <media:statistics views="111747"/>
+    <media:starRating count="4536" average="5.00" min="1" max="5"/>
+    <media:statistics views="114191"/>
    </media:community>
   </media:group>
  </entry>
@@ -436,31 +459,8 @@ Featured Creators:
    <media:thumbnail url="https://i1.ytimg.com/vi/0A0BKCfjQ-Y/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2554" average="5.00" min="1" max="5"/>
-    <media:statistics views="79103"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:mtr1ZgNzj5c</id>
-  <yt:videoId>mtr1ZgNzj5c</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>it's perfect @NourKhodrr #comedyshorts #art #singer</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=mtr1ZgNzj5c"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2024-05-08T19:00:18+00:00</published>
-  <updated>2024-05-11T01:01:48+00:00</updated>
-  <media:group>
-   <media:title>it's perfect @NourKhodrr #comedyshorts #art #singer</media:title>
-   <media:content url="https://www.youtube.com/v/mtr1ZgNzj5c?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/mtr1ZgNzj5c/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="3578" average="5.00" min="1" max="5"/>
-    <media:statistics views="93790"/>
+    <media:starRating count="2585" average="5.00" min="1" max="5"/>
+    <media:statistics views="81056"/>
    </media:community>
   </media:group>
  </entry>

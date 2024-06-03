@@ -62,8 +62,9 @@
         "鹿火CAVY": {
             "id": "1839002753",
             "BackwardUpdate": true,
-            "BackwardUpdate_size": 1,
-            "update_size": 30
+            "BackwardUpdate_size": 2,
+            "update_size": 30,
+            "InmainRSS": false
         }
     },
     "retry_count": 2,

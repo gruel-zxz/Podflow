@@ -966,6 +966,14 @@ def split_dict(data, chunk_size=100, firse_item_only=False):
             chunks.append(chunk)
         return chunks
 
+# 合并列表模块
+def list_merge(list1, list2):
+    final_list = []
+    for item in list1 + list2:
+        if item not in final_list:
+            final_list.append(item)
+    return final_list
+
 # 获取配置信息config模块
 def get_config():
     # 检查当前文件夹中是否存在config.json文件
@@ -1709,7 +1717,7 @@ def youtube_rss_update(youtube_key, youtube_value, pattern_youtube_varys, patter
         youtube_content_ytid = youtube_content_ytid[
             : channelid_youtube[youtube_value]["update_size"]
         ]
-        youtube_content_new = youtube_content_ytid + guids
+        youtube_content_new = list_merge(youtube_content_ytid ,guids)
     if youtube_content_ytid:= [
         exclude
         for exclude in youtube_content_ytid
@@ -1875,7 +1883,7 @@ def bilibili_rss_update(bilibili_key, bilibili_value):
         if bilibili_space != bilibili_space_original:
             channelid_bilibili_ids_update[bilibili_key] = bilibili_value
         bilibili_content_bvid = bilibili_space["list"][:channelid_bilibili[bilibili_value]["update_size"]]
-        bilibili_space_new = bilibili_content_bvid + guids
+        bilibili_space_new = list_merge(bilibili_content_bvid ,guids)
         if bilibili_content_bvid:= [
             exclude
             for exclude in bilibili_content_bvid
@@ -1887,8 +1895,8 @@ def bilibili_rss_update(bilibili_key, bilibili_value):
             backward_update_size = channelid_bilibili[bilibili_value]["last_size"] - len(bilibili_space_new)
             if backward_update_size > 0:
                 backward_update_size = min(backward_update_size, channelid_bilibili[bilibili_value]["BackwardUpdate_size"])
-                backward_update_page_start = math.floor(len(bilibili_space_new) / 25)
-                backward_update_page_end = math.floor((len(bilibili_space_new) + backward_update_size) / 25)
+                backward_update_page_start = math.ceil(len(bilibili_space_new) / 25)
+                backward_update_page_end = math.ceil((len(bilibili_space_new) + backward_update_size) / 25)
                 backward_entry = {}
                 backward_list = []
                 for num in range(backward_update_page_start, backward_update_page_end + 1):
@@ -2427,18 +2435,18 @@ def get_original_rss():
         get_xmls_original = {}
         rss_original = ""
     # 如原始xml无对应的原频道items, 将尝试从对应频道的xml中获取
-    for youtube_key in channelid_youtube_ids.keys():
-        if youtube_key not in get_xmls_original.keys():
+    for channelid_key in (channelid_youtube_ids | channelid_bilibili_ids).keys():
+        if channelid_key not in get_xmls_original.keys():
             try:
                 with open(
-                    f"channel_rss/{youtube_key}.xml", "r", encoding="utf-8"
+                    f"channel_rss/{channelid_key}.xml", "r", encoding="utf-8"
                 ) as file:  # 打开文件进行读取
                     youtube_rss_original = file.read()  # 读取文件内容
-                    get_xmls_original[youtube_key] = youtube_rss_original.split(
-                        f"<!-- {{{youtube_key}}} -->\n"
+                    get_xmls_original[channelid_key] = youtube_rss_original.split(
+                        f"<!-- {{{channelid_key}}} -->\n"
                     )[1]
             except FileNotFoundError:  # 文件不存在直接更新
-                xmls_original_fail.append(youtube_key)
+                xmls_original_fail.append(channelid_key)
     # 生成原始rss的哈希值
     hash_rss_original = rss_create_hash(rss_original)
     return get_xmls_original, hash_rss_original, xmls_original_fail
@@ -2446,8 +2454,8 @@ def get_original_rss():
 # 打印无法保留原节目信息模块
 def original_rss_fail_print(xmls_original_fail):
     for item in xmls_original_fail:
-        if item in channelid_youtube_ids.keys():
-            write_log(f"RSS文件中不存在 {channelid_youtube_ids[item]} 无法保留原节目")
+        if item in (channelid_youtube_ids | channelid_bilibili_ids).keys():
+            write_log(f"RSS文件中不存在 {(channelid_youtube_ids | channelid_bilibili_ids)[item]} 无法保留原节目")
 
 # 获取YouTube频道简介模块
 def get_youtube_introduction():
@@ -2955,8 +2963,8 @@ def server_process_print():
         if output:
             for output_replace_info in output_replace_infos:
                 output = output.replace(output_replace_info, "")
-            for channelid_youtube_ids_original_key, channelid_youtube_ids_original_value in channelid_youtube_ids_original.items():
-                output = output.replace(channelid_youtube_ids_original_key, channelid_youtube_ids_original_value)
+            for channelid_ids_original_key, channelid_ids_original_value in (channelid_youtube_ids_original | channelid_bilibili_ids_original).items():
+                output = output.replace(channelid_ids_original_key, channelid_ids_original_value)
             if need_keep == "":
                 need_keep = f"{output_time}|{output}"
             else:
