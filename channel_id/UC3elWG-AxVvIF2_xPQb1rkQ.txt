@@ -21,15 +21,15 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-06-03T13:08:11+00:00</published>
-  <updated>2024-06-03T13:08:39+00:00</updated>
+  <updated>2024-06-04T20:12:34+00:00</updated>
   <media:group>
    <media:title>天津人真正厉害的不是贫嘴，而是幽默与乐观#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
    <media:content url="https://www.youtube.com/v/8Q-2ThxBRv8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i1.ytimg.com/vi/8Q-2ThxBRv8/hqdefault.jpg" width="480" height="360"/>
    <media:description>天津人最让人佩服的，不是他们的贫嘴，而是他们那幽默乐观的生活态度！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="56"/>
+    <media:starRating count="5" average="5.00" min="1" max="5"/>
+    <media:statistics views="118"/>
    </media:community>
   </media:group>
  </entry>
@@ -51,8 +51,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/JuGRD_marxs/hqdefault.jpg" width="480" height="360"/>
    <media:description>终于明白了，原来这才是男人不爱过节的真正原因！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="214"/>
+    <media:starRating count="8" average="5.00" min="1" max="5"/>
+    <media:statistics views="233"/>
    </media:community>
   </media:group>
  </entry>
@@ -75,7 +75,7 @@
    <media:description>没想到要抓住一个男人的心跳竟然这么容易！分享我的秘诀#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="12" average="5.00" min="1" max="5"/>
-    <media:statistics views="221"/>
+    <media:statistics views="226"/>
    </media:community>
   </media:group>
  </entry>
@@ -98,7 +98,7 @@
    <media:description>全天下的男人是不是都有这种习惯？总是带不同的女人去同一家好吃的餐厅！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="3" average="5.00" min="1" max="5"/>
-    <media:statistics views="219"/>
+    <media:statistics views="224"/>
    </media:community>
   </media:group>
  </entry>
@@ -121,7 +121,7 @@
    <media:description>我真的不理解，是我不了解东北的浪漫，还是东北人对浪漫有“过敏反应”？#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="46" average="5.00" min="1" max="5"/>
-    <media:statistics views="2730"/>
+    <media:statistics views="2745"/>
    </media:community>
   </media:group>
  </entry>
@@ -143,8 +143,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/Mgp5GDXjv4w/hqdefault.jpg" width="480" height="360"/>
    <media:description>为什么男人对“盘”情有独钟？干巴的东西真的入不了他们的眼吗？#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="192"/>
+    <media:starRating count="6" average="5.00" min="1" max="5"/>
+    <media:statistics views="195"/>
    </media:community>
   </media:group>
  </entry>
@@ -213,7 +213,7 @@
    <media:description>男人为什么对自驾情有独钟？是自由、冒险，还是掌控感？#爱吐槽的四季妈妈</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="412"/>
+    <media:statistics views="413"/>
    </media:community>
   </media:group>
  </entry>
@@ -259,7 +259,7 @@
    <media:description>在青岛夜市的体验真是难忘，感受到了浓郁的山东啤酒文化。提袋儿喝的啤酒果然有独特的风味！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="314"/>
+    <media:statistics views="315"/>
    </media:community>
   </media:group>
  </entry>
@@ -282,7 +282,7 @@
    <media:description>&quot;发现山东人口才的不可思议之处！我们带你走进吐槽大会，揭开四季妈妈们幽默的口才秘密。准备好笑得前仰后合了吗？#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="15" average="5.00" min="1" max="5"/>
-    <media:statistics views="646"/>
+    <media:statistics views="647"/>
    </media:community>
   </media:group>
  </entry>
@@ -328,7 +328,7 @@
    <media:description>在东北方言中，有一个字是几乎所有东北人都会说的。想知道是什么字吗？来参加我们的家庭吐槽大会，一起分享关于这个字的趣事和回忆！#爱吐槽的四季妈妈 #东北方言</media:description>
    <media:community>
     <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="306"/>
+    <media:statistics views="307"/>
    </media:community>
   </media:group>
  </entry>

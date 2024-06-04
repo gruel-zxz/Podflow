@@ -7,7 +7,7 @@
         <category>TV &amp; Film</category>
         <generator>Podflow (support us at https://github.com/gruel-zxz/podflow)</generator>
         <language>en-us</language>
-        <lastBuildDate>Tue, 04 Jun 2024 06:52:02 +0800</lastBuildDate>
+        <lastBuildDate>Wed, 05 Jun 2024 05:31:53 +0800</lastBuildDate>
         <pubDate>Sun, 24 Apr 2005 11:20:54 +0800</pubDate>
         <image>
             <url>https://yt3.googleusercontent.com/584JjRp5QMuKbyduM_2k5RlXFqHJtQ0qLIPZpwbUjMJmgzZngHcam5JMuZQxyzGMV5ljwJRl0Q=s2048-c-k-c0x00ffffff-no-rj</url>
@@ -23,14 +23,30 @@
 <!-- {UCBR8-60-B28hp2BmDPdntcQ} -->
 <!-- UCBR8-60-B28hp2BmDPdntcQ -->
         <item>
+            <guid>yBfqEcxZXdI</guid>
+            <title>ok comment section what’s the correct way?? @GeorgiaBridgersYT @jackjerry @Tarayummy</title>
+            <link>https://youtube.com/watch?v=yBfqEcxZXdI</link>
+            <description>『YouTube』</description>
+            <pubDate>Wed, 05 Jun 2024 03:15:37 +0800</pubDate>
+            <enclosure url="https://raw.githubusercontent.com/gruel-zxz/podflow/main/channel_audiovisual/UCBR8-60-B28hp2BmDPdntcQ/yBfqEcxZXdI.mp4" length="4720116" type="video/mp4"></enclosure>
+            <itunes:author>ok comment section what’s the correct way?? @GeorgiaBridgersYT @jackjerry @Tarayummy</itunes:author>
+            <itunes:subtitle>ok comment section what’s the correct way?? @GeorgiaBridgersYT @jackjerry @Tarayummy</itunes:subtitle>
+            <itunes:summary><![CDATA[『YouTube』]]></itunes:summary>
+            <itunes:image href="https://i2.ytimg.com/vi/yBfqEcxZXdI/hqdefault.jpg"></itunes:image>
+            <itunes:duration>00:38</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:order>1</itunes:order>
+        </item>
+<!-- UCBR8-60-B28hp2BmDPdntcQ -->
+        <item>
             <guid>c8JGr7NblL4</guid>
-            <title>a skill I didn’t know i needed until now @jugglinjosh</title>
+            <title>a skill I didn’t know i needed until now @jugglinjosh #ad</title>
             <link>https://youtube.com/watch?v=c8JGr7NblL4</link>
             <description>『YouTube』</description>
             <pubDate>Tue, 04 Jun 2024 03:03:23 +0800</pubDate>
             <enclosure url="https://raw.githubusercontent.com/gruel-zxz/podflow/main/channel_audiovisual/UCBR8-60-B28hp2BmDPdntcQ/c8JGr7NblL4.mp4" length="2676473" type="video/mp4"></enclosure>
-            <itunes:author>a skill I didn’t know i needed until now @jugglinjosh</itunes:author>
-            <itunes:subtitle>a skill I didn’t know i needed until now @jugglinjosh</itunes:subtitle>
+            <itunes:author>a skill I didn’t know i needed until now @jugglinjosh #ad</itunes:author>
+            <itunes:subtitle>a skill I didn’t know i needed until now @jugglinjosh #ad</itunes:subtitle>
             <itunes:summary><![CDATA[『YouTube』]]></itunes:summary>
             <itunes:image href="https://i4.ytimg.com/vi/c8JGr7NblL4/hqdefault.jpg"></itunes:image>
             <itunes:duration>00:19</itunes:duration>
@@ -428,22 +444,6 @@ Featured Creators:
             <itunes:summary><![CDATA[『YouTube』]]></itunes:summary>
             <itunes:image href="https://i1.ytimg.com/vi/L3V-0T0462Y/hqdefault.jpg"></itunes:image>
             <itunes:duration>00:08</itunes:duration>
-            <itunes:explicit>no</itunes:explicit>
-            <itunes:order>1</itunes:order>
-        </item>
-<!-- UCBR8-60-B28hp2BmDPdntcQ -->
-        <item>
-            <guid>cknv4hJHCas</guid>
-            <title>i will be eating these in one bite...well some of them</title>
-            <link>https://youtube.com/watch?v=cknv4hJHCas</link>
-            <description>『YouTube』</description>
-            <pubDate>Tue, 30 Apr 2024 04:45:15 +0800</pubDate>
-            <enclosure url="https://raw.githubusercontent.com/gruel-zxz/podflow/main/channel_audiovisual/UCBR8-60-B28hp2BmDPdntcQ/cknv4hJHCas.mp4" length="4281016" type="video/mp4"></enclosure>
-            <itunes:author>i will be eating these in one bite...well some of them</itunes:author>
-            <itunes:subtitle>i will be eating these in one bite...well some of them</itunes:subtitle>
-            <itunes:summary><![CDATA[『YouTube』]]></itunes:summary>
-            <itunes:image href="https://i4.ytimg.com/vi/cknv4hJHCas/hqdefault.jpg"></itunes:image>
-            <itunes:duration>00:41</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
             <itunes:order>1</itunes:order>
         </item>

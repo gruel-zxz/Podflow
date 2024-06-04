@@ -455,7 +455,7 @@ def qr_code(data):
                 ):
                     ascii_art += fonts[1]
                 else:
-                    ascii_art += " "
+                    ascii_art += fonts[3]
             ascii_art += "\n"
     print(ascii_art)
     return height_double
@@ -529,10 +529,14 @@ def video_format(video_website, video_url, media="m4a", quality="480", cookies=N
                     "quiet": True,  # 禁止非错误信息的输出
                     "logger": MyLogger(),
                 }
+            if cookies:
+                main_website = video_website + video_url + "?p=1"
+            else:
+                main_website = video_website + video_url
             with yt_dlp.YoutubeDL(ydl_opts) as ydl:
                 # 使用提供的 URL 提取视频信息
                 if info_dict:= ydl.extract_info(
-                    f"{video_website}{video_url}", download=False
+                    f"{main_website}", download=False
                 ):
                     # 获取视频时长并返回
                     duration = info_dict.get("duration")
@@ -748,9 +752,13 @@ def download_video(
             "logger": MyLogger(),
             "throttled_rate": "70K",  # 设置最小下载速率为:字节/秒
         }
+    if cookies:
+        main_website = video_website + video_url + "?p=1"
+    else:
+        main_website = video_website + video_url
     try:
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-            ydl.download([f"{video_website}{video_url}"])  # 下载指定视频链接的视频
+            ydl.download([f"{main_website}"])  # 下载指定视频链接的视频
     except Exception as download_video_error:
         write_log(
             (f"{video_write_log} \033[31m下载失败\033[0m\n错误信息: {str(download_video_error)}")
@@ -2077,6 +2085,7 @@ def get_youtube_video_format(id, stop_flag, video_format_lock, prepare_animation
         id,
         video_id_update_format[id]["media"],
         video_id_update_format[id]["quality"],
+        video_id_update_format[id]["cookie"],
     )
     if isinstance(ytid_update_format, list):
         video_id_update_format[id]["format"] = ytid_update_format
@@ -2135,7 +2144,8 @@ def get_video_format():
                     "media": yt_id_file,
                     "quality": yt_id_quality,
                     "url": "https://www.youtube.com/watch?v=",
-                    "name": channelid_youtube_ids[ytid_key]
+                    "name": channelid_youtube_ids[ytid_key],
+                    "cookie": None
                 }
                 video_id_update_format[yt_id] = yt_id_format
     def get_bilibili_format_front(bvid_content_update):
@@ -2155,7 +2165,8 @@ def get_video_format():
                     "media": bv_id_file,
                     "quality": bv_id_quality,
                     "url": "https://www.bilibili.com/video/",
-                    "name": channelid_bilibili_ids[bvid_key]
+                    "name": channelid_bilibili_ids[bvid_key],
+                    "cookie": "yt_dlp_bilibili.txt"
                 }
                 video_id_update_format[bv_id] = bv_id_format
     get_youtube_format_front(youtube_content_ytid_update)
@@ -2186,6 +2197,7 @@ def youtube_download():
             config["retry_count"],
             video_id_update_format[video_id]["url"],
             video_id_update_format[video_id]["name"],
+            video_id_update_format[video_id]["cookie"],
         ):
             video_id_failed.append(video_id)
             write_log(
