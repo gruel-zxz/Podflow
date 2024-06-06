@@ -520,8 +520,9 @@ def video_format(video_website, video_url, media="m4a", quality="480", cookies=N
                     "http_headers": {
                         "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
                         "Referer": "https://www.bilibili.com/",
+                        "Cookie": '; '.join([f'{key}={value}' for key, value in bilibili_data["cookie"].items()]),
                     },
-                    'cookiefile': cookies,  # cookies 是你的 cookies 文件名
+                    #'cookiefile': cookies,  # cookies 是你的 cookies 文件名
                 }
             else:
                 ydl_opts = {
@@ -739,8 +740,9 @@ def download_video(
             "http_headers": {
                 "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
                 "Referer": "https://www.bilibili.com/",
+                "Cookie": '; '.join([f'{key}={value}' for key, value in bilibili_data["cookie"].items()]),
             },
-            'cookiefile': cookies,  # cookies 是你的 cookies 文件名
+            #'cookiefile': cookies,  # cookies 是你的 cookies 文件名
         }
     else:
         ydl_opts = {
