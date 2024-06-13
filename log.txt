@@ -1,3 +1,225 @@
+2024-06-11 22:01:13 BeautifulSoup4无需更新|版本：4.12.3
+2024-06-11 22:01:13 BeautifulSoup4已安装
+2024-06-11 22:01:11 pycryptodome无需更新|版本：3.20.0
+2024-06-11 22:01:11 pycryptodome已安装
+2024-06-11 22:01:08 qrcode无需更新|版本：7.4.2
+2024-06-11 22:01:08 qrcode已安装
+2024-06-11 22:01:06 astral无需更新|版本：3.2
+2024-06-11 22:01:06 astral已安装
+2024-06-11 22:01:03 requests无需更新|版本：2.32.3
+2024-06-11 22:01:03 requests已安装
+2024-06-11 22:01:00 chardet无需更新|版本：5.2.0
+2024-06-11 22:01:00 chardet已安装
+2024-06-11 22:00:58 RangeHTTPServer无需更新|版本：1.3.3
+2024-06-11 22:00:58 RangeHTTPServer已安装
+2024-06-11 22:00:57 yt-dlp无需更新|版本：2024.5.27
+2024-06-11 22:00:57 yt-dlp已安装
+2024-06-10 17:33:50 鹿火CAVY|BV1Xh4y1K7SV_p2 下载成功 30232
+2024-06-10 17:33:47 鹿火CAVY|BV1Xh4y1K7SV_p2第1次重新下载
+2024-06-10 17:33:47 鹿火CAVY|BV1Xh4y1K7SV_p2 下载失败错误信息: 
+[download] Got error: HTTPSConnectionPool(host='xy122x246x1x12xy240eyf7ya092y200yy2axy.mcdn.bilivideo.cn', port=4483): Read timed out.
+2024-06-10 17:33:20 鹿火CAVY|BV1Xh4y1K7SV_p1 下载成功 30232
+2024-06-10 17:33:15 鹿火CAVY|BV1Zw411e76m 下载成功 30232
+2024-06-10 17:32:46 需更新的BiliBili频道:鹿火CAVY
+2024-06-10 17:32:46 需更新的YouTube频道:绝密研究所 | stone记
+2024-06-10 17:30:40 需更新的BiliBili频道:鹿火CAVY
+2024-06-10 17:30:40 需更新的YouTube频道:绝密研究所 | stone记
+2024-06-10 17:30:38 BiliBili频道 测试 ID不正确无法获取
+2024-06-10 17:30:38 YouTube频道 测试 ID不正确无法获取
+2024-06-10 17:11:42 鹿火CAVY|BV1Xh4y1K7SV_p2 下载成功 30232
+2024-06-10 17:11:36 鹿火CAVY|BV1Xh4y1K7SV_p1 下载成功 30232
+2024-06-10 17:11:32 鹿火CAVY|BV1qu4y1Q76n 下载成功 30280
+2024-06-10 17:11:30 stone记|tc2qLH59WKY 下载成功 140
+2024-06-10 17:09:56 需更新的BiliBili频道:鹿火CAVY
+2024-06-10 17:09:56 需更新的YouTube频道:stone记
+2024-06-10 17:09:55 BiliBili频道 测试 ID不正确无法获取
+2024-06-10 17:09:55 YouTube频道 测试 ID不正确无法获取
+2024-06-10 16:42:10 总播客已更新
+2024-06-10 16:42:10 鹿火CAVY|BV1Xh4y1K7SV_p2.m4a已删除
+2024-06-10 16:42:10 鹿火CAVY|BV1Xh4y1K7SV_p1.m4a已删除
+2024-06-10 16:42:10 鹿火CAVY|BV1qu4y1Q76n.m4a已删除
+2024-06-10 16:42:10 绝密研究所|rz-KrAIfN84.m4a已删除
+2024-06-10 16:42:09 四季妈妈—小龙|_EI_MAwkixQ.m4a已删除
+2024-06-10 16:41:35 需更新的BiliBili频道:鹿火CAVY
+2024-06-10 16:41:35 需更新的YouTube频道:stone记
+2024-06-10 16:41:34 BiliBili频道 测试 ID不正确无法获取
+2024-06-10 16:41:34 YouTube频道 测试 ID不正确无法获取
+2024-06-10 16:40:11 鹿火CAVY|BV1Gx4y1b7dZ 下载成功 30280
+2024-06-10 16:40:08 绝密研究所|_lD7H7T_gxA 下载成功 140
+2024-06-10 16:39:56 stone记|O7GyvZ03vVg 下载成功 140
+2024-06-10 16:39:44 stone记|LRn1GA9jqcM 下载成功 140
+2024-06-10 16:39:34 stone记|meK0Bojgquo 下载成功 140
+2024-06-10 16:39:09 需更新的BiliBili频道:鹿火CAVY
+2024-06-10 16:39:09 需更新的YouTube频道:stone记 | 绝密研究所
+2024-06-10 16:39:09 BiliBili频道 测试 ID不正确无法获取
+2024-06-10 16:39:09 YouTube频道 测试 ID不正确无法获取
+2024-06-10 02:22:07 鹿火CAVY|BV1Xh4y1K7SV_p2 下载成功 30232
+2024-06-10 02:22:04 鹿火CAVY|BV1Xh4y1K7SV_p1 下载成功 30232
+2024-06-10 02:22:01 鹿火CAVY|BV1qu4y1Q76n 下载成功 30280
+2024-06-10 02:21:55 绝密研究所|_lD7H7T_gxA|预播|5 hours
+2024-06-10 02:21:49 需更新的BiliBili频道:鹿火CAVY
+2024-06-10 02:21:49 需更新的YouTube频道:绝密研究所 | stone记
+2024-06-10 02:21:48 BiliBili频道 测试 ID不正确无法获取
+2024-06-10 02:21:48 YouTube频道 测试 ID不正确无法获取
+2024-06-10 02:19:44 stone记|Rniwe2TFgMU 下载成功 140
+2024-06-10 02:19:33 四季妈妈—小龙|VdiOEiwEJ_I 下载成功 140
+2024-06-10 02:19:06 绝密研究所|_lD7H7T_gxA|预播|5 hours
+2024-06-10 02:19:00 需更新的BiliBili频道:鹿火CAVY
+2024-06-10 02:18:59 需更新的YouTube频道:绝密研究所 | 四季妈妈—小龙 | stone记
+2024-06-10 02:18:58 BiliBili频道 测试 ID不正确无法获取
+2024-06-10 02:18:58 YouTube频道 测试 ID不正确无法获取
+2024-06-10 02:11:57 绝密研究所|_lD7H7T_gxA|预播|6 hours
+2024-06-10 02:11:51 需更新的BiliBili频道:鹿火CAVY
+2024-06-10 02:11:50 需更新的YouTube频道:四季妈妈—小龙 | 绝密研究所 | stone记
+2024-06-10 02:11:50 BiliBili频道 测试 ID不正确无法获取
+2024-06-10 02:11:50 YouTube频道 测试 ID不正确无法获取
+2024-06-10 02:01:50 绝密研究所|_lD7H7T_gxA|预播|6 hours
+2024-06-10 02:01:43 需更新的BiliBili频道:鹿火CAVY
+2024-06-10 02:01:43 需更新的YouTube频道:四季妈妈—小龙 | 绝密研究所 | stone记
+2024-06-10 02:01:42 BiliBili频道 测试 ID不正确无法获取
+2024-06-10 02:01:42 YouTube频道 测试 ID不正确无法获取
+2024-06-10 01:47:08 绝密研究所|_lD7H7T_gxA|预播|6 hours
+2024-06-10 01:46:59 需更新的BiliBili频道:鹿火CAVY
+2024-06-10 01:46:59 需更新的YouTube频道:四季妈妈—小龙 | 绝密研究所 | stone记
+2024-06-10 01:46:58 BiliBili频道 测试 ID不正确无法获取
+2024-06-10 01:46:58 YouTube频道 测试 ID不正确无法获取
+2024-06-10 01:44:12 鹿火CAVY|BV1qu4y1Q76n|Unsupported URL: https://www.bilibili.com/video/1839002753
+2024-06-10 01:44:11 鹿火CAVY|BV1Xh4y1K7SV|Unsupported URL: https://www.bilibili.com/video/1839002753
+2024-06-10 01:44:10 stone记|Rniwe2TFgMU|UCghLs6s95L: 视频不可用
+2024-06-10 01:44:09 绝密研究所|_lD7H7T_gxA|UCXWy8yrS4W: 视频不可用
+2024-06-10 01:44:09 四季妈妈—小龙|VdiOEiwEJ_I|UC3elWG-AxV: 视频不可用
+2024-06-10 01:44:05 需更新的BiliBili频道:鹿火CAVY
+2024-06-10 01:44:05 需更新的YouTube频道:四季妈妈—小龙 | 佬K奇谈 | 绝密研究所stone记
+2024-06-10 01:44:04 BiliBili频道 测试 ID不正确无法获取
+2024-06-10 01:44:04 YouTube频道 测试 ID不正确无法获取
+2024-06-10 01:31:54 BeautifulSoup4无需更新|版本：4.12.3
+2024-06-10 01:31:54 BeautifulSoup4已安装
+2024-06-10 01:31:49 pycryptodome无需更新|版本：3.20.0
+2024-06-10 01:31:49 pycryptodome已安装
+2024-06-10 01:31:44 qrcode无需更新|版本：7.4.2
+2024-06-10 01:31:44 qrcode已安装
+2024-06-10 01:31:36 astral无需更新|版本：3.2
+2024-06-10 01:31:36 astral已安装
+2024-06-10 01:31:33 requests无需更新|版本：2.32.3
+2024-06-10 01:31:33 requests已安装
+2024-06-10 01:31:30 chardet无需更新|版本：5.2.0
+2024-06-10 01:31:30 chardet已安装
+2024-06-10 01:31:28 RangeHTTPServer无需更新|版本：1.3.3
+2024-06-10 01:31:28 RangeHTTPServer已安装
+2024-06-10 01:31:26 yt-dlp无需更新|版本：2024.5.27
+2024-06-10 01:31:26 yt-dlp已安装
+2024-06-09 18:33:22 绝密研究所|_lD7H7T_gxA|预播|13 hours
+2024-06-09 18:33:15 需更新的BiliBili频道:鹿火CAVY
+2024-06-09 18:33:15 需更新的YouTube频道:佬K奇谈 | 绝密研究所 | stone记
+2024-06-09 18:33:14 BiliBili频道 测试 ID不正确无法获取
+2024-06-09 18:33:14 YouTube频道 测试 ID不正确无法获取
+2024-06-09 15:27:57 佬K奇谈|eKOdHrzOqXQ|无法获取时长
+2024-06-09 15:27:47 绝密研究所|_lD7H7T_gxA|预播|16 hours
+2024-06-09 15:27:43 需更新的YouTube频道:佬K奇谈 | 绝密研究所 | stone记
+2024-06-09 15:27:42 BiliBili频道 测试 ID不正确无法获取
+2024-06-09 15:27:42 YouTube频道 测试 ID不正确无法获取
+2024-06-09 15:24:53 总播客已更新
+2024-06-09 15:24:53 绝密研究所|J8MYHRJy2q4.m4a已删除
+2024-06-09 15:24:31 stone记|BGL7nAllRwM 下载成功 140
+2024-06-09 15:24:11 绝密研究所|Q3g7ylULhvw 下载成功 140
+2024-06-09 15:23:59 幻海航行--science fiction|2q9Qd_8ADdI 下载成功 140
+2024-06-09 15:23:48 stone记|WFuiqj2RcOg 下载成功 140
+2024-06-09 15:23:39 stone记|Jk61AP3WkoE 下载成功 140
+2024-06-09 15:23:28 stone记|PssY-GPp3us 下载成功 140
+2024-06-09 15:23:15 stone记|2UsSpzBr_eo 下载成功 140
+2024-06-09 15:23:04 stone记|wHg1WpIYKMI 下载成功 140
+2024-06-09 15:22:53 stone记|NiMLINJnkl8 下载成功 140
+2024-06-09 15:22:38 stone记|jsGruq4_3ek 下载成功 140
+2024-06-09 15:22:28 stone记|f1p3YhCptFw 下载成功 140
+2024-06-09 15:22:15 stone记|EybY3kJ37ik 下载成功 140
+2024-06-09 15:22:05 stone记|ifxkLBcwHNw 下载成功 140
+2024-06-09 15:21:56 stone记|c-1paL-3pbs 下载成功 140
+2024-06-09 15:21:45 stone记|Qr0jySExOYs 下载成功 140
+2024-06-09 15:21:33 佬K奇谈|eKOdHrzOqXQ|无法获取时长
+2024-06-09 15:21:19 绝密研究所|_lD7H7T_gxA|预播|16 hours
+2024-06-09 15:20:47 需更新的YouTube频道:stone记 | 佬K奇谈幻海航行--science fiction | 绝密研究所
+2024-06-09 15:20:47 BiliBili频道 测试 ID不正确无法获取
+2024-06-09 15:20:47 YouTube频道 测试 ID不正确无法获取
+2024-06-09 15:08:47 佬K奇谈|eKOdHrzOqXQ|无法获取时长
+2024-06-09 15:08:44 绝密研究所|_lD7H7T_gxA|预播|17 hours
+2024-06-09 15:08:07 需更新的BiliBili频道:鹿火CAVY
+2024-06-09 15:08:07 需更新的YouTube频道:stone记 | 幻海航行--science fiction绝密研究所 | 佬K奇谈
+2024-06-09 15:08:06 BiliBili频道 测试 ID不正确无法获取
+2024-06-09 15:08:06 YouTube频道 测试 ID不正确无法获取
+2024-06-09 14:03:34 stone记|WFuiqj2RcOg|'NoneType' object has no attribute 'get'
+2024-06-09 14:03:33 stone记|BGL7nAllRwM|'NoneType' object has no attribute 'get'
+2024-06-09 14:03:33 幻海航行--science fiction|2q9Qd_8ADdI|'NoneType' object has no attribute 'get'
+2024-06-09 14:03:32 绝密研究所|Q3g7ylULhvw|'NoneType' object has no attribute 'get'
+2024-06-09 14:03:32 stone记|Jk61AP3WkoE|'NoneType' object has no attribute 'get'
+2024-06-09 14:03:05 绝密研究所|_lD7H7T_gxA|预播|18 hours
+2024-06-09 14:02:58 stone记|jsGruq4_3ek|'NoneType' object has no attribute 'get'
+2024-06-09 14:02:58 stone记|f1p3YhCptFw|'NoneType' object has no attribute 'get'
+2024-06-09 14:02:58 stone记|2UsSpzBr_eo|'NoneType' object has no attribute 'get'
+2024-06-09 14:02:58 stone记|wHg1WpIYKMI|'NoneType' object has no attribute 'get'
+2024-06-09 14:02:57 stone记|c-1paL-3pbs|'NoneType' object has no attribute 'get'
+2024-06-09 14:02:56 stone记|ifxkLBcwHNw|'NoneType' object has no attribute 'get'
+2024-06-09 14:02:54 stone记|EybY3kJ37ik|'NoneType' object has no attribute 'get'
+2024-06-09 14:02:49 stone记|PssY-GPp3us|'NoneType' object has no attribute 'get'
+2024-06-09 14:02:48 stone记|Qr0jySExOYs|'NoneType' object has no attribute 'get'
+2024-06-09 14:02:47 stone记|NiMLINJnkl8|'NoneType' object has no attribute 'get'
+2024-06-09 14:01:55 需更新的BiliBili频道:鹿火CAVY
+2024-06-09 14:01:55 需更新的YouTube频道:stone记 | 幻海航行--science fiction绝密研究所 | 王竹子的SM教学频道
+2024-06-09 14:01:53 BiliBili频道 测试 ID不正确无法获取
+2024-06-09 14:01:53 YouTube频道 测试 ID不正确无法获取
+2024-06-09 13:56:50 BeautifulSoup4无需更新|版本：4.12.3
+2024-06-09 13:56:50 BeautifulSoup4已安装
+2024-06-09 13:56:47 pycryptodome无需更新|版本：3.20.0
+2024-06-09 13:56:47 pycryptodome已安装
+2024-06-09 13:56:44 qrcode无需更新|版本：7.4.2
+2024-06-09 13:56:44 qrcode已安装
+2024-06-09 13:56:42 astral无需更新|版本：3.2
+2024-06-09 13:56:42 astral已安装
+2024-06-09 13:56:31 requests无需更新|版本：2.32.3
+2024-06-09 13:56:31 requests已安装
+2024-06-09 13:56:27 chardet无需更新|版本：5.2.0
+2024-06-09 13:56:27 chardet已安装
+2024-06-09 13:56:25 RangeHTTPServer无需更新|版本：1.3.3
+2024-06-09 13:56:25 RangeHTTPServer已安装
+2024-06-09 13:56:22 yt-dlp无需更新|版本：2024.5.27
+2024-06-09 13:56:22 yt-dlp已安装
+2024-06-08 06:50:24 stone记|BGL7nAllRwM|'NoneType' object has no attribute 'get'
+2024-06-08 06:50:11 绝密研究所|_lD7H7T_gxA|预播|2 days
+2024-06-08 06:50:11 绝密研究所|Q3g7ylULhvw|预播|86 minutes
+2024-06-08 06:50:07 需更新的BiliBili频道:鹿火CAVY
+2024-06-08 06:50:07 需更新的YouTube频道:绝密研究所 | stone记
+2024-06-08 06:50:07 BiliBili频道 测试 ID不正确无法获取
+2024-06-08 06:50:07 YouTube频道 测试 ID不正确无法获取
+2024-06-08 06:45:56 鹿火CAVY|BV1Xh4y1K7SV.m4a已删除
+2024-06-08 06:45:56 鹿火CAVY|BV1qu4y1Q76n.m4a已删除
+2024-06-08 06:45:56 绝密研究所|mxwPaFQ52fY.m4a已删除
+2024-06-08 06:45:56 绝密研究所|EDQcS1zfiz4.m4a已删除
+2024-06-08 06:45:56 绝密研究所|ea8t0VngIzM.m4a已删除
+2024-06-08 06:45:56 四季妈妈—小龙|QsWVOxadI_Q.m4a已删除
+2024-06-08 06:45:56 youtube|L3V-0T0462Y.mp4已删除
+2024-06-08 06:43:11 stone记|8NAykbTa5U8 下载成功 140
+2024-06-08 06:42:58 绝密研究所|vy0RafFcCMI 下载成功 140
+2024-06-08 06:42:49 绝密研究所|PCG48K5SxfI 下载成功 140
+2024-06-08 06:42:40 绝密研究所|b07jYCOEFzk 下载成功 140
+2024-06-08 06:42:31 王竹子的SM教学频道|iUf9k0gMsPw 下载成功 140
+2024-06-08 06:42:23 四季妈妈—小龙|CDxT5fl9EBQ 下载成功 140
+2024-06-08 06:42:15 youtube|2Lf4mtx_N20 下载成功 140+135
+2024-06-08 06:41:59 佬K奇谈|I3s9e6U2wig 下载成功 140
+2024-06-08 06:41:48 stone记|j1Au2tewJK8 下载成功 140
+2024-06-08 06:41:37 stone记|ye6VIukUcDo 下载成功 140
+2024-06-08 06:41:27 stone记|DADIM9jyoi4 下载成功 140
+2024-06-08 06:41:10 stone记|uaZS4cN_md4 下载成功 140
+2024-06-08 06:41:01 stone记|JF66N98f1X8 下载成功 140
+2024-06-08 06:40:49 stone记|xP6f8ZbNtoQ 下载成功 140
+2024-06-08 06:40:40 stone记|ja88GpUW32c 下载成功 140
+2024-06-08 06:40:30 stone记|MPnEaRyjxS0 下载成功 140
+2024-06-08 06:40:20 stone记|k4E-PeDHuNA 下载成功 140
+2024-06-08 06:40:10 stone记|5f_RowJPBTE 下载成功 140
+2024-06-08 06:40:00 stone记|OnpIZgy5tyc 下载成功 140
+2024-06-08 06:37:10 绝密研究所|Q3g7ylULhvw|预播|99 minutes
+2024-06-08 06:37:09 绝密研究所|_lD7H7T_gxA|预播|2 days
+2024-06-08 06:36:38 需更新的YouTube频道:stone记 | 佬K奇谈 | youtube四季妈妈—小龙 | 王竹子的SM教学频道绝密研究所
+2024-06-08 06:36:38 BiliBili频道 测试 ID不正确无法获取
+2024-06-08 06:36:38 YouTube频道 测试 ID不正确无法获取
 
 2024-06-05 06:53:36 文件夹channel_audiovisual创建成功
 2024-06-05 05:32:11 总播客已更新

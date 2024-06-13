@@ -16,6 +16,20 @@
         "desc": "bilibili 知名音乐UP主、直播高能主播"
     },
     "entry": {
+        "BV1Gx4y1b7dZ": {
+            "aid": 1005624495,
+            "author": "鹿火CAVY",
+            "bvid": "BV1Gx4y1b7dZ",
+            "copyright": "1",
+            "created": 1717992000,
+            "description": "这次你鹿爷居然是！以游戏主题曲原唱的身份制作的歌曲！！（鼓掌吧唧吧唧吧唧吧唧\n再次感谢金主爸爸@三国谋定天下  ！！\n这次的录音室多角度拍摄和以往在我的房间里固定机位会很不一样~\n并且也是一首有点难度的歌hh唱惯了日系宅歌突然尝试这种国风燃曲是有些挑战在身上的！\n愿这首《落山风》能陪宝贝们在三谋征战沙场！~\n《三国：谋定天下》6月13日正式上线~喜欢三国题材策略类游戏的宝可以冲！！\n当然也不要忘了赏你鹿爷一个三连~",
+            "is_union_video": 1,
+            "length": "03:59",
+            "mid": 1839002753,
+            "pic": "http://i2.hdslb.com/bfs/archive/e2bd86896814cdc80690b67d918367c837ae34fc.jpg",
+            "title": "全新的鹿，这次不是翻唱！原唱本尊驾到！【《三国：谋定天下》游戏主题曲】",
+            "typeid": 28
+        },
         "BV1wf421d7Wh": {
             "aid": 1204942823,
             "author": "鹿火CAVY",
@@ -701,23 +715,10 @@
             "pic": "http://i1.hdslb.com/bfs/archive/8252c4fe26b6f63836b832368964586aa5b8ecca.jpg",
             "title": "摊牌了，我要开始躺平了！",
             "typeid": 21
-        },
-        "BV1yY4y1j7Eb": {
-            "aid": 643771847,
-            "author": "鹿火CAVY",
-            "bvid": "BV1yY4y1j7Eb",
-            "copyright": "1",
-            "created": 1658833588,
-            "description": "",
-            "is_union_video": 0,
-            "length": "00:19",
-            "mid": 1839002753,
-            "pic": "http://i0.hdslb.com/bfs/archive/05a86ab7392f0f7ed52d03f2d977c5df6d2b93e8.jpg",
-            "title": "优雅，真的太优雅了",
-            "typeid": 21
         }
     },
     "list": [
+        "BV1Gx4y1b7dZ",
         "BV1wf421d7Wh",
         "BV1Rz421U7rw",
         "BV1SH4y1N78H",
@@ -766,7 +767,6 @@
         "BV1WG41187mq",
         "BV1PG41187yD",
         "BV18W4y1y7J4",
-        "BV1mS4y147em",
-        "BV1yY4y1j7Eb"
+        "BV1mS4y147em"
     ]
 }

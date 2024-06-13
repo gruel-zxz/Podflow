@@ -10,6 +10,29 @@
   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
  </author>
  <entry>
+  <id>yt:video:2Lf4mtx_N20</id>
+  <yt:videoId>2Lf4mtx_N20</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>flop era? never heard of her @chrissychlapeckaa</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=2Lf4mtx_N20"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2024-06-07T19:00:25+00:00</published>
+  <updated>2024-06-09T11:17:52+00:00</updated>
+  <media:group>
+   <media:title>flop era? never heard of her @chrissychlapeckaa</media:title>
+   <media:content url="https://www.youtube.com/v/2Lf4mtx_N20?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/2Lf4mtx_N20/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="1674" average="5.00" min="1" max="5"/>
+    <media:statistics views="41211"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:yBfqEcxZXdI</id>
   <yt:videoId>yBfqEcxZXdI</yt:videoId>
   <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
@@ -20,15 +43,15 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-06-04T19:15:37+00:00</published>
-  <updated>2024-06-04T19:19:00+00:00</updated>
+  <updated>2024-06-09T02:21:02+00:00</updated>
   <media:group>
    <media:title>ok comment section what’s the correct way?? @GeorgiaBridgersYT @jackjerry @Tarayummy</media:title>
    <media:content url="https://www.youtube.com/v/yBfqEcxZXdI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i2.ytimg.com/vi/yBfqEcxZXdI/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="625" average="5.00" min="1" max="5"/>
-    <media:statistics views="3954"/>
+    <media:starRating count="2771" average="5.00" min="1" max="5"/>
+    <media:statistics views="68908"/>
    </media:community>
   </media:group>
  </entry>
@@ -43,15 +66,15 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-06-03T19:03:23+00:00</published>
-  <updated>2024-06-04T07:01:12+00:00</updated>
+  <updated>2024-06-07T01:41:59+00:00</updated>
   <media:group>
    <media:title>a skill I didn’t know i needed until now @jugglinjosh #ad</media:title>
    <media:content url="https://www.youtube.com/v/c8JGr7NblL4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i4.ytimg.com/vi/c8JGr7NblL4/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1748" average="5.00" min="1" max="5"/>
-    <media:statistics views="37551"/>
+    <media:starRating count="2955" average="5.00" min="1" max="5"/>
+    <media:statistics views="78733"/>
    </media:community>
   </media:group>
  </entry>
@@ -66,15 +89,15 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-05-30T18:00:26+00:00</published>
-  <updated>2024-06-01T04:10:18+00:00</updated>
+  <updated>2024-06-05T22:29:31+00:00</updated>
   <media:group>
    <media:title>which flavor is calling your name?? @themarshmallowco</media:title>
    <media:content url="https://www.youtube.com/v/TQOGsMymo4E?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i1.ytimg.com/vi/TQOGsMymo4E/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2762" average="5.00" min="1" max="5"/>
-    <media:statistics views="68922"/>
+    <media:starRating count="3980" average="5.00" min="1" max="5"/>
+    <media:statistics views="105033"/>
    </media:community>
   </media:group>
  </entry>
@@ -182,8 +205,8 @@ Special Thanks:
 
 #minecraft15  #minecraft  #youtube  #brickbybrick #endlesspossibilites  #creativemode #youtubegaming</media:description>
    <media:community>
-    <media:starRating count="35893" average="5.00" min="1" max="5"/>
-    <media:statistics views="2295509"/>
+    <media:starRating count="39794" average="5.00" min="1" max="5"/>
+    <media:statistics views="2760909"/>
    </media:community>
   </media:group>
  </entry>
@@ -205,8 +228,8 @@ Special Thanks:
    <media:thumbnail url="https://i2.ytimg.com/vi/9ldbqbwhHno/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3157" average="5.00" min="1" max="5"/>
-    <media:statistics views="78586"/>
+    <media:starRating count="3639" average="5.00" min="1" max="5"/>
+    <media:statistics views="93952"/>
    </media:community>
   </media:group>
  </entry>
@@ -228,8 +251,8 @@ Special Thanks:
    <media:thumbnail url="https://i4.ytimg.com/vi/_Ay8wL9QmXA/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1444" average="5.00" min="1" max="5"/>
-    <media:statistics views="54236"/>
+    <media:starRating count="1711" average="5.00" min="1" max="5"/>
+    <media:statistics views="67959"/>
    </media:community>
   </media:group>
  </entry>
@@ -251,8 +274,8 @@ Special Thanks:
    <media:thumbnail url="https://i4.ytimg.com/vi/SwHfaMBh8us/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1057" average="5.00" min="1" max="5"/>
-    <media:statistics views="33405"/>
+    <media:starRating count="1293" average="5.00" min="1" max="5"/>
+    <media:statistics views="42109"/>
    </media:community>
   </media:group>
  </entry>
@@ -298,8 +321,8 @@ Featured Creators:
  
 #Inventors #SimoneGiertz</media:description>
    <media:community>
-    <media:starRating count="11613" average="5.00" min="1" max="5"/>
-    <media:statistics views="789285"/>
+    <media:starRating count="12072" average="5.00" min="1" max="5"/>
+    <media:statistics views="881967"/>
    </media:community>
   </media:group>
  </entry>
@@ -321,8 +344,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/r6nw765Qa1w/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1951" average="5.00" min="1" max="5"/>
-    <media:statistics views="46384"/>
+    <media:starRating count="2214" average="5.00" min="1" max="5"/>
+    <media:statistics views="55240"/>
    </media:community>
   </media:group>
  </entry>
@@ -344,8 +367,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/jKXlnYGRQyE/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4001" average="5.00" min="1" max="5"/>
-    <media:statistics views="112058"/>
+    <media:starRating count="4287" average="5.00" min="1" max="5"/>
+    <media:statistics views="126466"/>
    </media:community>
   </media:group>
  </entry>
@@ -367,8 +390,8 @@ Featured Creators:
    <media:thumbnail url="https://i2.ytimg.com/vi/iSyLvVQqG0U/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2064" average="5.00" min="1" max="5"/>
-    <media:statistics views="56727"/>
+    <media:starRating count="2205" average="5.00" min="1" max="5"/>
+    <media:statistics views="62965"/>
    </media:community>
   </media:group>
  </entry>
@@ -390,8 +413,8 @@ Featured Creators:
    <media:thumbnail url="https://i2.ytimg.com/vi/mi24tIUWuQA/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2252" average="5.00" min="1" max="5"/>
-    <media:statistics views="62145"/>
+    <media:starRating count="2360" average="5.00" min="1" max="5"/>
+    <media:statistics views="68240"/>
    </media:community>
   </media:group>
  </entry>
@@ -413,8 +436,8 @@ Featured Creators:
    <media:thumbnail url="https://i2.ytimg.com/vi/A7Sx93iwEqk/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1308" average="5.00" min="1" max="5"/>
-    <media:statistics views="52852"/>
+    <media:starRating count="1385" average="5.00" min="1" max="5"/>
+    <media:statistics views="57761"/>
    </media:community>
   </media:group>
  </entry>
@@ -436,31 +459,8 @@ Featured Creators:
    <media:thumbnail url="https://i2.ytimg.com/vi/icc4wu0iGiw/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="5296" average="5.00" min="1" max="5"/>
-    <media:statistics views="124069"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:oOhGmSVZOnk</id>
-  <yt:videoId>oOhGmSVZOnk</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>what’s up brother 😎 @thesketchreal</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=oOhGmSVZOnk"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2024-05-10T16:30:18+00:00</published>
-  <updated>2024-05-14T07:22:28+00:00</updated>
-  <media:group>
-   <media:title>what’s up brother 😎 @thesketchreal</media:title>
-   <media:content url="https://www.youtube.com/v/oOhGmSVZOnk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/oOhGmSVZOnk/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="4569" average="5.00" min="1" max="5"/>
-    <media:statistics views="116503"/>
+    <media:starRating count="5456" average="5.00" min="1" max="5"/>
+    <media:statistics views="132540"/>
    </media:community>
   </media:group>
  </entry>
