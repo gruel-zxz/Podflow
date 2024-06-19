@@ -9,7 +9,7 @@
         <category>TV &amp; Film</category>
         <generator>Podflow (support us at https://github.com/gruel-zxz/podflow)</generator>
         <language>en-us</language>
-        <lastBuildDate>Wed, 19 Jun 2024 16:05:08 +0800</lastBuildDate>
+        <lastBuildDate>Wed, 19 Jun 2024 22:26:02 +0800</lastBuildDate>
         <pubDate>Sun, 24 Apr 2005 11:20:54 +0800</pubDate>
         <image>
             <url>https://i2.hdslb.com/bfs/face/6eddf76765648483faf65026835c2a84d7008a5a.jpg</url>
@@ -966,6 +966,39 @@ Music &amp; Lyrics : ゆこぴ     Animation: 小津   Vocal : �
 希望大家喜欢～]]></itunes:summary>
             <itunes:image href="http://i1.hdslb.com/bfs/archive/17cf1802377481fb7205c652960a7009021cd1ef.jpg"></itunes:image>
             <itunes:duration>01:53</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:order>1</itunes:order>
+        </item>
+<!-- 1839002753 -->
+        <item>
+            <guid>BV15e4y1o7nA</guid>
+            <title>钓系白玫瑰x葬爱红玫瑰 姐姐的玫瑰刺疼我了</title>
+            <link>https://www.bilibili.com/video/BV15e4y1o7nA</link>
+            <description>『鹿火CAVY』</description>
+            <pubDate>Wed, 07 Sep 2022 19:00:00 +0800</pubDate>
+            <enclosure url="https://raw.githubusercontent.com/gruel-zxz/podflow/main/channel_audiovisual/1839002753/BV15e4y1o7nA.m4a" length="2347356" type="audio/x-m4a"></enclosure>
+            <itunes:author>钓系白玫瑰x葬爱红玫瑰 姐姐的玫瑰刺疼我了</itunes:author>
+            <itunes:subtitle>钓系白玫瑰x葬爱红玫瑰 姐姐的玫瑰刺疼我了</itunes:subtitle>
+            <itunes:summary><![CDATA[『鹿火CAVY』]]></itunes:summary>
+            <itunes:image href="http://i2.hdslb.com/bfs/archive/081ad89bc3d2a600f2f5836c79e604ca0d383cb0.jpg"></itunes:image>
+            <itunes:duration>02:43</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:order>1</itunes:order>
+        </item>
+<!-- 1839002753 -->
+        <item>
+            <guid>BV1qB4y1G7Bp</guid>
+            <title>谁能拒绝一首核爆神曲呢？</title>
+            <link>https://www.bilibili.com/video/BV1qB4y1G7Bp</link>
+            <description>『鹿火CAVY』&#xA;想参加整活歌王大赛么！那快动动小手给个三连支持一下！</description>
+            <pubDate>Tue, 30 Aug 2022 18:07:15 +0800</pubDate>
+            <enclosure url="https://raw.githubusercontent.com/gruel-zxz/podflow/main/channel_audiovisual/1839002753/BV1qB4y1G7Bp.m4a" length="1595220" type="audio/x-m4a"></enclosure>
+            <itunes:author>谁能拒绝一首核爆神曲呢？</itunes:author>
+            <itunes:subtitle>谁能拒绝一首核爆神曲呢？</itunes:subtitle>
+            <itunes:summary><![CDATA[『鹿火CAVY』
+想参加整活歌王大赛么！那快动动小手给个三连支持一下！]]></itunes:summary>
+            <itunes:image href="http://i1.hdslb.com/bfs/archive/e6282e41120070ef0520aca51920c50a09612c6c.jpg"></itunes:image>
+            <itunes:duration>01:37</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
             <itunes:order>1</itunes:order>
         </item>
