@@ -21,7 +21,7 @@
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
   <published>2024-06-19T02:22:24+00:00</published>
-  <updated>2024-06-19T02:28:32+00:00</updated>
+  <updated>2024-06-19T06:46:19+00:00</updated>
   <media:group>
    <media:title>中专女生姜萍进入全球数学竞赛决赛，引发打假热潮（20240618第7317期）</media:title>
    <media:content url="https://www.youtube.com/v/TWhmu_T-9pU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -78,8 +78,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="162" average="5.00" min="1" max="5"/>
-    <media:statistics views="10560"/>
+    <media:starRating count="192" average="5.00" min="1" max="5"/>
+    <media:statistics views="14620"/>
    </media:community>
   </media:group>
  </entry>
@@ -94,7 +94,7 @@ https://youtu.be/BbtTwsP_-zc</media:description>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
   <published>2024-06-18T06:22:39+00:00</published>
-  <updated>2024-06-19T01:05:06+00:00</updated>
+  <updated>2024-06-19T07:06:48+00:00</updated>
   <media:group>
    <media:title>网红龙虾卷Luke's Lobster（20240617第7394期）</media:title>
    <media:content url="https://www.youtube.com/v/c9UIYIVsVkA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -152,7 +152,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="35" average="5.00" min="1" max="5"/>
-    <media:statistics views="4807"/>
+    <media:statistics views="5052"/>
    </media:community>
   </media:group>
  </entry>
@@ -224,8 +224,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="229" average="5.00" min="1" max="5"/>
-    <media:statistics views="45937"/>
+    <media:starRating count="231" average="5.00" min="1" max="5"/>
+    <media:statistics views="46711"/>
    </media:community>
   </media:group>
  </entry>
@@ -298,7 +298,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="377" average="5.00" min="1" max="5"/>
-    <media:statistics views="78887"/>
+    <media:statistics views="79814"/>
    </media:community>
   </media:group>
  </entry>
@@ -443,8 +443,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="326" average="5.00" min="1" max="5"/>
-    <media:statistics views="51710"/>
+    <media:starRating count="328" average="5.00" min="1" max="5"/>
+    <media:statistics views="51910"/>
    </media:community>
   </media:group>
  </entry>
@@ -516,8 +516,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="211" average="5.00" min="1" max="5"/>
-    <media:statistics views="51512"/>
+    <media:starRating count="212" average="5.00" min="1" max="5"/>
+    <media:statistics views="51678"/>
    </media:community>
   </media:group>
  </entry>
@@ -589,8 +589,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="217" average="5.00" min="1" max="5"/>
-    <media:statistics views="34698"/>
+    <media:starRating count="218" average="5.00" min="1" max="5"/>
+    <media:statistics views="34977"/>
    </media:community>
   </media:group>
  </entry>
@@ -663,7 +663,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="200" average="5.00" min="1" max="5"/>
-    <media:statistics views="45301"/>
+    <media:statistics views="45417"/>
    </media:community>
   </media:group>
  </entry>
@@ -736,7 +736,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="127" average="5.00" min="1" max="5"/>
-    <media:statistics views="16984"/>
+    <media:statistics views="17113"/>
    </media:community>
   </media:group>
  </entry>
@@ -882,7 +882,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="172" average="5.00" min="1" max="5"/>
-    <media:statistics views="21724"/>
+    <media:statistics views="21808"/>
    </media:community>
   </media:group>
  </entry>
@@ -955,7 +955,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="208" average="5.00" min="1" max="5"/>
-    <media:statistics views="32265"/>
+    <media:statistics views="32385"/>
    </media:community>
   </media:group>
  </entry>
@@ -1028,7 +1028,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="185" average="5.00" min="1" max="5"/>
-    <media:statistics views="42189"/>
+    <media:statistics views="42252"/>
    </media:community>
   </media:group>
  </entry>
@@ -1101,7 +1101,7 @@ https://youtu.be/4G8yWQyBKak
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
     <media:starRating count="243" average="5.00" min="1" max="5"/>
-    <media:statistics views="51116"/>
+    <media:statistics views="51263"/>
    </media:community>
   </media:group>
  </entry>

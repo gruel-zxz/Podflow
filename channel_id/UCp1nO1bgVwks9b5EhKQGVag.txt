@@ -30,7 +30,7 @@
 是一部20多年前的国产科幻小说，近年来很多人开始讨论曼德拉效应，那么这部小说就给出了一种很另类的解释。</media:description>
    <media:community>
     <media:starRating count="75" average="5.00" min="1" max="5"/>
-    <media:statistics views="3221"/>
+    <media:statistics views="3246"/>
    </media:community>
   </media:group>
  </entry>
@@ -76,7 +76,7 @@
    <media:description>人类的情绪，不过是简单的电化学反应：科幻名著《快乐的理由》，原著：格雷格.伊根，出自同名科幻小说集《快乐的理由》</media:description>
    <media:community>
     <media:starRating count="81" average="5.00" min="1" max="5"/>
-    <media:statistics views="3068"/>
+    <media:statistics views="3069"/>
    </media:community>
   </media:group>
  </entry>
@@ -240,7 +240,7 @@
 《群星的背面》作者：谢云宁，他来了！</media:description>
    <media:community>
     <media:starRating count="139" average="5.00" min="1" max="5"/>
-    <media:statistics views="5620"/>
+    <media:statistics views="5621"/>
    </media:community>
   </media:group>
  </entry>
@@ -263,7 +263,7 @@
    <media:description>谢缵泰：中国飞艇设计制造的第一人，也是中国航空先驱。于1899年完成了首例飞艇的设计。科幻小说《龙骸》，出自雨果奖获得者海漄的科幻作品集《海漄怪奇故事集》，《龙骸》中涉及到的历史人物均有原型。</media:description>
    <media:community>
     <media:starRating count="149" average="5.00" min="1" max="5"/>
-    <media:statistics views="9023"/>
+    <media:statistics views="9029"/>
    </media:community>
   </media:group>
  </entry>
@@ -310,7 +310,7 @@
    <media:description>我们也顺应时代，开始制作5分钟以内的短内容了，当然长视频不会断更。只是在此基础上增加了短视频的数量。</media:description>
    <media:community>
     <media:starRating count="92" average="5.00" min="1" max="5"/>
-    <media:statistics views="4028"/>
+    <media:statistics views="4029"/>
    </media:community>
   </media:group>
  </entry>
@@ -356,7 +356,7 @@
    <media:description>《电车悖论》是基于电车难题”的再创作，将古老的问题放置于未来社会的背景之下。小说曾刊登再科幻世界杂志（原著：康乃馨），虽然过去了很多年，但是值得让更多的人看见。</media:description>
    <media:community>
     <media:starRating count="163" average="5.00" min="1" max="5"/>
-    <media:statistics views="9056"/>
+    <media:statistics views="9057"/>
    </media:community>
   </media:group>
  </entry>

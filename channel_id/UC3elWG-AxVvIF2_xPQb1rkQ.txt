@@ -21,7 +21,7 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-06-18T06:49:36+00:00</published>
-  <updated>2024-06-18T06:50:05+00:00</updated>
+  <updated>2024-06-19T07:10:55+00:00</updated>
   <media:group>
    <media:title>这位大哥厉害了，单杆敢钓座头鲸，那真是一钓开天门啊#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
    <media:content url="https://www.youtube.com/v/WceQ_zCByFU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -29,7 +29,7 @@
    <media:description>这位大哥可真是厉害，单杆钓座头鲸，那真是一钓开天门啊！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="79"/>
+    <media:statistics views="87"/>
    </media:community>
   </media:group>
  </entry>
@@ -52,7 +52,7 @@
    <media:description>贵州的山路锻炼出了一批真正的车神，他们手中握的可不是普通驾照，而是象征实力的王者印记！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="261"/>
+    <media:statistics views="262"/>
    </media:community>
   </media:group>
  </entry>
@@ -75,7 +75,7 @@
    <media:description>夫妻吵架时，为什么总是男人劝和而女人劝分呢？背后究竟有什么秘密？#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="359"/>
+    <media:statistics views="361"/>
    </media:community>
   </media:group>
  </entry>
@@ -236,7 +236,7 @@
    <media:description>我真的不理解，是我不了解东北的浪漫，还是东北人对浪漫有“过敏反应”？#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="46" average="5.00" min="1" max="5"/>
-    <media:statistics views="2850"/>
+    <media:statistics views="2852"/>
    </media:community>
   </media:group>
  </entry>

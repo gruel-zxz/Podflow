@@ -27,8 +27,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/UnkJhofJpZU/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="146" average="5.00" min="1" max="5"/>
-    <media:statistics views="2433"/>
+    <media:starRating count="164" average="5.00" min="1" max="5"/>
+    <media:statistics views="2806"/>
    </media:community>
   </media:group>
  </entry>
@@ -50,8 +50,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/nfcWfXr_kks/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1623" average="5.00" min="1" max="5"/>
-    <media:statistics views="46447"/>
+    <media:starRating count="1631" average="5.00" min="1" max="5"/>
+    <media:statistics views="46620"/>
    </media:community>
   </media:group>
  </entry>
@@ -73,8 +73,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/coHDW2PCUTs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2044" average="5.00" min="1" max="5"/>
-    <media:statistics views="45125"/>
+    <media:starRating count="2048" average="5.00" min="1" max="5"/>
+    <media:statistics views="45273"/>
    </media:community>
   </media:group>
  </entry>
@@ -96,8 +96,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/AqnJ1-K0j_s/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1529" average="5.00" min="1" max="5"/>
-    <media:statistics views="42763"/>
+    <media:starRating count="1533" average="5.00" min="1" max="5"/>
+    <media:statistics views="42871"/>
    </media:community>
   </media:group>
  </entry>
@@ -119,8 +119,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/mOvPjMlr6pk/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="18893" average="5.00" min="1" max="5"/>
-    <media:statistics views="258948"/>
+    <media:starRating count="18896" average="5.00" min="1" max="5"/>
+    <media:statistics views="259060"/>
    </media:community>
   </media:group>
  </entry>
@@ -185,8 +185,8 @@ Featured Creators:
 @MajicDyke
 @hankschannel</media:description>
    <media:community>
-    <media:starRating count="9172" average="5.00" min="1" max="5"/>
-    <media:statistics views="889384"/>
+    <media:starRating count="9180" average="5.00" min="1" max="5"/>
+    <media:statistics views="893233"/>
    </media:community>
   </media:group>
  </entry>
@@ -208,8 +208,8 @@ Featured Creators:
    <media:thumbnail url="https://i2.ytimg.com/vi/9Cwlw9HwJUk/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2271" average="5.00" min="1" max="5"/>
-    <media:statistics views="68435"/>
+    <media:starRating count="2276" average="5.00" min="1" max="5"/>
+    <media:statistics views="68697"/>
    </media:community>
   </media:group>
  </entry>
@@ -232,7 +232,7 @@ Featured Creators:
    <media:description></media:description>
    <media:community>
     <media:starRating count="3167" average="5.00" min="1" max="5"/>
-    <media:statistics views="72836"/>
+    <media:statistics views="72878"/>
    </media:community>
   </media:group>
  </entry>
@@ -254,8 +254,8 @@ Featured Creators:
    <media:thumbnail url="https://i2.ytimg.com/vi/yBfqEcxZXdI/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3899" average="5.00" min="1" max="5"/>
-    <media:statistics views="98734"/>
+    <media:starRating count="3901" average="5.00" min="1" max="5"/>
+    <media:statistics views="98777"/>
    </media:community>
   </media:group>
  </entry>
@@ -277,8 +277,8 @@ Featured Creators:
    <media:thumbnail url="https://i4.ytimg.com/vi/c8JGr7NblL4/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3921" average="5.00" min="1" max="5"/>
-    <media:statistics views="112083"/>
+    <media:starRating count="3922" average="5.00" min="1" max="5"/>
+    <media:statistics views="112190"/>
    </media:community>
   </media:group>
  </entry>
@@ -300,8 +300,8 @@ Featured Creators:
    <media:thumbnail url="https://i1.ytimg.com/vi/TQOGsMymo4E/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="5199" average="5.00" min="1" max="5"/>
-    <media:statistics views="138264"/>
+    <media:starRating count="5204" average="5.00" min="1" max="5"/>
+    <media:statistics views="138386"/>
    </media:community>
   </media:group>
  </entry>
@@ -409,8 +409,8 @@ Special Thanks:
 
 #minecraft15  #minecraft  #youtube  #brickbybrick #endlesspossibilites  #creativemode #youtubegaming</media:description>
    <media:community>
-    <media:starRating count="42417" average="5.00" min="1" max="5"/>
-    <media:statistics views="3116018"/>
+    <media:starRating count="42431" average="5.00" min="1" max="5"/>
+    <media:statistics views="3117412"/>
    </media:community>
   </media:group>
  </entry>
@@ -432,8 +432,8 @@ Special Thanks:
    <media:thumbnail url="https://i2.ytimg.com/vi/9ldbqbwhHno/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4221" average="5.00" min="1" max="5"/>
-    <media:statistics views="108630"/>
+    <media:starRating count="4223" average="5.00" min="1" max="5"/>
+    <media:statistics views="108672"/>
    </media:community>
   </media:group>
  </entry>
@@ -455,8 +455,8 @@ Special Thanks:
    <media:thumbnail url="https://i4.ytimg.com/vi/_Ay8wL9QmXA/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2458" average="5.00" min="1" max="5"/>
-    <media:statistics views="83777"/>
+    <media:starRating count="2459" average="5.00" min="1" max="5"/>
+    <media:statistics views="83830"/>
    </media:community>
   </media:group>
  </entry>
@@ -478,8 +478,8 @@ Special Thanks:
    <media:thumbnail url="https://i4.ytimg.com/vi/SwHfaMBh8us/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1887" average="5.00" min="1" max="5"/>
-    <media:statistics views="52068"/>
+    <media:starRating count="1888" average="5.00" min="1" max="5"/>
+    <media:statistics views="52113"/>
    </media:community>
   </media:group>
  </entry>
