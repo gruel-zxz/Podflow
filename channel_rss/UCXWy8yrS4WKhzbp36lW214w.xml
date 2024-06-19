@@ -9,7 +9,7 @@ Please look at it from the perspective of objective rationality and science
         <category>TV &amp; Film</category>
         <generator>Podflow (support us at https://github.com/gruel-zxz/podflow)</generator>
         <language>en-us</language>
-        <lastBuildDate>Mon, 10 Jun 2024 17:23:16 +0800</lastBuildDate>
+        <lastBuildDate>Wed, 19 Jun 2024 14:21:32 +0800</lastBuildDate>
         <pubDate>Sun, 24 Apr 2005 11:20:54 +0800</pubDate>
         <image>
             <url>https://yt3.googleusercontent.com/ytc/AIdro_ljfPIXYHJrDEJ-Pes9g1Rp6Va2vEuUyhSA-YXHCMGddw=s2048-c-k-c0x00ffffff-no-rj</url>
@@ -23,6 +23,22 @@ Please look at it from the perspective of objective rationality and science
         <itunes:explicit>no</itunes:explicit>
         <itunes:category text="TV &amp; Film"></itunes:category>
 <!-- {UCXWy8yrS4WKhzbp36lW214w} -->
+<!-- UCXWy8yrS4WKhzbp36lW214w -->
+        <item>
+            <guid>cSk6rhWKQuQ</guid>
+            <title>高考满分作文原来长这样</title>
+            <link>https://youtube.com/watch?v=cSk6rhWKQuQ</link>
+            <description>『绝密研究所』</description>
+            <pubDate>Wed, 12 Jun 2024 11:11:31 +0800</pubDate>
+            <enclosure url="https://raw.githubusercontent.com/gruel-zxz/podflow/main/channel_audiovisual/UCXWy8yrS4WKhzbp36lW214w/cSk6rhWKQuQ.m4a" length="6323198" type="audio/x-m4a"></enclosure>
+            <itunes:author>高考满分作文原来长这样</itunes:author>
+            <itunes:subtitle>高考满分作文原来长这样</itunes:subtitle>
+            <itunes:summary><![CDATA[『绝密研究所』]]></itunes:summary>
+            <itunes:image href="https://i4.ytimg.com/vi/cSk6rhWKQuQ/hqdefault.jpg"></itunes:image>
+            <itunes:duration>06:31</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:order>1</itunes:order>
+        </item>
 <!-- UCXWy8yrS4WKhzbp36lW214w -->
         <item>
             <guid>_lD7H7T_gxA</guid>
@@ -804,22 +820,6 @@ Please look at it from the perspective of objective rationality and science
             <itunes:summary><![CDATA[『绝密研究所』]]></itunes:summary>
             <itunes:image href="https://i3.ytimg.com/vi/Z00rDKpl7DE/hqdefault.jpg"></itunes:image>
             <itunes:duration>04:33</itunes:duration>
-            <itunes:explicit>no</itunes:explicit>
-            <itunes:order>1</itunes:order>
-        </item>
-<!-- UCXWy8yrS4WKhzbp36lW214w -->
-        <item>
-            <guid>4Q3Afem0Xy0</guid>
-            <title>把牙齿植入眼睛，让盲人重见光明</title>
-            <link>https://youtube.com/watch?v=4Q3Afem0Xy0</link>
-            <description>『绝密研究所』</description>
-            <pubDate>Sat, 20 Apr 2024 08:00:07 +0800</pubDate>
-            <enclosure url="https://raw.githubusercontent.com/gruel-zxz/podflow/main/channel_audiovisual/UCXWy8yrS4WKhzbp36lW214w/4Q3Afem0Xy0.m4a" length="5514605" type="audio/x-m4a"></enclosure>
-            <itunes:author>把牙齿植入眼睛，让盲人重见光明</itunes:author>
-            <itunes:subtitle>把牙齿植入眼睛，让盲人重见光明</itunes:subtitle>
-            <itunes:summary><![CDATA[『绝密研究所』]]></itunes:summary>
-            <itunes:image href="https://i1.ytimg.com/vi/4Q3Afem0Xy0/hqdefault.jpg"></itunes:image>
-            <itunes:duration>05:41</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
             <itunes:order>1</itunes:order>
         </item>

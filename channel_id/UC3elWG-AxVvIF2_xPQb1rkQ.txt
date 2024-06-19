@@ -11,6 +11,75 @@
  </author>
  <published>2022-06-04T16:17:27+00:00</published>
  <entry>
+  <id>yt:video:WceQ_zCByFU</id>
+  <yt:videoId>WceQ_zCByFU</yt:videoId>
+  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
+  <title>这位大哥厉害了，单杆敢钓座头鲸，那真是一钓开天门啊#爱吐槽的四季妈妈 #家庭吐槽大会</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=WceQ_zCByFU"/>
+  <author>
+   <name>四季妈妈—小龙</name>
+   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
+  </author>
+  <published>2024-06-18T06:49:36+00:00</published>
+  <updated>2024-06-18T06:50:05+00:00</updated>
+  <media:group>
+   <media:title>这位大哥厉害了，单杆敢钓座头鲸，那真是一钓开天门啊#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
+   <media:content url="https://www.youtube.com/v/WceQ_zCByFU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/WceQ_zCByFU/hqdefault.jpg" width="480" height="360"/>
+   <media:description>这位大哥可真是厉害，单杆钓座头鲸，那真是一钓开天门啊！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
+   <media:community>
+    <media:starRating count="4" average="5.00" min="1" max="5"/>
+    <media:statistics views="79"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:YVaIwn6XPDQ</id>
+  <yt:videoId>YVaIwn6XPDQ</yt:videoId>
+  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
+  <title>贵州的山路造就出了一批车神，他们拿的不是驾照，是王者印记#爱吐槽的四季妈妈 #家庭吐槽大会</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=YVaIwn6XPDQ"/>
+  <author>
+   <name>四季妈妈—小龙</name>
+   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
+  </author>
+  <published>2024-06-15T13:31:22+00:00</published>
+  <updated>2024-06-16T22:24:04+00:00</updated>
+  <media:group>
+   <media:title>贵州的山路造就出了一批车神，他们拿的不是驾照，是王者印记#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
+   <media:content url="https://www.youtube.com/v/YVaIwn6XPDQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/YVaIwn6XPDQ/hqdefault.jpg" width="480" height="360"/>
+   <media:description>贵州的山路锻炼出了一批真正的车神，他们手中握的可不是普通驾照，而是象征实力的王者印记！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
+   <media:community>
+    <media:starRating count="5" average="5.00" min="1" max="5"/>
+    <media:statistics views="261"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:EJAN2hdZqHs</id>
+  <yt:videoId>EJAN2hdZqHs</yt:videoId>
+  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
+  <title>两口子吵架，为什么男人劝和女人劝分#爱吐槽的四季妈妈 #家庭吐槽大会</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=EJAN2hdZqHs"/>
+  <author>
+   <name>四季妈妈—小龙</name>
+   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
+  </author>
+  <published>2024-06-12T03:20:04+00:00</published>
+  <updated>2024-06-17T22:26:14+00:00</updated>
+  <media:group>
+   <media:title>两口子吵架，为什么男人劝和女人劝分#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
+   <media:content url="https://www.youtube.com/v/EJAN2hdZqHs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/EJAN2hdZqHs/hqdefault.jpg" width="480" height="360"/>
+   <media:description>夫妻吵架时，为什么总是男人劝和而女人劝分呢？背后究竟有什么秘密？#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
+   <media:community>
+    <media:starRating count="4" average="5.00" min="1" max="5"/>
+    <media:statistics views="359"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:VdiOEiwEJ_I</id>
   <yt:videoId>VdiOEiwEJ_I</yt:videoId>
   <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
@@ -21,7 +90,7 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-06-09T11:35:56+00:00</published>
-  <updated>2024-06-10T05:48:27+00:00</updated>
+  <updated>2024-06-12T22:42:39+00:00</updated>
   <media:group>
    <media:title>施工现场变考古基地，西安修个地铁给考古人员忙疯了#爱吐槽的四季妈妈</media:title>
    <media:content url="https://www.youtube.com/v/VdiOEiwEJ_I?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -29,7 +98,7 @@
    <media:description>西安修个地铁，竟然把施工现场变成了考古基地，考古人员都忙疯了！#爱吐槽的四季妈妈</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="100"/>
+    <media:statistics views="164"/>
    </media:community>
   </media:group>
  </entry>
@@ -44,7 +113,7 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-06-06T13:08:00+00:00</published>
-  <updated>2024-06-08T07:48:46+00:00</updated>
+  <updated>2024-06-11T03:48:30+00:00</updated>
   <media:group>
    <media:title>这就是专属于男人的减速带吧#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
    <media:content url="https://www.youtube.com/v/CDxT5fl9EBQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -52,7 +121,7 @@
    <media:description>看来，这种“减速带”只有男人才能理解！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="12" average="5.00" min="1" max="5"/>
-    <media:statistics views="186"/>
+    <media:statistics views="256"/>
    </media:community>
   </media:group>
  </entry>
@@ -67,7 +136,7 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-06-03T13:08:11+00:00</published>
-  <updated>2024-06-04T20:12:34+00:00</updated>
+  <updated>2024-06-10T04:23:09+00:00</updated>
   <media:group>
    <media:title>天津人真正厉害的不是贫嘴，而是幽默与乐观#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
    <media:content url="https://www.youtube.com/v/8Q-2ThxBRv8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -75,7 +144,7 @@
    <media:description>天津人最让人佩服的，不是他们的贫嘴，而是他们那幽默乐观的生活态度！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="188"/>
+    <media:statistics views="228"/>
    </media:community>
   </media:group>
  </entry>
@@ -97,8 +166,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/JuGRD_marxs/hqdefault.jpg" width="480" height="360"/>
    <media:description>终于明白了，原来这才是男人不爱过节的真正原因！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="262"/>
+    <media:starRating count="9" average="5.00" min="1" max="5"/>
+    <media:statistics views="287"/>
    </media:community>
   </media:group>
  </entry>
@@ -121,7 +190,7 @@
    <media:description>没想到要抓住一个男人的心跳竟然这么容易！分享我的秘诀#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="13" average="5.00" min="1" max="5"/>
-    <media:statistics views="272"/>
+    <media:statistics views="291"/>
    </media:community>
   </media:group>
  </entry>
@@ -144,7 +213,7 @@
    <media:description>全天下的男人是不是都有这种习惯？总是带不同的女人去同一家好吃的餐厅！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="257"/>
+    <media:statistics views="274"/>
    </media:community>
   </media:group>
  </entry>
@@ -167,7 +236,7 @@
    <media:description>我真的不理解，是我不了解东北的浪漫，还是东北人对浪漫有“过敏反应”？#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="46" average="5.00" min="1" max="5"/>
-    <media:statistics views="2799"/>
+    <media:statistics views="2850"/>
    </media:community>
   </media:group>
  </entry>
@@ -190,7 +259,7 @@
    <media:description>为什么男人对“盘”情有独钟？干巴的东西真的入不了他们的眼吗？#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="205"/>
+    <media:statistics views="210"/>
    </media:community>
   </media:group>
  </entry>
@@ -213,7 +282,7 @@
    <media:description>我一直以为这是老公特有的暗号，结果发现所有男人都在用它！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="355"/>
+    <media:statistics views="362"/>
    </media:community>
   </media:group>
  </entry>
@@ -236,7 +305,7 @@
    <media:description>到底是我们太强，还是老外太弱？真相揭晓！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="202"/>
+    <media:statistics views="208"/>
    </media:community>
   </media:group>
  </entry>
@@ -259,7 +328,7 @@
    <media:description>男人为什么对自驾情有独钟？是自由、冒险，还是掌控感？#爱吐槽的四季妈妈</media:description>
    <media:community>
     <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="420"/>
+    <media:statistics views="429"/>
    </media:community>
   </media:group>
  </entry>
@@ -282,76 +351,7 @@
    <media:description>真没想到，我们会在自己的地盘上被老外踩了一脚！#爱吐槽的四季妈妈 #歌手2024 #歌手2024首发歌手名单</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="286"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:7Xssy5UMWwc</id>
-  <yt:videoId>7Xssy5UMWwc</yt:videoId>
-  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
-  <title>在青岛的夜市感受到了山东的啤酒文化，果然，提袋儿喝的味道最好#爱吐槽的四季妈妈 #家庭吐槽大会</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=7Xssy5UMWwc"/>
-  <author>
-   <name>四季妈妈—小龙</name>
-   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
-  </author>
-  <published>2024-05-15T13:50:02+00:00</published>
-  <updated>2024-05-20T03:42:24+00:00</updated>
-  <media:group>
-   <media:title>在青岛的夜市感受到了山东的啤酒文化，果然，提袋儿喝的味道最好#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
-   <media:content url="https://www.youtube.com/v/7Xssy5UMWwc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/7Xssy5UMWwc/hqdefault.jpg" width="480" height="360"/>
-   <media:description>在青岛夜市的体验真是难忘，感受到了浓郁的山东啤酒文化。提袋儿喝的啤酒果然有独特的风味！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
-   <media:community>
-    <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="319"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:zAeW2olRxc4</id>
-  <yt:videoId>zAeW2olRxc4</yt:videoId>
-  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
-  <title>你们山东人嘴真严啊，到了这儿，我才发现你们的秘密#爱吐槽的四季妈妈 #家庭吐槽大会</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=zAeW2olRxc4"/>
-  <author>
-   <name>四季妈妈—小龙</name>
-   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
-  </author>
-  <published>2024-05-12T03:17:40+00:00</published>
-  <updated>2024-05-14T02:52:38+00:00</updated>
-  <media:group>
-   <media:title>你们山东人嘴真严啊，到了这儿，我才发现你们的秘密#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
-   <media:content url="https://www.youtube.com/v/zAeW2olRxc4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/zAeW2olRxc4/hqdefault.jpg" width="480" height="360"/>
-   <media:description>&quot;发现山东人口才的不可思议之处！我们带你走进吐槽大会，揭开四季妈妈们幽默的口才秘密。准备好笑得前仰后合了吗？#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
-   <media:community>
-    <media:starRating count="15" average="5.00" min="1" max="5"/>
-    <media:statistics views="649"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:sXPVfr3Jpag</id>
-  <yt:videoId>sXPVfr3Jpag</yt:videoId>
-  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
-  <title>能降服东北爷们的也只有外刚内柔的东北姑娘了吧#爱吐槽的四季妈妈 #家庭吐槽大会</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=sXPVfr3Jpag"/>
-  <author>
-   <name>四季妈妈—小龙</name>
-   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
-  </author>
-  <published>2024-05-09T12:22:05+00:00</published>
-  <updated>2024-05-11T14:18:38+00:00</updated>
-  <media:group>
-   <media:title>能降服东北爷们的也只有外刚内柔的东北姑娘了吧#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
-   <media:content url="https://www.youtube.com/v/sXPVfr3Jpag?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/sXPVfr3Jpag/hqdefault.jpg" width="480" height="360"/>
-   <media:description>东北爷们，你们认同吗？只有外表坚强，内心柔软的东北姑娘才能真正降服你们！在我们的家庭吐槽大会上，一起探讨东北姑娘的魅力所在吧！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
-   <media:community>
-    <media:starRating count="10" average="5.00" min="1" max="5"/>
-    <media:statistics views="376"/>
+    <media:statistics views="287"/>
    </media:community>
   </media:group>
  </entry>

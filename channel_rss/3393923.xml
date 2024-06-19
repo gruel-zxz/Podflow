@@ -7,7 +7,7 @@
         <category>TV &amp; Film</category>
         <generator>Podflow (support us at https://github.com/gruel-zxz/podflow)</generator>
         <language>en-us</language>
-        <lastBuildDate>Mon, 10 Jun 2024 17:21:00 +0800</lastBuildDate>
+        <lastBuildDate>Wed, 19 Jun 2024 14:21:38 +0800</lastBuildDate>
         <pubDate>Sun, 24 Apr 2005 11:20:54 +0800</pubDate>
         <image>
             <url>https://i2.hdslb.com/bfs/face/0a04cb37ca82e0f66eb44a5a977806252ff469dc.jpg</url>
@@ -21,6 +21,22 @@
         <itunes:explicit>no</itunes:explicit>
         <itunes:category text="TV &amp; Film"></itunes:category>
 <!-- {3393923} -->
+<!-- 3393923 -->
+        <item>
+            <guid>BV1vn4y197dN</guid>
+            <title>有没有谁必须回家拉屎？</title>
+            <link>https://www.bilibili.com/video/BV1vn4y197dN</link>
+            <description>『无无无无语森』</description>
+            <pubDate>Wed, 12 Jun 2024 16:00:00 +0800</pubDate>
+            <enclosure url="https://raw.githubusercontent.com/gruel-zxz/podflow/main/channel_audiovisual/3393923/BV1vn4y197dN.m4a" length="8917131" type="audio/x-m4a"></enclosure>
+            <itunes:author>有没有谁必须回家拉屎？</itunes:author>
+            <itunes:subtitle>有没有谁必须回家拉屎？</itunes:subtitle>
+            <itunes:summary><![CDATA[『无无无无语森』]]></itunes:summary>
+            <itunes:image href="http://i1.hdslb.com/bfs/archive/dd423a7b66974795a014e90cfa9d61d52b94aff1.jpg"></itunes:image>
+            <itunes:duration>04:46</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:order>1</itunes:order>
+        </item>
 <!-- 3393923 -->
         <item>
             <guid>BV1gU411o7GM</guid>

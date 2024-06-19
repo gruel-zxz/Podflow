@@ -11,21 +11,21 @@
  </author>
  <published>2018-03-31T05:35:30+00:00</published>
  <entry>
-  <id>yt:video:meK0Bojgquo</id>
-  <yt:videoId>meK0Bojgquo</yt:videoId>
+  <id>yt:video:TWhmu_T-9pU</id>
+  <yt:videoId>TWhmu_T-9pU</yt:videoId>
   <yt:channelId>UCghLs6s95LrBWOdlZUCH4qw</yt:channelId>
-  <title>日本炒冰，鯛魚燒，Sul &amp; Beans（20240609第7314期）</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=meK0Bojgquo"/>
+  <title>中专女生姜萍进入全球数学竞赛决赛，引发打假热潮（20240618第7317期）</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=TWhmu_T-9pU"/>
   <author>
    <name>stone记</name>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
-  <published>2024-06-10T06:05:42+00:00</published>
-  <updated>2024-06-10T06:05:55+00:00</updated>
+  <published>2024-06-19T02:22:24+00:00</published>
+  <updated>2024-06-19T02:28:32+00:00</updated>
   <media:group>
-   <media:title>日本炒冰，鯛魚燒，Sul &amp; Beans（20240609第7314期）</media:title>
-   <media:content url="https://www.youtube.com/v/meK0Bojgquo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/meK0Bojgquo/hqdefault.jpg" width="480" height="360"/>
+   <media:title>中专女生姜萍进入全球数学竞赛决赛，引发打假热潮（20240618第7317期）</media:title>
+   <media:content url="https://www.youtube.com/v/TWhmu_T-9pU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/TWhmu_T-9pU/hqdefault.jpg" width="480" height="360"/>
    <media:description>加入stone记会员链接
 https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw/join
 合作联系Twitter：stone记@stone62855987
@@ -78,27 +78,27 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="746"/>
+    <media:starRating count="162" average="5.00" min="1" max="5"/>
+    <media:statistics views="10560"/>
    </media:community>
   </media:group>
  </entry>
  <entry>
-  <id>yt:video:LRn1GA9jqcM</id>
-  <yt:videoId>LRn1GA9jqcM</yt:videoId>
+  <id>yt:video:c9UIYIVsVkA</id>
+  <yt:videoId>c9UIYIVsVkA</yt:videoId>
   <yt:channelId>UCghLs6s95LrBWOdlZUCH4qw</yt:channelId>
-  <title>Sadelle's brunch（20240609第7304期）</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=LRn1GA9jqcM"/>
+  <title>网红龙虾卷Luke's Lobster（20240617第7394期）</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=c9UIYIVsVkA"/>
   <author>
    <name>stone记</name>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
-  <published>2024-06-10T06:02:20+00:00</published>
-  <updated>2024-06-10T06:02:34+00:00</updated>
+  <published>2024-06-18T06:22:39+00:00</published>
+  <updated>2024-06-19T01:05:06+00:00</updated>
   <media:group>
-   <media:title>Sadelle's brunch（20240609第7304期）</media:title>
-   <media:content url="https://www.youtube.com/v/LRn1GA9jqcM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i1.ytimg.com/vi/LRn1GA9jqcM/hqdefault.jpg" width="480" height="360"/>
+   <media:title>网红龙虾卷Luke's Lobster（20240617第7394期）</media:title>
+   <media:content url="https://www.youtube.com/v/c9UIYIVsVkA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/c9UIYIVsVkA/hqdefault.jpg" width="480" height="360"/>
    <media:description>加入stone记会员链接
 https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw/join
 合作联系Twitter：stone记@stone62855987
@@ -151,27 +151,27 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="9" average="5.00" min="1" max="5"/>
-    <media:statistics views="694"/>
+    <media:starRating count="35" average="5.00" min="1" max="5"/>
+    <media:statistics views="4807"/>
    </media:community>
   </media:group>
  </entry>
  <entry>
-  <id>yt:video:O7GyvZ03vVg</id>
-  <yt:videoId>O7GyvZ03vVg</yt:videoId>
+  <id>yt:video:u4i_3_kHVng</id>
+  <yt:videoId>u4i_3_kHVng</yt:videoId>
   <yt:channelId>UCghLs6s95LrBWOdlZUCH4qw</yt:channelId>
-  <title>《赤字迷思》第五章：贸易逆差就意味着“失败”（1）（20240609第7279期）</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=O7GyvZ03vVg"/>
+  <title>分析目前美国金融市场很多人持重金准备9月份美联储降息做空（20240617第7316期）</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=u4i_3_kHVng"/>
   <author>
    <name>stone记</name>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
-  <published>2024-06-10T02:35:48+00:00</published>
-  <updated>2024-06-10T06:28:24+00:00</updated>
+  <published>2024-06-18T02:34:22+00:00</published>
+  <updated>2024-06-18T19:45:13+00:00</updated>
   <media:group>
-   <media:title>《赤字迷思》第五章：贸易逆差就意味着“失败”（1）（20240609第7279期）</media:title>
-   <media:content url="https://www.youtube.com/v/O7GyvZ03vVg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/O7GyvZ03vVg/hqdefault.jpg" width="480" height="360"/>
+   <media:title>分析目前美国金融市场很多人持重金准备9月份美联储降息做空（20240617第7316期）</media:title>
+   <media:content url="https://www.youtube.com/v/u4i_3_kHVng?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/u4i_3_kHVng/hqdefault.jpg" width="480" height="360"/>
    <media:description>加入stone记会员链接
 https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw/join
 合作联系Twitter：stone记@stone62855987
@@ -224,27 +224,27 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="45" average="5.00" min="1" max="5"/>
-    <media:statistics views="5081"/>
+    <media:starRating count="229" average="5.00" min="1" max="5"/>
+    <media:statistics views="45937"/>
    </media:community>
   </media:group>
  </entry>
  <entry>
-  <id>yt:video:Qr0jySExOYs</id>
-  <yt:videoId>Qr0jySExOYs</yt:videoId>
+  <id>yt:video:lDEKjJblUcY</id>
+  <yt:videoId>lDEKjJblUcY</yt:videoId>
   <yt:channelId>UCghLs6s95LrBWOdlZUCH4qw</yt:channelId>
-  <title>中以混血儿诺亚加沙获救（20240608第7276期）</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=Qr0jySExOYs"/>
+  <title>金融时报：习近平说美国试图诱使他攻打台湾，但他不会上当（20240617第7315期）</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=lDEKjJblUcY"/>
   <author>
    <name>stone记</name>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
-  <published>2024-06-09T04:53:14+00:00</published>
-  <updated>2024-06-09T06:49:06+00:00</updated>
+  <published>2024-06-17T15:06:12+00:00</published>
+  <updated>2024-06-18T19:25:16+00:00</updated>
   <media:group>
-   <media:title>中以混血儿诺亚加沙获救（20240608第7276期）</media:title>
-   <media:content url="https://www.youtube.com/v/Qr0jySExOYs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/Qr0jySExOYs/hqdefault.jpg" width="480" height="360"/>
+   <media:title>金融时报：习近平说美国试图诱使他攻打台湾，但他不会上当（20240617第7315期）</media:title>
+   <media:content url="https://www.youtube.com/v/lDEKjJblUcY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/lDEKjJblUcY/hqdefault.jpg" width="480" height="360"/>
    <media:description>加入stone记会员链接
 https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw/join
 合作联系Twitter：stone记@stone62855987
@@ -297,27 +297,27 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="165" average="5.00" min="1" max="5"/>
-    <media:statistics views="25054"/>
+    <media:starRating count="377" average="5.00" min="1" max="5"/>
+    <media:statistics views="78887"/>
    </media:community>
   </media:group>
  </entry>
  <entry>
-  <id>yt:video:c-1paL-3pbs</id>
-  <yt:videoId>c-1paL-3pbs</yt:videoId>
+  <id>yt:video:PMkhrspDOPU</id>
+  <yt:videoId>PMkhrspDOPU</yt:videoId>
   <yt:channelId>UCghLs6s95LrBWOdlZUCH4qw</yt:channelId>
-  <title>目前在中国失业了怎么办（20240608第7277期）</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=c-1paL-3pbs"/>
+  <title>二刷Angry Crab Shack（20240617第7384期）</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=PMkhrspDOPU"/>
   <author>
    <name>stone记</name>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
-  <published>2024-06-09T04:53:00+00:00</published>
-  <updated>2024-06-10T04:08:24+00:00</updated>
+  <published>2024-06-17T15:04:44+00:00</published>
+  <updated>2024-06-19T04:34:32+00:00</updated>
   <media:group>
-   <media:title>目前在中国失业了怎么办（20240608第7277期）</media:title>
-   <media:content url="https://www.youtube.com/v/c-1paL-3pbs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/c-1paL-3pbs/hqdefault.jpg" width="480" height="360"/>
+   <media:title>二刷Angry Crab Shack（20240617第7384期）</media:title>
+   <media:content url="https://www.youtube.com/v/PMkhrspDOPU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/PMkhrspDOPU/hqdefault.jpg" width="480" height="360"/>
    <media:description>加入stone记会员链接
 https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw/join
 合作联系Twitter：stone记@stone62855987
@@ -370,27 +370,27 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="255" average="5.00" min="1" max="5"/>
-    <media:statistics views="41693"/>
+    <media:starRating count="40" average="5.00" min="1" max="5"/>
+    <media:statistics views="4820"/>
    </media:community>
   </media:group>
  </entry>
  <entry>
-  <id>yt:video:ifxkLBcwHNw</id>
-  <yt:videoId>ifxkLBcwHNw</yt:videoId>
+  <id>yt:video:9rwFkWYmE0w</id>
+  <yt:videoId>9rwFkWYmE0w</yt:videoId>
   <yt:channelId>UCghLs6s95LrBWOdlZUCH4qw</yt:channelId>
-  <title>胡塞到底有没有把美国航母炸了（20240608第7278期）</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=ifxkLBcwHNw"/>
+  <title>打脸泽连斯基，拜登古特雷斯全部拒绝出席乌克兰和平峰会（20240616第7313期）</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=9rwFkWYmE0w"/>
   <author>
    <name>stone记</name>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
-  <published>2024-06-09T04:52:31+00:00</published>
-  <updated>2024-06-09T06:32:57+00:00</updated>
+  <published>2024-06-17T02:01:36+00:00</published>
+  <updated>2024-06-17T06:38:40+00:00</updated>
   <media:group>
-   <media:title>胡塞到底有没有把美国航母炸了（20240608第7278期）</media:title>
-   <media:content url="https://www.youtube.com/v/ifxkLBcwHNw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/ifxkLBcwHNw/hqdefault.jpg" width="480" height="360"/>
+   <media:title>打脸泽连斯基，拜登古特雷斯全部拒绝出席乌克兰和平峰会（20240616第7313期）</media:title>
+   <media:content url="https://www.youtube.com/v/9rwFkWYmE0w?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/9rwFkWYmE0w/hqdefault.jpg" width="480" height="360"/>
    <media:description>加入stone记会员链接
 https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw/join
 合作联系Twitter：stone记@stone62855987
@@ -443,27 +443,27 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="247" average="5.00" min="1" max="5"/>
-    <media:statistics views="41168"/>
+    <media:starRating count="326" average="5.00" min="1" max="5"/>
+    <media:statistics views="51710"/>
    </media:community>
   </media:group>
  </entry>
  <entry>
-  <id>yt:video:EybY3kJ37ik</id>
-  <yt:videoId>EybY3kJ37ik</yt:videoId>
+  <id>yt:video:zmNj-FgJ_MI</id>
+  <yt:videoId>zmNj-FgJ_MI</yt:videoId>
   <yt:channelId>UCghLs6s95LrBWOdlZUCH4qw</yt:channelId>
-  <title>儿媳妇实名举报公公巨额贪腐（20240608第7275期）</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=EybY3kJ37ik"/>
+  <title>茅台下跌，黄茅起义，金融离场，消费稳定（20240616第7310期）</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=zmNj-FgJ_MI"/>
   <author>
    <name>stone记</name>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
-  <published>2024-06-09T04:51:53+00:00</published>
-  <updated>2024-06-10T03:14:59+00:00</updated>
+  <published>2024-06-16T10:41:13+00:00</published>
+  <updated>2024-06-17T07:00:46+00:00</updated>
   <media:group>
-   <media:title>儿媳妇实名举报公公巨额贪腐（20240608第7275期）</media:title>
-   <media:content url="https://www.youtube.com/v/EybY3kJ37ik?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/EybY3kJ37ik/hqdefault.jpg" width="480" height="360"/>
+   <media:title>茅台下跌，黄茅起义，金融离场，消费稳定（20240616第7310期）</media:title>
+   <media:content url="https://www.youtube.com/v/zmNj-FgJ_MI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/zmNj-FgJ_MI/hqdefault.jpg" width="480" height="360"/>
    <media:description>加入stone记会员链接
 https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw/join
 合作联系Twitter：stone记@stone62855987
@@ -516,27 +516,27 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="102" average="5.00" min="1" max="5"/>
-    <media:statistics views="17041"/>
+    <media:starRating count="211" average="5.00" min="1" max="5"/>
+    <media:statistics views="51512"/>
    </media:community>
   </media:group>
  </entry>
  <entry>
-  <id>yt:video:f1p3YhCptFw</id>
-  <yt:videoId>f1p3YhCptFw</yt:videoId>
+  <id>yt:video:GRGbQJUrZSg</id>
+  <yt:videoId>GRGbQJUrZSg</yt:videoId>
   <yt:channelId>UCghLs6s95LrBWOdlZUCH4qw</yt:channelId>
-  <title>2024年1月凯尔顿访谈（20240608第7273期）</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=f1p3YhCptFw"/>
+  <title>户晨风：韩国“最低薪资购买力”（20240616第7311期）</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=GRGbQJUrZSg"/>
   <author>
    <name>stone记</name>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
-  <published>2024-06-09T03:27:01+00:00</published>
-  <updated>2024-06-09T05:58:35+00:00</updated>
+  <published>2024-06-16T10:40:27+00:00</published>
+  <updated>2024-06-17T22:28:01+00:00</updated>
   <media:group>
-   <media:title>2024年1月凯尔顿访谈（20240608第7273期）</media:title>
-   <media:content url="https://www.youtube.com/v/f1p3YhCptFw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/f1p3YhCptFw/hqdefault.jpg" width="480" height="360"/>
+   <media:title>户晨风：韩国“最低薪资购买力”（20240616第7311期）</media:title>
+   <media:content url="https://www.youtube.com/v/GRGbQJUrZSg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/GRGbQJUrZSg/hqdefault.jpg" width="480" height="360"/>
    <media:description>加入stone记会员链接
 https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw/join
 合作联系Twitter：stone记@stone62855987
@@ -589,27 +589,27 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="114" average="5.00" min="1" max="5"/>
-    <media:statistics views="18072"/>
+    <media:starRating count="217" average="5.00" min="1" max="5"/>
+    <media:statistics views="34698"/>
    </media:community>
   </media:group>
  </entry>
  <entry>
-  <id>yt:video:jsGruq4_3ek</id>
-  <yt:videoId>jsGruq4_3ek</yt:videoId>
+  <id>yt:video:mJMs3Ohox9w</id>
+  <yt:videoId>mJMs3Ohox9w</yt:videoId>
   <yt:channelId>UCghLs6s95LrBWOdlZUCH4qw</yt:channelId>
-  <title>Lago（20240608第7294期）</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=jsGruq4_3ek"/>
+  <title>英国军队在义乌定制的新帽徽被中共植入跟踪器，推迟发放（20240616第7309期）</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=mJMs3Ohox9w"/>
   <author>
    <name>stone记</name>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
-  <published>2024-06-08T22:42:25+00:00</published>
-  <updated>2024-06-09T14:53:21+00:00</updated>
+  <published>2024-06-16T10:32:18+00:00</published>
+  <updated>2024-06-17T09:04:26+00:00</updated>
   <media:group>
-   <media:title>Lago（20240608第7294期）</media:title>
-   <media:content url="https://www.youtube.com/v/jsGruq4_3ek?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/jsGruq4_3ek/hqdefault.jpg" width="480" height="360"/>
+   <media:title>英国军队在义乌定制的新帽徽被中共植入跟踪器，推迟发放（20240616第7309期）</media:title>
+   <media:content url="https://www.youtube.com/v/mJMs3Ohox9w?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/mJMs3Ohox9w/hqdefault.jpg" width="480" height="360"/>
    <media:description>加入stone记会员链接
 https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw/join
 合作联系Twitter：stone记@stone62855987
@@ -662,27 +662,27 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="117" average="5.00" min="1" max="5"/>
-    <media:statistics views="13957"/>
+    <media:starRating count="200" average="5.00" min="1" max="5"/>
+    <media:statistics views="45301"/>
    </media:community>
   </media:group>
  </entry>
  <entry>
-  <id>yt:video:NiMLINJnkl8</id>
-  <yt:videoId>NiMLINJnkl8</yt:videoId>
+  <id>yt:video:i3sxQYzceoQ</id>
+  <yt:videoId>i3sxQYzceoQ</yt:videoId>
   <yt:channelId>UCghLs6s95LrBWOdlZUCH4qw</yt:channelId>
-  <title>关于中国政府借美元对冲美债的错误思维方式（20240608第7272期）</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=NiMLINJnkl8"/>
+  <title>法国股市下跌，是马克龙的选举策略（20240616第7312期）</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=i3sxQYzceoQ"/>
   <author>
    <name>stone记</name>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
-  <published>2024-06-08T17:16:13+00:00</published>
-  <updated>2024-06-09T06:33:36+00:00</updated>
+  <published>2024-06-16T10:25:35+00:00</published>
+  <updated>2024-06-17T06:30:32+00:00</updated>
   <media:group>
-   <media:title>关于中国政府借美元对冲美债的错误思维方式（20240608第7272期）</media:title>
-   <media:content url="https://www.youtube.com/v/NiMLINJnkl8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/NiMLINJnkl8/hqdefault.jpg" width="480" height="360"/>
+   <media:title>法国股市下跌，是马克龙的选举策略（20240616第7312期）</media:title>
+   <media:content url="https://www.youtube.com/v/i3sxQYzceoQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/i3sxQYzceoQ/hqdefault.jpg" width="480" height="360"/>
    <media:description>加入stone记会员链接
 https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw/join
 合作联系Twitter：stone记@stone62855987
@@ -735,27 +735,27 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="288" average="5.00" min="1" max="5"/>
-    <media:statistics views="39912"/>
+    <media:starRating count="127" average="5.00" min="1" max="5"/>
+    <media:statistics views="16984"/>
    </media:community>
   </media:group>
  </entry>
  <entry>
-  <id>yt:video:wHg1WpIYKMI</id>
-  <yt:videoId>wHg1WpIYKMI</yt:videoId>
+  <id>yt:video:A-VZ6-HAIl8</id>
+  <yt:videoId>A-VZ6-HAIl8</yt:videoId>
   <yt:channelId>UCghLs6s95LrBWOdlZUCH4qw</yt:channelId>
-  <title>河南云台瀑布人工供水（20240607第7270期）</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=wHg1WpIYKMI"/>
+  <title>《赤字迷思》第六章：只要政府愿意，社会福利的唯一问题是人口结构（20240615第7308期）</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=A-VZ6-HAIl8"/>
   <author>
    <name>stone记</name>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
-  <published>2024-06-08T01:29:38+00:00</published>
-  <updated>2024-06-10T00:48:43+00:00</updated>
+  <published>2024-06-15T23:47:46+00:00</published>
+  <updated>2024-06-17T22:23:50+00:00</updated>
   <media:group>
-   <media:title>河南云台瀑布人工供水（20240607第7270期）</media:title>
-   <media:content url="https://www.youtube.com/v/wHg1WpIYKMI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/wHg1WpIYKMI/hqdefault.jpg" width="480" height="360"/>
+   <media:title>《赤字迷思》第六章：只要政府愿意，社会福利的唯一问题是人口结构（20240615第7308期）</media:title>
+   <media:content url="https://www.youtube.com/v/A-VZ6-HAIl8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/A-VZ6-HAIl8/hqdefault.jpg" width="480" height="360"/>
    <media:description>加入stone记会员链接
 https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw/join
 合作联系Twitter：stone记@stone62855987
@@ -808,27 +808,27 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="155" average="5.00" min="1" max="5"/>
-    <media:statistics views="30524"/>
+    <media:starRating count="61" average="5.00" min="1" max="5"/>
+    <media:statistics views="10141"/>
    </media:community>
   </media:group>
  </entry>
  <entry>
-  <id>yt:video:2UsSpzBr_eo</id>
-  <yt:videoId>2UsSpzBr_eo</yt:videoId>
+  <id>yt:video:r6qhquUO4cM</id>
+  <yt:videoId>r6qhquUO4cM</yt:videoId>
   <yt:channelId>UCghLs6s95LrBWOdlZUCH4qw</yt:channelId>
-  <title>怎么看待铁头在靖国神社小便（20240607第7268期）</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=2UsSpzBr_eo"/>
+  <title>儿科教师因抢救患儿导致迟到，被学校扣发5月奖金（20240615第7306期）</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=r6qhquUO4cM"/>
   <author>
    <name>stone记</name>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
-  <published>2024-06-08T01:28:37+00:00</published>
-  <updated>2024-06-09T16:44:04+00:00</updated>
+  <published>2024-06-15T23:46:56+00:00</published>
+  <updated>2024-06-17T06:54:50+00:00</updated>
   <media:group>
-   <media:title>怎么看待铁头在靖国神社小便（20240607第7268期）</media:title>
-   <media:content url="https://www.youtube.com/v/2UsSpzBr_eo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/2UsSpzBr_eo/hqdefault.jpg" width="480" height="360"/>
+   <media:title>儿科教师因抢救患儿导致迟到，被学校扣发5月奖金（20240615第7306期）</media:title>
+   <media:content url="https://www.youtube.com/v/r6qhquUO4cM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/r6qhquUO4cM/hqdefault.jpg" width="480" height="360"/>
    <media:description>加入stone记会员链接
 https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw/join
 合作联系Twitter：stone记@stone62855987
@@ -881,27 +881,27 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="154" average="5.00" min="1" max="5"/>
-    <media:statistics views="27815"/>
+    <media:starRating count="172" average="5.00" min="1" max="5"/>
+    <media:statistics views="21724"/>
    </media:community>
   </media:group>
  </entry>
  <entry>
-  <id>yt:video:PssY-GPp3us</id>
-  <yt:videoId>PssY-GPp3us</yt:videoId>
+  <id>yt:video:LAdN3dZ6O2Y</id>
+  <yt:videoId>LAdN3dZ6O2Y</yt:videoId>
   <yt:channelId>UCghLs6s95LrBWOdlZUCH4qw</yt:channelId>
-  <title>纽时：以色列雇用政治营销公司对美国发动“舆论攻势”（20240607第7271期）</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=PssY-GPp3us"/>
+  <title>2023年世界新车销量Model Y居首，前十没有中国车（20240615第7307期）</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=LAdN3dZ6O2Y"/>
   <author>
    <name>stone记</name>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
-  <published>2024-06-08T01:28:00+00:00</published>
-  <updated>2024-06-09T20:24:00+00:00</updated>
+  <published>2024-06-15T23:44:17+00:00</published>
+  <updated>2024-06-16T23:42:30+00:00</updated>
   <media:group>
-   <media:title>纽时：以色列雇用政治营销公司对美国发动“舆论攻势”（20240607第7271期）</media:title>
-   <media:content url="https://www.youtube.com/v/PssY-GPp3us?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i1.ytimg.com/vi/PssY-GPp3us/hqdefault.jpg" width="480" height="360"/>
+   <media:title>2023年世界新车销量Model Y居首，前十没有中国车（20240615第7307期）</media:title>
+   <media:content url="https://www.youtube.com/v/LAdN3dZ6O2Y?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/LAdN3dZ6O2Y/hqdefault.jpg" width="480" height="360"/>
    <media:description>加入stone记会员链接
 https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw/join
 合作联系Twitter：stone记@stone62855987
@@ -954,27 +954,27 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="120" average="5.00" min="1" max="5"/>
-    <media:statistics views="19149"/>
+    <media:starRating count="208" average="5.00" min="1" max="5"/>
+    <media:statistics views="32265"/>
    </media:community>
   </media:group>
  </entry>
  <entry>
-  <id>yt:video:Jk61AP3WkoE</id>
-  <yt:videoId>Jk61AP3WkoE</yt:videoId>
+  <id>yt:video:2rYwb73bc28</id>
+  <yt:videoId>2rYwb73bc28</yt:videoId>
   <yt:channelId>UCghLs6s95LrBWOdlZUCH4qw</yt:channelId>
-  <title>香港警方逮捕3名“侮辱”国歌球迷（20240607第7269期）</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=Jk61AP3WkoE"/>
+  <title>川普重返国会山，宣扬用“全关税” 取代所得税（20240614第7302期）</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=2rYwb73bc28"/>
   <author>
    <name>stone记</name>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
-  <published>2024-06-08T01:27:04+00:00</published>
-  <updated>2024-06-10T04:18:32+00:00</updated>
+  <published>2024-06-15T06:18:22+00:00</published>
+  <updated>2024-06-17T02:56:10+00:00</updated>
   <media:group>
-   <media:title>香港警方逮捕3名“侮辱”国歌球迷（20240607第7269期）</media:title>
-   <media:content url="https://www.youtube.com/v/Jk61AP3WkoE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/Jk61AP3WkoE/hqdefault.jpg" width="480" height="360"/>
+   <media:title>川普重返国会山，宣扬用“全关税” 取代所得税（20240614第7302期）</media:title>
+   <media:content url="https://www.youtube.com/v/2rYwb73bc28?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/2rYwb73bc28/hqdefault.jpg" width="480" height="360"/>
    <media:description>加入stone记会员链接
 https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw/join
 合作联系Twitter：stone记@stone62855987
@@ -1027,27 +1027,27 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="88" average="5.00" min="1" max="5"/>
-    <media:statistics views="16081"/>
+    <media:starRating count="185" average="5.00" min="1" max="5"/>
+    <media:statistics views="42189"/>
    </media:community>
   </media:group>
  </entry>
  <entry>
-  <id>yt:video:WFuiqj2RcOg</id>
-  <yt:videoId>WFuiqj2RcOg</yt:videoId>
+  <id>yt:video:qwcNhQAQv4w</id>
+  <yt:videoId>qwcNhQAQv4w</yt:videoId>
   <yt:channelId>UCghLs6s95LrBWOdlZUCH4qw</yt:channelId>
-  <title>拜登为了大选，允许乌克兰用美国导弹袭击了俄罗斯境内（20240607第7267期）</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=WFuiqj2RcOg"/>
+  <title>习近平问：中国独角兽企业新增数下降的主因是什么？企业家答：都是中国的错，跟美国一点关系都没有（20240614第7303期）</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=qwcNhQAQv4w"/>
   <author>
    <name>stone记</name>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
-  <published>2024-06-08T01:26:28+00:00</published>
-  <updated>2024-06-09T14:52:56+00:00</updated>
+  <published>2024-06-15T06:17:11+00:00</published>
+  <updated>2024-06-15T21:30:37+00:00</updated>
   <media:group>
-   <media:title>拜登为了大选，允许乌克兰用美国导弹袭击了俄罗斯境内（20240607第7267期）</media:title>
-   <media:content url="https://www.youtube.com/v/WFuiqj2RcOg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/WFuiqj2RcOg/hqdefault.jpg" width="480" height="360"/>
+   <media:title>习近平问：中国独角兽企业新增数下降的主因是什么？企业家答：都是中国的错，跟美国一点关系都没有（20240614第7303期）</media:title>
+   <media:content url="https://www.youtube.com/v/qwcNhQAQv4w?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/qwcNhQAQv4w/hqdefault.jpg" width="480" height="360"/>
    <media:description>加入stone记会员链接
 https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw/join
 合作联系Twitter：stone记@stone62855987
@@ -1100,8 +1100,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="115" average="5.00" min="1" max="5"/>
-    <media:statistics views="20189"/>
+    <media:starRating count="243" average="5.00" min="1" max="5"/>
+    <media:statistics views="51116"/>
    </media:community>
   </media:group>
  </entry>
