@@ -103,6 +103,8 @@ overall_rss = ""  # 更新后的rss文本
 make_up_file_format = {}  # 补全缺失媒体字典
 make_up_file_format_fail = {}  # 补全缺失媒体失败字典
 
+shortcuts_url ={}  # 输出至shortcuts的url字典
+
 # 文件保存模块
 def file_save(content, file_name, folder=None):
     # 如果指定了文件夹则将文件保存到指定的文件夹中
@@ -1872,7 +1874,7 @@ def get_bilibili_all_part(bvid, bilibili_value):
     return bvid_part
 
 # 查询哔哩哔哩用户投稿视频明细模块
-def get_bilibili_vlist(bilibili_key, bilibili_value, num=1, all_part=False):
+def get_bilibili_vlist(bilibili_key, bilibili_value, num=1, all_part_judgement=False):
     bilibili_list = []
     bilibili_entry = {}
     if bilibili_response:= http_client(
@@ -1913,7 +1915,7 @@ def get_bilibili_vlist(bilibili_key, bilibili_value, num=1, all_part=False):
                 bilibili_list.append(vlist["bvid"])
             except (KeyError, TypeError, IndexError, ValueError):
                 pass
-    if all_part and bilibili_list:
+    if all_part_judgement and bilibili_list:
         def all_part(bvid):
             if bvid_part:= get_bilibili_all_part(bvid, bilibili_value):
                 bilibili_entry[bvid]["part"] = bvid_part
@@ -2781,6 +2783,7 @@ def youtube_xml_items(output_dir):
         or output_dir in channelid_youtube_ids_update
     ):
         print(f"{datetime.now().strftime('%H:%M:%S')}|{channelid_youtube_ids[output_dir]} 播客{update_text}|地址:\n\033[34m{config['url']}/channel_rss/{output_dir}.xml\033[0m")
+        shortcuts_url[f"{config['url']}/channel_rss/{output_dir}.xml"] = channelid_youtube_ids[output_dir]
     if (
         (
             channelid_youtube[channelid_youtube_ids[output_dir]]["DisplayRSSaddress"] 
@@ -2891,6 +2894,7 @@ def bilibili_xml_items(output_dir):
         or output_dir in channelid_bilibili_ids_update
     ):
         print(f"{datetime.now().strftime('%H:%M:%S')}|{channelid_bilibili_ids[output_dir]} 播客{update_text}|地址:\n\033[34m{config['url']}/channel_rss/{output_dir}.xml\033[0m")
+        shortcuts_url[f"{config['url']}/channel_rss/{output_dir}.xml"] = channelid_bilibili_ids[output_dir]
     if (
         (
             channelid_bilibili[channelid_bilibili_ids[output_dir]]["DisplayRSSaddress"] 
@@ -3250,6 +3254,7 @@ while update_num > 0 or update_num == -1:
         # 暂停进程打印
         server_process_print_flag[0] = "pause"
         write_log("总播客已更新", f"地址:\n\033[34m{config['url']}/{config['filename']}.xml\033[0m")
+        shortcuts_url[f"{config['url']}/{config['filename']}.xml"] = config['filename']
         if "main" not in displayed_QRcode:
             qr_code(f"{config['url']}/{config['filename']}.xml")
             displayed_QRcode.append("main")
@@ -3295,7 +3300,7 @@ while update_num > 0 or update_num == -1:
         update_num -= 1
     if argument == "a-shell":
         openserver_process = subprocess.Popen(
-            ["open", "shortcuts://run-shortcut?name=Podflow&input=text&text=http"]
+            ["open", f"shortcuts://run-shortcut?name=Podflow&input=text&text={urllib.parse.quote(json.dumps(shortcuts_url))}"]
         )
         # 延时
         time.sleep(60)
@@ -3306,6 +3311,8 @@ while update_num > 0 or update_num == -1:
     else:
         # 延时
         time.sleep(900)
+
+shortcuts_url.clear()  # 输出至shortcuts的url字典
 
 # 停止 RangeHTTPServer
 httpserver_process.terminate()

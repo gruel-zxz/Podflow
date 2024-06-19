@@ -29,7 +29,7 @@
    <media:description>这位大哥可真是厉害，单杆钓座头鲸，那真是一钓开天门啊！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="93"/>
+    <media:statistics views="100"/>
    </media:community>
   </media:group>
  </entry>
@@ -75,7 +75,7 @@
    <media:description>夫妻吵架时，为什么总是男人劝和而女人劝分呢？背后究竟有什么秘密？#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="365"/>
+    <media:statistics views="366"/>
    </media:community>
   </media:group>
  </entry>
@@ -98,7 +98,7 @@
    <media:description>西安修个地铁，竟然把施工现场变成了考古基地，考古人员都忙疯了！#爱吐槽的四季妈妈</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="166"/>
+    <media:statistics views="167"/>
    </media:community>
   </media:group>
  </entry>
@@ -121,7 +121,7 @@
    <media:description>看来，这种“减速带”只有男人才能理解！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="12" average="5.00" min="1" max="5"/>
-    <media:statistics views="258"/>
+    <media:statistics views="267"/>
    </media:community>
   </media:group>
  </entry>
@@ -144,7 +144,7 @@
    <media:description>天津人最让人佩服的，不是他们的贫嘴，而是他们那幽默乐观的生活态度！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="232"/>
+    <media:statistics views="233"/>
    </media:community>
   </media:group>
  </entry>
@@ -167,7 +167,7 @@
    <media:description>终于明白了，原来这才是男人不爱过节的真正原因！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="9" average="5.00" min="1" max="5"/>
-    <media:statistics views="287"/>
+    <media:statistics views="288"/>
    </media:community>
   </media:group>
  </entry>
@@ -190,7 +190,7 @@
    <media:description>没想到要抓住一个男人的心跳竟然这么容易！分享我的秘诀#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="13" average="5.00" min="1" max="5"/>
-    <media:statistics views="291"/>
+    <media:statistics views="292"/>
    </media:community>
   </media:group>
  </entry>
@@ -213,7 +213,7 @@
    <media:description>全天下的男人是不是都有这种习惯？总是带不同的女人去同一家好吃的餐厅！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="274"/>
+    <media:statistics views="275"/>
    </media:community>
   </media:group>
  </entry>
@@ -236,7 +236,7 @@
    <media:description>我真的不理解，是我不了解东北的浪漫，还是东北人对浪漫有“过敏反应”？#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="47" average="5.00" min="1" max="5"/>
-    <media:statistics views="2853"/>
+    <media:statistics views="2862"/>
    </media:community>
   </media:group>
  </entry>
@@ -259,7 +259,7 @@
    <media:description>为什么男人对“盘”情有独钟？干巴的东西真的入不了他们的眼吗？#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="210"/>
+    <media:statistics views="211"/>
    </media:community>
   </media:group>
  </entry>
@@ -282,7 +282,7 @@
    <media:description>我一直以为这是老公特有的暗号，结果发现所有男人都在用它！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="363"/>
+    <media:statistics views="364"/>
    </media:community>
   </media:group>
  </entry>

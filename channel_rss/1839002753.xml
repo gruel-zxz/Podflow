@@ -9,7 +9,7 @@
         <category>TV &amp; Film</category>
         <generator>Podflow (support us at https://github.com/gruel-zxz/podflow)</generator>
         <language>en-us</language>
-        <lastBuildDate>Wed, 19 Jun 2024 22:26:02 +0800</lastBuildDate>
+        <lastBuildDate>Thu, 20 Jun 2024 06:30:36 +0800</lastBuildDate>
         <pubDate>Sun, 24 Apr 2005 11:20:54 +0800</pubDate>
         <image>
             <url>https://i2.hdslb.com/bfs/face/6eddf76765648483faf65026835c2a84d7008a5a.jpg</url>
@@ -999,6 +999,43 @@ Music &amp; Lyrics : ゆこぴ     Animation: 小津   Vocal : �
 想参加整活歌王大赛么！那快动动小手给个三连支持一下！]]></itunes:summary>
             <itunes:image href="http://i1.hdslb.com/bfs/archive/e6282e41120070ef0520aca51920c50a09612c6c.jpg"></itunes:image>
             <itunes:duration>01:37</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:order>1</itunes:order>
+        </item>
+<!-- 1839002753 -->
+        <item>
+            <guid>BV1rU4y1k7dK</guid>
+            <title>我发现了人生弯道！</title>
+            <link>https://www.bilibili.com/video/BV1rU4y1k7dK</link>
+            <description>『鹿火CAVY』&#xA;可是，它真的好齐全欸！</description>
+            <pubDate>Thu, 25 Aug 2022 16:03:51 +0800</pubDate>
+            <enclosure url="https://raw.githubusercontent.com/gruel-zxz/podflow/main/channel_audiovisual/1839002753/BV1rU4y1k7dK.m4a" length="2627473" type="audio/x-m4a"></enclosure>
+            <itunes:author>我发现了人生弯道！</itunes:author>
+            <itunes:subtitle>我发现了人生弯道！</itunes:subtitle>
+            <itunes:summary><![CDATA[『鹿火CAVY』
+可是，它真的好齐全欸！]]></itunes:summary>
+            <itunes:image href="http://i0.hdslb.com/bfs/archive/75874064910044a0e3d24cc818228287ede6f71b.jpg"></itunes:image>
+            <itunes:duration>01:06</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:order>1</itunes:order>
+        </item>
+<!-- 1839002753 -->
+        <item>
+            <guid>BV1bW4y1b7ri</guid>
+            <title>救命，真的有这么像嘛！</title>
+            <link>https://www.bilibili.com/video/BV1bW4y1b7ri</link>
+            <description>『鹿火CAVY』&#xA;不装了，我摊牌了！&#xA;今天就是蔡徐鹿本鹿！&#xA;第一次挑战仿妆+翻唱视频！希望老爷们喜欢！（暗示）&#xA;下次想看谁的仿妆也可以评论告诉我～</description>
+            <pubDate>Fri, 19 Aug 2022 14:20:10 +0800</pubDate>
+            <enclosure url="https://raw.githubusercontent.com/gruel-zxz/podflow/main/channel_audiovisual/1839002753/BV1bW4y1b7ri.m4a" length="12272807" type="audio/x-m4a"></enclosure>
+            <itunes:author>救命，真的有这么像嘛！</itunes:author>
+            <itunes:subtitle>救命，真的有这么像嘛！</itunes:subtitle>
+            <itunes:summary><![CDATA[『鹿火CAVY』
+不装了，我摊牌了！
+今天就是蔡徐鹿本鹿！
+第一次挑战仿妆+翻唱视频！希望老爷们喜欢！（暗示）
+下次想看谁的仿妆也可以评论告诉我～]]></itunes:summary>
+            <itunes:image href="http://i0.hdslb.com/bfs/archive/0849cdeb8d20d89444a4f0b5c35125f148718b07.jpg"></itunes:image>
+            <itunes:duration>05:08</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
             <itunes:order>1</itunes:order>
         </item>
