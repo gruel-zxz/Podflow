@@ -103,7 +103,7 @@ overall_rss = ""  # 更新后的rss文本
 make_up_file_format = {}  # 补全缺失媒体字典
 make_up_file_format_fail = {}  # 补全缺失媒体失败字典
 
-shortcuts_url ={}  # 输出至shortcuts的url字典
+shortcut_url = {}  # 输出至shortcut的url字典
 
 # 文件保存模块
 def file_save(content, file_name, folder=None):
@@ -645,7 +645,7 @@ def media_format(video_website, video_url, media="m4a", quality="480", cookies=N
                         and "drc" not in format["format_id"]
                         and format["protocol"] == "https"
                         and (isinstance(format["tbr"], (float, int)))
-                        and format["tbr"] > tbr_max
+                        and format["tbr"] >= tbr_max
                     ):
                         tbr_max = format["tbr"]
                         format_id_best = format["format_id"]
@@ -757,7 +757,14 @@ def download_video(
         def info(self, msg):
             pass
         def error(self, msg):
-            print("")
+            print(
+                msg
+                .replace("ERROR: ", "")
+                .replace("\033[0;31mERROR:\033[0m ", "")
+                .replace(f"{video_url}: ", "")
+                .replace("[youtube] ", "")
+                .replace("[download] ", "")
+            )
     if cookies:
         ydl_opts = {
             "outtmpl": f"channel_audiovisual/{output_dir}/{video_url}{sesuffix}.{output_format}",  # 输出文件路径和名称
@@ -788,11 +795,12 @@ def download_video(
             ydl.download([f"{video_website}"])  # 下载指定视频链接的视频
     except Exception as download_video_error:
         write_log(
-            (f"{video_write_log} \033[31m下载失败\033[0m\n错误信息: {str(download_video_error)}")
+            f"{video_write_log} \033[31m下载失败\033[0m", None, True, True, (f"错误信息: {str(download_video_error)}")
             .replace("ERROR: ", "")
             .replace("\033[0;31mERROR:\033[0m ", "")
             .replace(f"{video_url}: ", "")
             .replace("[youtube] ", "")
+            .replace("[download] ", "")
         )  # 写入下载失败的日志信息
         return video_url
 
@@ -2783,7 +2791,7 @@ def youtube_xml_items(output_dir):
         or output_dir in channelid_youtube_ids_update
     ):
         print(f"{datetime.now().strftime('%H:%M:%S')}|{channelid_youtube_ids[output_dir]} 播客{update_text}|地址:\n\033[34m{config['url']}/channel_rss/{output_dir}.xml\033[0m")
-        shortcuts_url[f"{config['url']}/channel_rss/{output_dir}.xml"] = channelid_youtube_ids[output_dir]
+        shortcut_url[f"{config['url']}/channel_rss/{output_dir}.xml"] = channelid_youtube_ids[output_dir]
     if (
         (
             channelid_youtube[channelid_youtube_ids[output_dir]]["DisplayRSSaddress"] 
@@ -2894,7 +2902,7 @@ def bilibili_xml_items(output_dir):
         or output_dir in channelid_bilibili_ids_update
     ):
         print(f"{datetime.now().strftime('%H:%M:%S')}|{channelid_bilibili_ids[output_dir]} 播客{update_text}|地址:\n\033[34m{config['url']}/channel_rss/{output_dir}.xml\033[0m")
-        shortcuts_url[f"{config['url']}/channel_rss/{output_dir}.xml"] = channelid_bilibili_ids[output_dir]
+        shortcut_url[f"{config['url']}/channel_rss/{output_dir}.xml"] = channelid_bilibili_ids[output_dir]
     if (
         (
             channelid_bilibili[channelid_bilibili_ids[output_dir]]["DisplayRSSaddress"] 
@@ -3254,7 +3262,7 @@ while update_num > 0 or update_num == -1:
         # 暂停进程打印
         server_process_print_flag[0] = "pause"
         write_log("总播客已更新", f"地址:\n\033[34m{config['url']}/{config['filename']}.xml\033[0m")
-        shortcuts_url[f"{config['url']}/{config['filename']}.xml"] = config['filename']
+        shortcut_url[f"{config['url']}/{config['filename']}.xml"] = config['filename']
         if "main" not in displayed_QRcode:
             qr_code(f"{config['url']}/{config['filename']}.xml")
             displayed_QRcode.append("main")
@@ -3270,7 +3278,6 @@ while update_num > 0 or update_num == -1:
         server_process_print_flag[0] = "keep"
     else:
         print(f"{datetime.now().strftime('%H:%M:%S')}|频道无更新内容")
-
     # 清空变量内数据
     channelid_youtube_ids_update.clear()  # 需更新的YouTube频道字典
     youtube_content_ytid_update.clear()  # 需下载YouTube视频字典
@@ -3292,15 +3299,13 @@ while update_num > 0 or update_num == -1:
     overall_rss = ""  # 更新后的rss文本
     make_up_file_format.clear()  # 补全缺失媒体字典
     make_up_file_format_fail.clear()  # 补全缺失媒体失败字典
-
     # 将需要更新转为否
     update_generate_rss = False
-
     if update_num != -1:
         update_num -= 1
     if argument == "a-shell":
         openserver_process = subprocess.Popen(
-            ["open", f"shortcuts://run-shortcut?name=Podflow&input=text&text={urllib.parse.quote(json.dumps(shortcuts_url))}"]
+            ["open", f"shortcuts://run-shortcut?name=Podflow&input=text&text={urllib.parse.quote(json.dumps(shortcut_url))}"]
         )
         # 延时
         time.sleep(60)
@@ -3309,10 +3314,9 @@ while update_num > 0 or update_num == -1:
     elif update_num == 0:
         break
     else:
+        shortcut_url.clear()  # 输出至shortcut的url字典
         # 延时
         time.sleep(900)
-
-shortcuts_url.clear()  # 输出至shortcuts的url字典
 
 # 停止 RangeHTTPServer
 httpserver_process.terminate()

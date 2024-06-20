@@ -9,7 +9,7 @@
         <category>TV &amp; Film</category>
         <generator>Podflow (support us at https://github.com/gruel-zxz/podflow)</generator>
         <language>en-us</language>
-        <lastBuildDate>Thu, 20 Jun 2024 06:30:36 +0800</lastBuildDate>
+        <lastBuildDate>Thu, 20 Jun 2024 21:46:07 +0800</lastBuildDate>
         <pubDate>Sun, 24 Apr 2005 11:20:54 +0800</pubDate>
         <image>
             <url>https://i2.hdslb.com/bfs/face/6eddf76765648483faf65026835c2a84d7008a5a.jpg</url>
@@ -1036,6 +1036,42 @@ Music &amp; Lyrics : ゆこぴ     Animation: 小津   Vocal : �
 下次想看谁的仿妆也可以评论告诉我～]]></itunes:summary>
             <itunes:image href="http://i0.hdslb.com/bfs/archive/0849cdeb8d20d89444a4f0b5c35125f148718b07.jpg"></itunes:image>
             <itunes:duration>05:08</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:order>1</itunes:order>
+        </item>
+<!-- 1839002753 -->
+        <item>
+            <guid>BV1dv4y1F7WM</guid>
+            <title>相遇天使，但是腾格尔！</title>
+            <link>https://www.bilibili.com/video/BV1dv4y1F7WM</link>
+            <description>『鹿火CAVY』&#xA;对不起！腾格尔老师！</description>
+            <pubDate>Sat, 13 Aug 2022 14:20:00 +0800</pubDate>
+            <enclosure url="https://raw.githubusercontent.com/gruel-zxz/podflow/main/channel_audiovisual/1839002753/BV1dv4y1F7WM.m4a" length="3840053" type="audio/x-m4a"></enclosure>
+            <itunes:author>相遇天使，但是腾格尔！</itunes:author>
+            <itunes:subtitle>相遇天使，但是腾格尔！</itunes:subtitle>
+            <itunes:summary><![CDATA[『鹿火CAVY』
+对不起！腾格尔老师！]]></itunes:summary>
+            <itunes:image href="http://i1.hdslb.com/bfs/archive/28cda6da5c6db3da60579af2765ee2b2030d0c2c.jpg"></itunes:image>
+            <itunes:duration>01:37</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:order>1</itunes:order>
+        </item>
+<!-- 1839002753 -->
+        <item>
+            <guid>BV1WG41187mq</guid>
+            <title>约尔太太的奇妙约会</title>
+            <link>https://www.bilibili.com/video/BV1WG41187mq</link>
+            <description>『鹿火CAVY』&#xA;优雅，真的太优雅了！&#xA;魔性的可能不是约尔太太，是_____?&#xA;这么优雅还不一键三连？</description>
+            <pubDate>Mon, 08 Aug 2022 15:16:29 +0800</pubDate>
+            <enclosure url="https://raw.githubusercontent.com/gruel-zxz/podflow/main/channel_audiovisual/1839002753/BV1WG41187mq.m4a" length="4239258" type="audio/x-m4a"></enclosure>
+            <itunes:author>约尔太太的奇妙约会</itunes:author>
+            <itunes:subtitle>约尔太太的奇妙约会</itunes:subtitle>
+            <itunes:summary><![CDATA[『鹿火CAVY』
+优雅，真的太优雅了！
+魔性的可能不是约尔太太，是_____?
+这么优雅还不一键三连？]]></itunes:summary>
+            <itunes:image href="http://i2.hdslb.com/bfs/archive/96001d129b0af77434e0d31ff4f8f41f9499b87e.jpg"></itunes:image>
+            <itunes:duration>01:47</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
             <itunes:order>1</itunes:order>
         </item>

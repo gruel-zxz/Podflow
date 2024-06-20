@@ -29,7 +29,7 @@
    <media:description>这位大哥可真是厉害，单杆钓座头鲸，那真是一钓开天门啊！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="100"/>
+    <media:statistics views="105"/>
    </media:community>
   </media:group>
  </entry>
@@ -52,7 +52,7 @@
    <media:description>贵州的山路锻炼出了一批真正的车神，他们手中握的可不是普通驾照，而是象征实力的王者印记！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="264"/>
+    <media:statistics views="271"/>
    </media:community>
   </media:group>
  </entry>
@@ -75,7 +75,7 @@
    <media:description>夫妻吵架时，为什么总是男人劝和而女人劝分呢？背后究竟有什么秘密？#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="366"/>
+    <media:statistics views="367"/>
    </media:community>
   </media:group>
  </entry>
@@ -121,7 +121,7 @@
    <media:description>看来，这种“减速带”只有男人才能理解！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="12" average="5.00" min="1" max="5"/>
-    <media:statistics views="267"/>
+    <media:statistics views="271"/>
    </media:community>
   </media:group>
  </entry>
@@ -144,7 +144,7 @@
    <media:description>天津人最让人佩服的，不是他们的贫嘴，而是他们那幽默乐观的生活态度！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="233"/>
+    <media:statistics views="234"/>
    </media:community>
   </media:group>
  </entry>
@@ -236,7 +236,7 @@
    <media:description>我真的不理解，是我不了解东北的浪漫，还是东北人对浪漫有“过敏反应”？#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="47" average="5.00" min="1" max="5"/>
-    <media:statistics views="2862"/>
+    <media:statistics views="2868"/>
    </media:community>
   </media:group>
  </entry>
@@ -351,7 +351,7 @@
    <media:description>真没想到，我们会在自己的地盘上被老外踩了一脚！#爱吐槽的四季妈妈 #歌手2024 #歌手2024首发歌手名单</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="287"/>
+    <media:statistics views="288"/>
    </media:community>
   </media:group>
  </entry>
