@@ -10,6 +10,97 @@
   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
  </author>
  <entry>
+  <id>yt:video:oO92CVWfNmM</id>
+  <yt:videoId>oO92CVWfNmM</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>it's the longest day of the year! what are you doing with the extra hours of daylight? @asasteinars</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=oO92CVWfNmM"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2024-06-20T21:00:28+00:00</published>
+  <updated>2024-06-20T21:08:05+00:00</updated>
+  <media:group>
+   <media:title>it's the longest day of the year! what are you doing with the extra hours of daylight? @asasteinars</media:title>
+   <media:content url="https://www.youtube.com/v/oO92CVWfNmM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/oO92CVWfNmM/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="313" average="5.00" min="1" max="5"/>
+    <media:statistics views="4662"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:BOOfnxHKyOk</id>
+  <yt:videoId>BOOfnxHKyOk</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>A Full Day Of Yoga Flows in 30 Minutes with @yogawithadriene, @MalovaElena, and more</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=BOOfnxHKyOk"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2024-06-20T14:00:07+00:00</published>
+  <updated>2024-06-20T14:00:07+00:00</updated>
+  <media:group>
+   <media:title>A Full Day Of Yoga Flows in 30 Minutes with @yogawithadriene, @MalovaElena, and more</media:title>
+   <media:content url="https://www.youtube.com/v/BOOfnxHKyOk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/BOOfnxHKyOk/hqdefault.jpg" width="480" height="360"/>
+   <media:description>@yogawithadriene, @movewithagnes, @YogaWithNico, @MalovaElena and @MarcelClementi invite us to join them around the world as they guide us through flows for every part of the day in celebration of the yoga community on International Day of Yoga! 🌍🧘‍♂️
+
+Including a sunrise salutation, morning breathwork exercise, seated stretches, an evening winddown, and a bedtime routine; our yogis connect with each other and the YouTube Yoga community to celebrate this special day. Join us for a bit of zen as we honor the power of yoga to unite us all. 
+
+Host Creators: 
+@movewithagnes 
+@YogaWithNico 
+@MalovaElena 
+@MarcelClementi 
+@yogawithadriene 
+
+Featured Creators: 
+@bflowyoga 
+@BhartiYoga 
+@YogaWithNico 
+@BreatheAndFlow 
+@DanySa 
+@FernandaYoga 
+@JITIVOZ 
+@MalovaElena 
+@MarcelClementi 
+@movewithagnes 
+@PriLeiteYoga 
+@reynacohan 
+@sarahbethyoga 
+@SeanVigueFitness 
+@shona_vertue 
+@ViridianaYoga 
+@yogaskills 
+@YogaconBaruc 
+@yogawithkassandra
+@yoginimelbourne 
+
+#Yoga
+#YogaWithAdriene
+#AkshayaAgnes 
+#BlackYogiNicoMarie 
+#MalovaElena 
+#MarcelClementi
+
+00:00 Intro
+1:10 Morning Sun Salutation
+8:04 Mid-Morning Breathwork
+13:51 Afternoon Seated Stretch
+19:20 Evening Wind Down
+23:10 Bedtime Routine</media:description>
+   <media:community>
+    <media:starRating count="2411" average="5.00" min="1" max="5"/>
+    <media:statistics views="161382"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:UnkJhofJpZU</id>
   <yt:videoId>UnkJhofJpZU</yt:videoId>
   <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
@@ -20,15 +111,15 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-06-18T19:00:20+00:00</published>
-  <updated>2024-06-20T04:28:59+00:00</updated>
+  <updated>2024-06-20T06:55:41+00:00</updated>
   <media:group>
    <media:title>Nature’s true colors: all of them 🌈</media:title>
    <media:content url="https://www.youtube.com/v/UnkJhofJpZU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i2.ytimg.com/vi/UnkJhofJpZU/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="415" average="5.00" min="1" max="5"/>
-    <media:statistics views="12962"/>
+    <media:starRating count="624" average="5.00" min="1" max="5"/>
+    <media:statistics views="17262"/>
    </media:community>
   </media:group>
  </entry>
@@ -50,8 +141,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/nfcWfXr_kks/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1772" average="5.00" min="1" max="5"/>
-    <media:statistics views="51064"/>
+    <media:starRating count="1874" average="5.00" min="1" max="5"/>
+    <media:statistics views="54098"/>
    </media:community>
   </media:group>
  </entry>
@@ -73,8 +164,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/coHDW2PCUTs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2178" average="5.00" min="1" max="5"/>
-    <media:statistics views="49149"/>
+    <media:starRating count="2265" average="5.00" min="1" max="5"/>
+    <media:statistics views="51996"/>
    </media:community>
   </media:group>
  </entry>
@@ -96,8 +187,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/AqnJ1-K0j_s/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1615" average="5.00" min="1" max="5"/>
-    <media:statistics views="45559"/>
+    <media:starRating count="1660" average="5.00" min="1" max="5"/>
+    <media:statistics views="47394"/>
    </media:community>
   </media:group>
  </entry>
@@ -119,8 +210,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/mOvPjMlr6pk/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="18938" average="5.00" min="1" max="5"/>
-    <media:statistics views="260739"/>
+    <media:starRating count="18963" average="5.00" min="1" max="5"/>
+    <media:statistics views="261968"/>
    </media:community>
   </media:group>
  </entry>
@@ -185,8 +276,8 @@ Featured Creators:
 @MajicDyke
 @hankschannel</media:description>
    <media:community>
-    <media:starRating count="9298" average="5.00" min="1" max="5"/>
-    <media:statistics views="1007451"/>
+    <media:starRating count="9367" average="5.00" min="1" max="5"/>
+    <media:statistics views="992716"/>
    </media:community>
   </media:group>
  </entry>
@@ -208,8 +299,8 @@ Featured Creators:
    <media:thumbnail url="https://i2.ytimg.com/vi/9Cwlw9HwJUk/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2337" average="5.00" min="1" max="5"/>
-    <media:statistics views="73448"/>
+    <media:starRating count="2390" average="5.00" min="1" max="5"/>
+    <media:statistics views="76335"/>
    </media:community>
   </media:group>
  </entry>
@@ -231,8 +322,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/2Lf4mtx_N20/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3208" average="5.00" min="1" max="5"/>
-    <media:statistics views="74756"/>
+    <media:starRating count="3242" average="5.00" min="1" max="5"/>
+    <media:statistics views="76110"/>
    </media:community>
   </media:group>
  </entry>
@@ -254,8 +345,8 @@ Featured Creators:
    <media:thumbnail url="https://i2.ytimg.com/vi/yBfqEcxZXdI/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3953" average="5.00" min="1" max="5"/>
-    <media:statistics views="100919"/>
+    <media:starRating count="3988" average="5.00" min="1" max="5"/>
+    <media:statistics views="102544"/>
    </media:community>
   </media:group>
  </entry>
@@ -277,8 +368,8 @@ Featured Creators:
    <media:thumbnail url="https://i4.ytimg.com/vi/c8JGr7NblL4/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3971" average="5.00" min="1" max="5"/>
-    <media:statistics views="114787"/>
+    <media:starRating count="3994" average="5.00" min="1" max="5"/>
+    <media:statistics views="116661"/>
    </media:community>
   </media:group>
  </entry>
@@ -300,8 +391,8 @@ Featured Creators:
    <media:thumbnail url="https://i1.ytimg.com/vi/TQOGsMymo4E/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="5285" average="5.00" min="1" max="5"/>
-    <media:statistics views="141341"/>
+    <media:starRating count="5348" average="5.00" min="1" max="5"/>
+    <media:statistics views="143511"/>
    </media:community>
   </media:group>
  </entry>
@@ -409,8 +500,8 @@ Special Thanks:
 
 #minecraft15  #minecraft  #youtube  #brickbybrick #endlesspossibilites  #creativemode #youtubegaming</media:description>
    <media:community>
-    <media:starRating count="42641" average="5.00" min="1" max="5"/>
-    <media:statistics views="3143253"/>
+    <media:starRating count="42748" average="5.00" min="1" max="5"/>
+    <media:statistics views="3158753"/>
    </media:community>
   </media:group>
  </entry>
@@ -432,54 +523,8 @@ Special Thanks:
    <media:thumbnail url="https://i2.ytimg.com/vi/9ldbqbwhHno/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4239" average="5.00" min="1" max="5"/>
-    <media:statistics views="109846"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:_Ay8wL9QmXA</id>
-  <yt:videoId>_Ay8wL9QmXA</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>guess! that! invention!</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=_Ay8wL9QmXA"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2024-05-24T11:00:33+00:00</published>
-  <updated>2024-05-28T04:26:08+00:00</updated>
-  <media:group>
-   <media:title>guess! that! invention!</media:title>
-   <media:content url="https://www.youtube.com/v/_Ay8wL9QmXA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/_Ay8wL9QmXA/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="2481" average="5.00" min="1" max="5"/>
-    <media:statistics views="85220"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:SwHfaMBh8us</id>
-  <yt:videoId>SwHfaMBh8us</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>where’s this sound from? i fear it’s from @octopusslover8. we’re serious.</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=SwHfaMBh8us"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2024-05-23T21:00:24+00:00</published>
-  <updated>2024-05-30T01:33:43+00:00</updated>
-  <media:group>
-   <media:title>where’s this sound from? i fear it’s from @octopusslover8. we’re serious.</media:title>
-   <media:content url="https://www.youtube.com/v/SwHfaMBh8us?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/SwHfaMBh8us/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="1904" average="5.00" min="1" max="5"/>
-    <media:statistics views="52980"/>
+    <media:starRating count="4248" average="5.00" min="1" max="5"/>
+    <media:statistics views="110702"/>
    </media:community>
   </media:group>
  </entry>

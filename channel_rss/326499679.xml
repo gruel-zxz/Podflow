@@ -7,7 +7,7 @@
         <category>TV &amp; Film</category>
         <generator>Podflow (support us at https://github.com/gruel-zxz/podflow)</generator>
         <language>en-us</language>
-        <lastBuildDate>Thu, 20 Jun 2024 21:46:03 +0800</lastBuildDate>
+        <lastBuildDate>Fri, 21 Jun 2024 19:44:56 +0800</lastBuildDate>
         <pubDate>Sun, 24 Apr 2005 11:20:54 +0800</pubDate>
         <image>
             <url>https://i1.hdslb.com/bfs/face/2254162161a60b528cfec449f3450409a81ebc37.jpg</url>
@@ -21,6 +21,23 @@
         <itunes:explicit>no</itunes:explicit>
         <itunes:category text="TV &amp; Film"></itunes:category>
 <!-- {326499679} -->
+<!-- 326499679 -->
+        <item>
+            <guid>BV194421S7Ku</guid>
+            <title>与退圈偶像姐姐住上下楼！ 这是种什么神奇体验？</title>
+            <link>https://www.bilibili.com/video/BV194421S7Ku</link>
+            <description>『哔哩哔哩漫画』&#xA;刚搬到合租公寓的大一新生，楼下竟住着退圈人气偶像李斗娜，他们会发生哪些故事？谁能抗拒姐姐的魅力呢？</description>
+            <pubDate>Fri, 21 Jun 2024 17:35:00 +0800</pubDate>
+            <enclosure url="https://raw.githubusercontent.com/gruel-zxz/podflow/main/channel_audiovisual/326499679/BV194421S7Ku.mp4" length="3667947" type="video/mp4"></enclosure>
+            <itunes:author>与退圈偶像姐姐住上下楼！ 这是种什么神奇体验？</itunes:author>
+            <itunes:subtitle>与退圈偶像姐姐住上下楼！ 这是种什么神奇体验？</itunes:subtitle>
+            <itunes:summary><![CDATA[『哔哩哔哩漫画』
+刚搬到合租公寓的大一新生，楼下竟住着退圈人气偶像李斗娜，他们会发生哪些故事？谁能抗拒姐姐的魅力呢？]]></itunes:summary>
+            <itunes:image href="http://i1.hdslb.com/bfs/archive/3dde8d907f04c47fd52acb66947e93164ffc6f7e.jpg"></itunes:image>
+            <itunes:duration>01:32</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:order>1</itunes:order>
+        </item>
 <!-- 326499679 -->
         <item>
             <guid>BV18S421d78W</guid>

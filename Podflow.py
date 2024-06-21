@@ -103,7 +103,7 @@ overall_rss = ""  # 更新后的rss文本
 make_up_file_format = {}  # 补全缺失媒体字典
 make_up_file_format_fail = {}  # 补全缺失媒体失败字典
 
-shortcut_url = {}  # 输出至shortcut的url字典
+shortcuts_url = {}  # 输出至shortcut的url字典
 
 # 文件保存模块
 def file_save(content, file_name, folder=None):
@@ -2791,7 +2791,7 @@ def youtube_xml_items(output_dir):
         or output_dir in channelid_youtube_ids_update
     ):
         print(f"{datetime.now().strftime('%H:%M:%S')}|{channelid_youtube_ids[output_dir]} 播客{update_text}|地址:\n\033[34m{config['url']}/channel_rss/{output_dir}.xml\033[0m")
-        shortcut_url[f"{config['url']}/channel_rss/{output_dir}.xml"] = channelid_youtube_ids[output_dir]
+        shortcuts_url[channelid_youtube_ids[output_dir]] = f"{config['url']}/channel_rss/{output_dir}.xml"
     if (
         (
             channelid_youtube[channelid_youtube_ids[output_dir]]["DisplayRSSaddress"] 
@@ -2902,7 +2902,7 @@ def bilibili_xml_items(output_dir):
         or output_dir in channelid_bilibili_ids_update
     ):
         print(f"{datetime.now().strftime('%H:%M:%S')}|{channelid_bilibili_ids[output_dir]} 播客{update_text}|地址:\n\033[34m{config['url']}/channel_rss/{output_dir}.xml\033[0m")
-        shortcut_url[f"{config['url']}/channel_rss/{output_dir}.xml"] = channelid_bilibili_ids[output_dir]
+        shortcuts_url[channelid_bilibili_ids[output_dir]] = f"{config['url']}/channel_rss/{output_dir}.xml"
     if (
         (
             channelid_bilibili[channelid_bilibili_ids[output_dir]]["DisplayRSSaddress"] 
@@ -3262,7 +3262,7 @@ while update_num > 0 or update_num == -1:
         # 暂停进程打印
         server_process_print_flag[0] = "pause"
         write_log("总播客已更新", f"地址:\n\033[34m{config['url']}/{config['filename']}.xml\033[0m")
-        shortcut_url[f"{config['url']}/{config['filename']}.xml"] = config['filename']
+        shortcuts_url[config['filename']] = f"{config['url']}/{config['filename']}.xml"
         if "main" not in displayed_QRcode:
             qr_code(f"{config['url']}/{config['filename']}.xml")
             displayed_QRcode.append("main")
@@ -3305,7 +3305,7 @@ while update_num > 0 or update_num == -1:
         update_num -= 1
     if argument == "a-shell":
         openserver_process = subprocess.Popen(
-            ["open", f"shortcuts://run-shortcut?name=Podflow&input=text&text={urllib.parse.quote(json.dumps(shortcut_url))}"]
+            ["open", f"shortcuts://run-shortcut?name=Podflow&input=text&text={urllib.parse.quote(json.dumps(shortcuts_url))}"]
         )
         # 延时
         time.sleep(60)
@@ -3314,7 +3314,7 @@ while update_num > 0 or update_num == -1:
     elif update_num == 0:
         break
     else:
-        shortcut_url.clear()  # 输出至shortcut的url字典
+        shortcuts_url.clear()  # 输出至shortcut的url字典
         # 延时
         time.sleep(900)
 

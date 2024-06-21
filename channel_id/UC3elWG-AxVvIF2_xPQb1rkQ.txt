@@ -11,6 +11,29 @@
  </author>
  <published>2022-06-04T16:17:27+00:00</published>
  <entry>
+  <id>yt:video:-cmIJ1OSen8</id>
+  <yt:videoId>-cmIJ1OSen8</yt:videoId>
+  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
+  <title>男人发呆的时候都在想什么，我老公经常在脑海中上演角色扮演大戏#爱吐槽的四季妈妈 #家庭吐槽大会</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=-cmIJ1OSen8"/>
+  <author>
+   <name>四季妈妈—小龙</name>
+   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
+  </author>
+  <published>2024-06-21T05:45:02+00:00</published>
+  <updated>2024-06-21T05:45:24+00:00</updated>
+  <media:group>
+   <media:title>男人发呆的时候都在想什么，我老公经常在脑海中上演角色扮演大戏#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
+   <media:content url="https://www.youtube.com/v/-cmIJ1OSen8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/-cmIJ1OSen8/hqdefault.jpg" width="480" height="360"/>
+   <media:description>男人发呆的时候到底在想什么？我老公经常在脑海中上演各种角色扮演的大戏！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="26"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:WceQ_zCByFU</id>
   <yt:videoId>WceQ_zCByFU</yt:videoId>
   <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
@@ -21,7 +44,7 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-06-18T06:49:36+00:00</published>
-  <updated>2024-06-19T07:10:55+00:00</updated>
+  <updated>2024-06-20T06:51:30+00:00</updated>
   <media:group>
    <media:title>这位大哥厉害了，单杆敢钓座头鲸，那真是一钓开天门啊#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
    <media:content url="https://www.youtube.com/v/WceQ_zCByFU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -29,7 +52,7 @@
    <media:description>这位大哥可真是厉害，单杆钓座头鲸，那真是一钓开天门啊！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="105"/>
+    <media:statistics views="120"/>
    </media:community>
   </media:group>
  </entry>
@@ -44,7 +67,7 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-06-15T13:31:22+00:00</published>
-  <updated>2024-06-16T22:24:04+00:00</updated>
+  <updated>2024-06-20T06:52:25+00:00</updated>
   <media:group>
    <media:title>贵州的山路造就出了一批车神，他们拿的不是驾照，是王者印记#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
    <media:content url="https://www.youtube.com/v/YVaIwn6XPDQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -52,7 +75,7 @@
    <media:description>贵州的山路锻炼出了一批真正的车神，他们手中握的可不是普通驾照，而是象征实力的王者印记！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="271"/>
+    <media:statistics views="275"/>
    </media:community>
   </media:group>
  </entry>
@@ -75,7 +98,7 @@
    <media:description>夫妻吵架时，为什么总是男人劝和而女人劝分呢？背后究竟有什么秘密？#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="367"/>
+    <media:statistics views="369"/>
    </media:community>
   </media:group>
  </entry>
@@ -98,7 +121,7 @@
    <media:description>西安修个地铁，竟然把施工现场变成了考古基地，考古人员都忙疯了！#爱吐槽的四季妈妈</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="167"/>
+    <media:statistics views="168"/>
    </media:community>
   </media:group>
  </entry>
@@ -121,7 +144,7 @@
    <media:description>看来，这种“减速带”只有男人才能理解！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="12" average="5.00" min="1" max="5"/>
-    <media:statistics views="271"/>
+    <media:statistics views="277"/>
    </media:community>
   </media:group>
  </entry>
@@ -167,7 +190,7 @@
    <media:description>终于明白了，原来这才是男人不爱过节的真正原因！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="9" average="5.00" min="1" max="5"/>
-    <media:statistics views="288"/>
+    <media:statistics views="290"/>
    </media:community>
   </media:group>
  </entry>
@@ -190,7 +213,7 @@
    <media:description>没想到要抓住一个男人的心跳竟然这么容易！分享我的秘诀#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="13" average="5.00" min="1" max="5"/>
-    <media:statistics views="292"/>
+    <media:statistics views="294"/>
    </media:community>
   </media:group>
  </entry>
@@ -213,7 +236,7 @@
    <media:description>全天下的男人是不是都有这种习惯？总是带不同的女人去同一家好吃的餐厅！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="275"/>
+    <media:statistics views="277"/>
    </media:community>
   </media:group>
  </entry>
@@ -236,7 +259,7 @@
    <media:description>我真的不理解，是我不了解东北的浪漫，还是东北人对浪漫有“过敏反应”？#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="47" average="5.00" min="1" max="5"/>
-    <media:statistics views="2868"/>
+    <media:statistics views="2872"/>
    </media:community>
   </media:group>
  </entry>
@@ -259,7 +282,7 @@
    <media:description>为什么男人对“盘”情有独钟？干巴的东西真的入不了他们的眼吗？#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="211"/>
+    <media:statistics views="212"/>
    </media:community>
   </media:group>
  </entry>
@@ -281,7 +304,7 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/e6emQY9_-Dk/hqdefault.jpg" width="480" height="360"/>
    <media:description>我一直以为这是老公特有的暗号，结果发现所有男人都在用它！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="8" average="5.00" min="1" max="5"/>
+    <media:starRating count="9" average="5.00" min="1" max="5"/>
     <media:statistics views="364"/>
    </media:community>
   </media:group>
@@ -305,7 +328,7 @@
    <media:description>到底是我们太强，还是老外太弱？真相揭晓！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="210"/>
+    <media:statistics views="211"/>
    </media:community>
   </media:group>
  </entry>
@@ -328,30 +351,7 @@
    <media:description>男人为什么对自驾情有独钟？是自由、冒险，还是掌控感？#爱吐槽的四季妈妈</media:description>
    <media:community>
     <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="429"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:iJQX16H1FIc</id>
-  <yt:videoId>iJQX16H1FIc</yt:videoId>
-  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
-  <title>从没想到咱们能在自家地盘被老外踩了一脚#爱吐槽的四季妈妈 #歌手2024 #歌手2024首发歌手名单 scal</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=iJQX16H1FIc"/>
-  <author>
-   <name>四季妈妈—小龙</name>
-   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
-  </author>
-  <published>2024-05-16T13:39:33+00:00</published>
-  <updated>2024-05-21T02:18:39+00:00</updated>
-  <media:group>
-   <media:title>从没想到咱们能在自家地盘被老外踩了一脚#爱吐槽的四季妈妈 #歌手2024 #歌手2024首发歌手名单 scal</media:title>
-   <media:content url="https://www.youtube.com/v/iJQX16H1FIc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/iJQX16H1FIc/hqdefault.jpg" width="480" height="360"/>
-   <media:description>真没想到，我们会在自己的地盘上被老外踩了一脚！#爱吐槽的四季妈妈 #歌手2024 #歌手2024首发歌手名单</media:description>
-   <media:community>
-    <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="288"/>
+    <media:statistics views="430"/>
    </media:community>
   </media:group>
  </entry>

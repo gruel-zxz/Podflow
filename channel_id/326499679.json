@@ -16,6 +16,20 @@
         "desc": "哔哩哔哩漫画官方账号"
     },
     "entry": {
+        "BV194421S7Ku": {
+            "aid": 1755921070,
+            "author": "哔哩哔哩漫画",
+            "bvid": "BV194421S7Ku",
+            "copyright": "1",
+            "created": 1718962500,
+            "description": "刚搬到合租公寓的大一新生，楼下竟住着退圈人气偶像李斗娜，他们会发生哪些故事？谁能抗拒姐姐的魅力呢？",
+            "is_union_video": 1,
+            "length": "01:32",
+            "mid": 326499679,
+            "pic": "http://i1.hdslb.com/bfs/archive/3dde8d907f04c47fd52acb66947e93164ffc6f7e.jpg",
+            "title": "与退圈偶像姐姐住上下楼！ 这是种什么神奇体验？",
+            "typeid": 168
+        },
         "BV18S421d78W": {
             "aid": 1505838358,
             "author": "哔哩哔哩漫画",
@@ -46,7 +60,7 @@
         },
         "BV121421k7W5": {
             "aid": 1555578555,
-            "author": "都市漫影君",
+            "author": "勇者喵",
             "bvid": "BV121421k7W5",
             "copyright": "1",
             "created": 1718424000,
@@ -351,23 +365,10 @@
             "pic": "http://i0.hdslb.com/bfs/archive/58d3b78b1399403755a2baf3999654c4766101ea.jpg",
             "title": "霸道总裁和酷飒女医生的先婚后爱，性格冷傲孤僻的集团总裁居然独宠一人！",
             "typeid": 195
-        },
-        "BV1jx4y1276E": {
-            "aid": 1000592123,
-            "author": "哔哩哔哩漫画",
-            "bvid": "BV1jx4y1276E",
-            "copyright": "1",
-            "created": 1707717600,
-            "description": "小漫画的推漫时间到！十里洋场旧上海，有一暗杀组织名为暗香。虐恋悬疑民国题材漫画《暗香》，催人泪下，动人心弦！一起来追：https://b22.top/LCjBWEB?showop=X_33730E49-7F90-4CFB-8393-1E84D9D2606F_1707676591",
-            "is_union_video": 0,
-            "length": "00:51",
-            "mid": 326499679,
-            "pic": "http://i2.hdslb.com/bfs/archive/0a3eb87e836d161e05d1f3c74ce2bf0f42cc088a.jpg",
-            "title": "十里洋场旧上海，有一暗杀组织名为暗香。",
-            "typeid": 195
         }
     },
     "list": [
+        "BV194421S7Ku",
         "BV18S421d78W",
         "BV12i421e7ED",
         "BV121421k7W5",
@@ -391,7 +392,6 @@
         "BV1QZ42127ru",
         "BV1Dt421a7Kg",
         "BV1HF4m1M719",
-        "BV1sH4y1a7JL",
-        "BV1jx4y1276E"
+        "BV1sH4y1a7JL"
     ]
 }
