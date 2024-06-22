@@ -10,6 +10,7 @@ import math
 import time
 import hashlib
 import zipfile
+import argparse
 import binascii
 import threading
 import subprocess
@@ -104,6 +105,35 @@ make_up_file_format = {}  # 补全缺失媒体字典
 make_up_file_format_fail = {}  # 补全缺失媒体失败字典
 
 shortcuts_url = {}  # 输出至shortcut的url字典
+
+# 获取命令行参数并判断
+shortcuts_url_original =[]
+argument = ""
+update_num = -1
+def positive_int(value):
+    ivalue = int(value)
+    if ivalue <= 0:
+        raise argparse.ArgumentTypeError(f"{value} is not a positive integer")
+    return ivalue
+# 创建 ArgumentParser 对象
+parser = argparse.ArgumentParser(description="python Podflow.py [-h] [-n [NUM]] [--shortcuts [URL ...]]")
+# 参数
+parser.add_argument("-n", "--times", nargs=1, type=positive_int, metavar='NUM', help="number of times")
+parser.add_argument("--shortcuts", nargs="*", type=str, metavar='URL', help="only shortcuts can be work")
+parser.add_argument('--file', nargs='?', help=argparse.SUPPRESS)
+# 解析参数
+args = parser.parse_args()
+# 检查并处理参数的状态
+if args.times is not None :
+    update_num = int(args.times[0])
+if args.shortcuts is not None:
+    update_num = 1
+    argument = "a-shell"
+    shortcuts_url_original = args.shortcuts
+if args.file is not None and ".json" in args.file:
+    update_num = 1
+    argument = ""
+    shortcuts_url_original = []
 
 # 文件保存模块
 def file_save(content, file_name, folder=None):
@@ -1090,6 +1120,8 @@ def correct_config():
     # 对category进行纠正
     if "category" not in config:
         config["category"] = default_config["category"]
+    if f"{config['url']}/{config['filename']}.xml" not in shortcuts_url_original:
+        shortcuts_url["Main RSS"] = f"{config['url']}/{config['filename']}.xml"
 
 # 根据经纬度判断昼夜模块
 def judging_day_and_night(latitude, longitude):
@@ -1338,6 +1370,8 @@ def correct_channelid(channelid, website):
                     channeli_value["AllPartGet"], bool
                 ):
                     channelid[channelid_key]["AllPartGet"] = False
+        if channelid[channelid_key]["InmainRSS"] is False and f"{config['url']}/channel_rss/{channeli_value['id']}.xml" not in shortcuts_url_original:
+            shortcuts_url[channelid_key] = f"{config['url']}/channel_rss/{channeli_value['id']}.xml"
     return channelid
 
 # 读取频道ID模块
@@ -2791,7 +2825,6 @@ def youtube_xml_items(output_dir):
         or output_dir in channelid_youtube_ids_update
     ):
         print(f"{datetime.now().strftime('%H:%M:%S')}|{channelid_youtube_ids[output_dir]} 播客{update_text}|地址:\n\033[34m{config['url']}/channel_rss/{output_dir}.xml\033[0m")
-        shortcuts_url[channelid_youtube_ids[output_dir]] = f"{config['url']}/channel_rss/{output_dir}.xml"
     if (
         (
             channelid_youtube[channelid_youtube_ids[output_dir]]["DisplayRSSaddress"] 
@@ -2902,7 +2935,6 @@ def bilibili_xml_items(output_dir):
         or output_dir in channelid_bilibili_ids_update
     ):
         print(f"{datetime.now().strftime('%H:%M:%S')}|{channelid_bilibili_ids[output_dir]} 播客{update_text}|地址:\n\033[34m{config['url']}/channel_rss/{output_dir}.xml\033[0m")
-        shortcuts_url[channelid_bilibili_ids[output_dir]] = f"{config['url']}/channel_rss/{output_dir}.xml"
     if (
         (
             channelid_bilibili[channelid_bilibili_ids[output_dir]]["DisplayRSSaddress"] 
@@ -3133,23 +3165,8 @@ channelid_bilibili_ids = get_channelid_id(channelid_bilibili, "bilibili")
 # 复制bilibili频道id用于删除已抛弃的媒体文件夹
 channelid_bilibili_ids_original = channelid_bilibili_ids.copy()
 
-# 尝试获取命令行参数
-try:
-    argument = sys.argv[1]
-except IndexError:
-    argument = ""
-# 判断命令行参数
-if argument == "a-shell" or ".json" in argument:
-    update_num = 1
-else:
-    try:
-        argument = int(argument)
-        update_num = argument if isinstance(argument, int) and argument > 0 else 1
-    except ValueError:
-        update_num = -1
-
-# 进程打印标志初始化
-server_process_print_flag = ["keep"]
+# 主流程
+server_process_print_flag = ["keep"]  # 进程打印标志初始化
 
 # 进程打印模块
 def server_process_print():
@@ -3195,8 +3212,12 @@ prepare_print.start()
 
 # 循环主更新
 while update_num > 0 or update_num == -1:
+    # 暂停进程打印
+    server_process_print_flag[0] = "pause"
     # 更新哔哩哔哩data
     channelid_bilibili_ids, bilibili_data = get_bilibili_data(channelid_bilibili_ids_original)
+    # 恢复进程打印
+    server_process_print_flag[0] = "keep"
     # 获取原始xml字典和rss文本
     xmls_original, hash_rss_original, xmls_original_fail = get_original_rss()
     # 更新Youtube和哔哩哔哩频道xml
@@ -3262,7 +3283,6 @@ while update_num > 0 or update_num == -1:
         # 暂停进程打印
         server_process_print_flag[0] = "pause"
         write_log("总播客已更新", f"地址:\n\033[34m{config['url']}/{config['filename']}.xml\033[0m")
-        shortcuts_url[config['filename']] = f"{config['url']}/{config['filename']}.xml"
         if "main" not in displayed_QRcode:
             qr_code(f"{config['url']}/{config['filename']}.xml")
             displayed_QRcode.append("main")
@@ -3314,7 +3334,6 @@ while update_num > 0 or update_num == -1:
     elif update_num == 0:
         break
     else:
-        shortcuts_url.clear()  # 输出至shortcut的url字典
         # 延时
         time.sleep(900)
 

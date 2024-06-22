@@ -20,15 +20,15 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-06-20T21:00:28+00:00</published>
-  <updated>2024-06-20T21:08:05+00:00</updated>
+  <updated>2024-06-21T17:34:25+00:00</updated>
   <media:group>
    <media:title>it's the longest day of the year! what are you doing with the extra hours of daylight? @asasteinars</media:title>
    <media:content url="https://www.youtube.com/v/oO92CVWfNmM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i4.ytimg.com/vi/oO92CVWfNmM/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="313" average="5.00" min="1" max="5"/>
-    <media:statistics views="4662"/>
+    <media:starRating count="589" average="5.00" min="1" max="5"/>
+    <media:statistics views="11574"/>
    </media:community>
   </media:group>
  </entry>
@@ -43,7 +43,7 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-06-20T14:00:07+00:00</published>
-  <updated>2024-06-20T14:00:07+00:00</updated>
+  <updated>2024-06-22T00:43:10+00:00</updated>
   <media:group>
    <media:title>A Full Day Of Yoga Flows in 30 Minutes with @yogawithadriene, @MalovaElena, and more</media:title>
    <media:content url="https://www.youtube.com/v/BOOfnxHKyOk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -95,8 +95,8 @@ Featured Creators:
 19:20 Evening Wind Down
 23:10 Bedtime Routine</media:description>
    <media:community>
-    <media:starRating count="2411" average="5.00" min="1" max="5"/>
-    <media:statistics views="161382"/>
+    <media:starRating count="4392" average="5.00" min="1" max="5"/>
+    <media:statistics views="364730"/>
    </media:community>
   </media:group>
  </entry>
@@ -118,8 +118,8 @@ Featured Creators:
    <media:thumbnail url="https://i2.ytimg.com/vi/UnkJhofJpZU/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="624" average="5.00" min="1" max="5"/>
-    <media:statistics views="17262"/>
+    <media:starRating count="727" average="5.00" min="1" max="5"/>
+    <media:statistics views="19627"/>
    </media:community>
   </media:group>
  </entry>
@@ -141,8 +141,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/nfcWfXr_kks/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1874" average="5.00" min="1" max="5"/>
-    <media:statistics views="54098"/>
+    <media:starRating count="1927" average="5.00" min="1" max="5"/>
+    <media:statistics views="56091"/>
    </media:community>
   </media:group>
  </entry>
@@ -157,15 +157,15 @@ Featured Creators:
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-06-13T17:01:15+00:00</published>
-  <updated>2024-06-14T20:45:46+00:00</updated>
+  <updated>2024-06-21T07:04:32+00:00</updated>
   <media:group>
    <media:title>can’t stop thinking about these blue noodles @Veggiekins</media:title>
    <media:content url="https://www.youtube.com/v/coHDW2PCUTs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i4.ytimg.com/vi/coHDW2PCUTs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2265" average="5.00" min="1" max="5"/>
-    <media:statistics views="51996"/>
+    <media:starRating count="2318" average="5.00" min="1" max="5"/>
+    <media:statistics views="53827"/>
    </media:community>
   </media:group>
  </entry>
@@ -187,8 +187,8 @@ Featured Creators:
    <media:thumbnail url="https://i2.ytimg.com/vi/AqnJ1-K0j_s/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1660" average="5.00" min="1" max="5"/>
-    <media:statistics views="47394"/>
+    <media:starRating count="1690" average="5.00" min="1" max="5"/>
+    <media:statistics views="48637"/>
    </media:community>
   </media:group>
  </entry>
@@ -210,8 +210,8 @@ Featured Creators:
    <media:thumbnail url="https://i2.ytimg.com/vi/mOvPjMlr6pk/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="18963" average="5.00" min="1" max="5"/>
-    <media:statistics views="261968"/>
+    <media:starRating count="18995" average="5.00" min="1" max="5"/>
+    <media:statistics views="262900"/>
    </media:community>
   </media:group>
  </entry>
@@ -276,8 +276,8 @@ Featured Creators:
 @MajicDyke
 @hankschannel</media:description>
    <media:community>
-    <media:starRating count="9367" average="5.00" min="1" max="5"/>
-    <media:statistics views="992716"/>
+    <media:starRating count="9410" average="5.00" min="1" max="5"/>
+    <media:statistics views="953086"/>
    </media:community>
   </media:group>
  </entry>
@@ -299,8 +299,8 @@ Featured Creators:
    <media:thumbnail url="https://i2.ytimg.com/vi/9Cwlw9HwJUk/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2390" average="5.00" min="1" max="5"/>
-    <media:statistics views="76335"/>
+    <media:starRating count="2434" average="5.00" min="1" max="5"/>
+    <media:statistics views="78540"/>
    </media:community>
   </media:group>
  </entry>
@@ -322,8 +322,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/2Lf4mtx_N20/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3242" average="5.00" min="1" max="5"/>
-    <media:statistics views="76110"/>
+    <media:starRating count="3274" average="5.00" min="1" max="5"/>
+    <media:statistics views="77114"/>
    </media:community>
   </media:group>
  </entry>
@@ -345,8 +345,8 @@ Featured Creators:
    <media:thumbnail url="https://i2.ytimg.com/vi/yBfqEcxZXdI/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3988" average="5.00" min="1" max="5"/>
-    <media:statistics views="102544"/>
+    <media:starRating count="4012" average="5.00" min="1" max="5"/>
+    <media:statistics views="103735"/>
    </media:community>
   </media:group>
  </entry>
@@ -368,8 +368,8 @@ Featured Creators:
    <media:thumbnail url="https://i4.ytimg.com/vi/c8JGr7NblL4/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3994" average="5.00" min="1" max="5"/>
-    <media:statistics views="116661"/>
+    <media:starRating count="4019" average="5.00" min="1" max="5"/>
+    <media:statistics views="118096"/>
    </media:community>
   </media:group>
  </entry>
@@ -391,8 +391,8 @@ Featured Creators:
    <media:thumbnail url="https://i1.ytimg.com/vi/TQOGsMymo4E/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="5348" average="5.00" min="1" max="5"/>
-    <media:statistics views="143511"/>
+    <media:starRating count="5383" average="5.00" min="1" max="5"/>
+    <media:statistics views="145080"/>
    </media:community>
   </media:group>
  </entry>
@@ -500,8 +500,8 @@ Special Thanks:
 
 #minecraft15  #minecraft  #youtube  #brickbybrick #endlesspossibilites  #creativemode #youtubegaming</media:description>
    <media:community>
-    <media:starRating count="42748" average="5.00" min="1" max="5"/>
-    <media:statistics views="3158753"/>
+    <media:starRating count="42849" average="5.00" min="1" max="5"/>
+    <media:statistics views="3168684"/>
    </media:community>
   </media:group>
  </entry>
@@ -523,8 +523,8 @@ Special Thanks:
    <media:thumbnail url="https://i2.ytimg.com/vi/9ldbqbwhHno/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="4248" average="5.00" min="1" max="5"/>
-    <media:statistics views="110702"/>
+    <media:starRating count="4266" average="5.00" min="1" max="5"/>
+    <media:statistics views="111393"/>
    </media:community>
   </media:group>
  </entry>
