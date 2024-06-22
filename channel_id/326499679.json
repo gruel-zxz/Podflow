@@ -16,6 +16,20 @@
         "desc": "哔哩哔哩漫画官方账号"
     },
     "entry": {
+        "BV12s421T7vP": {
+            "aid": 1855847071,
+            "author": "哔哩哔哩漫画",
+            "bvid": "BV12s421T7vP",
+            "copyright": "1",
+            "created": 1719048900,
+            "description": "他最好的兄弟却跪地为我系鞋带？万人迷妹妹看着他，他却看着狼狈躲藏的我，烦人的同学高恩赫，怎么突然变得这么体贴又温柔……总有一个人看得到笑容背后的苦衷，那个人会是你吗？恩赫",
+            "is_union_video": 1,
+            "length": "01:09",
+            "mid": 326499679,
+            "pic": "http://i2.hdslb.com/bfs/archive/55d38b6446942678ee160d3efafd762e54d474c1.jpg",
+            "title": "同时和两位帅哥传绯闻是什么体验，恩赫的温柔瞬间治愈了曾经胆小怕受伤的受爱。",
+            "typeid": 168
+        },
         "BV194421S7Ku": {
             "aid": 1755921070,
             "author": "哔哩哔哩漫画",
@@ -351,23 +365,10 @@
             "pic": "http://i1.hdslb.com/bfs/archive/60fc36316d72085f4ee0f76a8f390d8f296cc583.jpg",
             "title": "胆小者也可以食用的搞笑恐怖漫画，史上最无所顾忌女主！",
             "typeid": 195
-        },
-        "BV1sH4y1a7JL": {
-            "aid": 1050668190,
-            "author": "哔哩哔哩漫画",
-            "bvid": "BV1sH4y1a7JL",
-            "copyright": "1",
-            "created": 1707804000,
-            "description": "小漫画的推漫时间到！霸道总裁和酷飒女医生的先婚后爱，性格冷傲孤僻的集团总裁居然独宠一人！一起来追：https://b22.top/Ah6Mf8R?showop=X_33730E49-7F90-4CFB-8393-1E84D9D2606F_1707676906",
-            "is_union_video": 0,
-            "length": "00:23",
-            "mid": 326499679,
-            "pic": "http://i0.hdslb.com/bfs/archive/58d3b78b1399403755a2baf3999654c4766101ea.jpg",
-            "title": "霸道总裁和酷飒女医生的先婚后爱，性格冷傲孤僻的集团总裁居然独宠一人！",
-            "typeid": 195
         }
     },
     "list": [
+        "BV12s421T7vP",
         "BV194421S7Ku",
         "BV18S421d78W",
         "BV12i421e7ED",
@@ -391,7 +392,6 @@
         "BV1PZ421m7WH",
         "BV1QZ42127ru",
         "BV1Dt421a7Kg",
-        "BV1HF4m1M719",
-        "BV1sH4y1a7JL"
+        "BV1HF4m1M719"
     ]
 }

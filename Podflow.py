@@ -2458,12 +2458,13 @@ def xml_item(
     pubDate,
     image,
 ):
+    channelid_title = html.escape(channelid_title)
     # 查看标题中是否有频道名称如无添加到描述中
-    if channelid_title not in html.unescape(title):
+    if channelid_title not in title:
         if description == "":
-            description = f"『{html.escape(channelid_title)}』{description}"
+            description = f"『{channelid_title}』{description}"
         else:
-            description = f"『{html.escape(channelid_title)}』\n{description}"
+            description = f"『{channelid_title}』\n{description}"
     # 更换描述换行符
     replacement_description = description.replace("\n", "&#xA;")
     # 获取文件后缀和文件字节大小
@@ -2916,10 +2917,10 @@ def bilibili_xml_items(output_dir):
         update_text = "已更新"
     else:
         update_text = "无更新"
-    description = channelid_bilibili_rss[output_dir]["content"]["sign"]
+    description = html.escape(channelid_bilibili_rss[output_dir]["content"]["sign"])
     icon = channelid_bilibili_rss[output_dir]["content"]["face"]
     category = config["category"]
-    title = channelid_bilibili_rss[output_dir]["content"]["name"]
+    title = html.escape(channelid_bilibili_rss[output_dir]["content"]["name"])
     link = f"https://space.bilibili.com/{output_dir}"
     items = "".join(items_list)
     items = f"""<!-- {{{output_dir}}} -->
