@@ -16,6 +16,20 @@
         "desc": "哔哩哔哩漫画官方账号"
     },
     "entry": {
+        "BV18i421e7dG": {
+            "aid": 1455787151,
+            "author": "哔哩哔哩漫画",
+            "bvid": "BV18i421e7dG",
+            "copyright": "1",
+            "created": 1719135300,
+            "description": "女友竟和敌人联手置我于死地，重来一次，异能觉醒的我要这冰封末日里找到自己的生路！在全球冰封的末日危机里，杀死我的不是天灾，而是人性的扭曲。这次重来，我得到的不止有机会，还有新的能力！末日在即，留给我的时间，已经不多了……",
+            "is_union_video": 1,
+            "length": "01:37",
+            "mid": 326499679,
+            "pic": "http://i2.hdslb.com/bfs/archive/07d0501e903e76abc7dddc1844de060ddaa8f8da.jpg",
+            "title": "末日危机就在后天！食物，温度，暴力，依附！女友置我于死地，重来一次，异能觉醒，最可怕的原来不是天灾，而是人性！",
+            "typeid": 168
+        },
         "BV194421S7Ku": {
             "aid": 1755921070,
             "author": "哔哩哔哩漫画",
@@ -351,23 +365,10 @@
             "pic": "http://i1.hdslb.com/bfs/archive/60fc36316d72085f4ee0f76a8f390d8f296cc583.jpg",
             "title": "胆小者也可以食用的搞笑恐怖漫画，史上最无所顾忌女主！",
             "typeid": 195
-        },
-        "BV1sH4y1a7JL": {
-            "aid": 1050668190,
-            "author": "哔哩哔哩漫画",
-            "bvid": "BV1sH4y1a7JL",
-            "copyright": "1",
-            "created": 1707804000,
-            "description": "小漫画的推漫时间到！霸道总裁和酷飒女医生的先婚后爱，性格冷傲孤僻的集团总裁居然独宠一人！一起来追：https://b22.top/Ah6Mf8R?showop=X_33730E49-7F90-4CFB-8393-1E84D9D2606F_1707676906",
-            "is_union_video": 0,
-            "length": "00:23",
-            "mid": 326499679,
-            "pic": "http://i0.hdslb.com/bfs/archive/58d3b78b1399403755a2baf3999654c4766101ea.jpg",
-            "title": "霸道总裁和酷飒女医生的先婚后爱，性格冷傲孤僻的集团总裁居然独宠一人！",
-            "typeid": 195
         }
     },
     "list": [
+        "BV18i421e7dG",
         "BV194421S7Ku",
         "BV18S421d78W",
         "BV12i421e7ED",
@@ -391,7 +392,6 @@
         "BV1PZ421m7WH",
         "BV1QZ42127ru",
         "BV1Dt421a7Kg",
-        "BV1HF4m1M719",
-        "BV1sH4y1a7JL"
+        "BV1HF4m1M719"
     ]
 }

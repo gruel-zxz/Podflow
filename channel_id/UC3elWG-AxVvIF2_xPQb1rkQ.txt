@@ -29,7 +29,7 @@
    <media:description>男人发呆的时候到底在想什么？我老公经常在脑海中上演各种角色扮演的大戏！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="0" average="0.00" min="1" max="5"/>
-    <media:statistics views="196"/>
+    <media:statistics views="203"/>
    </media:community>
   </media:group>
  </entry>
@@ -52,7 +52,7 @@
    <media:description>这位大哥可真是厉害，单杆钓座头鲸，那真是一钓开天门啊！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="129"/>
+    <media:statistics views="131"/>
    </media:community>
   </media:group>
  </entry>
@@ -144,7 +144,7 @@
    <media:description>看来，这种“减速带”只有男人才能理解！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="12" average="5.00" min="1" max="5"/>
-    <media:statistics views="283"/>
+    <media:statistics views="284"/>
    </media:community>
   </media:group>
  </entry>
