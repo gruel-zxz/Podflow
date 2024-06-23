@@ -116,13 +116,15 @@ def positive_int(value):
         raise argparse.ArgumentTypeError(f"{value} is not a positive integer")
     return ivalue
 # 创建 ArgumentParser 对象
-parser = argparse.ArgumentParser(description="python Podflow.py [-h] [-n [NUM]] [--shortcuts [URL ...]]")
+parser = argparse.ArgumentParser(description="python Podflow.py [-h] [-n [NUM]] [-d [NUM]]")
 # 参数
-parser.add_argument("-n", "--times", nargs=1, type=positive_int, metavar='NUM', help="number of times")
-parser.add_argument("--shortcuts", nargs="*", type=str, metavar='URL', help="only shortcuts can be work")
-parser.add_argument('--file', nargs='?', help=argparse.SUPPRESS)
+parser.add_argument("-n", "--times", nargs=1, type=positive_int, metavar="NUM", help="number of times")
+parser.add_argument("-d", "--delay", type=positive_int, default=900, metavar="NUM", help="delay in seconds(default: 900)")
+parser.add_argument("--shortcuts", nargs="*", type=str, metavar="URL", help="only shortcuts can be work")
+parser.add_argument("--file", nargs='?', help=argparse.SUPPRESS)
 # 解析参数
 args = parser.parse_args()
+time_delay = args.delay
 # 检查并处理参数的状态
 if args.times is not None :
     update_num = int(args.times[0])
@@ -1121,7 +1123,7 @@ def correct_config():
     if "category" not in config:
         config["category"] = default_config["category"]
     if f"{config['url']}/{config['filename']}.xml" not in shortcuts_url_original:
-        shortcuts_url["Main RSS"] = f"{config['url']}/{config['filename']}.xml"
+        shortcuts_url[f"{config['filename']}(Main RSS)"] = f"{config['url']}/{config['filename']}.xml"
 
 # 根据经纬度判断昼夜模块
 def judging_day_and_night(latitude, longitude):
@@ -2785,10 +2787,6 @@ def youtube_xml_items(output_dir):
     except KeyError:
         pass
     # 生成对应xml
-    if output_dir in channelid_youtube_ids_update:
-        update_text = "已更新"
-    else:
-        update_text = "无更新"
     try:
         with open(
             f"channel_rss/{output_dir}.xml", "r", encoding="utf-8"
@@ -2821,21 +2819,6 @@ def youtube_xml_items(output_dir):
         f"{output_dir}.xml",
         "channel_rss",
     )
-    if (
-        channelid_youtube[channelid_youtube_ids[output_dir]]["DisplayRSSaddress"] 
-        or output_dir in channelid_youtube_ids_update
-    ):
-        print(f"{datetime.now().strftime('%H:%M:%S')}|{channelid_youtube_ids[output_dir]} 播客{update_text}|地址:\n\033[34m{config['url']}/channel_rss/{output_dir}.xml\033[0m")
-    if (
-        (
-            channelid_youtube[channelid_youtube_ids[output_dir]]["DisplayRSSaddress"] 
-            or output_dir in channelid_youtube_ids_update
-        )
-        and channelid_youtube[channelid_youtube_ids[output_dir]]["QRcode"]
-        and output_dir not in displayed_QRcode
-    ):
-        qr_code(f"{config['url']}/channel_rss/{output_dir}.xml")
-        displayed_QRcode.append(output_dir)
     return items
 
 # 生成哔哩哔哩对应channel的需更新的items模块
@@ -2913,10 +2896,6 @@ def bilibili_xml_items(output_dir):
     except KeyError:
         pass
     # 生成对应xml
-    if output_dir in channelid_bilibili_ids_update:
-        update_text = "已更新"
-    else:
-        update_text = "无更新"
     description = html.escape(channelid_bilibili_rss[output_dir]["content"]["sign"])
     icon = channelid_bilibili_rss[output_dir]["content"]["face"]
     category = config["category"]
@@ -2931,39 +2910,80 @@ def bilibili_xml_items(output_dir):
         f"{output_dir}.xml",
         "channel_rss",
     )
+    return items
+
+# 显示网址及二维码模块
+def display_qrcode_and_url(output_dir, channelid_video, channelid_video_name, channelid_video_ids_update):
+    if output_dir in channelid_video_ids_update:
+        update_text = "已更新"
+    else:
+        update_text = "无更新"
     if (
-        channelid_bilibili[channelid_bilibili_ids[output_dir]]["DisplayRSSaddress"] 
-        or output_dir in channelid_bilibili_ids_update
+        channelid_video["DisplayRSSaddress"] 
+        or output_dir in channelid_video_ids_update
     ):
-        print(f"{datetime.now().strftime('%H:%M:%S')}|{channelid_bilibili_ids[output_dir]} 播客{update_text}|地址:\n\033[34m{config['url']}/channel_rss/{output_dir}.xml\033[0m")
+        print(f"{datetime.now().strftime('%H:%M:%S')}|{channelid_video_name} 播客{update_text}|地址:\n\033[34m{config['url']}/channel_rss/{output_dir}.xml\033[0m")
     if (
         (
-            channelid_bilibili[channelid_bilibili_ids[output_dir]]["DisplayRSSaddress"] 
-            or output_dir in channelid_bilibili_ids_update
+            channelid_video["DisplayRSSaddress"] 
+            or output_dir in channelid_video_ids_update
         )
-        and channelid_bilibili[channelid_bilibili_ids[output_dir]]["QRcode"]
+        and channelid_video["QRcode"]
         and output_dir not in displayed_QRcode
     ):
         qr_code(f"{config['url']}/channel_rss/{output_dir}.xml")
         displayed_QRcode.append(output_dir)
-    return items
 
 # 生成主rss模块
 def create_main_rss():
+    all_items_dict = {}
+    def fetch_youtube_items(output_dir, all_items_dict):
+        all_items_dict[output_dir] = youtube_xml_items(output_dir)
+    def fetch_bilibili_items(output_dir, all_items_dict):
+        all_items_dict[output_dir] = bilibili_xml_items(output_dir)
+    # 创建一个线程列表
+    threads = []
+    # 创建YouTube线程
     for output_dir in channelid_youtube_ids:
-        items = youtube_xml_items(output_dir)
-        if channelid_youtube[channelid_youtube_ids[output_dir]]["InmainRSS"]:
-            all_items.append(items)
-        all_youtube_content_ytid[output_dir] = re.findall(
-            r"(?<=UC.{22}/)(.+\.m4a|.+\.mp4)(?=\")", items
-        )
+        thread = threading.Thread(target=fetch_youtube_items, args=(output_dir, all_items_dict))
+        threads.append(thread)
+    # 创建哔哩哔哩线程
     for output_dir in channelid_bilibili_ids:
-        items = bilibili_xml_items(output_dir)
-        if channelid_bilibili[channelid_bilibili_ids[output_dir]]["InmainRSS"]:
-            all_items.append(items)
-        all_bilibili_content_bvid[output_dir] = re.findall(
-            r"(?:[0-9]+/)(BV.+\.m4a|.+\.mp4)(?=\")", items
+        thread = threading.Thread(target=fetch_bilibili_items, args=(output_dir, all_items_dict))
+        threads.append(thread)
+    # 启动所有线程
+    for thread in threads:
+        thread.start()
+    # 等待所有线程完成
+    for thread in threads:
+        thread.join()
+    # 分配YouTube结果
+    for output_dir in channelid_youtube_ids:
+        all_youtube_content_ytid[output_dir] = re.findall(
+            r"(?<=UC.{22}/)(.+\.m4a|.+\.mp4)(?=\")", all_items_dict[output_dir]
         )
+        display_qrcode_and_url(
+            output_dir,
+            channelid_youtube[channelid_youtube_ids[output_dir]],
+            channelid_youtube_ids[output_dir],
+            channelid_youtube_ids_update
+        )
+        if channelid_youtube[channelid_youtube_ids[output_dir]]["InmainRSS"]:
+            all_items.append(all_items_dict[output_dir])
+    # 分配哔哩哔哩结果
+    for output_dir in channelid_bilibili_ids:
+        all_bilibili_content_bvid[output_dir] = re.findall(
+            r"(?:[0-9]+/)(BV.+\.m4a|.+\.mp4)(?=\")", all_items_dict[output_dir]
+        )
+        display_qrcode_and_url(
+            output_dir,
+            channelid_bilibili[channelid_bilibili_ids[output_dir]],
+            channelid_bilibili_ids[output_dir],
+            channelid_bilibili_ids_update
+        )
+        if channelid_bilibili[channelid_bilibili_ids[output_dir]]["InmainRSS"]:
+            all_items.append(all_items_dict[output_dir])
+
 
 # xml备份保存模块
 def backup_zip_save(file_content):
@@ -3329,14 +3349,14 @@ while update_num > 0 or update_num == -1:
             ["open", f"shortcuts://run-shortcut?name=Podflow&input=text&text={urllib.parse.quote(json.dumps(shortcuts_url))}"]
         )
         # 延时
-        time.sleep(60)
+        time.sleep(60+len(shortcuts_url)*5)
         openserver_process.terminate()
         break
     elif update_num == 0:
         break
     else:
         # 延时
-        time.sleep(900)
+        time.sleep(time_delay)
 
 # 停止 RangeHTTPServer
 httpserver_process.terminate()
