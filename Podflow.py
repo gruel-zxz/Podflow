@@ -2932,32 +2932,8 @@ def display_qrcode_and_url(output_dir, channelid_video, channelid_video_name, ch
 
 # 生成主rss模块
 def create_main_rss():
-    all_items_dict = {}
-    def fetch_youtube_items(output_dir, all_items_dict):
-        all_items_dict[output_dir] = youtube_xml_items(output_dir)
-    def fetch_bilibili_items(output_dir, all_items_dict):
-        all_items_dict[output_dir] = bilibili_xml_items(output_dir)
-    # 创建一个线程列表
-    threads = []
-    # 创建YouTube线程
     for output_dir in channelid_youtube_ids:
-        thread = threading.Thread(target=fetch_youtube_items, args=(output_dir, all_items_dict))
-        threads.append(thread)
-    # 创建哔哩哔哩线程
-    for output_dir in channelid_bilibili_ids:
-        thread = threading.Thread(target=fetch_bilibili_items, args=(output_dir, all_items_dict))
-        threads.append(thread)
-    # 启动所有线程
-    for thread in threads:
-        thread.start()
-    # 等待所有线程完成
-    for thread in threads:
-        thread.join()
-    # 分配YouTube结果
-    for output_dir in channelid_youtube_ids:
-        all_youtube_content_ytid[output_dir] = re.findall(
-            r"(?<=UC.{22}/)(.+\.m4a|.+\.mp4)(?=\")", all_items_dict[output_dir]
-        )
+        items = youtube_xml_items(output_dir)
         display_qrcode_and_url(
             output_dir,
             channelid_youtube[channelid_youtube_ids[output_dir]],
@@ -2965,12 +2941,12 @@ def create_main_rss():
             channelid_youtube_ids_update
         )
         if channelid_youtube[channelid_youtube_ids[output_dir]]["InmainRSS"]:
-            all_items.append(all_items_dict[output_dir])
-    # 分配哔哩哔哩结果
-    for output_dir in channelid_bilibili_ids:
-        all_bilibili_content_bvid[output_dir] = re.findall(
-            r"(?:[0-9]+/)(BV.+\.m4a|.+\.mp4)(?=\")", all_items_dict[output_dir]
+            all_items.append(items)
+        all_youtube_content_ytid[output_dir] = re.findall(
+            r"(?<=UC.{22}/)(.+\.m4a|.+\.mp4)(?=\")", items
         )
+    for output_dir in channelid_bilibili_ids:
+        items = bilibili_xml_items(output_dir)
         display_qrcode_and_url(
             output_dir,
             channelid_bilibili[channelid_bilibili_ids[output_dir]],
@@ -2978,7 +2954,10 @@ def create_main_rss():
             channelid_bilibili_ids_update
         )
         if channelid_bilibili[channelid_bilibili_ids[output_dir]]["InmainRSS"]:
-            all_items.append(all_items_dict[output_dir])
+            all_items.append(items)
+        all_bilibili_content_bvid[output_dir] = re.findall(
+            r"(?:[0-9]+/)(BV.+\.m4a|.+\.mp4)(?=\")", items
+        )
 
 # xml备份保存模块
 def backup_zip_save(file_content):
