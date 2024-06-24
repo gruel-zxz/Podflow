@@ -1,3 +1,130 @@
+2024-06-24 17:37:57 总播客已更新
+2024-06-24 17:37:48 哔哩哔哩漫画|BV1HT421Y7pS 下载成功 30280+100047
+2024-06-24 17:37:38 需更新的BiliBili频道:哔哩哔哩漫画
+2024-06-24 17:37:37 BiliBili频道 测试 ID不正确无法获取
+2024-06-24 17:37:37 YouTube频道 测试 ID不正确无法获取
+2024-06-24 17:26:04 总播客已更新
+2024-06-24 17:25:54 无无无无语森|BV1MM4m1U7SJ 下载成功 30280
+2024-06-24 17:25:45 需更新的BiliBili频道:无无无无语森
+2024-06-24 17:25:45 BiliBili频道 测试 ID不正确无法获取
+2024-06-24 17:25:45 YouTube频道 测试 ID不正确无法获取
+2024-06-24 15:46:55 Error: Podflow.xml: Invalid data found when processing input
+2024-06-24 15:46:43 Error: b'Podflow.xml: Invalid data found when processing input\r\n'
+2024-06-24 15:46:15 Error: Podflow.xml: Invalid data found when processing input
+2024-06-24 15:46:05 Error: ['ffprobe version N-113609-g66231e5871-20240211 Copyright (c) 2007-2024 the FFmpeg developers', '  built with gcc 13.2.0 (crosstool-NG 1.25.0.232_c175b21)', '  configuration: --prefix=/ffbuild/prefix --pkg-config-flags=--static --pkg-config=pkg-config --cross-prefix=x86_64-w64-mingw32- --arch=x86_64 --target-os=mingw32 --enable-gpl --enable-version3 --disable-debug --disable-w32threads --enable-pthreads --enable-iconv --enable-libxml2 --enable-zlib --enable-libfreetype --enable-libfribidi --enable-gmp --enable-lzma --enable-fontconfig --enable-libharfbuzz --enable-libvorbis --enable-opencl --disable-libpulse --enable-libvmaf --disable-libxcb --disable-xlib --enable-amf --enable-libaom --enable-libaribb24 --enable-avisynth --enable-chromaprint --enable-libdav1d --enable-libdavs2 --disable-libfdk-aac --enable-ffnvcodec --enable-cuda-llvm --enable-frei0r --enable-libgme --enable-libkvazaar --enable-libaribcaption --enable-libass --enable-libbluray --enable-libjxl --enable-libmp3lame --enable-libopus --enable-librist --enable-libssh --enable-libtheora --enable-libvpx --enable-libwebp --enable-lv2 --enable-libvpl --enable-openal --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-librav1e --enable-librubberband --enable-schannel --enable-sdl2 --enable-libsoxr --enable-libsrt --enable-libsvtav1 --enable-libtwolame --enable-libuavs3d --disable-libdrm --enable-vaapi --enable-libvidstab --enable-vulkan --enable-libshaderc --enable-libplacebo --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxvid --enable-libzimg --enable-libzvbi --extra-cflags=-DLIBTWOLAME_STATIC --extra-cxxflags= --extra-ldflags=-pthread --extra-ldexeflags= --extra-libs=-lgomp --extra-version=20240211', '  libavutil      58. 36.101 / 58. 36.101', '  libavcodec     60. 39.100 / 60. 39.100', '  libavformat    60. 20.100 / 60. 20.100', '  libavdevice    60.  4.100 / 60.  4.100', '  libavfilter     9. 17.100 /  9. 17.100', '  libswscale      7.  6.100 /  7.  6.100', '  libswresample   4. 13.100 /  4. 13.100', '  libpostproc    57.  4.100 / 57.  4.100', 'Podflow.xml: Invalid data found when processing input']
+2024-06-24 15:45:49 Error: Podflow.xml: Invalid data found when processing input
+2024-06-24 15:43:59 Error: t
+2024-06-24 15:35:15 Error: ffprobe version N-113609-g66231e5871-20240211 Copyright (c) 2007-2024 the FFmpeg developers
+  built with gcc 13.2.0 (crosstool-NG 1.25.0.232_c175b21)
+  configuration: --prefix=/ffbuild/prefix --pkg-config-flags=--static --pkg-config=pkg-config --cross-prefix=x86_64-w64-mingw32- --arch=x86_64 --target-os=mingw32 --enable-gpl --enable-version3 --disable-debug --disable-w32threads --enable-pthreads --enable-iconv --enable-libxml2 --enable-zlib --enable-libfreetype --enable-libfribidi --enable-gmp --enable-lzma --enable-fontconfig --enable-libharfbuzz --enable-libvorbis --enable-opencl --disable-libpulse --enable-libvmaf --disable-libxcb --disable-xlib --enable-amf --enable-libaom --enable-libaribb24 --enable-avisynth --enable-chromaprint --enable-libdav1d --enable-libdavs2 --disable-libfdk-aac --enable-ffnvcodec --enable-cuda-llvm --enable-frei0r --enable-libgme --enable-libkvazaar --enable-libaribcaption --enable-libass --enable-libbluray --enable-libjxl --enable-libmp3lame --enable-libopus --enable-librist --enable-libssh --enable-libtheora --enable-libvpx --enable-libwebp --enable-lv2 --enable-libvpl --enable-openal --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-librav1e --enable-librubberband --enable-schannel --enable-sdl2 --enable-libsoxr --enable-libsrt --enable-libsvtav1 --enable-libtwolame --enable-libuavs3d --disable-libdrm --enable-vaapi --enable-libvidstab --enable-vulkan --enable-libshaderc --enable-libplacebo --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxvid --enable-libzimg --enable-libzvbi --extra-cflags=-DLIBTWOLAME_STATIC --extra-cxxflags= --extra-ldflags=-pthread --extra-ldexeflags= --extra-libs=-lgomp --extra-version=20240211
+  libavutil      58. 36.101 / 58. 36.101
+  libavcodec     60. 39.100 / 60. 39.100
+  libavformat    60. 20.100 / 60. 20.100
+  libavdevice    60.  4.100 / 60.  4.100
+  libavfilter     9. 17.100 /  9. 17.100
+  libswscale      7.  6.100 /  7.  6.100
+  libswresample   4. 13.100 /  4. 13.100
+  libpostproc    57.  4.100 / 57.  4.100
+Podflow.xml: Invalid data found when processing input
+
+2024-06-24 15:33:55 Error: ffprobe version N-113609-g66231e5871-20240211 Copyright (c) 2007-2024 the FFmpeg developers
+  built with gcc 13.2.0 (crosstool-NG 1.25.0.232_c175b21)
+  configuration: --prefix=/ffbuild/prefix --pkg-config-flags=--static --pkg-config=pkg-config --cross-prefix=x86_64-w64-mingw32- --arch=x86_64 --target-os=mingw32 --enable-gpl --enable-version3 --disable-debug --disable-w32threads --enable-pthreads --enable-iconv --enable-libxml2 --enable-zlib --enable-libfreetype --enable-libfribidi --enable-gmp --enable-lzma --enable-fontconfig --enable-libharfbuzz --enable-libvorbis --enable-opencl --disable-libpulse --enable-libvmaf --disable-libxcb --disable-xlib --enable-amf --enable-libaom --enable-libaribb24 --enable-avisynth --enable-chromaprint --enable-libdav1d --enable-libdavs2 --disable-libfdk-aac --enable-ffnvcodec --enable-cuda-llvm --enable-frei0r --enable-libgme --enable-libkvazaar --enable-libaribcaption --enable-libass --enable-libbluray --enable-libjxl --enable-libmp3lame --enable-libopus --enable-librist --enable-libssh --enable-libtheora --enable-libvpx --enable-libwebp --enable-lv2 --enable-libvpl --enable-openal --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-librav1e --enable-librubberband --enable-schannel --enable-sdl2 --enable-libsoxr --enable-libsrt --enable-libsvtav1 --enable-libtwolame --enable-libuavs3d --disable-libdrm --enable-vaapi --enable-libvidstab --enable-vulkan --enable-libshaderc --enable-libplacebo --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxvid --enable-libzimg --enable-libzvbi --extra-cflags=-DLIBTWOLAME_STATIC --extra-cxxflags= --extra-ldflags=-pthread --extra-ldexeflags= --extra-libs=-lgomp --extra-version=20240211
+  libavutil      58. 36.101 / 58. 36.101
+  libavcodec     60. 39.100 / 60. 39.100
+  libavformat    60. 20.100 / 60. 20.100
+  libavdevice    60.  4.100 / 60.  4.100
+  libavfilter     9. 17.100 /  9. 17.100
+  libswscale      7.  6.100 /  7.  6.100
+  libswresample   4. 13.100 /  4. 13.100
+  libpostproc    57.  4.100 / 57.  4.100
+gjgjh.m4a: No such file or directory
+
+2024-06-24 15:29:35 Error: ffprobe version N-113609-g66231e5871-20240211 Copyright (c) 2007-2024 the FFmpeg developers
+  built with gcc 13.2.0 (crosstool-NG 1.25.0.232_c175b21)
+  configuration: --prefix=/ffbuild/prefix --pkg-config-flags=--static --pkg-config=pkg-config --cross-prefix=x86_64-w64-mingw32- --arch=x86_64 --target-os=mingw32 --enable-gpl --enable-version3 --disable-debug --disable-w32threads --enable-pthreads --enable-iconv --enable-libxml2 --enable-zlib --enable-libfreetype --enable-libfribidi --enable-gmp --enable-lzma --enable-fontconfig --enable-libharfbuzz --enable-libvorbis --enable-opencl --disable-libpulse --enable-libvmaf --disable-libxcb --disable-xlib --enable-amf --enable-libaom --enable-libaribb24 --enable-avisynth --enable-chromaprint --enable-libdav1d --enable-libdavs2 --disable-libfdk-aac --enable-ffnvcodec --enable-cuda-llvm --enable-frei0r --enable-libgme --enable-libkvazaar --enable-libaribcaption --enable-libass --enable-libbluray --enable-libjxl --enable-libmp3lame --enable-libopus --enable-librist --enable-libssh --enable-libtheora --enable-libvpx --enable-libwebp --enable-lv2 --enable-libvpl --enable-openal --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-librav1e --enable-librubberband --enable-schannel --enable-sdl2 --enable-libsoxr --enable-libsrt --enable-libsvtav1 --enable-libtwolame --enable-libuavs3d --disable-libdrm --enable-vaapi --enable-libvidstab --enable-vulkan --enable-libshaderc --enable-libplacebo --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxvid --enable-libzimg --enable-libzvbi --extra-cflags=-DLIBTWOLAME_STATIC --extra-cxxflags= --extra-ldflags=-pthread --extra-ldexeflags= --extra-libs=-lgomp --extra-version=20240211
+  libavutil      58. 36.101 / 58. 36.101
+  libavcodec     60. 39.100 / 60. 39.100
+  libavformat    60. 20.100 / 60. 20.100
+  libavdevice    60.  4.100 / 60.  4.100
+  libavfilter     9. 17.100 /  9. 17.100
+  libswscale      7.  6.100 /  7.  6.100
+  libswresample   4. 13.100 /  4. 13.100
+  libpostproc    57.  4.100 / 57.  4.100
+gjgjh/b.m4a: No such file or directory
+
+2024-06-24 15:29:22 Error: {
+
+}
+
+2024-06-24 15:14:22 Error: ffprobe error (see stderr output for detail)
+2024-06-24 15:14:12 )
+2024-06-24 15:13:21 Error: ffprobe version N-113609-g66231e5871-20240211 Copyright (c) 2007-2024 the FFmpeg developers
+  built with gcc 13.2.0 (crosstool-NG 1.25.0.232_c175b21)
+  configuration: --prefix=/ffbuild/prefix --pkg-config-flags=--static --pkg-config=pkg-config --cross-prefix=x86_64-w64-mingw32- --arch=x86_64 --target-os=mingw32 --enable-gpl --enable-version3 --disable-debug --disable-w32threads --enable-pthreads --enable-iconv --enable-libxml2 --enable-zlib --enable-libfreetype --enable-libfribidi --enable-gmp --enable-lzma --enable-fontconfig --enable-libharfbuzz --enable-libvorbis --enable-opencl --disable-libpulse --enable-libvmaf --disable-libxcb --disable-xlib --enable-amf --enable-libaom --enable-libaribb24 --enable-avisynth --enable-chromaprint --enable-libdav1d --enable-libdavs2 --disable-libfdk-aac --enable-ffnvcodec --enable-cuda-llvm --enable-frei0r --enable-libgme --enable-libkvazaar --enable-libaribcaption --enable-libass --enable-libbluray --enable-libjxl --enable-libmp3lame --enable-libopus --enable-librist --enable-libssh --enable-libtheora --enable-libvpx --enable-libwebp --enable-lv2 --enable-libvpl --enable-openal --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-librav1e --enable-librubberband --enable-schannel --enable-sdl2 --enable-libsoxr --enable-libsrt --enable-libsvtav1 --enable-libtwolame --enable-libuavs3d --disable-libdrm --enable-vaapi --enable-libvidstab --enable-vulkan --enable-libshaderc --enable-libplacebo --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxvid --enable-libzimg --enable-libzvbi --extra-cflags=-DLIBTWOLAME_STATIC --extra-cxxflags= --extra-ldflags=-pthread --extra-ldexeflags= --extra-libs=-lgomp --extra-version=20240211
+  libavutil      58. 36.101 / 58. 36.101
+  libavcodec     60. 39.100 / 60. 39.100
+  libavformat    60. 20.100 / 60. 20.100
+  libavdevice    60.  4.100 / 60.  4.100
+  libavfilter     9. 17.100 /  9. 17.100
+  libswscale      7.  6.100 /  7.  6.100
+  libswresample   4. 13.100 /  4. 13.100
+  libpostproc    57.  4.100 / 57.  4.100
+gjgjh/b.m4a: No such file or directory
+
+2024-06-24 14:57:23 总播客已更新
+2024-06-24 14:57:08 stone记|f3jw8YqzdCA 下载成功 140
+2024-06-24 14:56:57 stone记|edEuapmUcUg 下载成功 140
+2024-06-24 14:56:47 stone记|FFg6IISOi6c 下载成功 140
+2024-06-24 14:56:38 stone记|yP956zI3wv0 下载成功 140
+2024-06-24 14:56:16 需更新的YouTube频道:stone记 | 四季妈妈—小龙
+2024-06-24 14:56:15 BiliBili频道 测试 ID不正确无法获取
+2024-06-24 14:56:15 YouTube频道 测试 ID不正确无法获取
+2024-06-24 14:30:04 Error: ffprobe version N-113609-g66231e5871-20240211 Copyright (c) 2007-2024 the FFmpeg developers
+  built with gcc 13.2.0 (crosstool-NG 1.25.0.232_c175b21)
+  configuration: --prefix=/ffbuild/prefix --pkg-config-flags=--static --pkg-config=pkg-config --cross-prefix=x86_64-w64-mingw32- --arch=x86_64 --target-os=mingw32 --enable-gpl --enable-version3 --disable-debug --disable-w32threads --enable-pthreads --enable-iconv --enable-libxml2 --enable-zlib --enable-libfreetype --enable-libfribidi --enable-gmp --enable-lzma --enable-fontconfig --enable-libharfbuzz --enable-libvorbis --enable-opencl --disable-libpulse --enable-libvmaf --disable-libxcb --disable-xlib --enable-amf --enable-libaom --enable-libaribb24 --enable-avisynth --enable-chromaprint --enable-libdav1d --enable-libdavs2 --disable-libfdk-aac --enable-ffnvcodec --enable-cuda-llvm --enable-frei0r --enable-libgme --enable-libkvazaar --enable-libaribcaption --enable-libass --enable-libbluray --enable-libjxl --enable-libmp3lame --enable-libopus --enable-librist --enable-libssh --enable-libtheora --enable-libvpx --enable-libwebp --enable-lv2 --enable-libvpl --enable-openal --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-librav1e --enable-librubberband --enable-schannel --enable-sdl2 --enable-libsoxr --enable-libsrt --enable-libsvtav1 --enable-libtwolame --enable-libuavs3d --disable-libdrm --enable-vaapi --enable-libvidstab --enable-vulkan --enable-libshaderc --enable-libplacebo --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxvid --enable-libzimg --enable-libzvbi --extra-cflags=-DLIBTWOLAME_STATIC --extra-cxxflags= --extra-ldflags=-pthread --extra-ldexeflags= --extra-libs=-lgomp --extra-version=20240211
+  libavutil      58. 36.101 / 58. 36.101
+  libavcodec     60. 39.100 / 60. 39.100
+  libavformat    60. 20.100 / 60. 20.100
+  libavdevice    60.  4.100 / 60.  4.100
+  libavfilter     9. 17.100 /  9. 17.100
+  libswscale      7.  6.100 /  7.  6.100
+  libswresample   4. 13.100 /  4. 13.100
+  libpostproc    57.  4.100 / 57.  4.100
+/channel_audiovisual/UCMUnInmOkrWN4gof9KlhNmQ/wcWjzXcWhdk.m4a: No such file or directory
+
+2024-06-24 14:24:56 Error: ffprobe version N-113609-g66231e5871-20240211 Copyright (c) 2007-2024 the FFmpeg developers
+  built with gcc 13.2.0 (crosstool-NG 1.25.0.232_c175b21)
+  configuration: --prefix=/ffbuild/prefix --pkg-config-flags=--static --pkg-config=pkg-config --cross-prefix=x86_64-w64-mingw32- --arch=x86_64 --target-os=mingw32 --enable-gpl --enable-version3 --disable-debug --disable-w32threads --enable-pthreads --enable-iconv --enable-libxml2 --enable-zlib --enable-libfreetype --enable-libfribidi --enable-gmp --enable-lzma --enable-fontconfig --enable-libharfbuzz --enable-libvorbis --enable-opencl --disable-libpulse --enable-libvmaf --disable-libxcb --disable-xlib --enable-amf --enable-libaom --enable-libaribb24 --enable-avisynth --enable-chromaprint --enable-libdav1d --enable-libdavs2 --disable-libfdk-aac --enable-ffnvcodec --enable-cuda-llvm --enable-frei0r --enable-libgme --enable-libkvazaar --enable-libaribcaption --enable-libass --enable-libbluray --enable-libjxl --enable-libmp3lame --enable-libopus --enable-librist --enable-libssh --enable-libtheora --enable-libvpx --enable-libwebp --enable-lv2 --enable-libvpl --enable-openal --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-librav1e --enable-librubberband --enable-schannel --enable-sdl2 --enable-libsoxr --enable-libsrt --enable-libsvtav1 --enable-libtwolame --enable-libuavs3d --disable-libdrm --enable-vaapi --enable-libvidstab --enable-vulkan --enable-libshaderc --enable-libplacebo --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxvid --enable-libzimg --enable-libzvbi --extra-cflags=-DLIBTWOLAME_STATIC --extra-cxxflags= --extra-ldflags=-pthread --extra-ldexeflags= --extra-libs=-lgomp --extra-version=20240211
+  libavutil      58. 36.101 / 58. 36.101
+  libavcodec     60. 39.100 / 60. 39.100
+  libavformat    60. 20.100 / 60. 20.100
+  libavdevice    60.  4.100 / 60.  4.100
+  libavfilter     9. 17.100 /  9. 17.100
+  libswscale      7.  6.100 /  7.  6.100
+  libswresample   4. 13.100 /  4. 13.100
+  libpostproc    57.  4.100 / 57.  4.100
+channel_audiovisual/UC3elWG-AxVvIF2_xPQb1rkQ/-cmIJ1OSen8.m4a: No such file or directory
+
+2024-06-24 14:03:23 文件夹channel_audiovisual创建成功
+2024-06-24 14:03:20 ffmpeg-python安装成功
+2024-06-24 14:03:08 ffmpeg-python未安装
+2024-06-24 14:03:07 BeautifulSoup4无需更新|版本：4.12.3
+2024-06-24 14:03:07 BeautifulSoup4已安装
+2024-06-24 14:03:06 pycryptodome无需更新|版本：3.20.0
+2024-06-24 14:03:06 pycryptodome已安装
+2024-06-24 14:03:04 qrcode无需更新|版本：7.4.2
+2024-06-24 14:03:04 qrcode已安装
+2024-06-24 14:03:02 astral无需更新|版本：3.2
+2024-06-24 14:03:02 astral已安装
+2024-06-24 14:03:00 requests无需更新|版本：2.32.3
+2024-06-24 14:03:00 requests已安装
+2024-06-24 14:02:57 chardet无需更新|版本：5.2.0
+2024-06-24 14:02:57 chardet已安装
+2024-06-24 14:02:56 RangeHTTPServer无需更新|版本：1.3.3
+2024-06-24 14:02:56 RangeHTTPServer已安装
+2024-06-24 14:02:54 yt-dlp无需更新|版本：2024.5.27
+2024-06-24 14:02:54 yt-dlp已安装
 2024-06-23 17:51:17 频道无更新内容将不进行备份
 2024-06-23 17:51:17 总播客已更新
 2024-06-23 17:50:51 BiliBili频道 测试 ID不正确无法获取

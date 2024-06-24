@@ -16,6 +16,20 @@
         "desc": "哔哩哔哩漫画官方账号"
     },
     "entry": {
+        "BV1HT421Y7pS": {
+            "aid": 1705977067,
+            "author": "哔哩哔哩漫画",
+            "bvid": "BV1HT421Y7pS",
+            "copyright": "1",
+            "created": 1719221700,
+            "description": "本意只是想让男友吃醋，却没想到男友根本不在乎我的感受，这段感情里，我一直受到伤害，可是真正的爱，会是这个样子吗？",
+            "is_union_video": 0,
+            "length": "01:09",
+            "mid": 326499679,
+            "pic": "http://i2.hdslb.com/bfs/archive/55d38b6446942678ee160d3efafd762e54d474c1.jpg",
+            "title": "为了气男友吃醋，我和他最好的朋友一起走了！",
+            "typeid": 168
+        },
         "BV18i421e7dG": {
             "aid": 1455787151,
             "author": "哔哩哔哩漫画",
@@ -351,23 +365,10 @@
             "pic": "http://i1.hdslb.com/bfs/archive/0331541dd2c6bb37ae237cb95571179b55666e8f.jpg",
             "title": "网瘾少年意外穿越到了剑与魔法的世界，本来期待开启金手指，却被本地土著教训得怀疑人生…",
             "typeid": 195
-        },
-        "BV1HF4m1M719": {
-            "aid": 1200504699,
-            "author": "哔哩哔哩漫画",
-            "bvid": "BV1HF4m1M719",
-            "copyright": "1",
-            "created": 1707890400,
-            "description": "小漫画的推漫时间到！胆小者也可以食用的搞笑恐怖漫画，史上最无所顾忌女主，钓鱼执法把鬼耍得团团转！《尖叫女王》一起来追：https://b22.top/FwaMn27?showop=X_33730E49-7F90-4CFB-8393-1E84D9D2606F_1707677068",
-            "is_union_video": 0,
-            "length": "00:39",
-            "mid": 326499679,
-            "pic": "http://i1.hdslb.com/bfs/archive/60fc36316d72085f4ee0f76a8f390d8f296cc583.jpg",
-            "title": "胆小者也可以食用的搞笑恐怖漫画，史上最无所顾忌女主！",
-            "typeid": 195
         }
     },
     "list": [
+        "BV1HT421Y7pS",
         "BV18i421e7dG",
         "BV194421S7Ku",
         "BV18S421d78W",
@@ -391,7 +392,6 @@
         "BV1aj421D7yv",
         "BV1PZ421m7WH",
         "BV1QZ42127ru",
-        "BV1Dt421a7Kg",
-        "BV1HF4m1M719"
+        "BV1Dt421a7Kg"
     ]
 }

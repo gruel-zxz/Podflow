@@ -7,7 +7,7 @@
         <category>TV &amp; Film</category>
         <generator>Podflow (support us at https://github.com/gruel-zxz/podflow)</generator>
         <language>en-us</language>
-        <lastBuildDate>Sun, 23 Jun 2024 17:51:14 +0800</lastBuildDate>
+        <lastBuildDate>Mon, 24 Jun 2024 17:37:56 +0800</lastBuildDate>
         <pubDate>Sun, 24 Apr 2005 11:20:54 +0800</pubDate>
         <image>
             <url>https://i1.hdslb.com/bfs/face/2254162161a60b528cfec449f3450409a81ebc37.jpg</url>
@@ -21,6 +21,23 @@
         <itunes:explicit>no</itunes:explicit>
         <itunes:category text="TV &amp; Film"></itunes:category>
 <!-- {326499679} -->
+<!-- 326499679 -->
+        <item>
+            <guid>BV1HT421Y7pS</guid>
+            <title>为了气男友吃醋，我和他最好的朋友一起走了！</title>
+            <link>https://www.bilibili.com/video/BV1HT421Y7pS</link>
+            <description>『哔哩哔哩漫画』&#xA;本意只是想让男友吃醋，却没想到男友根本不在乎我的感受，这段感情里，我一直受到伤害，可是真正的爱，会是这个样子吗？</description>
+            <pubDate>Mon, 24 Jun 2024 17:35:00 +0800</pubDate>
+            <enclosure url="https://raw.githubusercontent.com/gruel-zxz/podflow/main/channel_audiovisual/326499679/BV1HT421Y7pS.mp4" length="2832663" type="video/mp4"></enclosure>
+            <itunes:author>为了气男友吃醋，我和他最好的朋友一起走了！</itunes:author>
+            <itunes:subtitle>为了气男友吃醋，我和他最好的朋友一起走了！</itunes:subtitle>
+            <itunes:summary><![CDATA[『哔哩哔哩漫画』
+本意只是想让男友吃醋，却没想到男友根本不在乎我的感受，这段感情里，我一直受到伤害，可是真正的爱，会是这个样子吗？]]></itunes:summary>
+            <itunes:image href="http://i2.hdslb.com/bfs/archive/55d38b6446942678ee160d3efafd762e54d474c1.jpg"></itunes:image>
+            <itunes:duration>01:09</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:order>1</itunes:order>
+        </item>
 <!-- 326499679 -->
         <item>
             <guid>BV18i421e7dG</guid>
