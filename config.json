@@ -48,7 +48,7 @@
     },
     "channelid_bilibili": {
         "哔哩哔哩漫画": {
-            "update_size": 5,
+            "update_size": 15,
             "id": "326499679",
             "title": "哔哩哔哩漫画",
             "last_size": 50,

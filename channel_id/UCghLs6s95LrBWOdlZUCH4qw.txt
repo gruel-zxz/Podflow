@@ -11,6 +11,79 @@
  </author>
  <published>2018-03-31T05:35:30+00:00</published>
  <entry>
+  <id>yt:video:1xVAvqY_lYg</id>
+  <yt:videoId>1xVAvqY_lYg</yt:videoId>
+  <yt:channelId>UCghLs6s95LrBWOdlZUCH4qw</yt:channelId>
+  <title>《赤字迷思》第七章：真正重要的赤字（20240624第7342期）</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=1xVAvqY_lYg"/>
+  <author>
+   <name>stone记</name>
+   <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
+  </author>
+  <published>2024-06-24T16:19:26+00:00</published>
+  <updated>2024-06-25T06:25:21+00:00</updated>
+  <media:group>
+   <media:title>《赤字迷思》第七章：真正重要的赤字（20240624第7342期）</media:title>
+   <media:content url="https://www.youtube.com/v/1xVAvqY_lYg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/1xVAvqY_lYg/hqdefault.jpg" width="480" height="360"/>
+   <media:description>加入stone记会员链接
+https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw/join
+合作联系Twitter：stone记@stone62855987
+我们现阶段录制视频使用的设备
+主力相机Canon EOS R
+https://amzn.to/2L2eHQG
+主力镜头Canon RF 50mm f/1.2L USM Lens
+https://amzn.to/2L3qWwt
+主力无线麦克风Sennheiser AVX 配合MKE2
+https://amzn.to/2ZliYnj
+桌面三角架
+https://amzn.to/321gZqc
+将两个麦克风合一的Saramonic SR-AX100
+https://amzn.to/2TWRofg
+铁威马D8 332
+https://amzn.to/3BqlGxT
+
+一些实用的附件推荐
+相机背带Peak Design Slide Lite Camera Strap SLL-BK-3 (Black)
+https://amzn.to/2QC0csh
+相机腕带Peak Design Cuff Camera Wrist Strap
+https://amzn.to/2S6Z4cZ
+相机包Lowepro Adventura SH 160 II
+https://amzn.to/2USOA2Q
+三星T5 2TB移动硬盘
+https://amzn.to/2rK72xf
+佳能照片打印机Canon SELPHY CP1300
+https://amzn.to/2EA2CBp
+Flash Hot Shoe Mount Adapter热靴
+https://amzn.to/2x9NPXU
+Logitech BRIO
+https://amzn.to/2Qp4Q9E
+Rode VideoMicro 手机麦克风
+https://amzn.to/2CLwquJ
+JOBY GorillaPod 3K Kit 八爪魚三腳架
+https://amzn.to/2QqAofl
+Logitech G903
+https://amzn.to/2QocOzv
+Logitech G Powerplay Wireless Charging System
+https://amzn.to/2x29EIQ
+Blue Yeti USB Microphone 桌面麦克风
+https://amzn.to/2x52Eet
+Marathon CL030060WH 显示温度和湿度的桌面时钟
+https://amzn.to/2CLyfYB
+Marathon CL030054WH 显示温度和湿度的床头时钟
+https://amzn.to/2QkOS02
+
+介绍我们最近升级的新设备和心得（20181218第444期）
+https://youtu.be/4G8yWQyBKak
+介绍我们录制视频使用的全部设备（20180912第257期）
+https://youtu.be/BbtTwsP_-zc</media:description>
+   <media:community>
+    <media:starRating count="89" average="5.00" min="1" max="5"/>
+    <media:statistics views="9746"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:yP956zI3wv0</id>
   <yt:videoId>yP956zI3wv0</yt:videoId>
   <yt:channelId>UCghLs6s95LrBWOdlZUCH4qw</yt:channelId>
@@ -78,8 +151,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="235" average="5.00" min="1" max="5"/>
-    <media:statistics views="41207"/>
+    <media:starRating count="293" average="5.00" min="1" max="5"/>
+    <media:statistics views="67678"/>
    </media:community>
   </media:group>
  </entry>
@@ -94,7 +167,7 @@ https://youtu.be/BbtTwsP_-zc</media:description>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
   <published>2024-06-23T17:29:08+00:00</published>
-  <updated>2024-06-24T06:43:37+00:00</updated>
+  <updated>2024-06-24T17:47:26+00:00</updated>
   <media:group>
    <media:title>美国房价创下1999年以来的最高纪录（20240623第7340期）</media:title>
    <media:content url="https://www.youtube.com/v/FFg6IISOi6c?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -151,8 +224,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="111" average="5.00" min="1" max="5"/>
-    <media:statistics views="15016"/>
+    <media:starRating count="130" average="5.00" min="1" max="5"/>
+    <media:statistics views="23751"/>
    </media:community>
   </media:group>
  </entry>
@@ -167,7 +240,7 @@ https://youtu.be/BbtTwsP_-zc</media:description>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
   <published>2024-06-23T12:28:13+00:00</published>
-  <updated>2024-06-24T07:28:18+00:00</updated>
+  <updated>2024-06-24T17:18:15+00:00</updated>
   <media:group>
    <media:title>川普为外国毕业生自动发绿卡，这个要看民主党是否配合（20240623第7338期）</media:title>
    <media:content url="https://www.youtube.com/v/edEuapmUcUg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -224,8 +297,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="114" average="5.00" min="1" max="5"/>
-    <media:statistics views="21808"/>
+    <media:starRating count="128" average="5.00" min="1" max="5"/>
+    <media:statistics views="28098"/>
    </media:community>
   </media:group>
  </entry>
@@ -240,7 +313,7 @@ https://youtu.be/BbtTwsP_-zc</media:description>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
   <published>2024-06-23T12:11:46+00:00</published>
-  <updated>2024-06-24T07:08:13+00:00</updated>
+  <updated>2024-06-24T23:23:53+00:00</updated>
   <media:group>
    <media:title>中国结婚数每年降10%，尹锡悦：再不生孩子韩国要灭绝了！网友：你自己咋不生？（20240623第7339期）</media:title>
    <media:content url="https://www.youtube.com/v/f3jw8YqzdCA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -297,8 +370,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="248" average="5.00" min="1" max="5"/>
-    <media:statistics views="38734"/>
+    <media:starRating count="281" average="5.00" min="1" max="5"/>
+    <media:statistics views="49786"/>
    </media:community>
   </media:group>
  </entry>
@@ -313,7 +386,7 @@ https://youtu.be/BbtTwsP_-zc</media:description>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
   <published>2024-06-23T09:08:57+00:00</published>
-  <updated>2024-06-24T07:05:47+00:00</updated>
+  <updated>2024-06-25T06:29:00+00:00</updated>
   <media:group>
    <media:title>拉斯维加斯另一家很红的龙虾卷Lobster Me（20240623第7414期）</media:title>
    <media:content url="https://www.youtube.com/v/WWAHhLdPCu8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -370,8 +443,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="26" average="5.00" min="1" max="5"/>
-    <media:statistics views="4073"/>
+    <media:starRating count="30" average="5.00" min="1" max="5"/>
+    <media:statistics views="4965"/>
    </media:community>
   </media:group>
  </entry>
@@ -443,8 +516,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="248" average="5.00" min="1" max="5"/>
-    <media:statistics views="36939"/>
+    <media:starRating count="270" average="5.00" min="1" max="5"/>
+    <media:statistics views="41883"/>
    </media:community>
   </media:group>
  </entry>
@@ -516,8 +589,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="230" average="5.00" min="1" max="5"/>
-    <media:statistics views="35445"/>
+    <media:starRating count="240" average="5.00" min="1" max="5"/>
+    <media:statistics views="38357"/>
    </media:community>
   </media:group>
  </entry>
@@ -589,8 +662,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="841" average="5.00" min="1" max="5"/>
-    <media:statistics views="89827"/>
+    <media:starRating count="874" average="5.00" min="1" max="5"/>
+    <media:statistics views="99996"/>
    </media:community>
   </media:group>
  </entry>
@@ -662,8 +735,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="195" average="5.00" min="1" max="5"/>
-    <media:statistics views="32757"/>
+    <media:starRating count="217" average="5.00" min="1" max="5"/>
+    <media:statistics views="37724"/>
    </media:community>
   </media:group>
  </entry>
@@ -735,8 +808,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="1373" average="5.00" min="1" max="5"/>
-    <media:statistics views="57216"/>
+    <media:starRating count="1436" average="5.00" min="1" max="5"/>
+    <media:statistics views="60045"/>
    </media:community>
   </media:group>
  </entry>
@@ -808,8 +881,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="218" average="5.00" min="1" max="5"/>
-    <media:statistics views="27949"/>
+    <media:starRating count="229" average="5.00" min="1" max="5"/>
+    <media:statistics views="29850"/>
    </media:community>
   </media:group>
  </entry>
@@ -824,7 +897,7 @@ https://youtu.be/BbtTwsP_-zc</media:description>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
   <published>2024-06-22T03:41:16+00:00</published>
-  <updated>2024-06-22T08:08:25+00:00</updated>
+  <updated>2024-06-23T20:38:44+00:00</updated>
   <media:group>
    <media:title>阮富仲“竹式外交”拜登习近平普京纷纷来朝，对比幼稚的泽连斯基（20240621第7331期）</media:title>
    <media:content url="https://www.youtube.com/v/6GjpavOVIbk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -881,8 +954,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="256" average="5.00" min="1" max="5"/>
-    <media:statistics views="37410"/>
+    <media:starRating count="271" average="5.00" min="1" max="5"/>
+    <media:statistics views="40569"/>
    </media:community>
   </media:group>
  </entry>
@@ -897,7 +970,7 @@ https://youtu.be/BbtTwsP_-zc</media:description>
    <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
   </author>
   <published>2024-06-21T11:10:10+00:00</published>
-  <updated>2024-06-22T06:17:53+00:00</updated>
+  <updated>2024-06-23T20:42:17+00:00</updated>
   <media:group>
    <media:title>网红日本烧鸟Hachi（20240621第7404期）</media:title>
    <media:content url="https://www.youtube.com/v/2_xVhuLNUxA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -954,8 +1027,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="39" average="5.00" min="1" max="5"/>
-    <media:statistics views="6020"/>
+    <media:starRating count="40" average="5.00" min="1" max="5"/>
+    <media:statistics views="6145"/>
    </media:community>
   </media:group>
  </entry>
@@ -1027,81 +1100,8 @@ https://youtu.be/4G8yWQyBKak
 介绍我们录制视频使用的全部设备（20180912第257期）
 https://youtu.be/BbtTwsP_-zc</media:description>
    <media:community>
-    <media:starRating count="281" average="5.00" min="1" max="5"/>
-    <media:statistics views="60111"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:Ogr99Mr8P7k</id>
-  <yt:videoId>Ogr99Mr8P7k</yt:videoId>
-  <yt:channelId>UCghLs6s95LrBWOdlZUCH4qw</yt:channelId>
-  <title>中国vivo被印度政府明抢，印度号称全球化杀猪盘（20240620第7329期）</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=Ogr99Mr8P7k"/>
-  <author>
-   <name>stone记</name>
-   <uri>https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw</uri>
-  </author>
-  <published>2024-06-20T20:18:06+00:00</published>
-  <updated>2024-06-22T11:09:04+00:00</updated>
-  <media:group>
-   <media:title>中国vivo被印度政府明抢，印度号称全球化杀猪盘（20240620第7329期）</media:title>
-   <media:content url="https://www.youtube.com/v/Ogr99Mr8P7k?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/Ogr99Mr8P7k/hqdefault.jpg" width="480" height="360"/>
-   <media:description>加入stone记会员链接
-https://www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw/join
-合作联系Twitter：stone记@stone62855987
-我们现阶段录制视频使用的设备
-主力相机Canon EOS R
-https://amzn.to/2L2eHQG
-主力镜头Canon RF 50mm f/1.2L USM Lens
-https://amzn.to/2L3qWwt
-主力无线麦克风Sennheiser AVX 配合MKE2
-https://amzn.to/2ZliYnj
-桌面三角架
-https://amzn.to/321gZqc
-将两个麦克风合一的Saramonic SR-AX100
-https://amzn.to/2TWRofg
-铁威马D8 332
-https://amzn.to/3BqlGxT
-
-一些实用的附件推荐
-相机背带Peak Design Slide Lite Camera Strap SLL-BK-3 (Black)
-https://amzn.to/2QC0csh
-相机腕带Peak Design Cuff Camera Wrist Strap
-https://amzn.to/2S6Z4cZ
-相机包Lowepro Adventura SH 160 II
-https://amzn.to/2USOA2Q
-三星T5 2TB移动硬盘
-https://amzn.to/2rK72xf
-佳能照片打印机Canon SELPHY CP1300
-https://amzn.to/2EA2CBp
-Flash Hot Shoe Mount Adapter热靴
-https://amzn.to/2x9NPXU
-Logitech BRIO
-https://amzn.to/2Qp4Q9E
-Rode VideoMicro 手机麦克风
-https://amzn.to/2CLwquJ
-JOBY GorillaPod 3K Kit 八爪魚三腳架
-https://amzn.to/2QqAofl
-Logitech G903
-https://amzn.to/2QocOzv
-Logitech G Powerplay Wireless Charging System
-https://amzn.to/2x29EIQ
-Blue Yeti USB Microphone 桌面麦克风
-https://amzn.to/2x52Eet
-Marathon CL030060WH 显示温度和湿度的桌面时钟
-https://amzn.to/2CLyfYB
-Marathon CL030054WH 显示温度和湿度的床头时钟
-https://amzn.to/2QkOS02
-
-介绍我们最近升级的新设备和心得（20181218第444期）
-https://youtu.be/4G8yWQyBKak
-介绍我们录制视频使用的全部设备（20180912第257期）
-https://youtu.be/BbtTwsP_-zc</media:description>
-   <media:community>
-    <media:starRating count="237" average="5.00" min="1" max="5"/>
-    <media:statistics views="40412"/>
+    <media:starRating count="288" average="5.00" min="1" max="5"/>
+    <media:statistics views="59726"/>
    </media:community>
   </media:group>
  </entry>

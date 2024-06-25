@@ -11,6 +11,29 @@
  </author>
  <published>2022-06-04T16:17:27+00:00</published>
  <entry>
+  <id>yt:video:mKRFlc_AidI</id>
+  <yt:videoId>mKRFlc_AidI</yt:videoId>
+  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
+  <title>给义乌一点时间，它可以征服全世界#爱吐槽的四季妈妈 #家庭吐槽大会</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=mKRFlc_AidI"/>
+  <author>
+   <name>四季妈妈—小龙</name>
+   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
+  </author>
+  <published>2024-06-24T09:29:00+00:00</published>
+  <updated>2024-06-24T09:29:20+00:00</updated>
+  <media:group>
+   <media:title>给义乌一点时间，它可以征服全世界#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
+   <media:content url="https://www.youtube.com/v/mKRFlc_AidI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/mKRFlc_AidI/hqdefault.jpg" width="480" height="360"/>
+   <media:description>只要给义乌一点时间，它真的可以征服全世界！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
+   <media:community>
+    <media:starRating count="1" average="5.00" min="1" max="5"/>
+    <media:statistics views="92"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:-cmIJ1OSen8</id>
   <yt:videoId>-cmIJ1OSen8</yt:videoId>
   <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
@@ -29,7 +52,7 @@
    <media:description>男人发呆的时候到底在想什么？我老公经常在脑海中上演各种角色扮演的大戏！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="280"/>
+    <media:statistics views="294"/>
    </media:community>
   </media:group>
  </entry>
@@ -52,7 +75,7 @@
    <media:description>这位大哥可真是厉害，单杆钓座头鲸，那真是一钓开天门啊！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="139"/>
+    <media:statistics views="150"/>
    </media:community>
   </media:group>
  </entry>
@@ -75,7 +98,7 @@
    <media:description>贵州的山路锻炼出了一批真正的车神，他们手中握的可不是普通驾照，而是象征实力的王者印记！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="283"/>
+    <media:statistics views="284"/>
    </media:community>
   </media:group>
  </entry>
@@ -98,7 +121,7 @@
    <media:description>夫妻吵架时，为什么总是男人劝和而女人劝分呢？背后究竟有什么秘密？#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="385"/>
+    <media:statistics views="386"/>
    </media:community>
   </media:group>
  </entry>
@@ -144,7 +167,7 @@
    <media:description>看来，这种“减速带”只有男人才能理解！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="12" average="5.00" min="1" max="5"/>
-    <media:statistics views="285"/>
+    <media:statistics views="288"/>
    </media:community>
   </media:group>
  </entry>
@@ -258,8 +281,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/QsWVOxadI_Q/hqdefault.jpg" width="480" height="360"/>
    <media:description>我真的不理解，是我不了解东北的浪漫，还是东北人对浪漫有“过敏反应”？#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="47" average="5.00" min="1" max="5"/>
-    <media:statistics views="2888"/>
+    <media:starRating count="48" average="5.00" min="1" max="5"/>
+    <media:statistics views="2895"/>
    </media:community>
   </media:group>
  </entry>
@@ -305,7 +328,7 @@
    <media:description>我一直以为这是老公特有的暗号，结果发现所有男人都在用它！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="9" average="5.00" min="1" max="5"/>
-    <media:statistics views="372"/>
+    <media:statistics views="371"/>
    </media:community>
   </media:group>
  </entry>
@@ -328,30 +351,7 @@
    <media:description>到底是我们太强，还是老外太弱？真相揭晓！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="218"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:At6TScH6W8g</id>
-  <yt:videoId>At6TScH6W8g</yt:videoId>
-  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
-  <title>男人为什么喜欢自驾#爱吐槽的四季妈妈</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=At6TScH6W8g"/>
-  <author>
-   <name>四季妈妈—小龙</name>
-   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
-  </author>
-  <published>2024-05-20T12:19:58+00:00</published>
-  <updated>2024-06-20T14:08:22+00:00</updated>
-  <media:group>
-   <media:title>男人为什么喜欢自驾#爱吐槽的四季妈妈</media:title>
-   <media:content url="https://www.youtube.com/v/At6TScH6W8g?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/At6TScH6W8g/hqdefault.jpg" width="480" height="360"/>
-   <media:description>男人为什么对自驾情有独钟？是自由、冒险，还是掌控感？#爱吐槽的四季妈妈</media:description>
-   <media:community>
-    <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="431"/>
+    <media:statistics views="220"/>
    </media:community>
   </media:group>
  </entry>
