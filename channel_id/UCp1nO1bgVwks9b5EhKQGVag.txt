@@ -29,8 +29,8 @@
    <media:description>科幻经典《平面国》，中文版由果麦出品。
 这是一部我们这么多年来推荐给很多读者的科幻小说，原著写于19世纪，但是提出的概念相当超前！对于想了解空间维度的朋友，这本书是绝对的首选。</media:description>
    <media:community>
-    <media:starRating count="159" average="5.00" min="1" max="5"/>
-    <media:statistics views="6937"/>
+    <media:starRating count="171" average="5.00" min="1" max="5"/>
+    <media:statistics views="8204"/>
    </media:community>
   </media:group>
  </entry>
@@ -53,8 +53,8 @@
    <media:description>一股未知的力量篡改了人们的记忆：时空折叠？曼德拉效应？科幻小说《震荡》，原著：赵磊。
 是一部20多年前的国产科幻小说，近年来很多人开始讨论曼德拉效应，那么这部小说就给出了一种很另类的解释。</media:description>
    <media:community>
-    <media:starRating count="87" average="5.00" min="1" max="5"/>
-    <media:statistics views="4118"/>
+    <media:starRating count="88" average="5.00" min="1" max="5"/>
+    <media:statistics views="4203"/>
    </media:community>
   </media:group>
  </entry>
@@ -77,7 +77,7 @@
    <media:description>人类建造光帆来发电，结果却吸引来了高等级文明：科幻小说《天帆》，原著：江波。</media:description>
    <media:community>
     <media:starRating count="94" average="5.00" min="1" max="5"/>
-    <media:statistics views="5012"/>
+    <media:statistics views="5065"/>
    </media:community>
   </media:group>
  </entry>
@@ -99,8 +99,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/p212sAZQC_8/hqdefault.jpg" width="480" height="360"/>
    <media:description>人类的情绪，不过是简单的电化学反应：科幻名著《快乐的理由》，原著：格雷格.伊根，出自同名科幻小说集《快乐的理由》</media:description>
    <media:community>
-    <media:starRating count="83" average="5.00" min="1" max="5"/>
-    <media:statistics views="3209"/>
+    <media:starRating count="84" average="5.00" min="1" max="5"/>
+    <media:statistics views="3239"/>
    </media:community>
   </media:group>
  </entry>
@@ -124,7 +124,7 @@
 抱歉了大家，拖更了半个月，最近总算把几个长篇内容搞完了，近期恢复每周更新。</media:description>
    <media:community>
     <media:starRating count="105" average="5.00" min="1" max="5"/>
-    <media:statistics views="4138"/>
+    <media:statistics views="4154"/>
    </media:community>
   </media:group>
  </entry>
@@ -146,8 +146,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/72G9lxhGpfU/hqdefault.jpg" width="480" height="360"/>
    <media:description>天文学家发现“时间逆流星系”，能用它来做什么？《百光年日记》，原著：格雷格.伊根。</media:description>
    <media:community>
-    <media:starRating count="146" average="5.00" min="1" max="5"/>
-    <media:statistics views="6746"/>
+    <media:starRating count="147" average="5.00" min="1" max="5"/>
+    <media:statistics views="6782"/>
    </media:community>
   </media:group>
  </entry>
@@ -170,7 +170,7 @@
    <media:description>当外星人的科技树点错之后：科幻小说《最后一个外星人》了，这是一篇有趣的小说，希望大家喜欢。</media:description>
    <media:community>
     <media:starRating count="190" average="5.00" min="1" max="5"/>
-    <media:statistics views="7857"/>
+    <media:statistics views="7889"/>
    </media:community>
   </media:group>
  </entry>
@@ -192,8 +192,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/Dpmcni1bC58/hqdefault.jpg" width="480" height="360"/>
    <media:description>我们近期用AI作了这首歌曲，还算满意，大家听听看这个咋样。不过这首还是有点瑕疵，最近训练AI很久了，下次给大家呈现出更好的视听体验。这首就当纯娱乐。</media:description>
    <media:community>
-    <media:starRating count="52" average="5.00" min="1" max="5"/>
-    <media:statistics views="1666"/>
+    <media:starRating count="53" average="5.00" min="1" max="5"/>
+    <media:statistics views="1670"/>
    </media:community>
   </media:group>
  </entry>
@@ -216,8 +216,8 @@
    <media:description>《过去已死》下集，原著：阿西莫夫。
 这是另一部阿西莫夫的代表作，只是中文版出版太晚了，很多读者也是近两年来才接触到，让我们一起欣赏一下吧。</media:description>
    <media:community>
-    <media:starRating count="84" average="5.00" min="1" max="5"/>
-    <media:statistics views="4668"/>
+    <media:starRating count="85" average="5.00" min="1" max="5"/>
+    <media:statistics views="4680"/>
    </media:community>
   </media:group>
  </entry>
@@ -240,7 +240,7 @@
    <media:description>《过去已死》,原著：阿西莫夫，出自|《阿西莫夫科幻短篇全集》。是作者的另一部代表作。</media:description>
    <media:community>
     <media:starRating count="184" average="5.00" min="1" max="5"/>
-    <media:statistics views="10077"/>
+    <media:statistics views="10088"/>
    </media:community>
   </media:group>
  </entry>
@@ -264,7 +264,7 @@
 《群星的背面》作者：谢云宁，他来了！</media:description>
    <media:community>
     <media:starRating count="139" average="5.00" min="1" max="5"/>
-    <media:statistics views="5701"/>
+    <media:statistics views="5707"/>
    </media:community>
   </media:group>
  </entry>
@@ -287,7 +287,7 @@
    <media:description>谢缵泰：中国飞艇设计制造的第一人，也是中国航空先驱。于1899年完成了首例飞艇的设计。科幻小说《龙骸》，出自雨果奖获得者海漄的科幻作品集《海漄怪奇故事集》，《龙骸》中涉及到的历史人物均有原型。</media:description>
    <media:community>
     <media:starRating count="150" average="5.00" min="1" max="5"/>
-    <media:statistics views="9125"/>
+    <media:statistics views="9135"/>
    </media:community>
   </media:group>
  </entry>
@@ -311,7 +311,7 @@
 当人类缩小十万倍，变成细菌大小</media:description>
    <media:community>
     <media:starRating count="110" average="5.00" min="1" max="5"/>
-    <media:statistics views="4863"/>
+    <media:statistics views="4872"/>
    </media:community>
   </media:group>
  </entry>
@@ -334,7 +334,7 @@
    <media:description>我们也顺应时代，开始制作5分钟以内的短内容了，当然长视频不会断更。只是在此基础上增加了短视频的数量。</media:description>
    <media:community>
     <media:starRating count="92" average="5.00" min="1" max="5"/>
-    <media:statistics views="4054"/>
+    <media:statistics views="4059"/>
    </media:community>
   </media:group>
  </entry>
@@ -357,7 +357,7 @@
    <media:description>我们的第二期克苏鲁风格作品——《诡丽幻谭》。《诡丽幻谭》创刊于1923年，主打奇幻、科幻、惊悚等各类型怪奇文学，创刊100年后由国内阿拉法文化从杂志100年来的几千篇小说中，挑选了25篇最有代表性的作品，翻译成中文，集结成了这部《诡丽幻谭·百年精选·Vol.1》。</media:description>
    <media:community>
     <media:starRating count="114" average="5.00" min="1" max="5"/>
-    <media:statistics views="6046"/>
+    <media:statistics views="6053"/>
    </media:community>
   </media:group>
  </entry>

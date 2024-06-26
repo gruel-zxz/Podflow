@@ -9,7 +9,7 @@
         <category>TV &amp; Film</category>
         <generator>Podflow (support us at https://github.com/gruel-zxz/podflow)</generator>
         <language>en-us</language>
-        <lastBuildDate>Tue, 25 Jun 2024 15:19:11 +0800</lastBuildDate>
+        <lastBuildDate>Wed, 26 Jun 2024 10:25:30 +0800</lastBuildDate>
         <pubDate>Sun, 24 Apr 2005 11:20:54 +0800</pubDate>
         <image>
             <url>https://i2.hdslb.com/bfs/face/6eddf76765648483faf65026835c2a84d7008a5a.jpg</url>
@@ -1072,6 +1072,64 @@ Music &amp; Lyrics : ゆこぴ     Animation: 小津   Vocal : �
 这么优雅还不一键三连？]]></itunes:summary>
             <itunes:image href="http://i2.hdslb.com/bfs/archive/96001d129b0af77434e0d31ff4f8f41f9499b87e.jpg"></itunes:image>
             <itunes:duration>01:47</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:order>1</itunes:order>
+        </item>
+<!-- 1839002753 -->
+        <item>
+            <guid>BV1PG41187yD</guid>
+            <title>【KTV争霸赛】我也没想到他们真的是来唱歌的</title>
+            <link>https://www.bilibili.com/video/BV1PG41187yD</link>
+            <description>『鹿火CAVY』&#xA;哔哩哔哩KTV争霸赛开启了！我们收集了音乐区UP们的ktv必点歌单并联动了这期视频，如果有牵动你的麦霸之魂，现在搜索“KTV争霸赛” 在十四位音乐区UP中选择报名你喜爱的主题歌房，一起来迎接这场夏日音乐派对吧！https://www.bilibili.com/blackboard/live/activity-lHjcJgi81u.html&#xA;主唱：@诡佳目  /@九三的耳朵不是特别好  /@狐妖Mikan  /@一个乌龟酱  /@鹿火CAVY &#xA;剪辑：王江&#xA;鼓手：哲学&#xA;吉他：朱禹杭&#xA;编曲/键盘：大熊&#xA;录音</description>
+            <pubDate>Thu, 04 Aug 2022 18:42:05 +0800</pubDate>
+            <enclosure url="https://raw.githubusercontent.com/gruel-zxz/podflow/main/channel_audiovisual/1839002753/BV1PG41187yD.m4a" length="18262135" type="audio/x-m4a"></enclosure>
+            <itunes:author>【KTV争霸赛】我也没想到他们真的是来唱歌的</itunes:author>
+            <itunes:subtitle>【KTV争霸赛】我也没想到他们真的是来唱歌的</itunes:subtitle>
+            <itunes:summary><![CDATA[『鹿火CAVY』
+哔哩哔哩KTV争霸赛开启了！我们收集了音乐区UP们的ktv必点歌单并联动了这期视频，如果有牵动你的麦霸之魂，现在搜索“KTV争霸赛” 在十四位音乐区UP中选择报名你喜爱的主题歌房，一起来迎接这场夏日音乐派对吧！https://www.bilibili.com/blackboard/live/activity-lHjcJgi81u.html
+主唱：@诡佳目  /@九三的耳朵不是特别好  /@狐妖Mikan  /@一个乌龟酱  /@鹿火CAVY 
+剪辑：王江
+鼓手：哲学
+吉他：朱禹杭
+编曲/键盘：大熊
+录音]]></itunes:summary>
+            <itunes:image href="http://i0.hdslb.com/bfs/archive/a42c7942ee55512dc817b0a6949b56cc6650e725.jpg"></itunes:image>
+            <itunes:duration>07:38</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:order>1</itunes:order>
+        </item>
+<!-- 1839002753 -->
+        <item>
+            <guid>BV18W4y1y7J4</guid>
+            <title>震惊！某主播晚上下播后竟偷偷......</title>
+            <link>https://www.bilibili.com/video/BV18W4y1y7J4</link>
+            <description>『鹿火CAVY』&#xA;这是一个迟到好久的cos！同学们给个三连吧！&#xA;下次要出什么cos捏，</description>
+            <pubDate>Fri, 29 Jul 2022 18:32:17 +0800</pubDate>
+            <enclosure url="https://raw.githubusercontent.com/gruel-zxz/podflow/main/channel_audiovisual/1839002753/BV18W4y1y7J4.m4a" length="141604" type="audio/x-m4a"></enclosure>
+            <itunes:author>震惊！某主播晚上下播后竟偷偷......</itunes:author>
+            <itunes:subtitle>震惊！某主播晚上下播后竟偷偷......</itunes:subtitle>
+            <itunes:summary><![CDATA[『鹿火CAVY』
+这是一个迟到好久的cos！同学们给个三连吧！
+下次要出什么cos捏，]]></itunes:summary>
+            <itunes:image href="http://i1.hdslb.com/bfs/archive/5a925e1757c6f08fca999f064a3b1e4ac010c5e6.jpg"></itunes:image>
+            <itunes:duration>00:10</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:order>1</itunes:order>
+        </item>
+<!-- 1839002753 -->
+        <item>
+            <guid>BV1mS4y147em</guid>
+            <title>摊牌了，我要开始躺平了！</title>
+            <link>https://www.bilibili.com/video/BV1mS4y147em</link>
+            <description>『鹿火CAVY』&#xA;同学们!为了更美好的明（tang）天（ping），还不开始动起来？</description>
+            <pubDate>Wed, 27 Jul 2022 15:00:00 +0800</pubDate>
+            <enclosure url="https://raw.githubusercontent.com/gruel-zxz/podflow/main/channel_audiovisual/1839002753/BV1mS4y147em.m4a" length="6398221" type="audio/x-m4a"></enclosure>
+            <itunes:author>摊牌了，我要开始躺平了！</itunes:author>
+            <itunes:subtitle>摊牌了，我要开始躺平了！</itunes:subtitle>
+            <itunes:summary><![CDATA[『鹿火CAVY』
+同学们!为了更美好的明（tang）天（ping），还不开始动起来？]]></itunes:summary>
+            <itunes:image href="http://i1.hdslb.com/bfs/archive/8252c4fe26b6f63836b832368964586aa5b8ecca.jpg"></itunes:image>
+            <itunes:duration>02:41</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
             <itunes:order>1</itunes:order>
         </item>

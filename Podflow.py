@@ -20,6 +20,37 @@ from functools import reduce
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 
+# 获取命令行参数并判断
+shortcuts_url_original =[]
+argument = ""
+update_num = -1
+def positive_int(value):
+    ivalue = int(value)
+    if ivalue <= 0:
+        raise argparse.ArgumentTypeError(f"{value} is not a positive integer")
+    return ivalue
+# 创建 ArgumentParser 对象
+parser = argparse.ArgumentParser(description="you can try: python Podflow.py -n 24 -d 3600")
+# 参数
+parser.add_argument("-n", "--times", nargs=1, type=positive_int, metavar="NUM", help="number of times")
+parser.add_argument("-d", "--delay", type=positive_int, default=900, metavar="NUM", help="delay in seconds(default: 900)")
+parser.add_argument("--shortcuts", nargs="*", type=str, metavar="URL", help="only shortcuts can be work")
+parser.add_argument("--file", nargs='?', help=argparse.SUPPRESS)
+# 解析参数
+args = parser.parse_args()
+time_delay = args.delay
+# 检查并处理参数的状态
+if args.times is not None :
+    update_num = int(args.times[0])
+if args.shortcuts is not None:
+    update_num = 1
+    argument = "a-shell"
+    shortcuts_url_original = args.shortcuts
+if args.file is not None and ".json" in args.file:
+    update_num = 1
+    argument = ""
+    shortcuts_url_original = []
+
 # 默认参数
 default_config = {
     "preparation_per_count": 100,
@@ -104,37 +135,6 @@ make_up_file_format = {}  # 补全缺失媒体字典
 make_up_file_format_fail = {}  # 补全缺失媒体失败字典
 
 shortcuts_url = {}  # 输出至shortcut的url字典
-
-# 获取命令行参数并判断
-shortcuts_url_original =[]
-argument = ""
-update_num = -1
-def positive_int(value):
-    ivalue = int(value)
-    if ivalue <= 0:
-        raise argparse.ArgumentTypeError(f"{value} is not a positive integer")
-    return ivalue
-# 创建 ArgumentParser 对象
-parser = argparse.ArgumentParser(description="python Podflow.py [-h] [-n [NUM]] [-d [NUM]]")
-# 参数
-parser.add_argument("-n", "--times", nargs=1, type=positive_int, metavar="NUM", help="number of times")
-parser.add_argument("-d", "--delay", type=positive_int, default=900, metavar="NUM", help="delay in seconds(default: 900)")
-parser.add_argument("--shortcuts", nargs="*", type=str, metavar="URL", help="only shortcuts can be work")
-parser.add_argument("--file", nargs='?', help=argparse.SUPPRESS)
-# 解析参数
-args = parser.parse_args()
-time_delay = args.delay
-# 检查并处理参数的状态
-if args.times is not None :
-    update_num = int(args.times[0])
-if args.shortcuts is not None:
-    update_num = 1
-    argument = "a-shell"
-    shortcuts_url_original = args.shortcuts
-if args.file is not None and ".json" in args.file:
-    update_num = 1
-    argument = ""
-    shortcuts_url_original = []
 
 # 文件保存模块
 def file_save(content, file_name, folder=None):
