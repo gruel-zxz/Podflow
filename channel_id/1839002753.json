@@ -16,6 +16,34 @@
         "desc": "bilibili 知名音乐UP主、直播高能主播"
     },
     "entry": {
+        "BV1TS411A7w2": {
+            "aid": 1905826766,
+            "author": "哔哩哔哩直播",
+            "bvid": "BV1TS411A7w2",
+            "copyright": "1",
+            "created": 1719576000,
+            "description": "【UP！大侦探】第二场直播，将会是一场充满智慧和悬念的侦探推理盛宴，6月29日周六晚18点邀您和主播一起揭开真相的面纱！预约有奖活动进行中>>\n直播地址：https://live.bilibili.com/1\n活动地址：https://live.bilibili.com/blackboard/era/gUY2GTa65yHrQxif.html",
+            "is_union_video": 1,
+            "length": "01:05",
+            "mid": 9617619,
+            "pic": "http://i1.hdslb.com/bfs/archive/8eef4765470c3091fb10862805ad7317aeedcdf9.jpg",
+            "title": "谁是推理MVP？明晚18点悬念直播揭晓！【UP！大侦探】第二场",
+            "typeid": 21
+        },
+        "BV1Ai421v7y4": {
+            "aid": 1455894207,
+            "author": "哔哩哔哩直播",
+            "bvid": "BV1Ai421v7y4",
+            "copyright": "1",
+            "created": 1719567000,
+            "description": "【UP！大侦探】第二场直播，将会是一场充满智慧和悬念的侦探推理盛宴，6月29日周六晚18点邀您和主播一起揭开真相的面纱！预约有奖活动进行中>>\n直播地址：https://live.bilibili.com/1\n活动地址：https://live.bilibili.com/blackboard/era/gUY2GTa65yHrQxif.html",
+            "is_union_video": 1,
+            "length": "00:50",
+            "mid": 9617619,
+            "pic": "http://i2.hdslb.com/bfs/archive/12870a6706457921f7e2824c69de0ec3760ca850.jpg",
+            "title": "鹿火CAVY来啦！【UP！大侦探】嘉宾官宣！",
+            "typeid": 21
+        },
         "BV1Gx4y1b7dZ": {
             "aid": 1005624495,
             "author": "鹿火CAVY",
@@ -337,37 +365,11 @@
             "pic": "http://i2.hdslb.com/bfs/archive/6424d7a3e24b6601f84069febd59694512b49064.jpg",
             "title": "我选择不了你们，但是谢谢你选择我",
             "typeid": 21
-        },
-        "BV1Tw411B7QP": {
-            "aid": 322916071,
-            "author": "鹿火CAVY",
-            "bvid": "BV1Tw411B7QP",
-            "copyright": "1",
-            "created": 1699088400,
-            "description": "这次是用双声线双重小偶像的感觉和自己对唱了《白荆回廊》Binary Star全新单曲「偶像自白书」！\n造型尽量结合了芙蕖和司危在古剑奇谭与这次全新小偶像造型相融合的印象！\n不知道宝贝们更喜欢可爱的芙蕖还是病娇的司危～\n\n—————————————————————\n原唱：Binary Star（司危 / 芙蕖）\n翻唱：鹿火\n作词：恨醉\n作曲/编曲：林子LIN",
-            "is_union_video": 0,
-            "length": "01:08",
-            "mid": 1839002753,
-            "pic": "http://i0.hdslb.com/bfs/archive/c540c27ac3b9fef0b7bf682673fe7ac81b4b980f.jpg",
-            "title": "做个怪胎 也只做我自己",
-            "typeid": 31
-        },
-        "BV12Q4y1p7PK": {
-            "aid": 705023209,
-            "author": "鹿火CAVY",
-            "bvid": "BV12Q4y1p7PK",
-            "copyright": "1",
-            "created": 1698153470,
-            "description": "是小学的时候看电视换台翻到都舍不得翻走，一不小心就看了好久的Q版三国！！\n为了尽量保证原汁原味所以只升了三个调唱，听起来可能有稍许的低沉哈哈哈\n小帽子和小胡子倒是做得很开心嘻嘻！！",
-            "is_union_video": 0,
-            "length": "01:57",
-            "mid": 1839002753,
-            "pic": "http://i0.hdslb.com/bfs/archive/6ca5cefef2df33e7f1da62e10d21a092fdd60c28.jpg",
-            "title": "或许你还记得Q版三国？欢乐又羞耻的唱了主题曲《BA BA BA》",
-            "typeid": 31
         }
     },
     "list": [
+        "BV1TS411A7w2",
+        "BV1Ai421v7y4",
         "BV1Gx4y1b7dZ",
         "BV1wf421d7Wh",
         "BV1Rz421U7rw",
@@ -390,8 +392,6 @@
         "BV1KM411f7fm",
         "BV1Hw411P7eh",
         "BV1z94y1V7r5",
-        "BV1za4y1Q7g8",
-        "BV1Tw411B7QP",
-        "BV12Q4y1p7PK"
+        "BV1za4y1Q7g8"
     ]
 }

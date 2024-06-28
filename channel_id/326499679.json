@@ -16,6 +16,20 @@
         "desc": "哔哩哔哩漫画官方账号"
     },
     "entry": {
+        "BV1Pm421G7c1": {
+            "aid": 1605966477,
+            "author": "哔哩哔哩漫画",
+            "bvid": "BV1Pm421G7c1",
+            "copyright": "1",
+            "created": 1719567300,
+            "description": "金牌狗仔偷拍林楚深夜约会大瓜，遭遇车祸穿成瓜主本瓜林楚，而神秘老板疑似是与林楚不合的冷酷影帝黎昱？！更让人瑟瑟发抖的是，林楚竟好像……不止一个老板？！ 金牌·被迫·狗仔：这福气给你，你要不要啊！",
+            "is_union_video": 1,
+            "length": "02:24",
+            "mid": 326499679,
+            "pic": "http://i0.hdslb.com/bfs/archive/6d8d7b042fb9c01f2c036c060b108096dfa2e4b5.jpg",
+            "title": "金牌狗仔偷拍男明星深夜大瓜，却没想到竟魂穿明星本人？",
+            "typeid": 168
+        },
         "BV1HT421Y7pS": {
             "aid": 1705977067,
             "author": "哔哩哔哩漫画",
@@ -351,23 +365,10 @@
             "pic": "http://i1.hdslb.com/bfs/archive/b1720fe14813b79c3b90eb5bdf3b621f83c926a0.jpg",
             "title": "共度良宵的帅气男模居然是自己素未谋面的富豪总裁未婚夫！",
             "typeid": 195
-        },
-        "BV1Dt421a7Kg": {
-            "aid": 1800606633,
-            "author": "哔哩哔哩漫画",
-            "bvid": "BV1Dt421a7Kg",
-            "copyright": "1",
-            "created": 1707976800,
-            "description": "小漫画的推漫时间到！网瘾少年意外穿越到了剑与魔法的世界，本来期待开启金手指，却被本地土著教训得怀疑人生…他要如何废柴逆袭，成为强者？《魔兽剑圣异界纵横》一起来追：https://b22.top/R01GygL?showop=X_33730E49-7F90-4CFB-8393-1E84D9D2606F_1707677315",
-            "is_union_video": 0,
-            "length": "00:29",
-            "mid": 326499679,
-            "pic": "http://i1.hdslb.com/bfs/archive/0331541dd2c6bb37ae237cb95571179b55666e8f.jpg",
-            "title": "网瘾少年意外穿越到了剑与魔法的世界，本来期待开启金手指，却被本地土著教训得怀疑人生…",
-            "typeid": 195
         }
     },
     "list": [
+        "BV1Pm421G7c1",
         "BV1HT421Y7pS",
         "BV18i421e7dG",
         "BV194421S7Ku",
@@ -391,7 +392,6 @@
         "BV11W421A7hs",
         "BV1aj421D7yv",
         "BV1PZ421m7WH",
-        "BV1QZ42127ru",
-        "BV1Dt421a7Kg"
+        "BV1QZ42127ru"
     ]
 }

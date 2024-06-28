@@ -29,7 +29,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="298"/>
+    <media:statistics views="303"/>
    </media:community>
   </media:group>
  </entry>
@@ -121,7 +121,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="46"/>
+    <media:statistics views="47"/>
    </media:community>
   </media:group>
  </entry>
@@ -205,7 +205,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-06-01T00:00:06+00:00</published>
-  <updated>2024-06-01T00:07:25+00:00</updated>
+  <updated>2024-06-27T14:26:32+00:00</updated>
   <media:group>
    <media:title>梦游行凶竟然不犯法？</media:title>
    <media:content url="https://www.youtube.com/v/BGA3PkI-vqM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -228,7 +228,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-05-31T00:15:07+00:00</published>
-  <updated>2024-05-31T00:22:00+00:00</updated>
+  <updated>2024-06-27T15:38:39+00:00</updated>
   <media:group>
    <media:title>结婚送花圈， 韩国花圈文化</media:title>
    <media:content url="https://www.youtube.com/v/WIlOUGUVWfo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -259,7 +259,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="80"/>
+    <media:statistics views="83"/>
    </media:community>
   </media:group>
  </entry>
@@ -282,7 +282,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="36"/>
+    <media:statistics views="37"/>
    </media:community>
   </media:group>
  </entry>
@@ -297,7 +297,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-05-28T00:00:07+00:00</published>
-  <updated>2024-05-28T09:35:12+00:00</updated>
+  <updated>2024-06-27T14:34:48+00:00</updated>
   <media:group>
    <media:title>职业病头号杀手，尘肺病</media:title>
    <media:content url="https://www.youtube.com/v/Fz2sziNQWaY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -320,7 +320,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-05-27T07:57:38+00:00</published>
-  <updated>2024-06-01T21:45:59+00:00</updated>
+  <updated>2024-06-27T15:44:29+00:00</updated>
   <media:group>
    <media:title>飞天航母，前苏联跨时代武器</media:title>
    <media:content url="https://www.youtube.com/v/t6Dl8qvghtI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -343,7 +343,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-05-26T00:00:07+00:00</published>
-  <updated>2024-05-29T11:25:15+00:00</updated>
+  <updated>2024-06-27T14:56:57+00:00</updated>
   <media:group>
    <media:title>和毒枭叫板的作死网红</media:title>
    <media:content url="https://www.youtube.com/v/Lxbu0uKOh8s?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
