@@ -685,7 +685,7 @@
 #伊藤潤二 #恐怖 #日本 #次文化</media:description>
    <media:community>
     <media:starRating count="1453" average="5.00" min="1" max="5"/>
-    <media:statistics views="94323"/>
+    <media:statistics views="94326"/>
    </media:community>
   </media:group>
  </entry>

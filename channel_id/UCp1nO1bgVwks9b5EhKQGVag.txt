@@ -28,8 +28,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/Hg2wfL1pwJI/hqdefault.jpg" width="480" height="360"/>
    <media:description>太平洋岛国上的土著，如何会成为撬动世界的人：经典科幻小说解读——《撬动世界的哈林达姆》，原著：七月。</media:description>
    <media:community>
-    <media:starRating count="37" average="5.00" min="1" max="5"/>
-    <media:statistics views="957"/>
+    <media:starRating count="39" average="5.00" min="1" max="5"/>
+    <media:statistics views="995"/>
    </media:community>
   </media:group>
  </entry>
@@ -170,7 +170,7 @@
    <media:description>天文学家发现“时间逆流星系”，能用它来做什么？《百光年日记》，原著：格雷格.伊根。</media:description>
    <media:community>
     <media:starRating count="147" average="5.00" min="1" max="5"/>
-    <media:statistics views="6849"/>
+    <media:statistics views="6851"/>
    </media:community>
   </media:group>
  </entry>

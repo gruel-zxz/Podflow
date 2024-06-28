@@ -40,7 +40,7 @@ parser.add_argument("--file", nargs='?', help=argparse.SUPPRESS)
 args = parser.parse_args()
 time_delay = args.delay
 # 检查并处理参数的状态
-if args.times is not None :
+if args.times is not None:
     update_num = int(args.times[0])
 if args.shortcuts is not None:
     update_num = 1
@@ -582,6 +582,7 @@ def media_format(video_website, video_url, media="m4a", quality="480", cookies=N
                                 "id": entry.get("id"),
                                 "description": entry.get("description"),
                                 "url": entry.get("webpage_url"),
+                                "image": entry.get("thumbnail"),
                             })
                     else:
                         infos.append({
@@ -592,6 +593,7 @@ def media_format(video_website, video_url, media="m4a", quality="480", cookies=N
                             "id": info_dict.get("id"),
                             "description": info_dict.get("description"),
                             "url": info_dict.get("webpage_url"),
+                            "image": info_dict.get("thumbnail"),
                         })
         except Exception as message_error:
             fail_message = (
@@ -713,6 +715,7 @@ def media_format(video_website, video_url, media="m4a", quality="480", cookies=N
                 "id": entry.get("id"),
                 "description": entry.get("description"),
                 "url": entry.get("url"),
+                "image": entry.get("image"),
             })
         return lists
     else:
@@ -1403,7 +1406,8 @@ def bulid_Netscape_HTTP_Cookie(file_name, cookie={}):
 .bilibili.com	TRUE	/	FALSE	0	DedeUserID__ckMd5	{cookie.get("DedeUserID__ckMd5", "")}
 .bilibili.com	TRUE	/	FALSE	0	sid	{cookie.get("sid", "")}
 .bilibili.com	TRUE	/	FALSE	0	buvid3	{cookie.get("buvid3", "")}
-.bilibili.com	TRUE	/	FALSE	0	b_nut	{cookie.get("b_nut", "")}'''
+.bilibili.com	TRUE	/	FALSE	0	b_nut	{cookie.get("b_nut", "")}
+'''
     file_save(cookie_jar, f"{file_name}.txt")
 
 # 申请哔哩哔哩二维码并获取token和URL模块
@@ -1528,6 +1532,8 @@ JNrRuoEUXpabUzGB8QIDAQAB
     }
     confirm_cookie_response = http_client(confirm_cookie_url, '确认更新BiliBili_cookie', 3, 5, True, new_bilibili_cookie, confirm_cookie_data, "post")
     if confirm_cookie_response.json()["code"] == 0:
+        new_bilibili_cookie["buvid3"] = bilibili_cookie["buvid3"]
+        new_bilibili_cookie["b_nut"] = bilibili_cookie["b_nut"]
         bilibili_data["cookie"] = new_bilibili_cookie
         bilibili_data["refresh_token"] = new_refresh_token
         bulid_Netscape_HTTP_Cookie("yt_dlp_bilibili", new_bilibili_cookie)
@@ -1604,7 +1610,7 @@ def WBI_signature(params={}, img_key="", sub_key=""):
         params = dict(sorted(params.items()))                       # 按照 key 重排参数
         # 过滤 value 中的 "!'()*" 字符
         params = {
-            k : ''.join(filter(lambda chr: chr not in "!'()*", str(v)))
+            k: ''.join(filter(lambda chr: chr not in "!'()*", str(v)))
             for k, v 
             in params.items()
         }
@@ -1685,7 +1691,7 @@ def get_file_list(video_key, video_media="m4a", length=12):
     return content_id, items_counts
 
 # 从YouTube播放列表获取更新模块
-def get_youtube_html_playlists(youtube_key, youtube_value, guids=[""], direction_forward=True, update_size=20):
+def get_youtube_html_playlists(youtube_key, youtube_value, guids=[""], direction_forward=True, update_size=20, youtube_content_ytid_original=[]):
     idlist = []
     item = {}
     threads = []
@@ -1730,10 +1736,15 @@ def get_youtube_html_playlists(youtube_key, youtube_value, guids=[""], direction
             if videoid not in guids:
                 title = playlist['playlistPanelVideoRenderer']['title']['simpleText']
                 idlist.append(videoid)
-                item[videoid] = {"title": title}
-                item_thread = threading.Thread(target=get_video_item, args=(videoid, youtube_value,))
-                item_thread.start()
-                threads.append(item_thread)
+                item[videoid] = {
+                    "title": title,
+                    "yt-dlp": True,
+                }
+                if videoid in youtube_content_ytid_original:
+                    item[videoid]["yt-dlp"] = False
+                    item_thread = threading.Thread(target=get_video_item, args=(videoid, youtube_value,))
+                    item_thread.start()
+                    threads.append(item_thread)
     else:
         reversed_playlists = []
         for playlist in reversed(playlists):
@@ -1746,10 +1757,15 @@ def get_youtube_html_playlists(youtube_key, youtube_value, guids=[""], direction
             videoid = playlist['playlistPanelVideoRenderer']['videoId']
             title = playlist['playlistPanelVideoRenderer']['title']['simpleText']
             idlist.append(videoid)
-            item[videoid] = {"title": title}
-            item_thread = threading.Thread(target=get_video_item, args=(videoid, youtube_value,))
-            item_thread.start()
-            threads.append(item_thread)
+            item[videoid] = {
+                "title": title,
+                "yt-dlp": True,
+            }
+            if videoid in youtube_content_ytid_original:
+                item[videoid]["yt-dlp"] = False
+                item_thread = threading.Thread(target=get_video_item, args=(videoid, youtube_value,))
+                item_thread.start()
+                threads.append(item_thread)
     for thread in threads:
         thread.join()
     for videoid in fail:
@@ -1806,7 +1822,8 @@ def youtube_rss_update(youtube_key, youtube_value, pattern_youtube_varys, patter
                 youtube_value,
                 [elem for elem in guids if elem in youtube_content_ytid_original],
                 True,
-                channelid_youtube[youtube_value]["update_size"]
+                channelid_youtube[youtube_value]["update_size"],
+                youtube_content_ytid_original
             ):
                 break
     # 读取原Youtube频道xml文件并判断是否要更新
@@ -1861,7 +1878,8 @@ def youtube_rss_update(youtube_key, youtube_value, pattern_youtube_varys, patter
                     youtube_value,
                     guids,
                     False,
-                    min(backward_update_size, channelid_youtube[youtube_value]["BackwardUpdate_size"])
+                    min(backward_update_size, channelid_youtube[youtube_value]["BackwardUpdate_size"]),
+                    youtube_content_ytid_original
                 ):
                     break
             backward_list = youtube_html_backward_playlists["list"]
@@ -2262,23 +2280,25 @@ def get_youtube_and_bilibili_video_format(id, stop_flag, video_format_lock, prep
             video_id_update_format[id]["timestamp"] = entry_id_update_format["timestamp"]
             video_id_update_format[id]["description"] = entry_id_update_format["description"]
             video_id_update_format[id]["main"] = id
+            video_id_update_format[id]["image"] = entry_id_update_format["image"]
         else:
             entrys_id = []
             for entry_id_update_format in id_update_format:
                 entry_id = entry_id_update_format["id"]
                 entrys_id.append(entry_id)
                 video_id_update_format[entry_id] = {
-                    "id" : video_id_update_format[id]["id"],
-                    "media" : video_id_update_format[id]["media"],
-                    "quality" : video_id_update_format[id]["quality"],
-                    "url" : entry_id_update_format["url"],
-                    "name" : video_id_update_format[id]["name"],
-                    "cookie" : video_id_update_format[id]["cookie"],
-                    "format" : entry_id_update_format["duration_and_id"],
-                    "title" : entry_id_update_format["title"],
-                    "timestamp" : entry_id_update_format["timestamp"],
-                    "description" : entry_id_update_format["description"],
-                    "main" : id,
+                    "id": video_id_update_format[id]["id"],
+                    "media": video_id_update_format[id]["media"],
+                    "quality": video_id_update_format[id]["quality"],
+                    "url": entry_id_update_format["url"],
+                    "name": video_id_update_format[id]["name"],
+                    "cookie": video_id_update_format[id]["cookie"],
+                    "format": entry_id_update_format["duration_and_id"],
+                    "title": entry_id_update_format["title"],
+                    "timestamp": entry_id_update_format["timestamp"],
+                    "description": entry_id_update_format["description"],
+                    "main": id,
+                    "image": entry_id_update_format["image"]
                 }
             video_id_update_format[id] = entrys_id
     else:
@@ -2707,21 +2727,37 @@ def get_youtube_introduction():
 def youtube_xml_items(output_dir):
     items_list = [f"<!-- {output_dir} -->"]
     entry_num = 0
+    def get_xml_item(guid, item):
+        video_website = f"https://youtube.com/watch?v={guid}"
+        channelid_title = channelid_youtube[channelid_youtube_ids[output_dir]]["title"]
+        if item["yt-dlp"]:
+            title = html.escape(video_id_update_format[guid]["title"])
+            description = html.escape(re.sub(r"\n+", "\n", video_id_update_format[guid]["description"]))
+            timestamp = video_id_update_format[guid]["timestamp"]
+            published = datetime.fromtimestamp(timestamp, timezone.utc).strftime("%Y-%m-%dT%H:%M:%S%z")
+            pubDate = format_time(published)
+            image = video_id_update_format[guid]["image"]
+        else:
+            title = html.escape(item["title"])
+            description = html.escape(re.sub(r"\n+", "\n", item["description"]))
+            pubDate = format_time(item["pubDate"])
+            image = item["image"]
+        return xml_item(
+            guid,
+            output_dir,
+            video_website,
+            channelid_title,
+            title,
+            description,
+            pubDate,
+            image,
+        )
     # 最新更新
     if channelid_youtube_rss[output_dir]["type"] == "dict":
         for guid in channelid_youtube_rss[output_dir]["content"]["list"]:
             if guid not in video_id_failed:
                 item = channelid_youtube_rss[output_dir]["content"]["item"][guid]
-                xml_item_text = xml_item(
-                    guid,
-                    output_dir,
-                    f"https://youtube.com/watch?v={guid}",
-                    channelid_youtube[channelid_youtube_ids[output_dir]]["title"],
-                    html.escape(item["title"]),
-                    html.escape(re.sub(r"\n+", "\n", item["description"])),
-                    format_time(item["pubDate"]),
-                    item["image"],
-                )
+                xml_item_text = get_xml_item(guid, item)
                 items_list.append(f"{xml_item_text}<!-- {output_dir} -->")
                 entry_num += 1
     else:
@@ -2762,16 +2798,7 @@ def youtube_xml_items(output_dir):
         for backward_guid in backward["list"]:
             if backward_guid not in video_id_failed:
                 backward_item = backward["item"][backward_guid]
-                backward_xml_item_text = xml_item(
-                    backward_guid,
-                    output_dir,
-                    f"https://youtube.com/watch?v={backward_guid}",
-                    channelid_youtube[channelid_youtube_ids[output_dir]]["title"],
-                    html.escape(backward_item["title"]),
-                    html.escape(re.sub(r"\n+", "\n", backward_item["description"])),
-                    format_time(backward_item["pubDate"]),
-                    backward_item["image"],
-                )
+                backward_xml_item_text = get_xml_item(backward_guid, backward_item)
                 items_list.append(f"{backward_xml_item_text}<!-- {output_dir} -->")
     except KeyError:
         pass
