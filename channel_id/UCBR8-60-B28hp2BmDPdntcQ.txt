@@ -10,6 +10,75 @@
   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
  </author>
  <entry>
+  <id>yt:video:AVqmafJOYUQ</id>
+  <yt:videoId>AVqmafJOYUQ</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>this pride look by @FredericChen's boyfriend is actually so good??🌈 #Pride #grwm #makeupreveal</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=AVqmafJOYUQ"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2024-06-30T22:00:24+00:00</published>
+  <updated>2024-06-30T22:04:48+00:00</updated>
+  <media:group>
+   <media:title>this pride look by @FredericChen's boyfriend is actually so good??🌈 #Pride #grwm #makeupreveal</media:title>
+   <media:content url="https://www.youtube.com/v/AVqmafJOYUQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/AVqmafJOYUQ/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="9" average="5.00" min="1" max="5"/>
+    <media:statistics views="20"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:zYKpCSxwuE4</id>
+  <yt:videoId>zYKpCSxwuE4</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>whether it's getting dunked or dancing @TheFitnessMarshall  always brings the best vibes</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=zYKpCSxwuE4"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2024-06-29T21:11:19+00:00</published>
+  <updated>2024-06-30T19:39:47+00:00</updated>
+  <media:group>
+   <media:title>whether it's getting dunked or dancing @TheFitnessMarshall  always brings the best vibes</media:title>
+   <media:content url="https://www.youtube.com/v/zYKpCSxwuE4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/zYKpCSxwuE4/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="1058" average="5.00" min="1" max="5"/>
+    <media:statistics views="21259"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:xj7QygP0QnY</id>
+  <yt:videoId>xj7QygP0QnY</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>pride is here and so are the outfits, makeup, and nails that go along with it 🙂‍↕️</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=xj7QygP0QnY"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2024-06-29T14:00:21+00:00</published>
+  <updated>2024-06-30T19:41:13+00:00</updated>
+  <media:group>
+   <media:title>pride is here and so are the outfits, makeup, and nails that go along with it 🙂‍↕️</media:title>
+   <media:content url="https://www.youtube.com/v/xj7QygP0QnY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/xj7QygP0QnY/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="228" average="5.00" min="1" max="5"/>
+    <media:statistics views="7477"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:LQDMCbeWDsg</id>
   <yt:videoId>LQDMCbeWDsg</yt:videoId>
   <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
@@ -27,8 +96,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/LQDMCbeWDsg/hqdefault.jpg" width="480" height="360"/>
    <media:description>hop on Shorts to show @pesopluma_oficial how you turn up 🥳</media:description>
    <media:community>
-    <media:starRating count="1181" average="5.00" min="1" max="5"/>
-    <media:statistics views="26614"/>
+    <media:starRating count="1755" average="5.00" min="1" max="5"/>
+    <media:statistics views="44753"/>
    </media:community>
   </media:group>
  </entry>
@@ -50,8 +119,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/4AUdpdAqHts/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="914" average="5.00" min="1" max="5"/>
-    <media:statistics views="19330"/>
+    <media:starRating count="1135" average="5.00" min="1" max="5"/>
+    <media:statistics views="27052"/>
    </media:community>
   </media:group>
  </entry>
@@ -73,8 +142,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/oO92CVWfNmM/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2288" average="5.00" min="1" max="5"/>
-    <media:statistics views="54135"/>
+    <media:starRating count="2572" average="5.00" min="1" max="5"/>
+    <media:statistics views="60277"/>
    </media:community>
   </media:group>
  </entry>
@@ -141,8 +210,8 @@ Featured Creators:
 19:20 Evening Wind Down
 23:10 Bedtime Routine</media:description>
    <media:community>
-    <media:starRating count="5236" average="5.00" min="1" max="5"/>
-    <media:statistics views="450446"/>
+    <media:starRating count="5990" average="5.00" min="1" max="5"/>
+    <media:statistics views="543247"/>
    </media:community>
   </media:group>
  </entry>
@@ -164,8 +233,8 @@ Featured Creators:
    <media:thumbnail url="https://i2.ytimg.com/vi/UnkJhofJpZU/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1576" average="5.00" min="1" max="5"/>
-    <media:statistics views="39023"/>
+    <media:starRating count="1710" average="5.00" min="1" max="5"/>
+    <media:statistics views="43612"/>
    </media:community>
   </media:group>
  </entry>
@@ -187,8 +256,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/nfcWfXr_kks/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2333" average="5.00" min="1" max="5"/>
-    <media:statistics views="71352"/>
+    <media:starRating count="2415" average="5.00" min="1" max="5"/>
+    <media:statistics views="74771"/>
    </media:community>
   </media:group>
  </entry>
@@ -210,8 +279,8 @@ Featured Creators:
    <media:thumbnail url="https://i4.ytimg.com/vi/coHDW2PCUTs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2762" average="5.00" min="1" max="5"/>
-    <media:statistics views="68407"/>
+    <media:starRating count="2855" average="5.00" min="1" max="5"/>
+    <media:statistics views="72190"/>
    </media:community>
   </media:group>
  </entry>
@@ -233,8 +302,8 @@ Featured Creators:
    <media:thumbnail url="https://i2.ytimg.com/vi/AqnJ1-K0j_s/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1912" average="5.00" min="1" max="5"/>
-    <media:statistics views="58669"/>
+    <media:starRating count="1966" average="5.00" min="1" max="5"/>
+    <media:statistics views="61225"/>
    </media:community>
   </media:group>
  </entry>
@@ -256,8 +325,8 @@ Featured Creators:
    <media:thumbnail url="https://i2.ytimg.com/vi/mOvPjMlr6pk/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="19144" average="5.00" min="1" max="5"/>
-    <media:statistics views="270091"/>
+    <media:starRating count="19184" average="5.00" min="1" max="5"/>
+    <media:statistics views="271994"/>
    </media:community>
   </media:group>
  </entry>
@@ -322,8 +391,8 @@ Featured Creators:
 @MajicDyke
 @hankschannel</media:description>
    <media:community>
-    <media:starRating count="9755" average="5.00" min="1" max="5"/>
-    <media:statistics views="1038450"/>
+    <media:starRating count="9848" average="5.00" min="1" max="5"/>
+    <media:statistics views="1058354"/>
    </media:community>
   </media:group>
  </entry>
@@ -345,8 +414,8 @@ Featured Creators:
    <media:thumbnail url="https://i2.ytimg.com/vi/9Cwlw9HwJUk/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2753" average="5.00" min="1" max="5"/>
-    <media:statistics views="96934"/>
+    <media:starRating count="2830" average="5.00" min="1" max="5"/>
+    <media:statistics views="101995"/>
    </media:community>
   </media:group>
  </entry>
@@ -368,77 +437,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/2Lf4mtx_N20/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3437" average="5.00" min="1" max="5"/>
-    <media:statistics views="85531"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:yBfqEcxZXdI</id>
-  <yt:videoId>yBfqEcxZXdI</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>ok comment section what’s the correct way?? @GeorgiaBridgersYT @jackjerry @Tarayummy</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=yBfqEcxZXdI"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2024-06-04T19:15:37+00:00</published>
-  <updated>2024-06-09T02:21:02+00:00</updated>
-  <media:group>
-   <media:title>ok comment section what’s the correct way?? @GeorgiaBridgersYT @jackjerry @Tarayummy</media:title>
-   <media:content url="https://www.youtube.com/v/yBfqEcxZXdI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/yBfqEcxZXdI/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="4190" average="5.00" min="1" max="5"/>
-    <media:statistics views="113183"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:c8JGr7NblL4</id>
-  <yt:videoId>c8JGr7NblL4</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>a skill I didn’t know i needed until now @jugglinjosh #ad</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=c8JGr7NblL4"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2024-06-03T19:03:23+00:00</published>
-  <updated>2024-06-07T01:41:59+00:00</updated>
-  <media:group>
-   <media:title>a skill I didn’t know i needed until now @jugglinjosh #ad</media:title>
-   <media:content url="https://www.youtube.com/v/c8JGr7NblL4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/c8JGr7NblL4/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="4217" average="5.00" min="1" max="5"/>
-    <media:statistics views="129999"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:TQOGsMymo4E</id>
-  <yt:videoId>TQOGsMymo4E</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>which flavor is calling your name?? @themarshmallowco</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=TQOGsMymo4E"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2024-05-30T18:00:26+00:00</published>
-  <updated>2024-06-05T22:29:31+00:00</updated>
-  <media:group>
-   <media:title>which flavor is calling your name?? @themarshmallowco</media:title>
-   <media:content url="https://www.youtube.com/v/TQOGsMymo4E?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i1.ytimg.com/vi/TQOGsMymo4E/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="5663" average="5.00" min="1" max="5"/>
-    <media:statistics views="158106"/>
+    <media:starRating count="3489" average="5.00" min="1" max="5"/>
+    <media:statistics views="88037"/>
    </media:community>
   </media:group>
  </entry>

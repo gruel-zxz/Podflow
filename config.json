@@ -66,6 +66,13 @@
             "update_size": 25,
             "InmainRSS": false,
             "AllPartGet": false
+        },
+        "敖厂长": {
+            "id": "122879",
+            "quality": "1080",
+            "media": "mp4",
+            "InmainRSS": false,
+            "update_size": 1
         }
     },
     "retry_count": 2,

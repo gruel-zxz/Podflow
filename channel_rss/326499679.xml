@@ -7,7 +7,7 @@
         <category>TV &amp; Film</category>
         <generator>Podflow (support us at https://github.com/gruel-zxz/podflow)</generator>
         <language>en-us</language>
-        <lastBuildDate>Fri, 28 Jun 2024 23:52:34 +0800</lastBuildDate>
+        <lastBuildDate>Mon, 01 Jul 2024 06:27:15 +0800</lastBuildDate>
         <pubDate>Sun, 24 Apr 2005 11:20:54 +0800</pubDate>
         <image>
             <url>https://i1.hdslb.com/bfs/face/2254162161a60b528cfec449f3450409a81ebc37.jpg</url>
@@ -21,6 +21,23 @@
         <itunes:explicit>no</itunes:explicit>
         <itunes:category text="TV &amp; Film"></itunes:category>
 <!-- {326499679} -->
+<!-- 326499679 -->
+        <item>
+            <guid>BV1Di421a7Vw</guid>
+            <title>在烦人同学高恩赫伞下的我，被爱次数竟然实现了由零到一的突破！</title>
+            <link>https://www.bilibili.com/video/BV1Di421a7Vw</link>
+            <description>『哔哩哔哩漫画』&#xA;原来一切都是他的特意。本是唯美雨中漫步的浪漫剧情，却被万人迷妹妹不小心碰见？妹妹这个没礼貌的暧昧对象真的是变脸大师吧？</description>
+            <pubDate>Sun, 30 Jun 2024 17:35:00 +0800</pubDate>
+            <enclosure url="https://raw.githubusercontent.com/gruel-zxz/podflow/main/channel_audiovisual/326499679/BV1Di421a7Vw.mp4" length="2523601" type="video/mp4"></enclosure>
+            <itunes:author>在烦人同学高恩赫伞下的我，被爱次数竟然实现了由零到一的突破！</itunes:author>
+            <itunes:subtitle>在烦人同学高恩赫伞下的我，被爱次数竟然实现了由零到一的突破！</itunes:subtitle>
+            <itunes:summary><![CDATA[『哔哩哔哩漫画』
+原来一切都是他的特意。本是唯美雨中漫步的浪漫剧情，却被万人迷妹妹不小心碰见？妹妹这个没礼貌的暧昧对象真的是变脸大师吧？]]></itunes:summary>
+            <itunes:image href="http://i2.hdslb.com/bfs/archive/be10a84a68fc9a3b35e36b0356733dfe6721da99.jpg"></itunes:image>
+            <itunes:duration>01:04</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:order>1</itunes:order>
+        </item>
 <!-- 326499679 -->
         <item>
             <guid>BV1Pm421G7c1</guid>

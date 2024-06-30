@@ -16,6 +16,34 @@
         "desc": "哔哩哔哩漫画官方账号"
     },
     "entry": {
+        "BV1Di421a7Vw": {
+            "aid": 1455981915,
+            "author": "哔哩哔哩漫画",
+            "bvid": "BV1Di421a7Vw",
+            "copyright": "1",
+            "created": 1719740100,
+            "description": "原来一切都是他的特意。本是唯美雨中漫步的浪漫剧情，却被万人迷妹妹不小心碰见？妹妹这个没礼貌的暧昧对象真的是变脸大师吧？",
+            "is_union_video": 1,
+            "length": "01:04",
+            "mid": 326499679,
+            "pic": "http://i2.hdslb.com/bfs/archive/be10a84a68fc9a3b35e36b0356733dfe6721da99.jpg",
+            "title": "在烦人同学高恩赫伞下的我，被爱次数竟然实现了由零到一的突破！",
+            "typeid": 168
+        },
+        "BV1Fs421M7oj": {
+            "aid": 1855859005,
+            "author": "哔哩哔哩漫画",
+            "bvid": "BV1Fs421M7oj",
+            "copyright": "1",
+            "created": 1719653700,
+            "description": "曾有“噬魂黑龙”称呼的校园最强者申舒勇，如今只想安稳度日。好友的妹妹却突然出现，这个到处闯祸的女生，打破了舒勇想过和平生活的愿望。",
+            "is_union_video": 1,
+            "length": "01:40",
+            "mid": 326499679,
+            "pic": "http://i2.hdslb.com/bfs/archive/c59c5cc985f969a207434346440394a4a57a1878.jpg",
+            "title": "出场就大胜不败传说黑龙， 小妹妹你成功引起我的注意。",
+            "typeid": 168
+        },
         "BV1Pm421G7c1": {
             "aid": 1605966477,
             "author": "哔哩哔哩漫画",
@@ -337,37 +365,11 @@
             "pic": "http://i2.hdslb.com/bfs/archive/a6849aed33f5ab2376891645b8561a8d06f2b1dc.jpg",
             "title": "贡品小兔的目标：“睡服”蛇君！杀掉蛇君！等等，这蛇君…怎么有点不对劲呀！？",
             "typeid": 195
-        },
-        "BV1PZ421m7WH": {
-            "aid": 1150622704,
-            "author": "哔哩哔哩漫画",
-            "bvid": "BV1PZ421m7WH",
-            "copyright": "1",
-            "created": 1708149600,
-            "description": "小漫画的推漫时间到！男友背叛，要将自己当礼物送给客户。却意外错房卡，走进了别人的房间？一场阴差阳错的相遇，却遇上了对的人！《萌宝来袭》一起来看：https://b22.top/r0OjyXe?showop=X_33730E49-7F90-4CFB-8393-1E84D9D2606F_1707678139",
-            "is_union_video": 0,
-            "length": "00:20",
-            "mid": 326499679,
-            "pic": "http://i2.hdslb.com/bfs/archive/f4b30d5ce3700193efc43ee86a7fda0fdc81075c.jpg",
-            "title": "男友背叛，要将自己当礼物送给客户。却意外错房卡，走进了别人的房间？",
-            "typeid": 195
-        },
-        "BV1QZ42127ru": {
-            "aid": 1150611858,
-            "author": "哔哩哔哩漫画",
-            "bvid": "BV1QZ42127ru",
-            "copyright": "1",
-            "created": 1708063200,
-            "description": "小漫画的推漫时间到！共度良宵的帅气男模居然是自己素未谋面的富豪总裁未婚夫，小白兔遇见大饿狼，等待她的......只有被吃掉！《狼总裁的兔小姐》一起来追：https://b22.top/qJsJXZt?showop=X_33730E49-7F90-4CFB-8393-1E84D9D2606F_1707677944",
-            "is_union_video": 0,
-            "length": "00:34",
-            "mid": 326499679,
-            "pic": "http://i1.hdslb.com/bfs/archive/b1720fe14813b79c3b90eb5bdf3b621f83c926a0.jpg",
-            "title": "共度良宵的帅气男模居然是自己素未谋面的富豪总裁未婚夫！",
-            "typeid": 195
         }
     },
     "list": [
+        "BV1Di421a7Vw",
+        "BV1Fs421M7oj",
         "BV1Pm421G7c1",
         "BV1HT421Y7pS",
         "BV18i421e7dG",
@@ -390,8 +392,6 @@
         "BV1mt421t7JN",
         "BV14Z42127aB",
         "BV11W421A7hs",
-        "BV1aj421D7yv",
-        "BV1PZ421m7WH",
-        "BV1QZ42127ru"
+        "BV1aj421D7yv"
     ]
 }

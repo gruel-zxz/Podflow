@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+    <channel>
+        <title>敖厂长</title>
+        <link>https://space.bilibili.com/122879</link>
+        <description>我回来啦！每月稳定更新</description>
+        <category>TV &amp; Film</category>
+        <generator>Podflow (support us at https://github.com/gruel-zxz/podflow)</generator>
+        <language>en-us</language>
+        <lastBuildDate>Mon, 01 Jul 2024 06:27:19 +0800</lastBuildDate>
+        <pubDate>Sun, 24 Apr 2005 11:20:54 +0800</pubDate>
+        <image>
+            <url>https://i2.hdslb.com/bfs/face/71d85b84b0b2aa59009cd6af09b53aac309c3461.jpg</url>
+            <title>敖厂长</title>
+            <link>https://space.bilibili.com/122879</link>
+        </image>
+        <itunes:author>敖厂长</itunes:author>
+        <itunes:subtitle>敖厂长</itunes:subtitle>
+        <itunes:summary><![CDATA[我回来啦！每月稳定更新]]></itunes:summary>
+        <itunes:image href="https://i2.hdslb.com/bfs/face/71d85b84b0b2aa59009cd6af09b53aac309c3461.jpg"></itunes:image>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:category text="TV &amp; Film"></itunes:category>
+<!-- {122879} -->
+<!-- 122879 -->
+        <item>
+            <guid>BV1mT421e77V</guid>
+            <title>至今都能震撼我的掌机赛车游戏画面</title>
+            <link>https://www.bilibili.com/video/BV1mT421e77V</link>
+            <description>『敖厂长』&#xA;囧的呼唤 Re.2</description>
+            <pubDate>Fri, 28 Jun 2024 12:00:00 +0800</pubDate>
+            <enclosure url="https://raw.githubusercontent.com/gruel-zxz/podflow/main/channel_audiovisual/122879/BV1mT421e77V.mp4" length="335178932" type="video/mp4"></enclosure>
+            <itunes:author>至今都能震撼我的掌机赛车游戏画面</itunes:author>
+            <itunes:subtitle>至今都能震撼我的掌机赛车游戏画面</itunes:subtitle>
+            <itunes:summary><![CDATA[『敖厂长』
+囧的呼唤 Re.2]]></itunes:summary>
+            <itunes:image href="http://i1.hdslb.com/bfs/archive/8ab4dd43ef491590c1cbadce4ab4fdd6ad5d0109.jpg"></itunes:image>
+            <itunes:duration>13:19</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:order>1</itunes:order>
+        </item>
+<!-- 122879 -->
+<!-- {122879} -->
+    </channel>
+</rss>

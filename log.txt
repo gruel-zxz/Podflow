@@ -1,3 +1,62 @@
+2024-07-01 06:27:20 总播客已更新
+2024-07-01 06:27:19 youtube|_Ay8wL9QmXA.mp4已删除
+2024-07-01 06:27:02 stone记|7uQX8vaEvtM 下载成功 140
+2024-07-01 06:26:52 stone记|YRbW0Und63E 下载成功 140
+2024-07-01 06:26:40 stone记|LfF1RMMfapU 下载成功 140
+2024-07-01 06:26:27 哔哩哔哩漫画|BV1Fs421M7oj 无法下载
+2024-07-01 06:26:27 哔哩哔哩漫画|BV1Fs421M7oj 下载失败错误信息: 
+Got error: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2024-07-01 06:26:24 哔哩哔哩漫画|BV1Fs421M7oj第2次重新下载
+2024-07-01 06:26:24 哔哩哔哩漫画|BV1Fs421M7oj 下载失败错误信息: 
+Got error: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2024-07-01 06:26:23 哔哩哔哩漫画|BV1Fs421M7oj第1次重新下载
+2024-07-01 06:26:23 哔哩哔哩漫画|BV1Fs421M7oj 下载失败错误信息: 
+Got error: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2024-07-01 06:26:21 youtube|AVqmafJOYUQ 下载成功 140+135
+2024-07-01 06:25:47 需更新的BiliBili频道:哔哩哔哩漫画 | 鹿火CAVY
+2024-07-01 06:25:47 需更新的YouTube频道:youtube | stone记
+2024-07-01 06:25:47 BiliBili频道 测试 ID不正确无法获取
+2024-07-01 06:25:47 YouTube频道 测试 ID不正确无法获取
+2024-07-01 06:20:14 总播客已更新
+2024-07-01 06:20:14 四季妈妈—小龙|YVaIwn6XPDQ.m4a已删除
+2024-07-01 06:20:14 youtube|XPJMZg2irDg.mp4已删除
+2024-07-01 06:20:14 youtube|SwHfaMBh8us.mp4已删除
+2024-07-01 06:19:55 RSS文件中不存在 敖厂长 无法保留原节目
+2024-07-01 06:19:55 鹿火CAVY|BV1WY411F7sz 下载成功 30280
+2024-07-01 06:19:53 鹿火CAVY|BV1nv4y1A7Ug 下载成功 30280
+2024-07-01 06:19:51 鹿火CAVY|BV1nv4y1A7Ug第2次重新下载
+2024-07-01 06:19:51 鹿火CAVY|BV1nv4y1A7Ug 下载失败错误信息: 
+Got error: 63813 bytes read, 2359788 more expected
+2024-07-01 06:19:35 鹿火CAVY|BV1nv4y1A7Ug第1次重新下载
+2024-07-01 06:19:35 鹿火CAVY|BV1nv4y1A7Ug 下载失败错误信息: 
+Got error: 3976677 bytes read, 2347499 more expected
+2024-07-01 06:19:00 鹿火CAVY|BV1vY4y1572k 下载成功 30280
+2024-07-01 06:18:58 stone记|h2RFohs_PBI 下载成功 140
+2024-07-01 06:18:46 stone记|UADk-XyQip8 下载成功 140
+2024-07-01 06:18:37 stone记|GGw6mmMSI5o 下载成功 140
+2024-07-01 06:18:28 哔哩哔哩漫画|BV1Fs421M7oj 无法下载
+2024-07-01 06:18:28 哔哩哔哩漫画|BV1Fs421M7oj 下载失败错误信息: 
+Got error: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2024-07-01 06:18:27 哔哩哔哩漫画|BV1Fs421M7oj第2次重新下载
+2024-07-01 06:18:27 哔哩哔哩漫画|BV1Fs421M7oj 下载失败错误信息: 
+Got error: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2024-07-01 06:18:25 哔哩哔哩漫画|BV1Fs421M7oj第1次重新下载
+2024-07-01 06:18:25 哔哩哔哩漫画|BV1Fs421M7oj 下载失败错误信息: 
+Got error: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2024-07-01 06:18:22 哔哩哔哩漫画|BV1Di421a7Vw 下载成功 30280+100047
+2024-07-01 06:18:18 敖厂长|BV1mT421e77V 下载成功 30280+30112
+2024-07-01 06:18:02 stone记|2rjlAOmBgu8 下载成功 140
+2024-07-01 06:17:51 stone记|gQ6Bzd3jWgI 下载成功 140
+2024-07-01 06:17:43 stone记|08RKxiFPxk8 下载成功 140
+2024-07-01 06:17:34 stone记|Rj2b2zKrY7A 下载成功 140
+2024-07-01 06:17:20 四季妈妈—小龙|HHJ-AHUm_EQ 下载成功 140
+2024-07-01 06:17:12 youtube|xj7QygP0QnY 下载成功 140+135
+2024-07-01 06:16:57 youtube|zYKpCSxwuE4 下载成功 140+135
+2024-07-01 06:16:04 需更新的BiliBili频道:敖厂长 | 哔哩哔哩漫画 | 鹿火CAVY
+2024-07-01 06:16:04 需更新的YouTube频道:youtube | 四季妈妈—小龙 | stone记
+2024-07-01 06:16:03 文件夹122879创建成功
+2024-07-01 06:16:03 BiliBili频道 测试 ID不正确无法获取
+2024-07-01 06:16:03 YouTube频道 测试 ID不正确无法获取
 2024-06-28 23:52:38 总播客已更新
 2024-06-28 23:52:22 鹿火CAVY|BV1f54y1d7V7 下载成功 30280
 2024-06-28 23:52:19 鹿火CAVY|BV1R3411V746 下载成功 30280

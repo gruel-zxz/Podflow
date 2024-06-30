@@ -2976,7 +2976,7 @@ def create_main_rss():
         if channelid_bilibili[channelid_bilibili_ids[output_dir]]["InmainRSS"]:
             all_items.append(items)
         all_bilibili_content_bvid[output_dir] = re.findall(
-            r"(?:[0-9]+/)(BV.+\.m4a|.+\.mp4)(?=\")", items
+            r"(?:[0-9]+/)(BV.+\.m4a|BV.+\.mp4)(?=\")", items
         )
 
 # xml备份保存模块
