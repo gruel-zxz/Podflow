@@ -29,7 +29,7 @@
    <media:description>平时一向严肃的老公突然兴致勃勃地要和我喝两杯。这是风雨欲来的前兆，还是他有什么特别的计划？大家猜猜看，他究竟在打什么主意？#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="208"/>
+    <media:statistics views="235"/>
    </media:community>
   </media:group>
  </entry>
@@ -52,7 +52,7 @@
    <media:description>你为了自己的爱好愿意花多少钱？和我分享一下你们在买装备上花了多少吧！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="197"/>
+    <media:statistics views="196"/>
    </media:community>
   </media:group>
  </entry>
@@ -282,7 +282,7 @@
    <media:description>没想到要抓住一个男人的心跳竟然这么容易！分享我的秘诀#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="13" average="5.00" min="1" max="5"/>
-    <media:statistics views="301"/>
+    <media:statistics views="302"/>
    </media:community>
   </media:group>
  </entry>

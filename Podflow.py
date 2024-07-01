@@ -2963,7 +2963,7 @@ def create_main_rss():
         if channelid_youtube[channelid_youtube_ids[output_dir]]["InmainRSS"]:
             all_items.append(items)
         all_youtube_content_ytid[output_dir] = re.findall(
-            r"(?<=UC.{22}/)(.+\.m4a|.+\.mp4)(?=\")", items
+            r"(?:/UC.{22}/)(.{11}\.m4a|.{11}\.mp4)(?=\")", items
         )
     for output_dir in channelid_bilibili_ids:
         items = bilibili_xml_items(output_dir)
@@ -2976,7 +2976,7 @@ def create_main_rss():
         if channelid_bilibili[channelid_bilibili_ids[output_dir]]["InmainRSS"]:
             all_items.append(items)
         all_bilibili_content_bvid[output_dir] = re.findall(
-            r"(?:[0-9]+/)(BV.+\.m4a|BV.+\.mp4)(?=\")", items
+            r"(?:/[0-9]+/)(BV.{10}\.m4a|BV.{10}\.mp4|BV.{10}_p[0-9]+\.m4a|BV.{10}_p[0-9]+\.mp4)(?=\")", items
         )
 
 # xml备份保存模块
@@ -3224,8 +3224,6 @@ except FileNotFoundError:
 
 # 启动进程打印线程
 prepare_print.start()
-
-http_client("http://127.0.0.1:8000/", "", 1, 0)
 
 # 循环主更新
 while update_num > 0 or update_num == -1:

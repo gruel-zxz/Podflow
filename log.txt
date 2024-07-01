@@ -1,3 +1,80 @@
+2024-07-01 10:47:56 总播客已更新
+2024-07-01 10:47:36 stone记|GxVDDsIWoso 下载成功 140
+2024-07-01 10:47:26 stone记|zmlph2MhLlA 下载成功 140
+2024-07-01 10:47:17 stone记|oLSCtcD_9mc 下载成功 140
+2024-07-01 10:47:07 哔哩哔哩漫画|BV1Fs421M7oj 无法下载
+2024-07-01 10:47:07 哔哩哔哩漫画|BV1Fs421M7oj 下载失败错误信息: 
+Got error: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2024-07-01 10:47:05 哔哩哔哩漫画|BV1Fs421M7oj第2次重新下载
+2024-07-01 10:47:05 哔哩哔哩漫画|BV1Fs421M7oj 下载失败错误信息: 
+Got error: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2024-07-01 10:47:03 哔哩哔哩漫画|BV1Fs421M7oj第1次重新下载
+2024-07-01 10:47:03 哔哩哔哩漫画|BV1Fs421M7oj 下载失败错误信息: 
+Got error: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2024-07-01 10:46:35 需更新的BiliBili频道:哔哩哔哩漫画
+2024-07-01 10:46:35 需更新的YouTube频道:stone记
+2024-07-01 10:46:34 BiliBili频道 测试 ID不正确无法获取
+2024-07-01 10:46:34 YouTube频道 测试 ID不正确无法获取
+2024-07-01 10:29:07 总播客已更新
+2024-07-01 10:28:46 stone记|0WMIcTJlExE 下载成功 140
+2024-07-01 10:28:35 stone记|Dh1w16Z7LFE 下载成功 140
+2024-07-01 10:28:23 stone记|Ezb98pP4FFw 下载成功 140
+2024-07-01 10:28:12 哔哩哔哩漫画|BV1Fs421M7oj 无法下载
+2024-07-01 10:28:12 哔哩哔哩漫画|BV1Fs421M7oj 下载失败错误信息: 
+Got error: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2024-07-01 10:28:10 哔哩哔哩漫画|BV1Fs421M7oj第2次重新下载
+2024-07-01 10:28:10 哔哩哔哩漫画|BV1Fs421M7oj 下载失败错误信息: 
+Got error: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2024-07-01 10:28:07 哔哩哔哩漫画|BV1Fs421M7oj第1次重新下载
+2024-07-01 10:28:07 哔哩哔哩漫画|BV1Fs421M7oj 下载失败错误信息: 
+Got error: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2024-07-01 10:27:38 需更新的BiliBili频道:哔哩哔哩漫画
+2024-07-01 10:27:38 需更新的YouTube频道:stone记
+2024-07-01 10:27:37 BiliBili频道 测试 ID不正确无法获取
+2024-07-01 10:27:37 YouTube频道 测试 ID不正确无法获取
+2024-07-01 09:37:07 总播客已更新
+2024-07-01 09:36:45 鹿火CAVY|BV1Xh4y1K7SV_p2 下载成功 30280
+2024-07-01 09:36:44 鹿火CAVY|BV1Xh4y1K7SV_p1 下载成功 30232
+2024-07-01 09:36:41 stone记|XJK7kgmaJG0 下载成功 140
+2024-07-01 09:36:29 stone记|eGuFJIgD_Us 下载成功 140
+2024-07-01 09:36:16 stone记|RUw-M42TwSI 下载成功 140
+2024-07-01 09:36:01 鹿火CAVY|BV1TF411u7jz 下载成功 30280
+2024-07-01 09:35:59 鹿火CAVY|BV1QY411w7Yo 下载成功 30280
+2024-07-01 09:35:57 哔哩哔哩漫画|BV1Fs421M7oj 无法下载
+2024-07-01 09:35:57 哔哩哔哩漫画|BV1Fs421M7oj 下载失败错误信息: 
+Got error: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2024-07-01 09:35:55 哔哩哔哩漫画|BV1Fs421M7oj第2次重新下载
+2024-07-01 09:35:55 哔哩哔哩漫画|BV1Fs421M7oj 下载失败错误信息: 
+Got error: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2024-07-01 09:35:53 哔哩哔哩漫画|BV1Fs421M7oj第1次重新下载
+2024-07-01 09:35:53 哔哩哔哩漫画|BV1Fs421M7oj 下载失败错误信息: 
+Got error: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2024-07-01 09:35:23 需更新的BiliBili频道:哔哩哔哩漫画 | 鹿火CAVY
+2024-07-01 09:35:23 需更新的YouTube频道:stone记
+2024-07-01 09:35:23 BiliBili频道 测试 ID不正确无法获取
+2024-07-01 09:35:23 YouTube频道 测试 ID不正确无法获取
+2024-07-01 09:02:08 总播客已更新
+2024-07-01 09:02:08 鹿火CAVY|BV1Xh4y1K7SV_p2.m4a已删除
+2024-07-01 09:02:08 鹿火CAVY|BV1Xh4y1K7SV_p1.m4a已删除
+2024-07-01 09:01:49 鹿火CAVY|BV1oF411T7HB 下载成功 30280
+2024-07-01 09:01:47 鹿火CAVY|BV1gU4y1S7sL 下载成功 30280
+2024-07-01 09:01:45 鹿火CAVY|BV123411N7Tn 下载成功 30280
+2024-07-01 09:01:43 stone记|W2jW_rpf4t4 下载成功 140
+2024-07-01 09:01:34 stone记|RQAp6n_cHzg 下载成功 140
+2024-07-01 09:01:24 stone记|mK8RQlOu2a4 下载成功 140
+2024-07-01 09:01:14 哔哩哔哩漫画|BV1Fs421M7oj 无法下载
+2024-07-01 09:01:14 哔哩哔哩漫画|BV1Fs421M7oj 下载失败错误信息: 
+Got error: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2024-07-01 09:01:11 哔哩哔哩漫画|BV1Fs421M7oj第2次重新下载
+2024-07-01 09:01:11 哔哩哔哩漫画|BV1Fs421M7oj 下载失败错误信息: 
+Got error: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2024-07-01 09:01:10 哔哩哔哩漫画|BV1Fs421M7oj第1次重新下载
+2024-07-01 09:01:10 哔哩哔哩漫画|BV1Fs421M7oj 下载失败错误信息: 
+Got error: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2024-07-01 09:00:47 需更新的BiliBili频道:哔哩哔哩漫画 | 鹿火CAVY
+2024-07-01 09:00:47 需更新的YouTube频道:stone记
+2024-07-01 09:00:46 BiliBili频道 测试 ID不正确无法获取
+2024-07-01 09:00:46 YouTube频道 测试 ID不正确无法获取
 2024-07-01 06:27:20 总播客已更新
 2024-07-01 06:27:19 youtube|_Ay8wL9QmXA.mp4已删除
 2024-07-01 06:27:02 stone记|7uQX8vaEvtM 下载成功 140
