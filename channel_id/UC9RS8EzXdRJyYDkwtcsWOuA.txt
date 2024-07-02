@@ -42,7 +42,7 @@
 #日本 #vlog #留學</media:description>
    <media:community>
     <media:starRating count="4080" average="5.00" min="1" max="5"/>
-    <media:statistics views="203256"/>
+    <media:statistics views="203275"/>
    </media:community>
   </media:group>
  </entry>
@@ -86,7 +86,7 @@
 #日本漫畫 #殺手阿一 #cult</media:description>
    <media:community>
     <media:starRating count="1172" average="5.00" min="1" max="5"/>
-    <media:statistics views="58440"/>
+    <media:statistics views="58459"/>
    </media:community>
   </media:group>
  </entry>
@@ -131,7 +131,7 @@
 #日本漫畫 #殺手阿一 #cult</media:description>
    <media:community>
     <media:starRating count="1203" average="5.00" min="1" max="5"/>
-    <media:statistics views="100569"/>
+    <media:statistics views="100586"/>
    </media:community>
   </media:group>
  </entry>
@@ -177,7 +177,7 @@
 #日本 #次文化 #戀物</media:description>
    <media:community>
     <media:starRating count="1076" average="5.00" min="1" max="5"/>
-    <media:statistics views="67036"/>
+    <media:statistics views="67059"/>
    </media:community>
   </media:group>
  </entry>
@@ -220,8 +220,8 @@
 
 #遊戲 #videogames  #日本</media:description>
    <media:community>
-    <media:starRating count="2674" average="5.00" min="1" max="5"/>
-    <media:statistics views="248532"/>
+    <media:starRating count="2675" average="5.00" min="1" max="5"/>
+    <media:statistics views="248595"/>
    </media:community>
   </media:group>
  </entry>
@@ -266,7 +266,7 @@
 #日本 #動漫 #日本電影</media:description>
    <media:community>
     <media:starRating count="2396" average="5.00" min="1" max="5"/>
-    <media:statistics views="240428"/>
+    <media:statistics views="240519"/>
    </media:community>
   </media:group>
  </entry>
@@ -311,7 +311,7 @@
 ▶我的品牌官網：www.under20.com</media:description>
    <media:community>
     <media:starRating count="2766" average="5.00" min="1" max="5"/>
-    <media:statistics views="279130"/>
+    <media:statistics views="279280"/>
    </media:community>
   </media:group>
  </entry>
@@ -353,7 +353,7 @@
 ▶我的品牌官網：www.under20.com</media:description>
    <media:community>
     <media:starRating count="2152" average="5.00" min="1" max="5"/>
-    <media:statistics views="202622"/>
+    <media:statistics views="202724"/>
    </media:community>
   </media:group>
  </entry>
@@ -417,7 +417,7 @@
 ▶我的品牌官網：www.under20.com</media:description>
    <media:community>
     <media:starRating count="1940" average="5.00" min="1" max="5"/>
-    <media:statistics views="310935"/>
+    <media:statistics views="311001"/>
    </media:community>
   </media:group>
  </entry>
@@ -458,8 +458,8 @@
 
 #日本 #日本社會</media:description>
    <media:community>
-    <media:starRating count="897" average="5.00" min="1" max="5"/>
-    <media:statistics views="69143"/>
+    <media:starRating count="898" average="5.00" min="1" max="5"/>
+    <media:statistics views="69158"/>
    </media:community>
   </media:group>
  </entry>
@@ -504,7 +504,7 @@
 #2ch #日本文化 #互聯網</media:description>
    <media:community>
     <media:starRating count="997" average="5.00" min="1" max="5"/>
-    <media:statistics views="77663"/>
+    <media:statistics views="77677"/>
    </media:community>
   </media:group>
  </entry>
@@ -545,7 +545,7 @@
 #日本社會 #刑務所 #越獄</media:description>
    <media:community>
     <media:starRating count="729" average="5.00" min="1" max="5"/>
-    <media:statistics views="57326"/>
+    <media:statistics views="57341"/>
    </media:community>
   </media:group>
  </entry>
@@ -596,7 +596,7 @@
 ▶我的品牌官網：www.under20.com</media:description>
    <media:community>
     <media:starRating count="1861" average="5.00" min="1" max="5"/>
-    <media:statistics views="126555"/>
+    <media:statistics views="126586"/>
    </media:community>
   </media:group>
  </entry>
@@ -638,7 +638,7 @@
 #福島核污水 #日本核廢水 #核輻射 #科幻</media:description>
    <media:community>
     <media:starRating count="793" average="5.00" min="1" max="5"/>
-    <media:statistics views="42838"/>
+    <media:statistics views="42842"/>
    </media:community>
   </media:group>
  </entry>
@@ -685,7 +685,7 @@
 #伊藤潤二 #恐怖 #日本 #次文化</media:description>
    <media:community>
     <media:starRating count="1454" average="5.00" min="1" max="5"/>
-    <media:statistics views="94371"/>
+    <media:statistics views="94390"/>
    </media:community>
   </media:group>
  </entry>

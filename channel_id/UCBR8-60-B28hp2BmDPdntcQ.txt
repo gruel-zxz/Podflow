@@ -20,15 +20,15 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-06-30T22:00:24+00:00</published>
-  <updated>2024-06-30T22:04:48+00:00</updated>
+  <updated>2024-07-01T22:42:58+00:00</updated>
   <media:group>
    <media:title>this pride look by @FredericChen's boyfriend is actually so good??🌈 #Pride #grwm #makeupreveal</media:title>
    <media:content url="https://www.youtube.com/v/AVqmafJOYUQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i2.ytimg.com/vi/AVqmafJOYUQ/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="70" average="5.00" min="1" max="5"/>
-    <media:statistics views="662"/>
+    <media:starRating count="385" average="5.00" min="1" max="5"/>
+    <media:statistics views="11633"/>
    </media:community>
   </media:group>
  </entry>
@@ -50,8 +50,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/zYKpCSxwuE4/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1105" average="5.00" min="1" max="5"/>
-    <media:statistics views="22598"/>
+    <media:starRating count="1292" average="5.00" min="1" max="5"/>
+    <media:statistics views="28188"/>
    </media:community>
   </media:group>
  </entry>
@@ -73,8 +73,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/xj7QygP0QnY/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="244" average="5.00" min="1" max="5"/>
-    <media:statistics views="8057"/>
+    <media:starRating count="335" average="5.00" min="1" max="5"/>
+    <media:statistics views="11697"/>
    </media:community>
   </media:group>
  </entry>
@@ -96,8 +96,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/LQDMCbeWDsg/hqdefault.jpg" width="480" height="360"/>
    <media:description>hop on Shorts to show @pesopluma_oficial how you turn up 🥳</media:description>
    <media:community>
-    <media:starRating count="1787" average="5.00" min="1" max="5"/>
-    <media:statistics views="45344"/>
+    <media:starRating count="1894" average="5.00" min="1" max="5"/>
+    <media:statistics views="48147"/>
    </media:community>
   </media:group>
  </entry>
@@ -112,15 +112,15 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-06-25T19:00:34+00:00</published>
-  <updated>2024-06-26T23:18:22+00:00</updated>
+  <updated>2024-06-30T22:28:00+00:00</updated>
   <media:group>
    <media:title>math has never made more sense 😍 thanks @onlinekyne</media:title>
    <media:content url="https://www.youtube.com/v/4AUdpdAqHts?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i1.ytimg.com/vi/4AUdpdAqHts/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1146" average="5.00" min="1" max="5"/>
-    <media:statistics views="27412"/>
+    <media:starRating count="1202" average="5.00" min="1" max="5"/>
+    <media:statistics views="29839"/>
    </media:community>
   </media:group>
  </entry>
@@ -142,8 +142,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/oO92CVWfNmM/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2583" average="5.00" min="1" max="5"/>
-    <media:statistics views="60630"/>
+    <media:starRating count="2652" average="5.00" min="1" max="5"/>
+    <media:statistics views="62676"/>
    </media:community>
   </media:group>
  </entry>
@@ -210,8 +210,8 @@ Featured Creators:
 19:20 Evening Wind Down
 23:10 Bedtime Routine</media:description>
    <media:community>
-    <media:starRating count="6033" average="5.00" min="1" max="5"/>
-    <media:statistics views="548397"/>
+    <media:starRating count="6296" average="5.00" min="1" max="5"/>
+    <media:statistics views="598725"/>
    </media:community>
   </media:group>
  </entry>
@@ -233,8 +233,8 @@ Featured Creators:
    <media:thumbnail url="https://i2.ytimg.com/vi/UnkJhofJpZU/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1717" average="5.00" min="1" max="5"/>
-    <media:statistics views="43863"/>
+    <media:starRating count="1753" average="5.00" min="1" max="5"/>
+    <media:statistics views="45558"/>
    </media:community>
   </media:group>
  </entry>
@@ -256,8 +256,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/nfcWfXr_kks/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2417" average="5.00" min="1" max="5"/>
-    <media:statistics views="74990"/>
+    <media:starRating count="2445" average="5.00" min="1" max="5"/>
+    <media:statistics views="76430"/>
    </media:community>
   </media:group>
  </entry>
@@ -279,8 +279,8 @@ Featured Creators:
    <media:thumbnail url="https://i4.ytimg.com/vi/coHDW2PCUTs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2859" average="5.00" min="1" max="5"/>
-    <media:statistics views="72431"/>
+    <media:starRating count="2887" average="5.00" min="1" max="5"/>
+    <media:statistics views="73933"/>
    </media:community>
   </media:group>
  </entry>
@@ -302,8 +302,8 @@ Featured Creators:
    <media:thumbnail url="https://i2.ytimg.com/vi/AqnJ1-K0j_s/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1967" average="5.00" min="1" max="5"/>
-    <media:statistics views="61390"/>
+    <media:starRating count="1981" average="5.00" min="1" max="5"/>
+    <media:statistics views="62450"/>
    </media:community>
   </media:group>
  </entry>
@@ -325,8 +325,8 @@ Featured Creators:
    <media:thumbnail url="https://i2.ytimg.com/vi/mOvPjMlr6pk/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="19183" average="5.00" min="1" max="5"/>
-    <media:statistics views="272065"/>
+    <media:starRating count="19189" average="5.00" min="1" max="5"/>
+    <media:statistics views="272905"/>
    </media:community>
   </media:group>
  </entry>
@@ -391,8 +391,8 @@ Featured Creators:
 @MajicDyke
 @hankschannel</media:description>
    <media:community>
-    <media:starRating count="9856" average="5.00" min="1" max="5"/>
-    <media:statistics views="997924"/>
+    <media:starRating count="9880" average="5.00" min="1" max="5"/>
+    <media:statistics views="984689"/>
    </media:community>
   </media:group>
  </entry>
@@ -414,8 +414,8 @@ Featured Creators:
    <media:thumbnail url="https://i2.ytimg.com/vi/9Cwlw9HwJUk/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2833" average="5.00" min="1" max="5"/>
-    <media:statistics views="102220"/>
+    <media:starRating count="2862" average="5.00" min="1" max="5"/>
+    <media:statistics views="104820"/>
    </media:community>
   </media:group>
  </entry>
@@ -437,8 +437,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/2Lf4mtx_N20/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3493" average="5.00" min="1" max="5"/>
-    <media:statistics views="88208"/>
+    <media:starRating count="3503" average="5.00" min="1" max="5"/>
+    <media:statistics views="89218"/>
    </media:community>
   </media:group>
  </entry>

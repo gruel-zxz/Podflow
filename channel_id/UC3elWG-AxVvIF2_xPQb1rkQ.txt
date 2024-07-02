@@ -11,6 +11,29 @@
  </author>
  <published>2022-06-04T16:17:27+00:00</published>
  <entry>
+  <id>yt:video:tKOKKpsM97E</id>
+  <yt:videoId>tKOKKpsM97E</yt:videoId>
+  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
+  <title>男人要是想干一件事，就没有干不成的#爱吐槽的四季妈妈 #家庭吐槽大会</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=tKOKKpsM97E"/>
+  <author>
+   <name>四季妈妈—小龙</name>
+   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
+  </author>
+  <published>2024-07-01T04:44:17+00:00</published>
+  <updated>2024-07-02T00:38:09+00:00</updated>
+  <media:group>
+   <media:title>男人要是想干一件事，就没有干不成的#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
+   <media:content url="https://www.youtube.com/v/tKOKKpsM97E?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/tKOKKpsM97E/hqdefault.jpg" width="480" height="360"/>
+   <media:description>男人们总有一股劲，只要他们有了目标，啥事都难不倒他们！大家有没有碰到过这种情况呢？来分享你的经历吧！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
+   <media:community>
+    <media:starRating count="8" average="5.00" min="1" max="5"/>
+    <media:statistics views="174"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:HHJ-AHUm_EQ</id>
   <yt:videoId>HHJ-AHUm_EQ</yt:videoId>
   <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
@@ -29,7 +52,7 @@
    <media:description>平时一向严肃的老公突然兴致勃勃地要和我喝两杯。这是风雨欲来的前兆，还是他有什么特别的计划？大家猜猜看，他究竟在打什么主意？#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="235"/>
+    <media:statistics views="318"/>
    </media:community>
   </media:group>
  </entry>
@@ -52,7 +75,7 @@
    <media:description>你为了自己的爱好愿意花多少钱？和我分享一下你们在买装备上花了多少吧！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="196"/>
+    <media:statistics views="204"/>
    </media:community>
   </media:group>
  </entry>
@@ -75,7 +98,7 @@
    <media:description>只要给义乌一点时间，它真的可以征服全世界！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="3" average="5.00" min="1" max="5"/>
-    <media:statistics views="200"/>
+    <media:statistics views="204"/>
    </media:community>
   </media:group>
  </entry>
@@ -98,7 +121,7 @@
    <media:description>男人发呆的时候到底在想什么？我老公经常在脑海中上演各种角色扮演的大戏！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="329"/>
+    <media:statistics views="330"/>
    </media:community>
   </media:group>
  </entry>
@@ -121,7 +144,7 @@
    <media:description>这位大哥可真是厉害，单杆钓座头鲸，那真是一钓开天门啊！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="169"/>
+    <media:statistics views="173"/>
    </media:community>
   </media:group>
  </entry>
@@ -144,7 +167,7 @@
    <media:description>贵州的山路锻炼出了一批真正的车神，他们手中握的可不是普通驾照，而是象征实力的王者印记！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="297"/>
+    <media:statistics views="301"/>
    </media:community>
   </media:group>
  </entry>
@@ -167,7 +190,7 @@
    <media:description>夫妻吵架时，为什么总是男人劝和而女人劝分呢？背后究竟有什么秘密？#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="394"/>
+    <media:statistics views="395"/>
    </media:community>
   </media:group>
  </entry>
@@ -236,7 +259,7 @@
    <media:description>天津人最让人佩服的，不是他们的贫嘴，而是他们那幽默乐观的生活态度！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="248"/>
+    <media:statistics views="252"/>
    </media:community>
   </media:group>
  </entry>
@@ -259,7 +282,7 @@
    <media:description>终于明白了，原来这才是男人不爱过节的真正原因！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="9" average="5.00" min="1" max="5"/>
-    <media:statistics views="295"/>
+    <media:statistics views="298"/>
    </media:community>
   </media:group>
  </entry>
@@ -282,7 +305,7 @@
    <media:description>没想到要抓住一个男人的心跳竟然这么容易！分享我的秘诀#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="13" average="5.00" min="1" max="5"/>
-    <media:statistics views="302"/>
+    <media:statistics views="307"/>
    </media:community>
   </media:group>
  </entry>
@@ -304,8 +327,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/_EI_MAwkixQ/hqdefault.jpg" width="480" height="360"/>
    <media:description>全天下的男人是不是都有这种习惯？总是带不同的女人去同一家好吃的餐厅！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="289"/>
+    <media:starRating count="5" average="5.00" min="1" max="5"/>
+    <media:statistics views="291"/>
    </media:community>
   </media:group>
  </entry>
@@ -328,30 +351,7 @@
    <media:description>我真的不理解，是我不了解东北的浪漫，还是东北人对浪漫有“过敏反应”？#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="49" average="5.00" min="1" max="5"/>
-    <media:statistics views="2935"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:Mgp5GDXjv4w</id>
-  <yt:videoId>Mgp5GDXjv4w</yt:videoId>
-  <yt:channelId>UC3elWG-AxVvIF2_xPQb1rkQ</yt:channelId>
-  <title>男人对于“盘”的执念，干巴的东西就这么入不了眼吗#爱吐槽的四季妈妈 #家庭吐槽大会</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=Mgp5GDXjv4w"/>
-  <author>
-   <name>四季妈妈—小龙</name>
-   <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
-  </author>
-  <published>2024-05-24T06:18:03+00:00</published>
-  <updated>2024-06-27T14:52:37+00:00</updated>
-  <media:group>
-   <media:title>男人对于“盘”的执念，干巴的东西就这么入不了眼吗#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
-   <media:content url="https://www.youtube.com/v/Mgp5GDXjv4w?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/Mgp5GDXjv4w/hqdefault.jpg" width="480" height="360"/>
-   <media:description>为什么男人对“盘”情有独钟？干巴的东西真的入不了他们的眼吗？#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
-   <media:community>
-    <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="214"/>
+    <media:statistics views="2940"/>
    </media:community>
   </media:group>
  </entry>

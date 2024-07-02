@@ -82,7 +82,7 @@ default_config = {
         "哔哩哔哩弹幕网": {
             "update_size": 25,
             "id": "8047632",
-            "title": "哔哩哔哩漫画",
+            "title": "哔哩哔哩弹幕网",
             "quality": "480",
             "last_size": 100,
             "media": "m4a",
