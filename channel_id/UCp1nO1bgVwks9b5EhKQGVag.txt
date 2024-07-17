@@ -11,6 +11,53 @@
  </author>
  <published>2017-04-12T00:43:27+00:00</published>
  <entry>
+  <id>yt:video:YRzbGfk7Vf4</id>
+  <yt:videoId>YRzbGfk7Vf4</yt:videoId>
+  <yt:channelId>UCp1nO1bgVwks9b5EhKQGVag</yt:channelId>
+  <title>高等级文明用陨石当飞船，居然抵达了地球：科幻小说《生命的故事》</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=YRzbGfk7Vf4"/>
+  <author>
+   <name>幻海航行--science fiction</name>
+   <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
+  </author>
+  <published>2024-07-11T11:02:07+00:00</published>
+  <updated>2024-07-13T14:11:49+00:00</updated>
+  <media:group>
+   <media:title>高等级文明用陨石当飞船，居然抵达了地球：科幻小说《生命的故事》</media:title>
+   <media:content url="https://www.youtube.com/v/YRzbGfk7Vf4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/YRzbGfk7Vf4/hqdefault.jpg" width="480" height="360"/>
+   <media:description>科幻小说《生命的故事》，作者不详，似乎有意不透露真名实姓。
+看完作品后我一度怀疑作者本人是否参与过类似的保密试验。</media:description>
+   <media:community>
+    <media:starRating count="96" average="5.00" min="1" max="5"/>
+    <media:statistics views="5714"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:MUSsmyjepMc</id>
+  <yt:videoId>MUSsmyjepMc</yt:videoId>
+  <yt:channelId>UCp1nO1bgVwks9b5EhKQGVag</yt:channelId>
+  <title>如果人类的进化历程被干预，人类还会存在吗？科幻经典《布鲁克林工程》</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=MUSsmyjepMc"/>
+  <author>
+   <name>幻海航行--science fiction</name>
+   <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
+  </author>
+  <published>2024-07-03T05:42:56+00:00</published>
+  <updated>2024-07-10T15:07:48+00:00</updated>
+  <media:group>
+   <media:title>如果人类的进化历程被干预，人类还会存在吗？科幻经典《布鲁克林工程》</media:title>
+   <media:content url="https://www.youtube.com/v/MUSsmyjepMc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/MUSsmyjepMc/hqdefault.jpg" width="480" height="360"/>
+   <media:description>如果人类的进化历程被干预，人类还会存在吗？科幻经典《布鲁克林工程》</media:description>
+   <media:community>
+    <media:starRating count="128" average="5.00" min="1" max="5"/>
+    <media:statistics views="6281"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:Hg2wfL1pwJI</id>
   <yt:videoId>Hg2wfL1pwJI</yt:videoId>
   <yt:channelId>UCp1nO1bgVwks9b5EhKQGVag</yt:channelId>
@@ -21,15 +68,15 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2024-06-28T04:40:35+00:00</published>
-  <updated>2024-06-29T07:26:18+00:00</updated>
+  <updated>2024-07-01T23:27:05+00:00</updated>
   <media:group>
    <media:title>太平洋岛国上的土著，如何会成为撬动世界的人：经典科幻小说解读</media:title>
    <media:content url="https://www.youtube.com/v/Hg2wfL1pwJI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i1.ytimg.com/vi/Hg2wfL1pwJI/hqdefault.jpg" width="480" height="360"/>
    <media:description>太平洋岛国上的土著，如何会成为撬动世界的人：经典科幻小说解读——《撬动世界的哈林达姆》，原著：七月。</media:description>
    <media:community>
-    <media:starRating count="90" average="5.00" min="1" max="5"/>
-    <media:statistics views="3603"/>
+    <media:starRating count="117" average="5.00" min="1" max="5"/>
+    <media:statistics views="5786"/>
    </media:community>
   </media:group>
  </entry>
@@ -52,8 +99,8 @@
    <media:description>科幻经典《平面国》，中文版由果麦出品。
 这是一部我们这么多年来推荐给很多读者的科幻小说，原著写于19世纪，但是提出的概念相当超前！对于想了解空间维度的朋友，这本书是绝对的首选。</media:description>
    <media:community>
-    <media:starRating count="248" average="5.00" min="1" max="5"/>
-    <media:statistics views="14288"/>
+    <media:starRating count="348" average="5.00" min="1" max="5"/>
+    <media:statistics views="25857"/>
    </media:community>
   </media:group>
  </entry>
@@ -76,8 +123,8 @@
    <media:description>一股未知的力量篡改了人们的记忆：时空折叠？曼德拉效应？科幻小说《震荡》，原著：赵磊。
 是一部20多年前的国产科幻小说，近年来很多人开始讨论曼德拉效应，那么这部小说就给出了一种很另类的解释。</media:description>
    <media:community>
-    <media:starRating count="92" average="5.00" min="1" max="5"/>
-    <media:statistics views="4630"/>
+    <media:starRating count="99" average="5.00" min="1" max="5"/>
+    <media:statistics views="5343"/>
    </media:community>
   </media:group>
  </entry>
@@ -92,15 +139,15 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2024-06-09T02:18:38+00:00</published>
-  <updated>2024-06-10T04:27:41+00:00</updated>
+  <updated>2024-07-16T07:19:48+00:00</updated>
   <media:group>
    <media:title>人类建造光帆来发电，结果却吸引来了高等级文明：科幻小说《天帆》</media:title>
    <media:content url="https://www.youtube.com/v/2q9Qd_8ADdI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i3.ytimg.com/vi/2q9Qd_8ADdI/hqdefault.jpg" width="480" height="360"/>
    <media:description>人类建造光帆来发电，结果却吸引来了高等级文明：科幻小说《天帆》，原著：江波。</media:description>
    <media:community>
-    <media:starRating count="96" average="5.00" min="1" max="5"/>
-    <media:statistics views="5483"/>
+    <media:starRating count="104" average="5.00" min="1" max="5"/>
+    <media:statistics views="6228"/>
    </media:community>
   </media:group>
  </entry>
@@ -115,15 +162,15 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2024-05-31T09:37:51+00:00</published>
-  <updated>2024-06-02T10:19:26+00:00</updated>
+  <updated>2024-07-14T11:12:38+00:00</updated>
   <media:group>
    <media:title>人类的情绪，不过是简单的电化学反应：科幻名著《快乐的理由》</media:title>
    <media:content url="https://www.youtube.com/v/p212sAZQC_8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i1.ytimg.com/vi/p212sAZQC_8/hqdefault.jpg" width="480" height="360"/>
    <media:description>人类的情绪，不过是简单的电化学反应：科幻名著《快乐的理由》，原著：格雷格.伊根，出自同名科幻小说集《快乐的理由》</media:description>
    <media:community>
-    <media:starRating count="84" average="5.00" min="1" max="5"/>
-    <media:statistics views="3391"/>
+    <media:starRating count="88" average="5.00" min="1" max="5"/>
+    <media:statistics views="3694"/>
    </media:community>
   </media:group>
  </entry>
@@ -146,8 +193,8 @@
    <media:description>一场芯片与人脑的较量，生与死边缘的我如何获得永生？《学习成为我》Learning to Be Me 原著：格雷格伊根，出自科幻小说集《祈祷之海》，这篇堪称神作，非常建议大家看看原著。
 抱歉了大家，拖更了半个月，最近总算把几个长篇内容搞完了，近期恢复每周更新。</media:description>
    <media:community>
-    <media:starRating count="106" average="5.00" min="1" max="5"/>
-    <media:statistics views="4276"/>
+    <media:starRating count="110" average="5.00" min="1" max="5"/>
+    <media:statistics views="4522"/>
    </media:community>
   </media:group>
  </entry>
@@ -169,8 +216,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/72G9lxhGpfU/hqdefault.jpg" width="480" height="360"/>
    <media:description>天文学家发现“时间逆流星系”，能用它来做什么？《百光年日记》，原著：格雷格.伊根。</media:description>
    <media:community>
-    <media:starRating count="148" average="5.00" min="1" max="5"/>
-    <media:statistics views="6988"/>
+    <media:starRating count="156" average="5.00" min="1" max="5"/>
+    <media:statistics views="7459"/>
    </media:community>
   </media:group>
  </entry>
@@ -185,15 +232,15 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2024-04-30T08:28:30+00:00</published>
-  <updated>2024-05-22T01:14:34+00:00</updated>
+  <updated>2024-07-13T12:57:53+00:00</updated>
   <media:group>
    <media:title>当外星人的科技树点错之后：科幻小说《最后一个外星人》</media:title>
    <media:content url="https://www.youtube.com/v/f77oqs6kmPw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i3.ytimg.com/vi/f77oqs6kmPw/hqdefault.jpg" width="480" height="360"/>
    <media:description>当外星人的科技树点错之后：科幻小说《最后一个外星人》了，这是一篇有趣的小说，希望大家喜欢。</media:description>
    <media:community>
-    <media:starRating count="191" average="5.00" min="1" max="5"/>
-    <media:statistics views="8068"/>
+    <media:starRating count="196" average="5.00" min="1" max="5"/>
+    <media:statistics views="8443"/>
    </media:community>
   </media:group>
  </entry>
@@ -215,8 +262,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/Dpmcni1bC58/hqdefault.jpg" width="480" height="360"/>
    <media:description>我们近期用AI作了这首歌曲，还算满意，大家听听看这个咋样。不过这首还是有点瑕疵，最近训练AI很久了，下次给大家呈现出更好的视听体验。这首就当纯娱乐。</media:description>
    <media:community>
-    <media:starRating count="54" average="5.00" min="1" max="5"/>
-    <media:statistics views="1690"/>
+    <media:starRating count="56" average="5.00" min="1" max="5"/>
+    <media:statistics views="1762"/>
    </media:community>
   </media:group>
  </entry>
@@ -231,7 +278,7 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2024-04-25T06:21:17+00:00</published>
-  <updated>2024-05-22T04:31:50+00:00</updated>
+  <updated>2024-07-12T22:14:59+00:00</updated>
   <media:group>
    <media:title>所谓的“过去”只不过是“现在的延伸”：《过去已死》下集</media:title>
    <media:content url="https://www.youtube.com/v/osplgJDhBxA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -239,8 +286,8 @@
    <media:description>《过去已死》下集，原著：阿西莫夫。
 这是另一部阿西莫夫的代表作，只是中文版出版太晚了，很多读者也是近两年来才接触到，让我们一起欣赏一下吧。</media:description>
    <media:community>
-    <media:starRating count="87" average="5.00" min="1" max="5"/>
-    <media:statistics views="4741"/>
+    <media:starRating count="88" average="5.00" min="1" max="5"/>
+    <media:statistics views="4976"/>
    </media:community>
   </media:group>
  </entry>
@@ -255,15 +302,15 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2024-04-17T07:09:21+00:00</published>
-  <updated>2024-05-22T08:18:44+00:00</updated>
+  <updated>2024-07-14T06:31:36+00:00</updated>
   <media:group>
    <media:title>物理学家试图用机器回溯过去，却发现《过去已死》!</media:title>
    <media:content url="https://www.youtube.com/v/rdQboRPZZgI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i3.ytimg.com/vi/rdQboRPZZgI/hqdefault.jpg" width="480" height="360"/>
    <media:description>《过去已死》,原著：阿西莫夫，出自|《阿西莫夫科幻短篇全集》。是作者的另一部代表作。</media:description>
    <media:community>
-    <media:starRating count="185" average="5.00" min="1" max="5"/>
-    <media:statistics views="10198"/>
+    <media:starRating count="187" average="5.00" min="1" max="5"/>
+    <media:statistics views="10519"/>
    </media:community>
   </media:group>
  </entry>
@@ -286,8 +333,8 @@
    <media:description>这篇小说的结尾——有彩蛋！
 《群星的背面》作者：谢云宁，他来了！</media:description>
    <media:community>
-    <media:starRating count="139" average="5.00" min="1" max="5"/>
-    <media:statistics views="5803"/>
+    <media:starRating count="143" average="5.00" min="1" max="5"/>
+    <media:statistics views="6056"/>
    </media:community>
   </media:group>
  </entry>
@@ -309,55 +356,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/Xbz5BRzv77w/hqdefault.jpg" width="480" height="360"/>
    <media:description>谢缵泰：中国飞艇设计制造的第一人，也是中国航空先驱。于1899年完成了首例飞艇的设计。科幻小说《龙骸》，出自雨果奖获得者海漄的科幻作品集《海漄怪奇故事集》，《龙骸》中涉及到的历史人物均有原型。</media:description>
    <media:community>
-    <media:starRating count="151" average="5.00" min="1" max="5"/>
-    <media:statistics views="9262"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:ZdpxbqNuolg</id>
-  <yt:videoId>ZdpxbqNuolg</yt:videoId>
-  <yt:channelId>UCp1nO1bgVwks9b5EhKQGVag</yt:channelId>
-  <title>当人类缩小十万倍，变成细菌大小，世界会发生怎样的变化？</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=ZdpxbqNuolg"/>
-  <author>
-   <name>幻海航行--science fiction</name>
-   <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
-  </author>
-  <published>2024-03-27T08:08:06+00:00</published>
-  <updated>2024-05-29T18:31:59+00:00</updated>
-  <media:group>
-   <media:title>当人类缩小十万倍，变成细菌大小，世界会发生怎样的变化？</media:title>
-   <media:content url="https://www.youtube.com/v/ZdpxbqNuolg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/ZdpxbqNuolg/hqdefault.jpg" width="480" height="360"/>
-   <media:description>这是幻海航行的短视频内容，均收录在短视频文件中。长视频，大于10分钟的视频会持续更新不断更。
-当人类缩小十万倍，变成细菌大小</media:description>
-   <media:community>
-    <media:starRating count="110" average="5.00" min="1" max="5"/>
-    <media:statistics views="4919"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:BsXzCiDN5SU</id>
-  <yt:videoId>BsXzCiDN5SU</yt:videoId>
-  <yt:channelId>UCp1nO1bgVwks9b5EhKQGVag</yt:channelId>
-  <title>科幻小说对宇宙异象“巨引源“的解释</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=BsXzCiDN5SU"/>
-  <author>
-   <name>幻海航行--science fiction</name>
-   <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
-  </author>
-  <published>2024-03-27T07:26:37+00:00</published>
-  <updated>2024-05-28T11:57:10+00:00</updated>
-  <media:group>
-   <media:title>科幻小说对宇宙异象“巨引源“的解释</media:title>
-   <media:content url="https://www.youtube.com/v/BsXzCiDN5SU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/BsXzCiDN5SU/hqdefault.jpg" width="480" height="360"/>
-   <media:description>我们也顺应时代，开始制作5分钟以内的短内容了，当然长视频不会断更。只是在此基础上增加了短视频的数量。</media:description>
-   <media:community>
-    <media:starRating count="92" average="5.00" min="1" max="5"/>
-    <media:statistics views="4111"/>
+    <media:starRating count="154" average="5.00" min="1" max="5"/>
+    <media:statistics views="9661"/>
    </media:community>
   </media:group>
  </entry>

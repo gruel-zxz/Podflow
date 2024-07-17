@@ -9,7 +9,7 @@
         <category>TV &amp; Film</category>
         <generator>Podflow (support us at https://github.com/gruel-zxz/podflow)</generator>
         <language>en-us</language>
-        <lastBuildDate>Tue, 02 Jul 2024 10:56:41 +0800</lastBuildDate>
+        <lastBuildDate>Wed, 17 Jul 2024 22:22:21 +0800</lastBuildDate>
         <pubDate>Sun, 24 Apr 2005 11:20:54 +0800</pubDate>
         <image>
             <url>https://i2.hdslb.com/bfs/face/6eddf76765648483faf65026835c2a84d7008a5a.jpg</url>
@@ -23,6 +23,31 @@
         <itunes:explicit>no</itunes:explicit>
         <itunes:category text="TV &amp; Film"></itunes:category>
 <!-- {1839002753} -->
+<!-- 1839002753 -->
+        <item>
+            <guid>BV181421k74U</guid>
+            <title>型月组曲优雅串烧《若能看到明月》🌙🌙🌙【BML2024单品】</title>
+            <link>https://www.bilibili.com/video/BV181421k74U</link>
+            <description>『鹿火CAVY』&#xA;一起重温这些旋律，是否能让人记忆深处那个故事再次上演呢？&#xA;作曲：芳賀敬太、深澤秀行、梶浦由記、la la larks、渡辺翔、小山寿、太田雅友&#xA;作词：梶浦由記、渡辺翔、Aimer、畑亚贵&#xA;编曲：徐肖@KMS Shanghai、董健剑@KMS Shanghai&#xA;制作人：董健剑&#xA;演唱：茶理理、鹿火CAVY、我是瞳瞳啊&#xA;演奏：CelloFox_、风流先森、Keyboard-Z、拿弓子的波塞东、翔宇Tristan&#xA;OP：Sony Music Publishing (Japan) Inc.&#xA;SP：Sony Musi</description>
+            <pubDate>Tue, 16 Jul 2024 12:00:00 +0800</pubDate>
+            <enclosure url="https://raw.githubusercontent.com/gruel-zxz/podflow/main/channel_audiovisual/1839002753/BV181421k74U.m4a" length="12595089" type="audio/x-m4a"></enclosure>
+            <itunes:author>型月组曲优雅串烧《若能看到明月》🌙🌙🌙【BML2024单品】</itunes:author>
+            <itunes:subtitle>型月组曲优雅串烧《若能看到明月》🌙🌙🌙【BML2024单品】</itunes:subtitle>
+            <itunes:summary><![CDATA[『鹿火CAVY』
+一起重温这些旋律，是否能让人记忆深处那个故事再次上演呢？
+作曲：芳賀敬太、深澤秀行、梶浦由記、la la larks、渡辺翔、小山寿、太田雅友
+作词：梶浦由記、渡辺翔、Aimer、畑亚贵
+编曲：徐肖@KMS Shanghai、董健剑@KMS Shanghai
+制作人：董健剑
+演唱：茶理理、鹿火CAVY、我是瞳瞳啊
+演奏：CelloFox_、风流先森、Keyboard-Z、拿弓子的波塞东、翔宇Tristan
+OP：Sony Music Publishing (Japan) Inc.
+SP：Sony Musi]]></itunes:summary>
+            <itunes:image href="http://i2.hdslb.com/bfs/archive/52e82dc68f3cbbb598d27437c33e996718e07924.jpg"></itunes:image>
+            <itunes:duration>09:13</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:order>1</itunes:order>
+        </item>
 <!-- 1839002753 -->
         <item>
             <guid>BV1TS411A7w2</guid>

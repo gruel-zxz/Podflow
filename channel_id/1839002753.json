@@ -16,6 +16,20 @@
         "desc": "bilibili 知名音乐UP主、直播高能主播"
     },
     "entry": {
+        "BV181421k74U": {
+            "aid": 1556081716,
+            "author": "BML制作指挥部",
+            "bvid": "BV181421k74U",
+            "copyright": "1",
+            "created": 1721102400,
+            "description": "一起重温这些旋律，是否能让人记忆深处那个故事再次上演呢？\n作曲：芳賀敬太、深澤秀行、梶浦由記、la la larks、渡辺翔、小山寿、太田雅友\n作词：梶浦由記、渡辺翔、Aimer、畑亚贵\n编曲：徐肖@KMS Shanghai、董健剑@KMS Shanghai\n制作人：董健剑\n演唱：茶理理、鹿火CAVY、我是瞳瞳啊\n演奏：CelloFox_、风流先森、Keyboard-Z、拿弓子的波塞东、翔宇Tristan\nOP：Sony Music Publishing (Japan) Inc.\nSP：Sony Musi",
+            "is_union_video": 1,
+            "length": "09:13",
+            "mid": 403748305,
+            "pic": "http://i2.hdslb.com/bfs/archive/52e82dc68f3cbbb598d27437c33e996718e07924.jpg",
+            "title": "型月组曲优雅串烧《若能看到明月》🌙🌙🌙【BML2024单品】",
+            "typeid": 29
+        },
         "BV1TS411A7w2": {
             "aid": 1905826766,
             "author": "哔哩哔哩直播",
@@ -1051,23 +1065,10 @@
             "pic": "http://i2.hdslb.com/bfs/archive/7fb7c33a0843fa716bb101d7b8285d3ff2d2b8d7.jpg",
             "title": "【鹿火丨直播日常】到底发生什么事了？林北究竟是谁？",
             "typeid": 138
-        },
-        "BV1bi4y1D78L": {
-            "aid": 553035794,
-            "author": "鹿火CAVY",
-            "bvid": "BV1bi4y1D78L",
-            "copyright": "1",
-            "created": 1649507351,
-            "description": "疫情居家自己变Tony，鹿Tony准备开店了！有要理发的小可爱联系我！\n请一键三连哟！\n【b站】https://space.bilibili.com/1839002753\n【直播间】https://live.bilibili.com/3210\n【后援群】：929567044",
-            "is_union_video": 0,
-            "length": "02:24",
-            "mid": 1839002753,
-            "pic": "http://i1.hdslb.com/bfs/archive/65e2b7eb4cc10ddf705e07fd54eb546a51c0fec4.jpg",
-            "title": "【疫情居家vlog】全上海最难约到的男人是谁？",
-            "typeid": 250
         }
     },
     "list": [
+        "BV181421k74U",
         "BV1TS411A7w2",
         "BV1Ai421v7y4",
         "BV1Gx4y1b7dZ",
@@ -1141,7 +1142,6 @@
         "BV1QY411w7Yo",
         "BV1TF411u7jz",
         "BV1Hu411y7ZJ",
-        "BV1xa411v7Fo",
-        "BV1bi4y1D78L"
+        "BV1xa411v7Fo"
     ]
 }

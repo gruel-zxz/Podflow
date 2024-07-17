@@ -21,15 +21,15 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-06-12T03:11:31+00:00</published>
-  <updated>2024-06-14T00:39:59+00:00</updated>
+  <updated>2024-07-13T12:19:01+00:00</updated>
   <media:group>
    <media:title>高考满分作文原来长这样</media:title>
    <media:content url="https://www.youtube.com/v/cSk6rhWKQuQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i4.ytimg.com/vi/cSk6rhWKQuQ/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="308"/>
+    <media:starRating count="6" average="5.00" min="1" max="5"/>
+    <media:statistics views="321"/>
    </media:community>
   </media:group>
  </entry>
@@ -44,7 +44,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-06-10T00:15:07+00:00</published>
-  <updated>2024-06-10T00:21:27+00:00</updated>
+  <updated>2024-07-15T08:49:23+00:00</updated>
   <media:group>
    <media:title>美国蝉灾，靠吃能解决吗？</media:title>
    <media:content url="https://www.youtube.com/v/_lD7H7T_gxA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -52,7 +52,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="72"/>
+    <media:statistics views="82"/>
    </media:community>
   </media:group>
  </entry>
@@ -67,7 +67,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-06-08T00:15:06+00:00</published>
-  <updated>2024-06-08T00:22:46+00:00</updated>
+  <updated>2024-07-04T14:11:52+00:00</updated>
   <media:group>
    <media:title>三个离奇失踪又神秘归来的人</media:title>
    <media:content url="https://www.youtube.com/v/Q3g7ylULhvw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -75,7 +75,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="50"/>
+    <media:statistics views="54"/>
    </media:community>
   </media:group>
  </entry>
@@ -90,7 +90,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-06-07T00:15:07+00:00</published>
-  <updated>2024-06-07T01:42:58+00:00</updated>
+  <updated>2024-07-04T14:53:48+00:00</updated>
   <media:group>
    <media:title>只有一个男人的罪孽之岛 ，人间地狱皮特凯恩</media:title>
    <media:content url="https://www.youtube.com/v/b07jYCOEFzk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -98,7 +98,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="43"/>
+    <media:statistics views="49"/>
    </media:community>
   </media:group>
  </entry>
@@ -113,7 +113,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-06-06T00:00:07+00:00</published>
-  <updated>2024-06-06T00:07:20+00:00</updated>
+  <updated>2024-07-04T14:57:39+00:00</updated>
   <media:group>
    <media:title>地球如何转动 ，停止转动会怎样</media:title>
    <media:content url="https://www.youtube.com/v/PCG48K5SxfI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -121,7 +121,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="51"/>
+    <media:statistics views="56"/>
    </media:community>
   </media:group>
  </entry>
@@ -136,7 +136,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-06-05T00:15:22+00:00</published>
-  <updated>2024-06-09T03:51:25+00:00</updated>
+  <updated>2024-07-14T12:39:23+00:00</updated>
   <media:group>
    <media:title>英雄不分年龄，少年强则国强</media:title>
    <media:content url="https://www.youtube.com/v/vy0RafFcCMI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -159,7 +159,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-06-04T02:31:43+00:00</published>
-  <updated>2024-06-07T01:40:44+00:00</updated>
+  <updated>2024-07-13T10:37:02+00:00</updated>
   <media:group>
    <media:title>人造肉， 颠覆未来的黑科技</media:title>
    <media:content url="https://www.youtube.com/v/gAY39y_kgUI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -167,7 +167,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="45"/>
+    <media:statistics views="51"/>
    </media:community>
   </media:group>
  </entry>
@@ -182,7 +182,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-06-02T00:15:06+00:00</published>
-  <updated>2024-06-05T22:25:54+00:00</updated>
+  <updated>2024-07-04T14:32:23+00:00</updated>
   <media:group>
    <media:title>化妆品背后的丑恶，印度“幽灵血矿”</media:title>
    <media:content url="https://www.youtube.com/v/UImBmHod40I?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -190,7 +190,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="51"/>
+    <media:statistics views="52"/>
    </media:community>
   </media:group>
  </entry>
@@ -213,7 +213,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="3" average="5.00" min="1" max="5"/>
-    <media:statistics views="25"/>
+    <media:statistics views="31"/>
    </media:community>
   </media:group>
  </entry>
@@ -236,7 +236,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="3" average="5.00" min="1" max="5"/>
-    <media:statistics views="127"/>
+    <media:statistics views="129"/>
    </media:community>
   </media:group>
  </entry>
@@ -251,7 +251,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-05-30T07:27:27+00:00</published>
-  <updated>2024-06-04T22:04:19+00:00</updated>
+  <updated>2024-07-04T14:23:53+00:00</updated>
   <media:group>
    <media:title>33岁买3套房，日本最省钱女孩</media:title>
    <media:content url="https://www.youtube.com/v/NsLksY9gO_M?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -259,7 +259,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="85"/>
+    <media:statistics views="88"/>
    </media:community>
   </media:group>
  </entry>
@@ -282,7 +282,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="37"/>
+    <media:statistics views="39"/>
    </media:community>
   </media:group>
  </entry>
@@ -305,7 +305,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="17" average="5.00" min="1" max="5"/>
-    <media:statistics views="1119"/>
+    <media:statistics views="1121"/>
    </media:community>
   </media:group>
  </entry>
@@ -320,7 +320,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-05-27T07:57:38+00:00</published>
-  <updated>2024-06-27T15:44:29+00:00</updated>
+  <updated>2024-07-14T19:56:10+00:00</updated>
   <media:group>
    <media:title>飞天航母，前苏联跨时代武器</media:title>
    <media:content url="https://www.youtube.com/v/t6Dl8qvghtI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -328,7 +328,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="2203"/>
+    <media:statistics views="2207"/>
    </media:community>
   </media:group>
  </entry>
@@ -351,7 +351,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="65"/>
+    <media:statistics views="69"/>
    </media:community>
   </media:group>
  </entry>

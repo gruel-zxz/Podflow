@@ -2470,12 +2470,12 @@ def xml_item(
     image,
 ):
     channelid_title = html.escape(channelid_title)
-    # 查看标题中是否有频道名称如无添加到描述中
+    # 查看标题中是否有频道名称如无添加到描述中并去除空字符
     if channelid_title not in title:
         if description == "":
             description = f"『{channelid_title}』{description}"
         else:
-            description = f"『{channelid_title}』\n{description}"
+            description = f"『{channelid_title}』\n{description}".replace("\x00", "")
     # 更换描述换行符
     replacement_description = description.replace("\n", "&#xA;")
     # 获取文件后缀和文件字节大小

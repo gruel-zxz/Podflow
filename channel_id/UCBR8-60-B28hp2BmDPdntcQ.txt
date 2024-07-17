@@ -10,6 +10,122 @@
   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
  </author>
  <entry>
+  <id>yt:video:7nUNs_lpa7o</id>
+  <yt:videoId>7nUNs_lpa7o</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>@ZachKing's speedcubing strategy has us all 👀 ‪@1SkaterGirl33‬</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=7nUNs_lpa7o"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2024-07-16T22:00:36+00:00</published>
+  <updated>2024-07-16T22:05:05+00:00</updated>
+  <media:group>
+   <media:title>@ZachKing's speedcubing strategy has us all 👀 ‪@1SkaterGirl33‬</media:title>
+   <media:content url="https://www.youtube.com/v/7nUNs_lpa7o?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/7nUNs_lpa7o/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="533" average="5.00" min="1" max="5"/>
+    <media:statistics views="7418"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:yyvBqSC4uU8</id>
+  <yt:videoId>yyvBqSC4uU8</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>@SoupTimmy vs @1SkaterGirl33 Face Off in the Ultimate Rubik’s Cube Trivia Challenge</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=yyvBqSC4uU8"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2024-07-12T14:00:56+00:00</published>
+  <updated>2024-07-15T15:19:52+00:00</updated>
+  <media:group>
+   <media:title>@SoupTimmy vs @1SkaterGirl33 Face Off in the Ultimate Rubik’s Cube Trivia Challenge</media:title>
+   <media:content url="https://www.youtube.com/v/yyvBqSC4uU8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/yyvBqSC4uU8/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Witness the ultimate Rubik’s Cube showdown between master cube creators Livia Kleiner and SoupTimmy as they go head-to-head in &quot;Square Off&quot;, our very own Rubik’s Cube trivia game show. Special guest appearances include global cube enthusiasts @Delnart @Tingman  @ZHCYT  @LazarBeam  @JujuSeb444 @TommyCherry and more! To celebrate this year’s 50th anniversary of the Rubik’s Cube, we even invited Mr. Ernő Rubik, the inventor of the cube himself, to join in on the fun. 
+
+From exploring cube history to recalling the most mind-boggling challenges and cube creations, we invite you to play along as these two cubers compete to test their Rubik’s Cube knowledge. It’s game time! 
+
+Featured Creators:
+@CubeForSpeed1 
+@CubeHead 
+@CUBASTIC 
+@Delnart 
+@fzemdegs 
+@guinnessworldrecords 
+@HaysCubing 
+@ishaanhadkar3008 
+@JujuSeb444 
+@LaZer0MonKey 
+@LazarBeam 
+@1SkaterGirl33 
+@MaxFast23 
+@SoupTimmy 
+@Tingman 
+@TommyCherry 
+@Z3Cubing 
+@zhccrafts 
+
+#RubiksCube #SoupTimmy #LiviaKleiner</media:description>
+   <media:community>
+    <media:starRating count="8465" average="5.00" min="1" max="5"/>
+    <media:statistics views="607919"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:KO78ERVZNEQ</id>
+  <yt:videoId>KO78ERVZNEQ</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>TRIVIA TIME with Paul de Gelder! #SharkWeek starts Sunday at 8p on @Discovery</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=KO78ERVZNEQ"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2024-07-07T17:00:16+00:00</published>
+  <updated>2024-07-12T20:56:08+00:00</updated>
+  <media:group>
+   <media:title>TRIVIA TIME with Paul de Gelder! #SharkWeek starts Sunday at 8p on @Discovery</media:title>
+   <media:content url="https://www.youtube.com/v/KO78ERVZNEQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/KO78ERVZNEQ/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="2469" average="5.00" min="1" max="5"/>
+    <media:statistics views="97766"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:f2yMJHWeTnQ</id>
+  <yt:videoId>f2yMJHWeTnQ</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>can you beat ​⁠@CaptainSparklez, @iJustine, or @sunpi‘s @minecraft Rush Shorts effect scores?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=f2yMJHWeTnQ"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2024-07-02T16:52:27+00:00</published>
+  <updated>2024-07-13T10:25:38+00:00</updated>
+  <media:group>
+   <media:title>can you beat ​⁠@CaptainSparklez, @iJustine, or @sunpi‘s @minecraft Rush Shorts effect scores?</media:title>
+   <media:content url="https://www.youtube.com/v/f2yMJHWeTnQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/f2yMJHWeTnQ/hqdefault.jpg" width="480" height="360"/>
+   <media:description>👀 try the YouTube Shorts effect for yourself here ➡️ https://yt.be/dY8Vc</media:description>
+   <media:community>
+    <media:starRating count="4220" average="5.00" min="1" max="5"/>
+    <media:statistics views="127970"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:AVqmafJOYUQ</id>
   <yt:videoId>AVqmafJOYUQ</yt:videoId>
   <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
@@ -20,15 +136,15 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-06-30T22:00:24+00:00</published>
-  <updated>2024-07-01T22:42:58+00:00</updated>
+  <updated>2024-07-14T08:41:49+00:00</updated>
   <media:group>
    <media:title>this pride look by @FredericChen's boyfriend is actually so good??🌈 #Pride #grwm #makeupreveal</media:title>
    <media:content url="https://www.youtube.com/v/AVqmafJOYUQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i2.ytimg.com/vi/AVqmafJOYUQ/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="385" average="5.00" min="1" max="5"/>
-    <media:statistics views="11633"/>
+    <media:starRating count="2581" average="5.00" min="1" max="5"/>
+    <media:statistics views="91462"/>
    </media:community>
   </media:group>
  </entry>
@@ -43,15 +159,15 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-06-29T21:11:19+00:00</published>
-  <updated>2024-06-30T19:39:47+00:00</updated>
+  <updated>2024-07-14T08:42:09+00:00</updated>
   <media:group>
    <media:title>whether it's getting dunked or dancing @TheFitnessMarshall  always brings the best vibes</media:title>
    <media:content url="https://www.youtube.com/v/zYKpCSxwuE4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i3.ytimg.com/vi/zYKpCSxwuE4/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1292" average="5.00" min="1" max="5"/>
-    <media:statistics views="28188"/>
+    <media:starRating count="2661" average="5.00" min="1" max="5"/>
+    <media:statistics views="79752"/>
    </media:community>
   </media:group>
  </entry>
@@ -66,15 +182,15 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-06-29T14:00:21+00:00</published>
-  <updated>2024-06-30T19:41:13+00:00</updated>
+  <updated>2024-07-13T02:33:17+00:00</updated>
   <media:group>
    <media:title>pride is here and so are the outfits, makeup, and nails that go along with it 🙂‍↕️</media:title>
    <media:content url="https://www.youtube.com/v/xj7QygP0QnY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i1.ytimg.com/vi/xj7QygP0QnY/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="335" average="5.00" min="1" max="5"/>
-    <media:statistics views="11697"/>
+    <media:starRating count="1227" average="5.00" min="1" max="5"/>
+    <media:statistics views="67795"/>
    </media:community>
   </media:group>
  </entry>
@@ -89,15 +205,15 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-06-25T22:00:35+00:00</published>
-  <updated>2024-06-26T06:43:32+00:00</updated>
+  <updated>2024-07-03T01:14:40+00:00</updated>
   <media:group>
    <media:title>going modo festival with #PesoPlumaVinoTinto 🪩</media:title>
    <media:content url="https://www.youtube.com/v/LQDMCbeWDsg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i1.ytimg.com/vi/LQDMCbeWDsg/hqdefault.jpg" width="480" height="360"/>
    <media:description>hop on Shorts to show @pesopluma_oficial how you turn up 🥳</media:description>
    <media:community>
-    <media:starRating count="1894" average="5.00" min="1" max="5"/>
-    <media:statistics views="48147"/>
+    <media:starRating count="2889" average="5.00" min="1" max="5"/>
+    <media:statistics views="82327"/>
    </media:community>
   </media:group>
  </entry>
@@ -112,15 +228,15 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-06-25T19:00:34+00:00</published>
-  <updated>2024-06-30T22:28:00+00:00</updated>
+  <updated>2024-07-14T08:42:32+00:00</updated>
   <media:group>
    <media:title>math has never made more sense 😍 thanks @onlinekyne</media:title>
    <media:content url="https://www.youtube.com/v/4AUdpdAqHts?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i1.ytimg.com/vi/4AUdpdAqHts/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1202" average="5.00" min="1" max="5"/>
-    <media:statistics views="29839"/>
+    <media:starRating count="1834" average="5.00" min="1" max="5"/>
+    <media:statistics views="63578"/>
    </media:community>
   </media:group>
  </entry>
@@ -135,15 +251,15 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-06-20T21:00:28+00:00</published>
-  <updated>2024-06-21T21:36:00+00:00</updated>
+  <updated>2024-07-13T02:33:39+00:00</updated>
   <media:group>
    <media:title>it's the longest day of the year! what are you doing with the extra hours of daylight? @asasteinars</media:title>
    <media:content url="https://www.youtube.com/v/oO92CVWfNmM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i4.ytimg.com/vi/oO92CVWfNmM/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2652" average="5.00" min="1" max="5"/>
-    <media:statistics views="62676"/>
+    <media:starRating count="3468" average="5.00" min="1" max="5"/>
+    <media:statistics views="94182"/>
    </media:community>
   </media:group>
  </entry>
@@ -158,7 +274,7 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-06-20T14:00:07+00:00</published>
-  <updated>2024-06-22T00:43:10+00:00</updated>
+  <updated>2024-07-12T22:10:34+00:00</updated>
   <media:group>
    <media:title>A Full Day Of Yoga Flows in 30 Minutes with @yogawithadriene, @MalovaElena, and more</media:title>
    <media:content url="https://www.youtube.com/v/BOOfnxHKyOk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -210,8 +326,8 @@ Featured Creators:
 19:20 Evening Wind Down
 23:10 Bedtime Routine</media:description>
    <media:community>
-    <media:starRating count="6296" average="5.00" min="1" max="5"/>
-    <media:statistics views="598725"/>
+    <media:starRating count="8744" average="5.00" min="1" max="5"/>
+    <media:statistics views="1339780"/>
    </media:community>
   </media:group>
  </entry>
@@ -226,15 +342,15 @@ Featured Creators:
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-06-18T19:00:20+00:00</published>
-  <updated>2024-06-20T06:55:41+00:00</updated>
+  <updated>2024-07-13T02:33:47+00:00</updated>
   <media:group>
    <media:title>Nature’s true colors: all of them 🌈</media:title>
    <media:content url="https://www.youtube.com/v/UnkJhofJpZU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i2.ytimg.com/vi/UnkJhofJpZU/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1753" average="5.00" min="1" max="5"/>
-    <media:statistics views="45558"/>
+    <media:starRating count="2311" average="5.00" min="1" max="5"/>
+    <media:statistics views="74658"/>
    </media:community>
   </media:group>
  </entry>
@@ -249,15 +365,15 @@ Featured Creators:
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-06-14T19:00:31+00:00</published>
-  <updated>2024-06-21T21:38:47+00:00</updated>
+  <updated>2024-07-13T02:33:54+00:00</updated>
   <media:group>
    <media:title>Trixie’s favorite channel? @birdtricks, cutie!</media:title>
    <media:content url="https://www.youtube.com/v/nfcWfXr_kks?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i3.ytimg.com/vi/nfcWfXr_kks/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2445" average="5.00" min="1" max="5"/>
-    <media:statistics views="76430"/>
+    <media:starRating count="2727" average="5.00" min="1" max="5"/>
+    <media:statistics views="98244"/>
    </media:community>
   </media:group>
  </entry>
@@ -272,15 +388,15 @@ Featured Creators:
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-06-13T17:01:15+00:00</published>
-  <updated>2024-06-21T07:04:32+00:00</updated>
+  <updated>2024-07-13T04:03:14+00:00</updated>
   <media:group>
    <media:title>can’t stop thinking about these blue noodles @Veggiekins</media:title>
    <media:content url="https://www.youtube.com/v/coHDW2PCUTs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i4.ytimg.com/vi/coHDW2PCUTs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2887" average="5.00" min="1" max="5"/>
-    <media:statistics views="73933"/>
+    <media:starRating count="3300" average="5.00" min="1" max="5"/>
+    <media:statistics views="100373"/>
    </media:community>
   </media:group>
  </entry>
@@ -295,150 +411,15 @@ Featured Creators:
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-06-12T18:00:29+00:00</published>
-  <updated>2024-06-17T22:23:34+00:00</updated>
+  <updated>2024-07-13T02:34:21+00:00</updated>
   <media:group>
    <media:title>how many did you get right? @JunoBirch @trixie</media:title>
    <media:content url="https://www.youtube.com/v/AqnJ1-K0j_s?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i2.ytimg.com/vi/AqnJ1-K0j_s/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1981" average="5.00" min="1" max="5"/>
-    <media:statistics views="62450"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:mOvPjMlr6pk</id>
-  <yt:videoId>mOvPjMlr6pk</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>how quickly can you guess what they're painting??</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=mOvPjMlr6pk"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2024-06-12T14:00:22+00:00</published>
-  <updated>2024-06-16T19:21:11+00:00</updated>
-  <media:group>
-   <media:title>how quickly can you guess what they're painting??</media:title>
-   <media:content url="https://www.youtube.com/v/mOvPjMlr6pk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/mOvPjMlr6pk/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="19189" average="5.00" min="1" max="5"/>
-    <media:statistics views="272905"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:kH23pnXBRTc</id>
-  <yt:videoId>kH23pnXBRTc</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>A Drag Adventure Story with @trixie &amp; @JunoBirch</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=kH23pnXBRTc"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2024-06-10T14:00:38+00:00</published>
-  <updated>2024-06-13T14:54:48+00:00</updated>
-  <media:group>
-   <media:title>A Drag Adventure Story with @trixie &amp; @JunoBirch</media:title>
-   <media:content url="https://www.youtube.com/v/kH23pnXBRTc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/kH23pnXBRTc/hqdefault.jpg" width="480" height="360"/>
-   <media:description>Drag is taking over! Join Trixie Mattel (@trixie) and Juno Birch (@JunoBirch) in a one of a kind adventure as they explore Drag on YouTube. Along the way, they’ll uncover the colorful history of Drag and its ever growing community of creators who are expanding access to a new world of queer perspectives, creativity, and representation. 👠🪩👑
-
-Featured Creators:
-@RandyRobertslive
-@TheLypsinka1 
-@ladybunny7088
-@kalaniproductions7862
-@alaskatron5000
-@WOWPresents
-@DanDTV
-@LADYNADA_
-@Valeryvision
-@welovekatya
-@LushiousMassacr
-@HurricaneKimchi
-@adammitchshow 
-@pabllovittar
-@endigopink
-@BobTheDragQueen
-@SheaCoulee
-@EurekaOHara
-@thequeenpriyanka
-@worldofxtra
-@silver__rox
-@trixie
-@KimChiChicBeauty
-@hanoipride
-@LadyGagita
-@Novympia
-@JunoBirch
-@MOMPodcasts
-@mijamassacr6392
-@NoGorge
-@siblingrivalrypodcast
-@maddymorphosisofficial
-@LadyCamden 
-@thepattiegonia 
-@onlinekyne
-@PlastiqueTiara
-@AmissTori 
-@hugogrrrl3678
-@riverglass
-@MajicDyke
-@hankschannel</media:description>
-   <media:community>
-    <media:starRating count="9880" average="5.00" min="1" max="5"/>
-    <media:statistics views="984689"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:9Cwlw9HwJUk</id>
-  <yt:videoId>9Cwlw9HwJUk</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>since i started using this new alarm clock my life has only gotten better @JosephsMachines</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=9Cwlw9HwJUk"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2024-06-10T14:00:27+00:00</published>
-  <updated>2024-06-17T02:46:09+00:00</updated>
-  <media:group>
-   <media:title>since i started using this new alarm clock my life has only gotten better @JosephsMachines</media:title>
-   <media:content url="https://www.youtube.com/v/9Cwlw9HwJUk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/9Cwlw9HwJUk/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="2862" average="5.00" min="1" max="5"/>
-    <media:statistics views="104820"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:2Lf4mtx_N20</id>
-  <yt:videoId>2Lf4mtx_N20</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>flop era? never heard of her @chrissychlapeckaa</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=2Lf4mtx_N20"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2024-06-07T19:00:25+00:00</published>
-  <updated>2024-06-10T04:22:20+00:00</updated>
-  <media:group>
-   <media:title>flop era? never heard of her @chrissychlapeckaa</media:title>
-   <media:content url="https://www.youtube.com/v/2Lf4mtx_N20?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/2Lf4mtx_N20/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="3503" average="5.00" min="1" max="5"/>
-    <media:statistics views="89218"/>
+    <media:starRating count="2243" average="5.00" min="1" max="5"/>
+    <media:statistics views="80255"/>
    </media:community>
   </media:group>
  </entry>

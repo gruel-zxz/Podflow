@@ -21,7 +21,7 @@
    <uri>https://www.youtube.com/channel/UC9RS8EzXdRJyYDkwtcsWOuA</uri>
   </author>
   <published>2023-11-14T12:00:44+00:00</published>
-  <updated>2024-05-17T15:50:37+00:00</updated>
+  <updated>2024-07-14T04:38:13+00:00</updated>
   <media:group>
    <media:title>弱者的悲歌：在日本打拼4年後，朋友還是決定回國了</media:title>
    <media:content url="https://www.youtube.com/v/qPXm_MuJttI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -41,8 +41,8 @@
 
 #日本 #vlog #留學</media:description>
    <media:community>
-    <media:starRating count="4080" average="5.00" min="1" max="5"/>
-    <media:statistics views="203275"/>
+    <media:starRating count="4086" average="5.00" min="1" max="5"/>
+    <media:statistics views="203765"/>
    </media:community>
   </media:group>
  </entry>
@@ -57,7 +57,7 @@
    <uri>https://www.youtube.com/channel/UC9RS8EzXdRJyYDkwtcsWOuA</uri>
   </author>
   <published>2023-10-11T12:00:12+00:00</published>
-  <updated>2024-05-23T04:03:46+00:00</updated>
+  <updated>2024-07-16T04:27:42+00:00</updated>
   <media:group>
    <media:title>三觀崩壞 血肉橫飛😱變態神作《殺手阿一》終極之戰：結局太炸裂，看完緩3天！《殺手阿一》（下）</media:title>
    <media:content url="https://www.youtube.com/v/H6sUyICXsbk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -85,8 +85,8 @@
 
 #日本漫畫 #殺手阿一 #cult</media:description>
    <media:community>
-    <media:starRating count="1172" average="5.00" min="1" max="5"/>
-    <media:statistics views="58459"/>
+    <media:starRating count="1173" average="5.00" min="1" max="5"/>
+    <media:statistics views="58824"/>
    </media:community>
   </media:group>
  </entry>
@@ -101,7 +101,7 @@
    <uri>https://www.youtube.com/channel/UC9RS8EzXdRJyYDkwtcsWOuA</uri>
   </author>
   <published>2023-10-04T12:00:46+00:00</published>
-  <updated>2024-05-22T08:17:18+00:00</updated>
+  <updated>2024-07-13T02:04:07+00:00</updated>
   <media:group>
    <media:title>極致變態的黑暗神作！《殺手阿一》（上）酷刑虐🔪，🔞癖好，黑帮血拼😱日本20年前的重口禁忌漫畫</media:title>
    <media:content url="https://www.youtube.com/v/pbWlXBwvHHc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -130,8 +130,8 @@
 
 #日本漫畫 #殺手阿一 #cult</media:description>
    <media:community>
-    <media:starRating count="1203" average="5.00" min="1" max="5"/>
-    <media:statistics views="100586"/>
+    <media:starRating count="1204" average="5.00" min="1" max="5"/>
+    <media:statistics views="101025"/>
    </media:community>
   </media:group>
  </entry>
@@ -146,7 +146,7 @@
    <uri>https://www.youtube.com/channel/UC9RS8EzXdRJyYDkwtcsWOuA</uri>
   </author>
   <published>2023-09-27T12:00:48+00:00</published>
-  <updated>2024-05-25T13:12:13+00:00</updated>
+  <updated>2024-07-14T01:08:34+00:00</updated>
   <media:group>
    <media:title>耶穌的包皮、美女的原味內衣、傑克遜的頭髮、教主的洗澡水、😨太瘋狂了｜盤點究極詭異邪門的代表，狂熱信仰的“聖物”</media:title>
    <media:content url="https://www.youtube.com/v/wKOqvpejjTE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -176,8 +176,8 @@
 
 #日本 #次文化 #戀物</media:description>
    <media:community>
-    <media:starRating count="1076" average="5.00" min="1" max="5"/>
-    <media:statistics views="67059"/>
+    <media:starRating count="1082" average="5.00" min="1" max="5"/>
+    <media:statistics views="67416"/>
    </media:community>
   </media:group>
  </entry>
@@ -192,7 +192,7 @@
    <uri>https://www.youtube.com/channel/UC9RS8EzXdRJyYDkwtcsWOuA</uri>
   </author>
   <published>2023-09-13T12:00:08+00:00</published>
-  <updated>2024-05-22T09:00:08+00:00</updated>
+  <updated>2024-07-15T18:04:04+00:00</updated>
   <media:group>
    <media:title>尺度巨大🥵上世紀日本的🚫級遊戲太驚人了🙈不要在捷運上點開｜🇯🇵日本的文化下限有多低？（下）</media:title>
    <media:content url="https://www.youtube.com/v/B6FQuKP_v_U?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -220,8 +220,8 @@
 
 #遊戲 #videogames  #日本</media:description>
    <media:community>
-    <media:starRating count="2675" average="5.00" min="1" max="5"/>
-    <media:statistics views="248595"/>
+    <media:starRating count="2677" average="5.00" min="1" max="5"/>
+    <media:statistics views="249535"/>
    </media:community>
   </media:group>
  </entry>
@@ -265,8 +265,8 @@
 
 #日本 #動漫 #日本電影</media:description>
    <media:community>
-    <media:starRating count="2396" average="5.00" min="1" max="5"/>
-    <media:statistics views="240519"/>
+    <media:starRating count="2405" average="5.00" min="1" max="5"/>
+    <media:statistics views="241828"/>
    </media:community>
   </media:group>
  </entry>
@@ -281,7 +281,7 @@
    <uri>https://www.youtube.com/channel/UC9RS8EzXdRJyYDkwtcsWOuA</uri>
   </author>
   <published>2023-08-23T12:00:10+00:00</published>
-  <updated>2024-05-10T01:44:25+00:00</updated>
+  <updated>2024-07-15T16:09:41+00:00</updated>
   <media:group>
    <media:title>讓日本女生淪陷的牛郎們到底有何把妹秘籍🤩學會了也能隨便征服姑娘？！ ｜牛郎揭秘東京夜場男公關🍷（下）</media:title>
    <media:content url="https://www.youtube.com/v/DjHTlINXvhA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -310,8 +310,8 @@
 ▶追蹤TenGuSan的IG：@tengusan.real
 ▶我的品牌官網：www.under20.com</media:description>
    <media:community>
-    <media:starRating count="2766" average="5.00" min="1" max="5"/>
-    <media:statistics views="279280"/>
+    <media:starRating count="2792" average="5.00" min="1" max="5"/>
+    <media:statistics views="282645"/>
    </media:community>
   </media:group>
  </entry>
@@ -326,7 +326,7 @@
    <uri>https://www.youtube.com/channel/UC9RS8EzXdRJyYDkwtcsWOuA</uri>
   </author>
   <published>2023-08-16T12:00:28+00:00</published>
-  <updated>2024-05-18T20:40:13+00:00</updated>
+  <updated>2024-07-14T07:26:02+00:00</updated>
   <media:group>
    <media:title>為何日本美女們不惜下海拍🅰️✅也要養牛郎?!羅蘭見了都得跪的地表最強牛郎！揭秘東京夜場男公關🍷（上）</media:title>
    <media:content url="https://www.youtube.com/v/ljdY5C4dVBU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -352,8 +352,8 @@
 ▶追蹤TenGuSan的IG：@tengusan.real
 ▶我的品牌官網：www.under20.com</media:description>
    <media:community>
-    <media:starRating count="2152" average="5.00" min="1" max="5"/>
-    <media:statistics views="202724"/>
+    <media:starRating count="2169" average="5.00" min="1" max="5"/>
+    <media:statistics views="204737"/>
    </media:community>
   </media:group>
  </entry>
@@ -368,7 +368,7 @@
    <uri>https://www.youtube.com/channel/UC9RS8EzXdRJyYDkwtcsWOuA</uri>
   </author>
   <published>2023-08-09T12:00:36+00:00</published>
-  <updated>2024-05-22T03:36:13+00:00</updated>
+  <updated>2024-07-16T00:19:15+00:00</updated>
   <media:group>
    <media:title>全網獨家㊙️訪！對話金牌🅰️✅華人導演：“有些女演員，比我更變態！”｜🦄️F©️2冠軍監督，深度揭秘行業內幕！【1小時超長完整版】</media:title>
    <media:content url="https://www.youtube.com/v/eNx4mGFha2g?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -416,8 +416,8 @@
 ▶追蹤TenGuSan的IG：@tengusan.real
 ▶我的品牌官網：www.under20.com</media:description>
    <media:community>
-    <media:starRating count="1940" average="5.00" min="1" max="5"/>
-    <media:statistics views="311001"/>
+    <media:starRating count="1954" average="5.00" min="1" max="5"/>
+    <media:statistics views="312253"/>
    </media:community>
   </media:group>
  </entry>
@@ -432,7 +432,7 @@
    <uri>https://www.youtube.com/channel/UC9RS8EzXdRJyYDkwtcsWOuA</uri>
   </author>
   <published>2023-07-26T12:00:14+00:00</published>
-  <updated>2024-05-29T08:39:38+00:00</updated>
+  <updated>2024-07-15T17:56:54+00:00</updated>
   <media:group>
    <media:title>揭秘日本老獄警才知道的💀刑細節！死囚生前1小時，這些規矩必須要走！</media:title>
    <media:content url="https://www.youtube.com/v/OEFYi4ccJFA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -458,8 +458,8 @@
 
 #日本 #日本社會</media:description>
    <media:community>
-    <media:starRating count="898" average="5.00" min="1" max="5"/>
-    <media:statistics views="69158"/>
+    <media:starRating count="899" average="5.00" min="1" max="5"/>
+    <media:statistics views="69306"/>
    </media:community>
   </media:group>
  </entry>
@@ -474,7 +474,7 @@
    <uri>https://www.youtube.com/channel/UC9RS8EzXdRJyYDkwtcsWOuA</uri>
   </author>
   <published>2023-07-19T12:00:25+00:00</published>
-  <updated>2024-06-07T03:36:15+00:00</updated>
+  <updated>2024-07-16T04:10:03+00:00</updated>
   <media:group>
    <media:title>比暗網更刺激的🇯🇵匿名論壇：被評為“變態殺人犯們最愛逛的BBS”？🤯一個帖子就能影響股價，更改法律</media:title>
    <media:content url="https://www.youtube.com/v/Kv9RSy28SRU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -503,8 +503,8 @@
 
 #2ch #日本文化 #互聯網</media:description>
    <media:community>
-    <media:starRating count="997" average="5.00" min="1" max="5"/>
-    <media:statistics views="77677"/>
+    <media:starRating count="1000" average="5.00" min="1" max="5"/>
+    <media:statistics views="77949"/>
    </media:community>
   </media:group>
  </entry>
@@ -519,7 +519,7 @@
    <uri>https://www.youtube.com/channel/UC9RS8EzXdRJyYDkwtcsWOuA</uri>
   </author>
   <published>2023-07-12T12:00:43+00:00</published>
-  <updated>2024-05-14T02:33:16+00:00</updated>
+  <updated>2024-07-14T12:46:34+00:00</updated>
   <media:group>
    <media:title>揭秘日本監獄的奇葩規則：絕對不能違背！不然小心被爆🌼到死</media:title>
    <media:content url="https://www.youtube.com/v/pxZplUGT70g?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -544,8 +544,8 @@
 
 #日本社會 #刑務所 #越獄</media:description>
    <media:community>
-    <media:starRating count="729" average="5.00" min="1" max="5"/>
-    <media:statistics views="57341"/>
+    <media:starRating count="732" average="5.00" min="1" max="5"/>
+    <media:statistics views="57534"/>
    </media:community>
   </media:group>
  </entry>
@@ -595,8 +595,8 @@
 ▶追蹤TenGuSan的IG：@tengusan.real
 ▶我的品牌官網：www.under20.com</media:description>
    <media:community>
-    <media:starRating count="1861" average="5.00" min="1" max="5"/>
-    <media:statistics views="126586"/>
+    <media:starRating count="1867" average="5.00" min="1" max="5"/>
+    <media:statistics views="127025"/>
    </media:community>
   </media:group>
  </entry>
@@ -611,7 +611,7 @@
    <uri>https://www.youtube.com/channel/UC9RS8EzXdRJyYDkwtcsWOuA</uri>
   </author>
   <published>2023-06-28T12:00:09+00:00</published>
-  <updated>2024-06-02T06:13:53+00:00</updated>
+  <updated>2024-07-16T04:27:06+00:00</updated>
   <media:group>
    <media:title>【全網獨家】他在64年前就預言了福島核污水事件！日本神級作家星新一：劉慈欣, 伊藤潤二, 日本首相都是他的狂熱粉絲, 柯南也是致敬了他!</media:title>
    <media:content url="https://www.youtube.com/v/AyNmjJgmBVM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -638,7 +638,7 @@
 #福島核污水 #日本核廢水 #核輻射 #科幻</media:description>
    <media:community>
     <media:starRating count="793" average="5.00" min="1" max="5"/>
-    <media:statistics views="42842"/>
+    <media:statistics views="42957"/>
    </media:community>
   </media:group>
  </entry>
@@ -653,7 +653,7 @@
    <uri>https://www.youtube.com/channel/UC9RS8EzXdRJyYDkwtcsWOuA</uri>
   </author>
   <published>2023-06-21T12:00:27+00:00</published>
-  <updated>2024-05-22T04:09:35+00:00</updated>
+  <updated>2024-07-14T11:48:35+00:00</updated>
   <media:group>
    <media:title>爆火恐怖大師伊藤潤二🔥在日本其實根本沒人看😱?! 伊藤式恐怖美學解碼｜ 奈飛Netflix《狂熱集》</media:title>
    <media:content url="https://www.youtube.com/v/_YRpbqikGFE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -684,8 +684,8 @@
 
 #伊藤潤二 #恐怖 #日本 #次文化</media:description>
    <media:community>
-    <media:starRating count="1454" average="5.00" min="1" max="5"/>
-    <media:statistics views="94390"/>
+    <media:starRating count="1459" average="5.00" min="1" max="5"/>
+    <media:statistics views="94696"/>
    </media:community>
   </media:group>
  </entry>
