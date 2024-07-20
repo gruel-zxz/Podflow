@@ -21,7 +21,7 @@
    <uri>https://www.youtube.com/channel/UCmOVUFkam162EJ48KfQaIyg</uri>
   </author>
   <published>2024-02-18T04:13:45+00:00</published>
-  <updated>2024-05-18T04:13:04+00:00</updated>
+  <updated>2024-07-17T22:29:34+00:00</updated>
   <media:group>
    <media:title>P365 AXG LEGION全套凑齐（20240217第6814期）</media:title>
    <media:content url="https://www.youtube.com/v/P82Vd1Lfyl0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -81,7 +81,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="10" average="5.00" min="1" max="5"/>
-    <media:statistics views="1287"/>
+    <media:statistics views="1299"/>
    </media:community>
   </media:group>
  </entry>
@@ -156,7 +156,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="21" average="5.00" min="1" max="5"/>
-    <media:statistics views="2591"/>
+    <media:statistics views="2593"/>
    </media:community>
   </media:group>
  </entry>
@@ -231,7 +231,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="9" average="5.00" min="1" max="5"/>
-    <media:statistics views="667"/>
+    <media:statistics views="668"/>
    </media:community>
   </media:group>
  </entry>
@@ -306,7 +306,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="13" average="5.00" min="1" max="5"/>
-    <media:statistics views="1440"/>
+    <media:statistics views="1443"/>
    </media:community>
   </media:group>
  </entry>
@@ -381,7 +381,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="516"/>
+    <media:statistics views="517"/>
    </media:community>
   </media:group>
  </entry>
@@ -606,7 +606,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="47" average="5.00" min="1" max="5"/>
-    <media:statistics views="8792"/>
+    <media:statistics views="8797"/>
    </media:community>
   </media:group>
  </entry>
@@ -621,7 +621,7 @@ Twitter：stone记@stone62855987</media:description>
    <uri>https://www.youtube.com/channel/UCmOVUFkam162EJ48KfQaIyg</uri>
   </author>
   <published>2023-07-16T20:17:01+00:00</published>
-  <updated>2024-05-27T11:17:16+00:00</updated>
+  <updated>2024-07-16T12:59:45+00:00</updated>
   <media:group>
    <media:title>左轮手枪是如何能够一秒钟打6枪的（20230716第6154期）</media:title>
    <media:content url="https://www.youtube.com/v/8IJTt4ULklM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -680,8 +680,8 @@ https://youtu.be/BbtTwsP_-zc
 
 Twitter：stone记@stone62855987</media:description>
    <media:community>
-    <media:starRating count="32" average="5.00" min="1" max="5"/>
-    <media:statistics views="7668"/>
+    <media:starRating count="33" average="5.00" min="1" max="5"/>
+    <media:statistics views="7670"/>
    </media:community>
   </media:group>
  </entry>
@@ -831,7 +831,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="20" average="5.00" min="1" max="5"/>
-    <media:statistics views="3141"/>
+    <media:statistics views="3143"/>
    </media:community>
   </media:group>
  </entry>
@@ -906,7 +906,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="17" average="5.00" min="1" max="5"/>
-    <media:statistics views="3518"/>
+    <media:statistics views="3521"/>
    </media:community>
   </media:group>
  </entry>
@@ -981,7 +981,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="28" average="5.00" min="1" max="5"/>
-    <media:statistics views="4119"/>
+    <media:statistics views="4124"/>
    </media:community>
   </media:group>
  </entry>
@@ -996,7 +996,7 @@ Twitter：stone记@stone62855987</media:description>
    <uri>https://www.youtube.com/channel/UCmOVUFkam162EJ48KfQaIyg</uri>
   </author>
   <published>2023-05-18T15:30:02+00:00</published>
-  <updated>2024-05-29T15:16:20+00:00</updated>
+  <updated>2024-07-17T12:45:58+00:00</updated>
   <media:group>
    <media:title>订制了5个月，JP5终于到了（20230518第5974期）</media:title>
    <media:content url="https://www.youtube.com/v/MbGAUvonlZ4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -1056,7 +1056,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="31" average="5.00" min="1" max="5"/>
-    <media:statistics views="5990"/>
+    <media:statistics views="5994"/>
    </media:community>
   </media:group>
  </entry>
@@ -1071,7 +1071,7 @@ Twitter：stone记@stone62855987</media:description>
    <uri>https://www.youtube.com/channel/UCmOVUFkam162EJ48KfQaIyg</uri>
   </author>
   <published>2023-05-16T10:41:36+00:00</published>
-  <updated>2024-05-22T04:16:14+00:00</updated>
+  <updated>2024-07-16T21:34:46+00:00</updated>
   <media:group>
    <media:title>订制Korth NXS之前先看这个视频（20230516第5964期）</media:title>
    <media:content url="https://www.youtube.com/v/IAssXIsRF4A?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -1131,7 +1131,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="17" average="5.00" min="1" max="5"/>
-    <media:statistics views="1934"/>
+    <media:statistics views="1933"/>
    </media:community>
   </media:group>
  </entry>

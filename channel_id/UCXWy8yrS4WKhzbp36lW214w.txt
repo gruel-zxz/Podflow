@@ -29,7 +29,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="321"/>
+    <media:statistics views="322"/>
    </media:community>
   </media:group>
  </entry>
@@ -52,7 +52,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="82"/>
+    <media:statistics views="83"/>
    </media:community>
   </media:group>
  </entry>
@@ -67,7 +67,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-06-08T00:15:06+00:00</published>
-  <updated>2024-07-04T14:11:52+00:00</updated>
+  <updated>2024-07-17T16:38:06+00:00</updated>
   <media:group>
    <media:title>三个离奇失踪又神秘归来的人</media:title>
    <media:content url="https://www.youtube.com/v/Q3g7ylULhvw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -75,7 +75,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="54"/>
+    <media:statistics views="55"/>
    </media:community>
   </media:group>
  </entry>
@@ -98,7 +98,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="49"/>
+    <media:statistics views="50"/>
    </media:community>
   </media:group>
  </entry>
@@ -113,7 +113,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-06-06T00:00:07+00:00</published>
-  <updated>2024-07-04T14:57:39+00:00</updated>
+  <updated>2024-07-17T01:29:48+00:00</updated>
   <media:group>
    <media:title>地球如何转动 ，停止转动会怎样</media:title>
    <media:content url="https://www.youtube.com/v/PCG48K5SxfI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -144,7 +144,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="25"/>
+    <media:statistics views="26"/>
    </media:community>
   </media:group>
  </entry>
@@ -182,7 +182,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-06-02T00:15:06+00:00</published>
-  <updated>2024-07-04T14:32:23+00:00</updated>
+  <updated>2024-07-18T08:19:28+00:00</updated>
   <media:group>
    <media:title>化妆品背后的丑恶，印度“幽灵血矿”</media:title>
    <media:content url="https://www.youtube.com/v/UImBmHod40I?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -190,7 +190,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="52"/>
+    <media:statistics views="53"/>
    </media:community>
   </media:group>
  </entry>
@@ -205,7 +205,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-06-01T00:00:06+00:00</published>
-  <updated>2024-06-27T14:26:32+00:00</updated>
+  <updated>2024-07-16T22:36:14+00:00</updated>
   <media:group>
    <media:title>梦游行凶竟然不犯法？</media:title>
    <media:content url="https://www.youtube.com/v/BGA3PkI-vqM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -251,7 +251,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-05-30T07:27:27+00:00</published>
-  <updated>2024-07-04T14:23:53+00:00</updated>
+  <updated>2024-07-17T14:48:14+00:00</updated>
   <media:group>
    <media:title>33岁买3套房，日本最省钱女孩</media:title>
    <media:content url="https://www.youtube.com/v/NsLksY9gO_M?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -297,7 +297,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-05-28T00:00:07+00:00</published>
-  <updated>2024-06-27T14:34:48+00:00</updated>
+  <updated>2024-07-16T15:35:55+00:00</updated>
   <media:group>
    <media:title>职业病头号杀手，尘肺病</media:title>
    <media:content url="https://www.youtube.com/v/Fz2sziNQWaY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -343,7 +343,7 @@
    <uri>https://www.youtube.com/channel/UCXWy8yrS4WKhzbp36lW214w</uri>
   </author>
   <published>2024-05-26T00:00:07+00:00</published>
-  <updated>2024-06-27T14:56:57+00:00</updated>
+  <updated>2024-07-18T01:55:21+00:00</updated>
   <media:group>
    <media:title>和毒枭叫板的作死网红</media:title>
    <media:content url="https://www.youtube.com/v/Lxbu0uKOh8s?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -351,7 +351,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="69"/>
+    <media:statistics views="70"/>
    </media:community>
   </media:group>
  </entry>

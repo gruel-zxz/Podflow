@@ -21,15 +21,15 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-07-16T08:46:19+00:00</published>
-  <updated>2024-07-17T07:21:06+00:00</updated>
+  <updated>2024-07-18T08:34:56+00:00</updated>
   <media:group>
    <media:title>你们自己洗过车吗？真的太爽太解压了！#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
    <media:content url="https://www.youtube.com/v/_3bqeeJaLW8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i4.ytimg.com/vi/_3bqeeJaLW8/hqdefault.jpg" width="480" height="360"/>
    <media:description>你们自己洗过车吗？真的太爽太解压了！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
-    <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="128"/>
+    <media:starRating count="4" average="5.00" min="1" max="5"/>
+    <media:statistics views="300"/>
    </media:community>
   </media:group>
  </entry>
@@ -52,7 +52,7 @@
    <media:description>南方的热和北方的热，你们有感觉到区别吗？让我们来一起吐槽一下这些夏日的热辣辣！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="251"/>
+    <media:statistics views="256"/>
    </media:community>
   </media:group>
  </entry>
@@ -75,7 +75,7 @@
    <media:description>老公熬夜看球累得要命，我伺候他也不轻松，不过，享受和他一起看球的时光，真的是无价的！你们家的球迷是怎么样的呢？一起来吐槽吧！#家庭吐槽大会 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="397"/>
+    <media:statistics views="411"/>
    </media:community>
   </media:group>
  </entry>
@@ -98,7 +98,7 @@
    <media:description>东北人的口才与幽默常常让人信以为真，但听完他们的吐槽后，你会发现自信心也随之增长了！大家有没有类似的经历？欢迎分享！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="12" average="5.00" min="1" max="5"/>
-    <media:statistics views="262"/>
+    <media:statistics views="266"/>
    </media:community>
   </media:group>
  </entry>
@@ -121,7 +121,7 @@
    <media:description>男人们总有一股劲，只要他们有了目标，啥事都难不倒他们！大家有没有碰到过这种情况呢？来分享你的经历吧！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="14" average="5.00" min="1" max="5"/>
-    <media:statistics views="535"/>
+    <media:statistics views="533"/>
    </media:community>
   </media:group>
  </entry>
@@ -144,7 +144,7 @@
    <media:description>平时一向严肃的老公突然兴致勃勃地要和我喝两杯。这是风雨欲来的前兆，还是他有什么特别的计划？大家猜猜看，他究竟在打什么主意？#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="440"/>
+    <media:statistics views="438"/>
    </media:community>
   </media:group>
  </entry>
@@ -167,7 +167,7 @@
    <media:description>你为了自己的爱好愿意花多少钱？和我分享一下你们在买装备上花了多少吧！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="259"/>
+    <media:statistics views="260"/>
    </media:community>
   </media:group>
  </entry>
@@ -190,7 +190,7 @@
    <media:description>只要给义乌一点时间，它真的可以征服全世界！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="254"/>
+    <media:statistics views="256"/>
    </media:community>
   </media:group>
  </entry>
@@ -205,7 +205,7 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-06-21T05:45:02+00:00</published>
-  <updated>2024-06-26T20:52:39+00:00</updated>
+  <updated>2024-07-17T22:56:59+00:00</updated>
   <media:group>
    <media:title>男人发呆的时候都在想什么，我老公经常在脑海中上演角色扮演大戏#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
    <media:content url="https://www.youtube.com/v/-cmIJ1OSen8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -213,7 +213,7 @@
    <media:description>男人发呆的时候到底在想什么？我老公经常在脑海中上演各种角色扮演的大戏！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="3" average="5.00" min="1" max="5"/>
-    <media:statistics views="347"/>
+    <media:statistics views="349"/>
    </media:community>
   </media:group>
  </entry>
@@ -236,7 +236,7 @@
    <media:description>这位大哥可真是厉害，单杆钓座头鲸，那真是一钓开天门啊！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="190"/>
+    <media:statistics views="191"/>
    </media:community>
   </media:group>
  </entry>
@@ -251,7 +251,7 @@
    <uri>https://www.youtube.com/channel/UC3elWG-AxVvIF2_xPQb1rkQ</uri>
   </author>
   <published>2024-06-15T13:31:22+00:00</published>
-  <updated>2024-06-20T06:52:25+00:00</updated>
+  <updated>2024-07-18T07:38:44+00:00</updated>
   <media:group>
    <media:title>贵州的山路造就出了一批车神，他们拿的不是驾照，是王者印记#爱吐槽的四季妈妈 #家庭吐槽大会</media:title>
    <media:content url="https://www.youtube.com/v/YVaIwn6XPDQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -259,7 +259,7 @@
    <media:description>贵州的山路锻炼出了一批真正的车神，他们手中握的可不是普通驾照，而是象征实力的王者印记！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="320"/>
+    <media:statistics views="321"/>
    </media:community>
   </media:group>
  </entry>
@@ -282,7 +282,7 @@
    <media:description>夫妻吵架时，为什么总是男人劝和而女人劝分呢？背后究竟有什么秘密？#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="418"/>
+    <media:statistics views="420"/>
    </media:community>
   </media:group>
  </entry>
@@ -305,7 +305,7 @@
    <media:description>西安修个地铁，竟然把施工现场变成了考古基地，考古人员都忙疯了！#爱吐槽的四季妈妈</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="188"/>
+    <media:statistics views="189"/>
    </media:community>
   </media:group>
  </entry>
@@ -351,7 +351,7 @@
    <media:description>天津人最让人佩服的，不是他们的贫嘴，而是他们那幽默乐观的生活态度！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="9" average="5.00" min="1" max="5"/>
-    <media:statistics views="271"/>
+    <media:statistics views="272"/>
    </media:community>
   </media:group>
  </entry>

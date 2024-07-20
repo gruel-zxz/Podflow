@@ -29,8 +29,8 @@
    <media:description>科幻小说《生命的故事》，作者不详，似乎有意不透露真名实姓。
 看完作品后我一度怀疑作者本人是否参与过类似的保密试验。</media:description>
    <media:community>
-    <media:starRating count="96" average="5.00" min="1" max="5"/>
-    <media:statistics views="5714"/>
+    <media:starRating count="100" average="5.00" min="1" max="5"/>
+    <media:statistics views="6357"/>
    </media:community>
   </media:group>
  </entry>
@@ -45,7 +45,7 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2024-07-03T05:42:56+00:00</published>
-  <updated>2024-07-10T15:07:48+00:00</updated>
+  <updated>2024-07-17T04:59:03+00:00</updated>
   <media:group>
    <media:title>如果人类的进化历程被干预，人类还会存在吗？科幻经典《布鲁克林工程》</media:title>
    <media:content url="https://www.youtube.com/v/MUSsmyjepMc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -53,7 +53,7 @@
    <media:description>如果人类的进化历程被干预，人类还会存在吗？科幻经典《布鲁克林工程》</media:description>
    <media:community>
     <media:starRating count="128" average="5.00" min="1" max="5"/>
-    <media:statistics views="6281"/>
+    <media:statistics views="6369"/>
    </media:community>
   </media:group>
  </entry>
@@ -68,7 +68,7 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2024-06-28T04:40:35+00:00</published>
-  <updated>2024-07-01T23:27:05+00:00</updated>
+  <updated>2024-07-17T06:43:17+00:00</updated>
   <media:group>
    <media:title>太平洋岛国上的土著，如何会成为撬动世界的人：经典科幻小说解读</media:title>
    <media:content url="https://www.youtube.com/v/Hg2wfL1pwJI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -76,7 +76,7 @@
    <media:description>太平洋岛国上的土著，如何会成为撬动世界的人：经典科幻小说解读——《撬动世界的哈林达姆》，原著：七月。</media:description>
    <media:community>
     <media:starRating count="117" average="5.00" min="1" max="5"/>
-    <media:statistics views="5786"/>
+    <media:statistics views="5870"/>
    </media:community>
   </media:group>
  </entry>
@@ -99,8 +99,8 @@
    <media:description>科幻经典《平面国》，中文版由果麦出品。
 这是一部我们这么多年来推荐给很多读者的科幻小说，原著写于19世纪，但是提出的概念相当超前！对于想了解空间维度的朋友，这本书是绝对的首选。</media:description>
    <media:community>
-    <media:starRating count="348" average="5.00" min="1" max="5"/>
-    <media:statistics views="25857"/>
+    <media:starRating count="359" average="5.00" min="1" max="5"/>
+    <media:statistics views="27254"/>
    </media:community>
   </media:group>
  </entry>
@@ -115,7 +115,7 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2024-06-14T14:56:54+00:00</published>
-  <updated>2024-06-17T22:29:15+00:00</updated>
+  <updated>2024-07-16T16:44:22+00:00</updated>
   <media:group>
    <media:title>未知的力量篡改了人们的记忆：时空折叠？曼德拉效应？</media:title>
    <media:content url="https://www.youtube.com/v/DOhUnNcnnss?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -124,7 +124,7 @@
 是一部20多年前的国产科幻小说，近年来很多人开始讨论曼德拉效应，那么这部小说就给出了一种很另类的解释。</media:description>
    <media:community>
     <media:starRating count="99" average="5.00" min="1" max="5"/>
-    <media:statistics views="5343"/>
+    <media:statistics views="5401"/>
    </media:community>
   </media:group>
  </entry>
@@ -146,8 +146,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/2q9Qd_8ADdI/hqdefault.jpg" width="480" height="360"/>
    <media:description>人类建造光帆来发电，结果却吸引来了高等级文明：科幻小说《天帆》，原著：江波。</media:description>
    <media:community>
-    <media:starRating count="104" average="5.00" min="1" max="5"/>
-    <media:statistics views="6228"/>
+    <media:starRating count="105" average="5.00" min="1" max="5"/>
+    <media:statistics views="6287"/>
    </media:community>
   </media:group>
  </entry>
@@ -169,8 +169,8 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/p212sAZQC_8/hqdefault.jpg" width="480" height="360"/>
    <media:description>人类的情绪，不过是简单的电化学反应：科幻名著《快乐的理由》，原著：格雷格.伊根，出自同名科幻小说集《快乐的理由》</media:description>
    <media:community>
-    <media:starRating count="88" average="5.00" min="1" max="5"/>
-    <media:statistics views="3694"/>
+    <media:starRating count="89" average="5.00" min="1" max="5"/>
+    <media:statistics views="3710"/>
    </media:community>
   </media:group>
  </entry>
@@ -193,8 +193,8 @@
    <media:description>一场芯片与人脑的较量，生与死边缘的我如何获得永生？《学习成为我》Learning to Be Me 原著：格雷格伊根，出自科幻小说集《祈祷之海》，这篇堪称神作，非常建议大家看看原著。
 抱歉了大家，拖更了半个月，最近总算把几个长篇内容搞完了，近期恢复每周更新。</media:description>
    <media:community>
-    <media:starRating count="110" average="5.00" min="1" max="5"/>
-    <media:statistics views="4522"/>
+    <media:starRating count="111" average="5.00" min="1" max="5"/>
+    <media:statistics views="4544"/>
    </media:community>
   </media:group>
  </entry>
@@ -209,7 +209,7 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2024-05-06T06:59:12+00:00</published>
-  <updated>2024-05-27T08:57:13+00:00</updated>
+  <updated>2024-07-16T11:04:10+00:00</updated>
   <media:group>
    <media:title>天文学家发现“时间逆流星系”，能用它来做什么？《百光年日记》</media:title>
    <media:content url="https://www.youtube.com/v/72G9lxhGpfU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -217,7 +217,7 @@
    <media:description>天文学家发现“时间逆流星系”，能用它来做什么？《百光年日记》，原著：格雷格.伊根。</media:description>
    <media:community>
     <media:starRating count="156" average="5.00" min="1" max="5"/>
-    <media:statistics views="7459"/>
+    <media:statistics views="7486"/>
    </media:community>
   </media:group>
  </entry>
@@ -240,7 +240,7 @@
    <media:description>当外星人的科技树点错之后：科幻小说《最后一个外星人》了，这是一篇有趣的小说，希望大家喜欢。</media:description>
    <media:community>
     <media:starRating count="196" average="5.00" min="1" max="5"/>
-    <media:statistics views="8443"/>
+    <media:statistics views="8484"/>
    </media:community>
   </media:group>
  </entry>
@@ -255,7 +255,7 @@
    <uri>https://www.youtube.com/channel/UCp1nO1bgVwks9b5EhKQGVag</uri>
   </author>
   <published>2024-04-28T07:25:20+00:00</published>
-  <updated>2024-06-06T15:01:28+00:00</updated>
+  <updated>2024-07-16T16:50:25+00:00</updated>
   <media:group>
    <media:title>用AI制作一首关于“费米悖论”的歌曲——总有一颗星为我们启明</media:title>
    <media:content url="https://www.youtube.com/v/Dpmcni1bC58?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -263,7 +263,7 @@
    <media:description>我们近期用AI作了这首歌曲，还算满意，大家听听看这个咋样。不过这首还是有点瑕疵，最近训练AI很久了，下次给大家呈现出更好的视听体验。这首就当纯娱乐。</media:description>
    <media:community>
     <media:starRating count="56" average="5.00" min="1" max="5"/>
-    <media:statistics views="1762"/>
+    <media:statistics views="1765"/>
    </media:community>
   </media:group>
  </entry>
@@ -287,7 +287,7 @@
 这是另一部阿西莫夫的代表作，只是中文版出版太晚了，很多读者也是近两年来才接触到，让我们一起欣赏一下吧。</media:description>
    <media:community>
     <media:starRating count="88" average="5.00" min="1" max="5"/>
-    <media:statistics views="4976"/>
+    <media:statistics views="4993"/>
    </media:community>
   </media:group>
  </entry>
@@ -310,7 +310,7 @@
    <media:description>《过去已死》,原著：阿西莫夫，出自|《阿西莫夫科幻短篇全集》。是作者的另一部代表作。</media:description>
    <media:community>
     <media:starRating count="187" average="5.00" min="1" max="5"/>
-    <media:statistics views="10519"/>
+    <media:statistics views="10548"/>
    </media:community>
   </media:group>
  </entry>
@@ -333,8 +333,8 @@
    <media:description>这篇小说的结尾——有彩蛋！
 《群星的背面》作者：谢云宁，他来了！</media:description>
    <media:community>
-    <media:starRating count="143" average="5.00" min="1" max="5"/>
-    <media:statistics views="6056"/>
+    <media:starRating count="144" average="5.00" min="1" max="5"/>
+    <media:statistics views="6073"/>
    </media:community>
   </media:group>
  </entry>
@@ -357,7 +357,7 @@
    <media:description>谢缵泰：中国飞艇设计制造的第一人，也是中国航空先驱。于1899年完成了首例飞艇的设计。科幻小说《龙骸》，出自雨果奖获得者海漄的科幻作品集《海漄怪奇故事集》，《龙骸》中涉及到的历史人物均有原型。</media:description>
    <media:community>
     <media:starRating count="154" average="5.00" min="1" max="5"/>
-    <media:statistics views="9661"/>
+    <media:statistics views="9708"/>
    </media:community>
   </media:group>
  </entry>

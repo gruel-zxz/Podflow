@@ -2471,6 +2471,7 @@ def xml_item(
 ):
     channelid_title = html.escape(channelid_title)
     # 查看标题中是否有频道名称如无添加到描述中并去除空字符
+    title = title.replace('\x00', '')
     if channelid_title not in title:
         if description == "":
             description = f"『{channelid_title}』{description}"

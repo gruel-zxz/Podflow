@@ -10,6 +10,76 @@
   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
  </author>
  <entry>
+  <id>yt:video:O0FivZZvJ_A</id>
+  <yt:videoId>O0FivZZvJ_A</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>YouTube’s ultimate DJ b2b with @atrak and friends</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=O0FivZZvJ_A"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2024-07-18T14:00:15+00:00</published>
+  <updated>2024-07-19T02:12:15+00:00</updated>
+  <media:group>
+   <media:title>YouTube’s ultimate DJ b2b with @atrak and friends</media:title>
+   <media:content url="https://www.youtube.com/v/O0FivZZvJ_A?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/O0FivZZvJ_A/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Bump up the volume for a DJ b2b experience like no other. @atrak kicks us off on an amazing journey celebrating DJ culture from all over the world. On this relay rave, there is every flavor of music in the mix. From house, techno and electronica to R&amp;B - it’s a party you don’t want to miss. Cue the music!
+
+Featured Creators:
+ @atrak   
+ @flavourtrip 
+ @chrisluno   
+ @bookclubradio   
+ @SelenaFaider   
+ @ElevatorMusicLive   
+ @DefectedMusic   
+ @samdivinedj   
+ @bobbynsenga   
+ @MyAnalogJournal   
+ @Shaqdi 
+ @Somnyama   
+ @helloteevee   
+ @morningmaxwell563   
+ @REANALOG   
+ @darevandelay   
+
+TRACKLIST:
+0.28 - Can’t Stop - Duck Sauce, A-Trak &amp; Armand Van Helden
+2.31 - Falling Deep In Love (Joey Negro Disco Blend) - Horse Meat Disco, Katy Sledge, Dave Lee
+2.51 - Serious - Seamus Haji, Mike Dun
+4.21 - All Day Long - Chris Luno, Louis Voglser
+5.15 - Sterny - Chris Luno
+5.40 - Normal Friends - Tinzo + Jojo
+6.43 - You - Tinzo + Jojo
+7.07 - Under My Feet - Selena Faider
+8.09 - Need You - Selena Faider
+8.54 - Be Together - Selena Faider ft. HGC
+9.18 - Sulla Pista - Tommaso
+10.36 - G Class - Tommaso
+11.49 - Saved By The Record - Sam Divine ft. Josh Barry
+13.40 - Mind Ur Step - Dennis Ferrer (Sam Divine Remix)
+14.37 - February 3rd - Jorja Smith
+
+#djcommunity #b2b #livedjset 
+
+00:00 Intro
+0:22 A-Trak
+2:29 Flavour Trip‬
+4:19 Chris Luno
+5:38 Book Club Radio    
+7:03 Selena Faider
+9:17 ‪Elevator Music
+‬11:48 Defected Music    
+14:34 Bobby Nsenga‬</media:description>
+   <media:community>
+    <media:starRating count="2430" average="5.00" min="1" max="5"/>
+    <media:statistics views="126748"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:7nUNs_lpa7o</id>
   <yt:videoId>7nUNs_lpa7o</yt:videoId>
   <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
@@ -20,15 +90,15 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-07-16T22:00:36+00:00</published>
-  <updated>2024-07-16T22:05:05+00:00</updated>
+  <updated>2024-07-17T18:03:41+00:00</updated>
   <media:group>
    <media:title>@ZachKing's speedcubing strategy has us all 👀 ‪@1SkaterGirl33‬</media:title>
    <media:content url="https://www.youtube.com/v/7nUNs_lpa7o?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i4.ytimg.com/vi/7nUNs_lpa7o/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="533" average="5.00" min="1" max="5"/>
-    <media:statistics views="7418"/>
+    <media:starRating count="1428" average="5.00" min="1" max="5"/>
+    <media:statistics views="27656"/>
    </media:community>
   </media:group>
  </entry>
@@ -43,7 +113,7 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-07-12T14:00:56+00:00</published>
-  <updated>2024-07-15T15:19:52+00:00</updated>
+  <updated>2024-07-17T15:55:41+00:00</updated>
   <media:group>
    <media:title>@SoupTimmy vs @1SkaterGirl33 Face Off in the Ultimate Rubik’s Cube Trivia Challenge</media:title>
    <media:content url="https://www.youtube.com/v/yyvBqSC4uU8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -74,8 +144,8 @@ Featured Creators:
 
 #RubiksCube #SoupTimmy #LiviaKleiner</media:description>
    <media:community>
-    <media:starRating count="8465" average="5.00" min="1" max="5"/>
-    <media:statistics views="607919"/>
+    <media:starRating count="9252" average="5.00" min="1" max="5"/>
+    <media:statistics views="919234"/>
    </media:community>
   </media:group>
  </entry>
@@ -97,8 +167,8 @@ Featured Creators:
    <media:thumbnail url="https://i4.ytimg.com/vi/KO78ERVZNEQ/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2469" average="5.00" min="1" max="5"/>
-    <media:statistics views="97766"/>
+    <media:starRating count="2787" average="5.00" min="1" max="5"/>
+    <media:statistics views="110099"/>
    </media:community>
   </media:group>
  </entry>
@@ -120,8 +190,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/f2yMJHWeTnQ/hqdefault.jpg" width="480" height="360"/>
    <media:description>👀 try the YouTube Shorts effect for yourself here ➡️ https://yt.be/dY8Vc</media:description>
    <media:community>
-    <media:starRating count="4220" average="5.00" min="1" max="5"/>
-    <media:statistics views="127970"/>
+    <media:starRating count="4427" average="5.00" min="1" max="5"/>
+    <media:statistics views="135616"/>
    </media:community>
   </media:group>
  </entry>
@@ -143,8 +213,8 @@ Featured Creators:
    <media:thumbnail url="https://i2.ytimg.com/vi/AVqmafJOYUQ/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2581" average="5.00" min="1" max="5"/>
-    <media:statistics views="91462"/>
+    <media:starRating count="2778" average="5.00" min="1" max="5"/>
+    <media:statistics views="98960"/>
    </media:community>
   </media:group>
  </entry>
@@ -166,8 +236,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/zYKpCSxwuE4/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2661" average="5.00" min="1" max="5"/>
-    <media:statistics views="79752"/>
+    <media:starRating count="2768" average="5.00" min="1" max="5"/>
+    <media:statistics views="84819"/>
    </media:community>
   </media:group>
  </entry>
@@ -189,8 +259,8 @@ Featured Creators:
    <media:thumbnail url="https://i1.ytimg.com/vi/xj7QygP0QnY/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1227" average="5.00" min="1" max="5"/>
-    <media:statistics views="67795"/>
+    <media:starRating count="1315" average="5.00" min="1" max="5"/>
+    <media:statistics views="73960"/>
    </media:community>
   </media:group>
  </entry>
@@ -212,8 +282,8 @@ Featured Creators:
    <media:thumbnail url="https://i1.ytimg.com/vi/LQDMCbeWDsg/hqdefault.jpg" width="480" height="360"/>
    <media:description>hop on Shorts to show @pesopluma_oficial how you turn up 🥳</media:description>
    <media:community>
-    <media:starRating count="2889" average="5.00" min="1" max="5"/>
-    <media:statistics views="82327"/>
+    <media:starRating count="2960" average="5.00" min="1" max="5"/>
+    <media:statistics views="85738"/>
    </media:community>
   </media:group>
  </entry>
@@ -235,8 +305,8 @@ Featured Creators:
    <media:thumbnail url="https://i1.ytimg.com/vi/4AUdpdAqHts/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1834" average="5.00" min="1" max="5"/>
-    <media:statistics views="63578"/>
+    <media:starRating count="1892" average="5.00" min="1" max="5"/>
+    <media:statistics views="67411"/>
    </media:community>
   </media:group>
  </entry>
@@ -258,8 +328,8 @@ Featured Creators:
    <media:thumbnail url="https://i4.ytimg.com/vi/oO92CVWfNmM/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3468" average="5.00" min="1" max="5"/>
-    <media:statistics views="94182"/>
+    <media:starRating count="3544" average="5.00" min="1" max="5"/>
+    <media:statistics views="97763"/>
    </media:community>
   </media:group>
  </entry>
@@ -326,8 +396,8 @@ Featured Creators:
 19:20 Evening Wind Down
 23:10 Bedtime Routine</media:description>
    <media:community>
-    <media:starRating count="8744" average="5.00" min="1" max="5"/>
-    <media:statistics views="1339780"/>
+    <media:starRating count="9110" average="5.00" min="1" max="5"/>
+    <media:statistics views="1289804"/>
    </media:community>
   </media:group>
  </entry>
@@ -349,8 +419,8 @@ Featured Creators:
    <media:thumbnail url="https://i2.ytimg.com/vi/UnkJhofJpZU/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2311" average="5.00" min="1" max="5"/>
-    <media:statistics views="74658"/>
+    <media:starRating count="2376" average="5.00" min="1" max="5"/>
+    <media:statistics views="78011"/>
    </media:community>
   </media:group>
  </entry>
@@ -372,8 +442,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/nfcWfXr_kks/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2727" average="5.00" min="1" max="5"/>
-    <media:statistics views="98244"/>
+    <media:starRating count="2759" average="5.00" min="1" max="5"/>
+    <media:statistics views="100832"/>
    </media:community>
   </media:group>
  </entry>
@@ -395,31 +465,8 @@ Featured Creators:
    <media:thumbnail url="https://i4.ytimg.com/vi/coHDW2PCUTs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="3300" average="5.00" min="1" max="5"/>
-    <media:statistics views="100373"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:AqnJ1-K0j_s</id>
-  <yt:videoId>AqnJ1-K0j_s</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>how many did you get right? @JunoBirch @trixie</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=AqnJ1-K0j_s"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2024-06-12T18:00:29+00:00</published>
-  <updated>2024-07-13T02:34:21+00:00</updated>
-  <media:group>
-   <media:title>how many did you get right? @JunoBirch @trixie</media:title>
-   <media:content url="https://www.youtube.com/v/AqnJ1-K0j_s?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/AqnJ1-K0j_s/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="2243" average="5.00" min="1" max="5"/>
-    <media:statistics views="80255"/>
+    <media:starRating count="3347" average="5.00" min="1" max="5"/>
+    <media:statistics views="103590"/>
    </media:community>
   </media:group>
  </entry>
