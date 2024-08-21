@@ -3,21 +3,22 @@
     <channel>
         <title>TenGuSan</title>
         <link>https://www.youtube.com/channel/UC9RS8EzXdRJyYDkwtcsWOuA</link>
-        <description>在iOS平台上借助workflow和a-shell搭建专属的播客服务器。</description>
+        <description>一頓飯時間，了解亞文化
+全部影片YouTube獨家放送</description>
         <category>TV &amp; Film</category>
         <generator>Podflow (support us at https://github.com/gruel-zxz/podflow)</generator>
         <language>en-us</language>
-        <lastBuildDate>Fri, 19 Jul 2024 16:10:43 +0800</lastBuildDate>
+        <lastBuildDate>Wed, 21 Aug 2024 09:19:05 +0800</lastBuildDate>
         <pubDate>Sun, 24 Apr 2005 11:20:54 +0800</pubDate>
         <image>
-            <url>https://raw.githubusercontent.com/gruel-zxz/podflow/main/Podflow_dark.png</url>
+            <url>https://yt3.googleusercontent.com/usp3VXLTAa0WjvDKFMqZwx0iRHMVWnoPtfJWOFHALf9majw2tQY3RLagG9AdJhce8fbd-9_0Mw=s2048-c-k-c0x00ffffff-no-rj</url>
             <title>TenGuSan</title>
             <link>https://www.youtube.com/channel/UC9RS8EzXdRJyYDkwtcsWOuA</link>
         </image>
         <itunes:author>TenGuSan</itunes:author>
         <itunes:subtitle>TenGuSan</itunes:subtitle>
-        <itunes:summary><![CDATA[在iOS平台上借助workflow和a-shell搭建专属的播客服务器。]]></itunes:summary>
-        <itunes:image href="https://raw.githubusercontent.com/gruel-zxz/podflow/main/Podflow_dark.png"></itunes:image>
+        <itunes:summary><![CDATA[一頓飯時間，了解亞文化&#xA;全部影片YouTube獨家放送]]></itunes:summary>
+        <itunes:image href="https://yt3.googleusercontent.com/usp3VXLTAa0WjvDKFMqZwx0iRHMVWnoPtfJWOFHALf9majw2tQY3RLagG9AdJhce8fbd-9_0Mw=s2048-c-k-c0x00ffffff-no-rj"></itunes:image>
         <itunes:explicit>no</itunes:explicit>
         <itunes:category text="TV &amp; Film"></itunes:category>
 <!-- {UC9RS8EzXdRJyYDkwtcsWOuA} -->

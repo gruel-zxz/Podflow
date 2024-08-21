@@ -80,8 +80,8 @@ https://youtu.be/BbtTwsP_-zc
 
 Twitter：stone记@stone62855987</media:description>
    <media:community>
-    <media:starRating count="10" average="5.00" min="1" max="5"/>
-    <media:statistics views="1299"/>
+    <media:starRating count="11" average="5.00" min="1" max="5"/>
+    <media:statistics views="1479"/>
    </media:community>
   </media:group>
  </entry>
@@ -155,8 +155,8 @@ https://youtu.be/BbtTwsP_-zc
 
 Twitter：stone记@stone62855987</media:description>
    <media:community>
-    <media:starRating count="21" average="5.00" min="1" max="5"/>
-    <media:statistics views="2593"/>
+    <media:starRating count="22" average="5.00" min="1" max="5"/>
+    <media:statistics views="2659"/>
    </media:community>
   </media:group>
  </entry>
@@ -171,7 +171,7 @@ Twitter：stone记@stone62855987</media:description>
    <uri>https://www.youtube.com/channel/UCmOVUFkam162EJ48KfQaIyg</uri>
   </author>
   <published>2024-01-27T03:10:54+00:00</published>
-  <updated>2024-05-09T18:53:44+00:00</updated>
+  <updated>2024-07-19T15:01:24+00:00</updated>
   <media:group>
    <media:title>Daniel Defense H9，ZEV，Primary Arms（20240126第6784期）</media:title>
    <media:content url="https://www.youtube.com/v/gXWzp5AJtl8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -230,8 +230,8 @@ https://youtu.be/BbtTwsP_-zc
 
 Twitter：stone记@stone62855987</media:description>
    <media:community>
-    <media:starRating count="9" average="5.00" min="1" max="5"/>
-    <media:statistics views="668"/>
+    <media:starRating count="10" average="5.00" min="1" max="5"/>
+    <media:statistics views="697"/>
    </media:community>
   </media:group>
  </entry>
@@ -306,7 +306,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="13" average="5.00" min="1" max="5"/>
-    <media:statistics views="1443"/>
+    <media:statistics views="1481"/>
    </media:community>
   </media:group>
  </entry>
@@ -381,7 +381,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="517"/>
+    <media:statistics views="526"/>
    </media:community>
   </media:group>
  </entry>
@@ -456,7 +456,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="988"/>
+    <media:statistics views="1008"/>
    </media:community>
   </media:group>
  </entry>
@@ -471,7 +471,7 @@ Twitter：stone记@stone62855987</media:description>
    <uri>https://www.youtube.com/channel/UCmOVUFkam162EJ48KfQaIyg</uri>
   </author>
   <published>2024-01-24T05:58:03+00:00</published>
-  <updated>2024-07-14T13:13:41+00:00</updated>
+  <updated>2024-08-18T04:35:56+00:00</updated>
   <media:group>
    <media:title>第一家就直奔Atlas（20240123第6744期）</media:title>
    <media:content url="https://www.youtube.com/v/lCth04kPnY0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -531,7 +531,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="24" average="5.00" min="1" max="5"/>
-    <media:statistics views="2870"/>
+    <media:statistics views="2899"/>
    </media:community>
   </media:group>
  </entry>
@@ -546,7 +546,7 @@ Twitter：stone记@stone62855987</media:description>
    <uri>https://www.youtube.com/channel/UCmOVUFkam162EJ48KfQaIyg</uri>
   </author>
   <published>2023-08-27T23:41:49+00:00</published>
-  <updated>2024-05-22T09:27:08+00:00</updated>
+  <updated>2024-08-06T12:56:26+00:00</updated>
   <media:group>
    <media:title>一万美元一只的Infinity手枪（20230827第6284期）</media:title>
    <media:content url="https://www.youtube.com/v/QgJZKrtZZ6E?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -606,7 +606,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="47" average="5.00" min="1" max="5"/>
-    <media:statistics views="8797"/>
+    <media:statistics views="8850"/>
    </media:community>
   </media:group>
  </entry>
@@ -681,7 +681,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="33" average="5.00" min="1" max="5"/>
-    <media:statistics views="7670"/>
+    <media:statistics views="7721"/>
    </media:community>
   </media:group>
  </entry>
@@ -696,7 +696,7 @@ Twitter：stone记@stone62855987</media:description>
    <uri>https://www.youtube.com/channel/UCmOVUFkam162EJ48KfQaIyg</uri>
   </author>
   <published>2023-06-30T22:30:00+00:00</published>
-  <updated>2024-07-15T07:26:30+00:00</updated>
+  <updated>2024-08-04T08:55:51+00:00</updated>
   <media:group>
    <media:title>Benelli M4可调节6个位置的stock tube，俄罗斯蹲（20230630第6114期）</media:title>
    <media:content url="https://www.youtube.com/v/5D-getPqCW8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -756,7 +756,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="20" average="5.00" min="1" max="5"/>
-    <media:statistics views="4274"/>
+    <media:statistics views="4301"/>
    </media:community>
   </media:group>
  </entry>
@@ -830,8 +830,8 @@ https://youtu.be/BbtTwsP_-zc
 
 Twitter：stone记@stone62855987</media:description>
    <media:community>
-    <media:starRating count="20" average="5.00" min="1" max="5"/>
-    <media:statistics views="3143"/>
+    <media:starRating count="21" average="5.00" min="1" max="5"/>
+    <media:statistics views="3166"/>
    </media:community>
   </media:group>
  </entry>
@@ -906,7 +906,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="17" average="5.00" min="1" max="5"/>
-    <media:statistics views="3521"/>
+    <media:statistics views="3547"/>
    </media:community>
   </media:group>
  </entry>
@@ -921,7 +921,7 @@ Twitter：stone记@stone62855987</media:description>
    <uri>https://www.youtube.com/channel/UCmOVUFkam162EJ48KfQaIyg</uri>
   </author>
   <published>2023-05-23T04:15:00+00:00</published>
-  <updated>2024-07-12T21:50:18+00:00</updated>
+  <updated>2024-08-15T07:39:14+00:00</updated>
   <media:group>
    <media:title>JP5 对比 CMMG Banshee 300（20230522第5984期）</media:title>
    <media:content url="https://www.youtube.com/v/kCPR17fMDOU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -981,7 +981,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="28" average="5.00" min="1" max="5"/>
-    <media:statistics views="4124"/>
+    <media:statistics views="4144"/>
    </media:community>
   </media:group>
  </entry>
@@ -1055,8 +1055,8 @@ https://youtu.be/BbtTwsP_-zc
 
 Twitter：stone记@stone62855987</media:description>
    <media:community>
-    <media:starRating count="31" average="5.00" min="1" max="5"/>
-    <media:statistics views="5994"/>
+    <media:starRating count="32" average="5.00" min="1" max="5"/>
+    <media:statistics views="6029"/>
    </media:community>
   </media:group>
  </entry>
@@ -1131,7 +1131,7 @@ https://youtu.be/BbtTwsP_-zc
 Twitter：stone记@stone62855987</media:description>
    <media:community>
     <media:starRating count="17" average="5.00" min="1" max="5"/>
-    <media:statistics views="1933"/>
+    <media:statistics views="1966"/>
    </media:community>
   </media:group>
  </entry>

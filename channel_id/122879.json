@@ -16,6 +16,34 @@
         "desc": "bilibili 2020百大UP主、知名UP主"
     },
     "entry": {
+        "BV14W42197fz": {
+            "aid": 1856389427,
+            "author": "敖厂长",
+            "bvid": "BV14W42197fz",
+            "copyright": "1",
+            "created": 1724063700,
+            "description": "设备：无改PSP1000、2000、3000\n游戏：山脊赛车PSP 日版\n设置：进入游戏-单独比赛-765号地图-Class1-AT-默认车辆-开炫\n如果三圈跑完总时长低于3:41的，都可以变得更加骄傲",
+            "is_union_video": 0,
+            "length": "08:34",
+            "mid": 122879,
+            "pic": "http://i0.hdslb.com/bfs/archive/f721d12495739138788276b82f8839c0de4dadc6.jpg",
+            "title": "我举办了一场山脊赛车线下水友赛",
+            "typeid": 17
+        },
+        "BV11y411i7yA": {
+            "aid": 1956308674,
+            "author": "敖厂长",
+            "bvid": "BV11y411i7yA",
+            "copyright": "1",
+            "created": 1721380800,
+            "description": "囧的呼唤R3 \n各位观众朋友，我将会于8月11日在重庆方圆LIVE参加由内个哥们儿举办的活动，接受水友挑战，期待与大家进行PSP版山脊赛车现场对战！",
+            "is_union_video": 0,
+            "length": "11:33",
+            "mid": 122879,
+            "pic": "http://i2.hdslb.com/bfs/archive/f6a5881dcf022afdea1a956d63b17c4b42e123e8.jpg",
+            "title": "离谱！需要两台主机才能解锁隐藏关卡",
+            "typeid": 17
+        },
         "BV1mT421e77V": {
             "aid": 1705764172,
             "author": "敖厂长",
@@ -337,37 +365,11 @@
             "pic": "http://i2.hdslb.com/bfs/archive/bacc009bb93d2d42110f887fbf44269135f1212e.jpg",
             "title": "童年超难动作解谜游戏 大部分人只见过第一关！",
             "typeid": 17
-        },
-        "BV1i34y1b72H": {
-            "aid": 809552248,
-            "author": "敖厂长",
-            "bvid": "BV1i34y1b72H",
-            "copyright": "1",
-            "created": 1646884817,
-            "description": "囧的呼唤系列\n\n本期视频由敖厂长独立制作 绝对原汁原味\n\n视频中互动电影画面均为敖厂长亲自游玩并录制\n\n=======================================\n\n视频中所有游戏相关信息参考维基词条\nhttps://en.wikipedia.org/wiki/Tender_Loving_Care_(video_game)\n=======================================\nSEGA 赛车街机游戏画面来自YOUTUBE\nhttps://www.youtube",
-            "is_union_video": 0,
-            "length": "09:53",
-            "mid": 122879,
-            "pic": "http://i0.hdslb.com/bfs/archive/29e6dce5abff0be7f29cba78462981d79a0346d4.jpg",
-            "title": "以为买的那种游戏结果发现竟是心理测试软件",
-            "typeid": 17
-        },
-        "BV1Y44y1H7Cx": {
-            "aid": 978970302,
-            "author": "敖厂长",
-            "bvid": "BV1Y44y1H7Cx",
-            "copyright": "1",
-            "created": 1644487726,
-            "description": "神秘海域4 PS5实况",
-            "is_union_video": 0,
-            "length": "50:33",
-            "mid": 122879,
-            "pic": "http://i2.hdslb.com/bfs/archive/9e96dc1b8e7ec6c8f897320a2ad5c29b22c13817.jpg",
-            "title": "探险厂长P10",
-            "typeid": 17
         }
     },
     "list": [
+        "BV14W42197fz",
+        "BV11y411i7yA",
         "BV1mT421e77V",
         "BV1nD42137j7",
         "BV1hP4y117Rs",
@@ -390,8 +392,6 @@
         "BV1yZ4y117mc",
         "BV1qZ4y117ep",
         "BV1ZZ4y127jF",
-        "BV14S4y1D7yV",
-        "BV1i34y1b72H",
-        "BV1Y44y1H7Cx"
+        "BV14S4y1D7yV"
     ]
 }
