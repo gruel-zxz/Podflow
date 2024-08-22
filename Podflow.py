@@ -2612,7 +2612,7 @@ def xml_item(
     # 查看标题中是否有频道名称如无添加到描述中并去除空字符
     title = title.replace('\x00', '')
     if channelid_title not in title:
-        if description == "" or "〖互动视频〗" in description:
+        if description == "":
             description = f"『{channelid_title}』{description}"
         else:
             description = f"『{channelid_title}』\n{description}".replace('\x00', '')
@@ -2996,7 +2996,7 @@ def bilibili_xml_items(output_dir):
                     guid_edgeinfos = get_bilibili_interactive(guid, channelid_bilibili_ids[output_dir])
             if items_counts[guid] == len(guid_parts):
                 for guid_part in guid_parts:
-                    guid_part_text = f"{item['title']} Part{guid_part['page']:02}"
+                    guid_part_text = f"{item['title']} Part{guid_part['page']:0{len(str(len(guid_parts)))}}"
                     if item["title"] != guid_part["part"]:
                         guid_part_text += f" {guid_part['part']}"
                     xml_item_text = xml_item(
@@ -3018,7 +3018,6 @@ def bilibili_xml_items(output_dir):
                             + "\n".join(guid_edgeinfo["options"])
                             + "\n------------------------------------------------\n"
                             + item["description"]
-
                         )
                     else:
                         description = (
@@ -3026,13 +3025,13 @@ def bilibili_xml_items(output_dir):
                             + "\n------------------------------------------------\n"
                             + item["description"]
                         )
-                        
+                    guid_edgeinfo_text = f"{item['title']} Part{guid_edgeinfo['num']:0{len(str(len(guid_edgeinfos)))}} {guid_edgeinfo['title']}"
                     xml_item_text = xml_item(
                         f"{item['bvid']}_{guid_edgeinfo['cid']}",
                         output_dir,
                         f"https://www.bilibili.com/video/{guid}",
                         channelid_bilibili[channelid_bilibili_ids[output_dir]]["title"],
-                        html.escape(f"{item['title']} - {guid_edgeinfo['title']}"),
+                        html.escape(guid_edgeinfo_text),
                         html.escape(re.sub(r"\n+", "\n", description)),
                         format_time(pubDate),
                         guid_edgeinfo["first_frame"],

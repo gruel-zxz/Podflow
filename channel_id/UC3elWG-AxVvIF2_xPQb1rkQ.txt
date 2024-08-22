@@ -29,7 +29,7 @@
    <media:description>突然觉得男人挺不容易的。看到最后，你会和我有一样的感触吗？#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="223"/>
+    <media:statistics views="227"/>
    </media:community>
   </media:group>
  </entry>
@@ -52,7 +52,7 @@
    <media:description>最好的默契就是“我饿了”“我也是”，不扫兴是一件特别棒的事。你有陪你一起吃宵夜的人吗？#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="11" average="5.00" min="1" max="5"/>
-    <media:statistics views="292"/>
+    <media:statistics views="295"/>
    </media:community>
   </media:group>
  </entry>
@@ -75,7 +75,7 @@
    <media:description>当你以为只是一顿普通的铁锅炖，结果朋友却带着行李箱出现？让我们来一起吐槽这些令人意外的瞬间吧！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="9" average="5.00" min="1" max="5"/>
-    <media:statistics views="434"/>
+    <media:statistics views="435"/>
    </media:community>
   </media:group>
  </entry>
@@ -190,7 +190,7 @@
    <media:description>老公熬夜看球累得要命，我伺候他也不轻松，不过，享受和他一起看球的时光，真的是无价的！你们家的球迷是怎么样的呢？一起来吐槽吧！#家庭吐槽大会 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="485"/>
+    <media:statistics views="484"/>
    </media:community>
   </media:group>
  </entry>
@@ -213,7 +213,7 @@
    <media:description>东北人的口才与幽默常常让人信以为真，但听完他们的吐槽后，你会发现自信心也随之增长了！大家有没有类似的经历？欢迎分享！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="12" average="5.00" min="1" max="5"/>
-    <media:statistics views="287"/>
+    <media:statistics views="289"/>
    </media:community>
   </media:group>
  </entry>
@@ -236,7 +236,7 @@
    <media:description>男人们总有一股劲，只要他们有了目标，啥事都难不倒他们！大家有没有碰到过这种情况呢？来分享你的经历吧！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="14" average="5.00" min="1" max="5"/>
-    <media:statistics views="554"/>
+    <media:statistics views="555"/>
    </media:community>
   </media:group>
  </entry>
@@ -259,7 +259,7 @@
    <media:description>平时一向严肃的老公突然兴致勃勃地要和我喝两杯。这是风雨欲来的前兆，还是他有什么特别的计划？大家猜猜看，他究竟在打什么主意？#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="9" average="5.00" min="1" max="5"/>
-    <media:statistics views="473"/>
+    <media:statistics views="474"/>
    </media:community>
   </media:group>
  </entry>
@@ -282,7 +282,7 @@
    <media:description>你为了自己的爱好愿意花多少钱？和我分享一下你们在买装备上花了多少吧！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="287"/>
+    <media:statistics views="288"/>
    </media:community>
   </media:group>
  </entry>
@@ -305,7 +305,7 @@
    <media:description>只要给义乌一点时间，它真的可以征服全世界！#爱吐槽的四季妈妈 #家庭吐槽大会</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="273"/>
+    <media:statistics views="274"/>
    </media:community>
   </media:group>
  </entry>

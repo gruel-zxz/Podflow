@@ -29,7 +29,7 @@
    <media:description>解读：史上真实的“火星人”入侵事件——人类科技误解大全系列。本期内容出自科幻世界惊奇画刊杂志，如果大家喜欢这个系列，我们会多多更新哦。</media:description>
    <media:community>
     <media:starRating count="69" average="5.00" min="1" max="5"/>
-    <media:statistics views="3049"/>
+    <media:statistics views="3054"/>
    </media:community>
   </media:group>
  </entry>
@@ -54,7 +54,7 @@
 只是一期盘点内容，最近搞完了《黑暗的左手》的文案，近期呈现。</media:description>
    <media:community>
     <media:starRating count="35" average="5.00" min="1" max="5"/>
-    <media:statistics views="1979"/>
+    <media:statistics views="1980"/>
    </media:community>
   </media:group>
  </entry>
@@ -81,7 +81,7 @@
 18：41 镜子</media:description>
    <media:community>
     <media:starRating count="222" average="5.00" min="1" max="5"/>
-    <media:statistics views="15055"/>
+    <media:statistics views="15057"/>
    </media:community>
   </media:group>
  </entry>
@@ -105,7 +105,7 @@
 看完作品后我一度怀疑作者本人是否参与过类似的保密试验。</media:description>
    <media:community>
     <media:starRating count="129" average="5.00" min="1" max="5"/>
-    <media:statistics views="8761"/>
+    <media:statistics views="8769"/>
    </media:community>
   </media:group>
  </entry>
@@ -128,7 +128,7 @@
    <media:description>如果人类的进化历程被干预，人类还会存在吗？科幻经典《布鲁克林工程》</media:description>
    <media:community>
     <media:starRating count="140" average="5.00" min="1" max="5"/>
-    <media:statistics views="7310"/>
+    <media:statistics views="7311"/>
    </media:community>
   </media:group>
  </entry>
@@ -151,7 +151,7 @@
    <media:description>太平洋岛国上的土著，如何会成为撬动世界的人：经典科幻小说解读——《撬动世界的哈林达姆》，原著：七月。</media:description>
    <media:community>
     <media:starRating count="132" average="5.00" min="1" max="5"/>
-    <media:statistics views="6807"/>
+    <media:statistics views="6810"/>
    </media:community>
   </media:group>
  </entry>
@@ -175,7 +175,7 @@
 这是一部我们这么多年来推荐给很多读者的科幻小说，原著写于19世纪，但是提出的概念相当超前！对于想了解空间维度的朋友，这本书是绝对的首选。</media:description>
    <media:community>
     <media:starRating count="571" average="5.00" min="1" max="5"/>
-    <media:statistics views="46728"/>
+    <media:statistics views="46771"/>
    </media:community>
   </media:group>
  </entry>
@@ -198,8 +198,8 @@
    <media:description>一股未知的力量篡改了人们的记忆：时空折叠？曼德拉效应？科幻小说《震荡》，原著：赵磊。
 是一部20多年前的国产科幻小说，近年来很多人开始讨论曼德拉效应，那么这部小说就给出了一种很另类的解释。</media:description>
    <media:community>
-    <media:starRating count="105" average="5.00" min="1" max="5"/>
-    <media:statistics views="6106"/>
+    <media:starRating count="106" average="5.00" min="1" max="5"/>
+    <media:statistics views="6111"/>
    </media:community>
   </media:group>
  </entry>
@@ -222,7 +222,7 @@
    <media:description>人类建造光帆来发电，结果却吸引来了高等级文明：科幻小说《天帆》，原著：江波。</media:description>
    <media:community>
     <media:starRating count="115" average="5.00" min="1" max="5"/>
-    <media:statistics views="7038"/>
+    <media:statistics views="7043"/>
    </media:community>
   </media:group>
  </entry>
@@ -245,7 +245,7 @@
    <media:description>人类的情绪，不过是简单的电化学反应：科幻名著《快乐的理由》，原著：格雷格.伊根，出自同名科幻小说集《快乐的理由》</media:description>
    <media:community>
     <media:starRating count="98" average="5.00" min="1" max="5"/>
-    <media:statistics views="4084"/>
+    <media:statistics views="4088"/>
    </media:community>
   </media:group>
  </entry>
@@ -269,7 +269,7 @@
 抱歉了大家，拖更了半个月，最近总算把几个长篇内容搞完了，近期恢复每周更新。</media:description>
    <media:community>
     <media:starRating count="117" average="5.00" min="1" max="5"/>
-    <media:statistics views="4918"/>
+    <media:statistics views="4922"/>
    </media:community>
   </media:group>
  </entry>
@@ -292,7 +292,7 @@
    <media:description>天文学家发现“时间逆流星系”，能用它来做什么？《百光年日记》，原著：格雷格.伊根。</media:description>
    <media:community>
     <media:starRating count="166" average="5.00" min="1" max="5"/>
-    <media:statistics views="8171"/>
+    <media:statistics views="8172"/>
    </media:community>
   </media:group>
  </entry>
@@ -315,7 +315,7 @@
    <media:description>当外星人的科技树点错之后：科幻小说《最后一个外星人》了，这是一篇有趣的小说，希望大家喜欢。</media:description>
    <media:community>
     <media:starRating count="206" average="5.00" min="1" max="5"/>
-    <media:statistics views="9064"/>
+    <media:statistics views="9066"/>
    </media:community>
   </media:group>
  </entry>
@@ -362,7 +362,7 @@
 这是另一部阿西莫夫的代表作，只是中文版出版太晚了，很多读者也是近两年来才接触到，让我们一起欣赏一下吧。</media:description>
    <media:community>
     <media:starRating count="92" average="5.00" min="1" max="5"/>
-    <media:statistics views="5266"/>
+    <media:statistics views="5267"/>
    </media:community>
   </media:group>
  </entry>
