@@ -10,6 +10,29 @@
   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
  </author>
  <entry>
+  <id>yt:video:cACYxEflIaI</id>
+  <yt:videoId>cACYxEflIaI</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>@leostudy_ was looking at @LizaBaez like 🧐</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=cACYxEflIaI"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2024-08-21T18:30:44+00:00</published>
+  <updated>2024-08-21T18:33:47+00:00</updated>
+  <media:group>
+   <media:title>@leostudy_ was looking at @LizaBaez like 🧐</media:title>
+   <media:content url="https://www.youtube.com/v/cACYxEflIaI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/cACYxEflIaI/hqdefault.jpg" width="480" height="360"/>
+   <media:description>obsessed with @samraddhi, @leostudy_, @LizaBaez, &amp; @theonlycb3’s hidden talents 🥰</media:description>
+   <media:community>
+    <media:starRating count="221" average="5.00" min="1" max="5"/>
+    <media:statistics views="3970"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:KS7khh5pWBg</id>
   <yt:videoId>KS7khh5pWBg</yt:videoId>
   <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
@@ -20,15 +43,15 @@
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-08-17T17:30:39+00:00</published>
-  <updated>2024-08-18T19:27:30+00:00</updated>
+  <updated>2024-08-21T05:15:03+00:00</updated>
   <media:group>
    <media:title>would YOU get your subscriber count tattooed? 🤔</media:title>
    <media:content url="https://www.youtube.com/v/KS7khh5pWBg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i4.ytimg.com/vi/KS7khh5pWBg/hqdefault.jpg" width="480" height="360"/>
    <media:description>sounds like @theonlycb3, @LizaBaez, @leostudy_, @andreaandlewis, @jujufitcats, &amp; @mooyahyahh won’t being shaving their heads anytime soon ☹️</media:description>
    <media:community>
-    <media:starRating count="1050" average="5.00" min="1" max="5"/>
-    <media:statistics views="29594"/>
+    <media:starRating count="1304" average="5.00" min="1" max="5"/>
+    <media:statistics views="38529"/>
    </media:community>
   </media:group>
  </entry>
@@ -50,8 +73,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/o8G-oQeY548/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2906" average="5.00" min="1" max="5"/>
-    <media:statistics views="34381"/>
+    <media:starRating count="3363" average="5.00" min="1" max="5"/>
+    <media:statistics views="42125"/>
    </media:community>
   </media:group>
  </entry>
@@ -93,7 +116,7 @@ Sign up for NFL Sunday Ticket here: https://tv.youtube.com/learn/nflsundayticket
 
 #UFD #NFLSundayTicket</media:description>
    <media:community>
-    <media:starRating count="119" average="5.00" min="1" max="5"/>
+    <media:starRating count="139" average="5.00" min="1" max="5"/>
     <media:statistics views="0"/>
    </media:community>
   </media:group>
@@ -109,15 +132,15 @@ Sign up for NFL Sunday Ticket here: https://tv.youtube.com/learn/nflsundayticket
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-08-16T15:00:21+00:00</published>
-  <updated>2024-08-18T02:57:27+00:00</updated>
+  <updated>2024-08-20T01:22:59+00:00</updated>
   <media:group>
    <media:title>the only time you’d wanna step on a LEGO @TDBRICKS #lego #snowboarding #legobuild #wintersports</media:title>
    <media:content url="https://www.youtube.com/v/EKUrn5WkR6w?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i2.ytimg.com/vi/EKUrn5WkR6w/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1319" average="5.00" min="1" max="5"/>
-    <media:statistics views="28044"/>
+    <media:starRating count="1481" average="5.00" min="1" max="5"/>
+    <media:statistics views="32641"/>
    </media:community>
   </media:group>
  </entry>
@@ -132,15 +155,15 @@ Sign up for NFL Sunday Ticket here: https://tv.youtube.com/learn/nflsundayticket
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-08-15T18:30:28+00:00</published>
-  <updated>2024-08-17T05:52:45+00:00</updated>
+  <updated>2024-08-20T01:01:26+00:00</updated>
   <media:group>
    <media:title>how many did you guess right?? @HalfAsleepChris  #LEGO #LEGObuild</media:title>
    <media:content url="https://www.youtube.com/v/A7z6jzO3CyQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i2.ytimg.com/vi/A7z6jzO3CyQ/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1568" average="5.00" min="1" max="5"/>
-    <media:statistics views="33945"/>
+    <media:starRating count="1763" average="5.00" min="1" max="5"/>
+    <media:statistics views="38489"/>
    </media:community>
   </media:group>
  </entry>
@@ -162,8 +185,8 @@ Sign up for NFL Sunday Ticket here: https://tv.youtube.com/learn/nflsundayticket
    <media:thumbnail url="https://i4.ytimg.com/vi/cKCVDGma1Ps/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1145" average="5.00" min="1" max="5"/>
-    <media:statistics views="26778"/>
+    <media:starRating count="1219" average="5.00" min="1" max="5"/>
+    <media:statistics views="29309"/>
    </media:community>
   </media:group>
  </entry>
@@ -220,8 +243,8 @@ Featured Creators:
 
 #LEGO ‪#Emmasaurus‬ #CitrinesAnimations‬</media:description>
    <media:community>
-    <media:starRating count="8038" average="5.00" min="1" max="5"/>
-    <media:statistics views="560576"/>
+    <media:starRating count="8144" average="5.00" min="1" max="5"/>
+    <media:statistics views="567299"/>
    </media:community>
   </media:group>
  </entry>
@@ -243,8 +266,8 @@ Featured Creators:
    <media:thumbnail url="https://i1.ytimg.com/vi/TDIikgtgUL8/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1220" average="5.00" min="1" max="5"/>
-    <media:statistics views="43169"/>
+    <media:starRating count="1310" average="5.00" min="1" max="5"/>
+    <media:statistics views="47025"/>
    </media:community>
   </media:group>
  </entry>
@@ -259,15 +282,15 @@ Featured Creators:
    <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
   </author>
   <published>2024-08-12T14:30:25+00:00</published>
-  <updated>2024-08-14T11:41:21+00:00</updated>
+  <updated>2024-08-20T01:00:23+00:00</updated>
   <media:group>
    <media:title>these chocolate muffins by @yoon_noong deserve  an award #muffins #chocolatechip #recipe</media:title>
    <media:content url="https://www.youtube.com/v/GxZVV101esQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i4.ytimg.com/vi/GxZVV101esQ/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2020" average="5.00" min="1" max="5"/>
-    <media:statistics views="44399"/>
+    <media:starRating count="2085" average="5.00" min="1" max="5"/>
+    <media:statistics views="46685"/>
    </media:community>
   </media:group>
  </entry>
@@ -289,8 +312,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/naoi3Ycv5Eo/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1151" average="5.00" min="1" max="5"/>
-    <media:statistics views="43125"/>
+    <media:starRating count="1209" average="5.00" min="1" max="5"/>
+    <media:statistics views="46012"/>
    </media:community>
   </media:group>
  </entry>
@@ -359,8 +382,8 @@ Featured Creators:
 9:02 2023
 9:29 2024 TBR List</media:description>
    <media:community>
-    <media:starRating count="8509" average="5.00" min="1" max="5"/>
-    <media:statistics views="497711"/>
+    <media:starRating count="8710" average="5.00" min="1" max="5"/>
+    <media:statistics views="501149"/>
    </media:community>
   </media:group>
  </entry>
@@ -382,8 +405,8 @@ Featured Creators:
    <media:thumbnail url="https://i1.ytimg.com/vi/DQ681EXQijI/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="1545" average="5.00" min="1" max="5"/>
-    <media:statistics views="38644"/>
+    <media:starRating count="1584" average="5.00" min="1" max="5"/>
+    <media:statistics views="40385"/>
    </media:community>
   </media:group>
  </entry>
@@ -405,8 +428,8 @@ Featured Creators:
    <media:thumbnail url="https://i2.ytimg.com/vi/9UMXQ_6K0hw/hqdefault.jpg" width="480" height="360"/>
    <media:description>@zoeunlimited, @wiizmane, @BrianSuttererMD, @daviddaly10, &amp; @mexinfin put their tastes to the test in a game of this or that 🥐🧀</media:description>
    <media:community>
-    <media:starRating count="1888" average="5.00" min="1" max="5"/>
-    <media:statistics views="59897"/>
+    <media:starRating count="1913" average="5.00" min="1" max="5"/>
+    <media:statistics views="61651"/>
    </media:community>
   </media:group>
  </entry>
@@ -428,31 +451,8 @@ Featured Creators:
    <media:thumbnail url="https://i3.ytimg.com/vi/ZnPozEmLlQs/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2473" average="5.00" min="1" max="5"/>
-    <media:statistics views="54034"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:68m6C3nTdyI</id>
-  <yt:videoId>68m6C3nTdyI</yt:videoId>
-  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
-  <title>scavenger hunt running edition! With @AubreyRunning 👟</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=68m6C3nTdyI"/>
-  <author>
-   <name>YouTube</name>
-   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
-  </author>
-  <published>2024-08-02T16:16:20+00:00</published>
-  <updated>2024-08-04T22:17:53+00:00</updated>
-  <media:group>
-   <media:title>scavenger hunt running edition! With @AubreyRunning 👟</media:title>
-   <media:content url="https://www.youtube.com/v/68m6C3nTdyI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/68m6C3nTdyI/hqdefault.jpg" width="480" height="360"/>
-   <media:description></media:description>
-   <media:community>
-    <media:starRating count="3354" average="5.00" min="1" max="5"/>
-    <media:statistics views="71580"/>
+    <media:starRating count="2503" average="5.00" min="1" max="5"/>
+    <media:statistics views="55434"/>
    </media:community>
   </media:group>
  </entry>

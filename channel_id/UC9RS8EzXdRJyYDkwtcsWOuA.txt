@@ -41,8 +41,8 @@
 
 #日本 #vlog #留學</media:description>
    <media:community>
-    <media:starRating count="4109" average="5.00" min="1" max="5"/>
-    <media:statistics views="205087"/>
+    <media:starRating count="4111" average="5.00" min="1" max="5"/>
+    <media:statistics views="205131"/>
    </media:community>
   </media:group>
  </entry>
@@ -86,7 +86,7 @@
 #日本漫畫 #殺手阿一 #cult</media:description>
    <media:community>
     <media:starRating count="1190" average="5.00" min="1" max="5"/>
-    <media:statistics views="59953"/>
+    <media:statistics views="59983"/>
    </media:community>
   </media:group>
  </entry>
@@ -130,8 +130,8 @@
 
 #日本漫畫 #殺手阿一 #cult</media:description>
    <media:community>
-    <media:starRating count="1215" average="5.00" min="1" max="5"/>
-    <media:statistics views="102283"/>
+    <media:starRating count="1216" average="5.00" min="1" max="5"/>
+    <media:statistics views="102310"/>
    </media:community>
   </media:group>
  </entry>
@@ -177,7 +177,7 @@
 #日本 #次文化 #戀物</media:description>
    <media:community>
     <media:starRating count="1094" average="5.00" min="1" max="5"/>
-    <media:statistics views="68407"/>
+    <media:statistics views="68439"/>
    </media:community>
   </media:group>
  </entry>
@@ -220,8 +220,8 @@
 
 #遊戲 #videogames  #日本</media:description>
    <media:community>
-    <media:starRating count="2695" average="5.00" min="1" max="5"/>
-    <media:statistics views="252210"/>
+    <media:starRating count="2696" average="5.00" min="1" max="5"/>
+    <media:statistics views="252288"/>
    </media:community>
   </media:group>
  </entry>
@@ -265,8 +265,8 @@
 
 #日本 #動漫 #日本電影</media:description>
    <media:community>
-    <media:starRating count="2436" average="5.00" min="1" max="5"/>
-    <media:statistics views="245635"/>
+    <media:starRating count="2438" average="5.00" min="1" max="5"/>
+    <media:statistics views="245769"/>
    </media:community>
   </media:group>
  </entry>
@@ -310,8 +310,8 @@
 ▶追蹤TenGuSan的IG：@tengusan.real
 ▶我的品牌官網：www.under20.com</media:description>
    <media:community>
-    <media:starRating count="2894" average="5.00" min="1" max="5"/>
-    <media:statistics views="296774"/>
+    <media:starRating count="2895" average="5.00" min="1" max="5"/>
+    <media:statistics views="297257"/>
    </media:community>
   </media:group>
  </entry>
@@ -352,8 +352,8 @@
 ▶追蹤TenGuSan的IG：@tengusan.real
 ▶我的品牌官網：www.under20.com</media:description>
    <media:community>
-    <media:starRating count="2220" average="5.00" min="1" max="5"/>
-    <media:statistics views="212110"/>
+    <media:starRating count="2223" average="5.00" min="1" max="5"/>
+    <media:statistics views="212596"/>
    </media:community>
   </media:group>
  </entry>
@@ -416,8 +416,8 @@
 ▶追蹤TenGuSan的IG：@tengusan.real
 ▶我的品牌官網：www.under20.com</media:description>
    <media:community>
-    <media:starRating count="1982" average="5.00" min="1" max="5"/>
-    <media:statistics views="315246"/>
+    <media:starRating count="1984" average="5.00" min="1" max="5"/>
+    <media:statistics views="315352"/>
    </media:community>
   </media:group>
  </entry>
@@ -432,7 +432,7 @@
    <uri>https://www.youtube.com/channel/UC9RS8EzXdRJyYDkwtcsWOuA</uri>
   </author>
   <published>2023-07-26T12:00:14+00:00</published>
-  <updated>2024-08-02T11:33:27+00:00</updated>
+  <updated>2024-08-21T08:02:51+00:00</updated>
   <media:group>
    <media:title>揭秘日本老獄警才知道的💀刑細節！死囚生前1小時，這些規矩必須要走！</media:title>
    <media:content url="https://www.youtube.com/v/OEFYi4ccJFA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -459,7 +459,7 @@
 #日本 #日本社會</media:description>
    <media:community>
     <media:starRating count="907" average="5.00" min="1" max="5"/>
-    <media:statistics views="69816"/>
+    <media:statistics views="69827"/>
    </media:community>
   </media:group>
  </entry>
@@ -503,8 +503,8 @@
 
 #2ch #日本文化 #互聯網</media:description>
    <media:community>
-    <media:starRating count="1010" average="5.00" min="1" max="5"/>
-    <media:statistics views="78795"/>
+    <media:starRating count="1011" average="5.00" min="1" max="5"/>
+    <media:statistics views="78823"/>
    </media:community>
   </media:group>
  </entry>
@@ -545,7 +545,7 @@
 #日本社會 #刑務所 #越獄</media:description>
    <media:community>
     <media:starRating count="736" average="5.00" min="1" max="5"/>
-    <media:statistics views="58114"/>
+    <media:statistics views="58139"/>
    </media:community>
   </media:group>
  </entry>
@@ -560,7 +560,7 @@
    <uri>https://www.youtube.com/channel/UC9RS8EzXdRJyYDkwtcsWOuA</uri>
   </author>
   <published>2023-07-05T12:00:22+00:00</published>
-  <updated>2024-07-19T02:51:42+00:00</updated>
+  <updated>2024-08-20T01:06:58+00:00</updated>
   <media:group>
    <media:title>日本近代犯罪史上最恐怖、最兇殘、最離奇的案子: 北九州事件！ Netflix《情罔森林》原案！</media:title>
    <media:content url="https://www.youtube.com/v/bddEsAxQwXM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -595,8 +595,8 @@
 ▶追蹤TenGuSan的IG：@tengusan.real
 ▶我的品牌官網：www.under20.com</media:description>
    <media:community>
-    <media:starRating count="1879" average="5.00" min="1" max="5"/>
-    <media:statistics views="128336"/>
+    <media:starRating count="1880" average="5.00" min="1" max="5"/>
+    <media:statistics views="128379"/>
    </media:community>
   </media:group>
  </entry>
@@ -638,7 +638,7 @@
 #福島核污水 #日本核廢水 #核輻射 #科幻</media:description>
    <media:community>
     <media:starRating count="797" average="5.00" min="1" max="5"/>
-    <media:statistics views="43274"/>
+    <media:statistics views="43281"/>
    </media:community>
   </media:group>
  </entry>
@@ -685,7 +685,7 @@
 #伊藤潤二 #恐怖 #日本 #次文化</media:description>
    <media:community>
     <media:starRating count="1469" average="5.00" min="1" max="5"/>
-    <media:statistics views="95525"/>
+    <media:statistics views="95552"/>
    </media:community>
   </media:group>
  </entry>

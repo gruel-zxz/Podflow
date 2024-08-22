@@ -248,6 +248,24 @@ def http_client(url, name="", max_retries=10, retry_delay=4, headers_possess=Fal
     }
     if "bilibili" in url:
         user_agent["Referer"] = "https://www.bilibili.com/"
+    elif "youtube" in url:
+        user_agent["Referer"] = "https://www.youtube.com/"
+    elif "douyin" in url:
+        headers_douyin = {
+            'authority': 'sso.douyin.com',
+            'accept': 'application/json, text/plain, */*',
+            'accept-language': 'zh-CN,zh;q=0.9',
+            'origin': 'https://www.douyin.com',
+            'referer': 'https://www.douyin.com/',
+            'sec-ch-ua': '"Google Chrome";v="117", "Not;A=Brand";v="8", "Chromium";v="117"',
+            'sec-ch-ua-mobile': '?0',
+            'sec-ch-ua-platform': '"Windows"',
+            'sec-fetch-dest': 'empty',
+            'sec-fetch-mode': 'cors',
+            'sec-fetch-site': 'same-site',
+            'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36',
+        }
+        user_agent.update(headers_douyin)
     err = None  # 初始化 err 变量
     response = None  # 初始化 response 变量
     # 创建一个Session对象
@@ -419,6 +437,17 @@ while library_import is False:
                 today_library_log += f" {library}"
             break
 
+# 获取时间戳模块
+def time_stamp():
+    if response:= http_client("https://api.m.taobao.com/rest/api3.do?api=mtop.common.getTimestamp", '获取时间戳', 3, 5):
+        response_json = response.json()
+    else:
+        return round(time.time() * 1000)
+    try:
+        return response_json["data"]["t"]
+    except KeyError:
+        return round(time.time() * 1000)
+
 # 格式化时间模块
 def time_format(duration):
     if duration is None:
@@ -572,8 +601,9 @@ def media_format(video_website, video_url, media="m4a", quality="480", cookies=N
                 ):
                     # 获取视频时长并返回
                     entries = info_dict.get("entries", None)
+                    download_url = info_dict.get("original_url", None)
                     if entries:
-                        for entry in entries:
+                        for playlist_num, entry in enumerate(entries):
                             infos.append({
                                 "title": entry.get("title"),
                                 "duration": entry.get("duration"),
@@ -583,6 +613,10 @@ def media_format(video_website, video_url, media="m4a", quality="480", cookies=N
                                 "description": entry.get("description"),
                                 "url": entry.get("webpage_url"),
                                 "image": entry.get("thumbnail"),
+                                "download": {
+                                    "url": download_url,
+                                    "num": playlist_num + 1,
+                                }
                             })
                     else:
                         infos.append({
@@ -594,6 +628,10 @@ def media_format(video_website, video_url, media="m4a", quality="480", cookies=N
                             "description": info_dict.get("description"),
                             "url": info_dict.get("webpage_url"),
                             "image": info_dict.get("thumbnail"),
+                            "download": {
+                                "url": download_url,
+                                "num": None
+                            }
                         })
         except Exception as message_error:
             fail_message = (
@@ -716,6 +754,7 @@ def media_format(video_website, video_url, media="m4a", quality="480", cookies=N
                 "description": entry.get("description"),
                 "url": entry.get("url"),
                 "image": entry.get("image"),
+                "download": entry.get("download"),
             })
         return lists
     else:
@@ -769,7 +808,8 @@ def download_video(
     video_website,
     video_write_log,
     sesuffix="",
-    cookies=None
+    cookies=None,
+    playlist_num=None,
 ):
     class MyLogger:
         def debug(self, msg):
@@ -787,31 +827,24 @@ def download_video(
                 .replace("[youtube] ", "")
                 .replace("[download] ", "")
             )
+    ydl_opts = {
+        "outtmpl": f"channel_audiovisual/{output_dir}/{video_url}{sesuffix}.{output_format}",  # 输出文件路径和名称
+        "format": f"{format_id}",  # 指定下载的最佳音频和视频格式
+        "noprogress": True,
+        "quiet": True,
+        "progress_hooks": [show_progress],
+        "logger": MyLogger(),
+        "throttled_rate": "70K",  # 设置最小下载速率为:字节/秒
+    }
     if cookies:
-        ydl_opts = {
-            "outtmpl": f"channel_audiovisual/{output_dir}/{video_url}{sesuffix}.{output_format}",  # 输出文件路径和名称
-            "format": f"{format_id}",  # 指定下载的最佳音频和视频格式
-            "noprogress": True,
-            "quiet": True,
-            "progress_hooks": [show_progress],
-            "logger": MyLogger(),
-            "throttled_rate": "70K",  # 设置最小下载速率为:字节/秒
-            "http_headers": {
-                "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
-                "Referer": "https://www.bilibili.com/",
-            },
-            'cookiefile': cookies,  # cookies 是你的 cookies 文件名
+        ydl_opts["http_headers"] = {
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
+            "Referer": "https://www.bilibili.com/",
         }
-    else:
-        ydl_opts = {
-            "outtmpl": f"channel_audiovisual/{output_dir}/{video_url}{sesuffix}.{output_format}",  # 输出文件路径和名称
-            "format": f"{format_id}",  # 指定下载的最佳音频和视频格式
-            "noprogress": True,
-            "quiet": True,
-            "progress_hooks": [show_progress],
-            "logger": MyLogger(),
-            "throttled_rate": "70K",  # 设置最小下载速率为:字节/秒
-        }
+        ydl_opts["cookiefile"] = cookies  # cookies 是你的 cookies 文件名
+    if playlist_num:  # 播放列表的第n个视频
+        ydl_opts["playliststart"] = playlist_num
+        ydl_opts["playlistend"] = playlist_num
     try:
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
             ydl.download([f"{video_website}"])  # 下载指定视频链接的视频
@@ -837,6 +870,7 @@ def dl_full_video(
     video_write_log,
     sesuffix="",
     cookies=None,
+    playlist_num=None,
 ):
     if download_video(
         video_url,
@@ -847,6 +881,7 @@ def dl_full_video(
         video_write_log,
         sesuffix,
         cookies,
+        playlist_num,
     ):
         return video_url
     duration_video = get_duration_ffmpeg(
@@ -875,6 +910,7 @@ def dl_retry_video(
     video_write_log,
     sesuffix="",
     cookies=None,
+    playlist_num=None,
 ):
     video_id_failed = dl_full_video(
         video_url,
@@ -886,6 +922,7 @@ def dl_retry_video(
         video_write_log,
         sesuffix,
         cookies,
+        playlist_num,
     )
     # 下载失败后重复尝试下载视频
     video_id_count = 0
@@ -902,6 +939,7 @@ def dl_retry_video(
             video_write_log,
             sesuffix,
             cookies,
+            playlist_num,
         )
     return video_id_failed
 
@@ -915,6 +953,7 @@ def dl_aideo_video(
     video_website,
     output_dir_name="",
     cookies=None,
+    playlist_num=None,
 ):
     if output_dir_name:
         video_write_log = f"\033[95m{output_dir_name}\033[0m|{video_url}"
@@ -941,6 +980,7 @@ def dl_aideo_video(
             video_write_log,
             "",
             cookies,
+            playlist_num,
         )
     else:
         print(
@@ -957,6 +997,7 @@ def dl_aideo_video(
             video_write_log,
             ".part",
             cookies,
+            playlist_num,
         )
         if video_id_failed is None:
             print(
@@ -973,6 +1014,7 @@ def dl_aideo_video(
                 video_write_log,
                 ".part",
                 cookies,
+                playlist_num,
             )
         if video_id_failed is None:
             print(
@@ -1503,7 +1545,7 @@ JNrRuoEUXpabUzGB8QIDAQAB
         encrypted = cipher.encrypt(f'refresh_{ts}'.encode())
         return binascii.b2a_hex(encrypted).decode()
     # 获取当前时间戳
-    ts = http_client("https://api.m.taobao.com/rest/api3.do?api=mtop.common.getTimestamp", '获取时间戳', 3, 5).json()["data"]["t"]  # ts = round(time.time() * 1000)
+    ts = time_stamp()
     # 获取refresh_csrf
     refresh_csrf_response = http_client(f"https://www.bilibili.com/correspond/1/{getCorrespondPath(ts)}", '获取refresh_csrf', 3, 5, True, bilibili_cookie)
     if refresh_csrf_match:= re.search(r'<div id="1-name">(.+?)</div>', refresh_csrf_response.text):
@@ -1655,7 +1697,7 @@ def get_file_list(video_key, video_media="m4a", length=12):
         content_id = [
             file  # 获取文件名（包括扩展名）
             for file in os.listdir(f"channel_audiovisual/{video_key}")  # 遍历指定目录下的所有文件
-            if file.endswith(media)  # 筛选出以 youtube_media 结尾的文件
+            if file.endswith(media)  # 筛选出以 media 结尾的文件
         ]
         content_id_items = []
         items_counts = {}
@@ -1667,19 +1709,26 @@ def get_file_list(video_key, video_media="m4a", length=12):
         content_id_items = [id[:length] for id in content_id_items]
         for id in content_id_items:
             if id not in items_counts:
-                fail = False
                 qtys = content_id_items.count(id)
-                for qty in range(qtys):
-                    if video_media == "m4a":
-                        if f"{id}_p{qty+1}.m4a" not in content_id and f"{id}_p{qty+1}.mp4" not in content_id:
-                            fail = True
-                    else:
-                        if f"{id}_p{qty+1}.mp4" not in content_id:
-                            fail = True
-                if fail:
-                    items_counts[id] = 0
+                if video_media == "m4a":
+                    pattern = re.compile(rf"{id}_[0-9]*\.(m4a|mp4)")
                 else:
+                    pattern = re.compile(rf"{id}_[0-9]*\.(mp4)")
+                if len([item for item in content_id if pattern.search(item)]) == qtys:
                     items_counts[id] = qtys
+                else:
+                    fail = False
+                    for qty in range(qtys):
+                        if video_media == "m4a":
+                            if f"{id}_p{qty+1}.m4a" not in content_id and f"{id}_p{qty+1}.mp4" not in content_id:
+                                fail = True
+                        else:
+                            if f"{id}_p{qty+1}.mp4" not in content_id:
+                                fail = True
+                    if fail:
+                        items_counts[id] = 0
+                    else:
+                        items_counts[id] = qtys
         content_id = list_merge_tidy(content_id, [] ,length)
         for id, num in items_counts.copy().items():
             if (num == 1 or num == 0) and id in content_id:
@@ -1922,6 +1971,89 @@ def get_bilibili_all_part(bvid, bilibili_value):
                 "dimension": part["dimension"],
                 "first_frame": part["first_frame"],
             })
+    bvid_part.sort(key=lambda x: x["page"], reverse=True)
+    return bvid_part
+
+# 获取bv所有的互动视频信息模块
+def get_bilibili_interactive(bvid, bilibili_value):
+    bvid_part = []
+    bvid_cid = []
+    bvid_cid_choices = []
+    if playerso_response:=http_client(
+        "https://api.bilibili.com/x/player.so",
+        f"{bilibili_value}|{bvid}",
+        10,
+        4,
+        True,
+        None,
+        {"id": "cid:1", "bvid": bvid}
+    ):
+        playerso = playerso_response.text
+        # 正则表达式
+        pattern = re.compile(r'(?<=<interaction>)(.*?)(?=</interaction>)', re.DOTALL)
+        match = pattern.search(playerso)
+        if match:
+            content = match.group(1).strip()
+            try:
+                data = json.loads(content)
+                graph_version = data["graph_version"]
+            except json.JSONDecodeError:
+                graph_version = ""
+    def get_edge_info(bvid, bilibili_value, graph_version, edge_id):
+        if edgeinfo_v2_response:=http_client(
+            "https://api.bilibili.com/x/stein/edgeinfo_v2",
+            f"{bilibili_value}|{bvid}",
+            10,
+            4,
+            True,
+            None,
+            {"bvid": bvid, "graph_version": graph_version, "edge_id": edge_id}
+        ):
+            edgeinfo_v2 = edgeinfo_v2_response.json()
+            return edgeinfo_v2["data"]
+    def get_choices(data):
+        options = []
+        if "questions" in data["edges"]:
+            for question in data["edges"]["questions"]:
+                if "choices" in question:
+                    for choice in question["choices"]:
+                        if choice["cid"] not in bvid_cid and choice["cid"] not in bvid_cid_choices:
+                            bvid_cid_choices.append({
+                                "cid": choice["cid"],
+                                "edge_id": choice["id"],
+                                "option": choice["option"],
+                            })
+                            options.append(choice["option"])
+        return options
+    if graph_version:
+        data_1 = get_edge_info(bvid, bilibili_value, graph_version, "1")
+        for story_list in data_1["story_list"]:
+            if story_list["edge_id"] == 1:
+                story_list_1 = story_list
+                break
+        bvid_part.append({
+            "cid": story_list_1["cid"],
+            "title": data_1["title"],
+            "edge_id": story_list_1["edge_id"],
+            "first_frame": f"http://i0.hdslb.com/bfs/steins-gate/{story_list_1['cid']}_screenshot.jpg",
+            "options": get_choices(data_1),
+            "num": 1,
+        })
+        bvid_cid.append(story_list_1["cid"])
+        while len(bvid_cid_choices) != 0:
+            if bvid_cid_choices[0]["cid"] not in bvid_cid:
+                data = get_edge_info(bvid, bilibili_value, graph_version, bvid_cid_choices[0]["edge_id"])
+                bvid_part.append({
+                    "cid": bvid_cid_choices[0]["cid"],
+                    "title": data["title"],
+                    "edge_id": bvid_cid_choices[0]["edge_id"],
+                    "first_frame": f"http://i0.hdslb.com/bfs/steins-gate/{bvid_cid_choices[0]['cid']}_screenshot.jpg",
+                    "options": get_choices(data),
+                    "num": len(bvid_part) + 1
+                })
+                bvid_cid.append(bvid_cid_choices[0]["cid"])
+            del bvid_cid_choices[0]
+    bvid_part.sort(key=lambda x: x["num"], reverse=True)
     return bvid_part
 
 # 查询哔哩哔哩用户投稿视频明细模块
@@ -1970,6 +2102,8 @@ def get_bilibili_vlist(bilibili_key, bilibili_value, num=1, all_part_judgement=F
         def all_part(bvid):
             if bvid_part:= get_bilibili_all_part(bvid, bilibili_value):
                 bilibili_entry[bvid]["part"] = bvid_part
+            elif bvid_edgeinfo:= get_bilibili_interactive(bvid, bilibili_value):
+                bilibili_entry[bvid]["edgeinfo"] = bvid_edgeinfo
         # 创建一个线程列表
         threads = []
         for bvid in bilibili_list:
@@ -2096,6 +2230,8 @@ def bilibili_rss_update(bilibili_key, bilibili_value):
                             def backward_all_part(guid):
                                 if guid_part:= get_bilibili_all_part(guid, bilibili_value):
                                     backward_entry[guid]["part"] = guid_part
+                                elif guid_edgeinfos:= get_bilibili_interactive(guid, bilibili_value):
+                                    backward_entry[guid]["edgeinfo"] = guid_edgeinfos
                             # 创建一个线程列表
                             threads = []
                             for guid in backward_entry:
@@ -2281,6 +2417,7 @@ def get_youtube_and_bilibili_video_format(id, stop_flag, video_format_lock, prep
             video_id_update_format[id]["description"] = entry_id_update_format["description"]
             video_id_update_format[id]["main"] = id
             video_id_update_format[id]["image"] = entry_id_update_format["image"]
+            video_id_update_format[id]["download"] = entry_id_update_format["download"]
         else:
             entrys_id = []
             for entry_id_update_format in id_update_format:
@@ -2298,7 +2435,8 @@ def get_youtube_and_bilibili_video_format(id, stop_flag, video_format_lock, prep
                     "timestamp": entry_id_update_format["timestamp"],
                     "description": entry_id_update_format["description"],
                     "main": id,
-                    "image": entry_id_update_format["image"]
+                    "image": entry_id_update_format["image"],
+                    "download": entry_id_update_format["download"],
                 }
             video_id_update_format[id] = entrys_id
     else:
@@ -2407,9 +2545,10 @@ def youtube_and_bilibili_download():
                 video_id_update_format[video_id]["media"],
                 video_id_update_format[video_id]["format"],
                 config["retry_count"],
-                video_id_update_format[video_id]["url"],
+                video_id_update_format[video_id]["download"]["url"],
                 video_id_update_format[video_id]["name"],
                 video_id_update_format[video_id]["cookie"],
+                video_id_update_format[video_id]["download"]["num"]
             ):
                 video_id_failed.append(video_id_update_format[video_id]["main"])
                 write_log(
@@ -2473,10 +2612,10 @@ def xml_item(
     # 查看标题中是否有频道名称如无添加到描述中并去除空字符
     title = title.replace('\x00', '')
     if channelid_title not in title:
-        if description == "":
+        if description == "" or "〖互动视频〗" in description:
             description = f"『{channelid_title}』{description}"
         else:
-            description = f"『{channelid_title}』\n{description}".replace("\x00", "")
+            description = f"『{channelid_title}』\n{description}".replace('\x00', '')
     # 更换描述换行符
     replacement_description = description.replace("\n", "&#xA;")
     # 获取文件后缀和文件字节大小
@@ -2520,7 +2659,7 @@ def xml_item(
         </item>
 """
 
-# 格式化时间模块
+# 格式化时间加时区模块
 def format_time(time_str):
     original_tz = timezone.utc  # 原始时区为UTC
     # 解析时间字符串并转换为datetime对象
@@ -2848,8 +2987,13 @@ def bilibili_xml_items(output_dir):
         if guid in items_counts:
             if "part" in item:
                 guid_parts = item["part"]
+            elif "edgeinfo" in item:
+                guid_edgeinfos = item["edgeinfo"]
             else:
-                guid_parts = get_bilibili_all_part(guid, channelid_bilibili_ids[output_dir])
+                if guid_parts:= get_bilibili_all_part(guid, channelid_bilibili_ids[output_dir]):
+                    guid_edgeinfos = []
+                else:
+                    guid_edgeinfos = get_bilibili_interactive(guid, channelid_bilibili_ids[output_dir])
             if items_counts[guid] == len(guid_parts):
                 for guid_part in guid_parts:
                     guid_part_text = f"{item['title']} Part{guid_part['page']:02}"
@@ -2864,6 +3008,34 @@ def bilibili_xml_items(output_dir):
                         html.escape(re.sub(r"\n+", "\n", item["description"])),
                         format_time(pubDate),
                         guid_part["first_frame"],
+                    )
+                    items_list.append(f"{xml_item_text}<!-- {output_dir} -->")
+            elif items_counts[guid] == len(guid_edgeinfos):
+                for guid_edgeinfo in guid_edgeinfos:
+                    if guid_edgeinfo["options"]:
+                        description = (
+                            "〖互动视频〗\n"
+                            + "\n".join(guid_edgeinfo["options"])
+                            + "\n------------------------------------------------\n"
+                            + item["description"]
+
+                        )
+                    else:
+                        description = (
+                            "〖互动视频〗\nTHE END."
+                            + "\n------------------------------------------------\n"
+                            + item["description"]
+                        )
+                        
+                    xml_item_text = xml_item(
+                        f"{item['bvid']}_{guid_edgeinfo['cid']}",
+                        output_dir,
+                        f"https://www.bilibili.com/video/{guid}",
+                        channelid_bilibili[channelid_bilibili_ids[output_dir]]["title"],
+                        html.escape(f"{item['title']} - {guid_edgeinfo['title']}"),
+                        html.escape(re.sub(r"\n+", "\n", description)),
+                        format_time(pubDate),
+                        guid_edgeinfo["first_frame"],
                     )
                     items_list.append(f"{xml_item_text}<!-- {output_dir} -->")
         else:
@@ -2977,7 +3149,7 @@ def create_main_rss():
         if channelid_bilibili[channelid_bilibili_ids[output_dir]]["InmainRSS"]:
             all_items.append(items)
         all_bilibili_content_bvid[output_dir] = re.findall(
-            r"(?:/[0-9]+/)(BV.{10}\.m4a|BV.{10}\.mp4|BV.{10}_p[0-9]+\.m4a|BV.{10}_p[0-9]+\.mp4)(?=\")", items
+            r"(?:/[0-9]+/)(BV.{10}\.m4a|BV.{10}\.mp4|BV.{10}_p[0-9]+\.m4a|BV.{10}_p[0-9]+\.mp4|BV.{10}_[0-9]{9}\.m4a|BV.{10}_[0-9]{9}\.mp4)(?=\")", items
         )
 
 # xml备份保存模块
@@ -3070,26 +3242,25 @@ def make_up_file():
     for output_dir in channelid_bilibili_ids:
         for file_name in all_bilibili_content_bvid[output_dir]:
             if file_name not in os.listdir(f"channel_audiovisual/{output_dir}"):
-                if len(file_name) == 12:
-                    url = f"https://www.bilibili.com/video/{file_name}"
-                else:
-                    url = f"https://www.bilibili.com/video/{file_name[:12] + '?p=' + file_name[14:]}"
-                video_id_format = {
-                    "id": output_dir,
-                    "media": file_name.split(".")[1],
-                    "url": url,
-                    "name": channelid_bilibili_ids[output_dir],
-                    "cookie": "yt_dlp_bilibili.txt",
-                    "main": file_name.split(".")[0][:12]
-                }
-                if file_name.split(".")[0] == "mp4":
-                    video_quality = channelid_bilibili[channelid_bilibili_ids[output_dir]][
-                        "quality"
-                    ]
-                else:
-                    video_quality = 480
-                video_id_format["quality"] = video_quality
-                make_up_file_format[file_name.split(".")[0]] = video_id_format
+                main = file_name.split(".")[0][:12]
+                if main not in make_up_file_format:
+                    media = file_name.split(".")[1]
+                    video_id_format = {
+                        "id": output_dir,
+                        "media": media,
+                        "url": f"https://www.bilibili.com/video/{main}",
+                        "name": channelid_bilibili_ids[output_dir],
+                        "cookie": "yt_dlp_bilibili.txt",
+                        "main": main
+                    }
+                    if file_name.split(".")[0] == "mp4":
+                        video_quality = channelid_bilibili[channelid_bilibili_ids[output_dir]][
+                            "quality"
+                        ]
+                    else:
+                        video_quality = 480
+                    video_id_format["quality"] = video_quality
+                    make_up_file_format[main] = video_id_format
 
 # 补全在rss中缺失的媒体格式信息模块
 def make_up_file_format_mod():
@@ -3099,19 +3270,39 @@ def make_up_file_format_mod():
     # 创建线程锁
     makeup_yt_format_lock = threading.Lock()
     def makeup_yt_format(video_id):
-        makeup_ytid_format = media_format(
+        makeup_id_format = media_format(
             make_up_file_format[video_id]["url"],
             make_up_file_format[video_id]["main"],
             make_up_file_format[video_id]["media"],
             make_up_file_format[video_id]["quality"],
             make_up_file_format[video_id]["cookie"],
         )
-        if isinstance(makeup_ytid_format, list):
-            make_up_file_format[video_id]["format"] = makeup_ytid_format[0]["duration_and_id"]
+        if isinstance(makeup_id_format, list):
+            if len(makeup_id_format) == 1:
+                entry_id_makeup_format = makeup_id_format[0]
+                make_up_file_format[video_id]["format"] = entry_id_makeup_format["duration_and_id"]
+                make_up_file_format[video_id]["download"] = entry_id_makeup_format["download"]
+            else:
+                entrys_id = []
+                for entry_id_makeup_format in makeup_id_format:
+                    entry_id = entry_id_makeup_format["id"]
+                    entrys_id.append(entry_id)
+                    make_up_file_format[entry_id] = {
+                        "id": make_up_file_format[video_id]["id"],
+                        "name": make_up_file_format[video_id]["name"],
+                        "media": make_up_file_format[video_id]["media"],
+                        "quality": make_up_file_format[video_id]["quality"],
+                        "url": entry_id_makeup_format["url"],
+                        "cookie": make_up_file_format[video_id]["cookie"],
+                        "format": entry_id_makeup_format["duration_and_id"],
+                        "main": make_up_file_format[video_id]["main"],
+                        "download": entry_id_makeup_format["download"],
+                    }
+                del make_up_file_format[video_id]
         else:
             with makeup_yt_format_lock:
                 write_log(
-                    f"{make_up_file_format[video_id]['name']}|{video_id}|{makeup_ytid_format}"
+                    f"{make_up_file_format[video_id]['name']}|{video_id}|{makeup_id_format}"
                 )
                 make_up_file_format_fail[video_id] = make_up_file_format[video_id]['id']  # 将无法补全的媒体添加到失败字典中
                 del make_up_file_format[video_id]
@@ -3128,23 +3319,28 @@ def make_up_file_format_mod():
 # 下载补全Youtube和哔哩哔哩视频模块
 def make_up_file_mod():
     for video_id in make_up_file_format.keys():
-        write_log(
-            f"{make_up_file_format[video_id]['name']}|{video_id} 缺失并重新下载"
-        )
-        if dl_aideo_video(
-            video_id,
-            make_up_file_format[video_id]["id"],
-            make_up_file_format[video_id]["media"],
-            make_up_file_format[video_id]["format"],
-            config["retry_count"],
-            make_up_file_format[video_id]["url"],
-            make_up_file_format[video_id]["name"],
-            make_up_file_format[video_id]["cookie"],
-        ):
-            video_id_failed.append(video_id)
+        media = make_up_file_format[video_id]["media"]
+        id = make_up_file_format[video_id]["id"]
+        name = make_up_file_format[video_id]['name']
+        if f"{video_id}.{media}" not in os.listdir(f"channel_audiovisual/{id}"):
             write_log(
-                f"{make_up_file_format[video_id]['name']}|{video_id} \033[31m无法下载\033[0m"
+                f"{name}|{video_id} 缺失并重新下载"
             )
+            if dl_aideo_video(
+                video_id,
+                id,
+                media,
+                make_up_file_format[video_id]["format"],
+                config["retry_count"],
+                make_up_file_format[video_id]["download"]["url"],
+                name,
+                make_up_file_format[video_id]["cookie"],
+                make_up_file_format[video_id]["download"]["num"]
+            ):
+                video_id_failed.append(video_id)
+                write_log(
+                    f"{make_up_file_format[video_id]['name']}|{video_id} \033[31m无法下载\033[0m"
+                )
 
 # 删除无法补全的媒体模块
 def del_makeup_yt_format_fail(overall_rss):
