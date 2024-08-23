@@ -2013,6 +2013,7 @@ def get_bilibili_interactive(bvid, bilibili_value):
             return edgeinfo_v2["data"]
     def get_choices(data):
         options = []
+        options_cid = []
         if "questions" in data["edges"]:
             for question in data["edges"]["questions"]:
                 if "choices" in question:
@@ -2024,31 +2025,36 @@ def get_bilibili_interactive(bvid, bilibili_value):
                                 "option": choice["option"],
                             })
                             options.append(choice["option"])
-        return options
+                            options_cid.append(choice["cid"])
+        return options, options_cid
     if graph_version:
         data_1 = get_edge_info(bvid, bilibili_value, graph_version, "1")
         for story_list in data_1["story_list"]:
             if story_list["edge_id"] == 1:
                 story_list_1 = story_list
                 break
+        options, options_cid = get_choices(data_1)
         bvid_part.append({
             "cid": story_list_1["cid"],
             "title": data_1["title"],
             "edge_id": story_list_1["edge_id"],
             "first_frame": f"http://i0.hdslb.com/bfs/steins-gate/{story_list_1['cid']}_screenshot.jpg",
-            "options": get_choices(data_1),
+            "options": options,
+            "options_cid": options_cid,
             "num": 1,
         })
         bvid_cid.append(story_list_1["cid"])
         while len(bvid_cid_choices) != 0:
             if bvid_cid_choices[0]["cid"] not in bvid_cid:
                 data = get_edge_info(bvid, bilibili_value, graph_version, bvid_cid_choices[0]["edge_id"])
+                options, options_cid = get_choices(data)
                 bvid_part.append({
                     "cid": bvid_cid_choices[0]["cid"],
                     "title": data["title"],
                     "edge_id": bvid_cid_choices[0]["edge_id"],
                     "first_frame": f"http://i0.hdslb.com/bfs/steins-gate/{bvid_cid_choices[0]['cid']}_screenshot.jpg",
-                    "options": get_choices(data),
+                    "options": options,
+                    "options_cid": options_cid,
                     "num": len(bvid_part) + 1
                 })
                 bvid_cid.append(bvid_cid_choices[0]["cid"])
@@ -2617,7 +2623,7 @@ def xml_item(
         else:
             description = f"『{channelid_title}』\n{description}".replace('\x00', '')
     # 更换描述换行符
-    replacement_description = description.replace("\n", "&#xA;")
+    replacement_description = description.replace("\n", "&#xA;").replace("\t", "&#x9;")
     # 获取文件后缀和文件字节大小
     if os.path.exists(f"channel_audiovisual/{output_dir}/{video_url}.mp4"):
         video_length_bytes = os.path.getsize(
@@ -3011,11 +3017,12 @@ def bilibili_xml_items(output_dir):
                     )
                     items_list.append(f"{xml_item_text}<!-- {output_dir} -->")
             elif items_counts[guid] == len(guid_edgeinfos):
+                cid_edgeinfos = {guid_edgeinfo['cid']: guid_edgeinfo['title'] for guid_edgeinfo in guid_edgeinfos}
                 for guid_edgeinfo in guid_edgeinfos:
                     if guid_edgeinfo["options"]:
                         description = (
                             "〖互动视频〗\n"
-                            + "\n".join(guid_edgeinfo["options"])
+                            + "\n".join(f"{option}\t※{cid_edgeinfos[option_cid]}" for option, option_cid in zip(guid_edgeinfo["options"], guid_edgeinfo["options_cid"]))
                             + "\n------------------------------------------------\n"
                             + item["description"]
                         )

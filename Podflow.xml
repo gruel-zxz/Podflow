@@ -7,17 +7,17 @@
         <category>TV &amp; Film</category>
         <generator>Podflow (support us at https://github.com/gruel-zxz/podflow)</generator>
         <language>en-us</language>
-        <lastBuildDate>Thu, 22 Aug 2024 23:00:41 +0800</lastBuildDate>
+        <lastBuildDate>Fri, 23 Aug 2024 11:11:43 +0800</lastBuildDate>
         <pubDate>Sun, 24 Apr 2005 11:20:54 +0800</pubDate>
         <image>
-            <url>https://raw.githubusercontent.com/gruel-zxz/podflow/main/Podflow_dark.png</url>
+            <url>https://raw.githubusercontent.com/gruel-zxz/podflow/main/Podflow_light.png</url>
             <title>Podflow</title>
             <link>https://github.com/gruel-zxz/podflow</link>
         </image>
         <itunes:author>gruel-zxz</itunes:author>
         <itunes:subtitle>gruel-zxz-podflow</itunes:subtitle>
         <itunes:summary><![CDATA[在iOS平台上借助workflow和a-shell搭建专属的播客服务器。]]></itunes:summary>
-        <itunes:image href="https://raw.githubusercontent.com/gruel-zxz/podflow/main/Podflow_dark.png"></itunes:image>
+        <itunes:image href="https://raw.githubusercontent.com/gruel-zxz/podflow/main/Podflow_light.png"></itunes:image>
         <itunes:explicit>no</itunes:explicit>
         <itunes:category text="TV &amp; Film"></itunes:category>
 <!-- {UCghLs6s95LrBWOdlZUCH4qw} -->
@@ -38246,6 +38246,22 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
 <!-- {UCXWy8yrS4WKhzbp36lW214w} -->
 <!-- UCXWy8yrS4WKhzbp36lW214w -->
         <item>
+            <guid>Xx5VfFwmcvc</guid>
+            <title>太监净身全过程</title>
+            <link>https://youtube.com/watch?v=Xx5VfFwmcvc</link>
+            <description>『绝密研究所』</description>
+            <pubDate>Fri, 23 Aug 2024 08:45:02 +0800</pubDate>
+            <enclosure url="https://raw.githubusercontent.com/gruel-zxz/podflow/main/channel_audiovisual/UCXWy8yrS4WKhzbp36lW214w/Xx5VfFwmcvc.m4a" length="3400017" type="audio/x-m4a"></enclosure>
+            <itunes:author>太监净身全过程</itunes:author>
+            <itunes:subtitle>太监净身全过程</itunes:subtitle>
+            <itunes:summary><![CDATA[『绝密研究所』]]></itunes:summary>
+            <itunes:image href="https://i1.ytimg.com/vi/Xx5VfFwmcvc/hqdefault.jpg"></itunes:image>
+            <itunes:duration>03:31</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:order>1</itunes:order>
+        </item>
+<!-- UCXWy8yrS4WKhzbp36lW214w -->
+        <item>
             <guid>PM4I6wDdgbg</guid>
             <title>南北文化差异有多大</title>
             <link>https://youtube.com/watch?v=PM4I6wDdgbg</link>
@@ -39025,22 +39041,6 @@ https://www.youtube.com/watch?v=2FLYgFa2ZyI
             <itunes:summary><![CDATA[『绝密研究所』]]></itunes:summary>
             <itunes:image href="https://i2.ytimg.com/vi/-gdoDbkJlzo/hqdefault.jpg"></itunes:image>
             <itunes:duration>05:40</itunes:duration>
-            <itunes:explicit>no</itunes:explicit>
-            <itunes:order>1</itunes:order>
-        </item>
-<!-- UCXWy8yrS4WKhzbp36lW214w -->
-        <item>
-            <guid>0NmhW3tTAns</guid>
-            <title>正常人如何被骂废的？</title>
-            <link>https://youtube.com/watch?v=0NmhW3tTAns</link>
-            <description>『绝密研究所』</description>
-            <pubDate>Sun, 28 Apr 2024 08:15:07 +0800</pubDate>
-            <enclosure url="https://raw.githubusercontent.com/gruel-zxz/podflow/main/channel_audiovisual/UCXWy8yrS4WKhzbp36lW214w/0NmhW3tTAns.m4a" length="4936820" type="audio/x-m4a"></enclosure>
-            <itunes:author>正常人如何被骂废的？</itunes:author>
-            <itunes:subtitle>正常人如何被骂废的？</itunes:subtitle>
-            <itunes:summary><![CDATA[『绝密研究所』]]></itunes:summary>
-            <itunes:image href="https://i1.ytimg.com/vi/0NmhW3tTAns/hqdefault.jpg"></itunes:image>
-            <itunes:duration>05:06</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
             <itunes:order>1</itunes:order>
         </item>
