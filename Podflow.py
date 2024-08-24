@@ -3022,7 +3022,7 @@ def bilibili_xml_items(output_dir):
                     if guid_edgeinfo["options"]:
                         description = (
                             "〖互动视频〗\n"
-                            + "\n".join(f"{option}\t※{cid_edgeinfos[option_cid]}" for option, option_cid in zip(guid_edgeinfo["options"], guid_edgeinfo["options_cid"]))
+                            + "\n".join(f"{option}\t{cid_edgeinfos[option_cid]}" for option, option_cid in zip(guid_edgeinfo["options"], guid_edgeinfo["options_cid"]))
                             + "\n------------------------------------------------\n"
                             + item["description"]
                         )
