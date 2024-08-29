@@ -616,7 +616,8 @@ def media_format(video_website, video_url, media="m4a", quality="480", cookies=N
                                 "download": {
                                     "url": download_url,
                                     "num": playlist_num + 1,
-                                }
+                                },
+                                "format_note": entry.get("format_note"),
                             })
                     else:
                         infos.append({
@@ -631,7 +632,8 @@ def media_format(video_website, video_url, media="m4a", quality="480", cookies=N
                             "download": {
                                 "url": download_url,
                                 "num": None
-                            }
+                            },
+                            "format_note": info_dict.get("format_note"),
                         })
         except Exception as message_error:
             fail_message = (
@@ -730,7 +732,10 @@ def media_format(video_website, video_url, media="m4a", quality="480", cookies=N
             )
             (best_formats_m4a, vcodec_best) = best_format_id(formats_m4a)
             if best_formats_m4a == "" or best_formats_m4a is None:
-                return "无法获取音频ID"
+                if entry["format_note"] == "试看":
+                    return "\033[31m试看\033[0m"
+                else:
+                    return "无法获取音频ID"
             duration_and_id.append(best_formats_m4a)
             if media == "mp4":
                 formats_mp4 = list(
@@ -743,7 +748,10 @@ def media_format(video_website, video_url, media="m4a", quality="480", cookies=N
                 )
                 (best_formats_mp4, vcodec_best) = best_format_id(formats_mp4)
                 if best_formats_mp4 == "" or best_formats_mp4 is None:
-                    return "无法获取视频ID"
+                    if entry["format_note"] == "试看":
+                        return "\033[31m试看\033[0m"
+                    else:
+                        return "无法获取视频ID"
                 duration_and_id.append(best_formats_mp4)
                 duration_and_id.append(vcodec_best)
             lists.append({

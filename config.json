@@ -74,6 +74,12 @@
             "media": "mp4",
             "InmainRSS": false,
             "update_size": 1
+        },
+        "NOV姐姐": {
+            "id": "9448580",
+            "BackwardUpdate": true,
+            "BackwardUpdate_size": 1,
+            "update_size": 2
         }
     },
     "retry_count": 2,
