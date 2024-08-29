@@ -662,7 +662,7 @@ def media_format(video_website, video_url, media="m4a", quality="480", cookies=N
         r"This video is private\. If the owner of this video has granted you access, please sign in\.": "\033[31m私人视频\033[0m",
         r"This video is unavailable": "\033[31m无法观看\033[0m",
         r"The following content is not available on this app\.\. Watch on the latest version of YouTube\.": "\033[31m需App\033[0m",
-        r"This video may be deleted or geo-restricted\. You might want to try a VPN or a proxy server \(with --proxy\)": "\033[31m删除或受制\033[0m",
+        r"This video may be deleted or geo-restricted\. You might want to try a VPN or a proxy server \(with --proxy\)": "\033[31m删除或受限\033[0m",
     }
     def fail_message_initialize(fail_message, error_reason):
         for key in error_reason:
