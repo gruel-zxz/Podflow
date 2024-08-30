@@ -78,8 +78,8 @@
         "NOV姐姐": {
             "id": "9448580",
             "BackwardUpdate": true,
-            "BackwardUpdate_size": 1,
-            "update_size": 2
+            "BackwardUpdate_size": 5,
+            "update_size": 50
         }
     },
     "retry_count": 2,

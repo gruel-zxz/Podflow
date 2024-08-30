@@ -577,23 +577,17 @@ def media_format(video_website, video_url, media="m4a", quality="480", cookies=N
         fail_message, infos = None, []
         try:
             # 初始化 yt_dlp 实例, 并忽略错误
+            ydl_opts = {
+                "no_warnings": True,
+                "quiet": True,  # 禁止非错误信息的输出
+                "logger": MyLogger(),
+            }
             if cookies:
-                ydl_opts = {
-                    "no_warnings": True,
-                    "quiet": True,  # 禁止非错误信息的输出
-                    "logger": MyLogger(),
-                    "http_headers": {
-                        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
-                        "Referer": "https://www.bilibili.com/",
-                    },
-                    'cookiefile': cookies,  # cookies 是你的 cookies 文件名
+                ydl_opts["http_headers"] = {
+                    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
+                    "Referer": "https://www.bilibili.com/",
                 }
-            else:
-                ydl_opts = {
-                    "no_warnings": True,
-                    "quiet": True,  # 禁止非错误信息的输出
-                    "logger": MyLogger(),
-                }
+                ydl_opts["cookiefile"] = cookies  # cookies 是你的 cookies 文件名
             with yt_dlp.YoutubeDL(ydl_opts) as ydl:
                 # 使用提供的 URL 提取视频信息
                 if info_dict:= ydl.extract_info(
@@ -831,14 +825,18 @@ def download_video(
         def info(self, msg):
             pass
         def error(self, msg):
-            print(
+            msg = (
                 msg
                 .replace("ERROR: ", "")
                 .replace("\033[0;31mERROR:\033[0m ", "")
                 .replace(f"{video_url}: ", "")
                 .replace("[youtube] ", "")
+                .replace("[BiliBili] ", "")
                 .replace("[download] ", "")
             )
+            if video_url[:2] == "BV":
+                msg = msg.replace(f"{video_url[2:]}: ", "")
+            print(msg)
     ydl_opts = {
         "outtmpl": f"channel_audiovisual/{output_dir}/{video_url}{sesuffix}.{output_format}",  # 输出文件路径和名称
         "format": f"{format_id}",  # 指定下载的最佳音频和视频格式
