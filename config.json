@@ -61,8 +61,6 @@
         "无无无无语森": "3393923",
         "鹿火CAVY": {
             "id": "1839002753",
-            "BackwardUpdate": true,
-            "BackwardUpdate_size": 1,
             "update_size": 25,
             "InmainRSS": false,
             "AllPartGet": false,
@@ -85,5 +83,5 @@
     "retry_count": 2,
     "link": "m.youtube.com",
     "url": "https://raw.githubusercontent.com/gruel-zxz/podflow/main",
-    "preparation_per_count": 10
+    "preparation_per_count": 30
 }
