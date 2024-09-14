@@ -477,7 +477,6 @@ def time_stamp():
     thread2.join()
     thread3.join()
     if time_stamps:
-        print(time_stamps)
         return int(sum(time_stamps) / len(time_stamps))
     else:
         print(
