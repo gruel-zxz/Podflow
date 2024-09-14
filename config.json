@@ -61,7 +61,7 @@
         "无无无无语森": "3393923",
         "鹿火CAVY": {
             "id": "1839002753",
-            "update_size": 25,
+            "update_size": 200,
             "InmainRSS": false,
             "AllPartGet": false,
             "last_size": 200
@@ -77,7 +77,7 @@
             "id": "9448580",
             "BackwardUpdate": true,
             "BackwardUpdate_size": 5,
-            "update_size": 50
+            "update_size": 200
         }
     },
     "retry_count": 2,
