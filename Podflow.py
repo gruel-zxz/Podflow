@@ -53,29 +53,30 @@ if args.file is not None and ".json" in args.file:
 
 # 默认参数
 default_config = {
-    "preparation_per_count": 100,
-    "completion_count": 100,
-    "retry_count": 5,
-    "url": "http://127.0.0.1:8000",
-    "title": "Podflow",
-    "filename": "Podflow",
-    "link": "https://github.com/gruel-zxz/podflow",
-    "description": "在iOS平台上借助workflow和a-shell搭建专属的播客服务器。",
-    "icon": "https://raw.githubusercontent.com/gruel-zxz/podflow/main/Podflow.png",
-    "category": "TV &amp; Film",
+    "preparation_per_count": 100,  #获取媒体信息每组数量
+    "completion_count": 100,  #媒体缺失时最大补全数量
+    "retry_count": 5,  #媒体下载重试次数
+    "url": "http://127.0.0.1:8000",  #HTTP共享地址
+    "title": "Podflow",  #博客的名称
+    "filename": "Podflow",  #主XML的文件名称
+    "link": "https://github.com/gruel-zxz/podflow",  #博客主页
+    "description": "在iOS平台上借助workflow和a-shell搭建专属的播客服务器。",  #博客信息
+    "icon": "https://raw.githubusercontent.com/gruel-zxz/podflow/main/Podflow.png",  #博客图标
+    "category": "TV &amp; Film",  #博客类型
     "channelid_youtube": {
         "youtube": {
-            "update_size": 15,
-            "id": "UCBR8-60-B28hp2BmDPdntcQ",
-            "title": "YouTube",
-            "quality": "480",
-            "last_size": 50,
-            "media": "m4a",
-            "DisplayRSSaddress": False,
-            "InmainRSS": True,
-            "QRcode": False,
-            "BackwardUpdate": False,
-            "BackwardUpdate_size": 3,
+            "update_size": 15,  #每次获取频道媒体数量
+            "id": "UCBR8-60-B28hp2BmDPdntcQ",  #频道ID
+            "title": "YouTube",  #频道名称
+            "quality": "480",  #媒体分辨率(仅在media为视频时有效)
+            "last_size": 50,  #媒体保留数量
+            "media": "m4a",  #下载媒体类型
+            "DisplayRSSaddress": False,  #是否在Print中显示子博客地址
+            "InmainRSS": True,  #是否在主博客中
+            "QRcode": False,  #是否显示子博客地址二维码(仅在DisplayRSSaddress为True时有效)
+            "BackwardUpdate": False,  #是否向后更新
+            "BackwardUpdate_size": 3,  #向后更新数量(仅在BackwardUpdate为True时有效)
+            "want_retry_count": 8,  #媒体获取失败后多少次后重试(小于等于该数量时将一直重试)
         }
     },
     "channelid_bilibili": {
@@ -91,7 +92,8 @@ default_config = {
             "QRcode": False,
             "BackwardUpdate": False,
             "BackwardUpdate_size": 3,
-            "AllPartGet": False,
+            "want_retry_count": 8,
+            "AllPartGet": False,  #是否获取频道全部媒体
         }
     },
 }
@@ -1444,6 +1446,15 @@ def correct_channelid(channelid, website):
                 channelid[channelid_key]["BackwardUpdate_size"] = default_config[
                     f"channelid_{website}"
                 ][channelid_name]["BackwardUpdate_size"]
+            # 对want_retry_count进行纠正
+            if (
+                "want_retry_count" not in channeli_value
+                or not isinstance(channeli_value["want_retry_count"], int)
+                or channeli_value["want_retry_count"] <= 0
+            ):
+                channelid[channelid_key]["want_retry_count"] = default_config[
+                    f"channelid_{website}"
+                ][channelid_name]["want_retry_count"]
             if website == "bilibili":
                 # 对AllPartGet进行纠正
                 if "AllPartGet" not in channeli_value or not isinstance(
@@ -2378,6 +2389,25 @@ def update_youtube_bilibili_rss():
             # 构建频道文件夹
             folder_build(bilibili_key, "channel_audiovisual")
 
+# 判断是否重试模块
+def want_retry(video_url, num=1):
+    # 定义正则表达式模式（不区分大小写）
+    pattern = rf'\|{video_url}\|(试看|跳过更新|删除或受限|直播预约\|a few moments\.)'
+    # 读取 log.txt 文件
+    try:
+        with open('log.txt', 'r', encoding='utf-8') as file:
+            content = file.read()  # 读取文件内容
+        # 使用 re.findall() 查找所有匹配项
+        matches = re.findall(pattern, content)
+        # 计算匹配的个数
+        count = len(matches)
+    except (FileNotFoundError, Exception):
+        count = 0
+    if count < num or count % num == 0:
+        return True
+    else:
+        return False
+
 # 输出需要更新的信息模块
 def update_information_display(channelid_ids_update, content_id_update, content_id_backward_update, name):
     if channelid_ids_update:
@@ -2532,6 +2562,7 @@ def get_video_format():
         for ytid_key, ytid_value in ytid_content_update.items():
             # 获取对应文件类型
             yt_id_file = channelid_youtube[channelid_youtube_ids_update[ytid_key]]["media"]
+            yt_id_failed_count = channelid_youtube[channelid_youtube_ids_update[ytid_key]]["want_retry_count"]
             # 如果为视频格式获取分辨率
             if yt_id_file == "mp4":
                 yt_id_quality = channelid_youtube[channelid_youtube_ids_update[ytid_key]][
@@ -2540,19 +2571,27 @@ def get_video_format():
             else:
                 yt_id_quality = None
             for yt_id in ytid_value:
-                yt_id_format = {
-                    "id": ytid_key,
-                    "media": yt_id_file,
-                    "quality": yt_id_quality,
-                    "url": f"https://www.youtube.com/watch?v={yt_id}",
-                    "name": channelid_youtube_ids[ytid_key],
-                    "cookie": None,
-                }
-                video_id_update_format[yt_id] = yt_id_format
+                if want_retry(yt_id, yt_id_failed_count):
+                    yt_id_format = {
+                        "id": ytid_key,
+                        "media": yt_id_file,
+                        "quality": yt_id_quality,
+                        "url": f"https://www.youtube.com/watch?v={yt_id}",
+                        "name": channelid_youtube_ids[ytid_key],
+                        "cookie": None,
+                    }
+                    video_id_update_format[yt_id] = yt_id_format
+                else:
+                    write_log(
+                        f"{channelid_youtube_ids[ytid_key]}|{yt_id}|跳过更新",
+                        None,
+                        False,
+                    )
     def get_bilibili_format_front(bvid_content_update):
         for bvid_key, bvid_value in bvid_content_update.items():
             # 获取对应文件类型
             bv_id_file = channelid_bilibili[channelid_bilibili_ids_update[bvid_key]]["media"]
+            bv_id_failed_count = channelid_bilibili[channelid_bilibili_ids_update[bvid_key]]["want_retry_count"]
             # 如果为视频格式获取分辨率
             if bv_id_file == "mp4":
                 bv_id_quality = channelid_bilibili[channelid_bilibili_ids_update[bvid_key]][
@@ -2561,15 +2600,22 @@ def get_video_format():
             else:
                 bv_id_quality = None
             for bv_id in bvid_value:
-                bv_id_format = {
-                    "id": bvid_key,
-                    "media": bv_id_file,
-                    "quality": bv_id_quality,
-                    "url": f"https://www.bilibili.com/video/{bv_id}",
-                    "name": channelid_bilibili_ids[bvid_key],
-                    "cookie": "yt_dlp_bilibili.txt",
-                }
-                video_id_update_format[bv_id] = bv_id_format
+                if want_retry(bv_id, bv_id_failed_count):
+                    bv_id_format = {
+                        "id": bvid_key,
+                        "media": bv_id_file,
+                        "quality": bv_id_quality,
+                        "url": f"https://www.bilibili.com/video/{bv_id}",
+                        "name": channelid_bilibili_ids[bvid_key],
+                        "cookie": "yt_dlp_bilibili.txt",
+                    }
+                    video_id_update_format[bv_id] = bv_id_format
+                else:
+                    write_log(
+                        f"{channelid_bilibili_ids[bvid_key]}|{bv_id}|跳过更新",
+                        None,
+                        False,
+                    )
     get_youtube_format_front(youtube_content_ytid_update)
     get_bilibili_format_front(bilibili_content_bvid_update)
     get_youtube_format_front(youtube_content_ytid_backward_update)
