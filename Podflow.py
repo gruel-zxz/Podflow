@@ -2582,7 +2582,6 @@ def get_video_format():
                     }
                     video_id_update_format[yt_id] = yt_id_format
                 else:
-                    del video_id_update_format[yt_id]
                     video_id_failed.append(yt_id)
                     write_log(
                         f"{channelid_youtube_ids[ytid_key]}|{yt_id}|跳过更新",
@@ -2613,7 +2612,6 @@ def get_video_format():
                     }
                     video_id_update_format[bv_id] = bv_id_format
                 else:
-                    del video_id_update_format[bv_id]
                     video_id_failed.append(bv_id)
                     write_log(
                         f"{channelid_bilibili_ids[bvid_key]}|{bv_id}|跳过更新",
