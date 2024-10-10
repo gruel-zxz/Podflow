@@ -1002,9 +1002,10 @@ def dl_aideo_video(
     output_dir_name="",
     cookies=None,
     playlist_num=None,
+    display_color="\033[95m"
 ):
     if output_dir_name:
-        video_write_log = f"\033[95m{output_dir_name}\033[0m|{video_url}"
+        video_write_log = f"{display_color}{output_dir_name}\033[0m|{video_url}"
     else:
         video_write_log = video_url
     id_duration = video_format[0]
@@ -2558,7 +2559,7 @@ def get_youtube_and_bilibili_video_format_multithreading(video_id_update_format_
 
 # 获取YouTube&哔哩哔哩视频格式信息模块
 def get_video_format():
-    def get_youtube_format_front(ytid_content_update):
+    def get_youtube_format_front(ytid_content_update, backward_update):
         for ytid_key, ytid_value in ytid_content_update.items():
             # 获取对应文件类型
             yt_id_file = channelid_youtube[channelid_youtube_ids_update[ytid_key]]["media"]
@@ -2579,6 +2580,7 @@ def get_video_format():
                         "url": f"https://www.youtube.com/watch?v={yt_id}",
                         "name": channelid_youtube_ids[ytid_key],
                         "cookie": None,
+                        "backward_update": backward_update,
                     }
                     video_id_update_format[yt_id] = yt_id_format
                 else:
@@ -2588,7 +2590,7 @@ def get_video_format():
                         None,
                         False,
                     )
-    def get_bilibili_format_front(bvid_content_update):
+    def get_bilibili_format_front(bvid_content_update, backward_update):
         for bvid_key, bvid_value in bvid_content_update.items():
             # 获取对应文件类型
             bv_id_file = channelid_bilibili[channelid_bilibili_ids_update[bvid_key]]["media"]
@@ -2609,6 +2611,7 @@ def get_video_format():
                         "url": f"https://www.bilibili.com/video/{bv_id}",
                         "name": channelid_bilibili_ids[bvid_key],
                         "cookie": "yt_dlp_bilibili.txt",
+                        "backward_update": backward_update,
                     }
                     video_id_update_format[bv_id] = bv_id_format
                 else:
@@ -2618,10 +2621,10 @@ def get_video_format():
                         None,
                         False,
                     )
-    get_youtube_format_front(youtube_content_ytid_update)
-    get_bilibili_format_front(bilibili_content_bvid_update)
-    get_youtube_format_front(youtube_content_ytid_backward_update)
-    get_bilibili_format_front(bilibili_content_bvid_backward_update)
+    get_youtube_format_front(youtube_content_ytid_update, False)
+    get_bilibili_format_front(bilibili_content_bvid_update, False)
+    get_youtube_format_front(youtube_content_ytid_backward_update, True)
+    get_bilibili_format_front(bilibili_content_bvid_backward_update, True)
     # 按参数拆分获取量
     if len(video_id_update_format) != 0:
         video_id_update_format_list = split_dict(video_id_update_format, config["preparation_per_count"])
@@ -2639,6 +2642,11 @@ def get_video_format():
 def youtube_and_bilibili_download():
     for video_id in video_id_update_format.keys():
         if isinstance(video_id_update_format[video_id], dict) and video_id_update_format[video_id]["main"] not in video_id_failed:
+            output_dir_name = video_id_update_format[video_id]["name"]
+            if video_id_update_format[video_id]["backward_update"]:
+                display_color = "\033[96m"
+            else:
+                display_color = "\033[95m"
             if dl_aideo_video(
                 video_id,
                 video_id_update_format[video_id]["id"],
@@ -2646,13 +2654,14 @@ def youtube_and_bilibili_download():
                 video_id_update_format[video_id]["format"],
                 config["retry_count"],
                 video_id_update_format[video_id]["download"]["url"],
-                video_id_update_format[video_id]["name"],
+                output_dir_name,
                 video_id_update_format[video_id]["cookie"],
-                video_id_update_format[video_id]["download"]["num"]
+                video_id_update_format[video_id]["download"]["num"],
+                display_color
             ):
                 video_id_failed.append(video_id_update_format[video_id]["main"])
                 write_log(
-                    f"{video_id_update_format[video_id]['name']}|{video_id} \033[31m无法下载\033[0m"
+                    f"{display_color}{output_dir_name}\033[0m|{video_id} \033[31m无法下载\033[0m"
                 )
 
 # 生成XML模块
