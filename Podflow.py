@@ -2644,7 +2644,7 @@ def youtube_and_bilibili_download():
         if isinstance(video_id_update_format[video_id], dict) and video_id_update_format[video_id]["main"] not in video_id_failed:
             output_dir_name = video_id_update_format[video_id]["name"]
             if video_id_update_format[video_id]["backward_update"]:
-                display_color = "\033[96m"
+                display_color = "\033[35m"
             else:
                 display_color = "\033[95m"
             if dl_aideo_video(
