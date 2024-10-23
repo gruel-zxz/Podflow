@@ -53,31 +53,32 @@ if args.file is not None and ".json" in args.file:
 
 # 默认参数
 default_config = {
-    "preparation_per_count": 100,  #获取媒体信息每组数量
-    "completion_count": 100,  #媒体缺失时最大补全数量
-    "retry_count": 5,  #媒体下载重试次数
-    "url": "http://127.0.0.1:8000",  #HTTP共享地址
+    "preparation_per_count": 100,  # 获取媒体信息每组数量
+    "completion_count": 100,  # 媒体缺失时最大补全数量
+    "retry_count": 5,  # 媒体下载重试次数
+    "url": "http://127.0.0.1:8000",  # HTTP共享地址
     "title": "Podflow",  #博客的名称
-    "filename": "Podflow",  #主XML的文件名称
-    "link": "https://github.com/gruel-zxz/podflow",  #博客主页
-    "description": "在iOS平台上借助workflow和a-shell搭建专属的播客服务器。",  #博客信息
-    "icon": "https://raw.githubusercontent.com/gruel-zxz/podflow/main/Podflow.png",  #博客图标
-    "category": "TV &amp; Film",  #博客类型
+    "filename": "Podflow",  # 主XML的文件名称
+    "link": "https://github.com/gruel-zxz/podflow",  # 博客主页
+    "description": "在iOS平台上借助workflow和a-shell搭建专属的播客服务器。",  # 博客信息
+    "icon": "https://raw.githubusercontent.com/gruel-zxz/podflow/main/Podflow.png",  # 博客图标
+    "category": "TV &amp; Film",  # 博客类型
+    "token": None,  # token认证，如为null或""将不启用token
     "channelid_youtube": {
         "youtube": {
-            "update_size": 15,  #每次获取频道媒体数量
-            "id": "UCBR8-60-B28hp2BmDPdntcQ",  #频道ID
-            "title": "YouTube",  #频道名称
-            "quality": "480",  #媒体分辨率(仅在media为视频时有效)
-            "last_size": 50,  #媒体保留数量
-            "media": "m4a",  #下载媒体类型
-            "DisplayRSSaddress": False,  #是否在Print中显示子博客地址
-            "InmainRSS": True,  #是否在主博客中
-            "QRcode": False,  #是否显示子博客地址二维码(仅在DisplayRSSaddress为True时有效)
-            "BackwardUpdate": False,  #是否向后更新
-            "BackwardUpdate_size": 3,  #向后更新数量(仅在BackwardUpdate为True时有效)
-            "want_retry_count": 8,  #媒体获取失败后多少次后重试(小于等于该数量时将一直重试)
-        }
+            "update_size": 15,  # 每次获取频道媒体数量
+            "id": "UCBR8-60-B28hp2BmDPdntcQ",  # 频道ID
+            "title": "YouTube",  # 频道名称
+            "quality": "480",  # 媒体分辨率(仅在media为视频时有效)
+            "last_size": 50,  # 媒体保留数量
+            "media": "m4a",  # 下载媒体类型
+            "DisplayRSSaddress": False,  # 是否在Print中显示子博客地址
+            "InmainRSS": True,  # 是否在主博客中
+            "QRcode": False,  # 是否显示子博客地址二维码(仅在DisplayRSSaddress为True时有效)
+            "BackwardUpdate": False,  # 是否向后更新
+            "BackwardUpdate_size": 3,  # 向后更新数量(仅在BackwardUpdate为True时有效)
+            "want_retry_count": 8,  # 媒体获取失败后多少次后重试(小于等于该数量时将一直重试)
+        },
     },
     "channelid_bilibili": {
         "哔哩哔哩弹幕网": {
@@ -93,8 +94,8 @@ default_config = {
             "BackwardUpdate": False,
             "BackwardUpdate_size": 3,
             "want_retry_count": 8,
-            "AllPartGet": False,  #是否获取频道全部媒体
-        }
+            "AllPartGet": False,  # 是否获取频道全部媒体
+        },
     },
 }
 # 如果InmainRSS为False或频道有更新则无视DisplayRSSaddress的状态, 都会变为True。
@@ -102,7 +103,7 @@ default_config = {
 print(f"{datetime.now().strftime('%H:%M:%S')}|Podflow开始运行.....")
 
 # 全局变量
-config = {}  #配置文件字典
+config = {}  # 配置文件字典
 channelid_youtube = {}  # YouTube频道字典
 channelid_bilibili = {}  # 哔哩哔哩频道字典
 channelid_youtube_ids = {}  # YouTube频道ID字典
@@ -138,6 +139,11 @@ make_up_file_format_fail = {}  # 补全缺失媒体失败字典
 
 shortcuts_url = {}  # 输出至shortcut的url字典
 
+if (not os.path.isfile(os.path.join(os.getcwd(), "Podflow.log")) and 
+    os.path.isfile(os.path.join(os.getcwd(), "log.txt"))):
+    os.rename("log.txt", os.path.join(os.getcwd(), "Podflow.log"))
+
+
 # 文件保存模块
 def file_save(content, file_name, folder=None):
     # 如果指定了文件夹则将文件保存到指定的文件夹中
@@ -161,7 +167,7 @@ def write_log(log, suffix=None, display=True, time_display=True, only_log=None):
     formatted_time = current_time.strftime("%Y-%m-%d %H:%M:%S")
     # 打开文件, 并读取原有内容
     try:
-        with open("log.txt", "r", encoding="utf-8") as file:
+        with open("Podflow.log", "r", encoding="utf-8") as file:
             contents = file.read()
     except FileNotFoundError:
         contents = ""
@@ -170,7 +176,7 @@ def write_log(log, suffix=None, display=True, time_display=True, only_log=None):
     log_in = re.sub(r"\n", "", log_in)
     new_contents = f"{formatted_time} {log_in}{only_log}\n{contents}" if only_log else f"{formatted_time} {log_in}\n{contents}"
     # 将新的日志内容写入文件
-    file_save(new_contents, "log.txt")
+    file_save(new_contents, "Podflow.log")
     if display:
         formatted_time_mini = current_time.strftime("%H:%M:%S")
         log_print = f"{formatted_time_mini}|{log}" if time_display else f"{log}"
@@ -315,7 +321,7 @@ def vary_replace(varys, text):
 def read_today_library_log():
     try:
         # 打开文件进行读取
-        with open("log.txt", "r", encoding="utf-8") as log_file:
+        with open("Podflow.log", "r", encoding="utf-8") as log_file:
             log_lines = log_file.readlines()  # 读取所有行
         today_log_lines = []
         for log_line in log_lines:
@@ -379,6 +385,7 @@ def library_install(library, library_install_dic=None):
 
 # 安装/更新并加载三方库
 library_install_list = [
+    "bottle",
     "yt-dlp",
     "astral",
     "qrcode",
@@ -695,6 +702,7 @@ def media_format(video_website, video_url, media="m4a", quality="480", cookies=N
         r"This video is unavailable": "\033[31m无法观看\033[0m",
         r"The following content is not available on this app\.\. Watch on the latest version of YouTube\.": "\033[31m需App\033[0m",
         r"This video may be deleted or geo-restricted\. You might want to try a VPN or a proxy server \(with --proxy\)": "\033[31m删除或受限\033[0m",
+        r"H6sUyICXsbk|Sign in to confirm your age\. This video may be inappropriate for some users\.": "\033[31m年龄限制\033[0m",
     }
     def fail_message_initialize(fail_message, error_reason):
         for key in error_reason:
@@ -828,7 +836,7 @@ def wait_animation(stop_flag, wait_animation_display_info):
             )
         elif stop_flag[0] == "error":
             print(
-                f"\r{prepare_youtube_print}|{wait_animation_display_info}\033[34m准备中{animation} \033[31m失败: \033[0m"
+                f"\r{prepare_youtube_print}|{wait_animation_display_info}\033[34m准备中{animation} \033[31m失败:\033[0m"
             )
             break
         elif stop_flag[0] == "end":
@@ -1205,6 +1213,13 @@ def correct_config():
         config["category"] = default_config["category"]
     if f"{config['url']}/{config['filename']}.xml" not in shortcuts_url_original:
         shortcuts_url[f"{config['filename']}(Main RSS)"] = f"{config['url']}/{config['filename']}.xml"
+    # 对token进行纠正
+    if "token" not in config:
+        config["token"] = default_config["token"]
+    if config["token"] in [None, ""]:
+        config["token"] = ""
+    else:
+        config["token"] = str(config["token"])
 
 # 根据经纬度判断昼夜模块
 def judging_day_and_night(latitude, longitude):
@@ -1497,7 +1512,8 @@ def getWbiKeys(bilibili_cookie=None):
 
 # 生成Netscape_HTTP_Cookie模块
 def bulid_Netscape_HTTP_Cookie(file_name, cookie={}):
-    cookie_jar = f'''# Netscape HTTP Cookie File
+    if "bilibili" in file_name:
+        cookie_jar = f'''# Netscape HTTP Cookie File
 # This file is generated by yt-dlp.  Do not edit.
 
 .bilibili.com	TRUE	/	FALSE	0	SESSDATA	{cookie.get("SESSDATA", "")}
@@ -1507,6 +1523,12 @@ def bulid_Netscape_HTTP_Cookie(file_name, cookie={}):
 .bilibili.com	TRUE	/	FALSE	0	sid	{cookie.get("sid", "")}
 .bilibili.com	TRUE	/	FALSE	0	buvid3	{cookie.get("buvid3", "")}
 .bilibili.com	TRUE	/	FALSE	0	b_nut	{cookie.get("b_nut", "")}
+'''
+    else:
+        cookie_jar = '''# Netscape HTTP Cookie File
+# This file is generated by yt-dlp.  Do not edit.
+
+
 '''
     file_save(cookie_jar, f"{file_name}.txt")
 
@@ -2037,26 +2059,32 @@ def get_bilibili_interactive(bvid, bilibili_value):
     bvid_part = []
     bvid_cid = []
     bvid_cid_choices = []
-    if playerso_response:=http_client(
-        "https://api.bilibili.com/x/player.so",
+    if pagelist_response:=http_client(
+        "https://api.bilibili.com/x/player/pagelist",
         f"{bilibili_value}|{bvid}",
         10,
         4,
         True,
         None,
-        {"id": "cid:1", "bvid": bvid}
+        {"bvid": bvid, "jsonp": "jsonp"},
     ):
-        playerso = playerso_response.text
-        # 正则表达式
-        pattern = re.compile(r'(?<=<interaction>)(.*?)(?=</interaction>)', re.DOTALL)
-        match = pattern.search(playerso)
-        if match:
-            content = match.group(1).strip()
-            try:
-                data = json.loads(content)
-                graph_version = data["graph_version"]
-            except json.JSONDecodeError:
-                graph_version = ""
+        pagelist = pagelist_response.json()
+        pagelist_cid = pagelist["data"][0]["cid"]
+        if playerwbi_response:=http_client(
+            "https://api.bilibili.com/x/player/wbi/v2",
+            f"{bilibili_value}|{bvid}",
+            10,
+            4,
+            True,
+            None,
+            {"cid": pagelist_cid, "bvid": bvid},
+        ):
+            playerwbi = playerwbi_response.json()
+            graph_version = playerwbi["data"]["interaction"]["graph_version"]
+        else: 
+            graph_version = ""
+    else: 
+        graph_version = ""
     def get_edge_info(bvid, bilibili_value, graph_version, edge_id):
         if edgeinfo_v2_response:=http_client(
             "https://api.bilibili.com/x/stein/edgeinfo_v2",
@@ -2250,6 +2278,8 @@ def bilibili_rss_update(bilibili_key, bilibili_value):
             bilibili_space_original = json.load(file)  # 读取文件内容
     except FileNotFoundError:  # 文件不存在
         bilibili_space_original = {}
+    except json.decoder.JSONDecodeError:  # json读取失败
+        bilibili_space_original = {}
     if bilibili_space == -404:
         channelid_bilibili_rss[bilibili_key] = {"content": bilibili_space, "type": "int"}
     elif bilibili_space is None:
@@ -2394,9 +2424,9 @@ def update_youtube_bilibili_rss():
 def want_retry(video_url, num=1):
     # 定义正则表达式模式（不区分大小写）
     pattern = rf'\|{video_url}\|(试看|跳过更新|删除或受限|直播预约\|a few moments\.)'
-    # 读取 log.txt 文件
+    # 读取 Podflow.log 文件
     try:
-        with open('log.txt', 'r', encoding='utf-8') as file:
+        with open('Podflow.log', 'r', encoding='utf-8') as file:
             content = file.read()  # 读取文件内容
         # 使用 re.findall() 查找所有匹配项
         matches = re.findall(pattern, content)
@@ -2559,7 +2589,7 @@ def get_youtube_and_bilibili_video_format_multithreading(video_id_update_format_
 
 # 获取YouTube&哔哩哔哩视频格式信息模块
 def get_video_format():
-    def get_youtube_format_front(ytid_content_update, backward_update):
+    def get_youtube_format_front(ytid_content_update, backward_update, youtube_cookie=None):
         for ytid_key, ytid_value in ytid_content_update.items():
             # 获取对应文件类型
             yt_id_file = channelid_youtube[channelid_youtube_ids_update[ytid_key]]["media"]
@@ -2579,7 +2609,7 @@ def get_video_format():
                         "quality": yt_id_quality,
                         "url": f"https://www.youtube.com/watch?v={yt_id}",
                         "name": channelid_youtube_ids[ytid_key],
-                        "cookie": None,
+                        "cookie": youtube_cookie,  # 非必要cookie
                         "backward_update": backward_update,
                     }
                     video_id_update_format[yt_id] = yt_id_format
@@ -2621,9 +2651,23 @@ def get_video_format():
                         None,
                         False,
                     )
-    get_youtube_format_front(youtube_content_ytid_update, False)
+    # 判断是否有YouTube的cookie
+    try:
+        with open(
+            "youtube_data.json", "r", encoding="utf-8"
+        ) as file:  # 打开文件进行读取
+            youtube_data = json.load(file)  # 读取文件内容
+            youtube_cookie = "yt_dlp_youtube.txt"
+            bulid_Netscape_HTTP_Cookie("yt_dlp_youtube.txt", youtube_data["cookie"])
+    except FileNotFoundError:  # 文件不存在
+        youtube_cookie = None
+        #print(f"{datetime.now().strftime('%H:%M:%S')}|无YouTube cookie文件，部分媒体将无法获取并下载，可使用Chrome获取cookie，并保存为youtube_data.json，格式为：\n\t{{cookie: {{...}}}}")
+    except json.decoder.JSONDecodeError:  # json读取失败
+        youtube_cookie = None
+        #print(f"{datetime.now().strftime('%H:%M:%S')}|YouTube cookie文件无效，请确认格式是否为：\n\t{{cookie: {{...}}}}")
+    get_youtube_format_front(youtube_content_ytid_update, False, youtube_cookie)
     get_bilibili_format_front(bilibili_content_bvid_update, False)
-    get_youtube_format_front(youtube_content_ytid_backward_update, True)
+    get_youtube_format_front(youtube_content_ytid_backward_update, True, youtube_cookie)
     get_bilibili_format_front(bilibili_content_bvid_backward_update, True)
     # 按参数拆分获取量
     if len(video_id_update_format) != 0:
@@ -2749,6 +2793,13 @@ def xml_item(
             f"channel_audiovisual/{output_dir}/{video_url}.{output_format}"
         )
     )
+    # 生成url
+    if config["token"]:
+        input_string = f"{config['token']}/channel_audiovisual/{output_dir}/{video_url}.{output_format}"
+    else:
+        input_string = f"channel_audiovisual/{output_dir}/{video_url}.{output_format}"
+    sha256_hash = hashlib.sha256(input_string.encode()).hexdigest()
+    url = f"{config['url']}/channel_audiovisual/{output_dir}/{video_url}.{output_format}?token={sha256_hash}"
     # 回显对应的item
     return f"""
         <item>
@@ -2757,7 +2808,7 @@ def xml_item(
             <link>{video_website}</link>
             <description>{replacement_description}</description>
             <pubDate>{pubDate}</pubDate>
-            <enclosure url="{config["url"]}/channel_audiovisual/{output_dir}/{video_url}.{output_format}" length="{video_length_bytes}" type="{video_type}"></enclosure>
+            <enclosure url="{url}" length="{video_length_bytes}" type="{video_type}"></enclosure>
             <itunes:author>{title}</itunes:author>
             <itunes:subtitle>{title}</itunes:subtitle>
             <itunes:summary><![CDATA[{description}]]></itunes:summary>
@@ -2820,7 +2871,12 @@ def xml_original_item(original_item):
     pubDate = re.search(r"(?<=<pubDate>).+(?=</pubDate>)", original_item).group()
     url = re.search(r"(?<=<enclosure url\=\").+?(?=\")", original_item).group()
     url = re.search(r"(?<=/channel_audiovisual/).+/.+\.(m4a|mp4)", url).group()
-    url = f"{config['url']}/channel_audiovisual/{url}"
+    if config["token"]:
+        input_string = f"{config['token']}/channel_audiovisual/{url}"
+    else:
+        input_string = f"channel_audiovisual/{url}"
+    sha256_hash = hashlib.sha256(input_string.encode()).hexdigest()
+    url = f"{config['url']}/channel_audiovisual/{url}?token={sha256_hash}"
     length = re.search(r"(?<=length\=\")[0-9]+(?=\")", original_item).group()
     type_video = re.search(
         r"(?<=type\=\")(video/mp4|audio/x-m4a|audio/mpeg)(?=\")", original_item
@@ -3216,11 +3272,16 @@ def display_qrcode_and_url(output_dir, channelid_video, channelid_video_name, ch
         update_text = "已更新"
     else:
         update_text = "无更新"
+    if config["token"]:
+        xml_url = f"{config['url']}/channel_rss/{output_dir}.xml?token={config['token']}"
+    else:
+        xml_url = f"{config['url']}/channel_rss/{output_dir}.xml"
+        
     if (
         channelid_video["DisplayRSSaddress"] 
         or output_dir in channelid_video_ids_update
     ):
-        print(f"{datetime.now().strftime('%H:%M:%S')}|{channelid_video_name} 播客{update_text}|地址:\n\033[34m{config['url']}/channel_rss/{output_dir}.xml\033[0m")
+        print(f"{datetime.now().strftime('%H:%M:%S')}|{channelid_video_name} 播客{update_text}|地址:\n\033[34m{xml_url}\033[0m")
     if (
         (
             channelid_video["DisplayRSSaddress"] 
@@ -3229,7 +3290,7 @@ def display_qrcode_and_url(output_dir, channelid_video, channelid_video_name, ch
         and channelid_video["QRcode"]
         and output_dir not in displayed_QRcode
     ):
-        qr_code(f"{config['url']}/channel_rss/{output_dir}.xml")
+        qr_code(xml_url)
         displayed_QRcode.append(output_dir)
 
 # 生成主rss模块
@@ -3245,7 +3306,7 @@ def create_main_rss():
         if channelid_youtube[channelid_youtube_ids[output_dir]]["InmainRSS"]:
             all_items.append(items)
         all_youtube_content_ytid[output_dir] = re.findall(
-            r"(?:/UC.{22}/)(.{11}\.m4a|.{11}\.mp4)(?=\")", items
+            r"(?:/UC.{22}/)(.{11}\.m4a|.{11}\.mp4)(?=\"|\?)", items
         )
     for output_dir in channelid_bilibili_ids:
         items = bilibili_xml_items(output_dir)
@@ -3258,7 +3319,7 @@ def create_main_rss():
         if channelid_bilibili[channelid_bilibili_ids[output_dir]]["InmainRSS"]:
             all_items.append(items)
         all_bilibili_content_bvid[output_dir] = re.findall(
-            r"(?:/[0-9]+/)(BV.{10}\.m4a|BV.{10}\.mp4|BV.{10}_p[0-9]+\.m4a|BV.{10}_p[0-9]+\.mp4|BV.{10}_[0-9]{9}\.m4a|BV.{10}_[0-9]{9}\.mp4)(?=\")", items
+            r"(?:/[0-9]+/)(BV.{10}\.m4a|BV.{10}\.mp4|BV.{10}_p[0-9]+\.m4a|BV.{10}_p[0-9]+\.mp4|BV.{10}_[0-9]{9}\.m4a|BV.{10}_[0-9]{9}\.mp4)(?=\"|\?)", items
         )
 
 # xml备份保存模块
@@ -3332,22 +3393,24 @@ def make_up_file():
     for output_dir in channelid_youtube_ids:
         for file_name in all_youtube_content_ytid[output_dir]:
             if file_name not in os.listdir(f"channel_audiovisual/{output_dir}"):
+                main = file_name.split(".")[0]
+                media = file_name.split(".")[1]
                 video_id_format = {
                     "id": output_dir,
-                    "media": file_name.split(".")[1],
-                    "url": f"https://www.youtube.com/watch?v={output_dir}",
+                    "media": media,
+                    "url": f"https://www.youtube.com/watch?v={main}",
                     "name": channelid_youtube_ids[output_dir],
                     "cookie": None,
-                    "main": file_name.split(".")[0],
+                    "main": main,
                 }
-                if file_name.split(".")[0] == "mp4":
+                if media == "mp4":
                     video_quality = channelid_youtube[channelid_youtube_ids[output_dir]][
                         "quality"
                     ]
                 else:
                     video_quality = 480
                 video_id_format["quality"] = video_quality
-                make_up_file_format[file_name.split(".")[0]] = video_id_format
+                make_up_file_format[main] = video_id_format
     for output_dir in channelid_bilibili_ids:
         for file_name in all_bilibili_content_bvid[output_dir]:
             if file_name not in os.listdir(f"channel_audiovisual/{output_dir}"):
@@ -3362,7 +3425,7 @@ def make_up_file():
                         "cookie": "yt_dlp_bilibili.txt",
                         "main": main
                     }
-                    if file_name.split(".")[0] == "mp4":
+                    if media == "mp4":
                         video_quality = channelid_bilibili[channelid_bilibili_ids[output_dir]][
                             "quality"
                         ]
@@ -3603,9 +3666,15 @@ while update_num > 0 or update_num == -1:
         file_save(overall_rss, f"{config['filename']}.xml")
         # 暂停进程打印
         server_process_print_flag[0] = "pause"
-        write_log("总播客已更新", f"地址:\n\033[34m{config['url']}/{config['filename']}.xml\033[0m")
+        # 生成主url及二维码
+        if config["token"]:
+            overall_url = f"{config['url']}/{config['filename']}.xml?token={config['token']}"
+        else:
+            overall_url = f"{config['url']}/{config['filename']}.xml"
+            
+        write_log("总播客已更新", f"地址:\n\033[34m{overall_url}\033[0m")
         if "main" not in displayed_QRcode:
-            qr_code(f"{config['url']}/{config['filename']}.xml")
+            qr_code(overall_url)
             displayed_QRcode.append("main")
         # 恢复进程打印
         server_process_print_flag[0] = "keep"
