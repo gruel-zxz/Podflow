@@ -10,6 +10,7 @@ shared_files = {
     'Podflow.xml': 'Podflow.xml',
     'podflow': 'Podflow.xml',
     'podflow.xml': 'Podflow.xml',
+    'webpage.html': 'webpage.html'
 }
 
 # 预设 Token

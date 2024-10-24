@@ -139,11 +139,6 @@ make_up_file_format_fail = {}  # 补全缺失媒体失败字典
 
 shortcuts_url = {}  # 输出至shortcut的url字典
 
-if (not os.path.isfile(os.path.join(os.getcwd(), "Podflow.log")) and 
-    os.path.isfile(os.path.join(os.getcwd(), "log.txt"))):
-    os.rename("log.txt", os.path.join(os.getcwd(), "Podflow.log"))
-
-
 # 文件保存模块
 def file_save(content, file_name, folder=None):
     # 如果指定了文件夹则将文件保存到指定的文件夹中
@@ -2716,7 +2711,7 @@ def xml_rss(title, link, description, category, icon, items):
     time_info_now = time.localtime(current_time_now)
     # 构造时间字符串
     formatted_time_now = time.strftime("%a, %d %b %Y %H:%M:%S %z", time_info_now)
-    itunes_summary = description.replace("\n", "&#xA;")
+    itunes_summary = description#.replace("\n", "&#xA;")
     if title == "Podflow":
         author = "gruel-zxz"
         subtitle = "gruel-zxz-podflow"
@@ -3571,6 +3566,7 @@ def server_process_print():
                 output = output.replace(output_replace_info, "")
             for channelid_ids_original_key, channelid_ids_original_value in (channelid_youtube_ids_original | channelid_bilibili_ids_original).items():
                 output = output.replace(channelid_ids_original_key, channelid_ids_original_value)
+            output = re.sub(r"\?token=.+", "", output)
             if need_keep == "":
                 need_keep = f"{output_time}|{output}"
             else:
