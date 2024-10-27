@@ -5,7 +5,7 @@
             "id": "UCBR8-60-B28hp2BmDPdntcQ",
             "title": "YouTube",
             "quality": "480",
-            "last_size": 20,
+            "last_size": 200,
             "media": "mp4",
             "InmainRSS": false,
             "QRcode": true
@@ -28,12 +28,17 @@
             "update_size": 25,
             "id": "UCMUnInmOkrWN4gof9KlhNmQ",
             "title": "老高與小茉 Mr & Mrs Gao",
-            "last_size": 30,
-            "media": "m4a"
+            "last_size": 300,
+            "media": "m4a",
+            "BackwardUpdate": true,
+            "BackwardUpdate_size": 1
         },
         "幻海航行--science fiction": {
             "update_size": 25,
-            "id": "UCp1nO1bgVwks9b5EhKQGVag"
+            "id": "UCp1nO1bgVwks9b5EhKQGVag",
+            "last_size": 2000,
+            "BackwardUpdate": true,
+            "BackwardUpdate_size": 1
         },
         "绝密研究所": {
             "update_size": 25,
@@ -51,7 +56,10 @@
             "update_size": 25,
             "id": "UC9RS8EzXdRJyYDkwtcsWOuA",
             "media": "m4a",
-            "InmainRSS": false
+            "InmainRSS": false,
+            "last_size": 300,
+            "BackwardUpdate": true,
+            "BackwardUpdate_size": 1
         },
         "测试": {
             "update_size": 25,
@@ -67,7 +75,7 @@
             "update_size": 50,
             "id": "326499679",
             "title": "哔哩哔哩漫画",
-            "last_size": 50,
+            "last_size": 500,
             "media": "mp4",
             "DisplayRSSaddress": false,
             "InmainRSS": true,
@@ -75,8 +83,11 @@
         },
         "测试": "21738912391",
         "无无无无语森": {
-            "update_size": 50,
-            "id": "3393923"
+            "update_size": 75,
+            "id": "3393923",
+            "last_size": 300,
+            "BackwardUpdate": true,
+            "BackwardUpdate_size": 1
         },
         "鹿火CAVY": {
             "id": "1839002753",
@@ -90,13 +101,16 @@
             "quality": "1080",
             "media": "mp4",
             "InmainRSS": false,
-            "update_size": 25
+            "update_size": 25,
+            "BackwardUpdate": true,
+            "BackwardUpdate_size": 1
         },
         "NOV姐姐": {
             "id": "9448580",
             "BackwardUpdate": true,
-            "BackwardUpdate_size": 5,
-            "update_size": 200
+            "BackwardUpdate_size": 1,
+            "update_size": 200,
+            "last_size": 300
         }
     },
     "retry_count": 2,

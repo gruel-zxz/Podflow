@@ -1916,35 +1916,40 @@ def get_youtube_html_playlists(youtube_key, youtube_value, guids=[""], direction
 def youtube_rss_update(youtube_key, youtube_value, pattern_youtube_varys, pattern_youtube404):
     # 获取已下载媒体名称
     youtube_media = (
-        ("m4a", "mp4")
+        ("m4a", "mp4")  # 根据 channelid_youtube 的媒体类型选择文件格式
         if channelid_youtube[youtube_value]["media"] == "m4a"
-        else ("mp4",)
+        else ("mp4",)  # 如果不是 m4a，则只选择 mp4
     )
     try:
+        # 遍历指定目录下的所有文件，筛选出以 youtube_media 结尾的文件
         youtube_content_ytid_original = [
             os.path.splitext(file)[0]  # 获取文件名（不包括扩展名）
             for file in os.listdir(
-                f"channel_audiovisual/{youtube_key}"
-            )  # 遍历指定目录下的所有文件
-            if file.endswith(youtube_media)  # 筛选出以 youtube_media 结尾的文件
+                f"channel_audiovisual/{youtube_key}"  # 指定的目录
+            )
+            if file.endswith(youtube_media)  # 筛选文件
         ]
     except Exception:
+        # 如果发生异常，设置为空列表
         youtube_content_ytid_original = []
     try:
+        # 获取原始XML中的内容
         original_item = xmls_original[youtube_key]
-        guids = re.findall(r"(?<=<guid>).+(?=</guid>)", original_item)
+        guids = re.findall(r"(?<=<guid>).+(?=</guid>)", original_item)  # 查找所有guid
     except KeyError:
+        # 如果没有找到对应的key，则guids为空
         guids = []
     # 构建 URL
     youtube_url = f"https://www.youtube.com/feeds/videos.xml?channel_id={youtube_key}"
-    youtube_response = http_client(youtube_url, youtube_value)
+    youtube_response = http_client(youtube_url, youtube_value)  # 请求YouTube数据
     youtube_html_playlists = None
     if youtube_response is not None and re.search(pattern_youtube404, youtube_response.text, re.DOTALL):
+        # 检查响应是否有效，最多重试3次
         for _ in range(3):
             if youtube_html_playlists:= get_youtube_html_playlists(
                 youtube_key,
                 youtube_value,
-                [elem for elem in guids if elem in youtube_content_ytid_original],
+                [elem for elem in guids if elem in youtube_content_ytid_original],  # 仅选择已下载的guids
                 True,
                 channelid_youtube[youtube_value]["update_size"],
                 youtube_content_ytid_original
@@ -1953,51 +1958,56 @@ def youtube_rss_update(youtube_key, youtube_value, pattern_youtube_varys, patter
     # 读取原Youtube频道xml文件并判断是否要更新
     try:
         with open(
-            f"channel_id/{youtube_key}.txt", "r", encoding="utf-8"
-        ) as file:  # 打开文件进行读取
+            f"channel_id/{youtube_key}.txt", "r", encoding="utf-8"  # 以utf-8编码打开文件
+        ) as file:
             youtube_content_original = file.read()  # 读取文件内容
-            youtube_content_original_clean = vary_replace(pattern_youtube_varys, youtube_content_original)
-    except FileNotFoundError:  # 文件不存在
+            youtube_content_original_clean = vary_replace(pattern_youtube_varys, youtube_content_original)  # 清洗内容
+    except FileNotFoundError:  # 如果文件不存在
         youtube_content_original = None
         youtube_content_original_clean = None
-    if youtube_html_playlists is not None:
+    if youtube_html_playlists is not None:  # 如果有新播放列表
         channelid_youtube_rss[youtube_key] = {"content": youtube_html_playlists, "type": "dict"}
         if youtube_html_playlists["item"]:
-            channelid_youtube_ids_update[youtube_key] = youtube_value
-        youtube_content_ytid = youtube_html_playlists["list"]
+            channelid_youtube_ids_update[youtube_key] = youtube_value  # 更新标识
+        youtube_content_ytid = youtube_html_playlists["list"]  # 获取视频ID列表
     else:
         if youtube_response is not None:
+            # 如果没有新的播放列表，但响应有效
             channelid_youtube_rss[youtube_key] = {"content": youtube_response, "type": "html"}
-            youtube_content = youtube_response.text
-            youtube_content_clean = vary_replace(pattern_youtube_varys, youtube_content)
+            youtube_content = youtube_response.text  # 获取响应内容
+            youtube_content_clean = vary_replace(pattern_youtube_varys, youtube_content)  # 清洗内容
             if youtube_content_clean != youtube_content_original_clean and youtube_response:  # 判断是否要更新
-                channelid_youtube_ids_update[youtube_key] = youtube_value
+                channelid_youtube_ids_update[youtube_key] = youtube_value  # 更新标识
         else:
+            # 如果没有响应，使用原始内容
             channelid_youtube_rss[youtube_key] = {"content": youtube_content_original, "type": "text"}
             youtube_content = youtube_content_original
         try:
+            # 从内容中提取视频ID
             youtube_content_ytid = re.findall(
                 r"(?<=<id>yt:video:).{11}(?=</id>)", youtube_content
             )
         except TypeError:
-            youtube_content_ytid = []
+            youtube_content_ytid = []  # 处理类型错误
         youtube_content_ytid = youtube_content_ytid[
-            : channelid_youtube[youtube_value]["update_size"]
+            : channelid_youtube[youtube_value]["update_size"]  # 限制视频ID数量
         ]
-        youtube_content_new = list_merge_tidy(youtube_content_ytid ,guids)
-    if youtube_content_ytid:= [
+        youtube_content_new = list_merge_tidy(youtube_content_ytid, guids)  # 合并并去重
+    if youtube_content_ytid := [
         exclude
         for exclude in youtube_content_ytid
-        if exclude not in youtube_content_ytid_original
+        if exclude not in youtube_content_ytid_original  # 仅选择新视频ID
     ]:
-        channelid_youtube_ids_update[youtube_key] = youtube_value
-        youtube_content_ytid_update[youtube_key] = youtube_content_ytid
+        channelid_youtube_ids_update[youtube_key] = youtube_value  # 更新标识
+        youtube_content_ytid_update[youtube_key] = youtube_content_ytid  # 保存更新的视频ID
     # 向后更新
     if channelid_youtube[youtube_value]["BackwardUpdate"] and guids:
+        # 计算向后更新的数量
         backward_update_size = channelid_youtube[youtube_value]["last_size"] - len(youtube_content_new)
         if backward_update_size > 0:
             for _ in range(3):
-                if youtube_html_backward_playlists:= get_youtube_html_playlists(
+                # 获取历史播放列表
+                if youtube_html_backward_playlists := get_youtube_html_playlists(
                     youtube_key,
                     youtube_value,
                     guids,
@@ -2006,19 +2016,19 @@ def youtube_rss_update(youtube_key, youtube_value, pattern_youtube_varys, patter
                     youtube_content_ytid_original
                 ):
                     break
-            backward_list = youtube_html_backward_playlists["list"]
+            backward_list = youtube_html_backward_playlists["list"]  # 获取向后更新的列表
             for guid in backward_list.copy():
                 if guid in youtube_content_new:
-                    backward_list.remove(guid)
+                    backward_list.remove(guid)  # 从列表中移除已更新的GUID
             if youtube_html_backward_playlists and backward_list:
-                channelid_youtube_ids_update[youtube_key] = youtube_value
-                channelid_youtube_rss[youtube_key].update({"backward": youtube_html_backward_playlists})
+                channelid_youtube_ids_update[youtube_key] = youtube_value  # 更新标识
+                channelid_youtube_rss[youtube_key].update({"backward": youtube_html_backward_playlists})  # 添加向后更新内容
                 youtube_content_ytid_backward = []
                 for guid in backward_list:
                     if guid not in youtube_content_ytid_original:
-                        youtube_content_ytid_backward.append(guid)
+                        youtube_content_ytid_backward.append(guid)  # 收集未下载的GUID
                 if youtube_content_ytid_backward:
-                    youtube_content_ytid_backward_update[youtube_key] = youtube_content_ytid_backward
+                    youtube_content_ytid_backward_update[youtube_key] = youtube_content_ytid_backward  # 保存向后更新的ID
 
 # 获取bv所有的分P信息模块
 def get_bilibili_all_part(bvid, bilibili_value):
@@ -2260,84 +2270,93 @@ def bilibili_rss_update(bilibili_key, bilibili_value):
     bilibili_content_bvid_original = get_file_list(bilibili_key, channelid_bilibili[bilibili_value]["media"])[0]
     # 获取原xml中文件列表
     try:
-        original_item = xmls_original[bilibili_key]
-        guids = list_merge_tidy(re.findall(r"(?<=<guid>).+(?=</guid>)", original_item), [], 12)
+        original_item = xmls_original[bilibili_key]  # 尝试获取原始的xml内容
+        guids = list_merge_tidy(re.findall(r"(?<=<guid>).+(?=</guid>)", original_item), [], 12)  # 从xml中提取guid
     except KeyError:
-        guids = []
-    bilibili_space = bilibili_json_update(bilibili_key, bilibili_value)
+        guids = []  # 如果没有找到对应的key，则初始化guids为空列表
+    bilibili_space = bilibili_json_update(bilibili_key, bilibili_value)  # 更新bilibili相关的json内容
     # 读取原哔哩哔哩频道xml文件并判断是否要更新
     try:
         with open(
-            f"channel_id/{bilibili_key}.json", "r", encoding="utf-8"
-        ) as file:  # 打开文件进行读取
-            bilibili_space_original = json.load(file)  # 读取文件内容
-    except FileNotFoundError:  # 文件不存在
-        bilibili_space_original = {}
-    except json.decoder.JSONDecodeError:  # json读取失败
-        bilibili_space_original = {}
-    if bilibili_space == -404:
-        channelid_bilibili_rss[bilibili_key] = {"content": bilibili_space, "type": "int"}
+            f"channel_id/{bilibili_key}.json", "r", encoding="utf-8"  # 打开指定的json文件
+        ) as file:  
+            bilibili_space_original = json.load(file)  # 读取文件内容并解析成字典
+    except FileNotFoundError:  # 捕获文件不存在异常
+        bilibili_space_original = {}  # 如果文件不存在，初始化为空字典
+    except json.decoder.JSONDecodeError:  # 捕获json解码错误
+        bilibili_space_original = {}  # 如果json读取失败，初始化为空字典
+    # 根据更新条件更新频道数据
+    if bilibili_space == -404:  # 检查更新状态
+        channelid_bilibili_rss[bilibili_key] = {"content": bilibili_space, "type": "int"}  # 设置为整型内容
     elif bilibili_space is None:
-        channelid_bilibili_rss[bilibili_key] = {"content": bilibili_space_original, "type": "json"}
+        channelid_bilibili_rss[bilibili_key] = {"content": bilibili_space_original, "type": "json"}  # 使用原始json内容
     else:
-        channelid_bilibili_rss[bilibili_key] = {"content": bilibili_space, "type": "dict"}
+        channelid_bilibili_rss[bilibili_key] = {"content": bilibili_space, "type": "dict"}  # 设置为字典类型内容
+        # 判断是否需要更新ID列表
         if bilibili_space != bilibili_space_original:
-            channelid_bilibili_ids_update[bilibili_key] = bilibili_value
+            channelid_bilibili_ids_update[bilibili_key] = bilibili_value  # 更新ID
+        # 获取需要更新的内容列表
         bilibili_content_bvid = bilibili_space["list"][:channelid_bilibili[bilibili_value]["update_size"]]
-        bilibili_space_new = list_merge_tidy(bilibili_content_bvid ,guids)
+        bilibili_space_new = list_merge_tidy(bilibili_content_bvid, guids)  # 合并新内容和原内容
+        # 检查内容是否有变动
         if bilibili_content_bvid:= [
             exclude
             for exclude in bilibili_content_bvid
-            if exclude not in bilibili_content_bvid_original
+            if exclude not in bilibili_content_bvid_original  # 筛选新增的内容
         ]:
-            channelid_bilibili_ids_update[bilibili_key] = bilibili_value
-            bilibili_content_bvid_update[bilibili_key] = bilibili_content_bvid
+            channelid_bilibili_ids_update[bilibili_key] = bilibili_value  # 需要更新ID
+            bilibili_content_bvid_update[bilibili_key] = bilibili_content_bvid  # 更新新增内容
         # 向后更新
-        if channelid_bilibili[bilibili_value]["BackwardUpdate"] and guids:
-            backward_update_size = channelid_bilibili[bilibili_value]["last_size"] - len(bilibili_space_new)
+        if channelid_bilibili[bilibili_value]["BackwardUpdate"] and guids:  # 如果设置了向后更新
+            backward_update_size = channelid_bilibili[bilibili_value]["last_size"] - len(bilibili_space_new)  # 计算需要向后更新的数量
             if backward_update_size > 0:
-                backward_update_size = min(backward_update_size, channelid_bilibili[bilibili_value]["BackwardUpdate_size"])
-                backward_update_page_start = math.ceil(len(bilibili_space_new) / 25)
-                backward_update_page_end = math.ceil((len(bilibili_space_new) + backward_update_size) / 25)
-                backward_entry = {}
-                backward_list = []
+                backward_update_size = min(backward_update_size, channelid_bilibili[bilibili_value]["BackwardUpdate_size"])  # 限制更新数量
+                backward_update_page_start = math.ceil(len(bilibili_space_new) / 25)  # 确定开始页面
+                backward_update_page_end = math.ceil((len(bilibili_space_new) + backward_update_size) / 25)  # 确定结束页面
+                backward_entry = {}  # 初始化向后更新的条目
+                backward_list = []  # 初始化向后更新的列表
+                # 循环更新每一页的内容
                 for num in range(backward_update_page_start, backward_update_page_end + 1):
-                    backward_entry_part, backward_list_part = get_bilibili_vlist(bilibili_key, bilibili_value, num)
-                    backward_entry = backward_entry | backward_entry_part
-                    backward_list += backward_list_part
+                    backward_entry_part, backward_list_part = get_bilibili_vlist(bilibili_key, bilibili_value, num)  # 获取具体内容
+                    backward_entry = backward_entry | backward_entry_part  # 合并条目
+                    backward_list += backward_list_part  # 合并列表
+                # 检查条目和列表是否有效
                 if backward_entry and backward_list and guids[-1] in backward_list:
                     try:
-                        backward_list_start = backward_list.index(guids[-1]) + 1
-                        backward_list = backward_list[backward_list_start:][:backward_update_size]
+                        backward_list_start = backward_list.index(guids[-1]) + 1  # 获取guids的起始索引
+                        backward_list = backward_list[backward_list_start:][:backward_update_size]  # 更新向后列表
                     except ValueError:
-                        backward_list = []
+                        backward_list = []  # 如果没有找到，清空列表
+                    # 根据条件移除已经存在的元素
                     for guid in backward_list.copy():
                         if guid in bilibili_space_new:
-                            backward_list.remove(guid)
+                            backward_list.remove(guid)  # 移除已存在的条目
+                    # 如果有向后条目需要更新
                     if backward_list:
-                        if channelid_bilibili[bilibili_value]["AllPartGet"]:
+                        if channelid_bilibili[bilibili_value]["AllPartGet"]:  # 如果需要获取所有部分
                             def backward_all_part(guid):
-                                if guid_part:= get_bilibili_all_part(guid, bilibili_value):
-                                    backward_entry[guid]["part"] = guid_part
-                                elif guid_edgeinfos:= get_bilibili_interactive(guid, bilibili_value):
-                                    backward_entry[guid]["edgeinfo"] = guid_edgeinfos
+                                if guid_part:= get_bilibili_all_part(guid, bilibili_value):  # 获取当前内容的全部部分
+                                    backward_entry[guid]["part"] = guid_part  # 更新条目
+                                elif guid_edgeinfos:= get_bilibili_interactive(guid, bilibili_value):  # 获取交互信息
+                                    backward_entry[guid]["edgeinfo"] = guid_edgeinfos  # 更新边缘信息
                             # 创建一个线程列表
                             threads = []
                             for guid in backward_entry:
-                                thread = threading.Thread(target=backward_all_part, args=(guid,))
-                                threads.append(thread)
-                                thread.start()
+                                thread = threading.Thread(target=backward_all_part, args=(guid,))  # 为每个条目创建线程
+                                threads.append(thread)  # 添加线程到列表
+                                thread.start()  # 启动线程
                             # 等待所有线程完成
                             for thread in threads:
                                 thread.join()
+                        # 更新频道信息
                         channelid_bilibili_rss[bilibili_key].update({"backward": {"list": backward_list, "entry": backward_entry}})
-                        channelid_bilibili_ids_update[bilibili_key] = bilibili_value
-                        bilibili_content_bvid_backward = []
+                        channelid_bilibili_ids_update[bilibili_key] = bilibili_value  # 标记ID更新
+                        bilibili_content_bvid_backward = []  # 初始化向后更新的内容列表
                         for guid in backward_list:
-                            if guid not in bilibili_content_bvid_original:
-                                bilibili_content_bvid_backward.append(guid)
+                            if guid not in bilibili_content_bvid_original:  # 检查新增的内容
+                                bilibili_content_bvid_backward.append(guid)  # 添加到向后更新列表
                         if bilibili_content_bvid_backward:
-                            bilibili_content_bvid_backward_update[bilibili_key] = bilibili_content_bvid_backward
+                            bilibili_content_bvid_backward_update[bilibili_key] = bilibili_content_bvid_backward  # 更新最终的向后更新内容
 
 # 更新Youtube和哔哩哔哩频道xml多线程模块
 def update_youtube_bilibili_rss():
@@ -3036,12 +3055,12 @@ def youtube_xml_items(output_dir):
             timestamp = video_id_update_format[guid]["timestamp"]
             published = datetime.fromtimestamp(timestamp, timezone.utc).strftime("%Y-%m-%dT%H:%M:%S%z")
             pubDate = format_time(published)
-            image = video_id_update_format[guid]["image"]
+            image = re.sub(r'\?.*$', "",video_id_update_format[guid]["image"])
         else:
             title = html.escape(item["title"])
             description = html.escape(re.sub(r"\n+", "\n", item["description"]))
             pubDate = format_time(item["pubDate"])
-            image = item["image"]
+            image = re.sub(r'\?.*$', "",item["image"])
         return xml_item(
             guid,
             output_dir,
