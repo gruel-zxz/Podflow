@@ -334,7 +334,7 @@ def read_today_library_log():
 
 # 安装库模块
 def library_install(library, library_install_dic=None):
-    if version:= re.search(
+    if version := re.search(
         r"(?<=Version\: ).+",
         subprocess.run(["pip", "show", library], capture_output=True, text=True).stdout,
     ):
@@ -380,11 +380,12 @@ def library_install(library, library_install_dic=None):
 
 # 安装/更新并加载三方库
 library_install_list = [
-    "bottle",
-    "yt-dlp",
     "astral",
+    "bottle",
     "qrcode",
+    "yt-dlp",
     "chardet",
+    "tornado",
     "requests",
     "pycryptodome",
     "ffmpeg-python",
@@ -401,11 +402,11 @@ while library_import is False:
         import qrcode
         import yt_dlp
         from astral.sun import sun
-        from astral import LocationInfo
-        from Cryptodome.Cipher import PKCS1_OAEP
-        from Cryptodome.PublicKey import RSA
-        from Cryptodome.Hash import SHA256
         from bs4 import BeautifulSoup
+        from astral import LocationInfo
+        from Cryptodome.Hash import SHA256
+        from Cryptodome.PublicKey import RSA
+        from Cryptodome.Cipher import PKCS1_OAEP
         library_import = True
     except ImportError:
         today_library_log = ""
@@ -446,7 +447,7 @@ def time_stamp():
     time_stamps = []
     # 获取时间戳淘宝
     def time_stamp_taobao():
-        if response:= http_client("http://api.m.taobao.com/rest/api3.do?api=mtop.common.getTimestamp", '', 1, 0):
+        if response := http_client("http://api.m.taobao.com/rest/api3.do?api=mtop.common.getTimestamp", '', 1, 0):
             response_json = response.json()
             try:
                 time_stamps.append(int(response_json["data"]["t"]))
@@ -454,7 +455,7 @@ def time_stamp():
                 pass
     # 获取时间戳美团
     def time_stamp_meituan():
-        if response:= http_client("https://cube.meituan.com/ipromotion/cube/toc/component/base/getServerCurrentTime", '', 1, 0):
+        if response := http_client("https://cube.meituan.com/ipromotion/cube/toc/component/base/getServerCurrentTime", '', 1, 0):
             response_json = response.json()
             try:
                 time_stamps.append(int(response_json["data"]))
@@ -462,7 +463,7 @@ def time_stamp():
                 pass
     # 获取时间戳苏宁
     def time_stamp_suning():
-        if response:= http_client("https://f.m.suning.com/api/ct.do", '', 1, 0):
+        if response := http_client("https://f.m.suning.com/api/ct.do", '', 1, 0):
             response_json = response.json()
             try:
                 time_stamps.append(int(response_json["currentTime"]))
@@ -630,7 +631,7 @@ def media_format(video_website, video_url, media="m4a", quality="480", cookies=N
                 ydl_opts["cookiefile"] = cookies  # cookies 是你的 cookies 文件名
             with yt_dlp.YoutubeDL(ydl_opts) as ydl:
                 # 使用提供的 URL 提取视频信息
-                if info_dict:= ydl.extract_info(
+                if info_dict := ydl.extract_info(
                     f"{video_website}", download=False
                 ):
                     # 获取视频时长并返回
@@ -690,6 +691,7 @@ def media_format(video_website, video_url, media="m4a", quality="480", cookies=N
         r"This video is available to this channel's members on level: .*? Join this channel to get access to members-only content and other exclusive perks\.": "\033[31m会员专享\033[0m",
         r"Join this channel to get access to members-only content like this video, and other exclusive perks\.": "\033[31m会员视频\033[0m",
         r"Video unavailable\. This video has been removed by the uploader": "\033[31m视频被删除\033[0m",
+        r"Video unavailable\. This video is no longer available because the YouTube account associated with this video has been terminated\.": "\033[31m关联频道被终止\033[0m",
         r"Video unavailable": "\033[31m视频不可用\033[0m",
         r"This video has been removed by the uploader": "\033[31m发布者删除\033[0m",
         r"This video has been removed for violating YouTube's policy on harassment and bullying": "\033[31m违规视频\033[0m",
@@ -1260,7 +1262,7 @@ def judging_day_and_night(latitude, longitude):
 def channge_icon():
     if config["icon"] == default_config["icon"]:
         def ipinfo():
-            if response:= http_client("https://ipinfo.io/json/", "", 1, 0):
+            if response := http_client("https://ipinfo.io/json/", "", 1, 0):
                 data = response.json()
                 # 提取经度和纬度
                 coordinates = data ["loc"].split(",")
@@ -1268,14 +1270,14 @@ def channge_icon():
             else: 
                 return False, None, None
         def ipapi():
-            if response:= http_client("http://ip-api.com/json/", "", 1, 0):
+            if response := http_client("http://ip-api.com/json/", "", 1, 0):
                 data = response.json()
                 # 提取经度和纬度
                 return True, data["lat"], data["lon"]
             else: 
                 return False, None, None
         def freegeoip():
-            if response:= http_client("https://freegeoip.app/json/", "", 1, 0):
+            if response := http_client("https://freegeoip.app/json/", "", 1, 0):
                 data = response.json()
                 # 提取经度和纬度
                 return True, data["latitude"], data["longitude"]
@@ -1494,7 +1496,7 @@ def get_channelid_id(channelid, idname):
 # 获取最新的img_key和sub_key模块
 def getWbiKeys(bilibili_cookie=None):
     bilibili_url = "https://api.bilibili.com/x/web-interface/nav"
-    if resp:= http_client(bilibili_url, "获取最新的img_key和sub_key", 10, 4, True, bilibili_cookie):
+    if resp := http_client(bilibili_url, "获取最新的img_key和sub_key", 10, 4, True, bilibili_cookie):
         resp.raise_for_status()
         json_content = resp.json()
         img_url: str = json_content['data']['wbi_img']['img_url']
@@ -1623,7 +1625,7 @@ JNrRuoEUXpabUzGB8QIDAQAB
     ts = time_stamp()
     # 获取refresh_csrf
     refresh_csrf_response = http_client(f"https://www.bilibili.com/correspond/1/{getCorrespondPath(ts)}", '获取refresh_csrf', 3, 5, True, bilibili_cookie)
-    if refresh_csrf_match:= re.search(r'<div id="1-name">(.+?)</div>', refresh_csrf_response.text):
+    if refresh_csrf_match := re.search(r'<div id="1-name">(.+?)</div>', refresh_csrf_response.text):
         refresh_csrf_value = refresh_csrf_match[1]
     else:
         return {"cookie": None}
@@ -1743,7 +1745,7 @@ def WBI_signature(params={}, img_key="", sub_key=""):
 
 # 通过bs4获取html中字典模块
 def get_html_dict(url, name, script_label):
-    if response:= http_client(url, name):
+    if response := http_client(url, name):
         html_content = response.text
         # 使用Beautiful Soup解析HTML
         soup = BeautifulSoup(html_content, 'html.parser')
@@ -1913,7 +1915,7 @@ def get_youtube_html_playlists(youtube_key, youtube_value, guids=[""], direction
     return {"list": idlist, "item": item, "title": main_title}
 
 # 更新Youtube频道xml模块
-def youtube_rss_update(youtube_key, youtube_value, pattern_youtube_varys, pattern_youtube404):
+def youtube_rss_update(youtube_key, youtube_value, pattern_youtube_varys, pattern_youtube404, pattern_youtube_error):
     # 获取已下载媒体名称
     youtube_media = (
         ("m4a", "mp4")  # 根据 channelid_youtube 的媒体类型选择文件格式
@@ -1943,18 +1945,29 @@ def youtube_rss_update(youtube_key, youtube_value, pattern_youtube_varys, patter
     youtube_url = f"https://www.youtube.com/feeds/videos.xml?channel_id={youtube_key}"
     youtube_response = http_client(youtube_url, youtube_value)  # 请求YouTube数据
     youtube_html_playlists = None
+    youtube_channel_response = None
     if youtube_response is not None and re.search(pattern_youtube404, youtube_response.text, re.DOTALL):
-        # 检查响应是否有效，最多重试3次
-        for _ in range(3):
-            if youtube_html_playlists:= get_youtube_html_playlists(
-                youtube_key,
-                youtube_value,
-                [elem for elem in guids if elem in youtube_content_ytid_original],  # 仅选择已下载的guids
-                True,
-                channelid_youtube[youtube_value]["update_size"],
-                youtube_content_ytid_original
-            ):
-                break
+        youtube_url = f"https://www.youtube.com/channel/{youtube_key}"
+        youtube_channel_response = http_client(youtube_url, f"{youtube_value} HTML")
+        if youtube_channel_response is not None:
+            pattern_youtube_error_mark = False  
+            for pattern_youtube_error_key in pattern_youtube_error:
+                if  pattern_youtube_error_key in youtube_channel_response.text:
+                    pattern_youtube_error_mark = True
+                    youtube_response = youtube_channel_response
+                    break
+            if not pattern_youtube_error_mark:
+                # 检查响应是否有效，最多重试3次
+                for _ in range(3):
+                    if youtube_html_playlists := get_youtube_html_playlists(
+                        youtube_key,
+                        youtube_value,
+                        [elem for elem in guids if elem in youtube_content_ytid_original],  # 仅选择已下载的guids
+                        True,
+                        channelid_youtube[youtube_value]["update_size"],
+                        youtube_content_ytid_original
+                    ):
+                        break
     # 读取原Youtube频道xml文件并判断是否要更新
     try:
         with open(
@@ -1975,9 +1988,10 @@ def youtube_rss_update(youtube_key, youtube_value, pattern_youtube_varys, patter
             # 如果没有新的播放列表，但响应有效
             channelid_youtube_rss[youtube_key] = {"content": youtube_response, "type": "html"}
             youtube_content = youtube_response.text  # 获取响应内容
-            youtube_content_clean = vary_replace(pattern_youtube_varys, youtube_content)  # 清洗内容
-            if youtube_content_clean != youtube_content_original_clean and youtube_response:  # 判断是否要更新
-                channelid_youtube_ids_update[youtube_key] = youtube_value  # 更新标识
+            if not youtube_channel_response:
+                youtube_content_clean = vary_replace(pattern_youtube_varys, youtube_content)  # 清洗内容
+                if youtube_content_clean != youtube_content_original_clean and youtube_response:  # 判断是否要更新
+                    channelid_youtube_ids_update[youtube_key] = youtube_value  # 更新标识
         else:
             # 如果没有响应，使用原始内容
             channelid_youtube_rss[youtube_key] = {"content": youtube_content_original, "type": "text"}
@@ -2033,7 +2047,7 @@ def youtube_rss_update(youtube_key, youtube_value, pattern_youtube_varys, patter
 # 获取bv所有的分P信息模块
 def get_bilibili_all_part(bvid, bilibili_value):
     bvid_part = []
-    if bvid_response:= http_client(
+    if bvid_response := http_client(
         "https://api.bilibili.com/x/player/pagelist",
         f"{bilibili_value}|{bvid}",
         10,
@@ -2064,7 +2078,7 @@ def get_bilibili_interactive(bvid, bilibili_value):
     bvid_part = []
     bvid_cid = []
     bvid_cid_choices = []
-    if pagelist_response:=http_client(
+    if pagelist_response :=http_client(
         "https://api.bilibili.com/x/player/pagelist",
         f"{bilibili_value}|{bvid}",
         10,
@@ -2075,7 +2089,7 @@ def get_bilibili_interactive(bvid, bilibili_value):
     ):
         pagelist = pagelist_response.json()
         pagelist_cid = pagelist["data"][0]["cid"]
-        if playerwbi_response:=http_client(
+        if playerwbi_response :=http_client(
             "https://api.bilibili.com/x/player/wbi/v2",
             f"{bilibili_value}|{bvid}",
             10,
@@ -2091,7 +2105,7 @@ def get_bilibili_interactive(bvid, bilibili_value):
     else: 
         graph_version = ""
     def get_edge_info(bvid, bilibili_value, graph_version, edge_id):
-        if edgeinfo_v2_response:=http_client(
+        if edgeinfo_v2_response :=http_client(
             "https://api.bilibili.com/x/stein/edgeinfo_v2",
             f"{bilibili_value}|{bvid}",
             10,
@@ -2157,7 +2171,7 @@ def get_bilibili_interactive(bvid, bilibili_value):
 def get_bilibili_vlist(bilibili_key, bilibili_value, num=1, all_part_judgement=False):
     bilibili_list = []
     bilibili_entry = {}
-    if bilibili_response:= http_client(
+    if bilibili_response := http_client(
         "https://api.bilibili.com/x/space/wbi/arc/search",
         bilibili_value,
         10,
@@ -2197,9 +2211,9 @@ def get_bilibili_vlist(bilibili_key, bilibili_value, num=1, all_part_judgement=F
                 pass
     if all_part_judgement and bilibili_list:
         def all_part(bvid):
-            if bvid_part:= get_bilibili_all_part(bvid, bilibili_value):
+            if bvid_part := get_bilibili_all_part(bvid, bilibili_value):
                 bilibili_entry[bvid]["part"] = bvid_part
-            elif bvid_edgeinfo:= get_bilibili_interactive(bvid, bilibili_value):
+            elif bvid_edgeinfo := get_bilibili_interactive(bvid, bilibili_value):
                 bilibili_entry[bvid]["edgeinfo"] = bvid_edgeinfo
         # 创建一个线程列表
         threads = []
@@ -2218,7 +2232,7 @@ def bilibili_json_update(bilibili_key, bilibili_value):
     bilibili_lists = []
     bilibili_entrys = {}
     # 用户名片信息
-    if bilibili_card_response:= http_client(
+    if bilibili_card_response := http_client(
         "https://api.bilibili.com/x/web-interface/card",
         bilibili_value,
         10,
@@ -2279,7 +2293,7 @@ def bilibili_rss_update(bilibili_key, bilibili_value):
     try:
         with open(
             f"channel_id/{bilibili_key}.json", "r", encoding="utf-8"  # 打开指定的json文件
-        ) as file:  
+        ) as file:
             bilibili_space_original = json.load(file)  # 读取文件内容并解析成字典
     except FileNotFoundError:  # 捕获文件不存在异常
         bilibili_space_original = {}  # 如果文件不存在，初始化为空字典
@@ -2299,7 +2313,7 @@ def bilibili_rss_update(bilibili_key, bilibili_value):
         bilibili_content_bvid = bilibili_space["list"][:channelid_bilibili[bilibili_value]["update_size"]]
         bilibili_space_new = list_merge_tidy(bilibili_content_bvid, guids)  # 合并新内容和原内容
         # 检查内容是否有变动
-        if bilibili_content_bvid:= [
+        if bilibili_content_bvid := [
             exclude
             for exclude in bilibili_content_bvid
             if exclude not in bilibili_content_bvid_original  # 筛选新增的内容
@@ -2335,9 +2349,9 @@ def bilibili_rss_update(bilibili_key, bilibili_value):
                     if backward_list:
                         if channelid_bilibili[bilibili_value]["AllPartGet"]:  # 如果需要获取所有部分
                             def backward_all_part(guid):
-                                if guid_part:= get_bilibili_all_part(guid, bilibili_value):  # 获取当前内容的全部部分
+                                if guid_part := get_bilibili_all_part(guid, bilibili_value):  # 获取当前内容的全部部分
                                     backward_entry[guid]["part"] = guid_part  # 更新条目
-                                elif guid_edgeinfos:= get_bilibili_interactive(guid, bilibili_value):  # 获取交互信息
+                                elif guid_edgeinfos := get_bilibili_interactive(guid, bilibili_value):  # 获取交互信息
                                     backward_entry[guid]["edgeinfo"] = guid_edgeinfos  # 更新边缘信息
                             # 创建一个线程列表
                             threads = []
@@ -2361,6 +2375,10 @@ def bilibili_rss_update(bilibili_key, bilibili_value):
 # 更新Youtube和哔哩哔哩频道xml多线程模块
 def update_youtube_bilibili_rss():
     pattern_youtube404 = r"Error 404 \(Not Found\)"  # 设置要匹配的正则表达式模式
+    pattern_youtube_error = {
+        "This channel was removed because it violated our Community Guidelines.": "违反社区准则",
+        "This channel does not exist.": "不存在（ID错误）",
+    }
     pattern_youtube_varys = [
         r"[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-2][0-9]:[0-6][0-9]:[0-6][0-9]\+00:00",
         r'starRating count="[0-9]*"',
@@ -2372,7 +2390,7 @@ def update_youtube_bilibili_rss():
     # Youtube多线程
     for youtube_key, youtube_value in channelid_youtube_ids.items():
         thread = threading.Thread(
-            target=youtube_rss_update, args=(youtube_key, youtube_value, pattern_youtube_varys, pattern_youtube404)
+            target=youtube_rss_update, args=(youtube_key, youtube_value, pattern_youtube_varys, pattern_youtube404, pattern_youtube_error)
         )
         youtube_bilibili_rss_update_threads.append(thread)
         # 开始多线程
@@ -2388,6 +2406,11 @@ def update_youtube_bilibili_rss():
     # 等待所有线程完成
     for thread in youtube_bilibili_rss_update_threads:
         thread.join()
+    # 寻找错误原因
+    def youtube_error(youtube_content, pattern_youtube_error):
+        for pattern_youtube_error_key, pattern_youtube_error_value in pattern_youtube_error.items():
+            if pattern_youtube_error_key in youtube_content:
+                return pattern_youtube_error_value
     # 更新Youtube频道
     for youtube_key, youtube_value in channelid_youtube_ids.copy().items():
         youtube_response = channelid_youtube_rss[youtube_key]["content"]
@@ -2407,6 +2430,9 @@ def update_youtube_bilibili_rss():
                 if re.search(pattern_youtube404, youtube_content, re.DOTALL):
                     del channelid_youtube_ids[youtube_key]  # 删除错误ID
                     write_log(f"YouTube频道 {youtube_value} ID不正确无法获取")
+                elif youtube_error_message := youtube_error(youtube_content, pattern_youtube_error):
+                    del channelid_youtube_ids[youtube_key]  # 删除错误ID
+                    write_log(f"YouTube频道 {youtube_value} {youtube_error_message}")
                 else:
                     # 构建文件
                     file_save(youtube_content, f"{youtube_key}.txt", "channel_id")
@@ -2564,6 +2590,7 @@ def get_youtube_and_bilibili_video_format(id, stop_flag, video_format_lock, prep
                     "main": id,
                     "image": entry_id_update_format["image"],
                     "download": entry_id_update_format["download"],
+                    "backward_update": video_id_update_format[id]["backward_update"],
                 }
             video_id_update_format[id] = entrys_id
     else:
@@ -3008,7 +3035,7 @@ def get_youtube_introduction():
     youtube_xml_get_lock = threading.Lock()
     # 使用http获取youtube频道简介和图标模块
     def youtube_xml_get(output_dir):
-        if channel_about:= http_client(
+        if channel_about := http_client(
             f"https://www.youtube.com/channel/{output_dir}/about",
             f"{channelid_youtube_ids[output_dir]} 简介",
             2,
@@ -3169,7 +3196,7 @@ def bilibili_xml_items(output_dir):
             elif "edgeinfo" in item:
                 guid_edgeinfos = item["edgeinfo"]
             else:
-                if guid_parts:= get_bilibili_all_part(guid, channelid_bilibili_ids[output_dir]):
+                if guid_parts := get_bilibili_all_part(guid, channelid_bilibili_ids[output_dir]):
                     guid_edgeinfos = []
                 else:
                     guid_edgeinfos = get_bilibili_interactive(guid, channelid_bilibili_ids[output_dir])

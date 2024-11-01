@@ -68,6 +68,12 @@
         "王竹子的SM教学频道": {
             "id": "UC-hTwjkGlNB5vyR6qccXr7A",
             "update_size": 25
+        },
+        "BracedLife": {
+            "id": "UCjcqM5ojQOnQSo0-PbADPgQ",
+            "quality": "2160",
+            "media": "mp4",
+            "update_size": 8
         }
     },
     "channelid_bilibili": {
@@ -102,7 +108,7 @@
             "media": "mp4",
             "InmainRSS": false,
             "update_size": 25,
-            "BackwardUpdate": true,
+            "BackwardUpdate": false,
             "BackwardUpdate_size": 1
         },
         "NOV姐姐": {
