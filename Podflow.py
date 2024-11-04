@@ -78,6 +78,7 @@ default_config = {
             "BackwardUpdate": False,  # 是否向后更新
             "BackwardUpdate_size": 3,  # 向后更新数量(仅在BackwardUpdate为True时有效)
             "want_retry_count": 8,  # 媒体获取失败后多少次后重试(小于等于该数量时将一直重试)
+            "NoShorts": False,  # 是否不下载Shorts媒体
         },
     },
     "channelid_bilibili": {
@@ -1474,6 +1475,12 @@ def correct_channelid(channelid, website):
                     channeli_value["AllPartGet"], bool
                 ):
                     channelid[channelid_key]["AllPartGet"] = False
+            if website == "youtube":
+                # 对NoShorts进行纠正
+                if "NoShorts" not in channeli_value or not isinstance(
+                    channeli_value["NoShorts"], bool
+                ):
+                    channelid[channelid_key]["NoShorts"] = False
         if channelid[channelid_key]["InmainRSS"] is False and f"{config['url']}/channel_rss/{channeli_value['id']}.xml" not in shortcuts_url_original:
             shortcuts_url[channelid_key] = f"{config['url']}/channel_rss/{channeli_value['id']}.xml"
     return channelid
@@ -1914,6 +1921,20 @@ def get_youtube_html_playlists(youtube_key, youtube_value, guids=[""], direction
                 idlist.remove(videoid)
     return {"list": idlist, "item": item, "title": main_title}
 
+# 获取YouTube Shorts视频列表
+def get_youtube_shorts_id(youtube_key, youtube_value):
+    videoIds = []
+    url = f"https://www.youtube.com/channel/{youtube_key}/shorts"
+    if data := get_html_dict(url, youtube_value, "ytInitialData"):
+        try:
+            items = data['contents']['twoColumnBrowseResultsRenderer']['tabs'][2]['tabRenderer']['content']['richGridRenderer']['contents']
+            for item in items:
+                videoId = item['richItemRenderer']['content']['shortsLockupViewModel']['onTap']['innertubeCommand']['reelWatchEndpoint']['videoId']
+                videoIds.append(videoId)
+        except (KeyError, TypeError, IndexError, ValueError):
+            pass
+    return videoIds
+
 # 更新Youtube频道xml模块
 def youtube_rss_update(youtube_key, youtube_value, pattern_youtube_varys, pattern_youtube404, pattern_youtube_error):
     # 获取已下载媒体名称
@@ -1968,6 +1989,13 @@ def youtube_rss_update(youtube_key, youtube_value, pattern_youtube_varys, patter
                         youtube_content_ytid_original
                     ):
                         break
+        shorts_ytid = []
+    elif youtube_response is not None and channelid_youtube[youtube_value]["NoShorts"]:
+        shorts_ytid = get_youtube_shorts_id(youtube_key, youtube_value)
+        global video_id_failed
+        video_id_failed += shorts_ytid  # 将Shorts视频添加到失败列表中
+    else:
+        shorts_ytid = []
     # 读取原Youtube频道xml文件并判断是否要更新
     try:
         with open(
@@ -2010,7 +2038,7 @@ def youtube_rss_update(youtube_key, youtube_value, pattern_youtube_varys, patter
     if youtube_content_ytid := [
         exclude
         for exclude in youtube_content_ytid
-        if exclude not in youtube_content_ytid_original  # 仅选择新视频ID
+        if exclude not in youtube_content_ytid_original and exclude not in shorts_ytid  # 仅选择新视频ID(并且不是Shorts)
     ]:
         channelid_youtube_ids_update[youtube_key] = youtube_value  # 更新标识
         youtube_content_ytid_update[youtube_key] = youtube_content_ytid  # 保存更新的视频ID

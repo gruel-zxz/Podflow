@@ -74,6 +74,10 @@
             "quality": "2160",
             "media": "mp4",
             "update_size": 8
+        },
+        "报姐唠唠": {
+            "id": "UCkTzvDA3PqDmleE5L7uTCtQ",
+            "NoShorts": true
         }
     },
     "channelid_bilibili": {
