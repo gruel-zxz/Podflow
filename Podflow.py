@@ -2599,7 +2599,7 @@ def get_youtube_and_bilibili_video_format(id, stop_flag, video_format_lock, prep
                 video_id_update_format[id]["cookie"],
             )
         else:
-            id_update_format == "\x1b[31m年龄限制(需要Cookies)\x1b[0m"
+            id_update_format = "\x1b[31m年龄限制(需要Cookies)\x1b[0m"
     if isinstance(id_update_format, list):
         if len(id_update_format) == 1:
             entry_id_update_format = id_update_format[0]
@@ -3527,7 +3527,7 @@ def make_up_file_format_mod():
                     make_up_file_format[video_id]["cookie"],
                 )
             else:
-                makeup_id_format == "\x1b[31m年龄限制(需要Cookies)\x1b[0m"
+                makeup_id_format = "\x1b[31m年龄限制(需要Cookies)\x1b[0m"
         if isinstance(makeup_id_format, list):
             if len(makeup_id_format) == 1:
                 entry_id_makeup_format = makeup_id_format[0]
