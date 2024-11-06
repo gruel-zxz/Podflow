@@ -1534,7 +1534,7 @@ def bulid_Netscape_HTTP_Cookie(file_name, cookie={}):
 
 
 '''
-    file_save(cookie_jar, f"{file_name}.txt")
+    file_save(cookie_jar, f"{file_name}.txt", "channel_data")
 
 # 申请哔哩哔哩二维码并获取token和URL模块
 def bilibili_request_qr_code():
@@ -1671,7 +1671,7 @@ JNrRuoEUXpabUzGB8QIDAQAB
 def get_bilibili_data(channelid_bilibili_ids):
     if channelid_bilibili_ids:
         try:
-            with open('bilibili_data.json', 'r') as file:
+            with open('channel_data/bilibili_data.json', 'r') as file:
                 bilibili_data = file.read()
             bilibili_data = json.loads(bilibili_data)
         except Exception:
@@ -1702,8 +1702,8 @@ def get_bilibili_data(channelid_bilibili_ids):
                 bilibili_data["img_key"] = img_key
                 bilibili_data["sub_key"] = sub_key
                 bilibili_data["timestamp"] = time.time()
-                file_save(bilibili_data, "bilibili_data.json")
-                if not os.path.isfile("yt_dlp_bilibili.txt"):
+                file_save(bilibili_data, "bilibili_data.json", "channel_data")
+                if not os.path.isfile("channel_data/yt_dlp_bilibili.txt"):
                     bulid_Netscape_HTTP_Cookie("yt_dlp_bilibili", bilibili_data["cookie"])
                 return channelid_bilibili_ids, bilibili_data
             else:
@@ -1711,7 +1711,7 @@ def get_bilibili_data(channelid_bilibili_ids):
                 return {}, {"cookie":None, "timestamp": 0.0}
         else:
             print(f"{datetime.now().strftime('%H:%M:%S')}|BiliBili \033[33m获取cookie成功\033[0m")
-            if not os.path.isfile("yt_dlp_bilibili.txt"):
+            if not os.path.isfile("channel_data/yt_dlp_bilibili.txt"):
                 bulid_Netscape_HTTP_Cookie("yt_dlp_bilibili", bilibili_data["cookie"])
             return channelid_bilibili_ids, bilibili_data
     else:
@@ -2588,6 +2588,18 @@ def get_youtube_and_bilibili_video_format(id, stop_flag, video_format_lock, prep
         video_id_update_format[id]["quality"],
         video_id_update_format[id]["cookie"],
     )
+    if id_update_format == "\x1b[31m年龄限制\x1b[0m":
+        if os.path.isfile("channel_data/yt_dlp_youtube.txt"):
+            video_id_update_format[id]["cookie"] = "channel_data/yt_dlp_youtube.txt"
+            id_update_format = media_format(
+                video_id_update_format[id]["url"],
+                id,
+                video_id_update_format[id]["media"],
+                video_id_update_format[id]["quality"],
+                video_id_update_format[id]["cookie"],
+            )
+        else:
+            id_update_format == "\x1b[31m年龄限制(需要Cookies)\x1b[0m"
     if isinstance(id_update_format, list):
         if len(id_update_format) == 1:
             entry_id_update_format = id_update_format[0]
@@ -2658,7 +2670,7 @@ def get_youtube_and_bilibili_video_format_multithreading(video_id_update_format_
 
 # 获取YouTube&哔哩哔哩视频格式信息模块
 def get_video_format():
-    def get_youtube_format_front(ytid_content_update, backward_update, youtube_cookie=None):
+    def get_youtube_format_front(ytid_content_update, backward_update):
         for ytid_key, ytid_value in ytid_content_update.items():
             # 获取对应文件类型
             yt_id_file = channelid_youtube[channelid_youtube_ids_update[ytid_key]]["media"]
@@ -2678,7 +2690,7 @@ def get_video_format():
                         "quality": yt_id_quality,
                         "url": f"https://www.youtube.com/watch?v={yt_id}",
                         "name": channelid_youtube_ids[ytid_key],
-                        "cookie": youtube_cookie,  # 非必要cookie
+                        "cookie": None,  # 特定视频需要
                         "backward_update": backward_update,
                     }
                     video_id_update_format[yt_id] = yt_id_format
@@ -2709,7 +2721,7 @@ def get_video_format():
                         "quality": bv_id_quality,
                         "url": f"https://www.bilibili.com/video/{bv_id}",
                         "name": channelid_bilibili_ids[bvid_key],
-                        "cookie": "yt_dlp_bilibili.txt",
+                        "cookie": "channel_data/yt_dlp_bilibili.txt",
                         "backward_update": backward_update,
                     }
                     video_id_update_format[bv_id] = bv_id_format
@@ -2720,23 +2732,9 @@ def get_video_format():
                         None,
                         False,
                     )
-    # 判断是否有YouTube的cookie
-    try:
-        with open(
-            "youtube_data.json", "r", encoding="utf-8"
-        ) as file:  # 打开文件进行读取
-            youtube_data = json.load(file)  # 读取文件内容
-            youtube_cookie = "yt_dlp_youtube.txt"
-            bulid_Netscape_HTTP_Cookie("yt_dlp_youtube.txt", youtube_data["cookie"])
-    except FileNotFoundError:  # 文件不存在
-        youtube_cookie = None
-        #print(f"{datetime.now().strftime('%H:%M:%S')}|无YouTube cookie文件，部分媒体将无法获取并下载，可使用Chrome获取cookie，并保存为youtube_data.json，格式为：\n\t{{cookie: {{...}}}}")
-    except json.decoder.JSONDecodeError:  # json读取失败
-        youtube_cookie = None
-        #print(f"{datetime.now().strftime('%H:%M:%S')}|YouTube cookie文件无效，请确认格式是否为：\n\t{{cookie: {{...}}}}")
-    get_youtube_format_front(youtube_content_ytid_update, False, youtube_cookie)
+    get_youtube_format_front(youtube_content_ytid_update, False)
     get_bilibili_format_front(bilibili_content_bvid_update, False)
-    get_youtube_format_front(youtube_content_ytid_backward_update, True, youtube_cookie)
+    get_youtube_format_front(youtube_content_ytid_backward_update, True)
     get_bilibili_format_front(bilibili_content_bvid_backward_update, True)
     # 按参数拆分获取量
     if len(video_id_update_format) != 0:
@@ -3491,7 +3489,7 @@ def make_up_file():
                         "media": media,
                         "url": f"https://www.bilibili.com/video/{main}",
                         "name": channelid_bilibili_ids[output_dir],
-                        "cookie": "yt_dlp_bilibili.txt",
+                        "cookie": "channel_data/yt_dlp_bilibili.txt",
                         "main": main
                     }
                     if media == "mp4":
@@ -3518,6 +3516,18 @@ def make_up_file_format_mod():
             make_up_file_format[video_id]["quality"],
             make_up_file_format[video_id]["cookie"],
         )
+        if makeup_id_format == "\x1b[31m年龄限制\x1b[0m":
+            if os.path.isfile("channel_data/yt_dlp_youtube.txt"):
+                make_up_file_format[video_id]["cookie"] = "channel_data/yt_dlp_youtube.txt"
+                makeup_id_format = media_format(
+                    make_up_file_format[video_id]["url"],
+                    make_up_file_format[video_id]["main"],
+                    make_up_file_format[video_id]["media"],
+                    make_up_file_format[video_id]["quality"],
+                    make_up_file_format[video_id]["cookie"],
+                )
+            else:
+                makeup_id_format == "\x1b[31m年龄限制(需要Cookies)\x1b[0m"
         if isinstance(makeup_id_format, list):
             if len(makeup_id_format) == 1:
                 entry_id_makeup_format = makeup_id_format[0]
@@ -3605,6 +3615,8 @@ folder_build("channel_id")
 folder_build("channel_audiovisual")
 # 构建文件夹channel_rss
 folder_build("channel_rss")
+# 构建文件夹channel_data
+folder_build("channel_data")
 # 修正channelid_youtube
 channelid_youtube = correct_channelid(channelid_youtube, "youtube")
 # 修正channelid_bilibili
