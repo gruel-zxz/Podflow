@@ -1015,8 +1015,12 @@ def dl_aideo_video(
     else:
         video_write_log = video_url
     id_duration = video_format[0]
+    if cookies:
+        print_message = "\033[34m开始下载\033[0m 🍪"
+    else:
+        print_message = "\033[34m开始下载\033[0m"
     print(
-        f"{datetime.now().strftime('%H:%M:%S')}|{video_write_log} \033[34m开始下载\033[0m",
+        f"{datetime.now().strftime('%H:%M:%S')}|{video_write_log} {print_message}",
         end="",
     )
     if output_format == "m4a":
@@ -1100,7 +1104,13 @@ def dl_aideo_video(
                 video_id_failed = video_url
                 write_log(f"\n{video_write_log} \033[31m下载失败\033[0m\n错误信息: 合成失败:{dl_aideo_video_error}")
     if video_id_failed is None:
-        write_log(f"{video_write_log} \033[32m下载成功\033[0m", None, True, True, f' {video_format[1] if output_format == "m4a" else f"{video_format[1]}+{video_format[2]}"}')  # 写入下载成功的日志信息
+        if output_format == "m4a":
+            only_log = f" {video_format[1]}"
+        else:
+            only_log = f" {video_format[1]}+{video_format[2]}"
+        if cookies:
+            only_log += " Cookies"
+        write_log(f"{video_write_log} \033[32m下载成功\033[0m", None, True, True, only_log)  # 写入下载成功的日志信息
     return video_id_failed
 
 # 构建文件夹模块
@@ -2598,8 +2608,10 @@ def get_youtube_and_bilibili_video_format(id, stop_flag, video_format_lock, prep
                 video_id_update_format[id]["quality"],
                 video_id_update_format[id]["cookie"],
             )
+            if id_update_format == "\x1b[31m年龄限制\x1b[0m":
+                id_update_format = "\x1b[31m年龄限制\x1b[0m(Cookies错误)"
         else:
-            id_update_format = "\x1b[31m年龄限制(需要Cookies)\x1b[0m"
+            id_update_format = "\x1b[31m年龄限制\x1b[0m(需要Cookies)"
     if isinstance(id_update_format, list):
         if len(id_update_format) == 1:
             entry_id_update_format = id_update_format[0]
@@ -3526,8 +3538,10 @@ def make_up_file_format_mod():
                     make_up_file_format[video_id]["quality"],
                     make_up_file_format[video_id]["cookie"],
                 )
+                if makeup_id_format == "\x1b[31m年龄限制\x1b[0m":
+                    makeup_id_format = "\x1b[31m年龄限制\x1b[0m(Cookies错误)"
             else:
-                makeup_id_format = "\x1b[31m年龄限制(需要Cookies)\x1b[0m"
+                makeup_id_format = "\x1b[31m年龄限制\x1b[0m(需要Cookies)"
         if isinstance(makeup_id_format, list):
             if len(makeup_id_format) == 1:
                 entry_id_makeup_format = makeup_id_format[0]
