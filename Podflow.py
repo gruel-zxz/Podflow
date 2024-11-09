@@ -56,7 +56,8 @@ default_config = {
     "preparation_per_count": 100,  # 获取媒体信息每组数量
     "completion_count": 100,  # 媒体缺失时最大补全数量
     "retry_count": 5,  # 媒体下载重试次数
-    "url": "http://127.0.0.1:8000",  # HTTP共享地址
+    "url": "http://localhost",  # HTTP共享地址
+    "port": 8000,  # HTTP共享端口
     "title": "Podflow",  #博客的名称
     "filename": "Podflow",  # 主XML的文件名称
     "link": "https://github.com/gruel-zxz/podflow",  # 博客主页
@@ -386,12 +387,11 @@ library_install_list = [
     "qrcode",
     "yt-dlp",
     "chardet",
-    "tornado",
+    "cherrypy",
     "requests",
     "pycryptodome",
     "ffmpeg-python",
     "BeautifulSoup4",
-    "RangeHTTPServer",
 ]
 
 library_import = False
@@ -402,12 +402,14 @@ while library_import is False:
         import ffmpeg
         import qrcode
         import yt_dlp
+        import cherrypy
         from astral.sun import sun
         from bs4 import BeautifulSoup
         from astral import LocationInfo
         from Cryptodome.Hash import SHA256
         from Cryptodome.PublicKey import RSA
         from Cryptodome.Cipher import PKCS1_OAEP
+        from bottle import Bottle, run, static_file, abort, redirect, request
         library_import = True
     except ImportError:
         today_library_log = ""
@@ -1193,10 +1195,23 @@ def correct_config():
     ):
         config["retry_count"] = default_config["retry_count"]
     # 对url进行纠正
-    if "url" not in config or not re.search(
-        r"^(https?|ftp)://[^\s/$.?#].[^\s]*$", config["url"]
-    ):
+    match_url = re.search(
+        r"^(https?|ftp)://([^/\s:]+)", config["url"]
+    )
+    if "url" in config and match_url:
+        config["url"] = match_url.group()
+    else:
         config["url"] = default_config["url"]
+    # 对port进行纠正
+    if (
+        "port" not in config
+        or not isinstance(config["port"], int)
+        or config["port"] < 0
+        or config["port"] > 65535
+    ):
+        config["port"] = default_config["port"]
+    # 合并地址和端口
+    config["address"] = f"{config['url']}:{config['port']}"
     # 对title进行纠正
     if "title" not in config:
         config["title"] = default_config["title"]
@@ -1219,8 +1234,9 @@ def correct_config():
     # 对category进行纠正
     if "category" not in config:
         config["category"] = default_config["category"]
-    if f"{config['url']}/{config['filename']}.xml" not in shortcuts_url_original:
-        shortcuts_url[f"{config['filename']}(Main RSS)"] = f"{config['url']}/{config['filename']}.xml"
+    # 对IOS中shortcuts自动关注进行纠正
+    if f"{config['address']}/{config['filename']}.xml" not in shortcuts_url_original:
+        shortcuts_url[f"{config['filename']}(Main RSS)"] = f"{config['address']}/{config['filename']}.xml"
     # 对token进行纠正
     if "token" not in config:
         config["token"] = default_config["token"]
@@ -1491,8 +1507,8 @@ def correct_channelid(channelid, website):
                     channeli_value["NoShorts"], bool
                 ):
                     channelid[channelid_key]["NoShorts"] = False
-        if channelid[channelid_key]["InmainRSS"] is False and f"{config['url']}/channel_rss/{channeli_value['id']}.xml" not in shortcuts_url_original:
-            shortcuts_url[channelid_key] = f"{config['url']}/channel_rss/{channeli_value['id']}.xml"
+        if channelid[channelid_key]["InmainRSS"] is False and f"{config['address']}/channel_rss/{channeli_value['id']}.xml" not in shortcuts_url_original:
+            shortcuts_url[channelid_key] = f"{config['address']}/channel_rss/{channeli_value['id']}.xml"
     return channelid
 
 # 读取频道ID模块
@@ -2878,7 +2894,7 @@ def xml_item(
     else:
         input_string = f"channel_audiovisual/{output_dir}/{video_url}.{output_format}"
     sha256_hash = hashlib.sha256(input_string.encode()).hexdigest()
-    url = f"{config['url']}/channel_audiovisual/{output_dir}/{video_url}.{output_format}?token={sha256_hash}"
+    url = f"{config['address']}/channel_audiovisual/{output_dir}/{video_url}.{output_format}?token={sha256_hash}"
     # 回显对应的item
     return f"""
         <item>
@@ -2955,7 +2971,7 @@ def xml_original_item(original_item):
     else:
         input_string = f"channel_audiovisual/{url}"
     sha256_hash = hashlib.sha256(input_string.encode()).hexdigest()
-    url = f"{config['url']}/channel_audiovisual/{url}?token={sha256_hash}"
+    url = f"{config['address']}/channel_audiovisual/{url}?token={sha256_hash}"
     length = re.search(r"(?<=length\=\")[0-9]+(?=\")", original_item).group()
     type_video = re.search(
         r"(?<=type\=\")(video/mp4|audio/x-m4a|audio/mpeg)(?=\")", original_item
@@ -3352,9 +3368,9 @@ def display_qrcode_and_url(output_dir, channelid_video, channelid_video_name, ch
     else:
         update_text = "无更新"
     if config["token"]:
-        xml_url = f"{config['url']}/channel_rss/{output_dir}.xml?token={config['token']}"
+        xml_url = f"{config['address']}/channel_rss/{output_dir}.xml?token={config['token']}"
     else:
-        xml_url = f"{config['url']}/channel_rss/{output_dir}.xml"
+        xml_url = f"{config['address']}/channel_rss/{output_dir}.xml"
         
     if (
         channelid_video["DisplayRSSaddress"] 
@@ -3644,60 +3660,189 @@ channelid_bilibili_ids = get_channelid_id(channelid_bilibili, "bilibili")
 # 复制bilibili频道id用于删除已抛弃的媒体文件夹
 channelid_bilibili_ids_original = channelid_bilibili_ids.copy()
 
-# 主流程
-server_process_print_flag = ["keep"]  # 进程打印标志初始化
+# Bottle和Cherrypy初始化模块
+Shutdown_VALID_TOKEN = "shut"  # 用于服务器关闭的验证 Token
+VALID_TOKEN = config["token"]  # 从配置中读取主验证 Token
+bottle_filename = config["filename"]  # 从配置中读取文件名
+server_process_print_flag = ["keep"]  # 控制是否持续输出日志
 
-# 进程打印模块
-def server_process_print():
-    global httpserver_process, server_process_print_flag
-    need_keep = ""
-    output_replace_infos = ["channel_rss/", "channel_audiovisual/", "\"", " HTTP/1.1", " 200 -", " (http://[::]:8000/) ..."]
-    while True:
-        output = httpserver_process.stdout.readline().decode().strip()
-        re1_output = re.search(r"(?<=\[[0-9]{2}/[a-zA-Z]{3}/[0-9]{4} )[0-2][0-9]:[0-6][0-9]:[0-6][0-9](?=\])", output)
-        re2_output = re.search(r"(?<=\[[0-9]{2}/[a-zA-Z]{3}/[0-9]{4} [0-2][0-9]:[0-6][0-9]:[0-6][0-9]\] )\".+\".+", output)
-        if re1_output and re2_output:
-            output = re2_output.group(0)
-            output_time = re1_output.group(0)
+app = Bottle()  # 创建 Bottle 应用
+
+# 定义要共享的文件路径
+shared_files = {
+    bottle_filename.lower(): f'{bottle_filename}.xml',  # 文件路径映射，支持大小写不敏感的文件名
+    f'{bottle_filename.lower()}.xml': f'{bottle_filename}.xml',  # 同上，支持带 .xml 后缀
+}
+bottle_channelid = channelid_youtube_ids_original | channelid_bilibili_ids_original | {"channel_audiovisual/": "", "channel_rss/": ""}  # 合并多个频道 ID
+bottle_print = []  # 存储打印日志
+
+# 判断token是否正确的验证模块
+def token_judgment(token, VALID_TOKEN="", filename="", foldername=""):
+    # 如果请求的是 'channel_audiovisual/' 文件夹，采用特殊的 Token 验证逻辑
+    if foldername == 'channel_audiovisual/':
+        if VALID_TOKEN == "" and token == hashlib.sha256(f"{filename}".encode()).hexdigest():  # 如果没有配置 Token，则使用文件名的哈希值
+            return True
+        elif token == hashlib.sha256(f"{VALID_TOKEN}/{filename}".encode()).hexdigest():  # 使用验证 Token 和文件名的哈希值
+            return True
         else:
-            output_time = datetime.now().strftime('%H:%M:%S')
-        if output:
-            for output_replace_info in output_replace_infos:
-                output = output.replace(output_replace_info, "")
-            for channelid_ids_original_key, channelid_ids_original_value in (channelid_youtube_ids_original | channelid_bilibili_ids_original).items():
-                output = output.replace(channelid_ids_original_key, channelid_ids_original_value)
-            output = re.sub(r"\?token=.+", "", output)
-            if need_keep == "":
-                need_keep = f"{output_time}|{output}"
-            else:
-                need_keep += f"\n{output_time}|{output}"
-        if server_process_print_flag[0] == "keep":
-            if need_keep:
-                print(need_keep)
-            need_keep = ""
-        if server_process_print_flag[0] == "end" or output == "Keyboard interrupt received, exiting.":
-            break
+            return False
+    else:
+        # 对于其他文件夹，采用常规的 Token 验证
+        if VALID_TOKEN == "":
+            return True  # 如果没有配置验证 Token，则默认通过
+        elif token == VALID_TOKEN:
+            return True  # 如果 Token 匹配，则通过
+        else:
+            return False  # 否则验证失败
 
-# 创建进程打印线程
-prepare_print = threading.Thread(target=server_process_print)
+# 添加至bottle_print模块
+def add_bottle_print(client_ip, filename, status):
+    # 设置状态码对应的颜色
+    status_colors = {
+        200: '\033[32m',  # 绿色 (成功)
+        401: '\033[31m',  # 红色 (未经授权)
+        404: '\033[35m',  # 紫色 (未找到)
+        303: '\033[33m',  # 黄色 (重定向)
+        206: '\033[36m',  # 青色 (部分内容)
+    }
+    # 默认颜色
+    color = status_colors.get(status, '\033[0m')
+    status = f"{color}{status}\033[0m"
+    now_time = datetime.now().strftime('%H:%M:%S')
+    client_ip = f"\033[34m{client_ip}\033[0m"
+    bottle_print.append(f"{now_time}|{client_ip} {filename} {status}")
 
-# 启动 RangeHTTPServer
-try:
-    httpserver_process = subprocess.Popen(["python3", "-m", "RangeHTTPServer"], stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
-except FileNotFoundError:
-    httpserver_process = subprocess.Popen(["python", "-m", "RangeHTTPServer"], stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+# CherryPy 服务器打印模块
+def cherry_print(flag_judgment=True):
+    if flag_judgment:
+        server_process_print_flag[0] = "keep"
+    if server_process_print_flag[0] == "keep" and bottle_print:  # 如果设置为保持输出，则打印日志
+        print('\n'.join(bottle_print))
+        bottle_print.clear()
 
-# 启动进程打印线程
-prepare_print.start()
+# 主路由，处理根路径请求
+@app.route('/')
+def home():
+    # 输出请求日志的函数
+    def print_out(status):
+        client_ip = request.remote_addr  # 获取客户端 IP 地址
+        client_port = request.environ.get('REMOTE_PORT')  # 获取客户端端口
+        if client_port:
+            client_ip = f"{client_ip}:{client_port}"  # 如果有端口信息，则包括端口
+        add_bottle_print(client_ip, "/", status)  # 添加日志信息
+        cherry_print(False)
 
-# 循环主更新
-while update_num > 0 or update_num == -1:
+    token = request.query.get('token')  # 获取请求中的 Token
+    if token_judgment(token, VALID_TOKEN):  # 验证 Token
+        print_out(200)  # 如果验证成功，输出 200 状态
+        return "hello world"  # 返回正常响应
+    else:
+        print_out(401)  # 如果验证失败，输出 401 状态
+        abort(401, "Unauthorized: Invalid Token")  # 返回未经授权错误
+
+# 路由，处理关闭服务器的请求
+@app.route('/shutdown')
+def shutdown():
+    # 输出关闭请求日志的函数
+    def print_out(status):
+        client_ip = request.remote_addr
+        client_port = request.environ.get('REMOTE_PORT')
+        if client_port:
+            client_ip = f"{client_ip}:{client_port}"
+        add_bottle_print(client_ip, "shutdown", status)
+        cherry_print(False)
+    
+    token = request.query.get('token')  # 获取请求中的 Token
+    if token_judgment(token, Shutdown_VALID_TOKEN):  # 验证 Token 是否为关闭用的 Token
+        print_out(200)  # 如果验证成功，输出 200 状态
+        cherrypy.engine.exit()  # 使用 CherryPy 提供的停止功能来关闭服务器
+        return "Shutting down..."  # 返回关机响应
+    else:
+        print_out(401)  # 如果验证失败，输出 401 状态
+        abort(401, "Unauthorized: Invalid Token")  # 返回未经授权错误
+
+# 路由，处理 favicon 请求
+@app.route('/favicon.ico')
+def favicon():
+    client_ip = request.remote_addr
+    client_port = request.environ.get('REMOTE_PORT')
+    if client_port:
+        client_ip = f"{client_ip}:{client_port}"
+    add_bottle_print(client_ip, "favicon.ico", 303)  # 输出访问 favicon 的日志
+    cherry_print(False)
+    return redirect('https://raw.githubusercontent.com/gruel-zxz/podflow/main/Podflow.png')  # 重定向到图标 URL
+
+# 路由，处理静态文件请求
+@app.route('/<filename:path>')
+def serve_static(filename):
+    token = request.query.get('token')  # 获取请求中的 Token
+
+    # 输出文件请求日志的函数
+    def print_out(filename, status):
+        client_ip = request.remote_addr
+        client_port = request.environ.get('REMOTE_PORT')
+        if client_port:
+            client_ip = f"{client_ip}:{client_port}"
+        for bottle_channelid_key, bottle_channelid_value in bottle_channelid.items():
+            filename = filename.replace(bottle_channelid_key, bottle_channelid_value)  # 替换频道路径
+            if status == 200 and request.headers.get('Range'):  # 如果是部分请求，则返回 206 状态
+                status = 206
+        add_bottle_print(client_ip, filename, status)  # 输出日志
+        cherry_print(False)
+    
+    # 文件是否存在检查的函数
+    def file_exist(token, VALID_TOKEN, filename, foldername=""):
+        if token_judgment(token, VALID_TOKEN, filename, foldername):  # 验证 Token
+            if os.path.exists(filename):  # 如果文件存在，返回文件
+                print_out(filename, 200)
+                return static_file(filename, root=".")
+            else:  # 如果文件不存在，返回 404 错误
+                print_out(filename, 404)
+                abort(404, "File not found")
+        else:  # 如果 Token 验证失败，返回 401 错误
+            print_out(filename, 401)
+            abort(401, "Unauthorized: Invalid Token")
+    
+    # 处理不同的文件路径
+    if filename in ['channel_audiovisual/', 'channel_rss/']:
+        print_out(filename, 404)
+        abort(404, "File not found")
+    elif filename.startswith('channel_audiovisual/'):
+        return file_exist(token, VALID_TOKEN, filename, "channel_audiovisual/")
+    elif filename.startswith('channel_rss/') and filename.endswith(".xml"):
+        return file_exist(token, VALID_TOKEN, filename)
+    elif filename.startswith('channel_rss/'):
+        return file_exist(token, VALID_TOKEN, f"{filename}.xml")
+    elif filename.lower() in shared_files:
+        return file_exist(token, VALID_TOKEN, shared_files[filename.lower()])
+    else:
+        print_out(filename, 404)  # 如果文件路径未匹配，返回 404 错误
+        abort(404, "File not found")
+
+# 启动 CherryPy 服务器
+cherrypy.tree.graft(app)  # 将 Bottle 应用嵌入到 CherryPy 中
+cherrypy.config.update({
+    'global': {
+        'tools.sessions.on': True,  # 启用会话支持
+        'server.socket_host': '0.0.0.0',  # 监听所有 IP 地址
+        'server.socket_port': config["port"],  # 设置监听端口
+        'log.screen': False,  # 禁用屏幕日志输出
+        'log.access_file': '',  # 关闭访问日志
+        'log.error_file': ''  # 关闭错误日志
+    }
+})
+
+# 主流程
+cherrypy.engine.start()  # 启动 CherryPy 服务器
+print(f"{datetime.now().strftime('%H:%M:%S')}|HTTP服务器启动")
+# cherrypy.engine.block()  # 阻止程序退出，保持服务运行
+while update_num > 0 or update_num == -1:  # 循环主更新
     # 暂停进程打印
     server_process_print_flag[0] = "pause"
     # 更新哔哩哔哩data
     channelid_bilibili_ids, bilibili_data = get_bilibili_data(channelid_bilibili_ids_original)
     # 恢复进程打印
-    server_process_print_flag[0] = "keep"
+    cherry_print()
     # 获取原始xml字典和rss文本
     xmls_original, hash_rss_original, xmls_original_fail = get_original_rss()
     # 更新Youtube和哔哩哔哩频道xml
@@ -3716,13 +3861,13 @@ while update_num > 0 or update_num == -1:
         # 获取视频格式信息
         get_video_format()
         # 恢复进程打印
-        server_process_print_flag[0] = "keep"
+        cherry_print()
         # 暂停进程打印
         server_process_print_flag[0] = "pause"
         # 下载YouTube和哔哩哔哩视频
         youtube_and_bilibili_download()
         # 恢复进程打印
-        server_process_print_flag[0] = "keep"
+        cherry_print()
         # 打印无法保留原节目信息
         original_rss_fail_print(xmls_original_fail)
         # 获取YouTube频道简介
@@ -3732,7 +3877,7 @@ while update_num > 0 or update_num == -1:
         # 生成分和主rss
         create_main_rss()
         # 恢复进程打印
-        server_process_print_flag[0] = "keep"
+        cherry_print()
         # 删除不在rss中的媒体文件
         remove_file()
         # 删除已抛弃的媒体文件夹
@@ -3746,7 +3891,7 @@ while update_num > 0 or update_num == -1:
         # 补全在rss中缺失的媒体格式信息
         make_up_file_format_mod()
         # 恢复进程打印
-        server_process_print_flag[0] = "keep"
+        cherry_print()
         # 生成主rss
         overall_rss = xml_rss(
             config["title"],
@@ -3764,16 +3909,16 @@ while update_num > 0 or update_num == -1:
         server_process_print_flag[0] = "pause"
         # 生成主url及二维码
         if config["token"]:
-            overall_url = f"{config['url']}/{config['filename']}.xml?token={config['token']}"
+            overall_url = f"{config['address']}/{config['filename']}.xml?token={config['token']}"
         else:
-            overall_url = f"{config['url']}/{config['filename']}.xml"
+            overall_url = f"{config['address']}/{config['filename']}.xml"
             
         write_log("总播客已更新", f"地址:\n\033[34m{overall_url}\033[0m")
         if "main" not in displayed_QRcode:
             qr_code(overall_url)
             displayed_QRcode.append("main")
         # 恢复进程打印
-        server_process_print_flag[0] = "keep"
+        cherry_print()
         # 备份主rss
         backup_zip_save(overall_rss)
         # 暂停进程打印
@@ -3781,7 +3926,7 @@ while update_num > 0 or update_num == -1:
         # 下载补全Youtube和哔哩哔哩视频模块
         make_up_file_mod()
         # 恢复进程打印
-        server_process_print_flag[0] = "keep"
+        cherry_print()
     else:
         print(f"{datetime.now().strftime('%H:%M:%S')}|频道无更新内容")
     # 清空变量内数据
@@ -3823,9 +3968,6 @@ while update_num > 0 or update_num == -1:
         # 延时
         time.sleep(time_delay)
 
-# 停止 RangeHTTPServer
-httpserver_process.terminate()
-server_process_print_flag[0] = "end"
-http_client("http://127.0.0.1:8000/", "", 1, 0)
-prepare_print.join()
+# 关闭CherryPy服务器
+cherrypy.engine.exit()
 print(f"{datetime.now().strftime('%H:%M:%S')}|Podflow运行结束")
