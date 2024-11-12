@@ -56,7 +56,7 @@ default_config = {
     "preparation_per_count": 100,  # 获取媒体信息每组数量
     "completion_count": 100,  # 媒体缺失时最大补全数量
     "retry_count": 5,  # 媒体下载重试次数
-    "url": "http://localhost",  # HTTP共享地址
+    "url": "http://127.0.0.1",  # HTTP共享地址
     "port": 8000,  # HTTP共享端口
     "title": "Podflow",  #博客的名称
     "filename": "Podflow",  # 主XML的文件名称
@@ -1245,6 +1245,60 @@ def correct_config():
     else:
         config["token"] = str(config["token"])
 
+# 获取日出日落并判断昼夜模块
+def http_day_and_night(latitude, longitude):
+    sun_url = "https://api.sunrise-sunset.org/json"
+    sun_data = {
+        "lat": latitude,
+        "lng": longitude,
+        "date": "today",
+    }
+    sunrise_sunset = http_client(sun_url, '获取日出日落', 3, 5, True, None, sun_data)
+    if not sunrise_sunset:
+        return None
+    try:
+        time_dict = sunrise_sunset.json()["results"]
+        sunrise = time_dict['sunrise']
+        sunset = time_dict['sunset']
+    except KeyError:
+        return None
+    # 获取当前时间，并去除时区
+    now = datetime.now()
+    # 将日出和日落时间转换为datetime对象
+    today = now.date()
+    sunrise_time = datetime.strptime(sunrise, '%I:%M:%S %p')
+    sunrise_time = sunrise_time.replace(year=today.year, month=today.month, day=today.day, tzinfo=timezone.utc)
+    sunset_time = datetime.strptime(sunset, '%I:%M:%S %p')
+    sunset_time = sunset_time.replace(year=today.year, month=today.month, day=today.day, tzinfo=timezone.utc)
+    # 转换日出和日落时间为时间戳
+    sunrise_now = sunrise_time.timestamp()
+    sunset_now = sunset_time.timestamp()
+    today = now.timestamp()
+    # 计算昨天及明天日出和日落时间戳
+    sunrise_yesterday = sunrise_now - 3600*24
+    sunset_yesterday = sunset_now - 3600*24
+    sunrise_tommorrow = sunrise_now + 3600*24
+    sunset_tommorrow = sunset_now + 3600*24
+    # 判断现在是白天还是晚上
+    if sunrise_now < sunset_now:
+        if (
+            sunrise_now < today < sunset_now
+            or sunrise_yesterday < today < sunset_yesterday
+            or sunrise_tommorrow < today < sunset_tommorrow
+        ):
+            return "light"
+        else:
+            return "dark"
+    else:
+        if (
+            sunrise_now > today > sunset_now
+            or sunrise_yesterday > today > sunset_yesterday
+            or sunrise_tommorrow > today > sunset_tommorrow
+        ):
+            return "dark"
+        else:
+            return "light"
+
 # 根据经纬度判断昼夜模块
 def judging_day_and_night(latitude, longitude):
     # 创建一个 LocationInfo 对象，只提供经纬度信息
@@ -1314,19 +1368,23 @@ def channge_icon():
         # 公网获取经纬度
         label, latitude, longitude = ipinfo()
         if label is False:
-            write_log("获取昼夜信息重试中...\033[97m1\033[0m")
+            write_log("获取经纬度信息重试中...\033[97m1\033[0m")
             label, latitude, longitude = ipapi()
             if label is False:
-                write_log("获取昼夜信息重试中...\033[97m2\033[0m")
+                write_log("获取经纬度信息重试中...\033[97m2\033[0m")
                 label, latitude, longitude = freegeoip()
                 if label is False:
-                    write_log("获取昼夜信息失败")
+                    write_log("获取经纬度信息失败")
         if label:
-            picture_name = f"Podflow_{judging_day_and_night(latitude, longitude)}"
+            picture_name = http_day_and_night(latitude, longitude)
+            if not picture_name:
+                write_log("获取日出日落失败，将计算昼夜")
+                picture_name = f"Podflow_{judging_day_and_night(latitude, longitude)}"
             config["icon"] = f"https://raw.githubusercontent.com/gruel-zxz/podflow/main/{picture_name}.png"
 
 # 从配置文件中获取频道模块
 def get_channelid(name):
+    output_name = ""
     if name == "youtube":
         output_name = "YouTube"
     elif name == "bilibili":
@@ -1340,6 +1398,8 @@ def get_channelid(name):
 
 # channelid修正模块
 def correct_channelid(channelid, website):
+    channelid_name = ""
+    output_name = ""
     if website == "youtube":
         channelid_name = "youtube"
         output_name = "YouTube"
@@ -1513,6 +1573,7 @@ def correct_channelid(channelid, website):
 
 # 读取频道ID模块
 def get_channelid_id(channelid, idname):
+    output_name = ""
     if idname == "youtube":
         output_name = "YouTube"
     elif idname == "bilibili":
@@ -1598,6 +1659,8 @@ def bilibili_login():
             login_status = '\033[32m扫描成功\033[0m'
         elif status == 0:
             login_status = '\033[32m登陆成功\033[0m'
+        else:
+            login_status = '\033[31m错误\033[0m'
         if login_status_change != login_status:
             if login_status == '':
                 print(f"{time_print}{login_status}".ljust(42), end = "")
@@ -2060,7 +2123,7 @@ def youtube_rss_update(youtube_key, youtube_value, pattern_youtube_varys, patter
         youtube_content_ytid = youtube_content_ytid[
             : channelid_youtube[youtube_value]["update_size"]  # 限制视频ID数量
         ]
-        youtube_content_new = list_merge_tidy(youtube_content_ytid, guids)  # 合并并去重
+    youtube_content_new = list_merge_tidy(youtube_content_ytid, guids)  # 合并并去重
     if youtube_content_ytid := [
         exclude
         for exclude in youtube_content_ytid
@@ -2480,6 +2543,8 @@ def update_youtube_bilibili_rss():
                 elif youtube_response_type ==  "text":
                     youtube_content = youtube_response
                     write_log(f"YouTube频道 {youtube_value} 无法更新")
+                else:
+                    youtube_content = ""
                 # 判断频道id是否正确
                 if re.search(pattern_youtube404, youtube_content, re.DOTALL):
                     del channelid_youtube_ids[youtube_key]  # 删除错误ID
@@ -3245,16 +3310,17 @@ def bilibili_xml_items(output_dir):
     def get_items_list(guid, item):
         pubDate = datetime.fromtimestamp(item["created"], timezone.utc).strftime("%Y-%m-%dT%H:%M:%S%z")
         if guid in items_counts:
+            guid_parts = []
+            guid_edgeinfos = []
             if "part" in item:
                 guid_parts = item["part"]
             elif "edgeinfo" in item:
                 guid_edgeinfos = item["edgeinfo"]
             else:
-                if guid_parts := get_bilibili_all_part(guid, channelid_bilibili_ids[output_dir]):
-                    guid_edgeinfos = []
-                else:
+                guid_parts = get_bilibili_all_part(guid, channelid_bilibili_ids[output_dir])
+                if not guid_parts:
                     guid_edgeinfos = get_bilibili_interactive(guid, channelid_bilibili_ids[output_dir])
-            if items_counts[guid] == len(guid_parts):
+            if guid_parts and items_counts[guid] == len(guid_parts):
                 for guid_part in guid_parts:
                     guid_part_text = f"{item['title']} Part{guid_part['page']:0{len(str(len(guid_parts)))}}"
                     if item["title"] != guid_part["part"]:
@@ -3270,7 +3336,7 @@ def bilibili_xml_items(output_dir):
                         guid_part["first_frame"],
                     )
                     items_list.append(f"{xml_item_text}<!-- {output_dir} -->")
-            elif items_counts[guid] == len(guid_edgeinfos):
+            elif guid_edgeinfos and items_counts[guid] == len(guid_edgeinfos):
                 cid_edgeinfos = {guid_edgeinfo['cid']: guid_edgeinfo['title'] for guid_edgeinfo in guid_edgeinfos}
                 for guid_edgeinfo in guid_edgeinfos:
                     if guid_edgeinfo["options"]:
@@ -3661,7 +3727,7 @@ channelid_bilibili_ids = get_channelid_id(channelid_bilibili, "bilibili")
 channelid_bilibili_ids_original = channelid_bilibili_ids.copy()
 
 # Bottle和Cherrypy初始化模块
-Shutdown_VALID_TOKEN = "shut"  # 用于服务器关闭的验证 Token
+Shutdown_VALID_TOKEN = hashlib.sha256("shutdown".encode()).hexdigest()  # 用于服务器关闭的验证 Token
 VALID_TOKEN = config["token"]  # 从配置中读取主验证 Token
 bottle_filename = config["filename"]  # 从配置中读取文件名
 server_process_print_flag = ["keep"]  # 控制是否持续输出日志
@@ -3734,8 +3800,8 @@ def home():
 
     token = request.query.get('token')  # 获取请求中的 Token
     if token_judgment(token, VALID_TOKEN):  # 验证 Token
-        print_out(200)  # 如果验证成功，输出 200 状态
-        return "hello world"  # 返回正常响应
+        print_out(303)  # 如果验证成功，输出 200 状态
+        return redirect('https://github.com/gruel-zxz/podflow')  # 返回正常响应
     else:
         print_out(401)  # 如果验证失败，输出 401 状态
         abort(401, "Unauthorized: Invalid Token")  # 返回未经授权错误
