@@ -1379,8 +1379,8 @@ def channge_icon():
             picture_name = http_day_and_night(latitude, longitude)
             if not picture_name:
                 write_log("获取日出日落失败，将计算昼夜")
-                picture_name = f"Podflow_{judging_day_and_night(latitude, longitude)}"
-            config["icon"] = f"https://raw.githubusercontent.com/gruel-zxz/podflow/main/{picture_name}.png"
+                picture_name = judging_day_and_night(latitude, longitude)
+            config["icon"] = f"https://raw.githubusercontent.com/gruel-zxz/podflow/main/Podflow_{picture_name}.png"
 
 # 从配置文件中获取频道模块
 def get_channelid(name):
