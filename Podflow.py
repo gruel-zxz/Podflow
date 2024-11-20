@@ -35,7 +35,7 @@ def positive_int(value):
 parser = argparse.ArgumentParser(description="you can try: python Podflow.py -n 24 -d 3600")
 # 参数
 parser.add_argument("-n", "--times", nargs=1, type=positive_int, metavar="NUM", help="number of times")
-parser.add_argument("-d", "--delay", type=positive_int, default=900, metavar="NUM", help="delay in seconds(default: 900)")
+parser.add_argument("-d", "--delay", type=positive_int, default=1500, metavar="NUM", help="delay in seconds(default: 900)")
 parser.add_argument("--shortcuts", nargs="*", type=str, metavar="URL", help="only shortcuts can be work")
 parser.add_argument("--file", nargs='?', help=argparse.SUPPRESS)
 parser.add_argument("--httpfs", action='store_true', help=argparse.SUPPRESS)
@@ -690,28 +690,33 @@ def media_format(video_website, video_url, media="m4a", quality="480", cookies=N
                 fail_message = fail_message.replace(f"{video_url[2:]}: ", "")
         return fail_message, infos
     error_reason = {
-        r"Premieres in ": "\033[31m预播\033[0m|",
-        r"This live event will begin in ": "\033[31m直播预约\033[0m|",
-        r"Video unavailable\. This video contains content from SME, who has blocked it in your country on copyright grounds": "\033[31m版权保护\033[0m",
-        r"Premiere will begin shortly": "\033[31m马上开始首映\033[0m",
-        r"Private video\. Sign in if you've been granted access to this video": "\033[31m私享视频\033[0m",
-        r"This video is available to this channel's members on level: .*? Join this channel to get access to members-only content and other exclusive perks\.": "\033[31m会员专享\033[0m",
-        r"Join this channel to get access to members-only content like this video, and other exclusive perks\.": "\033[31m会员视频\033[0m",
-        r"Video unavailable\. This video has been removed by the uploader": "\033[31m视频被删除\033[0m",
-        r"Video unavailable\. This video is no longer available because the YouTube account associated with this video has been terminated\.": "\033[31m关联频道被终止\033[0m",
-        r"Video unavailable": "\033[31m视频不可用\033[0m",
-        r"This video has been removed by the uploader": "\033[31m发布者删除\033[0m",
-        r"This video has been removed for violating YouTube's policy on harassment and bullying": "\033[31m违规视频\033[0m",
-        r"This video is private\. If the owner of this video has granted you access, please sign in\.": "\033[31m私人视频\033[0m",
-        r"This video is unavailable": "\033[31m无法观看\033[0m",
-        r"The following content is not available on this app\.\. Watch on the latest version of YouTube\.": "\033[31m需App\033[0m",
-        r"This video may be deleted or geo-restricted\. You might want to try a VPN or a proxy server \(with --proxy\)": "\033[31m删除或受限\033[0m",
-        r"Sign in to confirm your age\. This video may be inappropriate for some users\.": "\033[31m年龄限制\033[0m",
+        r"Premieres in ": ["\033[31m预播\033[0m|", "text"],
+        r"This live event will begin in ": ["\033[31m直播预约\033[0m|", "text"],
+        r"Video unavailable. This video contains content from SME, who has blocked it in your country on copyright grounds": ["\033[31m版权保护\033[0m", "text"],
+        r"Premiere will begin shortly": ["\033[31m马上开始首映\033[0m", "text"],
+        r"Private video. Sign in if you've been granted access to this video": ["\033[31m私享视频\033[0m", "text"],
+        r"This video is available to this channel's members on level: .*? Join this channel to get access to members-only content and other exclusive perks\.": ["\033[31m会员专享\033[0m", "regexp"],
+        r"Join this channel to get access to members-only content like this video, and other exclusive perks.": ["\033[31m会员视频\033[0m", "text"],
+        r"Video unavailable. This video has been removed by the uploader": ["\033[31m视频被删除\033[0m", "text"],
+        r"Video unavailable. This video is no longer available because the YouTube account associated with this video has been terminated.": ["\033[31m关联频道被终止\033[0m", "text"],
+        r"Video unavailable": ["\033[31m视频不可用\033[0m", "text"],
+        r"This video has been removed by the uploader": ["\033[31m发布者删除\033[0m", "text"],
+        r"This video has been removed for violating YouTube's policy on harassment and bullying": ["\033[31m违规视频\033[0m", "text"],
+        r"This video is private. If the owner of this video has granted you access, please sign in.": ["\033[31m私人视频\033[0m", "text"],
+        r"This video is unavailable": ["\033[31m无法观看\033[0m", "text"],
+        r"The following content is not available on this app.. Watch on the latest version of YouTube.": ["\033[31m需App\033[0m", "text"],
+        r"This video may be deleted or geo-restricted. You might want to try a VPN or a proxy server (with --proxy)": ["\033[31m删除或受限\033[0m", "text"],
+        r"Sign in to confirm your age. This video may be inappropriate for some users. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies": ["\033[31m年龄限制\033[0m", "text"],
+        r"Sign in to confirm your age. This video may be inappropriate for some users.": ["\033[31m年龄限制\033[0m", "text"],
     }
     def fail_message_initialize(fail_message, error_reason):
-        for key in error_reason:
-            if re.search(key, fail_message):
-                return [key, error_reason[key]]
+        for key, value in error_reason.items():
+            if value[1] == "text":
+                if key in fail_message:
+                    return [key, value[0], value[1]]
+            else:
+                if re.search(key, fail_message):
+                    return [key, value[0], value[1]]
     video_id_count, change_error, fail_message, infos = 0, None, "", []
     while (
         video_id_count < 3
@@ -723,7 +728,10 @@ def media_format(video_website, video_url, media="m4a", quality="480", cookies=N
         if fail_message:
             change_error = fail_message_initialize(fail_message, error_reason)
     if change_error:
-        fail_message = re.sub(rf"{change_error[0]}", change_error[1], fail_message)
+        if change_error[2] == "text":
+            fail_message = fail_message.replace(f"{change_error[0]}", change_error[1])
+        else:
+            fail_message = re.sub(rf"{change_error[0]}", change_error[1], fail_message)
     if fail_message is None:
         lists = []
         for entry in infos:
@@ -2740,7 +2748,7 @@ def get_youtube_and_bilibili_video_format(id, stop_flag, video_format_lock, prep
         video_id_update_format[id]["quality"],
         video_id_update_format[id]["cookie"],
     )
-    if id_update_format == "\x1b[31m年龄限制\x1b[0m":
+    if "年龄限制" in id_update_format:
         if youtube_cookie:
             video_id_update_format[id]["cookie"] = "channel_data/yt_dlp_youtube.txt"
             id_update_format = media_format(
@@ -2750,7 +2758,7 @@ def get_youtube_and_bilibili_video_format(id, stop_flag, video_format_lock, prep
                 video_id_update_format[id]["quality"],
                 video_id_update_format[id]["cookie"],
             )
-            if id_update_format == "\x1b[31m年龄限制\x1b[0m":
+            if "年龄限制" in id_update_format:
                 id_update_format = "\x1b[31m年龄限制\x1b[0m(Cookies错误)"
         else:
             id_update_format = "\x1b[31m年龄限制\x1b[0m(需要Cookies)"
@@ -3671,7 +3679,7 @@ def make_up_file_format_mod():
             make_up_file_format[video_id]["quality"],
             make_up_file_format[video_id]["cookie"],
         )
-        if makeup_id_format == "\x1b[31m年龄限制\x1b[0m":
+        if  "年龄限制" in makeup_id_format:
             if youtube_cookie:
                 make_up_file_format[video_id]["cookie"] = "channel_data/yt_dlp_youtube.txt"
                 makeup_id_format = media_format(
@@ -3681,7 +3689,7 @@ def make_up_file_format_mod():
                     make_up_file_format[video_id]["quality"],
                     make_up_file_format[video_id]["cookie"],
                 )
-                if makeup_id_format == "\x1b[31m年龄限制\x1b[0m":
+                if  "年龄限制" in makeup_id_format:
                     makeup_id_format = "\x1b[31m年龄限制\x1b[0m(Cookies错误)"
             else:
                 makeup_id_format = "\x1b[31m年龄限制\x1b[0m(需要Cookies)"
@@ -3788,7 +3796,10 @@ channelid_bilibili_ids = get_channelid_id(channelid_bilibili, "bilibili")
 channelid_bilibili_ids_original = channelid_bilibili_ids.copy()
 
 # Bottle和Cherrypy初始化模块
-Shutdown_VALID_TOKEN = hashlib.sha256("shutdown".encode()).hexdigest()  # 用于服务器关闭的验证 Token
+Shutdown_VALID_TOKEN = "shutdown"
+Shutdown_VALID_TOKEN += datetime.now().strftime("%Y%m%d%H%M%S")
+Shutdown_VALID_TOKEN += os.urandom(32).hex()
+Shutdown_VALID_TOKEN = hashlib.sha256(Shutdown_VALID_TOKEN.encode()).hexdigest()  # 用于服务器关闭的验证 Token
 VALID_TOKEN = config["token"]  # 从配置中读取主验证 Token
 bottle_filename = config["filename"]  # 从配置中读取文件名
 server_process_print_flag = ["keep"]  # 控制是否持续输出日志
