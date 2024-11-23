@@ -35,7 +35,8 @@ def positive_int(value):
 parser = argparse.ArgumentParser(description="you can try: python Podflow.py -n 24 -d 3600")
 # 参数
 parser.add_argument("-n", "--times", nargs=1, type=positive_int, metavar="NUM", help="number of times")
-parser.add_argument("-d", "--delay", type=positive_int, default=1500, metavar="NUM", help="delay in seconds(default: 900)")
+parser.add_argument("-d", "--delay", type=positive_int, default=1500, metavar="NUM", help="delay in seconds(default: 1500)")
+parser.add_argument("-c", "--config", type=str, default="config.json", metavar='FILE_PATH', help="path to the config.json file")
 parser.add_argument("--shortcuts", nargs="*", type=str, metavar="URL", help="only shortcuts can be work")
 parser.add_argument("--file", nargs='?', help=argparse.SUPPRESS)
 parser.add_argument("--httpfs", action='store_true', help=argparse.SUPPRESS)
@@ -61,6 +62,8 @@ default_config = {
     "retry_count": 5,  # 媒体下载重试次数
     "url": "http://127.0.0.1",  # HTTP共享地址
     "port": 8000,  # HTTP共享端口
+    "port_in_url": True,  # HTTP共享地址是否包含端口
+    "httpfs": False, # HTTP共享日志
     "title": "Podflow",  #博客的名称
     "filename": "Podflow",  # 主XML的文件名称
     "link": "https://github.com/gruel-zxz/podflow",  # 博客主页
@@ -161,14 +164,14 @@ def file_save(content, file_name, folder=None):
             file.write(content)
 
 # 日志模块
-def write_log(log, suffix=None, display=True, time_display=True, only_log=None):
+def write_log(log, suffix=None, display=True, time_display=True, only_log=None, file_name="Podflow.log"):
     # 获取当前的具体时间
     current_time = datetime.now()
     # 格式化输出, 只保留年月日时分秒
     formatted_time = current_time.strftime("%Y-%m-%d %H:%M:%S")
     # 打开文件, 并读取原有内容
     try:
-        with open("Podflow.log", "r", encoding="utf-8") as file:
+        with open(file_name, "r", encoding="utf-8") as file:
             contents = file.read()
     except FileNotFoundError:
         contents = ""
@@ -177,7 +180,7 @@ def write_log(log, suffix=None, display=True, time_display=True, only_log=None):
     log_in = re.sub(r"\n", "", log_in)
     new_contents = f"{formatted_time} {log_in}{only_log}\n{contents}" if only_log else f"{formatted_time} {log_in}\n{contents}"
     # 将新的日志内容写入文件
-    file_save(new_contents, "Podflow.log")
+    file_save(new_contents, file_name)
     if display:
         formatted_time_mini = current_time.strftime("%H:%M:%S")
         log_print = f"{formatted_time_mini}|{log}" if time_display else f"{log}"
@@ -1163,25 +1166,28 @@ def list_merge_tidy(list1, list2=[], length=None):
     return final_list
 
 # 获取配置信息config模块
-def get_config():
-    # 检查当前文件夹中是否存在config.json文件
-    if not os.path.exists("config.json"):
-        # 如果文件不存在, 创建并写入默认字典
-        with open("config.json", "w") as file:
-            json.dump(default_config, file, indent=4)
-        write_log("不存在配置文件, 已新建, 默认频道")
-        config = default_config
-    else:
-        # 如果文件存在, 读取字典并保存到config变量中
-        try:
-            with open("config.json", "r", encoding="utf-8") as file:
-                config = json.load(file)
-            print(f"{datetime.now().strftime('%H:%M:%S')}|已读取配置文件")
-        # 如果config格式有问题, 停止运行并报错
-        except Exception as config_error:
-            write_log(f"配置文件有误, 请检查config.json, {str(config_error)}")
-            sys.exit(0)
-    return config
+def get_config(file_name="config.json"):
+    # 检查当前文件夹中是否存在config文件
+    if file_name != "config.json" and not os.path.exists(file_name):
+        if os.path.exists("config.json"):
+            write_log(f"不存在配置文件{file_name}, 将使用原始配置文件")
+            file_name = "config.json"
+        else:
+            # 如果文件不存在, 创建并写入默认字典
+            with open("config.json", "w") as file:
+                json.dump(default_config, file, indent=4)
+            write_log("不存在配置文件, 已新建, 默认频道")
+            return default_config
+    # 如果文件存在, 读取字典并保存到config变量中
+    try:
+        with open(file_name, "r", encoding="utf-8") as file:
+            config = json.load(file)
+        print(f"{datetime.now().strftime('%H:%M:%S')}|已读取配置文件")
+        return config
+    # 如果config格式有问题, 停止运行并报错
+    except Exception as config_error:
+        write_log(f"配置文件有误, 请检查{file_name}, {str(config_error)}")
+        sys.exit(0)
 
 # 纠正配置信息config模块
 def correct_config():
@@ -1222,8 +1228,21 @@ def correct_config():
         or config["port"] > 65535
     ):
         config["port"] = default_config["port"]
+    # 对port_in_url进行纠正
+    if "port_in_url" not in config or not isinstance(
+        config["port_in_url"], bool
+    ):
+        config["port_in_url"] = default_config["port_in_url"]
     # 合并地址和端口
-    config["address"] = f"{config['url']}:{config['port']}"
+    if config["port_in_url"]:
+        config["address"] = f"{config['url']}:{config['port']}"
+    else:
+        config["address"] = config['url']
+    # 对httpfs进行纠正
+    if "httpfs" not in config or not isinstance(
+        config["httpfs"], bool
+    ):
+        config["httpfs"] = default_config["httpfs"]
     # 对title进行纠正
     if "title" not in config:
         config["title"] = default_config["title"]
@@ -1644,7 +1663,7 @@ def bulid_Netscape_HTTP_Cookie(file_name, cookie={}):
 .youtube.com	TRUE	/	FALSE	0	PREF	{cookie.get("PREF", "")}
 .youtube.com	TRUE	/	TRUE	0	YSC	{cookie.get("YSC", "")}
 .youtube.com	TRUE	/	TRUE	0	VISITOR_INFO1_LIVE	{cookie.get("VISITOR_INFO1_LIVE", "")}
-.youtube.com	TRUE	/	TRUE	0	VISITOR_PRIVACY_METADATA	{cookie.get("VISITOR_PRIVACY_METADATA", "")}
+.youtube.com	TRUE	/	TRUE	0	VISITOR_PRIVACY_METADATA	{cookie.get("VISITOR_PRIVACY_METADATA", "")}'''
     else:
         cookie_jar = '''# Netscape HTTP Cookie File
 # This file is generated by yt-dlp.  Do not edit.'''
@@ -3767,7 +3786,7 @@ def del_makeup_yt_format_fail(overall_rss):
     return overall_rss
 
 # 获取配置文件config
-config = get_config()
+config = get_config(args.config)
 # 纠正配置信息config
 correct_config()
 # 从配置文件中获取YouTube的频道
@@ -3850,6 +3869,8 @@ def add_bottle_print(client_ip, filename, status):
     status = f"{color}{status}\033[0m"
     now_time = datetime.now().strftime('%H:%M:%S')
     client_ip = f"\033[34m{client_ip}\033[0m"
+    if config["httpfs"]:
+        write_log(f"{client_ip} {filename} {status}", None, False, True, None, "httpfs.log")
     for suffix in suffixs:
         filename = filename.replace(suffix, "")
     bottle_print.append(f"{now_time}|{client_ip} {filename} {status}")
@@ -3982,10 +4003,10 @@ if args.httpfs:  # HttpFS参数判断，是否继续运行
 while update_num > 0 or update_num == -1:  # 循环主更新
     # 暂停进程打印
     server_process_print_flag[0] = "pause"
-    # 更新哔哩哔哩data
-    channelid_bilibili_ids, bilibili_data = get_bilibili_data(channelid_bilibili_ids_original)
     # 获取YouTube cookie
     youtube_cookie = get_youtube_cookie()
+    # 更新哔哩哔哩data
+    channelid_bilibili_ids, bilibili_data = get_bilibili_data(channelid_bilibili_ids_original)
     # 恢复进程打印
     cherry_print()
     # 获取原始xml字典和rss文本

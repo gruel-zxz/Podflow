@@ -1,0 +1,135 @@
+{
+    "channelid_youtube": {
+        "youtube": {
+            "update_size": 25,
+            "id": "UCBR8-60-B28hp2BmDPdntcQ",
+            "title": "YouTube",
+            "quality": "480",
+            "last_size": 200,
+            "media": "mp4",
+            "QRcode": true
+        },
+        "stone记":{
+            "update_size": 25,
+            "id": "UCghLs6s95LrBWOdlZUCH4qw1",
+            "last_size": 10000,
+            "BackwardUpdate": true,
+            "BackwardUpdate_size": 2
+        },
+        "四季妈妈—小龙": {
+            "update_size": 25,
+            "id": "UC3elWG-AxVvIF2_xPQb1rkQ",
+            "title": "四季妈妈—小龙",
+            "last_size": 5,
+            "media": "m4a"
+        },
+        "老高與小茉": {
+            "update_size": 25,
+            "id": "UCMUnInmOkrWN4gof9KlhNmQ",
+            "title": "老高與小茉 Mr & Mrs Gao",
+            "last_size": 300,
+            "media": "m4a",
+            "BackwardUpdate": true,
+            "BackwardUpdate_size": 1
+        },
+        "幻海航行": {
+            "update_size": 25,
+            "id": "UCp1nO1bgVwks9b5EhKQGVag",
+            "last_size": 2000,
+            "BackwardUpdate": true,
+            "BackwardUpdate_size": 1
+        },
+        "绝密研究所": {
+            "update_size": 25,
+            "id": "UCXWy8yrS4WKhzbp36lW214w"
+        },
+        "stone pistol": {
+            "update_size": 25,
+            "id": "UCmOVUFkam162EJ48KfQaIyg"
+        },
+        "佬K奇谈": {
+            "update_size": 25,
+            "id": "UC85kpcAcVipOQQ7EEHbX55w"
+        },
+        "TenGuSan": {
+            "update_size": 25,
+            "id": "UC9RS8EzXdRJyYDkwtcsWOuA",
+            "media": "m4a",
+            "last_size": 300,
+            "BackwardUpdate": true,
+            "BackwardUpdate_size": 1
+        },
+        "测试": {
+            "update_size": 25,
+            "id": "UCXWy8yrS4WKhzbp36lW2141"
+        },
+        "王竹子的SM教学频道": {
+            "id": "UC-hTwjkGlNB5vyR6qccXr7A",
+            "update_size": 25
+        },
+        "BracedLife": {
+            "id": "UCjcqM5ojQOnQSo0-PbADPgQ",
+            "quality": "2160",
+            "media": "mp4",
+            "update_size": 8
+        },
+        "报姐唠唠": {
+            "id": "UCkTzvDA3PqDmleE5L7uTCtQ",
+            "NoShorts": true
+        }
+    },
+    "channelid_bilibili": {
+        "哔哩哔哩漫画": {
+            "update_size": 25,
+            "id": "326499679",
+            "title": "哔哩哔哩漫画",
+            "last_size": 500,
+            "media": "mp4",
+            "DisplayRSSaddress": false,
+            "QRcode": false
+        },
+        "测试": "21738912391",
+        "无无无无语森": {
+            "update_size": 25,
+            "id": "3393923",
+            "last_size": 500,
+            "BackwardUpdate": true,
+            "BackwardUpdate_size": 1
+        },
+        "鹿火CAVY": {
+            "id": "1839002753",
+            "update_size": 25,
+            "last_size": 200
+        },
+        "敖厂长": {
+            "id": "122879",
+            "quality": "1080",
+            "media": "mp4",
+            "update_size": 25,
+            "BackwardUpdate": false,
+            "BackwardUpdate_size": 1
+        },
+        "NOV姐姐": {
+            "id": "9448580",
+            "last_size": 500
+        },
+        "幻海航行": {
+            "update_size": 10,
+            "id": "193147738",
+            "last_size": 2000,
+            "BackwardUpdate": true,
+            "BackwardUpdate_size": 1
+        }
+    },
+    "retry_count": 2,
+    "link": "m.youtube.com",
+    "url": "https://b53p1tjw-5000.usw3.devtunnels.ms/",
+    "port": 5000,
+    "preparation_per_count": 30,
+    "token": "EUXi0eHK5ITSBU4RF4Ge3g7k9tflNo",
+    "completion_count": 10,
+    "icon": "https://avatars.githubusercontent.com/u/145938930",
+    "title": "gruel_zxz",
+    "port_in_url": false,
+    "httpfs": true
+}

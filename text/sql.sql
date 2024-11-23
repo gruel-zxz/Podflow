@@ -26,9 +26,12 @@ SELECT
     opposite_bank_id as '对方行号',
     opposite_bank_name as '对方行名',
     oppo_remark_inf as '对手备注信息',
-    oppo_src_sys as '对手来源系统'
-FROM MTS.HDS_DY90_TXN_OPPO
-WHERE pt_dt BETWEEN '2011-01-01' AND '2025-10-28'
-    AND TXN_DT BETWEEN '20120101' AND '20241028'
-    AND acctno IN ('0987654321', '1234567890')
+    oppo_src_sys as '对手来源系统',
+    ROW_NUMBER() OVER(PARTITION BY t.acctno ORDER BY t.txn_dt DESC, t.txn_time DESC) AS rn
+FROM MTC_VIEW.HDS_DY90_TXN_OPPO t
+WHERE t.pt_dt BETWEEN '2011-01-01' AND '2025-11-20'
+    AND t.TXN_DT BETWEEN '20120101' AND '20241120'
+    AND t.txn_cd <> '9786'
+    AND t.txn_cd <> '7997'
+    AND t.acctno IN ('0987654321', '1234567890')
 ORDER BY txn_dt, txn_time;
