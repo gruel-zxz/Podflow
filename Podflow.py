@@ -8,6 +8,7 @@ import html
 import json
 import math
 import time
+import shutil
 import hashlib
 import zipfile
 import argparse
@@ -1691,25 +1692,26 @@ def get_cookie_dict(file):
 # 获取YouTube cookie模块
 def get_youtube_cookie():
     youtube_cookie = get_cookie_dict("channel_data/yt_dlp_youtube.txt")
-    if youtube_cookie is None:
-        write_log("YouTube \033[31m获取cookie失败\033[0m")
-        return None
-    if response := http_client("https://www.youtube.com", "YouTube主页", 10, 4, True, youtube_cookie):
-        html_content = response.text
-        if "\"LOGGED_IN\":true" in html_content:
-            print(f"{datetime.now().strftime('%H:%M:%S')}|YouTube \033[32m获取cookie成功\033[0m")
-            return youtube_cookie
-        elif "\"LOGGED_IN\":false" in html_content:
-            print(f"{datetime.now().strftime('%H:%M:%S')}|登陆YouTube失败")
+    if channelid_youtube_ids:
+        if youtube_cookie is None:
             write_log("YouTube \033[31m获取cookie失败\033[0m")
             return None
+        if response := http_client("https://www.youtube.com", "YouTube主页", 10, 4, True, youtube_cookie):
+            html_content = response.text
+            if "\"LOGGED_IN\":true" in html_content:
+                print(f"{datetime.now().strftime('%H:%M:%S')}|YouTube \033[32m获取cookie成功\033[0m")
+                return youtube_cookie
+            elif "\"LOGGED_IN\":false" in html_content:
+                print(f"{datetime.now().strftime('%H:%M:%S')}|登陆YouTube失败")
+                write_log("YouTube \033[31m获取cookie失败\033[0m")
+                return None
+            else:
+                print(f"{datetime.now().strftime('%H:%M:%S')}|登陆YouTube无法判断")
+                write_log("YouTube \033[31m获取cookie失败\033[0m")
+                return None
         else:
-            print(f"{datetime.now().strftime('%H:%M:%S')}|登陆YouTube无法判断")
             write_log("YouTube \033[31m获取cookie失败\033[0m")
             return None
-    else:
-        write_log("YouTube \033[31m获取cookie失败\033[0m")
-        return None
 
 # 申请哔哩哔哩二维码并获取token和URL模块
 def bilibili_request_qr_code():
@@ -3621,6 +3623,13 @@ def remove_file():
 
 # 删除已抛弃的媒体文件夹模块
 def remove_dir():
+    def remove_path(name):
+        directory_path = f"channel_audiovisual/{name}"
+        # 检查目录是否存在
+        if os.path.exists(directory_path):
+            # 删除该目录及其内容
+            shutil.rmtree(directory_path)
+        write_log(f"{name}文件夹已删除")
     folder_names = [
         folder
         for folder in os.listdir("channel_audiovisual")
@@ -3629,13 +3638,11 @@ def remove_dir():
     folder_names_youtube = [name for name in folder_names if re.match(r"UC.{22}", name)]
     for name in folder_names_youtube:
         if name not in channelid_youtube_ids_original:
-            os.system(f"rm -r channel_audiovisual/{name}")
-            write_log(f"{name}文件夹已删除")
+            remove_path(name)
     folder_names_bilibili = [name for name in folder_names if re.match(r"[0-9]+", name)]
     for name in folder_names_bilibili:
         if name not in channelid_bilibili_ids_original:
-            os.system(f"rm -r channel_audiovisual/{name}")
-            write_log(f"{name}文件夹已删除")
+            remove_path(name)
 
 # 补全缺失媒体文件到字典模块
 def make_up_file():
