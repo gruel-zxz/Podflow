@@ -116,9 +116,10 @@
         "硬核资本论": {
             "id": "37950062",
             "InmainRSS": false,
-            "update_size": 10,
+            "last_size": 500,
+            "update_size": 55,
             "BackwardUpdate": true,
-            "BackwardUpdate_size": 1
+            "BackwardUpdate_size": 2
         }
     },
     "retry_count": 2,

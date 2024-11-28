@@ -105,7 +105,6 @@
             "id": "122879",
             "quality": "1080",
             "media": "mp4",
-            "update_size": 25,
             "BackwardUpdate": false,
             "BackwardUpdate_size": 1
         },
@@ -117,7 +116,7 @@
             "id": "37950062",
             "InmainRSS": false,
             "QRcode": true,
-            "update_size": 10,
+            "last_size": 500,
             "BackwardUpdate": true,
             "BackwardUpdate_size": 1
         }

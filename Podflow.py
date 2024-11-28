@@ -712,6 +712,7 @@ def media_format(video_website, video_url, media="m4a", quality="480", cookies=N
         r"This video may be deleted or geo-restricted. You might want to try a VPN or a proxy server (with --proxy)": ["\033[31m删除或受限\033[0m", "text"],
         r"Sign in to confirm your age. This video may be inappropriate for some users. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies": ["\033[31m年龄限制\033[0m", "text"],
         r"Sign in to confirm your age. This video may be inappropriate for some users.": ["\033[31m年龄限制\033[0m", "text"],
+        r"Failed to extract play info; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U": ["\033[31mInfo失败\033[0m", "text"],
     }
     def fail_message_initialize(fail_message, error_reason):
         for key, value in error_reason.items():
