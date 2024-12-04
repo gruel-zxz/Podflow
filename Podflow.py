@@ -243,7 +243,7 @@ try:
 except ImportError:
     try:
         subprocess.run(
-            ["pip", "install", "yt-dlp", "-U"], capture_output=True, text=True
+            ["pip", "install", "--pre", "yt-dlp", "-U"], capture_output=True, text=True
         )
         write_log("\033[31myt-dlp安装成功, 请重新运行\033[0m")
         exit_sys = True
@@ -342,64 +342,94 @@ def read_today_library_log():
     except Exception:
         return ""
 
+# 获取三方库版本号模块
+def get_version_num(library, version_type):
+    version_json = http_client(
+        f"https://pypi.org/pypi/{library}/json", f"{library}", 2, 2
+    )
+    if version_json:
+        version_json = version_json.json()
+        version_update = version_json["info"]["version"]
+        if version_type == "stable":
+            return version_update
+        elif version_type == "latest":
+            version_releases = version_json["releases"]
+            max_timestamp = 0.0
+            version_release = version_update
+            for releases_key, releases_value in version_releases.items():
+                upload_time = releases_value[0]["upload_time"]
+                # 转换为 datetime 对象
+                dt = datetime.fromisoformat(upload_time)
+                # 转换为 Unix 时间戳
+                timestamp = dt.timestamp()
+                if max_timestamp <= timestamp:
+                    version_release = releases_key
+                    max_timestamp = timestamp
+            return version_release
+        else:
+            return None
+    else:
+        return None
+
 # 安装库模块
-def library_install(library, library_install_dic=None):
-    if version := re.search(
-        r"(?<=Version\: ).+",
-        subprocess.run(["pip", "show", library], capture_output=True, text=True).stdout,
-    ):
+def library_install(library, version_type, library_install_dic=None):
+    def get_version(library):
+        if version := re.search(
+            r"(?<=Version\: ).+",
+            subprocess.run(["pip", "show", library], capture_output=True, text=True).stdout,
+        ):
+            return version.group()
+        else:
+            return None
+    if version := get_version(library):
         write_log(f"{library}已安装")
         if library in library_install_dic:
             version_update = library_install_dic[library]
         else:
             # 获取最新版本编号
-            version_update = http_client(
-                f"https://pypi.org/project/{library}/", f"{library}", 2, 2
-            )
-            if version_update:
-                version_update = re.search(
-                    r"(?<=<h1 class=\"package-header__name\">).+?(?=</h1>)",
-                    version_update.text,
-                    flags=re.DOTALL,
-                )
+            version_update = get_version_num(library, version_type)
         # 如果库已安装, 判断是否为最新
-        if version_update is None or version.group() not in version_update.group():
+        if version_update is None or version not in version_update:
             # 如果库已安装, 则尝试更新
+            if version_type == "latest":
+                pip_list = ["pip", "install", "--upgrade", "--pre", library]
+            else:
+                pip_list = ["pip", "install", "--upgrade", library]
             try:
-                subprocess.run(
-                    ["pip", "install", "--upgrade", library],
-                    capture_output=True,
-                    text=True,
-                )
-                write_log(f"{library}更新成功")
+                subprocess.run(pip_list, capture_output=True, text=True)
+                version = get_version(library)
+                write_log(f"{library}更新成功|版本：\033[32m{version}\033[0m")
             except FileNotFoundError:
                 write_log(f"{library}更新失败")
         else:
-            write_log(f"{library}无需更新|版本：\033[32m{version.group()}\033[0m")
+            write_log(f"{library}无需更新|版本：\033[32m{version}\033[0m")
     else:
         write_log(f"{library}未安装")
         # 如果库未安装, 则尝试安装
         try:
-            subprocess.run(
-                ["pip", "install", library, "-U"], capture_output=True, text=True
-            )
-            write_log(f"{library}安装成功")
+            if version_type == "latest":
+                pip_list = ["pip", "install", "--pre", library, "-U"]
+            else:
+                pip_list = ["pip", "install", library, "-U"]
+            subprocess.run(pip_list, capture_output=True, text=True)
+            version = get_version(library)
+            write_log(f"{library}安装成功|版本：\033[32m{version}\033[0m")
         except FileNotFoundError:
             write_log(f"{library}安装失败")
             sys.exit(0)
 
 # 安装/更新并加载三方库
-library_install_list = [
-    "astral",
-    "bottle",
-    "qrcode",
-    "yt-dlp",
-    "chardet",
-    "cherrypy",
-    "requests",
-    "pycryptodome",
-    "ffmpeg-python",
-    "BeautifulSoup4",
+library_install_lists = [
+    ["astral", "stable"],
+    ["bottle", "stable"],
+    ["qrcode", "stable"],
+    ["yt-dlp", "latest"],
+    ["chardet", "stable"],
+    ["cherrypy", "stable"],
+    ["requests", "stable"],
+    ["pycryptodome", "stable"],
+    ["ffmpeg-python", "stable"],
+    ["BeautifulSoup4", "stable"]
 ]
 
 library_import = False
@@ -421,35 +451,33 @@ while library_import is False:
         library_import = True
     except ImportError:
         today_library_log = ""
-    for library in library_install_list:
+    for library_list in library_install_lists:
+        library = library_list[0]
+        version_type = library_list[1]
         if library not in today_library_log:
             library_install_dic = {}
-            def library_install_get(library):
+            def library_install_get(library, version_type):
                 # 获取最新版本编号
-                version_update = http_client(
-                    f"https://pypi.org/project/{library}/", f"{library}", 2, 2
-                )
-                if version_update:
-                    version_update = re.search(
-                        r"(?<=<h1 class=\"package-header__name\">).+?(?=</h1>)",
-                        version_update.text,
-                        flags=re.DOTALL,
-                    )
+                version_update = get_version_num(library, version_type)
                 if version_update:
                     library_install_dic[library] = version_update
 
             # 创建线程列表
             library_install_get_threads = []
-            for library in library_install_list:
-                thread = threading.Thread(target=library_install_get, args=(library,))
+            for library_list in library_install_lists:
+                library = library_list[0]
+                version_type = library_list[1]
+                thread = threading.Thread(target=library_install_get, args=(library, version_type,))
                 library_install_get_threads.append(thread)
                 thread.start()
             # 等待所有线程完成
             for thread in library_install_get_threads:
                 thread.join()
             # 安装更新三方库
-            for library in library_install_list:
-                library_install(library, library_install_dic)
+            for library_list in library_install_lists:
+                library = library_list[0]
+                version_type = library_list[1]
+                library_install(library, version_type, library_install_dic)
                 today_library_log += f" {library}"
             break
 
@@ -713,6 +741,8 @@ def media_format(video_website, video_url, media="m4a", quality="480", cookies=N
         r"Sign in to confirm your age. This video may be inappropriate for some users. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies": ["\033[31m年龄限制\033[0m", "text"],
         r"Sign in to confirm your age. This video may be inappropriate for some users.": ["\033[31m年龄限制\033[0m", "text"],
         r"Failed to extract play info; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U": ["\033[31mInfo失败\033[0m", "text"],
+        r"This is a supporter-only video: 该视频为「专属视频」专属视频，开通「[0-9]+元档包月充电」即可观看\. Use --cookies-from-browser or --cookies for the authentication\. See  https://github\.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies": ["\033[31m充电专属\033[0m", "regexp"],
+        r"'.+' does not look like a Netscape format cookies file": ["\033[31mCookie错误\033[0m", "regexp"],
     }
     def fail_message_initialize(fail_message, error_reason):
         for key, value in error_reason.items():
@@ -2673,7 +2703,7 @@ def update_youtube_bilibili_rss():
 # 判断是否重试模块
 def want_retry(video_url, num=1):
     # 定义正则表达式模式（不区分大小写）
-    pattern = rf'\|{video_url}\|(试看|跳过更新|删除或受限|直播预约\|a few moments\.)'
+    pattern = rf'\|{video_url}\|(试看|跳过更新|删除或受限|充电专属|直播预约\|a few moments\.)'
     # 读取 Podflow.log 文件
     try:
         with open('Podflow.log', 'r', encoding='utf-8') as file:
