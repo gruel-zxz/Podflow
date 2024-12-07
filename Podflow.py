@@ -103,7 +103,7 @@ default_config = {
             "BackwardUpdate": False,
             "BackwardUpdate_size": 3,
             "want_retry_count": 8,
-            "AllPartGet": False,  # 是否获取频道全部媒体
+            "AllPartGet": False,  # 是否提前获取分P或互动视频(建议update_size大于5时使用, 如果该变量不存在时，默认update_size大于5时开启)
         },
     },
 }
@@ -447,7 +447,7 @@ while library_import is False:
         from Cryptodome.Hash import SHA256
         from Cryptodome.PublicKey import RSA
         from Cryptodome.Cipher import PKCS1_OAEP
-        from bottle import Bottle, run, static_file, abort, redirect, request
+        from bottle import Bottle, static_file, abort, redirect, request
         library_import = True
     except ImportError:
         today_library_log = ""
@@ -1623,7 +1623,10 @@ def correct_channelid(channelid, website):
                 if "AllPartGet" not in channeli_value or not isinstance(
                     channeli_value["AllPartGet"], bool
                 ):
-                    channelid[channelid_key]["AllPartGet"] = False
+                    if channelid[channelid_key]["update_size"] > 5:
+                        channelid[channelid_key]["AllPartGet"] = True
+                    else:
+                        channelid[channelid_key]["AllPartGet"] = False
             if website == "youtube":
                 # 对NoShorts进行纠正
                 if "NoShorts" not in channeli_value or not isinstance(
@@ -1978,7 +1981,11 @@ def get_html_dict(url, name, script_label):
                     data = json.loads(data_str)
                     return data
             except json.JSONDecodeError:
-                None
+                return None
+        else:
+            return None
+    else:
+        return None
 
 # 获取文件列表和分P列表
 def get_file_list(video_key, video_media="m4a", length=12):
@@ -2049,6 +2056,8 @@ def get_youtube_html_playlists(youtube_key, youtube_value, guids=[""], direction
     # 获取媒体相关信息模块
     def get_video_item(videoid, youtube_value):
         yt_Initial_Player_Response = get_html_dict(f"https://www.youtube.com/watch?v={videoid}", f"{youtube_value}|{videoid}", "ytInitialPlayerResponse")
+        if not yt_Initial_Player_Response:
+            return None
         try:
             player_Microformat_Renderer = yt_Initial_Player_Response["microformat"]["playerMicroformatRenderer"]
         except (KeyError, TypeError, IndexError, ValueError):
@@ -2065,7 +2074,11 @@ def get_youtube_html_playlists(youtube_key, youtube_value, guids=[""], direction
                 fail.remove(videoid)
             except (KeyError, TypeError, IndexError, ValueError):
                 pass
+        else:
+            return None
     yt_initial_data = get_html_dict(f"https://www.youtube.com/watch?v={videoid_start}&list=UULF{youtube_key[-22:]}", f"{youtube_value} HTML", "ytInitialData")
+    if not yt_initial_data:
+        return None
     try:
         playlists = yt_initial_data['contents']['twoColumnWatchNextResults']['playlist']['playlist']['contents']
         main_title = yt_initial_data['contents']['twoColumnWatchNextResults']['playlist']['playlist']["ownerName"]["simpleText"]
@@ -2282,66 +2295,21 @@ def youtube_rss_update(youtube_key, youtube_value, pattern_youtube_varys, patter
                 if youtube_content_ytid_backward:
                     youtube_content_ytid_backward_update[youtube_key] = youtube_content_ytid_backward  # 保存向后更新的ID
 
-# 获取bv所有的分P信息模块
-def get_bilibili_all_part(bvid, bilibili_value):
-    bvid_part = []
-    if bvid_response := http_client(
-        "https://api.bilibili.com/x/player/pagelist",
-        f"{bilibili_value}|{bvid}",
-        10,
-        4,
-        True,
-        None,
-        {"bvid": bvid}
-    ):
-        bvid_json = bvid_response.json()
-        bvid_data = bvid_json["data"]
-    else:
-        bvid_data =[]
-    if len(bvid_data) > 1:
-        for part in bvid_data:
-            bvid_part.append({
-                "cid": part["cid"],
-                "page": part["page"],
-                "part": part["part"],
-                "duration": part["duration"],
-                "dimension": part["dimension"],
-                "first_frame": part["first_frame"],
-            })
-    bvid_part.sort(key=lambda x: x["page"], reverse=True)
-    return bvid_part
-
-# 获取bv所有的互动视频信息模块
-def get_bilibili_interactive(bvid, bilibili_value):
-    bvid_part = []
-    bvid_cid = []
-    bvid_cid_choices = []
-    if pagelist_response :=http_client(
-        "https://api.bilibili.com/x/player/pagelist",
-        f"{bilibili_value}|{bvid}",
-        10,
-        4,
-        True,
-        None,
-        {"bvid": bvid, "jsonp": "jsonp"},
-    ):
-        pagelist = pagelist_response.json()
-        pagelist_cid = pagelist["data"][0]["cid"]
-        if playerwbi_response :=http_client(
-            "https://api.bilibili.com/x/player/wbi/v2",
-            f"{bilibili_value}|{bvid}",
-            10,
-            4,
-            True,
-            None,
-            {"cid": pagelist_cid, "bvid": bvid},
-        ):
-            playerwbi = playerwbi_response.json()
-            graph_version = playerwbi["data"]["interaction"]["graph_version"]
-        else: 
-            graph_version = ""
-    else: 
-        graph_version = ""
+# 获取bv的cid(包含分P或互动视频)模块
+def get_bilibili_cid(bvid, bilibili_value):
+    bvid_part = []  # 用于存储每个分P或互动视频的信息
+    bvid_cid = []   # 存储已经获取的cid
+    bvid_cid_choices = []  # 存储互动视频的选择
+    code_num = {
+        0: "成功",
+        -400: "请求错误",
+        -403: "权限不足",
+        -404: "无视频",
+        62002: "稿件不可见",
+        62004: "稿件审核中",
+        62012: "仅UP主自己可见",
+    }
+    # 获取互动视频信息模块
     def get_edge_info(bvid, bilibili_value, graph_version, edge_id):
         if edgeinfo_v2_response :=http_client(
             "https://api.bilibili.com/x/stein/edgeinfo_v2",
@@ -2354,6 +2322,7 @@ def get_bilibili_interactive(bvid, bilibili_value):
         ):
             edgeinfo_v2 = edgeinfo_v2_response.json()
             return edgeinfo_v2["data"]
+    # 获取选择项信息模块
     def get_choices(data):
         options = []
         options_cid = []
@@ -2370,40 +2339,96 @@ def get_bilibili_interactive(bvid, bilibili_value):
                             options.append(choice["option"])
                             options_cid.append(choice["cid"])
         return options, options_cid
-    if graph_version:
-        data_1 = get_edge_info(bvid, bilibili_value, graph_version, "1")
-        for story_list in data_1["story_list"]:
-            if story_list["edge_id"] == 1:
-                story_list_1 = story_list
-                break
-        options, options_cid = get_choices(data_1)
-        bvid_part.append({
-            "cid": story_list_1["cid"],
-            "title": data_1["title"],
-            "edge_id": story_list_1["edge_id"],
-            "first_frame": f"http://i0.hdslb.com/bfs/steins-gate/{story_list_1['cid']}_screenshot.jpg",
-            "options": options,
-            "options_cid": options_cid,
-            "num": 1,
-        })
-        bvid_cid.append(story_list_1["cid"])
-        while len(bvid_cid_choices) != 0:
-            if bvid_cid_choices[0]["cid"] not in bvid_cid:
-                data = get_edge_info(bvid, bilibili_value, graph_version, bvid_cid_choices[0]["edge_id"])
-                options, options_cid = get_choices(data)
+    # 获取剧情图id模块
+    def get_graph_version(bvid, bilibili_value, cid):
+        graph_version = ""
+        if playerwbi_response :=http_client(
+                "https://api.bilibili.com/x/player/wbi/v2",
+                f"{bilibili_value}|{bvid}",
+                10,
+                4,
+                True,
+                None,
+                {"cid": cid, "bvid": bvid},
+            ):
+                playerwbi = playerwbi_response.json()
+                playerwbi_data = playerwbi["data"]
+                if "interaction" in playerwbi_data:
+                    graph_version = playerwbi["data"]["interaction"]["graph_version"]
+        return graph_version
+    # 判断媒体类型
+    if interface_response := http_client(
+        "https://api.bilibili.com/x/web-interface/wbi/view",
+        f"{bilibili_value}|{bvid}",
+        10,
+        4,
+        True,
+        bilibili_data["cookie"],
+        {"bvid": bvid}
+    ):
+        interface_json = interface_response.json()
+        code = interface_json["code"]
+        if code != 0:
+            error = code_num[code]
+            return error ,"error", None
+        data = interface_json["data"]
+        upower = data["is_upower_exclusive"]
+        pages = data["pages"]
+        cid = data["cid"]
+        if len(pages) > 1:
+            for part in pages:
                 bvid_part.append({
-                    "cid": bvid_cid_choices[0]["cid"],
-                    "title": data["title"],
-                    "edge_id": bvid_cid_choices[0]["edge_id"],
-                    "first_frame": f"http://i0.hdslb.com/bfs/steins-gate/{bvid_cid_choices[0]['cid']}_screenshot.jpg",
+                    "cid": part["cid"],
+                    "page": part["page"],
+                    "part": part["part"],
+                    "duration": part["duration"],
+                    "dimension": part["dimension"],
+                    "first_frame": part["first_frame"],
+                })
+            bvid_part.sort(key=lambda x: x["page"], reverse=True)
+            return bvid_part, "part", upower
+        elif data["rights"]["is_stein_gate"]:
+            # 获取互动视频信息
+            if graph_version := get_graph_version(bvid, bilibili_value, cid):
+                data_1 = get_edge_info(bvid, bilibili_value, graph_version, "1")
+                for story_list in data_1["story_list"]:
+                    if story_list["edge_id"] == 1:
+                        story_list_1 = story_list
+                        break
+                options, options_cid = get_choices(data_1)
+                bvid_part.append({
+                    "cid": story_list_1["cid"],
+                    "title": data_1["title"],
+                    "edge_id": story_list_1["edge_id"],
+                    "first_frame": f"http://i0.hdslb.com/bfs/steins-gate/{story_list_1['cid']}_screenshot.jpg",
                     "options": options,
                     "options_cid": options_cid,
-                    "num": len(bvid_part) + 1
+                    "num": 1,
                 })
-                bvid_cid.append(bvid_cid_choices[0]["cid"])
-            del bvid_cid_choices[0]
-    bvid_part.sort(key=lambda x: x["num"], reverse=True)
-    return bvid_part
+                bvid_cid.append(story_list_1["cid"])
+                while len(bvid_cid_choices) != 0:
+                    if bvid_cid_choices[0]["cid"] not in bvid_cid:
+                        data = get_edge_info(bvid, bilibili_value, graph_version, bvid_cid_choices[0]["edge_id"])
+                        options, options_cid = get_choices(data)
+                        bvid_part.append({
+                            "cid": bvid_cid_choices[0]["cid"],
+                            "title": data["title"],
+                            "edge_id": bvid_cid_choices[0]["edge_id"],
+                            "first_frame": f"http://i0.hdslb.com/bfs/steins-gate/{bvid_cid_choices[0]['cid']}_screenshot.jpg",
+                            "options": options,
+                            "options_cid": options_cid,
+                            "num": len(bvid_part) + 1
+                        })
+                        bvid_cid.append(bvid_cid_choices[0]["cid"])
+                    del bvid_cid_choices[0]
+                bvid_part.sort(key=lambda x: x["num"], reverse=True)
+                return bvid_part, "edgeinfo", upower
+            else:
+                return None, None, None
+        else:
+            return cid ,"cid", upower
+    else:
+        return None, None, None
 
 # 查询哔哩哔哩用户投稿视频明细模块
 def get_bilibili_vlist(bilibili_key, bilibili_value, num=1, all_part_judgement=False):
@@ -2449,10 +2474,10 @@ def get_bilibili_vlist(bilibili_key, bilibili_value, num=1, all_part_judgement=F
                 pass
     if all_part_judgement and bilibili_list:
         def all_part(bvid):
-            if bvid_part := get_bilibili_all_part(bvid, bilibili_value):
-                bilibili_entry[bvid]["part"] = bvid_part
-            elif bvid_edgeinfo := get_bilibili_interactive(bvid, bilibili_value):
-                bilibili_entry[bvid]["edgeinfo"] = bvid_edgeinfo
+            bvid_cid, bvid_type, power = get_bilibili_cid(bvid, bilibili_value)
+            if bvid_type:
+                bilibili_entry[bvid][bvid_type] = bvid_cid
+                bilibili_entry[bvid]["power"] = power
         # 创建一个线程列表
         threads = []
         for bvid in bilibili_list:
@@ -2587,10 +2612,10 @@ def bilibili_rss_update(bilibili_key, bilibili_value):
                     if backward_list:
                         if channelid_bilibili[bilibili_value]["AllPartGet"]:  # 如果需要获取所有部分
                             def backward_all_part(guid):
-                                if guid_part := get_bilibili_all_part(guid, bilibili_value):  # 获取当前内容的全部部分
-                                    backward_entry[guid]["part"] = guid_part  # 更新条目
-                                elif guid_edgeinfos := get_bilibili_interactive(guid, bilibili_value):  # 获取交互信息
-                                    backward_entry[guid]["edgeinfo"] = guid_edgeinfos  # 更新边缘信息
+                                guid_cid, guid_type, power = get_bilibili_cid(guid, bilibili_value)
+                                if guid_type:
+                                    backward_entry[guid][guid_type] = guid_cid
+                                    backward_entry[guid]["power"] = power
                             # 创建一个线程列表
                             threads = []
                             for guid in backward_entry:
@@ -3433,14 +3458,24 @@ def bilibili_xml_items(output_dir):
         if guid in items_counts:
             guid_parts = []
             guid_edgeinfos = []
-            if "part" in item:
+            if "cid" in item:
+                pass
+            elif "part" in item:
                 guid_parts = item["part"]
             elif "edgeinfo" in item:
                 guid_edgeinfos = item["edgeinfo"]
+            elif "error" in item:
+                pass # 需要添加错误处理
             else:
-                guid_parts = get_bilibili_all_part(guid, channelid_bilibili_ids[output_dir])
-                if not guid_parts:
-                    guid_edgeinfos = get_bilibili_interactive(guid, channelid_bilibili_ids[output_dir])
+                guid_cid, guid_type, _ = get_bilibili_cid(guid, channelid_bilibili_ids[output_dir])
+                if guid_type == "cid":
+                    pass
+                elif guid_type == "part":
+                    guid_parts = guid_cid
+                elif guid_type == "edgeinfo":
+                    guid_edgeinfos = guid_cid
+                else:
+                    pass  # 需要添加错误处理
             if guid_parts and items_counts[guid] == len(guid_parts):
                 for guid_part in guid_parts:
                     guid_part_text = f"{item['title']} Part{guid_part['page']:0{len(str(len(guid_parts)))}}"

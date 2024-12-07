@@ -96,7 +96,6 @@
         },
         "测试": "21738912391",
         "无无无无语森": {
-            "update_size": 25,
             "id": "3393923",
             "last_size": 10000,
             "BackwardUpdate": true,
@@ -104,8 +103,8 @@
         },
         "鹿火CAVY": {
             "id": "1839002753",
-            "update_size": 25,
-            "last_size": 10000
+            "last_size": 10000,
+            "update_size": 250
         },
         "敖厂长": {
             "id": "122879",
@@ -130,7 +129,7 @@
     },
     "retry_count": 2,
     "link": "m.youtube.com",
-    "url": "https://2qrt7xxp-8080.usw3.devtunnels.ms/",
+    "url": "https://b53p1tjw-5000.usw3.devtunnels.ms/",
     "port": 8080,
     "preparation_per_count": 30,
     "token": "EUXi0eHK5ITSBU4RF4Ge3g7k9tflNo",
