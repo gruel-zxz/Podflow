@@ -197,7 +197,7 @@ def pip_cmd(command):
         "Version",
     ]
     commands = command.split()
-    for _ in range(16):
+    for _ in range(20):
         outport = subprocess.run(commands, capture_output=True, text=True).stdout
         if any(keyword in outport for keyword in keywords):
             return outport
