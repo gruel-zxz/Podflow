@@ -190,6 +190,7 @@ def write_log(log, suffix=None, display=True, time_display=True, only_log=None, 
 
 # CMD多次尝试模块
 def pip_cmd(command):
+    time.sleep(2)
     keywords = [
         "Requirement already satisfied",
         "Successfully installed",
