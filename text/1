@@ -23,5 +23,3 @@ tbr: 视频转码后的总比特率。
 format: 视频格式的说明文字和分辨率。
 
 {"alertRenderer":{"type":"ERROR","text":{"simpleText":
-
-https://dotnet.microsoft.com/en-us/download/dotnet/8.0
