@@ -190,14 +190,14 @@ def write_log(log, suffix=None, display=True, time_display=True, only_log=None, 
 
 # CMD多次尝试模块
 def pip_cmd(command):
-    time.sleep(3)
+    time.sleep(2)
     keywords = [
         "Requirement already satisfied",
         "Successfully installed",
         "Version",
     ]
     commands = command.split()
-    for _ in range(8):
+    for _ in range(16):
         outport = subprocess.run(commands, capture_output=True, text=True).stdout
         if any(keyword in outport for keyword in keywords):
             return outport
