@@ -188,6 +188,20 @@ def write_log(log, suffix=None, display=True, time_display=True, only_log=None, 
         log_print = f"{log_print}|{suffix}" if suffix else f"{log_print}"
         print(log_print)
 
+# CMD多次尝试模块
+def pip_cmd(command):
+    keywords = [
+        "Requirement already satisfied",
+        "Successfully installed",
+        "Version",
+    ]
+    commands = command.split()
+    for _ in range(5):
+        outport = subprocess.run(commands, capture_output=True, text=True).stdout
+        if any(keyword in outport for keyword in keywords):
+            return outport
+    return ""
+
 # 查看ffmpeg、requests、yt-dlp模块是否安装
 exit_sys = False  # 设置暂停运行变量
 
@@ -224,16 +238,10 @@ try:
     import requests
     # 如果导入成功你可以在这里使用requests库
 except ImportError:
-    try:
-        subprocess.run(
-            ["pip", "install", "chardet", "-U"], capture_output=True, text=True
-        )
-        subprocess.run(
-            ["pip", "install", "requests", "-U"], capture_output=True, text=True
-        )
+    if pip_cmd("pip install chardet -U") and pip_cmd("pip install requests -U"):
         write_log("\033[31mrequests安装成功, 请重新运行\033[0m")
         exit_sys = True
-    except FileNotFoundError:
+    else:
         write_log("\033[31mrequests安装失败请重试\033[0m")
         exit_sys = True
 
@@ -241,13 +249,10 @@ try:
     import yt_dlp
     # 如果导入成功你可以在这里使用requests库
 except ImportError:
-    try:
-        subprocess.run(
-            ["pip", "install", "--pre", "yt-dlp", "-U"], capture_output=True, text=True
-        )
+    if pip_cmd("pip install --pre yt-dlp -U"):
         write_log("\033[31myt-dlp安装成功, 请重新运行\033[0m")
         exit_sys = True
-    except FileNotFoundError:
+    else:
         write_log("\033[31myt-dlp安装失败请重试\033[0m")
         exit_sys = True
 
@@ -376,7 +381,7 @@ def library_install(library, version_type, library_install_dic=None):
     def get_version(library):
         if version := re.search(
             r"(?<=Version\: ).+",
-            subprocess.run(["pip", "show", library], capture_output=True, text=True).stdout,
+            pip_cmd(f"pip show {library}"),
         ):
             return version.group()
         else:
@@ -392,29 +397,27 @@ def library_install(library, version_type, library_install_dic=None):
         if version_update is None or version not in version_update:
             # 如果库已安装, 则尝试更新
             if version_type == "latest":
-                pip_list = ["pip", "install", "--upgrade", "--pre", library]
+                pip_list = f"pip install --upgrade --pre {library}"
             else:
-                pip_list = ["pip", "install", "--upgrade", library]
-            try:
-                subprocess.run(pip_list, capture_output=True, text=True)
+                pip_list = f"pip install --upgrade {library}"
+            if pip_cmd(pip_list):
                 version = get_version(library)
                 write_log(f"{library}更新成功|版本：\033[32m{version}\033[0m")
-            except FileNotFoundError:
+            else:
                 write_log(f"{library}更新失败")
         else:
             write_log(f"{library}无需更新|版本：\033[32m{version}\033[0m")
     else:
         write_log(f"{library}未安装")
         # 如果库未安装, 则尝试安装
-        try:
-            if version_type == "latest":
-                pip_list = ["pip", "install", "--pre", library, "-U"]
-            else:
-                pip_list = ["pip", "install", library, "-U"]
-            subprocess.run(pip_list, capture_output=True, text=True)
+        if version_type == "latest":
+            pip_list = f"pip install --pre {library} -U"
+        else:
+            pip_list = f"pip install {library} -U"
+        if pip_cmd(pip_list):
             version = get_version(library)
             write_log(f"{library}安装成功|版本：\033[32m{version}\033[0m")
-        except FileNotFoundError:
+        else:
             write_log(f"{library}安装失败")
             sys.exit(0)
 
@@ -461,7 +464,6 @@ while library_import is False:
                 version_update = get_version_num(library, version_type)
                 if version_update:
                     library_install_dic[library] = version_update
-
             # 创建线程列表
             library_install_get_threads = []
             for library_list in library_install_lists:
@@ -2281,10 +2283,11 @@ def youtube_rss_update(youtube_key, youtube_value, pattern_youtube_varys, patter
                     youtube_content_ytid_original
                 ):
                     break
-            backward_list = youtube_html_backward_playlists["list"]  # 获取向后更新的列表
-            for guid in backward_list.copy():
-                if guid in youtube_content_new:
-                    backward_list.remove(guid)  # 从列表中移除已更新的GUID
+            if youtube_html_backward_playlists:
+                backward_list = youtube_html_backward_playlists["list"]  # 获取向后更新的列表
+                for guid in backward_list.copy():
+                    if guid in youtube_content_new:
+                        backward_list.remove(guid)  # 从列表中移除已更新的GUID
             if youtube_html_backward_playlists and backward_list:
                 channelid_youtube_ids_update[youtube_key] = youtube_value  # 更新标识
                 channelid_youtube_rss[youtube_key].update({"backward": youtube_html_backward_playlists})  # 添加向后更新内容
@@ -2839,6 +2842,8 @@ def get_youtube_and_bilibili_video_format(id, stop_flag, video_format_lock, prep
                 id_update_format = "\x1b[31m年龄限制\x1b[0m(Cookies错误)"
         else:
             id_update_format = "\x1b[31m年龄限制\x1b[0m(需要Cookies)"
+    elif "试看" in id_update_format and video_id_update_format[id].get("power", "") is True:
+        id_update_format = "\x1b[31m充电专属\x1b[0m"
     if isinstance(id_update_format, list):
         if len(id_update_format) == 1:
             entry_id_update_format = id_update_format[0]
@@ -3447,6 +3452,7 @@ def youtube_xml_items(output_dir):
         "channel_rss",
     )
     return items
+
 
 # 生成哔哩哔哩对应channel的需更新的items模块
 def bilibili_xml_items(output_dir):
