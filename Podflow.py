@@ -38,6 +38,7 @@ parser = argparse.ArgumentParser(description="you can try: python Podflow.py -n 
 parser.add_argument("-n", "--times", nargs=1, type=positive_int, metavar="NUM", help="number of times")
 parser.add_argument("-d", "--delay", type=positive_int, default=1500, metavar="NUM", help="delay in seconds(default: 1500)")
 parser.add_argument("-c", "--config", type=str, default="config.json", metavar='FILE_PATH', help="path to the config.json file")
+parser.add_argument("-p", "--period", type=positive_int, metavar="NUM", default=1, help="Specify the update frequency (unit: times/day), default value is 1")
 parser.add_argument("--shortcuts", nargs="*", type=str, metavar="URL", help="only shortcuts can be work")
 parser.add_argument("--file", nargs='?', help=argparse.SUPPRESS)
 parser.add_argument("--httpfs", action='store_true', help=argparse.SUPPRESS)
@@ -190,18 +191,17 @@ def write_log(log, suffix=None, display=True, time_display=True, only_log=None, 
 
 # CMD多次尝试模块
 def pip_cmd(command):
-    time.sleep(2)
     keywords = [
         "Requirement already satisfied",
         "Successfully installed",
         "Version",
     ]
     commands = command.split()
-    for _ in range(20):
-        outport = subprocess.run(commands, capture_output=True, text=True).stdout
-        if any(keyword in outport for keyword in keywords):
-            return outport
-    return ""
+    outport = subprocess.run(commands, capture_output=True, text=True).stdout
+    if any(keyword in outport for keyword in keywords):
+        return outport
+    else:
+        return ""
 
 # 查看ffmpeg、requests、yt-dlp模块是否安装
 exit_sys = False  # 设置暂停运行变量
@@ -329,14 +329,14 @@ def vary_replace(varys, text):
     return text
 
 # 读取三方库当日日志模块
-def read_today_library_log():
+def read_today_library_log(day_num=1):
     try:
         # 打开文件进行读取
         with open("Podflow.log", "r", encoding="utf-8") as log_file:
             log_lines = log_file.readlines()  # 读取所有行
         today_log_lines = []
         for log_line in log_lines:
-            if f"{(datetime.now()- timedelta(days=1)).strftime('%Y-%m-%d')}" not in log_line:
+            if f"{(datetime.now()- timedelta(days=day_num)).strftime('%Y-%m-%d')}" not in log_line:
                 if "更新成功" in log_line or "安装成功" in log_line or "无需更新" in log_line:
                     today_log_lines.append(log_line)
             else:
@@ -437,7 +437,7 @@ library_install_lists = [
 ]
 
 library_import = False
-today_library_log = read_today_library_log()
+today_library_log = read_today_library_log(args.period)
 
 while library_import is False:
     try:
@@ -1034,7 +1034,7 @@ def dl_retry_video(
     video_id_count = 0
     while video_id_count < retry_count and video_id_failed:
         video_id_count += 1
-        write_log(f"{video_write_log}第\033[34m{video_id_count}\033[0m次重新下载")
+        write_log(f"{video_write_log} 第\033[34m{video_id_count}\033[0m次重新下载")
         video_id_failed = dl_full_video(
             video_url,
             output_dir,
@@ -2843,7 +2843,10 @@ def get_youtube_and_bilibili_video_format(id, stop_flag, video_format_lock, prep
                 id_update_format = "\x1b[31m年龄限制\x1b[0m(Cookies错误)"
         else:
             id_update_format = "\x1b[31m年龄限制\x1b[0m(需要Cookies)"
-    elif "试看" in id_update_format and video_id_update_format[id].get("power", "") is True:
+    if (
+        "试看" in id_update_format and 
+        channelid_bilibili_rss[video_id_update_format[id]["id"]]["content"]["entry"][id].get("power", "") is True
+    ):
         id_update_format = "\x1b[31m充电专属\x1b[0m"
     if isinstance(id_update_format, list):
         if len(id_update_format) == 1:
@@ -4077,7 +4080,7 @@ cherrypy.config.update({
 
 # 主流程
 cherrypy.engine.start()  # 启动 CherryPy 服务器
-print(f"{datetime.now().strftime('%H:%M:%S')}|HTTP服务器启动，端口：{config['port']}")
+print(f"{datetime.now().strftime('%H:%M:%S')}|HTTP服务器启动，端口：\033[32m{config['port']}\033[0m")
 if args.httpfs:  # HttpFS参数判断，是否继续运行
     cherrypy.engine.block()  # 阻止程序退出，保持HTTP服务运行
 while update_num > 0 or update_num == -1:  # 循环主更新
