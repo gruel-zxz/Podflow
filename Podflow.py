@@ -2622,7 +2622,7 @@ def bilibili_rss_update(bilibili_key, bilibili_value):
                                     backward_entry[guid]["power"] = power
                             # 创建一个线程列表
                             threads = []
-                            for guid in backward_entry:
+                            for guid in backward_list:
                                 thread = threading.Thread(target=backward_all_part, args=(guid,))  # 为每个条目创建线程
                                 threads.append(thread)  # 添加线程到列表
                                 thread.start()  # 启动线程
@@ -2843,10 +2843,7 @@ def get_youtube_and_bilibili_video_format(id, stop_flag, video_format_lock, prep
                 id_update_format = "\x1b[31m年龄限制\x1b[0m(Cookies错误)"
         else:
             id_update_format = "\x1b[31m年龄限制\x1b[0m(需要Cookies)"
-    if (
-        "试看" in id_update_format and 
-        channelid_bilibili_rss[video_id_update_format[id]["id"]]["content"]["entry"][id].get("power", "") is True
-    ):
+    if "试看" in id_update_format and video_id_update_format[id]["power"] is True:
         id_update_format = "\x1b[31m充电专属\x1b[0m"
     if isinstance(id_update_format, list):
         if len(id_update_format) == 1:
@@ -2940,6 +2937,7 @@ def get_video_format():
                         "name": channelid_youtube_ids[ytid_key],
                         "cookie": None,  # 特定视频需要
                         "backward_update": backward_update,
+                        "power" : None,
                     }
                     video_id_update_format[yt_id] = yt_id_format
                 else:
@@ -2963,6 +2961,10 @@ def get_video_format():
                 bv_id_quality = None
             for bv_id in bvid_value:
                 if want_retry(bv_id, bv_id_failed_count):
+                    if backward_update:
+                        power = channelid_bilibili_rss[bvid_key]["backward"]["entry"][bv_id].get("power", None)
+                    else:
+                        power = channelid_bilibili_rss[bvid_key]["content"]["entry"][bv_id].get("power", None)
                     bv_id_format = {
                         "id": bvid_key,
                         "media": bv_id_file,
@@ -2971,6 +2973,7 @@ def get_video_format():
                         "name": channelid_bilibili_ids[bvid_key],
                         "cookie": "channel_data/yt_dlp_bilibili.txt",
                         "backward_update": backward_update,
+                        "power": power,
                     }
                     video_id_update_format[bv_id] = bv_id_format
                 else:
@@ -3177,12 +3180,30 @@ def youtube_xml_item(entry):
     )
 
 # 生成原有的item模块
-def xml_original_item(original_item):
+def xml_original_item(original_item, channelid_title, change_judgment=False):
+    def description_change(text, sep, title, channelid_title):
+        channelid_title = html.escape(channelid_title)
+        if sep in text:
+            text_one, text_two = text.split(sep, 1)
+            if text_one[0] == "『" and text_one[-1] == "』":
+                text = text_two
+        elif text:
+            if text[0] == "『" and text[-1] == "』":
+                text = ""
+        if channelid_title not in title:
+            if text == "":
+                text = f"『{channelid_title}』{text}"
+            else:
+                text = f"『{channelid_title}』{sep}{text}".replace('\x00', '')
+        return text
     guid = re.search(r"(?<=<guid>).+(?=</guid>)", original_item).group()
     title = re.search(r"(?<=<title>).+(?=</title>)", original_item).group()
+    title = title.replace('\x00', '')
     link = re.search(r"(?<=<link>).+(?=</link>)", original_item).group()
     description = re.search(r"(?<=<description>).+(?=</description>)", original_item)
     description = description.group() if description else ""
+    if change_judgment:
+        description = description_change(description, "&#xA;", title, channelid_title)
     pubDate = re.search(r"(?<=<pubDate>).+(?=</pubDate>)", original_item).group()
     url = re.search(r"(?<=<enclosure url\=\").+?(?=\")", original_item).group()
     url = re.search(r"(?<=/channel_audiovisual/).+/.+\.(m4a|mp4)", url).group()
@@ -3210,6 +3231,8 @@ def xml_original_item(original_item):
         flags=re.DOTALL,
     )
     itunes_summary = itunes_summary.group() if itunes_summary else ""
+    if change_judgment:
+        itunes_summary = description_change(itunes_summary, "\n", title, channelid_title)
     itunes_image = re.search(
         r"(?<=<itunes:image href\=\").+(?=\"></itunes:image>)", original_item
     )
@@ -3347,9 +3370,10 @@ def get_youtube_introduction():
 def youtube_xml_items(output_dir):
     items_list = [f"<!-- {output_dir} -->"]
     entry_num = 0
-    def get_xml_item(guid, item):
+    original_judgment = True
+    channelid_title = channelid_youtube[channelid_youtube_ids[output_dir]]["title"]
+    def get_xml_item(guid, item, channelid_title):
         video_website = f"https://youtube.com/watch?v={guid}"
-        channelid_title = channelid_youtube[channelid_youtube_ids[output_dir]]["title"]
         if item["yt-dlp"]:
             title = html.escape(video_id_update_format[guid]["title"])
             description = html.escape(re.sub(r"\n+", "\n", video_id_update_format[guid]["description"]))
@@ -3377,9 +3401,11 @@ def youtube_xml_items(output_dir):
         for guid in channelid_youtube_rss[output_dir]["content"]["list"]:
             if guid not in video_id_failed:
                 item = channelid_youtube_rss[output_dir]["content"]["item"][guid]
-                xml_item_text = get_xml_item(guid, item)
+                xml_item_text = get_xml_item(guid, item, channelid_title)
                 items_list.append(f"{xml_item_text}<!-- {output_dir} -->")
                 entry_num += 1
+                if video_id_update_format[guid]["description"] and video_id_update_format[guid]["description"][0] == "『":
+                    original_judgment = False
     else:
         if channelid_youtube_rss[output_dir]["type"] == "html":  # 获取最新的rss信息
             file_xml = channelid_youtube_rss[output_dir]["content"].text
@@ -3393,6 +3419,8 @@ def youtube_xml_items(output_dir):
             ):
                 items_list.append(f"{youtube_xml_item(entry)}<!-- {output_dir} -->")
                 entry_num += 1
+                if re.search(r"(?<=<media:description>)『", entry):
+                    original_judgment = False
             if (
                 entry_num
                 >= channelid_youtube[channelid_youtube_ids[output_dir]]["update_size"]
@@ -3408,7 +3436,7 @@ def youtube_xml_items(output_dir):
         for xml in xmls_original[output_dir].split(f"<!-- {output_dir} -->"):
             xml_guid = re.search(r"(?<=<guid>).+(?=</guid>)", xml)
             if xml_guid and xml_guid.group() not in items_guid and xml_guid.group() not in video_id_failed:
-                items_list.append(f"{xml_original_item(xml)}<!-- {output_dir} -->")
+                items_list.append(f"{xml_original_item(xml, channelid_title, original_judgment)}<!-- {output_dir} -->")
                 xml_num += 1
             if xml_num >= entry_count:
                 break
@@ -3418,7 +3446,7 @@ def youtube_xml_items(output_dir):
         for backward_guid in backward["list"]:
             if backward_guid not in video_id_failed:
                 backward_item = backward["item"][backward_guid]
-                backward_xml_item_text = get_xml_item(backward_guid, backward_item)
+                backward_xml_item_text = get_xml_item(backward_guid, backward_item, channelid_title)
                 items_list.append(f"{backward_xml_item_text}<!-- {output_dir} -->")
     except KeyError:
         pass
@@ -3463,7 +3491,9 @@ def bilibili_xml_items(output_dir):
     content_id, items_counts = get_file_list(output_dir, channelid_bilibili[channelid_bilibili_ids[output_dir]]["media"])
     items_list = [f"<!-- {output_dir} -->"]
     entry_num = 0
-    def get_items_list(guid, item):
+    original_judgment = True
+    channelid_title = channelid_bilibili[channelid_bilibili_ids[output_dir]]["title"]
+    def get_items_list(guid, item, channelid_title):
         pubDate = datetime.fromtimestamp(item["created"], timezone.utc).strftime("%Y-%m-%dT%H:%M:%S%z")
         if guid in items_counts:
             guid_parts = []
@@ -3495,7 +3525,7 @@ def bilibili_xml_items(output_dir):
                         f"{item['bvid']}_p{guid_part['page']}",
                         output_dir,
                         f"https://www.bilibili.com/video/{guid}?p={guid_part['page']}",
-                        channelid_bilibili[channelid_bilibili_ids[output_dir]]["title"],
+                        channelid_title,
                         html.escape(guid_part_text),
                         html.escape(re.sub(r"\n+", "\n", item["description"])),
                         format_time(pubDate),
@@ -3523,7 +3553,7 @@ def bilibili_xml_items(output_dir):
                         f"{item['bvid']}_{guid_edgeinfo['cid']}",
                         output_dir,
                         f"https://www.bilibili.com/video/{guid}",
-                        channelid_bilibili[channelid_bilibili_ids[output_dir]]["title"],
+                        channelid_title,
                         html.escape(guid_edgeinfo_text),
                         html.escape(re.sub(r"\n+", "\n", description)),
                         format_time(pubDate),
@@ -3535,7 +3565,7 @@ def bilibili_xml_items(output_dir):
                 item["bvid"],
                 output_dir,
                 f"https://www.bilibili.com/video/{guid}",
-                channelid_bilibili[channelid_bilibili_ids[output_dir]]["title"],
+                channelid_title,
                 html.escape(item["title"]),
                 html.escape(re.sub(r"\n+", "\n", item["description"])),
                 format_time(pubDate),
@@ -3546,7 +3576,9 @@ def bilibili_xml_items(output_dir):
     for guid in channelid_bilibili_rss[output_dir]["content"]["list"]:
         if guid not in video_id_failed and guid in content_id:
             item = channelid_bilibili_rss[output_dir]["content"]["entry"][guid]
-            get_items_list(guid, item)
+            get_items_list(guid, item, channelid_title)
+            if item["description"] and item["description"][0] == "『":
+                original_judgment = False
             entry_num += 1
             if (
                 entry_num
@@ -3563,7 +3595,7 @@ def bilibili_xml_items(output_dir):
         for xml in xmls_original[output_dir].split(f"<!-- {output_dir} -->"):
             xml_guid = re.search(r"(?<=<guid>).+(?=</guid>)", xml)
             if xml_guid and xml_guid.group() not in items_guid and xml_guid.group() not in video_id_failed:
-                items_list.append(f"{xml_original_item(xml)}<!-- {output_dir} -->")
+                items_list.append(f"{xml_original_item(xml, channelid_title, original_judgment)}<!-- {output_dir} -->")
                 xml_num += 1
             if xml_num >= entry_count:
                 break
@@ -3573,7 +3605,7 @@ def bilibili_xml_items(output_dir):
         for backward_guid in backward["list"]:
             if backward_guid not in video_id_failed and backward_guid in content_id:
                 backward_item = backward["entry"][backward_guid]
-                get_items_list(backward_guid, backward_item)
+                get_items_list(backward_guid, backward_item, channelid_title)
     except KeyError:
         pass
     # 生成对应xml
