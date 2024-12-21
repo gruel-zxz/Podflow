@@ -1131,28 +1131,21 @@ def dl_aideo_video(
             print(
                 f"{datetime.now().strftime('%H:%M:%S')}|\033[34m开始合成...\033[0m", end=""
             )
-            # 构建FFmpeg命令
-            ffmpeg_cmd = [
-                "ffmpeg",
-                "-v",
-                "error",
-                "-i",
-                f"channel_audiovisual/{output_dir}/{video_url}.part.mp4",
-                "-i",
-                f"channel_audiovisual/{output_dir}/{video_url}.part.m4a",
-                "-c:v",
-                "copy",
-                "-c:a",
-                "copy",
-                f"channel_audiovisual/{output_dir}/{video_url}.mp4",
-            ]
-            # 执行FFmpeg命令
+            # 指定视频文件和音频文件的路径
+            video_file = f"channel_audiovisual/{output_dir}/{video_url}.part.mp4"
+            audio_file = f"channel_audiovisual/{output_dir}/{video_url}.part.m4a"
+            output_file = f"channel_audiovisual/{output_dir}/{video_url}.mp4"
             try:
-                subprocess.run(ffmpeg_cmd, check=True, capture_output=True, text=True)
+                # 使用 ffmpeg-python 合并视频和音频
+                video = ffmpeg.input(video_file)
+                audio = ffmpeg.input(audio_file)
+                stream = ffmpeg.output(audio, video, output_file, vcodec='copy', acodec='copy')
+                ffmpeg.run(stream)
                 print(" \033[32m合成成功\033[0m")
+                # 删除临时文件
                 os.remove(f"channel_audiovisual/{output_dir}/{video_url}.part.mp4")
                 os.remove(f"channel_audiovisual/{output_dir}/{video_url}.part.m4a")
-            except subprocess.CalledProcessError as dl_aideo_video_error:
+            except ffmpeg.Error as dl_aideo_video_error:
                 video_id_failed = video_url
                 write_log(f"\n{video_write_log} \033[31m下载失败\033[0m\n错误信息: 合成失败:{dl_aideo_video_error}")
     if video_id_failed is None:
@@ -1948,16 +1941,16 @@ def WBI_signature(params={}, img_key="", sub_key=""):
         '为请求参数进行 wbi 签名'
         mixin_key = getMixinKey(img_key + sub_key)
         curr_time = round(time.time())
-        params['wts'] = curr_time                                   # 添加 wts 字段
-        params = dict(sorted(params.items()))                       # 按照 key 重排参数
+        params['wts'] = curr_time  # 添加 wts 字段
+        params = dict(sorted(params.items()))  # 按照 key 重排参数
         # 过滤 value 中的 "!'()*" 字符
         params = {
             k: ''.join(filter(lambda chr: chr not in "!'()*", str(v)))
             for k, v 
             in params.items()
         }
-        query = urllib.parse.urlencode(params)                      # 序列化参数
-        wbi_sign = md5((query + mixin_key).encode()).hexdigest()    # 计算 w_rid
+        query = urllib.parse.urlencode(params)  # 序列化参数
+        wbi_sign = md5((query + mixin_key).encode()).hexdigest()  # 计算 w_rid
         params['w_rid'] = wbi_sign
         return params
     return encWbi(
@@ -3938,7 +3931,7 @@ VALID_TOKEN = config["token"]  # 从配置中读取主验证 Token
 bottle_filename = config["filename"]  # 从配置中读取文件名
 server_process_print_flag = ["keep"]  # 控制是否持续输出日志
 
-app = Bottle()  # 创建 Bottle 应用
+app_bottle = Bottle()  # 创建 Bottle 应用
 
 # 定义要共享的文件路径
 shared_files = {
@@ -3999,7 +3992,7 @@ def cherry_print(flag_judgment=True):
         bottle_print.clear()
 
 # 主路由，处理根路径请求
-@app.route('/')
+@app_bottle.route('/')
 def home():
     # 输出请求日志的函数
     def print_out(status):
@@ -4019,7 +4012,7 @@ def home():
         abort(401, "Unauthorized: Invalid Token")  # 返回未经授权错误
 
 # 路由，处理关闭服务器的请求
-@app.route('/shutdown')
+@app_bottle.route('/shutdown')
 def shutdown():
     # 输出关闭请求日志的函数
     def print_out(status):
@@ -4040,7 +4033,7 @@ def shutdown():
         abort(401, "Unauthorized: Invalid Token")  # 返回未经授权错误
 
 # 路由，处理 favicon 请求
-@app.route('/favicon.ico')
+@app_bottle.route('/favicon.ico')
 def favicon():
     client_ip = request.remote_addr
     client_port = request.environ.get('REMOTE_PORT')
@@ -4051,7 +4044,7 @@ def favicon():
     return redirect('https://raw.githubusercontent.com/gruel-zxz/podflow/main/Podflow.png')  # 重定向到图标 URL
 
 # 路由，处理静态文件请求
-@app.route('/<filename:path>')
+@app_bottle.route('/<filename:path>')
 def serve_static(filename):
     token = request.query.get('token')  # 获取请求中的 Token
 
@@ -4098,7 +4091,7 @@ def serve_static(filename):
         abort(404, "File not found")
 
 # 启动 CherryPy 服务器
-cherrypy.tree.graft(app)  # 将 Bottle 应用嵌入到 CherryPy 中
+cherrypy.tree.graft(app_bottle)  # 将 Bottle 应用嵌入到 CherryPy 中
 cherrypy.config.update({
     'global': {
         'tools.sessions.on': True,  # 启用会话支持
