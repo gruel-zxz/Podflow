@@ -3,6 +3,7 @@
 
 import argparse
 from datetime import datetime
+from Podflow.ffmpeg_judge import ffmpeg_judge
 
 
 # 获取命令行参数并判断
@@ -54,7 +55,7 @@ parse_app = Application()
 def main():
     parse_app.parse_arguments()
     print(f"{datetime.now().strftime('%H:%M:%S')}|Podflow开始运行.....")
-
+    ffmpeg_judge()
 
 if __name__ == "__main__":
     main()

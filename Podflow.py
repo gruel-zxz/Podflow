@@ -9,6 +9,7 @@ import json
 import math
 import time
 import shutil
+import fnmatch
 import hashlib
 import zipfile
 import argparse
@@ -72,7 +73,8 @@ default_config = {
     "description": "在iOS平台上借助workflow和a-shell搭建专属的播客服务器。",  # 博客信息
     "icon": "https://raw.githubusercontent.com/gruel-zxz/podflow/main/Podflow.png",  # 博客图标
     "category": "TV &amp; Film",  # 博客类型
-    "token": None,  # token认证，如为null或""将不启用token
+    "token": "",  # token认证, 如为null或""将不启用token
+    "delete_incompletement": False,  # 是否删除下载中断媒体(下载前处理流程)
     "channelid_youtube": {
         "youtube": {
             "update_size": 15,  # 每次获取频道媒体数量
@@ -87,6 +89,11 @@ default_config = {
             "BackwardUpdate": False,  # 是否向后更新
             "BackwardUpdate_size": 3,  # 向后更新数量(仅在BackwardUpdate为True时有效)
             "want_retry_count": 8,  # 媒体获取失败后多少次后重试(小于等于该数量时将一直重试)
+            "title_change": {  # 标题文本修改(默认为无, 只对更新的媒体有效)
+                "mode": "add-left",  # 修改模式(add-left: 开头添加, add-right: 结尾添加, replace: 内容替换)
+                "match": "",  # 需要匹配的规则(为正则表达式)
+                "text": "",  # 需要替换或添加的文本
+            },
             "NoShorts": False,  # 是否不下载Shorts媒体
         },
     },
@@ -104,7 +111,12 @@ default_config = {
             "BackwardUpdate": False,
             "BackwardUpdate_size": 3,
             "want_retry_count": 8,
-            "AllPartGet": False,  # 是否提前获取分P或互动视频(建议update_size大于5时使用, 如果该变量不存在时，默认update_size大于5时开启)
+            "title_change": {
+                "mode": "add-left",
+                "match": "",
+                "text": "",
+            },
+            "AllPartGet": False,  # 是否提前获取分P或互动视频(建议update_size大于5时使用, 如果该变量不存在时, 默认update_size大于5时开启)
         },
     },
 }
@@ -558,6 +570,19 @@ def convert_bytes(byte_size, units=None, outweigh=1024):
         unit_index += 1
     # 格式化结果并返回
     return f"{byte_size:.2f}{units[unit_index]}"
+
+# 删除下载失败媒体模块
+def delete_part_files_in_directory(channelid_ids):
+    relative_path = "channel_audiovisual"
+    parent_folder_path = os.path.abspath(relative_path)
+    for root, dirnames, filenames in os.walk(parent_folder_path):
+        for filename in fnmatch.filter(filenames, '*.part'):
+            file_path = os.path.join(root, filename)
+            os.remove(file_path)
+            ids = root.split('\\')[-1]
+            if ids in channelid_ids:
+                ids = channelid_ids[ids]
+            write_log(f"{ids}|{filename}已删除")
 
 # 网址二维码模块
 def qr_code(data):
@@ -1303,6 +1328,11 @@ def correct_config():
         config["token"] = ""
     else:
         config["token"] = str(config["token"])
+    # 对delete_incompletement进行纠正
+    if "delete_incompletement" not in config or not isinstance(
+        config["delete_incompletement"], bool
+    ):
+        config["delete_incompletement"] = default_config["delete_incompletement"]
 
 # 获取日出日落并判断昼夜模块
 def http_day_and_night(latitude, longitude):
@@ -1321,7 +1351,7 @@ def http_day_and_night(latitude, longitude):
         sunset = time_dict['sunset']
     except KeyError:
         return None
-    # 获取当前时间，并去除时区
+    # 获取当前时间, 并去除时区
     now = datetime.now()
     # 将日出和日落时间转换为datetime对象
     today = now.date()
@@ -1360,16 +1390,16 @@ def http_day_and_night(latitude, longitude):
 
 # 根据经纬度判断昼夜模块
 def judging_day_and_night(latitude, longitude):
-    # 创建一个 LocationInfo 对象，只提供经纬度信息
+    # 创建一个 LocationInfo 对象, 只提供经纬度信息
     location = LocationInfo("", "", "", latitude=latitude, longitude=longitude)
-    # 获取当前日期和时间，并为其添加时区信息
+    # 获取当前日期和时间, 并为其添加时区信息
     now = datetime.now(timezone.utc)
     yesterday = now - timedelta(days=1)
     tommorrow = now + timedelta(days=1)
     def sunrise_sunset(time):
         # 创建一个 Sun 对象
         sun_time = sun(location.observer, date=time)
-        # 计算日出和日落时间，以及日落前和日出后的一小时
+        # 计算日出和日落时间, 以及日落前和日出后的一小时
         sunrise = sun_time["sunrise"]
         sunset = sun_time["sunset"]
         sunrise_minus_one_hour = sunrise  # - timedelta(hours=1)
@@ -1437,7 +1467,7 @@ def channge_icon():
         if label:
             picture_name = http_day_and_night(latitude, longitude)
             if not picture_name:
-                write_log("获取日出日落失败，将计算昼夜")
+                write_log("获取日出日落失败, 将计算昼夜")
                 picture_name = judging_day_and_night(latitude, longitude)
             config["icon"] = f"https://raw.githubusercontent.com/gruel-zxz/podflow/main/Podflow_{picture_name}.png"
 
@@ -1457,6 +1487,13 @@ def get_channelid(name):
 
 # channelid修正模块
 def correct_channelid(channelid, website):
+    # 判断正则表达式是否正确
+    def is_valid_regex(pattern):
+        try:
+            re.compile(pattern)
+            return True  # 如果能编译，返回 True
+        except re.error:
+            return False  # 如果抛出异常，返回 False
     channelid_name = ""
     output_name = ""
     if website == "youtube":
@@ -1614,6 +1651,16 @@ def correct_channelid(channelid, website):
                 channelid[channelid_key]["want_retry_count"] = default_config[
                     f"channelid_{website}"
                 ][channelid_name]["want_retry_count"]
+            # 对title_change进行纠正
+            if "title_change" in channeli_value and (
+                not isinstance(channeli_value["title_change"], dict)
+                or "mode" not in channeli_value["title_change"]
+                or "match" not in channeli_value["title_change"]
+                or "text" not in channeli_value["title_change"]
+                or channeli_value["title_change"]["mode"] not in ["add-left", "add-right", "replace"]
+                or  not is_valid_regex(channeli_value["title_change"]["match"])
+            ):
+                del channelid[channelid_key]["title_change"]
             if website == "bilibili":
                 # 对AllPartGet进行纠正
                 if "AllPartGet" not in channeli_value or not isinstance(
@@ -2160,10 +2207,10 @@ def youtube_rss_update(youtube_key, youtube_value, pattern_youtube_varys, patter
     youtube_media = (
         ("m4a", "mp4")  # 根据 channelid_youtube 的媒体类型选择文件格式
         if channelid_youtube[youtube_value]["media"] == "m4a"
-        else ("mp4",)  # 如果不是 m4a，则只选择 mp4
+        else ("mp4",)  # 如果不是 m4a, 则只选择 mp4
     )
     try:
-        # 遍历指定目录下的所有文件，筛选出以 youtube_media 结尾的文件
+        # 遍历指定目录下的所有文件, 筛选出以 youtube_media 结尾的文件
         youtube_content_ytid_original = [
             os.path.splitext(file)[0]  # 获取文件名（不包括扩展名）
             for file in os.listdir(
@@ -2172,14 +2219,14 @@ def youtube_rss_update(youtube_key, youtube_value, pattern_youtube_varys, patter
             if file.endswith(youtube_media)  # 筛选文件
         ]
     except Exception:
-        # 如果发生异常，设置为空列表
+        # 如果发生异常, 设置为空列表
         youtube_content_ytid_original = []
     try:
         # 获取原始XML中的内容
         original_item = xmls_original[youtube_key]
         guids = re.findall(r"(?<=<guid>).+(?=</guid>)", original_item)  # 查找所有guid
     except KeyError:
-        # 如果没有找到对应的key，则guids为空
+        # 如果没有找到对应的key, 则guids为空
         guids = []
     # 构建 URL
     youtube_url = f"https://www.youtube.com/feeds/videos.xml?channel_id={youtube_key}"
@@ -2197,7 +2244,7 @@ def youtube_rss_update(youtube_key, youtube_value, pattern_youtube_varys, patter
                     youtube_response = youtube_channel_response
                     break
             if not pattern_youtube_error_mark:
-                # 检查响应是否有效，最多重试3次
+                # 检查响应是否有效, 最多重试3次
                 for _ in range(3):
                     if youtube_html_playlists := get_youtube_html_playlists(
                         youtube_key,
@@ -2232,7 +2279,7 @@ def youtube_rss_update(youtube_key, youtube_value, pattern_youtube_varys, patter
         youtube_content_ytid = youtube_html_playlists["list"]  # 获取视频ID列表
     else:
         if youtube_response is not None:
-            # 如果没有新的播放列表，但响应有效
+            # 如果没有新的播放列表, 但响应有效
             channelid_youtube_rss[youtube_key] = {"content": youtube_response, "type": "html"}
             youtube_content = youtube_response.text  # 获取响应内容
             if not youtube_channel_response:
@@ -2240,7 +2287,7 @@ def youtube_rss_update(youtube_key, youtube_value, pattern_youtube_varys, patter
                 if youtube_content_clean != youtube_content_original_clean and youtube_response:  # 判断是否要更新
                     channelid_youtube_ids_update[youtube_key] = youtube_value  # 更新标识
         else:
-            # 如果没有响应，使用原始内容
+            # 如果没有响应, 使用原始内容
             channelid_youtube_rss[youtube_key] = {"content": youtube_content_original, "type": "text"}
             youtube_content = youtube_content_original
         try:
@@ -2547,7 +2594,7 @@ def bilibili_rss_update(bilibili_key, bilibili_value):
         original_item = xmls_original[bilibili_key]  # 尝试获取原始的xml内容
         guids = list_merge_tidy(re.findall(r"(?<=<guid>).+(?=</guid>)", original_item), [], 12)  # 从xml中提取guid
     except KeyError:
-        guids = []  # 如果没有找到对应的key，则初始化guids为空列表
+        guids = []  # 如果没有找到对应的key, 则初始化guids为空列表
     bilibili_space = bilibili_json_update(bilibili_key, bilibili_value)  # 更新bilibili相关的json内容
     # 读取原哔哩哔哩频道xml文件并判断是否要更新
     try:
@@ -2556,9 +2603,9 @@ def bilibili_rss_update(bilibili_key, bilibili_value):
         ) as file:
             bilibili_space_original = json.load(file)  # 读取文件内容并解析成字典
     except FileNotFoundError:  # 捕获文件不存在异常
-        bilibili_space_original = {}  # 如果文件不存在，初始化为空字典
+        bilibili_space_original = {}  # 如果文件不存在, 初始化为空字典
     except json.decoder.JSONDecodeError:  # 捕获json解码错误
-        bilibili_space_original = {}  # 如果json读取失败，初始化为空字典
+        bilibili_space_original = {}  # 如果json读取失败, 初始化为空字典
     # 根据更新条件更新频道数据
     if bilibili_space == -404:  # 检查更新状态
         channelid_bilibili_rss[bilibili_key] = {"content": bilibili_space, "type": "int"}  # 设置为整型内容
@@ -2600,7 +2647,7 @@ def bilibili_rss_update(bilibili_key, bilibili_value):
                         backward_list_start = backward_list.index(guids[-1]) + 1  # 获取guids的起始索引
                         backward_list = backward_list[backward_list_start:][:backward_update_size]  # 更新向后列表
                     except ValueError:
-                        backward_list = []  # 如果没有找到，清空列表
+                        backward_list = []  # 如果没有找到, 清空列表
                     # 根据条件移除已经存在的元素
                     for guid in backward_list.copy():
                         if guid in bilibili_space_new:
@@ -2888,7 +2935,7 @@ def get_youtube_and_bilibili_video_format(id, stop_flag, video_format_lock, prep
 def get_youtube_and_bilibili_video_format_multithreading(video_id_update_format_item, wait_animation_display_info):
     # 创建共享的标志变量
     stop_flag = ["keep"]  # 使用列表来存储标志变量
-    # 创建两个线程分别运行等待动画和其他代码，并传递共享的标志变量
+    # 创建两个线程分别运行等待动画和其他代码, 并传递共享的标志变量
     prepare_animation = threading.Thread(target=wait_animation, args=(stop_flag, wait_animation_display_info,))
     # 启动动画线程
     prepare_animation.start()
@@ -3019,6 +3066,23 @@ def youtube_and_bilibili_download():
                     f"{display_color}{output_dir_name}\033[0m|{video_id} \033[31m无法下载\033[0m"
                 )
 
+# 标题文本修改
+def title_correction(title, title_change:dict):
+    if title_change["text"] and title_change["text"] in title:
+        return title
+    elif title_change["mode"] == "replace":
+        return re.sub(title_change["match"], title_change["text"], title)
+    else:
+        if re.search(title_change["match"], title):
+            if title_change["mode"] == "add-left":
+                return title_change["text"] + title
+            elif title_change["mode"] == "add-right":
+                return title + title_change["text"]
+            else:
+                return title
+        else:
+            return title
+
 # 生成XML模块
 def xml_rss(title, link, description, category, icon, items):
     # 获取当前时间
@@ -3071,8 +3135,11 @@ def xml_item(
     description,
     pubDate,
     image,
+    title_change={},
 ):
     channelid_title = html.escape(channelid_title)
+    if title_change:
+        title = title_correction(title, title_change)
     # 查看标题中是否有频道名称如无添加到描述中并去除空字符
     title = title.replace('\x00', '')
     if channelid_title not in title:
@@ -3149,7 +3216,7 @@ def format_time(time_str):
     return pubDate
 
 # 生成YouTube的item模块
-def youtube_xml_item(entry):
+def youtube_xml_item(entry, title_change={}):
     # 输入时间字符串和原始时区
     time_str = re.search(r"(?<=<published>).+(?=</published>)", entry).group()
     pubDate = format_time(time_str)
@@ -3170,10 +3237,11 @@ def youtube_xml_item(entry):
         description,
         pubDate,
         re.search(r"(?<=<media:thumbnail url=\").+(?=\" width=\")", entry).group(),
+        title_change
     )
 
 # 生成原有的item模块
-def xml_original_item(original_item, channelid_title, change_judgment=False):
+def xml_original_item(original_item, channelid_title, change_judgment=False, title_change={}):
     def description_change(text, sep, title, channelid_title):
         channelid_title = html.escape(channelid_title)
         if sep in text:
@@ -3191,6 +3259,8 @@ def xml_original_item(original_item, channelid_title, change_judgment=False):
         return text
     guid = re.search(r"(?<=<guid>).+(?=</guid>)", original_item).group()
     title = re.search(r"(?<=<title>).+(?=</title>)", original_item).group()
+    if title_change:
+        title = title_correction(title, title_change)
     title = title.replace('\x00', '')
     link = re.search(r"(?<=<link>).+(?=</link>)", original_item).group()
     description = re.search(r"(?<=<description>).+(?=</description>)", original_item)
@@ -3212,12 +3282,6 @@ def xml_original_item(original_item, channelid_title, change_judgment=False):
     ).group()
     if type_video == "audio/mpeg":
         type_video = "audio/x-m4a"
-    itunes_author = re.search(
-        r"(?<=<itunes:author>).+(?=</itunes:author>)", original_item
-    ).group()
-    itunes_subtitle = re.search(
-        r"(?<=<itunes:subtitle>).+(?=</itunes:subtitle>)", original_item
-    ).group()
     itunes_summary = re.search(
         r"(?<=<itunes:summary><\!\[CDATA\[).+(?=\]\]></itunes:summary>)",
         original_item,
@@ -3247,8 +3311,8 @@ def xml_original_item(original_item, channelid_title, change_judgment=False):
             <description>{description}</description>
             <pubDate>{pubDate}</pubDate>
             <enclosure url="{url}" length="{length}" type="{type_video}"></enclosure>
-            <itunes:author>{itunes_author}</itunes:author>
-            <itunes:subtitle>{itunes_subtitle}</itunes:subtitle>
+            <itunes:author>{title}</itunes:author>
+            <itunes:subtitle>{title}</itunes:subtitle>
             <itunes:summary><![CDATA[{itunes_summary}]]></itunes:summary>
             <itunes:image href="{itunes_image}"></itunes:image>
             <itunes:duration>{itunes_duration}</itunes:duration>
@@ -3365,7 +3429,9 @@ def youtube_xml_items(output_dir):
     entry_num = 0
     original_judgment = True
     channelid_title = channelid_youtube[channelid_youtube_ids[output_dir]]["title"]
-    def get_xml_item(guid, item, channelid_title):
+    title_change = channelid_youtube[channelid_youtube_ids[output_dir]].get("title_change", {})
+    update_size = channelid_youtube[channelid_youtube_ids[output_dir]]["update_size"]
+    def get_xml_item(guid, item, channelid_title, title_change):
         video_website = f"https://youtube.com/watch?v={guid}"
         if item["yt-dlp"]:
             title = html.escape(video_id_update_format[guid]["title"])
@@ -3388,13 +3454,14 @@ def youtube_xml_items(output_dir):
             description,
             pubDate,
             image,
+            title_change,
         )
     # 最新更新
     if channelid_youtube_rss[output_dir]["type"] == "dict":
         for guid in channelid_youtube_rss[output_dir]["content"]["list"]:
             if guid not in video_id_failed:
                 item = channelid_youtube_rss[output_dir]["content"]["item"][guid]
-                xml_item_text = get_xml_item(guid, item, channelid_title)
+                xml_item_text = get_xml_item(guid, item, channelid_title, title_change)
                 items_list.append(f"{xml_item_text}<!-- {output_dir} -->")
                 entry_num += 1
                 if video_id_update_format[guid]["description"] and video_id_update_format[guid]["description"][0] == "『":
@@ -3410,14 +3477,11 @@ def youtube_xml_items(output_dir):
                 re.search(r"(?<=<yt:videoId>).+(?=</yt:videoId>)", entry).group()
                 not in video_id_failed
             ):
-                items_list.append(f"{youtube_xml_item(entry)}<!-- {output_dir} -->")
+                items_list.append(f"{youtube_xml_item(entry, title_change)}<!-- {output_dir} -->")
                 entry_num += 1
                 if re.search(r"(?<=<media:description>)『", entry):
                     original_judgment = False
-            if (
-                entry_num
-                >= channelid_youtube[channelid_youtube_ids[output_dir]]["update_size"]
-            ):
+            if entry_num >= update_size:
                 break
     items_guid = re.findall(r"(?<=<guid>).+?(?=</guid>)", "".join(items_list))
     # 存量接入
@@ -3429,7 +3493,7 @@ def youtube_xml_items(output_dir):
         for xml in xmls_original[output_dir].split(f"<!-- {output_dir} -->"):
             xml_guid = re.search(r"(?<=<guid>).+(?=</guid>)", xml)
             if xml_guid and xml_guid.group() not in items_guid and xml_guid.group() not in video_id_failed:
-                items_list.append(f"{xml_original_item(xml, channelid_title, original_judgment)}<!-- {output_dir} -->")
+                items_list.append(f"{xml_original_item(xml, channelid_title, original_judgment, title_change)}<!-- {output_dir} -->")
                 xml_num += 1
             if xml_num >= entry_count:
                 break
@@ -3439,7 +3503,7 @@ def youtube_xml_items(output_dir):
         for backward_guid in backward["list"]:
             if backward_guid not in video_id_failed:
                 backward_item = backward["item"][backward_guid]
-                backward_xml_item_text = get_xml_item(backward_guid, backward_item, channelid_title)
+                backward_xml_item_text = get_xml_item(backward_guid, backward_item, channelid_title, title_change)
                 items_list.append(f"{backward_xml_item_text}<!-- {output_dir} -->")
     except KeyError:
         pass
@@ -3486,7 +3550,8 @@ def bilibili_xml_items(output_dir):
     entry_num = 0
     original_judgment = True
     channelid_title = channelid_bilibili[channelid_bilibili_ids[output_dir]]["title"]
-    def get_items_list(guid, item, channelid_title):
+    title_change = channelid_bilibili[channelid_bilibili_ids[output_dir]].get("title_change", {})
+    def get_items_list(guid, item, channelid_title, title_change):
         pubDate = datetime.fromtimestamp(item["created"], timezone.utc).strftime("%Y-%m-%dT%H:%M:%S%z")
         if guid in items_counts:
             guid_parts = []
@@ -3523,6 +3588,7 @@ def bilibili_xml_items(output_dir):
                         html.escape(re.sub(r"\n+", "\n", item["description"])),
                         format_time(pubDate),
                         guid_part["first_frame"],
+                        title_change,
                     )
                     items_list.append(f"{xml_item_text}<!-- {output_dir} -->")
             elif guid_edgeinfos and items_counts[guid] == len(guid_edgeinfos):
@@ -3551,6 +3617,7 @@ def bilibili_xml_items(output_dir):
                         html.escape(re.sub(r"\n+", "\n", description)),
                         format_time(pubDate),
                         guid_edgeinfo["first_frame"],
+                        title_change,
                     )
                     items_list.append(f"{xml_item_text}<!-- {output_dir} -->")
         else:
@@ -3563,13 +3630,14 @@ def bilibili_xml_items(output_dir):
                 html.escape(re.sub(r"\n+", "\n", item["description"])),
                 format_time(pubDate),
                 item["pic"],
+                title_change,
             )
             items_list.append(f"{xml_item_text}<!-- {output_dir} -->")
     # 最新更新
     for guid in channelid_bilibili_rss[output_dir]["content"]["list"]:
         if guid not in video_id_failed and guid in content_id:
             item = channelid_bilibili_rss[output_dir]["content"]["entry"][guid]
-            get_items_list(guid, item, channelid_title)
+            get_items_list(guid, item, channelid_title, title_change)
             if item["description"] and item["description"][0] == "『":
                 original_judgment = False
             entry_num += 1
@@ -3588,7 +3656,7 @@ def bilibili_xml_items(output_dir):
         for xml in xmls_original[output_dir].split(f"<!-- {output_dir} -->"):
             xml_guid = re.search(r"(?<=<guid>).+(?=</guid>)", xml)
             if xml_guid and xml_guid.group() not in items_guid and xml_guid.group() not in video_id_failed:
-                items_list.append(f"{xml_original_item(xml, channelid_title, original_judgment)}<!-- {output_dir} -->")
+                items_list.append(f"{xml_original_item(xml, channelid_title, original_judgment, title_change)}<!-- {output_dir} -->")
                 xml_num += 1
             if xml_num >= entry_count:
                 break
@@ -3598,7 +3666,7 @@ def bilibili_xml_items(output_dir):
         for backward_guid in backward["list"]:
             if backward_guid not in video_id_failed and backward_guid in content_id:
                 backward_item = backward["entry"][backward_guid]
-                get_items_list(backward_guid, backward_item, channelid_title)
+                get_items_list(backward_guid, backward_item, channelid_title, title_change)
     except KeyError:
         pass
     # 生成对应xml
@@ -3695,7 +3763,7 @@ def backup_zip_save(file_content):
     while not judging_save:
         # 获取要写入压缩包的文件名
         file_name_str = get_file_name()
-        # 打开压缩文件，如果不存在则创建
+        # 打开压缩文件, 如果不存在则创建
         with zipfile.ZipFile(compress_file_name, 'a') as zipf:
             # 设置压缩级别为最大
             zipf.compression = zipfile.ZIP_LZMA
@@ -3706,8 +3774,8 @@ def backup_zip_save(file_content):
                 zipf.writestr(file_name_str, file_content)
                 judging_save = True
             else:
-                # 如果文件已存在，输出提示信息
-                print(f"{file_name_str}已存在于压缩包中，重试中...")
+                # 如果文件已存在, 输出提示信息
+                print(f"{file_name_str}已存在于压缩包中, 重试中...")
 
 # 删除多余媒体文件模块
 def remove_file():
@@ -3935,28 +4003,28 @@ app_bottle = Bottle()  # 创建 Bottle 应用
 
 # 定义要共享的文件路径
 shared_files = {
-    bottle_filename.lower(): f'{bottle_filename}.xml',  # 文件路径映射，支持大小写不敏感的文件名
-    f'{bottle_filename.lower()}.xml': f'{bottle_filename}.xml',  # 同上，支持带 .xml 后缀
+    bottle_filename.lower(): f'{bottle_filename}.xml',  # 文件路径映射, 支持大小写不敏感的文件名
+    f'{bottle_filename.lower()}.xml': f'{bottle_filename}.xml',  # 同上, 支持带 .xml 后缀
 }
 bottle_channelid = channelid_youtube_ids_original | channelid_bilibili_ids_original | {"channel_audiovisual/": "", "channel_rss/": ""}  # 合并多个频道 ID
 bottle_print = []  # 存储打印日志
 
 # 判断token是否正确的验证模块
 def token_judgment(token, VALID_TOKEN="", filename="", foldername=""):
-    # 如果请求的是 'channel_audiovisual/' 文件夹，采用特殊的 Token 验证逻辑
+    # 如果请求的是 'channel_audiovisual/' 文件夹, 采用特殊的 Token 验证逻辑
     if foldername == 'channel_audiovisual/':
-        if VALID_TOKEN == "" and token == hashlib.sha256(f"{filename}".encode()).hexdigest():  # 如果没有配置 Token，则使用文件名的哈希值
+        if VALID_TOKEN == "" and token == hashlib.sha256(f"{filename}".encode()).hexdigest():  # 如果没有配置 Token, 则使用文件名的哈希值
             return True
         elif token == hashlib.sha256(f"{VALID_TOKEN}/{filename}".encode()).hexdigest():  # 使用验证 Token 和文件名的哈希值
             return True
         else:
             return False
     else:
-        # 对于其他文件夹，采用常规的 Token 验证
+        # 对于其他文件夹, 采用常规的 Token 验证
         if VALID_TOKEN == "":
-            return True  # 如果没有配置验证 Token，则默认通过
+            return True  # 如果没有配置验证 Token, 则默认通过
         elif token == VALID_TOKEN:
-            return True  # 如果 Token 匹配，则通过
+            return True  # 如果 Token 匹配, 则通过
         else:
             return False  # 否则验证失败
 
@@ -3987,11 +4055,11 @@ def add_bottle_print(client_ip, filename, status):
 def cherry_print(flag_judgment=True):
     if flag_judgment:
         server_process_print_flag[0] = "keep"
-    if server_process_print_flag[0] == "keep" and bottle_print:  # 如果设置为保持输出，则打印日志
+    if server_process_print_flag[0] == "keep" and bottle_print:  # 如果设置为保持输出, 则打印日志
         print('\n'.join(bottle_print))
         bottle_print.clear()
 
-# 主路由，处理根路径请求
+# 主路由处理根路径请求
 @app_bottle.route('/')
 def home():
     # 输出请求日志的函数
@@ -3999,19 +4067,19 @@ def home():
         client_ip = request.remote_addr  # 获取客户端 IP 地址
         client_port = request.environ.get('REMOTE_PORT')  # 获取客户端端口
         if client_port:
-            client_ip = f"{client_ip}:{client_port}"  # 如果有端口信息，则包括端口
+            client_ip = f"{client_ip}:{client_port}"  # 如果有端口信息, 则包括端口
         add_bottle_print(client_ip, "/", status)  # 添加日志信息
         cherry_print(False)
 
     token = request.query.get('token')  # 获取请求中的 Token
     if token_judgment(token, VALID_TOKEN):  # 验证 Token
-        print_out(303)  # 如果验证成功，输出 200 状态
+        print_out(303)  # 如果验证成功, 输出 200 状态
         return redirect('https://github.com/gruel-zxz/podflow')  # 返回正常响应
     else:
-        print_out(401)  # 如果验证失败，输出 401 状态
+        print_out(401)  # 如果验证失败, 输出 401 状态
         abort(401, "Unauthorized: Invalid Token")  # 返回未经授权错误
 
-# 路由，处理关闭服务器的请求
+# 路由处理关闭服务器的请求
 @app_bottle.route('/shutdown')
 def shutdown():
     # 输出关闭请求日志的函数
@@ -4025,14 +4093,14 @@ def shutdown():
     
     token = request.query.get('token')  # 获取请求中的 Token
     if token_judgment(token, Shutdown_VALID_TOKEN):  # 验证 Token 是否为关闭用的 Token
-        print_out(200)  # 如果验证成功，输出 200 状态
+        print_out(200)  # 如果验证成功, 输出 200 状态
         cherrypy.engine.exit()  # 使用 CherryPy 提供的停止功能来关闭服务器
         return "Shutting down..."  # 返回关机响应
     else:
-        print_out(401)  # 如果验证失败，输出 401 状态
+        print_out(401)  # 如果验证失败, 输出 401 状态
         abort(401, "Unauthorized: Invalid Token")  # 返回未经授权错误
 
-# 路由，处理 favicon 请求
+# 路由处理 favicon 请求
 @app_bottle.route('/favicon.ico')
 def favicon():
     client_ip = request.remote_addr
@@ -4043,7 +4111,7 @@ def favicon():
     cherry_print(False)
     return redirect('https://raw.githubusercontent.com/gruel-zxz/podflow/main/Podflow.png')  # 重定向到图标 URL
 
-# 路由，处理静态文件请求
+# 路由处理静态文件请求
 @app_bottle.route('/<filename:path>')
 def serve_static(filename):
     token = request.query.get('token')  # 获取请求中的 Token
@@ -4056,7 +4124,7 @@ def serve_static(filename):
             client_ip = f"{client_ip}:{client_port}"
         for bottle_channelid_key, bottle_channelid_value in bottle_channelid.items():
             filename = filename.replace(bottle_channelid_key, bottle_channelid_value)  # 替换频道路径
-            if status == 200 and request.headers.get('Range'):  # 如果是部分请求，则返回 206 状态
+            if status == 200 and request.headers.get('Range'):  # 如果是部分请求, 则返回 206 状态
                 status = 206
         add_bottle_print(client_ip, filename, status)  # 输出日志
         cherry_print(False)
@@ -4064,13 +4132,13 @@ def serve_static(filename):
     # 文件是否存在检查的函数
     def file_exist(token, VALID_TOKEN, filename, foldername=""):
         if token_judgment(token, VALID_TOKEN, filename, foldername):  # 验证 Token
-            if os.path.exists(filename):  # 如果文件存在，返回文件
+            if os.path.exists(filename):  # 如果文件存在, 返回文件
                 print_out(filename, 200)
                 return static_file(filename, root=".")
-            else:  # 如果文件不存在，返回 404 错误
+            else:  # 如果文件不存在, 返回 404 错误
                 print_out(filename, 404)
                 abort(404, "File not found")
-        else:  # 如果 Token 验证失败，返回 401 错误
+        else:  # 如果 Token 验证失败, 返回 401 错误
             print_out(filename, 401)
             abort(401, "Unauthorized: Invalid Token")
     
@@ -4087,7 +4155,7 @@ def serve_static(filename):
     elif filename.lower() in shared_files:
         return file_exist(token, VALID_TOKEN, shared_files[filename.lower()])
     else:
-        print_out(filename, 404)  # 如果文件路径未匹配，返回 404 错误
+        print_out(filename, 404)  # 如果文件路径未匹配, 返回 404 错误
         abort(404, "File not found")
 
 # 启动 CherryPy 服务器
@@ -4105,9 +4173,9 @@ cherrypy.config.update({
 
 # 主流程
 cherrypy.engine.start()  # 启动 CherryPy 服务器
-print(f"{datetime.now().strftime('%H:%M:%S')}|HTTP服务器启动，端口：\033[32m{config['port']}\033[0m")
-if args.httpfs:  # HttpFS参数判断，是否继续运行
-    cherrypy.engine.block()  # 阻止程序退出，保持HTTP服务运行
+print(f"{datetime.now().strftime('%H:%M:%S')}|HTTP服务器启动, 端口：\033[32m{config['port']}\033[0m")
+if args.httpfs:  # HttpFS参数判断, 是否继续运行
+    cherrypy.engine.block()  # 阻止程序退出, 保持HTTP服务运行
 while update_num > 0 or update_num == -1:  # 循环主更新
     # 暂停进程打印
     server_process_print_flag[0] = "pause"
@@ -4136,6 +4204,9 @@ while update_num > 0 or update_num == -1:  # 循环主更新
         get_video_format()
         # 恢复进程打印
         cherry_print()
+        # 删除中断下载的媒体文件
+        if config["delete_incompletement"]:
+            delete_part_files_in_directory(channelid_youtube_ids | channelid_bilibili_ids)
         # 暂停进程打印
         server_process_print_flag[0] = "pause"
         # 下载YouTube和哔哩哔哩视频
