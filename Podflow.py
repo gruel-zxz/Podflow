@@ -91,7 +91,7 @@ default_config = {
             "want_retry_count": 8,  # 媒体获取失败后多少次后重试(小于等于该数量时将一直重试)
             "title_change": {  # 标题文本修改(默认为无, 只对更新的媒体有效)
                 "mode": "add-left",  # 修改模式(add-left: 开头添加, add-right: 结尾添加, replace: 内容替换)
-                "match": "",  # 需要匹配的规则(为正则表达式)
+                "match": "",  # 需要匹配的规则(为正则表达式)或播放列表网址(只适用于YouTube频道, 并且不适用replace模式，网址例如: https://www.youtube.com/playlist?list=...)
                 "text": "",  # 需要替换或添加的文本
             },
             "NoShorts": False,  # 是否不下载Shorts媒体
@@ -415,11 +415,11 @@ def library_install(library, version_type, library_install_dic=None):
                 pip_list = f"pip install --upgrade {library}"
             if pip_cmd(pip_list):
                 version = get_version(library)
-                write_log(f"{library}更新成功|版本：\033[32m{version}\033[0m")
+                write_log(f"{library}更新成功|版本: \033[32m{version}\033[0m")
             else:
                 write_log(f"{library}更新失败")
         else:
-            write_log(f"{library}无需更新|版本：\033[32m{version}\033[0m")
+            write_log(f"{library}无需更新|版本: \033[32m{version}\033[0m")
     else:
         write_log(f"{library}未安装")
         # 如果库未安装, 则尝试安装
@@ -429,7 +429,7 @@ def library_install(library, version_type, library_install_dic=None):
             pip_list = f"pip install {library} -U"
         if pip_cmd(pip_list):
             version = get_version(library)
-            write_log(f"{library}安装成功|版本：\033[32m{version}\033[0m")
+            write_log(f"{library}安装成功|版本: \033[32m{version}\033[0m")
         else:
             write_log(f"{library}安装失败")
             sys.exit(0)
@@ -1487,13 +1487,6 @@ def get_channelid(name):
 
 # channelid修正模块
 def correct_channelid(channelid, website):
-    # 判断正则表达式是否正确
-    def is_valid_regex(pattern):
-        try:
-            re.compile(pattern)
-            return True  # 如果能编译，返回 True
-        except re.error:
-            return False  # 如果抛出异常，返回 False
     channelid_name = ""
     output_name = ""
     if website == "youtube":
@@ -1652,15 +1645,40 @@ def correct_channelid(channelid, website):
                     f"channelid_{website}"
                 ][channelid_name]["want_retry_count"]
             # 对title_change进行纠正
-            if "title_change" in channeli_value and (
-                not isinstance(channeli_value["title_change"], dict)
-                or "mode" not in channeli_value["title_change"]
-                or "match" not in channeli_value["title_change"]
-                or "text" not in channeli_value["title_change"]
-                or channeli_value["title_change"]["mode"] not in ["add-left", "add-right", "replace"]
-                or  not is_valid_regex(channeli_value["title_change"]["match"])
-            ):
-                del channelid[channelid_key]["title_change"]
+            if "title_change" in channeli_value:
+                title_change = channeli_value["title_change"]
+                # 验证 title_change 必须包含 'mode', 'match', 'text'，且类型正确
+                if not isinstance(title_change, dict) or not all(key in title_change for key in ["mode", "match", "text"]):
+                    del channelid[channelid_key]["title_change"]
+                else:
+                    # 判断正则表达式是否有效
+                    def is_valid_regex(pattern):
+                        try:
+                            re.compile(pattern)
+                            return True
+                        except re.error:
+                            return False
+                    mode = title_change["mode"]
+                    match = title_change["match"]
+                    match_url_pattern = r"https://www\.youtube\.com/playlist\?list=PL[0-9a-zA-Z_-]{32}"
+                    # 处理 bilibili 和 youtube 的特殊情况
+                    if website == "bilibli":
+                        if mode in ["add-left", "add-right", "replace"] and is_valid_regex(match):
+                            channelid[channelid_key]["title_change"]["url"] = False
+                        else:
+                            del channelid[channelid_key]["title_change"]
+                    elif website == "youtube":
+                        # 如果 match 符合 youtube 播放列表 URL 正则，并且 mode 合法，设置 url 为 True
+                        if re.match(match_url_pattern, match) and mode in ["add-left", "add-right"]:
+                            channelid[channelid_key]["title_change"]["url"] = True
+                        # 如果 match 是有效正则，并且 mode 合法，设置 url 为 False
+                        elif is_valid_regex(match) and mode in ["add-left", "add-right", "replace"]:
+                            channelid[channelid_key]["title_change"]["url"] = False
+                        else:
+                            del channelid[channelid_key]["title_change"]
+                    else:
+                        # 如果不是 bilibili 或 youtube，删除 title_change
+                        del channelid[channelid_key]["title_change"]
             if website == "bilibili":
                 # 对AllPartGet进行纠正
                 if "AllPartGet" not in channeli_value or not isinstance(
@@ -3066,20 +3084,43 @@ def youtube_and_bilibili_download():
                     f"{display_color}{output_dir_name}\033[0m|{video_id} \033[31m无法下载\033[0m"
                 )
 
+# 获取YouTube播放列表模块
+def get_youtube_playlist(url, channelid_title):
+    videoids = []
+    ytInitialData = get_html_dict(url, f"{channelid_title}|播放列表", "ytInitialData")
+    try:
+        contents = ytInitialData['contents']['twoColumnBrowseResultsRenderer']['tabs'][0]['tabRenderer']['content']['sectionListRenderer']['contents'][0]['itemSectionRenderer']['contents'][0]['playlistVideoListRenderer']['contents']
+        for content in contents:
+            videoids.append(content['playlistVideoRenderer']['videoId'])
+    except KeyError:
+        pass
+    return videoids
+
 # 标题文本修改
-def title_correction(title, title_change:dict):
-    if title_change["text"] and title_change["text"] in title:
+def title_correction(title, video_url, title_change:dict):
+    match = title_change["match"]
+    mode = title_change["mode"]
+    text = title_change["text"]
+    url = title_change["url"]
+    def add_title(mode, text, title):
+        if mode == "add-left":
+            return text + title
+        elif mode == "add-right":
+            return title + text
+        else:
+            return title
+    if text and text in title:
         return title
-    elif title_change["mode"] == "replace":
-        return re.sub(title_change["match"], title_change["text"], title)
+    elif url:
+        if video_url in match:
+            return add_title(mode, text, title)
+        else:
+            return title
+    elif mode == "replace":
+        return re.sub(match, text, title)
     else:
-        if re.search(title_change["match"], title):
-            if title_change["mode"] == "add-left":
-                return title_change["text"] + title
-            elif title_change["mode"] == "add-right":
-                return title + title_change["text"]
-            else:
-                return title
+        if re.search(match, title):
+            return add_title(mode, text, title)
         else:
             return title
 
@@ -3139,7 +3180,7 @@ def xml_item(
 ):
     channelid_title = html.escape(channelid_title)
     if title_change:
-        title = title_correction(title, title_change)
+        title = title_correction(title, video_url, title_change)
     # 查看标题中是否有频道名称如无添加到描述中并去除空字符
     title = title.replace('\x00', '')
     if channelid_title not in title:
@@ -3260,7 +3301,7 @@ def xml_original_item(original_item, channelid_title, change_judgment=False, tit
     guid = re.search(r"(?<=<guid>).+(?=</guid>)", original_item).group()
     title = re.search(r"(?<=<title>).+(?=</title>)", original_item).group()
     if title_change:
-        title = title_correction(title, title_change)
+        title = title_correction(title, guid, title_change)
     title = title.replace('\x00', '')
     link = re.search(r"(?<=<link>).+(?=</link>)", original_item).group()
     description = re.search(r"(?<=<description>).+(?=</description>)", original_item)
@@ -3431,6 +3472,8 @@ def youtube_xml_items(output_dir):
     channelid_title = channelid_youtube[channelid_youtube_ids[output_dir]]["title"]
     title_change = channelid_youtube[channelid_youtube_ids[output_dir]].get("title_change", {})
     update_size = channelid_youtube[channelid_youtube_ids[output_dir]]["update_size"]
+    if title_change and title_change["url"]:
+        title_change["match"] = get_youtube_playlist(title_change["match"], channelid_title)
     def get_xml_item(guid, item, channelid_title, title_change):
         video_website = f"https://youtube.com/watch?v={guid}"
         if item["yt-dlp"]:
@@ -4173,7 +4216,7 @@ cherrypy.config.update({
 
 # 主流程
 cherrypy.engine.start()  # 启动 CherryPy 服务器
-print(f"{datetime.now().strftime('%H:%M:%S')}|HTTP服务器启动, 端口：\033[32m{config['port']}\033[0m")
+print(f"{datetime.now().strftime('%H:%M:%S')}|HTTP服务器启动, 端口: \033[32m{config['port']}\033[0m")
 if args.httpfs:  # HttpFS参数判断, 是否继续运行
     cherrypy.engine.block()  # 阻止程序退出, 保持HTTP服务运行
 while update_num > 0 or update_num == -1:  # 循环主更新
