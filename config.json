@@ -15,11 +15,19 @@
             "last_size": 10000,
             "BackwardUpdate": true,
             "BackwardUpdate_size": 2,
-            "title_change": {
-                "mode": "add-left",
-                "match": "https://www.youtube.com/playlist?list=PL6CKi2qqiZRneKiOQ_mgp-czvUb46ygab",
-                "text": "🎮"
-            }
+            "title_change": [
+                {
+                    "mode": "add-left",
+                    "url": "https://www.youtube.com/playlist?list=PL6CKi2qqiZRneKiOQ_mgp-czvUb46ygab",
+                    "match": "(守望先锋|飞车皇后|奥丽莎|莱因哈特|路霸|西格玛|温斯顿|扎莉亚|艾什|卡西迪|回声|源氏|汉佐|狂鼠|死神|索姆拉|士兵76|托比昂|猎空|黑百合|巴蒂斯特|布丽吉塔|卢西奥|莫伊拉|禅雅塔)",
+                    "text": "🎮"
+                },
+                {
+                    "mode": "add-left",
+                    "url": "https://www.youtube.com/playlist?list=PL6CKi2qqiZRlpAnonMqxi95FxPtzfjiRi",
+                    "text": "📷"
+                }
+            ]
         },
         "四季妈妈": {
             "update_size": 25,

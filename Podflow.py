@@ -89,11 +89,20 @@ default_config = {
             "BackwardUpdate": False,  # 是否向后更新
             "BackwardUpdate_size": 3,  # 向后更新数量(仅在BackwardUpdate为True时有效)
             "want_retry_count": 8,  # 媒体获取失败后多少次后重试(小于等于该数量时将一直重试)
-            "title_change": {  # 标题文本修改(默认为无, 只对更新的媒体有效)
-                "mode": "add-left",  # 修改模式(add-left: 开头添加, add-right: 结尾添加, replace: 内容替换)
-                "match": "",  # 需要匹配的规则(为正则表达式)或播放列表网址(只适用于YouTube频道, 并且不适用replace模式，网址例如: https://www.youtube.com/playlist?list=...)
-                "text": "",  # 需要替换或添加的文本
-            },
+            "title_change": [  # 标题文本修改(默认为无, 可多个条件， 以列表形式存在)
+                {  # match和url参数至少有一个, 如都有将同时生效
+                    "mode": "add-left",  # 修改模式(add-left: 开头添加, add-right: 结尾添加, replace: 内容替换)
+                    "match": "",  # 需要匹配的规则(为正则表达式)
+                    "url": "https://www.youtube.com/playlist?list=...",  # 播放列表网址(只适用于YouTube频道, 并且不适用replace模式, 选择后会失效)
+                    "text": "",  # 需要替换或添加的文本
+                },
+                {
+                    "mode": "add-right",
+                    "match": "",
+                    "url": "",
+                    "text": "",
+                },
+            ],
             "NoShorts": False,  # 是否不下载Shorts媒体
         },
     },
@@ -112,7 +121,7 @@ default_config = {
             "BackwardUpdate_size": 3,
             "want_retry_count": 8,
             "title_change": {
-                "mode": "add-left",
+                "mode": "replace",
                 "match": "",
                 "text": "",
             },
@@ -1528,6 +1537,13 @@ def correct_channelid(channelid, website):
         "4320",
     ]
     media = ["m4a", "mp4"]
+    # 判断正则表达式是否有效
+    def is_valid_regex(pattern):
+        try:
+            re.compile(pattern)
+            return True
+        except re.error:
+            return False
     # 复制字典channelid, 遍历复制后的字典进行操作以避免在循环中删除元素导致的迭代错误
     channelid_copy = channelid.copy()
     # 对channelid的错误进行更正
@@ -1646,39 +1662,44 @@ def correct_channelid(channelid, website):
                 ][channelid_name]["want_retry_count"]
             # 对title_change进行纠正
             if "title_change" in channeli_value:
-                title_change = channeli_value["title_change"]
-                # 验证 title_change 必须包含 'mode', 'match', 'text'，且类型正确
-                if not isinstance(title_change, dict) or not all(key in title_change for key in ["mode", "match", "text"]):
-                    del channelid[channelid_key]["title_change"]
+                title_changes = channeli_value["title_change"]
+                uphold_title_changes = []
+                if isinstance(title_changes, list):
+                    for title_change in title_changes:
+                        if website == "bilibli" and "url" in title_change:
+                            del title_change["url"]
+                        if (
+                            isinstance(title_change, dict) 
+                            and "mode" in title_change
+                            and "text" in title_change
+                            and(
+                                "url" in title_change
+                                or "match" in title_change
+                            )
+                        ):
+                            mode = title_change["mode"]
+                            match_url_pattern = r"https://www\.youtube\.com/playlist\?list=PL[0-9a-zA-Z_-]{32}"
+                            if (
+                                "url" in title_change
+                                and(
+                                    mode not in ["add-left", "add-right"]
+                                    or not re.match(match_url_pattern, title_change["url"])
+                                )
+                            ):
+                                break
+                            if (
+                                "match" in title_change
+                                and(
+                                    mode not in ["add-left", "add-right", "replace"]
+                                    or not is_valid_regex(title_change["match"]) 
+                                )
+                            ):
+                                break
+                            uphold_title_changes.append(title_change)
+                if uphold_title_changes:
+                    channelid[channelid_key]["title_change"] = uphold_title_changes
                 else:
-                    # 判断正则表达式是否有效
-                    def is_valid_regex(pattern):
-                        try:
-                            re.compile(pattern)
-                            return True
-                        except re.error:
-                            return False
-                    mode = title_change["mode"]
-                    match = title_change["match"]
-                    match_url_pattern = r"https://www\.youtube\.com/playlist\?list=PL[0-9a-zA-Z_-]{32}"
-                    # 处理 bilibili 和 youtube 的特殊情况
-                    if website == "bilibli":
-                        if mode in ["add-left", "add-right", "replace"] and is_valid_regex(match):
-                            channelid[channelid_key]["title_change"]["url"] = False
-                        else:
-                            del channelid[channelid_key]["title_change"]
-                    elif website == "youtube":
-                        # 如果 match 符合 youtube 播放列表 URL 正则，并且 mode 合法，设置 url 为 True
-                        if re.match(match_url_pattern, match) and mode in ["add-left", "add-right"]:
-                            channelid[channelid_key]["title_change"]["url"] = True
-                        # 如果 match 是有效正则，并且 mode 合法，设置 url 为 False
-                        elif is_valid_regex(match) and mode in ["add-left", "add-right", "replace"]:
-                            channelid[channelid_key]["title_change"]["url"] = False
-                        else:
-                            del channelid[channelid_key]["title_change"]
-                    else:
-                        # 如果不是 bilibili 或 youtube，删除 title_change
-                        del channelid[channelid_key]["title_change"]
+                    del channelid[channelid_key]["title_change"]
             if website == "bilibili":
                 # 对AllPartGet进行纠正
                 if "AllPartGet" not in channeli_value or not isinstance(
@@ -2901,7 +2922,10 @@ def get_youtube_and_bilibili_video_format(id, stop_flag, video_format_lock, prep
                 id_update_format = "\x1b[31m年龄限制\x1b[0m(Cookies错误)"
         else:
             id_update_format = "\x1b[31m年龄限制\x1b[0m(需要Cookies)"
-    if "试看" in id_update_format and video_id_update_format[id]["power"] is True:
+    if video_id_update_format[id]["power"] is True and (
+            "试看" in id_update_format
+            or id_update_format == "无法获取音频ID"
+        ):
         id_update_format = "\x1b[31m充电专属\x1b[0m"
     if isinstance(id_update_format, list):
         if len(id_update_format) == 1:
@@ -3097,32 +3121,29 @@ def get_youtube_playlist(url, channelid_title):
     return videoids
 
 # 标题文本修改
-def title_correction(title, video_url, title_change:dict):
-    match = title_change["match"]
-    mode = title_change["mode"]
-    text = title_change["text"]
-    url = title_change["url"]
-    def add_title(mode, text, title):
-        if mode == "add-left":
-            return text + title
-        elif mode == "add-right":
-            return title + text
-        else:
+def title_correction(title, video_url, title_changes:list):
+    for title_change in title_changes:
+        match = title_change.get("match",None)
+        mode = title_change["mode"]
+        text = title_change["text"]
+        table = title_change.get("table",[])
+        def add_title(mode, text, title):
+            if mode == "add-left":
+                return text + title
+            elif mode == "add-right":
+                return title + text
+        if text and text in title:
             return title
-    if text and text in title:
-        return title
-    elif url:
-        if video_url in match:
+        elif video_url in table:
             return add_title(mode, text, title)
+        elif match is not None and re.search(match, title):
+            if mode == "replace":
+                return re.sub(match, text, title)
+            else:
+                return add_title(mode, text, title)
         else:
-            return title
-    elif mode == "replace":
-        return re.sub(match, text, title)
-    else:
-        if re.search(match, title):
-            return add_title(mode, text, title)
-        else:
-            return title
+            pass
+    return title
 
 # 生成XML模块
 def xml_rss(title, link, description, category, icon, items):
@@ -3176,7 +3197,7 @@ def xml_item(
     description,
     pubDate,
     image,
-    title_change={},
+    title_change=[],
 ):
     channelid_title = html.escape(channelid_title)
     if title_change:
@@ -3282,7 +3303,7 @@ def youtube_xml_item(entry, title_change={}):
     )
 
 # 生成原有的item模块
-def xml_original_item(original_item, channelid_title, change_judgment=False, title_change={}):
+def xml_original_item(original_item, channelid_title, change_judgment=False, title_change=[]):
     def description_change(text, sep, title, channelid_title):
         channelid_title = html.escape(channelid_title)
         if sep in text:
@@ -3470,10 +3491,12 @@ def youtube_xml_items(output_dir):
     entry_num = 0
     original_judgment = True
     channelid_title = channelid_youtube[channelid_youtube_ids[output_dir]]["title"]
-    title_change = channelid_youtube[channelid_youtube_ids[output_dir]].get("title_change", {})
+    title_change = channelid_youtube[channelid_youtube_ids[output_dir]].get("title_change", [])
     update_size = channelid_youtube[channelid_youtube_ids[output_dir]]["update_size"]
-    if title_change and title_change["url"]:
-        title_change["match"] = get_youtube_playlist(title_change["match"], channelid_title)
+    if title_change:
+        for title_index, title_value in enumerate(title_change):
+            if "url" in title_value:
+                title_change[title_index]["table"] = get_youtube_playlist(title_value["url"], channelid_title)
     def get_xml_item(guid, item, channelid_title, title_change):
         video_website = f"https://youtube.com/watch?v={guid}"
         if item["yt-dlp"]:
@@ -3593,7 +3616,7 @@ def bilibili_xml_items(output_dir):
     entry_num = 0
     original_judgment = True
     channelid_title = channelid_bilibili[channelid_bilibili_ids[output_dir]]["title"]
-    title_change = channelid_bilibili[channelid_bilibili_ids[output_dir]].get("title_change", {})
+    title_change = channelid_bilibili[channelid_bilibili_ids[output_dir]].get("title_change", [])
     def get_items_list(guid, item, channelid_title, title_change):
         pubDate = datetime.fromtimestamp(item["created"], timezone.utc).strftime("%Y-%m-%dT%H:%M:%S%z")
         if guid in items_counts:
