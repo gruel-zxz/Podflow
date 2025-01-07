@@ -16,7 +16,8 @@ default_config = {
     "description": "在iOS平台上借助workflow和a-shell搭建专属的播客服务器。",  # 博客信息
     "icon": "https://raw.githubusercontent.com/gruel-zxz/podflow/main/Podflow.png",  # 博客图标
     "category": "TV &amp; Film",  # 博客类型
-    "token": None,  # token认证，如为null或""将不启用token
+    "token": "",  # token认证, 如为null或""将不启用token
+    "delete_incompletement": False,  # 是否删除下载中断媒体(下载前处理流程)
     "channelid_youtube": {
         "youtube": {
             "update_size": 15,  # 每次获取频道媒体数量
@@ -31,6 +32,20 @@ default_config = {
             "BackwardUpdate": False,  # 是否向后更新
             "BackwardUpdate_size": 3,  # 向后更新数量(仅在BackwardUpdate为True时有效)
             "want_retry_count": 8,  # 媒体获取失败后多少次后重试(小于等于该数量时将一直重试)
+            "title_change": [  # 标题文本修改(默认为无, 可多个条件， 以列表形式存在)
+                {  # match和url参数至少有一个, 如都有将同时生效
+                    "mode": "add-left",  # 修改模式(add-left: 开头添加, add-right: 结尾添加, replace: 内容替换)
+                    "match": "",  # 需要匹配的规则(为正则表达式)
+                    "url": "https://www.youtube.com/playlist?list=...",  # 播放列表网址(只适用于YouTube频道, 并且不适用replace模式, 选择后会失效)
+                    "text": "",  # 需要替换或添加的文本
+                },
+                {
+                    "mode": "add-right",
+                    "match": "",
+                    "url": "",
+                    "text": "",
+                },
+            ],
             "NoShorts": False,  # 是否不下载Shorts媒体
         },
     },
@@ -48,7 +63,12 @@ default_config = {
             "BackwardUpdate": False,
             "BackwardUpdate_size": 3,
             "want_retry_count": 8,
-            "AllPartGet": False,  # 是否提前获取分P或互动视频(建议update_size大于5时使用, 如果该变量不存在时，默认update_size大于5时开启)
+            "title_change": {
+                "mode": "replace",
+                "match": "",
+                "text": "",
+            },
+            "AllPartGet": False,  # 是否提前获取分P或互动视频(建议update_size大于5时使用, 如果该变量不存在时, 默认update_size大于5时开启)
         },
     },
 }

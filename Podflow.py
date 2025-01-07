@@ -588,7 +588,7 @@ def delete_part_files_in_directory(channelid_ids):
         for filename in fnmatch.filter(filenames, '*.part'):
             file_path = os.path.join(root, filename)
             os.remove(file_path)
-            ids = root.split('\\')[-1]
+            ids = os.path.basename(root).split('/')[-1]
             if ids in channelid_ids:
                 ids = channelid_ids[ids]
             write_log(f"{ids}|{filename}已删除")
