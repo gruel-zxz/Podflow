@@ -9,8 +9,8 @@ default_config = {
     "url": "http://127.0.0.1",  # HTTP共享地址
     "port": 8000,  # HTTP共享端口
     "port_in_url": True,  # HTTP共享地址是否包含端口
-    "httpfs": False, # HTTP共享日志
-    "title": "Podflow",  #博客的名称
+    "httpfs": False,  # HTTP共享日志
+    "title": "Podflow",  # 博客的名称
     "filename": "Podflow",  # 主XML的文件名称
     "link": "https://github.com/gruel-zxz/podflow",  # 博客主页
     "description": "在iOS平台上借助workflow和a-shell搭建专属的播客服务器。",  # 博客信息
@@ -74,8 +74,9 @@ default_config = {
 }
 # 如果InmainRSS为False或频道有更新则无视DisplayRSSaddress的状态, 都会变为True。
 
+
 # 全局变量
-class Application:
+class Application_gVar:
     def __init__(self):
         self.config = {}  # 配置文件字典
         self.channelid_youtube = {}  # YouTube频道字典
@@ -98,7 +99,9 @@ class Application:
         self.channelid_bilibili_ids_update = {}  # 需更新的哔哩哔哩频道字典
         self.bilibili_content_bvid_update = {}  # 需下载哔哩哔哩视频字典
         self.channelid_bilibili_rss = {}  # 哔哩哔哩频道最新Rss Response字典
-        self.bilibili_content_bvid_backward_update = {}  # 向后更新需下载哔哩哔哩视频字典
+        self.bilibili_content_bvid_backward_update = (
+            {}
+        )  # 向后更新需下载哔哩哔哩视频字典
         self.video_id_failed = []  # YouTube&哔哩哔哩视频下载失败列表
         self.video_id_update_format = {}  # YouTube和哔哩哔哩视频下载的详细信息字典
         self.hash_rss_original = ""  # 原始rss哈希值文本
@@ -114,5 +117,20 @@ class Application:
 
         self.shortcuts_url = {}  # 输出至shortcut的url字典
 
+
+# 参数变量
+class Application_parse:
+    def __init__(self):
+        self.shortcuts_url_original = []
+        self.argument = ""
+        self.update_num = -1
+        self.time_delay = 0
+        self.config = ""
+        self.period = 1
+        self.file = ""
+        self.httpfs = False
+
+
 # 创建 Application 类的实例
-gVar = Application()
+gVar = Application_gVar()
+parse = Application_parse()

@@ -5,8 +5,8 @@ import os
 import re
 import threading
 from Podflow import gVar
-from Podflow.youtube_get import youtube_rss_update
-from Podflow.bilibili_get import bilibili_rss_update
+from Podflow.youtube.get import youtube_rss_update
+from Podflow.bilibili.get import bilibili_rss_update
 from Podflow.basis import folder_build, write_log, file_save
 
 channelid_youtube_ids = gVar.channelid_youtube_ids
