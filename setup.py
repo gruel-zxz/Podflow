@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="Podflow",
-    version="202501111849",
+    version="20250123",
     author="gruel_zxz",
     author_email="zhuxizhouzxz@gmail.com",
     description="A podcast server that includes YouTube and BiliBili",

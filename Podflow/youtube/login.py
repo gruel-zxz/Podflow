@@ -2,7 +2,6 @@
 # coding: utf-8
 
 from datetime import datetime
-from Podflow import gVar
 from Podflow.basic.http_client import http_client
 from Podflow.basic.write_log import write_log
 from Podflow.netscape.get_cookie_dict import get_cookie_dict
@@ -15,8 +14,8 @@ def get_youtube_cookie_fail(arg0):
 
 
 # 获取YouTube cookie模块
-def get_youtube_cookie():
-    if not gVar.channelid_youtube_ids:
+def get_youtube_cookie(channelid_youtube_ids):
+    if not channelid_youtube_ids:
         return
     youtube_cookie = get_cookie_dict("channel_data/yt_dlp_youtube.txt")
     if youtube_cookie is None:

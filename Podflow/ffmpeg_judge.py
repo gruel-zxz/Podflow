@@ -5,10 +5,12 @@ import sys
 import subprocess
 from Podflow.basic.write_log import write_log
 
+
 def error_ffmpeg_judge(ffmpeg_worry):
     write_log("FFmpeg 未安装, 请安装后重试")
     print(ffmpeg_worry)
     sys.exit(0)
+
 
 def ffmpeg_judge():
     ffmpeg_worry = """\033[0mFFmpeg安装方法:

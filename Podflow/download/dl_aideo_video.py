@@ -5,6 +5,7 @@ import os
 from datetime import datetime
 import ffmpeg
 import yt_dlp
+from Podflow import gVar
 from Podflow.basic.get_duration import get_duration
 from Podflow.basic.write_log import write_log
 from Podflow.download.show_progress import show_progress
@@ -55,10 +56,16 @@ def download_video(
         "throttled_rate": "70K",  # 设置最小下载速率为:字节/秒
     }
     if cookies:
-        ydl_opts["http_headers"] = {
-            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
-            "Referer": "https://www.bilibili.com/",
-        }
+        if "www.bilibili.com" in video_website:
+            ydl_opts["http_headers"] = {
+                "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
+                "Referer": "https://www.bilibili.com/",
+            }
+        elif "www.youtube.com" in video_website:
+            ydl_opts["http_headers"] = {
+                "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
+                "Referer": "https://www.youtube.com/",
+            }
         ydl_opts["cookiefile"] = cookies  # cookies 是你的 cookies 文件名
     if playlist_num:  # 播放列表的第n个视频
         ydl_opts["playliststart"] = playlist_num
@@ -66,20 +73,24 @@ def download_video(
     try:
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
             ydl.download([f"{video_website}"])  # 下载指定视频链接的视频
+        return None, None
     except Exception as download_video_error:
+        fail_info = (
+            str(download_video_error)
+            .replace("ERROR: ", "")
+            .replace("\033[0;31mERROR:\033[0m ", "")
+            .replace(f"{video_url}: ", "")
+            .replace("[youtube] ", "")
+            .replace("[download] ", "")
+        )
         write_log(
             f"{video_write_log} \033[31m下载失败\033[0m",
             None,
             True,
             True,
-            (f"错误信息: {str(download_video_error)}")
-            .replace("ERROR: ", "")
-            .replace("\033[0;31mERROR:\033[0m ", "")
-            .replace(f"{video_url}: ", "")
-            .replace("[youtube] ", "")
-            .replace("[download] ", ""),
+            f"错误信息: {fail_info}",
         )  # 写入下载失败的日志信息
-        return video_url
+        return video_url, fail_info
 
 
 # 视频完整下载模块
@@ -95,7 +106,7 @@ def dl_full_video(
     cookies=None,
     playlist_num=None,
 ):
-    if download_video(
+    video_id_failed, fail_info = download_video(
         video_url,
         output_dir,
         output_format,
@@ -105,21 +116,23 @@ def dl_full_video(
         sesuffix,
         cookies,
         playlist_num,
-    ):
-        return video_url
+    )
+    if video_id_failed:
+        return video_url, fail_info
     duration_video = get_duration(
         f"channel_audiovisual/{output_dir}/{video_url}{sesuffix}.{output_format}"
     )  # 获取已下载视频的实际时长
     if abs(id_duration - duration_video) <= 1:  # 检查实际时长与预计时长是否一致
-        return None
+        return None, None
     if duration_video:
+        fail_info = f"不完整({id_duration}|{duration_video}"
         write_log(
-            f"{video_write_log} \033[31m下载失败\033[0m\n错误信息: 不完整({id_duration}|{duration_video})"
+            f"{video_write_log} \033[31m下载失败\033[0m\n错误信息: {fail_info})"
         )
         os.remove(
             f"channel_audiovisual/{output_dir}/{video_url}{sesuffix}.{output_format}"
         )  # 删除不完整的视频
-    return video_url
+    return video_url, fail_info
 
 
 # 视频重试下载模块
@@ -136,7 +149,7 @@ def dl_retry_video(
     cookies=None,
     playlist_num=None,
 ):
-    video_id_failed = dl_full_video(
+    video_id_failed, fail_info = dl_full_video(
         video_url,
         output_dir,
         output_format,
@@ -151,6 +164,13 @@ def dl_retry_video(
     # 下载失败后重复尝试下载视频
     video_id_count = 0
     while video_id_count < retry_count and video_id_failed:
+        if (
+            fail_info == "unable to download video data: HTTP Error 403: Forbidden"
+            and cookies is None
+            and "www.youtube.com" in video_website
+            and gVar.youtube_cookie
+        ):
+            cookies = "channel_data/yt_dlp_youtube.txt"
         video_id_count += 1
         write_log(f"{video_write_log} 第\033[34m{video_id_count}\033[0m次重新下载")
         video_id_failed = dl_full_video(
@@ -261,7 +281,7 @@ def dl_aideo_video(
                 stream = ffmpeg.output(
                     audio, video, output_file, vcodec="copy", acodec="copy"
                 )
-                ffmpeg.run(stream)
+                ffmpeg.run(stream, quiet=True)
                 print(" \033[32m合成成功\033[0m")
                 # 删除临时文件
                 os.remove(f"channel_audiovisual/{output_dir}/{video_url}.part.mp4")

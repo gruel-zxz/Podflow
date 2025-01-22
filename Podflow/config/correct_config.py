@@ -96,3 +96,8 @@ def correct_config():
         config["delete_incompletement"], bool
     ):
         config["delete_incompletement"] = default_config["delete_incompletement"]
+    # 对remove_media进行纠正
+    if "remove_media" not in config or not isinstance(
+        config["remove_media"], bool
+    ):
+        config["remove_media"] = default_config["remove_media"]

@@ -18,7 +18,8 @@ default_config = {
     "category": "TV &amp; Film",  # 博客类型
     "token": "",  # token认证, 如为null或""将不启用token
     "delete_incompletement": False,  # 是否删除下载中断媒体(下载前处理流程)
-    "channelid_youtube": {
+    "remove_media": True,  # 是否删除无用的媒体文件
+    "channelid_youtube": {  # Youtube频道列表
         "youtube": {
             "update_size": 15,  # 每次获取频道媒体数量
             "id": "UCBR8-60-B28hp2BmDPdntcQ",  # 频道ID
@@ -32,7 +33,7 @@ default_config = {
             "BackwardUpdate": False,  # 是否向后更新
             "BackwardUpdate_size": 3,  # 向后更新数量(仅在BackwardUpdate为True时有效)
             "want_retry_count": 8,  # 媒体获取失败后多少次后重试(小于等于该数量时将一直重试)
-            "title_change": [  # 标题文本修改(默认为无, 可多个条件， 以列表形式存在)
+            "title_change": [  # 标题文本修改(默认为无, 可多个条件，以列表形式存在)
                 {  # match和url参数至少有一个, 如都有将同时生效
                     "mode": "add-left",  # 修改模式(add-left: 开头添加, add-right: 结尾添加, replace: 内容替换)
                     "match": "",  # 需要匹配的规则(为正则表达式)
@@ -49,7 +50,7 @@ default_config = {
             "NoShorts": False,  # 是否不下载Shorts媒体
         },
     },
-    "channelid_bilibili": {
+    "channelid_bilibili": {  # 哔哩哔哩频道列表
         "哔哩哔哩弹幕网": {
             "update_size": 25,
             "id": "8047632",

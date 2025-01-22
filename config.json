@@ -140,7 +140,7 @@
             "BackwardUpdate_size": 1
         }
     },
-    "retry_count": 2,
+    "retry_count": 5,
     "link": "m.youtube.com",
     "url": "https://b53p1tjw-5000.usw3.devtunnels.ms/",
     "port": 8080,
@@ -150,5 +150,6 @@
     "icon": "https://raw.githubusercontent.com/gruel-zxz/podflow/main/Podflow_dark.png",
     "title": "Podflow",
     "port_in_url": false,
-    "httpfs": true
+    "httpfs": true,
+    "remove_media": false
 }

@@ -75,7 +75,8 @@ default_config = {
     "category": "TV &amp; Film",  # 博客类型
     "token": "",  # token认证, 如为null或""将不启用token
     "delete_incompletement": False,  # 是否删除下载中断媒体(下载前处理流程)
-    "channelid_youtube": {
+    "remove_media": True,  # 是否删除无用的媒体文件
+    "channelid_youtube": {  # Youtube频道列表
         "youtube": {
             "update_size": 15,  # 每次获取频道媒体数量
             "id": "UCBR8-60-B28hp2BmDPdntcQ",  # 频道ID
@@ -89,7 +90,7 @@ default_config = {
             "BackwardUpdate": False,  # 是否向后更新
             "BackwardUpdate_size": 3,  # 向后更新数量(仅在BackwardUpdate为True时有效)
             "want_retry_count": 8,  # 媒体获取失败后多少次后重试(小于等于该数量时将一直重试)
-            "title_change": [  # 标题文本修改(默认为无, 可多个条件， 以列表形式存在)
+            "title_change": [  # 标题文本修改(默认为无, 可多个条件，以列表形式存在)
                 {  # match和url参数至少有一个, 如都有将同时生效
                     "mode": "add-left",  # 修改模式(add-left: 开头添加, add-right: 结尾添加, replace: 内容替换)
                     "match": "",  # 需要匹配的规则(为正则表达式)
@@ -106,7 +107,7 @@ default_config = {
             "NoShorts": False,  # 是否不下载Shorts媒体
         },
     },
-    "channelid_bilibili": {
+    "channelid_bilibili": {  # 哔哩哔哩频道列表
         "哔哩哔哩弹幕网": {
             "update_size": 25,
             "id": "8047632",
@@ -581,7 +582,7 @@ def convert_bytes(byte_size, units=None, outweigh=1024):
     return f"{byte_size:.2f}{units[unit_index]}"
 
 # 删除下载失败媒体模块
-def delete_part_files_in_directory(channelid_ids):
+def delete_part(channelid_ids):
     relative_path = "channel_audiovisual"
     parent_folder_path = os.path.abspath(relative_path)
     for root, dirnames, filenames in os.walk(parent_folder_path):
@@ -780,6 +781,7 @@ def media_format(video_website, video_url, media="m4a", quality="480", cookies=N
         r"Failed to extract play info; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U": ["\033[31mInfo失败\033[0m", "text"],
         r"This is a supporter-only video: 该视频为「专属视频」专属视频，开通「[0-9]+元档包月充电」即可观看\. Use --cookies-from-browser or --cookies for the authentication\. See  https://github\.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies": ["\033[31m充电专属\033[0m", "regexp"],
         r"'.+' does not look like a Netscape format cookies file": ["\033[31mCookie错误\033[0m", "regexp"],
+        r"Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies": ["\033[31m需登录\033[0m", "text"],
     }
     def fail_message_initialize(fail_message, error_reason):
         for key, value in error_reason.items():
@@ -977,10 +979,16 @@ def download_video(
         "throttled_rate": "70K",  # 设置最小下载速率为:字节/秒
     }
     if cookies:
-        ydl_opts["http_headers"] = {
-            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
-            "Referer": "https://www.bilibili.com/",
-        }
+        if "www.bilibili.com" in video_website:
+            ydl_opts["http_headers"] = {
+                "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
+                "Referer": "https://www.bilibili.com/",
+            }
+        elif "www.youtube.com" in video_website:
+            ydl_opts["http_headers"] = {
+                "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
+                "Referer": "https://www.youtube.com/",
+            }
         ydl_opts["cookiefile"] = cookies  # cookies 是你的 cookies 文件名
     if playlist_num:  # 播放列表的第n个视频
         ydl_opts["playliststart"] = playlist_num
@@ -988,16 +996,20 @@ def download_video(
     try:
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
             ydl.download([f"{video_website}"])  # 下载指定视频链接的视频
+        return None, None
     except Exception as download_video_error:
-        write_log(
-            f"{video_write_log} \033[31m下载失败\033[0m", None, True, True, (f"错误信息: {str(download_video_error)}")
+        fail_info = (
+            str(download_video_error)
             .replace("ERROR: ", "")
             .replace("\033[0;31mERROR:\033[0m ", "")
             .replace(f"{video_url}: ", "")
             .replace("[youtube] ", "")
             .replace("[download] ", "")
+        )
+        write_log(
+            f"{video_write_log} \033[31m下载失败\033[0m", None, True, True, f"错误信息: {fail_info}"
         )  # 写入下载失败的日志信息
-        return video_url
+        return video_url, fail_info
 
 # 视频完整下载模块
 def dl_full_video(
@@ -1012,7 +1024,7 @@ def dl_full_video(
     cookies=None,
     playlist_num=None,
 ):
-    if download_video(
+    video_id_failed, fail_info = download_video(
         video_url,
         output_dir,
         output_format,
@@ -1022,21 +1034,23 @@ def dl_full_video(
         sesuffix,
         cookies,
         playlist_num,
-    ):
-        return video_url
+    )
+    if video_id_failed:
+        return video_url, fail_info
     duration_video = get_duration_ffmpeg(
         f"channel_audiovisual/{output_dir}/{video_url}{sesuffix}.{output_format}"
     )  # 获取已下载视频的实际时长
     if abs(id_duration - duration_video) <= 1:  # 检查实际时长与预计时长是否一致
-        return None
+        return None, None
     if duration_video:
+        fail_info = f"不完整({id_duration}|{duration_video}"
         write_log(
-            f"{video_write_log} \033[31m下载失败\033[0m\n错误信息: 不完整({id_duration}|{duration_video})"
+            f"{video_write_log} \033[31m下载失败\033[0m\n错误信息: {fail_info})"
         )
         os.remove(
             f"channel_audiovisual/{output_dir}/{video_url}{sesuffix}.{output_format}"
         )  # 删除不完整的视频
-    return video_url
+    return video_url, fail_info
 
 # 视频重试下载模块
 def dl_retry_video(
@@ -1052,7 +1066,7 @@ def dl_retry_video(
     cookies=None,
     playlist_num=None,
 ):
-    video_id_failed = dl_full_video(
+    video_id_failed, fail_info = dl_full_video(
         video_url,
         output_dir,
         output_format,
@@ -1067,6 +1081,13 @@ def dl_retry_video(
     # 下载失败后重复尝试下载视频
     video_id_count = 0
     while video_id_count < retry_count and video_id_failed:
+        if (
+            fail_info == "unable to download video data: HTTP Error 403: Forbidden"
+            and cookies is None
+            and "www.youtube.com" in video_website
+            and youtube_cookie
+        ):
+            cookies = "channel_data/yt_dlp_youtube.txt"
         video_id_count += 1
         write_log(f"{video_write_log} 第\033[34m{video_id_count}\033[0m次重新下载")
         video_id_failed = dl_full_video(
@@ -1174,7 +1195,7 @@ def dl_aideo_video(
                 video = ffmpeg.input(video_file)
                 audio = ffmpeg.input(audio_file)
                 stream = ffmpeg.output(audio, video, output_file, vcodec='copy', acodec='copy')
-                ffmpeg.run(stream)
+                ffmpeg.run(stream, quiet=True)
                 print(" \033[32m合成成功\033[0m")
                 # 删除临时文件
                 os.remove(f"channel_audiovisual/{output_dir}/{video_url}.part.mp4")
@@ -1342,6 +1363,11 @@ def correct_config():
         config["delete_incompletement"], bool
     ):
         config["delete_incompletement"] = default_config["delete_incompletement"]
+    # 对remove_media进行纠正
+    if "remove_media" not in config or not isinstance(
+        config["remove_media"], bool
+    ):
+        config["remove_media"] = default_config["remove_media"]
 
 # 获取日出日落并判断昼夜模块
 def http_day_and_night(latitude, longitude):
@@ -2723,7 +2749,7 @@ def update_youtube_bilibili_rss():
     pattern_youtube404 = r"Error 404 \(Not Found\)"  # 设置要匹配的正则表达式模式
     pattern_youtube_error = {
         "This channel was removed because it violated our Community Guidelines.": "违反社区准则",
-        "This channel does not exist.": "不存在（ID错误）",
+        "This channel does not exist.": "不存在 (ID错误) ",
     }
     pattern_youtube_varys = [
         r"[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-2][0-9]:[0-6][0-9]:[0-6][0-9]\+00:00",
@@ -2908,20 +2934,22 @@ def get_youtube_and_bilibili_video_format(id, stop_flag, video_format_lock, prep
         video_id_update_format[id]["quality"],
         video_id_update_format[id]["cookie"],
     )
-    if "年龄限制" in id_update_format:
-        if youtube_cookie:
-            video_id_update_format[id]["cookie"] = "channel_data/yt_dlp_youtube.txt"
-            id_update_format = media_format(
-                video_id_update_format[id]["url"],
-                id,
-                video_id_update_format[id]["media"],
-                video_id_update_format[id]["quality"],
-                video_id_update_format[id]["cookie"],
-            )
-            if "年龄限制" in id_update_format:
-                id_update_format = "\x1b[31m年龄限制\x1b[0m(Cookies错误)"
-        else:
-            id_update_format = "\x1b[31m年龄限制\x1b[0m(需要Cookies)"
+    for fail_info in ["年龄限制", "需登录"]:
+        if fail_info in id_update_format:
+            if youtube_cookie:
+                video_id_update_format[id]["cookie"] = "channel_data/yt_dlp_youtube.txt"
+                id_update_format = media_format(
+                    video_id_update_format[id]["url"],
+                    id,
+                    video_id_update_format[id]["media"],
+                    video_id_update_format[id]["quality"],
+                    video_id_update_format[id]["cookie"],
+                )
+                if fail_info in id_update_format:
+                    id_update_format = f"\x1b[31m{fail_info}\x1b[0m(Cookies错误)"
+            else:
+                id_update_format = f"\x1b[31m{fail_info}\x1b[0m(需要Cookies)"
+            break
     if video_id_update_format[id]["power"] is True and (
             "试看" in id_update_format
             or id_update_format == "无法获取音频ID"
@@ -3608,7 +3636,6 @@ def youtube_xml_items(output_dir):
     )
     return items
 
-
 # 生成哔哩哔哩对应channel的需更新的items模块
 def bilibili_xml_items(output_dir):
     content_id, items_counts = get_file_list(output_dir, channelid_bilibili[channelid_bilibili_ids[output_dir]]["media"])
@@ -3940,20 +3967,22 @@ def make_up_file_format_mod():
             make_up_file_format[video_id]["quality"],
             make_up_file_format[video_id]["cookie"],
         )
-        if  "年龄限制" in makeup_id_format:
-            if youtube_cookie:
-                make_up_file_format[video_id]["cookie"] = "channel_data/yt_dlp_youtube.txt"
-                makeup_id_format = media_format(
-                    make_up_file_format[video_id]["url"],
-                    make_up_file_format[video_id]["main"],
-                    make_up_file_format[video_id]["media"],
-                    make_up_file_format[video_id]["quality"],
-                    make_up_file_format[video_id]["cookie"],
-                )
-                if  "年龄限制" in makeup_id_format:
-                    makeup_id_format = "\x1b[31m年龄限制\x1b[0m(Cookies错误)"
-            else:
-                makeup_id_format = "\x1b[31m年龄限制\x1b[0m(需要Cookies)"
+        for fail_info in ["年龄限制", "需登录"]:
+            if fail_info in makeup_id_format:
+                if youtube_cookie:
+                    make_up_file_format[video_id]["cookie"] = "channel_data/yt_dlp_youtube.txt"
+                    makeup_id_format = media_format(
+                        make_up_file_format[video_id]["url"],
+                        make_up_file_format[video_id]["main"],
+                        make_up_file_format[video_id]["media"],
+                        make_up_file_format[video_id]["quality"],
+                        make_up_file_format[video_id]["cookie"],
+                    )
+                    if fail_info in makeup_id_format:
+                        makeup_id_format = f"\x1b[31m{fail_info}\x1b[0m(Cookies错误)"
+                else:
+                    makeup_id_format = f"\x1b[31m{fail_info}\x1b[0m(需要Cookies)"
+                break
         if isinstance(makeup_id_format, list):
             if len(makeup_id_format) == 1:
                 entry_id_makeup_format = makeup_id_format[0]
@@ -4272,7 +4301,7 @@ while update_num > 0 or update_num == -1:  # 循环主更新
         cherry_print()
         # 删除中断下载的媒体文件
         if config["delete_incompletement"]:
-            delete_part_files_in_directory(channelid_youtube_ids | channelid_bilibili_ids)
+            delete_part(channelid_youtube_ids | channelid_bilibili_ids)
         # 暂停进程打印
         server_process_print_flag[0] = "pause"
         # 下载YouTube和哔哩哔哩视频
@@ -4289,10 +4318,11 @@ while update_num > 0 or update_num == -1:  # 循环主更新
         create_main_rss()
         # 恢复进程打印
         cherry_print()
-        # 删除不在rss中的媒体文件
-        remove_file()
-        # 删除已抛弃的媒体文件夹
-        remove_dir()
+        if config["remove_media"]:
+            # 删除不在rss中的媒体文件
+            remove_file()
+            # 删除已抛弃的媒体文件夹
+            remove_dir()
         # 补全缺失媒体文件到字典
         make_up_file()
         # 按参数获取需要补全的最大个数
