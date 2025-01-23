@@ -16,7 +16,7 @@ def positive_int(value):
 def parse_arguments():
     # 创建 ArgumentParser 对象
     parser = argparse.ArgumentParser(
-        description="you can try: python Podflow.py -n 24 -d 3600"
+        description="you can try: Podflow -n 24 -d 3600"
     )
     # 参数
     parser.add_argument(
@@ -58,7 +58,7 @@ def parse_arguments():
         metavar="URL",
         help="only shortcuts can be work",
     )
-    parser.add_argument("--file", nargs="?", help=argparse.SUPPRESS)
+    parser.add_argument("--file", nargs="?", help=argparse.SUPPRESS)  # 仅运行在ipynb中
     parser.add_argument("--httpfs", action="store_true", help=argparse.SUPPRESS)
     # 解析参数
     args = parser.parse_args()

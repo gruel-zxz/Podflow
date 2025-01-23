@@ -41,7 +41,7 @@ parser.add_argument("-d", "--delay", type=positive_int, default=1500, metavar="N
 parser.add_argument("-c", "--config", type=str, default="config.json", metavar='FILE_PATH', help="path to the config.json file")
 parser.add_argument("-p", "--period", type=positive_int, metavar="NUM", default=1, help="Specify the update frequency (unit: times/day), default value is 1")
 parser.add_argument("--shortcuts", nargs="*", type=str, metavar="URL", help="only shortcuts can be work")
-parser.add_argument("--file", nargs='?', help=argparse.SUPPRESS)
+parser.add_argument("--file", nargs='?', help=argparse.SUPPRESS)  # 仅运行在ipynb中
 parser.add_argument("--httpfs", action='store_true', help=argparse.SUPPRESS)
 # 解析参数
 args = parser.parse_args()
