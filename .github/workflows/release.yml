@@ -1,3 +1,6 @@
+permissions:
+  contents: write
+
 name: Create Daily Release
 
 on:
@@ -53,7 +56,6 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           tag_name: ${{ env.VERSION }}  # 使用生成的版本号
-          release_name: Release ${{ env.VERSION }}
           body: |
             Automated release created for version ${{ env.VERSION }}.
           files: |
