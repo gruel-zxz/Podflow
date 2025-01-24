@@ -28,7 +28,7 @@ jobs:
 
     - name: Publish to PyPI
       env:
-        TWINE_USERNAME: ${{ secrets.PYPI_USERNAME }}
-        TWINE_PASSWORD: ${{ secrets.PYPI_PASSWORD }}
+        TWINE_USERNAME: __token__  # 这是固定的，PyPI API Token 的用户名总是 __token__
+        TWINE_PASSWORD: ${{ secrets.PYPI_TOKEN }}  # 这里是你在 GitHub Secrets 中存储的 API 令牌
       run: |
         twine upload dist/*
