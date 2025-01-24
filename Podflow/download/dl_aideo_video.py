@@ -6,9 +6,10 @@ from datetime import datetime
 import ffmpeg
 import yt_dlp
 from Podflow import gVar
-from Podflow.basic.get_duration import get_duration
 from Podflow.basic.write_log import write_log
+from Podflow.basic.get_duration import get_duration
 from Podflow.download.show_progress import show_progress
+from Podflow.message.fail_message_initialize import fail_message_initialize
 
 
 # 下载视频模块
@@ -82,7 +83,9 @@ def download_video(
             .replace(f"{video_url}: ", "")
             .replace("[youtube] ", "")
             .replace("[download] ", "")
+            .replace("[BiliBili] ", "")
         )
+        fail_info = fail_message_initialize(fail_info)
         write_log(
             f"{video_write_log} \033[31m下载失败\033[0m",
             None,
@@ -165,7 +168,11 @@ def dl_retry_video(
     video_id_count = 0
     while video_id_count < retry_count and video_id_failed:
         if (
-            fail_info == "unable to download video data: HTTP Error 403: Forbidden"
+            (
+                "需登录" in fail_info
+                or "请求拒绝" in fail_info
+                or "年龄限制" in fail_info
+            )
             and cookies is None
             and "www.youtube.com" in video_website
             and gVar.youtube_cookie

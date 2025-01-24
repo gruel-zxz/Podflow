@@ -1,6 +1,6 @@
 # Podflow
 
-<img src='./Podflow.png' alt='logo' style='width: 150px; height: 150px;'/>
+<img src='https://raw.githubusercontent.com/gruel-zxz/podflow/main/Podflow.png' alt='logo' style='width: 150px; height: 150px;'/>
 
 建立Podcast服务器，用于下载YouTube和哔哩哔哩的音视频并导入到Podcast中。
 

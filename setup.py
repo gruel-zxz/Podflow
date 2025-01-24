@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="Podflow",
-    version="20250123-1",
+    version="20250124",
     author="gruel_zxz",
     author_email="zhuxizhouzxz@gmail.com",
     description="A podcast server that includes YouTube and BiliBili",
@@ -16,6 +16,9 @@ setup(
     entry_points={
         'console_scripts': [
             'Podflow=Podflow.main:main',
+            'podflow=Podflow.main:main',
+            'PodFlow=Podflow.main:main',
+            'PODFLOW=Podflow.main:main',
         ],
     },
     classifiers=[
@@ -28,7 +31,7 @@ setup(
         "astral>=3.2",
         "bottle>=0.13.2",
         "qrcode>=8.0",
-        "yt-dlp>=2024.12.13",
+        "yt-dlp>=2025.1.15",
         "chardet>=5.2.0",
         "cherrypy>=18.10.0",
         "requests>=2.32.3",
