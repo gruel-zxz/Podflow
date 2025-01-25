@@ -2,6 +2,7 @@
 # coding: utf-8
 
 import os
+import re
 from datetime import datetime
 import ffmpeg
 import yt_dlp
@@ -85,7 +86,12 @@ def download_video(
             .replace("[download] ", "")
             .replace("[BiliBili] ", "")
         )
-        fail_info = fail_message_initialize(fail_info)
+        change_error = fail_message_initialize(fail_info)
+        if change_error:
+            if change_error[2] == "text":
+                fail_info = fail_info.replace(f"{change_error[0]}", change_error[1])
+            else:
+                fail_info = re.sub(rf"{change_error[0]}", change_error[1], fail_info)
         write_log(
             f"{video_write_log} \033[31m下载失败\033[0m",
             None,
@@ -179,7 +185,10 @@ def dl_retry_video(
         ):
             cookies = "channel_data/yt_dlp_youtube.txt"
         video_id_count += 1
-        write_log(f"{video_write_log} 第\033[34m{video_id_count}\033[0m次重新下载")
+        if cookies:
+            write_log(f"{video_write_log} 第\033[34m{video_id_count}\033[0m次重新下载  🍪")
+        else:
+            write_log(f"{video_write_log} 第\033[34m{video_id_count}\033[0m次重新下载")
         video_id_failed = dl_full_video(
             video_url,
             output_dir,
