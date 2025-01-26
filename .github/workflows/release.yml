@@ -47,7 +47,7 @@ jobs:
           count=$(jq "[.[] | select(.tag_name | startswith(\"$date\"))] | length" releases.json)
           new_version="${date}"
           if [ "$count" -gt 0 ]; then
-            new_version="${new_version}-$(($count + 1))"
+            new_version="${new_version}.post$(($count))"
           fi
           echo "VERSION=$new_version" >> $GITHUB_ENV
 
