@@ -38,8 +38,9 @@ def download_video(
             msg = fail_message_initialize(msg, video_url)
             print(msg)
 
+    outtmpl = f"channel_audiovisual/{output_dir}/{video_url}{sesuffix}.{output_format}"
     ydl_opts = {
-        "outtmpl": f"channel_audiovisual/{output_dir}/{video_url}{sesuffix}.{output_format}",  # 输出文件路径和名称
+        "outtmpl": outtmpl,  # 输出文件路径和名称
         "format": f"{format_id}",  # 指定下载的最佳音频和视频格式
         "noprogress": True,
         "quiet": True,
@@ -68,12 +69,26 @@ def download_video(
         return None, None
     except Exception as download_video_error:
         fail_info = fail_message_initialize(download_video_error, video_url)
+        remove_info = ""
+        if fail_info in [
+            "\033[31m请求拒绝\033[0m",
+            "\033[31m数据不完整\033[0m",
+            "\033[31m传输中断\033[0m",
+            "\033[31m请求超时\033[0m",
+            "\033[31m响应超时\033[0m",
+        ]:
+            if os.path.isfile(outtmpl):
+                os.remove(outtmpl)
+                remove_info = "|已删除失败文件"
+            elif os.path.isfile(outtmpl + ".part"):
+                os.remove(outtmpl + ".part")
+                remove_info = "|已删除部分失败文件"
         write_log(
             f"{video_write_log} \033[31m下载失败\033[0m",
             None,
             True,
             True,
-            f"错误信息: {fail_info}",
+            f"错误信息: {fail_info}{remove_info}",
         )  # 写入下载失败的日志信息
         return video_url, fail_info
 
