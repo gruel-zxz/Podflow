@@ -20,12 +20,6 @@ Podflow可以使用以下命令进行安装
 pip install Podflow
 ```
 
-或直接下载`Podflow.py`脚本运行
-
-```
-curl https://raw.githubusercontent.com/gruel-zxz/podflow/main/Podflow.py
-```
-
 在iOS上可以使用[Shortcuts](<https://apps.apple.com/us/app/shortcuts/id915249334/>)运行Podflow, 需要用到[a-shell](<https://apps.apple.com/us/app/a-shell/id1473805438/>)
 和[捷径脚本](<https://www.icloud.com/shortcuts/54213ea7e46b4b21b7a0bce02f9c64a1/>)
 
@@ -39,18 +33,12 @@ curl https://raw.githubusercontent.com/gruel-zxz/podflow/main/Podflow.py
 | `--shortcuts`  |                   | `string`      | []              | 仅适用于捷径APP                                   |
 | `--httpfs`     |                   | `boolean`     | 无              | 仅启用服务器功能, 不更新频道                         |
 
-##### 使用示例
+### 使用示例
 
 你可以使用以下命令行格式来运行程序:
 
 ```
 Podflow -n 24 -d 3600
-```
-
-或使用脚本:
-
-```
-python3 Podflow.py -n 24 -d 3600
 ```
 
 ---

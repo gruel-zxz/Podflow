@@ -24,7 +24,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install setuptools wheel  # 可根据需要安装其他依赖
+          pip install setuptools wheel twine  # 添加 twine
 
       - name: Build the package
         run: python setup.py sdist bdist_wheel
@@ -62,3 +62,10 @@ jobs:
             dist/*
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 使用 GitHub 提供的令牌
+
+      - name: Publish to PyPI
+        run: |
+          python -m twine upload dist/*  # 上传到 PyPI
+        env:
+          TWINE_USERNAME: __token__  # 使用 __token__ 作为用户名
+          TWINE_PASSWORD: ${{ secrets.PYPI }}  # 从 Secrets 中获取 PyPI 令牌

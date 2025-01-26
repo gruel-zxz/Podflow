@@ -2,7 +2,6 @@
 # coding: utf-8
 
 import os
-import re
 from datetime import datetime
 import ffmpeg
 import yt_dlp
@@ -36,16 +35,7 @@ def download_video(
             pass
 
         def error(self, msg):
-            msg = (
-                msg.replace("ERROR: ", "")
-                .replace("\033[0;31mERROR:\033[0m ", "")
-                .replace(f"{video_url}: ", "")
-                .replace("[youtube] ", "")
-                .replace("[BiliBili] ", "")
-                .replace("[download] ", "")
-            )
-            if video_url[:2] == "BV":
-                msg = msg.replace(f"{video_url[2:]}: ", "")
+            msg = fail_message_initialize(msg, video_url)
             print(msg)
 
     ydl_opts = {
@@ -77,21 +67,7 @@ def download_video(
             ydl.download([f"{video_website}"])  # 下载指定视频链接的视频
         return None, None
     except Exception as download_video_error:
-        fail_info = (
-            str(download_video_error)
-            .replace("ERROR: ", "")
-            .replace("\033[0;31mERROR:\033[0m ", "")
-            .replace(f"{video_url}: ", "")
-            .replace("[youtube] ", "")
-            .replace("[download] ", "")
-            .replace("[BiliBili] ", "")
-        )
-        change_error = fail_message_initialize(fail_info)
-        if change_error:
-            if change_error[2] == "text":
-                fail_info = fail_info.replace(f"{change_error[0]}", change_error[1])
-            else:
-                fail_info = re.sub(rf"{change_error[0]}", change_error[1], fail_info)
+        fail_info = fail_message_initialize(download_video_error, video_url)
         write_log(
             f"{video_write_log} \033[31m下载失败\033[0m",
             None,
@@ -158,7 +134,7 @@ def dl_retry_video(
     cookies=None,
     playlist_num=None,
 ):
-    video_id_failed, fail_info = dl_full_video(
+    video_id_failed, _ = dl_full_video(
         video_url,
         output_dir,
         output_format,
@@ -174,19 +150,14 @@ def dl_retry_video(
     video_id_count = 0
     while video_id_count < retry_count and video_id_failed:
         if (
-            (
-                "需登录" in fail_info
-                or "请求拒绝" in fail_info
-                or "年龄限制" in fail_info
-            )
-            and cookies is None
+            cookies is None
             and "www.youtube.com" in video_website
             and gVar.youtube_cookie
         ):
             cookies = "channel_data/yt_dlp_youtube.txt"
         video_id_count += 1
         if cookies:
-            write_log(f"{video_write_log} 第\033[34m{video_id_count}\033[0m次重新下载  🍪")
+            write_log(f"{video_write_log} 第\033[34m{video_id_count}\033[0m次重新下载 🍪")
         else:
             write_log(f"{video_write_log} 第\033[34m{video_id_count}\033[0m次重新下载")
         video_id_failed = dl_full_video(

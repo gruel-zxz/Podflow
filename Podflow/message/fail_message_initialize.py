@@ -85,7 +85,18 @@ error_reason = {
 
 
 # 失败信息初始化模块
-def fail_message_initialize(fail_message):
+def fail_message_initialize(message_error, video_url):
+    fail_message = (
+        str(message_error)
+        .replace("ERROR: ", "")
+        .replace("\033[0;31mERROR:\033[0m ", "")
+        .replace(f"{video_url}: ", "")
+        .replace("[youtube] ", "")
+        .replace("[download] ", "")
+        .replace("[BiliBili] ", "")
+    )
+    if video_url[:2] == "BV":
+        fail_message = fail_message.replace(f"{video_url[2:]}: ", "")
     for key, value in error_reason.items():
         if (
             value[1] == "text"
@@ -93,4 +104,8 @@ def fail_message_initialize(fail_message):
             or value[1] != "text"
             and re.search(key, fail_message)
         ):
-            return [key, value[0], value[1]]
+            if value[1] == "text":
+                fail_message = fail_message.replace(f"{key}", value[0])
+            else:
+                fail_message = re.sub(rf"{key}", value[0], fail_message)
+    return fail_message

@@ -1,7 +1,6 @@
 # Podflow/message/media_format.py
 # coding: utf-8
 
-import re
 import yt_dlp
 from Podflow.message.fail_message_initialize import fail_message_initialize
 
@@ -76,16 +75,7 @@ def duration_and_formats(video_website, video_url, cookies):
                         }
                     )
     except Exception as message_error:
-        fail_message = (
-            (str(message_error))
-            .replace("ERROR: ", "")
-            .replace("\033[0;31mERROR:\033[0m ", "")
-            .replace(f"{video_url}: ", "")
-            .replace("[youtube] ", "")
-            .replace("[BiliBili] ", "")
-        )
-        if video_url[:2] == "BV":
-            fail_message = fail_message.replace(f"{video_url[2:]}: ", "")
+        fail_message = fail_message_initialize(message_error, video_url)
     return fail_message, infos
 
 
@@ -145,13 +135,6 @@ def media_format(video_website, video_url, media="m4a", quality="480", cookies=N
     ):
         video_id_count += 1
         fail_message, infos = duration_and_formats(video_website, video_url, cookies)
-        if fail_message:
-            change_error = fail_message_initialize(fail_message)
-    if change_error:
-        if change_error[2] == "text":
-            fail_message = fail_message.replace(f"{change_error[0]}", change_error[1])
-        else:
-            fail_message = re.sub(rf"{change_error[0]}", change_error[1], fail_message)
     if fail_message is not None:
         return fail_message
     lists = []
