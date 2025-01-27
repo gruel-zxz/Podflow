@@ -12,7 +12,7 @@ def write_log(
     suffix=None,
     display=True,
     time_display=True,
-    only_log=None,
+    only_log="",
     file_name="Podflow.log",
 ):
     # 获取当前的具体时间
