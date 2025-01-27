@@ -7,6 +7,7 @@ import time
 import urllib
 import subprocess
 from datetime import datetime
+from importlib.metadata import version
 import cherrypy
 
 # 基本功能模块
@@ -62,7 +63,7 @@ def main():
     # 获取传入的参数
     parse_arguments()
     # 开始运行
-    print(f"{datetime.now().strftime('%H:%M:%S')}|Podflow开始运行.....")
+    print(f"{datetime.now().strftime('%H:%M:%S')}|Podflow|{version('Podflow')}开始运行.....")
     # 判断是否安装ffmpeg
     ffmpeg_judge()
     # 初始化

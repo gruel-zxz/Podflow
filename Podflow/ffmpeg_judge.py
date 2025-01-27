@@ -3,6 +3,7 @@
 
 import sys
 import subprocess
+import shutil
 from Podflow.basic.write_log import write_log
 
 
@@ -28,9 +29,14 @@ def ffmpeg_judge():
     sudo dnf install ffmpeg\033[0m
     检查FFmpeg版本:
     \033[32mffmpeg -version\033[0m"""
+
+    # 使用 shutil.which 检查 ffmpeg 是否安装
+    if shutil.which("ffmpeg") is None:
+        error_ffmpeg_judge(ffmpeg_worry)
+
     try:
         # 执行 ffmpeg 命令获取版本信息
-        result = subprocess.run(["ffmpeg", "-version"], capture_output=True, text=True)
+        result = subprocess.run(["ffmpeg", "-version"], capture_output=True, text=True, check=True)
         output = result.stdout.lower()
         # 检查输出中是否包含 ffmpeg 版本信息
         if "ffmpeg version" not in output:
