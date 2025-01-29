@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="podflow",
-    version="2025.1.26",
+    version="20250129",
     author="gruel_zxz",
     author_email="zhuxizhouzxz@gmail.com",
     description="A podcast server that includes YouTube and BiliBili",
@@ -31,7 +31,7 @@ setup(
         "astral>=3.2",
         "bottle>=0.13.2",
         "qrcode>=8.0",
-        "yt-dlp>=2025.1.15",
+        "yt-dlp>=2025.1.26",
         "chardet>=5.2.0",
         "cherrypy>=18.10.0",
         "requests>=2.32.3",
