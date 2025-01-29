@@ -6,7 +6,7 @@ name: Create Daily Release
 on:
   push:
     branches:
-      - main  # 监听 main 分支的推送
+      - main
 
 jobs:
   release:
@@ -19,24 +19,24 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: '3.8'  # 指定 Python 版本
+          python-version: '3.8'
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install setuptools wheel twine requests  # 添加 twine
+          pip install setuptools wheel twine requests jq
 
       - name: Build the package
         run: python setup.py sdist bdist_wheel
 
       - name: Get today's date
         id: get_date
-        run: echo "DATE=$(date +'%Y%m%d')" >> $GITHUB_ENV  # 设置日期格式为 YYYYMMDD
+        run: echo "DATE=$(date +'%Y%m%d')" >> $GITHUB_ENV
 
       - name: Get existing releases
         id: get_releases
         run: |
-          releases=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+          releases=$(curl -s -H "Authorization: token ${{ secrets.GH_PAT }}" \
           "https://api.github.com/repos/${{ github.repository }}/releases")
           echo "$releases" > releases.json
 
@@ -45,28 +45,36 @@ jobs:
         run: |
           date="${{ env.DATE }}"
           count=$(jq "[.[] | select(.tag_name | startswith(\"$date\"))] | length" releases.json)
-          new_version="${date}"
+          new_version="$date"
           if [ "$count" -gt 0 ]; then
-            new_version="${new_version}.(($count))"
+            new_version="${new_version}.$((count))"
           fi
-          python update_version.py "$new_version"
           echo "VERSION=$new_version" >> $GITHUB_ENV
+          python update_version.py "$new_version"
+
+      - name: Delete existing tag if needed
+        run: |
+          existing_tag=$(git tag -l "${{ env.VERSION }}")
+          if [ -n "$existing_tag" ]; then
+            git push origin --delete "${{ env.VERSION }}"
+            git tag -d "${{ env.VERSION }}"
+          fi
 
       - name: Create Release
         id: create_release
         uses: softprops/action-gh-release@v1
         with:
-          tag_name: ${{ env.VERSION }}  # 使用生成的版本号
+          tag_name: ${{ env.VERSION }}
           body: |
             Automated release created for version ${{ env.VERSION }}.
           files: |
             dist/*
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 使用 GitHub 提供的令牌
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
 
       - name: Publish to PyPI
         run: |
-          python -m twine upload dist/*  # 上传到 PyPI
+          python -m twine upload dist/*
         env:
-          TWINE_USERNAME: __token__  # 使用 __token__ 作为用户名
-          TWINE_PASSWORD: ${{ secrets.PYPI }}  # 从 Secrets 中获取 PyPI 令牌
+          TWINE_USERNAME: __token__
+          TWINE_PASSWORD: ${{ secrets.PYPI }}
