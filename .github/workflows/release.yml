@@ -14,48 +14,43 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v2
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v2
         with:
           python-version: '3.8'  # 指定 Python 版本
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install setuptools wheel twine requests
-
-      - name: Generate version and update setup.py
-        id: version
-        run: |
-          DATE=$(date +'%Y%m%d')
-          releases=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-            "https://api.github.com/repos/${{ github.repository }}/releases")
-          count=$(echo "$releases" | jq "[.[] | select(.tag_name | startswith(\"$DATE\"))] | length")
-          new_version="$DATE"
-          if [ "$count" -gt 0 ]; then
-            new_version="${new_version}.${count}"
-          fi
-          python update_version.py "$new_version"
-          echo "VERSION=$new_version" >> $GITHUB_ENV
-
-      - name: Check for changes
-        run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-          git add setup.py
-          if git commit -m "chore: Auto update version to ${{ env.VERSION }}" --allow-empty; then
-            git push
-          else
-            echo "No changes to commit"
-          fi
+          pip install setuptools wheel twine requests  # 添加 twine
 
       - name: Build the package
         run: python setup.py sdist bdist_wheel
 
-      - name: List distribution files  # Optional: Check that files are created
-        run: ls dist
+      - name: Get today's date
+        id: get_date
+        run: echo "DATE=$(date +'%Y%m%d')" >> $GITHUB_ENV  # 设置日期格式为 YYYYMMDD
+
+      - name: Get existing releases
+        id: get_releases
+        run: |
+          releases=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+          "https://api.github.com/repos/${{ github.repository }}/releases")
+          echo "$releases" > releases.json
+
+      - name: Determine version number
+        id: determine_version
+        run: |
+          date="${{ env.DATE }}"
+          count=$(jq "[.[] | select(.tag_name | startswith(\"$date\"))] | length" releases.json)
+          new_version="${date}"
+          if [ "$count" -gt 0 ]; then
+            new_version="${new_version}.(($count))"
+          fi
+          python update_version.py "$new_version"
+          echo "VERSION=$new_version" >> $GITHUB_ENV
 
       - name: Create Release
         id: create_release
@@ -71,7 +66,7 @@ jobs:
 
       - name: Publish to PyPI
         run: |
-          twine upload dist/*  # 上传到 PyPI
+          python -m twine upload dist/*  # 上传到 PyPI
         env:
           TWINE_USERNAME: __token__  # 使用 __token__ 作为用户名
           TWINE_PASSWORD: ${{ secrets.PYPI }}  # 从 Secrets 中获取 PyPI 令牌
