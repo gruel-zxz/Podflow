@@ -24,7 +24,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install setuptools wheel twine
+          pip install setuptools wheel twine requests
 
       - name: Generate version and update setup.py
         id: version

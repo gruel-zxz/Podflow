@@ -35,7 +35,7 @@ def download_video(
             pass
 
         def error(self, msg):
-            msg = fail_message_initialize(msg, video_url)
+            msg = fail_message_initialize(msg, video_url).ljust(45)
             print(msg)
 
     outtmpl = f"channel_audiovisual/{output_dir}/{video_url}{sesuffix}.{output_format}"
@@ -68,15 +68,16 @@ def download_video(
             ydl.download([f"{video_website}"])  # 下载指定视频链接的视频
         return None, None
     except Exception as download_video_error:
-        fail_info = fail_message_initialize(download_video_error, video_url)
+        fail_info = fail_message_initialize(download_video_error, video_url).replace("\n","")
         remove_info = ""
         if fail_info in [
+            "",
             "\033[31m请求拒绝\033[0m",
             "\033[31m数据不完整\033[0m",
             "\033[31m传输中断\033[0m",
             "\033[31m请求超时\033[0m",
             "\033[31m响应超时\033[0m",
-        ]:
+        ] and "www.youtube.com" in video_website:
             if os.path.isfile(outtmpl):
                 os.remove(outtmpl)
                 remove_info = "|已删除失败文件"

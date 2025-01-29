@@ -15,61 +15,73 @@ from Podflow.basic.list_merge_tidy import list_merge_tidy
 
 # 从YouTube播放列表获取更新模块
 def get_youtube_html_playlists(
-    youtube_key,
-    youtube_value,
-    guids=[""],
-    direction_forward=True,
-    update_size=20,
-    youtube_content_ytid_original=[],
+    youtube_key,  # YouTube 频道的唯一标识
+    youtube_value,  # YouTube 账户或其他标识信息
+    guids=None,  # 视频 ID 列表（用于比较已有视频）
+    direction_forward=True,  # 控制获取方向，默认向前获取新的视频
+    update_size=20,  # 更新数量限制，最多获取 20 个新视频
+    youtube_content_ytid_original=None,  # 原始 YouTube 视频 ID 列表
 ):
-    idlist = []
-    item = {}
-    threads = []
-    fail = []
-    try:
-        videoid_start = guids[0] if direction_forward else guids[-1]
-    except IndexError:
-        videoid_start = ""
+    idlist = []  # 存储新获取的 YouTube 视频 ID
+    item = {}  # 存储视频信息（标题、描述、封面等）
+    threads = []  # 线程列表，用于并发获取视频详细信息
+    fail = []  # 存储获取失败的视频 ID
 
-    # 获取媒体相关信息模块
+    if guids is None:
+        guids = [""]
+    if youtube_content_ytid_original is None:
+        youtube_content_ytid_original = []
+
+    try:
+        videoid_start = guids[0] if direction_forward else guids[-1]  # 获取起始视频 ID
+    except IndexError:
+        videoid_start = ""  # 处理空列表情况，避免 IndexError
+
+    # 获取视频详细信息的内部函数
     def get_video_item(videoid, youtube_value):
         yt_Initial_Player_Response = get_html_dict(
             f"https://www.youtube.com/watch?v={videoid}",
             f"{youtube_value}|{videoid}",
             "ytInitialPlayerResponse",
-        )
+        )  # 解析 YouTube 页面，获取视频信息
         if not yt_Initial_Player_Response:
-            return None
+            return None  # 若获取失败，则返回 None
+
         try:
             player_Microformat_Renderer = yt_Initial_Player_Response["microformat"][
                 "playerMicroformatRenderer"
             ]
         except (KeyError, TypeError, IndexError, ValueError):
-            player_Microformat_Renderer = {}
-            fail.append(videoid)
+            player_Microformat_Renderer = {}  # 解析失败时，返回空字典
+            fail.append(videoid)  # 记录失败的视频 ID
+
         if player_Microformat_Renderer:
             try:
                 item[videoid]["description"] = player_Microformat_Renderer[
                     "description"
                 ]["simpleText"]
             except (KeyError, TypeError, IndexError, ValueError):
-                item[videoid]["description"] = ""
-            item[videoid]["pubDate"] = player_Microformat_Renderer["publishDate"]
+                item[videoid]["description"] = ""  # 若没有描述，则置为空
+            item[videoid]["pubDate"] = player_Microformat_Renderer[
+                "publishDate"
+            ]  # 获取发布时间
             item[videoid]["image"] = player_Microformat_Renderer["thumbnail"][
                 "thumbnails"
-            ][0]["url"]
+            ][0]["url"]  # 获取封面图
             with contextlib.suppress(KeyError, TypeError, IndexError, ValueError):
-                fail.remove(videoid)
+                fail.remove(videoid)  # 若成功获取，则从失败列表中移除
         else:
-            return None
+            return None  # 若无有效数据，返回 None
 
+    # 获取播放列表数据
     yt_initial_data = get_html_dict(
         f"https://www.youtube.com/watch?v={videoid_start}&list=UULF{youtube_key[-22:]}",
         f"{youtube_value} HTML",
         "ytInitialData",
-    )
+    )  # 解析 YouTube 播放列表页面，获取数据
     if not yt_initial_data:
-        return None
+        return None  # 若获取失败，则返回 None
+
     try:
         playlists = yt_initial_data["contents"]["twoColumnWatchNextResults"][
             "playlist"
@@ -78,74 +90,70 @@ def get_youtube_html_playlists(
             "playlist"
         ]["playlist"]["ownerName"]["simpleText"]
     except (KeyError, TypeError, IndexError, ValueError):
-        return None
+        return None  # 若解析失败，返回 None
+
+    # 若方向是向前获取（最新视频）或没有起始视频 ID
     if direction_forward or not videoid_start:
         for playlist in playlists:
-            videoid = playlist["playlistPanelVideoRenderer"]["videoId"]
+            videoid = playlist["playlistPanelVideoRenderer"]["videoId"]  # 提取视频 ID
             if (
                 playlist["playlistPanelVideoRenderer"]["navigationEndpoint"][
                     "watchEndpoint"
                 ]["index"]
                 == update_size
             ):
-                break
-            if videoid not in guids:
-                title = playlist["playlistPanelVideoRenderer"]["title"]["simpleText"]
-                idlist.append(videoid)
-                item[videoid] = {
-                    "title": title,
-                    "yt-dlp": True,
-                }
-                if videoid in youtube_content_ytid_original:
-                    item[videoid]["yt-dlp"] = False
+                break  # 如果达到更新上限，则停止
+            if videoid not in guids:  # 确保视频 ID 不是已存在的
+                title = playlist["playlistPanelVideoRenderer"]["title"][
+                    "simpleText"
+                ]  # 获取视频标题
+                idlist.append(videoid)  # 添加到 ID 列表
+                item[videoid] = {"title": title, "yt-dlp": True}  # 记录视频信息
+                if videoid in youtube_content_ytid_original:  # 若视频已在原始列表中
+                    item[videoid]["yt-dlp"] = False  # 标记为已存在
                     item_thread = threading.Thread(
-                        target=get_video_item,
-                        args=(
-                            videoid,
-                            youtube_value,
-                        ),
-                    )
+                        target=get_video_item, args=(videoid, youtube_value)
+                    )  # 启动线程获取详细信息
                     item_thread.start()
                     threads.append(item_thread)
-    else:
+    else:  # 处理向后获取（获取较旧的视频）
         reversed_playlists = []
         for playlist in reversed(playlists):
             videoid = playlist["playlistPanelVideoRenderer"]["videoId"]
             if videoid not in guids:
-                reversed_playlists.append(playlist)
+                reversed_playlists.append(playlist)  # 收集未存在的旧视频
             else:
-                break
+                break  # 如果找到已存在的视频 ID，则停止
+
         for playlist in reversed(reversed_playlists[-update_size:]):
             videoid = playlist["playlistPanelVideoRenderer"]["videoId"]
             title = playlist["playlistPanelVideoRenderer"]["title"]["simpleText"]
             idlist.append(videoid)
-            item[videoid] = {
-                "title": title,
-                "yt-dlp": True,
-            }
+            item[videoid] = {"title": title, "yt-dlp": True}
             if videoid in youtube_content_ytid_original:
                 item[videoid]["yt-dlp"] = False
                 item_thread = threading.Thread(
-                    target=get_video_item,
-                    args=(
-                        videoid,
-                        youtube_value,
-                    ),
+                    target=get_video_item, args=(videoid, youtube_value)
                 )
                 item_thread.start()
                 threads.append(item_thread)
+
     for thread in threads:
-        thread.join()
+        thread.join()  # 等待所有线程完成
+
+    # 处理获取失败的视频
     for videoid in fail:
-        get_video_item(videoid, youtube_value)
-    if fail:
+        get_video_item(videoid, youtube_value)  # 重新尝试获取失败的视频
+
+    if fail:  # 如果仍然有失败的视频
         if direction_forward or not videoid_start:
             for videoid in fail:
                 print(
                     f"{datetime.now().strftime('%H:%M:%S')}|{youtube_value}|{videoid} HTML无法更新, 将不获取"
                 )
-                idlist.remove(videoid)
-                del item[videoid]
+                if videoid in idlist:
+                    idlist.remove(videoid)  # 安全地移除视频 ID，避免 `ValueError`
+                del item[videoid]  # 删除对应的字典项
         else:
             print(
                 f"{datetime.now().strftime('%H:%M:%S')}|{youtube_value} HTML有失败只更新部分"
@@ -153,12 +161,14 @@ def get_youtube_html_playlists(
             index = len(idlist)
             for videoid in fail:
                 if videoid in idlist:
-                    index = min(idlist.index(videoid), index)
-            idlist_fail = idlist[index:]
-            idlist = idlist[:index]
+                    index = min(idlist.index(videoid), index)  # 计算最早失败视频的索引
+            idlist_fail = idlist[index:]  # 截取失败的视频 ID 列表
+            idlist = idlist[:index]  # 只保留成功的视频 ID
             for videoid in idlist_fail:
-                idlist.remove(videoid)
-    return {"list": idlist, "item": item, "title": main_title}
+                if videoid in idlist:
+                    idlist.remove(videoid)  # 安全删除失败视频 ID
+
+    return {"list": idlist, "item": item, "title": main_title}  # 返回最终结果
 
 
 def get_youtube_shorts_id(youtube_key, youtube_value):

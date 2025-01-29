@@ -21,6 +21,7 @@ from Podflow.message.xml_original_item import xml_original_item
 def get_youtube_introduction():
     # 创建线程锁
     youtube_xml_get_lock = threading.Lock()
+
     # 使用http获取youtube频道简介和图标模块
     def youtube_xml_get(output_dir):
         if channel_about := http_client(
@@ -47,6 +48,7 @@ def get_youtube_introduction():
             ).group()
             with youtube_xml_get_lock:
                 gVar.youtube_xml_get_tree[output_dir] = xml_tree
+
     # 创建线程列表
     youtube_xml_get_threads = []
     for output_dir in gVar.channelid_youtube_ids_update:
@@ -67,26 +69,43 @@ def get_youtube_playlist(url, channelid_title):
             0
         ]["tabRenderer"]["content"]["sectionListRenderer"]["contents"][0][
             "itemSectionRenderer"
-        ][
-            "contents"
-        ][
-            0
-        ][
-            "playlistVideoListRenderer"
-        ][
-            "contents"
-        ]
+        ]["contents"][0]["playlistVideoListRenderer"]["contents"]
         videoids.extend(
             content["playlistVideoRenderer"]["videoId"] for content in contents
         )
     return videoids
 
 
+# 从HTML获取YouTube媒体信息模块
+def youtube_html_guid_message(guid):
+    ytInitialPlayerResponse = get_html_dict(
+        f"https://www.youtube.com/watch?v={guid}",
+        f"{guid} HTML",
+        "ytInitialPlayerResponse",
+    )
+    try:
+        image = ytInitialPlayerResponse["microformat"]["playerMicroformatRenderer"][
+            "thumbnail"
+        ]["thumbnails"][0]["url"]
+        title = ytInitialPlayerResponse["microformat"]["playerMicroformatRenderer"][
+            "title"
+        ]["simpleText"]
+        description = ytInitialPlayerResponse["microformat"][
+            "playerMicroformatRenderer"
+        ]["description"]["simpleText"]
+        published = ytInitialPlayerResponse["microformat"]["playerMicroformatRenderer"][
+            "publishDate"
+        ]
+        return published, image, title, description
+    except KeyError:
+        return None
+
+
 # 生成YouTube的item模块
 def youtube_xml_item(entry, title_change=None):
     if title_change is None:
         title_change = {}
-    # sourcery skip: avoid-builtin-shadow
+
     # 输入时间字符串和原始时区
     time_str = re.search(r"(?<=<published>).+(?=</published>)", entry).group()
     pubDate = format_time(time_str)
@@ -115,14 +134,21 @@ def get_xml_item(guid, item, channelid_title, title_change, output_dir):
     video_website = f"https://youtube.com/watch?v={guid}"
     if item["yt-dlp"]:
         guid_value = gVar.video_id_update_format[guid]
-        title = html.escape(guid_value["title"])
-        description = html.escape(re.sub(r"\n+", "\n", guid_value["description"]))
-        timestamp = guid_value["timestamp"]
-        published = datetime.fromtimestamp(timestamp, timezone.utc).strftime(
-            "%Y-%m-%dT%H:%M:%S%z"
-        )
+        if timestamp := guid_value["timestamp"]:
+            published = datetime.fromtimestamp(timestamp, timezone.utc).strftime(
+                "%Y-%m-%dT%H:%M:%S%z"
+            )
+            title = guid_value["title"]
+            description = guid_value["description"]
+            image = guid_value["image"]
+        elif guid_message := youtube_html_guid_message(guid):
+            published, image, title, description = guid_message
+        else:
+            return None
+        title = html.escape(title)
+        description = html.escape(re.sub(r"\n+", "\n", description))
+        image = re.sub(r"\?.*$", "", image)
         pubDate = format_time(published)
-        image = re.sub(r"\?.*$", "", guid_value["image"])
     else:
         title = html.escape(item["title"])
         description = html.escape(re.sub(r"\n+", "\n", item["description"]))
@@ -164,16 +190,16 @@ def youtube_xml_items(output_dir):
         for guid in output_dir_value["content"]["list"]:
             if guid not in gVar.video_id_failed:
                 item = output_dir_value["content"]["item"][guid]
-                xml_item_text = get_xml_item(
+                if xml_item_text := get_xml_item(
                     guid, item, channelid_title, title_change, output_dir
-                )
-                items_list.append(f"{xml_item_text}<!-- {output_dir} -->")
-                entry_num += 1
-                if (
-                    gVar.video_id_update_format[guid]["description"]
-                    and gVar.video_id_update_format[guid]["description"][0] == "『"
                 ):
-                    original_judgment = False
+                    items_list.append(f"{xml_item_text}<!-- {output_dir} -->")
+                    entry_num += 1
+                    if (
+                        gVar.video_id_update_format[guid]["description"]
+                        and gVar.video_id_update_format[guid]["description"][0] == "『"
+                    ):
+                        original_judgment = False
     else:
         if output_dir_value["type"] == "html":  # 获取最新的rss信息
             file_xml = output_dir_value["content"].text
@@ -217,14 +243,14 @@ def youtube_xml_items(output_dir):
         for backward_guid in backward["list"]:
             if backward_guid not in gVar.video_id_failed:
                 backward_item = backward["item"][backward_guid]
-                backward_xml_item_text = get_xml_item(
+                if backward_xml_item_text := get_xml_item(
                     backward_guid,
                     backward_item,
                     channelid_title,
                     title_change,
                     output_dir,
-                )
-                items_list.append(f"{backward_xml_item_text}<!-- {output_dir} -->")
+                ):
+                    items_list.append(f"{backward_xml_item_text}<!-- {output_dir} -->")
     # 生成对应xml
     try:
         with open(
