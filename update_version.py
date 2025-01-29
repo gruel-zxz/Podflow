@@ -35,9 +35,9 @@ def update_setup_version(new_version: str):
 
     if yt_dlp_num := get_version_num("yt-dlp"):
         new_content = re.sub(
-            r"version=\".+\"",
-            f'version="{yt_dlp_num}"',
-            content,
+            r"\"yt-dlp>=.+\"",
+            f'"yt-dlp>={yt_dlp_num}"',
+            new_content,
             flags=re.MULTILINE,
         )
 
