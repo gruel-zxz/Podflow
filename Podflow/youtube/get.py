@@ -75,7 +75,7 @@ def get_youtube_html_playlists(
 
     # 获取播放列表数据
     yt_initial_data = get_html_dict(
-        f"https://www.youtube.com/watch?v={videoid_start}&list=UULF{youtube_key[-22:]}",
+        f"https://www.youtube.com/watch?v={videoid_start}&list=UU{youtube_key[-22:]}",
         f"{youtube_value} HTML",
         "ytInitialData",
     )  # 解析 YouTube 播放列表页面，获取数据
