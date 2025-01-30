@@ -21,7 +21,7 @@ pip install Podflow
 ```
 
 在iOS上可以使用[Shortcuts](<https://apps.apple.com/us/app/shortcuts/id915249334/>)运行Podflow, 需要用到[a-shell](<https://apps.apple.com/us/app/a-shell/id1473805438/>)
-和[捷径脚本](<https://www.icloud.com/shortcuts/54213ea7e46b4b21b7a0bce02f9c64a1/>)
+和[捷径脚本](<https://www.icloud.com/shortcuts/a6d27c888d604cefa1dac1a58ddfb6d3/>)
 
 ### 命令行参数说明
 
