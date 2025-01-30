@@ -35,7 +35,7 @@ def download_video(
             pass
 
         def error(self, msg):
-            msg = fail_message_initialize(msg, video_url).ljust(45)
+            msg = fail_message_initialize(msg, video_url).ljust(48)
             print(msg)
 
     outtmpl = f"channel_audiovisual/{output_dir}/{video_url}{sesuffix}.{output_format}"
