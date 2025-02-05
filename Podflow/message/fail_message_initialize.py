@@ -135,7 +135,7 @@ error_reason = [
         "text",
     ],
     [
-        r"Got error: HTTPSConnectionPool\(host='rr4---sn-.{8}\.googlevideo.com', port=443\): Read timed out\.",
+        r"Got error: HTTPSConnectionPool\(host='rr[0-9]---sn-.{8}\.googlevideo.com', port=443\): Read timed out\.",
         "\033[31m响应超时\033[0m",
         "regexp",
     ],

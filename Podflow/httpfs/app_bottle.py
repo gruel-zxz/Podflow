@@ -75,9 +75,11 @@ class bottle_app:
         if flag_judgment:
             gVar.server_process_print_flag[0] = "keep"
         if (
-            gVar.server_process_print_flag[0] == "keep" and self.bottle_print
+            gVar.server_process_print_flag[0] == "keep"
+            and self.bottle_print
         ):  # 如果设置为保持输出, 则打印日志
-            print("\n".join(self.bottle_print))
+            for info_print in self.bottle_print:
+                print(info_print)
             self.bottle_print.clear()
 
     # 主路由处理根路径请求
