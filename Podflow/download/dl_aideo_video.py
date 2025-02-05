@@ -176,7 +176,7 @@ def dl_retry_video(
             write_log(f"{video_write_log} 第\033[34m{video_id_count}\033[0m次重新下载 🍪")
         else:
             write_log(f"{video_write_log} 第\033[34m{video_id_count}\033[0m次重新下载")
-        video_id_failed = dl_full_video(
+        video_id_failed, _ = dl_full_video(
             video_url,
             output_dir,
             output_format,
