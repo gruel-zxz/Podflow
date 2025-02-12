@@ -144,9 +144,9 @@ def bilibili_xml_items(output_dir):
             )
             if item["description"] and item["description"][0] == "『":
                 original_judgment = False
-            entry_num += 1
-            if entry_num >= channelid_bilibili_value["update_size"]:
-                break
+        entry_num += 1
+        if entry_num >= channelid_bilibili_value["update_size"]:
+            break
     items_guid = re.findall(r"(?<=<guid>).+?(?=</guid>)", "".join(items_list))
     # 存量接入
     entry_count = channelid_bilibili_value["last_size"] - len(items_guid)

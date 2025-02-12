@@ -19,6 +19,7 @@ default_config = {
     "token": "",  # token认证, 如为null或""将不启用token
     "delete_incompletement": False,  # 是否删除下载中断媒体(下载前处理流程)
     "remove_media": True,  # 是否删除无用的媒体文件
+    "upload": False,  # 是否将长期媒体进行上传
     "channelid_youtube": {  # Youtube频道列表
         "youtube": {
             "update_size": 15,  # 每次获取频道媒体数量
@@ -100,9 +101,7 @@ class Application_gVar:
         self.channelid_bilibili_ids_update = {}  # 需更新的哔哩哔哩频道字典
         self.bilibili_content_bvid_update = {}  # 需下载哔哩哔哩视频字典
         self.channelid_bilibili_rss = {}  # 哔哩哔哩频道最新Rss Response字典
-        self.bilibili_content_bvid_backward_update = (
-            {}
-        )  # 向后更新需下载哔哩哔哩视频字典
+        self.bilibili_content_bvid_backward_update = {}  # 向后更新需下载哔哩哔哩视频字典
         self.video_id_failed = []  # YouTube&哔哩哔哩视频下载失败列表
         self.video_id_update_format = {}  # YouTube和哔哩哔哩视频下载的详细信息字典
         self.hash_rss_original = ""  # 原始rss哈希值文本
@@ -115,6 +114,8 @@ class Application_gVar:
         self.overall_rss = ""  # 更新后的rss文本
         self.make_up_file_format = {}  # 补全缺失媒体字典
         self.make_up_file_format_fail = {}  # 补全缺失媒体失败字典
+        
+        self.upload_original = {}  # 原始上传信息字典
 
         self.shortcuts_url = {}  # 输出至shortcut的url字典
 

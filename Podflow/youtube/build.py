@@ -194,7 +194,6 @@ def youtube_xml_items(output_dir):
                     guid, item, channelid_title, title_change, output_dir
                 ):
                     items_list.append(f"{xml_item_text}<!-- {output_dir} -->")
-                    entry_num += 1
                     if (
                         gVar.video_id_update_format[guid]["description"]
                         and gVar.video_id_update_format[guid]["description"][0] == "『"
@@ -214,9 +213,9 @@ def youtube_xml_items(output_dir):
                 items_list.append(
                     f"{youtube_xml_item(entry, title_change)}<!-- {output_dir} -->"
                 )
-                entry_num += 1
                 if re.search(r"(?<=<media:description>)『", entry):
                     original_judgment = False
+            entry_num += 1
             if entry_num >= update_size:
                 break
     items_guid = re.findall(r"(?<=<guid>).+?(?=</guid>)", "".join(items_list))

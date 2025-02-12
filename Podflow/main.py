@@ -58,12 +58,17 @@ from Podflow.remove.remove_dir import remove_dir
 # 处理 YouTube 信息模块
 from Podflow.youtube.build import get_youtube_introduction
 
+# 长期媒体进行上传模块
+from Podflow.upload.get_upload_original import get_upload_original
+
 
 def main():
     # 获取传入的参数
     parse_arguments()
     # 开始运行
-    print(f"{datetime.now().strftime('%H:%M:%S')}|Podflow|{version('Podflow')}开始运行.....")
+    print(
+        f"{datetime.now().strftime('%H:%M:%S')}|Podflow|{version('Podflow')}开始运行....."
+    )
     # 判断是否安装ffmpeg
     ffmpeg_judge()
     # 初始化
@@ -116,6 +121,12 @@ def main():
         gVar.xmls_original, gVar.hash_rss_original, gVar.xmls_original_fail = (
             get_original_rss()
         )
+        # 初始化原始上传信息
+        if gVar.config["upload"]:
+            if upload_original := get_upload_original():
+                gVar.upload_original = upload_original
+            else:
+                gVar.config["upload"] = False
         # 更新Youtube和哔哩哔哩频道xml
         update_youtube_bilibili_rss()
         # 判断是否有更新内容

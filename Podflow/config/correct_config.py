@@ -101,3 +101,8 @@ def correct_config():
         config["remove_media"], bool
     ):
         config["remove_media"] = default_config["remove_media"]
+    # 对upload进行纠正
+    if "upload" not in config or not isinstance(
+        config["upload"], bool
+    ):
+        config["upload"] = default_config["upload"]

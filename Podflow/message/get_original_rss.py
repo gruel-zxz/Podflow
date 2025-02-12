@@ -48,7 +48,9 @@ def get_original_rss():
         get_xmls_original = {}
         rss_original = ""
     # 如原始xml无对应的原频道items, 将尝试从对应频道的xml中获取
-    for channelid_key in (gVar.channelid_youtube_ids | gVar.channelid_bilibili_ids).keys():
+    for channelid_key in (
+        gVar.channelid_youtube_ids | gVar.channelid_bilibili_ids
+    ).keys():
         if channelid_key not in get_xmls_original.keys():
             try:
                 with open(

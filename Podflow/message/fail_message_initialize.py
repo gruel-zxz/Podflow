@@ -135,7 +135,7 @@ error_reason = [
         "text",
     ],
     [
-        r"Got error: HTTPSConnectionPool\(host='rr[0-9]---sn-.{8}\.googlevideo.com', port=443\): Read timed out\.",
+        r"Got error: HTTPSConnectionPool\(host='rr[0-9]---sn-.{8}\.googlevideo.com', port=443\): Read timed out\. \(read timeout=20\.0\)",
         "\033[31m响应超时\033[0m",
         "regexp",
     ],
@@ -144,6 +144,8 @@ error_reason = [
 
 # 失败信息初始化模块
 def fail_message_initialize(message_error, video_url):
+    if video_url[:2] == "BV":
+        video_url = video_url[:12]
     fail_message = (
         str(message_error)
         .replace("ERROR: ", "")

@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="podflow",
-    version="20250205",
+    version="20250211-2",
     author="gruel_zxz",
     author_email="zhuxizhouzxz@gmail.com",
     description="A podcast server that includes YouTube and BiliBili",
@@ -37,6 +37,6 @@ setup(
         "requests>=2.32.3",
         "pycryptodome>=3.21.0",
         "ffmpeg-python>=0.2.0",
-        "BeautifulSoup4>=4.12.3",
+        "BeautifulSoup4>=4.13.3",
     ],
 )

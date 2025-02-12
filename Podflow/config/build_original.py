@@ -6,8 +6,8 @@ from Podflow.config.get_config import get_config
 from Podflow.basic.folder_build import folder_build
 from Podflow.config.get_channelid import get_channelid
 from Podflow.config.correct_config import correct_config
-from Podflow.config.correct_channelid import correct_channelid
 from Podflow.config.get_channelid_id import get_channelid_id
+from Podflow.config.correct_channelid import correct_channelid
 
 
 def build_original():
