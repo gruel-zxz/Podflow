@@ -16,6 +16,7 @@ def http_client(
     cookies=None,
     data=None,
     mode="get",
+    filename=None
 ):
     user_agent = {
         "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36"
@@ -52,8 +53,12 @@ def http_client(
         session.params.update(data)
     for num in range(max_retries):
         try:
-            if mode != "post":
+            if mode.lower() != "post":
                 response = session.get(url, timeout=8)
+            elif filename:
+                with open(filename, "rb") as f:
+                    files = {"file": f}  # 这里 "file" 对应服务器端接收文件的字段名称
+                    response = session.post(url, files=files, timeout=8)
             else:
                 response = session.post(url, timeout=8)
             response.raise_for_status()
@@ -64,7 +69,10 @@ def http_client(
                 print(
                     f"{datetime.now().strftime('%H:%M:%S')}|{name}|\033[31m连接异常重试中...\033[97m{num + 1}\033[0m"
                 )
-            err = f":\n{str(http_get_error)}" if err else ""
+            if err:
+                err = f"{err}\n{str(http_get_error)}"
+            else:
+                err = f":\n{str(http_get_error)}"
         else:
             return response
         time.sleep(retry_delay)

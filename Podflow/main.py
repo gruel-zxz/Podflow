@@ -13,9 +13,6 @@ import cherrypy
 # 基本功能模块
 from Podflow import gVar, parse
 from Podflow.parse_arguments import parse_arguments
-from Podflow.basic.file_save import file_save
-from Podflow.basic.qr_code import qr_code
-from Podflow.basic.write_log import write_log
 from Podflow.basic.split_dict import split_dict
 
 # 网络和 HTTP 模块
@@ -28,8 +25,7 @@ from Podflow.download.youtube_and_bilibili_download import youtube_and_bilibili_
 from Podflow.ffmpeg_judge import ffmpeg_judge
 
 # RSS 和消息处理模块
-from Podflow.message.xml_rss import xml_rss
-from Podflow.message.backup_zip_save import backup_zip_save
+from Podflow.message.save_rss import save_rss
 from Podflow.message.create_main_rss import create_main_rss
 from Podflow.message.get_original_rss import get_original_rss
 from Podflow.message.original_rss_fail_print import original_rss_fail_print
@@ -49,7 +45,7 @@ from Podflow.config.build_original import build_original
 from Podflow.makeup.make_up_file import make_up_file
 from Podflow.makeup.make_up_file_mod import make_up_file_mod
 from Podflow.makeup.make_up_file_format_mod import make_up_file_format_mod
-from Podflow.makeup.del_makeup_yt_format_fail import del_makeup_yt_format_fail
+from Podflow.makeup.del_makeup_format_fail import del_makeup_format_fail
 
 # 移除模块
 from Podflow.remove.remove_file import remove_file
@@ -59,6 +55,8 @@ from Podflow.remove.remove_dir import remove_dir
 from Podflow.youtube.build import get_youtube_introduction
 
 # 长期媒体进行上传模块
+from Podflow.upload.add_upload import add_upload
+from Podflow.upload.update_upload import update_upload
 from Podflow.upload.get_upload_original import get_upload_original
 
 
@@ -122,11 +120,7 @@ def main():
             get_original_rss()
         )
         # 初始化原始上传信息
-        if gVar.config["upload"]:
-            if upload_original := get_upload_original():
-                gVar.upload_original = upload_original
-            else:
-                gVar.config["upload"] = False
+        get_upload_original()
         # 更新Youtube和哔哩哔哩频道xml
         update_youtube_bilibili_rss()
         # 判断是否有更新内容
@@ -161,6 +155,8 @@ def main():
             gVar.server_process_print_flag[0] = "pause"
             # 下载YouTube和哔哩哔哩视频
             youtube_and_bilibili_download()
+            # 添加新媒体至上传列表
+            add_upload()
             # 恢复进程打印
             bottle_app_instance.cherry_print()
             # 打印无法保留原节目信息
@@ -192,41 +188,18 @@ def main():
             make_up_file_format_mod()
             # 恢复进程打印
             bottle_app_instance.cherry_print()
-            # 生成主rss
-            overall_rss = xml_rss(
-                gVar.config["title"],
-                gVar.config["link"],
-                gVar.config["description"],
-                gVar.config["category"],
-                gVar.config["icon"],
-                "\n".join(gVar.all_items),
-            )
             # 删除无法补全的媒体
-            overall_rss = del_makeup_yt_format_fail(overall_rss)
-            # 保存主rss
-            file_save(overall_rss, f"{gVar.config['filename']}.xml")
+            del_makeup_format_fail()
             # 暂停进程打印
             gVar.server_process_print_flag[0] = "pause"
-            address = gVar.config["address"]
-            filename = gVar.config["filename"]
-            if token := gVar.config["token"]:
-                overall_url = f"{address}/{filename}.xml?token={token}"
-            else:
-                overall_url = f"{address}/{filename}.xml"
-            write_log("总播客已更新", f"地址:\n\033[34m{overall_url}\033[0m")
-            if "main" not in gVar.displayed_QRcode:
-                qr_code(overall_url)
-                gVar.displayed_QRcode.append("main")
-            # 恢复进程打印
-            bottle_app_instance.cherry_print()
-            # 备份主rss
-            backup_zip_save(overall_rss)
-            # 暂停进程打印
-            gVar.server_process_print_flag[0] = "pause"
+            # 保存rss文件模块
+            save_rss()
             # 下载补全Youtube和哔哩哔哩视频模块
             make_up_file_mod()
             # 恢复进程打印
             bottle_app_instance.cherry_print()
+            # 更新并保存上传列表
+            update_upload()
         else:
             print(f"{datetime.now().strftime('%H:%M:%S')}|频道无更新内容")
 

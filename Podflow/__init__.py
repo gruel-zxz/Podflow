@@ -110,12 +110,12 @@ class Application_gVar:
         self.youtube_xml_get_tree = {}  # YouTube频道简介和图标字典
         self.all_youtube_content_ytid = {}  # 所有YouTube视频id字典
         self.all_bilibili_content_bvid = {}  # 所有哔哩哔哩视频id字典
-        self.all_items = []  # 更新后所有item明细列表
+        self.all_items = {}  # 更新后所有item明细字典
         self.overall_rss = ""  # 更新后的rss文本
         self.make_up_file_format = {}  # 补全缺失媒体字典
         self.make_up_file_format_fail = {}  # 补全缺失媒体失败字典
         
-        self.upload_original = {}  # 原始上传信息字典
+        self.upload_original = []  # 原始上传信息字典
 
         self.shortcuts_url = {}  # 输出至shortcut的url字典
 

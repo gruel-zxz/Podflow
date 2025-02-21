@@ -139,6 +139,11 @@ error_reason = [
         "\033[31m响应超时\033[0m",
         "regexp",
     ],
+    [
+        r"Requested format is not available. Use --list-formats for a list of available formats",
+        "\033[31m格式不可用\033[0m",
+        "text",
+    ],
 ]
 
 

@@ -9,6 +9,7 @@ from Podflow.basic.write_log import write_log
 # 删除多余媒体文件模块
 def remove_file():
     channelid_youtube_ids = gVar.channelid_youtube_ids
+
     for output_dir, name in channelid_youtube_ids.items():
         for file_name in os.listdir(f"channel_audiovisual/{output_dir}"):
             if file_name not in gVar.all_youtube_content_ytid[output_dir]:

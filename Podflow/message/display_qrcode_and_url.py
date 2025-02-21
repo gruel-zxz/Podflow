@@ -9,9 +9,10 @@ from Podflow.basic.qr_code import qr_code
 # 显示网址及二维码模块
 def display_qrcode_and_url(
     output_dir,
-    channelid_video,
-    channelid_video_name,
-    channelid_video_ids_update,
+    display_rss_address,
+    qrcode,
+    name,
+    ids_update,
 ):
     address = gVar.config["address"]
     if token := gVar.config["token"]:
@@ -19,17 +20,14 @@ def display_qrcode_and_url(
     else:
         xml_url = f"{address}/channel_rss/{output_dir}.xml"
 
-    if channelid_video["DisplayRSSaddress"] or output_dir in channelid_video_ids_update:
-        update_text = "已更新" if output_dir in channelid_video_ids_update else "无更新"
+    if display_rss_address or output_dir in ids_update:
+        update_text = "已更新" if output_dir in ids_update else "无更新"
         print(
-            f"{datetime.now().strftime('%H:%M:%S')}|{channelid_video_name} 播客{update_text}|地址:\n\033[34m{xml_url}\033[0m"
+            f"{datetime.now().strftime('%H:%M:%S')}|{name} 播客{update_text}|地址:\n\033[34m{xml_url}\033[0m"
         )
     if (
-        (
-            channelid_video["DisplayRSSaddress"]
-            or output_dir in channelid_video_ids_update
-        )
-        and channelid_video["QRcode"]
+        (display_rss_address or output_dir in ids_update)
+        and qrcode
         and output_dir not in gVar.displayed_QRcode
     ):
         qr_code(xml_url)

@@ -8,7 +8,7 @@ from Podflow.basic.write_log import write_log
 from Podflow.message.media_format import media_format
 
 
-def makeup_yt_format(video_id, makeup_yt_format_lock):
+def makeup_format(video_id, makeup_format_lock):
     id_value = gVar.make_up_file_format[video_id]
     makeup_id_format = media_format(
         id_value["url"],
@@ -62,7 +62,7 @@ def makeup_yt_format(video_id, makeup_yt_format_lock):
                 }
             del gVar.make_up_file_format[video_id]
     else:
-        with makeup_yt_format_lock:
+        with makeup_format_lock:
             write_log(f"{id_value['name']}|{video_id}|{makeup_id_format}")
             gVar.make_up_file_format_fail[video_id] = id_value[
                 "id"
@@ -78,19 +78,19 @@ def make_up_file_format_mod():
             f"{datetime.now().strftime('%H:%M:%S')}|补全缺失媒体 \033[34m下载准备中...\033[0m"
         )
     # 创建线程锁
-    makeup_yt_format_lock = threading.Lock()
+    makeup_format_lock = threading.Lock()
     # 创建线程列表
-    makeup_yt_format_threads = []
+    makeup_format_threads = []
     for video_id in gVar.make_up_file_format:
         thread = threading.Thread(
-            target=makeup_yt_format,
+            target=makeup_format,
             args=(
                 video_id,
-                makeup_yt_format_lock,
+                makeup_format_lock,
             ),
         )
-        makeup_yt_format_threads.append(thread)
+        makeup_format_threads.append(thread)
         thread.start()
     # 等待所有线程完成
-    for thread in makeup_yt_format_threads:
+    for thread in makeup_format_threads:
         thread.join()

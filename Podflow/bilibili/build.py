@@ -193,9 +193,11 @@ def bilibili_xml_items(output_dir):
     items = f"""<!-- {{{output_dir}}} -->
 {items}
 <!-- {{{output_dir}}} -->"""
-    file_save(
-        xml_rss(title, link, description, category, icon, items),
-        f"{output_dir}.xml",
-        "channel_rss",
-    )
-    return items
+    return {
+        "title": title,
+        "link": link,
+        "description": description,
+        "category": category,
+        "icon": icon,
+        "items": items,
+    }
