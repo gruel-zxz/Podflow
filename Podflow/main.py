@@ -21,12 +21,11 @@ from Podflow.httpfs.app_bottle import bottle_app_instance
 
 # 下载和视频处理模块
 from Podflow.download.delete_part import delete_part
-from Podflow.download.youtube_and_bilibili_download import youtube_and_bilibili_download
+from Podflow.download_and_build import download_and_build
 from Podflow.ffmpeg_judge import ffmpeg_judge
 
 # RSS 和消息处理模块
 from Podflow.message.save_rss import save_rss
-from Podflow.message.create_main_rss import create_main_rss
 from Podflow.message.get_original_rss import get_original_rss
 from Podflow.message.original_rss_fail_print import original_rss_fail_print
 from Podflow.message.update_information_display import update_information_display
@@ -52,7 +51,7 @@ from Podflow.remove.remove_file import remove_file
 from Podflow.remove.remove_dir import remove_dir
 
 # 处理 YouTube 信息模块
-from Podflow.youtube.build import get_youtube_introduction
+from Podflow.youtube.build import print_fail_youtube_introduction
 
 # 长期媒体进行上传模块
 from Podflow.upload.add_upload import add_upload
@@ -153,22 +152,16 @@ def main():
                 delete_part(gVar.channelid_youtube_ids | gVar.channelid_bilibili_ids)
             # 暂停进程打印
             gVar.server_process_print_flag[0] = "pause"
-            # 下载YouTube和哔哩哔哩视频
-            youtube_and_bilibili_download()
+            # 下载并构建YouTube和哔哩哔哩视频
+            download_and_build()
             # 添加新媒体至上传列表
             add_upload()
             # 恢复进程打印
             bottle_app_instance.cherry_print()
             # 打印无法保留原节目信息
             original_rss_fail_print(gVar.xmls_original_fail)
-            # 获取YouTube频道简介
-            get_youtube_introduction()
-            # 暂停进程打印
-            gVar.server_process_print_flag[0] = "pause"
-            # 生成分和主rss
-            create_main_rss()
-            # 恢复进程打印
-            bottle_app_instance.cherry_print()
+            # 打印无法获取youtube频道简介
+            print_fail_youtube_introduction()
             if gVar.config["remove_media"]:
                 # 删除不在rss中的媒体文件
                 remove_file()

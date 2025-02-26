@@ -8,8 +8,6 @@ import contextlib
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from Podflow import gVar
-from Podflow.message.xml_rss import xml_rss
-from Podflow.basic.file_save import file_save
 from Podflow.message.xml_item import xml_item
 from Podflow.basic.http_client import http_client
 from Podflow.message.format_time import format_time
@@ -25,10 +23,9 @@ def get_youtube_introduction():
     # 使用http获取youtube频道简介和图标模块
     def youtube_xml_get(output_dir):
         if channel_about := http_client(
-            f"https://www.youtube.com/channel/{output_dir}/about",
-            f"{gVar.channelid_youtube_ids[output_dir]} 简介",
-            2,
-            5,
+            url=f"https://www.youtube.com/channel/{output_dir}/about",
+            max_retries=2,
+            retry_delay=5,
         ):
             channel_about = channel_about.text
             xml_tree = {
@@ -46,6 +43,8 @@ def get_youtube_introduction():
                 channel_about,
                 flags=re.DOTALL,
             ).group()
+        else:
+            xml_tree = False
             with youtube_xml_get_lock:
                 gVar.youtube_xml_get_tree[output_dir] = xml_tree
 
@@ -60,6 +59,15 @@ def get_youtube_introduction():
         thread.join()
 
 
+# 打印无法获取youtube频道简介模块
+def print_fail_youtube_introduction():
+    for output_dir, xml_tree in gVar.youtube_xml_get_tree:
+        if isinstance(xml_tree, bool) and not xml_tree:
+            print(
+                f"{datetime.now().strftime('%H:%M:%S')}|{gVar.channelid_youtube_ids[output_dir]} 简介获取失败"
+            )
+
+
 # 获取YouTube播放列表模块
 def get_youtube_playlist(url, channelid_title):
     videoids = []
@@ -69,7 +77,15 @@ def get_youtube_playlist(url, channelid_title):
             0
         ]["tabRenderer"]["content"]["sectionListRenderer"]["contents"][0][
             "itemSectionRenderer"
-        ]["contents"][0]["playlistVideoListRenderer"]["contents"]
+        ][
+            "contents"
+        ][
+            0
+        ][
+            "playlistVideoListRenderer"
+        ][
+            "contents"
+        ]
         videoids.extend(
             content["playlistVideoRenderer"]["videoId"] for content in contents
         )
@@ -262,12 +278,14 @@ def youtube_xml_items(output_dir):
     except Exception:  # 参数不存在直接更新
         description = gVar.config["description"]
         icon = gVar.config["icon"]
+    youtube_xml_get_tree = gVar.youtube_xml_get_tree
     if (
         output_dir in gVar.channelid_youtube_ids_update
-        and output_dir in gVar.youtube_xml_get_tree
+        and output_dir in youtube_xml_get_tree
+        and isinstance(youtube_xml_get_tree[output_dir], dict)
     ):
-        description = gVar.youtube_xml_get_tree[output_dir]["description"]
-        icon = gVar.youtube_xml_get_tree[output_dir]["icon"]
+        description = youtube_xml_get_tree[output_dir]["description"]
+        icon = youtube_xml_get_tree[output_dir]["icon"]
     category = gVar.config["category"]
     if output_dir_value["type"] == "dict":
         title = output_dir_value["content"]["title"]
