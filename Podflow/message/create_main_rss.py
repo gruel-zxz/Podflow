@@ -14,6 +14,7 @@ def update_output_dir():
         if (
             isinstance(format_value, dict)
             and format_value["main"] not in gVar.video_id_failed
+            and not format_value.get("finish",False)
         ):
             output_dirs.append(format_value["id"])
     return output_dirs
