@@ -35,7 +35,7 @@ setup(
         "chardet>=5.2.0",
         "cherrypy>=18.10.0",
         "requests>=2.32.3",
-        "pycryptodome>=3.21.0",
+        "pycryptodomex>=3.21.0",
         "ffmpeg-python>=0.2.0",
         "BeautifulSoup4>=4.13.3",
     ],

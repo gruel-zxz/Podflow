@@ -8,9 +8,9 @@ import re
 import time
 from datetime import datetime
 import requests
-from Crypto.Cipher import PKCS1_OAEP
-from Crypto.Hash import SHA256
-from Crypto.PublicKey import RSA
+from Cryptodome.Cipher import PKCS1_OAEP
+from Cryptodome.Hash import SHA256
+from Cryptodome.PublicKey import RSA
 from Podflow.basic.file_save import file_save
 from Podflow.basic.http_client import http_client
 from Podflow.basic.qr_code import qr_code
