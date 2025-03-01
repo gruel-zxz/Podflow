@@ -8,15 +8,21 @@ import re
 import time
 from datetime import datetime
 import requests
-from Cryptodome.Cipher import PKCS1_OAEP
-from Cryptodome.Hash import SHA256
-from Cryptodome.PublicKey import RSA
 from Podflow.basic.file_save import file_save
 from Podflow.basic.http_client import http_client
 from Podflow.basic.qr_code import qr_code
 from Podflow.basic.time_stamp import time_stamp
 from Podflow.basic.write_log import write_log
 from Podflow.netscape.bulid_netscape import bulid_netscape
+
+try:
+    from Cryptodome.Cipher import PKCS1_OAEP
+    from Cryptodome.Hash import SHA256
+    from Cryptodome.PublicKey import RSA
+except ImportError:
+    from Crypto.Cipher import PKCS1_OAEP
+    from Crypto.Hash import SHA256
+    from Crypto.PublicKey import RSA
 
 
 # 获取最新的img_key和sub_key模块
