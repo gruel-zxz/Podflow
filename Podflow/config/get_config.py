@@ -12,7 +12,7 @@ from Podflow.basic.write_log import write_log
 # 获取配置信息config模块
 def get_config(file_name="config.json"):
     # 检查当前文件夹中是否存在config文件
-    if file_name != "config.json" and not os.path.exists(file_name):
+    if not os.path.exists(file_name):
         if os.path.exists("config.json"):
             write_log(f"不存在配置文件{file_name}, 将使用原始配置文件")
             file_name = "config.json"
