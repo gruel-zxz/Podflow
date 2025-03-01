@@ -16,13 +16,13 @@ from Podflow.basic.write_log import write_log
 from Podflow.netscape.bulid_netscape import bulid_netscape
 
 try:
-    from Crypto.Cipher import PKCS1_OAEP
-    from Crypto.Hash import SHA256
-    from Crypto.PublicKey import RSA
-except Exception:
     from Cryptodome.Cipher import PKCS1_OAEP
     from Cryptodome.Hash import SHA256
     from Cryptodome.PublicKey import RSA
+except Exception:
+    from Crypto.Cipher import PKCS1_OAEP
+    from Crypto.Hash import SHA256
+    from Crypto.PublicKey import RSA
 
 
 # 获取最新的img_key和sub_key模块
