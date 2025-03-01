@@ -19,7 +19,7 @@ try:
     from Cryptodome.Cipher import PKCS1_OAEP
     from Cryptodome.Hash import SHA256
     from Cryptodome.PublicKey import RSA
-except ImportError:
+except Exception:
     from Crypto.Cipher import PKCS1_OAEP
     from Crypto.Hash import SHA256
     from Crypto.PublicKey import RSA
