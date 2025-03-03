@@ -30,11 +30,10 @@ setup(
     install_requires=[
         "astral>=3.2", 
         "bottle>=0.13.2",
-        "pillow>=11.1.0",
-        "qrcode>=8.0",
         "yt-dlp>=2025.2.19",
         "chardet>=5.2.0",
         "cherrypy>=18.10.0",
+        "pyqrcode>=1.2.1",
         "requests>=2.32.3",
         "pycryptodome>=3.21.0",
         "ffmpeg-python>=0.2.0",
