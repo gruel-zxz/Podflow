@@ -28,8 +28,9 @@ setup(
     ],
     python_requires=">=3.8",
     install_requires=[
-        "astral>=3.2",
+        "astral>=3.2", 
         "bottle>=0.13.2",
+        "pillow>=11.1.0",
         "qrcode>=8.0",
         "yt-dlp>=2025.2.19",
         "chardet>=5.2.0",
