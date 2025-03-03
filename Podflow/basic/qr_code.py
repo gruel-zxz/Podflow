@@ -10,7 +10,6 @@ def qr_code(data):
     qr = pyqrcode.create(
         data,
         error='L',  # 对应于ERROR_CORRECT_L，可选值: 'L','M','Q','H'
-        version=1,  # 指定版本
         mode='binary'  # 编码模式
     )
     # 获取QR码矩阵（作为二维数组）
