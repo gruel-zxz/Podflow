@@ -83,7 +83,7 @@ def bilibili_login():
     print(f"{datetime.now().strftime('%H:%M:%S')}|请用BiliBili App扫描登录:")
     upward = qr_code(url)
     login_status_change = ""
-    time_print = f"{datetime.now().strftime('%H:%M:%S')}|BiliBili "
+    time_text = f"{datetime.now().strftime('%H:%M:%S')}|BiliBili "
     while True:
         status, cookie, refresh_token = bilibili_scan_login(token)
         if status == 86101:
@@ -98,9 +98,9 @@ def bilibili_login():
             login_status = "\033[31m错误\033[0m"
         if login_status_change != login_status:
             if login_status == "":
-                print(f"{time_print}{login_status}".ljust(42), end="")
+                print(f"{time_text}{login_status}".ljust(42), end="")
             else:
-                print(f"\r{time_print}{login_status}".ljust(42), end="")
+                print(f"\r{time_text}{login_status}".ljust(42), end="")
         login_status_change = login_status
         if status == 86038:
             print("")
