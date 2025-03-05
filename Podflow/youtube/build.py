@@ -61,7 +61,7 @@ def get_youtube_introduction():
 
 # 打印无法获取youtube频道简介模块
 def print_fail_youtube_introduction():
-    for output_dir, xml_tree in gVar.youtube_xml_get_tree:
+    for output_dir, xml_tree in gVar.youtube_xml_get_tree.items():
         if isinstance(xml_tree, bool) and not xml_tree:
             print(
                 f"{datetime.now().strftime('%H:%M:%S')}|{gVar.channelid_youtube_ids[output_dir]} 简介获取失败"
