@@ -9,6 +9,7 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from Podflow import gVar
 from Podflow.message.xml_item import xml_item
+from Podflow.basic.time_print import time_print
 from Podflow.basic.http_client import http_client
 from Podflow.message.format_time import format_time
 from Podflow.basic.get_html_dict import get_html_dict
@@ -44,10 +45,9 @@ def get_youtube_introduction():
                 flags=re.DOTALL,
             ).group()
         else:
-            xml_tree = False
+            xml_tree = {"introduction": False}
             with youtube_xml_get_lock:
                 gVar.youtube_xml_get_tree[output_dir] = xml_tree
-
     # 创建线程列表
     youtube_xml_get_threads = []
     for output_dir in gVar.channelid_youtube_ids_update:
@@ -59,19 +59,19 @@ def get_youtube_introduction():
         thread.join()
 
 
-# 打印无法获取youtube频道简介模块
-def print_fail_youtube_introduction():
+# 打印无法获取youtube信息模块
+def print_fail_youtube():
     for output_dir, xml_tree in gVar.youtube_xml_get_tree.items():
-        if isinstance(xml_tree, bool) and not xml_tree:
-            print(
-                f"{datetime.now().strftime('%H:%M:%S')}|{gVar.channelid_youtube_ids[output_dir]} 简介获取失败"
-            )
+        if "introduction" in xml_tree:
+            time_print(f"{gVar.channelid_youtube_ids[output_dir]} 简介获取失败")
+        if "playlist" in xml_tree:
+            time_print(f"{gVar.channelid_youtube_ids[output_dir]} 播放列表获取失败") 
 
 
 # 获取YouTube播放列表模块
-def get_youtube_playlist(url, channelid_title):
+def get_youtube_playlist(url):
     videoids = []
-    ytInitialData = get_html_dict(url, f"{channelid_title}|播放列表", "ytInitialData")
+    ytInitialData = get_html_dict(url, "", "ytInitialData")
     with contextlib.suppress(KeyError):
         contents = ytInitialData["contents"]["twoColumnBrowseResultsRenderer"]["tabs"][
             0
@@ -197,9 +197,13 @@ def youtube_xml_items(output_dir):
     if title_change:
         for title_index, title_value in enumerate(title_change):
             if "url" in title_value:
-                title_change[title_index]["table"] = get_youtube_playlist(
-                    title_value["url"], channelid_title
-                )
+                title_index_table = get_youtube_playlist(title_value["url"])
+                title_change[title_index]["table"] = title_index_table
+                if not title_index_table:
+                    if output_dir in gVar.youtube_xml_get_tree:
+                        gVar.youtube_xml_get_tree[output_dir]["playlist"] = False
+                    else:
+                        gVar.youtube_xml_get_tree[output_dir] = {"playlist": False}
     output_dir_value = gVar.channelid_youtube_rss[output_dir]
     # 最新更新
     if output_dir_value["type"] == "dict":
@@ -282,7 +286,7 @@ def youtube_xml_items(output_dir):
     if (
         output_dir in gVar.channelid_youtube_ids_update
         and output_dir in youtube_xml_get_tree
-        and isinstance(youtube_xml_get_tree[output_dir], dict)
+        and "introduction" not in youtube_xml_get_tree[output_dir]
     ):
         description = youtube_xml_get_tree[output_dir]["description"]
         icon = youtube_xml_get_tree[output_dir]["icon"]
