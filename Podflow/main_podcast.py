@@ -7,6 +7,7 @@ import time
 import urllib
 import subprocess
 from datetime import datetime
+
 import cherrypy
 
 # 基本功能模块
@@ -18,17 +19,17 @@ from Podflow.httpfs.port_judge import port_judge
 from Podflow.httpfs.app_bottle import bottle_app_instance
 
 # 下载和视频处理模块
+from Podflow.ffmpeg_judge import ffmpeg_judge
 from Podflow.download.delete_part import delete_part
 from Podflow.download_and_build import download_and_build
-from Podflow.ffmpeg_judge import ffmpeg_judge
 
 # RSS 和消息处理模块
 from Podflow.message.save_rss import save_rss
 from Podflow.message.get_original_rss import get_original_rss
+from Podflow.message.get_video_format import get_video_format
 from Podflow.message.original_rss_fail_print import original_rss_fail_print
 from Podflow.message.update_information_display import update_information_display
 from Podflow.message.update_youtube_bilibili_rss import update_youtube_bilibili_rss
-from Podflow.message.get_video_format import get_video_format
 
 # 登录模块
 from Podflow.bilibili.login import get_bilibili_data
@@ -41,19 +42,20 @@ from Podflow.config.build_original import build_original
 # 制作和修改文件模块
 from Podflow.makeup.make_up_file import make_up_file
 from Podflow.makeup.make_up_file_mod import make_up_file_mod
-from Podflow.makeup.make_up_file_format_mod import make_up_file_format_mod
 from Podflow.makeup.del_makeup_format_fail import del_makeup_format_fail
+from Podflow.makeup.make_up_file_format_mod import make_up_file_format_mod
 
 # 移除模块
 from Podflow.remove.remove_file import remove_file
 from Podflow.remove.remove_dir import remove_dir
 
 # 处理 YouTube 信息模块
-from Podflow.youtube.build import print_fail_youtube_introduction
+from Podflow.youtube.build import print_fail_youtube
 
 # 长期媒体进行上传模块
 from Podflow.upload.add_upload import add_upload
 from Podflow.upload.update_upload import update_upload
+from Podflow.upload.linked_client import connect_upload_server
 from Podflow.upload.get_upload_original import get_upload_original
 
 
@@ -113,6 +115,8 @@ def main_podcast():
         )
         # 初始化原始上传信息
         get_upload_original()
+        # 连接上传服务器
+        connect_upload_server()
         # 更新Youtube和哔哩哔哩频道xml
         update_youtube_bilibili_rss()
         # 判断是否有更新内容
@@ -153,8 +157,8 @@ def main_podcast():
             bottle_app_instance.cherry_print()
             # 打印无法保留原节目信息
             original_rss_fail_print(gVar.xmls_original_fail)
-            # 打印无法获取youtube频道简介
-            print_fail_youtube_introduction()
+            # 打印无法获取youtube信息
+            print_fail_youtube()
             if gVar.config["remove_media"]:
                 # 删除不在rss中的媒体文件
                 remove_file()

@@ -1,15 +1,17 @@
 # Podflow/upload/linked_client.py
 # coding: utf-8
 
+import os
 import time
 import socket
 from datetime import datetime
-from Podflow.upload.upload_print import upload_print
+from Podflow.upload.time_key import time_key
+from Podflow.basic.time_print import time_print
 
 
 BROADCAST_PORT = 37000
 TIMEOUT = 1  # 搜索超时时间（秒）
-MAX_BROADCAST_PORT = 37101  # 尝试广播的最大端口
+MAX_BROADCAST_PORT = 37010  # 尝试广播的最大端口
 
 
 # 发现局域网内的服务器
@@ -20,12 +22,14 @@ def discover_server(broadcast_port, timeout):
     with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as sock:
         sock.setsockopt(socket.SOL_SOCKET, socket.SO_BROADCAST, 1)
         sock.settimeout(timeout)
+        send_text = time_key("PODFLOW_DISCOVER_SERVER_REQUEST")
+        send_text = send_text.encode("utf-8")
 
         try:
             # 发送广播请求
-            sock.sendto(b"DISCOVER_SERVER_REQUEST", ("<broadcast>", broadcast_port))
-        except Exception as e:
-            upload_print(f"广播请求发送失败: {e}")
+            sock.sendto(send_text, ("<broadcast>", broadcast_port))
+        except Exception:
+            time_print("\033[31m请求发送失败\033[0m", False, True, False)
             return servers
 
         # 等待响应
@@ -33,42 +37,48 @@ def discover_server(broadcast_port, timeout):
         while time.time() - start_time < timeout:
             try:
                 data, addr = sock.recvfrom(1024)
-                if data.startswith(b"SERVER_INFO|"):
+                if data.startswith(b"PODFLOW_SERVER_INFO|"):
                     try:
                         port = int(data.decode().split("|")[1])
                         servers.append((addr[0], port))
                     except (IndexError, ValueError):
-                        upload_print(f"收到来自 {addr} 的服务响应格式不正确")
+                        time_print("\033[31m响应格式错误\033[0m", False, True, False)
             except socket.timeout:
+                time_print("\033[31m响应超时\033[0m", False, True, False)
                 break
-            except Exception as e:
-                upload_print(f"接收数据出错: {e}")
+            except Exception:
+                time_print("\033[31m接收数据出错\033[0m", False, True, False)
                 break
-
     return servers
 
 
 # 自动发现并连接服务器模块
-def connect_server():
-    upload_print("正在搜索服务器...")
-
+def connect_upload_server():
+    time_print("正在搜索上传服务器...")
     current_port = BROADCAST_PORT
     servers = []
-    time_print = f"{datetime.now().strftime('%H:%M:%S')}|"
-
+    time_text = f"{datetime.now().strftime('%H:%M:%S')}|"
+    # 获取命令行字节宽度
+    try:
+        terminal_width = os.get_terminal_size().columns
+    except OSError:
+        terminal_width = 47
     # 在允许的端口范围内尝试发现服务器
-    while current_port < MAX_BROADCAST_PORT:
-        print(f"\r{time_print}正在尝试广播端口 {current_port}...", end="")
+    while current_port < MAX_BROADCAST_PORT + 1:
+        time_print(" " * terminal_width, True, True, False)
+        time_print(f"{time_text}尝试广播端口{current_port}...", True, True, False)
         servers = discover_server(current_port, TIMEOUT)
         if servers:
-            print("")
             break
         current_port += 1
-
+    print("")
     if not servers:
-        upload_print("找不到服务器")
-        return
-
-    # 选择第一个找到的服务器
-    server_ip, server_port = servers[0]
-    upload_print(f"正在连接到{server_ip}:{server_port}")
+        time_print("找不到上传服务器", True)
+    else:
+        # 选择第一个找到的服务器
+        server_ip, server_port = servers[0]
+        time_print(f"正在连接到{server_ip}:{server_port}...", True)
+        return {
+            "ip": server_ip,
+            "port": server_port
+        }

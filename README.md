@@ -20,18 +20,18 @@ Podflow可以使用以下命令进行安装
 pip install Podflow
 ```
 
-在iOS上可以使用[Shortcuts](<https://apps.apple.com/us/app/shortcuts/id915249334/>)运行Podflow, 需要用到[a-shell](<https://apps.apple.com/us/app/a-shell/id1473805438/>)
-和[捷径脚本](<https://www.icloud.com/shortcuts/a6d27c888d604cefa1dac1a58ddfb6d3/>)
+在iOS上可以使用[Shortcuts](<https://apps.apple.com/us/app/shortcuts/id915249334/>)运行Podflow, 需要用到[a-Shell](<https://apps.apple.com/us/app/a-shell/id1473805438/>)(或[a-Shell mini](<https://apps.apple.com/tw/app/a-shell-mini/id1543537943>))和[捷径脚本](<https://www.icloud.com/shortcuts/a6d27c888d604cefa1dac1a58ddfb6d3/>)
 
 ### 命令行参数说明
 
-| 参数           | 选项              | 类型            | 默认值         | 描述                                             |
-|----------------|-------------------|-----------------|-----------------|--------------------------------------------------|
+| 参数           | 选项              | 类型            | 默认值           | 描述                                             |
+|----------------|-------------------|---------------|-----------------|-------------------------------------------------|
 | `-n`           | `--times`         | `int`         | +∞              | 次数                                             |
 | `-d`           | `--delay`         | `int`         | 1500            | 延迟（单位: 秒）                                   |
 | `-c`           | `--config`        | `string`      | "config.json"   | 配置文件的路径                                     |
 | `--shortcuts`  |                   | `string`      | []              | 仅适用于捷径APP                                   |
 | `--httpfs`     |                   | `boolean`     | 无              | 仅启用服务器功能, 不更新频道                         |
+| `--upload`     |                   | `boolean`     | 无              | 仅上传服务器功能, 仅用于局域网备份(适用iOS)            |
 
 ### 使用示例
 

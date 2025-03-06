@@ -16,7 +16,7 @@ def positive_int(value):
 def parse_arguments():
     # 创建 ArgumentParser 对象
     parser = argparse.ArgumentParser(
-        description="you can try: Podflow -n 24 -d 3600"
+        description="You can try: Podflow -n 24 -d 3600"
     )
     # 参数
     parser.add_argument(
@@ -25,7 +25,7 @@ def parse_arguments():
         nargs=1,
         type=positive_int,
         metavar="NUM",
-        help="number of times",
+        help="Number of times",
     )
     parser.add_argument(
         "-d",
@@ -33,7 +33,7 @@ def parse_arguments():
         type=positive_int,
         default=1500,
         metavar="NUM",
-        help="delay in seconds(default: 1500)",
+        help="Delay in seconds(default: 1500)",
     )
     parser.add_argument(
         "-c",
@@ -41,7 +41,7 @@ def parse_arguments():
         type=str,
         default="config.json",
         metavar="FILE_PATH",
-        help="path to the config.json file",
+        help="Path to the config.json file",
     )
     parser.add_argument(
         "-p",
@@ -56,10 +56,19 @@ def parse_arguments():
         nargs="*",
         type=str,
         metavar="URL",
-        help="only shortcuts can be work",
+        help="Only shortcuts can be work",
+    )
+    parser.add_argument(
+        "--httpfs",
+        action="store_true",
+        help="Only enable server functionality, do not update channels",
+    )
+    parser.add_argument(
+        "--upload",
+        action="store_true",
+        help="Only upload server function, solely for LAN backup (applicable to iOS)",
     )
     parser.add_argument("--file", nargs="?", help=argparse.SUPPRESS)  # 仅运行在ipynb中
-    parser.add_argument("--httpfs", action="store_true", help=argparse.SUPPRESS)
     # 解析参数
     args = parser.parse_args()
     parse.time_delay = args.delay
@@ -67,6 +76,7 @@ def parse_arguments():
     parse.period = args.period
     parse.file = args.file
     parse.httpfs = args.httpfs
+    parse.upload = args.upload
     # 检查并处理参数的状态
     if args.times is not None:
         parse.update_num = int(args.times[0])
