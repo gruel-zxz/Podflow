@@ -5,6 +5,7 @@ import os
 import time
 import socket
 from datetime import datetime
+from Podflow import gVar
 from Podflow.upload.time_key import time_key
 from Podflow.basic.time_print import time_print
 
@@ -54,31 +55,39 @@ def discover_server(broadcast_port, timeout):
 
 # 自动发现并连接服务器模块
 def connect_upload_server():
-    time_print("正在搜索上传服务器...")
-    current_port = BROADCAST_PORT
-    servers = []
-    time_text = f"{datetime.now().strftime('%H:%M:%S')}|"
-    # 获取命令行字节宽度
-    try:
-        terminal_width = os.get_terminal_size().columns
-    except OSError:
-        terminal_width = 47
-    # 在允许的端口范围内尝试发现服务器
-    while current_port < MAX_BROADCAST_PORT + 1:
-        time_print(" " * terminal_width, True, True, False)
-        time_print(f"{time_text}尝试广播端口{current_port}...", True, True, False)
-        servers = discover_server(current_port, TIMEOUT)
-        if servers:
-            break
-        current_port += 1
-    print("")
-    if not servers:
-        time_print("找不到上传服务器", True)
-    else:
-        # 选择第一个找到的服务器
-        server_ip, server_port = servers[0]
-        time_print(f"正在连接到{server_ip}:{server_port}...", True)
-        return {
-            "ip": server_ip,
-            "port": server_port
-        }
+    # 如果配置中启用了上传功能
+    if gVar.config["upload"]:
+        # 打印正在搜索上传服务器
+        time_print("正在搜索上传服务器...")
+        # 当前端口设置为广播端口
+        current_port = BROADCAST_PORT
+        # 服务器列表为空
+        servers = []
+        # 获取当前时间
+        time_text = f"{datetime.now().strftime('%H:%M:%S')}|"
+        # 获取命令行字节宽度
+        try:
+            terminal_width = os.get_terminal_size().columns
+        except OSError:
+            terminal_width = 47
+        # 在允许的端口范围内尝试发现服务器
+        while current_port < MAX_BROADCAST_PORT + 1:
+            # 清空终端
+            time_print(" " * terminal_width, True, True, False)
+            # 打印尝试广播端口
+            time_print(f"{time_text}尝试广播端口{current_port}...", True, True, False)
+            servers = discover_server(current_port, TIMEOUT)
+            if servers:
+                break
+            current_port += 1
+        print("")
+        if not servers:
+            time_print("找不到上传服务器", True)
+        else:
+            # 选择第一个找到的服务器
+            server_ip, server_port = servers[0]
+            time_print(f"正在连接到{server_ip}:{server_port}...", True)
+            return {
+                "ip": server_ip,
+                "port": server_port
+            }
