@@ -16,13 +16,13 @@ MAX_BROADCAST_PORT = 37010  # 尝试广播的最大端口
 
 
 # 发现局域网内的服务器
-def discover_server(broadcast_port, timeout):
+def discover_server(broadcast_port, time_out):
     servers = []
 
     # 创建UDP socket
     with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as sock:
         sock.setsockopt(socket.SOL_SOCKET, socket.SO_BROADCAST, 1)
-        sock.settimeout(timeout)
+        sock.settimeout(time_out)
         send_text = time_key("PODFLOW_DISCOVER_SERVER_REQUEST")
         send_text = send_text.encode("utf-8")
 
@@ -35,7 +35,7 @@ def discover_server(broadcast_port, timeout):
 
         # 等待响应
         start_time = time.time()
-        while time.time() - start_time < timeout:
+        while time.time() - start_time < time_out:
             try:
                 data, addr = sock.recvfrom(1024)
                 if data.startswith(b"PODFLOW_SERVER_INFO|"):
@@ -45,7 +45,6 @@ def discover_server(broadcast_port, timeout):
                     except (IndexError, ValueError):
                         time_print("\033[31m响应格式错误\033[0m", False, True, False)
             except socket.timeout:
-                time_print("\033[31m响应超时\033[0m", False, True, False)
                 break
             except Exception:
                 time_print("\033[31m接收数据出错\033[0m", False, True, False)
