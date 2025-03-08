@@ -15,16 +15,21 @@ class bottle_app:
     def __init__(self):
         self.app_bottle = Bottle()  # 创建 Bottle 应用
         self.bottle_print = []  # 存储打印日志
-        self.setup_routes()
+        self.setup_routes()  # 设置路由
 
     def setup_routes(self):
+        # 设置根路由，回调函数为home
         self.app_bottle.route("/", callback=self.home)
+        # 设置/shutdown路由，回调函数为shutdown
         self.app_bottle.route("/shutdown", callback=self.shutdown)
+        # 设置/favicon.ico路由，回调函数为favicon
         self.app_bottle.route("/favicon.ico", callback=self.favicon)
+        # 设置其他路由，回调函数为serve_static
         self.app_bottle.route("/<filename:path>", callback=self.serve_static)
 
     # 判断token是否正确的验证模块
     def token_judgment(self, token, VALID_TOKEN="", filename="", foldername=""):
+        # 判断 token 是否有效
         if foldername != "channel_audiovisual/":
             # 对于其他文件夹, 采用常规的 Token 验证
             return VALID_TOKEN == "" or token == VALID_TOKEN
@@ -72,14 +77,18 @@ class bottle_app:
 
     # CherryPy 服务器打印模块
     def cherry_print(self, flag_judgment=True):
+        # 如果flag_judgment为True，则将gVar.server_process_print_flag[0]设置为"keep"
         if flag_judgment:
             gVar.server_process_print_flag[0] = "keep"
+        # 如果gVar.server_process_print_flag[0]为"keep"且self.bottle_print不为空，则打印日志
         if (
             gVar.server_process_print_flag[0] == "keep"
             and self.bottle_print
         ):  # 如果设置为保持输出, 则打印日志
+            # 遍历self.bottle_print中的每个元素，并打印
             for info_print in self.bottle_print:
                 print(info_print)
+            # 清空self.bottle_print
             self.bottle_print.clear()
 
     # 主路由处理根路径请求
@@ -134,7 +143,9 @@ class bottle_app:
 
     # 路由处理 favicon 请求
     def favicon(self):
+        # 获取客户端 IP 地址
         client_ip = request.remote_addr
+        # 如果存在客户端端口，则将 IP 地址和端口拼接
         if client_port := request.environ.get("REMOTE_PORT"):
             client_ip = f"{client_ip}:{client_port}"
         self.add_bottle_print(client_ip, "favicon.ico", 303)  # 输出访问 favicon 的日志
@@ -181,9 +192,11 @@ class bottle_app:
 
         # 文件是否存在检查的函数
         def file_exist(token, VALID_TOKEN, filename, foldername=""):
+            # 验证 Token
             if self.token_judgment(
                 token, VALID_TOKEN, filename, foldername
             ):  # 验证 Token
+                # 如果文件存在, 返回文件
                 if os.path.exists(filename):  # 如果文件存在, 返回文件
                     print_out(filename, 200)
                     return static_file(filename, root=".")
