@@ -28,7 +28,10 @@ def write_log(
     # 将新的日志内容添加在原有内容之前
     log_in = re.sub(r"\033\[[0-9;]+m", "", log)
     log_in = re.sub(r"\n", "", log_in)
-    only_log = re.sub(r"\033\[[0-9;]+m", "", str(only_log))
+    if only_log:
+        only_log = re.sub(r"\033\[[0-9;]+m", "", str(only_log))
+    else:
+        only_log = ""
     new_contents = (
         f"{formatted_time} {log_in}{only_log}\n{contents}"
         if only_log
