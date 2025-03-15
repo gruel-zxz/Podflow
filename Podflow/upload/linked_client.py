@@ -10,7 +10,7 @@ from Podflow.upload.time_key import time_key
 from Podflow.basic.time_print import time_print
 
 
-BROADCAST_PORT = 37000
+BROADCAST_PORT = 37001
 TIMEOUT = 1  # 搜索超时时间（秒）
 MAX_BROADCAST_PORT = 37010  # 尝试广播的最大端口
 

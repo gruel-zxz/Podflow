@@ -114,8 +114,9 @@ class Application_gVar:
         self.overall_rss = ""  # 更新后的rss文本
         self.make_up_file_format = {}  # 补全缺失媒体字典
         self.make_up_file_format_fail = {}  # 补全缺失媒体失败字典
-        
+
         self.upload_original = []  # 原始上传信息字典
+        self.upload_data = {}  # 上传用户账号密码字典
 
         self.shortcuts_url = {}  # 输出至shortcut的url字典
 

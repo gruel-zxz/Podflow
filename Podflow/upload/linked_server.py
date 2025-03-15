@@ -33,9 +33,9 @@ def handle_discovery(broadcast_port, service_port):
         # 设置套接字选项，允许广播
         sock.setsockopt(socket.SOL_SOCKET, socket.SO_BROADCAST, 1)
         # 绑定套接字到广播端口
-        sock.bind(("", broadcast_port))
+        sock.bind(("0.0.0.0", broadcast_port))
         # 打印发现服务已启动
-        time_print("发现服务已启动...")
+        time_print(f"发现服务已启动|端口: \033[32m{broadcast_port}\033[0m")
         # 无限循环，等待接收广播消息
         while True:
             # 接收广播消息
@@ -45,11 +45,11 @@ def handle_discovery(broadcast_port, service_port):
             # 检查消息是否包含时间关键字
             if check_time_key(data ,"PODFLOW_DISCOVER_SERVER_REQUEST"):
                 # 打印接收到的发现请求成功
-                time_print(f"来自{addr}的发现请求\033[32m成功\033[0m")
+                time_print(f"来自{addr[0]}的发现请求\033[32m成功\033[0m")
                 # 构造响应消息
                 response = f"PODFLOW_SERVER_INFO|{service_port}".encode()
                 # 发送响应消息
                 sock.sendto(response, addr)
             else:
                 # 打印接收到的发现请求失败
-                time_print(f"来自{addr}的发现请求\033[31m失败\033[0m")
+                time_print(f"来自{addr[0]}的发现请求\033[31m失败\033[0m")

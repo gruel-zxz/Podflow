@@ -2,24 +2,56 @@
 # coding: utf-8
 
 import sys
-import threading
+import cherrypy
+from Podflow.upload.login import get_login
 from Podflow.basic.time_print import time_print
+from Podflow.basic.folder_build import folder_build
+from Podflow.httpfs.app_bottle import bottle_app_instance
 from Podflow.upload.linked_server import handle_discovery, usable_port
 
 
 def main_upload():
+    # 构建文件夹channel_audiovisual
+    folder_build("channel_audiovisual")
+    # 构建文件夹channel_data
+    folder_build("channel_data")
+    # 获取账号密码
+    get_login()
     # 服务发现相关配置
     broadcast_port = 37001  # 服务发现用端口
     service_port = 5000  # 实际服务端口
+    hostip = "0.0.0.0"
 
     broadcast_port = usable_port(broadcast_port, 37010)
     service_port = usable_port(service_port, 5010)
+
     if broadcast_port and service_port:
-        discovery_thread = threading.Thread(
-            target=handle_discovery,
-            args=(broadcast_port, service_port),
+        # 设置路由
+        bottle_app_instance.setup_routes(upload=True)
+        # 设置logname
+        bottle_app_instance.set_logname(
+            logname="upload.log",
+            http_fs=True,
         )
-        #discovery_thread.start()
+        # 启动 CherryPy 服务器
+        cherrypy.tree.graft(
+            bottle_app_instance.app_bottle
+        )  # 将 Bottle 应用嵌入到 CherryPy 中
+        cherrypy.config.update(
+            {
+                "global": {
+                    "tools.sessions.on": True,  # 启用会话支持
+                    "server.socket_host": hostip,  # 监听所有 IP 地址
+                    "server.socket_port": service_port,  # 设置监听端口
+                    "log.screen": False,  # 禁用屏幕日志输出
+                    "log.access_file": "",  # 关闭访问日志
+                    "log.error_file": "",  # 关闭错误日志
+                }
+            }
+        )
+        cherrypy.engine.start()  # 启动 CherryPy 服务器
+        time_print(f"上传服务已启动|端口: \033[32m{service_port}\033[0m")
+        # 服务发现
         handle_discovery(broadcast_port, service_port)
     else:
         if not broadcast_port:

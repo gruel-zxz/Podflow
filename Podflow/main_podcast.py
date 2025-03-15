@@ -6,13 +6,13 @@ import json
 import time
 import urllib
 import subprocess
-from datetime import datetime
 
 import cherrypy
 
 # 基本功能模块
 from Podflow import gVar, parse
 from Podflow.basic.split_dict import split_dict
+from Podflow.basic.time_print import time_print
 
 # 网络和 HTTP 模块
 from Podflow.httpfs.port_judge import port_judge
@@ -68,6 +68,13 @@ def main_podcast():
     port = gVar.config["port"]
     hostip = "0.0.0.0"
     if port_judge(hostip, port):
+        # 设置路由
+        bottle_app_instance.setup_routes(upload=False)
+        # 设置logname
+        bottle_app_instance.set_logname(
+            logname="httpfs.log",
+            http_fs=gVar.config["httpfs"],
+        )
         # 启动 CherryPy 服务器
         cherrypy.tree.graft(
             bottle_app_instance.app_bottle
@@ -85,16 +92,12 @@ def main_podcast():
             }
         )
         cherrypy.engine.start()  # 启动 CherryPy 服务器
-        print(
-            f"{datetime.now().strftime('%H:%M:%S')}|HTTP服务器启动, 端口: \033[32m{port}\033[0m"
-        )
+        time_print(f"HTTP服务器启动, 端口: \033[32m{port}\033[0m")
         if parse.httpfs:  # HttpFS参数判断, 是否继续运行
             cherrypy.engine.block()  # 阻止程序退出, 保持HTTP服务运行
             sys.exit(0)
     else:
-        print(
-            f"{datetime.now().strftime('%H:%M:%S')}|HTTP服务器端口: \033[32m{port}\033[0m, \033[31m被占用\033[0m"
-        )
+        time_print(f"HTTP服务器端口: \033[32m{port}\033[0m, \033[31m被占用\033[0m")
         if parse.httpfs:
             sys.exit(0)
     # 主流程
@@ -191,7 +194,7 @@ def main_podcast():
             # 更新并保存上传列表
             update_upload()
         else:
-            print(f"{datetime.now().strftime('%H:%M:%S')}|频道无更新内容")
+            time_print("频道无更新内容")
 
         # 将需要更新转为否
         gVar.update_generate_rss = False
@@ -215,4 +218,4 @@ def main_podcast():
             time.sleep(parse.time_delay)
     # 关闭CherryPy服务器
     cherrypy.engine.exit()
-    print(f"{datetime.now().strftime('%H:%M:%S')}|Podflow运行结束")
+    time_print("Podflow运行结束")
