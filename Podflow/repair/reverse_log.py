@@ -2,13 +2,14 @@
 # coding: utf-8
 
 import re
+from itertools import islice
 from Podflow.basic.time_print import time_print
 
 
 def reverse_log(filename):
     try:
         with open(f"{filename}.log", "r", encoding="utf-8") as file:
-            lines = file.readlines()
+            lines = list(islice(file, 10))
     except Exception:
         return
     num = 0
@@ -24,8 +25,10 @@ def reverse_log(filename):
     while not date_time(end_num):
         end_num -= 1
     if end_num > num and lines[num][:19] > lines[end_num][:19]:
-        # 反转行的顺序
-        reversed_lines = lines[::-1]
+        with open(f"{filename}.log", "r", encoding="utf-8") as file:
+            lines = file.readlines()
+            # 反转行的顺序
+            reversed_lines = lines[::-1]
         with open(f"{filename}.log", "w", encoding="utf-8") as file:
             file.writelines(reversed_lines)
             time_print(f"{filename}.log反转成功")
