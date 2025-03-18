@@ -53,6 +53,7 @@ from Podflow.remove.remove_dir import remove_dir
 from Podflow.youtube.build import print_fail_youtube
 
 # 长期媒体进行上传模块
+from Podflow.upload.login import login_upload
 from Podflow.upload.add_upload import add_upload
 from Podflow.upload.update_upload import update_upload
 from Podflow.upload.linked_client import connect_upload_server
@@ -116,10 +117,17 @@ def main_podcast():
         gVar.xmls_original, gVar.hash_rss_original, gVar.xmls_original_fail = (
             get_original_rss()
         )
+        # 连接上传服务器
+        upload_url = connect_upload_server()
+        # 登陆上传服务器
+        if upload_url:
+            upload_json = login_upload(upload_url)
+            if upload_json:
+                gVar.config["upload"] = False
+        else:
+            gVar.config["upload"] = False
         # 初始化原始上传信息
         get_upload_original()
-        # 连接上传服务器
-        connect_upload_server()
         # 更新Youtube和哔哩哔哩频道xml
         update_youtube_bilibili_rss()
         # 判断是否有更新内容

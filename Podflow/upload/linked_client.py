@@ -86,7 +86,4 @@ def connect_upload_server():
             # 选择第一个找到的服务器
             server_ip, server_port = servers[0]
             time_print(f"正在连接到{server_ip}:{server_port}...", True)
-            return {
-                "ip": server_ip,
-                "port": server_port
-            }
+            return f"http://{server_ip}:{server_port}"

@@ -2,6 +2,7 @@
 # coding: utf-8
 
 import socket
+from Podflow.basic.write_log import write_log
 from Podflow.basic.time_print import time_print
 from Podflow.httpfs.port_judge import port_judge
 from Podflow.upload.time_key import check_time_key
@@ -45,11 +46,11 @@ def handle_discovery(broadcast_port, service_port):
             # 检查消息是否包含时间关键字
             if check_time_key(data ,"PODFLOW_DISCOVER_SERVER_REQUEST"):
                 # 打印接收到的发现请求成功
-                time_print(f"来自{addr[0]}的发现请求\033[32m成功\033[0m")
+                write_log(f"来自{addr[0]}的发现请求\033[32m成功\033[0m")
                 # 构造响应消息
                 response = f"PODFLOW_SERVER_INFO|{service_port}".encode()
                 # 发送响应消息
                 sock.sendto(response, addr)
             else:
                 # 打印接收到的发现请求失败
-                time_print(f"来自{addr[0]}的发现请求\033[31m失败\033[0m")
+                write_log(f"来自{addr[0]}的发现请求\033[31m失败\033[0m")

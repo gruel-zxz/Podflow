@@ -247,7 +247,6 @@ class bottle_app:
         upload_data = gVar.upload_data
         username = request.query.get("username")
         password = request.query.get("password")
-        
         if username in upload_data:
             if upload_data[username] == password:
                 self.print_out("login", 200)
