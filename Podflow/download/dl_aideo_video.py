@@ -123,7 +123,10 @@ def dl_full_video(
     duration_video = get_duration(
         f"channel_audiovisual/{output_dir}/{video_url}{sesuffix}.{output_format}"
     )  # 获取已下载视频的实际时长
-    if abs(id_duration - duration_video) <= 1:  # 检查实际时长与预计时长是否一致
+    if (
+        duration_video is not None 
+        and abs(id_duration - duration_video) <= 1
+    ):  # 检查实际时长与预计时长是否一致
         return None, None
     if duration_video:
         fail_info = f"不完整({id_duration}|{duration_video}"
