@@ -59,6 +59,11 @@ def parse_arguments():
         help="Only shortcuts can be work",
     )
     parser.add_argument(
+        "--index",
+        action="store_true",
+        help="Only shortcuts can be work",
+    )
+    parser.add_argument(
         "--httpfs",
         action="store_true",
         help="Only enable server functionality, do not update channels",
@@ -77,6 +82,7 @@ def parse_arguments():
     parse.file = args.file
     parse.httpfs = args.httpfs
     parse.upload = args.upload
+    parse.index = args.index
     # 检查并处理参数的状态
     if args.times is not None:
         parse.update_num = int(args.times[0])

@@ -132,6 +132,7 @@ class Application_parse:
         self.period = 1
         self.file = ""
         self.httpfs = False
+        self.index = False
 
 
 # 创建 Application 类的实例

@@ -15,6 +15,7 @@ from Podflow.basic.split_dict import split_dict
 from Podflow.basic.time_print import time_print
 
 # 网络和 HTTP 模块
+from Podflow.httpfs.browser import open_url
 from Podflow.httpfs.port_judge import port_judge
 from Podflow.httpfs.app_bottle import bottle_app_instance
 
@@ -94,6 +95,8 @@ def main_podcast():
         )
         cherrypy.engine.start()  # 启动 CherryPy 服务器
         time_print(f"HTTP服务器启动, 端口: \033[32m{port}\033[0m")
+        if parse.index:
+            open_url(f"{gVar.config['address']}/index")
         if parse.httpfs:  # HttpFS参数判断, 是否继续运行
             cherrypy.engine.block()  # 阻止程序退出, 保持HTTP服务运行
             sys.exit(0)
