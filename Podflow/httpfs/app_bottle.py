@@ -5,11 +5,15 @@ import os
 import hashlib
 from datetime import datetime
 import cherrypy
-from bottle import Bottle, abort, redirect, request, static_file, response
+from bottle import Bottle, abort, redirect, request, static_file, response, template
 from Podflow import gVar
 from Podflow.upload.login import create
+from Podflow.httpfs.html import html_index
+from Podflow.basic.file_save import file_save
 from Podflow.basic.write_log import write_log
+from Podflow.upload.build_hash import build_hash
 from Podflow.upload.time_key import check_time_key
+from Podflow.httpfs.get_channelid import get_channelid
 
 
 class bottle_app:
@@ -31,8 +35,10 @@ class bottle_app:
         if upload:
             self.app_bottle.route("/newuser", callback=self.new_user)
             self.app_bottle.route("/login", callback=self.login)
+            self.app_bottle.route("/upload", method="POST", callback=self.upload)
         else:
             # 设置其他路由，回调函数为serve_static
+            self.app_bottle.route("/index", method=["GET", "POST"], callback=self.index)
             self.app_bottle.route("/<filename:path>", callback=self.serve_static)
 
     # 设置日志文件名及写入判断
@@ -106,8 +112,7 @@ class bottle_app:
     # 输出请求日志的函数
     def print_out(self, filename, status):
         client_ip = request.remote_addr
-        client_port = request.environ.get("REMOTE_PORT")
-        if client_port:
+        if client_port := request.environ.get("REMOTE_PORT"):
             client_ip = f"{client_ip}:{client_port}"
         if filename not in [
             "favicon.ico",
@@ -120,7 +125,7 @@ class bottle_app:
                 gVar.channelid_youtube_ids_original
                 | gVar.channelid_bilibili_ids_original
                 | {"channel_audiovisual/": "", "channel_rss/": ""}
-            )  # 合并多个频道 ID        
+            )  # 合并多个频道 ID
             for (
                 bottle_channelid_key,
                 bottle_channelid_value,
@@ -139,7 +144,7 @@ class bottle_app:
     def home(self):
         VALID_TOKEN = gVar.config["token"]  # 从配置中读取主验证 Token
         token = request.query.get("token")  # 获取请求中的 Token
-        
+
         if self.token_judgment(token, VALID_TOKEN):  # 验证 Token
             self.print_out("/", 303)  # 如果验证成功, 输出 200 状态
             return redirect("https://github.com/gruel-zxz/podflow")  # 返回正常响应
@@ -156,7 +161,7 @@ class bottle_app:
             Shutdown_VALID_TOKEN.encode()
         ).hexdigest()  # 用于服务器关闭的验证 Token
         token = request.query.get("token")  # 获取请求中的 Token
-        
+
         if self.token_judgment(
             token, Shutdown_VALID_TOKEN
         ):  # 验证 Token 是否为关闭用的 Token
@@ -220,16 +225,17 @@ class bottle_app:
 
     # 路由获取账号密码请求
     def new_user(self):
+        # 生成一个用于上传非一次性项目的账户密码，该密码需要保存
         seed = "We need to generate an account password for uploading non one-time items that need to be saved."
         token = request.query.get("token")  # 获取请求中的 Token
-        response.content_type = 'application/json'
-        
+        response.content_type = "application/json"
+
         if check_time_key(token, seed):  # 验证 Token
             username, password = create()  # 生成用户名和密码
             self.print_out("newuser", 200)
             return {
-                "code":0,
-                "message":"Get New Username And Password Success",
+                "code": 0,
+                "message": "Get New Username And Password Success",
                 "data": {
                     "username": username,
                     "password": password,
@@ -238,34 +244,149 @@ class bottle_app:
         else:
             self.print_out("newuser", 401)
             return {
-                "code":-1,
-                "message":"Unauthorized: Invalid Token",
+                "code": -1,
+                "message": "Unauthorized: Invalid Token",
             }
+
+    # 获取Channel-ID请求
+    def index(self): 
+        if request.method == "POST":
+            user_input = request.forms.get("inputOutput")  # 获取用户输入
+            processed_input = get_channelid(user_input)
+            self.print_out("channelid", 200)
+            return template(html_index, processed_input=processed_input)  # 直接回显到输入框
+        else:
+            self.print_out("index", 200)
+            return template(html_index, processed_input="")  # 默认输入框为空
 
     # 路由处理登陆请求
     def login(self):
+        # 获取上传的数据
         upload_data = gVar.upload_data
+        # 获取用户名
         username = request.query.get("username")
+        # 获取密码
         password = request.query.get("password")
+        # 判断用户名是否在上传的数据中
         if username in upload_data:
+            # 判断密码是否正确
             if upload_data[username] == password:
+                # 打印登录成功
                 self.print_out("login", 200)
+                # 返回登录成功的信息
                 return {
-                    "code":0,
-                    "message":"Login Success",
+                    "code": 0,
+                    "message": "Login Success",
                 }
             else:
+                # 打印密码错误
                 self.print_out("login", 401)
+                # 返回密码错误的信息
                 return {
-                    "code":-3,
-                    "message":"Password Error",
+                    "code": -3,
+                    "message": "Password Error",
                 }
         else:
+            # 打印用户名错误
+            self.print_out("login", 401)
+            # 返回用户名错误的信息
+            return {
+                "code": -2,
+                "message": "Username Error",
+            }
+
+    # 文件上传处理请求
+    def upload(self):
+        # 获取上传数据配置(存储用户名和密码)
+        upload_data = gVar.upload_data
+        # 从请求参数中获取用户名，默认为空字符串
+        username = request.query.get("username", "")
+        # 从请求参数中获取密码，默认为空字符串
+        password = request.query.get("password", "")
+        upload_hash = request.query.get("hash", "")
+        channelid = request.query.get("channel_id", "")
+
+        # 验证用户是否存在
+        if username not in upload_data:
             self.print_out("login", 401)
             return {
-                "code":-2,
-                "message":"Username Error",
+                "code": -2,
+                "message": "Username Error",
             }
+        # 验证密码是否正确
+        if upload_data[username] != password:
+            self.print_out("login", 401)
+            return {
+                "code": -3,
+                "message": "Password Error",
+            }
+        # 从请求中获取上传的文件对象
+        upload_file = request.files.get("file")
+        # 检查是否有文件被上传
+        if not upload_file:
+            # 打印错误信息并返回错误码
+            self.print_out("upload", 404)
+            return {
+                "code": -4,
+                "message": "No File Provided",
+            }
+        # 判断文件是否完整
+        if upload_hash != build_hash(upload_file):
+            self.print_out("upload", 401)
+            return {
+                "code": -5,
+                "message": "Incomplete File",
+            }
+        if not channelid:
+            # 打印错误信息并返回错误码
+            self.print_out("upload", 404)
+            return {
+                "code": -6,
+                "message": "ChannelId Does Not Exist",
+            }
+        # 获取上传文件的原始文件名
+        filename = upload_file.filename
+        name = filename.split(".")[0]
+        suffix = filename.split(".")[1]
+        if suffix in ["mp4", "m4a"]:
+            self.print_out("upload", 404)
+            return {
+                "code": -6,
+                "message": "File Format Error",
+            }
+        address = f"/channel_audiovisual/{channelid}"
+        if os.path.exists(address):
+            file_list = os.listdir(address)
+        else:
+            file_list = []
+        num = 0
+        while True:
+            if num != 0:
+                filename = f"{name}.{num}.{suffix}"
+            if filename in file_list:
+                with open(f"{address}/{filename}", "rb") as original_file:
+                    if upload_hash == build_hash(original_file):
+                        self.print_out("upload", 200)
+                        return {
+                            "code": 1,
+                            "message": "The Same File Exists",
+                            "data": {
+                                "filename": filename,
+                            },
+                        }
+                    else:
+                        num += 1
+            else:
+                file_save(upload_file, filename, address)
+                # 打印成功信息并返回成功码
+                self.print_out("upload", 200)
+                return {
+                    "code": 0,
+                    "message": "Upload Success",
+                    "data": {
+                        "filename": filename,
+                    },
+                }
 
 
 bottle_app_instance = bottle_app()
