@@ -30,6 +30,7 @@ pip install Podflow
 | `-d`           | `--delay`         | `int`         | 1500            | 延迟（单位: 秒）                                   |
 | `-c`           | `--config`        | `string`      | "config.json"   | 配置文件的路径                                     |
 | `--shortcuts`  |                   | `string`      | []              | 仅适用于捷径APP                                   |
+| `--index`      |                   | `boolean`     | 无              | 仅适用于捷径APP                                    |
 | `--httpfs`     |                   | `boolean`     | 无              | 仅启用服务器功能, 不更新频道                         |
 | `--upload`     |                   | `boolean`     | 无              | 仅上传服务器功能, 仅用于局域网备份(适用iOS)            |
 
