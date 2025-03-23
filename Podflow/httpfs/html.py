@@ -86,7 +86,7 @@ html_index = '''<!DOCTYPE html>
         <div class="button-container">
             <button type="button" onclick="pasteFromClipboard()">📋 粘贴</button>
             <button type="submit">✅ 提交</button>
-            //<button type="button" onclick="copyText()">📄 拷贝</button>
+            <button type="button" onclick="copyText()">📄 拷贝</button>
             <button type="button" onclick="clearInput()">🗑️ 清空</button>
         </div>
         <p class="hint">📌 如果粘贴按钮无效，请长按输入框手动粘贴。</p>
