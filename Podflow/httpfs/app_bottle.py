@@ -3,6 +3,7 @@
 
 import os
 import hashlib
+import pkg_resources
 from datetime import datetime
 import cherrypy
 from bottle import Bottle, abort, redirect, request, static_file, response, template
@@ -38,6 +39,7 @@ class bottle_app:
             self.app_bottle.route("/upload", method="POST", callback=self.upload)
         else:
             # 设置其他路由，回调函数为serve_static
+            self.app_bottle.route("/try", method=["GET", "POST"], callback=self.try1)
             self.app_bottle.route("/index", method=["GET", "POST"], callback=self.index)
             self.app_bottle.route("/<filename:path>", callback=self.serve_static)
 
@@ -249,12 +251,14 @@ class bottle_app:
             }
 
     # 获取Channel-ID请求
-    def index(self): 
+    def index(self):
         if request.method == "POST":
             user_input = request.forms.get("inputOutput")  # 获取用户输入
             processed_input = get_channelid(user_input)
             self.print_out("channelid", 200)
-            return template(html_index, processed_input=processed_input)  # 直接回显到输入框
+            return template(
+                html_index, processed_input=processed_input
+            )  # 直接回显到输入框
         else:
             self.print_out("index", 200)
             return template(html_index, processed_input="")  # 默认输入框为空
@@ -374,8 +378,7 @@ class bottle_app:
                                 "filename": filename,
                             },
                         }
-                    else:
-                        num += 1
+                    num += 1
             else:
                 file_save(upload_file, filename, address)
                 # 打印成功信息并返回成功码
@@ -387,6 +390,13 @@ class bottle_app:
                         "filename": filename,
                     },
                 }
+
+    def try1(self):
+        # 使用pkg_resources获取模板文件路径
+        template_path = pkg_resources.resource_filename('Podflow', 'views/try.html')
+        with open(template_path, 'r') as f:
+            html_content = f.read()
+        return html_content
 
 
 bottle_app_instance = bottle_app()
