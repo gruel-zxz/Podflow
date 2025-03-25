@@ -27,7 +27,7 @@ def get_youtube_and_bilibili_video_format(id_num, stop_flag, video_format_lock, 
         gVar.video_id_update_format[id_num]["quality"],
         gVar.video_id_update_format[id_num]["cookie"],
     )
-    for fail_info in ["年龄限制", "需登录", "请求拒绝"]:
+    for fail_info in ["年龄限制", "需登录", "请求拒绝", "无法获取音频ID"]:
         if fail_info in id_update_format:
             if gVar.youtube_cookie:
                 gVar.video_id_update_format[id_num]["cookie"] = "channel_data/yt_dlp_youtube.txt"
