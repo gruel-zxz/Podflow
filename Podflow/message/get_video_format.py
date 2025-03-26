@@ -1,11 +1,11 @@
-# Podflow/message/get_video_format.py
+# podflow/message/get_video_format.py
 # coding: utf-8
 
-from Podflow import gVar
-from Podflow.basic.write_log import write_log
-from Podflow.basic.split_dict import split_dict
-from Podflow.message.want_retry import want_retry
-from Podflow.message.get_video_format_multithread import get_video_format_multithread
+from podflow import gVar
+from podflow.basic.write_log import write_log
+from podflow.basic.split_dict import split_dict
+from podflow.message.want_retry import want_retry
+from podflow.message.get_video_format_multithread import get_video_format_multithread
 
 
 def get_youtube_format_front(ytid_content_update, backward_update):

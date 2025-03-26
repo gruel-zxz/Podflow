@@ -1,8 +1,8 @@
-# Podflow/download/show_progress.py
+# podflow/download/show_progress.py
 # coding: utf-8
 
-from Podflow.basic.time_format import time_format
-from Podflow.download.convert_bytes import convert_bytes
+from podflow.basic.time_format import time_format
+from podflow.download.convert_bytes import convert_bytes
 
 
 # 下载显示模块

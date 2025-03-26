@@ -1,10 +1,10 @@
-# Podflow/ffmpeg_judge.py
+# podflow/ffmpeg_judge.py
 # coding: utf-8
 
 import sys
 import subprocess
 import shutil
-from Podflow.basic.write_log import write_log
+from podflow.basic.write_log import write_log
 
 
 def error_ffmpeg_judge(ffmpeg_worry):

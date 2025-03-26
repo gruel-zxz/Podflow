@@ -1,9 +1,9 @@
-# Podflow/download/youtube_and_bilibili_download.py
+# podflow/download/youtube_and_bilibili_download.py
 # coding: utf-8
 
-from Podflow import gVar
-from Podflow.basic.write_log import write_log
-from Podflow.download.dl_aideo_video import dl_aideo_video
+from podflow import gVar
+from podflow.basic.write_log import write_log
+from podflow.download.dl_aideo_video import dl_aideo_video
 
 
 # 下载YouTube和哔哩哔哩视频

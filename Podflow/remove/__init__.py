@@ -1,2 +1,2 @@
-# Podflow/remove/__init__.py
+# podflow/remove/__init__.py
 # coding: utf-8

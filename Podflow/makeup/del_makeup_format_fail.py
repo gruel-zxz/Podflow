@@ -1,8 +1,8 @@
-# Podflow/makeup/del_makeup_format_fail.py
+# podflow/makeup/del_makeup_format_fail.py
 # coding: utf-8
 
 import re
-from Podflow import gVar
+from podflow import gVar
 
 
 # 删除无法补全的媒体模块

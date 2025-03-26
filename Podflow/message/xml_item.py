@@ -1,13 +1,13 @@
-# Podflow/message/xml_item.py
+# podflow/message/xml_item.py
 # coding: utf-8
 
 import os
 import html
 import hashlib
-from Podflow.message.title_correction import title_correction
-from Podflow.basic.time_format import time_format
-from Podflow.basic.get_duration import get_duration
-from Podflow import gVar
+from podflow.message.title_correction import title_correction
+from podflow.basic.time_format import time_format
+from podflow.basic.get_duration import get_duration
+from podflow import gVar
 
 
 # 生成item模块

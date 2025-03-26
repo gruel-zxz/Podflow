@@ -1,13 +1,13 @@
-# Podflow/upload/linked_client.py
+# podflow/upload/linked_client.py
 # coding: utf-8
 
 import os
 import time
 import socket
 from datetime import datetime
-from Podflow import gVar
-from Podflow.upload.time_key import time_key
-from Podflow.basic.time_print import time_print
+from podflow import gVar
+from podflow.upload.time_key import time_key
+from podflow.basic.time_print import time_print
 
 
 BROADCAST_PORT = 37001

@@ -1,9 +1,9 @@
-# Podflow/meaasge/get_original_rss.py
+# podflow/meaasge/get_original_rss.py
 # coding: utf-8
 
 import re
 import hashlib
-from Podflow import gVar
+from podflow import gVar
 
 
 # 生成哈希值模块

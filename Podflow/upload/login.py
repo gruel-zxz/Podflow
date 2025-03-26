@@ -1,16 +1,16 @@
-# Podflow/upload/login.py
+# podflow/upload/login.py
 # coding: utf-8
 
 import os
 import json
 import uuid
 import hashlib
-from Podflow import gVar
-from Podflow.upload.time_key import time_key
-from Podflow.basic.file_save import file_save
-from Podflow.basic.write_log import write_log
-from Podflow.basic.time_print import time_print
-from Podflow.basic.http_client import http_client
+from podflow import gVar
+from podflow.upload.time_key import time_key
+from podflow.basic.file_save import file_save
+from podflow.basic.write_log import write_log
+from podflow.basic.time_print import time_print
+from podflow.basic.http_client import http_client
 
 
 def get_login():

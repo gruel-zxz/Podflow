@@ -1,8 +1,8 @@
-# Podflow/httpfs/get_channelid.py
+# podflow/httpfs/get_channelid.py
 # coding: utf-8
 
 import re
-from Podflow.basic.http_client import http_client
+from podflow.basic.http_client import http_client
 
 
 def get_response(

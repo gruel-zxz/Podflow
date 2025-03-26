@@ -1,12 +1,12 @@
 # coding: utf-8
 
 from importlib.metadata import version
-from Podflow import parse
-from Podflow.main_upload import main_upload
-from Podflow.main_podcast import main_podcast
-from Podflow.basic.time_print import time_print
-from Podflow.repair.reverse_log import reverse_log
-from Podflow.parse_arguments import parse_arguments
+from podflow import parse
+from podflow.main_upload import main_upload
+from podflow.main_podcast import main_podcast
+from podflow.basic.time_print import time_print
+from podflow.repair.reverse_log import reverse_log
+from podflow.parse_arguments import parse_arguments
 
 
 def main():

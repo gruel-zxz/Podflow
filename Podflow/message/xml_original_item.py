@@ -1,11 +1,11 @@
-# Podflow/message/xml_original_item.py
+# podflow/message/xml_original_item.py
 # coding: utf-8
 
 import re
 import html
 import hashlib
-from Podflow import gVar
-from Podflow.message.title_correction import title_correction
+from podflow import gVar
+from podflow.message.title_correction import title_correction
 
 
 # 生成原有的item模块

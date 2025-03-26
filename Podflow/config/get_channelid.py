@@ -1,9 +1,9 @@
-# Podflow/config/get_channelid.py
+# podflow/config/get_channelid.py
 # coding: utf-8
 
 from datetime import datetime
-from Podflow import gVar
-from Podflow.basic.write_log import write_log
+from podflow import gVar
+from podflow.basic.write_log import write_log
 
 
 # 从配置文件中获取频道模块

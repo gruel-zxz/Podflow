@@ -1,11 +1,11 @@
-# Podflow/message/backup_zip_save.py
+# podflow/message/backup_zip_save.py
 # coding: utf-8
 
 import zipfile
 from datetime import datetime
-from Podflow import gVar
-from Podflow.basic.write_log import write_log
-from Podflow.message.rss_create_hash import rss_create_hash
+from podflow import gVar
+from podflow.basic.write_log import write_log
+from podflow.message.rss_create_hash import rss_create_hash
 
 
 # xml备份保存模块

@@ -1,10 +1,10 @@
-# Podflow/youtube/login.py
+# podflow/youtube/login.py
 # coding: utf-8
 
 from datetime import datetime
-from Podflow.basic.http_client import http_client
-from Podflow.basic.write_log import write_log
-from Podflow.netscape.get_cookie_dict import get_cookie_dict
+from podflow.basic.http_client import http_client
+from podflow.basic.write_log import write_log
+from podflow.netscape.get_cookie_dict import get_cookie_dict
 
 
 def get_youtube_cookie_fail(arg0):

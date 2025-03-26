@@ -1,4 +1,4 @@
-# Podflow/upload/get_upload_original.py
+# podflow/upload/get_upload_original.py
 # coding: utf-8
 
 import re
@@ -6,10 +6,10 @@ import json
 from datetime import datetime
 from collections import Counter
 from email.utils import parsedate_tz, mktime_tz
-from Podflow import gVar
-from Podflow.basic.file_save import file_save
-from Podflow.basic.write_log import write_log
-from Podflow.message.get_media_name import get_media_name
+from podflow import gVar
+from podflow.basic.file_save import file_save
+from podflow.basic.write_log import write_log
+from podflow.message.get_media_name import get_media_name
 
 
 # 获取原始上传数据模块

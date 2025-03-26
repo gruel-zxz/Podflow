@@ -1,4 +1,4 @@
-# Podflow/config/get_channelid_id.py
+# podflow/config/get_channelid_id.py
 # coding: utf-8
 
 from datetime import datetime

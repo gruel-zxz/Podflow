@@ -1,4 +1,4 @@
-# Podflow/basic/qr_code.py
+# podflow/basic/qr_code.py
 # coding: utf-8
 
 import math

@@ -1,13 +1,13 @@
-# Podflow/message/save_rss.py
+# podflow/message/save_rss.py
 # coding: utf-8
 
-from Podflow import gVar
-from Podflow.basic.qr_code import qr_code
-from Podflow.message.xml_rss import xml_rss
-from Podflow.basic.file_save import file_save
-from Podflow.basic.write_log import write_log
-from Podflow.message.backup_zip_save import backup_zip_save
-from Podflow.message.display_qrcode_and_url import display_qrcode_and_url
+from podflow import gVar
+from podflow.basic.qr_code import qr_code
+from podflow.message.xml_rss import xml_rss
+from podflow.basic.file_save import file_save
+from podflow.basic.write_log import write_log
+from podflow.message.backup_zip_save import backup_zip_save
+from podflow.message.display_qrcode_and_url import display_qrcode_and_url
 
 
 # 保存rss文件模块

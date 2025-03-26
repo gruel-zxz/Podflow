@@ -1,4 +1,4 @@
-# Podflow/youtube/build.py
+# podflow/youtube/build.py
 # coding: utf-8
 
 import re
@@ -7,13 +7,13 @@ import threading
 import contextlib
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
-from Podflow import gVar
-from Podflow.message.xml_item import xml_item
-from Podflow.basic.time_print import time_print
-from Podflow.basic.http_client import http_client
-from Podflow.message.format_time import format_time
-from Podflow.basic.get_html_dict import get_html_dict
-from Podflow.message.xml_original_item import xml_original_item
+from podflow import gVar
+from podflow.message.xml_item import xml_item
+from podflow.basic.time_print import time_print
+from podflow.basic.http_client import http_client
+from podflow.message.format_time import format_time
+from podflow.basic.get_html_dict import get_html_dict
+from podflow.message.xml_original_item import xml_original_item
 
 
 # 获取YouTube频道简介模块

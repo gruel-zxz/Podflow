@@ -1,4 +1,4 @@
-# Podflow/message/fail_message_initialize.py
+# podflow/message/fail_message_initialize.py
 # coding: utf-8
 
 import re

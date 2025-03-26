@@ -1,10 +1,10 @@
-# Podflow/makeup/make_up_file_mod.py
+# podflow/makeup/make_up_file_mod.py
 # coding: utf-8
 
 import os
-from Podflow import gVar
-from Podflow.basic.write_log import write_log
-from Podflow.download.dl_aideo_video import dl_aideo_video
+from podflow import gVar
+from podflow.basic.write_log import write_log
+from podflow.download.dl_aideo_video import dl_aideo_video
 
 
 # 下载补全Youtube和哔哩哔哩视频模块

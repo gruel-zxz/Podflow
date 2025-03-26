@@ -1,9 +1,9 @@
-# Podflow/message/get_video_format_multithread.py
+# podflow/message/get_video_format_multithread.py
 # coding: utf-8
 
 import threading
-from Podflow.download.wait_animation import wait_animation
-from Podflow.message.get_youtube_and_bilibili_video_format import (
+from podflow.download.wait_animation import wait_animation
+from podflow.message.get_youtube_and_bilibili_video_format import (
     get_youtube_and_bilibili_video_format,
 )
 

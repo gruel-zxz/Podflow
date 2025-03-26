@@ -1,2 +1,2 @@
-# Podflow/httpfs/__init__.py
+# podflow/httpfs/__init__.py
 # coding: utf-8

@@ -1,12 +1,12 @@
-# Podflow/config/channge_icon.py
+# podflow/config/channge_icon.py
 # coding: utf-8
 
 from datetime import datetime, timedelta, timezone
 from astral import LocationInfo
 from astral.sun import sun
-from Podflow.basic.http_client import http_client
-from Podflow.basic.write_log import write_log
-from Podflow import gVar, default_config
+from podflow.basic.http_client import http_client
+from podflow.basic.write_log import write_log
+from podflow import gVar, default_config
 
 
 # 获取日出日落并判断昼夜模块

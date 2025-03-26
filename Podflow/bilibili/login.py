@@ -1,4 +1,4 @@
-# Podflow/bilibili/login.py
+# podflow/bilibili/login.py
 # coding: utf-8
 
 import binascii
@@ -8,12 +8,12 @@ import re
 import time
 from datetime import datetime
 import requests
-from Podflow.basic.file_save import file_save
-from Podflow.basic.http_client import http_client
-from Podflow.basic.qr_code import qr_code
-from Podflow.basic.time_stamp import time_stamp
-from Podflow.basic.write_log import write_log
-from Podflow.netscape.bulid_netscape import bulid_netscape
+from podflow.basic.file_save import file_save
+from podflow.basic.http_client import http_client
+from podflow.basic.qr_code import qr_code
+from podflow.basic.time_stamp import time_stamp
+from podflow.basic.write_log import write_log
+from podflow.netscape.bulid_netscape import bulid_netscape
 
 try:
     from Cryptodome.Cipher import PKCS1_OAEP

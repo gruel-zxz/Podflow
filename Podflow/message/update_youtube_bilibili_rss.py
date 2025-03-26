@@ -1,14 +1,14 @@
-# Podflow/message/update_youtube_bilibili_rss.py
+# podflow/message/update_youtube_bilibili_rss.py
 # coding: utf-8
 
 import re
 import threading
-from Podflow import gVar
-from Podflow.basic.file_save import file_save
-from Podflow.basic.write_log import write_log
-from Podflow.youtube.get import youtube_rss_update
-from Podflow.basic.folder_build import folder_build
-from Podflow.bilibili.get import bilibili_rss_update
+from podflow import gVar
+from podflow.basic.file_save import file_save
+from podflow.basic.write_log import write_log
+from podflow.youtube.get import youtube_rss_update
+from podflow.basic.folder_build import folder_build
+from podflow.bilibili.get import bilibili_rss_update
 
 
 # 更新Youtube和哔哩哔哩频道xml多线程模块

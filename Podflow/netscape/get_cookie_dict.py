@@ -1,4 +1,4 @@
-# Podflow/Netscape/get_cookie_dict.py
+# podflow/Netscape/get_cookie_dict.py
 # coding: utf-8
 
 from datetime import datetime

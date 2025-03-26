@@ -1,10 +1,10 @@
-# Podflow/basic/get_html_dict.py
+# podflow/basic/get_html_dict.py
 # coding: utf-8
 
 import re
 import json
 from bs4 import BeautifulSoup
-from Podflow.basic.http_client import http_client
+from podflow.basic.http_client import http_client
 
 
 # 通过bs4获取html中字典模块

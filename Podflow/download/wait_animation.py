@@ -1,4 +1,4 @@
-# Podflow/download/wait_animation.py
+# podflow/download/wait_animation.py
 # coding: utf-8
 
 import time

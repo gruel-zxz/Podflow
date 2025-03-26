@@ -1,4 +1,4 @@
-# Podflow/youtube/get.py
+# podflow/youtube/get.py
 # coding: utf-8
 
 import contextlib
@@ -6,11 +6,11 @@ import re
 import os
 import threading
 from datetime import datetime
-from Podflow import gVar
-from Podflow.basic.http_client import http_client
-from Podflow.basic.vary_replace import vary_replace
-from Podflow.basic.get_html_dict import get_html_dict
-from Podflow.basic.list_merge_tidy import list_merge_tidy
+from podflow import gVar
+from podflow.basic.http_client import http_client
+from podflow.basic.vary_replace import vary_replace
+from podflow.basic.get_html_dict import get_html_dict
+from podflow.basic.list_merge_tidy import list_merge_tidy
 
 
 # 从YouTube播放列表获取更新模块

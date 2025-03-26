@@ -1,18 +1,18 @@
-# Podflow/bilibili/build.py
+# podflow/bilibili/build.py
 # coding: utf-8
 
 import re
 import html
 import contextlib
 from datetime import datetime, timezone
-from Podflow import gVar
-from Podflow.message.xml_rss import xml_rss
-from Podflow.basic.file_save import file_save
-from Podflow.message.xml_item import xml_item
-from Podflow.bilibili.get import get_bilibili_cid
-from Podflow.message.format_time import format_time
-from Podflow.basic.get_file_list import get_file_list
-from Podflow.message.xml_original_item import xml_original_item
+from podflow import gVar
+from podflow.message.xml_rss import xml_rss
+from podflow.basic.file_save import file_save
+from podflow.message.xml_item import xml_item
+from podflow.bilibili.get import get_bilibili_cid
+from podflow.message.format_time import format_time
+from podflow.basic.get_file_list import get_file_list
+from podflow.message.xml_original_item import xml_original_item
 
 
 def get_items_list(

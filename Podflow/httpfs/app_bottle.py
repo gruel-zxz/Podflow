@@ -1,4 +1,4 @@
-# Podflow/httpfs/app_bottle.py
+# podflow/httpfs/app_bottle.py
 # coding: utf-8
 
 import os
@@ -7,14 +7,14 @@ import pkg_resources
 from datetime import datetime
 import cherrypy
 from bottle import Bottle, abort, redirect, request, static_file, response, template
-from Podflow import gVar
-from Podflow.upload.login import create
-from Podflow.httpfs.html import html_index
-from Podflow.basic.file_save import file_save
-from Podflow.basic.write_log import write_log
-from Podflow.upload.build_hash import build_hash
-from Podflow.upload.time_key import check_time_key
-from Podflow.httpfs.get_channelid import get_channelid
+from podflow import gVar
+from podflow.upload.login import create
+from podflow.httpfs.html import html_index
+from podflow.basic.file_save import file_save
+from podflow.basic.write_log import write_log
+from podflow.upload.build_hash import build_hash
+from podflow.upload.time_key import check_time_key
+from podflow.httpfs.get_channelid import get_channelid
 
 
 class bottle_app:

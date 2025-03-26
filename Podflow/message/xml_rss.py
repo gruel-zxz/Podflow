@@ -1,4 +1,4 @@
-# Podflow/message/xml_rss.py
+# podflow/message/xml_rss.py
 # coding: utf-8
 
 import time

@@ -1,8 +1,8 @@
-# Podflow/message/original_rss_fail_print.py
+# podflow/message/original_rss_fail_print.py
 # coding: utf-8
 
-from Podflow import gVar
-from Podflow.basic.write_log import write_log
+from podflow import gVar
+from podflow.basic.write_log import write_log
 
 
 # 打印无法保留原节目信息模块

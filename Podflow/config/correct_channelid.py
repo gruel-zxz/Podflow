@@ -1,9 +1,9 @@
-# Podflow/config/correct_channelid.py
+# podflow/config/correct_channelid.py
 # coding: utf-8
 
 import re
-from Podflow import gVar, default_config, parse
-from Podflow.basic.write_log import write_log
+from podflow import gVar, default_config, parse
+from podflow.basic.write_log import write_log
 
 
 # channelid修正模块

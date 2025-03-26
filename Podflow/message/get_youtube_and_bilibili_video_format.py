@@ -1,9 +1,9 @@
-# Podflow/message/get_youtube_and_bilibili_video_format.py
+# podflow/message/get_youtube_and_bilibili_video_format.py
 # coding: utf-8
 
-from Podflow import gVar
-from Podflow.basic.write_log import write_log
-from Podflow.message.media_format import media_format
+from podflow import gVar
+from podflow.basic.write_log import write_log
+from podflow.message.media_format import media_format
 
 
 def one_format(id_update_format, id_num):

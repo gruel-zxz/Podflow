@@ -1,11 +1,11 @@
-# Podflow/message/create_main_rss.py
+# podflow/message/create_main_rss.py
 # coding: utf-8
 
 import time
-from Podflow import gVar
-from Podflow.youtube.build import youtube_xml_items
-from Podflow.bilibili.build import bilibili_xml_items
-from Podflow.message.get_media_name import get_media_name
+from podflow import gVar
+from podflow.youtube.build import youtube_xml_items
+from podflow.bilibili.build import bilibili_xml_items
+from podflow.message.get_media_name import get_media_name
 
 
 def update_output_dir():

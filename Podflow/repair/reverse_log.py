@@ -1,9 +1,9 @@
-# Podflow/repair/reverse_log.py
+# podflow/repair/reverse_log.py
 # coding: utf-8
 
 import re
 from itertools import islice
-from Podflow.basic.time_print import time_print
+from podflow.basic.time_print import time_print
 
 
 def reverse_log(filename):

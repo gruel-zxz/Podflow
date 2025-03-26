@@ -1,9 +1,9 @@
-# Podflow/remove/remove_file.py
+# podflow/remove/remove_file.py
 # coding: utf-8
 
 import os
-from Podflow import gVar
-from Podflow.basic.write_log import write_log
+from podflow import gVar
+from podflow.basic.write_log import write_log
 
 
 # 删除多余媒体文件模块

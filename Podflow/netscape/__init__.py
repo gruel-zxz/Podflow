@@ -1,2 +1,2 @@
-# Podflow/netscape/__init__.py
+# podflow/netscape/__init__.py
 # coding: utf-8

@@ -1,4 +1,4 @@
-# Podflow/upload/build_hash.py
+# podflow/upload/build_hash.py
 # coding: utf-8
 
 import hashlib

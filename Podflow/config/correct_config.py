@@ -1,8 +1,8 @@
-# Podflow/config/correct_config.py
+# podflow/config/correct_config.py
 # coding: utf-8
 
 import re
-from Podflow import gVar, default_config, parse
+from podflow import gVar, default_config, parse
 
 
 # 纠正配置信息config模块

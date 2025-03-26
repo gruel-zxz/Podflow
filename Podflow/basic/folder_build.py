@@ -1,8 +1,8 @@
-# Podflow/basic/folder_build.py
+# podflow/basic/folder_build.py
 # coding: utf-8
 
 import os
-from Podflow.basic.write_log import write_log
+from podflow.basic.write_log import write_log
 
 
 # 构建文件夹模块

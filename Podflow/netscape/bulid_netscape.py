@@ -1,7 +1,7 @@
-# Podflow/netscape/bulid_netscape.py
+# podflow/netscape/bulid_netscape.py
 # coding: utf-8
 
-from Podflow.basic.file_save import file_save
+from podflow.basic.file_save import file_save
 
 
 # 生成Netscape_HTTP_Cookie模块

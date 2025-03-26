@@ -1,4 +1,4 @@
-# Podflow/httpfs/browser.py
+# podflow/httpfs/browser.py
 # coding: utf-8
 
 import os

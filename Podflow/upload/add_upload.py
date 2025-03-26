@@ -1,8 +1,8 @@
-# Podflow/upload/add_upload.py
+# podflow/upload/add_upload.py
 # coding: utf-8
 
 import time
-from Podflow import gVar
+from podflow import gVar
 
 
 # 添加新媒体至上传列表模块

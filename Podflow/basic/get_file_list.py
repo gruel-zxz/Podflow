@@ -1,9 +1,9 @@
-# Podflow/basic/get_file_list.py
+# podflow/basic/get_file_list.py
 # coding: utf-8
 
 import os
 import re
-from Podflow.basic.list_merge_tidy import list_merge_tidy
+from podflow.basic.list_merge_tidy import list_merge_tidy
 
 
 # 获取文件列表和分P列表

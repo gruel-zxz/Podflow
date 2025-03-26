@@ -1,11 +1,11 @@
-# Podflow/basic/time_stamp.py
+# podflow/basic/time_stamp.py
 # coding: utf-8
 
 import time
 import threading
 import contextlib
 from datetime import datetime
-from Podflow.basic.http_client import http_client
+from podflow.basic.http_client import http_client
 
 
 # 时间戳模块

@@ -1,9 +1,9 @@
-# Podflow/message/display_qrcode_and_url.py
+# podflow/message/display_qrcode_and_url.py
 # coding: utf-8
 
 from datetime import datetime
-from Podflow import gVar
-from Podflow.basic.qr_code import qr_code
+from podflow import gVar
+from podflow.basic.qr_code import qr_code
 
 
 # 显示网址及二维码模块

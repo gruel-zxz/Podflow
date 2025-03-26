@@ -1,13 +1,13 @@
-# Podflow/main_upload.py
+# podflow/main_upload.py
 # coding: utf-8
 
 import sys
 import cherrypy
-from Podflow.upload.login import get_login
-from Podflow.basic.time_print import time_print
-from Podflow.basic.folder_build import folder_build
-from Podflow.httpfs.app_bottle import bottle_app_instance
-from Podflow.upload.linked_server import handle_discovery, usable_port
+from podflow.upload.login import get_login
+from podflow.basic.time_print import time_print
+from podflow.basic.folder_build import folder_build
+from podflow.httpfs.app_bottle import bottle_app_instance
+from podflow.upload.linked_server import handle_discovery, usable_port
 
 
 def main_upload():

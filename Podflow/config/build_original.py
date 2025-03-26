@@ -1,13 +1,13 @@
-# Podflow/config/build_original.py
+# podflow/config/build_original.py
 # coding: utf-8
 
-from Podflow import gVar, parse
-from Podflow.config.get_config import get_config
-from Podflow.basic.folder_build import folder_build
-from Podflow.config.get_channelid import get_channelid
-from Podflow.config.correct_config import correct_config
-from Podflow.config.get_channelid_id import get_channelid_id
-from Podflow.config.correct_channelid import correct_channelid
+from podflow import gVar, parse
+from podflow.config.get_config import get_config
+from podflow.basic.folder_build import folder_build
+from podflow.config.get_channelid import get_channelid
+from podflow.config.correct_config import correct_config
+from podflow.config.get_channelid_id import get_channelid_id
+from podflow.config.correct_channelid import correct_channelid
 
 
 def build_original():

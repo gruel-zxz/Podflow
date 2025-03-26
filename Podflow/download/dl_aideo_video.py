@@ -1,15 +1,15 @@
-# Podflow/download/dl_aideo_video.py
+# podflow/download/dl_aideo_video.py
 # coding: utf-8
 
 import os
 from datetime import datetime
 import ffmpeg
 import yt_dlp
-from Podflow import gVar
-from Podflow.basic.write_log import write_log
-from Podflow.basic.get_duration import get_duration
-from Podflow.download.show_progress import show_progress
-from Podflow.message.fail_message_initialize import fail_message_initialize
+from podflow import gVar
+from podflow.basic.write_log import write_log
+from podflow.basic.get_duration import get_duration
+from podflow.download.show_progress import show_progress
+from podflow.message.fail_message_initialize import fail_message_initialize
 
 
 # 下载视频模块

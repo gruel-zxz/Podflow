@@ -1,8 +1,8 @@
-# Podflow/message/media_format.py
+# podflow/message/media_format.py
 # coding: utf-8
 
 import yt_dlp
-from Podflow.message.fail_message_initialize import fail_message_initialize
+from podflow.message.fail_message_initialize import fail_message_initialize
 
 
 class MyLogger:

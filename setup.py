@@ -1,4 +1,4 @@
-# Podflow/setup.py
+# setup.py
 # coding: utf-8
 
 from setuptools import setup, find_packages
@@ -15,10 +15,10 @@ setup(
     packages=find_packages(),
     entry_points={
         'console_scripts': [
-            'Podflow=Podflow.main:main',
-            'podflow=Podflow.main:main',
-            'PodFlow=Podflow.main:main',
-            'PODFLOW=Podflow.main:main',
+            'Podflow=podflow.main:main',
+            'podflow=podflow.main:main',
+            'PodFlow=podflow.main:main',
+            'PODFLOW=podflow.main:main',
         ],
     },
     classifiers=[

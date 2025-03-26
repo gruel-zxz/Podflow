@@ -1,4 +1,4 @@
-# Podflow/bilibili/get.py
+# podflow/bilibili/get.py
 # coding: utf-8
 
 import contextlib
@@ -10,10 +10,10 @@ import urllib
 import threading
 from hashlib import md5
 from functools import reduce
-from Podflow import gVar
-from Podflow.basic.http_client import http_client
-from Podflow.basic.get_file_list import get_file_list
-from Podflow.basic.list_merge_tidy import list_merge_tidy
+from podflow import gVar
+from podflow.basic.http_client import http_client
+from podflow.basic.get_file_list import get_file_list
+from podflow.basic.list_merge_tidy import list_merge_tidy
 
 
 # WBI签名模块

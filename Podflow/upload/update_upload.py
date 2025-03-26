@@ -1,12 +1,12 @@
-# Podflow/upload/update_upload.py
+# podflow/upload/update_upload.py
 # coding: utf-8
 
 import re
 import time
 from email.utils import parsedate_tz, mktime_tz
-from Podflow import gVar
-from Podflow.basic.file_save import file_save
-from Podflow.message.get_media_name import get_media_name
+from podflow import gVar
+from podflow.basic.file_save import file_save
+from podflow.message.get_media_name import get_media_name
 
 
 # 更新并保存上传列表模块

@@ -1,12 +1,12 @@
-# Podflow/config/get_config.py
+# podflow/config/get_config.py
 # coding: utf-8
 
 import os
 import sys
 import json
 from datetime import datetime
-from Podflow import default_config
-from Podflow.basic.write_log import write_log
+from podflow import default_config
+from podflow.basic.write_log import write_log
 
 
 # 获取配置信息config模块

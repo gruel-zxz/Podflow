@@ -1,9 +1,9 @@
-# Podflow/download/delete_part.py
+# podflow/download/delete_part.py
 # coding: utf-8
 
 import os
 import fnmatch
-from Podflow.basic.write_log import write_log
+from podflow.basic.write_log import write_log
 
 
 # 删除下载失败媒体模块

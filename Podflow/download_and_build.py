@@ -1,10 +1,10 @@
-# Podflow/download_and_build.py
+# podflow/download_and_build.py
 # coding: utf-8
 
 import threading
-from Podflow.youtube.build import get_youtube_introduction
-from Podflow.message.create_main_rss import create_main_rss
-from Podflow.download.youtube_and_bilibili_download import youtube_and_bilibili_download
+from podflow.youtube.build import get_youtube_introduction
+from podflow.message.create_main_rss import create_main_rss
+from podflow.download.youtube_and_bilibili_download import youtube_and_bilibili_download
 
 
 def get_and_duild():

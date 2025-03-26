@@ -1,4 +1,4 @@
-# Podflow/__init__.py
+# podflow/__init__.py
 # coding: utf-8
 
 # 默认参数

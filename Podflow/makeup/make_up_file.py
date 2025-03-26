@@ -1,8 +1,8 @@
-# Podflow/makeup/make_up_file.py
+# podflow/makeup/make_up_file.py
 # coding: utf-8
 
 import os
-from Podflow import gVar
+from podflow import gVar
 
 
 # 补全缺失媒体文件到字典模块

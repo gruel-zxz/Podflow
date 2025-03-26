@@ -1,11 +1,11 @@
-# Podflow/upload/linked_server.py
+# podflow/upload/linked_server.py
 # coding: utf-8
 
 import socket
-from Podflow.basic.write_log import write_log
-from Podflow.basic.time_print import time_print
-from Podflow.httpfs.port_judge import port_judge
-from Podflow.upload.time_key import check_time_key
+from podflow.basic.write_log import write_log
+from podflow.basic.time_print import time_print
+from podflow.httpfs.port_judge import port_judge
+from podflow.upload.time_key import check_time_key
 
 
 # 定义一个函数，用于判断端口是否可用

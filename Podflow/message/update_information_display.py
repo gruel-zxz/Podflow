@@ -1,9 +1,9 @@
-# Podflow/message/want_retry.py
+# podflow/message/want_retry.py
 # coding: utf-8
 
 import re
 import os
-from Podflow.basic.write_log import write_log
+from podflow.basic.write_log import write_log
 
 
 # 输出需要更新的信息模块

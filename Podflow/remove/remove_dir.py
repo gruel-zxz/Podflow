@@ -1,11 +1,11 @@
-# Podflow/remove/remove_dir.py
+# podflow/remove/remove_dir.py
 # coding: utf-8
 
 import os
 import re
 import shutil
-from Podflow import gVar
-from Podflow.basic.write_log import write_log
+from podflow import gVar
+from podflow.basic.write_log import write_log
 
 
 # 删除已抛弃的媒体文件夹模块

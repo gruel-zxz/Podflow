@@ -1,9 +1,9 @@
-# Podflow/basic/get_duration.py
+# podflow/basic/get_duration.py
 # coding: utf-8
 
 import math
 import ffmpeg
-from Podflow.basic.write_log import write_log
+from podflow.basic.write_log import write_log
 
 
 # 获取已下载视频时长模块

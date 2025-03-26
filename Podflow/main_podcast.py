@@ -1,4 +1,4 @@
-# Podflow/main_podcast.py
+# podflow/main_podcast.py
 # coding: utf-8
 
 import sys
@@ -10,55 +10,55 @@ import subprocess
 import cherrypy
 
 # 基本功能模块
-from Podflow import gVar, parse
-from Podflow.basic.split_dict import split_dict
-from Podflow.basic.time_print import time_print
+from podflow import gVar, parse
+from podflow.basic.split_dict import split_dict
+from podflow.basic.time_print import time_print
 
 # 网络和 HTTP 模块
-from Podflow.httpfs.browser import open_url
-from Podflow.httpfs.port_judge import port_judge
-from Podflow.httpfs.app_bottle import bottle_app_instance
+from podflow.httpfs.browser import open_url
+from podflow.httpfs.port_judge import port_judge
+from podflow.httpfs.app_bottle import bottle_app_instance
 
 # 下载和视频处理模块
-from Podflow.ffmpeg_judge import ffmpeg_judge
-from Podflow.download.delete_part import delete_part
-from Podflow.download_and_build import download_and_build
+from podflow.ffmpeg_judge import ffmpeg_judge
+from podflow.download.delete_part import delete_part
+from podflow.download_and_build import download_and_build
 
 # RSS 和消息处理模块
-from Podflow.message.save_rss import save_rss
-from Podflow.message.get_original_rss import get_original_rss
-from Podflow.message.get_video_format import get_video_format
-from Podflow.message.original_rss_fail_print import original_rss_fail_print
-from Podflow.message.update_information_display import update_information_display
-from Podflow.message.update_youtube_bilibili_rss import update_youtube_bilibili_rss
+from podflow.message.save_rss import save_rss
+from podflow.message.get_original_rss import get_original_rss
+from podflow.message.get_video_format import get_video_format
+from podflow.message.original_rss_fail_print import original_rss_fail_print
+from podflow.message.update_information_display import update_information_display
+from podflow.message.update_youtube_bilibili_rss import update_youtube_bilibili_rss
 
 # 登录模块
-from Podflow.bilibili.login import get_bilibili_data
-from Podflow.youtube.login import get_youtube_cookie
+from podflow.bilibili.login import get_bilibili_data
+from podflow.youtube.login import get_youtube_cookie
 
 # 配置和图标模块
-from Podflow.config.channge_icon import channge_icon
-from Podflow.config.build_original import build_original
+from podflow.config.channge_icon import channge_icon
+from podflow.config.build_original import build_original
 
 # 制作和修改文件模块
-from Podflow.makeup.make_up_file import make_up_file
-from Podflow.makeup.make_up_file_mod import make_up_file_mod
-from Podflow.makeup.del_makeup_format_fail import del_makeup_format_fail
-from Podflow.makeup.make_up_file_format_mod import make_up_file_format_mod
+from podflow.makeup.make_up_file import make_up_file
+from podflow.makeup.make_up_file_mod import make_up_file_mod
+from podflow.makeup.del_makeup_format_fail import del_makeup_format_fail
+from podflow.makeup.make_up_file_format_mod import make_up_file_format_mod
 
 # 移除模块
-from Podflow.remove.remove_file import remove_file
-from Podflow.remove.remove_dir import remove_dir
+from podflow.remove.remove_file import remove_file
+from podflow.remove.remove_dir import remove_dir
 
 # 处理 YouTube 信息模块
-from Podflow.youtube.build import print_fail_youtube
+from podflow.youtube.build import print_fail_youtube
 
 # 长期媒体进行上传模块
-from Podflow.upload.login import login_upload
-from Podflow.upload.add_upload import add_upload
-from Podflow.upload.update_upload import update_upload
-from Podflow.upload.linked_client import connect_upload_server
-from Podflow.upload.get_upload_original import get_upload_original
+from podflow.upload.login import login_upload
+from podflow.upload.add_upload import add_upload
+from podflow.upload.update_upload import update_upload
+from podflow.upload.linked_client import connect_upload_server
+from podflow.upload.get_upload_original import get_upload_original
 
 
 def main_podcast():

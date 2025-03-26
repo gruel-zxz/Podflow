@@ -1,8 +1,8 @@
-# Podflow/parse_arguments.py
+# podflow/parse_arguments.py
 # coding: utf-8
 
 import argparse
-from Podflow import parse
+from podflow import parse
 
 
 def positive_int(value):
