@@ -9,45 +9,59 @@ from Podflow.message.media_format import media_format
 def one_format(id_update_format, id_num):
     entry_id_update_format = id_update_format[0]
     gVar.video_id_update_format[id_num]["url"] = entry_id_update_format["url"]
-    gVar.video_id_update_format[id_num]["format"] = entry_id_update_format["duration_and_id"]
+    gVar.video_id_update_format[id_num]["format"] = entry_id_update_format[
+        "duration_and_id"
+    ]
     gVar.video_id_update_format[id_num]["title"] = entry_id_update_format["title"]
-    gVar.video_id_update_format[id_num]["timestamp"] = entry_id_update_format["timestamp"]
-    gVar.video_id_update_format[id_num]["description"] = entry_id_update_format["description"]
+    gVar.video_id_update_format[id_num]["timestamp"] = entry_id_update_format[
+        "timestamp"
+    ]
+    gVar.video_id_update_format[id_num]["description"] = entry_id_update_format[
+        "description"
+    ]
     gVar.video_id_update_format[id_num]["main"] = id_num
     gVar.video_id_update_format[id_num]["image"] = entry_id_update_format["image"]
     gVar.video_id_update_format[id_num]["download"] = entry_id_update_format["download"]
 
 
 # YouTube&哔哩哔哩视频信息模块
-def get_youtube_and_bilibili_video_format(id_num, stop_flag, video_format_lock, prepare_animation):
+def get_youtube_and_bilibili_video_format(
+    id_num, stop_flag, video_format_lock, prepare_animation
+):
+    url = gVar.video_id_update_format[id_num]["url"]
+    media = gVar.video_id_update_format[id_num]["media"]
+    quality = gVar.video_id_update_format[id_num]["quality"]
     id_update_format = media_format(
-        gVar.video_id_update_format[id_num]["url"],
+        url,
         id_num,
-        gVar.video_id_update_format[id_num]["media"],
-        gVar.video_id_update_format[id_num]["quality"],
+        media,
+        quality,
         gVar.video_id_update_format[id_num]["cookie"],
     )
-    for fail_info in ["年龄限制", "需登录", "请求拒绝", "无法获取音频ID"]:
-        if fail_info in id_update_format:
-            if gVar.youtube_cookie:
-                gVar.video_id_update_format[id_num]["cookie"] = "channel_data/yt_dlp_youtube.txt"
-                id_update_format = media_format(
-                    gVar.video_id_update_format[id_num]["url"],
-                    id_num,
-                    gVar.video_id_update_format[id_num]["media"],
-                    gVar.video_id_update_format[id_num]["quality"],
-                    gVar.video_id_update_format[id_num]["cookie"],
-                )
-                if fail_info in id_update_format:
-                    id_update_format = f"\x1b[31m{fail_info}\x1b[0m(Cookies错误)"
-            else:
-                id_update_format = f"\x1b[31m{fail_info}\x1b[0m(需要Cookies)"
-            break
-    if gVar.video_id_update_format[id_num]["power"] is True and (
-            "试看" in id_update_format
-            or id_update_format == "无法获取音频ID"
+    if "youtube" in url:
+        for fail_info in ["年龄限制", "需登录", "请求拒绝", "无法获取音频ID"]:
+            if fail_info in id_update_format:
+                if gVar.youtube_cookie:
+                    gVar.video_id_update_format[id_num][
+                        "cookie"
+                    ] = "channel_data/yt_dlp_youtube.txt"
+                    id_update_format = media_format(
+                        url,
+                        id_num,
+                        media,
+                        quality,
+                        gVar.video_id_update_format[id_num]["cookie"],
+                    )
+                    if fail_info in id_update_format:
+                        id_update_format = f"\x1b[31m{fail_info}\x1b[0m(Cookies错误)"
+                else:
+                    id_update_format = f"\x1b[31m{fail_info}\x1b[0m(需要Cookies)"
+                break
+    else:
+        if gVar.video_id_update_format[id_num]["power"] is True and (
+            "试看" in id_update_format or id_update_format == "无法获取音频ID"
         ):
-        id_update_format = "\x1b[31m充电专属\x1b[0m"
+            id_update_format = "\x1b[31m充电专属\x1b[0m"
     if isinstance(id_update_format, list):
         if len(id_update_format) == 1:
             one_format(id_update_format, id_num)
@@ -58,8 +72,8 @@ def get_youtube_and_bilibili_video_format(id_num, stop_flag, video_format_lock, 
                 entrys_id.append(entry_id)
                 gVar.video_id_update_format[entry_id] = {
                     "id": gVar.video_id_update_format[id_num]["id"],
-                    "media": gVar.video_id_update_format[id_num]["media"],
-                    "quality": gVar.video_id_update_format[id_num]["quality"],
+                    "media": media,
+                    "quality": quality,
                     "url": entry_id_update_format["url"],
                     "name": gVar.video_id_update_format[id_num]["name"],
                     "cookie": gVar.video_id_update_format[id_num]["cookie"],
@@ -70,7 +84,9 @@ def get_youtube_and_bilibili_video_format(id_num, stop_flag, video_format_lock, 
                     "main": id_num,
                     "image": entry_id_update_format["image"],
                     "download": entry_id_update_format["download"],
-                    "backward_update": gVar.video_id_update_format[id_num]["backward_update"],
+                    "backward_update": gVar.video_id_update_format[id_num][
+                        "backward_update"
+                    ],
                 }
             gVar.video_id_update_format[id_num] = entrys_id
     else:
