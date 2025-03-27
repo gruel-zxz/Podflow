@@ -13,6 +13,7 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/gruel-zxz/podflow",
     packages=find_packages(),
+    include_package_data=True,
     entry_points={
         'console_scripts': [
             'Podflow=podflow.main:main',
