@@ -5,71 +5,94 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>输入输出示例</title>
   <style>
+    /* 定义颜色变量 - 浅色模式 */
+    :root {
+      --bg-color: #f8f9fa;
+      --text-color: #333;
+      --secondary-text: #666;
+      --input-bg: #ffffff;
+      --input-border: #ccc;
+      --button-bg: #007bff;
+      --button-hover: #0056b3;
+      --button-text: white;
+      --button-shadow: rgba(0, 0, 0, 0.2);
+    }
+    /* 深色模式变量 */
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg-color: #222;
+        --text-color: #e0e0e0;
+        --secondary-text: #aaa;
+        --input-bg: #333;
+        --input-border: #555;
+        --button-bg: #0062cc;
+        --button-hover: #0069d9;
+        --button-text: #f0f0f0;
+        --button-shadow: rgba(0, 0, 0, 0.4);
+      }
+    }
     /* 基本样式 */
     body {
       font-family: Arial, sans-serif;
       text-align: center;
       padding: 20px;
-      background-color: #f8f9fa;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      transition: background-color 0.3s, color 0.3s;
     }
-
     h2 {
-      color: #333;
+      color: var(--text-color);
     }
-
     /* 响应式输入框 */
     textarea { 
       width: 90%; 
       max-width: 600px; 
-      height: 250px; /* 增加默认高度 */
+      height: 250px;
       font-size: 16px; 
       padding: 10px; 
-      border: 1px solid #ccc; 
+      border: 1px solid var(--input-border);
       border-radius: 8px; 
-      resize: vertical; /* 允许手动调整高度 */
+      resize: vertical;
       overflow-y: auto;
+      background-color: var(--input-bg);
+      color: var(--text-color);
+      transition: background-color 0.3s, color 0.3s, border-color 0.3s;
     }
-
     /* 按钮样式 */
     .button-container {
       margin-top: 10px;
     }
-
     button {
-      background-color: #007bff;
-      color: white;
+      background-color: var(--button-bg);
+      color: var(--button-text);
       border: none;
       padding: 12px 18px;
       font-size: 16px;
       border-radius: 6px;
       cursor: pointer;
       transition: 0.3s;
-      box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+      box-shadow: 2px 2px 8px var(--button-shadow);
       margin: 5px;
     }
-
     button:hover {
-      background-color: #0056b3;
+      background-color: var(--button-hover);
     }
-
     /* 手机端优化 */
     @media (max-width: 600px) {
       textarea {
         font-size: 18px;
         height: 180px;
       }
-
       button {
         width: 90%;
         font-size: 18px;
         padding: 14px;
       }
     }
-
     /* 提示信息 */
     .hint {
       font-size: 14px;
-      color: #666;
+      color: var(--secondary-text);
       margin-top: 10px;
     }
   </style>

@@ -381,13 +381,15 @@ class bottle_app:
         template_path = pkg_resources.resource_filename('podflow', 'templates/index.html')
         with open(template_path, 'r', encoding="UTF-8") as f:
             html_content = f.read()
+        self.print_out("index", 200)
         return html_content
 
     def getid(self):
         # 获取 JSON 数据，Bottle 会自动解析请求体中的 JSON 数据
-        getid_data = request.json
-        # 提取内容（若不存在则默认为空字符串）
-        content = getid_data.get("content", "") if getid_data else ""
+        if getid_data := request.json:
+            content = getid_data.get("content", "")
+        else:
+            content = ""
         response_message = get_channelid(content)
         self.print_out("channelid", 200)
         # 设置响应头为 application/json
