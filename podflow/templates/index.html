@@ -3,62 +3,155 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>输入输出示例</title>
+  <title>Podflow</title>
   <style>
     /* 定义颜色变量 - 浅色模式 */
     :root {
       --bg-color: #f8f9fa;
-      --text-color: #333;
-      --secondary-text: #666;
+      --text-color: #333333;
+      --secondary-text: #666666;
       --input-bg: #ffffff;
-      --input-border: #ccc;
+      --input-border: #cccccc;
       --button-bg: #007bff;
       --button-hover: #0056b3;
-      --button-text: white;
-      --button-shadow: rgba(0, 0, 0, 0.2);
+      --button-text: #ffffff;
+      --button-shadow: hsla(0, 0%, 0%, 0.20);
+      --menu-bg: #f0f0f0;
+      --menu-text: #333333;
+      --menu-width: 170px;
+      --menu-selected-bg: #cccccc;
+      .ansi-black { color: black; }
+      .ansi-red { color: red; }
+      .ansi-green { color: green; }
+      .ansi-yellow { color: yellow; }
+      .ansi-blue { color: blue; }
+      .ansi-magenta { color: magenta; }
+      .ansi-cyan { color: cyan; }
+      .ansi-white { color: white; }
+      .ansi-bright-black { color: gray; }
+      .ansi-bright-red { color: #ff69b4; }
+      .ansi-bright-green { color: #90ee90; }
+      .ansi-bright-yellow { color: #ffff00; }
+      .ansi-bright-blue { color: #add8e6; }
+      .ansi-bright-magenta { color: #ff00ff; }
+      .ansi-bright-cyan { color: #00ffff; }
+      .ansi-bright-white { color: #f0f8ff; }
     }
+    
     /* 深色模式变量 */
     @media (prefers-color-scheme: dark) {
       :root {
-        --bg-color: #222;
+        --bg-color: #222222;
         --text-color: #e0e0e0;
-        --secondary-text: #aaa;
-        --input-bg: #333;
-        --input-border: #555;
+        --secondary-text: #aaaaaa;
+        --input-bg: #333333;
+        --input-border: #555555;
         --button-bg: #0062cc;
         --button-hover: #0069d9;
         --button-text: #f0f0f0;
-        --button-shadow: rgba(0, 0, 0, 0.4);
+        --button-shadow: hsla(0, 0%, 0%, 0.40);
+        --menu-bg: #333333;
+        --menu-text: #e0e0e0;
+        --menu-selected-bg: #555555;
+        .ansi-black { color: #d3d3d3; /* LightGray */ }
+        .ansi-red { color: #ff4d4d; /* Lighter Red */ }
+        .ansi-green { color: #98fb98; /* PaleGreen */ }
+        .ansi-yellow { color: #ffff66; /* Lighter Yellow */ }
+        .ansi-blue { color: #87cefa; /* LightSkyBlue */ }
+        .ansi-magenta { color: #ff80ff; /* Lighter Magenta */ }
+        .ansi-cyan { color: #00ced1; /* DarkTurquoise */ }
+        .ansi-white { color: #333; /* Dark Gray */ }
+        .ansi-bright-black { color: #a9a9a9; /* DarkGray */ }
+        .ansi-bright-red { color: #ff8080; /* Brighter Red */ }
+        .ansi-bright-green { color: #b0f0b0; /* Brighter Green */ }
+        .ansi-bright-yellow { color: #ffff80; /* Brighter Yellow */ }
+        .ansi-bright-blue { color: #a0cfff; /* Brighter Blue */ }
+        .ansi-bright-magenta { color: #ff80ff; /* Brighter Magenta */ }
+        .ansi-bright-cyan { color: #80ffff; /* Brighter Cyan */ }
+        .ansi-bright-white { color: #fff; /* White */ }
       }
     }
+    
     /* 基本样式 */
     body {
       font-family: Arial, sans-serif;
-      text-align: center;
-      padding: 20px;
       background-color: var(--bg-color);
       color: var(--text-color);
       transition: background-color 0.3s, color 0.3s;
+      margin: 0;
+      display: flex;
     }
-    h2 {
-      color: var(--text-color);
+    nav {
+      width: var(--menu-width);
+      background-color: var(--menu-bg);
+      color: var(--menu-text);
+      height: 100vh;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      transition: width 0.3s, padding 0.3s, color 0.3s;
     }
-    /* 响应式输入框 */
-    textarea { 
-      width: 90%; 
-      max-width: 600px; 
-      height: 250px;
-      font-size: 16px; 
-      padding: 10px; 
+    nav.hidden {
+      width: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+    }
+    nav h3 {
+      text-align: center;
+      margin: 20px 0 0;
+      font-size: 20px;
+    }
+    nav li {
+      margin: 5px 0;
+      cursor: pointer;
+      transition: background-color 0.3s, color 0.3s;
+      padding: 0 20px;
+      height: 40px;
+      line-height: 40px;
+    }
+    nav li:hover {
+      background-color: var(--menu-selected-bg);
+      color: var(--button-hover);
+    }
+    main {
+      flex: 1;
+      padding: 40px;
+      max-width: 520px;
+      transition: margin-left 0.3s;
+    }
+    main.full {
+      margin-left: 0;
+    }
+    
+    /* 表单与消息区域共用样式 */
+    .common-area {
+      width: 100%;
+      max-width: 520px;
+      font-size: 16px;
+      padding: 2px;
       border: 1px solid var(--input-border);
-      border-radius: 8px; 
-      resize: vertical;
-      overflow-y: auto;
+      border-radius: 4px;
       background-color: var(--input-bg);
       color: var(--text-color);
       transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+      box-sizing: border-box;
+      line-height: 1.1;
+      overflow-x: auto; /* 当内容超出宽度时显示水平滚动条（可选） */
+      overflow-y: auto;
     }
-    /* 按钮样式 */
+    textarea {
+      height: 250px;
+    }
+    #messageArea {
+      height: 250px;
+    }
+    #messageHttp {
+      height: 150px;
+    }
     .button-container {
       margin-top: 10px;
     }
@@ -70,124 +163,316 @@
       font-size: 16px;
       border-radius: 6px;
       cursor: pointer;
-      transition: 0.3s;
+      transition: background-color 0.3s, box-shadow 0.3s;
       box-shadow: 2px 2px 8px var(--button-shadow);
       margin: 5px;
     }
     button:hover {
       background-color: var(--button-hover);
     }
-    /* 手机端优化 */
-    @media (max-width: 600px) {
-      textarea {
-        font-size: 18px;
-        height: 180px;
-      }
-      button {
-        width: 90%;
-        font-size: 18px;
-        padding: 14px;
-      }
-    }
-    /* 提示信息 */
     .hint {
       font-size: 14px;
       color: var(--secondary-text);
       margin-top: 10px;
     }
+    
+    /* 菜单切换按钮 */
+    #toggleMenu {
+      width: 35px;
+      height: 40px;
+      position: fixed;
+      left: var(--menu-width);
+      top: 5px;
+      background: var(--menu-bg);
+      border: none;
+      font-size: 20px;
+      color: var(--text-color);
+      cursor: pointer;
+      transition: left 0.3s, color 0.3s;
+      border-radius: 0 10px 10px 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0px 0px 8px var(--button-shadow);
+      margin: 0;
+    }
+    #toggleMenu:hover {
+      color: var(--button-hover);
+    }
+    
+    /* 手机端优化 */
+    @media (max-width: 600px) {
+      #messageArea, textarea {
+        max-width: none;
+      }
+      textarea {
+        font-size: 18px;
+      }
+      button {
+        width: 90%;
+        font-size: 18px;
+      }
+      nav {
+        position: fixed;
+      }
+    }
   </style>
 </head>
 <body>
-  <h2>获取 Channel-ID</h2>
-  <!-- 将表单的 action 指定为 channelid -->
-  <form id="inputForm" method="post" action="getid">
-    <label for="inputOutput">请输入：</label><br>
-    <textarea name="inputOutput" id="inputOutput"></textarea><br>
-    <div class="button-container">
-      <button type="button" onclick="pasteFromClipboard()">📋 粘贴</button>
-      <button type="submit">✅ 提交</button>
-      <button type="button" onclick="copyText()">📄 拷贝</button>
-      <button type="button" onclick="clearInput()">🗑️ 清空</button>
-    </div>
-    <p class="hint">📌 如果粘贴按钮无效，请长按输入框手动粘贴。</p>
-  </form>
+  <!-- 菜单栏 -->
+  <nav id="menu">
+    <h3>菜单栏</h3>
+    <ul>
+      <li data-page="pageMessage">Podflow 运行情况</li>
+      <li data-page="pageChannel">获取媒体频道 ID</li>
+    </ul>
+  </nav>
+  <!-- 菜单切换按钮 -->
+  <button id="toggleMenu">❮</button>
+  <!-- 主体区域 -->
+  <main id="main">
+    <!-- 获取 Channel-ID 页面 -->
+    <section id="pageChannel" style="display: none;">
+      <h2>获取媒体频道 ID</h2>
+      <form id="inputForm" method="post" action="getid">
+        <label for="inputOutput">请输入：</label><br>
+        <textarea class="common-area" name="inputOutput" id="inputOutput"></textarea><br>
+        <div class="button-container">
+          <button type="button" id="pasteBtn">📋 粘贴</button>
+          <button type="submit">✅ 提交</button>
+          <button type="button" id="copyBtn">📄 拷贝</button>
+          <button type="button" id="clearBtn">🗑️ 清空</button>
+        </div>
+        <p class="hint">📌 如果粘贴按钮无效，请长按输入框手动粘贴。</p>
+      </form>
+    </section>
+    <!-- 消息滚动显示页面 -->
+    <section id="pageMessage">
+      <h2>Podflow 运行情况</h2>
+      <form>
+        <label>构建服务：</label><br>
+        <div class="common-area" id="messageArea"></div>
+        <label>服务器：</label><br>
+        <div class="common-area" id="messageHttp"></div>
+      </form>
+    </section>
+  </main>
   <script>
-    // 监听表单提交事件，阻止默认提交并使用 fetch 异步发送请求
-    document.getElementById('inputForm').addEventListener('submit', function(event) {
-      event.preventDefault();
-      let inputOutput = document.getElementById('inputOutput');
-      const content = inputOutput.value;
+    (function() {
+      // 缓存常用节点
+      const menu = document.getElementById('menu');
+      const toggleMenuBtn = document.getElementById('toggleMenu');
+      const mainArea = document.getElementById('main');
+      const pages = {
+        pageChannel: document.getElementById('pageChannel'),
+        pageMessage: document.getElementById('pageMessage')
+      };
+      const inputForm = document.getElementById('inputForm');
+      const inputOutput = document.getElementById('inputOutput');
+      const messageArea = document.getElementById('messageArea');
+      const messageHttp = document.getElementById('messageHttp');
+      const pasteBtn = document.getElementById('pasteBtn');
+      const copyBtn = document.getElementById('copyBtn');
+      const clearBtn = document.getElementById('clearBtn');
 
-      fetch('getid', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({ content: content })
-      })
-      .then(response => {
-        if (!response.ok) {
-          throw new Error('网络响应异常');
+      let pollingTimer = null;
+
+      // 菜单切换函数
+      function toggleMenu() {
+        menu.classList.toggle('hidden');
+        if (menu.classList.contains('hidden')) {
+          toggleMenuBtn.style.left = '0px';
+          toggleMenuBtn.textContent = '❯';
+        } else {
+          toggleMenuBtn.style.left = 'var(--menu-width)';
+          toggleMenuBtn.textContent = '❮';
         }
-        return response.json();
-      })
-      .then(data => {
-        // 假设服务端返回的 JSON 数据中包含 response 字段
-        inputOutput.value = data.response;
-      })
-      .catch(error => {
-        console.error('请求失败:', error);
-        alert('请求失败，请稍后重试！');
+      }
+
+      // 根据页面标识显示对应面板
+      function showPage(pageId) {
+        Object.values(pages).forEach(page => page.style.display = 'none');
+        if (pages[pageId]) {
+          pages[pageId].style.display = 'block';
+          // 手机模式下自动隐藏菜单
+          if (window.innerWidth <= 600 && !menu.classList.contains('hidden')) {
+            toggleMenu();
+          }
+          pageId === 'pageMessage' ? startMessagePolling() : stopMessagePolling();
+        }
+      }
+
+      // 初始化默认页面
+      showPage('pageMessage');
+
+      let lastMessage = { podflow: [], http: [] };
+      let userScrolled = false;
+    
+      // 监听滚动事件，检测用户是否手动滚动
+      function onUserScroll(event) {
+        const element = event.target;
+        // 判断是否接近底部
+        const nearBottom = element.scrollHeight - element.scrollTop <= element.clientHeight + 10;
+        userScrolled = !nearBottom;
+      }
+    
+      messageArea.addEventListener('scroll', onUserScroll);
+      messageHttp.addEventListener('scroll', onUserScroll);
+
+      // 轮询消息更新，更新 messageArea 与 messageHttp
+      function getMessages() {
+        fetch('message')
+          .then(response => response.json()) // 解析 JSON 数据
+          .then(data => {
+            if (JSON.stringify(data) !== JSON.stringify(lastMessage)) {
+              // 追加新消息
+              appendMessages(messageArea, data.podflow, lastMessage.podflow);
+              appendMessages(messageHttp, data.http, lastMessage.http);
+              lastMessage = data;
+            }
+          })
+          .catch(error => console.error('获取消息失败:', error));
+      }
+
+      function appendMessages(container, newMessages, oldMessages) {
+        // 判断当前是否在底部
+        const isAtBottom = container.scrollHeight - container.scrollTop <= container.clientHeight + 10;
+    
+        // 只追加新数据，避免重复渲染
+        if (newMessages.length === oldMessages.length && newMessages.length > 0) {
+          const lastNewMessage = newMessages[newMessages.length - 1];
+          const lastOldMessage = oldMessages[oldMessages.length - 1];
+          if (lastNewMessage !== lastOldMessage) {
+            const br = document.createElement('br'); // 创建 <br> 标签
+            const textNode = document.createTextNode(lastNewMessage); // 创建文本节点
+
+            // 获取容器的最后一个子元素
+            const lastChild = container.lastElementChild;
+
+            // 如果容器有子元素，则替换最后一个（这里逻辑可能需要调整，因为你不再替换 <p>）
+            if (lastChild) {
+              container.removeChild(lastChild); // 移除最后一个元素
+              container.appendChild(textNode);   // 添加新的文本节点
+              container.appendChild(br);       // 添加换行符
+            } else {
+              container.appendChild(textNode);
+              container.appendChild(br);
+            }
+          }
+        } else {
+          // 如果 newMessages 和 oldMessages 元素数量不一致，则执行原来的添加逻辑
+          newMessages.slice(oldMessages.length).forEach(msg => {
+            const br = document.createElement('br');
+            const textNode = document.createTextNode(msg);
+            container.appendChild(textNode);
+            container.appendChild(br);
+          });
+        }
+    
+        // 如果用户没有主动滚动，才自动滚动到底部
+        if (!userScrolled) {
+          container.scrollTop = container.scrollHeight;
+        }
+      }
+
+      function startMessagePolling() {
+        getMessages();
+        pollingTimer = setInterval(getMessages, 1000);
+      }
+
+      function stopMessagePolling() {
+        if (pollingTimer !== null) {
+          clearInterval(pollingTimer);
+          pollingTimer = null;
+        }
+      }
+
+      startMessagePolling();
+
+      // 表单异步提交（获取 Channel-ID）
+      inputForm.addEventListener('submit', function(event) {
+        event.preventDefault();
+        const content = inputOutput.value;
+        fetch('getid', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ content })
+        })
+        .then(response => {
+          if (!response.ok) {
+            throw new Error('网络响应异常');
+          }
+          return response.json();
+        })
+        .then(data => inputOutput.value = data.response)
+        .catch(error => {
+          console.error('请求失败:', error);
+          alert('请求失败，请稍后重试！');
+        });
       });
-    });
 
-    // 从剪贴板粘贴内容
-    function pasteFromClipboard() {
-      let inputOutput = document.getElementById('inputOutput');
-      if (navigator.clipboard && navigator.clipboard.readText) {
-        navigator.clipboard.readText().then(text => {
-          inputOutput.value = text;
-          inputOutput.focus();
-        }).catch(err => {
-          console.warn("剪贴板读取失败:", err);
-          alert("无法读取剪贴板，请手动粘贴！");
-        });
-      } else {
-        try {
-          inputOutput.focus();
-          document.execCommand('paste');
-        } catch (err) {
-          console.warn("execCommand 粘贴失败:", err);
-          alert("您的浏览器不支持自动粘贴，请手动操作！");
+      // 粘贴功能
+      pasteBtn.addEventListener('click', function() {
+        if (navigator.clipboard && navigator.clipboard.readText) {
+          navigator.clipboard.readText().then(text => {
+            inputOutput.value = text;
+            inputOutput.focus();
+          }).catch(err => {
+            console.warn("剪贴板读取失败:", err);
+            alert("无法读取剪贴板，请手动粘贴！");
+          });
+        } else {
+          try {
+            inputOutput.focus();
+            document.execCommand('paste');
+          } catch (err) {
+            console.warn("execCommand 粘贴失败:", err);
+            alert("您的浏览器不支持自动粘贴，请手动操作！");
+          }
         }
-      }
-    }
+      });
 
-    // 复制文本到剪贴板
-    function copyText() {
-      let inputOutput = document.getElementById('inputOutput');
-      if (navigator.clipboard && navigator.clipboard.writeText) {
-        navigator.clipboard.writeText(inputOutput.value).then(() => {
-          // 已成功复制到剪贴板
-        }).catch(err => {
-          console.warn("复制失败:", err);
-          alert("无法复制，请手动选择文本后按 Ctrl+C 复制！");
-        });
-      } else {
-        try {
-          inputOutput.select();
-          document.execCommand('copy');
-        } catch (err) {
-          console.warn("execCommand 复制失败:", err);
-          alert("您的浏览器不支持复制，请手动操作！");
+      // 复制功能
+      copyBtn.addEventListener('click', function() {
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(inputOutput.value).catch(err => {
+            console.warn("复制失败:", err);
+            alert("无法复制，请手动选择文本后按 Ctrl+C 复制！");
+          });
+        } else {
+          try {
+            inputOutput.select();
+            document.execCommand('copy');
+          } catch (err) {
+            console.warn("execCommand 复制失败:", err);
+            alert("您的浏览器不支持复制，请手动操作！");
+          }
         }
-      }
-    }
+      });
 
-    // 清空输入框内容
-    function clearInput() {
-      document.getElementById('inputOutput').value = '';
-    }
+      // 清空输入框
+      clearBtn.addEventListener('click', function() {
+        inputOutput.value = '';
+      });
+
+      // 菜单项点击事件委托
+      menu.addEventListener('click', function(event) {
+        const target = event.target;
+        if (target.tagName.toLowerCase() === 'li' && target.dataset.page) {
+          showPage(target.dataset.page);
+        }
+      });
+
+      // 菜单切换按钮事件绑定
+      toggleMenuBtn.addEventListener('click', toggleMenu);
+
+      // 针对手机端，初始化时隐藏菜单
+      if (window.innerWidth <= 600) {
+        menu.classList.add('hidden');
+        toggleMenuBtn.style.left = '0px';
+        toggleMenuBtn.textContent = '❯';
+      }
+    })();
   </script>
 </body>
 </html>

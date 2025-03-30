@@ -119,6 +119,12 @@ class Application_gVar:
         self.upload_data = {}  # 上传用户账号密码字典
 
         self.shortcuts_url = {}  # 输出至shortcut的url字典
+        
+        self.index_message = {  # 图形界面显示信息字典
+            "podflow": [],  # 主窗口信息列表
+            "http": [],  # httpfs窗口信息列表
+            "enter": True,  # 是否换行
+        }
 
 
 # 参数变量

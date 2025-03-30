@@ -13,6 +13,7 @@ from podflow.basic.file_save import file_save
 from podflow.basic.write_log import write_log
 from podflow.upload.build_hash import build_hash
 from podflow.upload.time_key import check_time_key
+from podflow.httpfs.ansi_to_html import ansi_to_html
 from podflow.httpfs.get_channelid import get_channelid
 
 
@@ -40,6 +41,7 @@ class bottle_app:
             self.app_bottle.route("/index", callback=self.index)
             self.app_bottle.route("/getid", method="POST", callback=self.getid)
             self.app_bottle.route("/<filename:path>", callback=self.serve_static)
+            self.app_bottle.route("/message", callback=self.message)
 
     # 设置日志文件名及写入判断
     def set_logname(self, logname="httpfs.log", http_fs=False):
@@ -92,7 +94,9 @@ class bottle_app:
             )
         for suffix in suffixs:
             filename = filename.replace(suffix, "")
-        self.bottle_print.append(f"{now_time}|{client_ip} {filename} {status}")
+        bottle_text = f"{now_time}|{client_ip} {filename} {status}"
+        self.bottle_print.append(bottle_text)
+        gVar.index_message["http"].append(ansi_to_html(bottle_text))
 
     # CherryPy 服务器打印模块
     def cherry_print(self, flag_judgment=True):
@@ -376,16 +380,16 @@ class bottle_app:
                     },
                 }
 
+    # 使用pkg_resources获取模板文件路径
     def index(self):
-        # 使用pkg_resources获取模板文件路径
         template_path = pkg_resources.resource_filename('podflow', 'templates/index.html')
         with open(template_path, 'r', encoding="UTF-8") as f:
             html_content = f.read()
         self.print_out("index", 200)
         return html_content
 
+    # 获取 JSON 数据，Bottle 会自动解析请求体中的 JSON 数据
     def getid(self):
-        # 获取 JSON 数据，Bottle 会自动解析请求体中的 JSON 数据
         if getid_data := request.json:
             content = getid_data.get("content", "")
         else:
@@ -395,6 +399,11 @@ class bottle_app:
         # 设置响应头为 application/json
         response.content_type = 'application/json'
         return {"response": response_message}
+
+    # 处理消息的接收和发送。
+    def message(self):
+        response.content_type = 'application/json'
+        return gVar.index_message # 获取消息列表
 
 
 bottle_app_instance = bottle_app()

@@ -3,6 +3,8 @@
 
 import re
 from datetime import datetime
+from podflow import gVar
+from podflow.httpfs.ansi_to_html import ansi_to_html
 
 
 # 日志模块
@@ -34,4 +36,5 @@ def write_log(
         formatted_time_mini = current_time.strftime("%H:%M:%S")
         log_print = f"{formatted_time_mini}|{log}" if time_display else f"{log}"
         log_print = f"{log_print}|{suffix}" if suffix else f"{log_print}"
+        gVar.index_message["podflow"].append(ansi_to_html(log_print))
         print(log_print)
