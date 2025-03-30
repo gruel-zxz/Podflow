@@ -175,7 +175,9 @@
       color: var(--secondary-text);
       margin-top: 10px;
     }
-    
+    .message {
+      padding: 0px;
+    }
     /* 菜单切换按钮 */
     #toggleMenu {
       width: 35px;
@@ -343,29 +345,27 @@
           const lastNewMessage = newMessages[newMessages.length - 1];
           const lastOldMessage = oldMessages[oldMessages.length - 1];
           if (lastNewMessage !== lastOldMessage) {
-            const br = document.createElement('br'); // 创建 <br> 标签
-            const textNode = document.createTextNode(lastNewMessage); // 创建文本节点
+            const p = document.createElement('p');
+            p.innerHTML = lastNewMessage;
+            p.className = 'message'; // 添加 CSS 类名
 
             // 获取容器的最后一个子元素
             const lastChild = container.lastElementChild;
-
-            // 如果容器有子元素，则替换最后一个（这里逻辑可能需要调整，因为你不再替换 <p>）
+            // 如果容器有子元素，则替换最后一个
             if (lastChild) {
-              container.removeChild(lastChild); // 移除最后一个元素
-              container.appendChild(textNode);   // 添加新的文本节点
-              container.appendChild(br);       // 添加换行符
+              container.replaceChild(p, lastChild);
             } else {
-              container.appendChild(textNode);
-              container.appendChild(br);
+              // 如果容器为空，则直接添加
+              container.appendChild(p);
             }
           }
         } else {
           // 如果 newMessages 和 oldMessages 元素数量不一致，则执行原来的添加逻辑
           newMessages.slice(oldMessages.length).forEach(msg => {
-            const br = document.createElement('br');
-            const textNode = document.createTextNode(msg);
-            container.appendChild(textNode);
-            container.appendChild(br);
+            const p = document.createElement('p');
+            p.innerHTML = msg;
+            p.className = 'message'; // 添加 CSS 类名
+            container.appendChild(p);
           });
         }
     
