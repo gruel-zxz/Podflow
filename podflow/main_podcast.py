@@ -120,8 +120,12 @@ def main_podcast():
         gVar.xmls_original, gVar.hash_rss_original, gVar.xmls_original_fail = (
             get_original_rss()
         )
+        # 暂停进程打印
+        gVar.server_process_print_flag[0] = "pause"
         # 连接上传服务器
         upload_url = connect_upload_server()
+        # 恢复进程打印
+        bottle_app_instance.cherry_print()
         # 登陆上传服务器
         if upload_url:
             upload_json = login_upload(upload_url)
