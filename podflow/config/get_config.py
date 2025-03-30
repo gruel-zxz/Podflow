@@ -4,9 +4,9 @@
 import os
 import sys
 import json
-from datetime import datetime
 from podflow import default_config
 from podflow.basic.write_log import write_log
+from podflow.basic.time_print import time_print
 
 
 # 获取配置信息config模块
@@ -26,7 +26,7 @@ def get_config(file_name="config.json"):
     try:
         with open(file_name, "r", encoding="utf-8") as file:
             config = json.load(file)
-        print(f"{datetime.now().strftime('%H:%M:%S')}|已读取配置文件")
+        time_print("已读取配置文件")
         return config
     # 如果config格式有问题, 停止运行并报错
     except Exception as config_error:

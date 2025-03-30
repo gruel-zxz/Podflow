@@ -1,9 +1,9 @@
 # podflow/config/get_channelid.py
 # coding: utf-8
 
-from datetime import datetime
 from podflow import gVar
 from podflow.basic.write_log import write_log
+from podflow.basic.time_print import time_print
 
 
 # 从配置文件中获取频道模块
@@ -15,7 +15,7 @@ def get_channelid(name):
     elif name == "bilibili":
         output_name = "BiliBili"
     if f"channelid_{name}" in config:
-        print(f"{datetime.now().strftime('%H:%M:%S')}|已读取{output_name}频道信息")
+        time_print(f"已读取{output_name}频道信息")
         return config[f"channelid_{name}"]
     else:
         write_log(f"{output_name}频道信息不存在")

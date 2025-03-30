@@ -1,7 +1,7 @@
 # podflow/config/get_channelid_id.py
 # coding: utf-8
 
-from datetime import datetime
+from podflow.basic.time_print import time_print
 
 
 # 读取频道ID模块
@@ -15,7 +15,7 @@ def get_channelid_id(channelid, idname):
         channelid_ids = dict(
             {channel["id"]: key for key, channel in channelid.items()}
         )
-        print(f"{datetime.now().strftime('%H:%M:%S')}|读取{output_name}频道的channelid成功")
+        time_print(f"读取{output_name}频道的channelid成功")
     else:
         channelid_ids = {}
     return channelid_ids

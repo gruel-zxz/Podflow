@@ -2,8 +2,8 @@
 # coding: utf-8
 
 import time
-from datetime import datetime
 import requests
+from podflow.basic.time_print import time_print
 
 
 # HTTP 请求重试模块
@@ -66,9 +66,7 @@ def http_client(
             if response is not None and response.status_code in {404}:
                 return response
             if name:
-                print(
-                    f"{datetime.now().strftime('%H:%M:%S')}|{name}|\033[31m连接异常重试中...\033[97m{num + 1}\033[0m"
-                )
+                time_print(f"\033[31m连接异常重试中...\033[97m{num + 1}\033[0m")
             if err:
                 err = f"{err}\n{str(http_get_error)}"
             else:
@@ -77,7 +75,5 @@ def http_client(
             return response
         time.sleep(retry_delay)
     if name:
-        print(
-            f"{datetime.now().strftime('%H:%M:%S')}|{name}|\033[31m达到最大重试次数\033[97m{max_retries}\033[0m{err}"
-        )
+        time_print(f"{name}|\033[31m达到最大重试次数\033[97m{max_retries}\033[0m{err}")
     return response
