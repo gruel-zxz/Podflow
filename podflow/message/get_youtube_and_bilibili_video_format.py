@@ -53,15 +53,15 @@ def get_youtube_and_bilibili_video_format(
                         gVar.video_id_update_format[id_num]["cookie"],
                     )
                     if fail_info in id_update_format:
-                        id_update_format = f"\x1b[31m{fail_info}\x1b[0m(Cookies错误)"
+                        id_update_format = f"\033[31m{fail_info}\033[0m(Cookies错误)"
                 else:
-                    id_update_format = f"\x1b[31m{fail_info}\x1b[0m(需要Cookies)"
+                    id_update_format = f"\033[31m{fail_info}\033[0m(需要Cookies)"
                 break
     else:
         if gVar.video_id_update_format[id_num]["power"] is True and (
             "试看" in id_update_format or id_update_format == "无法获取音频ID"
         ):
-            id_update_format = "\x1b[31m充电专属\x1b[0m"
+            id_update_format = "\033[31m充电专属\033[0m"
     if isinstance(id_update_format, list):
         if len(id_update_format) == 1:
             one_format(id_update_format, id_num)

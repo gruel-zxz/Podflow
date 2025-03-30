@@ -31,9 +31,9 @@ def makeup_format(video_id, makeup_format_lock):
                     "channel_data/yt_dlp_youtube.txt",
                 )
                 if fail_info in makeup_id_format:
-                    makeup_id_format = f"\x1b[31m{fail_info}\x1b[0m(Cookies错误)"
+                    makeup_id_format = f"\033[31m{fail_info}\033[0m(Cookies错误)"
             else:
-                makeup_id_format = f"\x1b[31m{fail_info}\x1b[0m(需要Cookies)"
+                makeup_id_format = f"\033[31m{fail_info}\033[0m(需要Cookies)"
             break
     if isinstance(makeup_id_format, list):
         if len(makeup_id_format) == 1:
