@@ -66,7 +66,7 @@ def http_client(
             if response is not None and response.status_code in {404}:
                 return response
             if name:
-                time_print(f"\033[31m连接异常重试中...\033[97m{num + 1}\033[0m")
+                time_print(f"{name}|\033[31m连接异常重试中...\033[97m{num + 1}\033[0m")
             if err:
                 err = f"{err}\n{str(http_get_error)}"
             else:
