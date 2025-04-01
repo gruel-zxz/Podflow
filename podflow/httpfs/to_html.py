@@ -1,8 +1,9 @@
-# podflow/httpfs/ansi_to_htmlpy
+# podflow/httpfs/to_html.py
 # coding: utf-8
 
 import re
 import html
+from podflow import gVar
 
 
 def ansi_to_html(ansi_text):
@@ -48,3 +49,8 @@ def ansi_to_html(ansi_text):
         html_output += "</span>"
 
     return html_output
+
+
+def qrcode_to_html(url):
+    text = f'<span class="qrcode-container" data-url="{url}"></span>'
+    gVar.index_message["podflow"].append(text)

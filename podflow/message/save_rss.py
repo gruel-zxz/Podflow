@@ -6,6 +6,7 @@ from podflow.basic.qr_code import qr_code
 from podflow.message.xml_rss import xml_rss
 from podflow.basic.file_save import file_save
 from podflow.basic.write_log import write_log
+from podflow.httpfs.to_html import qrcode_to_html
 from podflow.message.backup_zip_save import backup_zip_save
 from podflow.message.display_qrcode_and_url import display_qrcode_and_url
 
@@ -79,6 +80,7 @@ def save_rss():
     # 如果gVar.displayed_QRcode中不包含"main"，则调用qr_code函数，显示总播客的二维码，并将"main"添加到gVar.displayed_QRcode中
     if "main" not in gVar.displayed_QRcode:
         qr_code(overall_url)
+        qrcode_to_html(overall_url)
         gVar.displayed_QRcode.append("main")
 
     # 备份主rss

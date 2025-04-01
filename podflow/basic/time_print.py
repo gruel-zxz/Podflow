@@ -3,7 +3,7 @@
 
 from datetime import datetime
 from podflow import gVar
-from podflow.httpfs.ansi_to_html import ansi_to_html
+from podflow.httpfs.to_html import ansi_to_html
 
 
 def time_print(text, Top=False, NoEnter=False, Time=True):
@@ -17,10 +17,10 @@ def time_print(text, Top=False, NoEnter=False, Time=True):
         print(text)
     text = ansi_to_html(text)
     if not gVar.index_message["enter"] and gVar.index_message["podflow"]:
-        if Top:
-            gVar.index_message["podflow"][0] = text
+        if Top and gVar.index_message["podflow"]:
+            gVar.index_message["podflow"][-1] = text
         else:
-            gVar.index_message["podflow"][0] += (text)
+            gVar.index_message["podflow"][-1] += (text)
     else:
         gVar.index_message["podflow"].append(text)
     if NoEnter:

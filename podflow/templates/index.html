@@ -21,7 +21,7 @@
       --menu-width: 170px;
       --menu-selected-bg: #cccccc;
     }
-    
+
     /* 深色模式变量 */
     @media (prefers-color-scheme: dark) {
       :root {
@@ -55,7 +55,7 @@
     .ansi-94m { color: #7c9ecb; }
     .ansi-95m { color: #de30c5; }
     .ansi-96m { color: #51b2bb; }
-    .ansi-97m { color: #eeeeec; }.
+    .ansi-97m { color: #eeeeec; }
 
     @media (prefers-color-scheme: dark) {
       .ansi-30m { color: #ffffff; }
@@ -130,7 +130,7 @@
     main.full {
       margin-left: 0;
     }
-    
+
     /* 表单与消息区域共用样式 */
     .common-area {
       width: 100%;
@@ -147,14 +147,16 @@
       overflow-y: auto;
     }
     textarea {
-      height: 250px;
+      height: 350px;
       font-size: 16px;
     }
     #messageArea {
-      height: 250px;
+      height: 30px;
+      font-size: 12px;
     }
     #messageHttp {
       height: 150px;
+      font-size: 12px;
     }
     .button-container {
       margin-top: 10px;
@@ -202,7 +204,7 @@
     #toggleMenu:hover {
       color: var(--button-hover);
     }
-    
+
     /* 手机端优化 */
     @media (max-width: 600px) {
       #messageArea, textarea {
@@ -217,10 +219,15 @@
     }
     .message {
       padding: 0px;
-      margin: 0;
-      font-size: 11px;
+    }
+
+    /* 二维码容器样式 */
+    .qrcode-container {
+      display: inline-block; /* 让容器并排显示 */
+      margin: 0px;
     }
   </style>
+  <script src="https://cdn.jsdelivr.net/gh/davidshimjs/qrcodejs/qrcode.min.js"></script>
 </head>
 <body>
   <!-- 菜单栏 -->
@@ -278,6 +285,7 @@
       const pasteBtn = document.getElementById('pasteBtn');
       const copyBtn = document.getElementById('copyBtn');
       const clearBtn = document.getElementById('clearBtn');
+      const qrcodeContainers = document.querySelectorAll('.qrcode-container'); // 获取所有二维码容器
 
       let pollingTimer = null;
 
@@ -303,6 +311,9 @@
             toggleMenu();
           }
           pageId === 'pageMessage' ? startMessagePolling() : stopMessagePolling();
+          if (pageId === 'pageMessage') {
+            generateQRCodes(); // 当切换页面时生成二维码
+          }
         }
       }
 
@@ -311,7 +322,7 @@
 
       let lastMessage = { podflow: [], http: [] };
       let userScrolled = false;
-    
+
       // 监听滚动事件，检测用户是否手动滚动
       function onUserScroll(event) {
         const element = event.target;
@@ -319,7 +330,7 @@
         const nearBottom = element.scrollHeight - element.scrollTop <= element.clientHeight + 10;
         userScrolled = !nearBottom;
       }
-    
+
       messageArea.addEventListener('scroll', onUserScroll);
       messageHttp.addEventListener('scroll', onUserScroll);
 
@@ -341,7 +352,7 @@
       function appendMessages(container, newMessages, oldMessages) {
         // 判断当前是否在底部
         const isAtBottom = container.scrollHeight - container.scrollTop <= container.clientHeight + 10;
-    
+
         // 只追加新数据，避免重复渲染
         if (newMessages.length === oldMessages.length && newMessages.length > 0) {
           const lastNewMessage = newMessages[newMessages.length - 1];
@@ -370,7 +381,7 @@
             container.appendChild(p);
           });
         }
-    
+
         // 如果用户没有主动滚动，才自动滚动到底部
         if (!userScrolled) {
           container.scrollTop = container.scrollHeight;
@@ -474,6 +485,38 @@
         toggleMenuBtn.style.left = '0px';
         toggleMenuBtn.textContent = '❯';
       }
+
+      // 生成二维码的函数
+      function generateQRCodes() {
+        const rootStyles = getComputedStyle(document.documentElement);
+        const textColor = rootStyles.getPropertyValue('--text-color');
+        const inputBg = rootStyles.getPropertyValue('--input-bg');
+        
+        qrcodeContainers.forEach(container => {
+          const url = container.dataset.url;
+          // 清空容器中可能已有的内容
+          container.innerHTML = '';
+          if (url) {
+            new QRCode(container, {
+              text: url,
+              width: 128,
+              height: 128,
+              colorDark: textColor,
+              colorLight: inputBg,
+              correctLevel: QRCode.CorrectLevel.H
+            });
+          } else {
+            container.textContent = 'URL 未提供';
+          }
+        });
+      }
+
+      // 在页面加载完成后首次生成二维码（如果当前显示的是 Channel 页面）
+      window.addEventListener('load', () => {
+        if (pages.pageChannel.style.display === 'block') {
+          generateQRCodes();
+        }
+      });
     })();
   </script>
 </body>
