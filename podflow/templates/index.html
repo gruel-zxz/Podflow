@@ -271,6 +271,52 @@
   </main>
   <script>
     (function() {
+      // 生成单个二维码的函数
+      function generateQRCodeForNode(container) {
+        const rootStyles = getComputedStyle(document.documentElement);
+        const textColor = rootStyles.getPropertyValue('--text-color');
+        const inputBg = rootStyles.getPropertyValue('--input-bg');
+        const url = container.dataset.url;
+        container.innerHTML = '';
+        if (url) {
+          new QRCode(container, {
+            text: url,
+            width: 128,
+            height: 128,
+            colorDark: textColor,
+            colorLight: inputBg,
+            correctLevel: QRCode.CorrectLevel.H
+          });
+        } else {
+          container.textContent = 'URL 未提供';
+        }
+      }
+
+      // 为所有存在的二维码容器生成二维码
+      function generateQRCodes() {
+        const containers = document.querySelectorAll('.qrcode-container');
+        containers.forEach(generateQRCodeForNode);
+      }
+
+      // 利用 MutationObserver 动态监听 container 内新增的二维码容器
+      function observeQRCodes(container) {
+        const observer = new MutationObserver((mutationsList) => {
+          mutationsList.forEach(mutation => {
+            mutation.addedNodes.forEach(node => {
+              if (node.nodeType === Node.ELEMENT_NODE) {
+                if (node.classList.contains('qrcode-container')) {
+                  generateQRCodeForNode(node);
+                } else {
+                  const childContainers = node.querySelectorAll('.qrcode-container');
+                  childContainers.forEach(generateQRCodeForNode);
+                }
+              }
+            });
+          });
+        });
+        observer.observe(container, { childList: true, subtree: true });
+      }
+
       // 缓存常用节点
       const menu = document.getElementById('menu');
       const toggleMenuBtn = document.getElementById('toggleMenu');
@@ -286,9 +332,11 @@
       const pasteBtn = document.getElementById('pasteBtn');
       const copyBtn = document.getElementById('copyBtn');
       const clearBtn = document.getElementById('clearBtn');
-      const qrcodeContainers = document.querySelectorAll('.qrcode-container'); // 获取所有二维码容器
 
       let pollingTimer = null;
+
+      // 监听 messageArea 内动态新增的二维码容器
+      observeQRCodes(messageArea);
 
       // 菜单切换函数
       function toggleMenu() {
@@ -313,7 +361,7 @@
           }
           pageId === 'pageMessage' ? startMessagePolling() : stopMessagePolling();
           if (pageId === 'pageMessage') {
-            generateQRCodes(); // 当切换页面时生成二维码
+            generateQRCodes(); // 页面切换时生成已有二维码
           }
         }
       }
@@ -404,7 +452,7 @@
       startMessagePolling();
 
       // 表单异步提交（获取 Channel-ID）
-      inputForm.addEventListener('submit', function(event) {
+      inputForm && inputForm.addEventListener('submit', function(event) {
         event.preventDefault();
         const content = inputOutput.value;
         fetch('getid', {
@@ -485,31 +533,6 @@
         menu.classList.add('hidden');
         toggleMenuBtn.style.left = '0px';
         toggleMenuBtn.textContent = '❯';
-      }
-
-      // 生成二维码的函数
-      function generateQRCodes() {
-        const rootStyles = getComputedStyle(document.documentElement);
-        const textColor = rootStyles.getPropertyValue('--text-color');
-        const inputBg = rootStyles.getPropertyValue('--input-bg');
-        
-        qrcodeContainers.forEach(container => {
-          const url = container.dataset.url;
-          // 清空容器中可能已有的内容
-          container.innerHTML = '';
-          if (url) {
-            new QRCode(container, {
-              text: url,
-              width: 128,
-              height: 128,
-              colorDark: textColor,
-              colorLight: inputBg,
-              correctLevel: QRCode.CorrectLevel.H
-            });
-          } else {
-            container.textContent = 'URL 未提供';
-          }
-        });
       }
 
       // 在页面加载完成后首次生成二维码（如果当前显示的是 Channel 页面）
