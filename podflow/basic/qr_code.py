@@ -3,10 +3,13 @@
 
 import math
 import pyqrcode
+from podflow.httpfs.to_html import qrcode_to_html
 
 
 # 网址二维码模块
-def qr_code(data):
+def qr_code(data, to_html=False):
+    if to_html:
+        qrcode_to_html(data)
     qr = pyqrcode.create(
         data,
         error='L',  # 对应于ERROR_CORRECT_L，可选值: 'L','M','Q','H'

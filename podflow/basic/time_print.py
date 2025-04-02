@@ -6,15 +6,22 @@ from podflow import gVar
 from podflow.httpfs.to_html import ansi_to_html
 
 
-def time_print(text, Top=False, NoEnter=False, Time=True):
+def time_print(text, Top=False, NoEnter=False, Time=True, Url=""):
     if Time:
         text = f"{datetime.now().strftime('%H:%M:%S')}|{text}"
     if Top:
         text = f"\r{text}"
-    if NoEnter:
-        print(text, end="")
+    if Url:
+        text_print = f"{text}\n\033[34m{Url}\033[0m"
     else:
-        print(text)
+        text_print = f"{text}"
+    if NoEnter:
+        print(text_print, end="")
+    else:
+        print(text_print)
+    
+    if Url:
+        text = f'{text}<a href="{Url}"><span class="ansi-url">{Url}</span></a>'
     text = ansi_to_html(text)
     if not gVar.index_message["enter"] and gVar.index_message["podflow"]:
         if Top and gVar.index_message["podflow"]:

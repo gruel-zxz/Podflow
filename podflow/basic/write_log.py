@@ -1,10 +1,10 @@
+
 # podflow/basic/write_log.py
 # coding: utf-8
 
 import re
 from datetime import datetime
-from podflow import gVar
-from podflow.httpfs.to_html import ansi_to_html
+from podflow.basic.time_print import time_print
 
 
 # 日志模块
@@ -15,6 +15,7 @@ def write_log(
     time_display=True,
     only_log="",
     file_name="Podflow.log",
+    url=""
 ):
     # 获取当前的具体时间
     current_time = datetime.now()
@@ -36,5 +37,4 @@ def write_log(
         formatted_time_mini = current_time.strftime("%H:%M:%S")
         log_print = f"{formatted_time_mini}|{log}" if time_display else f"{log}"
         log_print = f"{log_print}|{suffix}" if suffix else f"{log_print}"
-        gVar.index_message["podflow"].append(ansi_to_html(log_print))
-        print(log_print)
+        time_print(log_print, Time=False, Url=url)
