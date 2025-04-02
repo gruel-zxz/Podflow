@@ -3,6 +3,7 @@
 
 import time
 from datetime import datetime
+from podflow.basic.time_print import time_print
 
 
 # 等待动画模块
@@ -12,18 +13,24 @@ def wait_animation(stop_flag, wait_animation_display_info):
     prepare_youtube_print = datetime.now().strftime("%H:%M:%S")
     while True:
         if stop_flag[0] == "keep":
-            print(
-                f"\r{prepare_youtube_print}|{wait_animation_display_info}\033[34m准备中{animation.ljust(5)}\033[0m",
-                end="",
+            time_print(
+                f"{prepare_youtube_print}|{wait_animation_display_info}\033[34m准备中{animation.ljust(5)}\033[0m",
+                Top=True,
+                NoEnter=True,
+                Time=False,
             )
         elif stop_flag[0] == "error":
-            print(
-                f"\r{prepare_youtube_print}|{wait_animation_display_info}\033[34m准备中{animation} \033[31m失败:\033[0m"
+            time_print(
+                f"{prepare_youtube_print}|{wait_animation_display_info}\033[34m准备中{animation} \033[31m失败:\033[0m",
+                Top=True,
+                Time=False,
             )
             break
         elif stop_flag[0] == "end":
-            print(
-                f"\r{prepare_youtube_print}|{wait_animation_display_info}\033[34m准备中{animation} 已完成\033[0m"
+            time_print(
+                f"{prepare_youtube_print}|{wait_animation_display_info}\033[34m准备中{animation} 已完成\033[0m",
+                Top=True,
+                Time=False,
             )
             break
         if i % 5 == 0:

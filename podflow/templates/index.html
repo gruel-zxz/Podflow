@@ -150,6 +150,7 @@
       line-height: 1.1;
       overflow-x: auto; /* 当内容超出宽度时显示水平滚动条（可选） */
       overflow-y: auto;
+      font-family: 'Courier New', Courier, monospace; /* 添加字体 */
     }
     textarea {
       height: 350px;
@@ -286,11 +287,11 @@
         if (url) {
           new QRCode(container, {
             text: url,
-            width: 128,
-            height: 128,
+            width: 256,
+            height: 256,
             colorDark: textColor,
             colorLight: inputBg,
-            correctLevel: QRCode.CorrectLevel.H
+            correctLevel: QRCode.CorrectLevel.L
           });
         } else {
           container.textContent = 'URL 未提供';
@@ -444,7 +445,7 @@
 
       function startMessagePolling() {
         getMessages();
-        pollingTimer = setInterval(getMessages, 1000);
+        pollingTimer = setInterval(getMessages, 500);
       }
 
       function stopMessagePolling() {
