@@ -19,6 +19,12 @@ def wait_animation(stop_flag, wait_animation_display_info):
                 NoEnter=True,
                 Time=False,
             )
+            if i % 5 == 0:
+                animation = "."
+            else:
+                animation += "."
+            i += 1
+            time.sleep(0.5)
         elif stop_flag[0] == "error":
             time_print(
                 f"{prepare_youtube_print}|{wait_animation_display_info}\033[34m准备中{animation} \033[31m失败:\033[0m",
@@ -33,9 +39,3 @@ def wait_animation(stop_flag, wait_animation_display_info):
                 Time=False,
             )
             break
-        if i % 5 == 0:
-            animation = "."
-        else:
-            animation += "."
-        i += 1
-        time.sleep(0.5)

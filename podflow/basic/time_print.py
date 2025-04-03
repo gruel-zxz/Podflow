@@ -20,14 +20,15 @@ def time_print(text, Top=False, NoEnter=False, Time=True, Url=""):
     else:
         print(text_print)
 
-    text = ansi_to_html(text)
-    if not gVar.index_message["enter"] and gVar.index_message["podflow"]:
-        if Top and gVar.index_message["podflow"]:
-            gVar.index_message["podflow"][-1] = text
+    if text:
+        text = ansi_to_html(text)
+        if not gVar.index_message["enter"] and gVar.index_message["podflow"]:
+            if Top and gVar.index_message["podflow"]:
+                gVar.index_message["podflow"][-1] = text
+            else:
+                gVar.index_message["podflow"][-1] += text
         else:
-            gVar.index_message["podflow"][-1] += text
-    else:
-        gVar.index_message["podflow"].append(text)
+            gVar.index_message["podflow"].append(text)
     if NoEnter:
         gVar.index_message["enter"] = False
     else:
