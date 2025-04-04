@@ -407,7 +407,7 @@
       function appendMessages(container, newMessages, oldMessages) {
         // 判断当前是否在底部
         const isAtBottom = container.scrollHeight - container.scrollTop <= container.clientHeight + 10;
-
+      
         // 只追加新数据，避免重复渲染
         if (newMessages.length === oldMessages.length && newMessages.length > 0) {
           const lastNewMessage = newMessages[newMessages.length - 1];
@@ -416,7 +416,7 @@
             const p = document.createElement('p');
             p.innerHTML = lastNewMessage;
             p.className = 'message'; // 添加 CSS 类名
-
+      
             // 获取容器的最后一个子元素
             const lastChild = container.lastElementChild;
             // 如果容器有子元素，则替换最后一个
@@ -436,7 +436,17 @@
             container.appendChild(p);
           });
         }
-
+      
+        // 替换倒数第二项为 newMessages 的倒数第二项
+        const secondLastChild = container.children[container.children.length - 2];
+        if (secondLastChild && newMessages.length > 1) {
+          const newSecondLastMessage = newMessages[newMessages.length - 2];
+          const p = document.createElement('p');
+          p.innerHTML = newSecondLastMessage;
+          p.className = 'message'; // 添加 CSS 类名
+          container.replaceChild(p, secondLastChild);
+        }
+      
         // 如果用户没有主动滚动，才自动滚动到底部
         if (!userScrolled) {
           container.scrollTop = container.scrollHeight;

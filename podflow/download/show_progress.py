@@ -33,6 +33,7 @@ def show_progress(stream):
         eta = time_format(stream["eta"]).ljust(8)
         time_print(
             f"\033[94m{percent}%\033[0m|{downloaded_bytes}/{total_bytes}|\033[32m{speed}/s\033[0m|\033[93m{eta}\033[0m",
+            Top=True,
             NoEnter=True,
             Time=False,
         )
@@ -43,5 +44,6 @@ def show_progress(stream):
             elapsed = "Unknown "
         time_print(
             f"100.0%|{downloaded_bytes}/{total_bytes}|\033[32m{speed}/s\033[0m|\033[97m{elapsed}\033[0m",
+            Top=True,
             Time=False,
         )
