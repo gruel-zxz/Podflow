@@ -54,24 +54,3 @@ def ansi_to_html(ansi_text):
 def qrcode_to_html(url):
     text = f'<span class="qrcode-container" data-url="{url}"></span>'
     gVar.index_message["podflow"].append(text)
-
-
-def message_html():
-    # [text, Top, NoEnter]
-    podflow = []
-    messages = gVar.index_message["podflow"]
-    if messages:
-        for index, message in enumerate(messages):
-            if index > 1 and messages[index -1][2]:
-                if message[1]:
-                    podflow[-1] = message[0]
-                else:
-                    podflow[-1] += message[0]
-            else:
-                podflow.append(message[0])
-    message = {
-        "podflow": podflow,
-        "http": gVar.index_message["http"], 
-    }
-    return message
-    

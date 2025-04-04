@@ -437,21 +437,23 @@
           });
         }
       
-        // 替换倒数第二项为 newMessages 的倒数第二项
-        const secondLastChild = container.children[container.children.length - 2];
-        if (secondLastChild && newMessages.length > 1) {
-          const newSecondLastMessage = newMessages[newMessages.length - 2];
-          const p = document.createElement('p');
-          p.innerHTML = newSecondLastMessage;
-          p.className = 'message'; // 添加 CSS 类名
-          container.replaceChild(p, secondLastChild);
+        // 替换倒数第二项和倒数第三项
+        for (let i = 2; i <= 3; i++) {
+          const child = container.children[container.children.length - (i + 1)];
+          if (child && newMessages.length > i) {
+            const newMessage = newMessages[newMessages.length - (i + 1)];
+            const p = document.createElement('p');
+            p.innerHTML = newMessage;
+            p.className = 'message'; // 添加 CSS 类名
+            container.replaceChild(p, child);
+          }
         }
       
         // 如果用户没有主动滚动，才自动滚动到底部
         if (!userScrolled) {
           container.scrollTop = container.scrollHeight;
         }
-      }
+      }      
 
       function startMessagePolling() {
         getMessages();
