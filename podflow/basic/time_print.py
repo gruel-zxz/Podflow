@@ -10,11 +10,11 @@ def time_print(text, Top=False, NoEnter=False, Time=True, Url=""):
     if Time:
         text = f"{datetime.now().strftime('%H:%M:%S')}|{text}"
     if Top:
-        text = f"\r{text}"
+        text_print = f"\r{text}"
     if Url:
-        text_print = f"{text}\n\033[34m{Url}\033[0m"
+        text_print = f"{text_print}\n\033[34m{Url}\033[0m"
     else:
-        text_print = f"{text}"
+        text_print = f"{text_print}"
     if NoEnter:
         print(text_print, end="")
     else:
