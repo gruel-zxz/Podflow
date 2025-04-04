@@ -125,7 +125,6 @@ class Application_gVar:
             "http": [],  # httpfs窗口信息列表
             "enter": True,  # 是否换行
         }
-        self.text_message = []  # 测试
 
 
 # 参数变量

@@ -234,7 +234,3 @@ def main_podcast():
     # 关闭CherryPy服务器
     cherrypy.engine.exit()
     time_print("Podflow运行结束")
-    
-    from podflow.basic.file_save import file_save
-    file_save(gVar.text_message, "text.json")
-    file_save(gVar.index_message, "index.json")
