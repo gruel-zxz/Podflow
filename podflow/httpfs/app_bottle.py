@@ -15,6 +15,7 @@ from podflow.httpfs.to_html import ansi_to_html
 from podflow.upload.build_hash import build_hash
 from podflow.upload.time_key import check_time_key
 from podflow.httpfs.get_channelid import get_channelid
+from podflow.httpfs.to_html import ansi_to_html, message_html
 
 
 class bottle_app:
@@ -403,7 +404,7 @@ class bottle_app:
     # 处理消息的接收和发送。
     def message(self):
         response.content_type = 'application/json'
-        return gVar.index_message # 获取消息列表
+        return message_html() # 获取消息列表
 
 
 bottle_app_instance = bottle_app()
