@@ -5,11 +5,12 @@ import sys
 import subprocess
 import shutil
 from podflow.basic.write_log import write_log
+from podflow.basic.time_print import time_print
 
 
 def error_ffmpeg_judge(ffmpeg_worry):
     write_log("FFmpeg 未安装, 请安装后重试")
-    print(ffmpeg_worry)
+    time_print(ffmpeg_worry, Time=False)
     sys.exit(0)
 
 

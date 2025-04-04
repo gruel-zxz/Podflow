@@ -37,3 +37,6 @@ def time_print(text, Top=False, NoEnter=False, Time=True, Url=""):
         gVar.index_message["podflow"].append(
             f'<a href="{Url}"><span class="ansi-url">{Url}</span></a>'
         )
+    gVar.text_message.append(
+        [text, Top, NoEnter]
+    )
