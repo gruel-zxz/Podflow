@@ -1,6 +1,7 @@
 # podflow/download/show_progress.py
 # coding: utf-8
 
+from podflow.basic.time_print import time_print
 from podflow.basic.time_format import time_format
 from podflow.download.convert_bytes import convert_bytes
 
@@ -30,17 +31,17 @@ def show_progress(stream):
         percent = f"{percent:.1f}" if percent == 100 else f"{percent:.2f}"
         percent = percent.rjust(5)
         eta = time_format(stream["eta"]).ljust(8)
-        print(
-            (
-                f"\r\033[94m{percent}%\033[0m|{downloaded_bytes}/{total_bytes}|\033[32m{speed}/s\033[0m|\033[93m{eta}\033[0m"
-            ),
-            end="",
+        time_print(
+            f"\033[94m{percent}%\033[0m|{downloaded_bytes}/{total_bytes}|\033[32m{speed}/s\033[0m|\033[93m{eta}\033[0m",
+            NoEnter=True,
+            Time=False,
         )
     if stream["status"] == "finished":
         if "elapsed" in stream:
             elapsed = time_format(stream["elapsed"]).ljust(8)
         else:
             elapsed = "Unknown "
-        print(
-            f"\r100.0%|{downloaded_bytes}/{total_bytes}|\033[32m{speed}/s\033[0m|\033[97m{elapsed}\033[0m"
+        time_print(
+            f"100.0%|{downloaded_bytes}/{total_bytes}|\033[32m{speed}/s\033[0m|\033[97m{elapsed}\033[0m",
+            Time=False,
         )
