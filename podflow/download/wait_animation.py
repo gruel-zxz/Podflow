@@ -27,7 +27,7 @@ def wait_animation(stop_flag, wait_animation_display_info):
             time.sleep(0.5)
         elif stop_flag[0] == "error":
             time_print(
-                f"{prepare_youtube_print}|{wait_animation_display_info}\033[34m准备中{animation} \033[31m失败:\033[0m",
+                f"{prepare_youtube_print}|{wait_animation_display_info}\033[34m准备中{animation}\033[0m \033[31m失败:\033[0m",
                 Top=True,
                 Time=False,
             )

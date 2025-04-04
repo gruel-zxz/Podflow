@@ -2,11 +2,11 @@
 # coding: utf-8
 
 import os
-from datetime import datetime
 import ffmpeg
 import yt_dlp
 from podflow import gVar
 from podflow.basic.write_log import write_log
+from podflow.basic.time_print import time_print
 from podflow.basic.get_duration import get_duration
 from podflow.download.show_progress import show_progress
 from podflow.message.fail_message_initialize import fail_message_initialize
@@ -36,7 +36,7 @@ def download_video(
 
         def error(self, msg):
             msg = fail_message_initialize(msg, video_url).ljust(48)
-            print(msg)
+            time_print(msg, Time=False)
 
     outtmpl = f"channel_audiovisual/{output_dir}/{video_url}{sesuffix}.{output_format}"
     ydl_opts = {
@@ -215,15 +215,21 @@ def dl_aideo_video(
     print_message = (
         "\033[34m开始下载\033[0m 🍪" if cookies else "\033[34m开始下载\033[0m"
     )
-    print(
-        f"{datetime.now().strftime('%H:%M:%S')}|{video_write_log} {print_message}",
-        end="",
+    time_print(
+        f"{video_write_log} {print_message}",
+        NoEnter=True,
     )
     if output_format == "m4a":
         if video_format[1] in ["140", "30280"]:
-            print("")
+            time_print(
+                "",
+                Time=False,
+            )
         else:
-            print(f" \033[97m{video_format[1]}\033[0m")
+            time_print(
+                f" \033[97m{video_format[1]}\033[0m",
+                Time=False,
+            )
         video_id_failed = dl_retry_video(
             video_url,
             output_dir,
@@ -238,8 +244,12 @@ def dl_aideo_video(
             playlist_num,
         )
     else:
-        print(
-            f"\n{datetime.now().strftime('%H:%M:%S')}|\033[34m视频部分开始下载\033[0m \033[97m{video_format[2]}\033[0m"
+        time_print(
+            "",
+            Time=False,
+        )
+        time_print(
+            f"\033[34m视频部分开始下载\033[0m \033[97m{video_format[2]}\033[0m",
         )
         video_id_failed = dl_retry_video(
             video_url,
@@ -255,8 +265,8 @@ def dl_aideo_video(
             playlist_num,
         )
         if video_id_failed is None:
-            print(
-                f"{datetime.now().strftime('%H:%M:%S')}|\033[34m音频部分开始下载\033[0m \033[97m{video_format[1]}\033[0m"
+            time_print(
+                f"\033[34m音频部分开始下载\033[0m \033[97m{video_format[1]}\033[0m",
             )
             video_id_failed = dl_retry_video(
                 video_url,
@@ -272,9 +282,9 @@ def dl_aideo_video(
                 playlist_num,
             )
         if video_id_failed is None:
-            print(
-                f"{datetime.now().strftime('%H:%M:%S')}|\033[34m开始合成...\033[0m",
-                end="",
+            time_print(
+                "\033[34m开始合成...\033[0m",
+                NoEnter=True,
             )
             # 指定视频文件和音频文件的路径
             video_file = f"channel_audiovisual/{output_dir}/{video_url}.part.mp4"
@@ -288,14 +298,21 @@ def dl_aideo_video(
                     audio, video, output_file, vcodec="copy", acodec="copy"
                 )
                 ffmpeg.run(stream, quiet=True)
-                print(" \033[32m合成成功\033[0m")
+                time_print(
+                    " \033[32m合成成功\033[0m",
+                    Time=False
+                )
                 # 删除临时文件
                 os.remove(f"channel_audiovisual/{output_dir}/{video_url}.part.mp4")
                 os.remove(f"channel_audiovisual/{output_dir}/{video_url}.part.m4a")
             except ffmpeg.Error as dl_aideo_video_error:
                 video_id_failed = video_url
+                time_print(
+                    "",
+                    Time=False,
+                )
                 write_log(
-                    f"\n{video_write_log} \033[31m下载失败\033[0m\n错误信息: 合成失败:{dl_aideo_video_error}"
+                    f"{video_write_log} \033[31m下载失败\033[0m\n错误信息: 合成失败:{dl_aideo_video_error}"
                 )
     if video_id_failed is None:
         if output_format == "m4a":
