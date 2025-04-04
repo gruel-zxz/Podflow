@@ -237,3 +237,4 @@ def main_podcast():
     
     from podflow.basic.file_save import file_save
     file_save(gVar.text_message, "text.json")
+    file_save(gVar.index_message, "index.json")
