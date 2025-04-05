@@ -210,7 +210,27 @@ def main_podcast():
             update_upload()
         else:
             time_print("频道无更新内容")
-
+        # 清空变量内数据
+        gVar.channelid_youtube_ids_update.clear()  # 需更新的YouTube频道字典
+        gVar.youtube_content_ytid_update.clear()  # 需下载YouTube视频字典
+        gVar.youtube_content_ytid_backward_update.clear()  # 向后更新需下载YouTube视频字典
+        gVar.channelid_youtube_rss.clear()  # YouTube频道最新Rss Response字典
+        gVar.channelid_bilibili_ids_update.clear()  # 需更新的哔哩哔哩频道字典
+        gVar.bilibili_content_bvid_update.clear()  # 需下载哔哩哔哩视频字典
+        gVar.channelid_bilibili_rss.clear()  # 哔哩哔哩频道最新Rss Response字典
+        gVar.bilibili_content_bvid_backward_update.clear()  # 向后更新需下载哔哩哔哩视频字典
+        gVar.video_id_failed.clear()  # YouTube&哔哩哔哩视频下载失败列表
+        gVar.video_id_update_format.clear()  # YouTube&哔哩哔哩视频下载的详细信息字典
+        gVar.hash_rss_original = ""  # 原始rss哈希值文本
+        gVar.xmls_original.clear()  # 原始xml信息字典
+        gVar.xmls_original_fail.clear()  # 未获取原始xml频道列表
+        gVar.youtube_xml_get_tree.clear()  # YouTube频道简介和图标字典
+        gVar.all_youtube_content_ytid.clear()  # 所有YouTube视频id字典
+        gVar.all_bilibili_content_bvid.clear()  # 所有哔哩哔哩视频id字典
+        gVar.all_items.clear()  # 更新后所有item明细列表
+        gVar.overall_rss = ""  # 更新后的rss文本
+        gVar.make_up_file_format.clear()  # 补全缺失媒体字典
+        gVar.make_up_file_format_fail.clear()  # 补全缺失媒体失败字典
         # 将需要更新转为否
         gVar.update_generate_rss = False
         if parse.update_num != -1:
@@ -232,5 +252,5 @@ def main_podcast():
             # 延时
             time.sleep(parse.time_delay)
     # 关闭CherryPy服务器
-    cherrypy.engine.exit()
     time_print("Podflow运行结束")
+    cherrypy.engine.exit()
