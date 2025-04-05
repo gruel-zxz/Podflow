@@ -35,5 +35,5 @@ def time_print(text, Top=False, NoEnter=False, Time=True, Url=""):
         gVar.index_message["enter"] = True
     if Url:
         gVar.index_message["podflow"].append(
-            f'<a href="{Url}"><span class="ansi-url">{Url}</span></a>'
+            f'<a href="{Url}" target="_blank"><span class="ansi-url">{Url}</span></a>'
         )

@@ -169,4 +169,6 @@ def fail_message_initialize(message_error, video_url):
         elif mode == "regexp" and re.search(fail_info, fail_message):
             fail_message = re.sub(rf"{fail_info}", field, fail_message)
             break
+    if fail_message[0] == "\n":
+        fail_message = fail_message[1:]
     return fail_message

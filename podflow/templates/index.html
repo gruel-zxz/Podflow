@@ -151,6 +151,9 @@
       overflow-x: auto; /* 当内容超出宽度时显示水平滚动条（可选） */
       overflow-y: auto;
       font-family: 'Courier New', Courier, monospace; /* 添加字体 */
+      word-break: break-word;
+      overflow-wrap: break-word;
+      white-space: pre-wrap; /* 保留换行并允许自动换行 */
     }
     textarea {
       height: 350px;
@@ -221,6 +224,11 @@
       }
       nav {
         position: fixed;
+      }
+      /* 确保页面宽度不会超出视口 */
+      body, html {
+        width: 100%;
+        overflow-x: hidden;
       }
     }
     .message {
@@ -312,9 +320,17 @@
               if (node.nodeType === Node.ELEMENT_NODE) {
                 if (node.classList.contains('qrcode-container')) {
                   generateQRCodeForNode(node);
+                  // 在生成二维码后，检查是否需要滚动
+                  if (!userScrolled && container.scrollHeight - container.scrollTop <= container.clientHeight + 10) {
+                    container.scrollTop = container.scrollHeight;
+                  }
                 } else {
                   const childContainers = node.querySelectorAll('.qrcode-container');
                   childContainers.forEach(generateQRCodeForNode);
+                  // 在生成二维码后，检查是否需要滚动
+                  if (!userScrolled && container.scrollHeight - container.scrollTop <= container.clientHeight + 10) {
+                    container.scrollTop = container.scrollHeight;
+                  }
                 }
               }
             });
@@ -343,6 +359,7 @@
 
       // 监听 messageArea 内动态新增的二维码容器
       observeQRCodes(messageArea);
+      observeQRCodes(messageHttp); // Also observe for messageHttp
 
       // 菜单切换函数
       function toggleMenu() {
@@ -381,8 +398,8 @@
       // 监听滚动事件，检测用户是否手动滚动
       function onUserScroll(event) {
         const element = event.target;
-        // 判断是否接近底部
-        const nearBottom = element.scrollHeight - element.scrollTop <= element.clientHeight + 10;
+        // 判断是否接近底部，增加一定的容差值
+        const nearBottom = element.scrollHeight - element.scrollTop <= element.clientHeight + 20;
         userScrolled = !nearBottom;
       }
 
@@ -413,8 +430,8 @@
 
       function appendMessages(container, newMessages, oldMessages) {
         // 判断当前是否在底部
-        const isAtBottom = container.scrollHeight - container.scrollTop <= container.clientHeight + 10;
-        
+        const wasAtBottom = container.scrollHeight - container.scrollTop <= container.clientHeight + 10;
+
         // 当两数组长度相等且有内容时，只比较最后一项
         if (newMessages.length === oldMessages.length && newMessages.length > 0) {
           const lastNewMessage = newMessages[newMessages.length - 1];
@@ -446,9 +463,9 @@
             container.appendChild(createMessageElement(msg));
           });
         }
-        
-        // 如果用户没有主动滚动，则自动滚动到底部
-        if (!userScrolled) {
+
+        // 如果之前在底部且用户没有主动滚动，则自动滚动到底部
+        if (wasAtBottom && !userScrolled) {
           container.scrollTop = container.scrollHeight;
         }
       }

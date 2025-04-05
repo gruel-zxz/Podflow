@@ -2,6 +2,7 @@
 # coding: utf-8
 
 import os
+import re
 import ffmpeg
 import yt_dlp
 from podflow import gVar
@@ -68,22 +69,22 @@ def download_video(
             ydl.download([f"{video_website}"])  # 下载指定视频链接的视频
         return None, None
     except Exception as download_video_error:
-        fail_info = fail_message_initialize(download_video_error, video_url).replace("\n","")
+        fail_info = fail_message_initialize(download_video_error, video_url).replace(
+            "\n", ""
+        )
         remove_info = ""
-        if fail_info in [
-            "",
-            "\033[31m请求拒绝\033[0m",
-            "\033[31m数据不完整\033[0m",
-            "\033[31m传输中断\033[0m",
-            "\033[31m请求超时\033[0m",
-            "\033[31m响应超时\033[0m",
-        ] and "www.youtube.com" in video_website:
+        if (
+            fail_info == ""
+            or re.search(r"请求拒绝|数据不完整|传输中断|请求超时|响应超时", fail_info)
+        ) and "www.youtube.com" in video_website:
+            if fail_info != "":
+                remove_info = "|"
             if os.path.isfile(outtmpl):
                 os.remove(outtmpl)
-                remove_info = "|已删除失败文件"
+                remove_info += "已删除失败文件"
             elif os.path.isfile(outtmpl + ".part"):
                 os.remove(outtmpl + ".part")
-                remove_info = "|已删除部分失败文件"
+                remove_info += "已删除部分失败文件"
         write_log(
             f"{video_write_log} \033[31m下载失败\033[0m",
             None,
@@ -124,15 +125,12 @@ def dl_full_video(
         f"channel_audiovisual/{output_dir}/{video_url}{sesuffix}.{output_format}"
     )  # 获取已下载视频的实际时长
     if (
-        duration_video is not None 
-        and abs(id_duration - duration_video) <= 1
+        duration_video is not None and abs(id_duration - duration_video) <= 1
     ):  # 检查实际时长与预计时长是否一致
         return None, None
     if duration_video:
         fail_info = f"不完整({id_duration}|{duration_video}"
-        write_log(
-            f"{video_write_log} \033[31m下载失败\033[0m\n错误信息: {fail_info})"
-        )
+        write_log(f"{video_write_log} \033[31m下载失败\033[0m\n错误信息: {fail_info})")
         os.remove(
             f"channel_audiovisual/{output_dir}/{video_url}{sesuffix}.{output_format}"
         )  # 删除不完整的视频
@@ -176,7 +174,9 @@ def dl_retry_video(
             cookies = "channel_data/yt_dlp_youtube.txt"
         video_id_count += 1
         if cookies:
-            write_log(f"{video_write_log} 第\033[34m{video_id_count}\033[0m次重新下载 🍪")
+            write_log(
+                f"{video_write_log} 第\033[34m{video_id_count}\033[0m次重新下载 🍪"
+            )
         else:
             write_log(f"{video_write_log} 第\033[34m{video_id_count}\033[0m次重新下载")
         video_id_failed, _ = dl_full_video(
@@ -298,10 +298,7 @@ def dl_aideo_video(
                     audio, video, output_file, vcodec="copy", acodec="copy"
                 )
                 ffmpeg.run(stream, quiet=True)
-                time_print(
-                    " \033[32m合成成功\033[0m",
-                    Time=False
-                )
+                time_print(" \033[32m合成成功\033[0m", Time=False)
                 # 删除临时文件
                 os.remove(f"channel_audiovisual/{output_dir}/{video_url}.part.mp4")
                 os.remove(f"channel_audiovisual/{output_dir}/{video_url}.part.m4a")

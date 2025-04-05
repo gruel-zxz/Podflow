@@ -3,6 +3,7 @@
 
 import os
 import hashlib
+import mimetypes
 import pkg_resources
 from datetime import datetime
 import cherrypy
@@ -203,7 +204,21 @@ class bottle_app:
                 # 如果文件存在, 返回文件
                 if os.path.exists(filename):  # 如果文件存在, 返回文件
                     self.print_out(filename, 200)
-                    return static_file(filename, root=".")
+                    # 设置正确的 Content-Type 头部
+                    content_type, _ = mimetypes.guess_type(filename)
+                    # 如果无法自动猜测出正确的 Content-Type，手动指定
+                    if not content_type:
+                        if filename.endswith(".xml"):
+                            content_type = "application/xml"
+                        elif filename.endswith(".m4a"):
+                            content_type = "audio/mp4"
+                        elif filename.endswith(".mp4"):
+                            content_type = "video/mp4"
+                        else:
+                            content_type = "application/octet-stream"  # 默认文件类型
+
+                    # 返回静态文件并附加正确的 Content-Type
+                    return static_file(filename, root=".", mimetype=content_type)
                 else:  # 如果文件不存在, 返回 404 错误
                     self.print_out(filename, 404)
                     abort(404, "File not found")
