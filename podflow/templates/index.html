@@ -284,7 +284,7 @@
     </section>
   </main>
   <script>
-    (function() {
+    (function() {    
       // 生成单个二维码的函数
       function generateQRCodeForNode(container) {
         const rootStyles = getComputedStyle(document.documentElement);
@@ -305,44 +305,10 @@
           container.textContent = 'URL 未提供';
         }
       }
-
-      // 为所有存在的二维码容器生成二维码
-      function generateQRCodes() {
-        const containers = document.querySelectorAll('.qrcode-container');
-        containers.forEach(generateQRCodeForNode);
-      }
-
-      // 利用 MutationObserver 动态监听 container 内新增的二维码容器
-      function observeQRCodes(container) {
-        const observer = new MutationObserver((mutationsList) => {
-          mutationsList.forEach(mutation => {
-            mutation.addedNodes.forEach(node => {
-              if (node.nodeType === Node.ELEMENT_NODE) {
-                if (node.classList.contains('qrcode-container')) {
-                  generateQRCodeForNode(node);
-                  // 在生成二维码后，检查是否需要滚动
-                  if (!userScrolled && container.scrollHeight - container.scrollTop <= container.clientHeight + 10) {
-                    container.scrollTop = container.scrollHeight;
-                  }
-                } else {
-                  const childContainers = node.querySelectorAll('.qrcode-container');
-                  childContainers.forEach(generateQRCodeForNode);
-                  // 在生成二维码后，检查是否需要滚动
-                  if (!userScrolled && container.scrollHeight - container.scrollTop <= container.clientHeight + 10) {
-                    container.scrollTop = container.scrollHeight;
-                  }
-                }
-              }
-            });
-          });
-        });
-        observer.observe(container, { childList: true, subtree: true });
-      }
-
+    
       // 缓存常用节点
       const menu = document.getElementById('menu');
       const toggleMenuBtn = document.getElementById('toggleMenu');
-      const mainArea = document.getElementById('main');
       const pages = {
         pageChannel: document.getElementById('pageChannel'),
         pageMessage: document.getElementById('pageMessage')
@@ -354,13 +320,9 @@
       const pasteBtn = document.getElementById('pasteBtn');
       const copyBtn = document.getElementById('copyBtn');
       const clearBtn = document.getElementById('clearBtn');
-
+    
       let pollingTimer = null;
-
-      // 监听 messageArea 内动态新增的二维码容器
-      observeQRCodes(messageArea);
-      observeQRCodes(messageHttp); // Also observe for messageHttp
-
+    
       // 菜单切换函数
       function toggleMenu() {
         menu.classList.toggle('hidden');
@@ -372,7 +334,7 @@
           toggleMenuBtn.textContent = '❮';
         }
       }
-
+    
       // 根据页面标识显示对应面板
       function showPage(pageId) {
         Object.values(pages).forEach(page => page.style.display = 'none');
@@ -383,29 +345,26 @@
             toggleMenu();
           }
           pageId === 'pageMessage' ? startMessagePolling() : stopMessagePolling();
-          if (pageId === 'pageMessage') {
-            generateQRCodes(); // 页面切换时生成已有二维码
-          }
         }
       }
-
+    
       // 初始化默认页面
       showPage('pageMessage');
-
+    
       let lastMessage = { podflow: [], http: [] };
       let userScrolled = false;
-
+    
       // 监听滚动事件，检测用户是否手动滚动
       function onUserScroll(event) {
         const element = event.target;
         // 判断是否接近底部，增加一定的容差值
-        const nearBottom = element.scrollHeight - element.scrollTop <= element.clientHeight + 20;
+        const nearBottom = element.scrollHeight - element.scrollTop <= element.clientHeight + 10;
         userScrolled = !nearBottom;
       }
-
+    
       messageArea.addEventListener('scroll', onUserScroll);
       messageHttp.addEventListener('scroll', onUserScroll);
-
+    
       // 轮询消息更新，更新 messageArea 与 messageHttp
       function getMessages() {
         fetch('message')
@@ -420,7 +379,7 @@
           })
           .catch(error => console.error('获取消息失败:', error));
       }
-
+    
       function createMessageElement(message) {
         const p = document.createElement('p');
         p.innerHTML = message;
@@ -428,16 +387,34 @@
         return p;
       }
 
+      function processQRCodeContainers(p) {
+        const qrContainers = p.querySelectorAll('.qrcode-container');
+        qrContainers.forEach(container => {
+          // 判断当前容器是否有 data-url 属性，并且值不为空
+          if (container.dataset.url) {
+            generateQRCodeForNode(container);
+          } else {
+            // 如果没有 data-url 或值为空，可以执行其他操作，例如输出提示信息
+            console.log('容器中未提供 URL，跳过二维码生成:', container);
+            container.textContent = '未提供二维码 URL'; // 可选：在容器中显示提示
+          }
+        });
+      }
+    
+      // 修改后的 appendMessages 函数：先生成消息节点内的二维码，再将节点追加或替换到消息容器中
       function appendMessages(container, newMessages, oldMessages) {
         // 判断当前是否在底部
         const wasAtBottom = container.scrollHeight - container.scrollTop <= container.clientHeight + 10;
-
-        // 当两数组长度相等且有内容时，只比较最后一项
+        // 较为简单的情况：两数组长度相同且有内容，只比较最后一项
         if (newMessages.length === oldMessages.length && newMessages.length > 0) {
           const lastNewMessage = newMessages[newMessages.length - 1];
           const lastOldMessage = oldMessages[oldMessages.length - 1];
           if (lastNewMessage !== lastOldMessage) {
+            // 先创建消息节点
             const p = createMessageElement(lastNewMessage);
+            // 在插入前先处理二维码生成
+            processQRCodeContainers(p);
+            // 替换或追加到容器中
             const lastChild = container.lastElementChild;
             if (lastChild) {
               container.replaceChild(p, lastChild);
@@ -446,11 +423,13 @@
             }
           }
         } else {
-          // 如果 newMessages 与 oldMessages 数量不一致
-          // 先替换容器中最后一项为 newMessages 中对应位置的消息（若 oldMessages 存在数据）
+          // 当 newMessages 与 oldMessages 数量不一致时
+          // 如果 oldMessages 存在数据，先替换容器中最后一项对应的消息
           if (oldMessages.length > 0) {
             const replaceIndex = oldMessages.length - 1;
             const p = createMessageElement(newMessages[replaceIndex]);
+            // 先生成二维码
+            processQRCodeContainers(p);
             const lastChild = container.lastElementChild;
             if (lastChild) {
               container.replaceChild(p, lastChild);
@@ -460,30 +439,33 @@
           }
           // 再追加从 oldMessages.length 开始的后续消息
           newMessages.slice(oldMessages.length).forEach(msg => {
-            container.appendChild(createMessageElement(msg));
+            const p = createMessageElement(msg);
+            // 先生成二维码
+            processQRCodeContainers(p);
+            // 插入容器中
+            container.appendChild(p);
           });
         }
-
         // 如果之前在底部且用户没有主动滚动，则自动滚动到底部
         if (wasAtBottom && !userScrolled) {
           container.scrollTop = container.scrollHeight;
         }
       }
-
+    
       function startMessagePolling() {
         getMessages();
-        pollingTimer = setInterval(getMessages, 250);
+        pollingTimer = setInterval(getMessages, 500);
       }
-
+    
       function stopMessagePolling() {
         if (pollingTimer !== null) {
           clearInterval(pollingTimer);
           pollingTimer = null;
         }
       }
-
+    
       startMessagePolling();
-
+    
       // 表单异步提交（获取 Channel-ID）
       inputForm && inputForm.addEventListener('submit', function(event) {
         event.preventDefault();
@@ -493,19 +475,19 @@
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ content })
         })
-        .then(response => {
-          if (!response.ok) {
-            throw new Error('网络响应异常');
-          }
-          return response.json();
-        })
-        .then(data => inputOutput.value = data.response)
-        .catch(error => {
-          console.error('请求失败:', error);
-          alert('请求失败，请稍后重试！');
-        });
+          .then(response => {
+            if (!response.ok) {
+              throw new Error('网络响应异常');
+            }
+            return response.json();
+          })
+          .then(data => inputOutput.value = data.response)
+          .catch(error => {
+            console.error('请求失败:', error);
+            alert('请求失败，请稍后重试！');
+          });
       });
-
+    
       // 粘贴功能
       pasteBtn.addEventListener('click', function() {
         if (navigator.clipboard && navigator.clipboard.readText) {
@@ -526,7 +508,7 @@
           }
         }
       });
-
+    
       // 复制功能
       copyBtn.addEventListener('click', function() {
         if (navigator.clipboard && navigator.clipboard.writeText) {
@@ -544,12 +526,12 @@
           }
         }
       });
-
+    
       // 清空输入框
       clearBtn.addEventListener('click', function() {
         inputOutput.value = '';
       });
-
+    
       // 菜单项点击事件委托
       menu.addEventListener('click', function(event) {
         const target = event.target;
@@ -557,24 +539,17 @@
           showPage(target.dataset.page);
         }
       });
-
+    
       // 菜单切换按钮事件绑定
       toggleMenuBtn.addEventListener('click', toggleMenu);
-
+    
       // 针对手机端，初始化时隐藏菜单
       if (window.innerWidth <= 600) {
         menu.classList.add('hidden');
         toggleMenuBtn.style.left = '0px';
         toggleMenuBtn.textContent = '❯';
       }
-
-      // 在页面加载完成后首次生成二维码（如果当前显示的是 Channel 页面）
-      window.addEventListener('load', () => {
-        if (pages.pageChannel.style.display === 'block') {
-          generateQRCodes();
-        }
-      });
     })();
-  </script>
+    </script>    
 </body>
 </html>
