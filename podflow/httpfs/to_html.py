@@ -3,7 +3,6 @@
 
 import re
 import html
-from podflow import gVar
 
 
 def ansi_to_html(ansi_text):
@@ -47,10 +46,11 @@ def ansi_to_html(ansi_text):
 
     if inside_span:
         html_output += "</span>"
-
+    html_output = re.sub(r'^\n', '', html_output)
+    html_output = re.sub(r'\n+$', '', html_output)
+    html_output = re.sub(r' +$', '', html_output)
     return html_output
 
 
 def qrcode_to_html(url):
-    text = f'<span class="qrcode-container" data-url="{url}"></span>'
-    gVar.index_message["podflow"].append(text)
+    return f'<span class="qrcode-container" data-url="{url}"></span>'
