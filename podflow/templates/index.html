@@ -22,6 +22,7 @@
       --menu-selected-bg: #cccccc;
       /* 将进度条颜色变量修改为蓝色 */
       --progress-bar-color: #0d6efd; /* 标准蓝色 */
+      --background-bar-color: #e0e0e0; /* 浅色背景下的进度条颜色 */
     }
 
     /* 深色模式变量 */
@@ -40,7 +41,8 @@
         --menu-text: #e0e0e0;
         --menu-selected-bg: #555555;
         /* 将深色模式下的进度条颜色修改为较亮的蓝色 */
-        --progress-bar-color: #4dabf7; /* 较亮的蓝色，适合深色背景 */
+        --progress-bar-color: #315188; /* 较亮的蓝色，适合深色背景 */
+        --background-bar-color: #333333; /* 深色背景下的进度条颜色 */
       }
     }
 
@@ -251,7 +253,7 @@
     .progress-bar {
       width: 100%;
       height: 22px;
-      background-color: #e0e0e0; /* 考虑使用变量 */
+      background-color: var(--background-bar-color); /* 考虑使用变量 */
       border-radius: 12px;
       overflow: hidden;
       position: relative;
