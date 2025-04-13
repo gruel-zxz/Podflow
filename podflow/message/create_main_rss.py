@@ -29,6 +29,8 @@ def create_main_rss():
     }
     all_channelid = list(gVar.all_items.keys())
 
+    ratio_part = 0.6 / len(all_channelid) if all_channelid else 0
+
     while all_channelid:
         for index, output_dir in enumerate(all_channelid):
             if output_dir in update_output_dir():
@@ -66,5 +68,10 @@ def create_main_rss():
                         "bilibili", items["items"]
                     )
                     gVar.all_items[output_dir] = items
+                # 主进度条更新
+                ratio = gVar.index_message["schedule"][1] + ratio_part
+                if ratio > 0.8:
+                    ratio = 0.8
+                gVar.index_message["schedule"][1] = ratio
                 del all_channelid[index]
                 break
