@@ -3,13 +3,15 @@
 
 import math
 import pyqrcode
-from podflow.httpfs.to_html import qrcode_to_html
+from podflow.basic.time_print import time_print
 
 
 # 网址二维码模块
-def qr_code(data, to_html=False):
-    if to_html:
-        qrcode_to_html(data)
+def qr_code(
+    data,
+    to_html=False,
+    num=None
+):
     qr = pyqrcode.create(
         data,
         error='L',  # 对应于ERROR_CORRECT_L，可选值: 'L','M','Q','H'
@@ -47,5 +49,11 @@ def qr_code(data, to_html=False):
                 else:
                     ascii_art += fonts[3]
             ascii_art += "\n"
-    print(ascii_art)
+    Qrcode = data if to_html else ""
+    time_print(
+        ascii_art,
+        Time=False,
+        Qrcode=Qrcode,
+        Number=num,
+    )
     return height_double

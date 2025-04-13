@@ -1,18 +1,19 @@
 # podflow/bilibili/login.py
 # coding: utf-8
 
-import binascii
-import json
 import os
 import re
 import time
-from datetime import datetime
+import json
+import binascii
 import requests
-from podflow.basic.file_save import file_save
-from podflow.basic.http_client import http_client
+from datetime import datetime
 from podflow.basic.qr_code import qr_code
-from podflow.basic.time_stamp import time_stamp
 from podflow.basic.write_log import write_log
+from podflow.basic.file_save import file_save
+from podflow.basic.time_print import time_print
+from podflow.basic.time_stamp import time_stamp
+from podflow.basic.http_client import http_client
 from podflow.netscape.bulid_netscape import bulid_netscape
 
 try:
@@ -75,13 +76,17 @@ def bilibili_scan_login(token):
 
 
 # 登陆哔哩哔哩模块
-def bilibili_login():
+def bilibili_login(retry=False):
     buvid3_and_bnut = http_client(
         "https://www.bilibili.com", "哔哩哔哩主页", 10, 4, True
     ).cookies.get_dict()
     token, url = bilibili_request_qr_code()
-    print(f"{datetime.now().strftime('%H:%M:%S')}|请用BiliBili App扫描登录:")
-    upward = qr_code(url)
+    if retry:
+        time_print("请用BiliBili App扫描登录:", Number=-3)
+        upward = qr_code(url, to_html=True, num=-2)
+    else:
+        time_print("请用BiliBili App扫描登录:")
+        upward = qr_code(url, to_html=True)
     login_status_change = ""
     time_text = f"{datetime.now().strftime('%H:%M:%S')}|BiliBili "
     while True:
@@ -97,16 +102,34 @@ def bilibili_login():
         else:
             login_status = "\033[31m错误\033[0m"
         if login_status_change != login_status:
+            num = -1 if retry else None
             if login_status == "":
-                print(f"{time_text}{login_status}".ljust(42), end="")
+                time_print(
+                    f"{time_text}{login_status}".ljust(42),
+                    NoEnter=True,
+                    Time=False,
+                    Number=num,
+                )
             else:
-                print(f"\r{time_text}{login_status}".ljust(42), end="")
+                time_print(
+                    f"{time_text}{login_status}".ljust(42),
+                    Top=True,
+                    NoEnter=True,
+                    Time=False,
+                    Number=num,
+                )
         login_status_change = login_status
         if status == 86038:
-            print("")
+            time_print(
+                "",
+                Time=False,
+            )
             return status, refresh_token, upward
         elif status == 0:
-            print("")
+            time_print(
+                "",
+                Time=False,
+            )
             cookie["buvid3"] = buvid3_and_bnut.get("buvid3", "")
             cookie["b_nut"] = buvid3_and_bnut.get("b_nut", "")
             return cookie, refresh_token, upward
@@ -114,8 +137,8 @@ def bilibili_login():
 
 
 # 保存哔哩哔哩登陆成功后的cookies模块
-def save_bilibili_cookies():
-    bilibili_cookie, refresh_token, upward = bilibili_login()
+def save_bilibili_cookies(retry=False):
+    bilibili_cookie, refresh_token, upward = bilibili_login(retry)
     if bilibili_cookie == 86038:
         return {"cookie": None}, upward
     bilibili_cookie = requests.utils.dict_from_cookiejar(bilibili_cookie)
@@ -238,9 +261,7 @@ JNrRuoEUXpabUzGB8QIDAQAB
 
 
 def get_bilibili_data_success(bilibili_data, channelid_bilibili_ids):
-    print(
-        f"{datetime.now().strftime('%H:%M:%S')}|BiliBili \033[32m获取cookie成功\033[0m"
-    )
+    time_print("BiliBili \033[32m获取cookie成功\033[0m")
     img_key, sub_key = getWbiKeys()
     bilibili_data["img_key"] = img_key
     bilibili_data["sub_key"] = sub_key
@@ -262,28 +283,23 @@ def get_bilibili_data_state(bilibili_data, channelid_bilibili_ids):
     ):
         if bilibili_login_code != 0:
             if try_num == 0:
-                print(
-                    f"{datetime.now().strftime('%H:%M:%S')}|BiliBili \033[31m未登陆\033[0m"
-                )
+                time_print("BiliBili \033[31m未登陆\033[0m")
+                bilibili_data, upward = save_bilibili_cookies()
             else:
-                print(
-                    f"\033[{upward + 3}F\033[{upward + 3}K{datetime.now().strftime('%H:%M:%S')}|BiliBili \033[31m未登陆, 重试第\033[0m{try_num}\033[31m次\033[0m"
+                time_print(
+                    f"BiliBili \033[31m未登陆, 重试第\033[0m{try_num}\033[31m次\033[0m",
+                    Head=f"\033[{upward + 3}F\033[{upward + 3}K",
+                    Number=-4
                 )
-            bilibili_data, upward = save_bilibili_cookies()
+                bilibili_data, upward = save_bilibili_cookies(True)
             try_num += 1
         else:
-            print(
-                f"{datetime.now().strftime('%H:%M:%S')}|BiliBili \033[33m需刷新\033[0m"
-            )
+            time_print("BiliBili \033[33m需刷新\033[0m")
             bilibili_data = bilibili_cookie_update(bilibili_data)
             if bilibili_data["cookie"]:
-                print(
-                    f"{datetime.now().strftime('%H:%M:%S')}|BiliBili \033[32m刷新成功\033[0m"
-                )
+                time_print("BiliBili \033[32m刷新成功\033[0m")
             else:
-                print(
-                    f"{datetime.now().strftime('%H:%M:%S')}|BiliBili \033[31m刷新失败, 重新登陆\033[0m"
-                )
+                time_print("BiliBili \033[31m刷新失败, 重新登陆\033[0m")
         bilibili_login_code, bilibili_login_refresh_token = judgment_bilibili_update(
             bilibili_data["cookie"]
         )
@@ -305,9 +321,7 @@ def get_bilibili_data(channelid_bilibili_ids):
         bilibili_data = {"cookie": None, "timestamp": 0.0}
     if time.time() - bilibili_data["timestamp"] - 60 * 60 > 0:
         return get_bilibili_data_state(bilibili_data, channelid_bilibili_ids)
-    print(
-        f"{datetime.now().strftime('%H:%M:%S')}|BiliBili \033[33m获取cookie成功\033[0m"
-    )
+    time_print("BiliBili \033[33m获取cookie成功\033[0m")
     if not os.path.isfile("channel_data/yt_dlp_bilibili.txt"):
         bulid_netscape("yt_dlp_bilibili", bilibili_data["cookie"])
     return channelid_bilibili_ids, bilibili_data
