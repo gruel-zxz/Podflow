@@ -265,6 +265,18 @@
       transition: width 0.3s ease-in-out; /* 更平滑的过渡 */
       border-radius: 12px; /* 与容器保持一致 */
     }
+    /* 脉冲动画效果 */
+    .progress-bar .progress.animated {
+      animation: pulse 1.5s ease-in-out infinite alternate;
+    }
+    @keyframes pulse {
+      0% {
+        opacity: 0.8;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
     .progress-bar .status-text {
       position: absolute;
       top: 50%;
@@ -323,7 +335,7 @@
       <form>
         <label>主进度：</label>
         <div class="progress-bar">
-          <div class="progress" id="mainProgress"></div>
+          <div class="progress animated" id="mainProgress"></div>
           <div class="status-text" id="progressStatus">准备中</div>
           <div class="percentage-text" id="progressPercentage">0.00%</div>
         </div>
