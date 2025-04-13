@@ -37,7 +37,7 @@ def download_video(
 
         def error(self, msg):
             msg = fail_message_initialize(msg, video_url).ljust(48)
-            time_print(msg, Time=False)
+            time_print(msg, Top=True, Time=False)
 
     outtmpl = f"channel_audiovisual/{output_dir}/{video_url}{sesuffix}.{output_format}"
     ydl_opts = {
@@ -78,13 +78,15 @@ def download_video(
             or re.search(r"请求拒绝|数据不完整|传输中断|请求超时|响应超时", fail_info)
         ) and "www.youtube.com" in video_website:
             if fail_info != "":
-                remove_info = "|"
+                remove_info_part = "|"
+            else:
+                remove_info_part = ""
             if os.path.isfile(outtmpl):
                 os.remove(outtmpl)
-                remove_info += "已删除失败文件"
+                remove_info = remove_info_part + "已删除失败文件"
             elif os.path.isfile(outtmpl + ".part"):
                 os.remove(outtmpl + ".part")
-                remove_info += "已删除部分失败文件"
+                remove_info = remove_info_part + "已删除部分失败文件"
         write_log(
             f"{video_write_log} \033[31m下载失败\033[0m",
             None,
