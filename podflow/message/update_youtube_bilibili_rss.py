@@ -61,6 +61,12 @@ def update_youtube_bilibili_rss():
         ) in pattern_youtube_error.items():
             if pattern_youtube_error_key in youtube_content:
                 return pattern_youtube_error_value
+    if gVar.channelid_youtube_ids or gVar.channelid_bilibili_ids:
+        ratio_part = 0.05 / (
+            len(gVar.channelid_youtube_ids) + len(gVar.channelid_bilibili_ids)
+        )
+    else:
+        ratio_part = 0
 
     # 更新Youtube频道
     for youtube_key, youtube_value in gVar.channelid_youtube_ids.copy().items():
@@ -97,6 +103,10 @@ def update_youtube_bilibili_rss():
             if youtube_response_type == "text":
                 del gVar.channelid_youtube_ids[youtube_key]
             write_log(f"YouTube频道 {youtube_value} 无法更新")
+        # 更新进度条
+        ratio = gVar.index_message["schedule"][1] + ratio_part
+        gVar.index_message["schedule"][1] = ratio
+
     # 更新哔哩哔哩频道
     for bilibili_key, bilibili_value in gVar.channelid_bilibili_ids.copy().items():
         bilibili_space = gVar.channelid_bilibili_rss[bilibili_key]["content"]
@@ -114,3 +124,8 @@ def update_youtube_bilibili_rss():
             file_save(bilibili_space, f"{bilibili_key}.json", "channel_id")
             # 构建频道文件夹
             folder_build(bilibili_key, "channel_audiovisual")
+        # 更新进度条
+        ratio = gVar.index_message["schedule"][1] + ratio_part
+        if ratio > 0.1:
+            ratio = 0.1
+        gVar.index_message["schedule"][1] = ratio

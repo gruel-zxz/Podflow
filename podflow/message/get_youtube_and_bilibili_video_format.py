@@ -26,7 +26,11 @@ def one_format(id_update_format, id_num):
 
 # YouTube&哔哩哔哩视频信息模块
 def get_youtube_and_bilibili_video_format(
-    id_num, stop_flag, video_format_lock, prepare_animation
+    id_num, stop_flag,
+    video_format_lock,
+    prepare_animation,
+    ratio_part,
+    ratio_part_lock,
 ):
     url = gVar.video_id_update_format[id_num]["url"]
     media = gVar.video_id_update_format[id_num]["media"]
@@ -101,3 +105,9 @@ def get_youtube_and_bilibili_video_format(
                 False,
             )
             del gVar.video_id_update_format[id_num]
+    with ratio_part_lock:
+        # 主进度条更新
+        ratio = gVar.index_message["schedule"][1] + ratio_part
+        if ratio > 0.199:
+            ratio = 0.199
+        gVar.index_message["schedule"][1] = ratio

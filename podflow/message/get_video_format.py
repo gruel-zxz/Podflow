@@ -92,6 +92,20 @@ def get_video_format():
     get_bilibili_format_front(gVar.bilibili_content_bvid_update, False)
     get_youtube_format_front(gVar.youtube_content_ytid_backward_update, True)
     get_bilibili_format_front(gVar.bilibili_content_bvid_backward_update, True)
+    if (
+        gVar.youtube_content_ytid_update
+        or gVar.bilibili_content_bvid_update
+        or gVar.youtube_content_ytid_backward_update
+        or gVar.bilibili_content_bvid_backward_update
+    ):
+        ratio_part = 0.079 / (
+            len(gVar.youtube_content_ytid_update)
+            + len(gVar.bilibili_content_bvid_update)
+            + len(gVar.youtube_content_ytid_backward_update)
+            + len(gVar.bilibili_content_bvid_backward_update)
+        )
+    else:
+        ratio_part = 0
     # 按参数拆分获取量
     if len(gVar.video_id_update_format) != 0:
         video_id_update_format_list = split_dict(
@@ -107,5 +121,7 @@ def get_video_format():
             )
             # 获取视频信息多线程模块
             get_video_format_multithread(
-                video_id_update_format_item, wait_animation_display_info
+                video_id_update_format_item,
+                wait_animation_display_info,
+                ratio_part,
             )
