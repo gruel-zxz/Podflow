@@ -4,6 +4,7 @@
 import sys
 import json
 import time
+import random
 import urllib
 import subprocess
 
@@ -106,24 +107,30 @@ def main_podcast():
             sys.exit(0)
     # 主流程
     while parse.update_num > 0 or parse.update_num == -1:  # 循环主更新
+        # 主进度条
+        gVar.index_message["schedule"] = ["准备中", 0]
         # 暂停进程打印
         gVar.server_process_print_flag[0] = "pause"
         # 获取YouTube cookie
         gVar.youtube_cookie = get_youtube_cookie(gVar.channelid_youtube_ids_original)
+        gVar.index_message["schedule"][1] = 0.01 + random.uniform(0, 0.0049)
         # 更新哔哩哔哩data
         gVar.channelid_bilibili_ids, gVar.bilibili_data = get_bilibili_data(
             gVar.channelid_bilibili_ids_original
         )
+        gVar.index_message["schedule"][1] = 0.02 + random.uniform(0, 0.0049)
         # 恢复进程打印
         bottle_app_instance.cherry_print()
         # 获取原始xml字典和rss文本
         gVar.xmls_original, gVar.hash_rss_original, gVar.xmls_original_fail = (
             get_original_rss()
         )
+        gVar.index_message["schedule"][1] = 0.03 + random.uniform(0, 0.0049)
         # 暂停进程打印
         gVar.server_process_print_flag[0] = "pause"
         # 连接上传服务器
         upload_url = connect_upload_server()
+        gVar.index_message["schedule"][1] = 0.04 + random.uniform(0, 0.0049)
         # 恢复进程打印
         bottle_app_instance.cherry_print()
         # 登陆上传服务器
@@ -133,16 +140,20 @@ def main_podcast():
                 gVar.config["upload"] = False
         else:
             gVar.config["upload"] = False
+        gVar.index_message["schedule"][1] = 0.045 + random.uniform(0, 0.0024)
         # 初始化原始上传信息
         get_upload_original()
+        gVar.index_message["schedule"][1] = 0.05
         # 更新Youtube和哔哩哔哩频道xml
         update_youtube_bilibili_rss()
+        gVar.index_message["schedule"][1] = 0.1
         # 判断是否有更新内容
         if gVar.channelid_youtube_ids_update or gVar.channelid_bilibili_ids_update:
             gVar.update_generate_rss = True
         if gVar.update_generate_rss:
             # 根据日出日落修改封面(只适用原封面)
             channge_icon()
+            gVar.index_message["schedule"][1] = 0.11 + random.uniform(0, 0.0049)
             # 输出需要更新的信息
             update_information_display(
                 gVar.channelid_youtube_ids_update,
@@ -156,58 +167,74 @@ def main_podcast():
                 gVar.bilibili_content_bvid_backward_update,
                 "BiliBili",
             )
+            gVar.index_message["schedule"][1] = 0.12
             # 暂停进程打印
             gVar.server_process_print_flag[0] = "pause"
             # 获取视频格式信息
             get_video_format()
+            gVar.index_message["schedule"][1] = 0.199
             # 恢复进程打印
             bottle_app_instance.cherry_print()
             # 删除中断下载的媒体文件
             if gVar.config["delete_incompletement"]:
                 delete_part(gVar.channelid_youtube_ids | gVar.channelid_bilibili_ids)
+            gVar.index_message["schedule"] = ["构建中", 0.20]
             # 暂停进程打印
             gVar.server_process_print_flag[0] = "pause"
             # 下载并构建YouTube和哔哩哔哩视频
             download_and_build()
+            gVar.index_message["schedule"][1] = 0.8
             # 添加新媒体至上传列表
             add_upload()
+            gVar.index_message["schedule"][1] = 0.81 + random.uniform(0, 0.0049)
             # 恢复进程打印
             bottle_app_instance.cherry_print()
             # 打印无法保留原节目信息
             original_rss_fail_print(gVar.xmls_original_fail)
+            gVar.index_message["schedule"][1] = 0.82 + random.uniform(0, 0.0049)
             # 打印无法获取youtube信息
             print_fail_youtube()
+            gVar.index_message["schedule"][1] = 0.83 + random.uniform(0, 0.0049)
             if gVar.config["remove_media"]:
                 # 删除不在rss中的媒体文件
                 remove_file()
                 # 删除已抛弃的媒体文件夹
                 remove_dir()
+            gVar.index_message["schedule"][1] = 0.84
             # 补全缺失媒体文件到字典
             make_up_file()
+            gVar.index_message["schedule"][1] = 0.85
             # 按参数获取需要补全的最大个数
             gVar.make_up_file_format = split_dict(
                 gVar.make_up_file_format,
                 gVar.config["completion_count"],
                 True,
             )[0]
+            gVar.index_message["schedule"][1] = 0.86 + random.uniform(0, 0.0049)
             # 暂停进程打印
             gVar.server_process_print_flag[0] = "pause"
             # 补全在rss中缺失的媒体格式信息
             make_up_file_format_mod()
+            gVar.index_message["schedule"][1] = 0.90 + random.uniform(0, 0.0049)
             # 恢复进程打印
             bottle_app_instance.cherry_print()
+            gVar.index_message["schedule"][1] = 0.91 + random.uniform(0, 0.0049)
             # 删除无法补全的媒体
             del_makeup_format_fail()
+            gVar.index_message["schedule"][1] = 0.92 + random.uniform(0, 0.0049)
             # 暂停进程打印
             gVar.server_process_print_flag[0] = "pause"
             # 保存rss文件模块
             save_rss()
+            gVar.index_message["schedule"][1] = 0.93 + random.uniform(0, 0.0049)
             # 下载补全Youtube和哔哩哔哩视频模块
             make_up_file_mod()
+            gVar.index_message["schedule"][1] = 0.99 + random.uniform(0, 0.0099)
             # 恢复进程打印
             bottle_app_instance.cherry_print()
             # 更新并保存上传列表
             update_upload()
+            gVar.index_message["schedule"] = ["已完成", 1]
         else:
             time_print("频道无更新内容")
         # 清空变量内数据
