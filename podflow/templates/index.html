@@ -20,6 +20,8 @@
       --menu-text: #333333;
       --menu-width: 170px;
       --menu-selected-bg: #cccccc;
+      /* 新增进度条颜色变量 */
+      --progress-bar-color: #28a745; /* 更柔和的绿色 */
     }
 
     /* 深色模式变量 */
@@ -37,6 +39,8 @@
         --menu-bg: #333333;
         --menu-text: #e0e0e0;
         --menu-selected-bg: #555555;
+        /* 深色模式下的进度条颜色 */
+        --progress-bar-color: #40c057; /* 略亮的绿色 */
       }
     }
 
@@ -241,6 +245,46 @@
       display: inline-block; /* 让容器并排显示 */
       margin: 0px;
     }
+
+    /* 主进度条样式 */
+    .progress-bar {
+      width: 100%;
+      height: 22px; /* 略微增加高度 */
+      background-color: #e0e0e0;
+      border-radius: 12px; /* 更圆润的边角 */
+      overflow: hidden;
+      position: relative;
+      border: 1px solid #ccc; /* 增加一个浅灰色边框 */
+    }
+    .progress-bar .progress {
+      height: 100%;
+      background-color: var(--progress-bar-color); /* 使用颜色变量 */
+      /* 添加一个微妙的渐变效果 */
+      background-image: linear-gradient(to right, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%);
+      width: 0%;
+      transition: width 0.3s ease-in-out; /* 更平滑的过渡 */
+      border-radius: 12px; /* 与容器保持一致 */
+    }
+    .progress-bar .status-text {
+      position: absolute;
+      top: 50%;
+      left: 15px; /* 稍微调整左边距 */
+      transform: translateY(-50%);
+      color: var(--text-color); /* 使用文本颜色变量 */
+      font-weight: bold;
+      font-size: 14px;
+      z-index: 2; /* 确保状态文本覆盖在进度条上 */
+    }
+    .progress-bar .percentage-text {
+      position: absolute;
+      top: 50%;
+      right: 15px; /* 稍微调整右边距 */
+      transform: translateY(-50%);
+      color: var(--text-color); /* 使用文本颜色变量 */
+      font-weight: bold;
+      font-size: 14px;
+      z-index: 2; /* 确保百分比文本覆盖在进度条上 */
+    }
   </style>
   <script src="https://cdn.jsdelivr.net/gh/davidshimjs/qrcodejs/qrcode.min.js"></script>
 </head>
@@ -275,7 +319,14 @@
     <!-- 消息滚动显示页面 -->
     <section id="pageMessage">
       <h2>Podflow 运行情况</h2>
+      </div>
       <form>
+        <label>主进度：</label>
+        <div class="progress-bar">
+          <div class="progress" id="mainProgress"></div>
+          <div class="status-text" id="progressStatus">准备中</div>
+          <div class="percentage-text" id="progressPercentage">0.00%</div>
+        </div>
         <label>构建服务：</label><br>
         <div class="common-area" id="messageArea"></div>
         <label>服务器：</label><br>
@@ -315,12 +366,17 @@
       };
       const inputForm = document.getElementById('inputForm');
       const inputOutput = document.getElementById('inputOutput');
-      const messageArea = document.getElementById('messageArea');
-      const messageHttp = document.getElementById('messageHttp');
       const pasteBtn = document.getElementById('pasteBtn');
       const copyBtn = document.getElementById('copyBtn');
       const clearBtn = document.getElementById('clearBtn');
+      // 缓存进度条和文本元素
+      const mainProgress = document.getElementById('mainProgress');
+      const progressStatus = document.getElementById('progressStatus');
+      const progressPercentage = document.getElementById('progressPercentage');
+      const messageArea = document.getElementById('messageArea');
+      const messageHttp = document.getElementById('messageHttp');
     
+      let lastMessage = { podflow: [], http: [], schedule: [] };
       let pollingTimer = null;
     
       // 菜单切换函数
@@ -351,7 +407,6 @@
       // 初始化默认页面
       showPage('pageMessage');
     
-      let lastMessage = { podflow: [], http: [] };
       let userScrolled = false;
     
       // 监听滚动事件，检测用户是否手动滚动
@@ -371,6 +426,8 @@
           .then(response => response.json()) // 解析 JSON 数据
           .then(data => {
             if (JSON.stringify(data) !== JSON.stringify(lastMessage)) {
+              // 更新进度条
+              updateProgress(data.schedule);
               // 追加新消息
               appendMessages(messageArea, data.podflow, lastMessage.podflow);
               appendMessages(messageHttp, data.http, lastMessage.http);
@@ -380,6 +437,23 @@
           .catch(error => console.error('获取消息失败:', error));
       }
     
+      // 更新进度条并显示状态和百分比
+      function updateProgress(scheduleData) {
+        // 检查 schedule 数据是否存在且长度为 2
+        if (scheduleData && scheduleData.length === 2) {
+          const [status, progress] = scheduleData; // 直接解构数组
+          if (status === "准备中" || status === "构建中") {
+            mainProgress.style.width = `${progress * 100}%`;
+            progressStatus.textContent = status;   // 显示状态
+            progressPercentage.textContent = `${(progress * 100).toFixed(2)}%`;   // 显示百分比，保留两位小数
+          } else if (status === "已完成") {
+            mainProgress.style.width = '100%';
+            progressStatus.textContent = '已完成';   // 显示完成状态
+            progressPercentage.textContent = '100.0%';   // 显示百分比
+          }
+        }
+      }
+
       function createMessageElement(message) {
         const p = document.createElement('p');
         p.innerHTML = message;
@@ -405,21 +479,30 @@
       function appendMessages(container, newMessages, oldMessages) {
         // 判断当前是否在底部
         const wasAtBottom = container.scrollHeight - container.scrollTop <= container.clientHeight + 10;
-        // 较为简单的情况：两数组长度相同且有内容，只比较最后一项
+        // 较为简单的情况：两数组长度相同且有内容，只比较最后四项
         if (newMessages.length === oldMessages.length && newMessages.length > 0) {
-          const lastNewMessage = newMessages[newMessages.length - 1];
-          const lastOldMessage = oldMessages[oldMessages.length - 1];
-          if (lastNewMessage !== lastOldMessage) {
-            // 先创建消息节点
-            const p = createMessageElement(lastNewMessage);
-            // 在插入前先处理二维码生成
-            processQRCodeContainers(p);
-            // 替换或追加到容器中
-            const lastChild = container.lastElementChild;
-            if (lastChild) {
-              container.replaceChild(p, lastChild);
-            } else {
-              container.appendChild(p);
+          let replaceCount;
+          if (newMessages[newMessages.length - 1].includes("未扫描") || 
+              newMessages[newMessages.length - 1].includes("二维码超时, 请重试")) {
+            replaceCount = Math.min(4, newMessages.length);
+          } else {
+            replaceCount = 1;
+          }
+          for (let i = 0; i < replaceCount; i++) {
+            // 计算从后向前的索引位置
+            const index = newMessages.length - 1 - i;
+            const newMessage = newMessages[index];
+            const oldMessage = oldMessages[index];
+            if (newMessage !== oldMessage) {
+              // 先创建消息节点
+              const p = createMessageElement(newMessage);
+              // 在插入前先处理二维码生成
+              processQRCodeContainers(p);
+              // 替换到容器中 - 注意这里要找到对应位置的子元素
+              const childToReplace = container.children[index];
+              if (childToReplace) {
+                container.replaceChild(p, childToReplace);
+              }
             }
           }
         } else {
@@ -452,11 +535,13 @@
         }
       }
     
+      // 启动消息轮询
       function startMessagePolling() {
         getMessages();
         pollingTimer = setInterval(getMessages, 500);
       }
     
+      // 停止消息轮询
       function stopMessagePolling() {
         if (pollingTimer !== null) {
           clearInterval(pollingTimer);
@@ -464,7 +549,7 @@
         }
       }
     
-      startMessagePolling();
+  //  startMessagePolling();
     
       // 表单异步提交（获取 Channel-ID）
       inputForm && inputForm.addEventListener('submit', function(event) {
