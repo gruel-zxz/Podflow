@@ -5,8 +5,8 @@ import contextlib
 import re
 import os
 import threading
-from datetime import datetime
 from podflow import gVar
+from podflow.basic.time_print import time_print
 from podflow.basic.http_client import http_client
 from podflow.basic.vary_replace import vary_replace
 from podflow.basic.get_html_dict import get_html_dict
@@ -148,16 +148,12 @@ def get_youtube_html_playlists(
     if fail:  # 如果仍然有失败的视频
         if direction_forward or not videoid_start:
             for videoid in fail:
-                print(
-                    f"{datetime.now().strftime('%H:%M:%S')}|{youtube_value}|{videoid} HTML无法更新, 将不获取"
-                )
+                time_print(f"{youtube_value}|{videoid} HTML无法更新, 将不获取")
                 if videoid in idlist:
                     idlist.remove(videoid)  # 安全地移除视频 ID，避免 `ValueError`
                 del item[videoid]  # 删除对应的字典项
         else:
-            print(
-                f"{datetime.now().strftime('%H:%M:%S')}|{youtube_value} HTML有失败只更新部分"
-            )
+            time_print(f"{youtube_value} HTML有失败只更新部分")
             index = len(idlist)
             for videoid in fail:
                 if videoid in idlist:

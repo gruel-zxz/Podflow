@@ -2,9 +2,9 @@
 # coding: utf-8
 
 import threading
-from datetime import datetime
 from podflow import gVar
 from podflow.basic.write_log import write_log
+from podflow.basic.time_print import time_print
 from podflow.message.media_format import media_format
 
 
@@ -74,9 +74,7 @@ def makeup_format(video_id, makeup_format_lock):
 def make_up_file_format_mod():
     # 判断是否补全
     if len(gVar.make_up_file_format) != 0:
-        print(
-            f"{datetime.now().strftime('%H:%M:%S')}|补全缺失媒体 \033[34m下载准备中...\033[0m"
-        )
+        time_print("补全缺失媒体 \033[34m下载准备中...\033[0m")
     # 创建线程锁
     makeup_format_lock = threading.Lock()
     # 创建线程列表

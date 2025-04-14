@@ -4,7 +4,7 @@
 import time
 import threading
 import contextlib
-from datetime import datetime
+from podflow.basic.time_print import time_print
 from podflow.basic.http_client import http_client
 
 
@@ -57,5 +57,5 @@ def time_stamp():
     thread3.join()
     if time_stamps:
         return int(sum(time_stamps) / len(time_stamps))
-    print(f"{datetime.now().strftime('%H:%M:%S')}|\033[31m获取时间戳api失败\033[0m")
+    time_print("\033[31m获取时间戳api失败\033[0m")
     return round(time.time() * 1000)

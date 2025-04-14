@@ -79,7 +79,7 @@ def connect_upload_server():
             if servers:
                 break
             current_port += 1
-        print("")
+        time_print("", Time=False)
         if not servers:
             time_print("找不到上传服务器", True)
         else:

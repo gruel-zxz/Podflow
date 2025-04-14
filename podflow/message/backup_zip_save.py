@@ -5,6 +5,7 @@ import zipfile
 from datetime import datetime
 from podflow import gVar
 from podflow.basic.write_log import write_log
+from podflow.basic.time_print import time_print
 from podflow.message.rss_create_hash import rss_create_hash
 
 
@@ -42,4 +43,7 @@ def backup_zip_save(file_content):
                 judging_save = True
             else:
                 # 如果文件已存在, 输出提示信息
-                print(f"{file_name_str}已存在于压缩包中, 重试中...")
+                time_print(
+                    f"{file_name_str}已存在于压缩包中, 重试中...",
+                    Time=False,
+                )

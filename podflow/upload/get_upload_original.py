@@ -3,12 +3,12 @@
 
 import re
 import json
-from datetime import datetime
 from collections import Counter
 from email.utils import parsedate_tz, mktime_tz
 from podflow import gVar
 from podflow.basic.file_save import file_save
 from podflow.basic.write_log import write_log
+from podflow.basic.time_print import time_print
 from podflow.message.get_media_name import get_media_name
 
 
@@ -41,9 +41,7 @@ def get_upload():
         }
         # 如果两个计数字典不相等，提示错误
         if age_counts != xmls_original_counts:
-            print(
-                f"{datetime.now().strftime('%H:%M:%S')}|无法获取完整原始上传信息"
-            )
+            time_print("无法获取完整原始上传信息")
     # 如果 upload_original 为空
     else:
         # 遍历 xmls_original 的每个键值对
