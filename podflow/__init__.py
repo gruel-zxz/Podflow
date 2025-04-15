@@ -107,6 +107,7 @@ class Application_gVar:
         self.hash_rss_original = ""  # 原始rss哈希值文本
         self.xmls_original = {}  # 原始xml信息字典
         self.xmls_original_fail = []  # 未获取原始xml频道列表
+        self.xmls_quantity = {}  # xml数量字典
         self.youtube_xml_get_tree = {}  # YouTube频道简介和图标字典
         self.all_youtube_content_ytid = {}  # 所有YouTube视频id字典
         self.all_bilibili_content_bvid = {}  # 所有哔哩哔哩视频id字典
@@ -119,7 +120,7 @@ class Application_gVar:
         self.upload_data = {}  # 上传用户账号密码字典
 
         self.shortcuts_url = {}  # 输出至shortcut的url字典
-        
+
         self.index_message = {  # 图形界面显示信息字典
             "podflow": [],  # 主窗口信息列表
             "http": [],  # httpfs窗口信息列表

@@ -190,6 +190,8 @@ def youtube_rss_update(
     pattern_youtube_varys,
     pattern_youtube404,
     pattern_youtube_error,
+    ratio_thread,
+    rss_update_lock,
 ):
     channelid_youtube = gVar.channelid_youtube
     channelid_youtube_rss = gVar.channelid_youtube_rss
@@ -316,6 +318,7 @@ def youtube_rss_update(
                 "update_size"
             ]  # 限制视频ID数量
         ]
+    gVar.xmls_quantity[youtube_key]["update"] = len(youtube_content_ytid)
     youtube_content_new = list_merge_tidy(youtube_content_ytid, guids)  # 合并并去重
     if youtube_content_ytid := [
         exclude
@@ -328,6 +331,7 @@ def youtube_rss_update(
             youtube_content_ytid  # 保存更新的视频ID
         )
     # 向后更新
+    youtube_content_ytid_backward = []
     if channelid_youtube[youtube_value]["BackwardUpdate"] and guids:
         # 计算向后更新的数量
         backward_update_size = channelid_youtube[youtube_value]["last_size"] - len(
@@ -360,7 +364,6 @@ def youtube_rss_update(
                 channelid_youtube_rss[youtube_key].update(
                     {"backward": youtube_html_backward_playlists}
                 )  # 添加向后更新内容
-                youtube_content_ytid_backward = []
                 youtube_content_ytid_backward.extend(
                     guid
                     for guid in backward_list
@@ -370,3 +373,10 @@ def youtube_rss_update(
                     gVar.youtube_content_ytid_backward_update[youtube_key] = (
                         youtube_content_ytid_backward  # 保存向后更新的ID
                     )
+    gVar.xmls_quantity[youtube_key]["backward"] = len(youtube_content_ytid_backward)
+    # 更新进度条
+    with rss_update_lock:
+        ratio = gVar.index_message["schedule"][1] + ratio_thread
+        if ratio > 0.09:
+            ratio = 0.09
+        gVar.index_message["schedule"][1] = ratio

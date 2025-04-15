@@ -29,6 +29,7 @@ from podflow.download_and_build import download_and_build
 from podflow.message.save_rss import save_rss
 from podflow.message.get_original_rss import get_original_rss
 from podflow.message.get_video_format import get_video_format
+from podflow.message.optimize_download import optimize_download
 from podflow.message.original_rss_fail_print import original_rss_fail_print
 from podflow.message.update_information_display import update_information_display
 from podflow.message.update_youtube_bilibili_rss import update_youtube_bilibili_rss
@@ -122,15 +123,18 @@ def main_podcast():
         # 恢复进程打印
         bottle_app_instance.cherry_print()
         # 获取原始xml字典和rss文本
-        gVar.xmls_original, gVar.hash_rss_original, gVar.xmls_original_fail = (
-            get_original_rss()
-        )
-        gVar.index_message["schedule"][1] = 0.03 + random.uniform(0, 0.0049)
+        (
+            gVar.xmls_original,
+            gVar.hash_rss_original,
+            gVar.xmls_original_fail,
+            gVar.xmls_quantity,
+        ) = get_original_rss()
+        gVar.index_message["schedule"][1] = 0.025 + random.uniform(0, 0.0024)
         # 暂停进程打印
         gVar.server_process_print_flag[0] = "pause"
         # 连接上传服务器
         upload_url = connect_upload_server()
-        gVar.index_message["schedule"][1] = 0.04 + random.uniform(0, 0.0049)
+        gVar.index_message["schedule"][1] = 0.03 + random.uniform(0, 0.0024)
         # 恢复进程打印
         bottle_app_instance.cherry_print()
         # 登陆上传服务器
@@ -140,10 +144,10 @@ def main_podcast():
                 gVar.config["upload"] = False
         else:
             gVar.config["upload"] = False
-        gVar.index_message["schedule"][1] = 0.045 + random.uniform(0, 0.0024)
+        gVar.index_message["schedule"][1] = 0.035 + random.uniform(0, 0.0024)
         # 初始化原始上传信息
         get_upload_original()
-        gVar.index_message["schedule"][1] = 0.05
+        gVar.index_message["schedule"][1] = 0.04
         # 更新Youtube和哔哩哔哩频道xml
         update_youtube_bilibili_rss()
         gVar.index_message["schedule"][1] = 0.1
@@ -175,6 +179,8 @@ def main_podcast():
             gVar.index_message["schedule"][1] = 0.199
             # 恢复进程打印
             bottle_app_instance.cherry_print()
+            # 优化下载顺序
+            optimize_download()
             # 删除中断下载的媒体文件
             if gVar.config["delete_incompletement"]:
                 delete_part(gVar.channelid_youtube_ids | gVar.channelid_bilibili_ids)
@@ -251,6 +257,7 @@ def main_podcast():
         gVar.hash_rss_original = ""  # 原始rss哈希值文本
         gVar.xmls_original.clear()  # 原始xml信息字典
         gVar.xmls_original_fail.clear()  # 未获取原始xml频道列表
+        gVar.xmls_quantity.clear()  # xml数量字典
         gVar.youtube_xml_get_tree.clear()  # YouTube频道简介和图标字典
         gVar.all_youtube_content_ytid.clear()  # 所有YouTube视频id字典
         gVar.all_bilibili_content_bvid.clear()  # 所有哔哩哔哩视频id字典
@@ -263,10 +270,11 @@ def main_podcast():
         if parse.update_num != -1:
             parse.update_num -= 1
         if parse.argument == "a-shell":
+            shortcuts_input = urllib.parse.quote(json.dumps(gVar.shortcuts_url))
             openserver_process = subprocess.Popen(
                 [
                     "open",
-                    f"shortcuts://run-shortcut?name=Podflow&input=text&text={urllib.parse.quote(json.dumps(gVar.shortcuts_url))}",
+                    f"shortcuts://run-shortcut?name=Podflow&input=text&text={shortcuts_input}",
                 ]
             )
             # 延时
@@ -281,3 +289,6 @@ def main_podcast():
     # 关闭CherryPy服务器
     time_print("Podflow运行结束")
     cherrypy.engine.exit()
+
+    from podflow.basic.file_save import file_save
+    file_save(gVar.video_id_update_format,"video_id_update_format.json")

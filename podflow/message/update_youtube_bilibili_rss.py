@@ -13,6 +13,14 @@ from podflow.bilibili.get import bilibili_rss_update
 
 # 更新Youtube和哔哩哔哩频道xml多线程模块
 def update_youtube_bilibili_rss():
+    if gVar.channelid_youtube_ids or gVar.channelid_bilibili_ids:
+        channelid_quantity = len(gVar.channelid_youtube_ids) + len(gVar.channelid_bilibili_ids)
+        ratio_part = 0.01 / channelid_quantity
+        ratio_thread = 0.05 / channelid_quantity
+    else:
+        ratio_part = 0
+        ratio_thread = 0
+
     pattern_youtube404 = r"Error 404 \(Not Found\)"  # 设置要匹配的正则表达式模式
     pattern_youtube_error = {
         "This channel was removed because it violated our Community Guidelines.": "违反社区准则",
@@ -26,6 +34,7 @@ def update_youtube_bilibili_rss():
         r"<yt:channelId>(UC)?(.{22})?</yt:channelId>",
     ]
     youtube_bilibili_rss_update_threads = []  # 创建线程列表
+    rss_update_lock = threading.Lock()
     # Youtube多线程
     for youtube_key, youtube_value in gVar.channelid_youtube_ids.items():
         thread = threading.Thread(
@@ -36,6 +45,8 @@ def update_youtube_bilibili_rss():
                 pattern_youtube_varys,
                 pattern_youtube404,
                 pattern_youtube_error,
+                ratio_thread,
+                rss_update_lock,
             ),
         )
         youtube_bilibili_rss_update_threads.append(thread)
@@ -44,7 +55,13 @@ def update_youtube_bilibili_rss():
     # 哔哩哔哩多线程
     for bilibili_key, bilibili_value in gVar.channelid_bilibili_ids.items():
         thread = threading.Thread(
-            target=bilibili_rss_update, args=(bilibili_key, bilibili_value)
+            target=bilibili_rss_update,
+            args=(
+                bilibili_key,
+                bilibili_value,
+                ratio_thread,
+                rss_update_lock,
+            ),
         )
         youtube_bilibili_rss_update_threads.append(thread)
         # 开始多线程
@@ -61,12 +78,6 @@ def update_youtube_bilibili_rss():
         ) in pattern_youtube_error.items():
             if pattern_youtube_error_key in youtube_content:
                 return pattern_youtube_error_value
-    if gVar.channelid_youtube_ids or gVar.channelid_bilibili_ids:
-        ratio_part = 0.05 / (
-            len(gVar.channelid_youtube_ids) + len(gVar.channelid_bilibili_ids)
-        )
-    else:
-        ratio_part = 0
 
     # 更新Youtube频道
     for youtube_key, youtube_value in gVar.channelid_youtube_ids.copy().items():

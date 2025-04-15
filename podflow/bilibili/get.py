@@ -318,7 +318,13 @@ def bilibili_json_update(bilibili_key, bilibili_value):
 
 
 # 更新哔哩哔哩频道xml模块
-def bilibili_rss_update(bilibili_key, bilibili_value):
+def bilibili_rss_update(
+    bilibili_key,
+    bilibili_value,
+    ratio_thread,
+    rss_update_lock,
+):
+    bilibili_content_bvid_backward = []  # 初始化向后更新的内容列表
     # 获取已下载文件列表
     bilibili_content_bvid_original = get_file_list(
         bilibili_key, gVar.channelid_bilibili[bilibili_value]["media"]
@@ -352,11 +358,13 @@ def bilibili_rss_update(bilibili_key, bilibili_value):
             "content": bilibili_space,
             "type": "int",
         }  # 设置为整型内容
+        gVar.xmls_quantity[bilibili_key]["update"] = 0
     elif bilibili_space is None:
         gVar.channelid_bilibili_rss[bilibili_key] = {
             "content": bilibili_space_original,
             "type": "json",
         }  # 使用原始json内容
+        gVar.xmls_quantity[bilibili_key]["update"] = 0
     else:
         gVar.channelid_bilibili_rss[bilibili_key] = {
             "content": bilibili_space,
@@ -369,6 +377,7 @@ def bilibili_rss_update(bilibili_key, bilibili_value):
         bilibili_content_bvid = bilibili_space["list"][
             : gVar.channelid_bilibili[bilibili_value]["update_size"]
         ]
+        gVar.xmls_quantity[bilibili_key]["update"] = len(bilibili_content_bvid)
         bilibili_space_new = list_merge_tidy(
             bilibili_content_bvid, guids
         )  # 合并新内容和原内容
@@ -463,7 +472,6 @@ def bilibili_rss_update(bilibili_key, bilibili_value):
                         gVar.channelid_bilibili_ids_update[bilibili_key] = (
                             bilibili_value  # 标记ID更新
                         )
-                        bilibili_content_bvid_backward = []  # 初始化向后更新的内容列表
                         for guid in backward_list:
                             if (
                                 guid not in bilibili_content_bvid_original
@@ -475,3 +483,10 @@ def bilibili_rss_update(bilibili_key, bilibili_value):
                             gVar.bilibili_content_bvid_backward_update[bilibili_key] = (
                                 bilibili_content_bvid_backward  # 更新最终的向后更新内容
                             )
+    gVar.xmls_quantity[bilibili_key]["backward"] = len(bilibili_content_bvid_backward)
+    # 更新进度条
+    with rss_update_lock:
+        ratio = gVar.index_message["schedule"][1] + ratio_thread
+        if ratio > 0.09:
+            ratio = 0.09
+        gVar.index_message["schedule"][1] = ratio

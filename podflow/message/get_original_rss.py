@@ -30,6 +30,7 @@ def rss_create_hash(data):
 # 获取原始xml模块
 def get_original_rss():
     xmls_original_fail = []
+    xmls_quantity = {}
     # 获取原始总xml文件
     try:
         with open(
@@ -57,11 +58,25 @@ def get_original_rss():
                     f"channel_rss/{channelid_key}.xml", "r", encoding="utf-8"
                 ) as file:  # 打开文件进行读取
                     youtube_rss_original = file.read()  # 读取文件内容
-                    get_xmls_original[channelid_key] = youtube_rss_original.split(
+                    get_xmls_original_key = youtube_rss_original.split(
                         f"<!-- {{{channelid_key}}} -->\n"
                     )[1]
+                    get_xmls_original[channelid_key] = get_xmls_original_key
+                    xmls_quantity[channelid_key] = {
+                        "original": len(
+                            get_xmls_original_key.split(f"<!-- {channelid_key} -->")
+                        )
+                    }
             except FileNotFoundError:  # 文件不存在直接更新
                 xmls_original_fail.append(channelid_key)
+                xmls_quantity[channelid_key] = {"original": 0}
+        else:
+            xmls_quantity[channelid_key] = {
+                "original": len(
+                    get_xmls_original[channelid_key].split(f"<!-- {channelid_key} -->")
+                )
+            }
     # 生成原始rss的哈希值
     hash_rss_original = rss_create_hash(rss_original)
-    return get_xmls_original, hash_rss_original, xmls_original_fail
+
+    return get_xmls_original, hash_rss_original, xmls_original_fail, xmls_quantity
