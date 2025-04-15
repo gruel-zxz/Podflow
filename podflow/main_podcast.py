@@ -289,6 +289,3 @@ def main_podcast():
     # 关闭CherryPy服务器
     time_print("Podflow运行结束")
     cherrypy.engine.exit()
-
-    from podflow.basic.file_save import file_save
-    file_save(gVar.video_id_update_format,"video_id_update_format.json")
