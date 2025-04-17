@@ -3,6 +3,7 @@
 
 import os
 from podflow import gVar
+from podflow.httpfs.progress_bar import progress_bar
 
 
 # 补全缺失媒体文件到字典模块
@@ -36,8 +37,7 @@ def make_up_file():
                 video_id_format["quality"] = video_quality
                 gVar.make_up_file_format[main] = video_id_format
             # 更新进度条
-            ratio = gVar.index_message["schedule"][1] + ratio_part
-            gVar.index_message["schedule"][1] = ratio
+            progress_bar(ratio_part, 0.85)
 
     for output_dir, name in channelid_bilibili_ids.items():
         bilibili_os_list = os.listdir(f"channel_audiovisual/{output_dir}")
@@ -61,7 +61,4 @@ def make_up_file():
                     video_id_format["quality"] = video_quality
                     gVar.make_up_file_format[main] = video_id_format
             # 更新进度条
-            ratio = gVar.index_message["schedule"][1] + ratio_part
-            if ratio > 0.85:
-                ratio = 0.85
-            gVar.index_message["schedule"][1] = ratio
+            progress_bar(ratio_part, 0.85)

@@ -8,6 +8,7 @@ from datetime import datetime
 from podflow import gVar
 from podflow.upload.time_key import time_key
 from podflow.basic.time_print import time_print
+from podflow.httpfs.progress_bar import progress_update
 
 
 BROADCAST_PORT = 37001
@@ -75,6 +76,7 @@ def connect_upload_server():
             time_print(" " * terminal_width, True, True, False)
             # 打印尝试广播端口
             time_print(f"{time_text}尝试广播端口{current_port}...", True, True, False)
+            progress_update(0.0005, added=True)
             servers = discover_server(current_port, TIMEOUT)
             if servers:
                 break

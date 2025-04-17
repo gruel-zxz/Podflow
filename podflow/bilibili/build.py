@@ -6,11 +6,10 @@ import html
 import contextlib
 from datetime import datetime, timezone
 from podflow import gVar
-from podflow.message.xml_rss import xml_rss
-from podflow.basic.file_save import file_save
 from podflow.message.xml_item import xml_item
 from podflow.bilibili.get import get_bilibili_cid
 from podflow.message.format_time import format_time
+from podflow.httpfs.progress_bar import progress_bar
 from podflow.basic.get_file_list import get_file_list
 from podflow.message.xml_original_item import xml_original_item
 
@@ -23,6 +22,7 @@ def get_items_list(
     items_counts,
     output_dir,
     items_list,
+    ratio_part,
 ):
     pubDate = datetime.fromtimestamp(item["created"], timezone.utc).strftime(
         "%Y-%m-%dT%H:%M:%S%z"
@@ -63,6 +63,7 @@ def get_items_list(
                     title_change,
                 )
                 items_list.append(f"{xml_item_text}<!-- {output_dir} -->")
+                progress_bar(ratio_part[0], ratio_part[1])
         elif guid_edgeinfos and items_counts[guid] == len(guid_edgeinfos):
             cid_edgeinfos = {
                 guid_edgeinfo["cid"]: guid_edgeinfo["title"]
@@ -100,6 +101,7 @@ def get_items_list(
                     title_change,
                 )
                 items_list.append(f"{xml_item_text}<!-- {output_dir} -->")
+                progress_bar(ratio_part[0], ratio_part[1])
     else:
         xml_item_text = xml_item(
             item["bvid"],
@@ -113,10 +115,11 @@ def get_items_list(
             title_change,
         )
         items_list.append(f"{xml_item_text}<!-- {output_dir} -->")
+        progress_bar(ratio_part[0], ratio_part[1])
 
 
 # 生成哔哩哔哩对应channel的需更新的items模块
-def bilibili_xml_items(output_dir):
+def bilibili_xml_items(output_dir, ratio_part):
     channelid_bilibili_value = gVar.channelid_bilibili[
         gVar.channelid_bilibili_ids[output_dir]
     ]
@@ -141,6 +144,7 @@ def bilibili_xml_items(output_dir):
                 items_counts,
                 output_dir,
                 items_list,
+                ratio_part,
             )
             if item["description"] and item["description"][0] == "『":
                 original_judgment = False
@@ -162,6 +166,7 @@ def bilibili_xml_items(output_dir):
                 items_list.append(
                     f"{xml_original_item(xml, channelid_title, original_judgment, title_change)}<!-- {output_dir} -->"
                 )
+                progress_bar(ratio_part[0], ratio_part[1])
                 xml_num += 1
             if xml_num >= entry_count:
                 break
@@ -182,6 +187,7 @@ def bilibili_xml_items(output_dir):
                     items_counts,
                     output_dir,
                     items_list,
+                    ratio_part,
                 )
     # 生成对应xml
     description = html.escape(output_dir_value["content"]["sign"])

@@ -3,6 +3,7 @@
 
 from podflow import gVar
 from podflow.basic.write_log import write_log
+from podflow.httpfs.progress_bar import progress_bar
 from podflow.message.media_format import media_format
 
 
@@ -107,7 +108,4 @@ def get_youtube_and_bilibili_video_format(
             del gVar.video_id_update_format[id_num]
     with ratio_part_lock:
         # 主进度条更新
-        ratio = gVar.index_message["schedule"][1] + ratio_part
-        if ratio > 0.199:
-            ratio = 0.199
-        gVar.index_message["schedule"][1] = ratio
+        progress_bar(ratio_part, 0.199)

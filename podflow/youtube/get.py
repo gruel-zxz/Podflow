@@ -9,6 +9,7 @@ from podflow import gVar
 from podflow.basic.time_print import time_print
 from podflow.basic.http_client import http_client
 from podflow.basic.vary_replace import vary_replace
+from podflow.httpfs.progress_bar import progress_bar
 from podflow.basic.get_html_dict import get_html_dict
 from podflow.basic.list_merge_tidy import list_merge_tidy
 
@@ -67,7 +68,9 @@ def get_youtube_html_playlists(
             ]  # 获取发布时间
             item[videoid]["image"] = player_Microformat_Renderer["thumbnail"][
                 "thumbnails"
-            ][0]["url"]  # 获取封面图
+            ][0][
+                "url"
+            ]  # 获取封面图
             with contextlib.suppress(KeyError, TypeError, IndexError, ValueError):
                 fail.remove(videoid)  # 若成功获取，则从失败列表中移除
         else:
@@ -196,6 +199,8 @@ def youtube_rss_update(
     channelid_youtube = gVar.channelid_youtube
     channelid_youtube_rss = gVar.channelid_youtube_rss
     channelid_youtube_ids_update = gVar.channelid_youtube_ids_update
+    youtube_content_ytid_backward = []
+    last_size = channelid_youtube[youtube_value]["last_size"]
     # 获取已下载媒体名称
     youtube_media = (
         ("m4a", "mp4")  # 根据 channelid_youtube 的媒体类型选择文件格式
@@ -314,11 +319,8 @@ def youtube_rss_update(
         except TypeError:
             youtube_content_ytid = []  # 处理类型错误
         youtube_content_ytid = youtube_content_ytid[
-            : channelid_youtube[youtube_value][
-                "update_size"
-            ]  # 限制视频ID数量
+            : channelid_youtube[youtube_value]["update_size"]  # 限制视频ID数量
         ]
-    gVar.xmls_quantity[youtube_key]["update"] = len(youtube_content_ytid)
     youtube_content_new = list_merge_tidy(youtube_content_ytid, guids)  # 合并并去重
     if youtube_content_ytid := [
         exclude
@@ -331,12 +333,9 @@ def youtube_rss_update(
             youtube_content_ytid  # 保存更新的视频ID
         )
     # 向后更新
-    youtube_content_ytid_backward = []
     if channelid_youtube[youtube_value]["BackwardUpdate"] and guids:
         # 计算向后更新的数量
-        backward_update_size = channelid_youtube[youtube_value]["last_size"] - len(
-            youtube_content_new
-        )
+        backward_update_size = last_size - len(youtube_content_new)
         if backward_update_size > 0:
             for _ in range(3):
                 # 获取历史播放列表
@@ -373,10 +372,9 @@ def youtube_rss_update(
                     gVar.youtube_content_ytid_backward_update[youtube_key] = (
                         youtube_content_ytid_backward  # 保存向后更新的ID
                     )
-    gVar.xmls_quantity[youtube_key]["backward"] = len(youtube_content_ytid_backward)
+    gVar.xmls_quantity[youtube_key] = min(last_size, len(youtube_content_new)) + len(
+        youtube_content_ytid_backward
+    )
     # 更新进度条
     with rss_update_lock:
-        ratio = gVar.index_message["schedule"][1] + ratio_thread
-        if ratio > 0.09:
-            ratio = 0.09
-        gVar.index_message["schedule"][1] = ratio
+        progress_bar(ratio_thread, 0.09)

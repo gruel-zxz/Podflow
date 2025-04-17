@@ -9,6 +9,7 @@ from podflow.basic.write_log import write_log
 from podflow.youtube.get import youtube_rss_update
 from podflow.basic.folder_build import folder_build
 from podflow.bilibili.get import bilibili_rss_update
+from podflow.httpfs.progress_bar import progress_bar
 
 
 # 更新Youtube和哔哩哔哩频道xml多线程模块
@@ -115,8 +116,7 @@ def update_youtube_bilibili_rss():
                 del gVar.channelid_youtube_ids[youtube_key]
             write_log(f"YouTube频道 {youtube_value} 无法更新")
         # 更新进度条
-        ratio = gVar.index_message["schedule"][1] + ratio_part
-        gVar.index_message["schedule"][1] = ratio
+        progress_bar(ratio_part, 0.1)
 
     # 更新哔哩哔哩频道
     for bilibili_key, bilibili_value in gVar.channelid_bilibili_ids.copy().items():
@@ -136,7 +136,4 @@ def update_youtube_bilibili_rss():
             # 构建频道文件夹
             folder_build(bilibili_key, "channel_audiovisual")
         # 更新进度条
-        ratio = gVar.index_message["schedule"][1] + ratio_part
-        if ratio > 0.1:
-            ratio = 0.1
-        gVar.index_message["schedule"][1] = ratio
+        progress_bar(ratio_part, 0.1)

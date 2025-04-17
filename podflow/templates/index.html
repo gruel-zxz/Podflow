@@ -176,6 +176,10 @@
     }
     .button-container {
       margin-top: 10px;
+      display: flex;
+      justify-content: center; /* 水平居中 */
+      flex-wrap: wrap; /* 换行 */
+      gap: 10px; /* 按钮间距 */
     }
     button {
       background-color: var(--button-bg);
@@ -564,7 +568,7 @@
       // 启动消息轮询
       function startMessagePolling() {
         getMessages();
-        pollingTimer = setInterval(getMessages, 500);
+        pollingTimer = setInterval(getMessages, 250);
       }
     
       // 停止消息轮询

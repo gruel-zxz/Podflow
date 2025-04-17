@@ -12,6 +12,7 @@ from hashlib import md5
 from functools import reduce
 from podflow import gVar
 from podflow.basic.http_client import http_client
+from podflow.httpfs.progress_bar import progress_bar
 from podflow.basic.get_file_list import get_file_list
 from podflow.basic.list_merge_tidy import list_merge_tidy
 
@@ -19,10 +20,70 @@ from podflow.basic.list_merge_tidy import list_merge_tidy
 # WBI签名模块
 def WBI_signature(params={}, img_key="", sub_key=""):
     mixinKeyEncTab = [
-        46, 47, 18, 2, 53, 8, 23, 32, 15, 50, 10, 31, 58, 3, 45, 35, 27, 43, 5, 49,
-        33, 9, 42, 19, 29, 28, 14, 39, 12, 38, 41, 13, 37, 48, 7, 16, 24, 55, 40,
-        61, 26, 17, 0, 1, 60, 51, 30, 4, 22, 25, 54, 21, 56, 59, 6, 63, 57, 62, 11,
-        36, 20, 34, 44, 52,
+        46,
+        47,
+        18,
+        2,
+        53,
+        8,
+        23,
+        32,
+        15,
+        50,
+        10,
+        31,
+        58,
+        3,
+        45,
+        35,
+        27,
+        43,
+        5,
+        49,
+        33,
+        9,
+        42,
+        19,
+        29,
+        28,
+        14,
+        39,
+        12,
+        38,
+        41,
+        13,
+        37,
+        48,
+        7,
+        16,
+        24,
+        55,
+        40,
+        61,
+        26,
+        17,
+        0,
+        1,
+        60,
+        51,
+        30,
+        4,
+        22,
+        25,
+        54,
+        21,
+        56,
+        59,
+        6,
+        63,
+        57,
+        62,
+        11,
+        36,
+        20,
+        34,
+        44,
+        52,
     ]
 
     def getMixinKey(orig: str):
@@ -302,7 +363,9 @@ def bilibili_json_update(bilibili_key, bilibili_value):
         else:
             return bilibili_card_json["code"]
     # 查询哔哩哔哩用户投稿视频明细
-    for num in range(math.ceil(gVar.channelid_bilibili[bilibili_value]["update_size"] / 25)):
+    for num in range(
+        math.ceil(gVar.channelid_bilibili[bilibili_value]["update_size"] / 25)
+    ):
         num += 1
         bilibili_entry, bilibili_list = get_bilibili_vlist(
             bilibili_key,
@@ -325,6 +388,7 @@ def bilibili_rss_update(
     rss_update_lock,
 ):
     bilibili_content_bvid_backward = []  # 初始化向后更新的内容列表
+    last_size = gVar.channelid_bilibili[bilibili_value]["last_size"]
     # 获取已下载文件列表
     bilibili_content_bvid_original = get_file_list(
         bilibili_key, gVar.channelid_bilibili[bilibili_value]["media"]
@@ -358,13 +422,13 @@ def bilibili_rss_update(
             "content": bilibili_space,
             "type": "int",
         }  # 设置为整型内容
-        gVar.xmls_quantity[bilibili_key]["update"] = 0
+        bilibili_space_new = guids
     elif bilibili_space is None:
         gVar.channelid_bilibili_rss[bilibili_key] = {
             "content": bilibili_space_original,
             "type": "json",
         }  # 使用原始json内容
-        gVar.xmls_quantity[bilibili_key]["update"] = 0
+        bilibili_space_new = guids
     else:
         gVar.channelid_bilibili_rss[bilibili_key] = {
             "content": bilibili_space,
@@ -377,7 +441,6 @@ def bilibili_rss_update(
         bilibili_content_bvid = bilibili_space["list"][
             : gVar.channelid_bilibili[bilibili_value]["update_size"]
         ]
-        gVar.xmls_quantity[bilibili_key]["update"] = len(bilibili_content_bvid)
         bilibili_space_new = list_merge_tidy(
             bilibili_content_bvid, guids
         )  # 合并新内容和原内容
@@ -387,7 +450,9 @@ def bilibili_rss_update(
             for exclude in bilibili_content_bvid
             if exclude not in bilibili_content_bvid_original  # 筛选新增的内容
         ]:
-            gVar.channelid_bilibili_ids_update[bilibili_key] = bilibili_value  # 需要更新ID
+            gVar.channelid_bilibili_ids_update[bilibili_key] = (
+                bilibili_value  # 需要更新ID
+            )
             gVar.bilibili_content_bvid_update[bilibili_key] = (
                 bilibili_content_bvid  # 更新新增内容
             )
@@ -395,9 +460,9 @@ def bilibili_rss_update(
         if (
             gVar.channelid_bilibili[bilibili_value]["BackwardUpdate"] and guids
         ):  # 如果设置了向后更新
-            backward_update_size = gVar.channelid_bilibili[bilibili_value][
-                "last_size"
-            ] - len(bilibili_space_new)  # 计算需要向后更新的数量
+            backward_update_size = last_size - len(
+                bilibili_space_new
+            )  # 计算需要向后更新的数量
             if backward_update_size > 0:
                 backward_update_size = min(
                     backward_update_size,
@@ -483,10 +548,9 @@ def bilibili_rss_update(
                             gVar.bilibili_content_bvid_backward_update[bilibili_key] = (
                                 bilibili_content_bvid_backward  # 更新最终的向后更新内容
                             )
-    gVar.xmls_quantity[bilibili_key]["backward"] = len(bilibili_content_bvid_backward)
+    gVar.xmls_quantity[bilibili_key] = min(last_size, len(bilibili_space_new)) + len(
+        bilibili_content_bvid_backward
+    )
     # 更新进度条
     with rss_update_lock:
-        ratio = gVar.index_message["schedule"][1] + ratio_thread
-        if ratio > 0.09:
-            ratio = 0.09
-        gVar.index_message["schedule"][1] = ratio
+        progress_bar(ratio_thread, 0.09)

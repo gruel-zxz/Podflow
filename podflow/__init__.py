@@ -125,7 +125,7 @@ class Application_gVar:
             "podflow": [],  # 主窗口信息列表
             "http": [],  # httpfs窗口信息列表
             "enter": True,  # 是否换行
-            "schedule": [],  # 进度条信息列表
+            "schedule": [0, "准备中"],  # 进度条信息列表
         }
 
 

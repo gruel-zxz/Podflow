@@ -12,6 +12,7 @@ from podflow.message.xml_item import xml_item
 from podflow.basic.time_print import time_print
 from podflow.basic.http_client import http_client
 from podflow.message.format_time import format_time
+from podflow.httpfs.progress_bar import progress_bar
 from podflow.basic.get_html_dict import get_html_dict
 from podflow.message.xml_original_item import xml_original_item
 
@@ -184,7 +185,7 @@ def get_xml_item(guid, item, channelid_title, title_change, output_dir):
 
 
 # 生成YouTube对应channel的需更新的items模块
-def youtube_xml_items(output_dir):
+def youtube_xml_items(output_dir, ratio_part):
     items_list = [f"<!-- {output_dir} -->"]
     entry_num = 0
     original_judgment = True
@@ -214,6 +215,7 @@ def youtube_xml_items(output_dir):
                     guid, item, channelid_title, title_change, output_dir
                 ):
                     items_list.append(f"{xml_item_text}<!-- {output_dir} -->")
+                    progress_bar(ratio_part[0], ratio_part[1])
                     if (
                         gVar.video_id_update_format[guid]["description"]
                         and gVar.video_id_update_format[guid]["description"][0] == "『"
@@ -233,6 +235,7 @@ def youtube_xml_items(output_dir):
                 items_list.append(
                     f"{youtube_xml_item(entry, title_change)}<!-- {output_dir} -->"
                 )
+                progress_bar(ratio_part[0], ratio_part[1])
                 if re.search(r"(?<=<media:description>)『", entry):
                     original_judgment = False
             entry_num += 1
@@ -253,6 +256,7 @@ def youtube_xml_items(output_dir):
                 items_list.append(
                     f"{xml_original_item(xml, channelid_title, original_judgment, title_change)}<!-- {output_dir} -->"
                 )
+                progress_bar(ratio_part[0], ratio_part[1])
                 xml_num += 1
             if xml_num >= entry_count:
                 break
@@ -270,6 +274,7 @@ def youtube_xml_items(output_dir):
                     output_dir,
                 ):
                     items_list.append(f"{backward_xml_item_text}<!-- {output_dir} -->")
+                    progress_bar(ratio_part[0], ratio_part[1])
     # 生成对应xml
     try:
         with open(

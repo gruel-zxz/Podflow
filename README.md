@@ -8,6 +8,8 @@
 
 YouTube的cookies需要使用chrome插件导出Netscape格式并保存到channel_data文件夹中
 
+图形界面请访问 `/index`
+
 PS:可能存在大量未知bug，改进中并尝试加入抖音……
 
 ### 安装方法

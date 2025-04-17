@@ -10,18 +10,10 @@ from podflow.basic.time_print import time_print
 def optimize_download():
     xmls_quantity = gVar.xmls_quantity
     video_id_update_format = gVar.video_id_update_format
-    channel_sums = {}
     sorted_video_id_update_format = {}
-    time_print("开始计算频道媒体数量")
-    # 计算每个频道的总和
-    for channel_id, values in xmls_quantity.items():
-        total = values["original"] + values["update"] + values["backward"]
-        channel_sums[channel_id] = total
-        gVar.xmls_quantity[channel_id]["total"] = total
-    time_print("开始对频道进行排序")
-    # 按总和从大到小排序
-    sorted_channels = sorted(channel_sums.items(), key=lambda x: x[1], reverse=True)
     time_print("开始优化下载顺序")
+    # 按总和从大到小排序
+    sorted_channels = sorted(xmls_quantity.items(), key=lambda x: x[1], reverse=True)
     # 根据总和排序数据
     for channel_id, _ in sorted_channels:
         for key, value in video_id_update_format.items():
