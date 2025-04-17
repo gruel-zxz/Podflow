@@ -148,9 +148,6 @@
       width: 100%;
       max-width: 520px;
       padding: 2px;
-      border: 1px solid var(--input-border);
-      border-radius: 4px;
-      background-color: var(--input-bg);
       color: var(--text-color);
       transition: background-color 0.3s, color 0.3s, border-color 0.3s;
       box-sizing: border-box;
@@ -163,16 +160,33 @@
       white-space: pre-wrap; /* 保留换行并允许自动换行 */
     }
     textarea {
-      height: 350px;
+      height: 250px;
       font-size: 16px;
+      border: 1px solid var(--input-border);
+      border-radius: 4px;
+      background-color: var(--input-bg);
+    }
+    #messageDownload {
+      max-height: 200px;
+      height: auto;  
+      font-size: 12px;
+      border: 0px;
+      border-radius: 4px;
+      background-color: var(--bg-color);
     }
     #messageArea {
-      height: 350px;
+      height: 200px;
       font-size: 12px;
+      border: 1px solid var(--input-border);
+      border-radius: 4px;
+      background-color: var(--input-bg);
     }
     #messageHttp {
-      height: 150px;
+      height: 100px;
       font-size: 12px;
+      border: 1px solid var(--input-border);
+      border-radius: 4px;
+      background-color: var(--input-bg);
     }
     .button-container {
       margin-top: 10px;
@@ -357,6 +371,8 @@
           <div class="status-text" id="progressStatus">准备中</div>
           <div class="percentage-text" id="progressPercentage">0.00%</div>
         </div>
+        <label id="downloadLabel">下载进度：</label>
+        <div class="common-area" id="messageDownload"></div>
         <label>构建服务：</label><br>
         <div class="common-area" id="messageArea"></div>
         <label>收发服务：</label><br>
@@ -365,28 +381,7 @@
     </section>
   </main>
   <script>
-    (function() {    
-      // 生成单个二维码的函数
-      function generateQRCodeForNode(container) {
-        const rootStyles = getComputedStyle(document.documentElement);
-        const textColor = rootStyles.getPropertyValue('--text-color');
-        const inputBg = rootStyles.getPropertyValue('--input-bg');
-        const url = container.dataset.url;
-        container.innerHTML = '';
-        if (url) {
-          new QRCode(container, {
-            text: url,
-            width: 220,
-            height: 220,
-            colorDark: textColor,
-            colorLight: inputBg,
-            correctLevel: QRCode.CorrectLevel.L
-          });
-        } else {
-          container.textContent = 'URL 未提供';
-        }
-      }
-    
+    (function() {
       // 缓存常用节点
       const menu = document.getElementById('menu');
       const toggleMenuBtn = document.getElementById('toggleMenu');
@@ -405,9 +400,32 @@
       const progressPercentage = document.getElementById('progressPercentage');
       const messageArea = document.getElementById('messageArea');
       const messageHttp = document.getElementById('messageHttp');
+      const messageDownload = document.getElementById('messageDownload');
     
-      let lastMessage = { podflow: [], http: [], schedule: [] };
+      let lastMessage = { podflow: [], http: [], schedule: [], download: [] };
       let pollingTimer = null;
+      let userScrolled = false;
+      
+      // 生成单个二维码的函数
+      function generateQRCodeForNode(container) {
+        const rootStyles = getComputedStyle(document.documentElement);
+        const textColor = rootStyles.getPropertyValue('--text-color').trim();
+        const inputBg = rootStyles.getPropertyValue('--input-bg').trim();
+        const url = container.dataset.url;
+        container.innerHTML = '';
+        if (url) {
+          new QRCode(container, {
+            text: url,
+            width: 220,
+            height: 220,
+            colorDark: textColor,
+            colorLight: inputBg,
+            correctLevel: QRCode.CorrectLevel.L
+          });
+        } else {
+          container.textContent = 'URL 未提供';
+        }
+      }
     
       // 菜单切换函数
       function toggleMenu() {
@@ -430,14 +448,14 @@
           if (window.innerWidth <= 600 && !menu.classList.contains('hidden')) {
             toggleMenu();
           }
-          pageId === 'pageMessage' ? startMessagePolling() : stopMessagePolling();
+          if (pageId === 'pageMessage') {
+            startMessage();
+            updateDownloadLabelVisibility();
+          } else {
+            stopMessage();
+          }
         }
       }
-    
-      // 初始化默认页面
-      showPage('pageMessage');
-    
-      let userScrolled = false;
     
       // 监听滚动事件，检测用户是否手动滚动
       function onUserScroll(event) {
@@ -446,10 +464,7 @@
         const nearBottom = element.scrollHeight - element.scrollTop <= element.clientHeight + 10;
         userScrolled = !nearBottom;
       }
-    
-      messageArea.addEventListener('scroll', onUserScroll);
-      messageHttp.addEventListener('scroll', onUserScroll);
-    
+
       // 轮询消息更新，更新 messageArea 与 messageHttp
       function getMessages() {
         fetch('message')
@@ -565,21 +580,40 @@
         }
       }
     
+      // 判断是否隐藏下载进度
+      function updateDownloadLabelVisibility() {
+        const messageDownload = document.getElementById('messageDownload');
+        const downloadLabel = document.getElementById('downloadLabel');
+        if (messageDownload.textContent.trim() === '') {
+          // 没有内容，隐藏label
+          downloadLabel.style.display = 'none';
+        } else {
+          // 有内容，显示label
+          downloadLabel.style.display = '';
+        }
+      }
+
       // 启动消息轮询
-      function startMessagePolling() {
+      function startMessage() {
         getMessages();
         pollingTimer = setInterval(getMessages, 250);
       }
     
       // 停止消息轮询
-      function stopMessagePolling() {
+      function stopMessage() {
         if (pollingTimer !== null) {
           clearInterval(pollingTimer);
           pollingTimer = null;
         }
       }
     
-  //  startMessagePolling();
+      // 滚动事件监听器
+      messageArea.addEventListener('scroll', onUserScroll);
+      messageHttp.addEventListener('scroll', onUserScroll);
+      messageDownload.addEventListener('scroll', onUserScroll);
+
+      // 初始化默认页面
+      showPage('pageMessage');
     
       // 表单异步提交（获取 Channel-ID）
       inputForm && inputForm.addEventListener('submit', function(event) {
@@ -657,7 +691,7 @@
     
       // 菜单切换按钮事件绑定
       toggleMenuBtn.addEventListener('click', toggleMenu);
-    
+
       // 针对手机端，初始化时隐藏菜单
       if (window.innerWidth <= 600) {
         menu.classList.add('hidden');
@@ -665,6 +699,6 @@
         toggleMenuBtn.textContent = '❯';
       }
     })();
-    </script>    
+    </script>
 </body>
 </html>
