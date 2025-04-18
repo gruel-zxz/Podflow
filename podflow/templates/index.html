@@ -500,14 +500,14 @@
       }
 
       function createMessageElement(message) {
-        const p = document.createElement('p');
-        p.innerHTML = message;
-        p.className = 'message';
-        return p;
+        const div = document.createElement('div');
+        div.innerHTML = message;
+        div.className = 'message';
+        return div;
       }
-
-      function processQRCodeContainers(p) {
-        const qrContainers = p.querySelectorAll('.qrcode-container');
+      
+      function processQRCodeContainers(div) {
+        const qrContainers = div.querySelectorAll('.qrcode-container');
         qrContainers.forEach(container => {
           // 判断当前容器是否有 data-url 属性，并且值不为空
           if (container.dataset.url) {
@@ -519,7 +519,7 @@
           }
         });
       }
-    
+      
       // 修改后的 appendMessages 函数：先生成消息节点内的二维码，再将节点追加或替换到消息容器中
       function appendMessages(container, newMessages, oldMessages) {
         // 判断当前是否在底部
@@ -540,13 +540,13 @@
             const oldMessage = oldMessages[index];
             if (newMessage !== oldMessage) {
               // 先创建消息节点
-              const p = createMessageElement(newMessage);
+              const div = createMessageElement(newMessage);
               // 在插入前先处理二维码生成
-              processQRCodeContainers(p);
+              processQRCodeContainers(div);
               // 替换到容器中 - 注意这里要找到对应位置的子元素
               const childToReplace = container.children[index];
               if (childToReplace) {
-                container.replaceChild(p, childToReplace);
+                container.replaceChild(div, childToReplace);
               }
             }
           }
@@ -555,23 +555,23 @@
           // 如果 oldMessages 存在数据，先替换容器中最后一项对应的消息
           if (oldMessages.length > 0) {
             const replaceIndex = oldMessages.length - 1;
-            const p = createMessageElement(newMessages[replaceIndex]);
+            const div = createMessageElement(newMessages[replaceIndex]);
             // 先生成二维码
-            processQRCodeContainers(p);
+            processQRCodeContainers(div);
             const lastChild = container.lastElementChild;
             if (lastChild) {
-              container.replaceChild(p, lastChild);
+              container.replaceChild(div, lastChild);
             } else {
-              container.appendChild(p);
+              container.appendChild(div);
             }
           }
           // 再追加从 oldMessages.length 开始的后续消息
           newMessages.slice(oldMessages.length).forEach(msg => {
-            const p = createMessageElement(msg);
+            const div = createMessageElement(msg);
             // 先生成二维码
-            processQRCodeContainers(p);
+            processQRCodeContainers(div);
             // 插入容器中
-            container.appendChild(p);
+            container.appendChild(div);
           });
         }
         // 如果之前在底部且用户没有主动滚动，则自动滚动到底部
