@@ -147,14 +147,13 @@
     .common-area {
       width: 100%;
       max-width: 520px;
-      padding: 2px;
+      padding: 0 8px;
       color: var(--text-color);
       transition: background-color 0.3s, color 0.3s, border-color 0.3s;
       box-sizing: border-box;
       line-height: 1.1;
       overflow-x: auto; /* 当内容超出宽度时显示水平滚动条（可选） */
       overflow-y: auto;
-      font-family: 'Courier New', Courier, monospace; /* 添加字体 */
       word-break: break-word;
       overflow-wrap: break-word;
       white-space: pre-wrap; /* 保留换行并允许自动换行 */
@@ -165,11 +164,12 @@
       border: 1px solid var(--input-border);
       border-radius: 4px;
       background-color: var(--input-bg);
+      font-family: 'Courier New', Courier, monospace; /* 添加字体 */
     }
     #messageDownload {
-      max-height: 200px;
+      max-height: 180px;
+      max-width: 99%;
       height: auto;  
-      font-size: 12px;
       border: 0px;
       border-radius: 4px;
       background-color: var(--bg-color);
@@ -180,6 +180,7 @@
       border: 1px solid var(--input-border);
       border-radius: 4px;
       background-color: var(--input-bg);
+      font-family: 'Courier New', Courier, monospace; /* 添加字体 */
     }
     #messageHttp {
       height: 100px;
@@ -187,6 +188,7 @@
       border: 1px solid var(--input-border);
       border-radius: 4px;
       background-color: var(--input-bg);
+      font-family: 'Courier New', Courier, monospace; /* 添加字体 */
     }
     .button-container {
       margin-top: 10px;
@@ -267,17 +269,30 @@
       margin: 0px;
     }
 
+    .download-container {
+      background-color: var(--input-bg);
+      border-radius: 25px;
+      border: 4px solid var(--input-bg);
+      margin: 4px 0; /* 上下20px间距，左右0 */
+    }
+
     /* 主进度条样式 */
-    .progress-bar {
-      width: 100%;
+    #mainProgressBar {
       height: 22px;
+      font-weight: bold;
+      font-size: 16px;
+    }
+    .pb-bar {
+      max-width: 100%;
+      height: 17px;
       background-color: var(--background-bar-color); /* 考虑使用变量 */
       border-radius: 12px;
       overflow: hidden;
       position: relative;
       border: 1px solid var(--input-border);
+      font-size: 11px;
     }
-    .progress-bar .progress {
+    .pb-progress {
       height: 100%;
       background-color: var(--progress-bar-color);
       width: 0%; /* 根据实际进度更新 */
@@ -293,13 +308,13 @@
       background-position: 100% 0, 0 0; /* 脉冲初始在左侧 */
     }
     /* 脉冲动画效果 */
-    .progress-bar .progress.animated {
+    .pb-progress.pb-animated {
       /* 动画：名称 时长 缓动函数 延迟 次数 方向 填充模式 播放状态 */
-      animation: pulse-lr 4s linear infinite alternate; /* 添加 alternate */
+      animation: pb-pulse-lr 4s linear infinite alternate; /* 添加 alternate */
       /* 注意：你也可以调整时长，例如 2s 让单程更快 */
     }
     /* 关键帧动画 (保持 L-to-R 定义) */
-    @keyframes pulse-lr {
+    @keyframes pb-pulse-lr {
       0% {
         /* 脉冲背景的右边缘对齐容器右边缘 (高亮在左边缘) */
         background-position: 100% 0, 0 0;
@@ -309,25 +324,77 @@
         background-position: 0% 0, 0 0;
       }
     }
-    .progress-bar .status-text {
+    .pb-status-text {
       position: absolute;
       top: 50%;
-      left: 15px; /* 稍微调整左边距 */
+      left: 12px; /* 稍微调整左边距 */
       transform: translateY(-50%);
       color: var(--text-color); /* 使用文本颜色变量 */
-      font-weight: bold;
-      font-size: 14px;
       z-index: 2; /* 确保状态文本覆盖在进度条上 */
     }
-    .progress-bar .percentage-text {
+    .pb-percentage-text {
       position: absolute;
       top: 50%;
-      right: 15px; /* 稍微调整右边距 */
+      right: 12px; /* 稍微调整右边距 */
       transform: translateY(-50%);
       color: var(--text-color); /* 使用文本颜色变量 */
-      font-weight: bold;
-      font-size: 14px;
       z-index: 2; /* 确保百分比文本覆盖在进度条上 */
+    }
+
+    /* 文字滚动样式样式 */
+    .scroll {
+      display: flex;
+      width: 100%;
+      height: 14px;
+      gap: 20px;
+    }
+    .scroll-suffix {
+      font-size: 7px;
+      color: var(--text-color);
+      margin-left: auto;
+      flex-shrink: 0;
+      align-self: flex-end;
+    }
+    .scroll-container {
+      flex: 1; /* 自适应宽度 */
+      max-width: 300px; /* 限制最大宽度 */
+      font-size: 14px;
+      color: var(--text-color);
+      line-height: 14px;
+      overflow: hidden;
+    }
+    .scroll-content {
+      display: inline-flex;
+      white-space: nowrap;
+    }
+    .scroll-text {
+      padding-right: 20px;
+    }
+    /* 只有加了scrolling类才动画 */
+    .scroll-content.scrolling {
+      animation: marquee linear infinite;
+    }
+    @keyframes marquee {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-50%);
+      }
+    }
+    .speed-text {
+      font-size: 14px;
+      line-height: 14px;
+      padding-left: 12px; /* 向左偏移 10px */
+      flex-shrink: 0;
+    }
+    .time-text {
+      font-size: 14px;
+      line-height: 14px;
+      padding-right: 12px; /* 向右偏移 10px */
+      flex-shrink: 0;
+      margin-left: auto;
+      align-self: flex-end;
     }
   </style>
   <script src="https://cdn.jsdelivr.net/gh/davidshimjs/qrcodejs/qrcode.min.js"></script>
@@ -363,15 +430,14 @@
     <!-- 消息滚动显示页面 -->
     <section id="pageMessage">
       <h2>Podflow 运行情况</h2>
-      </div>
       <form>
-        <label>主进度条：</label>
-        <div class="progress-bar">
-          <div class="progress animated" id="mainProgress"></div>
-          <div class="status-text" id="progressStatus">准备中</div>
-          <div class="percentage-text" id="progressPercentage">0.00%</div>
+        <label>主进度条：</label><br>
+        <div class="pb-bar" id="mainProgressBar">
+          <div class="pb-progress pb-animated" id="mainProgress"></div>
+          <div class="pb-status-text" id="progressStatus">准备中</div>
+          <div class="pb-percentage-text" id="progressPercentage">0.00%</div>
         </div>
-        <label id="downloadLabel">下载进度：</label>
+        <label id="downloadLabel"></label><br>
         <div class="common-area" id="messageDownload"></div>
         <label>构建服务：</label><br>
         <div class="common-area" id="messageArea"></div>
@@ -450,7 +516,6 @@
           }
           if (pageId === 'pageMessage') {
             startMessage();
-            updateDownloadLabelVisibility();
           } else {
             stopMessage();
           }
@@ -476,12 +541,13 @@
               // 追加新消息
               appendMessages(messageArea, data.podflow, lastMessage.podflow);
               appendMessages(messageHttp, data.http, lastMessage.http);
+              appendBar(messageDownload, data.download, lastMessage.download);
               lastMessage = data;
             }
           })
           .catch(error => console.error('获取消息失败:', error));
       }
-
+      
       // 更新进度条并显示状态和百分比
       function updateProgress(scheduleData) {
         // 检查 schedule 数据是否存在且长度为 2
@@ -499,6 +565,97 @@
         }
       }
 
+      // 下载文件进度条
+      function addProgressBar(percentageText, time, speed, idname="", nameText="", file="") {
+        const download = document.createElement('div');
+        download.className = 'download-container';
+        const idnameText = document.createElement('div');
+        idnameText.className = 'scroll-text';
+        idnameText.innerHTML = '  ' + idname;
+        const fileInfo = document.createElement('div');
+        fileInfo.className = 'scroll';
+        const filesuffix = document.createElement('div');
+        filesuffix.className = 'scroll-suffix';
+        filesuffix.innerHTML = file;
+        const scroll = document.createElement('div');
+        scroll.className = 'scroll-container';
+        const namebar = document.createElement('div');
+        namebar.className = 'scroll-content';
+        const filename = document.createElement('div');
+        filename.className = 'scroll-text';
+        filename.innerHTML = nameText;
+        namebar.appendChild(filename);
+        scroll.appendChild(namebar);
+        fileInfo.appendChild(scroll);
+        fileInfo.appendChild(filesuffix);
+        download.appendChild(idnameText);
+        download.appendChild(fileInfo);
+        // 延迟测量文本宽度，决定是否滚动
+        setTimeout(() => {
+          const contentWidth = filename.scrollWidth;  // 单份文本宽度
+          const containerWidth = scroll.clientWidth;
+          if (contentWidth > containerWidth) {
+            // 需要滚动，添加第二份文本实现无缝滚动
+            const filename1 = document.createElement('div');
+            filename1.className = 'scroll-text';
+            filename1.innerHTML = nameText;
+            namebar.appendChild(filename1);
+            // 重新计算宽度，这次是双倍宽度中的单份宽度用于计算时间
+            const singleContentWidth = namebar.scrollWidth / 2;
+            // 动画时间，速度px/s
+            const speed = 30;
+            const duration = singleContentWidth / speed;
+            namebar.style.animationDuration = duration + 's';
+            // --- 新增代码：延迟2秒添加滚动类 ---
+            // 先设置好动画时长等属性，但不立即开始动画
+            setTimeout(() => {
+              namebar.classList.add('scrolling');
+            }, 1500);
+          } else {
+            // 不滚动，确保移除动画类和样式
+            namebar.classList.remove('scrolling');
+            namebar.style.animationDuration = '';
+          }
+        }, 0); // 初始的setTimeout(..., 0)是为了确保元素渲染完成，可以获取正确尺寸
+        // 进度条部分
+        let statusText = '';
+        if (percentageText === 0) {
+          statusText = '准备中';
+        } else if (percentageText === 1) {
+          statusText = '已完成';
+        } else {
+          statusText = '下载中';
+        }
+        const pbBar = document.createElement('div');
+        pbBar.className = 'pb-bar';
+        const pbProgress = document.createElement('div');
+        pbProgress.className = 'pb-progress pb-animated';
+        pbProgress.style.width = `${percentageText * 100}%`;
+        const pbStatusText = document.createElement('div');
+        pbStatusText.className = 'pb-status-text';
+        pbStatusText.innerHTML = statusText;
+        const pbPercentageText = document.createElement('div');
+        pbPercentageText.className = 'pb-percentage-text';
+        pbPercentageText.innerHTML = `${(percentageText * 100).toFixed(2)}%`;
+        pbBar.appendChild(pbProgress);
+        pbBar.appendChild(pbStatusText);
+        pbBar.appendChild(pbPercentageText);
+        download.appendChild(pbBar);
+        // 速度部分
+        const speedContainer = document.createElement('div');
+        speedContainer.className = 'scroll';
+        const speedText = document.createElement('div');
+        speedText.className = 'speed-text';
+        speedText.innerHTML = speed;
+        const timeText = document.createElement('div');
+        timeText.className = 'time-text';
+        timeText.innerHTML = time;
+        speedContainer.appendChild(speedText);
+        speedContainer.appendChild(timeText);
+        download.appendChild(speedContainer);
+        return download;
+      }
+      
       function createMessageElement(message) {
         const div = document.createElement('div');
         div.innerHTML = message;
@@ -579,24 +736,24 @@
           container.scrollTop = container.scrollHeight;
         }
       }
-    
-      // 判断是否隐藏下载进度
-      function updateDownloadLabelVisibility() {
-        const messageDownload = document.getElementById('messageDownload');
-        const downloadLabel = document.getElementById('downloadLabel');
-        if (messageDownload.textContent.trim() === '') {
-          // 没有内容，隐藏label
-          downloadLabel.style.display = 'none';
-        } else {
-          // 有内容，显示label
-          downloadLabel.style.display = '';
+
+      function appendBar(container, newMessages, oldMessages) {
+        container.innerHTML = '';
+        if (newMessages.length > 0) {
+          downloadLabel.textContent = '下载进度：';
+          for (let i = newMessages.length - 1; i >= 0; i--){
+            const messageContent = newMessages[i];
+            const [percentageText, time, speed, idname, nameText, file] = messageContent;
+            const div = addProgressBar(percentageText, time, speed, idname, nameText, file);
+            container.appendChild(div);
+          }
         }
       }
 
       // 启动消息轮询
       function startMessage() {
         getMessages();
-        pollingTimer = setInterval(getMessages, 250);
+        pollingTimer = setInterval(getMessages, 800);
       }
     
       // 停止消息轮询
