@@ -41,6 +41,7 @@ class bottle_app:
         else:
             self.app_bottle.route("/index", callback=self.index)
             self.app_bottle.route("/getid", method="POST", callback=self.getid)
+            self.app_bottle.route("/templates/<filepath:path>", callback=self.serve_template_file)
             self.app_bottle.route("/<filename:path>", callback=self.serve_static)
             self.app_bottle.route("/message", callback=self.message)
 
@@ -394,6 +395,10 @@ class bottle_app:
                         "filename": filename,
                     },
                 }
+
+    def serve_template_file(self, filepath):
+        template_dir = pkg_resources.resource_filename('podflow', 'templates')
+        return static_file(filepath, root=template_dir)
 
     # 使用pkg_resources获取模板文件路径
     def index(self):
