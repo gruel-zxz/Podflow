@@ -2,6 +2,8 @@
 # coding: utf-8
 
 import os
+import json
+import time
 import hashlib
 import mimetypes
 import pkg_resources
@@ -26,6 +28,7 @@ class bottle_app:
         self.setup_routes()  # 设置路由
         self.logname = "httpfs.log"  # 默认日志文件名
         self.http_fs = False
+        self._last_message_state = {}  # 用于 SSE，跟踪消息状态
 
     def setup_routes(self, upload=False):
         # 设置/favicon.ico路由，回调函数为favicon
@@ -41,9 +44,11 @@ class bottle_app:
         else:
             self.app_bottle.route("/index", callback=self.index)
             self.app_bottle.route("/getid", method="POST", callback=self.getid)
-            self.app_bottle.route("/templates/<filepath:path>", callback=self.serve_template_file)
+            self.app_bottle.route(
+                "/templates/<filepath:path>", callback=self.serve_template_file
+            )
             self.app_bottle.route("/<filename:path>", callback=self.serve_static)
-            self.app_bottle.route("/message", callback=self.message)
+            self.app_bottle.route("/stream", callback=self.stream)
 
     # 设置日志文件名及写入判断
     def set_logname(self, logname="httpfs.log", http_fs=False):
@@ -69,7 +74,7 @@ class bottle_app:
             return False
 
     # 添加至bottle_print模块
-    def add_bottle_print(self, client_ip, filename, status):
+    def add_bottle_print(self, client_ip, filename, status=""):
         # 后缀
         suffixs = [".mp4", ".m4a", ".xml", ".ico"]
         # 设置状态码对应的颜色
@@ -81,8 +86,9 @@ class bottle_app:
             206: "\033[36m",  # 青色 (部分内容)
         }
         # 默认颜色
-        color = status_colors.get(status, "\033[0m")
-        status = f"{color}{status}\033[0m"
+        if status:
+            color = status_colors.get(status, "\033[0m")
+            status = f"{color}{status}\033[0m"
         now_time = datetime.now().strftime("%H:%M:%S")
         client_ip = f"\033[34m{client_ip}\033[0m"
         if self.http_fs:
@@ -116,7 +122,7 @@ class bottle_app:
             self.bottle_print.clear()
 
     # 输出请求日志的函数
-    def print_out(self, filename, status):
+    def print_out(self, filename, status=""):
         client_ip = request.remote_addr
         if client_port := request.environ.get("REMOTE_PORT"):
             client_ip = f"{client_ip}:{client_port}"
@@ -397,13 +403,15 @@ class bottle_app:
                 }
 
     def serve_template_file(self, filepath):
-        template_dir = pkg_resources.resource_filename('podflow', 'templates')
+        template_dir = pkg_resources.resource_filename("podflow", "templates")
         return static_file(filepath, root=template_dir)
 
     # 使用pkg_resources获取模板文件路径
     def index(self):
-        template_path = pkg_resources.resource_filename('podflow', 'templates/index.html')
-        with open(template_path, 'r', encoding="UTF-8") as f:
+        template_path = pkg_resources.resource_filename(
+            "podflow", "templates/index.html"
+        )
+        with open(template_path, "r", encoding="UTF-8") as f:
             html_content = f.read()
         self.print_out("index", 200)
         return html_content
@@ -417,13 +425,61 @@ class bottle_app:
         response_message = get_channelid(content)
         self.print_out("channelid", 200)
         # 设置响应头为 application/json
-        response.content_type = 'application/json'
+        response.content_type = "application/json"
         return {"response": response_message}
 
-    # 处理消息的接收和发送。
-    def message(self):
-        response.content_type = 'application/json'
-        return gVar.index_message # 获取消息列表
+    # --- 新增 SSE 流处理路由 ---
+    def stream(self):
+        response.content_type = "text/event-stream"
+        response.set_header("Cache-Control", "no-cache")
+        response.set_header("Connection", "keep-alive")
+        response.set_header(
+            "Access-Control-Allow-Origin", "*"
+        )  # 如果前端在不同源，需要设置 CORS
+        try:
+            while True:
+                # 获取当前消息状态
+                # 确保 gVar.index_message 存在且结构完整
+                if not hasattr(gVar, "index_message"):
+                    current_state = {
+                        "http": [],
+                        "podflow": [],
+                        "schedule": {},
+                        "download": [],
+                    }
+                else:
+                    current_state = gVar.index_message
+                    # 确保所有预期的键都存在
+                    for key in ["http", "podflow", "schedule", "download"]:
+                        if key not in current_state:
+                            current_state[key] = (
+                                [] if key in ["http", "podflow", "download"] else {}
+                            )
+                # 简单实现：总是发送当前状态
+                # 优化：可以比较 current_state 和 last_state_sent，仅在有变化时发送
+                # if current_state != last_state_sent:
+                try:
+                    # 使用 json.dumps 将 Python 字典转换为 JSON 字符串
+                    message_json = json.dumps(current_state)
+                    sse_data = f"data: {message_json}\n\n"
+                    yield sse_data.encode("utf-8")  # 发送编码后的数据
+                except TypeError as e:
+                    # 如果序列化失败，记录错误，可以发送一个错误事件
+                    self.print_out(f"Error serializing message data for SSE: {e}")
+                    error_message = json.dumps({"error": "Failed to serialize data"})
+                    yield f"event: error\ndata: {error_message}\n\n".encode("utf-8")
+                # 等待一段时间再检查/发送
+                time.sleep(0.25)  # 每秒发送一次更新（或检查更新）
+        except (GeneratorExit, BrokenPipeError, ConnectionResetError):
+            # 客户端断开连接时会触发这些异常
+            self.print_out("SSE client disconnected.")
+            # 这里可以进行一些清理工作（如果需要）
+        except Exception as e:
+            # 捕获其他潜在错误
+            self.print_out(f"Error in SSE stream: {e}")
+        finally:
+            # 确保循环退出时会执行一些操作（如果需要）
+            self.print_out("SSE stream loop finished.")
 
 
 bottle_app_instance = bottle_app()

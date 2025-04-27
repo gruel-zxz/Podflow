@@ -22,6 +22,7 @@
   let lastMessage = { schedule: [], podflow: [], http: [], download: [] };
   let pollingTimer = null;
   let userScrolled = false;
+  let eventSource = null; // 用于存储 EventSource 实例
   
   // 生成单个二维码的函数
   function generateQRCodeForNode(container) {
@@ -62,13 +63,16 @@
     if (pages[pageId]) {
       pages[pageId].style.display = 'block';
       // 手机模式下自动隐藏菜单
-      if (window.innerWidth <= 600 && !menu.classList.contains('hidden')) {
-        toggleMenu();
+      if (window.innerWidth <= 600 && typeof menu !== 'undefined' && !menu.classList.contains('hidden')) {
+        if (typeof toggleMenu === 'function') {
+          toggleMenu();
+        }
       }
+      // --- SSE 连接管理 ---
       if (pageId === 'pageMessage') {
-        startMessage();
+        startMessageStream(); // <--- 启动 SSE 连接
       } else {
-        stopMessage();
+        stopMessageStream(); // <--- 关闭 SSE 连接
       }
     }
   }
@@ -320,17 +324,66 @@
     }
   }
 
-  // 启动消息轮询
-  function startMessage() {
-    getMessages();
-    pollingTimer = setInterval(getMessages, 1000);
+  // 启动 SSE 连接
+  function startMessageStream() {
+    // 如果已存在连接，先关闭
+    if (eventSource) {
+      eventSource.close();
+    }
+    // 创建新的 EventSource 连接到 /stream 端点
+    eventSource = new EventSource('/stream'); // <--- 连接到新的 SSE 端点
+    // 监听 'message' 事件 (默认事件)
+    eventSource.onmessage = function(event) {
+      try {
+        // event.data 是服务器发送的 JSON 字符串
+        const data = JSON.parse(event.data);
+        // --- 更新 UI (逻辑与原 getMessages 类似) ---
+        // 确保 lastMessage 和 data 结构完整
+        lastMessage = lastMessage || { schedule: {}, podflow: [], http: [], download: [] };
+        data.schedule = data.schedule || {};
+        data.podflow = data.podflow || [];
+        data.http = data.http || [];
+        data.download = data.download || [];
+        // 更新进度条 (如果 updateProgress 存在)
+        if (typeof updateProgress === 'function' && JSON.stringify(data.schedule) !== JSON.stringify(lastMessage.schedule)) {
+          updateProgress(data.schedule);
+          lastMessage.schedule = data.schedule;
+        }
+        // 追加新消息 (如果 appendMessages 存在)
+        if (typeof appendMessages === 'function') {
+          if (JSON.stringify(data.podflow) !== JSON.stringify(lastMessage.podflow)) {
+            appendMessages(messageArea, data.podflow, lastMessage.podflow || []); // 传入旧消息用于比较
+            lastMessage.podflow = [...data.podflow]; // 创建副本以避免引用问题
+          }
+          if (JSON.stringify(data.http) !== JSON.stringify(lastMessage.http)) {
+            appendMessages(messageHttp, data.http, lastMessage.http || []); // 传入旧消息
+            lastMessage.http = [...data.http]; // 创建副本
+          }
+        }
+        // 更新下载栏 (如果 appendBar 存在)
+        if (typeof appendBar === 'function' && JSON.stringify(data.download) !== JSON.stringify(lastMessage.download)) {
+          appendBar(messageDownload, data.download, lastMessage.download || []); // 传入旧消息
+          lastMessage.download = [...data.download]; // 创建副本
+        }
+      } catch (error) {
+        console.error('处理 SSE 消息失败:', error, '原始数据:', event.data);
+      }
+    };
+    // 监听错误事件
+    eventSource.onerror = function(error) {
+      console.error('EventSource 失败:', error);
+      // 可以选择在这里关闭连接或尝试重连，但 EventSource 通常会自动重连
+      // eventSource.close(); // 如果需要手动停止
+    };
+    console.log("SSE 连接已启动");
   }
 
-  // 停止消息轮询
-  function stopMessage() {
-    if (pollingTimer !== null) {
-      clearInterval(pollingTimer);
-      pollingTimer = null;
+  // 停止 SSE 连接
+  function stopMessageStream() {
+    if (eventSource) {
+      eventSource.close(); // 关闭连接
+      eventSource = null; // 清除引用
+      console.log("SSE 连接已关闭");
     }
   }
 

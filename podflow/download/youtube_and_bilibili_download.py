@@ -22,7 +22,8 @@ def youtube_and_bilibili_download():
                 output_dir_name,
                 format_value["cookie"],
                 format_value["download"]["num"],
-                display_color
+                display_color,
+                format_value["title"],
             ):
                 gVar.video_id_failed.append(format_value["main"])
                 write_log(

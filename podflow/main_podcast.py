@@ -69,16 +69,19 @@ def main_podcast():
     # 初始化
     build_original()
     # http共享
-    port = gVar.config["port"]
+    port = gVar.config.get("port", 8080) # 使用 .get 获取端口
     hostip = "0.0.0.0"
-    if port_judge(hostip, port):
-        # 设置路由
-        bottle_app_instance.setup_routes(upload=False)
+
+    if port_judge(hostip, port): # 假设 port_judge 存在
+        # 设置路由 (确保此时 gVar.config 等已就绪)
+        bottle_app_instance.setup_routes(upload=False) # 或者根据需要设置为 True
+
         # 设置logname
         bottle_app_instance.set_logname(
             logname="httpfs.log",
-            http_fs=gVar.config["httpfs"],
+            http_fs=gVar.config.get("httpfs", False), # 使用 .get
         )
+
         # 启动 CherryPy 服务器
         cherrypy.tree.graft(
             bottle_app_instance.app_bottle
@@ -92,13 +95,15 @@ def main_podcast():
                     "log.screen": False,  # 禁用屏幕日志输出
                     "log.access_file": "",  # 关闭访问日志
                     "log.error_file": "",  # 关闭错误日志
+                    # 添加线程池配置，对于长连接 (SSE) 可能有帮助
+                    'server.thread_pool': 30 # 示例值，根据需要调整
                 }
             }
         )
         cherrypy.engine.start()  # 启动 CherryPy 服务器
         time_print(f"HTTP服务器启动, 端口: \033[32m{port}\033[0m")
-        if parse.index:
-            open_url(f"{gVar.config['address']}/index")
+        if parse.index: # 假设 parse 已定义
+            open_url(f"{gVar.config['address']}/index") # 假设 open_url 已定义
         if parse.httpfs:  # HttpFS参数判断, 是否继续运行
             cherrypy.engine.block()  # 阻止程序退出, 保持HTTP服务运行
             sys.exit(0)

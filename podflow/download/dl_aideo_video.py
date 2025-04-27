@@ -9,6 +9,7 @@ from podflow import gVar
 from podflow.basic.write_log import write_log
 from podflow.basic.time_print import time_print
 from podflow.basic.get_duration import get_duration
+from podflow.httpfs.download_bar import download_bar
 from podflow.download.show_progress import show_progress
 from podflow.message.fail_message_initialize import fail_message_initialize
 
@@ -94,6 +95,7 @@ def download_video(
             True,
             f"错误信息: {fail_info}{remove_info}",
         )  # 写入下载失败的日志信息
+        download_bar(mod=2, status="下载失败")
         return video_url, fail_info
 
 
@@ -133,6 +135,7 @@ def dl_full_video(
     if duration_video:
         fail_info = f"不完整({id_duration}|{duration_video}"
         write_log(f"{video_write_log} \033[31m下载失败\033[0m\n错误信息: {fail_info})")
+        download_bar(mod=2, status="下载失败")
         os.remove(
             f"channel_audiovisual/{output_dir}/{video_url}{sesuffix}.{output_format}"
         )  # 删除不完整的视频
@@ -208,6 +211,7 @@ def dl_aideo_video(
     cookies=None,
     playlist_num=None,
     display_color="\033[95m",
+    title_name="",
 ):
     if output_dir_name:
         video_write_log = f"{display_color}{output_dir_name}\033[0m|{video_url}"
@@ -220,6 +224,13 @@ def dl_aideo_video(
     time_print(
         f"{video_write_log} {print_message}",
         NoEnter=True,
+    )
+    download_bar(
+        mod=0,
+        per=0,
+        idname=output_dir_name,
+        nametext=title_name,
+        file=f"{video_url}.{output_format}",
     )
     if output_format == "m4a":
         if video_format[1] in ["140", "30280"]:
@@ -323,4 +334,5 @@ def dl_aideo_video(
         write_log(
             f"{video_write_log} \033[32m下载成功\033[0m", None, True, True, only_log
         )  # 写入下载成功的日志信息
+        download_bar(mod=2, status="下载成功")
     return video_id_failed
