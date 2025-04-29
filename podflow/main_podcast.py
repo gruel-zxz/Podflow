@@ -69,7 +69,7 @@ def main_podcast():
     # 初始化
     build_original()
     # http共享
-    port = gVar.config.get("port", 8080) # 使用 .get 获取端口
+    port = gVar.config.get("port", 8000) # 使用 .get 获取端口
     hostip = "0.0.0.0"
 
     if port_judge(hostip, port): # 假设 port_judge 存在
@@ -102,8 +102,8 @@ def main_podcast():
         )
         cherrypy.engine.start()  # 启动 CherryPy 服务器
         time_print(f"HTTP服务器启动, 端口: \033[32m{port}\033[0m")
-        if parse.index: # 假设 parse 已定义
-            open_url(f"{gVar.config['address']}/index") # 假设 open_url 已定义
+        if parse.index:
+            open_url(f"{gVar.config['address']}/index")
         if parse.httpfs:  # HttpFS参数判断, 是否继续运行
             cherrypy.engine.block()  # 阻止程序退出, 保持HTTP服务运行
             sys.exit(0)

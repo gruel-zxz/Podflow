@@ -363,7 +363,7 @@ class bottle_app:
         filename = upload_file.filename
         name = filename.split(".")[0]
         suffix = filename.split(".")[1]
-        if suffix in ["mp4", "m4a"]:
+        if suffix not in ["mp4", "m4a"]:
             self.print_out("upload", 404)
             return {
                 "code": -6,

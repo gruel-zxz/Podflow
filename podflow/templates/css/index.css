@@ -140,7 +140,6 @@ main.full {
 .common-area {
   width: 100%;
   max-width: 520px;
-  padding: 0 8px;
   color: var(--text-color);
   transition: background-color 0.3s, color 0.3s, border-color 0.3s;
   box-sizing: border-box;
@@ -159,7 +158,11 @@ textarea {
   background-color: var(--input-bg);
   font-family: 'Courier New', Courier, monospace; /* 添加字体 */
 }
+#inputOutput {
+  padding: 4px 8px;
+}
 #messageDownload {
+  padding: 0 8px;
   max-height: 180px;
   max-width: 99%;
   height: auto;  
@@ -168,6 +171,7 @@ textarea {
   background-color: var(--bg-color);
 }
 #messageArea {
+  padding: 4px 8px;
   height: 250px;
   font-size: 12px;
   border: 1px solid var(--input-border);
@@ -176,6 +180,7 @@ textarea {
   font-family: 'Courier New', Courier, monospace; /* 添加字体 */
 }
 #messageHttp {
+  padding: 4px 8px;
   height: 100px;
   font-size: 12px;
   border: 1px solid var(--input-border);
@@ -347,6 +352,8 @@ button:hover {
   margin-left: auto;
   flex-shrink: 0;
   align-self: flex-end;
+  position: relative;
+  top: -2px;
 }
 .scroll-container {
   flex: 1; /* 自适应宽度 */

@@ -42,7 +42,8 @@ def show_progress(stream):
             mod=1,
             per=stream["downloaded_bytes"] / stream["total_bytes"],
             retime=eta,
-            speed=f"{speed}/s\t{downloaded_bytes}/{total_bytes}",
+            speed=f"{speed}/s",
+            part=f"{downloaded_bytes}/{total_bytes}",
             status="下载中",
         )
     if stream["status"] == "finished":
@@ -59,6 +60,7 @@ def show_progress(stream):
             mod=1,
             per=1,
             retime=elapsed,
-            speed=f"{speed}/s\t{downloaded_bytes}/{total_bytes}",
+            speed=f"{speed}/s",
+            part=f"{downloaded_bytes}/{total_bytes}",
             status="下载完成",
         )

@@ -9,6 +9,7 @@ def download_bar(
     per=0,
     retime="00:00",
     speed="   0.00 B",
+    part="",
     status="准备中",
     idname="",
     nametext="",
@@ -20,6 +21,7 @@ def download_bar(
                 per,
                 retime,
                 speed,
+                part,
                 status,
                 idname,
                 nametext,
@@ -30,6 +32,7 @@ def download_bar(
         gVar.index_message["download"][-1][0] = per
         gVar.index_message["download"][-1][1] = retime
         gVar.index_message["download"][-1][2] = speed
-        gVar.index_message["download"][-1][3] = status
+        gVar.index_message["download"][-1][3] = part
+        gVar.index_message["download"][-1][4] = status
     elif mod == 2 and gVar.index_message["download"]:
-        gVar.index_message["download"][-1][3] = status
+        gVar.index_message["download"][-1][4] = status
