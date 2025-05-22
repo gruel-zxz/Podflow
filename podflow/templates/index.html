@@ -5,22 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Podflow</title>
   <link rel="stylesheet" href="/templates/css/index.css" />
+  <link rel="stylesheet" href="/templates/css/config.css" />
   <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
-  <!-- 菜单栏 -->
   <nav id="menu">
     <h3>菜单栏</h3>
     <ul>
       <li data-page="pageMessage">Podflow 运行情况</li>
       <li data-page="pageChannel">获取媒体频道 ID</li>
+      <li data-page="pageConfig">修改配置</li>
     </ul>
   </nav>
-  <!-- 菜单切换按钮 -->
   <button id="toggleMenu">❮</button>
-  <!-- 主体区域 -->
   <main id="main">
-    <!-- 获取 Channel-ID 页面 -->
     <section id="pageChannel" style="display: none;">
       <h2>获取媒体频道 ID</h2>
       <form id="inputForm" method="post" action="getid">
@@ -35,7 +33,7 @@
         <p class="hint">📌 如果粘贴按钮无效，请长按输入框手动粘贴。</p>
       </form>
     </section>
-    <!-- 消息滚动显示页面 -->
+
     <section id="pageMessage">
       <h2>Podflow 运行情况</h2>
       <form>
@@ -53,8 +51,22 @@
         <div class="common-area" id="messageHttp"></div>
       </form>
     </section>
+
+    <section id="pageConfig" style="display: none;">
+      <h2>修改配置</h2>
+      <div id="configContainer">
+        <p>正在加载配置...</p>
+      </div>
+      <div class="button-container">
+        <button type="button" id="refreshConfigBtn">🔄 刷新配置</button>
+        <button type="button" id="saveConfigBtn">💾 保存配置</button>
+      </div>
+      <div id="configStatus" style="margin-top: 10px; color: green;"></div>
+    </section>
+
   </main>
   <script src="/templates/js/index.js"></script>
   <script src="/templates/js/qrcode.min.js"></script>
+  <script src="/templates/js/config.js"></script>
 </body>
 </html>

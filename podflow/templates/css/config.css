@@ -1,0 +1,225 @@
+/* /templates/css/config.css */
+
+#pageConfig label {
+    display: block; /* 让标签独占一行 */
+    margin-top: 12px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  #pageConfig input[type="text"],
+  #pageConfig input[type="number"],
+  #pageConfig input[type="url"],
+  #pageConfig select,
+  #pageConfig textarea {
+    width: 95%; /* 调整宽度 */
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1em;
+  }
+  
+  #pageConfig input[type="checkbox"] {
+     margin-left: 10px;
+     vertical-align: middle; /* 垂直居中对齐 */
+  }
+  
+  .config-item {
+      margin-bottom: 15px;
+      padding-bottom: 10px;
+      border-bottom: 1px dotted #eee; /* 分隔线 */
+  }
+  .config-item:last-child {
+      border-bottom: none;
+  }
+  
+  
+  /* 可折叠部分的样式 */
+  .collapsible-section {
+    border: 1px solid #e0e0e0;
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    overflow: hidden; /* 防止子元素溢出圆角 */
+  }
+  
+  .collapsible-header {
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 15px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #e0e0e0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.2s ease;
+  }
+  .collapsible-header:hover {
+      background-color: #e5e5e5;
+  }
+  
+  
+  .collapsible-header .channel-key {
+      color: #0056b3; /* 突出频道 Key */
+  }
+  
+  .collapsible-header .channel-id {
+      font-size: 0.9em;
+      color: #555;
+      margin-left: 10px;
+  }
+  
+  
+  .collapsible-header .toggle-icon {
+     font-size: 1.2em;
+     transition: transform 0.3s ease; /* 添加旋转动画 */
+  }
+  
+  .collapsible-content {
+    padding: 15px;
+    padding-top: 5px; /* 减少顶部内边距 */
+    border-top: 1px solid #eee; /* 在内容和头部之间加条细线 */
+    background-color: #ffffff;
+    /* display: none; 由 JS 控制 */
+  }
+  
+  .collapsible-content.hidden {
+    display: none;
+  }
+  
+  /* 旋转展开/收起图标 */
+  .collapsible-header.expanded .toggle-icon {
+      transform: rotate(90deg);
+  }
+  
+  
+  /* title_change 数组项样式 */
+  .title-change-list {
+      margin-top: 10px;
+      padding-left: 15px;
+      border-left: 2px solid #f0f0f0;
+  }
+  .title-change-item {
+      border: 1px dashed #ccc;
+      padding: 10px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      background-color: #fff;
+      border-radius: 4px;
+  }
+  .title-change-item > label { /* 嵌套标签样式调整 */
+      font-weight: normal;
+      font-size: 0.95em;
+      color: #444;
+  }
+  .title-change-item > input,
+  .title-change-item > select {
+      width: 90%; /* 稍微缩进 */
+  }
+
+/* styles.css */
+
+/* Button Styles */
+.config-button {
+  margin-left: 10px;
+  padding: 3px 8px;
+  font-size: 0.9em;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f0f0f0;
+  transition: background-color 0.2s ease;
+  vertical-align: middle; /* Align buttons vertically with text/elements */
+}
+
+.config-button:hover {
+  background-color: #e0e0e0;
+}
+
+.add-button {
+  background-color: #d4edda; /* Light green */
+  border-color: #c3e6cb;
+  color: #155724; /* Dark green */
+}
+
+.add-button:hover {
+   background-color: #c8e5bc;
+}
+
+.delete-button {
+  background-color: #f8d7da; /* Light red */
+  border-color: #f5c6cb;
+  color: #721c24; /* Dark red */
+}
+
+.delete-button:hover {
+  background-color: #f1b0b7;
+}
+
+/* Adjust layout for buttons in header */
+.collapsible-header .config-button {
+  /* Specific adjustments for buttons inside headers */
+  margin-left: 10px; /* Space between title and buttons */
+}
+
+.title-change-list label .config-button {
+   margin-left: 10px;
+}
+
+.title-change-item strong .config-button {
+   margin-left: 10px;
+}
+
+/* Style for text inputs and selects */
+.config-item input.config-input-text,
+.config-item input[type="number"], /* Keep number type selector */
+.config-item input[type="url"], /* Keep url type selector */
+.config-item select.config-input-select {
+  width: calc(100% - 20px); /* Adjust width considering padding/margin */
+  padding: 5px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+  display: block; /* Make inputs/selects take their own line */
+}
+
+.config-item input[type="checkbox"] {
+   width: auto; /* Checkbox should not take full width */
+   margin-top: 0;
+   display: inline-block; /* Checkbox stays inline with label */
+}
+
+/* Adjust display for channel key/ID display */
+.channel-item .collapsible-header .channel-dom-key {
+  font-weight: bold;
+}
+
+.channel-item .collapsible-header .channel-id {
+  font-size: 0.9em;
+  color: #555;
+  margin-left: 5px;
+}
+
+.channel-item .collapsible-header .id-display {
+  font-weight: normal; /* Don't bold the displayed ID */
+}
+
+/* Basic styling for channel items */
+.channel-item {
+  border: 1px solid #eee;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+.title-change-item {
+  border: 1px solid #eee;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
