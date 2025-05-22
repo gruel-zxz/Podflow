@@ -17,6 +17,7 @@ from podflow.basic.write_log import write_log
 from podflow.httpfs.to_html import ansi_to_html
 from podflow.upload.build_hash import build_hash
 from podflow.upload.time_key import check_time_key
+from podflow.basic.folder_build import folder_build
 from podflow.httpfs.get_channelid import get_channelid
 
 
@@ -44,6 +45,7 @@ class bottle_app:
         else:
             self.app_bottle.route("/index", callback=self.index)
             self.app_bottle.route("/getid", method="POST", callback=self.getid)
+            self.app_bottle.route("/getconfig", callback=self.getconfig)
             self.app_bottle.route(
                 "/templates/<filepath:path>", callback=self.serve_template_file
             )
@@ -346,11 +348,15 @@ class bottle_app:
                 "message": "No File Provided",
             }
         # 判断文件是否完整
-        if upload_hash != build_hash(upload_file):
+        uploadfile = upload_file.file
+        uploadfile.seek(0)
+        uploadfile_hash = build_hash(uploadfile)
+        if upload_hash != uploadfile_hash:
             self.print_out("upload", 401)
             return {
                 "code": -5,
                 "message": "Incomplete File",
+                "hash": uploadfile_hash,
             }
         if not channelid:
             # 打印错误信息并返回错误码
@@ -369,7 +375,7 @@ class bottle_app:
                 "code": -6,
                 "message": "File Format Error",
             }
-        address = f"/channel_audiovisual/{channelid}"
+        address = f"channel_audiovisual/{channelid}"
         if os.path.exists(address):
             file_list = os.listdir(address)
         else:
@@ -380,6 +386,7 @@ class bottle_app:
                 filename = f"{name}.{num}.{suffix}"
             if filename in file_list:
                 with open(f"{address}/{filename}", "rb") as original_file:
+                    original_file.seek(0)
                     if upload_hash == build_hash(original_file):
                         self.print_out("upload", 200)
                         return {
@@ -391,7 +398,9 @@ class bottle_app:
                         }
                     num += 1
             else:
-                file_save(upload_file, filename, address)
+                folder_build(channelid, "channel_audiovisual")
+                uploadfile.seek(0)
+                file_save(uploadfile, filename, address, True)
                 # 打印成功信息并返回成功码
                 self.print_out("upload", 200)
                 return {
@@ -427,6 +436,12 @@ class bottle_app:
         # 设置响应头为 application/json
         response.content_type = "application/json"
         return {"response": response_message}
+    
+    def getconfig(self):
+        self.print_out("getconfig", 200)
+        # 设置响应头为 application/json
+        response.content_type = "application/json"
+        return {"response": gVar.config}
 
     # --- 新增 SSE 流处理路由 ---
     def stream(self):

@@ -16,7 +16,7 @@ def http_client(
     cookies=None,
     data=None,
     mode="get",
-    filename=None,
+    file=None,
 ):
     user_agent = {
         "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36"
@@ -55,10 +55,10 @@ def http_client(
         try:
             if mode.lower() != "post":
                 response = session.get(url, timeout=8)
-            elif filename:
-                with open(filename, "rb") as f:
-                    files = {"file": f}  # 这里 "file" 对应服务器端接收文件的字段名称
-                    response = session.post(url, files=files, timeout=8)
+            elif file:
+                file.seek(0)
+                files = {"file": file}  # 这里 "file" 对应服务器端接收文件的字段名称
+                response = session.post(url, files=files, timeout=8)
             else:
                 response = session.post(url, timeout=8)
             response.raise_for_status()
