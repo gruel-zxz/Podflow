@@ -90,16 +90,20 @@ def discover_server(broadcast_ip, broadcast_port, time_out):
 def connect_upload_server():
     # 如果配置中启用了上传功能
     if gVar.config["upload"]:
-        local_ip = get_local_ip()
-        if not local_ip:
-            # 如果无法获取本地IP，广播发现也无法进行
-            time_print("\033[31m无法获取本地IP，跳过广播发现。\033[0m")
-            return
-        broadcast_ip = calculate_broadcast(local_ip)
-        if broadcast_ip in ["255.255.255.255", local_ip, "0.0.0.0"]:
-            # 避免向无效或自己的地址广播
-            time_print(f"\033[31m计算出的广播地址无效或为本机地址: {broadcast_ip}，跳过广播发现。\033[0m")
-            return
+        upload_ip = gVar.config["upload_ip"]
+        if upload_ip:
+            broadcast_ip = upload_ip
+        else:
+            local_ip = get_local_ip()
+            if not local_ip:
+                # 如果无法获取本地IP，广播发现也无法进行
+                time_print("\033[31m无法获取本地IP，跳过广播发现。\033[0m")
+                return
+            broadcast_ip = calculate_broadcast(local_ip)
+            if broadcast_ip in ["255.255.255.255", local_ip, "0.0.0.0"]:
+                # 避免向无效或自己的地址广播
+                time_print(f"\033[31m计算出的广播地址无效或为本机地址: {broadcast_ip}，跳过广播发现。\033[0m")
+                return
         # 打印正在搜索上传服务器
         time_print("正在搜索上传服务器...")
         # 服务器列表为空

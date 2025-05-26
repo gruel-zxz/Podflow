@@ -20,6 +20,7 @@ default_config = {
     "delete_incompletement": False,  # 是否删除下载中断媒体(下载前处理流程)
     "remove_media": True,  # 是否删除无用的媒体文件
     "upload": False,  # 是否将长期媒体进行上传
+    "upload_ip": "10.0.3.231",  # 长期媒体进行上传服务器地址(可不写, 会自动搜索, 无法搜索请填写)
     "channelid_youtube": {  # Youtube频道列表
         "youtube": {
             "update_size": 15,  # 每次获取频道媒体数量

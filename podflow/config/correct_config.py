@@ -106,3 +106,8 @@ def correct_config():
         config["upload"], bool
     ):
         config["upload"] = default_config["upload"]
+    # 对upload_ip进行纠正
+    if "upload_ip" not in config:
+        config["upload_ip"] = ""
+    else:
+        config["upload_ip"] = str(config["upload_ip"])
