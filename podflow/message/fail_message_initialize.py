@@ -148,7 +148,12 @@ error_reason = [
         r"Offline.",
         "\033[31m直播已停止\033[0m",
         "text",
-    ]
+    ],
+    [
+        r"Got error: \<urllib3\.connection\.HTTPSConnection object at .{18}\>: Failed to resolve \'rr5---sn-a5msenek\.googlevideo\.com\' \(\[Errno 11001\] getaddrinfo failed\)",
+        "\033[31m无法解析\033[0m",
+        "regexp",
+    ],
 ]
 
 
