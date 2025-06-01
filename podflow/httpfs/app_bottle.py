@@ -328,14 +328,14 @@ class bottle_app:
             self.print_out("login", 401)
             return {
                 "code": -2,
-                "message": "Username Error",
+                "message": "Username Error",  # 用户名错误
             }
         # 验证密码是否正确
         if upload_data[username] != password:
             self.print_out("login", 401)
             return {
                 "code": -3,
-                "message": "Password Error",
+                "message": "Password Error",  # 密码错误
             }
         # 从请求中获取上传的文件对象
         upload_file = request.files.get("file")
@@ -345,7 +345,7 @@ class bottle_app:
             self.print_out("upload", 404)
             return {
                 "code": -4,
-                "message": "No File Provided",
+                "message": "No File Provided",  # 没有上传文件
             }
         # 判断文件是否完整
         uploadfile = upload_file.file
@@ -355,7 +355,7 @@ class bottle_app:
             self.print_out("upload", 401)
             return {
                 "code": -5,
-                "message": "Incomplete File",
+                "message": "Incomplete File",  # 文件不完整
                 "hash": uploadfile_hash,
             }
         if not channelid:
@@ -363,7 +363,7 @@ class bottle_app:
             self.print_out("upload", 404)
             return {
                 "code": -6,
-                "message": "ChannelId Does Not Exist",
+                "message": "ChannelId Does Not Exist",  # 频道ID不存在
             }
         # 获取上传文件的原始文件名
         filename = upload_file.filename
@@ -373,7 +373,7 @@ class bottle_app:
             self.print_out("upload", 404)
             return {
                 "code": -6,
-                "message": "File Format Error",
+                "message": "File Format Error",  # 文件格式错误
             }
         address = f"channel_audiovisual/{channelid}"
         if os.path.exists(address):
@@ -391,7 +391,7 @@ class bottle_app:
                         self.print_out("upload", 200)
                         return {
                             "code": 1,
-                            "message": "The Same File Exists",
+                            "message": "The Same File Exists",  # 相同文件已存在
                             "data": {
                                 "filename": filename,
                             },
@@ -405,7 +405,7 @@ class bottle_app:
                 self.print_out("upload", 200)
                 return {
                     "code": 0,
-                    "message": "Upload Success",
+                    "message": "Upload Success",  # 上传成功
                     "data": {
                         "filename": filename,
                     },
