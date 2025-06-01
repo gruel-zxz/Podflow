@@ -47,8 +47,8 @@ def get_youtube_introduction():
             ).group()
         else:
             xml_tree = {"introduction": False}
-            with youtube_xml_get_lock:
-                gVar.youtube_xml_get_tree[output_dir] = xml_tree
+        with youtube_xml_get_lock:
+            gVar.youtube_xml_get_tree[output_dir] = xml_tree
     # 创建线程列表
     youtube_xml_get_threads = []
     for output_dir in gVar.channelid_youtube_ids_update:
@@ -187,7 +187,6 @@ def get_xml_item(guid, item, channelid_title, title_change, output_dir):
 # 生成YouTube对应channel的需更新的items模块
 def youtube_xml_items(output_dir, ratio_part):
     items_list = [f"<!-- {output_dir} -->"]
-    entry_num = 0
     original_judgment = True
     channelid_youtube_value = gVar.channelid_youtube[
         gVar.channelid_youtube_ids[output_dir]
@@ -227,6 +226,7 @@ def youtube_xml_items(output_dir, ratio_part):
         else:
             file_xml = output_dir_value["content"]
         entrys = re.findall(r"<entry>.+?</entry>", file_xml, re.DOTALL)
+        entry_num = 0
         for entry in entrys:
             if (
                 re.search(r"(?<=<yt:videoId>).+(?=</yt:videoId>)", entry).group()
