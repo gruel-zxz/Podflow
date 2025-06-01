@@ -2,10 +2,15 @@
 # coding: utf-8
 
 import time
+from datetime import datetime
+from podflow import gVar
+from podflow.httpfs.to_html import ansi_to_html
 from podflow.upload.build_hash import build_hash
 from podflow.basic.http_client import http_client
+from podflow.httpfs.app_bottle import bottle_app_instance
 
 
+# 上传文件模块
 def upload_file(username, password, channelid, filename):
     filename = f"channel_audiovisual/{channelid}/{filename}"
     with open(filename, "rb") as file:
@@ -25,12 +30,13 @@ def upload_file(username, password, channelid, filename):
             mode="post",
             file=file,
         ):
-            return response.json()
+            return response.json(), hashs
         else:
-            return None
-    return None
+            return None, hashs
+    return None, hashs
 
 
+# 查找位置模块
 def find_media_index(upload_original, target_media_id):
     for index, item in enumerate(upload_original):
         if item.get("media_id") == target_media_id:
@@ -38,6 +44,7 @@ def find_media_index(upload_original, target_media_id):
     return -1
 
 
+# 过滤和排序媒体模块
 def filter_and_sort_media(media_list, day):
     current_time = int(time.time())
     one_month_ago = current_time - day * 24 * 60 * 60  # 30天前的时间戳
@@ -56,3 +63,30 @@ def filter_and_sort_media(media_list, day):
         for item in filtered_sorted
     ]
     return result
+
+
+def record_upload(username, password, channelid, filename):
+    response, hashs = upload_file(username, password, channelid, filename)
+    channelname = (
+        gVar.channelid_youtube_ids_original | gVar.channelid_bilibili_ids_original
+    ).get(channelid, "")
+    now_time = datetime.now().strftime("%H:%M:%S")
+    if response:
+        code = response.get("code")
+        data = response.get("data", {})
+        message = response.get("message", "")
+        if code in [0, 1]:
+            index = find_media_index(gVar.upload_original, filename)
+            if index != -1:
+                filename = data.get("filename")
+                if filename:
+                    gVar.upload_original[index]["upload"] = True
+                    gVar.upload_original[index]["hash"] = hashs
+                    gVar.upload_original[index]["filename"] = hashs
+
+        bottle_text = f"{now_time}|{channelname}/{filename} Upload: {message}"
+    else:
+        bottle_text = f"{now_time}|{channelname}/{filename} Upload Failed"
+    bottle_app_instance.bottle_print.append(bottle_text)
+    gVar.index_message["http"].append(ansi_to_html(bottle_text))
+    bottle_app_instance.cherry_print(False)
