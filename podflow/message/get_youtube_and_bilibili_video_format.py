@@ -3,6 +3,7 @@
 
 from podflow import gVar
 from podflow.basic.write_log import write_log
+from podflow.bilibili.get import get_bilibili_cid
 from podflow.httpfs.progress_bar import progress_bar
 from podflow.message.media_format import media_format
 
@@ -63,7 +64,11 @@ def get_youtube_and_bilibili_video_format(
                     id_update_format = f"\033[31m{fail_info}\033[0m(需要Cookies)"
                 break
     else:
-        if gVar.video_id_update_format[id_num]["power"] is True and (
+        if gVar.channelid_bilibili[gVar.video_id_update_format[id_num]["name"]]["AllPartGet"]:
+            power = gVar.video_id_update_format[id_num]["power"]
+        else:
+            power = get_bilibili_cid(id_num, gVar.video_id_update_format[id_num]["name"])[2]
+        if power is True and (
             "试看" in id_update_format or id_update_format == "无法获取音频ID"
         ):
             id_update_format = "\033[31m充电专属\033[0m"
