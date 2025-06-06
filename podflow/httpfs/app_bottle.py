@@ -372,7 +372,7 @@ class bottle_app:
         if suffix not in ["mp4", "m4a"]:
             self.print_out("upload", 404)
             return {
-                "code": -6,
+                "code": -7,
                 "message": "File Format Error",  # 文件格式错误
             }
         address = f"channel_audiovisual/{channelid}"

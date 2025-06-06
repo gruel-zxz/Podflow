@@ -119,6 +119,8 @@ class Application_gVar:
 
         self.upload_original = []  # 原始上传信息字典
         self.upload_data = {}  # 上传用户账号密码字典
+        self.upload_json = {}  # 上传登陆账号密码字典
+        self.upload_stop = False  # 上传停止布尔值
 
         self.shortcuts_url = {}  # 输出至shortcut的url字典
 

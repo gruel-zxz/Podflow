@@ -141,6 +141,8 @@ def main_podcast():
         if upload_url:
             upload_json = login_upload(upload_url)
             if upload_json:
+                gVar.upload_json = upload_json
+            else:
                 gVar.config["upload"] = False
         else:
             gVar.config["upload"] = False

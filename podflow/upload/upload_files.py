@@ -1,7 +1,6 @@
 # podflow/upload/upload_files.py
 # coding: utf-8
 
-import time
 from datetime import datetime
 from podflow import gVar
 from podflow.httpfs.to_html import ansi_to_html
@@ -25,7 +24,7 @@ def upload_file(username, password, channelid, filename):
         }
         if response := http_client(
             url="http://10.0.3.231:5000/upload",
-            name="1",
+            name="",
             data=data,
             mode="post",
             file=file,
@@ -44,17 +43,14 @@ def find_media_index(upload_original, target_media_id):
     return -1
 
 
-# 过滤和排序媒体模块
-def filter_and_sort_media(media_list, day):
-    current_time = int(time.time())
-    one_month_ago = current_time - day * 24 * 60 * 60  # 30天前的时间戳
+# 过滤和排序上传媒体模块
+def filter_and_sort_media(media_list):
     filtered_sorted = sorted(
         (
             item
             for item in media_list
             if not item["upload"]
             and not item["remove"]
-            and item["media_time"] < one_month_ago
         ),
         key=lambda x: x["media_time"],
     )
@@ -65,12 +61,24 @@ def filter_and_sort_media(media_list, day):
     return result
 
 
+# 媒体文件上传模块
 def record_upload(username, password, channelid, filename):
     response, hashs = upload_file(username, password, channelid, filename)
     channelname = (
         gVar.channelid_youtube_ids_original | gVar.channelid_bilibili_ids_original
     ).get(channelid, "")
     now_time = datetime.now().strftime("%H:%M:%S")
+    result = {
+        0: "",
+        1: "存在相同文件",
+        -2: "用户名错误",
+        -3: "密码错误",
+        -4: "上传文件为空",
+        -5: "文件不完整",
+        -6: "频道ID不存在",
+        -7: "文件格式有误",
+    }
+    name = filename.split(".")[0]
     if response:
         code = response.get("code")
         data = response.get("data", {})
@@ -82,11 +90,25 @@ def record_upload(username, password, channelid, filename):
                 if filename:
                     gVar.upload_original[index]["upload"] = True
                     gVar.upload_original[index]["hash"] = hashs
-                    gVar.upload_original[index]["filename"] = hashs
-
-        bottle_text = f"{now_time}|{channelname}/{filename} Upload: {message}"
+                    gVar.upload_original[index]["filename"] = filename
+        if code == 0:
+            bottle_text = f"{now_time}|{channelname}/{name}|\033[32m上传成功\033[0m"
+        else:
+            bottle_text = f"{now_time}|{channelname}/{name}|\033[33m上传成功\033[0m: {result.get(code, message)}"
     else:
-        bottle_text = f"{now_time}|{channelname}/{filename} Upload Failed"
+        bottle_text = f"{now_time}|{channelname}/{name}|\033[31m上传失败\033[0m: {result.get(code, message)}"
     bottle_app_instance.bottle_print.append(bottle_text)
     gVar.index_message["http"].append(ansi_to_html(bottle_text))
     bottle_app_instance.cherry_print(False)
+
+
+# 总体上传模块
+def all_upload():
+    if gVar.config["upload"]:
+        result = filter_and_sort_media(gVar.upload_original)
+        username = gVar.upload_json["username"]
+        password = gVar.upload_json["password"]
+        for item in result:
+            record_upload(username, password, item["channel_id"], item["media_id"])
+            if gVar.upload_stop:
+                break
