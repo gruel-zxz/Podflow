@@ -14,11 +14,11 @@ def remove_file():
         for file_name in os.listdir(f"channel_audiovisual/{output_dir}"):
             if file_name not in gVar.all_youtube_content_ytid[output_dir]:
                 os.remove(f"channel_audiovisual/{output_dir}/{file_name}")
-                write_log(f"{name}|{file_name}已删除")
+                write_log(f"{name}|{file_name}抛弃文件已删除")
 
     channelid_bilibili_ids = gVar.channelid_bilibili_ids
     for output_dir, name in channelid_bilibili_ids.items():
         for file_name in os.listdir(f"channel_audiovisual/{output_dir}"):
             if file_name not in gVar.all_bilibili_content_bvid[output_dir]:
                 os.remove(f"channel_audiovisual/{output_dir}/{file_name}")
-                write_log(f"{name}|{file_name}已删除")
+                write_log(f"{name}|{file_name}抛弃文件已删除")

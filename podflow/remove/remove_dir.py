@@ -16,7 +16,7 @@ def remove_dir():
         if os.path.exists(directory_path):
             # 删除该目录及其内容
             shutil.rmtree(directory_path)
-        write_log(f"{name}文件夹已删除")
+        write_log(f"{name}抛弃文件夹已删除")
 
     folder_names = [
         folder
