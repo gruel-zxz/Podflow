@@ -343,6 +343,7 @@ class bottle_app:
         if not upload_file:
             # 打印错误信息并返回错误码
             self.print_out("upload", 404)
+            upload_file.file.close()
             return {
                 "code": -4,
                 "message": "No File Provided",  # 没有上传文件
@@ -353,6 +354,7 @@ class bottle_app:
         uploadfile_hash = build_hash(uploadfile)
         if upload_hash != uploadfile_hash:
             self.print_out("upload", 401)
+            upload_file.file.close()
             return {
                 "code": -5,
                 "message": "Incomplete File",  # 文件不完整
@@ -361,6 +363,7 @@ class bottle_app:
         if not channelid:
             # 打印错误信息并返回错误码
             self.print_out("upload", 404)
+            upload_file.file.close()
             return {
                 "code": -6,
                 "message": "ChannelId Does Not Exist",  # 频道ID不存在
@@ -371,6 +374,7 @@ class bottle_app:
         suffix = filename.split(".")[1]
         if suffix not in ["mp4", "m4a"]:
             self.print_out("upload", 404)
+            upload_file.file.close()
             return {
                 "code": -7,
                 "message": "File Format Error",  # 文件格式错误
@@ -389,6 +393,7 @@ class bottle_app:
                     original_file.seek(0)
                     if upload_hash == build_hash(original_file):
                         self.print_out("upload", 200)
+                        upload_file.file.close()
                         return {
                             "code": 1,
                             "message": "The Same File Exists",  # 相同文件已存在
@@ -403,6 +408,7 @@ class bottle_app:
                 file_save(uploadfile, filename, address, True)
                 # 打印成功信息并返回成功码
                 self.print_out("upload", 200)
+                upload_file.file.close()
                 return {
                     "code": 0,
                     "message": "Upload Success",  # 上传成功

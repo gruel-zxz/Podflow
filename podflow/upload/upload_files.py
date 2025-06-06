@@ -92,11 +92,14 @@ def record_upload(username, password, channelid, filename):
                     gVar.upload_original[index]["hash"] = hashs
                     gVar.upload_original[index]["filename"] = filename
         if code == 0:
-            bottle_text = f"{now_time}|{channelname}/{name}|\033[32m上传成功\033[0m"
+            bottle_text = "\033[32m上传成功\033[0m"
+        elif code == 1:
+            bottle_text = f"\033[33m上传成功\033[0m: {result.get(code, message)}"
         else:
-            bottle_text = f"{now_time}|{channelname}/{name}|\033[33m上传成功\033[0m: {result.get(code, message)}"
+            bottle_text = f"\033[31m上传失败\033[0m: {result.get(code, message)}"
     else:
-        bottle_text = f"{now_time}|{channelname}/{name}|\033[31m上传失败\033[0m: {result.get(code, message)}"
+        bottle_text = "\033[31m上传失败\033[0m: 网络连接失败"
+    bottle_text = f"{now_time}|{channelname}/{name}|" + bottle_text
     bottle_app_instance.bottle_print.append(bottle_text)
     gVar.index_message["http"].append(ansi_to_html(bottle_text))
     bottle_app_instance.cherry_print(False)
