@@ -16,15 +16,21 @@ def get_and_duild():
 
 
 # 下载并构建YouTube和哔哩哔哩视频模块
-def download_and_build():
+def download_and_build(upload_url):
     thread_download = threading.Thread(target=youtube_and_bilibili_download)
     thread_build = threading.Thread(target=get_and_duild)
-    thread_upload = threading.Thread(target=all_upload)
+    if upload_url:
+        thread_upload = threading.Thread(
+            target=all_upload,
+            args=(upload_url,)
+        )
 
     thread_download.start()
     thread_build.start()
-    thread_upload.start()
+    if upload_url:
+        thread_upload.start()
 
     thread_download.join()
     thread_build.join()
-    thread_upload.join()
+    if upload_url:
+        thread_upload.join()

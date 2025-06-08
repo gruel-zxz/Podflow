@@ -15,8 +15,13 @@ def file_save(content, file_name, folder=None, binary=False):
         file_path = os.path.join(os.getcwd(), file_name)
     # 保存文件
     if binary:
-        with open(file_path, "wb") as file:
-            file.write(content.read())
+        # 使用分块读取和写入的方式处理二进制文件
+        with open(file_path, "wb") as dest_file:
+            while True:
+                chunk = content.read(8192)  # 每次读取 8KB 的数据
+                if not chunk:
+                    break  # 读取完毕
+                dest_file.write(chunk)
     else:
         with open(file_path, "w", encoding="utf-8") as file:
             # 如果文件名中包含"."且文件类型为json，则将内容以json格式保存

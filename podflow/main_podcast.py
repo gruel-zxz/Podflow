@@ -190,7 +190,7 @@ def main_podcast():
             # 暂停进程打印
             gVar.server_process_print_flag[0] = "pause"
             # 下载并构建YouTube和哔哩哔哩视频
-            download_and_build()
+            download_and_build(upload_url)
             progress_update(0.8)
             # 添加新媒体至上传列表
             add_upload()

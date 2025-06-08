@@ -314,108 +314,126 @@ class bottle_app:
 
     # 文件上传处理请求
     def upload(self):
-        # 获取上传数据配置(存储用户名和密码)
-        upload_data = gVar.upload_data
-        # 从请求参数中获取用户名，默认为空字符串
-        username = request.query.get("username", "")
-        # 从请求参数中获取密码，默认为空字符串
-        password = request.query.get("password", "")
-        upload_hash = request.query.get("hash", "")
-        channelid = request.query.get("channel_id", "")
+        # 初始化 upload_file 为 None，以便在 finally 块中安全检查
+        upload_file = None
+        try:
+            # 获取上传数据配置(存储用户名和密码)
+            upload_data = gVar.upload_data
+            # 从请求参数中获取用户名，默认为空字符串
+            username = request.query.get("username", "")
+            # 从请求参数中获取密码，默认为空字符串
+            password = request.query.get("password", "")
+            upload_hash = request.query.get("hash", "")
+            channelid = request.query.get("channel_id", "")
 
-        # 验证用户是否存在
-        if username not in upload_data:
-            self.print_out("login", 401)
-            return {
-                "code": -2,
-                "message": "Username Error",  # 用户名错误
-            }
-        # 验证密码是否正确
-        if upload_data[username] != password:
-            self.print_out("login", 401)
-            return {
-                "code": -3,
-                "message": "Password Error",  # 密码错误
-            }
-        # 从请求中获取上传的文件对象
-        upload_file = request.files.get("file")
-        # 检查是否有文件被上传
-        if not upload_file:
-            # 打印错误信息并返回错误码
-            self.print_out("upload", 404)
-            upload_file.file.close()
-            return {
-                "code": -4,
-                "message": "No File Provided",  # 没有上传文件
-            }
-        # 判断文件是否完整
-        uploadfile = upload_file.file
-        uploadfile.seek(0)
-        uploadfile_hash = build_hash(uploadfile)
-        if upload_hash != uploadfile_hash:
-            self.print_out("upload", 401)
-            upload_file.file.close()
-            return {
-                "code": -5,
-                "message": "Incomplete File",  # 文件不完整
-                "hash": uploadfile_hash,
-            }
-        if not channelid:
-            # 打印错误信息并返回错误码
-            self.print_out("upload", 404)
-            upload_file.file.close()
-            return {
-                "code": -6,
-                "message": "ChannelId Does Not Exist",  # 频道ID不存在
-            }
-        # 获取上传文件的原始文件名
-        filename = upload_file.filename
-        name = filename.split(".")[0]
-        suffix = filename.split(".")[1]
-        if suffix not in ["mp4", "m4a"]:
-            self.print_out("upload", 404)
-            upload_file.file.close()
-            return {
-                "code": -7,
-                "message": "File Format Error",  # 文件格式错误
-            }
-        address = f"channel_audiovisual/{channelid}"
-        if os.path.exists(address):
-            file_list = os.listdir(address)
-        else:
-            file_list = []
-        num = 0
-        while True:
-            if num != 0:
-                filename = f"{name}.{num}.{suffix}"
-            if filename in file_list:
-                with open(f"{address}/{filename}", "rb") as original_file:
-                    original_file.seek(0)
-                    if upload_hash == build_hash(original_file):
-                        self.print_out("upload", 200)
-                        upload_file.file.close()
-                        return {
-                            "code": 1,
-                            "message": "The Same File Exists",  # 相同文件已存在
-                            "data": {
-                                "filename": filename,
-                            },
-                        }
-                    num += 1
-            else:
-                folder_build(channelid, "channel_audiovisual")
-                uploadfile.seek(0)
-                file_save(uploadfile, filename, address, True)
-                # 打印成功信息并返回成功码
-                self.print_out("upload", 200)
-                upload_file.file.close()
+            # 验证用户是否存在
+            if username not in upload_data:
+                self.print_out("login", 401)
                 return {
-                    "code": 0,
-                    "message": "Upload Success",  # 上传成功
-                    "data": {
-                        "filename": filename,
-                    },
+                    "code": -2,
+                    "message": "Username Error",  # 用户名错误
                 }
+            # 验证密码是否正确
+            if upload_data[username] != password:
+                self.print_out("login", 401)
+                return {
+                    "code": -3,
+                    "message": "Password Error",  # 密码错误
+                }
+            # 从请求中获取上传的文件对象
+            upload_file = request.files.get("file")
+            # 检查是否有文件被上传
+            if not upload_file:
+                # 打印错误信息并返回错误码
+                self.print_out("upload", 404)
+                return {
+                    "code": -4,
+                    "message": "No File Provided",  # 没有上传文件
+                }
+
+            # 获取实际的文件句柄
+            uploadfile_obj = upload_file.file
+
+            # 判断文件是否完整
+            uploadfile_obj.seek(0) # 确保从文件开头计算哈希
+            uploadfile_hash = build_hash(uploadfile_obj)
+            if upload_hash != uploadfile_hash:
+                self.print_out("upload", 401)
+                return {
+                    "code": -5,
+                    "message": "Incomplete File",  # 文件不完整
+                    "hash": uploadfile_hash,
+                }
+            if not channelid:
+                # 打印错误信息并返回错误码
+                self.print_out("upload", 404)
+                return {
+                    "code": -6,
+                    "message": "ChannelId Does Not Exist",  # 频道ID不存在
+                }
+            # 获取上传文件的原始文件名
+            filename = upload_file.filename
+            # 安全地分割文件名和后缀
+            parts = filename.rsplit(".", 1)
+            name = parts[0]
+            suffix = parts[1].lower() if len(parts) > 1 else "" # 转换为小写以便比较
+
+            if suffix not in ["mp4", "m4a"]:
+                self.print_out("upload", 404)
+                return {
+                    "code": -7,
+                    "message": "File Format Error",  # 文件格式错误
+                }
+            address = f"channel_audiovisual/{channelid}"
+            file_list = os.listdir(address) if os.path.exists(address) else []
+            num = 0
+            while True:
+                # 构建当前尝试的文件名
+                current_filename = f"{name}.{suffix}" if num == 0 else f"{name}.{num}.{suffix}"
+                full_target_path = os.path.join(os.getcwd(), address, current_filename) # 完整的保存路径
+
+                if current_filename in file_list:
+                    # 如果文件名已存在，检查是否是相同文件
+                    # 再次检查文件是否存在于磁盘，以防在列表检查后文件被删除
+                    if os.path.exists(full_target_path):
+                        with open(full_target_path, "rb") as original_file:
+                            original_file.seek(0)
+                            if upload_hash == build_hash(original_file):
+                                self.print_out("upload", 200)
+                                return {
+                                    "code": 1,
+                                    "message": "The Same File Exists",  # 相同文件已存在
+                                    "data": {
+                                        "filename": current_filename,
+                                    },
+                                }
+                    num += 1 # 如果哈希不同，尝试下一个文件名
+                else:
+                    # 文件名不存在，可以保存
+                    folder_build(channelid, "channel_audiovisual") # 确保目标文件夹存在
+                    uploadfile_obj.seek(0) # 再次重置文件指针到开头，准备写入
+                    file_save(uploadfile_obj, current_filename, address, True) # 传递文件对象
+                    # 打印成功信息并返回成功码
+                    self.print_out("upload", 200)
+                    return {
+                        "code": 0,
+                        "message": "Upload Success",  # 上传成功
+                        "data": {
+                            "filename": current_filename,
+                        },
+                    }
+        except Exception as e:
+            # 捕获所有其他可能的异常
+            self.print_out("upload", 500)
+            return {
+                "code": -99,
+                "message": f"Server Error: {str(e)}", # 将异常信息返回给客户端
+            }
+        finally:
+            # 无论函数如何退出（正常返回或抛出异常），都会执行此块
+            if upload_file and hasattr(upload_file, 'file') and not upload_file.file.closed:
+                upload_file.file.close()
+
 
     def serve_template_file(self, filepath):
         template_dir = pkg_resources.resource_filename("podflow", "templates")
