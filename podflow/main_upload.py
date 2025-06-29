@@ -1,6 +1,7 @@
 # podflow/main_upload.py
 # coding: utf-8
 
+import os
 import sys
 import cherrypy
 from podflow.upload.login import get_login
@@ -15,6 +16,11 @@ def main_upload():
     folder_build("channel_audiovisual")
     # 构建文件夹channel_data
     folder_build("channel_data")
+    # 在程序启动时设置 TMPDIR 环境变量
+    new_tmp_dir = os.path.join(os.getcwd(), "tmp")
+    os.makedirs(new_tmp_dir, exist_ok=True) # 确保目录存在
+    os.environ['TMPDIR'] = new_tmp_dir
+    time_print(f"临时文件目录已设置为: {os.environ['TMPDIR']}")
     # 获取账号密码
     get_login()
     # 服务发现相关配置

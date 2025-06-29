@@ -17,6 +17,7 @@ def http_client(
     data=None,
     mode="get",
     file=None,
+    mistake=False,
 ):
     user_agent = {
         "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36"
@@ -41,7 +42,7 @@ def http_client(
             "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",
         }
         user_agent |= headers_douyin
-    err = None  # 初始化 err 变量
+    err = ""  # 初始化 err 变量
     response = None  # 初始化 response 变量
     # 创建一个Session对象
     session = requests.Session()
@@ -64,16 +65,26 @@ def http_client(
             response.raise_for_status()
         except Exception as http_get_error:
             if response is not None and response.status_code in {404}:
-                return response
+                if mistake:
+                    return response, err
+                else:
+                    return response
             if name:
                 time_print(f"{name}|\033[31m连接异常重试中...\033[97m{num + 1}\033[0m")
             if err:
-                err = f"{err}\n{str(http_get_error)}"
+                if err.split('\n')[-1] != str(http_get_error):
+                    err = f"{err}\n{str(http_get_error)}"
             else:
                 err = f":\n{str(http_get_error)}"
         else:
-            return response
+            if mistake:
+                return response, err
+            else:
+                return response
         time.sleep(retry_delay)
     if name:
         time_print(f"{name}|\033[31m达到最大重试次数\033[97m{max_retries}\033[0m{err}")
-    return response
+    if mistake:
+        return response, err
+    else:
+        return response

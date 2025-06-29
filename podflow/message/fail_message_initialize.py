@@ -140,6 +140,11 @@ error_reason = [
         "regexp",
     ],
     [
+        r"Got error: HTTPSConnectionPool\(host='rr[0-9]---sn-.{8}\.googlevideo.com', port=443\): Read timed out\.",
+        "\033[31m响应超时\033[0m",
+        "regexp",
+    ],
+    [
         r"Requested format is not available. Use --list-formats for a list of available formats",
         "\033[31m格式不可用\033[0m",
         "text",
@@ -152,6 +157,26 @@ error_reason = [
     [
         r"Got error: \<urllib3\.connection\.HTTPSConnection object at .{18}\>: Failed to resolve \'rr5---sn-a5msenek\.googlevideo\.com\' \(\[Errno 11001\] getaddrinfo failed\)",
         "\033[31m无法解析\033[0m",
+        "regexp",
+    ],
+    [
+        r"An extractor error has occurred. (caused by KeyError('bvid')); please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U",
+        "\033[31m提取错误\033[0m",
+        "text",
+    ],
+    [
+        r"Unable to download JSON metadata: HTTP Error 504: Gateway Time-out (caused by <HTTPError 504: Gateway Time-out>)",
+        "\033[31m网关超时\033[0m",
+        "text",
+    ],
+    [
+        r"Got error: HTTPSConnectionPool\(host='.+\.mcdn\.bilivideo\.cn', port=8082\): Read timed out\. \(read timeout=20\.0\)",
+        "\033[31m响应超时\033[0m",
+        "regexp",
+    ],
+    [
+        r"Got error: \<urllib3\.connection\.HTTPSConnection object at .{18}\>: Failed to establish a new connection: \[WinError 10061\] 由于目标计算机积极拒绝，无法连接。"
+        "\033[31m链接拒绝\033[0m",
         "regexp",
     ],
 ]

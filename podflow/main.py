@@ -14,7 +14,7 @@ def main():
     parse_arguments()
     # 开始运行
     if parse.upload:
-        time_print("Podflow|{version('Podflow')} 接收开始运行...")
+        time_print(f"Podflow|{version('Podflow')} 接收开始运行...")
         reverse_log("upload")
         main_upload()
     else:

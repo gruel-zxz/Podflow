@@ -7,6 +7,9 @@ from podflow import gVar
 
 # 添加新媒体至上传列表模块
 def add_upload():
+    # 如果没有开启上传功能，则直接返回
+    if not gVar.config["upload"]:
+        return
     # 获取video_id_update_format和video_id_failed的值
     video_id_update_format = gVar.video_id_update_format
     video_id_failed = gVar.video_id_failed

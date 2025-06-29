@@ -22,24 +22,18 @@ from podflow.httpfs.app_bottle import bottle_app_instance
 
 # 下载和视频处理模块
 from podflow.ffmpeg_judge import ffmpeg_judge
-from podflow.download.delete_part import delete_part
-from podflow.download_and_build import download_and_build
+from podflow.run_and_upload import run_and_upload
 
 # RSS 和消息处理模块
 from podflow.message.save_rss import save_rss
 from podflow.message.get_original_rss import get_original_rss
-from podflow.message.get_video_format import get_video_format
-from podflow.message.optimize_download import optimize_download
 from podflow.message.original_rss_fail_print import original_rss_fail_print
-from podflow.message.update_information_display import update_information_display
-from podflow.message.update_youtube_bilibili_rss import update_youtube_bilibili_rss
 
 # 登录模块
 from podflow.bilibili.login import get_bilibili_data
 from podflow.youtube.login import get_youtube_cookie
 
 # 配置和图标模块
-from podflow.config.channge_icon import channge_icon
 from podflow.config.build_original import build_original
 
 # 制作和修改文件模块
@@ -51,6 +45,7 @@ from podflow.makeup.make_up_file_format_mod import make_up_file_format_mod
 # 移除模块
 from podflow.remove.remove_dir import remove_dir
 from podflow.remove.remove_file import remove_file
+from podflow.remove.remove_flush import remove_flush
 
 # 处理 YouTube 信息模块
 from podflow.youtube.build import print_fail_youtube
@@ -139,59 +134,13 @@ def main_podcast():
         bottle_app_instance.cherry_print()
         # 登陆上传服务器
         if upload_url:
-            upload_json = login_upload(upload_url)
-            if upload_json:
-                gVar.upload_json = upload_json
-            else:
-                gVar.config["upload"] = False
-        else:
-            gVar.config["upload"] = False
+            gVar.upload_json = login_upload(upload_url)
         progress_update(0.035, num=0.0024)
         # 初始化原始上传信息
         get_upload_original()
         progress_update(0.04)
-        # 更新Youtube和哔哩哔哩频道xml
-        update_youtube_bilibili_rss()
-        progress_update(0.1)
-        # 判断是否有更新内容
-        if gVar.channelid_youtube_ids_update or gVar.channelid_bilibili_ids_update:
-            gVar.update_generate_rss = True
+        run_and_upload(upload_url)
         if gVar.update_generate_rss:
-            # 根据日出日落修改封面(只适用原封面)
-            channge_icon()
-            progress_update(0.11, num=0.0049)
-            # 输出需要更新的信息
-            update_information_display(
-                gVar.channelid_youtube_ids_update,
-                gVar.youtube_content_ytid_update,
-                gVar.youtube_content_ytid_backward_update,
-                "YouTube",
-            )
-            update_information_display(
-                gVar.channelid_bilibili_ids_update,
-                gVar.bilibili_content_bvid_update,
-                gVar.bilibili_content_bvid_backward_update,
-                "BiliBili",
-            )
-            progress_update(0.12)
-            # 暂停进程打印
-            gVar.server_process_print_flag[0] = "pause"
-            # 获取视频格式信息
-            get_video_format()
-            progress_update(0.199)
-            # 恢复进程打印
-            bottle_app_instance.cherry_print()
-            # 优化下载顺序
-            optimize_download()
-            # 删除中断下载的媒体文件
-            if gVar.config["delete_incompletement"]:
-                delete_part(gVar.channelid_youtube_ids | gVar.channelid_bilibili_ids)
-            progress_update(0.20, refresh=2)
-            # 暂停进程打印
-            gVar.server_process_print_flag[0] = "pause"
-            # 下载并构建YouTube和哔哩哔哩视频
-            download_and_build(upload_url)
-            progress_update(0.8)
             # 添加新媒体至上传列表
             add_upload()
             progress_update(0.81, num=0.0049)
@@ -243,6 +192,8 @@ def main_podcast():
             # 更新并保存上传列表
             update_upload()
             progress_update(1, refresh=3)
+            # 清理缓存文件
+            remove_flush(upload_url)
         else:
             time_print("频道无更新内容")
         # 清空变量内数据
@@ -267,6 +218,7 @@ def main_podcast():
         gVar.overall_rss = ""  # 更新后的rss文本
         gVar.make_up_file_format.clear()  # 补全缺失媒体字典
         gVar.make_up_file_format_fail.clear()  # 补全缺失媒体失败字典
+        gVar.upload_original.clear()  # 原始上传信息字典
         # 将需要更新转为否
         gVar.update_generate_rss = False
         if parse.update_num != -1:
