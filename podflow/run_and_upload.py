@@ -61,17 +61,17 @@ def find_and_duild():
 
 # 运行并上传模块
 def run_and_upload(upload_url):
-    thread_find_and_duild = threading.Thread(target=find_and_duild)
     if upload_url:
+        thread_find_and_duild = threading.Thread(target=find_and_duild)
         thread_upload = threading.Thread(
             target=all_upload,
             args=(upload_url,)
         )
 
-    thread_find_and_duild.start()
-    if upload_url:
+        thread_find_and_duild.start()
         thread_upload.start()
 
-    thread_find_and_duild.join()
-    if upload_url:
+        thread_find_and_duild.join()
         thread_upload.join()
+    else:
+        find_and_duild()
