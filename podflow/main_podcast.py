@@ -5,6 +5,7 @@ import sys
 import json
 import time
 import urllib
+import threading
 import subprocess
 
 import cherrypy
@@ -22,18 +23,24 @@ from podflow.httpfs.app_bottle import bottle_app_instance
 
 # 下载和视频处理模块
 from podflow.ffmpeg_judge import ffmpeg_judge
-from podflow.run_and_upload import run_and_upload
+from podflow.download.delete_part import delete_part
+from podflow.download_and_build import download_and_build
 
 # RSS 和消息处理模块
 from podflow.message.save_rss import save_rss
 from podflow.message.get_original_rss import get_original_rss
+from podflow.message.get_video_format import get_video_format
+from podflow.message.optimize_download import optimize_download
 from podflow.message.original_rss_fail_print import original_rss_fail_print
+from podflow.message.update_information_display import update_information_display
+from podflow.message.update_youtube_bilibili_rss import update_youtube_bilibili_rss
 
 # 登录模块
 from podflow.bilibili.login import get_bilibili_data
 from podflow.youtube.login import get_youtube_cookie
 
 # 配置和图标模块
+from podflow.config.channge_icon import channge_icon
 from podflow.config.build_original import build_original
 
 # 制作和修改文件模块
@@ -53,6 +60,7 @@ from podflow.youtube.build import print_fail_youtube
 # 长期媒体进行上传模块
 from podflow.upload.login import login_upload
 from podflow.upload.add_upload import add_upload
+from podflow.upload.upload_files import all_upload
 from podflow.upload.update_upload import update_upload
 from podflow.upload.linked_client import connect_upload_server
 from podflow.upload.get_upload_original import get_upload_original
@@ -139,8 +147,62 @@ def main_podcast():
         # 初始化原始上传信息
         get_upload_original()
         progress_update(0.04)
-        run_and_upload(upload_url)
+        
+        # 如果有上传服务器，则启动上传线程
+        if upload_url:
+            thread_upload = threading.Thread(
+                target=all_upload,
+                args=(upload_url,)
+            )
+            thread_upload.start()
+        
+        # 更新Youtube和哔哩哔哩频道xml
+        update_youtube_bilibili_rss()
+        progress_update(0.1)
+        # 判断是否有更新内容
+        if gVar.channelid_youtube_ids_update or gVar.channelid_bilibili_ids_update:
+            gVar.update_generate_rss = True
         if gVar.update_generate_rss:
+            # 根据日出日落修改封面(只适用原封面)
+            channge_icon()
+            progress_update(0.11, num=0.0049)
+            # 输出需要更新的信息
+            update_information_display(
+                gVar.channelid_youtube_ids_update,
+                gVar.youtube_content_ytid_update,
+                gVar.youtube_content_ytid_backward_update,
+                "YouTube",
+            )
+            update_information_display(
+                gVar.channelid_bilibili_ids_update,
+                gVar.bilibili_content_bvid_update,
+                gVar.bilibili_content_bvid_backward_update,
+                "BiliBili",
+            )
+            progress_update(0.12)
+            # 暂停进程打印
+            gVar.server_process_print_flag[0] = "pause"
+            # 获取视频格式信息
+            get_video_format()
+            progress_update(0.199)
+            # 恢复进程打印
+            bottle_app_instance.cherry_print()
+            # 优化下载顺序
+            optimize_download()
+            # 删除中断下载的媒体文件
+            if gVar.config["delete_incompletement"]:
+                delete_part(gVar.channelid_youtube_ids | gVar.channelid_bilibili_ids)
+            progress_update(0.20, refresh=2)
+            # 暂停进程打印
+            gVar.server_process_print_flag[0] = "pause"
+            # 下载并构建YouTube和哔哩哔哩视频
+            download_and_build()
+            progress_update(0.8)
+            
+            # 如果有上传服务器，则等待上传线程完成
+            if upload_url:
+                thread_upload.join()
+            
             # 添加新媒体至上传列表
             add_upload()
             progress_update(0.81, num=0.0049)
@@ -195,6 +257,12 @@ def main_podcast():
             # 清理缓存文件
             remove_flush(upload_url)
         else:
+            
+            # 如果没有更新内容，则停止上传线程
+            gVar.upload_stop = True 
+            if upload_url:
+                thread_upload.join()
+            
             time_print("频道无更新内容")
         # 清空变量内数据
         gVar.channelid_youtube_ids_update.clear()  # 需更新的YouTube频道字典
