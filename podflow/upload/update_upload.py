@@ -22,15 +22,21 @@ def update_upload():
     upload_original = gVar.upload_original
     # 获取所有项目
     all_items = gVar.all_items
+    # 获取原始 XML 数据
+    xmls_original = gVar.xmls_original
+    # 获取无法更新channel_id
+    fail_upload_parts = list(set(xmls_original.keys()) - set(all_items.keys()))
     # 遍历所有项目，获取每个输出目录的媒体名称
     for output_dir, items_dict in all_items.items():
         media_name[output_dir] = get_media_name(items_dict["type"], items_dict["items"])
     # 遍历原始上传列表，筛选出需要上传的媒体部分
     for upload_part in upload_original:
         if (
-            upload_part["channel_id"] in media_name
-            and upload_part["media_id"] in media_name[upload_part["channel_id"]]
-        ):
+            (
+                upload_part["channel_id"] in media_name
+                and upload_part["media_id"] in media_name[upload_part["channel_id"]]
+            )
+            or upload_part["channel_id"] in fail_upload_parts):
             main_upload.append(upload_part)
 
     # 获取需要上传的媒体部分的ID

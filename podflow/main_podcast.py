@@ -72,17 +72,17 @@ def main_podcast():
     # 初始化
     build_original()
     # http共享
-    port = gVar.config.get("port", 8000) # 使用 .get 获取端口
+    port = gVar.config.get("port", 8000)  # 使用 .get 获取端口
     hostip = "0.0.0.0"
 
-    if port_judge(hostip, port): # 假设 port_judge 存在
+    if port_judge(hostip, port):  # 假设 port_judge 存在
         # 设置路由 (确保此时 gVar.config 等已就绪)
-        bottle_app_instance.setup_routes(upload=False) # 或者根据需要设置为 True
+        bottle_app_instance.setup_routes(upload=False)  # 或者根据需要设置为 True
 
         # 设置logname
         bottle_app_instance.set_logname(
             logname="httpfs.log",
-            http_fs=gVar.config.get("httpfs", False), # 使用 .get
+            http_fs=gVar.config.get("httpfs", False),  # 使用 .get
         )
 
         # 启动 CherryPy 服务器
@@ -99,7 +99,7 @@ def main_podcast():
                     "log.access_file": "",  # 关闭访问日志
                     "log.error_file": "",  # 关闭错误日志
                     # 添加线程池配置，对于长连接 (SSE) 可能有帮助
-                    'server.thread_pool': 30 # 示例值，根据需要调整
+                    "server.thread_pool": 30,  # 示例值，根据需要调整
                 }
             }
         )
@@ -122,7 +122,7 @@ def main_podcast():
         gVar.server_process_print_flag[0] = "pause"
         # 获取YouTube cookie
         gVar.youtube_cookie = get_youtube_cookie(gVar.channelid_youtube_ids_original)
-        progress_update(0.01 ,num=0.0049)
+        progress_update(0.01, num=0.0049)
         # 更新哔哩哔哩data
         gVar.channelid_bilibili_ids, gVar.bilibili_data = get_bilibili_data(
             gVar.channelid_bilibili_ids_original
@@ -131,7 +131,9 @@ def main_podcast():
         # 恢复进程打印
         bottle_app_instance.cherry_print()
         # 获取原始xml字典和rss文本
-        gVar.xmls_original, gVar.hash_rss_original, gVar.xmls_original_fail  = get_original_rss()
+        gVar.xmls_original, gVar.hash_rss_original, gVar.xmls_original_fail = (
+            get_original_rss()
+        )
         progress_update(0.025, num=-0.0024)
         # 暂停进程打印
         gVar.server_process_print_flag[0] = "pause"
@@ -147,15 +149,10 @@ def main_podcast():
         # 初始化原始上传信息
         get_upload_original()
         progress_update(0.04)
-        
         # 如果有上传服务器，则启动上传线程
         if upload_url:
-            thread_upload = threading.Thread(
-                target=all_upload,
-                args=(upload_url,)
-            )
+            thread_upload = threading.Thread(target=all_upload, args=(upload_url,))
             thread_upload.start()
-        
         # 更新Youtube和哔哩哔哩频道xml
         update_youtube_bilibili_rss()
         progress_update(0.1)
@@ -198,11 +195,9 @@ def main_podcast():
             # 下载并构建YouTube和哔哩哔哩视频
             download_and_build()
             progress_update(0.8)
-            
             # 如果有上传服务器，则等待上传线程完成
             if upload_url:
                 thread_upload.join()
-            
             # 添加新媒体至上传列表
             add_upload()
             progress_update(0.81, num=0.0049)
@@ -257,12 +252,10 @@ def main_podcast():
             # 清理缓存文件
             remove_flush(upload_url)
         else:
-            
             # 如果没有更新内容，则停止上传线程
-            gVar.upload_stop = True 
+            gVar.upload_stop = True
             if upload_url:
                 thread_upload.join()
-            
             time_print("频道无更新内容")
         # 清空变量内数据
         gVar.channelid_youtube_ids_update.clear()  # 需更新的YouTube频道字典
