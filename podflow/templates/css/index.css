@@ -239,6 +239,20 @@ button:hover {
   color: var(--button-hover);
 }
 
+/* 版本号样式 */
+#version-info {
+  position: fixed; /* 固定定位，相对于视口 */
+  top: 10px;    /* 距离底部 10px */
+  right: 10px;     /* 距离右侧 10px */
+  font-size: 12px; /* 字体大小 */
+  color: var(--secondary-text); /* 使用定义的次要文本颜色 */
+  background-color: var(--bg-color); /* 背景颜色，确保在不同模式下可见 */
+  padding: 5px 8px; /* 内边距 */
+  border-radius: 5px; /* 圆角 */
+  z-index: 1001; /* 确保在其他内容之上 */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 轻微的阴影效果 */
+}
+
 /* 手机端优化 */
 @media (max-width: 600px) {
   #messageArea, textarea {
@@ -254,6 +268,12 @@ button:hover {
   body, html {
     width: 100%;
     overflow-x: hidden;
+  }
+  #version-info {
+    top: 5px; /* 在手机上可以更靠近底部 */
+    right: 5px;  /* 在手机上可以更靠近右侧 */
+    font-size: 10px; /* 手机上字体可以更小 */
+    padding: 3px 6px;
   }
 }
 .message {
