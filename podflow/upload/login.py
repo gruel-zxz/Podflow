@@ -20,6 +20,12 @@ def get_login():
         gVar.upload_data = json.loads(upload_data)
     except Exception:
         file_save(gVar.upload_data, "upload_login.json", "channel_data")
+    try:
+        with open("channel_data/upload_message.json", "r") as file:
+            upload_message = file.read()
+        gVar.upload_message = json.loads(upload_message)
+    except Exception:
+        file_save(gVar.upload_message, "upload_message.json", "channel_data")
 
 
 def create():

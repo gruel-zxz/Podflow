@@ -117,10 +117,11 @@ class Application_gVar:
         self.make_up_file_format = {}  # 补全缺失媒体字典
         self.make_up_file_format_fail = {}  # 补全缺失媒体失败字典
 
-        self.upload_original = []  # 原始上传信息字典
+        self.upload_original = []  # 原始上传信息列表
         self.upload_data = {}  # 上传用户账号密码字典
         self.upload_json = {}  # 上传登陆账号密码字典
         self.upload_stop = False  # 上传停止布尔值
+        self.upload_message = []  # 上传用户媒体信息列表
 
         self.shortcuts_url = {}  # 输出至shortcut的url字典
 

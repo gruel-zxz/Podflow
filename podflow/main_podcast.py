@@ -279,7 +279,7 @@ def main_podcast():
         gVar.overall_rss = ""  # 更新后的rss文本
         gVar.make_up_file_format.clear()  # 补全缺失媒体字典
         gVar.make_up_file_format_fail.clear()  # 补全缺失媒体失败字典
-        gVar.upload_original.clear()  # 原始上传信息字典
+        gVar.upload_original.clear()  # 原始上传信息列表
         # 将需要更新转为否
         gVar.update_generate_rss = False
         if parse.update_num != -1:

@@ -5,6 +5,7 @@ from podflow import gVar
 from podflow.upload.build_hash import build_hash
 from podflow.basic.http_client import http_client
 from podflow.httpfs.app_bottle import bottle_app_instance
+from podflow.upload.find_media_index import find_media_index
 
 
 # 上传文件模块
@@ -51,14 +52,6 @@ def upload_file(
             )
         return (response.json(), hashs, "") if response else (None, hashs, err)
     return None, hashs, ""
-
-
-# 查找位置模块
-def find_media_index(upload_original, target_media_id):
-    for index, item in enumerate(upload_original):
-        if item.get("media_id") == target_media_id:
-            return index  # 返回找到的索引
-    return -1
 
 
 # 过滤和排序上传媒体模块
