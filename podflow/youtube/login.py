@@ -1,6 +1,7 @@
 # podflow/youtube/login.py
 # coding: utf-8
 
+import shutil
 from podflow.basic.write_log import write_log
 from podflow.basic.time_print import time_print
 from podflow.basic.http_client import http_client
@@ -17,7 +18,7 @@ def get_youtube_cookie_fail(arg0):
 def get_youtube_cookie(channelid_youtube_ids):
     if not channelid_youtube_ids:
         return
-    youtube_cookie = get_cookie_dict("channel_data/yt_dlp_youtube.txt")
+    youtube_cookie = get_cookie_dict("channel_data/youtube_cookie.txt")
     if youtube_cookie is None:
         write_log("YouTube \033[31m获取cookie失败\033[0m")
         return None
@@ -27,6 +28,10 @@ def get_youtube_cookie(channelid_youtube_ids):
         html_content = response.text
         if '"LOGGED_IN":true' in html_content:
             time_print("YouTube \033[32m获取cookie成功\033[0m")
+            shutil.copyfile(
+                "channel_data/youtube_cookie.txt",
+                "channel_data/yt_dlp_youtube.txt",
+            )
             return youtube_cookie
         elif '"LOGGED_IN":false' in html_content:
             return get_youtube_cookie_fail("登陆YouTube失败")
