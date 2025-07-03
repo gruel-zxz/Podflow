@@ -21,6 +21,7 @@ from podflow.upload.time_key import check_time_key
 from podflow.basic.folder_build import folder_build
 from podflow.httpfs.get_channelid import get_channelid
 from podflow.basic.random_sequence import random_sequence
+from podflow.upload.store_users_info import store_users_info
 
 
 class bottle_app:
@@ -391,11 +392,23 @@ class bottle_app:
                     }
                 # 获取实际的文件句柄
                 uploadfile_obj = upload_file.file
+                # 去除临时文件模块
+                def close_file():
+                    if (
+                        upload_file
+                        and hasattr(upload_file, "file")
+                        and not upload_file.file.closed
+                    ):
+                        try:
+                            upload_file.file.close()
+                        except Exception:
+                            pass
                 # 判断文件是否完整
                 uploadfile_obj.seek(0)  # 确保从文件开头计算哈希
                 uploadfile_hash = build_hash(uploadfile_obj)
                 if upload_hash != uploadfile_hash:
                     self.print_out("upload", 401)
+                    close_file()
                     return {
                         "code": -5,
                         "message": "Incomplete File",  # 文件不完整
@@ -418,6 +431,8 @@ class bottle_app:
                                 original_file.seek(0)
                                 if upload_hash == build_hash(original_file):
                                     self.print_out("upload same", 200)
+                                    store_users_info(username,filename)
+                                    close_file()
                                     return {
                                         "code": 1,
                                         "message": "The Same File Exists",  # 相同文件已存在
@@ -437,6 +452,8 @@ class bottle_app:
                         )  # 传递文件对象
                         # 打印成功信息并返回成功码
                         self.print_out("upload", 200)
+                        store_users_info(username,filename)
+                        close_file()
                         return {
                             "code": 0,
                             "message": "Upload Success",  # 上传成功
@@ -458,7 +475,10 @@ class bottle_app:
                     and hasattr(upload_file, "file")
                     and not upload_file.file.closed
                 ):
-                    upload_file.file.close()
+                    try:
+                        upload_file.file.close()
+                    except Exception:
+                        pass
         else:
             num = 0
             while True:
@@ -475,6 +495,7 @@ class bottle_app:
                             original_file.seek(0)
                             if upload_hash == build_hash(original_file):
                                 self.print_out("upload same", 200)
+                                store_users_info(username,filename)
                                 return {
                                     "code": 1,
                                     "message": "The Same File Exists",  # 相同文件已存在
