@@ -25,7 +25,12 @@ def http_client(
     if "bilibili" in url:
         user_agent["Referer"] = "https://www.bilibili.com/"
     elif "youtube" in url:
-        user_agent["Referer"] = "https://www.youtube.com/"
+        headers_youtube ={
+            "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+            "Referer": "https://www.google.com/",
+            "Accept-Encoding": "gzip, deflate, br",
+        }
+        user_agent |= headers_youtube
     elif "douyin" in url:
         headers_douyin = {
             "authority": "sso.douyin.com",
