@@ -75,7 +75,7 @@ def read_text_file_full(filepath):
 
 
 def update_version():
-    address = "podflow/podflow/templates/index.html"
+    address = "podflow/templates/index.html"
     url = "https://raw.githubusercontent.com/gruel-zxz/Podflow/refs/heads/main/podflow/templates/index.html"  # 替换成你要获取的网页URL
     content = get_webpage_content(url)
     pattern = r"(?<=Version\: )[0-9]+\.[0-9]+\.[0-9]+"
