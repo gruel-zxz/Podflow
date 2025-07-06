@@ -35,9 +35,9 @@ from podflow.message.original_rss_fail_print import original_rss_fail_print
 from podflow.message.update_information_display import update_information_display
 from podflow.message.update_youtube_bilibili_rss import update_youtube_bilibili_rss
 
-# 登录模块
+# 登录与校验模块
 from podflow.bilibili.login import get_bilibili_data
-from podflow.youtube.login import get_youtube_cookie
+from podflow.youtube.check import check_youtube_cookie
 
 # 配置和图标模块
 from podflow.config.channge_icon import channge_icon
@@ -120,8 +120,8 @@ def main_podcast():
         progress_update(0, refresh=1)
         # 暂停进程打印
         gVar.server_process_print_flag[0] = "pause"
-        # 获取YouTube cookie
-        gVar.youtube_cookie = get_youtube_cookie(gVar.channelid_youtube_ids_original)
+        # 校验YouTube cookie
+        gVar.youtube_cookie = check_youtube_cookie(gVar.channelid_youtube_ids_original)
         progress_update(0.01, num=0.0049)
         # 更新哔哩哔哩data
         gVar.channelid_bilibili_ids, gVar.bilibili_data = get_bilibili_data(

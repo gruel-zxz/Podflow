@@ -1,11 +1,43 @@
 # podflow/youtube/login.py
 # coding: utf-8
 
+
+from http.cookiejar import LoadError, MozillaCookieJar
 from podflow.basic.write_log import write_log
 from podflow.basic.time_print import time_print
 from podflow.basic.http_client import http_client
-from podflow.netscape.get_cookie_dict import get_cookie_dict
-from podflow.netscape.update_netscape import update_netscape
+
+
+# 更新Netscape_HTTP_Cookie模块
+def update_netscape(response_cookies, file: str):
+    netscape_cookie_jar = MozillaCookieJar(file)
+    try:
+        netscape_cookie_jar.load(ignore_discard=True, ignore_expires=True)
+    except Exception:
+        return False
+    for cookie in response_cookies:
+        netscape_cookie_jar.set_cookie(cookie)
+    try:
+        netscape_cookie_jar.save(ignore_discard=True, ignore_expires=True)
+        return True
+    except Exception:
+        return False
+
+
+# 将Netscape转Dict模块
+def get_cookie_dict(file):
+    parts = file.split("/")
+    try:
+        # 加载Netscape格式的cookie文件
+        cookie_jar = MozillaCookieJar(file)
+        cookie_jar.load(ignore_discard=True)
+        return {cookie.name: cookie.value for cookie in cookie_jar}
+    except FileNotFoundError:
+        time_print(f"{parts[-1]}文件不存在")
+        return None
+    except LoadError:
+        time_print(f"{parts[-1]}文件错误")
+        return None
 
 
 def get_youtube_cookie_fail(arg0):
