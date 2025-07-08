@@ -194,6 +194,7 @@ def fail_message_initialize(message_error, video_url):
         .replace("[youtube] ", "")
         .replace("[download] ", "")
         .replace("[BiliBili] ", "")
+        .replace("[youtube:tab] ", "")
     )
     if video_url[:2] == "BV":
         fail_message = fail_message.replace(f"{video_url[2:]}: ", "")

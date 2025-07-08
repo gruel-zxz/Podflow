@@ -5,6 +5,7 @@ import os
 import yt_dlp
 from podflow.basic.write_log import write_log
 from podflow.basic.time_print import time_print
+from podflow.message.fail_message_initialize import fail_message_initialize
 
 
 # yt-dlp校验cookie模块
@@ -22,7 +23,8 @@ def yt_dlp_check(file, url):
         def info(self, msg):
             pass
         def error(self, msg):
-            pass
+            msg = fail_message_initialize(msg, "WL").ljust(48)
+            time_print(msg, Top=True, Time=False)
 
     ydl_opts = {
         "cookiefile": file,
