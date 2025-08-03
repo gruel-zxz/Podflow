@@ -12,6 +12,7 @@ import cherrypy
 
 # 基本功能模块
 from podflow import gVar, parse
+from podflow.basic.file_save import file_save
 from podflow.basic.split_dict import split_dict
 from podflow.basic.time_print import time_print
 
@@ -211,9 +212,9 @@ def main_podcast():
             progress_update(0.83, num=0.0049)
             if gVar.config["remove_media"]:
                 # 删除不在rss中的媒体文件
-                remove_file()
+                remove_file(upload_url)
                 # 删除已抛弃的媒体文件夹
-                remove_dir()
+                remove_dir(upload_url)
             progress_update(0.84)
             # 补全缺失媒体文件到字典
             make_up_file()
@@ -257,6 +258,12 @@ def main_podcast():
             if upload_url:
                 thread_upload.join()
             time_print("频道无更新内容")
+        # 保存需要的变量
+        if parse.save:
+            for save_data in parse.save:
+                file_data = getattr(gVar, save_data, None)
+                if file_data:
+                    file_save(file_data, f"{save_data}.json")
         # 清空变量内数据
         gVar.channelid_youtube_ids_update.clear()  # 需更新的YouTube频道字典
         gVar.youtube_content_ytid_update.clear()  # 需下载YouTube视频字典

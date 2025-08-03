@@ -73,6 +73,13 @@ def parse_arguments():
         action="store_true",
         help="Only upload server function, solely for LAN backup (applicable to iOS)",
     )
+    parser.add_argument(
+        "--save",
+        nargs="*",
+        type=str,
+        metavar="Variable",
+        help="Used during testing",
+    )
     parser.add_argument("--file", nargs="?", help=argparse.SUPPRESS)  # 仅运行在ipynb中
     # 解析参数
     args = parser.parse_args()
@@ -83,6 +90,7 @@ def parse_arguments():
     parse.httpfs = args.httpfs
     parse.upload = args.upload
     parse.index = args.index
+    parse.save = args.save
     # 检查并处理参数的状态
     if args.times is not None:
         parse.update_num = int(args.times[0])
