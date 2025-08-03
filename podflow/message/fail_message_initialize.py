@@ -170,14 +170,19 @@ error_reason = [
         "text",
     ],
     [
-        r"Got error: HTTPSConnectionPool\(host='.+\.mcdn\.bilivideo\.cn', port=8082\): Read timed out\. \(read timeout=20\.0\)",
+        r"Got error: HTTPSConnectionPool\(host='.+\.mcdn\.bilivideo\.cn', port=[0-9]{4}\): Read timed out\. \(read timeout=20\.0\)",
         "\033[31m响应超时\033[0m",
         "regexp",
     ],
     [
-        r"Got error: \<urllib3\.connection\.HTTPSConnection object at .{18}\>: Failed to establish a new connection: \[WinError 10061\] 由于目标计算机积极拒绝，无法连接。"
+        r"Got error: \<urllib3\.connection\.HTTPSConnection object at .{18}\>: Failed to establish a new connection: \[WinError 10061\] 由于目标计算机积极拒绝，无法连接。",
         "\033[31m链接拒绝\033[0m",
         "regexp",
+    ],
+    [
+        r"YouTube said: The playlist does not exist.",
+        "\033[31m播放列表不存在\033[0m",
+        "text",
     ],
 ]
 
