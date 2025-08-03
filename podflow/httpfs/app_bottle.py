@@ -21,6 +21,7 @@ from podflow.upload.time_key import check_time_key
 from podflow.basic.folder_build import folder_build
 from podflow.httpfs.get_channelid import get_channelid
 from podflow.basic.random_sequence import random_sequence
+from podflow.upload.find_media_index import find_media_index
 from podflow.upload.store_users_info import store_users_info
 
 
@@ -47,6 +48,7 @@ class bottle_app:
             self.app_bottle.route("/login", callback=self.login)
             self.app_bottle.route("/upload", method="POST", callback=self.upload)
             self.app_bottle.route("/flush", method="POST", callback=self.clear_cache)
+            self.app_bottle.route("/remove", method="POST", callback=self.remove)
         else:
             self.app_bottle.route("/index", callback=self.index)
             self.app_bottle.route("/getid", method="POST", callback=self.getid)
@@ -278,7 +280,7 @@ class bottle_app:
             self.print_out("newuser", 401)
             return {
                 "code": -1,
-                "message": "Unauthorized: Invalid Token",
+                "message": "Unauthorized: Invalid Token",  # 未经授权: 无效的 Token
             }
 
     # 路由处理登陆请求
@@ -357,6 +359,12 @@ class bottle_app:
                 "code": -6,
                 "message": "ChannelId Does Not Exist",  # 频道ID不存在
             }
+        if not filename:
+            self.print_out("upload", 404)
+            return {
+                "code": -14,
+                "message": "Filename Not Provided",  # 未提供文件名
+            }
         address = f"channel_audiovisual/{channelid}"
         file_list = os.listdir(address) if os.path.exists(address) else []
         # 安全地分割文件名和后缀
@@ -431,7 +439,7 @@ class bottle_app:
                                 original_file.seek(0)
                                 if upload_hash == build_hash(original_file):
                                     self.print_out("upload same", 200)
-                                    store_users_info(username,filename)
+                                    store_users_info(username, filename, channelid)
                                     close_file()
                                     return {
                                         "code": 1,
@@ -452,7 +460,7 @@ class bottle_app:
                         )  # 传递文件对象
                         # 打印成功信息并返回成功码
                         self.print_out("upload", 200)
-                        store_users_info(username,filename)
+                        store_users_info(username, filename, channelid)
                         close_file()
                         return {
                             "code": 0,
@@ -465,7 +473,7 @@ class bottle_app:
                 # 捕获所有其他可能的异常
                 self.print_out("upload", 500)
                 return {
-                    "code": -9,
+                    "code": -10,
                     "message": f"Server Error: {str(e)}",  # 将异常信息返回给客户端
                 }
             finally:
@@ -495,7 +503,7 @@ class bottle_app:
                             original_file.seek(0)
                             if upload_hash == build_hash(original_file):
                                 self.print_out("upload same", 200)
-                                store_users_info(username,filename)
+                                store_users_info(username, filename, channelid)
                                 return {
                                     "code": 1,
                                     "message": "The Same File Exists",  # 相同文件已存在
@@ -557,9 +565,154 @@ class bottle_app:
         else:
             self.print_out("flush", 404)
             return {
-                "code": -10,
-                "message": "Cache Does Not Exist",  # 频道ID不存在
+                "code": -12,
+                "message": "Cache Does Not Exist",  # 缓存不存在
             }
+
+    # 路由处理删除请求
+    def remove(self):
+        # 获取已上传数据
+        upload_message = gVar.upload_message
+        # 获取上传数据配置(存储用户名和密码)
+        upload_data = gVar.upload_data
+        # 从请求参数中获取用户名，默认为空字符串
+        username = request.query.get("username", "")
+        # 从请求参数中获取密码，默认为空字符串
+        password = request.query.get("password", "")
+        if username not in upload_data:
+            self.print_out("login", 401)
+            return {
+                "code": -2,
+                "message": "Username Error",  # 用户名错误
+                "error": None,
+            }
+        # 验证密码是否正确
+        if upload_data[username] != password:
+            self.print_out("login", 401)
+            return {
+                "code": -3,
+                "message": "Password Error",  # 密码错误
+                "error": None,
+            }
+        mode = request.query.get("mode", "")
+        if mode not in ["file", "folder"]:
+            self.print_out("remove", 404)
+            return {
+                "code": -13,
+                "message": "Invalid Mode",  # 无效的模式
+                "error": None,
+            }
+        channelid = request.query.get("channel_id", "")
+        if not channelid:
+            # 打印错误信息并返回错误码
+            self.print_out("remove", 404)
+            return {
+                "code": -6,
+                "message": "ChannelId Does Not Exist",  # 频道ID不存在
+                "error": None,
+            }
+        if mode == "file":
+            filename = request.query.get("filename", "")
+            if not filename:
+                self.print_out("remove", 404)
+                return {
+                    "code": -14,
+                    "message": "Filename Not Provided",  # 未提供文件名
+                    "error": None,
+                }
+            index = find_media_index(upload_message, filename, "mediaid")
+            if index == -1:
+                self.print_out("remove", 404)
+                return{
+                    "code": -15,
+                    "message": "File Not In Data",  # 文件不在数据中
+                    "error": None,
+                }
+            if upload_message[index]["channelid"] != channelid:
+                self.print_out("remove", 404)
+                return {
+                    "code": -16,
+                    "message": "ChannelId Mismatch",  # 频道ID不匹配
+                    "error": None,
+                }
+            userlist = upload_message[index]["users"]
+            if username not in userlist:
+                self.print_out("remove", 404)
+                return {
+                    "code": -17,
+                    "message": "User Not In List",  # 用户不在列表中
+                    "error": None,
+                }
+            try:
+                os.remove(f"channel_audiovisual/{channelid}/{filename}")
+            except FileNotFoundError:
+                self.print_out("remove", 404)
+                return {
+                    "code": -18,
+                    "message": "File Not Found",  # 文件未找到
+                    "error": None,
+                }
+            except Exception as e:
+                self.print_out("remove", 500)
+                return {
+                    "code": -19,
+                    "message": f"Error Removing File: {str(e)}",  # 删除文件错误
+                    "error": str(e),
+                }
+            if len(userlist) == 1:
+                # 如果用户列表中只有当前用户, 则删除该条记录
+                del upload_message[index]
+            else:
+                # 如果用户列表中有多个用户, 则移除当前用户
+                upload_message[index]["users"].remove(username)
+            self.print_out("remove", 200)
+            return {
+                "code": 4,
+                "message": "File Removed Successfully",  # 文件删除成功
+                "error": None,
+            }
+        else:
+            remove_num = 0
+            for item in upload_message:
+                userlist = item["users"]
+                if item["channelid"] == channelid and username in userlist:
+                    try:
+                        os.remove(f"channel_audiovisual/{channelid}/{item['mediaid']}")
+                        remove_num += 1
+                    except FileNotFoundError:
+                        self.print_out("remove", 404)
+                        return {
+                            "code": -18,
+                            "message": "File Not Found",  # 文件未找到
+                            "error": None,
+                        }
+                    except Exception as e:
+                        self.print_out("remove", 500)
+                        return {
+                            "code": -19,
+                            "message": f"Error Removing File: {str(e)}",  # 删除文件错误
+                            "error": str(e),
+                        }
+                    if len(userlist) == 1:
+                        # 如果用户列表中只有当前用户, 则删除该条记录
+                        del upload_message[index]
+                    else:
+                        # 如果用户列表中有多个用户, 则移除当前用户
+                        upload_message[index]["users"].remove(username)
+            if remove_num == 0:
+                self.print_out("remove", 404)
+                return {
+                    "code": -20,
+                    "message": "No Files Found",  # 未找到用户的文件
+                    "error": None,
+                }
+            else:
+                self.print_out("remove", 200)
+                return {
+                    "code": 5,
+                    "message": "Folder Removed Successfully",  # 文件夹删除成功
+                    "error": None,
+                }
 
     # 路由处理模板文件请求
     def serve_template_file(self, filepath):

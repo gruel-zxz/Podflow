@@ -6,13 +6,14 @@ from podflow.basic.file_save import file_save
 from podflow.upload.find_media_index import find_media_index
 
 
-def store_users_info(username,filename):
+def store_users_info(username, filename, channelid):
     index = find_media_index(gVar.upload_message, filename)
     if index == -1:
         gVar.upload_message.append(
             {
-                "media_id": filename,
-                "users": [username]
+                "mediaid": filename,
+                "users": [username],
+                "channelid": channelid,
             }
         )
     elif username not in gVar.upload_message[index]["users"]:
