@@ -23,8 +23,7 @@ def yt_dlp_check(file, url):
         def info(self, msg):
             pass
         def error(self, msg):
-            msg = fail_message_initialize(msg, "WL").ljust(48)
-            time_print(msg, Top=True, Time=False)
+            pass
 
     ydl_opts = {
         "cookiefile": file,
@@ -45,6 +44,7 @@ def yt_dlp_check(file, url):
             return False
     except yt_dlp.utils.DownloadError as e:
         error_message = str(e).lower()
+        e = fail_message_initialize(e, "WL")
         if any(
             keyword in error_message
             for keyword in ["login required", "sign in", "private", "forbidden"]
@@ -54,6 +54,7 @@ def yt_dlp_check(file, url):
             time_print(f"cookie无效或网络异常\n{e}")
         return False
     except Exception as e:
+        e = fail_message_initialize(e, "WL")
         time_print(f"cookie发生未知错误\n{e}")
         return False
 
