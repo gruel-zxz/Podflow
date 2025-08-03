@@ -1,9 +1,24 @@
-# podflow/message/want_retry.py
+# podflow/message/update_information_display.py
 # coding: utf-8
 
 import re
 import os
+from podflow import gVar
 from podflow.basic.write_log import write_log
+from podflow.message.want_retry import want_retry
+
+
+def skip_display(name, channelid_key, channelid_value, id_update):
+    if name == "YouTube":
+        failed_count = gVar.channelid_youtube[channelid_value]["want_retry_count"]
+    elif name == "BiliBili":
+        failed_count = gVar.channelid_bilibili[channelid_value]["want_retry_count"]
+    else:
+        failed_count = 0
+    for video_id in id_update[channelid_key]:
+        if want_retry(video_id, failed_count):
+            return False
+    return True
 
 
 # 输出需要更新的信息模块
@@ -40,11 +55,23 @@ def update_information_display(
                 channelid_key in content_id_update
                 and channelid_key in content_id_backward_update
             ):
-                print_channelid_ids_update += f"\033[34m{channelid_value}\033[0m"
+                if (
+                    skip_display(name, channelid_key, channelid_value, content_id_update)
+                    and skip_display(name, channelid_key, channelid_value, content_id_backward_update)
+                ):
+                    print_channelid_ids_update += f"\033[97m{channelid_value}\033[0m"
+                else:
+                    print_channelid_ids_update += f"\033[34m{channelid_value}\033[0m"
             elif channelid_key in content_id_update:
-                print_channelid_ids_update += f"\033[32m{channelid_value}\033[0m"
+                if skip_display(name, channelid_key, channelid_value, content_id_update):
+                    print_channelid_ids_update += f"\033[97m{channelid_value}\033[0m"
+                else:
+                    print_channelid_ids_update += f"\033[32m{channelid_value}\033[0m"
             elif channelid_key in content_id_backward_update:
-                print_channelid_ids_update += f"\033[36m{channelid_value}\033[0m"
+                if skip_display(name, channelid_key, channelid_value, content_id_backward_update):
+                    print_channelid_ids_update += f"\033[97m{channelid_value}\033[0m"
+                else:
+                    print_channelid_ids_update += f"\033[36m{channelid_value}\033[0m"
             else:
                 print_channelid_ids_update += f"\033[33m{channelid_value}\033[0m"
     # 如果含有特殊字符将使用此输出
