@@ -55,20 +55,25 @@ def update_information_display(
                 channelid_key in content_id_update
                 and channelid_key in content_id_backward_update
             ):
-                if (
-                    skip_display(name, channelid_key, channelid_value, content_id_update)
-                    and skip_display(name, channelid_key, channelid_value, content_id_backward_update)
+                if skip_display(
+                    name, channelid_key, channelid_value, content_id_update
+                ) and skip_display(
+                    name, channelid_key, channelid_value, content_id_backward_update
                 ):
                     print_channelid_ids_update += f"\033[97m{channelid_value}\033[0m"
                 else:
                     print_channelid_ids_update += f"\033[34m{channelid_value}\033[0m"
             elif channelid_key in content_id_update:
-                if skip_display(name, channelid_key, channelid_value, content_id_update):
+                if skip_display(
+                    name, channelid_key, channelid_value, content_id_update
+                ):
                     print_channelid_ids_update += f"\033[97m{channelid_value}\033[0m"
                 else:
                     print_channelid_ids_update += f"\033[32m{channelid_value}\033[0m"
             elif channelid_key in content_id_backward_update:
-                if skip_display(name, channelid_key, channelid_value, content_id_backward_update):
+                if skip_display(
+                    name, channelid_key, channelid_value, content_id_backward_update
+                ):
                     print_channelid_ids_update += f"\033[97m{channelid_value}\033[0m"
                 else:
                     print_channelid_ids_update += f"\033[36m{channelid_value}\033[0m"
