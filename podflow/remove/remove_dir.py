@@ -11,6 +11,14 @@ from podflow.basic.http_client import http_client
 
 def judge_upload(upload_url, name):
     if upload_url:
+        sign = True
+        upload_original = gVar.upload_original
+        for item in upload_original:
+            if item["channel_id"] == name and item["upload"] is True:
+                sign = False
+                break
+        if sign:
+            return True
         result = {
             -2: "用户名错误",
             -3: "密码错误",

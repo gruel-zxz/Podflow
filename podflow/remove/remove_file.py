@@ -5,10 +5,18 @@ import os
 from podflow import gVar
 from podflow.basic.write_log import write_log
 from podflow.basic.http_client import http_client
+from podflow.upload.find_media_index import find_media_index
 
 
 def judge_upload(upload_url, output_dir, file_name):
     if upload_url:
+        upload_original = gVar.upload_original
+        index = find_media_index(upload_original, file_name)
+        if index != -1:
+            return True
+        item = upload_original[index]
+        if not item["upload"]:
+            return True
         result = {
             -2: "用户名错误",
             -3: "密码错误",
