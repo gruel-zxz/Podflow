@@ -49,6 +49,7 @@ class bottle_app:
             self.app_bottle.route("/upload", method="POST", callback=self.upload)
             self.app_bottle.route("/flush", method="POST", callback=self.clear_cache)
             self.app_bottle.route("/remove", method="POST", callback=self.remove)
+            self.app_bottle.route("/download", callback=self.download)
         else:
             self.app_bottle.route("/index", callback=self.index)
             self.app_bottle.route("/getid", method="POST", callback=self.getid)
@@ -713,6 +714,51 @@ class bottle_app:
                     "message": "Folder Removed Successfully",  # 文件夹删除成功
                     "error": None,
                 }
+    # 路由处理下载请求
+    def download(self):
+        # 获取已上传数据
+        upload_message = gVar.upload_message
+        # 获取上传数据配置(存储用户名和密码)
+        upload_data = gVar.upload_data
+        # 从请求参数中获取用户名，默认为空字符串
+        username = request.query.get("username", "")
+        # 从请求参数中获取密码，默认为空字符串
+        password = request.query.get("password", "")
+        channelid = request.query.get("channel_id", "")
+        filename = request.query.get("filename", "")
+        if username not in upload_data:
+            self.print_out("login", 401)
+            return {
+                "code": -2,
+                "message": "Username Error",  # 用户名错误
+                "error": None,
+            }
+        # 验证密码是否正确
+        if upload_data[username] != password:
+            self.print_out("login", 401)
+            return {
+                "code": -3,
+                "message": "Password Error",  # 密码错误
+                "error": None,
+            }
+        if not channelid:
+            self.print_out("download", 404)
+            return {
+                "code": -6,
+                "message": "ChannelId Does Not Exist",  # 频道ID不存在
+            }
+        if not filename:
+            self.print_out("download", 404)
+            return {
+                "code": -14,
+                "message": "Filename Not Provided",  # 未提供文件名
+            }
+            
+            
+            
+            
+            
+    
 
     # 路由处理模板文件请求
     def serve_template_file(self, filepath):
