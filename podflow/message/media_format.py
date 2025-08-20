@@ -39,6 +39,7 @@ def duration_and_formats(video_website, video_url, cookies):
                     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
                     "Referer": "https://www.youtube.com/",
                 }
+                ydl_opts["extractor_args"] = {"youtube": {"player-client": "web_embedded,web,tv"}}
             ydl_opts["cookiefile"] = cookies  # cookies 是你的 cookies 文件名
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
             # 使用提供的 URL 提取视频信息

@@ -61,6 +61,7 @@ def download_video(
                 "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
                 "Referer": "https://www.youtube.com/",
             }
+            ydl_opts["extractor_args"] = {"youtube": {"player-client": "web_embedded,web,tv"}}
         ydl_opts["cookiefile"] = cookies  # cookies 是你的 cookies 文件名
     if playlist_num:  # 播放列表的第n个视频
         ydl_opts["playliststart"] = playlist_num
