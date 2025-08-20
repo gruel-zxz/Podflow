@@ -2,12 +2,28 @@
 # coding: utf-8
 
 import os
+import re
 import html
 import hashlib
-from podflow.message.title_correction import title_correction
+from podflow import gVar
 from podflow.basic.time_format import time_format
 from podflow.basic.get_duration import get_duration
-from podflow import gVar
+from podflow.upload.find_media_index import find_media_index
+from podflow.message.title_correction import title_correction
+
+
+def get_duration_by_guid(xml_text: str, target_guid: str):
+    # 匹配包含目标 GUID 的 <item> 区块，并提取 <itunes:duration> 的值
+    pattern = re.compile(
+        r"<item>.*?<guid>"
+        + re.escape(target_guid)
+        + r"</guid>.*?<itunes:duration>([^<]+)</itunes:duration>.*?</item>",
+        re.S,
+    )
+    m = pattern.search(xml_text)
+    if m:
+        return m.group(1)
+    return "Unknown"
 
 
 # 生成item模块
@@ -53,9 +69,19 @@ def xml_item(
         output_format = "m4a"
         video_type = "audio/x-m4a"
     # 获取文件时长
-    duration = time_format(
-        get_duration(f"channel_audiovisual/{output_dir}/{video_url}.{output_format}")
-    )
+    file_path = f"channel_audiovisual/{output_dir}/{video_url}.{output_format}"
+    duration = ""
+    if os.path.exists(file_path):
+        duration = time_format(get_duration(file_path))
+    elif gVar.config["upload"]:
+        index = find_media_index(gVar.upload_original, f"{video_url}.{output_format}")
+        if index != -1:
+            item = gVar.upload_original[index]
+            if "duration" in item:
+                duration = time_format(item["duration"])
+    else:
+        xml_text = gVar.xmls_original.get(output_dir, "")
+        duration = get_duration_by_guid(xml_text, video_url)
     # 生成url
     if gVar.config["token"]:
         input_string = f"{gVar.config['token']}/channel_audiovisual/{output_dir}/{video_url}.{output_format}"
