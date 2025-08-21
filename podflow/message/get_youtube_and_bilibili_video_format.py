@@ -69,7 +69,9 @@ def get_youtube_and_bilibili_video_format(
         else:
             power = get_bilibili_cid(id_num, gVar.video_id_update_format[id_num]["name"])[2]
         if power is True and (
-            "试看" in id_update_format or id_update_format == "无法获取音频ID"
+            "试看" in id_update_format
+            or "提取器错误" in id_update_format
+            or id_update_format == "无法获取音频ID"
         ):
             id_update_format = "\033[31m充电专属\033[0m"
     if isinstance(id_update_format, list):

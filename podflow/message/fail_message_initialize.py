@@ -184,6 +184,11 @@ error_reason = [
         "\033[31m播放列表不存在\033[0m",
         "text",
     ],
+    [
+        "An extractor error has occurred. (caused by KeyError('data')); please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U",
+        "\033[31m提取器错误\033[0m",
+        "text",
+    ],
 ]
 
 
