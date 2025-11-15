@@ -14,20 +14,17 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Set up Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
           python-version: '3.8'  # 指定 Python 版本
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install setuptools wheel twine requests jq  # 添加 jq 解析 JSON
-
-      - name: Build the package
-        run: python setup.py sdist bdist_wheel
+          pip install build twine requests jq tomlkit # 添加 jq 解析 JSON
 
       - name: Get today's date
         id: get_date
@@ -37,7 +34,7 @@ jobs:
         id: get_releases
         run: |
           releases=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-          "https://api.github.com/repos/${{ github.repository }}/releases")
+            "https://api.github.com/repos/${{ github.repository }}/releases")
           echo "$releases" > releases.json
 
       - name: Determine version number
@@ -52,31 +49,39 @@ jobs:
           echo "VERSION=$new_version" >> $GITHUB_ENV
           echo "New version: $new_version"
 
-      - name: Update setup.py with new version
+      - name: Update pyproject.toml version
         run: |
-          python update_version.py "${{ env.VERSION }}"
-          git diff setup.py  # 确保修改生效
+          python - <<EOF
+          from tomlkit import parse, dumps
+          from pathlib import Path
 
-      - name: Commit updated setup.py
+          path = Path("pyproject.toml")
+          data = parse(path.read_text(encoding="utf-8"))
+          data["project"]["version"] = "${{ env.VERSION }}"
+          path.write_text(dumps(data), encoding="utf-8")
+          EOF
+
+          git diff pyproject.toml
+
+      - name: Commit updated pyproject.toml
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add setup.py
+          git add pyproject.toml
           git commit -m "Update version to ${{ env.VERSION }}" || echo "No changes to commit"
           git push
 
-      - name: Rebuild package with updated version
+      - name: Build the package
         run: |
           rm -rf dist  # 清理旧的构建
-          python setup.py sdist bdist_wheel
+          python -m build
 
       - name: Create Release
-        id: create_release
         uses: softprops/action-gh-release@v1
         with:
           tag_name: ${{ env.VERSION }}  # 使用生成的版本号
           body: |
-            Automated release created for version ${{ env.VERSION }}.
+            Automated release for version ${{ env.VERSION }}.
           files: |
             dist/*
         env:
