@@ -17,8 +17,8 @@ def get_version_num(library):
 
 
 def update_setup_version(new_version: str):
-    """更新 setup.py 中的版本号"""
-    setup_file = "setup.py"
+    """更新 pyproject.toml 中的版本号"""
+    setup_file = "pyproject.toml"
     # 读取文件内容
     with open(setup_file, "r") as f:
         content = f.read()

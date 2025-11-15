@@ -2,5 +2,42 @@
 # coding: utf-8
 
 [build-system]
-requires = ["setuptools>=61.0", "wheel"]
+requires = ["setuptools>=68.0", "wheel"]
 build-backend = "setuptools.build_meta"
+
+[project]
+name = "podflow"
+version = "20251114"
+description = "A podcast server that includes YouTube and BiliBili"
+readme = { file = "README.md", content-type = "text/markdown" }
+authors = [
+    { name = "gruel_zxz", email = "zhuxizhouzxz@gmail.com" }
+]
+license = { text = "MIT" }
+requires-python = ">=3.8"
+
+dependencies = [
+    "astral>=3.2",
+    "bottle>=0.13.2",
+    "yt-dlp>=2025.8.20",
+    "chardet>=5.2.0",
+    "cherrypy>=18.10.0",
+    "pyqrcode>=1.2.1",
+    "requests>=2.32.3",
+    "pycryptodome>=3.21.0",
+    "ffmpeg-python>=0.2.0",
+    "BeautifulSoup4>=4.13.3",
+]
+
+[project.urls]
+Homepage = "https://github.com/gruel-zxz/podflow"
+
+[tool.setuptools.packages.find]
+include = ["podflow*"]
+namespaces = false
+
+[project.scripts]
+podflow = "podflow.main:main"
+Podflow = "podflow.main:main"
+PodFlow = "podflow.main:main"
+PODFLOW = "podflow.main:main"
