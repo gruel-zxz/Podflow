@@ -185,9 +185,19 @@ error_reason = [
         "text",
     ],
     [
-        "An extractor error has occurred. (caused by KeyError('data')); please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U",
+        r"An extractor error has occurred. (caused by KeyError('data')); please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U",
         "\033[31m提取器错误\033[0m",
         "text",
+    ],
+    [
+        r"Error reading response: [0-9]+ bytes read \(caused by <IncompleteRead: [0-9]+ bytes read>\); please report this issue on\s+https:\/\/github\.com\/yt-dlp\/yt-dlp\/issues\?q= , filling out the appropriate issue template\. Confirm you are on the latest version using\s+yt-dlp -U",
+        "\033[31m读取不完整\033[0m",
+        "regexp",
+    ],
+    [
+        r"Error reading response: HTTPSConnectionPool\(host='www\.bilibili\.com', port=[0-9]+\): Read timed out\. \(caused by TransportError\(\"HTTPSConnectionPool\(host='www\.bilibili\.com', port=[0-9]+\): Read timed out\.\)\"\)\)",
+        "读取超时",
+        "regexp",
     ],
 ]
 

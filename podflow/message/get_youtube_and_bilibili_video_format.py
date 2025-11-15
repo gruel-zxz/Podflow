@@ -43,6 +43,7 @@ def get_youtube_and_bilibili_video_format(
         media,
         quality,
         gVar.video_id_update_format[id_num]["cookie"],
+        gVar.video_id_update_format[id_num]["language"],
     )
     if "youtube" in url:
         for fail_info in ["年龄限制", "需登录", "请求拒绝", "无法获取音频ID"]:
@@ -57,6 +58,7 @@ def get_youtube_and_bilibili_video_format(
                         media,
                         quality,
                         gVar.video_id_update_format[id_num]["cookie"],
+                        gVar.video_id_update_format[id_num]["language"],
                     )
                     if fail_info in id_update_format:
                         id_update_format = f"\033[31m{fail_info}\033[0m(Cookies错误)"

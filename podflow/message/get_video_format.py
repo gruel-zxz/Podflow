@@ -16,6 +16,7 @@ def get_youtube_format_front(ytid_content_update, backward_update):
         # 获取对应文件类型
         yt_id_file = channelid_youtube_value["media"]
         yt_id_failed_count = channelid_youtube_value["want_retry_count"]
+        language = channelid_youtube_value["audio_track_language"]
         # 如果为视频格式获取分辨率
         if yt_id_file == "mp4":
             yt_id_quality = channelid_youtube_value["quality"]
@@ -32,6 +33,7 @@ def get_youtube_format_front(ytid_content_update, backward_update):
                     "cookie": None,  # 特定视频需要
                     "backward_update": backward_update,
                     "power": None,
+                    "language": language,
                 }
                 gVar.video_id_update_format[yt_id] = yt_id_format
             else:
@@ -75,6 +77,7 @@ def get_bilibili_format_front(bvid_content_update, backward_update):
                     "cookie": "channel_data/yt_dlp_bilibili.txt",
                     "backward_update": backward_update,
                     "power": power,
+                    "language": "",
                 }
                 gVar.video_id_update_format[bv_id] = bv_id_format
             else:

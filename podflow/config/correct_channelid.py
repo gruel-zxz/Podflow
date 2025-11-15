@@ -50,6 +50,90 @@ def correct_channelid(channelid, website):
         "4320",
     ]
     media = ["m4a", "mp4"]
+    languages = [
+        "af",  # Afrikaans
+        "ar",  # Arabic
+        "az",  # Azerbaijani
+        "be",  # Belarusian
+        "bg",  # Bulgarian
+        "bn",  # Bengali
+        "bs",  # Bosnian
+        "ca",  # Catalan
+        "cs",  # Czech
+        "cy",  # Welsh
+        "da",  # Danish
+        "de",  # German
+        "el",  # Greek
+        "en",  # English
+        "eo",  # Esperanto
+        "es",  # Spanish
+        "et",  # Estonian
+        "eu",  # Basque
+        "fa",  # Persian
+        "fi",  # Finnish
+        "fr",  # French
+        "ga",  # Irish
+        "gl",  # Galician
+        "gu",  # Gujarati
+        "he",  # Hebrew
+        "hi",  # Hindi
+        "hr",  # Croatian
+        "ht",  # Haitian
+        "hu",  # Hungarian
+        "hy",  # Armenian
+        "id",  # Indonesian
+        "is",  # Icelandic
+        "it",  # Italian
+        "ja",  # Japanese
+        "ka",  # Georgian
+        "kk",  # Kazakh
+        "km",  # Khmer
+        "kn",  # Kannada
+        "ko",  # Korean
+        "ku",  # Kurdish
+        "ky",  # Kyrgyz
+        "la",  # Latin
+        "lb",  # Luxembourgish
+        "lo",  # Lao
+        "lt",  # Lithuanian
+        "lv",  # Latvian
+        "mk",  # Macedonian
+        "ml",  # Malayalam
+        "mn",  # Mongolian
+        "mr",  # Marathi
+        "ms",  # Malay
+        "mt",  # Maltese
+        "nb",  # Norwegian Bokmål
+        "ne",  # Nepali
+        "nl",  # Dutch
+        "nn",  # Norwegian Nynorsk
+        "no",  # Norwegian
+        "pa",  # Punjabi
+        "pl",  # Polish
+        "pt",  # Portuguese
+        "ro",  # Romanian
+        "ru",  # Russian
+        "si",  # Sinhala
+        "sk",  # Slovak
+        "sl",  # Slovenian
+        "sq",  # Albanian
+        "sr",  # Serbian
+        "sv",  # Swedish
+        "sw",  # Swahili
+        "ta",  # Tamil
+        "te",  # Telugu
+        "th",  # Thai
+        "tl",  # Tagalog
+        "tr",  # Turkish
+        "uk",  # Ukrainian
+        "ur",  # Urdu
+        "uz",  # Uzbek
+        "vi",  # Vietnamese
+        "xh",  # Xhosa
+        "yi",  # Yiddish
+        "zh",  # Chinese
+        "zu",  # Zulu
+    ]
 
     # 判断正则表达式是否有效
     def is_valid_regex(pattern):
@@ -207,6 +291,7 @@ def correct_channelid(channelid, website):
                     channelid[channelid_key]["title_change"] = uphold_title_changes
                 else:
                     del channelid[channelid_key]["title_change"]
+            # 对AllPartGet进行纠正
             if website == "bilibili" and (
                 "AllPartGet" not in channelid_value
                 or not isinstance(channelid_value["AllPartGet"], bool)
@@ -214,11 +299,20 @@ def correct_channelid(channelid, website):
                 channelid[channelid_key]["AllPartGet"] = (
                     channelid[channelid_key]["update_size"] > 5
                 )
+            # 对NoShorts进行纠正
             if website == "youtube" and (
                 "NoShorts" not in channelid_value
                 or not isinstance(channelid_value["NoShorts"], bool)
             ):
                 channelid[channelid_key]["NoShorts"] = False
+            # 对audio_track_language进行纠正
+            if website == "youtube" and (
+                "audio_track_language" not in channelid_value
+                or channelid_value["audio_track_language"] not in languages
+            ):
+                channelid[channelid_key]["audio_track_language"] = default_config[
+                    f"channelid_{website}"
+                ][channelid_name]["audio_track_language"]
         if (
             channelid[channelid_key]["InmainRSS"] is False
             and f"{config['address']}/channel_rss/{channelid_value['id']}.xml"

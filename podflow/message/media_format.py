@@ -113,7 +113,7 @@ def check_vcodec(item):
 
 
 # 获取最好质量媒体的id
-def best_format_id(formats):
+def best_format_id(formats, language):
     tbr_max = 0.0
     format_id_best = ""
     vcodec_best = ""
@@ -123,16 +123,22 @@ def best_format_id(formats):
             and "drc" not in form["format_id"]
             and form["protocol"] == "https"
             and (isinstance(form["tbr"], (float, int)))
-            and form["tbr"] >= tbr_max
+            and round(form["tbr"]) >= round(tbr_max)
         ):
-            tbr_max = form["tbr"]
-            format_id_best = form["format_id"]
-            vcodec_best = form["vcodec"]
+            if round(form["tbr"]) > round(tbr_max):
+                tbr_max = form["tbr"]
+                format_id_best = form["format_id"]
+                vcodec_best = form["vcodec"]
+            elif round(form["tbr"]) == round(tbr_max):
+                if "language" in form and language in form["language"]:
+                    tbr_max = form["tbr"]
+                    format_id_best = form["format_id"]
+                    vcodec_best = form["vcodec"]
     return format_id_best, vcodec_best
 
 
 # 获取媒体时长和ID模块
-def media_format(video_website, video_url, media="m4a", quality="480", cookies=None):
+def media_format(video_website, video_url, media="m4a", quality="480", cookies=None, language=""):
     fail_message = None
     video_id_count, change_error, fail_message, infos = 0, None, "", []
     while (
@@ -156,7 +162,7 @@ def media_format(video_website, video_url, media="m4a", quality="480", cookies=N
         formats_m4a = list(
             filter(lambda item: check_ext(item, "m4a") and check_vcodec(item), formats)
         )
-        (best_formats_m4a, vcodec_best) = best_format_id(formats_m4a)
+        (best_formats_m4a, vcodec_best) = best_format_id(formats_m4a, language)
         if best_formats_m4a == "" or best_formats_m4a is None:
             return (
                 "\033[31m试看\033[0m"
@@ -173,7 +179,7 @@ def media_format(video_website, video_url, media="m4a", quality="480", cookies=N
                     formats,
                 )
             )
-            (best_formats_mp4, vcodec_best) = best_format_id(formats_mp4)
+            (best_formats_mp4, vcodec_best) = best_format_id(formats_mp4, language)
             if best_formats_mp4 == "" or best_formats_mp4 is None:
                 return (
                     "\033[31m试看\033[0m"

@@ -35,6 +35,7 @@ default_config = {
             "BackwardUpdate": False,  # 是否向后更新
             "BackwardUpdate_size": 3,  # 向后更新数量(仅在BackwardUpdate为True时有效)
             "want_retry_count": 25,  # 媒体获取失败后多少次后重试(小于等于该数量时将一直重试)
+            "audio_track_language": "zh",  # 音频轨道语言(默认为中文)
             "title_change": [  # 标题文本修改(默认为无, 可多个条件，以列表形式存在)
                 {  # match和url参数至少有一个, 如都有将同时生效
                     "mode": "add-left",  # 修改模式(add-left: 开头添加, add-right: 结尾添加, replace: 内容替换)
