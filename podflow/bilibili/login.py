@@ -6,6 +6,8 @@ import re
 import time
 import json
 import binascii
+import base64
+import hashlib
 import requests
 from datetime import datetime
 from podflow.basic.qr_code import qr_code
@@ -16,14 +18,151 @@ from podflow.basic.time_stamp import time_stamp
 from podflow.basic.http_client import http_client
 from podflow.netscape.bulid_netscape import bulid_netscape
 
-try:
-    from Cryptodome.Cipher import PKCS1_OAEP
-    from Cryptodome.Hash import SHA256
-    from Cryptodome.PublicKey import RSA
-except Exception:
-    from Crypto.Cipher import PKCS1_OAEP
-    from Crypto.Hash import SHA256
-    from Crypto.PublicKey import RSA
+
+def mgf1(seed: bytes, length: int, hash_func=hashlib.sha256) -> bytes:
+    """MGF1 based on given hash function."""
+    counter = 0
+    output = b""
+    while len(output) < length:
+        C = counter.to_bytes(4, "big")
+        output += hash_func(seed + C).digest()
+        counter += 1
+    return output[:length]
+
+
+def oaep_pad(message: bytes, k: int, label: bytes = b"", hash_func=hashlib.sha256) -> bytes:
+    """
+    OAEP pad the message for RSA encryption.
+    - k: modulus length in bytes
+    - hash_func: hash constructor (e.g. hashlib.sha256)
+    Returns the padded message of length k bytes.
+    """
+    hlen = hash_func().digest_size
+    mlen = len(message)
+    if mlen > k - 2 * hlen - 2:
+        raise ValueError("message too long for OAEP padding with given key size")
+
+    lhash = hash_func(label).digest()
+    ps = b"\x00" * (k - mlen - 2 * hlen - 2)
+    db = lhash + ps + b"\x01" + message
+    seed = os.urandom(hlen)
+    db_mask = mgf1(seed, k - hlen - 1, hash_func)
+    masked_db = bytes(x ^ y for x, y in zip(db, db_mask))
+    seed_mask = mgf1(masked_db, hlen, hash_func)
+    masked_seed = bytes(x ^ y for x, y in zip(seed, seed_mask))
+    return b"\x00" + masked_seed + masked_db
+
+
+def rsa_encrypt_integer(padded: bytes, n: int, e: int, k: int) -> bytes:
+    """Compute ciphertext = (m^e mod n) and return k-byte big-endian."""
+    m = int.from_bytes(padded, "big")
+    c = pow(m, e, n)
+    return c.to_bytes(k, "big")
+
+
+# Minimal ASN.1 DER parser helpers to extract modulus n and exponent e from an RSA public key PEM.
+def _der_read_length(data: bytes, idx: int):
+    first = data[idx]
+    idx += 1
+    if first & 0x80 == 0:
+        return first, idx
+    num_bytes = first & 0x7F
+    if num_bytes == 0:
+        raise ValueError("Invalid DER length")
+    length = int.from_bytes(data[idx: idx + num_bytes], "big")
+    idx += num_bytes
+    return length, idx
+
+
+def _der_read_tlv(data: bytes, idx: int):
+    if idx >= len(data):
+        raise ValueError("DER parse error: index out of range")
+    tag = data[idx]
+    idx += 1
+    length, idx = _der_read_length(data, idx)
+    value = data[idx: idx + length]
+    return tag, length, value, idx + length
+
+
+def parse_rsa_public_key_from_pem(pem: str):
+    """
+    Parse an RSA public key from PEM string (SubjectPublicKeyInfo or RSAPublicKey).
+    Returns (n, e) as integers.
+    """
+    pem_body = re.sub(r"-----BEGIN [^-]+-----", "", pem)
+    pem_body = re.sub(r"-----END [^-]+-----", "", pem_body)
+    pem_body = re.sub(r"\s+", "", pem_body)
+    der = base64.b64decode(pem_body)
+
+    # parse outer SEQUENCE
+    idx = 0
+    tag, _length, value, _next_idx = _der_read_tlv(der, idx)
+    if tag != 0x30:  # SEQUENCE
+        raise ValueError("Not a valid ASN.1 SEQUENCE for public key")
+    seq = value
+    seq_idx = 0
+
+    # try to detect if this is SubjectPublicKeyInfo (algorithm + BITSTRING) or direct RSAPublicKey
+    # If inside sequence we find a BIT STRING (0x03), it's SPKI; inside the bit string is RSAPublicKey sequence
+    # else, if the first element is INTEGER then it's likely RSAPublicKey directly (rare in SPKI PEM form)
+    # We'll scan for a BIT STRING
+    # parse first element inside seq
+    try:
+        tag1, _len1, _val1, _pos1 = _der_read_tlv(seq, seq_idx)
+    except Exception:
+        raise ValueError("Malformed public key ASN.1")
+
+    if tag1 == 0x30:
+        # Could be SPKI: sequence -> sequence(alg) + bitstring(pubkey)
+        # Move to next element after the algorithm sequence
+        seq_idx = 0
+        # Read algorithm sequence
+        _tag_a, _len_a, _val_a, seq_idx = _der_read_tlv(seq, seq_idx)
+        # Next should be BIT STRING
+        tag_b, _len_b, val_b, _seq_idx2 = _der_read_tlv(seq, seq_idx)
+        if tag_b != 0x03:
+            # Not SPKI? fallback attempt: treat original DER as RSAPublicKey
+            der_rsa = der
+        else:
+            # val_b is BIT STRING; the first byte is number of unused bits, usually 0
+            der_rsa = val_b[1:]
+    else:
+        # Not a sequence as first element — treat whole DER as RSAPublicKey
+        der_rsa = der
+
+    # Now der_rsa should be an RSAPublicKey sequence: SEQUENCE { INTEGER(n), INTEGER(e) }
+    idx2 = 0
+    tag_r, _len_r, val_r, _next_r = _der_read_tlv(der_rsa, idx2)
+    if tag_r != 0x30:
+        raise ValueError("Expected RSAPublicKey SEQUENCE")
+    inner = val_r
+    inner_idx = 0
+    # read modulus
+    tag_n, _len_n, val_n, inner_idx = _der_read_tlv(inner, inner_idx)
+    if tag_n != 0x02:
+        raise ValueError("Expected INTEGER (modulus)")
+    # read exponent
+    tag_e, _len_e, val_e, _inner_idx2 = _der_read_tlv(inner, inner_idx)
+    if tag_e != 0x02:
+        raise ValueError("Expected INTEGER (exponent)")
+
+    n = int.from_bytes(val_n, "big")
+    e = int.from_bytes(val_e, "big")
+    return n, e
+
+
+def rsa_encrypt_oaep_sha256(message: bytes, pem_key: str) -> bytes:
+    """
+    High-level wrapper:
+    - parse PEM key to n,e
+    - compute OAEP(SHA256) padding
+    - RSA encrypt and return raw ciphertext bytes
+    """
+    n, e = parse_rsa_public_key_from_pem(pem_key)
+    k = (n.bit_length() + 7) // 8
+    padded = oaep_pad(message, k, label=b"", hash_func=hashlib.sha256)
+    ciphertext = rsa_encrypt_integer(padded, n, e, k)
+    return ciphertext
 
 
 # 获取最新的img_key和sub_key模块
@@ -158,18 +297,18 @@ def judgment_bilibili_update(cookies):
         return response["code"], None
 
 
-# 生成CorrespondPath模块
-def getCorrespondPath(ts, key):
-    cipher = PKCS1_OAEP.new(key, SHA256)
-    encrypted = cipher.encrypt(f"refresh_{ts}".encode())
+# 生成CorrespondPath模块（使用纯 Python SHA256-OAEP + RSA）
+def getCorrespondPath(ts, key_pem):
+    data = f"refresh_{ts}".encode()
+    encrypted = rsa_encrypt_oaep_sha256(data, key_pem)
     return binascii.b2a_hex(encrypted).decode()
 
 
 def bilibili_cookie_update_data(
     bilibili_cookie, new_bilibili_cookie, bilibili_data, new_refresh_token
 ):
-    new_bilibili_cookie["buvid3"] = bilibili_cookie["buvid3"]
-    new_bilibili_cookie["b_nut"] = bilibili_cookie["b_nut"]
+    new_bilibili_cookie["buvid3"] = bilibili_cookie.get("buvid3", "")
+    new_bilibili_cookie["b_nut"] = bilibili_cookie.get("b_nut", "")
     bilibili_data["cookie"] = new_bilibili_cookie
     bilibili_data["refresh_token"] = new_refresh_token
     bulid_netscape("yt_dlp_bilibili", new_bilibili_cookie)
@@ -179,26 +318,28 @@ def bilibili_cookie_update_data(
 # 哔哩哔哩cookie刷新模块
 def bilibili_cookie_update(bilibili_data):
     bilibili_cookie = bilibili_data["cookie"]
-    # 获取refresh_csrf
-    key = RSA.importKey("""\
------BEGIN PUBLIC KEY-----
+
+    # B站公钥（PEM）
+    key_pem = """-----BEGIN PUBLIC KEY-----
 MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDLgd2OAkcGVtoE3ThUREbio0Eg
 Uc/prcajMKXvkCKFCWhJYJcLkcM2DKKcSeFpD/j6Boy538YXnR6VhcuUJOhH2x71
 nzPjfdTcqMz7djHum0qSZA0AyCBDABUqCrfNgCiJ00Ra7GmRj+YCK1NJEuewlb40
 JNrRuoEUXpabUzGB8QIDAQAB
------END PUBLIC KEY-----""")
+-----END PUBLIC KEY-----"""
 
     # 获取当前时间戳
     ts = time_stamp()
     # 获取refresh_csrf
     refresh_csrf_response = http_client(
-        f"https://www.bilibili.com/correspond/1/{getCorrespondPath(ts, key)}",
+        f"https://www.bilibili.com/correspond/1/{getCorrespondPath(ts, key_pem)}",
         "获取refresh_csrf",
         3,
         5,
         True,
         bilibili_cookie,
     )
+    if not refresh_csrf_response:
+        return {"cookie": None}
     if refresh_csrf_match := re.search(
         r'<div id="1-name">(.+?)</div>', refresh_csrf_response.text
     ):
@@ -225,12 +366,14 @@ JNrRuoEUXpabUzGB8QIDAQAB
         update_cookie_data,
         "post",
     )
-    if update_cookie_response.json()["code"] != 0:
+    if update_cookie_response.json().get("code") != 0:
         return {"cookie": None}
     new_bilibili_cookie = requests.utils.dict_from_cookiejar(
         update_cookie_response.cookies
     )
-    new_refresh_token = update_cookie_response.json()["data"]["refresh_token"]
+    new_refresh_token = update_cookie_response.json().get("data", {}).get(
+        "refresh_token"
+    )
     # 确认更新bilibili_cookie
     confirm_cookie_url = (
         "https://passport.bilibili.com/x/passport-login/web/confirm/refresh"
@@ -249,7 +392,7 @@ JNrRuoEUXpabUzGB8QIDAQAB
         confirm_cookie_data,
         "post",
     )
-    if confirm_cookie_response.json()["code"] == 0:
+    if confirm_cookie_response.json().get("code") == 0:
         return bilibili_cookie_update_data(
             bilibili_cookie,
             new_bilibili_cookie,
@@ -289,14 +432,14 @@ def get_bilibili_data_state(bilibili_data, channelid_bilibili_ids):
                 time_print(
                     f"BiliBili \033[31m未登陆, 重试第\033[0m{try_num}\033[31m次\033[0m",
                     Head=f"\033[{upward + 3}F\033[{upward + 3}K",
-                    Number=-4
+                    Number=-4,
                 )
                 bilibili_data, upward = save_bilibili_cookies(True)
             try_num += 1
         else:
             time_print("BiliBili \033[33m需刷新\033[0m")
             bilibili_data = bilibili_cookie_update(bilibili_data)
-            if bilibili_data["cookie"]:
+            if bilibili_data.get("cookie"):
                 time_print("BiliBili \033[32m刷新成功\033[0m")
             else:
                 time_print("BiliBili \033[31m刷新失败, 重新登陆\033[0m")
