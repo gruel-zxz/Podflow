@@ -7,7 +7,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "podflow"
-version = "20251114"
+version = "20251115"
 description = "A podcast server that includes YouTube and BiliBili"
 readme = { file = "README.md", content-type = "text/markdown" }
 authors = [
