@@ -123,13 +123,12 @@ def best_format_id(formats, language):
             and "drc" not in form["format_id"]
             and form["protocol"] == "https"
             and (isinstance(form["tbr"], (float, int)))
-            and round(form["tbr"]) >= round(tbr_max)
         ):
-            if round(form["tbr"]) > round(tbr_max):
+            if form["tbr"] - tbr_max > 2:
                 tbr_max = form["tbr"]
                 format_id_best = form["format_id"]
                 vcodec_best = form["vcodec"]
-            elif round(form["tbr"]) == round(tbr_max):
+            elif abs(form["tbr"] - tbr_max) <= 2:
                 if "language" in form and language in form["language"]:
                     tbr_max = form["tbr"]
                     format_id_best = form["format_id"]
