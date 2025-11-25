@@ -26,6 +26,7 @@ dependencies = [
     "requests>=2.32.3",
     "ffmpeg-python>=0.2.0",
     "BeautifulSoup4>=4.13.3",
+    "yt-dlp-apple-webkit-jsi ; platform_system == 'Darwin'",
 ]
 
 [project.urls]
