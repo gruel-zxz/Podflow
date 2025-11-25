@@ -7,8 +7,8 @@ import json
 import time
 import hashlib
 import mimetypes
-import pkg_resources
 from datetime import datetime
+from importlib import resources
 import cherrypy
 from bottle import Bottle, abort, redirect, request, static_file, response
 from podflow import gVar
@@ -762,15 +762,18 @@ class bottle_app:
 
     # 路由处理模板文件请求
     def serve_template_file(self, filepath):
-        template_dir = pkg_resources.resource_filename("podflow", "templates")
-        return static_file(filepath, root=template_dir)
+        # 使用 resources.files 定位 'podflow' 包内的 'templates' 目录
+        # 结果是一个 path-like 对象，转为 str 确保兼容 static_file 函数
+        template_dir_path = resources.files("podflow") / "templates"
+        # 假设 static_file 需要一个字符串路径作为 root
+        return static_file(filepath, root=str(template_dir_path))
 
-    # 使用pkg_resources获取模板文件路径
+    # 使用 importlib.resources 获取模板文件内容
     def index(self):
-        template_path = pkg_resources.resource_filename(
-            "podflow", "templates/index.html"
-        )
-        with open(template_path, "r", encoding="UTF-8") as f:
+        # 使用 resources.files 定位到具体的文件
+        template_file = resources.files("podflow") / "templates" / "index.html"
+        # TraversablePath 对象支持 open() 方法，直接打开文件
+        with template_file.open("r", encoding="UTF-8") as f:
             html_content = f.read()
         self.print_out("index", 200)
         return html_content
