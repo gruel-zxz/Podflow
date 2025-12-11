@@ -46,26 +46,54 @@ def get_youtube_and_bilibili_video_format(
         gVar.video_id_update_format[id_num]["language"],
     )
     if "youtube" in url:
-        for fail_info in ["年龄限制", "需登录", "请求拒绝", "无法获取音频ID"]:
-            if fail_info in id_update_format:
-                if gVar.youtube_cookie:
-                    gVar.video_id_update_format[id_num][
-                        "cookie"
-                    ] = "channel_data/yt_dlp_youtube.txt"
-                    id_update_format = media_format(
-                        url,
-                        id_num,
-                        media,
-                        quality,
-                        gVar.video_id_update_format[id_num]["cookie"],
-                        gVar.video_id_update_format[id_num]["language"],
-                    )
-                    if fail_info in id_update_format:
+        def get_fail_info(id_update_format):
+            for fail_info in ["年龄限制", "需登录", "请求拒绝", "无法获取音频ID"]:
+                if fail_info in id_update_format:
+                    return fail_info
+            return None
+        try_num = 0
+        while try_num < 3:
+            try_num += 1
+            id_update_format = media_format(
+                url,
+                id_num,
+                media,
+                quality,
+                gVar.video_id_update_format[id_num]["cookie"],
+                gVar.video_id_update_format[id_num]["language"],
+            )
+            if isinstance(id_update_format, list):
+                circulate = False
+                for entry_id_update_format in id_update_format:
+                    duration_and_id = entry_id_update_format.get("duration_and_id", [0, ""])
+                    if "140" not in  duration_and_id[1]:
+                        circulate = True
+                        break
+                if circulate is False:
+                    break
+            else:
+                if fail_info := get_fail_info(id_update_format):
+                    if try_num > 1:
                         id_update_format = f"\033[31m{fail_info}\033[0m(Cookies错误)"
+                        break
+                    elif gVar.youtube_cookie:
+                        gVar.video_id_update_format[id_num][
+                            "cookie"
+                        ] = "channel_data/yt_dlp_youtube.txt"
+                    else:
+                        id_update_format = f"\033[31m{fail_info}\033[0m(需要Cookies)"
+                        break
                 else:
-                    id_update_format = f"\033[31m{fail_info}\033[0m(需要Cookies)"
-                break
+                    break
     else:
+        id_update_format = media_format(
+            url,
+            id_num,
+            media,
+            quality,
+            gVar.video_id_update_format[id_num]["cookie"],
+            gVar.video_id_update_format[id_num]["language"],
+        )
         if gVar.channelid_bilibili[gVar.video_id_update_format[id_num]["name"]]["AllPartGet"]:
             power = gVar.video_id_update_format[id_num]["power"]
         else:
