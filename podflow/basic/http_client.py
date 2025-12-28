@@ -64,9 +64,9 @@ def http_client(
             elif file:
                 file.seek(0)
                 files = {"file": file}  # 这里 "file" 对应服务器端接收文件的字段名称
-                response = session.post(url, files=files, timeout=8)
+                response = session.post(url, files=files, timeout=15)
             else:
-                response = session.post(url, timeout=8)
+                response = session.post(url, timeout=15)
             response.raise_for_status()
         except Exception as http_get_error:
             if response is not None and response.status_code in {404}:
