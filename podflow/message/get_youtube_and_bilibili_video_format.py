@@ -52,7 +52,7 @@ def get_youtube_and_bilibili_video_format(
                     return fail_info
             return None
         try_num = 0
-        while try_num < 3:
+        while try_num < 5:
             try_num += 1
             id_update_format = media_format(
                 url,

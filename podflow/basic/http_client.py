@@ -10,7 +10,7 @@ from podflow.basic.time_print import time_print
 def http_client(
     url,
     name="",
-    max_retries=10,
+    max_retries=15,
     retry_delay=4,
     headers_possess=False,
     cookies=None,
@@ -60,7 +60,7 @@ def http_client(
     for num in range(max_retries):
         try:
             if mode.lower() != "post":
-                response = session.get(url, timeout=8)
+                response = session.get(url, timeout=15)
             elif file:
                 file.seek(0)
                 files = {"file": file}  # 这里 "file" 对应服务器端接收文件的字段名称
