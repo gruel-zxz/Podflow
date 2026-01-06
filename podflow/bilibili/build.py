@@ -23,6 +23,7 @@ def get_items_list(
     output_dir,
     items_list,
     ratio_part,
+    part_sequence,
 ):
     pubDate = datetime.fromtimestamp(item["created"], timezone.utc).strftime(
         "%Y-%m-%dT%H:%M:%S%z"
@@ -40,7 +41,9 @@ def get_items_list(
             pass  # 需要添加错误处理
         else:
             guid_cid, guid_type, _ = get_bilibili_cid(
-                guid, gVar.channelid_bilibili_ids[output_dir]
+                guid,
+                gVar.channelid_bilibili_ids[output_dir],
+                part_sequence,
             )
             if guid_type == "part":
                 guid_parts = guid_cid
@@ -132,6 +135,7 @@ def bilibili_xml_items(output_dir, ratio_part):
     channelid_title = channelid_bilibili_value["title"]
     title_change = channelid_bilibili_value.get("title_change", [])
     output_dir_value = gVar.channelid_bilibili_rss[output_dir]
+    part_sequence = channelid_bilibili_value["part_sequence"]
     # 最新更新
     for guid in output_dir_value["content"]["list"]:
         if guid not in gVar.video_id_failed and guid in content_id:
@@ -145,6 +149,7 @@ def bilibili_xml_items(output_dir, ratio_part):
                 output_dir,
                 items_list,
                 ratio_part,
+                part_sequence,
             )
             if item["description"] and item["description"][0] == "『":
                 original_judgment = False
@@ -188,6 +193,7 @@ def bilibili_xml_items(output_dir, ratio_part):
                     output_dir,
                     items_list,
                     ratio_part,
+                    part_sequence,
                 )
     # 生成对应xml
     description = html.escape(output_dir_value["content"]["sign"])

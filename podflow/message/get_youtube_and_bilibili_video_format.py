@@ -37,14 +37,6 @@ def get_youtube_and_bilibili_video_format(
     url = gVar.video_id_update_format[id_num]["url"]
     media = gVar.video_id_update_format[id_num]["media"]
     quality = gVar.video_id_update_format[id_num]["quality"]
-    id_update_format = media_format(
-        url,
-        id_num,
-        media,
-        quality,
-        gVar.video_id_update_format[id_num]["cookie"],
-        gVar.video_id_update_format[id_num]["language"],
-    )
     if "youtube" in url:
         def get_fail_info(id_update_format):
             for fail_info in ["年龄限制", "需登录", "请求拒绝", "无法获取音频ID"]:
@@ -97,7 +89,11 @@ def get_youtube_and_bilibili_video_format(
         if gVar.channelid_bilibili[gVar.video_id_update_format[id_num]["name"]]["AllPartGet"]:
             power = gVar.video_id_update_format[id_num]["power"]
         else:
-            power = get_bilibili_cid(id_num, gVar.video_id_update_format[id_num]["name"])[2]
+            power = get_bilibili_cid(
+                id_num,
+                gVar.video_id_update_format[id_num]["name"],
+                gVar.channelid_bilibili[gVar.video_id_update_format[id_num]["name"]]["part_sequence"],
+            )[2]
         if power is True and (
             "试看" in id_update_format
             or "提取器错误" in id_update_format

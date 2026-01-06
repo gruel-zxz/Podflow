@@ -110,7 +110,7 @@ def WBI_signature(params={}, img_key="", sub_key=""):
 
 
 # 获取bv的cid(包含分P或互动视频)模块
-def get_bilibili_cid(bvid, bilibili_value):
+def get_bilibili_cid(bvid, bilibili_value, sequence=True):
     bvid_part = []  # 用于存储每个分P或互动视频的信息
     bvid_cid = []  # 存储已经获取的cid
     bvid_cid_choices = []  # 存储互动视频的选择
@@ -210,7 +210,8 @@ def get_bilibili_cid(bvid, bilibili_value):
                         "first_frame": part["first_frame"],
                     }
                 )
-            bvid_part.sort(key=lambda x: x["page"], reverse=True)
+            if not sequence:
+                bvid_part.sort(key=lambda x: x["page"], reverse=True)
             return bvid_part, "part", upower
         elif data["rights"]["is_stein_gate"]:
             # 获取互动视频信息
@@ -255,7 +256,8 @@ def get_bilibili_cid(bvid, bilibili_value):
                         )
                         bvid_cid.append(bvid_cid_choices[0]["cid"])
                     del bvid_cid_choices[0]
-                bvid_part.sort(key=lambda x: x["num"], reverse=True)
+                if not sequence:
+                    bvid_part.sort(key=lambda x: x["num"], reverse=True)
                 return bvid_part, "edgeinfo", upower
             else:
                 return None, None, None
@@ -266,7 +268,7 @@ def get_bilibili_cid(bvid, bilibili_value):
 
 
 # 查询哔哩哔哩用户投稿视频明细模块
-def get_bilibili_vlist(bilibili_key, bilibili_value, num=1, all_part_judgement=False):
+def get_bilibili_vlist(bilibili_key, bilibili_value, num=1, all_part_judgement=False, part_sequence=True):
     bilibili_list = []
     bilibili_entry = {}
     if bilibili_response := http_client(
@@ -308,7 +310,7 @@ def get_bilibili_vlist(bilibili_key, bilibili_value, num=1, all_part_judgement=F
     if all_part_judgement and bilibili_list:
 
         def all_part(bvid):
-            bvid_cid, bvid_type, power = get_bilibili_cid(bvid, bilibili_value)
+            bvid_cid, bvid_type, power = get_bilibili_cid(bvid, bilibili_value, part_sequence)
             if bvid_type:
                 bilibili_entry[bvid][bvid_type] = bvid_cid
                 bilibili_entry[bvid]["power"] = power
@@ -372,6 +374,7 @@ def bilibili_json_update(bilibili_key, bilibili_value):
             f"{bilibili_value}第{num}页",
             num,
             gVar.channelid_bilibili[bilibili_value]["AllPartGet"],
+            gVar.channelid_bilibili[bilibili_value]["part_sequence"],
         )
         bilibili_entrys = bilibili_entrys | bilibili_entry
         bilibili_lists += bilibili_list
@@ -481,7 +484,10 @@ def bilibili_rss_update(
                     backward_update_page_start, backward_update_page_end + 1
                 ):
                     backward_entry_part, backward_list_part = get_bilibili_vlist(
-                        bilibili_key, bilibili_value, num
+                        bilibili_key,
+                        bilibili_value,
+                        num,
+                        gVar.channelid_bilibili[bilibili_value]["part_sequence"],
                     )  # 获取具体内容
                     backward_entry = backward_entry | backward_entry_part  # 合并条目
                     backward_list += backward_list_part  # 合并列表
@@ -508,7 +514,9 @@ def bilibili_rss_update(
 
                             def backward_all_part(guid):
                                 guid_cid, guid_type, power = get_bilibili_cid(
-                                    guid, bilibili_value
+                                    guid,
+                                    bilibili_value,
+                                    gVar.channelid_bilibili[bilibili_value]["part_sequence"],
                                 )
                                 if guid_type:
                                     backward_entry[guid][guid_type] = guid_cid

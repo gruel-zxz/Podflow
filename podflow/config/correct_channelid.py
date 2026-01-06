@@ -299,12 +299,22 @@ def correct_channelid(channelid, website):
                 channelid[channelid_key]["AllPartGet"] = (
                     channelid[channelid_key]["update_size"] > 5
                 )
+            # 对part_sequence进行纠正
+            if website == "bilibili" and (
+                "part_sequence" not in channelid_value
+                or not isinstance(channelid_value["part_sequence"], bool)
+            ):
+                channelid[channelid_key]["part_sequence"] = default_config[
+                    f"channelid_{website}"
+                ][channelid_name]["part_sequence"]
             # 对NoShorts进行纠正
             if website == "youtube" and (
                 "NoShorts" not in channelid_value
                 or not isinstance(channelid_value["NoShorts"], bool)
             ):
-                channelid[channelid_key]["NoShorts"] = False
+                channelid[channelid_key]["NoShorts"] = default_config[
+                    f"channelid_{website}"
+                ][channelid_name]["NoShorts"]
             # 对audio_track_language进行纠正
             if website == "youtube" and (
                 "audio_track_language" not in channelid_value

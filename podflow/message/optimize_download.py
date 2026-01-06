@@ -11,14 +11,20 @@ def optimize_download():
     xmls_quantity = gVar.xmls_quantity
     video_id_update_format = gVar.video_id_update_format
     sorted_video_id_update_format = {}
+    play_part_dict = {}
     time_print("开始优化下载顺序")
     # 按总和从大到小排序
     sorted_channels = sorted(xmls_quantity.items(), key=lambda x: x[1], reverse=True)
     # 根据总和排序数据
     for channel_id, _ in sorted_channels:
         for key, value in video_id_update_format.items():
-            if value["id"] == channel_id:
-                sorted_video_id_update_format[key] = value
+            if isinstance(value, list):
+                if key not in play_part_dict:
+                    play_part_dict[key] = value
+            else:
+                if value["id"] == channel_id:
+                    sorted_video_id_update_format[key] = value
+    sorted_video_id_update_format.update(play_part_dict)
     if len(video_id_update_format) == len(sorted_video_id_update_format):
         gVar.video_id_update_format = sorted_video_id_update_format
         time_print("下载顺序优化\033[32m成功\033[0m")
