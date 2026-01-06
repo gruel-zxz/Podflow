@@ -73,6 +73,7 @@ default_config = {
                 "text": "",
             },
             "AllPartGet": False,  # 是否提前获取分P或互动视频(建议update_size大于5时使用, 如果该变量不存在时, 默认update_size大于5时开启)
+            "part_sequence": True,  # 分P或互动视频是否按顺序下载
         },
     },
 }
