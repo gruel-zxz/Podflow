@@ -160,6 +160,11 @@ error_reason = [
         "regexp",
     ],
     [
+        r"Got error: \<urllib3\.connection\.HTTPSConnection object at .{11}\>: Failed to resolve \'.{18}\.mcdn\.bilivideo\.cn\' \(\[Errno 8\] nodename nor servname provided, or not known\)",
+        "\033[31m无法解析\033[0m",
+        "regexp",
+    ],
+    [
         r"An extractor error has occurred. (caused by KeyError('bvid')); please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U",
         "\033[31m提取错误\033[0m",
         "text",
@@ -198,6 +203,11 @@ error_reason = [
         r"Error reading response: HTTPSConnectionPool\(host='www\.bilibili\.com', port=[0-9]+\): Read timed out\. \(caused by TransportError\(\"HTTPSConnectionPool\(host='www\.bilibili\.com', port=[0-9]+\): Read timed out\.\)\"\)\)",
         "读取超时",
         "regexp",
+    ],
+    [
+        r"Unable to extract initial state; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U",
+        "\033[31m无法提取\033[0m",
+        "text",
     ],
 ]
 
