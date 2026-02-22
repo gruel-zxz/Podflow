@@ -37,6 +37,11 @@ def xml_original_item(original_item, channelid_title, change_judgment=False, tit
     description = description.group() if description else ""
     if change_judgment:
         description = description_change(description, "&#xA;", title, channelid_title)
+    if "【原始地址】" not in description:
+        if description:
+            description += f'&#xA;&#xA;【原始地址】&#xA;{link}'
+        else:
+            description += f'【原始地址】&#xA;{link}'
     pubDate = re.search(r"(?<=<pubDate>).+(?=</pubDate>)", original_item).group()
     url = re.search(r"(?<=<enclosure url\=\").+?(?=\")", original_item).group()
     url = re.search(r"(?<=/channel_audiovisual/).+/.+\.(m4a|mp4)", url).group()
@@ -60,6 +65,11 @@ def xml_original_item(original_item, channelid_title, change_judgment=False, tit
     itunes_summary = itunes_summary.group() if itunes_summary else ""
     if change_judgment:
         itunes_summary = description_change(itunes_summary, "\n", title, channelid_title)
+    if "【原始地址】" not in itunes_summary:
+        if itunes_summary:
+            itunes_summary += f'\n\n【原始地址】\n{link}'
+        else:
+            itunes_summary += f'【原始地址】\n{link}'
     itunes_image = re.search(
         r"(?<=<itunes:image href\=\").+(?=\"></itunes:image>)", original_item
     )

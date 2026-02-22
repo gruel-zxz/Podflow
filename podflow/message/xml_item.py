@@ -50,6 +50,12 @@ def xml_item(
             description = f"『{channelid_title}』{description}"
         else:
             description = f"『{channelid_title}』\n{description}".replace("\x00", "")
+    # 添加原始链接信息
+    if "【原始地址】" not in description:
+        if description:
+            description += f"\n\n【原始地址】\n{video_website}"
+        else:
+            description += f"【原始地址】\n{video_website}"
     # 更换描述换行符
     replacement_description = description.replace("\n", "&#xA;").replace("\t", "&#x9;")
     # 获取文件后缀和文件字节大小
