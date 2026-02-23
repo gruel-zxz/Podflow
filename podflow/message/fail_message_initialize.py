@@ -209,6 +209,11 @@ error_reason = [
         "\033[31m无法提取\033[0m",
         "text",
     ],
+    [
+        r"Unable to download webpage: EOF occurred in violation of protocol (_ssl.c:1028) (caused by SSLError('EOF occurred in violation of protocol (_ssl.c:1028)')); please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U",
+        "\033[31m违反协议\033[0m",
+        "text",
+    ],
 ]
 
 
