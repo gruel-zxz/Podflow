@@ -3,6 +3,7 @@
 
 import re
 import threading
+import concurrent.futures
 from podflow import gVar
 from podflow.basic.file_save import file_save
 from podflow.basic.write_log import write_log
@@ -34,13 +35,22 @@ def update_youtube_bilibili_rss():
         r"<id>yt:channel:(UC)?(.{22})?</id>",
         r"<yt:channelId>(UC)?(.{22})?</yt:channelId>",
     ]
-    youtube_bilibili_rss_update_threads = []  # 创建线程列表
     rss_update_lock = threading.Lock()
-    # Youtube多线程
+    MAX_WORKERS = 10  # 控制并发线程数（关键参数）
+
+    def run_youtube(args):
+        return youtube_rss_update(*args)
+
+    def run_bilibili(args):
+        return bilibili_rss_update(*args)
+
+    youtube_bilibili_rss_update_tasks = []
+
+    # 收集任务
     for youtube_key, youtube_value in gVar.channelid_youtube_ids.items():
-        thread = threading.Thread(
-            target=youtube_rss_update,
-            args=(
+        youtube_bilibili_rss_update_tasks.append((
+            run_youtube,
+            (
                 youtube_key,
                 youtube_value,
                 pattern_youtube_varys,
@@ -48,28 +58,26 @@ def update_youtube_bilibili_rss():
                 pattern_youtube_error,
                 ratio_thread,
                 rss_update_lock,
-            ),
-        )
-        youtube_bilibili_rss_update_threads.append(thread)
-        # 开始多线程
-        thread.start()
-    # 哔哩哔哩多线程
+            )
+        ))
+
     for bilibili_key, bilibili_value in gVar.channelid_bilibili_ids.items():
-        thread = threading.Thread(
-            target=bilibili_rss_update,
-            args=(
+        youtube_bilibili_rss_update_tasks.append((
+            run_bilibili,
+            (
                 bilibili_key,
                 bilibili_value,
                 ratio_thread,
                 rss_update_lock,
-            ),
-        )
-        youtube_bilibili_rss_update_threads.append(thread)
-        # 开始多线程
-        thread.start()
-    # 等待所有线程完成
-    for thread in youtube_bilibili_rss_update_threads:
-        thread.join()
+            )
+        ))
+
+    # 线程池执行
+    with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+        futures = [executor.submit(func, args) for func, args in youtube_bilibili_rss_update_tasks]
+
+        # 等待所有线程完成
+        concurrent.futures.wait(futures)
 
     # 寻找错误原因
     def youtube_error(youtube_content, pattern_youtube_error):

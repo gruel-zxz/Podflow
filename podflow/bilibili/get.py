@@ -1,13 +1,13 @@
 # podflow/bilibili/get.py
 # coding: utf-8
 
-import contextlib
 import re
 import json
 import math
 import time
 import urllib
-import threading
+import contextlib
+import concurrent.futures
 from hashlib import md5
 from functools import reduce
 from podflow import gVar
@@ -315,15 +315,11 @@ def get_bilibili_vlist(bilibili_key, bilibili_value, num=1, all_part_judgement=F
                 bilibili_entry[bvid][bvid_type] = bvid_cid
                 bilibili_entry[bvid]["power"] = power
 
-        # 创建一个线程列表
-        threads = []
-        for bvid in bilibili_list:
-            thread = threading.Thread(target=all_part, args=(bvid,))
-            threads.append(thread)
-            thread.start()
-        # 等待所有线程完成
-        for thread in threads:
-            thread.join()
+        MAX_WORKERS = 5  # 根据实际情况调整
+        with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+            futures = [executor.submit(all_part, bvid) for bvid in bilibili_list]
+            # 等待所有线程完成
+            concurrent.futures.wait(futures)
     return bilibili_entry, bilibili_list
 
 
@@ -522,17 +518,15 @@ def bilibili_rss_update(
                                     backward_entry[guid][guid_type] = guid_cid
                                     backward_entry[guid]["power"] = power
 
-                            # 创建一个线程列表
-                            threads = []
-                            for guid in backward_list:
-                                thread = threading.Thread(
-                                    target=backward_all_part, args=(guid,)
-                                )  # 为每个条目创建线程
-                                threads.append(thread)  # 添加线程到列表
-                                thread.start()  # 启动线程
-                            # 等待所有线程完成
-                            for thread in threads:
-                                thread.join()
+                            MAX_WORKERS = 5  # 并发限制（建议根据实际情况调整）
+                            with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+                                futures = [
+                                    executor.submit(backward_all_part, guid)
+                                    for guid in backward_list
+                                ]
+                                
+                                # 等待所有线程完成
+                                concurrent.futures.wait(futures)
                         # 更新频道信息
                         gVar.channelid_bilibili_rss[bilibili_key].update(
                             {
