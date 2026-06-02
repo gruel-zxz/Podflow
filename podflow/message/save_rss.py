@@ -68,6 +68,7 @@ def save_rss():
 
     # 获取gVar.config中的地址和文件名
     address = gVar.config["address"]
+    address = address.replace("http://", "podcast://")
     filename = gVar.config["filename"]
     # 如果gVar.config中的token字段存在，则将token添加到overall_url中
     if token := gVar.config["token"]:

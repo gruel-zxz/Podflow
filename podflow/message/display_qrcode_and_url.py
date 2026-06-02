@@ -16,6 +16,7 @@ def display_qrcode_and_url(
     ids_update,
 ):
     address = gVar.config["address"]
+    address = address.replace("http://", "podcast://")
     if token := gVar.config["token"]:
         xml_url = f"{address}/channel_rss/{output_dir}.xml?token={token}"
     else:
