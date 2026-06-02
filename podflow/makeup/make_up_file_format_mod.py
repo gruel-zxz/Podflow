@@ -17,7 +17,7 @@ def makeup_format(video_id, makeup_format_lock):
         id_value["quality"],
         id_value["cookie"],
     )
-    for fail_info in ["年龄限制", "需登录"]:
+    for fail_info in ["年龄限制", "需登录", "请求拒绝", "无法获取音频ID", "年龄验证"]:
         if fail_info in makeup_id_format:
             if gVar.youtube_cookie:
                 gVar.make_up_file_format[video_id][

@@ -39,13 +39,17 @@ def get_youtube_and_bilibili_video_format(
     quality = gVar.video_id_update_format[id_num]["quality"]
     if "youtube" in url:
         def get_fail_info(id_update_format):
-            for fail_info in ["年龄限制", "需登录", "请求拒绝", "无法获取音频ID"]:
+            for fail_info in ["年龄限制", "需登录", "请求拒绝", "无法获取音频ID", "年龄验证"]:
                 if fail_info in id_update_format:
                     return fail_info
             return None
         try_num = 0
         while try_num < 5:
             try_num += 1
+            if gVar.youtube_cookie:
+                gVar.video_id_update_format[id_num][
+                    "cookie"
+                ] = "channel_data/yt_dlp_youtube.txt"
             id_update_format = media_format(
                 url,
                 id_num,
@@ -97,6 +101,9 @@ def get_youtube_and_bilibili_video_format(
         if power is True and (
             "试看" in id_update_format
             or "提取器错误" in id_update_format
+            or "服务器拒绝" in id_update_format
+            or "删除或受限" in id_update_format
+            or "无法提取" in id_update_format
             or id_update_format == "无法获取音频ID"
         ):
             id_update_format = "\033[31m充电专属\033[0m"

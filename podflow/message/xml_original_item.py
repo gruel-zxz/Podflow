@@ -6,14 +6,24 @@ import html
 import hashlib
 from podflow import gVar
 from podflow.message.title_correction import title_correction
+from podflow.message.remove_duplicate_titles import duplicate_titles
 
 
 # 生成原有的item模块
-def xml_original_item(original_item, channelid_title, change_judgment=False, title_change=None):
+def xml_original_item(
+    original_item,
+    channelid_title,
+    change_judgment=False,
+    title_change=None,
+    other_all_titles={},
+):
     if title_change:
         title_change = []
+
     def description_change(text, sep, title, channelid_title):
         channelid_title = html.escape(channelid_title)
+        if "〖重复〗" in text:
+            text = text.replace("〖重复〗", "")
         if sep in text:
             text_one, text_two = text.split(sep, 1)
             if text_one[0] == "『" and text_one[-1] == "』":
@@ -25,13 +35,14 @@ def xml_original_item(original_item, channelid_title, change_judgment=False, tit
             if text == "":
                 text = f"『{channelid_title}』{text}"
             else:
-                text = f"『{channelid_title}』{sep}{text}".replace('\x00', '')
+                text = f"『{channelid_title}』{sep}{text}".replace("\x00", "")
         return text
+
     guid = re.search(r"(?<=<guid>).+(?=</guid>)", original_item).group()
     title = re.search(r"(?<=<title>).+(?=</title>)", original_item).group()
     if title_change:
         title = title_correction(title, guid, title_change)
-    title = title.replace('\x00', '')
+    title = title.replace("\x00", "")
     link = re.search(r"(?<=<link>).+(?=</link>)", original_item).group()
     description = re.search(r"(?<=<description>).+(?=</description>)", original_item)
     description = description.group() if description else ""
@@ -39,9 +50,9 @@ def xml_original_item(original_item, channelid_title, change_judgment=False, tit
         description = description_change(description, "&#xA;", title, channelid_title)
     if "【原始地址】" not in description:
         if description:
-            description += f'&#xA;&#xA;【原始地址】&#xA;{link}'
+            description += f"&#xA;&#xA;【原始地址】&#xA;{link}"
         else:
-            description += f'【原始地址】&#xA;{link}'
+            description += f"【原始地址】&#xA;{link}"
     pubDate = re.search(r"(?<=<pubDate>).+(?=</pubDate>)", original_item).group()
     url = re.search(r"(?<=<enclosure url\=\").+?(?=\")", original_item).group()
     url = re.search(r"(?<=/channel_audiovisual/).+/.+\.(m4a|mp4)", url).group()
@@ -64,12 +75,35 @@ def xml_original_item(original_item, channelid_title, change_judgment=False, tit
     )
     itunes_summary = itunes_summary.group() if itunes_summary else ""
     if change_judgment:
-        itunes_summary = description_change(itunes_summary, "\n", title, channelid_title)
+        itunes_summary = description_change(
+            itunes_summary, "\n", title, channelid_title
+        )
     if "【原始地址】" not in itunes_summary:
         if itunes_summary:
-            itunes_summary += f'\n\n【原始地址】\n{link}'
+            itunes_summary += f"\n\n【原始地址】\n{link}"
         else:
-            itunes_summary += f'【原始地址】\n{link}'
+            itunes_summary += f"【原始地址】\n{link}"
+    if other_all_titles and duplicate_titles(other_all_titles, title, pubDate):
+        if "〖重复〗" not in description:
+            if f"『{channelid_title}』" in description:
+                description = re.sub(
+                    rf"『{re.escape(channelid_title)}』",
+                    f"『{channelid_title}』〖重复〗",
+                    description,
+                    count=1
+                )
+            else:
+                description = "〖重复〗\n" + description
+        if "〖重复〗" not in itunes_summary:
+            if f"『{channelid_title}』" in itunes_summary:
+                itunes_summary = re.sub(
+                    rf"『{re.escape(channelid_title)}』",
+                    f"『{channelid_title}』〖重复〗",
+                    itunes_summary,
+                    count=1
+                )
+            else:
+                itunes_summary = "〖重复〗\n" + itunes_summary
     itunes_image = re.search(
         r"(?<=<itunes:image href\=\").+(?=\"></itunes:image>)", original_item
     )

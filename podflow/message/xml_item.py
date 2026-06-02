@@ -10,6 +10,7 @@ from podflow.basic.time_format import time_format
 from podflow.basic.get_duration import get_duration
 from podflow.upload.find_media_index import find_media_index
 from podflow.message.title_correction import title_correction
+from podflow.message.remove_duplicate_titles import duplicate_titles
 
 
 def get_duration_by_guid(xml_text: str, target_guid: str):
@@ -37,7 +38,10 @@ def xml_item(
     pubDate,
     image,
     title_change=None,
+    other_all_titles=None,
 ):
+    if other_all_titles is None:
+        other_all_titles = {}
     if title_change is None:
         title_change = []
     channelid_title = html.escape(channelid_title)
@@ -50,6 +54,20 @@ def xml_item(
             description = f"『{channelid_title}』{description}"
         else:
             description = f"『{channelid_title}』\n{description}".replace("\x00", "")
+    if (
+        other_all_titles
+        and duplicate_titles(other_all_titles, title, pubDate)
+        and "〖重复〗" not in description
+    ):
+        if f"『{channelid_title}』" in description:
+            description = re.sub(
+                rf"『{re.escape(channelid_title)}』",
+                f"『{channelid_title}』〖重复〗",
+                description,
+                count=1,
+            )
+        else:
+            description = "〖重复〗\n" + description
     # 添加原始链接信息
     if "【原始地址】" not in description:
         if description:

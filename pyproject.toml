@@ -7,7 +7,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "podflow"
-version = "20260223"
+version = "20260601.2"
 description = "A podcast server that includes YouTube and BiliBili"
 readme = { file = "README.md", content-type = "text/markdown" }
 authors = [
@@ -21,12 +21,13 @@ dependencies = [
     "bottle>=0.13.2",
     "yt-dlp>=2026.02.21",
     "chardet>=5.2.0",
+    "cheroot>=11.1.2",
     "cherrypy>=18.10.0",
     "pyqrcode>=1.2.1",
     "requests>=2.32.3",
     "ffmpeg-python>=0.2.0",
     "BeautifulSoup4>=4.13.3",
-    "yt-dlp-apple-webkit-jsi ; platform_system == 'Darwin'",
+    "yt-dlp-apple-webkit-jsi>=0.1.1; sys_platform == 'darwin' or sys_platform == 'ios'",
 ]
 
 [project.urls]
