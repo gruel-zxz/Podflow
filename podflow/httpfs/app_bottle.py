@@ -3,14 +3,17 @@
 
 import os
 import re
+import errno
 import json
 import time
 import hashlib
 import mimetypes
+import threading
 from datetime import datetime
 from importlib import resources
 import cherrypy
 from bottle import Bottle, abort, redirect, request, static_file, response
+from cheroot import makefile as cheroot_makefile
 from podflow import gVar
 from podflow.upload.login import create
 from podflow.basic.file_save import file_save
@@ -23,6 +26,36 @@ from podflow.httpfs.get_channelid import get_channelid
 from podflow.basic.random_sequence import random_sequence
 from podflow.upload.find_media_index import find_media_index
 from podflow.upload.store_users_info import store_users_info
+
+
+def patch_cheroot_closed_socket_flush():
+    original_flush = cheroot_makefile.BufferedWriter._flush_unlocked
+    if getattr(original_flush, "podflow_closed_socket_patch", False):
+        return
+
+    closed_socket_errors = {
+        errno.EBADF,
+        errno.ECONNABORTED,
+        errno.ECONNRESET,
+        errno.EPIPE,
+        getattr(errno, "ESHUTDOWN", None),
+    }
+    closed_socket_errors.discard(None)
+
+    def patched_flush(self):
+        try:
+            return original_flush(self)
+        except OSError as exc:
+            if getattr(exc, "winerror", None) == 10038 or exc.errno in closed_socket_errors:
+                self._write_buf.clear()
+                return None
+            raise
+
+    patched_flush.podflow_closed_socket_patch = True
+    cheroot_makefile.BufferedWriter._flush_unlocked = patched_flush
+
+
+patch_cheroot_closed_socket_flush()
 
 
 class bottle_app:
@@ -39,6 +72,8 @@ class bottle_app:
     def setup_routes(self, upload=False):
         # 设置/favicon.ico路由，回调函数为favicon
         self.app_bottle.route("/favicon.ico", callback=self.favicon)
+        self.app_bottle.route("/apple-touch-icon.png", callback=self.favicon)
+        self.app_bottle.route("/apple-touch-icon-precomposed.png", callback=self.favicon)
         # 设置根路由，回调函数为home
         self.app_bottle.route("/", callback=self.home)
         # 设置/shutdown路由，回调函数为shutdown
@@ -188,7 +223,7 @@ class bottle_app:
             token, Shutdown_VALID_TOKEN
         ):  # 验证 Token 是否为关闭用的 Token
             self.print_out("shutdown", 200)  # 如果验证成功, 输出 200 状态
-            cherrypy.engine.exit()  # 使用 CherryPy 提供的停止功能来关闭服务器
+            threading.Timer(0.1, cherrypy.engine.exit).start()
             return "Shutting down..."  # 返回关机响应
         else:
             self.print_out("shutdown", 401)  # 如果验证失败, 输出 401 状态
@@ -196,7 +231,8 @@ class bottle_app:
 
     # 路由处理 favicon 请求
     def favicon(self):
-        self.print_out("favicon.ico", 303)  # 输出访问 favicon 的日志
+        current_path = request.path.lstrip("/")  # 获取当前路径
+        self.print_out(current_path, 303)  # 输出访问 favicon 的日志
         return redirect(
             "https://raw.githubusercontent.com/gruel-zxz/podflow/main/Podflow.png"
         )  # 重定向到图标 URL
