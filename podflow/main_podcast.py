@@ -23,7 +23,7 @@ from podflow.httpfs.progress_bar import progress_update
 from podflow.httpfs.app_bottle import bottle_app_instance
 
 # 下载和视频处理模块
-from podflow.ffmpeg_judge import ffmpeg_judge
+from podflow.judgment import ffmpeg_judge
 from podflow.download.delete_part import delete_part
 from podflow.download_and_build import download_and_build
 
@@ -101,6 +101,7 @@ def main_podcast():
                     "log.error_file": "",  # 关闭错误日志
                     # 添加线程池配置，对于长连接 (SSE) 可能有帮助
                     "server.thread_pool": 30,  # 示例值，根据需要调整
+                    "engine.autoreload.on": False, # 建议关闭自动重载
                 }
             }
         )
@@ -115,6 +116,7 @@ def main_podcast():
         time_print(f"HTTP服务器端口: \033[32m{port}\033[0m, \033[31m被占用\033[0m")
         if parse.httpfs:
             sys.exit(0)
+    index_message_clear_count = 0
     # 主流程
     while parse.update_num > 0 or parse.update_num == -1:  # 循环主更新
         # 主进度条
@@ -308,6 +310,16 @@ def main_podcast():
         else:
             # 延时
             time.sleep(parse.time_delay)
+            index_message_clear_count += 1
+            if index_message_clear_count >= 12:
+                gVar.index_message["podflow"].clear()
+                gVar.index_message["http"].clear()
+                gVar.index_message["download"].clear()
+                gVar.index_message["enter"] = True
+                index_message_clear_count = 0
     # 关闭CherryPy服务器
     time_print("Podflow运行结束")
+    cherrypy.engine.stop()
+    time.sleep(1)
     cherrypy.engine.exit()
+    cherrypy.engine.block()
