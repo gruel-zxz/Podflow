@@ -6,7 +6,8 @@
     // 页面容器
     const pages = {
         pageChannel: document.getElementById('pageChannel'),
-        pageMessage: document.getElementById('pageMessage')
+        pageMessage: document.getElementById('pageMessage'),
+        pageConfig: document.getElementById('pageConfig')
     };
     // Channel ID 相关表单
     const inputForm = document.getElementById('inputForm');
@@ -32,6 +33,40 @@
         messageDownload: false
     };
     let eventSource = null; // 用于存储 EventSource 实例
+    let reconnectAttempts = 0; // 重连尝试次数
+    let reconnectTimer = null; // 重连定时器
+    const MAX_RECONNECT_ATTEMPTS = 10; // 最大重连次数
+    const BASE_RECONNECT_DELAY = 1000; // 基础重连延迟 (ms)
+
+    // --- 连接状态指示器 ---
+    function updateConnectionStatus(status, message) {
+        let indicator = document.getElementById('connection-status');
+        if (!indicator) {
+            indicator = document.createElement('div');
+            indicator.id = 'connection-status';
+            indicator.style.cssText = 'position:fixed;top:0;left:0;right:0;z-index:9999;padding:6px 12px;text-align:center;font-size:13px;transition:opacity 0.3s;pointer-events:none;';
+            document.body.appendChild(indicator);
+        }
+        if (status === 'connected') {
+            indicator.style.backgroundColor = '#4caf50';
+            indicator.style.color = '#fff';
+            indicator.textContent = message || '✅ 已连接';
+            // 2秒后自动隐藏
+            setTimeout(() => { indicator.style.opacity = '0'; }, 2000);
+        } else if (status === 'reconnecting') {
+            indicator.style.backgroundColor = '#ff9800';
+            indicator.style.color = '#fff';
+            indicator.style.opacity = '1';
+            indicator.textContent = message || `⚠️ 连接中断，正在重连 (${reconnectAttempts}/${MAX_RECONNECT_ATTEMPTS})...`;
+        } else if (status === 'disconnected') {
+            indicator.style.backgroundColor = '#f44336';
+            indicator.style.color = '#fff';
+            indicator.style.opacity = '1';
+            indicator.innerHTML = message || '❌ 连接已断开 <button onclick="location.reload()" style="margin-left:8px;padding:2px 8px;border:none;border-radius:3px;cursor:pointer;">刷新页面</button>';
+        } else {
+            indicator.style.opacity = '0';
+        }
+    }
 
     // --- 二维码生成 ---
     /**
@@ -96,6 +131,11 @@
                 startMessageStream(); // 显示消息页面时，启动 SSE 连接
             } else {
                 stopMessageStream(); // 切换到其他页面时，关闭 SSE 连接
+            }
+
+            // --- 配置页面加载 ---
+            if (pageId === 'pageConfig' && window.podflowConfig) {
+                window.podflowConfig.onShow();
             }
         } else {
             console.warn(`未找到 ID 为 "${pageId}" 的页面`);
@@ -478,13 +518,27 @@
         if (eventSource) {
             console.log("SSE 连接已存在，将重新启动...");
             eventSource.close();
+            eventSource = null;
         }
+        // 清除旧的重连定时器
+        if (reconnectTimer) {
+            clearTimeout(reconnectTimer);
+            reconnectTimer = null;
+        }
+        // 重连时清空旧数据缓存，确保重连后数据同步正确
+        lastMessage = { schedule: [], podflow: [], http: [], download: [] };
 
         console.log("正在启动 SSE 连接到 /stream ...");
         eventSource = new EventSource('/stream');
 
         // 监听 'message' 事件 (默认事件)
         eventSource.onmessage = function(event) {
+            // 连接成功，重置重连计数
+            if (reconnectAttempts > 0) {
+                reconnectAttempts = 0;
+                updateConnectionStatus('connected');
+            }
+
             try {
                 const data = JSON.parse(event.data);
 
@@ -529,17 +583,29 @@
         // 监听错误事件
         eventSource.onerror = function(error) {
             console.error('SSE 连接发生错误:', error);
-            // EventSource 默认会自动尝试重连，通常不需要手动处理
-            // 如果需要彻底停止，可以在这里关闭
-            // eventSource.close();
-            // eventSource = null;
-            // 可以考虑在这里添加 UI 提示，告知用户连接中断
+            eventSource.close();
+            eventSource = null;
+
+            reconnectAttempts++;
+            if (reconnectAttempts <= MAX_RECONNECT_ATTEMPTS) {
+                // 指数退避重连
+                const delay = Math.min(BASE_RECONNECT_DELAY * Math.pow(2, reconnectAttempts - 1), 30000);
+                updateConnectionStatus('reconnecting', `⚠️ 连接中断，${Math.round(delay / 1000)}秒后重连 (${reconnectAttempts}/${MAX_RECONNECT_ATTEMPTS})...`);
+                console.log(`将在 ${delay}ms 后尝试第 ${reconnectAttempts} 次重连...`);
+                reconnectTimer = setTimeout(() => {
+                    startMessageStream();
+                }, delay);
+            } else {
+                updateConnectionStatus('disconnected');
+                console.error(`已达到最大重连次数 (${MAX_RECONNECT_ATTEMPTS})，停止重连。`);
+            }
         };
 
-        // 监听连接打开事件 (可选)
+        // 监听连接打开事件
         eventSource.onopen = function() {
             console.log("SSE 连接已成功建立。");
-            // 连接成功后，可能需要立即获取一次全量数据？或者依赖于服务器推送
+            reconnectAttempts = 0;
+            updateConnectionStatus('connected');
         };
 
         console.log("SSE 事件监听器已设置。");
@@ -554,6 +620,12 @@
             eventSource = null; // 清除引用
             console.log("SSE 连接已关闭。");
         }
+        if (reconnectTimer) {
+            clearTimeout(reconnectTimer);
+            reconnectTimer = null;
+        }
+        reconnectAttempts = 0;
+        updateConnectionStatus(''); // 隐藏状态指示器
     }
 
     // --- 事件监听器绑定 ---
@@ -721,5 +793,22 @@
 
     // 初始化时显示默认页面 (例如消息页面)
     showPage('pageMessage');
+
+    // --- 页面可见性检测：切换标签页后自动重连 ---
+    document.addEventListener('visibilitychange', function() {
+        if (document.visibilityState === 'visible') {
+            // 页面重新可见，检查 SSE 连接状态
+            if (eventSource && eventSource.readyState === EventSource.CLOSED) {
+                console.log("页面重新可见，SSE 连接已关闭，正在重连...");
+                reconnectAttempts = 0; // 重置重连计数
+                startMessageStream();
+            } else if (!eventSource && pages.pageMessage && pages.pageMessage.style.display !== 'none') {
+                // 没有活跃连接且当前在消息页面，重新启动
+                console.log("页面重新可见，无活跃 SSE 连接，正在重连...");
+                reconnectAttempts = 0;
+                startMessageStream();
+            }
+        }
+    });
 
 })(); // IIFE 结束

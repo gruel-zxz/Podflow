@@ -1,225 +1,278 @@
-/* /templates/css/config.css */
+/* ===== Config Page Styles ===== */
+
+#pageConfig {
+  animation: fadeIn 0.25s ease;
+}
 
 #pageConfig label {
-    display: block; /* 让标签独占一行 */
-    margin-top: 12px;
-    font-weight: bold;
-    color: #333;
-  }
-  
-  #pageConfig input[type="text"],
-  #pageConfig input[type="number"],
-  #pageConfig input[type="url"],
-  #pageConfig select,
-  #pageConfig textarea {
-    width: 95%; /* 调整宽度 */
-    padding: 8px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    font-size: 1em;
-  }
-  
-  #pageConfig input[type="checkbox"] {
-     margin-left: 10px;
-     vertical-align: middle; /* 垂直居中对齐 */
-  }
-  
-  .config-item {
-      margin-bottom: 15px;
-      padding-bottom: 10px;
-      border-bottom: 1px dotted #eee; /* 分隔线 */
-  }
-  .config-item:last-child {
-      border-bottom: none;
-  }
-  
-  
-  /* 可折叠部分的样式 */
-  .collapsible-section {
-    border: 1px solid #e0e0e0;
-    margin-top: 15px;
-    border-radius: 5px;
-    background-color: #f9f9f9;
-    overflow: hidden; /* 防止子元素溢出圆角 */
-  }
-  
-  .collapsible-header {
-    cursor: pointer;
-    font-weight: bold;
-    padding: 10px 15px;
-    background-color: #f0f0f0;
-    border-bottom: 1px solid #e0e0e0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    transition: background-color 0.2s ease;
-  }
-  .collapsible-header:hover {
-      background-color: #e5e5e5;
-  }
-  
-  
-  .collapsible-header .channel-key {
-      color: #0056b3; /* 突出频道 Key */
-  }
-  
-  .collapsible-header .channel-id {
-      font-size: 0.9em;
-      color: #555;
-      margin-left: 10px;
-  }
-  
-  
-  .collapsible-header .toggle-icon {
-     font-size: 1.2em;
-     transition: transform 0.3s ease; /* 添加旋转动画 */
-  }
-  
-  .collapsible-content {
-    padding: 15px;
-    padding-top: 5px; /* 减少顶部内边距 */
-    border-top: 1px solid #eee; /* 在内容和头部之间加条细线 */
-    background-color: #ffffff;
-    /* display: none; 由 JS 控制 */
-  }
-  
-  .collapsible-content.hidden {
-    display: none;
-  }
-  
-  /* 旋转展开/收起图标 */
-  .collapsible-header.expanded .toggle-icon {
-      transform: rotate(90deg);
-  }
-  
-  
-  /* title_change 数组项样式 */
-  .title-change-list {
-      margin-top: 10px;
-      padding-left: 15px;
-      border-left: 2px solid #f0f0f0;
-  }
-  .title-change-item {
-      border: 1px dashed #ccc;
-      padding: 10px;
-      margin-top: 10px;
-      margin-bottom: 10px;
-      background-color: #fff;
-      border-radius: 4px;
-  }
-  .title-change-item > label { /* 嵌套标签样式调整 */
-      font-weight: normal;
-      font-size: 0.95em;
-      color: #444;
-  }
-  .title-change-item > input,
-  .title-change-item > select {
-      width: 90%; /* 稍微缩进 */
-  }
+  display: block;
+  margin-top: 16px;
+  font-weight: 600;
+  font-size: 13px;
+  color: var(--secondary-text);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
 
-/* styles.css */
+#pageConfig input[type="text"],
+#pageConfig input[type="number"],
+#pageConfig input[type="url"],
+#pageConfig select,
+#pageConfig textarea {
+  width: 100%;
+  padding: 10px 12px;
+  margin-top: 6px;
+  border: 1px solid var(--input-border);
+  border-radius: var(--radius-sm);
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: var(--font-sans);
+  color: var(--text-color);
+  background-color: var(--input-bg);
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
 
-/* Button Styles */
-.config-button {
+#pageConfig input[type="text"]:focus,
+#pageConfig input[type="number"]:focus,
+#pageConfig input[type="url"]:focus,
+#pageConfig select:focus {
+  outline: none;
+  border-color: var(--button-bg);
+  box-shadow: 0 0 0 3px var(--progress-bar-glow);
+}
+
+#pageConfig input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
   margin-left: 10px;
-  padding: 3px 8px;
-  font-size: 0.9em;
+  vertical-align: middle;
+  accent-color: var(--button-bg);
   cursor: pointer;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  background-color: #f0f0f0;
-  transition: background-color 0.2s ease;
-  vertical-align: middle; /* Align buttons vertically with text/elements */
 }
 
-.config-button:hover {
-  background-color: #e0e0e0;
+/* Config item row */
+.config-item {
+  margin-bottom: 14px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--divider-color);
+}
+.config-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
-.add-button {
-  background-color: #d4edda; /* Light green */
-  border-color: #c3e6cb;
-  color: #155724; /* Dark green */
+/* ===== Collapsible Sections ===== */
+.collapsible-section {
+  border: 1px solid var(--card-border);
+  margin-top: 12px;
+  border-radius: var(--radius-md);
+  background-color: var(--card-bg);
+  overflow: hidden;
+  box-shadow: var(--card-shadow);
+  transition: box-shadow 0.2s;
+}
+.collapsible-section:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
 }
 
-.add-button:hover {
-   background-color: #c8e5bc;
+.collapsible-header {
+  cursor: pointer;
+  font-weight: 600;
+  padding: 12px 16px;
+  background-color: var(--divider-color);
+  border-bottom: 1px solid var(--card-border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.2s;
+  font-size: 14px;
+  user-select: none;
+}
+.collapsible-header:hover {
+  background-color: var(--menu-selected-bg);
 }
 
-.delete-button {
-  background-color: #f8d7da; /* Light red */
-  border-color: #f5c6cb;
-  color: #721c24; /* Dark red */
+.collapsible-header .section-title {
+  font-weight: 700;
+  color: var(--text-color);
 }
 
-.delete-button:hover {
-  background-color: #f1b0b7;
+.collapsible-header .channel-key {
+  color: var(--button-bg);
+  font-weight: 700;
 }
 
-/* Adjust layout for buttons in header */
-.collapsible-header .config-button {
-  /* Specific adjustments for buttons inside headers */
-  margin-left: 10px; /* Space between title and buttons */
+.collapsible-header .channel-display-key {
+  font-weight: 600;
+  color: var(--text-color);
+  font-family: var(--font-mono);
+  font-size: 13px;
 }
 
-.title-change-list label .config-button {
-   margin-left: 10px;
+.collapsible-header .toggle-icon {
+  font-size: 14px;
+  transition: transform 0.25s ease;
+  flex-shrink: 0;
+}
+.collapsible-header.expanded .toggle-icon {
+  transform: rotate(90deg);
 }
 
-.title-change-item strong .config-button {
-   margin-left: 10px;
+/* Collapsible content */
+.collapsible-content {
+  padding: 16px;
+  background-color: var(--card-bg);
+}
+.collapsible-content.hidden {
+  display: none;
 }
 
-/* Style for text inputs and selects */
-.config-item input.config-input-text,
-.config-item input[type="number"], /* Keep number type selector */
-.config-item input[type="url"], /* Keep url type selector */
-.config-item select.config-input-select {
-  width: calc(100% - 20px); /* Adjust width considering padding/margin */
-  padding: 5px;
-  margin-top: 5px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box; /* Include padding and border in element's total width and height */
-  display: block; /* Make inputs/selects take their own line */
+/* ===== Title Change Rules ===== */
+.title-change-list {
+  margin-top: 12px;
+  padding-left: 12px;
+  border-left: 2px solid var(--background-bar-color);
 }
 
-.config-item input[type="checkbox"] {
-   width: auto; /* Checkbox should not take full width */
-   margin-top: 0;
-   display: inline-block; /* Checkbox stays inline with label */
-}
-
-/* Adjust display for channel key/ID display */
-.channel-item .collapsible-header .channel-dom-key {
-  font-weight: bold;
-}
-
-.channel-item .collapsible-header .channel-id {
-  font-size: 0.9em;
-  color: #555;
-  margin-left: 5px;
-}
-
-.channel-item .collapsible-header .id-display {
-  font-weight: normal; /* Don't bold the displayed ID */
-}
-
-/* Basic styling for channel items */
-.channel-item {
-  border: 1px solid #eee;
-  margin-bottom: 10px;
-  padding: 5px;
-  border-radius: 4px;
-  background-color: #f9f9f9;
+.title-change-list label {
+  margin-top: 0;
 }
 
 .title-change-item {
-  border: 1px solid #eee;
-  margin-bottom: 10px;
-  padding: 5px;
-  border-radius: 4px;
-  background-color: #f9f9f9;
+  border: 1px solid var(--card-border);
+  padding: 12px;
+  margin-top: 10px;
+  background-color: var(--input-bg);
+  border-radius: var(--radius-sm);
+  position: relative;
+}
+.title-change-item > strong {
+  font-size: 13px;
+  color: var(--secondary-text);
+  font-weight: 600;
+}
+.title-change-item > label {
+  font-weight: normal;
+  font-size: 13px;
+  color: var(--secondary-text);
+}
+.title-change-item > input,
+.title-change-item > select {
+  width: 100%;
+}
+
+/* ===== Channel Items ===== */
+.channel-item {
+  border: 1px solid var(--card-border);
+  margin-bottom: 8px;
+  border-radius: var(--radius-sm);
+  background-color: var(--card-bg);
+  overflow: hidden;
+}
+
+.channel-item .collapsible-header {
+  background-color: var(--input-bg);
+}
+
+/* ===== Config Buttons ===== */
+.config-button {
+  margin-left: 8px;
+  padding: 4px 10px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid var(--input-border);
+  border-radius: var(--radius-sm);
+  background-color: var(--input-bg);
+  color: var(--text-color);
+  transition: all 0.2s;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  box-shadow: none;
+}
+.config-button:hover {
+  background-color: var(--divider-color);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  transform: none;
+}
+.config-button:active {
+  transform: none;
+}
+
+.add-button {
+  background-color: #ecfdf5;
+  border-color: #a7f3d0;
+  color: #065f46;
+}
+.add-button:hover {
+  background-color: #d1fae5;
+}
+
+.delete-button {
+  background-color: #fef2f2;
+  border-color: #fecaca;
+  color: #991b1b;
+}
+.delete-button:hover {
+  background-color: #fee2e2;
+}
+
+/* Dark mode button overrides */
+@media (prefers-color-scheme: dark) {
+  .add-button {
+    background-color: #064e3b;
+    border-color: #065f46;
+    color: #6ee7b7;
+  }
+  .add-button:hover {
+    background-color: #065f46;
+  }
+  .delete-button {
+    background-color: #450a0a;
+    border-color: #7f1d1d;
+    color: #fca5a5;
+  }
+  .delete-button:hover {
+    background-color: #7f1d1d;
+  }
+}
+
+.collapsible-header .config-button {
+  margin-left: 8px;
+}
+
+/* ===== Config Input Overrides ===== */
+.config-item input.config-input-text,
+.config-item input[type="number"],
+.config-item input[type="url"],
+.config-item select.config-input-select {
+  width: 100%;
+  padding: 8px 10px;
+  margin-top: 4px;
+  border: 1px solid var(--input-border);
+  border-radius: var(--radius-sm);
+  box-sizing: border-box;
+  display: block;
+  font-size: 14px;
+  background-color: var(--input-bg);
+  color: var(--text-color);
+}
+
+/* ===== Config Status Message ===== */
+#configStatus {
+  font-size: 13px;
+  font-weight: 500;
+  padding: 8px 12px;
+  border-radius: var(--radius-sm);
+  margin-top: 12px;
+  transition: all 0.3s;
+}
+
+/* ===== Config Subsection ===== */
+.config-subsection {
+  margin-left: 12px;
+  padding-left: 12px;
+  border-left: 2px solid var(--background-bar-color);
 }

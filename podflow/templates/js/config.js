@@ -754,79 +754,43 @@ document.addEventListener('DOMContentLoaded', () => {
     refreshConfigBtn.addEventListener('click', loadConfig);
     saveConfigBtn.addEventListener('click', saveConfig);
 
-    // --- 页面切换逻辑 (需要集成到你现有的 index.js 逻辑中) ---
-    // This is an example, you need to adjust based on your index.js file
-    function showPage(pageId) {
-        document.querySelectorAll('main > section').forEach(section => {
-            section.style.display = 'none';
-        });
-        const pageToShow = document.getElementById(pageId);
-        if (pageToShow) {
-            pageToShow.style.display = 'block';
-            // 如果切换到配置页面，并且尚未加载，则加载配置
-            if (pageId === 'pageConfig' && !currentConfig) {
+    // --- 页面切换逻辑 (集成到 index.js 的 showPage 中) ---
+    // 不再独立监听菜单点击，由 index.js 统一管理
+    // 配置页面的加载/渲染通过暴露给全局的函数由 index.js 调用
+    window.podflowConfig = {
+        onShow: function() {
+            if (!currentConfig) {
                 loadConfig();
-            } else if (pageId === 'pageConfig' && currentConfig) {
-                // 如果已经加载过配置，切换回来时重新渲染一次以确保状态正确
-                 // Ensure temporary keys are present before re-rendering if needed
-                 if (currentConfig?.media?.channelid_youtube) {
-                     for (const key in currentConfig.media.channelid_youtube) {
-                          if (!currentConfig.media.channelid_youtube[key]._tempKey) {
-                              currentConfig.media.channelid_youtube[key]._tempKey = key;
-                          }
-                           if (!Array.isArray(currentConfig.media.channelid_youtube[key].title_change)) {
-                                currentConfig.media.channelid_youtube[key].title_change = [];
-                           }
-                     }
-                 }
-                 if (currentConfig?.media?.channelid_bilibili) {
-                     for (const key in currentConfig.media.channelid_bilibili) {
-                          if (!currentConfig.media.channelid_bilibili[key]._tempKey) {
-                               currentConfig.media.channelid_bilibili[key]._tempKey = key;
-                          }
-                           if (!Array.isArray(currentConfig.media.channelid_bilibili[key].title_change)) {
-                                currentConfig.media.channelid_bilibili[key].title_change = [];
-                           }
-                     }
-                 }
+            } else {
+                // 确保临时 keys 存在
+                if (currentConfig?.media?.channelid_youtube) {
+                    for (const key in currentConfig.media.channelid_youtube) {
+                        if (!currentConfig.media.channelid_youtube[key]._tempKey) {
+                            currentConfig.media.channelid_youtube[key]._tempKey = key;
+                        }
+                        if (!Array.isArray(currentConfig.media.channelid_youtube[key].title_change)) {
+                            currentConfig.media.channelid_youtube[key].title_change = [];
+                        }
+                    }
+                }
+                if (currentConfig?.media?.channelid_bilibili) {
+                    for (const key in currentConfig.media.channelid_bilibili) {
+                        if (!currentConfig.media.channelid_bilibili[key]._tempKey) {
+                            currentConfig.media.channelid_bilibili[key]._tempKey = key;
+                        }
+                        if (!Array.isArray(currentConfig.media.channelid_bilibili[key].title_change)) {
+                            currentConfig.media.channelid_bilibili[key].title_change = [];
+                        }
+                    }
+                }
                 renderConfig(currentConfig, configContainer);
             }
-            // 更新菜单激活状态 (可选)
-            document.querySelectorAll('#menu li').forEach(li => {
-                li.classList.toggle('active', li.dataset.page === pageId);
-            });
         }
-    }
+    };
 
-    // Listen for menu clicks (ensure your menu items have data-page attributes)
-    document.querySelectorAll('#menu li').forEach(item => {
-        item.addEventListener('click', () => {
-            const pageId = item.getAttribute('data-page');
-            if (pageId) {
-                showPage(pageId);
-            }
-        });
-    });
-
-    // --- Menu toggle button logic (reuse your existing logic if any) ---
-    const toggleMenuBtn = document.getElementById('toggleMenu');
-    const menuNav = document.getElementById('menu');
-    const mainContent = document.getElementById('main'); // Get main element
-    if (toggleMenuBtn && menuNav && mainContent) {
-        toggleMenuBtn.addEventListener('click', () => {
-                menuNav.classList.toggle('closed'); // Assume 'closed' class is used to hide the menu
-                mainContent.classList.toggle('menu-closed'); // Add class to main to adjust margin
-                toggleMenuBtn.textContent = menuNav.classList.contains('closed') ? '❯' : '❮';
-                // You may need CSS for .menu.closed and main.menu-closed
-        });
-    }
+    // --- Menu toggle button logic (由 index.js 统一管理，此处不再重复绑定) ---
+    // index.js 已经处理了 toggleMenu 逻辑
 
      // --- Initial load ---
-    // On page load, if the current page is configPage, auto load config
-     if (configPage && configPage.style.display !== 'none') {
-         loadConfig();
-     }
-     // If you want configPage to be the default page shown, uncomment the line below
-     // and comment out any other default page setting in your index.js
-     // showPage('pageConfig'); // Example: set config page as default
+    // 配置页面的初始加载由 index.js 的 showPage 触发，此处不做自动加载
 });
