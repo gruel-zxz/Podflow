@@ -56,8 +56,8 @@ def get_original_rss():
                 with open(
                     f"channel_rss/{channelid_key}.xml", "r", encoding="utf-8"
                 ) as file:  # 打开文件进行读取
-                    youtube_rss_original = file.read()  # 读取文件内容
-                    get_xmls_original_key = youtube_rss_original.split(
+                    file_rss_original = file.read()  # 读取文件内容
+                    get_xmls_original_key = file_rss_original.split(
                         f"<!-- {{{channelid_key}}} -->\n"
                     )[1]
                     get_xmls_original[channelid_key] = get_xmls_original_key
