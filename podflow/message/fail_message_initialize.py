@@ -145,6 +145,16 @@ error_reason = [
         "regexp",
     ],
     [
+        r"Got error: \(<HTTPSConnection\(host='rr[0-9]---sn-.{8}\.googlevideo.com', port=443\) at 0x[0-9a-fA-F]+\>, 'Connection to rr[0-9]---sn-.{8}\.googlevideo.com timed out\. \(connect timeout=20\.0\)'\)",
+        "\033[31m连接超时\033[0m",
+        "regexp",
+    ],
+    [
+        r"Got error: HTTPSConnectionPool\(host='[a-z0-9]+\.mcdn\.bilivideo\.cn', port=8082\): Read timed out\.",
+        "\033[31m读取超时\033[0m",
+        "regexp",
+    ],
+    [
         r"Requested format is not available. Use --list-formats for a list of available formats",
         "\033[31m格式不可用\033[0m",
         "text",
@@ -212,6 +222,16 @@ error_reason = [
     [
         r"Unable to download webpage: EOF occurred in violation of protocol (_ssl.c:1028) (caused by SSLError('EOF occurred in violation of protocol (_ssl.c:1028)')); please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U",
         "\033[31m违反协议\033[0m",
+        "text",
+    ],
+    [
+        r"Unable to download JSON metadata: HTTP Error 412: Precondition Failed (caused by <HTTPError 412: Precondition Failed>)",
+        "\033[31m服务器拒绝\033[0m",
+        "text",
+    ],
+    [
+        r"Take a few minutes to verify your age. To view this video, please provide more info so we can be sure you're an adult. Learn more",
+        "\033[31m年龄验证\033[0m",
         "text",
     ],
 ]
