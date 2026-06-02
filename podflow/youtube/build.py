@@ -15,6 +15,7 @@ from podflow.message.format_time import format_time
 from podflow.httpfs.progress_bar import progress_bar
 from podflow.basic.get_html_dict import get_html_dict
 from podflow.message.xml_original_item import xml_original_item
+from podflow.message.remove_duplicate_titles import get_all_titles
 
 
 # 获取YouTube频道简介模块
@@ -22,6 +23,7 @@ def get_youtube_introduction():
     # 创建线程锁
     youtube_xml_get_lock = threading.Lock()
 
+    MAX_WORKERS = 10  # 并发限制（可调）
     # 使用http获取youtube频道简介和图标模块
     def youtube_xml_get(output_dir):
         if channel_about := http_client(
@@ -66,7 +68,7 @@ def print_fail_youtube():
         if "introduction" in xml_tree:
             time_print(f"{gVar.channelid_youtube_ids[output_dir]} 简介获取失败")
         if "playlist" in xml_tree:
-            time_print(f"{gVar.channelid_youtube_ids[output_dir]} 播放列表获取失败") 
+            time_print(f"{gVar.channelid_youtube_ids[output_dir]} 播放列表获取失败")
 
 
 # 获取YouTube播放列表模块
@@ -119,7 +121,11 @@ def youtube_html_guid_message(guid):
 
 
 # 生成YouTube的item模块
-def youtube_xml_item(entry, title_change=None):
+def youtube_xml_item(
+    entry,
+    other_all_titles,
+    title_change=None,
+):
     if title_change is None:
         title_change = {}
 
@@ -144,10 +150,18 @@ def youtube_xml_item(entry, title_change=None):
         pubDate,
         re.search(r"(?<=<media:thumbnail url=\").+(?=\" width=\")", entry).group(),
         title_change,
+        other_all_titles,
     )
 
 
-def get_xml_item(guid, item, channelid_title, title_change, output_dir):
+def get_xml_item(
+    guid,
+    item,
+    channelid_title,
+    title_change,
+    output_dir,
+    other_all_titles,
+):
     video_website = f"https://youtube.com/watch?v={guid}"
     if item["yt-dlp"]:
         guid_value = gVar.video_id_update_format[guid]
@@ -181,11 +195,13 @@ def get_xml_item(guid, item, channelid_title, title_change, output_dir):
         pubDate,
         image,
         title_change,
+        other_all_titles,
     )
 
 
 # 生成YouTube对应channel的需更新的items模块
 def youtube_xml_items(output_dir, ratio_part):
+    other_all_titles = get_all_titles(output_dir)
     items_list = [f"<!-- {output_dir} -->"]
     original_judgment = True
     channelid_youtube_value = gVar.channelid_youtube[
@@ -211,7 +227,12 @@ def youtube_xml_items(output_dir, ratio_part):
             if guid not in gVar.video_id_failed:
                 item = output_dir_value["content"]["item"][guid]
                 if xml_item_text := get_xml_item(
-                    guid, item, channelid_title, title_change, output_dir
+                    guid,
+                    item,
+                    channelid_title,
+                    title_change,
+                    output_dir,
+                    other_all_titles,
                 ):
                     items_list.append(f"{xml_item_text}<!-- {output_dir} -->")
                     progress_bar(ratio_part[0], ratio_part[1])
@@ -233,7 +254,7 @@ def youtube_xml_items(output_dir, ratio_part):
                 not in gVar.video_id_failed
             ):
                 items_list.append(
-                    f"{youtube_xml_item(entry, title_change)}<!-- {output_dir} -->"
+                    f"{youtube_xml_item(entry, other_all_titles, title_change)}<!-- {output_dir} -->"
                 )
                 progress_bar(ratio_part[0], ratio_part[1])
                 if re.search(r"(?<=<media:description>)『", entry):
@@ -253,9 +274,14 @@ def youtube_xml_items(output_dir, ratio_part):
                 and xml_guid.group() not in items_guid
                 and xml_guid.group() not in gVar.video_id_failed
             ):
-                items_list.append(
-                    f"{xml_original_item(xml, channelid_title, original_judgment, title_change)}<!-- {output_dir} -->"
+                xml_original_item_text = xml_original_item(
+                    xml,
+                    channelid_title,
+                    original_judgment,
+                    title_change,
+                    other_all_titles,
                 )
+                items_list.append(f"{xml_original_item_text}<!-- {output_dir} -->")
                 progress_bar(ratio_part[0], ratio_part[1])
                 xml_num += 1
             if xml_num >= entry_count:
@@ -272,6 +298,7 @@ def youtube_xml_items(output_dir, ratio_part):
                     channelid_title,
                     title_change,
                     output_dir,
+                    other_all_titles,
                 ):
                     items_list.append(f"{backward_xml_item_text}<!-- {output_dir} -->")
                     progress_bar(ratio_part[0], ratio_part[1])

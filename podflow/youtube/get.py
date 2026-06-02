@@ -1,10 +1,10 @@
 # podflow/youtube/get.py
 # coding: utf-8
 
-import contextlib
 import re
 import os
-import threading
+import contextlib
+import concurrent.futures
 from podflow import gVar
 from podflow.basic.time_print import time_print
 from podflow.basic.http_client import http_client
@@ -95,54 +95,57 @@ def get_youtube_html_playlists(
     except (KeyError, TypeError, IndexError, ValueError):
         return None  # 若解析失败，返回 None
 
-    # 若方向是向前获取（最新视频）或没有起始视频 ID
-    if direction_forward or not videoid_start:
-        for playlist in playlists:
-            videoid = playlist["playlistPanelVideoRenderer"]["videoId"]  # 提取视频 ID
-            if (
-                playlist["playlistPanelVideoRenderer"]["navigationEndpoint"][
-                    "watchEndpoint"
-                ]["index"]
-                == update_size
-            ):
-                break  # 如果达到更新上限，则停止
-            if videoid not in guids:  # 确保视频 ID 不是已存在的
-                title = playlist["playlistPanelVideoRenderer"]["title"][
-                    "simpleText"
-                ]  # 获取视频标题
-                idlist.append(videoid)  # 添加到 ID 列表
-                item[videoid] = {"title": title, "yt-dlp": True}  # 记录视频信息
-                if videoid in youtube_content_ytid_original:  # 若视频已在原始列表中
-                    item[videoid]["yt-dlp"] = False  # 标记为已存在
-                    item_thread = threading.Thread(
-                        target=get_video_item, args=(videoid, youtube_value)
-                    )  # 启动线程获取详细信息
-                    item_thread.start()
-                    threads.append(item_thread)
-    else:  # 处理向后获取（获取较旧的视频）
-        reversed_playlists = []
-        for playlist in reversed(playlists):
-            videoid = playlist["playlistPanelVideoRenderer"]["videoId"]
-            if videoid not in guids:
-                reversed_playlists.append(playlist)  # 收集未存在的旧视频
-            else:
-                break  # 如果找到已存在的视频 ID，则停止
+    # 定义最大工作线程数
+    MAX_WORKERS = 5
 
-        for playlist in reversed(reversed_playlists[-update_size:]):
-            videoid = playlist["playlistPanelVideoRenderer"]["videoId"]
-            title = playlist["playlistPanelVideoRenderer"]["title"]["simpleText"]
-            idlist.append(videoid)
-            item[videoid] = {"title": title, "yt-dlp": True}
-            if videoid in youtube_content_ytid_original:
-                item[videoid]["yt-dlp"] = False
-                item_thread = threading.Thread(
-                    target=get_video_item, args=(videoid, youtube_value)
-                )
-                item_thread.start()
-                threads.append(item_thread)
+    # 初始化线程池执行器
+    with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+        futures = []  # 用于存放提交的任务句柄
+        # 若方向是向前获取（最新视频）或没有起始视频 ID
+        if direction_forward or not videoid_start:
+            for playlist in playlists:
+                videoid = playlist["playlistPanelVideoRenderer"]["videoId"]  # 提取视频 ID
+                if (
+                    playlist["playlistPanelVideoRenderer"]["navigationEndpoint"][
+                        "watchEndpoint"
+                    ]["index"]
+                    == update_size
+                ):
+                    break  # 如果达到更新上限，则停止
+                if videoid not in guids:  # 确保视频 ID 不是已存在的
+                    title = playlist["playlistPanelVideoRenderer"]["title"][
+                        "simpleText"
+                    ]  # 获取视频标题
+                    idlist.append(videoid)  # 添加到 ID 列表
+                    item[videoid] = {"title": title, "yt-dlp": True}  # 记录视频信息
+                    if videoid in youtube_content_ytid_original:  # 若视频已在原始列表中
+                        item[videoid]["yt-dlp"] = False  # 标记为已存在
+                        item_future = executor.submit(
+                            get_video_item, videoid, youtube_value
+                        )  # 启动线程获取详细信息
+                        futures.append(item_future)
+        else:  # 处理向后获取（获取较旧的视频）
+            reversed_playlists = []
+            for playlist in reversed(playlists):
+                videoid = playlist["playlistPanelVideoRenderer"]["videoId"]
+                if videoid not in guids:
+                    reversed_playlists.append(playlist)  # 收集未存在的旧视频
+                else:
+                    break  # 如果找到已存在的视频 ID，则停止
 
-    for thread in threads:
-        thread.join()  # 等待所有线程完成
+            for playlist in reversed(reversed_playlists[-update_size:]):
+                videoid = playlist["playlistPanelVideoRenderer"]["videoId"]
+                title = playlist["playlistPanelVideoRenderer"]["title"]["simpleText"]
+                idlist.append(videoid)
+                item[videoid] = {"title": title, "yt-dlp": True}
+                if videoid in youtube_content_ytid_original:
+                    item[videoid]["yt-dlp"] = False
+                    item_future = executor.submit(
+                        get_video_item, videoid, youtube_value
+                    )
+                    futures.append(item_future)
+
+        concurrent.futures.wait(futures)  # 等待所有线程完成
 
     # 处理获取失败的视频
     for videoid in fail:
