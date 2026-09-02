@@ -75,8 +75,9 @@ def favorite_update(time_delay):
             if channel_value["Favorite"]:
                 updated, error= check_xml_update(channel_value["id"])
                 if error:
-                    write_log(f"特别关注更新失败：{error}")
+                    write_log(f"特别关注获取失败：{error}")
                 elif updated:
-                    write_log(f"特别关注更新成功：{channel_id}")
+                    write_log(f"特别关注存在更新：{channel_id}")
                     return
         num += 1
+    write_log(f"倒计时结束")
