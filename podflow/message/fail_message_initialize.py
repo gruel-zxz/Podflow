@@ -190,6 +190,11 @@ error_reason = [
         "regexp",
     ],
     [
+        r"Got error: HTTPSConnectionPool\(host='.+\.edge\.mountaintoys\.cn', port=[0-9]{4}\): Read timed out\. \(read timeout=20\.0\)",
+        "\033[31m响应超时\033[0m",
+        "regexp",
+    ],
+    [
         r"Got error: \<urllib3\.connection\.HTTPSConnection object at .{18}\>: Failed to establish a new connection: \[WinError 10061\] 由于目标计算机积极拒绝，无法连接。",
         "\033[31m链接拒绝\033[0m",
         "regexp",
@@ -232,6 +237,11 @@ error_reason = [
     [
         r"Take a few minutes to verify your age. To view this video, please provide more info so we can be sure you're an adult. Learn more",
         "\033[31m年龄验证\033[0m",
+        "text",
+    ],
+    [
+        r"Got error: HTTPSConnection\(host='[a-zA-Z0-9.-]+\.mountaintoys\.cn', port=[0-9]+\): Failed to resolve '[a-zA-Z0-9.-]+\.mountaintoys\.cn' \(\[Errno [0-9]+\] getaddrinfo failed\)",
+        "\033[31m无法解析\033[0m",
         "text",
     ],
 ]
