@@ -1,6 +1,7 @@
 # podflow/message/display_qrcode_and_url.py
 # coding: utf-8
 
+import re
 from datetime import datetime
 from podflow import gVar
 from podflow.basic.qr_code import qr_code
@@ -16,6 +17,7 @@ def display_qrcode_and_url(
     ids_update,
 ):
     address = gVar.config["address"]
+    address = re.sub(r"(http://)([^/:]+):80(?=/|$)", r"\1\2", address)
     address = address.replace("http://", "podcast://")
     if token := gVar.config["token"]:
         xml_url = f"{address}/channel_rss/{output_dir}.xml?token={token}"
