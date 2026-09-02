@@ -1,6 +1,7 @@
 # podflow/message/save_rss.py
 # coding: utf-8
 
+import re
 from podflow import gVar
 from podflow.basic.qr_code import qr_code
 from podflow.message.xml_rss import xml_rss
@@ -68,6 +69,7 @@ def save_rss():
 
     # 获取gVar.config中的地址和文件名
     address = gVar.config["address"]
+    address = re.sub(r"(http://)([^/:]+):80(?=/|$)", r"\1\2", address)
     address = address.replace("http://", "podcast://")
     filename = gVar.config["filename"]
     # 如果gVar.config中的token字段存在，则将token添加到overall_url中
