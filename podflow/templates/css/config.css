@@ -276,3 +276,81 @@
   padding-left: 12px;
   border-left: 2px solid var(--background-bar-color);
 }
+
+/* 配置页面通用样式优化 */
+.config-item {
+    margin: 12px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.config-input-text, .config-input-select {
+    padding: 6px 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    min-width: 320px;
+    max-width: 100%;
+}
+.collapsible-section {
+    margin: 10px 0;
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.collapsible-header {
+    padding: 8px 12px;
+    background: #f9fafb;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: space-between;
+}
+.collapsible-header.expanded {
+    border-bottom: 1px solid #e5e7eb;
+}
+.collapsible-content {
+    padding: 10px 12px;
+}
+.collapsible-content.hidden {
+    display: none;
+}
+.config-button {
+    padding: 4px 10px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+.add-button {
+    background: #22c55e;
+    color: white;
+}
+.delete-button {
+    background: #ef4444;
+    color: white;
+}
+.title-change-list {
+    margin-top: 10px;
+    padding: 8px;
+    border: 1px dashed #ddd;
+    border-radius: 4px;
+}
+.title-change-item {
+    margin: 8px 0;
+    padding: 8px;
+    background: #f8fafc;
+    border-radius: 4px;
+}
+.channel-item {
+    margin: 6px 0;
+    background: #fff;
+}
+.section-title {
+    font-weight: 600;
+}
+.toggle-icon {
+    user-select: none;
+}
+.config-subsection {
+    margin: 10px 0;
+}

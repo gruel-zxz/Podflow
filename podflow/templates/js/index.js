@@ -188,6 +188,32 @@
         }
     }
 
+    function resetMessageView() {
+        lastMessage = { schedule: [], podflow: [], http: [], download: [] };
+        userScrolled = {
+            messageArea: false,
+            messageHttp: false,
+            messageDownload: false
+        };
+
+        if (mainProgress) mainProgress.style.width = '0%';
+        if (progressStatus) progressStatus.textContent = '准备中';
+        if (progressPercentage) progressPercentage.textContent = '0.00%';
+        if (messageArea) {
+            messageArea.innerHTML = '';
+            messageArea.scrollTop = 0;
+        }
+        if (messageHttp) {
+            messageHttp.innerHTML = '';
+            messageHttp.scrollTop = 0;
+        }
+        if (messageDownload) {
+            messageDownload.innerHTML = '';
+            messageDownload.scrollTop = 0;
+        }
+        if (downloadLabel) downloadLabel.textContent = '';
+    }
+
     /**
      * 创建单个消息元素的 DOM 结构
      * @param {string} message - 包含 HTML 的消息字符串
@@ -423,84 +449,66 @@
     }
 
     /**
-     * 更新下载进度条区域 (!!! 内部逻辑未修改 !!!)
+     * 更新下载进度条区域（修复切页卡死与多任务更新 Bug）
      * @param {HTMLElement} container - 下载进度条容器 (messageDownload)
-     * @param {Array[]} newMessages - 最新的下载信息数组，每个元素是 [percentage, time, speed, part, status, idname, nameText, file]
+     * @param {Array[]} newMessages - 最新的下载信息数组
      * @param {Array[]} oldMessages - 上一次的下载信息数组
      */
     function appendBar(container, newMessages, oldMessages) {
-        if (!container) return; // 防御
+        if (!container) return;
 
         const containerId = container.id;
-        const wasAtBottom = !userScrolled[containerId] && (container.scrollHeight - container.scrollTop <= container.clientHeight + 10);
         const newlength = newMessages.length;
-        const oldlength = oldMessages.length;
 
-        // --- 原始逻辑开始 ---
-        if (newlength > 0) {
-            if (downloadLabel) downloadLabel.textContent = '下载进度：'; // 更新标题
-
-            // --- 更新已存在的进度条 (对应旧消息列表中的最后一项) ---
-            if (oldlength !== 0) {
-                // 假设进度条是按顺序添加的，旧消息的最后一个对应容器中的第一个子元素（因为是 insertBefore(firstChild)）
-                // 或者需要更可靠的方式定位？如果 ID 总是连续且从1开始，可以查找 #pbProgress{oldlength} 的父元素
-                // 这里我们假设原始逻辑依赖于 DOM 结构顺序
-                const childToUpdate = container.children[0]; // 找到对应旧列表最后一项的DOM元素
-
-                if(childToUpdate) {
-                    const newMessage = newMessages[oldlength - 1];
-                    const oldMessage = oldMessages[oldlength - 1];
-
-                    // 比较整个数组是否相同可能更可靠，或者比较关键字段
-                    if (JSON.stringify(newMessage) !== JSON.stringify(oldMessage)) {
-                        const [percentageText, time, speed, part, status] = newMessage; // 只需要更新这些字段
-                        const progressElement = childToUpdate.querySelector('#pbProgress' + oldlength);
-                        const statusElement = childToUpdate.querySelector('#pbStatusText' + oldlength);
-                        const percentageElement = childToUpdate.querySelector('#pbPercentageText' + oldlength);
-                        const speedElement = childToUpdate.querySelector('#speedText' + oldlength);
-                        const partElement = childToUpdate.querySelector('#partText' + oldlength);
-                        const timeElement = childToUpdate.querySelector('#timeText' + oldlength);
-
-                        if (progressElement) progressElement.style.width = `${percentageText * 100}%`;
-                        if (statusElement) statusElement.innerHTML = status;
-                        if (percentageElement) percentageElement.innerHTML = `${(percentageText * 100).toFixed(2)}%`;
-                        if (speedElement) speedElement.innerHTML = speed;
-                        if (partElement) partElement.innerHTML = part;
-                        if (timeElement) timeElement.innerHTML = time;
-                    }
-                } else {
-                    console.warn(`appendBar: 尝试更新旧进度条 #${oldlength} 时未找到对应的 DOM 元素。`);
-                }
-            }
-
-            // --- 添加新的进度条 ---
-            if (newlength !== oldlength) {
-                // *** 优化点：同样可以使用 DocumentFragment 批量添加 ***
-                const fragment = document.createDocumentFragment();
-                for (let i = oldlength; i < newlength; i++) {
-                    const messageContent = newMessages[i];
-                    // 解构赋值，确保顺序正确
-                    const [percentageText, time, speed, part, status, idname, nameText, file] = messageContent;
-                    // 调用未修改的 addProgressBar 来创建元素
-                    const downloadElement = addProgressBar(i, percentageText, time, speed, part, status, idname, nameText, file);
-                    fragment.appendChild(downloadElement);
-                }
-                // 使用 insertBefore 将新的进度条批量插入到容器顶部
-                container.insertBefore(fragment, container.firstChild);
-            }
-        } else {
-                // 如果新消息为空，可以选择清空进度条区域或显示提示
+        // 如果没有下载任务，清空区域并显示提示
+        if (newlength === 0) {
             if (downloadLabel) downloadLabel.textContent = '暂无下载任务';
-            // container.innerHTML = ''; // 清空旧的进度条
+            container.innerHTML = '';
+            userScrolled[containerId] = false;
+            return;
         }
-        // --- 原始逻辑结束 ---
 
-        // --- 自动滚动到底部 (对于进度条区域，通常是希望看到最新的，即顶部，所以可能不需要自动滚动到底部) ---
-        // 如果确实需要滚动到底部（显示旧的在上面）：
-        // if (wasAtBottom && !userScrolled[containerId]) {
-    //   container.scrollTop = container.scrollHeight;
-        // }
-        // 如果希望保持在顶部看到新添加的：
+        if (downloadLabel) downloadLabel.textContent = '下载进度：';
+
+        // 如果任务数量减少（如任务完成被移除），清空重绘
+        if (container.children.length > newlength) {
+            container.innerHTML = '';
+        }
+
+        // 遍历所有下载任务，更新已有节点或追加新节点
+        for (let i = 0; i < newlength; i++) {
+            const messageContent = newMessages[i];
+            const [percentageText, time, speed, part, status, idname, nameText, file] = messageContent;
+            const barIndex = i + 1;
+
+            // 依据 ID 查找对应的进度条元素
+            const progressElement = container.querySelector('#pbProgress' + barIndex);
+
+            if (progressElement) {
+                // 1. 已存在 DOM 节点：直接更新文本与进度条宽度
+                const parent = progressElement.closest('.download-container');
+                if (parent) {
+                    const statusElement = parent.querySelector('#pbStatusText' + barIndex);
+                    const percentageElement = parent.querySelector('#pbPercentageText' + barIndex);
+                    const speedElement = parent.querySelector('#speedText' + barIndex);
+                    const partElement = parent.querySelector('#partText' + barIndex);
+                    const timeElement = parent.querySelector('#timeText' + barIndex);
+
+                    progressElement.style.width = `${percentageText * 100}%`;
+                    if (statusElement) statusElement.innerHTML = status;
+                    if (percentageElement) percentageElement.innerHTML = `${(percentageText * 100).toFixed(2)}%`;
+                    if (speedElement) speedElement.innerHTML = speed;
+                    if (partElement) partElement.innerHTML = part;
+                    if (timeElement) timeElement.innerHTML = time;
+                }
+            } else {
+                // 2. 节点不存在：调用 addProgressBar 创建新的 DOM 节点并追加
+                const downloadElement = addProgressBar(i, percentageText, time, speed, part, status, idname, nameText, file);
+                container.appendChild(downloadElement);
+            }
+        }
+
+        // 处理自动滚动
         if (newlength > oldlength && !userScrolled[containerId]) { // 如果是新增了进度条且用户没滚动
             container.scrollTop = 0; // 滚动到顶部
         } else if (wasAtBottom && !userScrolled[containerId]) { // 如果是更新现有条目且之前在底部
@@ -509,122 +517,124 @@
     }
 
 
-    // --- SSE (Server-Sent Events) 处理 ---
+    // --- 短轮询 (Short Polling) 处理 ---
+    let pollingTimer = null; // 用于存储 setInterval 句柄
+    let isFetching = false;  // 请求锁：防止上一次请求未完成时重复发请求
+    let failedCount = 0;     // 连续失败计数器
+
     /**
-     * 启动 SSE 连接，接收服务器推送的消息
+     * 处理从服务器获取到的 JSON 消息数据
+     * @param {Object} data - 解析后的 JSON 对象
      */
-    function startMessageStream() {
-        // 如果已存在连接，先关闭
-        if (eventSource) {
-            console.log("SSE 连接已存在，将重新启动...");
-            eventSource.close();
-            eventSource = null;
+    function handleStreamData(data) {
+        // 确保 lastMessage 和 data 结构完整，提供默认值防止报错
+        lastMessage = lastMessage || { schedule: [], podflow: [], http: [], download: [] };
+        data.schedule = data.schedule || [];
+        data.podflow = data.podflow || [];
+        data.http = data.http || [];
+        data.download = data.download || [];
+
+        // 1. 更新主进度条
+        if (JSON.stringify(data.schedule) !== JSON.stringify(lastMessage.schedule)) {
+            updateProgress(data.schedule);
+            lastMessage.schedule = data.schedule; // 更新缓存
         }
-        // 清除旧的重连定时器
-        if (reconnectTimer) {
-            clearTimeout(reconnectTimer);
-            reconnectTimer = null;
+
+        // 2. 更新 Podflow 消息区域
+        if (JSON.stringify(data.podflow) !== JSON.stringify(lastMessage.podflow)) {
+            appendMessages(messageArea, data.podflow, lastMessage.podflow || []);
+            lastMessage.podflow = [...data.podflow]; // 更新缓存
         }
-        // 重连时清空旧数据缓存，确保重连后数据同步正确
-        lastMessage = { schedule: [], podflow: [], http: [], download: [] };
 
-        console.log("正在启动 SSE 连接到 /stream ...");
-        eventSource = new EventSource('/stream');
+        // 3. 更新 HTTP 消息区域
+        if (JSON.stringify(data.http) !== JSON.stringify(lastMessage.http)) {
+            appendMessages(messageHttp, data.http, lastMessage.http || []);
+            lastMessage.http = [...data.http]; // 更新缓存
+        }
 
-        // 监听 'message' 事件 (默认事件)
-        eventSource.onmessage = function(event) {
-            // 连接成功，重置重连计数
-            if (reconnectAttempts > 0) {
-                reconnectAttempts = 0;
-                updateConnectionStatus('connected');
-            }
-
-            try {
-                const data = JSON.parse(event.data);
-
-                // --- 使用接收到的数据更新 UI ---
-                // 确保 lastMessage 和 data 结构完整，提供默认值防止错误
-                lastMessage = lastMessage || { schedule: [], podflow: [], http: [], download: [] };
-                data.schedule = data.schedule || [];
-                data.podflow = data.podflow || [];
-                data.http = data.http || [];
-                data.download = data.download || [];
-
-                // 1. 更新主进度条
-                // 使用 stringify 比较是为了简单深比较，对于小对象性能影响不大
-                if (JSON.stringify(data.schedule) !== JSON.stringify(lastMessage.schedule)) {
-                    updateProgress(data.schedule);
-                    lastMessage.schedule = data.schedule; // 更新缓存
-                }
-
-                // 2. 更新 Podflow 消息区域
-                if (JSON.stringify(data.podflow) !== JSON.stringify(lastMessage.podflow)) {
-                    appendMessages(messageArea, data.podflow, lastMessage.podflow || []);
-                    lastMessage.podflow = [...data.podflow]; // 更新缓存 (使用浅拷贝)
-                }
-
-                // 3. 更新 HTTP 消息区域
-                if (JSON.stringify(data.http) !== JSON.stringify(lastMessage.http)) {
-                    appendMessages(messageHttp, data.http, lastMessage.http || []);
-                    lastMessage.http = [...data.http]; // 更新缓存 (使用浅拷贝)
-                }
-
-                // 4. 更新下载进度条区域
-                if (JSON.stringify(data.download) !== JSON.stringify(lastMessage.download)) {
-                    appendBar(messageDownload, data.download, lastMessage.download || []);
-                    lastMessage.download = [...data.download]; // 更新缓存 (使用浅拷贝)
-                }
-
-            } catch (error) {
-                console.error('处理 SSE 消息失败:', error, '原始数据:', event.data);
-            }
-        };
-
-        // 监听错误事件
-        eventSource.onerror = function(error) {
-            console.error('SSE 连接发生错误:', error);
-            eventSource.close();
-            eventSource = null;
-
-            reconnectAttempts++;
-            if (reconnectAttempts <= MAX_RECONNECT_ATTEMPTS) {
-                // 指数退避重连
-                const delay = Math.min(BASE_RECONNECT_DELAY * Math.pow(2, reconnectAttempts - 1), 30000);
-                updateConnectionStatus('reconnecting', `⚠️ 连接中断，${Math.round(delay / 1000)}秒后重连 (${reconnectAttempts}/${MAX_RECONNECT_ATTEMPTS})...`);
-                console.log(`将在 ${delay}ms 后尝试第 ${reconnectAttempts} 次重连...`);
-                reconnectTimer = setTimeout(() => {
-                    startMessageStream();
-                }, delay);
-            } else {
-                updateConnectionStatus('disconnected');
-                console.error(`已达到最大重连次数 (${MAX_RECONNECT_ATTEMPTS})，停止重连。`);
-            }
-        };
-
-        // 监听连接打开事件
-        eventSource.onopen = function() {
-            console.log("SSE 连接已成功建立。");
-            reconnectAttempts = 0;
-            updateConnectionStatus('connected');
-        };
-
-        console.log("SSE 事件监听器已设置。");
+        // 4. 更新下载进度条区域
+        if (JSON.stringify(data.download) !== JSON.stringify(lastMessage.download)) {
+            appendBar(messageDownload, data.download, lastMessage.download || []);
+            lastMessage.download = [...data.download]; // 更新缓存
+        }
     }
 
     /**
-     * 停止 SSE 连接
+     * 向后端请求一次最新的状态数据
+     */
+    function fetchMessageStream() {
+        // 1. 如果上一次请求还在处理中，跳过本次轮询，避免并发堆积
+        if (isFetching) return;
+        isFetching = true;
+
+        fetch('/stream')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP 错误！状态码: ${response.status}`);
+                }
+                return response.json();
+            })
+            .then(data => {
+                // 请求成功：只有之前弹出了警告时，才恢复为“已连接”
+                if (failedCount >= 3) {
+                    reconnectAttempts = 0;
+                    updateConnectionStatus('connected');
+                }
+                failedCount = 0; // 重置连续失败计数
+                handleStreamData(data);
+            })
+            .catch(error => {
+                console.warn('获取轮询数据单次失败 (可能偶发延迟):', error);
+                failedCount++;
+
+                // 2. 只有【连续失败 3 次】以上才判定为真正的网络中断并弹窗警告
+                if (failedCount >= 3) {
+                    reconnectAttempts++;
+                    if (reconnectAttempts <= MAX_RECONNECT_ATTEMPTS) {
+                        updateConnectionStatus('reconnecting', `⚠️ 网络请求失败，正在重试 (${reconnectAttempts}/${MAX_RECONNECT_ATTEMPTS})...`);
+                    } else {
+                        updateConnectionStatus('disconnected');
+                        stopMessageStream(); // 超过最大失败次数后停止轮询
+                    }
+                }
+            })
+            .finally(() => {
+                isFetching = false; // 释放锁，允许下一次请求
+            });
+    }
+
+    /**
+     * 启动 0.25 秒（250ms）短轮询
+     */
+    function startMessageStream() {
+        stopMessageStream();
+        resetMessageView();
+
+        console.log("启动短轮询，频率: 250ms/次 ...");
+        
+        failedCount = 0;
+        isFetching = false;
+
+        // 立即执行一次
+        fetchMessageStream();
+
+        // 每 250ms 检查并发起轮询
+        pollingTimer = setInterval(fetchMessageStream, 250);
+        updateConnectionStatus('connected');
+    }
+
+    /**
+     * 停止短轮询
      */
     function stopMessageStream() {
-        if (eventSource) {
-            eventSource.close(); // 关闭连接
-            eventSource = null; // 清除引用
-            console.log("SSE 连接已关闭。");
-        }
-        if (reconnectTimer) {
-            clearTimeout(reconnectTimer);
-            reconnectTimer = null;
+        if (pollingTimer) {
+            clearInterval(pollingTimer);
+            pollingTimer = null;
+            console.log("短轮询已停止。");
         }
         reconnectAttempts = 0;
+        failedCount = 0;
+        isFetching = false;
         updateConnectionStatus(''); // 隐藏状态指示器
     }
 
@@ -794,20 +804,18 @@
     // 初始化时显示默认页面 (例如消息页面)
     showPage('pageMessage');
 
-    // --- 页面可见性检测：切换标签页后自动重连 ---
+    // --- 页面可见性检测：标签页切回前台后自动恢复轮询 ---
     document.addEventListener('visibilitychange', function() {
         if (document.visibilityState === 'visible') {
-            // 页面重新可见，检查 SSE 连接状态
-            if (eventSource && eventSource.readyState === EventSource.CLOSED) {
-                console.log("页面重新可见，SSE 连接已关闭，正在重连...");
-                reconnectAttempts = 0; // 重置重连计数
-                startMessageStream();
-            } else if (!eventSource && pages.pageMessage && pages.pageMessage.style.display !== 'none') {
-                // 没有活跃连接且当前在消息页面，重新启动
-                console.log("页面重新可见，无活跃 SSE 连接，正在重连...");
+            // 当且仅当处于消息页面且定时器未启动时恢复
+            if (!pollingTimer && pages.pageMessage && pages.pageMessage.style.display !== 'none') {
+                console.log("页面重新可见，重新恢复 0.25 秒短轮询...");
                 reconnectAttempts = 0;
                 startMessageStream();
             }
+        } else {
+            // 页面切到后台/隐藏时停止轮询，节省服务器与网络资源
+            stopMessageStream();
         }
     });
 

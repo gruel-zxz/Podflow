@@ -1,796 +1,634 @@
 // /templates/js/config.js
+// ====================== 1. 全局通用配置常量（新增参数仅修改此处） ======================
+const CONFIG_CONST = {
+    // 后端接口地址
+    API: {
+        GET_CONFIG: '/getconfig',
+        SAVE_CONFIG: '/saveconfig'
+    },
+    // 支持的媒体渠道列表，新增渠道只需要在这里追加
+    CHANNEL_LIST: [
+        { key: 'channelid_youtube', label: 'YouTube 频道' },
+        { key: 'channelid_bilibili', label: 'Bilibili 频道' }
+        // 示例新增抖音：{ key: 'channelid_douyin', label: '抖音频道' }
+    ],
+    // 媒体格式下拉选项
+    MEDIA_FORMAT_OPTIONS: ['m4a', 'mp4', 'webm'],
+    // 标题修改模式下拉选项
+    TITLE_MODE_OPTIONS: [
+        { value: 'add-left', label: '左侧追加' },
+        { value: 'add-right', label: '右侧追加' },
+        { value: 'replace', label: '完全替换' }
+    ],
+    // 字段类型映射，统一渲染规则
+    FIELD_TYPE_MAP: {
+        BOOLEAN: 'boolean',
+        NUMBER: 'number',
+        STRING: 'string',
+        URL: 'url',
+        SELECT_MEDIA: 'select_media',
+        SELECT_TITLE_MODE: 'select_title_mode'
+    },
+    // 统一文案配置
+    TEXT: {
+        LOADING: '正在加载配置...',
+        LOAD_FAIL: '加载配置失败',
+        SAVING: '正在保存配置...',
+        SAVE_SUCCESS: '配置保存成功！1.5秒后自动刷新',
+        SAVE_FAIL: '保存失败',
+        EMPTY_CHANNEL: '暂无频道，点击上方「添加」创建',
+        EMPTY_RULE: '无标题修改规则，点击「添加规则」新建',
+        DELETE_CHANNEL_TEMP: '确定删除新建未保存频道？',
+        DELETE_CHANNEL_CONFIRM: (name) => `确定删除频道「${name}」吗？`,
+        DELETE_RULE_CONFIRM: (idx) => `确定删除规则 ${idx + 1}？`,
+        EMPTY_CHANNEL_ID_WARN: '频道ID不能为空，已跳过该频道保存'
+    },
+    // 临时key前缀
+    TEMP_KEY_PREFIX: 'new_channel_'
+};
 
+// ====================== 2. 通用工具函数层 ======================
+const ConfigUtils = {
+    // 生成唯一临时标识
+    genTempKey(prefix = CONFIG_CONST.TEMP_KEY_PREFIX) {
+        return `${prefix}${Date.now()}_${Math.random().toString(36).slice(2, 7)}`;
+    },
+
+    // 路径拆分工具
+    splitPath(path) {
+        return path.split('.');
+    },
+
+    // 递归清理临时字段 _tempKey
+    cleanTempKey(obj) {
+        if (Array.isArray(obj)) {
+            return obj.map(item => this.cleanTempKey(item));
+        }
+        if (typeof obj === 'object' && obj !== null) {
+            const result = {};
+            for (const k in obj) {
+                if (k !== '_tempKey') result[k] = this.cleanTempKey(obj[k]);
+            }
+            return result;
+        }
+        return obj;
+    },
+
+    // 根据路径读取对象深层值
+    getDeepValue(obj, path) {
+        const parts = this.splitPath(path);
+        let res = obj;
+        for (const p of parts) {
+            if (!res) return undefined;
+            // 匹配数组路径 title_change[0]
+            const arrMatch = p.match(/^(.+)\[(\d+)\]$/);
+            if (arrMatch) {
+                res = res[arrMatch[1]]?.[Number(arrMatch[2])];
+            } else {
+                res = res[p];
+            }
+        }
+        return res;
+    },
+
+    // 根据路径设置对象深层值，自动创建空对象/数组
+    setDeepValue(obj, path, value) {
+        const parts = this.splitPath(path);
+        let target = obj;
+        for (let i = 0; i < parts.length; i++) {
+            const curr = parts[i];
+            const arrMatch = curr.match(/^(.+)\[(\d+)\]$/);
+            if (arrMatch) {
+                const [, arrKey, idx] = arrMatch;
+                if (!target[arrKey]) target[arrKey] = [];
+                if (!target[arrKey][Number(idx)]) target[arrKey][Number(idx)] = {};
+                target = target[arrKey][Number(idx)];
+            } else {
+                if (i === parts.length - 1) {
+                    target[curr] = value;
+                } else if (!target[curr]) {
+                    target[curr] = {};
+                }
+                target = target[curr];
+            }
+        }
+    },
+
+    // 简单数据校验
+    validateField(type, value) {
+        switch (type) {
+            case CONFIG_CONST.FIELD_TYPE_MAP.URL:
+                if (!value) return true;
+                return /^https?:\/\/.+/.test(value);
+            case CONFIG_CONST.FIELD_TYPE_MAP.NUMBER:
+                return !isNaN(Number(value));
+            default:
+                return true;
+        }
+    }
+};
+
+// ====================== 3. DOM 公共渲染工具 ======================
+const DomHelper = {
+    // 创建通用按钮
+    createBtn(text, cls, clickFn) {
+        const btn = document.createElement('button');
+        btn.textContent = text;
+        btn.classList.add('config-button', cls);
+        btn.type = 'button';
+        btn.addEventListener('click', clickFn);
+        return btn;
+    },
+
+    // 创建折叠面板容器
+    createCollapsibleSection(path, titleText) {
+        const section = document.createElement('div');
+        section.className = 'collapsible-section';
+        section.dataset.path = path;
+        section.dataset.type = 'object';
+
+        const header = document.createElement('div');
+        header.className = 'collapsible-header';
+        header.innerHTML = `<span class="section-title">${titleText}</span><span class="toggle-icon">▶️</span>`;
+
+        const content = document.createElement('div');
+        content.className = 'collapsible-content hidden';
+
+        // 折叠切换逻辑抽离
+        header.addEventListener('click', (e) => {
+            if (e.target.tagName === 'BUTTON') return;
+            const isHide = content.classList.toggle('hidden');
+            header.classList.toggle('expanded', !isHide);
+            header.querySelector('.toggle-icon').textContent = isHide ? '▶️' : '🔽';
+        });
+
+        section.append(header, content);
+        return { section, header, content };
+    },
+
+    // 滚动到指定元素
+    scrollToEl(el) {
+        if (el) el.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    },
+
+    // 创建提示文本
+    createTip(text, isItalic = true, color = '#777') {
+        const p = document.createElement('p');
+        p.textContent = text;
+        p.style.color = color;
+        if (isItalic) p.style.fontStyle = 'italic';
+        p.style.marginLeft = '10px';
+        return p;
+    }
+};
+
+// ====================== 4. 主逻辑入口 ======================
 document.addEventListener('DOMContentLoaded', () => {
-    const configContainer = document.getElementById('configContainer');
-    const refreshConfigBtn = document.getElementById('refreshConfigBtn');
-    const saveConfigBtn = document.getElementById('saveConfigBtn');
-    const configStatus = document.getElementById('configStatus');
-    const configPage = document.getElementById('pageConfig');
+    // DOM 元素缓存
+    const $ = {
+        container: document.getElementById('configContainer'),
+        refreshBtn: document.getElementById('refreshConfigBtn'),
+        saveBtn: document.getElementById('saveConfigBtn'),
+        status: document.getElementById('configStatus'),
+        page: document.getElementById('pageConfig')
+    };
 
-    let currentConfig = null; // 用于存储当前加载的配置
+    let currentConfig = null;
 
-    // --- Helper Function: 创建表单元素 ---
-    function createInputElement(key, value, path) {
-        const itemDiv = document.createElement('div');
-        itemDiv.classList.add('config-item');
-
+    // 构建通用输入组件（消除大量if硬编码）
+    function buildInputItem(key, value, path) {
+        const wrap = document.createElement('div');
+        wrap.className = 'config-item';
         const label = document.createElement('label');
         label.htmlFor = `config-${path}`;
         label.textContent = `${key}:`;
-        itemDiv.appendChild(label);
+        wrap.appendChild(label);
 
-        let input;
         const inputId = `config-${path}`;
+        let input;
+        let fieldType = CONFIG_CONST.FIELD_TYPE_MAP.STRING;
 
+        // 布尔复选框
         if (typeof value === 'boolean') {
+            fieldType = CONFIG_CONST.FIELD_TYPE_MAP.BOOLEAN;
             input = document.createElement('input');
             input.type = 'checkbox';
             input.checked = value;
-            input.id = inputId;
-            input.dataset.path = path; // 存储路径用于保存
-            input.dataset.type = 'boolean';
-            // Checkbox 需要特殊布局，将其放在label后面
-            label.style.display = 'inline-block'; // 让label和checkbox在同一行
+            label.style.display = 'inline-block';
             input.style.marginLeft = '10px';
-            itemDiv.appendChild(input);
-        } else if (typeof value === 'number') {
+            wrap.appendChild(input);
+        }
+        // 数字输入框
+        else if (typeof value === 'number') {
+            fieldType = CONFIG_CONST.FIELD_TYPE_MAP.NUMBER;
             input = document.createElement('input');
             input.type = 'number';
             input.value = value;
-            input.id = inputId;
-            input.dataset.path = path;
-            input.dataset.type = 'number';
-             // 对于整数，设置 step="1"
-            if (Number.isInteger(value)) {
-                input.step = "1";
-            } else {
-                 input.step = "any"; // 允许小数
-            }
-            itemDiv.appendChild(document.createElement('br')); // 换行
-            itemDiv.appendChild(input);
-        } else if (key === 'media' && path.includes('channelid_')) { // media 类型特殊处理为下拉框
-            input = document.createElement('select');
-            input.id = inputId;
-            input.dataset.path = path;
-             input.dataset.type = 'string'; // 本质是字符串
-             const options = ['m4a', 'mp4', 'webm']; // 可能的媒体类型
-            options.forEach(opt => {
-                const option = document.createElement('option');
-                option.value = opt;
-                option.textContent = opt;
-                if (opt === value) {
-                    option.selected = true;
-                }
-                input.appendChild(option);
-            });
-            itemDiv.appendChild(document.createElement('br'));
-            itemDiv.appendChild(input);
+            input.step = Number.isInteger(value) ? '1' : 'any';
+            wrap.appendChild(document.createElement('br'));
+            wrap.appendChild(input);
         }
-        // mode 字段现在可能出现在嵌套的 title_change 中，路径会包含 title_change
-        else if (key === 'mode' && path.includes('.title_change[')) { // title_change 数组项内部的 mode 特殊处理为下拉框
+        // 媒体格式下拉
+        else if (path.includes('media')) {
+            fieldType = CONFIG_CONST.FIELD_TYPE_MAP.SELECT_MEDIA;
             input = document.createElement('select');
-            input.id = inputId;
-            input.dataset.path = path;
-            input.dataset.type = 'string';
-            const options = ['add-left', 'add-right', 'replace'];
-            options.forEach(opt => {
-                const option = document.createElement('option');
-                option.value = opt;
-                option.textContent = opt;
-                if (opt === value) {
-                    option.selected = true;
-                }
-                input.appendChild(option);
+            CONFIG_CONST.MEDIA_FORMAT_OPTIONS.forEach(opt => {
+                const optEl = document.createElement('option');
+                optEl.value = opt;
+                optEl.textContent = opt;
+                if (opt === value) optEl.selected = true;
+                input.appendChild(optEl);
             });
-            itemDiv.appendChild(document.createElement('br'));
-            itemDiv.appendChild(input);
+            wrap.appendChild(document.createElement('br'));
+            wrap.appendChild(input);
         }
-        else { // 默认为文本输入
+        // 标题模式下拉
+        else if (path.includes('.title_change[') && key === 'mode') {
+            fieldType = CONFIG_CONST.FIELD_TYPE_MAP.SELECT_TITLE_MODE;
+            input = document.createElement('select');
+            CONFIG_CONST.TITLE_MODE_OPTIONS.forEach(opt => {
+                const optEl = document.createElement('option');
+                optEl.value = opt.value;
+                optEl.textContent = opt.label;
+                if (opt.value === value) optEl.selected = true;
+                input.appendChild(optEl);
+            });
+            wrap.appendChild(document.createElement('br'));
+            wrap.appendChild(input);
+        }
+        // URL输入框
+        else if (['link', 'icon', 'url'].includes(key)) {
+            fieldType = CONFIG_CONST.FIELD_TYPE_MAP.URL;
             input = document.createElement('input');
-            input.type = 'text'; // 或 'url' 如果需要验证
-            if (key === 'link' || key === 'icon' || (key === 'url' && !path.includes('.title_change['))) {
-                 input.type = 'url';
-            }
+            input.type = 'url';
             input.value = value;
-            input.id = inputId;
-            input.dataset.path = path;
-            input.dataset.type = 'string';
-            itemDiv.appendChild(document.createElement('br'));
-            itemDiv.appendChild(input);
+            wrap.appendChild(document.createElement('br'));
+            wrap.appendChild(input);
+        }
+        // 普通文本
+        else {
+            input = document.createElement('input');
+            input.type = 'text';
+            input.value = value;
+            wrap.appendChild(document.createElement('br'));
+            wrap.appendChild(input);
         }
 
-        // 为基本的文本/数字/URL输入添加类方便样式控制
-        if (input.tagName === 'INPUT' && (input.type === 'text' || input.type === 'number' || input.type === 'url')) {
-             input.classList.add('config-input-text');
-        } else if (input.tagName === 'SELECT') {
-             input.classList.add('config-input-select');
-        }
+        // 统一绑定属性
+        input.id = inputId;
+        input.dataset.path = path;
+        input.dataset.type = fieldType;
+        // 统一样式类
+        if (input.tagName === 'INPUT') input.classList.add('config-input-text');
+        if (input.tagName === 'SELECT') input.classList.add('config-input-select');
 
-
-        return itemDiv;
+        return wrap;
     }
 
-    // --- Helper Function: 创建按钮 ---
-    function createButton(text, className, onClick) {
-        const button = document.createElement('button');
-        button.textContent = text;
-        button.classList.add('config-button', className);
-        button.type = 'button'; // 防止触发表单提交
-        button.addEventListener('click', onClick);
-        return button;
-    }
-
-     // --- Helper Function: 生成唯一临时 key ---
-    function generateTempKey(prefix = 'temp_') {
-        // 使用当前时间戳和随机字符串生成一个足够唯一的临时 key
-        return `${prefix}${Date.now()}_${Math.random().toString(36).substr(2, 5)}`;
-    }
-
-
-    // --- Helper Function: 递归渲染配置 ---
-    function renderConfig(data, parentElement, currentPath = '') {
-        // 清空当前容器，准备重新渲染
-        parentElement.innerHTML = '';
-
-        Object.entries(data).forEach(([key, value]) => {
-            const path = currentPath ? `${currentPath}.${key}` : key;
-
-            if (key === 'channelid_youtube' || key === 'channelid_bilibili') {
-                const sectionDiv = document.createElement('div');
-                sectionDiv.classList.add('collapsible-section');
-                sectionDiv.dataset.path = path;
-                sectionDiv.dataset.type = 'object';
-
-                const header = document.createElement('div');
-                header.classList.add('collapsible-header');
-                header.innerHTML = `<span class="section-title">${key}:</span> <span class="toggle-icon">▶️</span>`; // 初始图标
-
-                // ** 添加“添加频道”按钮 **
-                const addChannelBtn = createButton('添加', 'add-button', (e) => {
-                    e.stopPropagation(); // 阻止点击按钮时触发折叠/展开
-                    addChannel(path);
-                });
-                header.appendChild(addChannelBtn);
-
-
-                header.addEventListener('click', () => {
-                    const content = sectionDiv.querySelector('.collapsible-content');
-                    const icon = header.querySelector('.toggle-icon');
-                    const isHidden = content.classList.toggle('hidden');
-                    header.classList.toggle('expanded', !isHidden); // 添加/删除 expanded 类
-                    icon.textContent = isHidden ? '▶️' : '🔽'; // 切换图标
-                });
-                sectionDiv.appendChild(header);
-
-                const contentDiv = document.createElement('div');
-                contentDiv.classList.add('collapsible-content', 'hidden'); // 默认隐藏
-
-                // 确保 value 是一个对象，即使为空也要显示添加按钮
-                if (value && typeof value === 'object') {
-                    const channelKeys = Object.keys(value);
-                    if (channelKeys.length > 0) {
-                        channelKeys.forEach((channelKey) => {
-                            const channelConfig = value[channelKey];
-                            // 使用一个稳定的 key 用于 DOM 元素的 data-path。
-                            // 当从后端加载时，使用真实的 channelKey；
-                            // 当添加新频道时，使用临时 key。
-                            // 在 collectConfigData 时再根据 input[name="id"] 的 value 来构建最终 JSON。
-                            const domKey = channelConfig._tempKey || channelKey; // 优先使用临时 key 如果存在
-                            const channelPath = `${path}.${domKey}`;
-
-
-                            const channelSectionDiv = document.createElement('div');
-                            channelSectionDiv.classList.add('collapsible-section', 'channel-item'); // 添加 channel-item 类方便识别
-                            channelSectionDiv.dataset.path = channelPath; // 使用 DOM key 作为 data-path
-                            channelSectionDiv.dataset.type = 'object';
-
-
-                            const channelHeader = document.createElement('div');
-                            channelHeader.classList.add('collapsible-header');
-
-                            // 获取用户输入的 ID 值，如果存在，用于显示
-                            const currentIdValue = channelConfig?.id ?? domKey; // 优先显示 id 值，否则显示 domKey
-
-                            channelHeader.innerHTML = `
-                                <span>
-                                    <span class="channel-display-key">${currentIdValue}</span>
-                                </span>
-                                <span class="toggle-icon">▶️</span>`;
-
-                            // ** 添加“删除频道”按钮 **
-                            const deleteChannelBtn = createButton('删除', 'delete-button', (e) => {
-                                e.stopPropagation(); // 阻止点击按钮时触发折叠/展开
-                                deleteChannel(path, channelKey); // 删除时使用真实的 channelKey
-                            });
-                            channelHeader.appendChild(deleteChannelBtn);
-
-
-                            channelHeader.addEventListener('click', (e) => {
-                                e.stopPropagation(); // 防止点击内部 Header 时触发外部 Header 的事件
-                                const channelContent = channelSectionDiv.querySelector('.collapsible-content');
-                                const icon = channelHeader.querySelector('.toggle-icon');
-                                const isHidden = channelContent.classList.toggle('hidden');
-                                header.classList.toggle('expanded', !isHidden); // 切换外部 header 的 expanded 状态
-                                channelHeader.classList.toggle('expanded', !isHidden); // 切换内部 header 的 expanded 状态
-                                icon.textContent = isHidden ? '▶️' : '🔽';
-                            });
-                            channelSectionDiv.appendChild(channelHeader);
-
-                            const channelContentDiv = document.createElement('div');
-                            channelContentDiv.classList.add('collapsible-content', 'hidden'); // 默认隐藏详细配置
-
-                            // 递归渲染频道内部配置
-                            // 创建一个临时对象用于渲染，不包含 _tempKey
-                            const channelConfigForRender = { ...channelConfig };
-                            delete channelConfigForRender._tempKey;
-                            renderConfig(channelConfigForRender, channelContentDiv, channelPath);
-
-                            // ** 在频道内部添加 title_change 渲染逻辑 **
-                            const titleChangeArray = channelConfigForRender.title_change;
-                             if (Array.isArray(titleChangeArray)) {
-                                const titleChangePath = `${channelPath}.title_change`; // 新的 title_change 路径
-                                const titleChangeListDiv = document.createElement('div');
-                                titleChangeListDiv.classList.add('title-change-list');
-                                titleChangeListDiv.dataset.path = titleChangePath;
-                                titleChangeListDiv.dataset.type = 'array';
-
-                                const titleChangeLabel = document.createElement('label');
-                                titleChangeLabel.textContent = `标题修改规则:`;
-                                titleChangeListDiv.appendChild(titleChangeLabel);
-
-                                // ** 添加频道内部的“添加规则”按钮 **
-                                const addRuleBtn = createButton('添加规则', 'add-button', (e) => {
-                                     e.stopPropagation();
-                                     addTitleChangeRule(titleChangePath); // 传递频道内部的 title_change 路径
-                                });
-                                titleChangeListDiv.appendChild(addRuleBtn);
-
-
-                                if (titleChangeArray.length > 0) {
-                                    titleChangeArray.forEach((item, index) => {
-                                        const itemPath = `${titleChangePath}[${index}]`; // 数组项的路径
-                                        const itemDiv = document.createElement('div');
-                                        itemDiv.classList.add('title-change-item');
-                                        itemDiv.dataset.path = itemPath; // 存储数组项的路径
-                                        itemDiv.dataset.type = 'object';
-                                        itemDiv.innerHTML = `<strong>规则 ${index + 1}:</strong>`; // 标示第几个规则
-
-                                        // ** 添加频道内部的“删除规则”按钮 **
-                                        const deleteRuleBtn = createButton('删除', 'delete-button', (e) => {
-                                             e.stopPropagation();
-                                             deleteTitleChangeRule(titleChangePath, index); // 传递频道内部的 title_change 路径和索引
-                                        });
-                                        itemDiv.appendChild(deleteRuleBtn);
-
-                                        // 渲染数组中每个对象的属性
-                                        renderConfig(item, itemDiv, itemPath);
-                                        titleChangeListDiv.appendChild(itemDiv);
-                                    });
-                                } else {
-                                     if (titleChangeListDiv.childElementCount <= 2) { // label 和 add button
-                                        titleChangeListDiv.innerHTML += '<p style="font-style: italic; color: #777; margin-left: 10px;">无标题修改规则。点击上方“添加规则”按钮。</p>';
-                                    }
-                                }
-                                 channelContentDiv.appendChild(titleChangeListDiv); // 将 title_change 列表添加到频道内容中
-                             }
-
-
-                            channelSectionDiv.appendChild(channelContentDiv);
-
-                            contentDiv.appendChild(channelSectionDiv);
-                        });
+    // 递归渲染配置（渠道循环化，移除硬编码）
+    function renderConfig(data, parentEl, pathPrefix = '') {
+        parentEl.innerHTML = '';
+        Object.entries(data).forEach(([key, val]) => {
+            const fullPath = pathPrefix ? `${pathPrefix}.${key}` : key;
+            // 匹配媒体总节点 media
+            if (key === 'media' && typeof val === 'object' && !Array.isArray(val)) {
+                const { section, header, content } = DomHelper.createCollapsibleSection(fullPath, '媒体配置 media');
+                // 循环渲染所有渠道，新增渠道仅修改常量
+                CONFIG_CONST.CHANNEL_LIST.forEach(channelConf => {
+                    const chanKey = channelConf.key;
+                    const chanPath = `${fullPath}.${chanKey}`;
+                    const { section: chanWrap, header: chanHeader, content: chanContent } = DomHelper.createCollapsibleSection(chanPath, channelConf.label);
+                    // 添加频道新增按钮
+                    const addBtn = DomHelper.createBtn('添加', 'add-button', (e) => {
+                        e.stopPropagation();
+                        addNewChannel(chanPath);
+                    });
+                    chanHeader.appendChild(addBtn);
+                    // 渲染现有频道列表
+                    const channelMap = val[chanKey] || {};
+                    const chanKeys = Object.keys(channelMap);
+                    if (chanKeys.length === 0) {
+                        chanContent.appendChild(DomHelper.createTip(CONFIG_CONST.TEXT.EMPTY_CHANNEL));
                     } else {
-                         contentDiv.innerHTML = '<p style="font-style: italic; color: #777; margin-left: 10px;">无配置或配置为空。请点击“添加”按钮。</p>';
+                        chanKeys.forEach(realChanId => {
+                            const chanData = channelMap[realChanId];
+                            const domKey = chanData._tempKey || realChanId;
+                            const itemPath = `${chanPath}.${domKey}`;
+                            const { section: itemWrap, header: itemHeader, content: itemContent } = DomHelper.createCollapsibleSection(itemPath, chanData.id || domKey);
+                            itemWrap.classList.add('channel-item');
+                            // 删除按钮
+                            const delBtn = DomHelper.createBtn('删除', 'delete-button', (e) => {
+                                e.stopPropagation();
+                                removeChannel(chanPath, realChanId);
+                            });
+                            itemHeader.appendChild(delBtn);
+                            // 渲染频道基础配置
+                            const renderData = { ...chanData };
+                            delete renderData._tempKey;
+                            renderConfig(renderData, itemContent, itemPath);
+                            // 渲染标题修改规则数组
+                            const ruleList = document.createElement('div');
+                            ruleList.className = 'title-change-list';
+                            ruleList.dataset.path = `${itemPath}.title_change`;
+                            const ruleLabel = document.createElement('label');
+                            ruleLabel.textContent = '标题修改规则：';
+                            ruleList.appendChild(ruleLabel);
+                            // 添加规则按钮
+                            const addRuleBtn = DomHelper.createBtn('添加规则', 'add-button', (e) => {
+                                e.stopPropagation();
+                                addTitleRule(`${itemPath}.title_change`);
+                            });
+                            ruleList.appendChild(addRuleBtn);
+                            const ruleArr = renderData.title_change || [];
+                            if (ruleArr.length === 0) {
+                                ruleList.appendChild(DomHelper.createTip(CONFIG_CONST.TEXT.EMPTY_RULE));
+                            } else {
+                                ruleArr.forEach((rule, idx) => {
+                                    const rulePath = `${itemPath}.title_change[${idx}]`;
+                                    const ruleWrap = document.createElement('div');
+                                    ruleWrap.className = 'title-change-item';
+                                    ruleWrap.dataset.path = rulePath;
+                                    ruleWrap.innerHTML = `<strong>规则${idx + 1}</strong>`;
+                                    // 删除规则按钮
+                                    const delRuleBtn = DomHelper.createBtn('删除', 'delete-button', (e) => {
+                                        e.stopPropagation();
+                                        removeTitleRule(`${itemPath}.title_change`, idx);
+                                    });
+                                    ruleWrap.appendChild(delRuleBtn);
+                                    renderConfig(rule, ruleWrap, rulePath);
+                                    ruleList.appendChild(ruleWrap);
+                                });
+                            }
+                            itemContent.appendChild(ruleList);
+                            chanContent.appendChild(itemWrap);
+                        });
                     }
-                } else {
-                    contentDiv.innerHTML = '<p style="font-style: italic; color: #777; margin-left: 10px;">数据格式错误或无配置。请点击“添加”按钮。</p>';
-                }
-
-
-                sectionDiv.appendChild(contentDiv);
-                parentElement.appendChild(sectionDiv);
-
+                    chanWrap.appendChild(chanContent);
+                    content.appendChild(chanWrap);
+                });
+                section.appendChild(content);
+                parentEl.appendChild(section);
             }
-            // ** 移除全局 title_change 的处理 **
-            // else if (key === 'title_change' && Array.isArray(value)) { ... }
-            // 此部分已被移动到频道内部处理
-
-            else if (value !== null && typeof value === 'object' && !Array.isArray(value)) {
-                // 处理其他嵌套对象 (如果需要)
-                const subSectionDiv = document.createElement('div');
-                subSectionDiv.classList.add('config-subsection'); // 可以添加特定样式
-                subSectionDiv.style.marginLeft = '15px'; // 缩进
-                subSectionDiv.style.borderLeft = '2px solid #eee';
-                subSectionDiv.style.paddingLeft = '10px';
-                subSectionDiv.dataset.path = path;
-                subSectionDiv.dataset.type = 'object';
-
+            // 普通嵌套对象
+            else if (val !== null && typeof val === 'object' && !Array.isArray(val)) {
+                const subWrap = document.createElement('div');
+                subWrap.className = 'config-subsection';
+                subWrap.style.marginLeft = '15px';
+                subWrap.style.borderLeft = '2px solid #eee';
+                subWrap.style.paddingLeft = '10px';
+                subWrap.dataset.path = fullPath;
                 const label = document.createElement('label');
                 label.textContent = `${key}:`;
-                subSectionDiv.appendChild(label);
-                renderConfig(value, subSectionDiv, path); // 递归渲染
-                parentElement.appendChild(subSectionDiv);
-
-            } else {
-                // 基本类型 (string, number, boolean, null)
-                const inputElement = createInputElement(key, value, path);
-                parentElement.appendChild(inputElement);
+                subWrap.appendChild(label);
+                renderConfig(val, subWrap, fullPath);
+                parentEl.appendChild(subWrap);
+            }
+            // 基础字段渲染
+            else {
+                const inputWrap = buildInputItem(key, val, fullPath);
+                parentEl.appendChild(inputWrap);
             }
         });
     }
 
-    // --- Function: 添加频道 ---
-    function addChannel(sectionPath) { // e.g., 'media.channelid_youtube'
+    // 新增频道
+    function addNewChannel(chanPath) {
         if (!currentConfig) return;
-
-        const pathParts = sectionPath.split('.');
-        let target = currentConfig;
-        for (const part of pathParts) {
-            if (!target[part]) {
-                 target[part] = {}; // 如果路径不存在，创建对象
-            }
-            target = target[part];
-        }
-
-        const tempKey = generateTempKey('new_channel_'); // 使用临时 key 作为内部标识
-        // 添加一个默认的频道配置对象，包含临时 key 和空的 title_change 数组
+        const target = ConfigUtils.getDeepValue(currentConfig, chanPath);
+        const tempKey = ConfigUtils.genTempKey();
         target[tempKey] = {
-            _tempKey: tempKey, // 存储临时 key 用于 DOM 渲染和查找
-            id: '', // 用户需要填写的 ID
+            _tempKey: tempKey,
+            id: '',
             name: '',
-            media: 'm4a',
+            media: CONFIG_CONST.MEDIA_FORMAT_OPTIONS[0],
             link: '',
             icon: '',
             description: '',
-            title_change: [] // 添加空的 title_change 数组
+            title_change: []
         };
-
-        // 重新渲染配置表单
-        renderConfig(currentConfig, configContainer);
-         // 展开新添加的频道部分 (可选)
-         const newChannelElement = configContainer.querySelector(`.channel-item[data-path="${sectionPath}.${tempKey}"]`);
-        if(newChannelElement) {
-            const header = newChannelElement.querySelector('.collapsible-header');
-            if (header) header.click(); // 模拟点击展开
-             // 滚动到新添加的元素位置 (可选)
-            newChannelElement.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        renderConfig(currentConfig, $.container);
+        const newEl = $.container.querySelector(`.channel-item[data-path="${chanPath}.${tempKey}"]`);
+        if (newEl) {
+            newEl.querySelector('.collapsible-header').click();
+            DomHelper.scrollToEl(newEl);
         }
     }
 
-    // --- Function: 删除频道 ---
-    function deleteChannel(sectionPath, channelKey) { // e.g., 'media.channelid_youtube', 'channel_abc' or 'new_channel_123...'
-         if (!currentConfig) return;
-
-         const pathParts = sectionPath.split('.');
-         let target = currentConfig;
-         for (const part of pathParts) {
-            if (!target[part]) {
-                 console.error("删除频道失败: 路径不存在", sectionPath);
-                 return;
-            }
-            target = target[part];
-         }
-
-         if (target[channelKey]) {
-             // 如果是临时 key，并且用户未输入 ID，直接删除无需确认
-             const isTempKey = channelKey.startsWith('new_channel_');
-             const confirmMsg = isTempKey ? `确定要删除新的频道条目吗?` : `确定要删除频道 "${target[channelKey].id || channelKey}" 吗?`;
-
-             if (isTempKey || confirm(confirmMsg)) {
-                delete target[channelKey];
-                 // 重新渲染配置表单
-                renderConfig(currentConfig, configContainer);
-             }
-         } else {
-             console.error("删除频道失败: 频道 key 不存在", channelKey);
-         }
+    // 删除频道
+    function removeChannel(chanPath, realKey) {
+        if (!currentConfig) return;
+        const target = ConfigUtils.getDeepValue(currentConfig, chanPath);
+        if (!target?.[realKey]) return;
+        const isTemp = realKey.startsWith(CONFIG_CONST.TEMP_KEY_PREFIX);
+        const confirmText = isTemp
+            ? CONFIG_CONST.TEXT.DELETE_CHANNEL_TEMP
+            : CONFIG_CONST.TEXT.DELETE_CHANNEL_CONFIRM(target[realKey].id || realKey);
+        if (isTemp || confirm(confirmText)) {
+            delete target[realKey];
+            renderConfig(currentConfig, $.container);
+        }
     }
 
-
-    // --- Function: 添加标题修改规则 ---
-    // 此函数现在需要知道是哪个频道下的 title_change
-    function addTitleChangeRule(titleChangePath) { // e.g., 'media.channelid_youtube.some_channel_key.title_change'
+    // 新增标题规则
+    function addTitleRule(rulePath) {
         if (!currentConfig) return;
-
-        const pathParts = titleChangePath.split('.');
-         let target = currentConfig;
-         for (let i = 0; i < pathParts.length; i++) {
-             const part = pathParts[i];
-              // 处理数组索引 [index]
-             const match = part.match(/^([^\[]+)\[(\d+)\]$/);
-             if (match) {
-                 const arrayKey = match[1];
-                 const index = parseInt(match[2]);
-                 if (!target[arrayKey] || !Array.isArray(target[arrayKey]) || index >= target[arrayKey].length) {
-                      console.error("添加规则失败: 路径中的数组或索引无效", titleChangePath);
-                      return;
-                 }
-                 target = target[arrayKey][index];
-             } else {
-                 if (!target[part]) {
-                      // 如果路径不存在，并且是 title_change 本身，创建数组
-                      if (i === pathParts.length - 1 && part === 'title_change') {
-                          target[part] = [];
-                      } else {
-                           console.error("添加规则失败: 路径不存在", titleChangePath);
-                           return;
-                      }
-                 } else if (i === pathParts.length - 1 && part === 'title_change' && !Array.isArray(target[part])) {
-                     console.error("添加规则失败: 目标路径不是数组", titleChangePath);
-                     return;
-                 }
-                  target = target[part];
-             }
-         }
-
-
-        // 目标 target 现在是 title_change 数组
-        // 添加一个默认的规则对象
-        target.push({
+        const arr = ConfigUtils.getDeepValue(currentConfig, rulePath);
+        if (!Array.isArray(arr)) return;
+        arr.push({
             pattern: '',
-            mode: 'replace', // 默认模式
+            mode: CONFIG_CONST.TITLE_MODE_OPTIONS[2].value,
             value: ''
         });
-
-        // 重新渲染配置表单
-        renderConfig(currentConfig, configContainer);
-         // 滚动到新添加的规则位置 (可选)
-        // 需要找到对应的频道 item，然后找到 title_change list，再找到最后一个 rule item
-        const channelItemElement = configContainer.querySelector(`.channel-item[data-path="${titleChangePath.substring(0, titleChangePath.lastIndexOf('.'))}"]`);
-        if(channelItemElement) {
-             const ruleItems = channelItemElement.querySelectorAll('.title-change-item');
-            if (ruleItems.length > 0) {
-                 ruleItems[ruleItems.length - 1].scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-            }
+        renderConfig(currentConfig, $.container);
+        const channelPath = rulePath.replace('.title_change', '');
+        const channelEl = $.container.querySelector(`.channel-item[data-path="${channelPath}"]`);
+        if (channelEl) {
+            const rules = channelEl.querySelectorAll('.title-change-item');
+            DomHelper.scrollToEl(rules[rules.length - 1]);
         }
     }
 
-    // --- Function: 删除标题修改规则 ---
-    // 此函数现在需要知道是哪个频道下的 title_change 数组以及要删除的索引
-    function deleteTitleChangeRule(titleChangePath, index) { // e.g., 'media.channelid_youtube.some_channel_key.title_change', 0
+    // 删除标题规则
+    function removeTitleRule(rulePath, idx) {
         if (!currentConfig) return;
-
-        const pathParts = titleChangePath.split('.');
-         let target = currentConfig;
-          for (let i = 0; i < pathParts.length; i++) {
-             const part = pathParts[i];
-              // 处理数组索引 [index]
-             const match = part.match(/^([^\[]+)\[(\d+)\]$/);
-             if (match) {
-                 const arrayKey = match[1];
-                 const arrIndex = parseInt(match[2]);
-                  if (!target[arrayKey] || !Array.isArray(target[arrayKey]) || arrIndex >= target[arrayKey].length) {
-                       console.error("删除规则失败: 路径中的数组或索引无效", titleChangePath);
-                       return;
-                  }
-                  target = target[arrayKey][arrIndex];
-             } else {
-                if (!target[part] || !Array.isArray(target[part])) {
-                     console.error("删除规则失败: 路径不是数组或不存在", titleChangePath);
-                     return;
-                 }
-                 target = target[part];
-             }
-         }
-        // 目标 target 现在是 title_change 数组
-
-        if (index >= 0 && index < target.length) {
-             if (confirm(`确定要删除规则 ${index + 1} 吗?`)) {
-                target.splice(index, 1);
-                 // 重新渲染配置表单
-                renderConfig(currentConfig, configContainer);
-             }
-        } else {
-             console.error("删除规则失败: 无效索引", index);
+        const arr = ConfigUtils.getDeepValue(currentConfig, rulePath);
+        if (!Array.isArray(arr) || idx < 0 || idx >= arr.length) return;
+        if (confirm(CONFIG_CONST.TEXT.DELETE_RULE_CONFIRM(idx))) {
+            arr.splice(idx, 1);
+            renderConfig(currentConfig, $.container);
         }
     }
 
-
-    // --- Helper Function: 从表单收集数据并重建 JSON ---
-    function collectConfigData() {
-        const newConfig = {};
-        // 从顶层开始构建，找到主要的 section（如 media）
-         configContainer.querySelectorAll(':scope > .collapsible-section, :scope > .config-subsection').forEach(sectionElement => {
-            const path = sectionElement.dataset.path; // e.g., 'media'
-            const key = path.split('.')[0]; // Get the top-level key
-
-             if (sectionElement.classList.contains('collapsible-section') && (key === 'media')) {
-                 // Handle the media section specifically to traverse into channelid_
-                 const mediaObj = {};
-                 newConfig[key] = mediaObj;
-                 sectionElement.querySelectorAll(':scope > .collapsible-content > .collapsible-section').forEach(channelSection => {
-                     const channelSectionPath = channelSection.dataset.path; // e.g., 'media.channelid_youtube' or 'media.channelid_bilibili'
-                     const channelListKey = channelSectionPath.split('.').pop(); // e.g., 'channelid_youtube'
-                      if (!mediaObj[channelListKey]) {
-                          mediaObj[channelListKey] = {};
-                      }
-
-                     channelSection.querySelectorAll(':scope > .collapsible-content > .collapsible-section.channel-item').forEach(channelItemElement => {
-                          // ** 特殊处理频道项 **
-                          // 找到内部的 'id' 输入框，用其值作为 key
-                         const idInput = channelItemElement.querySelector('[data-path$=".id"]'); // 查找路径以 ".id" 结尾的输入框
-                         const channelId = idInput ? idInput.value.trim() : null; // 获取用户输入的 ID
-
-                         if (channelId) {
-                             const channelObj = {};
-                              // 递归收集频道内部的配置
-                              const channelContentDiv = channelItemElement.querySelector('.collapsible-content');
-                              if (channelContentDiv) {
-                                  // Collect data recursively from within the channel content
-                                  // Pass the full path including the temporary key for nested items' data-path lookups
-                                  reconstructObject(channelContentDiv, channelObj, channelItemElement.dataset.path);
-
-                                   // Avoid adding _tempKey to the final output
-                                   delete channelObj._tempKey;
-                                  mediaObj[channelListKey][channelId] = channelObj;
-                              } else {
-                                 console.warn(`Channel item content not found for path: ${channelItemElement.dataset.path}`);
-                              }
-
-                         } else {
-                             console.warn(`Skipping channel with empty ID in path: ${channelItemElement.dataset.path}`);
-                         }
-                     });
-                 });
-
-
-             } else if (sectionElement.dataset.type === 'object') {
-                 // Handle other top-level objects
-                 const subObj = {};
-                 newConfig[key] = subObj;
-                  // Recursively collect data from within this subsection
-                 reconstructObject(sectionElement, subObj, path);
-             }
-              // Note: Top-level non-object/array items are collected by reconstructObject called from here
-         });
-
-
-         // Recursive helper to collect data from a given parent element starting at a path
-         function reconstructObject(parentElement, currentObj, pathPrefix = '') {
-              // Collect direct children inputs within config-item divs
-             parentElement.querySelectorAll(`:scope > .config-item`).forEach(itemDiv => {
-                  const input = itemDiv.querySelector('[data-path]');
-                  if (input) {
-                     const path = input.dataset.path;
-                      // Ensure this input belongs to the current object/array item based on pathPrefix
-                      // Examples: pathPrefix="media.channelid_youtube.temp_abc", path="media.channelid_youtube.temp_abc.name" -> key="name"
-                      // Examples: pathPrefix="media.channelid_youtube.temp_abc.title_change[0]", path="media.channelid_youtube.temp_abc.title_change[0].pattern" -> key="pattern"
-                      // Examples: pathPrefix="", path="global_setting" -> key="global_setting"
-                      if (path === pathPrefix || path.startsWith(pathPrefix + '.') || path.match(new RegExp(`^${pathPrefix}\\[\\d+\\]`))) {
-                          let relativePath = path.substring(pathPrefix.length > 0 ? pathPrefix.length + 1 : 0);
-                          // If the path looks like "title_change[0].pattern", split by '.' first
-                          const pathParts = relativePath.split('.');
-                          const key = pathParts[0]; // Get the first part as the key for the current level
-
-                          // Handle array indices within the key itself (e.g., title_change[0])
-                          const keyMatch = key.match(/^([^\[]+)\[(\d+)\]$/);
-                           if (keyMatch) {
-                               // This case is handled when iterating through .title-change-item sections, not here
-                               // Inputs within array items will have a path like title_change[0].pattern
-                                // We need to ensure the recursive call correctly builds the array item first
-                           } else {
-                                // Simple key
-                                 if (!relativePath.includes('[') && !relativePath.includes('.')) { // Only direct keys relative to pathPrefix
-                                    const type = input.dataset.type;
-                                    let value;
-                                     if (input.tagName === 'INPUT') {
-                                        if (type === 'boolean') value = input.checked;
-                                        else if (type === 'number') value = parseFloat(input.value) || (input.value === '0' ? 0 : null);
-                                        else value = input.value;
-                                    } else if (input.tagName === 'SELECT') {
-                                        value = input.value;
-                                    }
-                                    currentObj[key] = value;
-                                 }
-                           }
-                      }
-                  }
-             });
-
-             // Collect direct children sections or lists recursively
-              parentElement.querySelectorAll(`:scope > .collapsible-section, :scope > .config-subsection, :scope > .title-change-list`).forEach(sectionElement => {
-                  const path = sectionElement.dataset.path;
-                  // Ensure this section belongs to the current object/array item based on pathPrefix
-                   if (path === pathPrefix || path.startsWith(pathPrefix + '.') || path.match(new RegExp(`^${pathPrefix}\\[\\d+\\]`))) {
-
-                       let relativePath = path.substring(pathPrefix.length > 0 ? pathPrefix.length + 1 : 0);
-                       const pathParts = relativePath.split('.');
-                       const key = pathParts[0]; // Get the first part as the key for the current level
-
-                       // Handle array indices in the key (e.g., title_change[0])
-                       const keyMatch = key.match(/^([^\[]+)\[(\d+)\]$/);
-
-                       if (sectionElement.classList.contains('channel-item')) {
-                           // Channel items are handled at the higher level (inside media.channelid_*)
-                           // Do nothing here to avoid processing them again
-                       } else if (sectionElement.classList.contains('title-change-list')) {
-                           // ** Special handling for nested title_change array **
-                            const listKey = key; // 'title_change'
-                            const listArray = [];
-                             sectionElement.querySelectorAll(':scope > .title-change-item').forEach(itemDiv => {
-                                 const itemPath = itemDiv.dataset.path; // e.g., media.channelid_youtube.temp_abc.title_change[0]
-                                 const itemObj = {};
-                                 // Recursively collect data for the array item
-                                 reconstructObject(itemDiv, itemObj, itemPath);
-                                listArray.push(itemObj);
-                             });
-                             currentObj[listKey] = listArray;
-
-                       } else if (sectionElement.dataset.type === 'object' && !keyMatch) {
-                           // Handle other nested objects (subsections)
-                           const subObj = {};
-                           currentObj[key] = subObj;
-                           reconstructObject(sectionElement, subObj, path); // Recursively collect data
-                       } else if (keyMatch && sectionElement.dataset.type === 'object') {
-                           // This is an item within an array (like title_change[0]), handled above
-                           // Ensure it's not double-processed
-                       }
-                   }
-              });
-
-            return currentObj;
-         }
-
-         // Cleanup temporary keys from the collected data before returning
-          function cleanTempKeys(obj) {
-              if (Array.isArray(obj)) {
-                  return obj.map(cleanTempKeys);
-              } else if (typeof obj === 'object' && obj !== null) {
-                  const newObj = {};
-                  for (const key in obj) {
-                      if (key !== '_tempKey') {
-                          newObj[key] = cleanTempKeys(obj[key]);
-                      }
-                  }
-                  return newObj;
-              }
-              return obj;
-          }
-
-
-         // Note: The main collection loop outside this helper starts the process
-         // The result is already in newConfig
-
-         // Final cleanup of temporary keys
-         return cleanTempKeys(newConfig);
-    }
-
-
-    // --- Function: 加载配置 ---
-    async function loadConfig() {
-        configContainer.innerHTML = '<p>正在加载配置...</p>';
-        configStatus.textContent = '';
-        saveConfigBtn.disabled = true; // 禁用保存按钮直到加载完成
-        refreshConfigBtn.disabled = true; // 禁用刷新按钮直到加载完成
-
-        try {
-            const response = await fetch('/getconfig');
-            if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
-            }
-            currentConfig = await response.json(); // 保存原始配置
-             // 在加载的配置中为现有频道添加临时 key，以便 renderConfig 正确处理
-             // 这对于删除现有频道条目是必要的，因为 deleteChannel 使用的是 currentConfig 中的 key
-             // 同时确保每个频道有 title_change 数组，即使是空的
-             if (currentConfig?.media?.channelid_youtube) {
-                 for (const key in currentConfig.media.channelid_youtube) {
-                      currentConfig.media.channelid_youtube[key]._tempKey = key;
-                      if (!Array.isArray(currentConfig.media.channelid_youtube[key].title_change)) {
-                           currentConfig.media.channelid_youtube[key].title_change = [];
-                      }
-                 }
-             }
-             if (currentConfig?.media?.channelid_bilibili) {
-                 for (const key in currentConfig.media.channelid_bilibili) {
-                      currentConfig.media.channelid_bilibili[key]._tempKey = key;
-                       if (!Array.isArray(currentConfig.media.channelid_bilibili[key].title_change)) {
-                           currentConfig.media.channelid_bilibili[key].title_change = [];
-                      }
-                 }
-             }
-
-            configContainer.innerHTML = ''; // 清空加载提示
-            renderConfig(currentConfig, configContainer);
-            saveConfigBtn.disabled = false; // 启用保存按钮
-        } catch (error) {
-            console.error('加载配置失败:', error);
-            configContainer.innerHTML = `<p style="color: red;">加载配置失败: ${error.message}</p>`;
-            currentConfig = null; // 清除可能不完整的配置
-        } finally {
-             refreshConfigBtn.disabled = false; // 总是重新启用刷新按钮
-        }
-    }
-
-    // --- Function: 保存配置 ---
-    async function saveConfig() {
-        const updatedConfig = collectConfigData();
-        console.log("Collected config:", JSON.stringify(updatedConfig, null, 2)); // 打印收集到的数据以供调试
-
-        configStatus.textContent = '正在保存...';
-        configStatus.style.color = 'orange';
-        saveConfigBtn.disabled = true;
-        refreshConfigBtn.disabled = true;
-
-        try {
-            // *** 假设你的保存端点是 /saveconfig ***
-            const response = await fetch('/saveconfig', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify(updatedConfig, null, 2), // 格式化 JSON 便于后端读取和调试
-            });
-
-            if (!response.ok) {
-                // 尝试读取错误信息
-                let errorMsg = `HTTP error! status: ${response.status}`;
-                try {
-                    const errorData = await response.json(); // 假设后端返回 JSON 错误信息
-                    errorMsg = errorData.detail || errorData.message || JSON.stringify(errorData);
-                } catch (e) {
-                    // If response is not JSON or reading fails
-                    errorMsg = await response.text() || errorMsg;
-                }
-
-                throw new Error(errorMsg);
-            }
-
-            // 保存成功后可以重新加载，以确认更改生效
-            configStatus.textContent = '配置保存成功！正在刷新...';
-            configStatus.style.color = 'green';
-            // 稍作延迟再加载，让用户看到成功信息
-            setTimeout(loadConfig, 1500);
-
-        } catch (error) {
-            console.error('保存配置失败:', error);
-            configStatus.textContent = `保存失败: ${error.message}`;
-            configStatus.style.color = 'red';
-            saveConfigBtn.disabled = false; // 重新启用保存按钮
-            refreshConfigBtn.disabled = false; // 重新启用刷新按钮
-        }
-    }
-
-    // --- 事件监听 ---
-    refreshConfigBtn.addEventListener('click', loadConfig);
-    saveConfigBtn.addEventListener('click', saveConfig);
-
-    // --- 页面切换逻辑 (集成到 index.js 的 showPage 中) ---
-    // 不再独立监听菜单点击，由 index.js 统一管理
-    // 配置页面的加载/渲染通过暴露给全局的函数由 index.js 调用
-    window.podflowConfig = {
-        onShow: function() {
-            if (!currentConfig) {
-                loadConfig();
+    // 收集表单数据并生成最终配置
+    function collectConfig() {
+        const result = {};
+        // 遍历所有顶级折叠块
+        $.container.querySelectorAll(':scope > .collapsible-section, :scope > .config-subsection').forEach(section => {
+            const rootPath = section.dataset.path;
+            const rootKey = ConfigUtils.splitPath(rootPath)[0];
+            if (rootKey === 'media') {
+                result.media = {};
+                // 遍历所有渠道分组
+                CONFIG_CONST.CHANNEL_LIST.forEach(chanConf => {
+                    const chanKey = chanConf.key;
+                    const chanWrap = section.querySelector(`.collapsible-section[data-path="media.${chanKey}"]`);
+                    if (!chanWrap) return;
+                    result.media[chanKey] = {};
+                    // 遍历每个频道项
+                    chanWrap.querySelectorAll('.channel-item').forEach(item => {
+                        const itemPath = item.dataset.path;
+                        const idInput = item.querySelector(`[data-path="${itemPath}.id"]`);
+                        const channelId = idInput?.value.trim();
+                        if (!channelId) {
+                            console.warn(CONFIG_CONST.TEXT.EMPTY_CHANNEL_ID_WARN, itemPath);
+                            return;
+                        }
+                        const chanObj = {};
+                        // 递归填充频道内所有字段
+                        fillObjectFromDom(item.querySelector('.collapsible-content'), chanObj, itemPath);
+                        result.media[chanKey][channelId] = chanObj;
+                    });
+                });
             } else {
-                // 确保临时 keys 存在
-                if (currentConfig?.media?.channelid_youtube) {
-                    for (const key in currentConfig.media.channelid_youtube) {
-                        if (!currentConfig.media.channelid_youtube[key]._tempKey) {
-                            currentConfig.media.channelid_youtube[key]._tempKey = key;
-                        }
-                        if (!Array.isArray(currentConfig.media.channelid_youtube[key].title_change)) {
-                            currentConfig.media.channelid_youtube[key].title_change = [];
-                        }
-                    }
-                }
-                if (currentConfig?.media?.channelid_bilibili) {
-                    for (const key in currentConfig.media.channelid_bilibili) {
-                        if (!currentConfig.media.channelid_bilibili[key]._tempKey) {
-                            currentConfig.media.channelid_bilibili[key]._tempKey = key;
-                        }
-                        if (!Array.isArray(currentConfig.media.channelid_bilibili[key].title_change)) {
-                            currentConfig.media.channelid_bilibili[key].title_change = [];
-                        }
-                    }
-                }
-                renderConfig(currentConfig, configContainer);
+                const subObj = {};
+                result[rootKey] = subObj;
+                fillObjectFromDom(section, subObj, rootPath);
             }
+        });
+        return ConfigUtils.cleanTempKey(result);
+    }
+
+    // 递归从DOM填充对象
+    function fillObjectFromDom(parentEl, targetObj, pathPrefix) {
+        // 基础输入框
+        parentEl.querySelectorAll(':scope > .config-item').forEach(item => {
+            const input = item.querySelector('[data-path]');
+            if (!input) return;
+            const path = input.dataset.path;
+            if (!path.startsWith(pathPrefix)) return;
+            const relativePath = path.slice(pathPrefix.length + 1);
+            const type = input.dataset.type;
+            let val;
+            if (type === CONFIG_CONST.FIELD_TYPE_MAP.BOOLEAN) val = input.checked;
+            else if (type === CONFIG_CONST.FIELD_TYPE_MAP.NUMBER) val = Number(input.value);
+            else val = input.value;
+            // 字段校验
+            if (!ConfigUtils.validateField(type, val)) {
+                console.warn(`字段格式非法 ${path}`, val);
+            }
+            ConfigUtils.setDeepValue(targetObj, relativePath, val);
+        });
+        // 标题规则数组
+        parentEl.querySelectorAll(':scope > .title-change-list').forEach(list => {
+            const arrPath = list.dataset.path;
+            const arrKey = ConfigUtils.splitPath(arrPath).pop();
+            const arr = [];
+            list.querySelectorAll('.title-change-item').forEach(ruleItem => {
+                const ruleObj = {};
+                fillObjectFromDom(ruleItem, ruleObj, ruleItem.dataset.path);
+                arr.push(ruleObj);
+            });
+            ConfigUtils.setDeepValue(targetObj, arrKey, arr);
+        });
+        // 嵌套子对象
+        parentEl.querySelectorAll(':scope > .config-subsection').forEach(sub => {
+            const subPath = sub.dataset.path;
+            const subKey = ConfigUtils.splitPath(subPath).pop();
+            const subObj = {};
+            fillObjectFromDom(sub, subObj, subPath);
+            ConfigUtils.setDeepValue(targetObj, subKey, subObj);
+        });
+    }
+
+    // 加载配置
+    async function loadConfig() {
+        $.container.innerHTML = DomHelper.createTip(CONFIG_CONST.TEXT.LOADING, false, '#333').outerHTML;
+        $.status.textContent = '';
+        $.saveBtn.disabled = true;
+        $.refreshBtn.disabled = true;
+        try {
+            const res = await fetch(CONFIG_CONST.API.GET_CONFIG);
+            if (!res.ok) throw new Error(`HTTP ${res.status}`);
+            currentConfig = await res.json();
+            // 统一给所有频道注入临时key、初始化title_change数组
+            if (currentConfig.media) {
+                CONFIG_CONST.CHANNEL_LIST.forEach(chanConf => {
+                    const chanMap = currentConfig.media[chanConf.key];
+                    if (!chanMap) return;
+                    Object.values(chanMap).forEach(chanItem => {
+                        if (!chanItem._tempKey) chanItem._tempKey = ConfigUtils.genTempKey();
+                        if (!Array.isArray(chanItem.title_change)) chanItem.title_change = [];
+                    });
+                });
+            }
+            renderConfig(currentConfig, $.container);
+            $.saveBtn.disabled = false;
+        } catch (err) {
+            console.error(CONFIG_CONST.TEXT.LOAD_FAIL, err);
+            $.container.innerHTML = DomHelper.createTip(`${CONFIG_CONST.TEXT.LOAD_FAIL}: ${err.message}`, false, 'red').outerHTML;
+            currentConfig = null;
+        } finally {
+            $.refreshBtn.disabled = false;
         }
+    }
+
+    // 保存配置
+    async function saveConfig() {
+        const finalData = collectConfig();
+        console.log('最终提交配置', JSON.stringify(finalData, null, 2));
+        $.status.textContent = CONFIG_CONST.TEXT.SAVING;
+        $.status.style.color = 'orange';
+        $.saveBtn.disabled = true;
+        $.refreshBtn.disabled = true;
+        try {
+            const res = await fetch(CONFIG_CONST.API.SAVE_CONFIG, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(finalData)
+            });
+            if (!res.ok) {
+                let msg = `HTTP ${res.status}`;
+                try {
+                    const errJson = await res.json();
+                    msg = errJson.detail || errJson.message || JSON.stringify(errJson);
+                } catch { msg = await res.text() || msg; }
+                throw new Error(msg);
+            }
+            $.status.textContent = CONFIG_CONST.TEXT.SAVE_SUCCESS;
+            $.status.style.color = 'green';
+            setTimeout(loadConfig, 1500);
+        } catch (err) {
+            console.error(CONFIG_CONST.TEXT.SAVE_FAIL, err);
+            $.status.textContent = `${CONFIG_CONST.TEXT.SAVE_FAIL}: ${err.message}`;
+            $.status.style.color = 'red';
+            $.saveBtn.disabled = false;
+            $.refreshBtn.disabled = false;
+        }
+    }
+
+    // 绑定按钮事件
+    $.refreshBtn.addEventListener('click', loadConfig);
+    $.saveBtn.addEventListener('click', saveConfig);
+
+    // 对外暴露页面切换钩子
+    window.podflowConfig = {
+        onShow: () => {
+            if (!currentConfig) return loadConfig();
+            // 修复临时key与数组
+            if (currentConfig.media) {
+                CONFIG_CONST.CHANNEL_LIST.forEach(chanConf => {
+                    const chanMap = currentConfig.media[chanConf.key];
+                    if (!chanMap) return;
+                    Object.values(chanMap).forEach(item => {
+                        if (!item._tempKey) item._tempKey = ConfigUtils.genTempKey();
+                        if (!Array.isArray(item.title_change)) item.title_change = [];
+                    });
+                });
+            }
+            renderConfig(currentConfig, $.container);
+        },
+        // 对外暴露工具，方便后续扩展
+        utils: ConfigUtils,
+        const: CONFIG_CONST
     };
-
-    // --- Menu toggle button logic (由 index.js 统一管理，此处不再重复绑定) ---
-    // index.js 已经处理了 toggleMenu 逻辑
-
-     // --- Initial load ---
-    // 配置页面的初始加载由 index.js 的 showPage 触发，此处不做自动加载
 });
