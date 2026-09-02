@@ -29,6 +29,7 @@ from podflow.download_and_build import download_and_build
 
 # RSS 和消息处理模块
 from podflow.message.save_rss import save_rss
+from podflow.message.favorite_update import favorite_update
 from podflow.message.get_original_rss import get_original_rss
 from podflow.message.get_video_format import get_video_format
 from podflow.message.optimize_download import optimize_download
@@ -87,24 +88,23 @@ def main_podcast():
         )
 
         # 启动 CherryPy 服务器
+        cherrypy.config.update(
+            {
+                "tools.sessions.on": True,  # 启用会话支持
+                "server.socket_host": hostip,  # 监听所有 IP 地址
+                "server.socket_port": port,  # 设置监听端口
+                "log.screen": False,  # 禁用屏幕日志输出
+                "log.access_file": "cherry_access.log",
+                "log.error_file": "cherry_error.log",
+                # 添加线程池配置，对于长连接 (SSE) 可能有帮助
+                "server.thread_pool": 30,  # 示例值，根据需要调整
+                "engine.autoreload.on": False, # 建议关闭自动重载
+                'server.socket_timeout': 10,  # 强制将 Socket 超时时间缩短（建议 10-15 秒）
+            }
+        )
         cherrypy.tree.graft(
             bottle_app_instance.app_bottle
         )  # 将 Bottle 应用嵌入到 CherryPy 中
-        cherrypy.config.update(
-            {
-                "global": {
-                    "tools.sessions.on": True,  # 启用会话支持
-                    "server.socket_host": hostip,  # 监听所有 IP 地址
-                    "server.socket_port": port,  # 设置监听端口
-                    "log.screen": False,  # 禁用屏幕日志输出
-                    "log.access_file": "",  # 关闭访问日志
-                    "log.error_file": "",  # 关闭错误日志
-                    # 添加线程池配置，对于长连接 (SSE) 可能有帮助
-                    "server.thread_pool": 30,  # 示例值，根据需要调整
-                    "engine.autoreload.on": False, # 建议关闭自动重载
-                }
-            }
-        )
         cherrypy.engine.start()  # 启动 CherryPy 服务器
         time_print(f"HTTP服务器启动, 端口: \033[32m{port}\033[0m")
         if parse.index:
@@ -309,14 +309,15 @@ def main_podcast():
             break
         else:
             # 延时
-            time.sleep(parse.time_delay)
+            favorite_update(parse.time_delay)
+            gVar.index_message["download"].clear()
             index_message_clear_count += 1
-            if index_message_clear_count >= 12:
+            if index_message_clear_count >= 25:
                 gVar.index_message["podflow"].clear()
                 gVar.index_message["http"].clear()
-                gVar.index_message["download"].clear()
                 gVar.index_message["enter"] = True
                 index_message_clear_count = 0
+            build_original(False)
     # 关闭CherryPy服务器
     time_print("Podflow运行结束")
     cherrypy.engine.stop()
