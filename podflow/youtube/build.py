@@ -79,18 +79,11 @@ def get_youtube_playlist(url):
         contents = ytInitialData["contents"]["twoColumnBrowseResultsRenderer"]["tabs"][
             0
         ]["tabRenderer"]["content"]["sectionListRenderer"]["contents"][0][
-            "itemSectionRenderer"
-        ][
-            "contents"
-        ][
-            0
-        ][
-            "playlistVideoListRenderer"
-        ][
-            "contents"
-        ]
+            "itemSectionRenderer"]["contents"]
         videoids.extend(
-            content["playlistVideoRenderer"]["videoId"] for content in contents
+            content["lockupViewModel"]["rendererContext"]["commandContext"]["onTap"][
+                "innertubeCommand"
+            ]["watchEndpoint"]["videoId"] for content in contents
         )
     return videoids
 
