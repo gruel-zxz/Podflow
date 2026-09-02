@@ -832,56 +832,27 @@ class bottle_app:
 
     # --- 新增 SSE 流处理路由 ---
     def stream(self):
-        response.content_type = "text/event-stream"
+        response.content_type = "application/json"
         response.set_header("Cache-Control", "no-cache")
-        response.set_header("Connection", "keep-alive")
-        response.set_header(
-            "Access-Control-Allow-Origin", "*"
-        )  # 如果前端在不同源，需要设置 CORS
-        try:
-            while True:
-                # 获取当前消息状态
-                # 确保 gVar.index_message 存在且结构完整
-                if not hasattr(gVar, "index_message"):
-                    current_state = {
-                        "http": [],
-                        "podflow": [],
-                        "schedule": {},
-                        "download": [],
-                    }
-                else:
-                    current_state = gVar.index_message
-                    # 确保所有预期的键都存在
-                    for key in ["http", "podflow", "schedule", "download"]:
-                        if key not in current_state:
-                            current_state[key] = (
-                                [] if key in ["http", "podflow", "download"] else {}
-                            )
-                # 简单实现：总是发送当前状态
-                # 优化：可以比较 current_state 和 last_state_sent，仅在有变化时发送
-                # if current_state != last_state_sent:
-                try:
-                    # 使用 json.dumps 将 Python 字典转换为 JSON 字符串
-                    message_json = json.dumps(current_state)
-                    sse_data = f"data: {message_json}\n\n"
-                    yield sse_data.encode("utf-8")  # 发送编码后的数据
-                except TypeError as e:
-                    # 如果序列化失败，记录错误，可以发送一个错误事件
-                    self.print_out(f"Error serializing message data for SSE: {e}")
-                    error_message = json.dumps({"error": "Failed to serialize data"})
-                    yield f"event: error\ndata: {error_message}\n\n".encode("utf-8")
-                # 等待一段时间再检查/发送
-                time.sleep(0.25)  # 每秒发送一次更新（或检查更新）
-        except (GeneratorExit, BrokenPipeError, ConnectionResetError):
-            # 客户端断开连接时会触发这些异常
-            self.print_out("SSE client disconnected.")
-            # 这里可以进行一些清理工作（如果需要）
-        except Exception as e:
-            # 捕获其他潜在错误
-            self.print_out(f"Error in SSE stream: {e}")
-        finally:
-            # 确保循环退出时会执行一些操作（如果需要）
-            self.print_out("SSE stream loop finished.")
+        response.set_header("Access-Control-Allow-Origin", "*")
+        
+        if not hasattr(gVar, "index_message"):
+            current_state = {
+                "http": [],
+                "podflow": [],
+                "schedule": {},
+                "download": [],
+            }
+        else:
+            current_state = gVar.index_message
+            for key in ["http", "podflow", "schedule", "download"]:
+                if key not in current_state:
+                    current_state[key] = (
+                        [] if key in ["http", "podflow", "download"] else {}
+                    )
+        
+        # 直接返回 JSON 字符串，立即释放线程
+        return json.dumps(current_state)
 
 
 bottle_app_instance = bottle_app()
