@@ -237,6 +237,11 @@ def correct_channelid(channelid, website):
                 channelid_value["QRcode"], bool
             ):
                 channelid[channelid_key]["QRcode"] = False
+            # 对Favorite进行纠正
+            if "Favorite" not in channelid_value or not isinstance(
+                channelid_value["Favorite"], bool
+            ):
+                channelid[channelid_key]["Favorite"] = False
             # 对BackwardUpdate进行纠正
             if "BackwardUpdate" not in channelid_value or not isinstance(
                 channelid_value["BackwardUpdate"], bool
