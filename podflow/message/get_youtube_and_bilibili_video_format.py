@@ -46,10 +46,6 @@ def get_youtube_and_bilibili_video_format(
         try_num = 0
         while try_num < 5:
             try_num += 1
-            if gVar.youtube_cookie:
-                gVar.video_id_update_format[id_num][
-                    "cookie"
-                ] = "channel_data/yt_dlp_youtube.txt"
             id_update_format = media_format(
                 url,
                 id_num,
@@ -104,6 +100,7 @@ def get_youtube_and_bilibili_video_format(
             or "服务器拒绝" in id_update_format
             or "删除或受限" in id_update_format
             or "无法提取" in id_update_format
+            or "Cookie错误"in id_update_format
             or id_update_format == "无法获取音频ID"
         ):
             id_update_format = "\033[31m充电专属\033[0m"
