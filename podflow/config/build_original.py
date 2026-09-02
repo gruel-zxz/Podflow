@@ -10,7 +10,7 @@ from podflow.config.get_channelid_id import get_channelid_id
 from podflow.config.correct_channelid import correct_channelid
 
 
-def build_original():
+def build_original(first=True):
     # 获取配置文件config
     gVar.config = get_config(parse.config)
     # 纠正配置信息config
@@ -19,14 +19,15 @@ def build_original():
     gVar.channelid_youtube = get_channelid("youtube")
     # 从配置文件中获取哔哩哔哩的频道
     gVar.channelid_bilibili = get_channelid("bilibili")
-    # 构建文件夹channel_id
-    folder_build("channel_id")
-    # 构建文件夹channel_audiovisual
-    folder_build("channel_audiovisual")
-    # 构建文件夹channel_rss
-    folder_build("channel_rss")
-    # 构建文件夹channel_data
-    folder_build("channel_data")
+    if first:
+        # 构建文件夹channel_id
+        folder_build("channel_id")
+        # 构建文件夹channel_audiovisual
+        folder_build("channel_audiovisual")
+        # 构建文件夹channel_rss
+        folder_build("channel_rss")
+        # 构建文件夹channel_data
+        folder_build("channel_data")
     # 修正channelid_youtube
     gVar.channelid_youtube = correct_channelid(gVar.channelid_youtube, "youtube")
     # 修正channelid_bilibili
