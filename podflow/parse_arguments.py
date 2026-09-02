@@ -31,9 +31,9 @@ def parse_arguments():
         "-d",
         "--delay",
         type=positive_int,
-        default=1500,
+        default=36000,
         metavar="NUM",
-        help="Delay in seconds(default: 1500)",
+        help="Delay in seconds(default: 36000)",
     )
     parser.add_argument(
         "-c",
