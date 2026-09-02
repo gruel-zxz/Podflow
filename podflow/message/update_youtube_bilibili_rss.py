@@ -27,6 +27,7 @@ def update_youtube_bilibili_rss():
     pattern_youtube_error = {
         "This channel was removed because it violated our Community Guidelines.": "违反社区准则",
         "This channel does not exist.": "不存在 (ID错误) ",
+        "This channel is not available.": "不可用",
     }
     pattern_youtube_varys = [
         r"[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-2][0-9]:[0-6][0-9]:[0-6][0-9]\+00:00",
@@ -135,7 +136,7 @@ def update_youtube_bilibili_rss():
             del gVar.channelid_bilibili_ids[bilibili_key]  # 删除错误ID
             write_log(f"BiliBili频道 {bilibili_value} ID不正确无法获取")
         elif bilibili_space_type == "json":
-            write_log(f"BiliBili频道 {youtube_value} 无法更新")
+            write_log(f"BiliBili频道 {bilibili_value} 无法更新")
             if bilibili_space == {}:
                 del gVar.channelid_bilibili_ids[bilibili_key]
         else:
