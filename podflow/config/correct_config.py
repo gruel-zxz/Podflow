@@ -111,3 +111,10 @@ def correct_config():
         config["upload_ip"] = ""
     else:
         config["upload_ip"] = str(config["upload_ip"])
+    # 对youtube_download_span进行纠正
+    if (
+        "youtube_download_span" not in config
+        or not isinstance(config["youtube_download_span"], int)
+        or config["youtube_download_span"] < 0
+    ):
+        config["youtube_download_span"] = default_config["youtube_download_span"]
