@@ -21,6 +21,7 @@ default_config = {
     "remove_media": True,  # 是否删除无用的媒体文件
     "upload": False,  # 是否将长期媒体进行上传
     "upload_ip": "10.0.3.231",  # 长期媒体进行上传服务器地址(可不写, 会自动搜索, 无法搜索请填写)
+    "youtube_download_span": 1500,  # YouTube下载间隔时间
     "channelid_youtube": {  # Youtube频道列表
         "youtube": {
             "update_size": 15,  # 每次获取频道媒体数量
@@ -50,7 +51,8 @@ default_config = {
                     "text": "",
                 },
             ],
-            "NoShorts": False,  # 是否不下载Shorts媒体
+            "NoShorts": False,  # 
+            "Favorite": False,  # 是否为特别关注(特别关注频道在有更新时不受延迟等待的影响, 会立即更新)
         },
     },
     "channelid_bilibili": {  # 哔哩哔哩频道列表
@@ -74,6 +76,7 @@ default_config = {
             },
             "AllPartGet": False,  # 是否提前获取分P或互动视频(建议update_size大于5时使用, 如果该变量不存在时, 默认update_size大于5时开启)
             "part_sequence": True,  # 分P或互动视频是否按顺序显示
+            "Favorite": False,
         },
     },
 }
@@ -84,6 +87,7 @@ default_config = {
 class Application_gVar:
     def __init__(self):
         self.config = {}  # 配置文件字典
+        self.original_config = {}  # 原始配置文件字典
         self.channelid_youtube = {}  # YouTube频道字典
         self.channelid_bilibili = {}  # 哔哩哔哩频道字典
         self.channelid_youtube_ids = {}  # YouTube频道ID字典
