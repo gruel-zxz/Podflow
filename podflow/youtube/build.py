@@ -72,19 +72,33 @@ def print_fail_youtube():
 
 
 # 获取YouTube播放列表模块
-def get_youtube_playlist(url):
+def get_youtube_playlist(url, output_dir):
     videoids = []
     ytInitialData = get_html_dict(url, "", "ytInitialData")
-    with contextlib.suppress(KeyError):
-        contents = ytInitialData["contents"]["twoColumnBrowseResultsRenderer"]["tabs"][
-            0
-        ]["tabRenderer"]["content"]["sectionListRenderer"]["contents"][0][
-            "itemSectionRenderer"]["contents"]
-        videoids.extend(
-            content["lockupViewModel"]["rendererContext"]["commandContext"]["onTap"][
-                "innertubeCommand"
-            ]["watchEndpoint"]["videoId"] for content in contents
-        )
+    # 递归生成器：在任意嵌套深度的 JSON 对象中查找指定 key
+    def find_keys(data, target_key):
+        if isinstance(data, dict):
+            for k, v in data.items():
+                if k == target_key and isinstance(v, str):
+                    yield v
+                else:
+                    yield from find_keys(v, target_key)
+        elif isinstance(data, list):
+            for item in data:
+                yield from find_keys(item, target_key)
+
+    # 安全校验：确保获取到了字典数据
+    if not isinstance(ytInitialData, dict):
+        time_print(f"{gVar.channelid_youtube_ids[output_dir]} 更名播放列表获取失败: 非字典")
+        return videoids
+    else:
+        # 自动搜索所有 watchEndpoint 结构下的 videoId 并去重保持顺序
+        for vid in find_keys(ytInitialData, "videoId"):
+            if vid and vid not in videoids:
+                videoids.append(vid)
+        if not videoids:
+            time_print(f"{gVar.channelid_youtube_ids[output_dir]} 更名播放列表获取失败: 无视频ID")
+
     return videoids
 
 
@@ -206,7 +220,7 @@ def youtube_xml_items(output_dir, ratio_part):
     if title_change:
         for title_index, title_value in enumerate(title_change):
             if "url" in title_value:
-                title_index_table = get_youtube_playlist(title_value["url"])
+                title_index_table = get_youtube_playlist(title_value["url"], output_dir)
                 title_change[title_index]["table"] = title_index_table
                 if not title_index_table:
                     if output_dir in gVar.youtube_xml_get_tree:
