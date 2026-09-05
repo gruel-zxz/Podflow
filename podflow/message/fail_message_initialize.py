@@ -244,6 +244,11 @@ error_reason = [
         "\033[31m无法解析\033[0m",
         "text",
     ],
+    [
+        r"Unable to download webpage: HTTP Error 412: Precondition Failed (caused by <HTTPError 412: Precondition Failed>)",
+        "\033[31m拒绝请求\033[0m",
+        "text",
+    ],
 ]
 
 
