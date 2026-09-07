@@ -10,6 +10,8 @@ from podflow.message.media_format import media_format
 
 def makeup_format(video_id, makeup_format_lock):
     id_value = gVar.make_up_file_format[video_id]
+    if gVar.youtube_cookie_switch and gVar.youtube_cookie:
+        id_value["cookie"] = "channel_data/yt_dlp_youtube.txt"
     makeup_id_format = media_format(
         id_value["url"],
         id_value["main"],

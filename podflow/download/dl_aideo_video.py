@@ -160,8 +160,15 @@ def dl_retry_video(
     sesuffix="",
     cookies=None,
     playlist_num=None,
+    youtube_cookie_switch=False,
 ):
     duration_and_id = []
+    if youtube_cookie_switch:
+        video_id_count_num = 0
+    elif retry_count > 1:
+        video_id_count_num = 1
+    else:
+        video_id_count_num = 0
     video_id_failed, _ = dl_full_video(
         video_url,
         output_dir,
@@ -183,10 +190,6 @@ def dl_retry_video(
             and gVar.youtube_cookie
         ):
             cookies = "channel_data/yt_dlp_youtube.txt"
-            if retry_count > 1:
-                video_id_count_num = 1
-            else:
-                video_id_count_num = 0
             if video_id_count == video_id_count_num:
                 write_log(f"{video_write_log} 重新获取媒体信息 🍪")
                 gVar.video_id_update_format[video_url]["cookies"] = cookies
@@ -208,7 +211,7 @@ def dl_retry_video(
                         format_id = duration_and_id[2]
                     write_log(f"{video_write_log} \033[32m获取成功\033[0m")
                 else:
-                    write_log(f"{video_write_log} \033[31m获取失败\033[0m\n错误信息: 该媒体存在分集, 请打开【默认使用🍪】按钮")
+                    write_log(f"{video_write_log} \033[31m获取失败\033[0m\n错误信息: 该媒体存在分集, 请打开【YouTube 🍪】按钮")
             else:
                 def get_fail_info(id_update_format):
                     for fail_info in ["年龄限制", "需登录", "请求拒绝", "无法获取音频ID", "年龄验证"]:
@@ -256,6 +259,11 @@ def dl_aideo_video(
     display_color="\033[95m",
     title_name="",
 ):
+    if gVar.youtube_cookie_switch and gVar.youtube_cookie:
+        cookies = "channel_data/yt_dlp_youtube.txt"
+        youtube_cookie_switch = True
+    else:
+        youtube_cookie_switch = False
     if output_dir_name:
         video_write_log = f"{display_color}{output_dir_name}\033[0m|{video_url}"
     else:
@@ -300,6 +308,7 @@ def dl_aideo_video(
             "",
             cookies,
             playlist_num,
+            youtube_cookie_switch,
         )
     else:
         time_print(
@@ -321,6 +330,7 @@ def dl_aideo_video(
             ".part",
             cookies,
             playlist_num,
+            youtube_cookie_switch,
         )
         if video_id_failed is None:
             if duration_and_id:
@@ -340,6 +350,7 @@ def dl_aideo_video(
                 ".part",
                 cookies,
                 playlist_num,
+                youtube_cookie_switch,
             )
         if video_id_failed is None:
             time_print(

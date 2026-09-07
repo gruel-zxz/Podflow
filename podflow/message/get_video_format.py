@@ -30,7 +30,11 @@ def get_youtube_format_front(ytid_content_update, backward_update):
                     "quality": yt_id_quality,
                     "url": f"https://www.youtube.com/watch?v={yt_id}",
                     "name": gVar.channelid_youtube_ids[ytid_key],
-                    "cookie": None,  # 特定视频需要
+                    "cookie": (
+                        "channel_data/yt_dlp_youtube.txt"
+                        if gVar.youtube_cookie_switch and gVar.youtube_cookie
+                        else None
+                    ),  # 特定视频需要cookie
                     "backward_update": backward_update,
                     "power": None,
                     "language": language,

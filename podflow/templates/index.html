@@ -10,12 +10,25 @@
 </head>
 <body>
   <nav id="menu">
-    <h3>菜单栏</h3>
+    <div class="menu-header">
+      <span class="menu-app-name">Podflow</span>
+      <h3>菜单栏</h3>
+    </div>
     <ul>
       <li data-page="pageMessage">Podflow 运行情况</li>
       <li data-page="pageChannel">获取媒体频道 ID</li>
       <li data-page="pageConfig">修改配置</li>
     </ul>
+    <div class="menu-footer">
+      <label class="youtube-cookie-setting" for="alwaysUseYoutubeCookie">
+        <span class="youtube-cookie-copy">
+          <span>YouTube 🍪</span>
+          <small id="youtubeCookieStatus"></small>
+        </span>
+        <input type="checkbox" id="alwaysUseYoutubeCookie" role="switch" />
+        <span class="ios-switch" aria-hidden="true"></span>
+      </label>
+    </div>
   </nav>
   <button id="toggleMenu">❮</button>
   <main id="main">

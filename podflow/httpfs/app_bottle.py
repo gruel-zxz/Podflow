@@ -94,6 +94,11 @@ class bottle_app:
             )
             self.app_bottle.route("/<filename:path>", callback=self.serve_static)
             self.app_bottle.route("/stream", callback=self.stream)
+            self.app_bottle.route(
+                "/youtube-cookie-setting",
+                method=["GET", "POST"],
+                callback=self.youtube_cookie_setting,
+            )
 
     # 设置日志文件名及写入判断
     def set_logname(self, logname="httpfs.log", http_fs=False):
@@ -853,6 +858,35 @@ class bottle_app:
         
         # 直接返回 JSON 字符串，立即释放线程
         return json.dumps(current_state)
+    
+# 设置及获取 YouTube Cookie 配置数据
+    def youtube_cookie_setting(self):
+        if request.method == "POST":
+            req_data = request.json or {}
+            enabled = req_data.get("enabled")
+            if not isinstance(enabled, bool):
+                self.print_out("youtube-cookie-setting", 400)
+                response.status = 400
+                # 设置响应头为 application/json
+                response.content_type = "application/json"
+                return {"error": "enabled 必须为布尔值"}
+            
+            gVar.youtube_cookie_switch = enabled
+            # 根据传入的布尔值打出不同的操作日志
+            if enabled:
+                self.print_out("youtube-cookie-on", 200)
+            else:
+                self.print_out("youtube-cookie-off", 200)
+        else:
+            # 仅 GET 获取状态时打印的日志
+            self.print_out("youtube-cookie-get", 200)
+
+        # 设置响应头为 application/json
+        response.content_type = "application/json"
+        return {
+            "enabled": getattr(gVar, "youtube_cookie_switch", False),
+            "cookie_available": bool(getattr(gVar, "youtube_cookie", None)),
+        }
 
 
 bottle_app_instance = bottle_app()

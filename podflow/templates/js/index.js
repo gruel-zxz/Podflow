@@ -24,6 +24,8 @@
     const messageHttp = document.getElementById('messageHttp'); // HTTP 消息
     const messageDownload = document.getElementById('messageDownload'); // 下载进度条容器
     const downloadLabel = document.getElementById('downloadLabel'); // 下载进度标题 (假设存在)
+    const alwaysUseYoutubeCookie = document.getElementById('alwaysUseYoutubeCookie');
+    const youtubeCookieStatus = document.getElementById('youtubeCookieStatus');
 
     // --- 状态变量 ---
     let lastMessage = { schedule: [], podflow: [], http: [], download: [] }; // 缓存上一次的消息数据
@@ -37,6 +39,41 @@
     let reconnectTimer = null; // 重连定时器
     const MAX_RECONNECT_ATTEMPTS = 10; // 最大重连次数
     const BASE_RECONNECT_DELAY = 1000; // 基础重连延迟 (ms)
+
+    async function loadYoutubeCookieSetting() {
+        if (!alwaysUseYoutubeCookie) return;
+        try {
+            const response = await fetch('/youtube-cookie-setting');
+            if (!response.ok) throw new Error(`HTTP ${response.status}`);
+            const data = await response.json();
+            alwaysUseYoutubeCookie.checked = data.enabled;
+            alwaysUseYoutubeCookie.disabled = !data.cookie_available;
+            if (youtubeCookieStatus) {
+                youtubeCookieStatus.textContent = data.cookie_available
+                    ? '（Cookie 可用）'
+                    : '（Cookie 不可用，开关已禁用）';
+            }
+        } catch (error) {
+            console.error('加载 YouTube Cookie 设置失败:', error);
+            alwaysUseYoutubeCookie.disabled = true;
+            if (youtubeCookieStatus) youtubeCookieStatus.textContent = '（设置加载失败）';
+        }
+    }
+
+    async function saveYoutubeCookieSetting() {
+        try {
+            const response = await fetch('/youtube-cookie-setting', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ enabled: alwaysUseYoutubeCookie.checked })
+            });
+            if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        } catch (error) {
+            console.error('保存 YouTube Cookie 设置失败:', error);
+            alwaysUseYoutubeCookie.checked = !alwaysUseYoutubeCookie.checked;
+            if (youtubeCookieStatus) youtubeCookieStatus.textContent = '（保存失败）';
+        }
+    }
 
     // --- 连接状态指示器 ---
     function updateConnectionStatus(status, message) {
@@ -107,6 +144,7 @@
         const isHidden = menu.classList.contains('hidden');
         toggleMenuBtn.style.left = isHidden ? '0px' : 'var(--menu-width)';
         toggleMenuBtn.textContent = isHidden ? '❯' : '❮';
+        toggleMenuBtn.setAttribute('aria-label', isHidden ? '显示菜单' : '隐藏菜单');
     }
 
     /**
@@ -120,6 +158,9 @@
         // 显示目标页面
         if (pages[pageId]) {
             pages[pageId].style.display = 'block';
+            menu.querySelectorAll('li[data-page]').forEach(item => {
+                item.classList.toggle('active', item.dataset.page === pageId);
+            });
 
             // 手机模式下，切换页面时自动隐藏菜单
             if (window.innerWidth <= 600 && !menu.classList.contains('hidden')) {
@@ -803,6 +844,11 @@
 
     // 初始化时显示默认页面 (例如消息页面)
     showPage('pageMessage');
+    loadYoutubeCookieSetting();
+
+    if (alwaysUseYoutubeCookie) {
+        alwaysUseYoutubeCookie.addEventListener('change', saveYoutubeCookieSetting);
+    }
 
     // --- 页面可见性检测：标签页切回前台后自动恢复轮询 ---
     document.addEventListener('visibilitychange', function() {
