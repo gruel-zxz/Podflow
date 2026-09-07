@@ -128,6 +128,7 @@ class Application_gVar:
         self.upload_json = {}  # 上传登陆账号密码字典
         self.upload_stop = False  # 上传停止布尔值
         self.upload_message = []  # 上传用户媒体信息列表
+        self.youtube_cookie_switch = False  # 是否默认使用 YouTube cookie布尔值
 
         self.shortcuts_url = {}  # 输出至shortcut的url字典
 
