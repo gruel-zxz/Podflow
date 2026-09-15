@@ -28,9 +28,15 @@
         <input type="checkbox" id="alwaysUseYoutubeCookie" role="switch" />
         <span class="ios-switch" aria-hidden="true"></span>
       </label>
+      <div class="favorite-update-control">
+        <span id="favoriteUpdateCountdown">下次运行：--:--:--</span>
+        <button type="button" id="immediateUpdateBtn" class="ios-secondary-button" disabled>立即更新</button>
+      </div>
     </div>
   </nav>
-  <button id="toggleMenu">❮</button>
+  <button id="toggleMenu" type="button" aria-label="隐藏侧边栏" aria-controls="menu" aria-expanded="true">
+    <svg aria-hidden="true" viewBox="0 0 24 24" focusable="false"><path d="M4 5.5h16M4 12h16M4 18.5h16"/></svg>
+  </button>
   <main id="main">
     <section id="pageChannel" style="display: none;">
       <h2>获取媒体频道 ID</h2>
@@ -67,17 +73,23 @@
 
     <section id="pageConfig" style="display: none;">
       <h2>修改配置</h2>
-      <div id="configContainer">
-        <p>正在加载配置...</p>
+      <button type="button" id="toggleConfigDisplay" class="ios-disclosure" aria-expanded="true">
+        <span>配置内容</span><span class="disclosure-icon">⌄</span>
+      </button>
+      <div id="configContent">
+        <div id="configContainer">
+          <p>正在加载配置...</p>
+        </div>
+        <div class="button-container">
+          <button type="button" id="refreshConfigBtn">🔄 刷新配置</button>
+          <button type="button" id="saveConfigBtn">💾 保存配置</button>
+        </div>
+        <div id="configStatus" style="margin-top: 10px; color: green;"></div>
       </div>
-      <div class="button-container">
-        <button type="button" id="refreshConfigBtn">🔄 刷新配置</button>
-        <button type="button" id="saveConfigBtn">💾 保存配置</button>
-      </div>
-      <div id="configStatus" style="margin-top: 10px; color: green;"></div>
     </section>
 
   </main>
+  <div id="menuBackdrop" aria-hidden="true"></div>
 
   <div id="version-info">
     Version: 1.0.2

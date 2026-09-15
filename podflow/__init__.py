@@ -1,6 +1,9 @@
 # podflow/__init__.py
 # coding: utf-8
 
+import threading
+
+
 # 默认参数
 default_config = {
     "preparation_per_count": 100,  # 获取媒体信息每组数量
@@ -129,6 +132,9 @@ class Application_gVar:
         self.upload_stop = False  # 上传停止布尔值
         self.upload_message = []  # 上传用户媒体信息列表
         self.youtube_cookie_switch = False  # 是否默认使用 YouTube cookie布尔值
+        self.favorite_update_skip_wait = threading.Event()  # 跳过特别关注等待并立即更新
+        self.favorite_update_active = False  # 特别关注等待是否正在运行
+        self.favorite_update_next_run = None  # 下次常规更新的 Unix 时间戳
 
         self.shortcuts_url = {}  # 输出至shortcut的url字典
 

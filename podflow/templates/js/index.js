@@ -3,6 +3,7 @@
     // 菜单相关
     const menu = document.getElementById('menu');
     const toggleMenuBtn = document.getElementById('toggleMenu');
+    const menuBackdrop = document.getElementById('menuBackdrop');
     // 页面容器
     const pages = {
         pageChannel: document.getElementById('pageChannel'),
@@ -26,6 +27,10 @@
     const downloadLabel = document.getElementById('downloadLabel'); // 下载进度标题 (假设存在)
     const alwaysUseYoutubeCookie = document.getElementById('alwaysUseYoutubeCookie');
     const youtubeCookieStatus = document.getElementById('youtubeCookieStatus');
+    const immediateUpdateBtn = document.getElementById('immediateUpdateBtn');
+    const favoriteUpdateCountdown = document.getElementById('favoriteUpdateCountdown');
+    const toggleConfigDisplay = document.getElementById('toggleConfigDisplay');
+    const configContent = document.getElementById('configContent');
 
     // --- 状态变量 ---
     let lastMessage = { schedule: [], podflow: [], http: [], download: [] }; // 缓存上一次的消息数据
@@ -39,6 +44,82 @@
     let reconnectTimer = null; // 重连定时器
     const MAX_RECONNECT_ATTEMPTS = 10; // 最大重连次数
     const BASE_RECONNECT_DELAY = 1000; // 基础重连延迟 (ms)
+    let favoriteUpdateNextRun = null;
+    let serverOffset = 0; // 记录服务器时间与本地时间的毫秒偏差
+
+    function renderFavoriteUpdateCountdown() {
+        if (!favoriteUpdateCountdown) return;
+        if (!favoriteUpdateNextRun) {
+            favoriteUpdateCountdown.textContent = '倒计时：更新运行中';
+            return;
+        }
+
+        // 使用 Date.now() + serverOffset 校准当前服务器毫秒时间
+        const adjustedNowMs = Date.now() + serverOffset;
+        
+        // 计算剩余秒数 (favoriteUpdateNextRun 为秒级时间戳)
+        const remaining = Math.max(0, Math.ceil(favoriteUpdateNextRun - adjustedNowMs / 1000));
+
+        const hours = String(Math.floor(remaining / 3600)).padStart(2, '0');
+        const minutes = String(Math.floor((remaining % 3600) / 60)).padStart(2, '0');
+        const seconds = String(Math.floor(remaining % 60)).padStart(2, '0');
+        favoriteUpdateCountdown.textContent = `倒计时：${hours}:${minutes}:${seconds}`;
+    }
+
+    // 辅助函数：同步一次服务器时间偏差
+    async function syncServerOffset() {
+        try {
+            const startTime = Date.now();
+            const res = await fetch('/timestamp');
+            if (!res.ok) throw new Error(`HTTP ${res.status}`);
+            const { timestamp: serverTimeSec } = await res.json();
+            
+            // 考虑单程网络延迟估计 (RTT / 2)
+            const networkLatency = (Date.now() - startTime) / 2;
+            const serverTimeMs = serverTimeSec * 1000 + networkLatency;
+            
+            // 计算偏差：服务端毫秒数 - 客户端毫秒数
+            serverOffset = serverTimeMs - Date.now();
+        } catch (error) {
+            console.error('同步服务器时间偏差失败:', error);
+        }
+    }
+
+    async function loadFavoriteUpdateStatus() {
+        try {
+            // 并行请求状态与服务器时间戳，减少等待时长
+            const [statusRes] = await Promise.all([
+                fetch('/favorite-update-status'),
+                syncServerOffset()
+            ]);
+
+            if (!statusRes.ok) throw new Error(`HTTP ${statusRes.status}`);
+            const data = await statusRes.json();
+            
+            favoriteUpdateNextRun = data.next_run;
+            if (immediateUpdateBtn) immediateUpdateBtn.disabled = !data.active;
+            renderFavoriteUpdateCountdown();
+        } catch (error) {
+            console.error('加载特别关注状态失败:', error);
+            favoriteUpdateNextRun = null;
+            if (immediateUpdateBtn) immediateUpdateBtn.disabled = true;
+            if (favoriteUpdateCountdown) favoriteUpdateCountdown.textContent = '倒计时：状态不可用';
+        }
+    }
+
+    async function requestImmediateUpdate() {
+        if (!immediateUpdateBtn) return;
+        immediateUpdateBtn.disabled = true;
+        try {
+            const response = await fetch('/favorite-update-status', { method: 'POST' });
+            if (!response.ok) throw new Error(`HTTP ${response.status}`);
+            favoriteUpdateNextRun = null;
+            renderFavoriteUpdateCountdown();
+        } catch (error) {
+            console.error('立即更新请求失败:', error);
+            await loadFavoriteUpdateStatus();
+        }
+    }
 
     async function loadYoutubeCookieSetting() {
         if (!alwaysUseYoutubeCookie) return;
@@ -139,12 +220,16 @@
     /**
      * 切换侧边菜单的显示/隐藏状态
      */
+    function setMenuVisibility(isHidden) {
+        menu.classList.toggle('hidden', isHidden);
+        if (menuBackdrop) menuBackdrop.classList.toggle('visible', !isHidden && window.innerWidth <= 600);
+        if (!toggleMenuBtn) return;
+        toggleMenuBtn.setAttribute('aria-expanded', String(!isHidden));
+        toggleMenuBtn.setAttribute('aria-label', isHidden ? '显示侧边栏' : '隐藏侧边栏');
+    }
+
     function toggleMenu() {
-        menu.classList.toggle('hidden');
-        const isHidden = menu.classList.contains('hidden');
-        toggleMenuBtn.style.left = isHidden ? '0px' : 'var(--menu-width)';
-        toggleMenuBtn.textContent = isHidden ? '❯' : '❮';
-        toggleMenuBtn.setAttribute('aria-label', isHidden ? '显示菜单' : '隐藏菜单');
+        setMenuVisibility(!menu.classList.contains('hidden'));
     }
 
     /**
@@ -824,30 +909,36 @@
     if (toggleMenuBtn) {
         toggleMenuBtn.addEventListener('click', toggleMenu);
     }
+    if (menuBackdrop) {
+        menuBackdrop.addEventListener('click', () => setMenuVisibility(true));
+    }
 
     // --- 初始化 ---
     // 根据屏幕宽度初始化菜单状态
     if (window.innerWidth <= 600) {
-        menu.classList.add('hidden');
-        toggleMenuBtn.style.left = '0px';
-        toggleMenuBtn.textContent = '❯';
+        setMenuVisibility(true);
     } else {
-        // 确保大屏幕下按钮初始状态正确 (如果默认不是展开的话)
-        if (menu.classList.contains('hidden')) {
-            toggleMenuBtn.style.left = '0px';
-            toggleMenuBtn.textContent = '❯';
-        } else {
-            toggleMenuBtn.style.left = 'var(--menu-width)';
-            toggleMenuBtn.textContent = '❮';
-        }
+        setMenuVisibility(menu.classList.contains('hidden'));
     }
 
     // 初始化时显示默认页面 (例如消息页面)
     showPage('pageMessage');
     loadYoutubeCookieSetting();
+    loadFavoriteUpdateStatus();
+    setInterval(renderFavoriteUpdateCountdown, 1000);
+    setInterval(loadFavoriteUpdateStatus, 15000);
 
     if (alwaysUseYoutubeCookie) {
         alwaysUseYoutubeCookie.addEventListener('change', saveYoutubeCookieSetting);
+    }
+    if (immediateUpdateBtn) {
+        immediateUpdateBtn.addEventListener('click', requestImmediateUpdate);
+    }
+    if (toggleConfigDisplay && configContent) {
+        toggleConfigDisplay.addEventListener('click', () => {
+            const isCollapsed = configContent.classList.toggle('hidden');
+            toggleConfigDisplay.setAttribute('aria-expanded', String(!isCollapsed));
+        });
     }
 
     // --- 页面可见性检测：标签页切回前台后自动恢复轮询 ---

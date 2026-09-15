@@ -32,9 +32,12 @@ def check_xml_update(channel_id):
 
     # ---------- 获取网络 XML ----------
     url = f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}"
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    }
 
     try:
-        r = requests.get(url, timeout=10)
+        r = requests.get(url, headers=headers, timeout=10)
         r.raise_for_status()  # 自动判定非 200 的 HTTP 错误状态码
     except requests.exceptions.Timeout:
         return False, "获取RSS失败：网络连接超时（请检查代理或网络状况）"
@@ -69,15 +72,36 @@ def check_xml_update(channel_id):
 def favorite_update(time_delay):
     num = 0
     times = math.ceil(time_delay / 600)
-    while num < times:
-        time.sleep(600)
-        for channel_id, channel_value in gVar.channelid_youtube.items():
-            if channel_value["Favorite"]:
-                updated, error= check_xml_update(channel_value["id"])
-                if error:
-                    write_log(f"特别关注获取失败：{error}")
-                elif updated:
-                    write_log(f"特别关注存在更新：{channel_id}")
-                    return
-        num += 1
-    write_log(f"倒计时结束")
+    gVar.favorite_update_skip_wait.clear()
+    gVar.favorite_update_active = True
+    
+    # 初始预估时间（不考虑网络耗时）
+    gVar.favorite_update_next_run = time.time() + (times * 600)
+
+    try:
+        while num < times:
+            # 1. 首次跳过，后续先进行网络请求
+            if num > 0:
+                for channel_id, channel_value in gVar.channelid_youtube.items():
+                    if channel_value.get("Favorite"):
+                        updated, error = check_xml_update(channel_value["id"])
+                        if error:
+                            write_log(f"特别关注获取失败：{error}")
+                        elif updated:
+                            write_log(f"特别关注存在更新：{channel_id}")
+                            return
+
+                # 2. 网络请求结束后，使用剩余次数 (times - num) * 600 秒修正预计完成时间
+                gVar.favorite_update_next_run = time.time() + (times - num) * 600
+
+            # 3. 每一轮（包含最后一轮）都固定等待 600 秒
+            if gVar.favorite_update_skip_wait.wait(timeout=600):
+                write_log("已跳过等待，立即开始下一次更新")
+                return
+
+            num += 1
+
+        write_log("倒计时结束")
+    finally:
+        gVar.favorite_update_active = False
+        gVar.favorite_update_next_run = None

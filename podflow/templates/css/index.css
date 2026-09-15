@@ -12,6 +12,8 @@
   --menu-bg: #ffffff;
   --menu-text: #374151;
   --menu-width: 180px;
+  --sidebar-transition-duration: 0.38s;
+  --sidebar-transition-easing: cubic-bezier(0.22, 1, 0.36, 1);
   --menu-selected-bg: #eff6ff;
   --menu-selected-border: #3b82f6;
   --progress-bar-color: #3b82f6;
@@ -103,13 +105,14 @@ nav {
   top: 0;
   z-index: 1000;
   overflow: hidden;
-  transition: transform 0.38s cubic-bezier(0.22, 1, 0.36, 1), margin-left 0.38s cubic-bezier(0.22, 1, 0.36, 1), border-color 0.25s;
+  transition: transform var(--sidebar-transition-duration) var(--sidebar-transition-easing), margin-left var(--sidebar-transition-duration) var(--sidebar-transition-easing), border-color 0.25s;
   border-right: 1px solid var(--card-border);
   display: flex;
   flex-direction: column;
 }
 nav.hidden {
-  transform: translateX(-100%);
+  /* 桌面端由负边距负责位移，避免与 transform 叠加导致速度翻倍。 */
+  transform: none;
   margin-left: calc(var(--menu-width) * -1);
   border-right: none;
   pointer-events: none;
@@ -315,30 +318,75 @@ textarea:focus {
 }
 
 button {
-  background-color: var(--button-bg);
+  background-color: #007aff;
   color: var(--button-text);
   border: none;
   padding: 10px 20px;
   font-size: 14px;
   font-weight: 600;
-  border-radius: var(--radius-sm);
+  border-radius: 12px;
   cursor: pointer;
   transition: all 0.2s ease;
-  box-shadow: 0 1px 2px var(--button-shadow);
+  box-shadow: 0 3px 8px rgba(0, 122, 255, 0.2);
   margin: 0;
   display: inline-flex;
   align-items: center;
   gap: 6px;
 }
 button:hover {
-  background-color: var(--button-hover);
-  box-shadow: 0 2px 8px var(--button-shadow);
+  background-color: #0a84ff;
+  box-shadow: 0 4px 10px rgba(0, 122, 255, 0.28);
   transform: translateY(-1px);
 }
 button:active {
-  transform: translateY(0);
-  box-shadow: 0 1px 2px var(--button-shadow);
+  transform: scale(0.97);
+  box-shadow: none;
 }
+button:disabled { cursor: not-allowed; opacity: 0.48; transform: none; box-shadow: none; }
+
+.favorite-update-control {
+  margin-top: 10px;
+  padding: 11px 10px 2px;
+  border-top: 1px solid var(--divider-color);
+}
+#favoriteUpdateCountdown {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--secondary-text);
+  font-size: 11px;
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+}
+.ios-secondary-button {
+  width: 100%;
+  min-height: 34px;
+  justify-content: center;
+  padding: 7px 10px;
+  border: 0;
+  border-radius: 10px;
+  color: #007aff;
+  background: rgba(0, 122, 255, 0.12);
+  box-shadow: none;
+  font-size: 12px;
+}
+.ios-secondary-button:hover { color: #fff; background: #007aff; box-shadow: none; transform: none; }
+
+.ios-disclosure {
+  width: 100%;
+  min-height: 48px;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  padding: 10px 16px;
+  color: var(--text-color);
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  box-shadow: var(--card-shadow);
+  font-size: 15px;
+}
+.ios-disclosure:hover { color: var(--text-color); background: var(--menu-selected-bg); box-shadow: var(--card-shadow); transform: none; }
+.ios-disclosure .disclosure-icon { color: var(--secondary-text); font-size: 17px; transition: transform 0.22s ease; }
+.ios-disclosure[aria-expanded="false"] .disclosure-icon { transform: rotate(-90deg); }
+#configContent.hidden { display: none; }
 
 .hint {
   font-size: 13px;
@@ -350,33 +398,37 @@ button:active {
   line-height: 1.5;
 }
 
-/* ===== Menu Toggle Button ===== */
+/* ===== iOS-style Sidebar Toggle ===== */
 #toggleMenu {
-  width: 32px;
-  height: 36px;
+  width: 44px;
+  height: 44px;
   position: fixed;
-  left: var(--menu-width);
-  top: 8px;
+  left: calc(var(--menu-width) + 12px);
+  top: max(12px, env(safe-area-inset-top));
   z-index: 1002;
-  background: var(--menu-bg);
+  background: color-mix(in srgb, var(--menu-bg) 82%, transparent);
   border: 1px solid var(--card-border);
-  font-size: 16px;
-  color: var(--secondary-text);
+  color: #007aff;
   cursor: pointer;
-  transition: left 0.38s cubic-bezier(0.22, 1, 0.36, 1), color 0.2s, background-color 0.2s, transform 0.2s;
-  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  transition: left var(--sidebar-transition-duration) var(--sidebar-transition-easing), color 0.2s, background-color 0.2s, transform 0.2s;
+  border-radius: 14px;
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
   margin: 0;
   padding: 0;
+  backdrop-filter: blur(18px) saturate(160%);
+  -webkit-backdrop-filter: blur(18px) saturate(160%);
 }
+#toggleMenu svg { width: 21px; height: 21px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; }
+nav.hidden + #toggleMenu { left: 12px; }
 #toggleMenu:hover {
-  color: var(--button-bg);
+  color: #007aff;
   background: var(--menu-selected-bg);
 }
-#toggleMenu:active { transform: scale(0.92); }
+#toggleMenu:active { transform: scale(0.94); }
+#menuBackdrop { display: none; }
 
 /* ===== Version Info ===== */
 #version-info {
@@ -552,7 +604,8 @@ button:active {
 /* ===== Responsive ===== */
 @media (max-width: 600px) {
   main {
-    padding: 20px 16px;
+    /* 为左上角的侧栏按钮预留触控区，避免遮住页面标题。 */
+    padding: calc(64px + env(safe-area-inset-top)) 16px 20px;
     max-width: 100%;
   }
   h2 { font-size: 18px; margin-bottom: 16px; }
@@ -566,7 +619,8 @@ button:active {
     border-right: none;
     box-shadow: 4px 0 20px rgba(0, 0, 0, 0.1);
   }
-  nav.hidden { margin-left: 0; }
+  /* 移动端侧栏脱离文档流，仅用 transform 滑出屏幕。 */
+  nav.hidden { transform: translateX(-100%); margin-left: 0; }
   body, html {
     width: 100%;
     overflow-x: hidden;
@@ -578,7 +632,19 @@ button:active {
     padding: 3px 8px;
   }
   #toggleMenu {
-    top: 6px;
+    left: max(12px, env(safe-area-inset-left));
+    top: max(8px, env(safe-area-inset-top));
+  }
+  /* 展开时按钮完全位于侧栏外侧；收起时回到左侧安全区。 */
+  nav:not(.hidden) + #toggleMenu { left: calc(var(--menu-width) + 12px); }
+  nav.hidden + #toggleMenu { left: max(12px, env(safe-area-inset-left)); }
+  #menuBackdrop.visible {
+    display: block;
+    position: fixed;
+    inset: 0;
+    z-index: 999;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(2px);
   }
   .download-container {
     padding: 8px 10px;

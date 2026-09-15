@@ -130,6 +130,8 @@ const ConfigUtils = {
 
 // ====================== 3. DOM 公共渲染工具 ======================
 const DomHelper = {
+    expandedPaths: new Set(),
+
     // 创建通用按钮
     createBtn(text, cls, clickFn) {
         const btn = document.createElement('button');
@@ -141,29 +143,51 @@ const DomHelper = {
     },
 
     // 创建折叠面板容器
-    createCollapsibleSection(path, titleText) {
+    createCollapsibleSection(path, titleText, kind = 'object') {
         const section = document.createElement('div');
         section.className = 'collapsible-section';
         section.dataset.path = path;
-        section.dataset.type = 'object';
+        section.dataset.kind = kind;
 
         const header = document.createElement('div');
         header.className = 'collapsible-header';
-        header.innerHTML = `<span class="section-title">${titleText}</span><span class="toggle-icon">▶️</span>`;
+        header.tabIndex = 0;
+        header.setAttribute('role', 'button');
+        header.setAttribute('aria-controls', `config-section-${path}`);
 
         const content = document.createElement('div');
-        content.className = 'collapsible-content hidden';
+        content.id = `config-section-${path}`;
+        const isExpanded = this.expandedPaths.has(path);
+        content.className = `collapsible-content${isExpanded ? '' : ' hidden'}`;
+        header.classList.toggle('expanded', isExpanded);
+        header.setAttribute('aria-expanded', String(isExpanded));
+        header.innerHTML = `<span class="section-title">${titleText}</span><span class="toggle-icon" aria-hidden="true">›</span>`;
 
-        // 折叠切换逻辑抽离
-        header.addEventListener('click', (e) => {
+        const toggle = (e) => {
             if (e.target.tagName === 'BUTTON') return;
             const isHide = content.classList.toggle('hidden');
             header.classList.toggle('expanded', !isHide);
-            header.querySelector('.toggle-icon').textContent = isHide ? '▶️' : '🔽';
+            header.setAttribute('aria-expanded', String(!isHide));
+            if (isHide) this.expandedPaths.delete(path);
+            else this.expandedPaths.add(path);
+        };
+        header.addEventListener('click', toggle);
+        header.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                toggle(e);
+            }
         });
 
         section.append(header, content);
         return { section, header, content };
+    },
+
+    captureExpandedState(container) {
+        container.querySelectorAll('.collapsible-section[data-path]').forEach(section => {
+            const header = section.querySelector(':scope > .collapsible-header');
+            if (header?.getAttribute('aria-expanded') === 'true') this.expandedPaths.add(section.dataset.path);
+        });
     },
 
     // 滚动到指定元素
@@ -194,6 +218,11 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     let currentConfig = null;
+
+    function rerenderConfig() {
+        DomHelper.captureExpandedState($.container);
+        renderConfig(currentConfig, $.container);
+    }
 
     // 构建通用输入组件（消除大量if硬编码）
     function buildInputItem(key, value, path) {
@@ -290,14 +319,16 @@ document.addEventListener('DOMContentLoaded', () => {
         parentEl.innerHTML = '';
         Object.entries(data).forEach(([key, val]) => {
             const fullPath = pathPrefix ? `${pathPrefix}.${key}` : key;
+            // 标题规则数组由频道卡片中的专用折叠面板渲染，避免重复生成一个文本输入框。
+            if (key === 'title_change' && Array.isArray(val)) return;
             // 匹配媒体总节点 media
             if (key === 'media' && typeof val === 'object' && !Array.isArray(val)) {
-                const { section, header, content } = DomHelper.createCollapsibleSection(fullPath, '媒体配置 media');
+                const { section, header, content } = DomHelper.createCollapsibleSection(fullPath, '媒体配置 media', 'media');
                 // 循环渲染所有渠道，新增渠道仅修改常量
                 CONFIG_CONST.CHANNEL_LIST.forEach(channelConf => {
                     const chanKey = channelConf.key;
                     const chanPath = `${fullPath}.${chanKey}`;
-                    const { section: chanWrap, header: chanHeader, content: chanContent } = DomHelper.createCollapsibleSection(chanPath, channelConf.label);
+                    const { section: chanWrap, header: chanHeader, content: chanContent } = DomHelper.createCollapsibleSection(chanPath, channelConf.label, 'channel-group');
                     // 添加频道新增按钮
                     const addBtn = DomHelper.createBtn('添加', 'add-button', (e) => {
                         e.stopPropagation();
@@ -314,7 +345,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             const chanData = channelMap[realChanId];
                             const domKey = chanData._tempKey || realChanId;
                             const itemPath = `${chanPath}.${domKey}`;
-                            const { section: itemWrap, header: itemHeader, content: itemContent } = DomHelper.createCollapsibleSection(itemPath, chanData.id || domKey);
+                            const { section: itemWrap, header: itemHeader, content: itemContent } = DomHelper.createCollapsibleSection(itemPath, chanData.id || domKey, 'channel-item');
                             itemWrap.classList.add('channel-item');
                             // 删除按钮
                             const delBtn = DomHelper.createBtn('删除', 'delete-button', (e) => {
@@ -327,36 +358,31 @@ document.addEventListener('DOMContentLoaded', () => {
                             delete renderData._tempKey;
                             renderConfig(renderData, itemContent, itemPath);
                             // 渲染标题修改规则数组
-                            const ruleList = document.createElement('div');
-                            ruleList.className = 'title-change-list';
-                            ruleList.dataset.path = `${itemPath}.title_change`;
-                            const ruleLabel = document.createElement('label');
-                            ruleLabel.textContent = '标题修改规则：';
-                            ruleList.appendChild(ruleLabel);
+                            const rulePathPrefix = `${itemPath}.title_change`;
+                            const { section: ruleList, header: ruleHeader, content: ruleContent } = DomHelper.createCollapsibleSection(rulePathPrefix, '标题修改规则', 'rule-list');
+                            ruleList.classList.add('title-change-list');
                             // 添加规则按钮
                             const addRuleBtn = DomHelper.createBtn('添加规则', 'add-button', (e) => {
                                 e.stopPropagation();
                                 addTitleRule(`${itemPath}.title_change`);
                             });
-                            ruleList.appendChild(addRuleBtn);
+                            ruleHeader.appendChild(addRuleBtn);
                             const ruleArr = renderData.title_change || [];
                             if (ruleArr.length === 0) {
-                                ruleList.appendChild(DomHelper.createTip(CONFIG_CONST.TEXT.EMPTY_RULE));
+                                ruleContent.appendChild(DomHelper.createTip(CONFIG_CONST.TEXT.EMPTY_RULE));
                             } else {
                                 ruleArr.forEach((rule, idx) => {
                                     const rulePath = `${itemPath}.title_change[${idx}]`;
-                                    const ruleWrap = document.createElement('div');
-                                    ruleWrap.className = 'title-change-item';
-                                    ruleWrap.dataset.path = rulePath;
-                                    ruleWrap.innerHTML = `<strong>规则${idx + 1}</strong>`;
+                                    const { section: ruleWrap, header: ruleHeader, content: ruleItemContent } = DomHelper.createCollapsibleSection(rulePath, `规则 ${idx + 1}`, 'rule');
+                                    ruleWrap.classList.add('title-change-item');
                                     // 删除规则按钮
                                     const delRuleBtn = DomHelper.createBtn('删除', 'delete-button', (e) => {
                                         e.stopPropagation();
                                         removeTitleRule(`${itemPath}.title_change`, idx);
                                     });
-                                    ruleWrap.appendChild(delRuleBtn);
-                                    renderConfig(rule, ruleWrap, rulePath);
-                                    ruleList.appendChild(ruleWrap);
+                                    ruleHeader.appendChild(delRuleBtn);
+                                    renderConfig(rule, ruleItemContent, rulePath);
+                                    ruleContent.appendChild(ruleWrap);
                                 });
                             }
                             itemContent.appendChild(ruleList);
@@ -371,16 +397,8 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             // 普通嵌套对象
             else if (val !== null && typeof val === 'object' && !Array.isArray(val)) {
-                const subWrap = document.createElement('div');
-                subWrap.className = 'config-subsection';
-                subWrap.style.marginLeft = '15px';
-                subWrap.style.borderLeft = '2px solid #eee';
-                subWrap.style.paddingLeft = '10px';
-                subWrap.dataset.path = fullPath;
-                const label = document.createElement('label');
-                label.textContent = `${key}:`;
-                subWrap.appendChild(label);
-                renderConfig(val, subWrap, fullPath);
+                const { section: subWrap, content: subContent } = DomHelper.createCollapsibleSection(fullPath, key, 'object');
+                renderConfig(val, subContent, fullPath);
                 parentEl.appendChild(subWrap);
             }
             // 基础字段渲染
@@ -406,10 +424,12 @@ document.addEventListener('DOMContentLoaded', () => {
             description: '',
             title_change: []
         };
-        renderConfig(currentConfig, $.container);
+        DomHelper.expandedPaths.add('media');
+        DomHelper.expandedPaths.add(chanPath);
+        DomHelper.expandedPaths.add(`${chanPath}.${tempKey}`);
+        rerenderConfig();
         const newEl = $.container.querySelector(`.channel-item[data-path="${chanPath}.${tempKey}"]`);
         if (newEl) {
-            newEl.querySelector('.collapsible-header').click();
             DomHelper.scrollToEl(newEl);
         }
     }
@@ -425,7 +445,7 @@ document.addEventListener('DOMContentLoaded', () => {
             : CONFIG_CONST.TEXT.DELETE_CHANNEL_CONFIRM(target[realKey].id || realKey);
         if (isTemp || confirm(confirmText)) {
             delete target[realKey];
-            renderConfig(currentConfig, $.container);
+            rerenderConfig();
         }
     }
 
@@ -439,8 +459,12 @@ document.addEventListener('DOMContentLoaded', () => {
             mode: CONFIG_CONST.TITLE_MODE_OPTIONS[2].value,
             value: ''
         });
-        renderConfig(currentConfig, $.container);
         const channelPath = rulePath.replace('.title_change', '');
+        DomHelper.expandedPaths.add('media');
+        DomHelper.expandedPaths.add(channelPath);
+        DomHelper.expandedPaths.add(rulePath);
+        DomHelper.expandedPaths.add(`${rulePath}[${arr.length - 1}]`);
+        rerenderConfig();
         const channelEl = $.container.querySelector(`.channel-item[data-path="${channelPath}"]`);
         if (channelEl) {
             const rules = channelEl.querySelectorAll('.title-change-item');
@@ -455,7 +479,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!Array.isArray(arr) || idx < 0 || idx >= arr.length) return;
         if (confirm(CONFIG_CONST.TEXT.DELETE_RULE_CONFIRM(idx))) {
             arr.splice(idx, 1);
-            renderConfig(currentConfig, $.container);
+            rerenderConfig();
         }
     }
 
@@ -463,7 +487,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function collectConfig() {
         const result = {};
         // 遍历所有顶级折叠块
-        $.container.querySelectorAll(':scope > .collapsible-section, :scope > .config-subsection').forEach(section => {
+        $.container.querySelectorAll(':scope > .collapsible-section').forEach(section => {
             const rootPath = section.dataset.path;
             const rootKey = ConfigUtils.splitPath(rootPath)[0];
             if (rootKey === 'media') {
@@ -492,7 +516,7 @@ document.addEventListener('DOMContentLoaded', () => {
             } else {
                 const subObj = {};
                 result[rootKey] = subObj;
-                fillObjectFromDom(section, subObj, rootPath);
+                fillObjectFromDom(section.querySelector(':scope > .collapsible-content'), subObj, rootPath);
             }
         });
         return ConfigUtils.cleanTempKey(result);
@@ -523,19 +547,19 @@ document.addEventListener('DOMContentLoaded', () => {
             const arrPath = list.dataset.path;
             const arrKey = ConfigUtils.splitPath(arrPath).pop();
             const arr = [];
-            list.querySelectorAll('.title-change-item').forEach(ruleItem => {
+            list.querySelectorAll(':scope > .collapsible-content > .title-change-item').forEach(ruleItem => {
                 const ruleObj = {};
-                fillObjectFromDom(ruleItem, ruleObj, ruleItem.dataset.path);
+                fillObjectFromDom(ruleItem.querySelector(':scope > .collapsible-content'), ruleObj, ruleItem.dataset.path);
                 arr.push(ruleObj);
             });
             ConfigUtils.setDeepValue(targetObj, arrKey, arr);
         });
         // 嵌套子对象
-        parentEl.querySelectorAll(':scope > .config-subsection').forEach(sub => {
+        parentEl.querySelectorAll(':scope > .collapsible-section[data-kind="object"]').forEach(sub => {
             const subPath = sub.dataset.path;
             const subKey = ConfigUtils.splitPath(subPath).pop();
             const subObj = {};
-            fillObjectFromDom(sub, subObj, subPath);
+            fillObjectFromDom(sub.querySelector(':scope > .collapsible-content'), subObj, subPath);
             ConfigUtils.setDeepValue(targetObj, subKey, subObj);
         });
     }

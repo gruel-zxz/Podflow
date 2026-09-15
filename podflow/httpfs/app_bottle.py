@@ -90,6 +90,11 @@ class bottle_app:
             self.app_bottle.route("/getid", method="POST", callback=self.getid)
             self.app_bottle.route("/getconfig", callback=self.getconfig)
             self.app_bottle.route(
+                "/favorite-update-status",
+                method=["GET", "POST"],
+                callback=self.favorite_update_status,
+            )
+            self.app_bottle.route(
                 "/templates/<filepath:path>", callback=self.serve_template_file
             )
             self.app_bottle.route("/<filename:path>", callback=self.serve_static)
@@ -99,6 +104,7 @@ class bottle_app:
                 method=["GET", "POST"],
                 callback=self.youtube_cookie_setting,
             )
+            self.app_bottle.route("/timestamp", method="GET", callback=self.timestamp)
 
     # 设置日志文件名及写入判断
     def set_logname(self, logname="httpfs.log", http_fs=False):
@@ -877,9 +883,6 @@ class bottle_app:
                 self.print_out("youtube-cookie-on", 200)
             else:
                 self.print_out("youtube-cookie-off", 200)
-        else:
-            # 仅 GET 获取状态时打印的日志
-            self.print_out("youtube-cookie-get", 200)
 
         # 设置响应头为 application/json
         response.content_type = "application/json"
@@ -887,6 +890,26 @@ class bottle_app:
             "enabled": getattr(gVar, "youtube_cookie_switch", False),
             "cookie_available": bool(getattr(gVar, "youtube_cookie", None)),
         }
+
+    # 获取倒计时，或跳过等待并立即进入下一次更新。
+    def favorite_update_status(self):
+        if request.method == "POST":
+            if not gVar.favorite_update_active:
+                response.status = 409
+                response.content_type = "application/json"
+                return {"error": "当前没有正在执行的倒计时"}
+            gVar.favorite_update_skip_wait.set()
+            self.print_out("favorite-update-immediate", 200)
+
+        response.content_type = "application/json"
+        return {
+            "active": gVar.favorite_update_active,
+            "next_run": gVar.favorite_update_next_run,
+        }
+    
+    def timestamp(self):
+        response.content_type = "application/json"
+        return {"timestamp": int(time.time())}
 
 
 bottle_app_instance = bottle_app()

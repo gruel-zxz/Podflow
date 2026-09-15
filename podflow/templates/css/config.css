@@ -13,7 +13,6 @@
   text-transform: none;
 }
 
-.config-subsection,
 .collapsible-section {
   margin: 14px 0;
   border: 1px solid var(--card-border);
@@ -22,9 +21,6 @@
   box-shadow: var(--card-shadow);
   overflow: hidden;
 }
-.config-subsection { padding: 0 16px; border-left: 1px solid var(--card-border) !important; }
-.config-subsection > label { padding: 13px 0 8px; color: var(--secondary-text); }
-
 .collapsible-header {
   min-height: 50px;
   padding: 11px 14px 11px 16px;
@@ -43,7 +39,7 @@
 .collapsible-header:hover { background: var(--menu-selected-bg); }
 .collapsible-header.expanded { border-bottom-color: var(--divider-color); }
 .collapsible-header .section-title { color: var(--text-color); }
-.collapsible-header .toggle-icon { margin-left: auto; color: var(--secondary-text); font-size: 13px; transition: transform 0.25s ease; }
+.collapsible-header .toggle-icon { margin-left: auto; color: var(--secondary-text); font-size: 24px; font-weight: 400; line-height: 1; transition: transform 0.25s ease; }
 .collapsible-header.expanded .toggle-icon { transform: rotate(90deg); }
 .collapsible-content { padding: 0 16px; background: var(--card-bg); }
 .collapsible-content.hidden { display: none; }
@@ -112,10 +108,11 @@
 
 .channel-item { margin: 10px 0; border: 1px solid var(--card-border); border-radius: 12px; overflow: hidden; background: var(--input-bg); }
 .channel-item .collapsible-header { background: var(--input-bg); }
-.title-change-list { margin: 12px 0 16px; padding: 12px; border: 0; border-radius: 12px; background: var(--divider-color); }
-.title-change-list > label { margin-bottom: 8px !important; }
-.title-change-item { margin-top: 10px; padding: 10px 12px; border: 1px solid var(--card-border); border-radius: 10px; background: var(--card-bg); }
-.title-change-item > strong { color: var(--secondary-text); font-size: 12px; }
+.title-change-list { margin: 12px 0 16px; background: var(--divider-color); }
+.title-change-list > .collapsible-header { min-height: 44px; background: var(--divider-color); }
+.title-change-list > .collapsible-content { padding: 0 12px 12px; background: var(--divider-color); }
+.title-change-item { margin-top: 10px; border-radius: 10px; box-shadow: none; }
+.title-change-item > .collapsible-header { min-height: 42px; padding: 9px 12px; font-size: 13px; }
 
 .config-button {
   min-height: 30px;
@@ -132,7 +129,7 @@
 .add-button { color: #007aff; }
 .delete-button { color: #ff3b30; }
 
-#pageConfig > .button-container {
+#configContent .button-container {
   position: sticky;
   bottom: 0;
   justify-content: stretch;
@@ -142,7 +139,7 @@
   background: color-mix(in srgb, var(--bg-color) 90%, transparent);
   backdrop-filter: blur(12px);
 }
-#pageConfig > .button-container button { flex: 1; justify-content: center; border-radius: 12px; }
+#configContent .button-container button { flex: 1; justify-content: center; border-radius: 12px; }
 #configStatus { min-height: 20px; margin-top: 10px !important; padding: 0 4px; font-size: 13px; }
 
 @media (max-width: 600px) {
@@ -151,5 +148,5 @@
   .config-item input[type="number"],
   .config-item input[type="url"],
   .config-item select.config-input-select { text-align: left; }
-  #pageConfig > .button-container button { width: auto; }
+  #configContent .button-container button { width: auto; }
 }
