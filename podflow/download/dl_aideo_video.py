@@ -201,26 +201,26 @@ def dl_retry_video(
                     gVar.video_id_update_format[video_url]["cookies"],
                     gVar.video_id_update_format[video_url]["language"],
                 )
-            if isinstance(id_update_format, list):
-                if len(id_update_format) == 1:
-                    one_format(id_update_format, video_url)
-                    duration_and_id = gVar.video_id_update_format[video_url]["format"]
-                    if output_format == "m4a":
-                        format_id = duration_and_id[1]
+                if isinstance(id_update_format, list):
+                    if len(id_update_format) == 1:
+                        one_format(id_update_format, video_url)
+                        duration_and_id = gVar.video_id_update_format[video_url]["format"]
+                        if output_format == "m4a":
+                            format_id = duration_and_id[1]
+                        else:
+                            format_id = duration_and_id[2]
+                        write_log(f"{video_write_log} \033[32m获取成功\033[0m")
                     else:
-                        format_id = duration_and_id[2]
-                    write_log(f"{video_write_log} \033[32m获取成功\033[0m")
+                        write_log(f"{video_write_log} \033[31m获取失败\033[0m\n错误信息: 该媒体存在分集, 请打开【YouTube 🍪】按钮")
                 else:
-                    write_log(f"{video_write_log} \033[31m获取失败\033[0m\n错误信息: 该媒体存在分集, 请打开【YouTube 🍪】按钮")
-            else:
-                def get_fail_info(id_update_format):
-                    for fail_info in ["年龄限制", "需登录", "请求拒绝", "无法获取音频ID", "年龄验证"]:
-                        if fail_info in id_update_format:
-                            return fail_info
-                    return None
-                if fail_info := get_fail_info(id_update_format):
-                    id_update_format = f"\033[31m{fail_info}\033[0m(Cookies错误)"
-                write_log(f"{video_write_log} \033[31m获取失败\033[0m\n错误信息: {id_update_format}")
+                    def get_fail_info(id_update_format):
+                        for fail_info in ["年龄限制", "需登录", "请求拒绝", "无法获取音频ID", "年龄验证"]:
+                            if fail_info in id_update_format:
+                                return fail_info
+                        return None
+                    if fail_info := get_fail_info(id_update_format):
+                        id_update_format = f"\033[31m{fail_info}\033[0m(Cookies错误)"
+                    write_log(f"{video_write_log} \033[31m获取失败\033[0m\n错误信息: {id_update_format}")
         video_id_count += 1
         if "www.youtube.com" in video_website:
             time.sleep(gVar.config["youtube_download_span"])
