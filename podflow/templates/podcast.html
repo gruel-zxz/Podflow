@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="referrer" content="no-referrer">
+    <title>播客播放器</title>
+    <link rel="stylesheet" href="/templates/css/podcast.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+<header class="page-title-bar">
+    <span class="page-title-text">Podflow 播客播放器</span>
+</header>
+
+<button id="homeBtn" class="icon-toggle-btn" type="button" title="返回主页" aria-label="返回主页">
+    <svg viewBox="0 0 24 24"><path d="M4 11.5 12 4l8 7.5"/><path d="M6 10v9a1 1 0 0 0 1 1h4v-6h2v6h4a1 1 0 0 0 1-1v-9"/></svg>
+</button>
+<button id="playlistToggleBtn" class="icon-toggle-btn" type="button" title="切换播客" aria-label="切换播客">
+    <svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h10"/></svg>
+</button>
+<div id="playlistOverlay" class="playlist-overlay"></div>
+<aside id="playlistDrawer" class="playlist-drawer" role="dialog" aria-label="播客列表" aria-hidden="true">
+    <div class="playlist-drawer-header">
+        <span>播客列表</span>
+        <button id="playlistCloseBtn" class="btn" type="button" aria-label="关闭">✕</button>
+    </div>
+    <div id="playlistBody" class="playlist-body">
+        <div class="playlist-status">正在加载列表…</div>
+    </div>
+</aside>
+
+<div class="container">
+    <div id="statusView" class="status-view">正在读取播客 RSS…</div>
+
+    <div id="stickyHead">
+        <div id="podcastHeader" class="header-card" style="display: none;">
+            <img id="podcastCover" class="podcast-cover" alt="" referrerpolicy="no-referrer">
+            <div class="podcast-info">
+                <h1 id="podcastTitle" class="podcast-title"></h1>
+                <div id="podcastAuthor" class="podcast-author"></div>
+                <div id="podcastDesc" class="podcast-desc"></div>
+            </div>
+        </div>
+
+        <div id="toolbar" class="toolbar" style="display: none;">
+            <input type="text" id="searchInput" class="search-input" placeholder="搜索单集…">
+            <button id="sortBtn" class="btn">最新在前</button>
+        </div>
+    </div>
+
+    <div id="episodeList" class="episode-list"></div>
+    <div id="loadMoreSentinel" class="load-more-sentinel" style="display: none;">加载中…</div>
+</div>
+
+<div id="playerBar" class="player-bar">
+    <div class="player-main">
+        <div id="mediaContainer" class="media-container">
+            <video id="mediaPlayer" playsinline webkit-playsinline x5-video-player-type="h5" referrerpolicy="no-referrer"></video>
+        </div>
+        <div class="player-info">
+            <div id="playerTitle" class="player-title">未在播放</div>
+            <div id="playerSub" style="font-size: 0.8rem; color: var(--secondary-text);"></div>
+        </div>
+        <div class="player-controls">
+            <button id="rwBtn" class="player-icon-btn" title="后退 15 秒" aria-label="后退 15 秒">
+                <svg width="48px" height="48px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" stroke-width="0.144"/>
+                    <g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M10.3249 7.82403C10.5848 7.94892 10.75 8.2117 10.75 8.50001V15.5C10.75 15.9142 10.4142 16.25 10 16.25C9.58581 16.25 9.25003 15.9142 9.25003 15.5V10.0605L7.96855 11.0857C7.6451 11.3444 7.17313 11.292 6.91438 10.9685C6.65562 10.6451 6.70806 10.1731 7.03151 9.91436L9.53151 7.91436C9.75663 7.73425 10.0651 7.69914 10.3249 7.82403ZM12.6746 8.60472C12.8447 8.09429 13.3224 7.75001 13.8604 7.75001H16.5C16.9142 7.75001 17.25 8.08579 17.25 8.50001C17.25 8.91422 16.9142 9.25001 16.5 9.25001H14.0406L13.5406 10.75H14.5C16.0188 10.75 17.25 11.9812 17.25 13.5C17.25 15.0188 16.0188 16.25 14.5 16.25H12.5C12.0858 16.25 11.75 15.9142 11.75 15.5C11.75 15.0858 12.0858 14.75 12.5 14.75H14.5C15.1904 14.75 15.75 14.1904 15.75 13.5C15.75 12.8097 15.1904 12.25 14.5 12.25H13.1937C12.3405 12.25 11.7381 11.4141 12.0079 10.6047L12.6746 8.60472Z" fill="currentColor"/> <path fill-rule="evenodd" clip-rule="evenodd" d="M11.324 1.67511C11.4489 1.41526 11.7117 1.25 12 1.25C12.7353 1.25 13.4541 1.32394 14.1492 1.46503C19.0563 2.46112 22.75 6.79837 22.75 12C22.75 17.9371 17.9371 22.75 12 22.75C6.06294 22.75 1.25 17.9371 1.25 12C1.25 7.59065 3.90459 3.80298 7.69972 2.14482C8.07929 1.97898 8.52143 2.15224 8.68726 2.53181C8.8531 2.91137 8.67984 3.35351 8.30028 3.51935C5.03179 4.94742 2.75 8.20808 2.75 12C2.75 17.1086 6.89137 21.25 12 21.25C17.1086 21.25 21.25 17.1086 21.25 12C21.25 7.84953 18.5158 4.33622 14.75 3.16544V4.5C14.75 4.81852 14.5488 5.10229 14.2483 5.20772C13.9477 5.31315 13.6133 5.21724 13.4143 4.96852L11.4143 2.46852C11.2342 2.24339 11.1991 1.93496 11.324 1.67511Z" fill="currentColor"/> </g>
+                </svg>
+            </button>
+            <button id="playBtn" class="player-icon-btn play-btn" title="播放" aria-label="播放">
+                <svg class="icon-play" width="48px" height="48px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="0.6">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+                    <g id="SVGRepo_iconCarrier"> <path d="M21.4086 9.35258C23.5305 10.5065 23.5305 13.4935 21.4086 14.6474L8.59662 21.6145C6.53435 22.736 4 21.2763 4 18.9671L4 5.0329C4 2.72368 6.53435 1.26402 8.59661 2.38548L21.4086 9.35258Z" fill="currentColor"/> </g>
+                </svg>
+                <svg class="icon-pause" width="48px" height="48px" viewBox="0 0 24.00 24.00" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="0.6">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+                    <g id="SVGRepo_iconCarrier"> <path d="M2 6C2 4.11438 2 3.17157 2.58579 2.58579C3.17157 2 4.11438 2 6 2C7.88562 2 8.82843 2 9.41421 2.58579C10 3.17157 10 4.11438 10 6V18C10 19.8856 10 20.8284 9.41421 21.4142C8.82843 22 7.88562 22 6 22C4.11438 22 3.17157 22 2.58579 21.4142C2 20.8284 2 19.8856 2 18V6Z" fill="currentColor"/> <path d="M14 6C14 4.11438 14 3.17157 14.5858 2.58579C15.1716 2 16.1144 2 18 2C19.8856 2 20.8284 2 21.4142 2.58579C22 3.17157 22 4.11438 22 6V18C22 19.8856 22 20.8284 21.4142 21.4142C20.8284 22 19.8856 22 18 22C16.1144 22 15.1716 22 14.5858 21.4142C14 20.8284 14 19.8856 14 18V6Z" fill="currentColor"/> </g>
+                </svg>
+            <button id="ffBtn" class="player-icon-btn" title="前进 15 秒" aria-label="前进 15 秒">
+                <svg width="48px" height="48px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" stroke-width="0.048"/>
+                    <g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M10.3249 7.82403C10.5848 7.94892 10.75 8.2117 10.75 8.50001V15.5C10.75 15.9142 10.4142 16.25 10 16.25C9.58581 16.25 9.25003 15.9142 9.25003 15.5V10.0605L7.96855 11.0857C7.6451 11.3444 7.17313 11.292 6.91438 10.9685C6.65562 10.6451 6.70806 10.1731 7.03151 9.91436L9.53151 7.91436C9.75663 7.73425 10.0651 7.69914 10.3249 7.82403ZM12.6746 8.60472C12.8447 8.09429 13.3224 7.75001 13.8604 7.75001H16.5C16.9142 7.75001 17.25 8.08579 17.25 8.50001C17.25 8.91422 16.9142 9.25001 16.5 9.25001H14.0406L13.5406 10.75H14.5C16.0188 10.75 17.25 11.9812 17.25 13.5C17.25 15.0188 16.0188 16.25 14.5 16.25H12.5C12.0858 16.25 11.75 15.9142 11.75 15.5C11.75 15.0858 12.0858 14.75 12.5 14.75H14.5C15.1904 14.75 15.75 14.1904 15.75 13.5C15.75 12.8097 15.1904 12.25 14.5 12.25H13.1937C12.3405 12.25 11.7381 11.4141 12.0079 10.6047L12.6746 8.60472Z" fill="currentColor"/> <path fill-rule="evenodd" clip-rule="evenodd" d="M12.676 1.67511C12.5511 1.41526 12.2883 1.25 12 1.25C11.2647 1.25 10.5459 1.32394 9.8508 1.46503C4.94367 2.46112 1.25 6.79837 1.25 12C1.25 17.9371 6.06294 22.75 12 22.75C17.9371 22.75 22.75 17.9371 22.75 12C22.75 7.59065 20.0954 3.80298 16.3003 2.14482C15.9207 1.97898 15.4786 2.15224 15.3127 2.53181C15.1469 2.91137 15.3202 3.35351 15.6997 3.51935C18.9682 4.94742 21.25 8.20808 21.25 12C21.25 17.1086 17.1086 21.25 12 21.25C6.89137 21.25 2.75 17.1086 2.75 12C2.75 7.84953 5.48421 4.33622 9.25 3.16544V4.5C9.25 4.81852 9.45118 5.10229 9.75175 5.20772C10.0523 5.31315 10.3867 5.21724 10.5857 4.96852L12.5857 2.46852C12.7658 2.24339 12.8009 1.93496 12.676 1.67511Z" fill="currentColor"/> </g>
+                </svg>
+            </button>
+            <button id="rateBtn" class="player-icon-btn rate-btn">1.0x</button>
+        </div>
+    </div>
+    <div class="progress-container">
+        <span id="currentTime">0:00</span>
+        <input type="range" id="seekSlider" class="seek-slider" min="0" max="1000" value="0" step="1" aria-label="播放进度">
+        <span id="duration">0:00</span>
+    </div>
+</div>
+
+<script src="/templates/js/podcast.js"></script>
+</body>
+</html>

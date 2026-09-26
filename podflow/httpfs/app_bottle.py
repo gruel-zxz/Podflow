@@ -87,6 +87,7 @@ class bottle_app:
             self.app_bottle.route("/download", callback=self.download)
         else:
             self.app_bottle.route("/index", callback=self.index)
+            self.app_bottle.route("/podcast", callback=self.podcast)
             self.app_bottle.route("/getid", method="POST", callback=self.getid)
             self.app_bottle.route("/getconfig", callback=self.getconfig)
             self.app_bottle.route(
@@ -104,7 +105,13 @@ class bottle_app:
                 method=["GET", "POST"],
                 callback=self.youtube_cookie_setting,
             )
+            self.app_bottle.route(
+                "/youtube-cookie-file",
+                method=["GET", "POST"],
+                callback=self.youtube_cookie_file,
+            )
             self.app_bottle.route("/timestamp", method="GET", callback=self.timestamp)
+            self.app_bottle.route("/playlist", method="GET", callback=self.playlist)
 
     # 设置日志文件名及写入判断
     def set_logname(self, logname="httpfs.log", http_fs=False):
@@ -809,6 +816,12 @@ class bottle_app:
 
     # 路由处理模板文件请求
     def serve_template_file(self, filepath):
+        # 禁止浏览器缓存模板文件（HTML/CSS/JS），确保前端更新后立即可见
+        response.set_header(
+            "Cache-Control", "no-store, no-cache, must-revalidate, max-age=0"
+        )
+        response.set_header("Pragma", "no-cache")
+        response.set_header("Expires", "0")
         # 使用 resources.files 定位 'podflow' 包内的 'templates' 目录
         # 结果是一个 path-like 对象，转为 str 确保兼容 static_file 函数
         template_dir_path = resources.files("podflow") / "templates"
@@ -822,7 +835,22 @@ class bottle_app:
         # TraversablePath 对象支持 open() 方法，直接打开文件
         with template_file.open("r", encoding="UTF-8") as f:
             html_content = f.read()
+        # 禁止浏览器缓存 index.html，确保模板更新后立即可见
+        response.set_header(
+            "Cache-Control", "no-store, no-cache, must-revalidate, max-age=0"
+        )
+        response.set_header("Pragma", "no-cache")
+        response.set_header("Expires", "0")
         self.print_out("index", 200)
+        return html_content
+    
+    def podcast(self):
+        # 使用 resources.files 定位到具体的文件
+        template_file = resources.files("podflow") / "templates" / "podcast.html"
+        # TraversablePath 对象支持 open() 方法，直接打开文件
+        with template_file.open("r", encoding="UTF-8") as f:
+            html_content = f.read()
+        self.print_out("podcast", 200)
         return html_content
 
     # 获取 JSON 数据，Bottle 会自动解析请求体中的 JSON 数据
@@ -880,9 +908,9 @@ class bottle_app:
             gVar.youtube_cookie_switch = enabled
             # 根据传入的布尔值打出不同的操作日志
             if enabled:
-                self.print_out("youtube-cookie-on", 200)
+                self.print_out("youtube🍪-on", 200)
             else:
-                self.print_out("youtube-cookie-off", 200)
+                self.print_out("youtube🍪-off", 200)
 
         # 设置响应头为 application/json
         response.content_type = "application/json"
@@ -910,6 +938,54 @@ class bottle_app:
     def timestamp(self):
         response.content_type = "application/json"
         return {"timestamp": int(time.time())}
+
+    # 读取或保存 YouTube Cookie 文件
+    def youtube_cookie_file(self):
+        cookie_path = os.path.join(os.getcwd(), "channel_data", "yt_dlp_youtube.txt")
+        response.content_type = "application/json"
+
+        if request.method == "GET":
+            # 读取 Cookie 文件，不存在则返回空字符串
+            if os.path.exists(cookie_path):
+                with open(cookie_path, "r", encoding="utf-8") as f:
+                    content = f.read()
+            else:
+                content = ""
+            self.print_out("youtube🍪-read", 200)
+            return {"content": content}
+
+        if request.method == "POST":
+            try:
+                req_data = request.json or {}
+                content = req_data.get("content", "")
+                # 确保 channel_data 文件夹存在
+                folder_build("channel_data")
+                # 保存 Cookie 文件
+                file_save(content, "yt_dlp_youtube.txt", "channel_data")
+                # 更新全局 Cookie 可用状态
+                gVar.youtube_cookie = bool(content.strip())
+                self.print_out("youtube🍪-save", 200)
+                return {"message": "Cookie 文件保存成功"}
+            except Exception as e:
+                self.print_out("youtube🍪-save", 500)
+                response.status = 500
+                return {"error": f"保存失败: {str(e)}"}
+
+    def playlist(self):
+        channelid_ids = gVar.channelid_youtube_ids | gVar.channelid_bilibili_ids
+        playlist_data = {}
+        address = gVar.config["address"]
+        address = re.sub(r"(http://)([^/:]+):80(?=/|$)", r"\1\2", address)
+        for channelid, name in channelid_ids.items():
+            if token := gVar.config["token"]:
+                url = f"{address}/channel_rss/{channelid}.xml?token={token}"
+            else:
+                url = f"{address}/channel_rss/{channelid}.xml" 
+            playlist_data[name] = url
+        response.content_type = "application/json"
+        self.print_out("playlist", 200)
+        return playlist_data
+
 
 
 bottle_app_instance = bottle_app()

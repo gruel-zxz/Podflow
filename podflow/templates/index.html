@@ -18,25 +18,44 @@
       <li data-page="pageMessage">Podflow 运行情况</li>
       <li data-page="pageChannel">获取媒体频道 ID</li>
       <li data-page="pageConfig">修改配置</li>
+      <li data-page="pageYoutubeCookie">YouTube🍪修改</li>
     </ul>
     <div class="menu-footer">
       <label class="youtube-cookie-setting" for="alwaysUseYoutubeCookie">
         <span class="youtube-cookie-copy">
-          <span>YouTube 🍪</span>
+          <span>YouTube🍪</span>
           <small id="youtubeCookieStatus"></small>
         </span>
         <input type="checkbox" id="alwaysUseYoutubeCookie" role="switch" />
         <span class="ios-switch" aria-hidden="true"></span>
       </label>
       <div class="favorite-update-control">
-        <span id="favoriteUpdateCountdown">下次运行：--:--:--</span>
+        <span id="favoriteUpdateCountdown">倒计运行时间：--:--:--</span>
         <button type="button" id="immediateUpdateBtn" class="ios-secondary-button" disabled>立即更新</button>
       </div>
+    </div>
+    <div id="version-info">
+      Version: 1.0.2
     </div>
   </nav>
   <button id="toggleMenu" type="button" aria-label="隐藏侧边栏" aria-controls="menu" aria-expanded="true">
     <svg aria-hidden="true" viewBox="0 0 24 24" focusable="false"><path d="M4 5.5h16M4 12h16M4 18.5h16"/></svg>
   </button>
+  <div class="top-right-controls">
+      <button id="playlistToggleBtn" class="icon-toggle-btn" type="button" title="切换播客" aria-label="切换播客">
+          <svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h10"/></svg>
+      </button>
+  </div>
+  <div id="playlistOverlay" class="playlist-overlay"></div>
+  <aside id="playlistDrawer" class="playlist-drawer" role="dialog" aria-label="播客列表" aria-hidden="true">
+      <div class="playlist-drawer-header">
+          <span>播客列表</span>
+          <button id="playlistCloseBtn" class="btn" type="button" aria-label="关闭">✕</button>
+      </div>
+      <div id="playlistBody" class="playlist-body">
+          <div class="playlist-status">正在加载列表…</div>
+      </div>
+  </aside>
   <main id="main">
     <section id="pageChannel" style="display: none;">
       <h2>获取媒体频道 ID</h2>
@@ -88,15 +107,27 @@
       </div>
     </section>
 
+    <section id="pageYoutubeCookie" style="display: none;">
+      <h2>YouTube🍪修改</h2>
+      <p class="hint">📌 路径：channel_data/yt_dlp_youtube.txt（Netscape 格式）</p>
+      <textarea class="common-area" id="youtubeCookieEditor" placeholder="# Netscape HTTP Cookie File
+.youtube.com	TRUE	/	TRUE	0	GPS	1
+..."></textarea>
+      <div class="button-container">
+        <button type="button" id="refreshYoutubeCookieBtn">🔄 刷新</button>
+        <button type="button" id="saveYoutubeCookieBtn">💾 保存</button>
+      </div>
+      <div id="youtubeCookieStatus" style="margin-top: 10px;"></div>
+    </section>
+
   </main>
   <div id="menuBackdrop" aria-hidden="true"></div>
 
-  <div id="version-info">
-    Version: 1.0.2
-  </div>
+
 
   <script src="/templates/js/index.js"></script>
   <script src="/templates/js/qrcode.min.js"></script>
   <script src="/templates/js/config.js"></script>
+  <script src="/templates/js/youtube_cookie.js"></script>
 </body>
 </html>

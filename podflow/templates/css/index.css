@@ -432,9 +432,9 @@ nav.hidden + #toggleMenu { left: 12px; }
 
 /* ===== Version Info ===== */
 #version-info {
-  position: fixed;
-  top: 12px;
-  right: 12px;
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
   font-size: 11px;
   color: var(--secondary-text);
   background-color: var(--card-bg);
@@ -601,6 +601,94 @@ nav.hidden + #toggleMenu { left: 12px; }
   font-variant-numeric: tabular-nums;
 }
 
+.top-right-controls {
+    position: fixed;
+    top: max(12px, env(safe-area-inset-top, 0px));
+    right: max(12px, env(safe-area-inset-right, 0px));
+    z-index: 1002;
+    display: flex;
+    gap: 10px;
+}
+
+.icon-toggle-btn {
+    width: 44px; height: 44px;
+    background: color-mix(in srgb, var(--menu-bg) 82%, transparent);
+    border: 1px solid var(--card-border);
+    color: #007aff;
+    cursor: pointer;
+    border-radius: var(--radius-lg);
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(18px) saturate(160%);
+    -webkit-backdrop-filter: blur(18px) saturate(160%);
+    transition: color 0.2s, background-color 0.2s, transform 0.2s;
+    padding: 0; margin: 0;
+}
+.icon-toggle-btn svg { width: 21px; height: 21px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.icon-toggle-btn:hover { color: #007aff; background: var(--menu-selected-bg); }
+.icon-toggle-btn:active { transform: scale(0.94); }
+
+.btn {
+    padding: 10px 14px; border-radius: var(--radius-md); border: none;
+    color: var(--button-bg); background: color-mix(in srgb, var(--button-bg) 12%, transparent);
+    cursor: pointer; font-size: 0.85rem; font-weight: 600; white-space: nowrap;
+    transition: all 0.2s ease; width: auto;
+}
+
+.playlist-overlay {
+    position: fixed; inset: 0;
+    background: rgba(0, 0, 0, 0.35);
+    z-index: 190;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+}
+.playlist-overlay.active { opacity: 1; pointer-events: auto; }
+
+.playlist-drawer {
+    position: fixed;
+    top: 0; right: 0; bottom: 0;
+    width: min(320px, 85vw);
+    background: color-mix(in srgb, var(--menu-bg) 96%, transparent);
+    backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+    border-left: 1px solid var(--card-border);
+    z-index: 200;
+    display: flex; flex-direction: column;
+    transform: translateX(100%);
+    transition: transform 0.25s ease;
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+.playlist-drawer.active { transform: translateX(0); }
+
+.playlist-drawer-header {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 16px; border-bottom: 1px solid var(--divider-color);
+    font-weight: 700; flex-shrink: 0; color: var(--text-color);
+}
+
+.playlist-body { flex: 1; overflow-y: auto; padding: 10px; }
+
+.playlist-item {
+    display: block; width: 100%; text-align: left;
+    padding: 12px 14px; margin-bottom: 8px;
+    border-radius: var(--radius-md); border: 1px solid var(--card-border);
+    background: var(--card-bg); color: var(--text-color);
+    box-shadow: var(--card-shadow);
+    cursor: pointer; font-size: 0.9rem; word-break: break-word;
+    transition: background-color 0.2s, border-color 0.2s;
+}
+.playlist-item:hover { background: var(--menu-selected-bg); }
+.playlist-item.active {
+    background: var(--menu-selected-bg);
+    border-color: var(--menu-selected-border);
+    color: var(--button-bg);
+    font-weight: 600;
+}
+
+.playlist-status { color: var(--secondary-text); font-size: 0.85rem; padding: 20px 10px; text-align: center; }
+.playlist-retry-btn { display: block; margin: 10px auto 0; }
+
 /* ===== Responsive ===== */
 @media (max-width: 600px) {
   main {
@@ -626,8 +714,8 @@ nav.hidden + #toggleMenu { left: 12px; }
     overflow-x: hidden;
   }
   #version-info {
-    top: 8px;
-    right: 8px;
+    bottom: 8px;
+    left: 8px;
     font-size: 10px;
     padding: 3px 8px;
   }
@@ -648,5 +736,8 @@ nav.hidden + #toggleMenu { left: 12px; }
   }
   .download-container {
     padding: 8px 10px;
+  }
+  .top-right-controls {
+    top: max(8px, env(safe-area-inset-top, 0px));
   }
 }

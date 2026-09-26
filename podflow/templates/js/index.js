@@ -8,7 +8,8 @@
     const pages = {
         pageChannel: document.getElementById('pageChannel'),
         pageMessage: document.getElementById('pageMessage'),
-        pageConfig: document.getElementById('pageConfig')
+        pageConfig: document.getElementById('pageConfig'),
+        pageYoutubeCookie: document.getElementById('pageYoutubeCookie')
     };
     // Channel ID 相关表单
     const inputForm = document.getElementById('inputForm');
@@ -46,11 +47,28 @@
     const BASE_RECONNECT_DELAY = 1000; // 基础重连延迟 (ms)
     let favoriteUpdateNextRun = null;
     let serverOffset = 0; // 记录服务器时间与本地时间的毫秒偏差
+    let showExpectedRunTime = false; // 倒计时区域是否显示预计运行时间
+    let expectedRunTimeTimer = null; // 预计运行时间自动切回倒计时的定时器
+    const EXPECTED_RUN_TIME_DURATION = 10000; // 预计运行时间显示时长（10秒）
+    let playlistOpen = false;
+    let playlistCache = null;
+    let playlistLoading = false;
 
     function renderFavoriteUpdateCountdown() {
         if (!favoriteUpdateCountdown) return;
         if (!favoriteUpdateNextRun) {
-            favoriteUpdateCountdown.textContent = '倒计时：更新运行中';
+            favoriteUpdateCountdown.textContent = '倒计运行时间：更新运行中';
+            return;
+        }
+
+        if (showExpectedRunTime) {
+            // 显示预计运行时间（使用服务器时间校准后的本地时间，24小时制）
+            const runMs = favoriteUpdateNextRun * 1000 + serverOffset;
+            const runDate = new Date(runMs);
+            const hours = String(runDate.getHours()).padStart(2, '0');
+            const minutes = String(runDate.getMinutes()).padStart(2, '0');
+            const seconds = String(runDate.getSeconds()).padStart(2, '0');
+            favoriteUpdateCountdown.textContent = `预计运行时间：${hours}:${minutes}:${seconds}`;
             return;
         }
 
@@ -63,7 +81,28 @@
         const hours = String(Math.floor(remaining / 3600)).padStart(2, '0');
         const minutes = String(Math.floor((remaining % 3600) / 60)).padStart(2, '0');
         const seconds = String(Math.floor(remaining % 60)).padStart(2, '0');
-        favoriteUpdateCountdown.textContent = `倒计时：${hours}:${minutes}:${seconds}`;
+        favoriteUpdateCountdown.textContent = `倒计运行时间：${hours}:${minutes}:${seconds}`;
+    }
+
+    function resetExpectedRunTimeTimer() {
+        if (expectedRunTimeTimer) {
+            clearTimeout(expectedRunTimeTimer);
+            expectedRunTimeTimer = null;
+        }
+    }
+
+    function toggleExpectedRunTime() {
+        showExpectedRunTime = !showExpectedRunTime;
+        renderFavoriteUpdateCountdown();
+
+        resetExpectedRunTimeTimer();
+        if (showExpectedRunTime) {
+            // 10秒后自动切回倒计时显示
+            expectedRunTimeTimer = setTimeout(() => {
+                showExpectedRunTime = false;
+                renderFavoriteUpdateCountdown();
+            }, EXPECTED_RUN_TIME_DURATION);
+        }
     }
 
     // 辅助函数：同步一次服务器时间偏差
@@ -103,7 +142,7 @@
             console.error('加载特别关注状态失败:', error);
             favoriteUpdateNextRun = null;
             if (immediateUpdateBtn) immediateUpdateBtn.disabled = true;
-            if (favoriteUpdateCountdown) favoriteUpdateCountdown.textContent = '倒计时：状态不可用';
+            if (favoriteUpdateCountdown) favoriteUpdateCountdown.textContent = '倒计运行时间：状态不可用';
         }
     }
 
@@ -263,10 +302,153 @@
             if (pageId === 'pageConfig' && window.podflowConfig) {
                 window.podflowConfig.onShow();
             }
+
+            // --- YouTube Cookie 文件页面加载 ---
+            if (pageId === 'pageYoutubeCookie' && window.podflowYoutubeCookie) {
+                window.podflowYoutubeCookie.onShow();
+            }
         } else {
             console.warn(`未找到 ID 为 "${pageId}" 的页面`);
         }
     }
+
+// ============================================================
+// 播客列表
+// ============================================================
+
+function openPlaylistDrawer() {
+    if (!playlistDrawer || !playlistOverlay) return;
+
+    playlistOpen = true;
+
+    playlistDrawer.classList.add('active');
+    playlistOverlay.classList.add('active');
+    playlistDrawer.setAttribute('aria-hidden', 'false');
+
+    loadPlaylist();
+}
+
+function closePlaylistDrawer() {
+    if (!playlistDrawer || !playlistOverlay) return;
+
+    playlistOpen = false;
+
+    playlistDrawer.classList.remove('active');
+    playlistOverlay.classList.remove('active');
+    playlistDrawer.setAttribute('aria-hidden', 'true');
+}
+
+async function loadPlaylist() {
+    if (!playlistBody || playlistLoading) return;
+
+    playlistLoading = true;
+
+    playlistBody.innerHTML = '';
+
+    const status = document.createElement('div');
+    status.className = 'playlist-status';
+    status.textContent = '正在加载列表…';
+    playlistBody.appendChild(status);
+
+    try {
+        const response = await fetch('/playlist', {
+            cache: 'no-cache'
+        });
+
+        if (!response.ok) {
+            throw new Error(`HTTP ${response.status}`);
+        }
+
+        const dict = await response.json();
+
+        if (
+            !dict ||
+            typeof dict !== 'object' ||
+            Array.isArray(dict)
+        ) {
+            throw new Error('返回的不是有效的播放列表');
+        }
+
+        playlistCache = dict;
+        renderPlaylist(dict);
+
+    } catch (error) {
+        console.warn('加载播客列表失败：', error);
+
+        playlistBody.innerHTML = '';
+
+        const status = document.createElement('div');
+        status.className = 'playlist-status';
+        status.textContent = '列表刷新失败：' + error.message;
+        playlistBody.appendChild(status);
+
+        const retry = document.createElement('button');
+        retry.type = 'button';
+        retry.className = 'btn playlist-retry-btn';
+        retry.textContent = '重试';
+
+        retry.addEventListener('click', loadPlaylist);
+
+        playlistBody.appendChild(retry);
+
+        // 如果之前加载成功过，则继续显示旧列表
+        if (playlistCache) {
+            renderPlaylistItems(playlistCache);
+        }
+
+    } finally {
+        playlistLoading = false;
+    }
+}
+
+function renderPlaylist(dict) {
+    if (!playlistBody) return;
+
+    playlistBody.innerHTML = '';
+
+    const names = Object.keys(dict);
+
+    if (names.length === 0) {
+        const empty = document.createElement('div');
+        empty.className = 'playlist-status';
+        empty.textContent = '列表是空的。';
+        playlistBody.appendChild(empty);
+        return;
+    }
+
+    renderPlaylistItems(dict);
+}
+
+function renderPlaylistItems(dict) {
+    const container = document.createElement('div');
+
+    Object.keys(dict).forEach(name => {
+        const url = dict[name];
+
+        const button = document.createElement('button');
+
+        button.type = 'button';
+        button.className = 'playlist-item';
+        button.textContent = name;
+
+        button.addEventListener('click', () => {
+            switchPodcast(url);
+        });
+
+        container.appendChild(button);
+    });
+
+    playlistBody.appendChild(container);
+}
+
+function switchPodcast(url) {
+    if (!url || typeof url !== 'string') return;
+
+    // 关键：
+    // 主页 /index 点击播客后必须进入 /podcast
+    window.location.href =
+        `/podcast?url=${encodeURIComponent(url)}`;
+}
 
     // --- 滚动处理 ---
     /**
@@ -818,6 +1000,25 @@
         });
     }
 
+    // --- 播客列表 ---
+    if (playlistToggleBtn) {
+        playlistToggleBtn.addEventListener('click', openPlaylistDrawer);
+    }
+
+    if (playlistCloseBtn) {
+        playlistCloseBtn.addEventListener('click', closePlaylistDrawer);
+    }
+
+    if (playlistOverlay) {
+        playlistOverlay.addEventListener('click', closePlaylistDrawer);
+    }
+
+    document.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape' && playlistOpen) {
+            closePlaylistDrawer();
+        }
+    });
+
     // 粘贴按钮
     if (pasteBtn) {
         pasteBtn.addEventListener('click', function() {
@@ -921,6 +1122,9 @@
         setMenuVisibility(menu.classList.contains('hidden'));
     }
 
+    // 将 YouTube Cookie 设置加载函数暴露到全局，方便其他页面调用
+    window.loadYoutubeCookieSetting = loadYoutubeCookieSetting;
+
     // 初始化时显示默认页面 (例如消息页面)
     showPage('pageMessage');
     loadYoutubeCookieSetting();
@@ -933,6 +1137,11 @@
     }
     if (immediateUpdateBtn) {
         immediateUpdateBtn.addEventListener('click', requestImmediateUpdate);
+    }
+    if (favoriteUpdateCountdown) {
+        favoriteUpdateCountdown.style.cursor = 'pointer';
+        favoriteUpdateCountdown.title = '点击切换显示预计运行时间';
+        favoriteUpdateCountdown.addEventListener('click', toggleExpectedRunTime);
     }
     if (toggleConfigDisplay && configContent) {
         toggleConfigDisplay.addEventListener('click', () => {
