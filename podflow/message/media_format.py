@@ -19,8 +19,8 @@ class MyLogger:
         pass
 
 
-def duration_and_formats(video_website, video_url, cookies):
-    fail_message, infos = None, []
+def duration_and_formats(video_website, video_url="", cookies=""):
+    fail_message, infos, title = None, [], ""
     try:
         # 初始化 yt_dlp 实例, 并忽略错误
         ydl_opts = {
@@ -48,6 +48,7 @@ def duration_and_formats(video_website, video_url, cookies):
                 # 获取视频时长并返回
                 entries = info_dict.get("entries", None)
                 download_url = info_dict.get("original_url", None)
+                title = info_dict.get("title", None)
                 if entries:
                     infos.extend(
                         {
@@ -84,7 +85,7 @@ def duration_and_formats(video_website, video_url, cookies):
                     )
     except Exception as message_error:
         fail_message = fail_message_initialize(message_error, video_url)
-    return fail_message, infos
+    return fail_message, infos, title
 
 
 # 定义条件判断函数
@@ -138,16 +139,24 @@ def best_format_id(formats, language):
 
 
 # 获取媒体时长和ID模块
-def media_format(video_website, video_url, media="m4a", quality="480", cookies=None, language=""):
+def media_format(
+    video_website,
+    video_url="",
+    media="m4a",
+    quality="480",
+    cookies=None,
+    language="",
+    need_title=False
+):
     fail_message = None
-    video_id_count, change_error, fail_message, infos = 0, None, "", []
+    video_id_count, change_error, fail_message, infos, title = 0, None, "", [], ""
     while (
         video_id_count < 3
         and change_error is None
         and (fail_message is not None or not infos)
     ):
         video_id_count += 1
-        fail_message, infos = duration_and_formats(video_website, video_url, cookies)
+        fail_message, infos, title = duration_and_formats(video_website, video_url, cookies)
     if fail_message is not None:
         return fail_message
     lists = []
@@ -199,4 +208,7 @@ def media_format(video_website, video_url, media="m4a", quality="480", cookies=N
                 "download": entry.get("download"),
             }
         )
-    return lists
+    if need_title:
+        return {"title": title, "lists": lists}
+    else:
+        return lists
