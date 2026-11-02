@@ -8,6 +8,8 @@ import requests
 import xml.etree.ElementTree as ET
 from podflow import gVar
 from podflow.basic.write_log import write_log
+from podflow.message.custom_build import custom_build
+from podflow.download.custom_media_download import custom_media_download
 
 
 def check_xml_update(channel_id):
@@ -80,16 +82,30 @@ def favorite_update(time_delay):
 
     try:
         while num < times:
+            custom_media_download()
+            custom_build()
             # 1. 首次跳过，后续先进行网络请求
             if num > 0:
+                # 使用 dict 或 defaultdict 按“错误类型”归类 channel_id
+                errors_map = {}
+
                 for channel_id, channel_value in gVar.channelid_youtube.items():
                     if channel_value.get("Favorite"):
                         updated, error = check_xml_update(channel_value["id"])
                         if error:
-                            write_log(f"特别关注获取失败：{error}")
+                            # 将相同 error 的 channel_id 收集到列表中
+                            errors_map.setdefault(error, []).append(channel_id)
                         elif updated:
+                            # 如果有错误积压，触发更新前先打印错误日志
+                            for err_msg, channels in errors_map.items():
+                                write_log(f"特别关注获取失败 {','.join(channels)}：{err_msg}")
+                            
                             write_log(f"特别关注存在更新：{channel_id}")
                             return
+
+                # 遍历结束后统一写合并后的错误日志
+                for err_msg, channels in errors_map.items():
+                    write_log(f"特别关注获取失败 {', '.join(channels)}：{err_msg}")
 
                 # 2. 网络请求结束后，使用剩余次数 (times - num) * 600 秒修正预计完成时间
                 gVar.favorite_update_next_run = time.time() + (times - num) * 600
