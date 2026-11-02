@@ -27,15 +27,8 @@ def get_response(
         if ucid and title :
             ucid = ucid.group(0)
             title = title.group(0)
-            return f'''"{title}": "{ucid}"
-
-"{title}": {{
-            "id": "{ucid}",
-            "quality": "1080",
-            "media": "mp4",
-            "InmainRSS": false,
-            "update_size": 2
-        }}'''
+            return f'''{name}
+"{title}": "{ucid}"'''
         else:
             return "Network Error"
     else:
