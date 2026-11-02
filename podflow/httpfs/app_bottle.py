@@ -3,18 +3,24 @@
 
 import os
 import re
+import sys
+import io
 import errno
 import json
 import time
+import pprint
 import hashlib
 import mimetypes
 import threading
+import traceback
+import contextlib
 from datetime import datetime
 from importlib import resources
+from urllib.parse import urlparse
 import cherrypy
 from bottle import Bottle, abort, redirect, request, static_file, response
 from cheroot import makefile as cheroot_makefile
-from podflow import gVar
+from podflow import config_desc, gVar, default_config, parse
 from podflow.upload.login import create
 from podflow.basic.file_save import file_save
 from podflow.basic.write_log import write_log
@@ -22,10 +28,15 @@ from podflow.httpfs.to_html import ansi_to_html
 from podflow.upload.build_hash import build_hash
 from podflow.upload.time_key import check_time_key
 from podflow.basic.folder_build import folder_build
+from podflow.httpfs.save_configs import save_configs
 from podflow.httpfs.get_channelid import get_channelid
 from podflow.basic.random_sequence import random_sequence
 from podflow.upload.find_media_index import find_media_index
 from podflow.upload.store_users_info import store_users_info
+from podflow.basic.custom_media_file import read_custom_media
+from podflow.basic.custom_media_file import save_custom_media
+from podflow.message.normalize_video_url import normalize_video_url
+from podflow.message.custom_media_format import get_custom_media_info
 
 
 def patch_cheroot_closed_socket_flush():
@@ -58,6 +69,11 @@ def patch_cheroot_closed_socket_flush():
 patch_cheroot_closed_socket_flush()
 
 
+# 播放进度文件的读写锁: 页面关闭/切换时会连发多个保存请求,
+# 加锁串行化读改写, 防止并发时读到写了一半的文件后用空记录覆盖全部播放进度
+playback_history_lock = threading.Lock()
+
+
 class bottle_app:
     # Bottle和Cherrypy初始化模块
     def __init__(self):
@@ -88,8 +104,16 @@ class bottle_app:
         else:
             self.app_bottle.route("/index", callback=self.index)
             self.app_bottle.route("/podcast", callback=self.podcast)
+            self.app_bottle.route(
+                "/playback-history",
+                method=["GET", "POST"],
+                callback=self.playback_history,
+            )
             self.app_bottle.route("/getid", method="POST", callback=self.getid)
             self.app_bottle.route("/getconfig", callback=self.getconfig)
+            self.app_bottle.route(
+                "/saveconfig", method="POST", callback=self.saveconfig
+            )
             self.app_bottle.route(
                 "/favorite-update-status",
                 method=["GET", "POST"],
@@ -110,8 +134,41 @@ class bottle_app:
                 method=["GET", "POST"],
                 callback=self.youtube_cookie_file,
             )
+            # 隐藏测试页面: 查询任意 Python 变量或代码段(仅本地测试使用)
+            # GET 供前端查询开关状态, POST 仅在 --debug-variable 启用时执行
+            self.app_bottle.route(
+                "/debug-variable",
+                method=["GET", "POST"],
+                callback=self.debug_variable,
+            )
+            # 隐藏测试页面: 历史记录 API(GET 列表 / POST 保存 / DELETE 删除)
+            self.app_bottle.route(
+                "/debug-history",
+                method=["GET", "POST", "DELETE"],
+                callback=self.debug_history,
+            )
             self.app_bottle.route("/timestamp", method="GET", callback=self.timestamp)
             self.app_bottle.route("/playlist", method="GET", callback=self.playlist)
+            self.app_bottle.route(
+                "/custom-media",
+                method=["GET", "POST"],
+                callback=self.custom_media,
+            )
+            self.app_bottle.route(
+                "/custom-media/reorder",
+                method="POST",
+                callback=self.custom_media_reorder,
+            )
+            self.app_bottle.route(
+                "/custom-media/remove",
+                method="POST",
+                callback=self.custom_media_remove,
+            )
+            self.app_bottle.route(
+                "/custom-media/lock",
+                method=["GET", "POST"],
+                callback=self.custom_media_lock,
+            )
 
     # 设置日志文件名及写入判断
     def set_logname(self, logname="httpfs.log", http_fs=False):
@@ -147,6 +204,7 @@ class bottle_app:
             404: "\033[35m",  # 紫色 (未找到)
             303: "\033[33m",  # 黄色 (重定向)
             206: "\033[36m",  # 青色 (部分内容)
+            400: "\033[33m",  # 黄色 (请求错误)
         }
         # 默认颜色
         if status in status_colors:
@@ -817,16 +875,17 @@ class bottle_app:
     # 路由处理模板文件请求
     def serve_template_file(self, filepath):
         # 禁止浏览器缓存模板文件（HTML/CSS/JS），确保前端更新后立即可见
-        response.set_header(
-            "Cache-Control", "no-store, no-cache, must-revalidate, max-age=0"
-        )
-        response.set_header("Pragma", "no-cache")
-        response.set_header("Expires", "0")
+        # 注意: static_file 返回全新 response 对象, 必须把缓存头通过参数传入才会生效
+        cache_headers = {
+            "Cache-Control": "no-store, no-cache, must-revalidate, max-age=0",
+            "Pragma": "no-cache",
+            "Expires": "0",
+        }
         # 使用 resources.files 定位 'podflow' 包内的 'templates' 目录
         # 结果是一个 path-like 对象，转为 str 确保兼容 static_file 函数
         template_dir_path = resources.files("podflow") / "templates"
         # 假设 static_file 需要一个字符串路径作为 root
-        return static_file(filepath, root=str(template_dir_path))
+        return static_file(filepath, root=str(template_dir_path), headers=cache_headers)
 
     # 使用 importlib.resources 获取模板文件内容
     def index(self):
@@ -853,6 +912,117 @@ class bottle_app:
         self.print_out("podcast", 200)
         return html_content
 
+    # 播客播放器的播放进度(GET 读取 / POST 保存)
+    # 进度存于channel_data/playback_history.json, 跨终端共享
+    # 文件按xml(播客地址)分组, 每个xml都有自己独立的最后播放内容与单集进度:
+    # {"<播客地址>": {"last_played": {...}, "episodes": {"<guid>": {...}}}}
+    def read_playback_history(self, history_path):
+        # 文件不存在或内容损坏时返回空字典
+        try:
+            if os.path.exists(history_path):
+                with open(history_path, "r", encoding="utf-8") as f:
+                    history = json.load(f)
+            else:
+                return {}
+        except Exception:
+            return {}
+        if not isinstance(history, dict):
+            return {}
+        return history
+
+    def save_playback_history(self, history_path, history):
+        # 先写临时文件再原子替换, 即使写入中途断电/被并发读取也不会留下损坏的文件
+        temp_path = history_path + ".tmp"
+        with open(temp_path, "w", encoding="utf-8") as f:
+            json.dump(history, f, ensure_ascii=False, indent=4)
+        os.replace(temp_path, history_path)
+
+    def playback_history(self):
+        response.content_type = "application/json"
+        history_path = os.path.join(
+            os.getcwd(), "channel_data", "playback_history.json"
+        )
+        # 页面关闭/切换时会连发多个保存请求, 加锁串行化读改写;
+        # 否则并发时可能读到写了一半的文件, 按空记录覆盖, 丢失全部播放进度
+        with playback_history_lock:
+            if request.method == "POST":
+                req_data = self.get_request_json()
+                feed_url = req_data.get("url")
+                guid = req_data.get("guid")
+                filter_value = req_data.get("filter")
+                rate = req_data.get("rate")
+                rate_valid = (
+                    isinstance(rate, (int, float))
+                    and not isinstance(rate, bool)
+                    and 0.5 <= rate <= 4
+                )
+                # 播放进度保存需携带guid, 筛选选项/播放速率保存需携带合法取值
+                if (
+                    not isinstance(feed_url, str)
+                    or not feed_url
+                    or (
+                        not (isinstance(guid, str) and guid)
+                        and filter_value not in ("unplayed", "played", "all")
+                        and not rate_valid
+                    )
+                ):
+                    self.print_out("playback-history", 400)
+                    response.status = 400
+                    return {"error": "无效的播放进度数据"}
+                history = self.read_playback_history(history_path)
+                # 旧格式(按单集guid平铺)或异常结构直接丢弃, 按新格式重建
+                history = {
+                    key: value
+                    for key, value in history.items()
+                    if isinstance(value, dict) and "episodes" in value
+                }
+                feed_data = history.get(feed_url)
+                if not isinstance(feed_data, dict):
+                    feed_data = {}
+                if isinstance(guid, str) and guid:
+                    episodes = feed_data.get("episodes")
+                    if not isinstance(episodes, dict):
+                        episodes = {}
+                    record = {
+                        "time": req_data.get("time"),
+                        "duration": req_data.get("duration"),
+                        "updated": req_data.get("updated"),
+                        "completed": bool(req_data.get("completed")),
+                    }
+                    episodes[guid] = record
+                    # 每次保存都覆盖该xml的最后播放内容
+                    feed_data["last_played"] = {
+                        "guid": guid,
+                        "title": req_data.get("title") or "",
+                        "media_url": req_data.get("media_url") or "",
+                        "isVideo": bool(req_data.get("isVideo")),
+                        "time": record["time"],
+                        "duration": record["duration"],
+                        "updated": record["updated"],
+                    }
+                    feed_data["episodes"] = episodes
+                    # 进度POST顺带携带的播放速率同步更新
+                    if rate_valid:
+                        feed_data["rate"] = rate
+                elif filter_value in ("unplayed", "played", "all"):
+                    # 筛选选项保存(未播放/已播放/全部), 默认全部
+                    feed_data["filter"] = filter_value
+                else:
+                    # 播放速率保存(按xml独立)
+                    feed_data["rate"] = rate
+                if "episodes" not in feed_data:
+                    feed_data["episodes"] = {}
+                history[feed_url] = feed_data
+                try:
+                    self.save_playback_history(history_path, history)
+                except Exception as e:
+                    self.print_out("playback-history", 500)
+                    response.status = 500
+                    return {"error": f"保存播放进度失败: {e}"}
+                return {"message": "已保存"}
+            # GET 返回全部播放进度, 文件不存在或内容损坏时返回空字典
+            return self.read_playback_history(history_path)
+
     # 获取 JSON 数据，Bottle 会自动解析请求体中的 JSON 数据
     def getid(self):
         content = getid_data.get("content", "") if (getid_data := request.json) else ""
@@ -867,7 +1037,41 @@ class bottle_app:
         self.print_out("getconfig", 200)
         # 设置响应头为 application/json
         response.content_type = "application/json"
-        return {"response": gVar.config}
+        # config_desc（podflow/__init__.py）随响应下发, 前端据此同步字段顺序/默认值/可选项/说明
+        return {
+            "response": gVar.config,
+            "default_config": default_config,
+            "config_desc": config_desc,
+        }
+
+    # 保存前端提交的最终配置数据
+    def saveconfig(self):
+        save_config = request.json
+        # 提交的数据必须是JSON字典
+        if not isinstance(save_config, dict):
+            self.print_out("saveconfig", 400)
+            response.status = 400
+            # 设置响应头为 application/json
+            response.content_type = "application/json"
+            return {"error": "配置数据必须为JSON对象"}
+        # address 由 url 与 port 自动生成, 只回显给前端, 不写入配置文件
+        file_config = {key: value for key, value in save_config.items() if key != "address"}
+        # 与启动时读取的是同一个配置文件, 主循环每轮 build_original(False) 会重新加载
+        config_file = parse.config or "config.json"
+        try:
+            #save_configs(file_config, config_file)
+            save_configs(file_config, "config_save.json")
+        except (OSError, TypeError) as error:
+            self.print_out("saveconfig", 500)
+            response.status = 500
+            # 设置响应头为 application/json
+            response.content_type = "application/json"
+            return {"error": f"配置文件写入失败: {error}"}
+        write_log(f"配置已保存至{config_file}")
+        self.print_out("saveconfig", 200)
+        # 设置响应头为 application/json
+        response.content_type = "application/json"
+        return save_config
 
     # --- 新增 SSE 流处理路由 ---
     def stream(self):
@@ -921,8 +1125,10 @@ class bottle_app:
 
     # 获取倒计时，或跳过等待并立即进入下一次更新。
     def favorite_update_status(self):
+        # 自定义媒体下载期间视为忙碌, 按钮禁用且跳过等待请求被拒绝
+        busy = gVar.custom_media_progress is not None
         if request.method == "POST":
-            if not gVar.favorite_update_active:
+            if not gVar.favorite_update_active or busy:
                 response.status = 409
                 response.content_type = "application/json"
                 return {"error": "当前没有正在执行的倒计时"}
@@ -931,7 +1137,7 @@ class bottle_app:
 
         response.content_type = "application/json"
         return {
-            "active": gVar.favorite_update_active,
+            "active": gVar.favorite_update_active and not busy,
             "next_run": gVar.favorite_update_next_run,
         }
     
@@ -971,21 +1177,519 @@ class bottle_app:
                 response.status = 500
                 return {"error": f"保存失败: {str(e)}"}
 
+    # 将查询结果格式化为 4 格缩进并保留换行(字典/列表等结构化数据)
+    def format_debug_output(self, value):
+        # 字符串原样输出, 保留其中已有的缩进与换行
+        if isinstance(value, str):
+            return value
+        # None 及数字/布尔等标量直接给出字面量
+        if value is None or isinstance(value, (bool, int, float)):
+            return repr(value)
+        try:
+            # 结构化数据按 JSON 风格输出: 每级缩进 4 个空格, 保留换行
+            return json.dumps(value, indent=4, ensure_ascii=False, default=repr)
+        except (TypeError, ValueError):
+            # 无法 JSON 序列化(如循环引用)时退回 pprint, 同样 4 格缩进
+            return pprint.pformat(value, indent=4, width=100, sort_dicts=False)
+
+    # 隐藏测试页面: 执行输入的 Python 变量或代码段并返回格式化结果
+    # 由命令行参数 --debug-variable 控制开关, 未启用时仅返回关闭状态/拒绝执行
+    def debug_history(self):
+        response.content_type = "application/json"
+        history_path = os.path.join(os.getcwd(), "channel_data", "debug_history.jsonl")
+
+        if request.method == "GET":
+            items = []
+            if os.path.exists(history_path):
+                try:
+                    with open(history_path, "r", encoding="utf-8") as f:
+                        for line in f:
+                            line = line.rstrip("\n\r")
+                            if not line:
+                                continue
+                            try:
+                                items.append(json.loads(line))
+                            except Exception:
+                                continue
+                except Exception as e:
+                    self.print_out("debug-history", 500)
+                    response.status = 500
+                    return {"error": f"读取历史记录失败: {e}"}
+            return {"items": items}
+
+        if request.method == "POST":
+            if not parse.debug_variable:
+                self.print_out("debug-history", 404)
+                response.status = 404
+                return {"error": "未启用变量查询功能(需命令行参数 --debug-variable)"}
+            req_data = self.get_request_json()
+            code = req_data.get("code")
+            output = req_data.get("output")
+            if not isinstance(code, str) or not isinstance(output, str):
+                self.print_out("debug-history", 400)
+                response.status = 400
+                return {"error": "无效的历史记录数据"}
+            item = {
+                "id": hashlib.sha1((code + output + str(time.time())).encode()).hexdigest()[:16],
+                "code": code,
+                "output": output,
+                "timestamp": int(time.time()),
+                "datetime": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            }
+            # 如果最新一条历史记录与本次完全相同则不重复写入
+            try:
+                if os.path.exists(history_path):
+                    with open(history_path, "r", encoding="utf-8") as f:
+                        last_item = None
+                        for line in f:
+                            line = line.rstrip("\n\r")
+                            if not line:
+                                continue
+                            try:
+                                last_item = json.loads(line)
+                            except Exception:
+                                continue
+                        if last_item is not None:
+                            if last_item.get("code") == code and last_item.get("output") == output:
+                                self.print_out("debug-history-skip-duplicate", 200)
+                                return {"message": "重复记录已跳过", "item": last_item, "skipped": True}
+            except Exception:
+                pass
+            try:
+                with open(history_path, "a", encoding="utf-8") as f:
+                    f.write(json.dumps(item, ensure_ascii=False) + "\n")
+            except Exception as e:
+                self.print_out("debug-history", 500)
+                response.status = 500
+                return {"error": f"保存历史记录失败: {e}"}
+            self.print_out("debug-history-save", 200)
+            return {"message": "已保存", "item": item}
+
+        if request.method == "DELETE":
+            if not parse.debug_variable:
+                self.print_out("debug-history", 404)
+                response.status = 404
+                return {"error": "未启用变量查询功能(需命令行参数 --debug-variable)"}
+            req_data = self.get_request_json()
+            item_id = req_data.get("id")
+            if not isinstance(item_id, str):
+                self.print_out("debug-history", 400)
+                response.status = 400
+                return {"error": "缺少历史记录ID"}
+            if not os.path.exists(history_path):
+                return {"items": []}
+            items = []
+            changed = False
+            try:
+                with open(history_path, "r", encoding="utf-8") as f:
+                    for line in f:
+                        line = line.rstrip("\n\r")
+                        if not line:
+                            continue
+                        try:
+                            obj = json.loads(line)
+                        except Exception:
+                            continue
+                        if obj.get("id") == item_id:
+                            changed = True
+                            continue
+                        items.append(obj)
+            except Exception as e:
+                self.print_out("debug-history", 500)
+                response.status = 500
+                return {"error": f"读取历史记录失败: {e}"}
+            if changed:
+                try:
+                    with open(history_path, "w", encoding="utf-8") as f:
+                        for obj in items:
+                            f.write(json.dumps(obj, ensure_ascii=False) + "\n")
+                except Exception as e:
+                    self.print_out("debug-history", 500)
+                    response.status = 500
+                    return {"error": f"保存历史记录失败: {e}"}
+            self.print_out("debug-history-delete", 200)
+            return {"items": items, "removed": changed}
+
+        response.status = 405
+        return {"error": "不支持的请求方法"}
+
+    def debug_variable(self):
+        response.content_type = "application/json"
+        # GET 请求仅返回开关状态, 供前端决定是否启用三连击触发
+        if request.method == "GET":
+            return {"enabled": bool(parse.debug_variable)}
+        if not parse.debug_variable:
+            self.print_out("debug-variable", 404)
+            response.status = 404
+            return {"error": "未启用变量查询功能(需命令行参数 --debug-variable)"}
+        req_data = self.get_request_json()
+        code = req_data.get("code", "")
+        if not isinstance(code, str) or not code.strip():
+            self.print_out("debug-variable", 400)
+            response.status = 400
+            return {"error": "请输入Python变量或代码段"}
+        # 查询命名空间: 当前模块全局变量(包含 gVar、parse 等)
+        namespace = dict(vars(sys.modules[__name__]))
+        stdout = io.StringIO()
+        try:
+            try:
+                # 优先按表达式求值, 支持直接输入变量名(如 gVar.config)
+                with contextlib.redirect_stdout(stdout):
+                    value = eval(code, namespace)
+            except SyntaxError:
+                # 含赋值/语句的代码段改用 exec 执行, 并捕获 print 输出
+                with contextlib.redirect_stdout(stdout):
+                    exec(code, namespace)
+                output = stdout.getvalue()
+            else:
+                printed = stdout.getvalue()
+                # 表达式已通过 print 输出内容时, 不再追加无意义的 None
+                if value is None and printed:
+                    output = printed
+                else:
+                    output = printed + self.format_debug_output(value)
+        except Exception:
+            # 执行出错时把完整堆栈写入输出框, 便于排查
+            output = traceback.format_exc()
+        self.print_out("debug-variable", 200)
+        return {"output": output}
+
     def playlist(self):
         channelid_ids = gVar.channelid_youtube_ids | gVar.channelid_bilibili_ids
         playlist_data = {}
         address = gVar.config["address"]
         address = re.sub(r"(http://)([^/:]+):80(?=/|$)", r"\1\2", address)
+        # 自定义媒体rss存在且有内容, 且列表中存在已完成媒体时, 添加至播放列表最前面
+        custom_media_xml = "channel_rss/custom_media.xml"
+        if (
+            os.path.exists(custom_media_xml)
+            and os.path.getsize(custom_media_xml) > 0
+            and any(
+                media.get("status") == "completed"
+                for media in read_custom_media()[0]
+            )
+        ):
+            if token := gVar.config["token"]:
+                url = f"{address}/channel_rss/custom_media.xml?token={token}"
+            else:
+                url = f"{address}/channel_rss/custom_media.xml"
+            playlist_data["自定义媒体"] = url
         for channelid, name in channelid_ids.items():
             if token := gVar.config["token"]:
                 url = f"{address}/channel_rss/{channelid}.xml?token={token}"
             else:
-                url = f"{address}/channel_rss/{channelid}.xml" 
+                url = f"{address}/channel_rss/{channelid}.xml"
             playlist_data[name] = url
         response.content_type = "application/json"
         self.print_out("playlist", 200)
         return playlist_data
 
+    # 获取请求中的 JSON 数据字典
+    def get_request_json(self):
+        try:
+            req_data = request.json or {}
+        except Exception:
+            return {}
+        return req_data if isinstance(req_data, dict) else {}
 
+    # 纠正自定义媒体下标, 下标无效时返回 None
+    def correct_media_index(self, index, media_list):
+        try:
+            index = int(index)
+        except (TypeError, ValueError):
+            return None
+        if index < 0 or index >= len(media_list):
+            return None
+        return index
+
+    # 画质转数字用于比较, 后台写入非数字时按0处理, 避免列表接口报错
+    def correct_media_quality(self, quality):
+        try:
+            return int(quality)
+        except (TypeError, ValueError):
+            return 0
+
+    # 查重: 相同链接仅保留一条, 视频优先于音频, 视频画质高者优先, 且保持原有位置
+    # 返回(处理方式, 下标): append新增 / update覆盖原条目 / ignore忽略本次提交
+    # 下标为 None 表示列表中还没有该链接
+    # 原条目抓取失败(status为failed)时同样覆盖, 便于配好cookie后重新提交重试
+    def custom_media_target(self, media_list, media_url, media_type, media_quality):
+        for media_index, media_item in enumerate(media_list):
+            if media_item.get("url") != media_url:
+                continue
+            item_type = media_item.get("type")
+            if media_item.get("status") == "failed" or (
+                media_type == "mp4"
+                and (
+                    item_type == "m4a"
+                    or self.correct_media_quality(media_quality)
+                    > self.correct_media_quality(media_item.get("quality"))
+                )
+            ):
+                return "update", media_index
+            return "ignore", media_index
+        return "append", None
+
+    # 已存在相同且不更优的媒体, 忽略本次提交的响应
+    def custom_media_repeat(self, media_type, media_list, media_index):
+        self.print_out(f"custom-media {media_type} repeat", 200)
+        return {
+            "message": "该媒体已存在, 且画质不高于已添加的媒体",
+            "data": media_list[media_index],
+            "index": media_index,
+            "count": len(media_list),
+            "added": False,
+        }
+
+    # 校验网页提交的版本号, 防止用旧内容覆盖后台已更新的数据
+    # 未提交rev时不做校验(兼容旧页面), 提交且与当前不一致时返回True表示冲突
+    def media_rev_conflict(self, req_data, current_rev):
+        client_rev = req_data.get("rev")
+        if not isinstance(client_rev, str):
+            return False
+        return client_rev != current_rev
+
+    # 版本号冲突的409响应, 同时回传最新列表, 便于网页直接重载
+    def media_rev_conflict_response(self):
+        media_list, current_rev = read_custom_media()
+        self.print_out("custom-media", 409)
+        response.status = 409
+        return {
+            "error": "列表已被后台更新, 请重试",
+            "conflict": True,
+            "list": media_list,
+            "rev": current_rev,
+            "busy": bool(getattr(gVar, "custom_media_busy", False)),
+        }
+
+    # 设置后台忙碌标记(网页据此禁用所有操作按钮)
+    def custom_media_lock(self):
+        response.content_type = "application/json"
+        req_data = self.get_request_json()
+        # GET 仅查询当前状态
+        if request.method == "GET":
+            return {"busy": bool(getattr(gVar, "custom_media_busy", False))}
+        busy = req_data.get("busy")
+        if not isinstance(busy, bool):
+            self.print_out("custom-media-lock", 400)
+            response.status = 400
+            return {"error": "busy需为布尔值"}
+        gVar.custom_media_busy = busy
+        self.print_out(f"custom-media-lock {str(busy).lower()}", 200)
+        return {"message": "忙碌标记已更新", "busy": busy}
+
+    # 读取或添加自定义媒体(网页提交的下载任务)
+    def custom_media(self):
+        # 自定义媒体的媒体格式/画质/音频轨道语言可选值, 取自 config_desc 的 channel.youtube 定义,
+        # 与「修改运行配置」页共用同一份数据(config_desc), 避免两处各维护一套可选值
+        youtube_channel_desc = config_desc["channel"]["youtube"]
+        # 媒体格式候选(m4a音频/mp4视频), 及旧列表数据中 audio/video → 新取值的映射
+        custom_media_type = [
+            option["value"] for option in youtube_channel_desc["media"]["options"]
+        ]
+        # 画质候选(144p - 4320p, 仅媒体格式为 mp4 时生效)
+        custom_media_quality = [
+            option["value"] for option in youtube_channel_desc["quality"]["options"]
+        ]
+        # 音频轨道语言候选(两位语言代码)及其默认值
+        custom_media_audio_track_language = [
+            option["value"]
+            for option in youtube_channel_desc["audio_track_language"]["options"]
+        ]
+        custom_media_language_default = youtube_channel_desc["audio_track_language"][
+            "default"
+        ]
+        # 自定义媒体支持的平台, 仅允许YouTube及哔哩哔哩的视频链接
+        custom_media_hostname = ["youtube.com", "youtu.be", "bilibili.com", "b23.tv"]
+        # 从粘贴的文本中提取链接, 兼容【标题】链接 复制打开哔哩哔哩…等应用的分享文本
+        custom_media_url_pattern = re.compile(
+            r"https?://[^\s\"'<>()（）【】\[\]，。、！？；：]+"
+        )
+        # 规范化后的视频链接格式, 与 normalize_video_url 的输出保持一致
+        # 用于过滤非视频页面(频道/收藏夹等)及链接前后多余的字符
+        custom_media_video_pattern = re.compile(
+            r"^(?:https://www\.youtube\.com/watch\?v=[\w-]{11}"
+            r"|https://www\.bilibili\.com/video/(?:BV\w{10}|av\d+)/)$"
+        )
+        # 设置响应头为 application/json
+        response.content_type = "application/json"
+        # GET 请求返回已添加的自定义媒体列表
+        if request.method == "GET":
+            media_list, current_rev = read_custom_media()
+            return {
+                "list": media_list,
+                "count": len(media_list),
+                "rev": current_rev,
+                "busy": bool(getattr(gVar, "custom_media_busy", False)),
+                # 下发三个下拉(desc数据源自config_desc的channel.youtube), 供前端构建及校验
+                "desc": {
+                    key: youtube_channel_desc[key]
+                    for key in ("media", "quality", "audio_track_language")
+                },
+            }
+        # POST 请求添加自定义媒体至列表文件
+        req_data = self.get_request_json()
+        # 从粘贴内容中提取链接(兼容分享文本), 再格式化(统一YouTube及哔哩哔哩的多种链接格式)
+        raw_url = str(req_data.get("url", "")).strip()
+        url_match = custom_media_url_pattern.search(raw_url)
+        media_url, video_id = normalize_video_url(url_match.group(0) if url_match else raw_url)
+        media_type = str(req_data.get("type", "")).strip()
+        media_quality = str(req_data.get("quality", "")).strip()
+        # 音频轨道语言: 未提交时按 config_desc 的默认值兜底(与频道配置口径一致)
+        media_language = (
+            str(req_data.get("audio_track_language", "")).strip()
+            or custom_media_language_default
+        )
+        if not media_url:
+            self.print_out("custom-media", 400)
+            response.status = 400
+            return {"error": "请填写媒体链接"}
+        if not media_url.startswith(("http://", "https://")):
+            self.print_out("custom-media", 400)
+            response.status = 400
+            return {"error": "媒体链接需以 http:// 或 https:// 开头"}
+        # 校验格式化后的链接: 仅接受YouTube及哔哩哔哩的视频链接, 并过滤多余字符
+        if not custom_media_video_pattern.match(media_url):
+            self.print_out("custom-media", 400)
+            response.status = 400
+            media_hostname = urlparse(media_url).netloc.lower()
+            if "b23.tv" in media_hostname:
+                # 短链需联网解析, 解析失败时无法取到视频ID
+                return {"error": "b23.tv短链解析失败, 请改用完整的视频链接"}
+            if any(hostname in media_hostname for hostname in custom_media_hostname):
+                # 平台正确但未取到视频ID, 多为频道/收藏夹等非视频页面
+                return {"error": "链接中未识别到视频ID, 请粘贴纯视频链接"}
+            return {"error": "仅支持YouTube及哔哩哔哩的视频链接"}
+        if media_type not in custom_media_type:
+            self.print_out("custom-media", 400)
+            response.status = 400
+            return {"error": "请选择正确的媒体格式(m4a音频或mp4视频)"}
+        if media_type == "mp4":
+            if media_quality not in custom_media_quality:
+                self.print_out("custom-media", 400)
+                response.status = 400
+                return {"error": "请选择正确的视频画质(144p - 4320p)"}
+        else:
+            # 音频格式无需画质
+            media_quality = ""
+        if media_language not in custom_media_audio_track_language:
+            self.print_out("custom-media", 400)
+            response.status = 400
+            return {"error": "请选择正确的音频轨道语言"}
+        # 将链接、媒体格式、画质及音频轨道语言以字典形式添加至列表, 状态默认为准备中
+        custom_media_message = {
+            "url": media_url,
+            "type": media_type,
+            "quality": media_quality,
+            "audio_track_language": media_language,
+            "status": "preparing",
+            "id": video_id,
+        }
+        # 读取列表并校验版本号, 冲突时放弃本次写入, 避免用旧内容覆盖后台已更新的数据
+        media_list, current_rev = read_custom_media()
+        if self.media_rev_conflict(req_data, current_rev):
+            return self.media_rev_conflict_response()
+        # 查重: 相同链接仅保留一条, 视频优先于音频, 视频画质高者优先, 且保持原有位置
+        # 抓取媒体信息需要联网, 先判一次可让"已存在"的提交直接返回, 免去无谓等待
+        action, media_index = self.custom_media_target(
+            media_list, media_url, media_type, media_quality
+        )
+        if action == "ignore":
+            return self.custom_media_repeat(media_type, media_list, media_index)
+        # 联网抓取 title 等字段, 耗时数秒至数十秒, 失败时条目状态记为 failed
+        media_fields, fail_reason = get_custom_media_info(
+            media_url, video_id, media_type, media_quality, media_language
+        )
+        # 抓取期间列表可能已被后台写入, 重新读取最新列表再落盘以保留其修改
+        # 此处按最新内容合并即可, 不再比对版本号, 否则会白费刚才的抓取
+        media_list, current_rev = read_custom_media()
+        action, media_index = self.custom_media_target(
+            media_list, media_url, media_type, media_quality
+        )
+        if action == "ignore":
+            return self.custom_media_repeat(media_type, media_list, media_index)
+        if fail_reason is None:
+            # 抓取到的字段全部写入, 状态保持准备中, 等待后台下载流程更新
+            custom_media_message.update(media_fields)
+        else:
+            # 抓取失败同样保留条目, 状态改写为失败, 网页据 fail_reason 提示失败原因
+            custom_media_message["status"] = "failed"
+            custom_media_message["error"] = fail_reason
+        if action == "update":
+            # 整条覆盖以保持原位置, 旧的进度等字段已不适用, 需重新处理
+            media_list[media_index] = custom_media_message
+        else:
+            media_list.append(custom_media_message)
+        save_custom_media(media_list)
+        if fail_reason:
+            self.print_out(f"custom-media {media_type} format-failed", 200)
+        elif action == "update":
+            self.print_out(f"custom-media {media_type} update", 200)
+        else:
+            self.print_out(f"custom-media-{media_type}", 200)
+        return {
+            "message": "已更新相同媒体" if action == "update" else "添加成功",
+            "data": custom_media_message,
+            "index": media_index,
+            "count": len(media_list),
+            "added": True,
+            # 抓取失败时回传原因, 由网页显示在操作提示区
+            "fail_reason": fail_reason,
+        }
+
+    # 排序自定义媒体
+    def custom_media_reorder(self):
+        # 设置响应头为 application/json
+        response.content_type = "application/json"
+        req_data = self.get_request_json()
+        media_list, current_rev = read_custom_media()
+        if self.media_rev_conflict(req_data, current_rev):
+            return self.media_rev_conflict_response()
+        old_index = self.correct_media_index(req_data.get("old_index"), media_list)
+        if old_index is None:
+            self.print_out("custom-media-reorder", 404)
+            response.status = 404
+            return {"error": "待排序的自定义媒体不存在"}
+        new_index = req_data.get("new_index")
+        try:
+            new_index = int(new_index)
+        except (TypeError, ValueError):
+            self.print_out("custom-media-reorder", 400)
+            response.status = 400
+            return {"error": "目标位置无效"}
+        if new_index < 0 or new_index >= len(media_list):
+            self.print_out("custom-media-reorder", 400)
+            response.status = 400
+            return {"error": "目标位置超出范围"}
+        # 移动指定媒体至目标位置
+        media_list.insert(new_index, media_list.pop(old_index))
+        save_custom_media(media_list)
+        self.print_out("custom-media-reorder", 200)
+        return {
+            "message": "排序成功",
+            "count": len(media_list),
+        }
+
+    # 删除自定义媒体
+    def custom_media_remove(self):
+        # 设置响应头为 application/json
+        response.content_type = "application/json"
+        req_data = self.get_request_json()
+        media_list, current_rev = read_custom_media()
+        if self.media_rev_conflict(req_data, current_rev):
+            return self.media_rev_conflict_response()
+        media_index = self.correct_media_index(req_data.get("index"), media_list)
+        if media_index is None:
+            self.print_out("custom-media-remove", 404)
+            response.status = 404
+            return {"error": "自定义媒体不存在"}
+        media_message = media_list.pop(media_index)
+        save_custom_media(media_list)
+        self.print_out("custom-media-remove", 200)
+        return {
+            "message": "删除成功",
+            "data": media_message,
+            "count": len(media_list),
+        }
 
 bottle_app_instance = bottle_app()

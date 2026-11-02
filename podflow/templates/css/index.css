@@ -32,6 +32,8 @@
   --radius-full: 9999px;
   --font-mono: 'SF Mono', 'Cascadia Code', 'Fira Code', 'JetBrains Mono', 'Courier New', monospace;
   --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  /* 下拉框箭头, 使用内联svg */
+  --select-arrow: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%236b7280' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
 }
 
 @media (prefers-color-scheme: dark) {
@@ -59,6 +61,8 @@
     --accent-green: #34d399;
     --accent-amber: #fbbf24;
     --accent-red: #f87171;
+    /* 深色模式下替换为浅色下拉箭头 */
+    --select-arrow: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
   }
 }
 
@@ -273,6 +277,37 @@ textarea:focus {
   box-shadow: 0 0 0 3px var(--progress-bar-glow);
 }
 
+/* ===== Select (统一下拉框样式) ===== */
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+  padding: 9px 32px 9px 12px;
+  color: var(--text-color);
+  background-color: var(--input-bg);
+  background-image: var(--select-arrow);
+  background-repeat: no-repeat;
+  background-position: right 11px center;
+  background-size: 11px;
+  border: 1px solid var(--input-border);
+  border-radius: var(--radius-md);
+  font: inherit;
+  line-height: 1.4;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s, background-color 0.2s;
+}
+select:hover:not(:disabled) { border-color: var(--menu-selected-border); }
+select:focus {
+  border-color: var(--button-bg);
+  box-shadow: 0 0 0 3px var(--progress-bar-glow);
+}
+select:disabled { opacity: 0.55; cursor: not-allowed; }
+select option { color: var(--text-color); background-color: var(--input-bg); }
+
 #inputOutput {
   padding: 12px 14px;
 }
@@ -371,23 +406,6 @@ button:disabled { cursor: not-allowed; opacity: 0.48; transform: none; box-shado
 }
 .ios-secondary-button:hover { color: #fff; background: #007aff; box-shadow: none; transform: none; }
 
-.ios-disclosure {
-  width: 100%;
-  min-height: 48px;
-  justify-content: space-between;
-  margin-bottom: 12px;
-  padding: 10px 16px;
-  color: var(--text-color);
-  background: var(--card-bg);
-  border: 1px solid var(--card-border);
-  box-shadow: var(--card-shadow);
-  font-size: 15px;
-}
-.ios-disclosure:hover { color: var(--text-color); background: var(--menu-selected-bg); box-shadow: var(--card-shadow); transform: none; }
-.ios-disclosure .disclosure-icon { color: var(--secondary-text); font-size: 17px; transition: transform 0.22s ease; }
-.ios-disclosure[aria-expanded="false"] .disclosure-icon { transform: rotate(-90deg); }
-#configContent.hidden { display: none; }
-
 .hint {
   font-size: 13px;
   color: var(--secondary-text);
@@ -396,6 +414,205 @@ button:disabled { cursor: not-allowed; opacity: 0.48; transform: none; box-shado
   background: var(--divider-color);
   border-radius: var(--radius-sm);
   line-height: 1.5;
+}
+
+/* ===== Custom Media (添加自定义媒体) ===== */
+.custom-media-input {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  /* 右侧留出清空按钮的位置 */
+  padding: 11px 36px 11px 14px;
+  font-size: 14px;
+  font-family: var(--font-mono);
+  color: var(--text-color);
+  background-color: var(--input-bg);
+  border: 1px solid var(--input-border);
+  border-radius: var(--radius-md);
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.custom-media-input:focus {
+  outline: none;
+  border-color: var(--button-bg);
+  box-shadow: 0 0 0 3px var(--progress-bar-glow);
+}
+.custom-media-input:disabled { opacity: 0.6; }
+/* 输入框外层容器: 通过定位把清空按钮叠放在输入框右端内侧 */
+.custom-media-input-wrap {
+  position: relative;
+  width: 100%;
+  margin: 0 0 12px;
+}
+/* 输入框最右端内侧的清空按钮: 透明的红色, 不加底色, 视觉上融入输入框 */
+.custom-media-input-clear {
+  position: absolute;
+  top: 50%;
+  right: 4px;
+  transform: translateY(-50%);
+  width: 26px;
+  height: 26px;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  /* 半透明的红色, 背景保持全透明 */
+  color: color-mix(in srgb, var(--accent-red) 60%, transparent);
+  background: transparent;
+  border-radius: 50%;
+  box-shadow: none;
+}
+/* SVG 图形以 currentColor 着色, 与按钮同色; 固定尺寸保证不随字体伸缩 */
+.custom-media-input-clear svg { display: block; flex-shrink: 0; }
+.custom-media-input-clear:hover:not(:disabled) {
+  /* 悬停时红色变实并带一层极淡的红晕, 仅作可点击提示 */
+  color: var(--accent-red);
+  background: color-mix(in srgb, var(--accent-red) 10%, transparent);
+  /* 覆盖全局button:hover的位移, 保持垂直居中 */
+  transform: translateY(-50%);
+}
+.custom-media-input-clear:active:not(:disabled) { transform: translateY(-50%) scale(0.94); }
+/* 全局button:disabled会把transform清零, 需恢复居中位移 */
+.custom-media-input-clear:disabled { transform: translateY(-50%); }
+/* 下拉框已改用全局自定义下拉组件(.custom-select, 样式见 config.css),
+   行结构沿用「修改运行配置」页的 .config-item 字段行, 此类仅取消原堆叠布局的间距 */
+.custom-media-select {
+  margin: 0;
+}
+
+.custom-media-list-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 16px;
+}
+.custom-media-list-header label { color: var(--text-color); font-size: 13px; font-weight: 500; }
+.custom-media-refresh-btn {
+  width: auto;
+  margin: 0;
+  padding: 6px 12px;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 10px;
+  box-shadow: none;
+}
+
+.custom-media-list {
+  padding: 8px 10px;
+  height: 240px;
+  overflow-x: auto;
+  overflow-y: auto;
+  font-size: 12px;
+  border: 1px solid var(--input-border);
+  border-radius: var(--radius-md);
+  background-color: var(--input-bg);
+}
+.custom-media-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 4px;
+  border-bottom: 1px solid var(--divider-color);
+  /* 左侧色条标识当前状态 */
+  border-left: 3px solid var(--background-bar-color);
+  border-radius: var(--radius-sm);
+}
+.custom-media-item:last-child { border-bottom: none; }
+.custom-media-item:hover { background: var(--menu-selected-bg); }
+.custom-media-index { color: var(--secondary-text); flex-shrink: 0; font-variant-numeric: tabular-nums; }
+.custom-media-info { flex: 1; min-width: 0; display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px; }
+.custom-media-type { color: var(--text-color); font-weight: 600; flex-shrink: 0; }
+.custom-media-url {
+  flex-basis: 100%;
+  color: var(--secondary-text);
+  font-family: var(--font-mono);
+  word-break: break-all;
+}
+.custom-media-status-text { flex-shrink: 0; font-size: 11px; font-weight: 600; }
+/* 分集总数标记: lists 内含多个分集时显示 */
+.custom-media-parts {
+  flex-shrink: 0;
+  padding: 1px 7px;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--button-bg);
+  background: color-mix(in srgb, var(--button-bg) 12%, transparent);
+  border-radius: 10px;
+}
+/* 抓取到的媒体标题, 独占一行, 超出宽度时省略 */
+.custom-media-title {
+  flex-basis: 100%;
+  min-width: 0;
+  color: var(--text-color);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* 媒体信息抓取失败的原因, 独占一行 */
+.custom-media-error {
+  flex-basis: 100%;
+  color: var(--accent-red);
+  font-size: 11px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.custom-media-empty { color: var(--secondary-text); text-align: center; padding: 16px 0; }
+
+/* 列表内排序及删除按钮 */
+.custom-media-btn {
+  width: 26px;
+  height: 26px;
+  flex-shrink: 0;
+  justify-content: center;
+  padding: 0;
+  color: var(--button-bg);
+  background: color-mix(in srgb, var(--button-bg) 12%, transparent);
+  border-radius: 8px;
+  box-shadow: none;
+}
+/* SVG 图形以 currentColor 着色, 与按钮同色; 固定尺寸保证不随字体伸缩 */
+.custom-media-btn svg { display: block; flex-shrink: 0; }
+.custom-media-btn:hover:not(:disabled) { color: #fff; background: var(--button-bg); }
+.custom-media-delete-btn { color: var(--accent-red); background: color-mix(in srgb, var(--accent-red) 12%, transparent); }
+.custom-media-delete-btn:hover:not(:disabled) { color: #fff; background: var(--accent-red); }
+
+/* ===== 自定义媒体状态颜色 (准备中/已完成/失败) ===== */
+.custom-media-item.status-preparing { border-left-color: var(--accent-amber); }
+.custom-media-item.status-completed { border-left-color: var(--accent-green); }
+.custom-media-item.status-failed { border-left-color: var(--accent-red); }
+
+.custom-media-status-text.status-preparing,
+.status-text-preparing { color: var(--accent-amber); }
+.custom-media-status-text.status-completed,
+.status-text-completed { color: var(--accent-green); }
+.custom-media-status-text.status-failed,
+.status-text-failed { color: var(--accent-red); }
+
+/* 后台自定义的状态未定义配色时, 使用中性色兜底 */
+.custom-media-item:not(.status-preparing):not(.status-completed):not(.status-failed) {
+  border-left-color: var(--secondary-text);
+}
+.custom-media-status-text:not(.status-preparing):not(.status-completed):not(.status-failed) {
+  color: var(--secondary-text);
+}
+
+@media (max-width: 600px) {
+  /* 窄屏下媒体信息独占一行, 操作按钮换行显示 */
+  .custom-media-item { flex-wrap: wrap; row-gap: 6px; }
+  .custom-media-info { flex-basis: calc(100% - 26px); }
+  .custom-media-list { height: 260px; }
+}
+
+/* 后台处理中, 提示用户暂时不可操作 */
+.custom-media-busy-hint {
+  margin-top: 10px;
+  padding: 8px 12px;
+  border: 1px solid var(--accent-amber);
+  border-radius: 6px;
+  color: var(--accent-amber);
+  font-size: 14px;
+  font-weight: 600;
 }
 
 /* ===== iOS-style Sidebar Toggle ===== */
@@ -446,6 +663,278 @@ nav.hidden + #toggleMenu { left: 12px; }
   letter-spacing: 0.3px;
 }
 
+/* ===== Debug Variable (隐藏测试页面) ===== */
+/* 输入框与输出框共用 .debug-output 样式; 输入框为 contenteditable 实时高亮 */
+.debug-box-wrap {
+  position: relative;
+}
+#debugVariableInput {
+  min-height: 76px; /* 至少 3 行(12px 字号, 行高 1.5 + 输出框内边距), 高度随内容自动增长 */
+  cursor: text;
+  tab-size: 4;
+}
+#debugVariableInput:focus {
+  outline: none;
+  border-color: var(--button-bg);
+  box-shadow: 0 0 0 3px var(--progress-bar-glow);
+}
+#debugVariableInput.debug-input-empty::before {
+  content: attr(data-placeholder);
+  color: var(--secondary-text);
+  opacity: 0.7;
+  pointer-events: none;
+}
+.debug-output {
+  min-height: 120px;
+  max-height: 40vh;
+  margin: 0;
+  padding: 10px 12px !important;
+  font-family: var(--font-mono) !important;
+  font-size: 12px !important;
+  line-height: 1.5 !important;
+  color: var(--text-color);
+  background-color: var(--input-bg) !important;
+  border: 1px solid var(--input-border);
+  border-radius: var(--radius-md);
+  white-space: pre-wrap !important;
+  word-break: break-word !important;
+  box-sizing: border-box;
+  overflow-y: auto;
+  tab-size: 4;
+}
+/* 框内右上角按钮: 与自定义媒体页输入框清空按钮同款风格
+   透明底 + 60% 半透明色(淡蓝复制/淡红清除), hover 变实; 图形用 SVG 保证墨迹居中 */
+.debug-box-btn {
+  position: absolute;
+  top: 5px;
+  right: 18px; /* 右移半个按钮宽度, 避免遮挡滚动条 */
+  width: 26px;
+  height: 26px;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  color: color-mix(in srgb, var(--button-bg) 60%, transparent); /* 复制: 淡蓝 */
+  background: transparent;
+  border-radius: 50%;
+  box-shadow: none;
+  z-index: 3;
+}
+/* SVG 图形以 currentColor 着色, 与按钮同色; 固定尺寸保证不随字体伸缩 */
+.debug-box-btn svg { display: block; flex-shrink: 0; }
+/* 复制按钮内常驻复制/✓ 两个图形, 成功反馈时由 .debug-box-btn-ok 切换显隐 */
+.debug-box-btn svg.icon-ok { display: none; }
+.debug-box-btn.debug-box-btn-ok svg { display: none; }
+.debug-box-btn.debug-box-btn-ok svg.icon-ok { display: block; }
+.debug-box-btn.debug-box-btn-ok {
+  color: #2fae6d !important;
+}
+.debug-box-btn:hover:not(:disabled) {
+  color: var(--button-bg);
+  background: color-mix(in srgb, var(--button-bg) 10%, transparent);
+  /* 覆盖全局button:hover的位移, 保持位置不变 */
+  transform: none;
+  box-shadow: none;
+}
+.debug-box-btn:active:not(:disabled) { transform: scale(0.94); }
+#debugInputClearBtn {
+  right: 49px; /* 与复制按钮并排 */
+  color: color-mix(in srgb, var(--accent-red) 60%, transparent); /* 清除: 淡红 */
+}
+#debugInputClearBtn:hover:not(:disabled) {
+  color: var(--accent-red);
+  background: color-mix(in srgb, var(--accent-red) 10%, transparent);
+}
+.debug-output code,
+.debug-history-code code,
+.debug-history-output code {
+  background: transparent !important;
+  font-family: var(--font-mono) !important;
+  text-shadow: none !important;
+  white-space: pre-wrap !important;
+  word-break: break-word !important;
+  padding: 0 !important;
+}
+/* 语法高亮配色: 跟随系统亮/暗色，避免固定暗色背景 */
+.debug-output code[class*=language-],
+.debug-history-code code[class*=language-],
+.debug-history-output code[class*=language-] {
+  color: var(--text-color) !important;
+  background: transparent !important;
+  text-shadow: none !important;
+}
+/* 缩进层级配色(indent-rainbow): 不同缩进层级显示不同颜色 */
+.indent-rainbow-0 { background-color: rgba(255, 99, 132, 0.22); }
+.indent-rainbow-1 { background-color: rgba(255, 159, 64, 0.22); }
+.indent-rainbow-2 { background-color: rgba(255, 205, 86, 0.25); }
+.indent-rainbow-3 { background-color: rgba(75, 192, 120, 0.22); }
+.indent-rainbow-4 { background-color: rgba(54, 162, 235, 0.22); }
+.indent-rainbow-5 { background-color: rgba(153, 102, 255, 0.20); }
+.indent-rainbow-6 { background-color: rgba(0, 200, 200, 0.20); }
+.indent-rainbow-7 { background-color: rgba(214, 51, 108, 0.18); }
+.indent-rainbow-0, .indent-rainbow-1, .indent-rainbow-2, .indent-rainbow-3,
+.indent-rainbow-4, .indent-rainbow-5, .indent-rainbow-6, .indent-rainbow-7 {
+  border-radius: 2px;
+}
+.token.comment,
+.token.block-comment,
+.token.prolog,
+.token.doctype,
+.token.cdata { color: #6a737d !important; }
+.token.punctuation { color: #57606a !important; }
+.token.tag,
+.token.attr-name,
+.token.namespace,
+.token.deleted { color: #d6336c !important; }
+.token.function-name { color: #2f6fbf !important; }
+.token.boolean,
+.token.function,
+.token.number { color: #b5590a !important; }
+.token.class-name,
+.token.constant,
+.token.property,
+.token.symbol { color: #8f5a00 !important; }
+.token.atrule,
+.token.builtin,
+.token.important,
+.token.keyword,
+.token.selector { color: #9b2393 !important; }
+.token.attr-value,
+.token.char,
+.token.regex,
+.token.string,
+.token.variable { color: #0e7a3f !important; }
+.token.entity,
+.token.operator,
+.token.url { color: #0a7d8c !important; }
+.token.decorator,
+.token.annotation { color: #9b2393 !important; }
+
+@media (prefers-color-scheme: dark) {
+  .token.comment,
+  .token.block-comment,
+  .token.prolog,
+  .token.doctype,
+  .token.cdata { color: #999 !important; }
+  .token.punctuation { color: #ccc !important; }
+  .token.tag,
+  .token.attr-name,
+  .token.namespace,
+  .token.deleted { color: #e2777a !important; }
+  .token.function-name { color: #6196cc !important; }
+  .token.boolean,
+  .token.function,
+  .token.number { color: #f08d49 !important; }
+  .token.class-name,
+  .token.constant,
+  .token.property,
+  .token.symbol { color: #f8c555 !important; }
+  .token.atrule,
+  .token.builtin,
+  .token.important,
+  .token.keyword,
+  .token.selector { color: #cc99cd !important; }
+  .token.attr-value,
+  .token.char,
+  .token.regex,
+  .token.string,
+  .token.variable { color: #7ec699 !important; }
+  .token.entity,
+  .token.operator,
+  .token.url { color: #67cdcc !important; }
+  .token.decorator,
+  .token.annotation { color: #cc99cd !important; }
+}
+.debug-history {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-height: 40vh;
+  overflow-y: auto;
+  padding-right: 4px;
+}
+.debug-history-status {
+  font-size: 12px;
+  color: var(--secondary-text);
+  padding: 8px 0;
+  text-align: center;
+}
+.debug-history-item {
+  border: 1px solid var(--input-border);
+  border-radius: var(--radius-md);
+  background-color: var(--input-bg);
+  cursor: pointer;
+  padding: 10px 12px;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.debug-history-item:hover {
+  border-color: var(--button-bg);
+  box-shadow: 0 0 0 2px var(--progress-bar-glow);
+}
+.debug-history-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+  font-size: 12px;
+  color: var(--secondary-text);
+}
+/* 历史记录删除按钮: 与框内按钮同款风格(透明底淡红, hover 变实) */
+.debug-history-close {
+  width: 26px;
+  height: 26px;
+  flex-shrink: 0;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  color: color-mix(in srgb, var(--accent-red) 60%, transparent);
+  background: transparent;
+  border-radius: 50%;
+  box-shadow: none;
+}
+/* SVG 图形以 currentColor 着色, 与按钮同色; 固定尺寸保证不随字体伸缩 */
+.debug-history-close svg { display: block; flex-shrink: 0; }
+.debug-history-close:hover:not(:disabled) {
+  color: var(--accent-red);
+  background: color-mix(in srgb, var(--accent-red) 10%, transparent);
+  transform: none;
+  box-shadow: none;
+}
+.debug-history-section {
+  margin: 6px 0;
+}
+.debug-history-section-label {
+  font-size: 11px;
+  color: var(--secondary-text);
+  margin: 0 0 4px 0;
+  line-height: 1.4;
+}
+.debug-history-code {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--text-color);
+  white-space: pre-wrap;
+  word-break: break-word;
+  margin: 0 0 8px 0;
+  max-height: 80px;
+  overflow-y: auto;
+  background: color-mix(in srgb, var(--input-bg) 90%, var(--bg-color) 10%);
+  border-radius: var(--radius-sm);
+  padding: 6px 8px;
+}
+.debug-history-output {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--secondary-text);
+  white-space: pre-wrap;
+  word-break: break-word;
+  margin: 0;
+  max-height: 80px;
+  overflow-y: auto;
+  background: color-mix(in srgb, var(--input-bg) 90%, var(--bg-color) 10%);
+  border-radius: var(--radius-sm);
+  padding: 6px 8px;
+}
 /* ===== Messages ===== */
 .message {
   padding: 0;
@@ -608,6 +1097,7 @@ nav.hidden + #toggleMenu { left: 12px; }
     z-index: 1002;
     display: flex;
     gap: 10px;
+    transition: opacity 0.2s, visibility 0.2s;
 }
 
 .icon-toggle-btn {
@@ -621,12 +1111,19 @@ nav.hidden + #toggleMenu { left: 12px; }
     box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(18px) saturate(160%);
     -webkit-backdrop-filter: blur(18px) saturate(160%);
-    transition: color 0.2s, background-color 0.2s, transform 0.2s;
+    transition: color 0.2s, background-color 0.2s, transform 0.2s, opacity 0.2s, visibility 0.2s;
     padding: 0; margin: 0;
 }
 .icon-toggle-btn svg { width: 21px; height: 21px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
 .icon-toggle-btn:hover { color: #007aff; background: var(--menu-selected-bg); }
 .icon-toggle-btn:active { transform: scale(0.94); }
+/* 播客抽屉打开时隐藏整个右上角控件容器：层级(1002)高于抽屉(200)会叠在抽屉上；
+    且若只隐藏按钮，看不见的空容器仍会拦截同位置的抽屉关闭按钮的点击。 */
+.top-right-controls.drawer-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
 
 .btn {
     padding: 10px 14px; border-radius: var(--radius-md); border: none;
@@ -665,6 +1162,23 @@ nav.hidden + #toggleMenu { left: 12px; }
     display: flex; align-items: center; justify-content: space-between;
     padding: 16px; border-bottom: 1px solid var(--divider-color);
     font-weight: 700; flex-shrink: 0; color: var(--text-color);
+}
+
+/* 抽屉关闭按钮：复用切换按钮外观(.icon-toggle-btn)，抽屉打开时淡入其原位（右上角），
+    关闭后让位给切换按钮。层级 1003 高于 .top-right-controls(1002)，确保可点击。 */
+#playlistCloseBtn {
+    position: fixed;
+    top: max(12px, env(safe-area-inset-top, 0px));
+    right: max(12px, env(safe-area-inset-right, 0px));
+    z-index: 1003;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+#playlistDrawer.active ~ #playlistCloseBtn {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
 }
 
 .playlist-body { flex: 1; overflow-y: auto; padding: 10px; }
@@ -738,6 +1252,9 @@ nav.hidden + #toggleMenu { left: 12px; }
     padding: 8px 10px;
   }
   .top-right-controls {
+    top: max(8px, env(safe-area-inset-top, 0px));
+  }
+  #playlistCloseBtn {
     top: max(8px, env(safe-area-inset-top, 0px));
   }
 }

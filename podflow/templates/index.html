@@ -1,133 +1,427 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Podflow</title>
-  <link rel="stylesheet" href="/templates/css/index.css" />
-  <link rel="stylesheet" href="/templates/css/config.css" />
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
-</head>
-<body>
-  <nav id="menu">
-    <div class="menu-header">
-      <span class="menu-app-name">Podflow</span>
-      <h3>菜单栏</h3>
-    </div>
-    <ul>
-      <li data-page="pageMessage">Podflow 运行情况</li>
-      <li data-page="pageChannel">获取媒体频道 ID</li>
-      <li data-page="pageConfig">修改配置</li>
-      <li data-page="pageYoutubeCookie">YouTube🍪修改</li>
-    </ul>
-    <div class="menu-footer">
-      <label class="youtube-cookie-setting" for="alwaysUseYoutubeCookie">
-        <span class="youtube-cookie-copy">
-          <span>YouTube🍪</span>
-          <small id="youtubeCookieStatus"></small>
-        </span>
-        <input type="checkbox" id="alwaysUseYoutubeCookie" role="switch" />
-        <span class="ios-switch" aria-hidden="true"></span>
-      </label>
-      <div class="favorite-update-control">
-        <span id="favoriteUpdateCountdown">倒计运行时间：--:--:--</span>
-        <button type="button" id="immediateUpdateBtn" class="ios-secondary-button" disabled>立即更新</button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, viewport-fit=cover"
+    />
+    <title>Podflow</title>
+    <style>
+      html,
+      body {
+        touch-action: pan-x pan-y;
+        -webkit-text-size-adjust: 100%;
+        text-size-adjust: 100%;
+      }
+    </style>
+    <script>
+      // iOS Safari 会忽略 user-scalable=no，这里额外禁用捏合缩放与双击缩放
+      (function () {
+        var blockGesture = function (e) {
+          e.preventDefault();
+        };
+        document.addEventListener("gesturestart", blockGesture, {
+          passive: false,
+        });
+        document.addEventListener("gesturechange", blockGesture, {
+          passive: false,
+        });
+        document.addEventListener("gestureend", blockGesture, {
+          passive: false,
+        });
+
+        // 多指触摸（捏合缩放）
+        document.addEventListener(
+          "touchmove",
+          function (e) {
+            if (e.touches && e.touches.length > 1) {
+              e.preventDefault();
+            }
+          },
+          { passive: false },
+        );
+
+        // 快速双击缩放
+        var lastTouchEnd = 0;
+        document.addEventListener(
+          "touchend",
+          function (e) {
+            var now = Date.now();
+            if (now - lastTouchEnd <= 300) {
+              e.preventDefault();
+            }
+            lastTouchEnd = now;
+          },
+          { passive: false },
+        );
+      })();
+    </script>
+    <link rel="stylesheet" href="/templates/css/prism-tomorrow.min.css" />
+    <link rel="stylesheet" href="/templates/css/index.css" />
+    <link rel="stylesheet" href="/templates/css/config.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <nav id="menu">
+      <div class="menu-header">
+        <span class="menu-app-name">Podflow</span>
+        <h3>菜单栏</h3>
       </div>
-    </div>
-    <div id="version-info">
-      Version: 1.0.2
-    </div>
-  </nav>
-  <button id="toggleMenu" type="button" aria-label="隐藏侧边栏" aria-controls="menu" aria-expanded="true">
-    <svg aria-hidden="true" viewBox="0 0 24 24" focusable="false"><path d="M4 5.5h16M4 12h16M4 18.5h16"/></svg>
-  </button>
-  <div class="top-right-controls">
-      <button id="playlistToggleBtn" class="icon-toggle-btn" type="button" title="切换播客" aria-label="切换播客">
-          <svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h10"/></svg>
+      <ul>
+        <li data-page="pageMessage">Podflow 运行情况</li>
+        <li data-page="pageCustomMedia">添加自定义媒体</li>
+        <li data-page="pageChannel">获取媒体频道 ID</li>
+        <li data-page="pageConfig">修改运行配置</li>
+        <li data-page="pageYoutubeCookie">YouTube🍪修改</li>
+      </ul>
+      <div class="menu-footer">
+        <label class="youtube-cookie-setting" for="alwaysUseYoutubeCookie">
+          <span class="youtube-cookie-copy">
+            <span>YouTube🍪</span>
+            <small id="youtubeCookieStatus"></small>
+          </span>
+          <input type="checkbox" id="alwaysUseYoutubeCookie" role="switch" />
+          <span class="ios-switch" aria-hidden="true"></span>
+        </label>
+        <div class="favorite-update-control">
+          <span id="favoriteUpdateCountdown">倒计运行时间：--:--:--</span>
+          <button
+            type="button"
+            id="immediateUpdateBtn"
+            class="ios-secondary-button"
+            disabled
+          >
+            立即更新
+          </button>
+        </div>
+      </div>
+      <div id="version-info">Version: 1.0.2</div>
+    </nav>
+    <button
+      id="toggleMenu"
+      type="button"
+      aria-label="隐藏侧边栏"
+      aria-controls="menu"
+      aria-expanded="true"
+    >
+      <svg aria-hidden="true" viewBox="0 0 24 24" focusable="false">
+        <path d="M4 5.5h16M4 12h16M4 18.5h16" />
+      </svg>
+    </button>
+    <div class="top-right-controls">
+      <button
+        id="playlistToggleBtn"
+        class="icon-toggle-btn"
+        type="button"
+        title="切换播客"
+        aria-label="切换播客"
+      >
+        <svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h10" /></svg>
       </button>
-  </div>
-  <div id="playlistOverlay" class="playlist-overlay"></div>
-  <aside id="playlistDrawer" class="playlist-drawer" role="dialog" aria-label="播客列表" aria-hidden="true">
+    </div>
+    <div id="playlistOverlay" class="playlist-overlay"></div>
+    <aside
+      id="playlistDrawer"
+      class="playlist-drawer"
+      role="dialog"
+      aria-label="播客列表"
+      aria-hidden="true"
+    >
       <div class="playlist-drawer-header">
-          <span>播客列表</span>
-          <button id="playlistCloseBtn" class="btn" type="button" aria-label="关闭">✕</button>
+        <span>播客列表</span>
       </div>
       <div id="playlistBody" class="playlist-body">
-          <div class="playlist-status">正在加载列表…</div>
+        <div class="playlist-status">正在加载列表…</div>
       </div>
-  </aside>
-  <main id="main">
-    <section id="pageChannel" style="display: none;">
-      <h2>获取媒体频道 ID</h2>
-      <form id="inputForm" method="post" action="getid">
-        <label for="inputOutput">请输入：</label><br>
-        <textarea class="common-area" name="inputOutput" id="inputOutput"></textarea><br>
-        <div class="button-container">
-          <button type="button" id="pasteBtn">📋 粘贴</button>
-          <button type="submit">✅ 提交</button>
-          <button type="button" id="copyBtn">📄 拷贝</button>
-          <button type="button" id="clearBtn">🗑️ 清空</button>
-        </div>
-        <p class="hint">📌 如果粘贴按钮无效，请长按输入框手动粘贴。</p>
-      </form>
-    </section>
+    </aside>
+    <!-- 关闭按钮与 playlistToggleBtn 同外观同位置：抽屉打开时取代其原位显示。
+         需位于 #playlistDrawer 之后，供 "#playlistDrawer.active ~" 选择器联动显隐。 -->
+    <button
+      id="playlistCloseBtn"
+      class="icon-toggle-btn"
+      type="button"
+      title="关闭"
+      aria-label="关闭"
+    >
+      <svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18" /></svg>
+    </button>
+    <main id="main">
+      <section id="pageChannel" style="display: none">
+        <h2>获取媒体频道 ID</h2>
+        <form id="inputForm" method="post" action="getid">
+          <label for="inputOutput">请输入：</label><br />
+          <textarea
+            class="common-area"
+            name="inputOutput"
+            id="inputOutput"
+          ></textarea
+          ><br />
+          <div class="button-container">
+            <button type="button" id="pasteBtn">📋 粘贴</button>
+            <button type="submit">✅ 提交</button>
+            <button type="button" id="copyBtn">📄 拷贝</button>
+            <button type="button" id="clearBtn">🗑️ 清空</button>
+          </div>
+          <div class="button-container">
+            <button type="button" id="addChannelBtn" disabled>
+              ➕ 添加到频道
+            </button>
+          </div>
+          <p class="hint">📌 如果粘贴按钮无效，请长按输入框手动粘贴。</p>
+          <p class="hint">
+            📌 请先成功「提交」获取频道 ID，随后点击上方按钮：将自动判断 YouTube
+            / Bilibili
+            并跳转到「修改运行配置」对应频道页，自动把获取到的频道加入新频道（需再点「保存配置」才会生效）。
+          </p>
+        </form>
+      </section>
 
-    <section id="pageMessage">
-      <h2>Podflow 运行情况</h2>
-      <form>
-        <label>主进度条：</label><br>
-        <div class="pb-bar" id="mainProgressBar">
-          <div class="pb-progress pb-animated" id="mainProgress"></div>
-          <div class="pb-status-text" id="progressStatus">准备中</div>
-          <div class="pb-percentage-text" id="progressPercentage">0.00%</div>
-        </div>
-        <label id="downloadLabel"></label><br>
-        <div class="common-area" id="messageDownload"></div>
-        <label>构建服务：</label><br>
-        <div class="common-area" id="messageArea"></div>
-        <label>收发服务：</label><br>
-        <div class="common-area" id="messageHttp"></div>
-      </form>
-    </section>
+      <section id="pageMessage">
+        <h2>Podflow 运行情况</h2>
+        <form>
+          <label>主进度条：</label><br />
+          <div class="pb-bar" id="mainProgressBar">
+            <div class="pb-progress pb-animated" id="mainProgress"></div>
+            <div class="pb-status-text" id="progressStatus">准备中</div>
+            <div class="pb-percentage-text" id="progressPercentage">0.00%</div>
+          </div>
+          <label id="downloadLabel"></label><br />
+          <div class="common-area" id="messageDownload"></div>
+          <label>构建服务：</label><br />
+          <div class="common-area" id="messageArea"></div>
+          <label>收发服务：</label><br />
+          <div class="common-area" id="messageHttp"></div>
+        </form>
+      </section>
 
-    <section id="pageConfig" style="display: none;">
-      <h2>修改配置</h2>
-      <button type="button" id="toggleConfigDisplay" class="ios-disclosure" aria-expanded="true">
-        <span>配置内容</span><span class="disclosure-icon">⌄</span>
-      </button>
-      <div id="configContent">
-        <div id="configContainer">
-          <p>正在加载配置...</p>
+      <section id="pageConfig" style="display: none">
+        <h2>修改运行配置</h2>
+        <div id="configContent">
+          <div
+            class="config-tabs"
+            id="configTabs"
+            role="tablist"
+            aria-label="配置分区"
+          >
+            <button
+              type="button"
+              class="config-tab active"
+              data-tab="main"
+              role="tab"
+              aria-selected="true"
+            >
+              主配置
+            </button>
+            <button
+              type="button"
+              class="config-tab"
+              data-tab="channelid_youtube"
+              role="tab"
+              aria-selected="false"
+            >
+              YouTube 频道
+            </button>
+            <button
+              type="button"
+              class="config-tab"
+              data-tab="channelid_bilibili"
+              role="tab"
+              aria-selected="false"
+            >
+              Bilibili 频道
+            </button>
+          </div>
+          <div id="configContainer">
+            <p>正在加载配置...</p>
+          </div>
+          <div class="button-container">
+            <button type="button" id="refreshConfigBtn">🔄 刷新配置</button>
+            <button type="button" id="undoConfigBtn" disabled>↩️ 撤销</button>
+            <button type="button" id="saveConfigBtn">💾 保存配置</button>
+          </div>
+          <div id="configStatus" style="margin-top: 10px; color: green"></div>
         </div>
-        <div class="button-container">
-          <button type="button" id="refreshConfigBtn">🔄 刷新配置</button>
-          <button type="button" id="saveConfigBtn">💾 保存配置</button>
-        </div>
-        <div id="configStatus" style="margin-top: 10px; color: green;"></div>
-      </div>
-    </section>
+      </section>
 
-    <section id="pageYoutubeCookie" style="display: none;">
-      <h2>YouTube🍪修改</h2>
-      <p class="hint">📌 路径：channel_data/yt_dlp_youtube.txt（Netscape 格式）</p>
-      <textarea class="common-area" id="youtubeCookieEditor" placeholder="# Netscape HTTP Cookie File
+      <section id="pageCustomMedia" style="display: none">
+        <h2>添加自定义媒体</h2>
+        <!-- novalidate: 关闭浏览器原生url校验, 交由后端统一校验(支持粘贴分享文本) -->
+        <form id="customMediaForm" autocomplete="off" novalidate>
+          <label for="customMediaUrl">请输入链接：</label><br />
+          <!-- 外层容器用于把清空按钮叠放在输入框右端内侧 -->
+          <div class="custom-media-input-wrap">
+            <input
+              type="url"
+              id="customMediaUrl"
+              class="custom-media-input"
+              placeholder="https://www.youtube.com/watch?v=..."
+            />
+            <button
+              type="button"
+              id="customMediaUrlClear"
+              class="custom-media-input-clear"
+              title="清空链接"
+              aria-label="清空链接"
+              >
+              <!-- 图形用 SVG 而非文字字形: ✕ 墨迹在不同字体的 em 盒中不居中 -->
+              <svg viewBox="0 0 12 12" width="12" height="12" aria-hidden="true"><path d="m3 3 6 6M9 3l-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" fill="none"/></svg>
+            </button>
+          </div>
+          <!-- media/quality/audio_track_language 三个下拉沿用「修改运行配置」页的字段行样式,
+               行结构(.config-item/.field-label/.field-hint)及候选数据见 config.css 与后端 config_desc -->
+          <div class="config-item" id="customMediaMediaItem">
+            <div class="field-label">
+              <label for="customMediaType">media:</label>
+              <p class="field-hint">下载媒体类型</p>
+            </div>
+            <select id="customMediaType" class="custom-media-select">
+              <option value="m4a" selected>m4a 音频</option>
+              <option value="mp4">mp4 视频</option>
+            </select>
+          </div>
+          <div class="config-item" id="customMediaQualityItem" hidden>
+            <div class="field-label">
+              <label for="customMediaQuality">quality:</label>
+              <p class="field-hint">媒体分辨率(仅在media为视频时有效)</p>
+            </div>
+            <select
+              id="customMediaQuality"
+              class="custom-media-select"
+            ></select>
+          </div>
+          <div class="config-item" id="customMediaLanguageItem">
+            <div class="field-label">
+              <label for="customMediaLanguage">audio_track_language:</label>
+              <p class="field-hint">音频轨道语言(默认为中文)</p>
+            </div>
+            <select id="customMediaLanguage" class="custom-media-select">
+              <option value="zh" selected>zh 中文</option>
+            </select>
+          </div>
+          <div class="button-container">
+            <button type="submit" id="customMediaDownloadBtn">⬇️ 下载</button>
+          </div>
+          <p class="hint">
+            📌
+            点击下载后，链接、媒体格式、画质及音频轨道语言将以字典形式添加至自定义媒体列表；链接会自动格式化，相同链接仅保留一条（视频优先于音频，画质高者优先）。
+          </p>
+        </form>
+        <div class="custom-media-list-header">
+          <label>已添加的媒体：</label>
+          <button
+            type="button"
+            id="customMediaRefreshBtn"
+            class="custom-media-refresh-btn"
+          >
+            🔄 刷新
+          </button>
+        </div>
+        <div class="custom-media-list" id="customMediaList"></div>
+        <p class="hint">
+          📌 状态由后台自动更新：<span class="status-text-preparing"
+            >准备中</span
+          >
+          / <span class="status-text-completed">已完成</span> /
+          <span class="status-text-failed">失败</span>；使用
+          <strong>↑ ↓</strong> 调整下载顺序，使用 <strong>✕</strong> 删除。
+        </p>
+        <div id="customMediaStatus" style="margin-top: 10px"></div>
+        <div id="customMediaBusyHint" class="custom-media-busy-hint" hidden>
+          ⏳ 后台正在处理自定义媒体，所有操作按钮已暂时禁用（🔄 刷新仍可使用）
+        </div>
+      </section>
+
+      <section id="pageYoutubeCookie" style="display: none">
+        <h2>YouTube🍪修改</h2>
+        <p class="hint">
+          📌 路径：channel_data/yt_dlp_youtube.txt（Netscape 格式）
+        </p>
+        <textarea
+          class="common-area"
+          id="youtubeCookieEditor"
+          placeholder="# Netscape HTTP Cookie File
 .youtube.com	TRUE	/	TRUE	0	GPS	1
-..."></textarea>
-      <div class="button-container">
-        <button type="button" id="refreshYoutubeCookieBtn">🔄 刷新</button>
-        <button type="button" id="saveYoutubeCookieBtn">💾 保存</button>
-      </div>
-      <div id="youtubeCookieStatus" style="margin-top: 10px;"></div>
-    </section>
+..."
+        ></textarea>
+        <div class="button-container">
+          <button type="button" id="refreshYoutubeCookieBtn">🔄 刷新</button>
+          <button type="button" id="saveYoutubeCookieBtn">💾 保存</button>
+        </div>
+        <div id="youtubeCookieStatus" style="margin-top: 10px"></div>
+      </section>
 
-  </main>
-  <div id="menuBackdrop" aria-hidden="true"></div>
+      <section id="pageDebugVariable" style="display: none">
+        <h2>变量查询</h2>
+        <label for="debugVariableInput">输入变量或代码段：</label><br />
+        <div class="debug-box-wrap">
+          <pre
+            class="common-area debug-output"
+            id="debugVariableInput"
+            contenteditable="true"
+            spellcheck="false"
+            autocapitalize="off"
+            autocorrect="off"
+            autocomplete="off"
+            data-placeholder="例如：gVar.config"
+            role="textbox"
+            aria-multiline="true"
+            aria-label="输入变量或代码段"
+          ></pre>
+          <button
+            type="button"
+            class="debug-box-btn"
+            id="debugInputCopyBtn"
+            title="复制输入"
+            aria-label="复制输入"
+          >
+            <!-- 图形用 SVG 而非文字字形: ❐/✕ 墨迹在不同字体的 em 盒中不居中 -->
+            <svg viewBox="0 0 12 12" width="12" height="12" aria-hidden="true"><rect x="4" y="4" width="6" height="6" rx="1.5" stroke="currentColor" stroke-width="1.3" fill="none"/><path d="M2.5 7.5v-4A1.5 1.5 0 0 1 4 2h4" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" fill="none"/></svg>
+            <svg class="icon-ok" viewBox="0 0 12 12" width="12" height="12" aria-hidden="true"><path d="M2.5 6.5 5 9l4.5-6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+          </button>
+          <button
+            type="button"
+            class="debug-box-btn"
+            id="debugInputClearBtn"
+            title="清除输入"
+            aria-label="清除输入"
+          >
+            <svg viewBox="0 0 12 12" width="12" height="12" aria-hidden="true"><path d="m3 3 6 6M9 3l-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" fill="none"/></svg>
+          </button>
+        </div>
+        <div class="button-container">
+          <button type="button" id="debugVariableBtn">🔍 查询</button>
+        </div>
+        <label for="debugVariableOutput">输出：</label><br />
+        <div class="debug-box-wrap">
+          <pre
+            class="common-area debug-output"
+          ><code class="language-plain" id="debugVariableOutput"></code></pre>
+          <button
+            type="button"
+            class="debug-box-btn"
+            id="debugOutputCopyBtn"
+            title="复制输出"
+            aria-label="复制输出"
+          >
+            <svg viewBox="0 0 12 12" width="12" height="12" aria-hidden="true"><rect x="4" y="4" width="6" height="6" rx="1.5" stroke="currentColor" stroke-width="1.3" fill="none"/><path d="M2.5 7.5v-4A1.5 1.5 0 0 1 4 2h4" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" fill="none"/></svg>
+            <svg class="icon-ok" viewBox="0 0 12 12" width="12" height="12" aria-hidden="true"><path d="M2.5 6.5 5 9l4.5-6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+          </button>
+        </div>
+        <label>历史记录：</label>
+        <div id="debugVariableHistory" class="debug-history"></div>
+      </section>
+    </main>
+    <div id="menuBackdrop" aria-hidden="true"></div>
 
-
-
-  <script src="/templates/js/index.js"></script>
-  <script src="/templates/js/qrcode.min.js"></script>
-  <script src="/templates/js/config.js"></script>
-  <script src="/templates/js/youtube_cookie.js"></script>
-</body>
+    <script src="/templates/js/prism.min.js" data-manual></script>
+    <script src="/templates/js/prism-python.min.js"></script>
+    <script src="/templates/js/prism-json.min.js"></script>
+    <script src="/templates/js/index.js"></script>
+    <script src="/templates/js/qrcode.min.js"></script>
+    <script src="/templates/js/custom_select.js"></script>
+    <script src="/templates/js/config.js"></script>
+    <script src="/templates/js/custom_media.js"></script>
+    <script src="/templates/js/youtube_cookie.js"></script>
+  </body>
 </html>
