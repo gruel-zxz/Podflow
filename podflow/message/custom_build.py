@@ -96,7 +96,7 @@ def custom_build():
         gVar.config["link"],
         gVar.config["description"],
         gVar.config["category"],
-        gVar.config["icon"],
+        "https://raw.githubusercontent.com/gruel-zxz/podflow/main/Custom.png",
         "\n".join(items_list),
     )
     # 保存自定义媒体rss, 并记录本次构建时的版本号
