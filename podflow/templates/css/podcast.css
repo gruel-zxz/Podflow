@@ -72,7 +72,7 @@ body {
     top: var(--title-bar-h);
     z-index: 50;
     background: var(--bg-color);
-    border-radius: 0 0 var(--radius-md) var(--radius-md);
+    /* 不设圆角: 底部左右圆角的缺口会露出滚动的episode-item, 无法完全遮挡 */
 }
 
 .header-card {
@@ -137,6 +137,18 @@ body {
     box-shadow: 0 0 0 3px var(--progress-bar-glow);
 }
 
+/* 播放状态筛选下拉: 未播放/已播放/全部 */
+.filter-select {
+    padding: 10px 12px; border-radius: var(--radius-md);
+    border: 1px solid var(--input-border); background: var(--input-bg);
+    color: var(--text-color); outline: none; font-size: 0.9rem;
+    cursor: pointer; transition: border-color 0.2s, box-shadow 0.2s;
+}
+.filter-select:focus {
+    border-color: var(--button-bg);
+    box-shadow: 0 0 0 3px var(--progress-bar-glow);
+}
+
 /* 次级 iOS 风格按钮：排序切换、播放器控制条、抽屉里的按钮 */
 .btn {
     padding: 10px 14px; border-radius: var(--radius-md); border: none;
@@ -178,6 +190,7 @@ body {
     display: inline-block; padding: 2px 6px; background: var(--button-bg); color: #fff;
     border-radius: var(--radius-sm); font-size: 0.7rem; margin-left: 6px; vertical-align: middle;
 }
+.badge.done { background: var(--progress-bar-color); }
 
 .progress-bar-bg { position: absolute; bottom: 0; left: 0; right: 0; height: 3px; background: var(--background-bar-color); }
 .progress-bar-fill { height: 100%; background: var(--progress-bar-color); width: 0%; }
@@ -307,17 +320,37 @@ body {
     box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(18px) saturate(160%);
     -webkit-backdrop-filter: blur(18px) saturate(160%);
-    transition: color 0.2s, background-color 0.2s, transform 0.2s;
+    transition: color 0.2s, background-color 0.2s, transform 0.2s, opacity 0.2s, visibility 0.2s;
     padding: 0; margin: 0;
 }
 /* 返回主页：左上角，和 index.css 菜单栏按钮同一个位置 */
 #homeBtn { left: max(12px, env(safe-area-inset-left, 0px)); }
-/* 播放列表切换：右上角，与返回按钮左右对称 */
-#playlistToggleBtn { right: max(12px, env(safe-area-inset-right, 0px)); }
+/* 播放列表切换与抽屉关闭：右上角，抽屉打开时关闭按钮取代切换按钮的原位 */
+#playlistToggleBtn, #playlistCloseBtn { right: max(12px, env(safe-area-inset-right, 0px)); }
 
 .icon-toggle-btn svg { width: 21px; height: 21px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
 .icon-toggle-btn:hover { color: #007aff; background: var(--menu-selected-bg); }
 .icon-toggle-btn:active { transform: scale(0.94); }
+/* 播客抽屉打开时隐藏切换按钮：按钮 fixed 层级(1002)高于抽屉(200)，
+    否则会叠在抽屉右上角的关闭按钮上。 */
+.icon-toggle-btn.drawer-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+/* 抽屉关闭按钮：复用切换按钮外观与位置(.icon-toggle-btn)，仅在抽屉打开时显示，
+    关闭后让位给切换按钮。层级与切换按钮一致(1002)，高于标题栏(900)。 */
+#playlistCloseBtn {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+#playlistDrawer.active ~ #playlistCloseBtn {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
 
 @media (max-width: 600px) {
     .icon-toggle-btn { top: max(8px, env(safe-area-inset-top, 0px)); }
@@ -350,7 +383,10 @@ body {
 
 .playlist-drawer {
     position: fixed;
-    top: 0; right: 0; bottom: 0;
+    /* 顶部让开固定标题栏(44px 行高 + 12px 下内边距 + 安全区)，
+        否则抽屉头部连同关闭按钮会被标题栏(z-index: 900)盖住。 */
+    top: calc(56px + max(12px, env(safe-area-inset-top, 0px)));
+    right: 0; bottom: 0;
     width: min(320px, 85vw);
     background: color-mix(in srgb, var(--menu-bg) 96%, transparent);
     backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
@@ -359,7 +395,6 @@ body {
     display: flex; flex-direction: column;
     transform: translateX(100%);
     transition: transform 0.25s ease;
-    padding-top: env(safe-area-inset-top, 0px);
     padding-bottom: env(safe-area-inset-bottom, 0px);
 }
 .playlist-drawer.active { transform: translateX(0); }
@@ -391,6 +426,19 @@ body {
 
 .playlist-status { color: var(--secondary-text); font-size: 0.85rem; padding: 20px 10px; text-align: center; }
 .playlist-retry-btn { display: block; margin: 10px auto 0; }
+/* 工具栏区域下方的渐隐条: 从下到上由透明渐变为不透明(与背景同色), 滚动内容经过时渐隐 */
+.toolbar { position: relative; }
+.toolbar::after {
+    content: "";
+    position: absolute;
+    left: -15px; right: -15px;   /* 扩到容器内边距边缘, 与卡片区域同宽 */
+    top: 100%;
+    height: 40px;
+    background: linear-gradient(to bottom, var(--bg-color), transparent);
+    pointer-events: none;
+    z-index: -1;   /* 绘制在工具栏元素之下(搜索框聚焦光圈不被遮挡), 仍盖住滚动的列表内容 */
+}
+
 @media (max-width: 600px) {
     .player-controls {
         gap: 2px;
@@ -410,4 +458,13 @@ body {
     .rate-btn {
         font-size: 13px;
     }
+}
+
+/* 手机端: 筛选/搜索/继续播放/排序四个元素保持在一行 */
+@media (max-width: 600px) {
+    .toolbar { flex-wrap: nowrap; }
+    /* 搜索框尽量缩短: min-width归零允许被压缩到一行放得下 */
+    .search-input { flex: 1 1 0; min-width: 0; padding: 10px 8px; }
+    .filter-select { padding: 10px 6px; }
+    .toolbar .btn { padding: 10px 10px; }
 }

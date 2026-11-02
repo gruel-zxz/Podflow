@@ -120,7 +120,10 @@
 
             playlistOpen: false,
             playlistCache: null,
-            playlistLoading: false
+            playlistLoading: false,
+
+            lastPlayed: null,
+            playFilter: "all"   // 播放状态筛选(未播放/已播放/全部), 默认全部
         },
 
         $: {},
@@ -128,7 +131,6 @@
 
         init() {
             this.cacheElements();
-            this.state.progressData = this.readProgress();
             this.bindEvents();
             this.setupIntersectionObserver();
             this.loadPlaylist();   // 播放列表随时可能变化，页面一打开就去要最新的，不等用户点开抽屉
@@ -144,6 +146,8 @@
             }
 
             this.state.rssUrl = url;
+            // 播放进度按xml(播客地址)分组存放, 确定地址后才能加载当前播客的进度
+            this.progressReady = this.loadProgressFromServer();
             this.loadFeed();
         },
 
@@ -154,7 +158,8 @@
                 "sortBtn", "episodeList", "playerBar", "mediaContainer",
                 "mediaPlayer", "playerTitle", "playerSub", "playBtn", "rwBtn",
                 "ffBtn", "rateBtn", "currentTime", "duration", "seekSlider", "loadMoreSentinel",
-                "playlistToggleBtn", "playlistOverlay", "playlistDrawer", "playlistCloseBtn", "playlistBody", "homeBtn"
+                "playlistToggleBtn", "playlistOverlay", "playlistDrawer", "playlistCloseBtn", "playlistBody", "homeBtn",
+                "continueBtn", "filterSelect"
             ].forEach(id => this.$[id] = document.getElementById(id));
         },
 
@@ -288,6 +293,14 @@
             $.rwBtn.addEventListener("click", () => this.seekRelative(-15));
             $.ffBtn.addEventListener("click", () => this.seekRelative(15));
             $.rateBtn.addEventListener("click", () => this.changeRate());
+            $.continueBtn.addEventListener("click", () => this.continuePlayback());
+
+            // 播放状态筛选: 切换后立即重筛并把选项保存到服务器
+            $.filterSelect.addEventListener("change", () => {
+                this.state.playFilter = $.filterSelect.value;
+                this.savePlayFilter();
+                this.resetAndFilterEpisodes();
+            });
 
             $.seekSlider.addEventListener("pointerdown", () => this.state.isSeeking = true);
             $.seekSlider.addEventListener("change", () => {
@@ -301,9 +314,10 @@
 
             $.mediaPlayer.addEventListener("timeupdate", () => {
                 this.updateProgressUI();
-                this.saveProgress(true);
+                // 播到结尾时的收尾保存交给ended流程, 避免其提前重筛导致playNext定位失效
+                if (!$.mediaPlayer.ended) this.saveProgress(true);
             });
-            $.mediaPlayer.addEventListener("ended", () => { this.saveProgress(); this.playNext(); });
+            $.mediaPlayer.addEventListener("ended", () => { this.playNext(); });
             $.mediaPlayer.addEventListener("play", () => {
                 $.playBtn.classList.add("playing");
                 $.playBtn.title = "暂停";
@@ -313,7 +327,8 @@
                 $.playBtn.classList.remove("playing");
                 $.playBtn.title = "播放";
                 $.playBtn.setAttribute("aria-label", "播放");
-                this.saveProgress();
+                // 播放结束时会先触发pause事件, 此时跳过保存, 由ended流程统一处理
+                if (!$.mediaPlayer.ended) this.saveProgress();
             });
             $.mediaPlayer.addEventListener("loadedmetadata", () => {
                 this.restoreProgress();
@@ -765,12 +780,21 @@
                 all = all.filter(ep => ep.origin !== excludeOrigin);
             }
 
+            // 搜索时不受播放状态筛选的影响, 仅在无搜索词时应用筛选
             this.state.filteredEpisodes = (query
                 ? all.filter(ep => ep.title.toLowerCase().includes(query))
-                : all
+                : all.filter(ep => this.matchPlayFilter(ep))
             ).sort((a, b) => this.state.sortNewestFirst ? b.date - a.date : a.date - b.date);
 
             this.refreshEmptyStatus();
+        },
+
+        // 播放状态筛选: 未播放(未播放完毕, 含从未播放过) / 已播放(已播放完毕)
+        matchPlayFilter(ep) {
+            const saved = this.state.progressData[ep.guid];
+            if (this.state.playFilter === "unplayed") return !(saved && saved.completed);
+            if (this.state.playFilter === "played") return !!(saved && saved.completed);
+            return true;
         },
 
         resetAndFilterEpisodes() {
@@ -823,8 +847,9 @@
             node.append(cover, content);
 
             const saved = this.state.progressData[ep.guid];
-            const percent = saved && saved.duration ? (saved.time / saved.duration) * 100 : 0;
-            if (percent > 0) node.appendChild(this.createProgressBar(percent));
+            const info = this.progressInfo(saved);
+            if (info && info.completed) title.appendChild(this.createCompletedBadge());
+            if (info && info.percent > 0) node.appendChild(this.createProgressBar(info.percent));
 
             node.addEventListener("click", () => this.playEpisode(ep));
             node.addEventListener("keydown", (e) => {
@@ -907,7 +932,7 @@
 
         /* ---------- 播放 ---------- */
 
-        playEpisode(ep) {
+        async playEpisode(ep) {
             this.saveProgress();
             this.state.currentEpisode = ep;
 
@@ -920,6 +945,9 @@
             $.episodeList.querySelectorAll(".episode-item.playing").forEach(n => n.classList.remove("playing"));
             const node = $.episodeList.querySelector(`[data-guid="${CSS.escape(ep.guid)}"]`);
             if (node) node.classList.add("playing");
+
+            // 等服务端播放进度到位后再装填媒体, 保证跨终端首次播放也能续播
+            await this.progressReady;
 
             $.mediaPlayer.src = ep.url;
             $.mediaPlayer.playbackRate = this.state.playbackRate;
@@ -950,9 +978,26 @@
         changeRate() {
             const rates = [0.75, 1.0, 1.25, 1.5, 2.0];
             const idx = rates.indexOf(this.state.playbackRate);
-            this.state.playbackRate = rates[(idx + 1) % rates.length];
-            this.$.mediaPlayer.playbackRate = this.state.playbackRate;   // 立即生效，而不是等下一集
-            this.$.rateBtn.textContent = `${this.state.playbackRate.toFixed(2).replace(/0$/, "")}x`;
+            this.applyPlaybackRate(rates[(idx + 1) % rates.length]);   // 立即生效，而不是等下一集
+            this.saveRate();
+        },
+
+        // 应用播放速率(切换或从服务器恢复时调用)
+        applyPlaybackRate(rate) {
+            if (typeof rate !== "number" || !(rate >= 0.5 && rate <= 4)) return;
+            this.state.playbackRate = rate;
+            this.$.mediaPlayer.playbackRate = rate;
+            this.$.rateBtn.textContent = `${rate.toFixed(2).replace(/0$/, "")}x`;
+        },
+
+        // 播放速率保存到服务器(按xml独立), 失败不影响切换
+        saveRate() {
+            fetch("/playback-history", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ url: this.state.rssUrl, rate: this.state.playbackRate }),
+                keepalive: true
+            }).catch(e => console.warn("播放速率无法保存到服务器：", e));
         },
 
         requestVideoFullscreen() {
@@ -970,6 +1015,8 @@
             this.$.playlistDrawer.classList.add("active");
             this.$.playlistOverlay.classList.add("active");
             this.$.playlistDrawer.setAttribute("aria-hidden", "false");
+            // 抽屉打开时隐藏切换按钮，避免覆盖抽屉右上角的关闭按钮
+            if (this.$.playlistToggleBtn) this.$.playlistToggleBtn.classList.add("drawer-hidden");
             this.loadPlaylist();   // 列表随时会变，每次打开都重新要一份最新的，不用缓存
         },
 
@@ -978,6 +1025,7 @@
             this.$.playlistDrawer.classList.remove("active");
             this.$.playlistOverlay.classList.remove("active");
             this.$.playlistDrawer.setAttribute("aria-hidden", "true");
+            if (this.$.playlistToggleBtn) this.$.playlistToggleBtn.classList.remove("drawer-hidden");
         },
 
         async loadPlaylist() {
@@ -1096,12 +1144,95 @@
 
         /* ---------- 进度存储 ---------- */
 
-        readProgress() {
+        // 从服务器读取播放进度(channel_data/playback_history.json), 跨终端共享
+        // 文件按xml(播客地址)分组, 这里只取当前播客自己的单集进度与最后播放内容
+        // 读取失败时进度保持为空字典, 仅影响续播与进度条显示, 不影响播放
+        async loadProgressFromServer() {
             try {
-                return JSON.parse(localStorage.getItem("podcast_progress") || "{}");
+                const res = await fetch("/playback-history", { cache: "no-cache" });
+                if (!res.ok) throw new Error(`HTTP ${res.status}`);
+                const data = await res.json();
+                if (data && typeof data === "object" && !Array.isArray(data)) {
+                    const feedData = data[this.state.rssUrl] || {};
+                    this.state.progressData = feedData.episodes || {};
+                    this.state.lastPlayed = feedData.last_played || null;
+                    // 恢复该播客的播放速率(默认1.0)与筛选选项(默认全部)
+                    this.applyPlaybackRate(feedData.rate);
+                    this.refreshAllProgressBars();
+                    this.updateContinueBtn();
+                    if (["unplayed", "played"].includes(feedData.filter)) {
+                        this.state.playFilter = feedData.filter;
+                        this.$.filterSelect.value = feedData.filter;
+                        this.resetAndFilterEpisodes();
+                    }
+                }
             } catch (e) {
-                return {};
+                console.warn("加载播放进度失败：", e);
             }
+        },
+
+        // 播放状态筛选选项保存到服务器, 失败不影响筛选本身
+        savePlayFilter() {
+            fetch("/playback-history", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ url: this.state.rssUrl, filter: this.state.playFilter }),
+                keepalive: true
+            }).catch(e => console.warn("筛选选项无法保存到服务器：", e));
+        },
+
+        // 数据到达时列表可能已经渲染, 把已渲染单集的进度条刷新一遍
+        refreshAllProgressBars() {
+            for (const guid of Object.keys(this.state.progressData)) {
+                this.updateEpisodeProgressBar(guid);
+            }
+        },
+
+        // 由播放记录计算进度信息: 已听完按100%计
+        progressInfo(saved) {
+            if (!saved || !saved.duration) return null;
+            return {
+                completed: !!saved.completed,
+                percent: saved.completed ? 100 : (saved.time / saved.duration) * 100
+            };
+        },
+
+        createCompletedBadge() {
+            const badge = document.createElement("span");
+            badge.className = "badge done";
+            badge.textContent = "已播放";
+            return badge;
+        },
+
+        // 当前播客有最后播放内容时才显示继续播放按钮
+        updateContinueBtn() {
+            const btn = this.$.continueBtn;
+            if (!btn) return;
+            if (this.state.lastPlayed && this.state.lastPlayed.guid) {
+                btn.style.display = "";
+                btn.title = `继续播放：${this.state.lastPlayed.title || "上次的单集"}`;
+            } else {
+                btn.style.display = "none";
+            }
+        },
+
+        // 继续播放当前播客上次播放的单集
+        continuePlayback() {
+            const last = this.state.lastPlayed;
+            if (!last || !last.guid) return;
+            // 单集已在列表中时用列表数据(封面等信息更全),
+            // 尚未加载到列表(分片未读到)时直接用记录里的媒体地址续播
+            const ep = this.state.episodesMap.get(last.guid) || {
+                guid: last.guid,
+                title: last.title || "继续播放",
+                date: 0,
+                url: last.media_url || "",
+                image: "",
+                isVideo: !!last.isVideo,
+                origin: "forward"
+            };
+            if (!ep.url) return;
+            this.playEpisode(ep);
         },
 
         saveProgress(throttled = false) {
@@ -1113,30 +1244,66 @@
             if (throttled && now - this.state.lastSaveAt < 5000) return;
             this.state.lastSaveAt = now;
 
-            this.state.progressData[ep.guid] = {
+            // 记录跨过"已播放"分界前后的状态, 供筛选刷新判断
+            const wasCompleted = !!(this.state.progressData[ep.guid] || {}).completed;
+            const record = {
                 time: player.currentTime,
                 duration: player.duration,
-                updated: now
+                updated: now,
+                // 播放位置到达结尾5秒内视为已听完; 仅在暂停或已播完时认定,
+                // 播放中不认定, 避免最后5秒内提前触发重筛导致playNext定位失效
+                completed:
+                    player.duration - player.currentTime <= 5 &&
+                    (player.paused || player.ended)
             };
+            this.state.progressData[ep.guid] = record;
 
-            try {
-                localStorage.setItem("podcast_progress", JSON.stringify(this.state.progressData));
-            } catch (e) {
-                console.warn("进度无法写入本地存储：", e);
+            // 同步本地的最后播放内容并保持继续播放按钮可用
+            this.state.lastPlayed = {
+                guid: ep.guid,
+                title: ep.title,
+                media_url: ep.url,
+                isVideo: !!ep.isVideo,
+                ...record
+            };
+            this.updateContinueBtn();
+
+            // 直接覆盖保存到服务器的播放记录文件, 失败不影响播放
+            fetch("/playback-history", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ url: this.state.rssUrl, guid: ep.guid, ...record, ...this.state.lastPlayed, rate: this.state.playbackRate }),
+                keepalive: true
+            }).catch(e => console.warn("进度无法保存到服务器：", e));
+
+            // 跨过"已播放"分界且筛选生效时重筛列表(如"未播放"下播完的单集从列表消失)
+            if (record.completed !== wasCompleted && this.state.playFilter !== "all") {
+                this.resetAndFilterEpisodes();
+                // 保持正在播放单集的高亮(重筛后节点已重建)
+                const playingNode = this.$.episodeList.querySelector(
+                    `[data-guid="${CSS.escape(ep.guid)}"]`
+                );
+                if (playingNode) playingNode.classList.add("playing");
+            } else {
+                this.updateEpisodeProgressBar(ep.guid);
             }
-
-            this.updateEpisodeProgressBar(ep.guid, (player.currentTime / player.duration) * 100);
         },
 
-        updateEpisodeProgressBar(guid, percent) {
+        updateEpisodeProgressBar(guid) {
             const node = this.$.episodeList.querySelector(`[data-guid="${CSS.escape(guid)}"]`);
             if (!node) return;
-            let fill = node.querySelector(".progress-bar-fill");
-            if (!fill) {
-                node.appendChild(this.createProgressBar(percent));
+            const info = this.progressInfo(this.state.progressData[guid]);
+            if (!info || info.percent <= 0) return;
+            // 同步"已听完"标记(重新收听中途的单集会移除标记)
+            const titleEl = node.querySelector(".episode-title");
+            const oldBadge = titleEl && titleEl.querySelector(".badge.done");
+            if (info.completed && titleEl && !oldBadge) titleEl.appendChild(this.createCompletedBadge());
+            else if (!info.completed && oldBadge) oldBadge.remove();
+            let fill = node.querySelector(".progress-bar-fill");            if (!fill) {
+                node.appendChild(this.createProgressBar(info.percent));
                 return;
             }
-            fill.style.width = Math.min(100, percent) + "%";
+            fill.style.width = Math.min(100, info.percent) + "%";
         },
 
         restoreProgress() {
@@ -1149,9 +1316,12 @@
         },
 
         playNext() {
+            // 先定位下一单集再保存进度: 播完的当前单集可能因重筛从列表中消失
             const list = this.state.filteredEpisodes;
             const idx = list.findIndex(e => this.state.currentEpisode && e.guid === this.state.currentEpisode.guid);
-            if (idx >= 0 && idx < list.length - 1) this.playEpisode(list[idx + 1]);
+            const next = idx >= 0 && idx < list.length - 1 ? list[idx + 1] : null;
+            this.saveProgress();
+            if (next) this.playEpisode(next);
         },
 
         playPrevious() {

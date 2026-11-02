@@ -2,9 +2,38 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, viewport-fit=cover">
     <meta name="referrer" content="no-referrer">
     <title>播客播放器</title>
+    <style>
+        html, body {
+            touch-action: pan-x pan-y;
+            -webkit-text-size-adjust: 100%;
+            text-size-adjust: 100%;
+        }
+    </style>
+    <script>
+        // iOS Safari 会忽略 user-scalable=no，这里额外禁用捏合缩放与双击缩放
+        (function () {
+            var blockGesture = function (e) { e.preventDefault(); };
+            document.addEventListener('gesturestart', blockGesture, { passive: false });
+            document.addEventListener('gesturechange', blockGesture, { passive: false });
+            document.addEventListener('gestureend', blockGesture, { passive: false });
+
+            // 多指触摸（捏合缩放）
+            document.addEventListener('touchmove', function (e) {
+                if (e.touches && e.touches.length > 1) { e.preventDefault(); }
+            }, { passive: false });
+
+            // 快速双击缩放
+            var lastTouchEnd = 0;
+            document.addEventListener('touchend', function (e) {
+                var now = Date.now();
+                if (now - lastTouchEnd <= 300) { e.preventDefault(); }
+                lastTouchEnd = now;
+            }, { passive: false });
+        })();
+    </script>
     <link rel="stylesheet" href="/templates/css/podcast.css" />
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
@@ -24,12 +53,16 @@
 <aside id="playlistDrawer" class="playlist-drawer" role="dialog" aria-label="播客列表" aria-hidden="true">
     <div class="playlist-drawer-header">
         <span>播客列表</span>
-        <button id="playlistCloseBtn" class="btn" type="button" aria-label="关闭">✕</button>
     </div>
     <div id="playlistBody" class="playlist-body">
         <div class="playlist-status">正在加载列表…</div>
     </div>
 </aside>
+<!-- 关闭按钮与 playlistToggleBtn 同外观同位置：抽屉打开时取代其原位显示。
+     需位于 #playlistDrawer 之后，供 "#playlistDrawer.active ~" 选择器联动显隐。 -->
+<button id="playlistCloseBtn" class="icon-toggle-btn" type="button" title="关闭" aria-label="关闭">
+    <svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg>
+</button>
 
 <div class="container">
     <div id="statusView" class="status-view">正在读取播客 RSS…</div>
@@ -45,7 +78,13 @@
         </div>
 
         <div id="toolbar" class="toolbar" style="display: none;">
+            <select id="filterSelect" class="filter-select" aria-label="按播放状态筛选">
+                <option value="unplayed">未播放</option>
+                <option value="played">已播放</option>
+                <option value="all" selected>全部</option>
+            </select>
             <input type="text" id="searchInput" class="search-input" placeholder="搜索单集…">
+            <button id="continueBtn" class="btn" style="display: none;" title="继续播放">继续播放</button>
             <button id="sortBtn" class="btn">最新在前</button>
         </div>
     </div>
