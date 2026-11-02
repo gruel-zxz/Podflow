@@ -80,6 +80,17 @@ def parse_arguments():
         metavar="Variable",
         help="Used during testing",
     )
+    parser.add_argument(
+        "-u",
+        "--skipupdate",
+        action="store_true",
+        help="Used during testing",
+    )
+    parser.add_argument(
+        "--debugvariable",
+        action="store_true",
+        help="Enable the hidden variable query test page (open by clicking version-info 3 times)",
+    )
     parser.add_argument("--file", nargs="?", help=argparse.SUPPRESS)  # 仅运行在ipynb中
     # 解析参数
     args = parser.parse_args()
@@ -91,6 +102,8 @@ def parse_arguments():
     parse.upload = args.upload
     parse.index = args.index
     parse.save = args.save
+    parse.skip_update = args.skipupdate
+    parse.debug_variable = args.debugvariable
     # 检查并处理参数的状态
     if args.times is not None:
         parse.update_num = int(args.times[0])
