@@ -156,12 +156,16 @@ def main_podcast():
         if upload_url:
             thread_upload = threading.Thread(target=all_upload, args=(upload_url,))
             thread_upload.start()
-        # 更新Youtube和哔哩哔哩频道xml
-        update_youtube_bilibili_rss()
-        progress_update(0.1)
-        # 判断是否有更新内容
-        if gVar.channelid_youtube_ids_update or gVar.channelid_bilibili_ids_update:
-            gVar.update_generate_rss = True
+        if parse.skip_update:
+            parse.skip_update = False
+            gVar.update_generate_rss = False
+        else:
+            # 更新Youtube和哔哩哔哩频道xml
+            update_youtube_bilibili_rss()
+            progress_update(0.1)
+            # 判断是否有更新内容
+            if gVar.channelid_youtube_ids_update or gVar.channelid_bilibili_ids_update:
+                gVar.update_generate_rss = True
         if gVar.update_generate_rss:
             # 根据日出日落修改封面(只适用原封面)
             channge_icon()
@@ -260,12 +264,14 @@ def main_podcast():
             if upload_url:
                 thread_upload.join()
             time_print("频道无更新内容")
+            progress_update(1, refresh=3)
         # 保存需要的变量
         if parse.save:
             for save_data in parse.save:
                 file_data = getattr(gVar, save_data, None)
                 if file_data:
                     file_save(file_data, f"{save_data}.json")
+
         # 清空变量内数据
         gVar.channelid_youtube_ids_update.clear()  # 需更新的YouTube频道字典
         gVar.youtube_content_ytid_update.clear()  # 需下载YouTube视频字典
