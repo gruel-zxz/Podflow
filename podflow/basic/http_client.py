@@ -28,7 +28,6 @@ def http_client(
         headers_youtube ={
             "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
             "Referer": "https://www.google.com/",
-            "Accept-Encoding": "gzip, deflate, br",
         }
         user_agent |= headers_youtube
     elif "douyin" in url:
