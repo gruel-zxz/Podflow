@@ -128,7 +128,7 @@ def get_bilibili_cid(bvid, bilibili_value, sequence=True):
     def get_edge_info(bvid, bilibili_value, graph_version, edge_id):
         if edgeinfo_v2_response := http_client(
             "https://api.bilibili.com/x/stein/edgeinfo_v2",
-            f"{bilibili_value}|{bvid}",
+            f"{bilibili_value}|{bvid}" if bilibili_value else "",
             10,
             4,
             True,
@@ -166,7 +166,7 @@ def get_bilibili_cid(bvid, bilibili_value, sequence=True):
         graph_version = ""
         if playerwbi_response := http_client(
             "https://api.bilibili.com/x/player/wbi/v2",
-            f"{bilibili_value}|{bvid}",
+            f"{bilibili_value}|{bvid}" if bilibili_value else "",
             10,
             4,
             True,
@@ -182,7 +182,7 @@ def get_bilibili_cid(bvid, bilibili_value, sequence=True):
     # 判断媒体类型
     if interface_response := http_client(
         "https://api.bilibili.com/x/web-interface/wbi/view",
-        f"{bilibili_value}|{bvid}",
+        f"{bilibili_value}|{bvid}" if bilibili_value else "",
         10,
         4,
         True,
