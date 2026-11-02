@@ -191,8 +191,8 @@ def correct_channelid(channelid, website):
                 channelid[channelid_key]["last_size"],
                 channelid[channelid_key]["update_size"],
             )
-            # 对title进行纠正
-            if "title" not in channelid_value:
+            # 对title进行纠正（缺字段或为空串时以频道名 key 为默认）
+            if not channelid_value.get("title"):
                 channelid[channelid_key]["title"] = channelid_key
             # 对quality进行纠正
             if (

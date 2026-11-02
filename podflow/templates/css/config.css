@@ -1,9 +1,37 @@
 /* ===== iOS-style Configuration Page ===== */
-#pageConfig { max-width: 720px; }
-#pageConfig h2 { margin-bottom: 18px; }
-#configContainer { padding: 0; }
 
-#pageConfig label {
+/* 输入控件专用配色：浅色/深色下都与卡片形成明显对比，
+   解决深色模式下修改框与选项“看不见”的问题 */
+:root {
+  --config-field-bg: #f2f4f7;
+  --config-field-border: #dcdfe4;
+  --config-inset-bg: #f7f8fa;
+  --config-menu-bg: #ffffff;
+  --config-accent-blue: #007aff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --config-field-bg: #0b1220; /* 比卡片 #1e293b 更深，输入框清晰可见 */
+    --config-field-border: #44546e; /* 深色下加亮边框 */
+    --config-inset-bg: #141f33;
+    --config-menu-bg: #182440;
+    --config-accent-blue: #60a5fa;
+  }
+}
+
+#pageConfig {
+  max-width: 720px;
+}
+#pageConfig h2 {
+  margin-bottom: 18px;
+}
+#configContainer {
+  padding: 0;
+}
+
+/* 字段行 label 直接展示英文key(media/quality等), 取消全局 label 的大写转换 */
+#pageConfig label,
+#pageCustomMedia .config-item label {
   display: block;
   margin: 0;
   color: var(--secondary-text);
@@ -13,6 +41,41 @@
   text-transform: none;
 }
 
+/* ===== 顶部三个并排选项（主配置 / YouTube / Bilibili） ===== */
+.config-tabs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
+  margin: 0 0 8px;
+  padding: 5px;
+  background: var(--config-inset-bg);
+  border: 1px solid var(--config-field-border);
+  border-radius: 14px;
+}
+.config-tabs .config-tab {
+  justify-content: center;
+  min-height: 38px;
+  padding: 8px 6px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background: transparent;
+  box-shadow: none;
+  color: var(--secondary-text);
+  font-size: 14px;
+  font-weight: 600;
+}
+.config-tabs .config-tab:hover {
+  background: var(--menu-selected-bg);
+  color: var(--text-color);
+}
+.config-tabs .config-tab.active {
+  background: var(--card-bg);
+  border-color: var(--card-border);
+  box-shadow: var(--card-shadow);
+  color: var(--text-color);
+}
+
+/* ===== 折叠面板 ===== */
 .collapsible-section {
   margin: 14px 0;
   border: 1px solid var(--card-border);
@@ -34,16 +97,29 @@
   font-size: 15px;
   font-weight: 600;
   user-select: none;
-  transition: background-color 0.2s ease, border-color 0.2s ease;
+  transition:
+    background-color 0.2s ease,
+    border-color 0.2s ease;
 }
-.collapsible-header:hover { background: var(--menu-selected-bg); }
-.collapsible-header.expanded { border-bottom-color: var(--divider-color); }
-.collapsible-header .section-title { color: var(--text-color); }
-.collapsible-header .toggle-icon { margin-left: auto; color: var(--secondary-text); font-size: 24px; font-weight: 400; line-height: 1; transition: transform 0.25s ease; }
-.collapsible-header.expanded .toggle-icon { transform: rotate(90deg); }
-.collapsible-content { padding: 0 16px; background: var(--card-bg); }
-.collapsible-content.hidden { display: none; }
+.collapsible-header:hover {
+  background: var(--menu-selected-bg);
+}
+.collapsible-header.expanded {
+  border-bottom-color: var(--divider-color);
+}
+.collapsible-header .section-title {
+  color: var(--text-color);
+}
+/* toggle-icon（“›”）已移除，表头整体可点击展开/收起 */
+.collapsible-content {
+  padding: 0 16px;
+  background: var(--card-bg);
+}
+.collapsible-content.hidden {
+  display: none;
+}
 
+/* ===== 字段行 ===== */
 .config-item {
   min-height: 58px;
   margin: 0;
@@ -51,40 +127,267 @@
   display: grid;
   grid-template-columns: minmax(110px, 1fr) minmax(150px, 1.35fr);
   align-items: center;
-  gap: 12px;
+  gap: 6px 12px;
   border-bottom: 1px solid var(--divider-color);
 }
-.config-item:last-child { border-bottom: 0; }
-.config-item label { color: var(--text-color) !important; }
-.config-item br { display: none; }
+/* hidden 属性显隐配合: .config-item 的显式 display 会覆盖 UA 样式的
+   [hidden]{display:none}, 需显式声明(添加自定义媒体页用 hidden 联动画质行) */
+.config-item[hidden] {
+  display: none;
+}
+.config-item:last-child {
+  border-bottom: 0;
+}
+.config-item label {
+  color: var(--text-color) !important;
+}
+.config-item br {
+  display: none;
+}
 
+.field-label {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  min-width: 0;
+}
+.field-hint {
+  margin: 0;
+  color: var(--secondary-text);
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+/* 行内校验提示：错误为红、提示为琥珀色，横跨整行 */
+.field-error {
+  display: none;
+  grid-column: 1 / -1;
+  margin: 0;
+  color: var(--accent-red);
+  font-size: 12px;
+  line-height: 1.4;
+}
+.field-error.show {
+  display: block;
+}
+.field-error.warn {
+  color: var(--accent-amber);
+}
+
+/* ===== 输入框（深浅色均可见）；select 字段统一改用下方 .custom-select 自定义下拉组件 ===== */
 .config-item input.config-input-text,
 .config-item input[type="number"],
-.config-item input[type="url"],
-.config-item select.config-input-select {
+.config-item input[type="url"] {
   width: 100%;
   min-width: 0;
   margin: 0;
   padding: 8px 10px;
-  border: 0;
+  border: 1px solid var(--config-field-border);
   border-radius: 9px;
   color: var(--text-color);
-  background: var(--divider-color);
+  background-color: var(--config-field-bg);
   font: inherit;
-  text-align: right;
   outline: none;
-  transition: box-shadow 0.2s, background-color 0.2s;
+  transition:
+    box-shadow 0.2s,
+    background-color 0.2s,
+    border-color 0.2s;
 }
-.config-item input:focus,
-.config-item select:focus { background: var(--input-bg); box-shadow: 0 0 0 2px var(--progress-bar-glow); }
+.config-item input:focus {
+  background-color: var(--input-bg);
+  border-color: var(--button-bg);
+  box-shadow: 0 0 0 2px var(--progress-bar-glow);
+}
+.config-item input:read-only:not([type="checkbox"]) {
+  opacity: 0.7;
+  cursor: default;
+}
 
+/* 校验不通过的输入框：红边高亮（置于 focus 之后以覆盖聚焦阴影） */
+.config-item input.field-input-error {
+  border-color: var(--accent-red);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent-red) 30%, transparent);
+}
+
+/* ===== int 字段步进按钮（+ 加 1 蓝 / - 减 1 红）：参照变量查询页框内复制/清除按钮
+   （index.css .debug-box-btn）同款风格：透明底 + 60% 半透明色，hover 变实，
+   圆形，line-height 1 保证字形垂直居中；原生 number 上下箭头隐藏 ===== */
+.int-stepper {
+  position: relative;
+  min-width: 0;
+}
+/* 右侧留出两个步进按钮的位置，避免文字被遮挡 */
+.config-item .int-stepper input[type="number"] {
+  padding-right: 62px;
+}
+.int-stepper input[type="number"]::-webkit-outer-spin-button,
+.int-stepper input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.int-stepper input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+.int-stepper-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1;
+  background: transparent;
+  box-shadow: none;
+  border-radius: 50%;
+  z-index: 3;
+}
+/* SVG 图形以 currentColor 着色, 与文字按钮同色; 固定尺寸保证不随字体伸缩 */
+.int-stepper-btn svg {
+  display: block;
+  flex-shrink: 0;
+}
+.int-stepper-btn.int-stepper-up {
+  right: 33px; /* 与 - 按钮并排 */
+  color: color-mix(in srgb, var(--button-bg) 60%, transparent); /* +: 淡蓝 */
+}
+.int-stepper-btn.int-stepper-down {
+  right: 6px;
+  color: color-mix(in srgb, var(--accent-red) 60%, transparent); /* -: 淡红 */
+}
+.int-stepper-btn:hover:not(:disabled) {
+  background: color-mix(in srgb, var(--button-bg) 10%, transparent);
+  /* 覆盖全局 button:hover 的位移与投影, 保持位置不变 */
+  transform: translateY(-50%);
+  box-shadow: none;
+}
+.int-stepper-btn.int-stepper-up:hover:not(:disabled) {
+  color: var(--button-bg);
+}
+.int-stepper-btn.int-stepper-down:hover:not(:disabled) {
+  color: var(--accent-red);
+  background: color-mix(in srgb, var(--accent-red) 10%, transparent);
+}
+.int-stepper-btn:active:not(:disabled) {
+  transform: translateY(-50%) scale(0.94);
+}
+
+/* ===== 自定义下拉组件（双语候选：英文正常色 + 中文灰显） =====
+   多页面共用：修改运行配置页各 select 字段（category/media/quality 等）+ 添加自定义媒体页的类型/画质。
+   外观与上方配置字段的原生 select 保持一致；选择器限定在组件容器内、不依赖页面结构，
+   且类优先级可稳定覆盖全局 button 的默认装饰（蓝底/投影/位移）与移动端居中 */
+.custom-select {
+  position: relative;
+  width: 100%;
+  min-width: 0;
+}
+.custom-select .custom-select-toggle {
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+  /* 右侧留出箭头位置，箭头尺寸与全局 select 一致（缺 background-size 时 SVG 会撑满按钮） */
+  padding: 8px 30px 8px 10px;
+  border: 1px solid var(--config-field-border);
+  border-radius: 9px;
+  color: var(--text-color);
+  background-color: var(--config-field-bg);
+  background-image: var(--select-arrow);
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 11px;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  align-items: center;
+  /* 覆盖移动端 @media 对 button 的 justify-content: center, 保持左对齐 */
+  justify-content: flex-start;
+  gap: 6px;
+  flex-wrap: wrap;
+  /* 覆盖全局 button 的投影与 hover/active 位移, 与原生 select 观感一致 */
+  box-shadow: none;
+  transform: none;
+  transition:
+    box-shadow 0.2s,
+    background-color 0.2s,
+    border-color 0.2s;
+}
+.custom-select .custom-select-toggle:focus {
+  background-color: var(--input-bg);
+  border-color: var(--button-bg);
+  box-shadow: 0 0 0 2px var(--progress-bar-glow);
+}
+.custom-select .custom-select-toggle:hover:not(:focus):not(.field-input-error) {
+  /* 对齐原生 select:hover 的描边变化；焦点/校验态优先级更高, 悬停不覆盖 */
+  border-color: var(--menu-selected-border);
+}
+.custom-select .custom-select-toggle:disabled {
+  /* 对齐原生 select:disabled 的透明度（全局 button:disabled 为 0.48） */
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+.custom-select .custom-select-toggle.field-input-error {
+  border-color: var(--accent-red);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent-red) 30%, transparent);
+}
+.custom-select-en {
+  color: var(--text-color);
+}
+.custom-select-cn {
+  color: var(--secondary-text);
+}
+.custom-select .custom-select-menu {
+  position: absolute;
+  z-index: 40;
+  left: 0;
+  right: 0;
+  top: calc(100% + 4px);
+  margin: 0;
+  padding: 4px;
+  list-style: none;
+  background-color: var(--config-field-bg);
+  border: 1px solid var(--config-field-border);
+  border-radius: 9px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+  max-height: 260px;
+  overflow-y: auto;
+  display: none;
+}
+.custom-select.open .custom-select-menu {
+  display: block;
+}
+.custom-select .custom-select-option {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+  padding: 7px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  color: var(--text-color);
+}
+.custom-select .custom-select-option:hover {
+  background-color: var(--menu-selected-bg);
+}
+.custom-select .custom-select-option.selected {
+  background-color: var(--menu-selected-bg);
+  font-weight: 600;
+}
+
+/* ===== 开关（布尔值） ===== */
 #pageConfig input[type="checkbox"] {
   appearance: none;
   justify-self: end;
   width: 46px;
   height: 28px;
   margin: 0;
-  border: 0;
+  border: 1px solid var(--config-field-border);
   border-radius: 999px;
   background: #c7c7cc;
   cursor: pointer;
@@ -92,28 +395,178 @@
   transition: background-color 0.22s ease;
 }
 #pageConfig input[type="checkbox"]::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 2px;
   left: 2px;
-  width: 24px;
-  height: 24px;
+  width: 22px;
+  height: 22px;
   border-radius: 50%;
   background: #fff;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.22);
   transition: transform 0.22s cubic-bezier(0.25, 1.3, 0.5, 1);
 }
-#pageConfig input[type="checkbox"]:checked { background: #34c759; }
-#pageConfig input[type="checkbox"]:checked::after { transform: translateX(18px); }
+#pageConfig input[type="checkbox"]:checked {
+  background: #34c759;
+  border-color: #34c759;
+}
+#pageConfig input[type="checkbox"]:checked::after {
+  transform: translateX(18px);
+}
+#pageConfig input[type="checkbox"]:focus-visible {
+  box-shadow: 0 0 0 3px var(--progress-bar-glow);
+}
 
-.channel-item { margin: 10px 0; border: 1px solid var(--card-border); border-radius: 12px; overflow: hidden; background: var(--input-bg); }
-.channel-item .collapsible-header { background: var(--input-bg); }
-.title-change-list { margin: 12px 0 16px; background: var(--divider-color); }
-.title-change-list > .collapsible-header { min-height: 44px; background: var(--divider-color); }
-.title-change-list > .collapsible-content { padding: 0 12px 12px; background: var(--divider-color); }
-.title-change-item { margin-top: 10px; border-radius: 10px; box-shadow: none; }
-.title-change-item > .collapsible-header { min-height: 42px; padding: 9px 12px; font-size: 13px; }
+/* ===== 频道选择器（首项新增、选项后 ✕ 删除） ===== */
+.channel-picker {
+  position: relative;
+  margin: 14px 0 6px;
+}
+.channel-picker-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+  min-height: 42px;
+  padding: 9px 12px;
+  border: 1px solid var(--config-field-border);
+  border-radius: 11px;
+  background: var(--config-field-bg);
+  box-shadow: none;
+  color: var(--text-color);
+  font-size: 14px;
+  font-weight: 600;
+}
+.channel-picker-toggle:hover {
+  border-color: var(--menu-selected-border);
+}
+.channel-picker-current {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.channel-picker-caret {
+  color: var(--secondary-text);
+  font-size: 12px;
+}
 
+.channel-picker-menu {
+  position: absolute;
+  z-index: 30;
+  left: 0;
+  right: 0;
+  top: calc(100% + 6px);
+  padding: 4px;
+  background: var(--config-menu-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 12px;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.22);
+  /* 选项过多时仅菜单内部滚动（约可见 6 项）；
+     overscroll-behavior: contain 阻止滚动冒泡到页面，
+     滚到选项边界后不会带动整页滚动 */
+  max-height: 356px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+.channel-picker-menu.hidden {
+  display: none;
+}
+.channel-picker-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 40px;
+  padding: 8px 10px;
+  border-radius: 8px;
+  background: var(--config-menu-bg);
+  color: var(--text-color);
+  font-size: 14px;
+  cursor: pointer;
+}
+.channel-picker-item + .channel-picker-item {
+  margin-top: 2px;
+}
+.channel-picker-item:hover {
+  background: var(--menu-selected-bg);
+}
+.channel-picker-item.active {
+  background: var(--menu-selected-bg);
+  font-weight: 600;
+}
+.channel-picker-item.add {
+  color: var(--config-accent-blue);
+  font-weight: 600;
+}
+.channel-picker-item .item-name {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.channel-picker-item .item-name.placeholder {
+  color: var(--secondary-text);
+  font-weight: 500;
+}
+.channel-picker-delete {
+  flex: none;
+  min-height: 26px;
+  padding: 2px 8px;
+  border: 0;
+  border-radius: 7px;
+  background: transparent;
+  box-shadow: none;
+  color: var(--accent-red);
+  font-size: 14px;
+  font-weight: 700;
+}
+.channel-picker-delete:hover {
+  background: color-mix(in srgb, var(--accent-red) 16%, transparent);
+  transform: none;
+}
+
+/* ===== 频道项 / 标题修改规则 ===== */
+.channel-item {
+  margin: 10px 0;
+  border: 1px solid var(--card-border);
+  border-radius: 12px;
+  overflow: hidden;
+  background: var(--input-bg);
+}
+.channel-item .collapsible-header {
+  background: var(--input-bg);
+}
+.title-change-list {
+  margin: 12px 0 16px;
+  background: var(--config-inset-bg);
+  border-color: var(--config-field-border);
+}
+.title-change-list > .collapsible-header {
+  min-height: 44px;
+  background: var(--config-inset-bg);
+}
+.title-change-list > .collapsible-content {
+  padding: 0 12px 12px;
+  background: var(--config-inset-bg);
+}
+.title-change-item {
+  margin-top: 10px;
+  border-radius: 10px;
+  background: var(--card-bg);
+  box-shadow: none;
+}
+.title-change-item > .collapsible-header {
+  min-height: 42px;
+  padding: 9px 12px;
+  font-size: 13px;
+  background: var(--card-bg);
+}
+.title-change-item > .collapsible-content {
+  background: var(--card-bg);
+}
+
+/* ===== 行内小按钮（添加 / 删除） ===== */
 .config-button {
   min-height: 30px;
   margin-left: auto;
@@ -125,10 +578,19 @@
   font-size: 13px;
   font-weight: 600;
 }
-.config-button:hover { transform: none; box-shadow: none; background: var(--menu-selected-bg); }
-.add-button { color: #007aff; }
-.delete-button { color: #ff3b30; }
+.config-button:hover {
+  transform: none;
+  box-shadow: none;
+  background: var(--menu-selected-bg);
+}
+.add-button {
+  color: var(--config-accent-blue);
+}
+.delete-button {
+  color: var(--accent-red);
+}
 
+/* ===== 底部操作条（刷新 / 撤销 / 保存） ===== */
 #configContent .button-container {
   position: sticky;
   bottom: 0;
@@ -139,14 +601,69 @@
   background: color-mix(in srgb, var(--bg-color) 90%, transparent);
   backdrop-filter: blur(12px);
 }
-#configContent .button-container button { flex: 1; justify-content: center; border-radius: 12px; }
-#configStatus { min-height: 20px; margin-top: 10px !important; padding: 0 4px; font-size: 13px; }
+#configContent .button-container button {
+  flex: 1;
+  justify-content: center;
+  border-radius: 12px;
+}
+#configContent .button-container button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+#configStatus {
+  min-height: 20px;
+  margin-top: 10px !important;
+  padding: 0 4px;
+  font-size: 13px;
+}
+
+/* 保存成功时的警告明细（config.js 动态生成） */
+#configWarns {
+  margin: 6px 4px 0;
+  padding: 8px 10px;
+  border-left: 3px solid var(--accent-amber);
+  background: rgba(255, 193, 7, 0.08);
+  font-size: 12px;
+  max-height: 180px;
+  overflow: auto;
+}
+#configWarns .config-warns-title {
+  font-weight: bold;
+  margin-bottom: 4px;
+  color: var(--accent-amber);
+}
+#configWarns .config-warns-item {
+  padding: 2px 0;
+  line-height: 1.5;
+  word-break: break-all;
+  white-space: pre-wrap;
+}
 
 @media (max-width: 600px) {
-  .config-item { grid-template-columns: 1fr; gap: 7px; }
-  .config-item input.config-input-text,
-  .config-item input[type="number"],
-  .config-item input[type="url"],
-  .config-item select.config-input-select { text-align: left; }
-  #configContent .button-container button { width: auto; }
+  .config-tabs {
+    gap: 4px;
+    padding: 4px;
+  }
+  .config-tabs .config-tab {
+    font-size: 13px;
+    padding: 8px 3px;
+  }
+  .config-item {
+    grid-template-columns: 1fr;
+    gap: 7px;
+  }
+  #pageConfig input[type="checkbox"] {
+    justify-self: start;
+  }
+  #configContent .button-container button {
+    width: auto;
+  }
+  /* 全局 button { width: 100% } 会把行内小按钮撑满整行, 导致频道名(item-name)被挤成 0 宽只剩 ✕ */
+  .channel-picker-delete {
+    width: auto;
+  }
+  .config-button {
+    width: auto;
+  }
 }
